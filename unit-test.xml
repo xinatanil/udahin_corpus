@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <card>
+        <k>а</k>
+        <homonym>
+            <meaning>
+                <trn>возглас удивления</trn>
+            </meaning>
+            <meaning>
+                <trn>вопрос с оттенком удивления или неудовольствия</trn>
+            </meaning>
+        </homonym>
+        <homonym>
+            <analog word="ал" index="2"/>
+            <ex>
+                <source>мейли, не болсо, а болсун</source>
+                <target>всё равно, будь, что будет</target>
+            </ex>
+            <ex>
+                <source>а түгүл</source>
+                <target>1) не тот; не он; 2) не только тот</target>
+            </ex>
+            <ex>
+                <source>а береги</source>
+                <target>вон тот</target>
+            </ex>
+            <ex>
+                <source>а болду, бу болду, Эшкаранын он төөсү өлдү <p>погов.</p></source>
+                <target>то было, (да) это было, десять верблюдов Эшкары пало (что ни говори, а это факт)</target>
+            </ex>
+        </homonym>
+        <homonym>
+            <metadata correctForm="аа"/>
+            <analog word="ал" index="2"/>
+            <ex>
+                <source>а көрө муну сүйлөйлүчү</source>
+                <target>вместо того (лучше) поговорим об этом</target>
+            </ex>
+            <ex>
+                <source>а эмне дедиңер?</source>
+                <target>вы что ему сказали?</target>
+            </ex>
+            <ex>
+                <source>бирок а Темирдин көзү жетти</source>
+                <target>но Темир понял это</target>
+            </ex>
+            <ex>
+                <source>адам баласы аа эмне дебес!</source>
+                <target>что (только) человек не скажет об этом!</target>\
+            </ex>
+        </homonym>
+        <homonym>
+            <metadata part="cnjcoo" origin="ru"/>
+            <trn>а</trn>
+            <ex>
+                <source>а сен эмне үчүн кетпей отурасың?</source>
+                <target>а ты почему сидишь и не уходишь?</target>
+            </ex>
+            <ex>
+                <source>ах сен болсоң...</source>
+                <target>а что касается тебя...; а ты...;</target>
+            </ex>
+            <ex>
+                <source>а эмичи?</source>
+                <target>ну, а теперь?</target>
+            </ex>
+            <ex>
+                <source>а эми болсо...</source>
+                <target>а вот теперь...</target>
+            </ex>
+        </homonym>
+    </card>
+    <card>
+        <k>аба</k>
+        <homonym>
+            <metadata part="n"/>
+            <meaning>
+                <trn>дядя (по мужской линии)</trn>
+            </meaning>
+            <meaning>
+                <trn>обращение к старшим, гл. обр. того же возраста, что и отец обращающегося</trn>
+                <ex>
+                    <source>улуу-кичүү абалар! <p>фольк.</p></source>
+                    <target>почтенные старики!</target>
+                </ex>
+            </meaning>
+            <meaning>
+                <trn>старший брат</trn>
+                <ex>
+                    <source>мен, Кудайназар, абаңмын – атаңдан калган агаңмын <p>фольк.</p></source>
+                    <target>я, Кудайназар, твой старший брат – тебе вроде отца, я твой старшой</target>
+                </ex>
+            </meaning>
+            <meaning>
+                <metadata northern="" />
+                <trn>старший из старших братьев</trn>
+            </meaning>
+        </homonym>
+        <homonym>
+            <metadata part="n" origin="ar" />
+            <meaning>
+                <trn>воздух, атмосфера</trn>
+                <ex>
+                    <source>таза аба</source>
+                    <target>чистый воздух</target>
+                </ex>
+                <ex>
+                    <source>аба флоту</source>
+                    <target>воздушный флот</target>
+                </ex>
+            </meaning>
+            <meaning>
+                <trn>климат</trn>
+                <ex>
+                    <source>аба шарттары</source>
+                    <target>климатические условия</target>
+                </ex>
+                <ex>
+                    <source>аба ырайы</source>
+                    <target>погода</target>
+                </ex>
+                <ex>
+                    <source>аба ырайы бюросу</source>
+                    <target>бюро погоды</target>
+                </ex>
+            </meaning>
+        </homonym>
+        <homonym>
+            <collocation>Аба эне</collocation>
+            <analog word="эне" index="1" />
+        </homonym>
+    </card>
+    <card>
+        <k>ааламдык</k>
+        <metadata part="adj"/>
+        <trn>несметный (<p>букв.</p> то, что есть во всём мире)</trn>
+        <ex>
+            <source>ааламдык дилде, сансыз мүлк <p>фольк.</p></source>
+            <target>несметное количество золота, бесчисленные богатства</target>
+        </ex>
+    </card>
+</root>
