@@ -11,7 +11,7 @@
             </meaning>
         </homonym>
         <homonym>
-            <analog word="ал" index="2"/>
+            <look word="ал" index="2"/>
             <ex>
                 <source>мейли, не болсо, а болсун</source>
                 <target>всё равно, будь, что будет</target>
@@ -30,8 +30,8 @@
             </ex>
         </homonym>
         <homonym>
-            <metadata correctForm="аа"/>
-            <analog word="ал" index="2"/>
+            <incorrectInsteadOf>аа</incorrectInsteadOf>
+            <look word="ал" index="2"/>
             <ex>
                 <source>а көрө муну сүйлөйлүчү</source>
                 <target>вместо того (лучше) поговорим об этом</target>
@@ -50,7 +50,8 @@
             </ex>
         </homonym>
         <homonym>
-            <metadata part="cnjcoo" origin="ru"/>
+            <pos>союз</pos>
+            <origin>р.</origin>
             <trn>а</trn>
             <ex>
                 <source>а сен эмне үчүн кетпей отурасың?</source>
@@ -73,7 +74,7 @@
     <card>
         <k>аба</k>
         <homonym>
-            <metadata part="n"/>
+            <pos>сущ.</pos>
             <meaning>
                 <trn>дядя (по мужской линии)</trn>
             </meaning>
@@ -92,12 +93,13 @@
                 </ex>
             </meaning>
             <meaning>
-                <metadata northern="" />
+                <meta>сев.</meta>
                 <trn>старший из старших братьев</trn>
             </meaning>
         </homonym>
         <homonym>
-            <metadata part="n" origin="ar" />
+            <pos>сущ.</pos>
+            <origin>ар.</origin>
             <meaning>
                 <trn>воздух, атмосфера</trn>
                 <ex>
@@ -127,12 +129,12 @@
         </homonym>
         <homonym>
             <collocation>Аба эне</collocation>
-            <analog word="эне" index="1" />
+            <look word="эне" index="1" />
         </homonym>
     </card>
     <card>
         <k>ааламдык</k>
-        <metadata part="adj"/>
+        <pos>прил.</pos>
         <trn>несметный (<p>букв.</p> то, что есть во всём мире)</trn>
         <ex>
             <source>ааламдык дилде, сансыз мүлк <p>фольк.</p></source>

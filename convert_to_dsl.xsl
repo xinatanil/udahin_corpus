@@ -21,7 +21,6 @@
   <xsl:function name="foo:processMeaning">
     <xsl:param name="passedMeaning" />
     <xsl:param name="indentationOffset" />
-    <xsl:param name="ignoreMetadata" />
     
     <xsl:for-each select="$passedMeaning/*">
       <xsl:choose>
@@ -37,91 +36,18 @@
           <xsl:copy-of select="foo:processOneLineTag(.)" />
           <xsl:text>[/*][/m]&#xa;</xsl:text>
         </xsl:when>
-        <xsl:when test="name() = 'metadata'">
-          <xsl:if test="$ignoreMetadata != 'true'">
-            <xsl:value-of select="foo:processMetadata(., $indentationOffset)"/>
-          </xsl:if>
-        </xsl:when>
         <xsl:otherwise>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="if ($indentationOffset = 0) then '' else ' [m1]'"/>
-          <xsl:copy-of select="foo:processOneLineTag(.)" />
-          <xsl:value-of select="if ($indentationOffset = 0) then '' else ' [/m]'"/>
-          <xsl:text>&#xa;</xsl:text>
+          <xsl:variable name="result" select="foo:processOneLineTag(.)" />
+          <xsl:if test="$result != ''">
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="if ($indentationOffset = 0) then '' else '[m1]'"/>
+            <xsl:copy-of select="$result" />
+            <xsl:value-of select="if ($indentationOffset = 0) then '' else '[/m]'"/>
+            <xsl:text>&#xa;</xsl:text>
+          </xsl:if>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
-  </xsl:function>
-  
-  <xsl:function name="foo:wrapMetadataInIndentation">
-    <xsl:param name="inputText"/>
-    <xsl:param name="indentationOffset" />
-    <xsl:value-of select="if ($indentationOffset = 0) then ' ' else ' [m1]'"/>
-    <xsl:value-of select="$inputText" />
-    <xsl:value-of select="if ($indentationOffset = 0) then '&#xa;' else '[/m]&#xa;'"/>
-  </xsl:function>
-  
-  <xsl:function name="foo:processMetadata">
-    <xsl:param name="node"/>
-    <xsl:param name="indentationOffset" />
-    
-    <xsl:choose>
-      <xsl:when test="$node/@correctForm">
-        <xsl:value-of select="if ($indentationOffset = 0) then ' ' else ' [m1]'"/>
-        <xsl:text>(неправ. вместо [ref]</xsl:text>
-        <xsl:value-of select="$node/@correctForm"/>
-        <xsl:text>[/ref])</xsl:text>
-        <xsl:value-of select="if ($indentationOffset = 0) then '&#xa;' else '[/m]&#xa;'"/>
-      </xsl:when>
-    </xsl:choose>
-    
-    <xsl:variable name="partOfSpeech" select="$node/@part" />
-    <xsl:if test="$partOfSpeech != ''">
-      <xsl:if test="$partOfSpeech = 'cnjcoo'">
-        <xsl:value-of select="foo:wrapMetadataInIndentation('[p]союз[/p]', $indentationOffset)"/>
-      </xsl:if>
-      <xsl:if test="$partOfSpeech = 'n'">
-        <xsl:value-of select="foo:wrapMetadataInIndentation('[p]сущ.[/p]', $indentationOffset)"/>
-      </xsl:if>
-      <xsl:if test="$partOfSpeech = 'v'">
-        <xsl:value-of select="foo:wrapMetadataInIndentation('[p]гл.[/p]', $indentationOffset)"/>
-      </xsl:if>
-      <xsl:if test="$partOfSpeech = 'adj'">
-        <xsl:value-of select="foo:wrapMetadataInIndentation('[p]прил.[/p]', $indentationOffset)"/>
-      </xsl:if>
-    </xsl:if>
-    
-    <xsl:choose>
-      <xsl:when test="$node/@origin">
-        <xsl:choose>
-          <xsl:when test="$node/@origin = 'ru'">
-            <xsl:value-of select="foo:wrapMetadataInIndentation('[p]р.[/p]', $indentationOffset)"/>
-          </xsl:when>
-          <xsl:when test="$node/@origin = 'ar'">
-            <xsl:value-of select="foo:wrapMetadataInIndentation('[p]ар.[/p]', $indentationOffset)"/>
-          </xsl:when>
-        </xsl:choose>
-      </xsl:when>
-    </xsl:choose>
-    
-    <xsl:if test="$node/@obsolete">
-      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]уст.[/p]', $indentationOffset)"/>
-    </xsl:if>
-    <xsl:if test="$node/@southern">
-      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]южн.[/p]', $indentationOffset)"/>
-    </xsl:if>
-    <xsl:if test="$node/@northern">
-      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]сев.[/p]', $indentationOffset)"/>
-    </xsl:if>
-    <xsl:if test="$node/@rarely">
-      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]редко[/p]', $indentationOffset)"/>
-    </xsl:if>
-    <xsl:if test="$node/@physics">
-      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]физ.[/p]', $indentationOffset)"/>
-    </xsl:if>
-    <xsl:if test="$node/@technics">
-      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]тех.[/p]', $indentationOffset)"/>
-    </xsl:if>
   </xsl:function>
   
   <xsl:function name="foo:processOneLineTag">
@@ -155,10 +81,21 @@
       <xsl:text>взаимн. от[ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
-    <xsl:if test="name($oneLineTag) = 'p'">
+    <xsl:if test="name($oneLineTag) = 'p'
+      or name($oneLineTag) = 'pos'
+      or name($oneLineTag) = 'origin'
+      or name($oneLineTag) = 'meta'">
       <xsl:text>[p]</xsl:text>
       <xsl:value-of select="$oneLineTag"/>
       <xsl:text>[/p]</xsl:text>
+    </xsl:if>
+    <xsl:if test="name($oneLineTag) = 'incorrectInsteadOf'">
+      <xsl:text>(неправ. вместо [ref]</xsl:text>
+      <xsl:value-of select="$oneLineTag"/>
+      <xsl:text>[/ref])</xsl:text>
+    </xsl:if>
+    <xsl:if test="name($oneLineTag) = 'incorrect'">
+      <xsl:value-of select="$oneLineTag"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'collocation'">
       <xsl:value-of select="$oneLineTag"/>
@@ -203,7 +140,7 @@
         <xsl:when test="$homonymsCount = 0">
           <xsl:choose>
             <xsl:when test="count(meaning) = 0">
-              <xsl:copy-of select="foo:processMeaning(., 0, 'false')" />
+              <xsl:copy-of select="foo:processMeaning(., 0)" />
             </xsl:when>
             <xsl:when test="count(meaning) = 1">
               <xsl:value-of select="error()" />
@@ -214,7 +151,7 @@
                 <xsl:text> </xsl:text>
                 <xsl:number value="position()" />
                 <xsl:text>.[/m]&#xa;</xsl:text>
-                <xsl:copy-of select="foo:processMeaning(., 0, 'false')" />
+                <xsl:copy-of select="foo:processMeaning(., 0)" />
               </xsl:for-each>
             </xsl:when>
           </xsl:choose>
@@ -229,25 +166,22 @@
             <xsl:number value="position()" format="I"/>
             <xsl:text>&#xa;</xsl:text>
             
-            <xsl:if test="metadata">
-              <xsl:value-of select="foo:processMetadata(metadata, 0)"/>
-            </xsl:if>
-            
             <xsl:choose>
               <xsl:when test="count(meaning) = 0">
-                <xsl:copy-of select="foo:processMeaning(., 0, 'true')" />
+                <xsl:copy-of select="foo:processMeaning(., 0)" />
               </xsl:when>
               <xsl:when test="count(meaning) = 1">
                 <xsl:value-of select="error()" />
                 <!-- should never happen, check XML -->
               </xsl:when>
               <xsl:when test="count(meaning) > 1">
+                <xsl:copy-of select="foo:processMeaning(., 0)" />
+                
                 <xsl:for-each select="meaning">
                   <xsl:text> [m1]</xsl:text>
                   <xsl:number value="position()" />
                   <xsl:text>.[/m]&#xa;</xsl:text>
-                  
-                  <xsl:copy-of select="foo:processMeaning(., 1, 'false')" />
+                  <xsl:copy-of select="foo:processMeaning(., 1)" />
                 </xsl:for-each>
               </xsl:when>
             </xsl:choose>
