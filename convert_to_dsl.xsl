@@ -147,10 +147,12 @@
               <!-- should never happen, check XML -->
             </xsl:when>
             <xsl:when test="count(meaning) > 1">
+              <xsl:copy-of select="foo:processMeaning(., 0)" />
+              
               <xsl:for-each select="meaning">
                 <xsl:text> </xsl:text>
                 <xsl:number value="position()" />
-                <xsl:text>.[/m]&#xa;</xsl:text>
+                <xsl:text>.&#xa;</xsl:text>
                 <xsl:copy-of select="foo:processMeaning(., 0)" />
               </xsl:for-each>
             </xsl:when>

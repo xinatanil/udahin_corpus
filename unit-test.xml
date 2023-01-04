@@ -141,4 +141,24 @@
             <target>несметное количество золота, бесчисленные богатства</target>
         </ex>
     </card>
+    <card>
+        <k>якь</k>
+        <origin>ир.</origin>
+        <meta>южн.</meta>
+        <transcription>йəк</transcription>
+        <collocation>якь мала</collocation>
+        <look word="мала" index="3" />
+    </card>
+    <card>
+        <k>ячейке</k>
+        <pos>сущ.</pos>
+        <origin>р.</origin>
+        <meta>разг.</meta>
+        <meaning>
+            <sameas word="ячейка" />
+        </meaning>
+        <meaning>
+            <trn>секретарь ячейки</trn>
+        </meaning>
+    </card>
 </root>
