@@ -411,6 +411,7 @@
 	<abbr>
 		<short>разг.</short>
 		<detailed>разговорное слово, выражение</detailed>
+		<metadata colloquial="" />
 	</abbr>
 	<abbr>
 		<short>рел.</short>
@@ -547,6 +548,7 @@
 	<abbr>
 		<short>физ.</short>
 		<detailed>физика</detailed>
+		<metadata physics="" />
 	</abbr>
 	<abbr>
 		<short>филос.</short>
@@ -619,5 +621,10 @@
 		<short>сущ.</short>
 		<detailed>существительное</detailed>
 		<metadata part="n" />
+	</abbr>
+	<abbr>
+		<short>редко</short>
+		<detailed>редко</detailed>
+		<metadata rarely="" />
 	</abbr>
 </root>

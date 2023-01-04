@@ -113,6 +113,12 @@
     <xsl:if test="$node/@northern">
       <xsl:value-of select="foo:wrapMetadataInIndentation('[p]сев.[/p]', $indentationOffset)"/>
     </xsl:if>
+    <xsl:if test="$node/@rarely">
+      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]редко[/p]', $indentationOffset)"/>
+    </xsl:if>
+    <xsl:if test="$node/@physics">
+      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]физ.[/p]', $indentationOffset)"/>
+    </xsl:if>
   </xsl:function>
   
   <xsl:function name="foo:processOneLineTag">
@@ -157,6 +163,11 @@
     <xsl:if test="name($oneLineTag) = 'trn'">
       <xsl:copy-of select="$oneLineTag"/>
     </xsl:if>
+    <xsl:if test="name($oneLineTag) = 'transcription'">
+      <xsl:text>\[</xsl:text>
+      <xsl:value-of select="$oneLineTag"/>
+      <xsl:text>\]</xsl:text>
+    </xsl:if>
     <xsl:if test="name($oneLineTag) = 'ex'">
       <xsl:text>[ex]</xsl:text>
       <xsl:copy-of select="$oneLineTag/source/node()" />
@@ -196,8 +207,12 @@
               <!-- should never happen, check XML -->
             </xsl:when>
             <xsl:when test="count(meaning) > 1">
-              <xsl:value-of select="error()" />
-              <!-- should never happen, check XML -->
+              <xsl:for-each select="meaning">
+                <xsl:text> </xsl:text>
+                <xsl:number value="position()" />
+                <xsl:text>.[/m]&#xa;</xsl:text>
+                <xsl:copy-of select="foo:processMeaning(., 0, 'false')" />
+              </xsl:for-each>
             </xsl:when>
           </xsl:choose>
         </xsl:when>
