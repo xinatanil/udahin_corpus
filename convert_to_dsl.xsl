@@ -127,7 +127,7 @@
   <xsl:function name="foo:processOneLineTag">
     <xsl:param name="oneLineTag"/>
     
-    <xsl:if test="name($oneLineTag) = 'analog'">
+    <xsl:if test="name($oneLineTag) = 'look'">
       <xsl:text>см. [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
