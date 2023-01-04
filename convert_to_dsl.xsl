@@ -119,6 +119,9 @@
     <xsl:if test="$node/@physics">
       <xsl:value-of select="foo:wrapMetadataInIndentation('[p]физ.[/p]', $indentationOffset)"/>
     </xsl:if>
+    <xsl:if test="$node/@technics">
+      <xsl:value-of select="foo:wrapMetadataInIndentation('[p]тех.[/p]', $indentationOffset)"/>
+    </xsl:if>
   </xsl:function>
   
   <xsl:function name="foo:processOneLineTag">

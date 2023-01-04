@@ -499,6 +499,7 @@
 	<abbr>
 		<short>тех.</short>
 		<detailed>техника</detailed>
+		<metadata technics="" />
 	</abbr>
 	<abbr>
 		<short>тиб.</short>
