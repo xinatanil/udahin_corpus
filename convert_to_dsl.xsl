@@ -81,6 +81,10 @@
       <xsl:text>взаимн. от [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
+    <xsl:if test="name($oneLineTag) = 'like'">
+      <xsl:text>уподоб. от [ref]</xsl:text>
+      <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
+    </xsl:if>
     <xsl:if test="name($oneLineTag) = 'p'
       or name($oneLineTag) = 'pos'
       or name($oneLineTag) = 'origin'
