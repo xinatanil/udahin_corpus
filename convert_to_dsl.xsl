@@ -62,23 +62,23 @@
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'actionNoun'">
-      <xsl:text>и.д. от[ref]</xsl:text>
+      <xsl:text>и.д. от [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'pass'">
-      <xsl:text>страд. от[ref]</xsl:text>
+      <xsl:text>страд. от [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'refv'">
-      <xsl:text>возвр. от[ref]</xsl:text>
+      <xsl:text>возвр. от [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'caus'">
-      <xsl:text>понуд. от[ref]</xsl:text>
+      <xsl:text>понуд. от [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'recv'">
-      <xsl:text>взаимн. от[ref]</xsl:text>
+      <xsl:text>взаимн. от [ref]</xsl:text>
       <xsl:value-of select="foo:processRedirectTag($oneLineTag)"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'p'
