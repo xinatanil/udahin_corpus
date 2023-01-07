@@ -1,164 +1,202 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <card>
-        <k>а</k>
-        <homonym>
-            <meaning>
-                <trn>возглас удивления</trn>
-            </meaning>
-            <meaning>
-                <trn>вопрос с оттенком удивления или неудовольствия</trn>
-            </meaning>
-        </homonym>
-        <homonym>
-            <look word="ал" index="2"/>
+   <card>
+      <k>а</k>
+      <homonym>
+         <meaning>
+            <trn>возглас удивления</trn>
+         </meaning>
+         <meaning>
+            <trn>вопрос с оттенком удивления или неудовольствия</trn>
+         </meaning>
+      </homonym>
+      <homonym>
+         <look word="ал" index="2"/>
+         <ex>
+            <source>мейли, не болсо, а болсун</source>
+            <target>всё равно, будь, что будет</target>
+         </ex>
+         <ex>
+            <source>а түгүл</source>
+            <target>1) не тот; не он; 2) не только тот</target>
+         </ex>
+         <ex>
+            <source>а береги</source>
+            <target>вон тот</target>
+         </ex>
+         <ex>
+            <source>а болду, бу болду, Эшкаранын он төөсү өлдү <p>погов.</p>
+            </source>
+            <target>то было, (да) это было, десять верблюдов Эшкары пало (что ни говори, а это факт)</target>
+         </ex>
+      </homonym>
+      <homonym>
+         <incorrectInsteadOf>аа</incorrectInsteadOf>
+         <look word="ал" index="2"/>
+         <ex>
+            <source>а көрө муну сүйлөйлүчү</source>
+            <target>вместо того (лучше) поговорим об этом</target>
+         </ex>
+         <ex>
+            <source>а эмне дедиңер?</source>
+            <target>вы что ему сказали?</target>
+         </ex>
+         <ex>
+            <source>бирок а Темирдин көзү жетти</source>
+            <target>но Темир понял это</target>
+         </ex>
+         <ex>
+            <source>адам баласы аа эмне дебес!</source>
+            <target>что (только) человек не скажет об этом!</target>\
+			</ex>
+      </homonym>
+      <homonym>
+         <pos>союз</pos>
+         <origin>р.</origin>
+         <trn>а</trn>
+         <ex>
+            <source>а сен эмне үчүн кетпей отурасың?</source>
+            <target>а ты почему сидишь и не уходишь?</target>
+         </ex>
+         <ex>
+            <source>ах сен болсоң...</source>
+            <target>а что касается тебя...; а ты...;</target>
+         </ex>
+         <ex>
+            <source>а эмичи?</source>
+            <target>ну, а теперь?</target>
+         </ex>
+         <ex>
+            <source>а эми болсо...</source>
+            <target>а вот теперь...</target>
+         </ex>
+      </homonym>
+   </card>
+   <card>
+      <k>ааламдык</k>
+      <pos>прил.</pos>
+      <trn>несметный (<p>букв.</p> то, что есть во всём мире)</trn>
+      <ex>
+         <source>ааламдык дилде, сансыз мүлк <p>фольк.</p>
+         </source>
+         <target>несметное количество золота, бесчисленные богатства</target>
+      </ex>
+   </card>
+   <card>
+      <k>аарчы</k>
+      <homonym>
+         <pos>сущ.</pos>
+         <collocation>
+            <k>бет аарчы <i>или</i> жүз аарчы <i>или</i> бет аарчу <i>или</i> жүз аарчу <i>или</i> бет аарчы (бетаачы) жоолук</k>
+            <trn>носовой платок <i>(или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.)</i>
+            </trn>
+         </collocation>
+      </homonym>
+      <homonym>
+         <pos>гл.</pos>
+         <trn>чистить, очищать, отчищать</trn>
+      </homonym>
+   </card>
+   <card>
+      <k>аба</k>
+      <homonym>
+         <pos>сущ.</pos>
+         <meaning>
+            <trn>дядя (по мужской линии)</trn>
+         </meaning>
+         <meaning>
+            <trn>обращение к старшим, гл. обр. того же возраста, что и отец обращающегося</trn>
             <ex>
-                <source>мейли, не болсо, а болсун</source>
-                <target>всё равно, будь, что будет</target>
+               <source>улуу-кичүү абалар! <p>фольк.</p>
+               </source>
+               <target>почтенные старики!</target>
+            </ex>
+         </meaning>
+         <meaning>
+            <trn>старший брат</trn>
+            <ex>
+               <source>мен, Кудайназар, абаңмын – атаңдан калган агаңмын <p>фольк.</p>
+               </source>
+               <target>я, Кудайназар, твой старший брат – тебе вроде отца, я твой старшой</target>
+            </ex>
+         </meaning>
+         <meaning>
+            <meta>сев.</meta>
+            <trn>старший из старших братьев</trn>
+         </meaning>
+      </homonym>
+      <homonym>
+         <pos>сущ.</pos>
+         <origin>ар.</origin>
+         <meaning>
+            <trn>воздух, атмосфера</trn>
+            <ex>
+               <source>таза аба</source>
+               <target>чистый воздух</target>
             </ex>
             <ex>
-                <source>а түгүл</source>
-                <target>1) не тот; не он; 2) не только тот</target>
+               <source>аба флоту</source>
+               <target>воздушный флот</target>
+            </ex>
+         </meaning>
+         <meaning>
+            <trn>климат</trn>
+            <ex>
+               <source>аба шарттары</source>
+               <target>климатические условия</target>
             </ex>
             <ex>
-                <source>а береги</source>
-                <target>вон тот</target>
+               <source>аба ырайы</source>
+               <target>погода</target>
             </ex>
             <ex>
-                <source>а болду, бу болду, Эшкаранын он төөсү өлдү <p>погов.</p></source>
-                <target>то было, (да) это было, десять верблюдов Эшкары пало (что ни говори, а это факт)</target>
+               <source>аба ырайы бюросу</source>
+               <target>бюро погоды</target>
             </ex>
-        </homonym>
-        <homonym>
-            <incorrectInsteadOf>аа</incorrectInsteadOf>
-            <look word="ал" index="2"/>
-            <ex>
-                <source>а көрө муну сүйлөйлүчү</source>
-                <target>вместо того (лучше) поговорим об этом</target>
-            </ex>
-            <ex>
-                <source>а эмне дедиңер?</source>
-                <target>вы что ему сказали?</target>
-            </ex>
-            <ex>
-                <source>бирок а Темирдин көзү жетти</source>
-                <target>но Темир понял это</target>
-            </ex>
-            <ex>
-                <source>адам баласы аа эмне дебес!</source>
-                <target>что (только) человек не скажет об этом!</target>\
-            </ex>
-        </homonym>
-        <homonym>
-            <pos>союз</pos>
-            <origin>р.</origin>
-            <trn>а</trn>
-            <ex>
-                <source>а сен эмне үчүн кетпей отурасың?</source>
-                <target>а ты почему сидишь и не уходишь?</target>
-            </ex>
-            <ex>
-                <source>ах сен болсоң...</source>
-                <target>а что касается тебя...; а ты...;</target>
-            </ex>
-            <ex>
-                <source>а эмичи?</source>
-                <target>ну, а теперь?</target>
-            </ex>
-            <ex>
-                <source>а эми болсо...</source>
-                <target>а вот теперь...</target>
-            </ex>
-        </homonym>
-    </card>
-    <card>
-        <k>аба</k>
-        <homonym>
-            <pos>сущ.</pos>
-            <meaning>
-                <trn>дядя (по мужской линии)</trn>
-            </meaning>
-            <meaning>
-                <trn>обращение к старшим, гл. обр. того же возраста, что и отец обращающегося</trn>
-                <ex>
-                    <source>улуу-кичүү абалар! <p>фольк.</p></source>
-                    <target>почтенные старики!</target>
-                </ex>
-            </meaning>
-            <meaning>
-                <trn>старший брат</trn>
-                <ex>
-                    <source>мен, Кудайназар, абаңмын – атаңдан калган агаңмын <p>фольк.</p></source>
-                    <target>я, Кудайназар, твой старший брат – тебе вроде отца, я твой старшой</target>
-                </ex>
-            </meaning>
-            <meaning>
-                <meta>сев.</meta>
-                <trn>старший из старших братьев</trn>
-            </meaning>
-        </homonym>
-        <homonym>
-            <pos>сущ.</pos>
-            <origin>ар.</origin>
-            <meaning>
-                <trn>воздух, атмосфера</trn>
-                <ex>
-                    <source>таза аба</source>
-                    <target>чистый воздух</target>
-                </ex>
-                <ex>
-                    <source>аба флоту</source>
-                    <target>воздушный флот</target>
-                </ex>
-            </meaning>
-            <meaning>
-                <trn>климат</trn>
-                <ex>
-                    <source>аба шарттары</source>
-                    <target>климатические условия</target>
-                </ex>
-                <ex>
-                    <source>аба ырайы</source>
-                    <target>погода</target>
-                </ex>
-                <ex>
-                    <source>аба ырайы бюросу</source>
-                    <target>бюро погоды</target>
-                </ex>
-            </meaning>
-        </homonym>
-        <homonym>
-            <collocation>Аба эне</collocation>
-            <look word="эне" index="1" />
-        </homonym>
-    </card>
-    <card>
-        <k>ааламдык</k>
-        <pos>прил.</pos>
-        <trn>несметный (<p>букв.</p> то, что есть во всём мире)</trn>
-        <ex>
-            <source>ааламдык дилде, сансыз мүлк <p>фольк.</p></source>
-            <target>несметное количество золота, бесчисленные богатства</target>
-        </ex>
-    </card>
-    <card>
-        <k>якь</k>
-        <origin>ир.</origin>
-        <meta>южн.</meta>
-        <transcription>йəк</transcription>
-        <collocation>якь мала</collocation>
-        <look word="мала" index="3" />
-    </card>
-    <card>
-        <k>ячейке</k>
-        <pos>сущ.</pos>
-        <origin>р.</origin>
-        <meta>разг.</meta>
-        <meaning>
-            <sameas word="ячейка" />
-        </meaning>
-        <meaning>
-            <trn>секретарь ячейки</trn>
-        </meaning>
-    </card>
+         </meaning>
+      </homonym>
+      <homonym>
+         <collocation>
+            <k>Аба эне</k>
+            <look word="эне" index="1"/>
+         </collocation>
+      </homonym>
+   </card>
+   <card>
+      <k>хуш</k>
+      <origin>ир.</origin>
+      <meta>южн.</meta>
+      <meta>(обычно в сочет. с <ref>түш</ref>)</meta>
+      <collocation>
+         <k>хушум түштү</k>
+         <trn>я полюбил, я влюбился</trn>
+         <ex>
+            <source>оттой күйөт жүрөгүм, түшүптүр сизге бизден хуш <p>фольк.</p>
+            </source>
+            <target>огнём горит моё сердце, мы (я) влюбились (влюбился) в вас (в тебя)</target>
+         </ex>
+      </collocation>
+   </card>
+   <card>
+      <k>якь</k>
+      <origin>ир.</origin>
+      <meta>южн.</meta>
+      <transcription>йəк</transcription>
+      <collocation>
+         <k>якь мала</k>
+         <look word="мала" index="3"/>
+      </collocation>
+   </card>
+   <card>
+      <k>ячейке</k>
+      <pos>сущ.</pos>
+      <origin>р.</origin>
+      <meta>разг.</meta>
+      <meaning>
+         <sameas word="ячейка"/>
+      </meaning>
+      <meaning>
+         <trn>секретарь ячейки</trn>
+      </meaning>
+   </card>
 </root>
