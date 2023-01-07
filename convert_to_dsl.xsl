@@ -25,6 +25,11 @@
     <xsl:for-each select="$passedMeaning/*">
       <xsl:choose>
         <xsl:when test="name() = 'k'">
+          <xsl:if test="name($passedMeaning) = 'collocation'">
+            <xsl:text> </xsl:text>
+          </xsl:if>
+          <xsl:copy-of select="./node()"/>
+          <xsl:text>&#xa;</xsl:text>
         </xsl:when>
         <xsl:when test="name() = 'trn'">
           <xsl:value-of select="if ($indentationOffset = 0) then ' [m1]' else ' [m2]'"/>
@@ -35,6 +40,9 @@
           <xsl:value-of select="if ($indentationOffset = 0) then ' [m1][*]' else ' [m2][*]'"/>
           <xsl:copy-of select="foo:processOneLineTag(.)" />
           <xsl:text>[/*][/m]&#xa;</xsl:text>
+        </xsl:when>
+        <xsl:when test="name() = 'collocation'">
+          <xsl:copy-of select="foo:processMeaning(., $indentationOffset)" />
         </xsl:when>
         <xsl:otherwise>
           <xsl:variable name="result" select="foo:processOneLineTag(.)" />
@@ -90,7 +98,7 @@
       or name($oneLineTag) = 'origin'
       or name($oneLineTag) = 'meta'">
       <xsl:text>[p]</xsl:text>
-      <xsl:value-of select="$oneLineTag"/>
+      <xsl:copy-of select="$oneLineTag/node()"/>
       <xsl:text>[/p]</xsl:text>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'incorrectInsteadOf'">
@@ -99,9 +107,6 @@
       <xsl:text>[/ref])</xsl:text>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'incorrect'">
-      <xsl:value-of select="$oneLineTag"/>
-    </xsl:if>
-    <xsl:if test="name($oneLineTag) = 'collocation'">
       <xsl:value-of select="$oneLineTag"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'trn'">
@@ -136,9 +141,6 @@
     <xsl:text>&#xa;</xsl:text>
     
     <xsl:for-each select="card">
-      <xsl:value-of select="k"/>
-      <xsl:text>&#xa;</xsl:text>
-      
       <xsl:variable name="homonymsCount" select="count(homonym)" />
       <xsl:choose>
         <xsl:when test="$homonymsCount = 0">
@@ -167,6 +169,9 @@
           <!-- should never happen, check XML -->
         </xsl:when>
         <xsl:when test="$homonymsCount > 1">
+          <xsl:value-of select="k"/>
+          <xsl:text>&#xa;</xsl:text>
+          
           <xsl:for-each select="homonym">
             <xsl:text> </xsl:text>
             <xsl:number value="position()" format="I"/>
