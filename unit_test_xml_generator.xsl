@@ -19,10 +19,11 @@
             $word = 'а' or
             $word = 'аба' or
             $word = 'ааламдык' or
+            $word = 'аарчы' or
             $word = 'якь' or
             $word = 'ячейке' or
             $word = 'хуш' or
-            $word = 'аарчы'">
+            $word = 'локулда'">
             <card>
                 <xsl:copy-of select="node()" />
             </card>
