@@ -21,13 +21,16 @@ with open ('letter_after.xml', 'r' ) as f:
     content_new = re.sub('<blockquote></blockquote>\n', r'', content_new, flags = re.M)
 
     
-    content_new = re.sub('<blockquote>(кит|р|ар|тиб|ир)\.<\/blockquote>', r'<origin>\1.</origin>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(кит|р|ар|тиб|ир|ар\.-ир|р\.-ир)\.<\/blockquote>', r'<origin>\1.</origin>', content_new, flags = re.M)
 
     #process meta for different verb categories
     content_new = re.sub('<blockquote>и\. д\. от (\w+).?.?<\/blockquote>', r'<actionNoun word="\1" />', content_new, flags = re.M)
-    content_new = re.sub('<blockquote>понуд\. от (\w+).?.?<\/blockquote>', r'<caus word="\1" />', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>понуд\. от (\w+).? ?([IV]+)?.?<\/blockquote>', r'<caus word="\1" index="\2" />', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>взаимн\. от (\w+).? ?([IV]+).?<\/blockquote>', r'<recv word="\1" index="\2" />', content_new, flags = re.M)
     content_new = re.sub('<blockquote>возвр\.-страд\. от (\w+).?.?<\/blockquote>', r'<refpass word="\1" />', content_new, flags = re.M)
-
+    content_new = re.sub('<blockquote>возвр\. от (\w+).?.?<\/blockquote>', r'<refv word="\1" />', content_new, flags = re.M)
+    
+    
     #replace meta sameas and look tags
     content_new = re.sub('<blockquote>то же, что (\w+)-?\s?([IV]+)?\s?(\d)?.<\/blockquote>', r'<sameas word="\1" index="\2" subindex="\3" />', content_new, flags = re.M)
     content_new = re.sub('<sameas word="(\w+)" index="" subindex="" \/>', r'<sameas word="\1" />', content_new, flags = re.M)
@@ -43,8 +46,11 @@ with open ('letter_after.xml', 'r' ) as f:
     content_new = re.sub('index="IV"', r'index="4"', content_new, flags = re.M)
     content_new = re.sub('index="V"', r'index="5"', content_new, flags = re.M)
     
-    content_new = re.sub('<blockquote>(сев|южн|разг|чатк|геол|чуйск|лит|полит|тяньш|тех|ист|хим|спорт|филос|разг|лингв|полигр)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
-
+    content_new = re.sub('<blockquote>(разг|уст|лингв|полит|спорт|полигр|с\.-х|рел|воен|дип|горн|пед|этн)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(лит|театр|филос|миф)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(геол|хим|мед|тех|ист|мат|бот)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(сев|южн|чатк|чуйск|тяньш|талас|памир|синьцз)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
+    
 #    <card>
 #        <k>радиола</k>
 #        <blockquote>радиола.</blockquote>
@@ -62,17 +68,18 @@ with open ('letter_after.xml', 'r' ) as f:
 #            <source>радиолошкон райондор</source>
 #            <target>радиофицированные районы</target>
 #        </ex>
-    content_new = re.sub('<blockquote>(.+)@@ (.+).</blockquote>', r'<ex><source>\1</source>\n<target>\2</target></ex>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(.+)@@ (.+.)</blockquote>', r'<ex><source>\1</source>\n<target>\2</target></ex>', content_new, flags = re.M)
     
-# <blockquote>адамдан заты бир бөлөк <p>фольк.</p> он лучший из людей (букв. его сущность особая от людей);</blockquote>
+# <blockquote>адамдан заты бир бөлөк фольк. он лучший из людей (букв. его сущность особая от людей);</blockquote>
 # <blockquote>зордун түбү кор болот погов. конец насилия - позор (насилием доброго имени не заслужишь);</blockquote>
-    content_new = re.sub('<blockquote>(.+) (<p>фольк.</p>|погов.|стих.) (.+).</blockquote>', r'<ex><source>\1 \2</source><target>\3</target></ex>', content_new, flags = re.M)
-    
-    content_new = re.sub('<blockquote>\(ср\. (.+)\)</blockquote>', r'<meta>(ср. \1)</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(.+) (фольк.|погов.|стих.) (.+.)</blockquote>', r'<ex><source>\1 \2</source><target>\3</target></ex>', content_new, flags = re.M)
 
 # <blockquote>(ср. зер V)</blockquote>
 # to
 # <meta>(ср. зер V)</meta>
+    content_new = re.sub('<blockquote>\(ср\. (.+)\)</blockquote>', r'<meta>(ср. \1)</meta>', content_new, flags = re.M)
+
+
     outputFile = open("letter_after.xml", "w")
     outputFile.write(content_new)
     outputFile.close()

@@ -25,6 +25,9 @@ with open ('letter_wip.xml', 'r' ) as f:
 # <blockquote><p>южн.</p></blockquote>
 #    content_new = re.sub('<blockquote>\n\t\t\t<p>южн.<\/p>\n\t\t<\/blockquote>', r'<meta>южн.</meta>', content_new, flags = re.M)
 
+    content_new = re.sub('<p>южн\.</p>', r'южн.', content_new, flags = re.M)
+    content_new = re.sub('<p>фольк\.</p>', r'фольк.', content_new, flags = re.M)
+    
     outputFile = open("letter_after.xml", "w")
     outputFile.write(content_new)
     outputFile.close()
