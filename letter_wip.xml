@@ -192,7 +192,7 @@
 	</card>
 	<card>
 		<k>забастовщик</k>
-		<sameas word="забастовкачы" />
+		<sameas word="забастовкачы"/>
 	</card>
 	<card>
 		<k>забин</k>
@@ -214,7 +214,7 @@
 	</card>
 	<card>
 		<k>забойщик</k>
-		<sameas word="забойчу" />
+		<sameas word="забойчу"/>
 	</card>
 	<card>
 		<k>заборный</k>
@@ -257,7 +257,7 @@
 	</card>
 	<card>
 		<k>забыркат-</k>
-		<caus word="забырка" />
+		<caus word="забырка"/>
 		<trn>утруждать, мучить.</trn>
 	</card>
 	<card>
@@ -384,7 +384,7 @@
 	</card>
 	<card>
 		<k>задетке</k>
-		<sameas word="задатке" />
+		<sameas word="задатке"/>
 	</card>
 	<card>
 		<k>зади</k>
@@ -627,7 +627,7 @@
 		<k>закүнчүл</k>
 		<meta>разг.</meta>
 		<meaning>
-			<sameas word="закүнчү" />
+			<sameas word="закүнчү"/>
 		</meaning>
 		<meaning>
 			<meta>ирон.</meta>
@@ -680,7 +680,7 @@
 	</card>
 	<card>
 		<k>закылдат-</k>
-		<caus word="закылда" />
+		<caus word="закылда"/>
 		<ex>
 			<source>закылдата бастырып</source>
 			<target>пустив (коня) бодрым шагом;</target>
@@ -726,12 +726,12 @@
 	</card>
 	<card>
 		<k>закымдан-</k>
-		<refv word="закымда" />
+		<refv word="закымда"/>
 		<trn>появляться - о мираже; покрываться, заволакиваться маревом.</trn>
 	</card>
 	<card>
 		<k>закымдат-</k>
-		<caus word="закымда" />
+		<caus word="закымда"/>
 	</card>
 	<card>
 		<k>зал</k>
@@ -825,7 +825,7 @@
 	</card>
 	<card>
 		<k>залкайт-</k>
-		<caus word="залкай" />
+		<caus word="залкай"/>
 		<ex>
 			<source>салмактуу денесин залкайтып жатты</source>
 			<target>он лежал огромной глыбой (букв. выставившись своим огромным грузным телом).</target>
@@ -1034,7 +1034,7 @@
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>то же, что замбил;</blockquote>
+			<sameas word="замбил"/>
 		</meaning>
 		<meaning>
 			<blockquote>этн. ковёр, сложенный в виде носилок (на которых переносят невесту в свадебную юрту).</blockquote>
@@ -1260,7 +1260,7 @@
 	</card>
 	<card>
 		<k>заңгырат-</k>
-		<caus word="заңгыра" />
+		<caus word="заңгыра"/>
 		<ex>
 			<source>заңгыратып жүктө-</source>
 			<target>навьючить что-л. горой, громоздко, много;</target>
@@ -1344,10 +1344,11 @@
 	<card>
 		<k>заңкир</k>
 		<meaning>
-			<blockquote>то же, что заңкер;</blockquote>
+			<sameas word="заңкер"/>
 		</meaning>
 		<meaning>
-			<blockquote>южн. синька.</blockquote>
+			<meta>южн.</meta>
+			<blockquote>синька.</blockquote>
 		</meaning>
 	</card>
 	<card>
@@ -1368,7 +1369,7 @@
 	</card>
 	<card>
 		<k>заңкыйт-</k>
-		<caus word="заңкый" />
+		<caus word="заңкый"/>
 		<ex>
 			<source>селдесин заңкыйтып ороду</source>
 			<target>он намотал (на свою голову) огромную чалму;</target>
@@ -1633,7 +1634,7 @@
 	</card>
 	<card>
 		<k>зардант-</k>
-		<caus word="зардан" />
+		<caus word="зардан"/>
 	</card>
 	<card>
 		<k>зардануу</k>
@@ -1943,7 +1944,7 @@
 	</card>
 	<card>
 		<k>зарылдат-</k>
-		<caus word="зарылда" />
+		<caus word="зарылда"/>
 		<ex>
 			<source>зарылдатып ташыйт</source>
 			<target>он возит так (быстро), что пыль столбом стоит.</target>
@@ -2212,7 +2213,7 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>то же, что секет 2.</blockquote>
+			<sameas word="секет" subindex="2"/>
 		</meaning>
 	</card>
 	<card>
@@ -2229,7 +2230,7 @@
 	</card>
 	<card>
 		<k>зекит-</k>
-		<caus word="зеки" />
+		<caus word="зеки"/>
 		<sameas word="зеки"/>
 		<ex>
 			<source>зеките берип, аны качырып ийдиң</source>
@@ -2238,7 +2239,7 @@
 	</card>
 	<card>
 		<k>зекиттир-</k>
-		<caus word="зекит" />
+		<caus word="зекит"/>
 	</card>
 	<card>
 		<k>зекитүү</k>
@@ -2434,7 +2435,7 @@
 	</card>
 	<card>
 		<k>зериктир-</k>
-		<caus word="зерик" />
+		<caus word="зерик"/>
 		<trn>наскучить, надоесть (навязчивостью, приставанием);</trn>
 		<ex>
 			<source>сен мени зериктирдиң</source>
@@ -2595,7 +2596,7 @@
 	</card>
 	<card>
 		<k>зилден-</k>
-		<refv word="зилде" />
+		<refv word="зилде"/>
 		<sameas word="зилде"/>
 		<ex>
 			<source>эстесем, жүрөк зилденер, эзилген кайгы күн келер фольк.</source>
@@ -2604,7 +2605,7 @@
 	</card>
 	<card>
 		<k>зилдет-</k>
-		<caus word="зилде" />
+		<caus word="зилде"/>
 		<ex>
 			<source>атыңдын жоорун ичине түшүрүп, зилдетип жиберип жүрөсүң</source>
 			<target>ты довёл своего коня до того, что ссадина его углубилась и нагноилась;</target>
@@ -2678,7 +2679,7 @@
 	</card>
 	<card>
 		<k>зиңкилдет-</k>
-		<caus word="зиңкилде" />
+		<caus word="зиңкилде"/>
 		<trn>напрягать, пружинить.</trn>
 	</card>
 	<card>
@@ -2760,7 +2761,7 @@
 	</card>
 	<card>
 		<k>зиркилдет-</k>
-		<caus word="зиркилде" />
+		<caus word="зиркилде"/>
 	</card>
 	<card>
 		<k>зиркилдеш-</k>
@@ -3092,7 +3093,7 @@
 			<blockquote>зоот II</blockquote>
 			<meta>разг.</meta>
 			<meaning>
-				<blockquote>то же, что завод;</blockquote>
+				<sameas word="завод"/>
 			</meaning>
 			<meaning>
 				<trn>(о животных) породистый, кровный;</trn>
@@ -3194,7 +3195,7 @@
 	</card>
 	<card>
 		<k>зордуктат-</k>
-		<caus word="зордукта" />
+		<caus word="зордукта"/>
 	</card>
 	<card>
 		<k>зордуктатуу</k>
@@ -3223,7 +3224,7 @@
 	</card>
 	<card>
 		<k>зоруктур-</k>
-		<caus word="зорук" />
+		<caus word="зорук"/>
 	</card>
 	<card>
 		<k>зубун</k>
@@ -3365,7 +3366,7 @@
 	</card>
 	<card>
 		<k>зүңкүйт-</k>
-		<caus word="зүңкүй" />
+		<caus word="зүңкүй"/>
 		<ex>
 			<source>далысын зүңкүйткөн жигит</source>
 			<target>широкоплечий и чуть сутулый парень.</target>
@@ -3383,7 +3384,7 @@
 	<card>
 		<k>зуңшаңыя</k>
 		<origin>кит.</origin>
-		<blockquote>синьцз.</blockquote>
+		<meta>синьцз.</meta>
 		<meta>уст.</meta>
 		<trn>один из китайских чинов.</trn>
 	</card>
@@ -3416,7 +3417,7 @@
 	</card>
 	<card>
 		<k>зуулат-</k>
-		<caus word="зуула" />
+		<caus word="зуула"/>
 	</card>
 	<card>
 		<k>зуулда-</k>
@@ -3441,7 +3442,7 @@
 	</card>
 	<card>
 		<k>зуулдат-</k>
-		<caus word="зуулда" />
+		<caus word="зуулда"/>
 		<ex>
 			<source>зуулдатып жүрүп кетти</source>
 			<target>он помчался.</target>
@@ -3466,7 +3467,7 @@
 			<blockquote>редко, то же, что Чолпон I 1;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>см. эгиз 1.</blockquote>
+			<look word="эгиз" subindex="1"/>
 		</meaning>
 	</card>
 	<card>
@@ -3578,7 +3579,7 @@
 	</card>
 	<card>
 		<k>зыкылдат-</k>
-		<caus word="зыкылда" />
+		<caus word="зыкылда"/>
 		<ex>
 			<source>зыкылдата бастыр</source>
 			<target>пусти коня твёрдым и быстрым шагом.</target>
@@ -3643,7 +3644,7 @@
 	</card>
 	<card>
 		<k>зымпыйт-</k>
-		<caus word="зымпый" />
+		<caus word="зымпый"/>
 	</card>
 	<card>
 		<k>зымчы</k>
@@ -3675,7 +3676,7 @@
 	</card>
 	<card>
 		<k>зымылдат-</k>
-		<caus word="зымылда" />
+		<caus word="зымылда"/>
 		<ex>
 			<source>аякты зымылдатып жалады</source>
 			<target>он вылизал чашку начисто.</target>
@@ -3727,7 +3728,7 @@
 		</homonym>
 		<homonym>
 			<blockquote>зымырат- II</blockquote>
-			<caus word="зымыра" />
+			<caus word="зымыра"/>
 			<ex>
 				<source>зымырата байла- или зымырата таң-</source>
 				<target>аккуратно и крепко связать, стянуть;</target>
@@ -3825,7 +3826,7 @@
 	</card>
 	<card>
 		<k>зыңгырат-</k>
-		<caus word="зыңгыра" />
+		<caus word="зыңгыра"/>
 		<ex>
 			<source>мектеп үйүн зыңгыратып тургузалык</source>
 			<target>возведём великолепное школьное здание.</target>
@@ -3871,7 +3872,7 @@
 	</card>
 	<card>
 		<k>зыңкыйт-</k>
-		<caus word="зыңкый" />
+		<caus word="зыңкый"/>
 		<ex>
 			<source>зыңкыйтып таң-</source>
 			<target>плотно связать, крепко связать; стиснуть;</target>
@@ -3899,7 +3900,7 @@
 	</card>
 	<card>
 		<k>зыңкылдат-</k>
-		<caus word="зыңкылда" />
+		<caus word="зыңкылда"/>
 		<ex>
 			<source>зыңкылдата ышкыр-</source>
 			<target>пронзительно свистеть.</target>
@@ -3963,7 +3964,7 @@
 	</card>
 	<card>
 		<k>зыпылдат-</k>
-		<caus word="зыпылда" />
+		<caus word="зыпылда"/>
 	</card>
 	<card>
 		<k>зыр</k>
@@ -3987,7 +3988,7 @@
 	</card>
 	<card>
 		<k>зыргыт-</k>
-		<caus word="зыргы" />
+		<caus word="зыргы"/>
 		<ex>
 			<source>туягы тийген таш сынып, көккө карай зыргыткан стих.</source>
 			<target>камни, которых касались копыта (коня), взвивались к небу.</target>
@@ -4028,7 +4029,7 @@
 	</card>
 	<card>
 		<k>зыркырат-</k>
-		<caus word="зыркыра" />
+		<caus word="зыркыра"/>
 		<ex>
 			<source>"өмүрүм акыр өткөнчө зыркыратпайм" деп, алган стих.</source>
 			<target>он взял (меня замуж), обещав до конца жизни не огорчать.</target>
