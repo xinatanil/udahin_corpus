@@ -2745,7 +2745,7 @@
 	</card>
 	<card>
 		<k>зиркилдеш-</k>
-		<blockquote>взаимн. от зиркилде-.</blockquote>
+		<recv word="зиркилде"/>
 	</card>
 	<card>
 		<k>зиркилдөө</k>
@@ -2982,7 +2982,7 @@
 	</card>
 	<card>
 		<k>зооктонуш-</k>
-		<blockquote>взаимн. от зооктон-.</blockquote>
+		<recv word="зооктон"/>
 	</card>
 	<card>
 		<k>зоокчул</k>
@@ -3726,7 +3726,7 @@
 	</card>
 	<card>
 		<k>зымыраш-</k>
-		<blockquote>взаимн. от зымыра-.</blockquote>
+		<recv word="зымыра"/>
 	</card>
 	<card>
 		<k>зымырык</k>
@@ -3738,7 +3738,7 @@
 	</card>
 	<card>
 		<k>зымырылыш-</k>
-		<blockquote>взаимн. от зымырыл-.</blockquote>
+		<recv word="зымырыл"/>
 	</card>
 	<card>
 		<k>зымырыт</k>
@@ -4216,7 +4216,7 @@
 	</card>
 	<card>
 		<k>зөөкүрсү-</k>
-		<blockquote>уподоб. от зөөкүр</blockquote>
+		<similative word="зөөкү"/>
 		<trn>поступать по-хулигански, вести себя, как хулиган;</trn>
 		<ex>
 			<source>зөөкүрсүгөн далайды сөзү менен тепсеген фольк.</source>
