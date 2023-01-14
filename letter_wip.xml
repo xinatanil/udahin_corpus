@@ -1590,7 +1590,7 @@
 		<meta>уст.</meta>
 		<trn>сорт парчи (букв. златотканый);</trn>
 		<ex>
-			<source>ак зарбап кийсең, жарашат аркар сындув боюңа фольк. южн.@@</source>
+			<source>ак зарбап кийсең, жарашат аркар сындув боюңа фольк. южн.</source>
 			<target>твоему стройному стану идёт, когда оденешься ты в белую парчу.</target>
 		</ex>
 	</card>
@@ -1766,8 +1766,8 @@
 	</card>
 	<card>
 		<k>зарзаман</k>
-		<sameas word="зар заман" />
-		<look word="заман" subindex="4" />
+		<sameas word="зар заман"/>
+		<look word="заман" subindex="4"/>
 	</card>
 	<card>
 		<k>заркыра-</k>
@@ -2311,7 +2311,7 @@
 			<trn>ствол виноградной лозы.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>парное к эң II.</blockquote>
+			<pair word="эң" index="2"/>
 		</homonym>
 	</card>
 	<card>
@@ -3502,7 +3502,7 @@
 		<k>Зуура</k>
 		<meaning>
 			<meta>редко</meta>
-			<blockquote>то же, что Чолпон I 1;</blockquote>
+			<sameas word="Чолпон" index="1" subindex="1"/>
 		</meaning>
 		<meaning>
 			<look word="эгиз" subindex="1"/>
@@ -3942,7 +3942,7 @@
 	</card>
 	<card>
 		<k>зынт</k>
-		<blockquote>парное к ынт.</blockquote>
+		<pair word="ынт"/>
 	</card>
 	<card>
 		<k>зыңылда-</k>
