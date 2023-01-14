@@ -1037,7 +1037,8 @@
 			<sameas word="замбил"/>
 		</meaning>
 		<meaning>
-			<blockquote>этн. ковёр, сложенный в виде носилок (на которых переносят невесту в свадебную юрту).</blockquote>
+			<meta>этн.</meta>
+			<blockquote>ковёр, сложенный в виде носилок (на которых переносят невесту в свадебную юрту).</blockquote>
 		</meaning>
 	</card>
 	<card>
@@ -1123,7 +1124,8 @@
 			<trn>небольшой снегопад в конце зимы;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>перен. (о человеке) мямля; никудышный, недалёкий;</blockquote>
+			<blockquote>перен.</blockquote>
+			<blockquote>(о человеке) мямля; никудышный, недалёкий;</blockquote>
 			<ex>
 				<source>ал зампар, аны менен сүйлөшүп не кыласың</source>
 				<target>что тебе с ним разговаривать, он ведь никудышный.</target>
@@ -1603,7 +1605,9 @@
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>южн. перен. возлюбленная.</blockquote>
+				<meta>южн.</meta>
+				<blockquote>перен.</blockquote>
+				<blockquote>возлюбленная.</blockquote>
 			</meaning>
 		</homonym>
 	</card>
@@ -2178,10 +2182,12 @@
 		<k>зекет</k>
 		<origin>ар.</origin>
 		<meaning>
-			<blockquote>рел. милостыня, предписываемая шариатом в пользу бедных (в размере 1/40 капитала или имущества);</blockquote>
+			<meta>рел.</meta>
+			<blockquote>милостыня, предписываемая шариатом в пользу бедных (в размере 1/40 капитала или имущества);</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>ист. налог со скота (взимавшийся во времена Кокандского ханства);</blockquote>
+			<meta>ист.</meta>
+			<blockquote>налог со скота (взимавшийся во времена Кокандского ханства);</blockquote>
 			<ex>
 				<source>түндүк зекет</source>
 				<target>налог в размере одной овцы с юрты;</target>
@@ -2440,7 +2446,8 @@
 		<k>зикир</k>
 		<origin>ар.</origin>
 		<meaning>
-			<blockquote>рел. зикр, радение дервишей (доведение себя до зкстаза путём бесконечного повторения эпитетов аллаха);</blockquote>
+			<meta>рел.</meta>
+			<blockquote>зикр, радение дервишей (доведение себя до зкстаза путём бесконечного повторения эпитетов аллаха);</blockquote>
 			<ex>
 				<source>зикир чал-</source>
 				<target>радеть, устраивать радение;</target>
@@ -2455,7 +2462,8 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>перен. воркование;</blockquote>
+			<blockquote>перен.</blockquote>
+			<blockquote>воркование;</blockquote>
 			<ex>
 				<source>көгүчкөндүн эркеги зикир чалат</source>
 				<target>голубь воркует;</target>
@@ -2481,7 +2489,8 @@
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>перен. душевная боль, печаль, горе;</blockquote>
+				<blockquote>перен.</blockquote>
+				<blockquote>душевная боль, печаль, горе;</blockquote>
 				<ex>
 					<source>ичимде кайгы, зилди айтам фольк.</source>
 					<target>о печали, что внутри у меня, о боли души я расскажу;</target>
@@ -2496,7 +2505,8 @@
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>перен. жёлчность, ехидство;</blockquote>
+				<blockquote>перен.</blockquote>
+				<blockquote>жёлчность, ехидство;</blockquote>
 				<ex>
 					<source>зил ташта-</source>
 					<target>бросить жёлчный взгляд;</target>
@@ -2721,7 +2731,8 @@
 			<trn>дрожать;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>перен. неистовствовать, проявлять неистовую злобу; буйствовать;</blockquote>
+			<blockquote>перен.</blockquote>
+			<blockquote>неистовствовать, проявлять неистовую злобу; буйствовать;</blockquote>
 			<ex>
 				<source>алтымыш күн атан болуп жүргөнчө, алты күн буура болуп зиркилде погов.</source>
 				<target>чем жить шестьдесят дней холощёным верблюдом, (лучше) проживи буйно шесть дней верблюжьим жеребцом.</target>
@@ -2908,7 +2919,8 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>перен. высоко стоящий, в зените славы и почёта;</blockquote>
+			<blockquote>перен.</blockquote>
+			<blockquote>высоко стоящий, в зените славы и почёта;</blockquote>
 			<ex>
 				<source>мен ак зоңкок элем, - жол болдум фольк.</source>
 				<target>был я белой (т.е. снеговой) вершиной, стал дорогой (т.е. унижен).</target>
@@ -3033,7 +3045,8 @@
 		<k>зоор</k>
 		<origin>ар.</origin>
 		<meaning>
-			<blockquote>этн. предрассветное вкушение пищи во время поста;</blockquote>
+			<meta>этн.</meta>
+			<blockquote>предрассветное вкушение пищи во время поста;</blockquote>
 			<ex>
 				<source>зоорго ойгот-</source>
 				<target>будить для вкушения пищи;</target>
@@ -3094,7 +3107,8 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>южн. старший;</blockquote>
+			<meta>южн.</meta>
+			<blockquote>старший;</blockquote>
 		</meaning>
 		<meaning>
 			<trn>сила, насилие;</trn>
@@ -3141,7 +3155,8 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>этн. умыкание невесты силой;</blockquote>
+			<meta>этн.</meta>
+			<blockquote>умыкание невесты силой;</blockquote>
 			<ex>
 				<source>көтөн зордук разг.</source>
 				<target>запугивание, грубое насилие; наглость;</target>
@@ -3374,7 +3389,8 @@
 			<trn>издавать звук "зу-у-у";</trn>
 		</meaning>
 		<meaning>
-			<blockquote>перен. мчаться;</blockquote>
+			<blockquote>перен.</blockquote>
+			<blockquote>мчаться;</blockquote>
 			<ex>
 				<source>зуулап өт-</source>
 				<target>промчаться;</target>
@@ -3392,7 +3408,8 @@
 			<trn>жужжать, гудеть (напр. о телеграфных проводах);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>перен. мчаться;</blockquote>
+			<blockquote>перен.</blockquote>
+			<blockquote>мчаться;</blockquote>
 			<ex>
 				<source>машина зуулдап өтүп кетти</source>
 				<target>мимо промчалась машина.</target>
