@@ -1151,7 +1151,7 @@
 	<card>
 		<k>замын</k>
 		<origin>ир.</origin>
-		<blockquote>редко</blockquote>
+		<meta>редко</meta>
 		<trn>страна;</trn>
 		<ex>
 			<source>Сейли замын тушунда, жатат, деп угам, жан багып фольк.</source>
@@ -1618,7 +1618,7 @@
 	</card>
 	<card>
 		<k>зардан-</k>
-		<blockquote>возвр. от зарда- II.</blockquote>
+		<refv word="зарда" index="2"/>
 	</card>
 	<card>
 		<k>зардант-</k>
@@ -1711,7 +1711,7 @@
 	</card>
 	<card>
 		<k>зардоо</k>
-		<blockquote>и. д. от зарда- II.</blockquote>
+		<actionNoun word="зарда" index="2"/>
 	</card>
 	<card>
 		<k>зардуу</k>
@@ -2605,7 +2605,7 @@
 	<card>
 		<k>зилзала</k>
 		<origin>ар.</origin>
-		<blockquote>редко</blockquote>
+		<meta>редко</meta>
 		<trn>землетрясение.</trn>
 	</card>
 	<card>
