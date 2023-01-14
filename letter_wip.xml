@@ -1125,7 +1125,7 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>(о человеке) мямля; никудышный, недалёкий;</blockquote>
+			<trn>(о человеке) мямля; никудышный, недалёкий;</trn>
 			<ex>
 				<source>ал зампар, аны менен сүйлөшүп не кыласың</source>
 				<target>что тебе с ним разговаривать, он ведь никудышный.</target>
@@ -1607,7 +1607,7 @@
 			<meaning>
 				<meta>южн.</meta>
 				<meta>перен.</meta>
-				<blockquote>возлюбленная.</blockquote>
+				<trn>возлюбленная.</trn>
 			</meaning>
 		</homonym>
 	</card>
@@ -2183,11 +2183,11 @@
 		<origin>ар.</origin>
 		<meaning>
 			<meta>рел.</meta>
-			<blockquote>милостыня, предписываемая шариатом в пользу бедных (в размере 1/40 капитала или имущества);</blockquote>
+			<trn>милостыня, предписываемая шариатом в пользу бедных (в размере 1/40 капитала или имущества);</trn>
 		</meaning>
 		<meaning>
 			<meta>ист.</meta>
-			<blockquote>налог со скота (взимавшийся во времена Кокандского ханства);</blockquote>
+			<trn>налог со скота (взимавшийся во времена Кокандского ханства);</trn>
 			<ex>
 				<source>түндүк зекет</source>
 				<target>налог в размере одной овцы с юрты;</target>
@@ -2463,7 +2463,7 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>воркование;</blockquote>
+			<trn>воркование;</trn>
 			<ex>
 				<source>көгүчкөндүн эркеги зикир чалат</source>
 				<target>голубь воркует;</target>
@@ -2490,7 +2490,7 @@
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>душевная боль, печаль, горе;</blockquote>
+				<trn>душевная боль, печаль, горе;</trn>
 				<ex>
 					<source>ичимде кайгы, зилди айтам фольк.</source>
 					<target>о печали, что внутри у меня, о боли души я расскажу;</target>
@@ -2506,7 +2506,7 @@
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>жёлчность, ехидство;</blockquote>
+				<trn>жёлчность, ехидство;</trn>
 				<ex>
 					<source>зил ташта-</source>
 					<target>бросить жёлчный взгляд;</target>
@@ -2677,7 +2677,7 @@
 		<blockquote>(зирбе)</blockquote>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>лук, морковь и мясо, поджаренные в жире (сюда же наливается вода и кладётся рис, чтобы варить плов);</blockquote>
+		<trn>лук, морковь и мясо, поджаренные в жире (сюда же наливается вода и кладётся рис, чтобы варить плов);</trn>
 		<ex>
 			<source>зирбага гүрүч салып койдум</source>
 			<target>я положил в зирба рис (варю плов).</target>
@@ -2732,7 +2732,7 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>неистовствовать, проявлять неистовую злобу; буйствовать;</blockquote>
+			<trn>неистовствовать, проявлять неистовую злобу; буйствовать;</trn>
 			<ex>
 				<source>алтымыш күн атан болуп жүргөнчө, алты күн буура болуп зиркилде погов.</source>
 				<target>чем жить шестьдесят дней холощёным верблюдом, (лучше) проживи буйно шесть дней верблюжьим жеребцом.</target>
@@ -2920,7 +2920,7 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>высоко стоящий, в зените славы и почёта;</blockquote>
+			<trn>высоко стоящий, в зените славы и почёта;</trn>
 			<ex>
 				<source>мен ак зоңкок элем, - жол болдум фольк.</source>
 				<target>был я белой (т.е. снеговой) вершиной, стал дорогой (т.е. унижен).</target>
@@ -3046,7 +3046,7 @@
 		<origin>ар.</origin>
 		<meaning>
 			<meta>этн.</meta>
-			<blockquote>предрассветное вкушение пищи во время поста;</blockquote>
+			<trn>предрассветное вкушение пищи во время поста;</trn>
 			<ex>
 				<source>зоорго ойгот-</source>
 				<target>будить для вкушения пищи;</target>
@@ -3108,7 +3108,7 @@
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>старший;</blockquote>
+			<trn>старший;</trn>
 		</meaning>
 		<meaning>
 			<trn>сила, насилие;</trn>
@@ -3156,7 +3156,7 @@
 		</meaning>
 		<meaning>
 			<meta>этн.</meta>
-			<blockquote>умыкание невесты силой;</blockquote>
+			<trn>умыкание невесты силой;</trn>
 			<ex>
 				<source>көтөн зордук разг.</source>
 				<target>запугивание, грубое насилие; наглость;</target>
@@ -3390,7 +3390,7 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>мчаться;</blockquote>
+			<trn>мчаться;</trn>
 			<ex>
 				<source>зуулап өт-</source>
 				<target>промчаться;</target>
@@ -3409,7 +3409,7 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>мчаться;</blockquote>
+			<trn>мчаться;</trn>
 			<ex>
 				<source>машина зуулдап өтүп кетти</source>
 				<target>мимо промчалась машина.</target>
