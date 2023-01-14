@@ -20,33 +20,39 @@ with open ('letter_after.xml', 'r' ) as f:
 # that previos command generated
     content_new = re.sub('<blockquote></blockquote>\n', r'', content_new, flags = re.M)
 
+# <blockquote>южн. перен. возлюбленная.</blockquote>
+    content_new = re.sub('<blockquote>([а-я]{1,5}\.) ?([а-я]{1,5}\.)? (.+)</blockquote>', r'<blockquote>\1</blockquote>\n<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote></blockquote>\n', r'', content_new, flags = re.M)
+    
+# <blockquote>редко</blockquote>
+    content_new = re.sub('<blockquote>редко</blockquote>', r'<meta>редко</meta>', content_new, flags = re.M)
     
     content_new = re.sub('<blockquote>(кит|р|ар|тиб|ир|ар\.-ир|р\.-ир)\.<\/blockquote>', r'<origin>\1.</origin>', content_new, flags = re.M)
 
     #process meta for different verb categories
-    content_new = re.sub('<blockquote>и\. д\. от (\w+).?.?<\/blockquote>', r'<actionNoun word="\1" />', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>и\. д\. от (\w+).? ?([IV]+)?.?<\/blockquote>', r'<actionNoun word="\1" index="\2" />', content_new, flags = re.M)
     content_new = re.sub('<blockquote>понуд\. от (\w+).? ?([IV]+)?.?<\/blockquote>', r'<caus word="\1" index="\2" />', content_new, flags = re.M)
-    content_new = re.sub('<blockquote>взаимн\. от (\w+).? ?([IV]+).?<\/blockquote>', r'<recv word="\1" index="\2" />', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>взаимн\. от (\w+).? ?([IV]+)?.?<\/blockquote>', r'<recv word="\1" index="\2" />', content_new, flags = re.M)
     content_new = re.sub('<blockquote>возвр\.-страд\. от (\w+).?.?<\/blockquote>', r'<refpass word="\1" />', content_new, flags = re.M)
-    content_new = re.sub('<blockquote>возвр\. от (\w+).?.?<\/blockquote>', r'<refv word="\1" />', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>возвр\. от (\w+).? ?([IV]+)?.?<\/blockquote>', r'<refv word="\1" index="\2" />', content_new, flags = re.M)
+    
+    content_new = re.sub('<blockquote>уподоб\. от (\w+)-?\s?([IV]+)?\s?(\d)?.<\/blockquote>', r'<similative word="\1" index="\2" subindex="\3" />', content_new, flags = re.M)
     
     
     #replace meta sameas and look tags
     content_new = re.sub('<blockquote>то же, что (\w+)-?\s?([IV]+)?\s?(\d)?.<\/blockquote>', r'<sameas word="\1" index="\2" subindex="\3" />', content_new, flags = re.M)
-    content_new = re.sub('<sameas word="(\w+)" index="" subindex="" \/>', r'<sameas word="\1" />', content_new, flags = re.M)
-    content_new = re.sub('<sameas word="(\w+)" index="(\w+)" subindex="" \/>', r'<sameas word="\1" index="\2" />', content_new, flags = re.M)
-    content_new = re.sub('<sameas word="(\w+)" index="" subindex="(.+)" \/>', r'<sameas word="\1" subindex="\2" />', content_new, flags = re.M)
     content_new = re.sub('<blockquote>см\. (\w+)-?\s?([IV]+)?\s?(\d)?.<\/blockquote>', r'<look word="\1" index="\2" subindex="\3" />', content_new, flags = re.M)
-    content_new = re.sub('<look word="(\w+)" index="" subindex="" \/>', r'<look word="\1" />', content_new, flags = re.M)
-    content_new = re.sub('<look word="(\w+)" index="(\w+)" subindex="" \/>', r'<look word="\1" index="\2" />', content_new, flags = re.M)
-    content_new = re.sub('<look word="(\w+)" index="" subindex="(.+)" \/>', r'<look word="\1" subindex="\2" />', content_new, flags = re.M)
+    
+    content_new = re.sub('subindex=""', r'', content_new, flags = re.M)
+    content_new = re.sub('index=""', r'', content_new, flags = re.M)
+    
     content_new = re.sub('index="I"', r'index="1"', content_new, flags = re.M)
     content_new = re.sub('index="II"', r'index="2"', content_new, flags = re.M)
     content_new = re.sub('index="III"', r'index="3"', content_new, flags = re.M)
     content_new = re.sub('index="IV"', r'index="4"', content_new, flags = re.M)
     content_new = re.sub('index="V"', r'index="5"', content_new, flags = re.M)
     
-    content_new = re.sub('<blockquote>(разг|уст|лингв|полит|спорт|полигр|с\.-х|рел|воен|дип|горн|пед|этн)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(разг|уст|лингв|перен|полит|спорт|полигр|с\.-х|рел|воен|дип|горн|пед|этн)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
     content_new = re.sub('<blockquote>(лит|театр|филос|миф)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
     content_new = re.sub('<blockquote>(геол|хим|мед|тех|ист|мат|бот)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
     content_new = re.sub('<blockquote>(сев|южн|чатк|чуйск|тяньш|талас|памир|синьцз)\.<\/blockquote>', r'<meta>\1.</meta>', content_new, flags = re.M)
