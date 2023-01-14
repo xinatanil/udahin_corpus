@@ -1161,7 +1161,6 @@
 	<card>
 		<k>заң</k>
 		<homonym>
-			<blockquote>заң I</blockquote>
 			<blockquote>обычай; уст. закон;</blockquote>
 			<ex>
 				<source>заң-закүндө жок</source>
@@ -1173,11 +1172,9 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>заң II</blockquote>
 			<blockquote>помёт; эвф. кал.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>заң III</blockquote>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
 			<blockquote>ржавчина;</blockquote>
@@ -1187,7 +1184,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>заң IV</blockquote>
 			<blockquote>звукоподр.</blockquote>
 			<blockquote>звяк, дзинь, звон (резкий однократный звук);</blockquote>
 			<ex>
@@ -1203,7 +1199,6 @@
 	<card>
 		<k>заңгар</k>
 		<homonym>
-			<blockquote>заңгар I</blockquote>
 			<blockquote>громадина, великая;</blockquote>
 			<ex>
 				<source>бакыйып келип олтурган баягы Жолой заңгарбы? фольк.</source>
@@ -1211,7 +1206,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>заңгар II</blockquote>
 			<origin>ир.</origin>
 			<blockquote>стервец, мерзавец.</blockquote>
 		</homonym>
@@ -1499,7 +1493,6 @@
 	<card>
 		<k>зар</k>
 		<homonym>
-			<blockquote>зар I</blockquote>
 			<sameas word="зер" index="1"/>
 			<ex>
 				<source>алтын менен зар, деди - барымды менден ал, деди фольк.</source>
@@ -1507,7 +1500,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зар II</blockquote>
 			<origin>ир.</origin>
 			<trn>рыдание, горький плач; горести; сильная нужда;</trn>
 			<ex>
@@ -1579,7 +1571,6 @@
 	<card>
 		<k>зарда</k>
 		<homonym>
-			<blockquote>зарда I</blockquote>
 			<sameas word="зарде"/>
 			<ex>
 				<source>өлүмдөн эсен куткарып, тараттың ички зардамды фольк.</source>
@@ -1587,20 +1578,17 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зарда- II</blockquote>
 			<trn>горько плакать, горевать; сетовать.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>зардал</k>
 		<homonym>
-			<blockquote>зардал I</blockquote>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
 			<trn>название сорта абрикосов.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>зардал II</blockquote>
 			<origin>ир.</origin>
 			<blockquote>(в эпосе)</blockquote>
 			<meaning>
@@ -1777,7 +1765,6 @@
 	<card>
 		<k>зарп</k>
 		<homonym>
-			<blockquote>зарп I</blockquote>
 			<origin>ар.</origin>
 			<trn>удар судьбы, тяготы;</trn>
 			<ex>
@@ -1794,7 +1781,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зарп II</blockquote>
 			<sameas word="сарып"/>
 			<ex>
 				<source>зарп кыл-</source>
@@ -1836,7 +1822,6 @@
 	<card>
 		<k>зарык</k>
 		<homonym>
-			<blockquote>зарык I</blockquote>
 			<meta>южн.</meta>
 			<trn>нужда, нуждаемость;</trn>
 			<ex>
@@ -1852,7 +1837,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зарык- III</blockquote>
 			<trn>томиться, изнывать;</trn>
 			<ex>
 				<source>баласын күтө берип, зарыкты</source>
@@ -1860,7 +1844,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зарык- IV</blockquote>
 			<sameas word="сарык" index="2"/>
 			<ex>
 				<source>зарыгып аккан булактан, сасык да болсо, көл жакшы погов.</source>
@@ -1876,7 +1859,6 @@
 	<card>
 		<k>зарыл</k>
 		<homonym>
-			<blockquote>зарыл I</blockquote>
 			<origin>ар.</origin>
 			<meaning>
 				<trn>нужный, необходимый;</trn>
@@ -1894,7 +1876,6 @@
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>зарыл- II</blockquote>
 			<meaning>
 				<trn>испытывать острую нужду;</trn>
 				<ex>
@@ -2178,7 +2159,6 @@
 	<card>
 		<k>зейрек</k>
 		<homonym>
-			<blockquote>зейрек I</blockquote>
 			<sameas word="сейрек"/>
 			<ex>
 				<source>зейрек учурайт</source>
@@ -2186,7 +2166,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зейрек II</blockquote>
 			<origin>ир.</origin>
 			<trn>понятливый, смышлёный, сообразительный, проницательный.</trn>
 		</homonym>
@@ -2278,13 +2257,11 @@
 	<card>
 		<k>зең</k>
 		<homonym>
-			<blockquote>зең I</blockquote>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
 			<trn>ствол виноградной лозы.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>зең II</blockquote>
 			<blockquote>парное к эң II.</blockquote>
 		</homonym>
 	</card>
@@ -2336,7 +2313,6 @@
 	<card>
 		<k>зер</k>
 		<homonym>
-			<blockquote>зер I</blockquote>
 			<origin>ир.</origin>
 			<blockquote>(в фольклоре, в поэзии) золото;</blockquote>
 			<ex>
@@ -2345,7 +2321,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зер II</blockquote>
 			<sameas word="зээр" index="3"/>
 		</homonym>
 		<homonym>
@@ -2357,11 +2332,9 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зер IV</blockquote>
 			<sameas word="сыйкыр"/>
 		</homonym>
 		<homonym>
-			<blockquote>зер V</blockquote>
 			<origin>ир.</origin>
 			<meta>(ср. забар)</meta>
 			<trn>название подстрочного знака в старом арабскам алфавите, обозначающего звук и;</trn>
@@ -2496,7 +2469,6 @@
 	<card>
 		<k>зил</k>
 		<homonym>
-			<blockquote>зил I</blockquote>
 			<meaning>
 				<trn>болезнь, проходящая вглубь, поражающая изнутри;</trn>
 				<ex>
@@ -2536,7 +2508,6 @@
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>зил II</blockquote>
 			<origin>ар.</origin>
 			<trn>происхождение; натура;</trn>
 			<ex>
@@ -2705,12 +2676,10 @@
 	<card>
 		<k>зире</k>
 		<homonym>
-			<blockquote>зире I</blockquote>
 			<origin>ир.</origin>
 			<trn>тмин.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>зире II</blockquote>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
 			<trn>серьги (женские серебряные уйгурской работы).</trn>
@@ -3086,11 +3055,9 @@
 	<card>
 		<k>зоот</k>
 		<homonym>
-			<blockquote>зоот I</blockquote>
 			<sameas word="соот"/>
 		</homonym>
 		<homonym>
-			<blockquote>зоот II</blockquote>
 			<meta>разг.</meta>
 			<meaning>
 				<sameas word="завод"/>
@@ -3605,7 +3572,6 @@
 	<card>
 		<k>зым</k>
 		<homonym>
-			<blockquote>зым I</blockquote>
 			<sameas word="сым"/>
 		</homonym>
 		<homonym>
@@ -3719,7 +3685,6 @@
 	<card>
 		<k>зымырат</k>
 		<homonym>
-			<blockquote>зымырат I</blockquote>
 			<sameas word="зумурут"/>
 			<ex>
 				<source>зымырат көздүү бир шакек фольк.</source>
@@ -3727,7 +3692,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зымырат- II</blockquote>
 			<caus word="зымыра"/>
 			<ex>
 				<source>зымырата байла- или зымырата таң-</source>
@@ -3787,7 +3751,6 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>зың II</blockquote>
 			<blockquote>подражательное слово:</blockquote>
 			<blockquote>зыңдын кара ташындай очень тяжёлый (на вес).</blockquote>
 		</homonym>
@@ -4183,15 +4146,12 @@
 	<card>
 		<k>зээр</k>
 		<homonym>
-			<blockquote>зээр I</blockquote>
 			<sameas word="зер" index="1"/>
 		</homonym>
 		<homonym>
-			<blockquote>зээр II</blockquote>
 			<sameas word="сээр" index="3" subindex="2"/>
 		</homonym>
 		<homonym>
-			<blockquote>зээр III</blockquote>
 			<blockquote>крестец (лошади);</blockquote>
 			<ex>
 				<source>атынын зээрин сылап коюп</source>
