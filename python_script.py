@@ -37,6 +37,7 @@ with open ('letter_after.xml', 'r' ) as f:
     content_new = re.sub('<blockquote>возвр\. от (\w+).? ?([IV]+)?.?<\/blockquote>', r'<refv word="\1" index="\2" />', content_new, flags = re.M)
     
     content_new = re.sub('<blockquote>уподоб\. от (\w+)-?\s?([IV]+)?\s?(\d)?.<\/blockquote>', r'<similative word="\1" index="\2" subindex="\3" />', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>парное к (\w+)-?\s?([IV]+)?\s?(\d)?.<\/blockquote>', r'<pair word="\1" index="\2" subindex="\3" />', content_new, flags = re.M)
     
     
     #replace meta sameas and look tags
