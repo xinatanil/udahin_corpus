@@ -785,8 +785,14 @@
 		<k>палоо</k>
 		<origin>ир.</origin>
 		<trn>плов;</trn>
-		<blockquote>палоо бас-@@ варить плов;</blockquote>
-		<blockquote>палоо бастыр-@@ заставить варить плов.</blockquote>
+		<ex>
+			<source>палоо бас-</source>
+			<target>варить плов;</target>
+		</ex>
+		<ex>
+			<source>палоо бастыр-</source>
+			<target>заставить варить плов.</target>
+		</ex>
 	</card>
 	<card>
 		<k>палта</k>
@@ -829,7 +835,10 @@
 			<meta>южн.</meta>
 			<transcription>пəн</transcription>
 			<trn>род сладких лепёшек;</trn>
-			<blockquote>пəндəн алың, жең@@ берите пəн, кушайте.</blockquote>
+			<ex>
+				<source>пəндəн алың, жең</source>
+				<target>берите пəн, кушайте.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<meta>ист.</meta>
@@ -841,7 +850,10 @@
 		<collocation>
 			<k>паң-атак</k>
 			<trn>слава, известность;</trn>
-			<blockquote>паң-атакка конду@@ он прославился.</blockquote>
+			<ex>
+				<source>паң-атакка конду</source>
+				<target>он прославился.</target>
+			</ex>
 		</collocation>
 	</card>
 	<card>
@@ -929,7 +941,10 @@
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<trn>азартная игра в карты;</trn>
-		<blockquote>панке ойно-@@ играть в азартную карточную игру.</blockquote>
+		<ex>
+			<source>панке ойно-</source>
+			<target>играть в азартную карточную игру.</target>
+		</ex>
 	</card>
 	<card>
 		<k>панкечилик</k>
@@ -975,7 +990,10 @@
 	<card>
 		<k>папа</k>
 		<trn>папа (отец);</trn>
-		<blockquote>папаң келдиби?@@ твой папа пришёл?</blockquote>
+		<ex>
+			<source>папаң келдиби?</source>
+			<target>твой папа пришёл?</target>
+		</ex>
 	</card>
 	<card>
 		<k>папик</k>
@@ -983,13 +1001,19 @@
 		<meta>южн.</meta>
 		<transcription>пəпик</transcription>
 		<sameas word="чачы" subindex="1"/>
-		<blockquote>чач пəпик@@ то же, что чачпак.</blockquote>
+		<ex>
+			<source>чач пəпик</source>
+			<target>то же, что чачпак.</target>
+		</ex>
 	</card>
 	<card>
 		<k>папирос</k>
 		<meta>(или папироса)</meta>
 		<trn>папироса;</trn>
-		<blockquote>тиштеген папиросун тутандырып алды@@ он закурил папиросу, которую держал в зубах.</blockquote>
+		<ex>
+			<source>тиштеген папиросун тутандырып алды</source>
+			<target>он закурил папиросу, которую держал в зубах.</target>
+		</ex>
 	</card>
 	<card>
 		<k>папка</k>
