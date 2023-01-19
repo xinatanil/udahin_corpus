@@ -1,208 +1,222 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>паал</k>
-		<blockquote>парное к саал I;</blockquote>
-		<blockquote>талкууну өткөрөбүз, сындайбыз, саал-паал жинине тиебиз проведём обсуждение,
-               покритикуем, малость его за живое заденем.</blockquote>
+		<pair word="саал" index="1"/>
+		<blockquote>талкууну өткөрөбүз, сындайбыз, саал-паал жинине тиебиз проведём обсуждение, покритикуем, малость его за живое заденем.</blockquote>
 	</card>
 	<card>
 		<k>паан</k>
-		<blockquote>парное к саан 3.</blockquote>
+		<pair word="саан" subindex="3"/>
 	</card>
 	<card>
 		<k>паана</k>
-		<blockquote>1. то же, что маана II;</blockquote>
-		<blockquote>үйүңүздүн жанын паана кылып, тамак бышырып, ичип кетели - деп бурулдук мы
-               (сюда) завернули, чтобы найти убежище возле вашего дома, сварить пищу, поесть и ехать
-               (дальше);</blockquote>
-		<blockquote>бакыр киши паанада погов. бедный человек под прикрытием (ему легче жить, он
-               не на виду);</blockquote>
-		<blockquote>2. <p>южн.</p> то же, что шынаа;</blockquote>
-		<blockquote>паана менен жараттар (бревно) раскалывают клином.</blockquote>
+		<meaning>
+			<sameas word="маана" index="2"/>
+			<blockquote>үйүңүздүн жанын паана кылып, тамак бышырып, ичип кетели - деп бурулдук мы (сюда) завернули, чтобы найти убежище возле вашего дома, сварить пищу, поесть и ехать (дальше);</blockquote>
+			<ex>
+				<source>бакыр киши паанада погов.</source>
+				<target>бедный человек под прикрытием (ему легче жить, он не на виду);</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<sameas word="шынаа"/>
+			<blockquote>паана менен жараттар (бревно) раскалывают клином.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>паанай</k>
-		<blockquote>то же, что маанай;</blockquote>
+		<sameas word="маанай"/>
 		<blockquote>паанайы пас он подавлен; у него настроение мрачное.</blockquote>
 	</card>
 	<card>
 		<k>паанала-</k>
-		<blockquote>то же, что маанала-;</blockquote>
-		<blockquote>башка бир жерге барып паанала ты отправься куда-нибудь в другое место и
-               найди себе прибежище;</blockquote>
-		<blockquote>каптал ташты пааналап, калмактын четин аралап <p>фольк.</p> прячась за камни и ходя
-               среди калмыков (с целью разведки).</blockquote>
+		<sameas word="маанала"/>
+		<blockquote>башка бир жерге барып паанала ты отправься куда-нибудь в другое место и найди себе прибежище;</blockquote>
+		<ex>
+			<source>каптал ташты пааналап, калмактын четин аралап фольк.</source>
+			<target>прячась за камни и ходя среди калмыков (с целью разведки).</target>
+		</ex>
 	</card>
 	<card>
 		<k>пааналаш</k>
-		<blockquote>и. д. от паанала-;</blockquote>
-		<blockquote>эми ал кайда барып баш пааналашы керек? куда теперь он должен идти, чтобы
-               голову приклонить (или чтобы найти защиту) ?</blockquote>
+		<actionNoun word="паанала"/>
+		<blockquote>эми ал кайда барып баш пааналашы керек? куда теперь он должен идти, чтобы голову приклонить (или чтобы найти защиту) ?</blockquote>
 	</card>
 	<card>
 		<k>паанекте-</k>
-		<blockquote>то же, что маанекте-.</blockquote>
+		<sameas word="маанекте"/>
 	</card>
 	<card>
 		<k>пабаска</k>
-		<blockquote>р. разг.</blockquote>
-		<blockquote>(или пабаска араба)</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<meta>(или пабаска араба)</meta>
 		<blockquote>повозка, экипаж, фаэтон;</blockquote>
-		<blockquote>үч атка кошкон пабаска араба экипаж, запряжённый тройкой
-               лошадей.</blockquote>
+		<blockquote>үч атка кошкон пабаска араба экипаж, запряжённый тройкой лошадей.</blockquote>
 	</card>
 	<card>
 		<k>пабирик</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что фабрика.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="фабрика"/>
 	</card>
 	<card>
 		<k>павильон</k>
-		<blockquote>павильон.</blockquote>
+		<trn>павильон</trn>
 	</card>
 	<card>
 		<k>пада</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>см. бада.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<look word="бада"/>
 	</card>
 	<card>
 		<k>падага</k>
-		<blockquote>парное к садага;</blockquote>
+		<pair word="садага"/>
 		<blockquote>садага-падага всякого рода милостыня и подаяния.</blockquote>
 	</card>
 	<card>
 		<k>падалөк</k>
-		<blockquote>р. сев.</blockquote>
+		<origin>р.</origin>
+		<meta>сев.</meta>
 		<blockquote>подлог, мошенничество;</blockquote>
 		<blockquote>падалөгү чыгып калды у него обнаружился подлог.</blockquote>
 	</card>
 	<card>
 		<k>падар</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>отец;</blockquote>
-		<blockquote>только в выражении: падарыңа наалат! проклятие твоему отцу! (что он породил
-               такого негодника или такую негодницу).</blockquote>
+		<blockquote>только в выражении: падарыңа наалат! проклятие твоему отцу! (что он породил такого негодника или такую негодницу).</blockquote>
 	</card>
 	<card>
 		<k>падачы</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что уйчу.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="уйчу"/>
 	</card>
 	<card>
 		<k>падбот</k>
-		<blockquote>р. сев.</blockquote>
-		<blockquote>1. подвода;</blockquote>
-		<blockquote>падбот жалда- нанять подводу;</blockquote>
-		<blockquote>2. перен. большая чашка (спиртного, кумыса и т.п.).</blockquote>
+		<origin>р.</origin>
+		<meta>сев.</meta>
+		<meaning>
+			<blockquote>подвода;</blockquote>
+			<blockquote>падбот жалда- нанять подводу;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>большая чашка (спиртного, кумыса и т.п.).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>падумат</k>
 		<blockquote>р. разг.:</blockquote>
 		<blockquote>падумат эт- подумать, обдумать;</blockquote>
-		<blockquote>сиз да ойлоңуз, мен да падумат этейин вы подумайте, я тоже
-               подумаю.</blockquote>
+		<blockquote>сиз да ойлоңуз, мен да падумат этейин вы подумайте, я тоже подумаю.</blockquote>
 	</card>
 	<card>
 		<k>падыша</k>
-		<blockquote>то же, что бадыша;</blockquote>
+		<sameas word="бадыша"/>
 		<blockquote>жарым падыша ист. генерал-губернатор (букв. полуцарь).</blockquote>
 	</card>
 	<card>
 		<k>падышачыл</k>
-		<blockquote>то же, что бадышачыл.</blockquote>
+		<sameas word="бадышачыл"/>
 	</card>
 	<card>
 		<k>падышачылык</k>
-		<blockquote>1. всё свойственное царю (поведение царя, царские замашки и
-               т.п.);</blockquote>
-		<blockquote>2. царизм;</blockquote>
-		<blockquote>падышачылыктын колониялык саясаты колониальная политика
-               царизма.</blockquote>
+		<meaning>
+			<blockquote>всё свойственное царю (поведение царя, царские замашки и т.п.);</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>царизм;</blockquote>
+			<blockquote>падышачылыктын колониялык саясаты колониальная политика царизма.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пажалыста</k>
-		<blockquote>р. сев.</blockquote>
+		<origin>р.</origin>
+		<meta>сев.</meta>
 		<blockquote>пожалуйста;</blockquote>
-		<blockquote>чай ичсеңер, пажалыста, азыр если будете пить чай, пожалуйста, сейчас (будет
-               готов).</blockquote>
+		<blockquote>чай ичсеңер, пажалыста, азыр если будете пить чай, пожалуйста, сейчас (будет готов).</blockquote>
 	</card>
 	<card>
 		<k>пай</k>
-		<blockquote>пай I</blockquote>
-		<blockquote>пай;</blockquote>
-		<blockquote>кирүү пайы или пай акы вступительный пай.</blockquote>
-		<blockquote>пай II:</blockquote>
-		<blockquote>пай-пай! ай-ай, ой-ой! (возглас удивления или неудовольствия);</blockquote>
-		<blockquote>пай-пай, сонун экен! ой-ой, как хорошо!;</blockquote>
-		<blockquote>мунун жазыгы эмне экен? пай-пай-пай в чём же его вина? ай-ай!</blockquote>
-		<blockquote>пай III</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что тарамыш.</blockquote>
+		<homonym>
+			<trn>пай</trn>
+			<blockquote>кирүү пайы или пай акы вступительный пай.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>пай II:</blockquote>
+			<blockquote>пай-пай! ай-ай, ой-ой! (возглас удивления или неудовольствия);</blockquote>
+			<blockquote>пай-пай, сонун экен! ой-ой, как хорошо!;</blockquote>
+			<blockquote>мунун жазыгы эмне экен? пай-пай-пай в чём же его вина? ай-ай!</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<sameas word="тарамыш"/>
+		</homonym>
 	</card>
 	<card>
 		<k>пайабзал</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>обувь.</blockquote>
 	</card>
 	<card>
 		<k>пайвант</k>
-		<blockquote>ир. <p>южн.</p> бот.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meta>бот.</meta>
 		<blockquote>прививка.</blockquote>
 	</card>
 	<card>
 		<k>пайгамбар</k>
-		<blockquote>то же, что байгамбар.</blockquote>
+		<sameas word="байгамбар"/>
 	</card>
 	<card>
 		<k>пайге</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что байге.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="байге"/>
 	</card>
 	<card>
 		<k>пайда</k>
-		<blockquote>пайда I</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>появление;</blockquote>
-		<blockquote>пайда бол- появиться.</blockquote>
-		<blockquote>пайда II</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>польза, выгода, прибыль;</blockquote>
-		<blockquote>жамандын жолдошу көп, жанына пайдасы жок погов. у дурного товарищей много,
-               (но от них) душе его пользы нет;</blockquote>
-		<blockquote>эмне (или кандай) пайдасы бар? какая от этого (или от него)
-               польза?</blockquote>
-		<blockquote>пайдасы да жок, зыяны да жок от этого (или от него) нет ни пользы, ни убытка
-               (или ни вреда);</blockquote>
-		<blockquote>пайда тап- или пайда түшүр- получить выгоду;</blockquote>
-		<blockquote>пайдасына в его пользу;</blockquote>
-		<blockquote>мелдеш "Спартактын" пайдасына бүттү соревнование закончилось в пользу
-               "Спартака";</blockquote>
-		<blockquote>өз пайдасына чабат он стремится к личной выгоде;</blockquote>
-		<blockquote>пайдага чаппаган (о человеке) бескорыстный, не жадный (до
-               наживы).</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>появление;</blockquote>
+			<blockquote>пайда бол- появиться.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<blockquote>польза, выгода, прибыль;</blockquote>
+			<ex>
+				<source>жамандын жолдошу көп, жанына пайдасы жок погов.</source>
+				<target>у дурного товарищей много, (но от них) душе его пользы нет;</target>
+			</ex>
+			<blockquote>эмне (или кандай) пайдасы бар? какая от этого (или от него) польза?</blockquote>
+			<blockquote>пайдасы да жок, зыяны да жок от этого (или от него) нет ни пользы, ни убытка (или ни вреда);</blockquote>
+			<blockquote>пайда тап- или пайда түшүр- получить выгоду;</blockquote>
+			<blockquote>пайдасына в его пользу;</blockquote>
+			<blockquote>мелдеш "Спартактын" пайдасына бүттү соревнование закончилось в пользу "Спартака";</blockquote>
+			<blockquote>өз пайдасына чабат он стремится к личной выгоде;</blockquote>
+			<blockquote>пайдага чаппаган (о человеке) бескорыстный, не жадный (до наживы).</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>пайдагер</k>
-		<blockquote>(или пайдакеч, пайдакор)</blockquote>
-		<blockquote>ар.-ир.</blockquote>
+		<meta>(или пайдакеч, пайдакор)</meta>
+		<origin>ар.-ир.</origin>
 		<blockquote>стяжатель, корыстолюбец;</blockquote>
-		<blockquote>сүткө берген соодагер, артык алар пайдагер стих. торговец, дающий в рост,
-               берущий лихву корыстолюбец.</blockquote>
+		<ex>
+			<source>сүткө берген соодагер, артык алар пайдагер стих.</source>
+			<target>торговец, дающий в рост, берущий лихву корыстолюбец.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пайдалан-</k>
 		<blockquote>пользоваться, извлекать пользу; использовать; воспользоваться;</blockquote>
-		<blockquote>киши эмгегинен пайдалан- пользоваться чужим трудом, эксплуатировать чужой
-               труд.</blockquote>
+		<blockquote>киши эмгегинен пайдалан- пользоваться чужим трудом, эксплуатировать чужой труд.</blockquote>
 	</card>
 	<card>
 		<k>пайдалангыч</k>
@@ -211,36 +225,32 @@
 	</card>
 	<card>
 		<k>пайдалант-</k>
-		<blockquote>понуд. от пайдалан-</blockquote>
+		<caus word="пайдалан"/>
 		<blockquote>дать возможность использовать или воспользоваться;</blockquote>
-		<blockquote>мен мылтыгымды эч кимге пайдалантпаймын я никому не позволю пользоваться
-               моим ружьём; своё ружьё я никому не дам.</blockquote>
+		<blockquote>мен мылтыгымды эч кимге пайдалантпаймын я никому не позволю пользоваться моим ружьём; своё ружьё я никому не дам.</blockquote>
 	</card>
 	<card>
 		<k>пайдалануу</k>
-		<blockquote>и. д. от пайдалан-</blockquote>
+		<actionNoun word="пайдалан"/>
 		<blockquote>использование, утилизация, эксплуатация чего-л.;</blockquote>
-		<blockquote>атом энергиясын тынчтык максатта пайдалануу использование атомной энергии в
-               мирных целях;</blockquote>
+		<blockquote>атом энергиясын тынчтык максатта пайдалануу использование атомной энергии в мирных целях;</blockquote>
 		<blockquote>пайдаланууга берилди сдано в эксплуатацию.</blockquote>
 	</card>
 	<card>
 		<k>пайдаланыл-</k>
-		<blockquote>страд. от пайдалан-</blockquote>
+		<pass word="пайдалан"/>
 		<blockquote>быть используемым, использоваться;</blockquote>
-		<blockquote>бардык мүмкүнчүлүктөр пайдаланылсын должны быть использованы все
-               возможности;</blockquote>
-		<blockquote>көп резервдер пайдаланылбай жатат многие резервы не
-               используются;</blockquote>
+		<blockquote>бардык мүмкүнчүлүктөр пайдаланылсын должны быть использованы все возможности;</blockquote>
+		<blockquote>көп резервдер пайдаланылбай жатат многие резервы не используются;</blockquote>
 		<blockquote>пайдаланылган адабияттар использованная литература.</blockquote>
 	</card>
 	<card>
 		<k>пайдаланылуу</k>
-		<blockquote>и. д. от пайдаланыл-.</blockquote>
+		<actionNoun word="пайдаланыл"/>
 	</card>
 	<card>
 		<k>пайдаланыш-</k>
-		<blockquote>взаимн. от пайдалан-.</blockquote>
+		<recv word="пайдалан"/>
 	</card>
 	<card>
 		<k>пайдалаш</k>
@@ -264,268 +274,285 @@
 	</card>
 	<card>
 		<k>пайдубал</k>
-		<blockquote>1. прям., перен. фундамент, основа;</blockquote>
-		<blockquote>үйдүн пайдубалын бүтө элекмин я ещё не закончил фундамент дома;</blockquote>
-		<blockquote>пайдубалды көтөрүштү они возвели фундамент;</blockquote>
-		<blockquote>социализмдин пайдубалы фундамент социализма;</blockquote>
-		<blockquote>2. крепостная стена;</blockquote>
-		<blockquote>жети кез коргон пайдубал <p>фольк.</p> (высотою) в семь аршин крепостная
-               стена;</blockquote>
-		<blockquote>пайдубалдай бекемсиң, адептүү балам экенсиң ты крепок, как крепостная стена,
-               учтивый ты мой сын.</blockquote>
+		<meaning>
+			<meta>прям.</meta>
+			<meta>перен.</meta>
+			<blockquote>фундамент, основа;</blockquote>
+			<blockquote>үйдүн пайдубалын бүтө элекмин я ещё не закончил фундамент дома;</blockquote>
+			<blockquote>пайдубалды көтөрүштү они возвели фундамент;</blockquote>
+			<blockquote>социализмдин пайдубалы фундамент социализма;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>крепостная стена;</blockquote>
+			<ex>
+				<source>жети кез коргон пайдубал фольк.</source>
+				<target>(высотою) в семь аршин крепостная стена;</target>
+			</ex>
+			<blockquote>пайдубалдай бекемсиң, адептүү балам экенсиң ты крепок, как крепостная стена, учтивый ты мой сын.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пайла-</k>
-		<blockquote>ир.-кирг. <p>южн.</p>, сев. редко</blockquote>
-		<blockquote>1. подстерегать, выслеживать;</blockquote>
-		<blockquote>мерген айувду пайлап калды <p>южн.</p> охотник подстерегает (или выслеживает)
-               медведя;</blockquote>
-		<blockquote>2. присматривать;</blockquote>
-		<blockquote>жүргүлө, бир-бириңди пайлабыраак стих. двигайтесь, один за другим
-               присматривая.</blockquote>
+		<blockquote>ир.-кирг. южн., сев. редко</blockquote>
+		<meaning>
+			<blockquote>подстерегать, выслеживать;</blockquote>
+			<blockquote>мерген айувду пайлап калды южн. охотник подстерегает (или выслеживает) медведя;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>присматривать;</blockquote>
+			<ex>
+				<source>жүргүлө, бир-бириңди пайлабыраак стих.</source>
+				<target>двигайтесь, один за другим присматривая.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>паймарек</k>
-		<blockquote>памир.</blockquote>
+		<meta>памир.</meta>
 		<blockquote>питательное питьё из смеси айрана и сливок.</blockquote>
 	</card>
 	<card>
 		<k>пайнап</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что майнап.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="майнап"/>
 	</card>
 	<card>
 		<k>пайнек</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. тупой конец яйца;</blockquote>
-		<blockquote>2. <p>южн.</p> украшение в виде металлической оправы на конце ножен;</blockquote>
-		<blockquote>жез пайнек кылыч сабля в ножнах с медным наконечником.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>тупой конец яйца;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>украшение в виде металлической оправы на конце ножен;</blockquote>
+			<blockquote>жез пайнек кылыч сабля в ножнах с медным наконечником.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пайпак</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что байпак.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="байпак"/>
 	</card>
 	<card>
 		<k>пайпаңда-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что байпаңда-.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="байпаңда"/>
 	</card>
 	<card>
 		<k>пайса</k>
-		<blockquote>ир. <p>южн.</p> уст.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meta>уст.</meta>
 		<blockquote>мера веса, равная приблизительно 50 граммам;</blockquote>
 		<blockquote>эки пайса чай сто граммов чаю.</blockquote>
 	</card>
 	<card>
 		<k>пайсала-</k>
 		<blockquote>
-			<p>южн.</p> уст.</blockquote>
+			южн. уст.</blockquote>
 		<blockquote>взвешивать на пайса (см.).</blockquote>
 	</card>
 	<card>
 		<k>пайтаба,</k>
 		<blockquote>пайтаба, пайтама</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что байтама.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="байтама"/>
 	</card>
 	<card>
 		<k>пайтеше</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>плотничий топор, тесло.</blockquote>
 	</card>
 	<card>
 		<k>пайтон</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что файтон.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="файтон"/>
 	</card>
 	<card>
 		<k>пайча</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что шыйрак;</blockquote>
-		<blockquote>к лл -пайча см. келде;</blockquote>
-		<blockquote>2. то же, что багалек.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="шыйрак"/>
+			<blockquote>к лл -пайча см. келде;</blockquote>
+		</meaning>
+		<meaning>
+			<sameas word="багалек"/>
+		</meaning>
 	</card>
 	<card>
 		<k>пайчеки</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что чарык II.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="чарык" index="2"/>
 	</card>
 	<card>
 		<k>пайчы</k>
-		<blockquote>ир.-кирг. <p>южн.</p>
-		</blockquote>
+		<origin>ир.-кирг.</origin>
+		<meta>южн.</meta>
 		<blockquote>соглядатай.</blockquote>
 	</card>
 	<card>
 		<k>пайшак</k>
-		<blockquote>(или паншак)</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<meta>(или паншак)</meta>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>вилы пятирожковые.</blockquote>
 	</card>
 	<card>
 		<k>пайшамби</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бейшемби.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бейшемби"/>
 	</card>
 	<card>
 		<k>пайщик</k>
-		<blockquote>пайщик.</blockquote>
+		<trn>пайщик</trn>
 	</card>
 	<card>
 		<k>пайыз</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что поезд.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="поезд"/>
 	</card>
 	<card>
 		<k>пайым</k>
-		<blockquote>то же, что баам.</blockquote>
+		<sameas word="баам"/>
 	</card>
 	<card>
 		<k>пакал</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>солома.</blockquote>
 	</card>
 	<card>
 		<k>пакас</k>
-		<blockquote>то же, что пакказ.</blockquote>
+		<sameas word="пакказ"/>
 	</card>
 	<card>
 		<k>пакене</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бакене;</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бакене"/>
 		<blockquote>бойу пакене киши человек низкого роста.</blockquote>
 	</card>
 	<card>
 		<k>пакет</k>
-		<blockquote>пакет.</blockquote>
+		<trn>пакет</trn>
 	</card>
 	<card>
 		<k>пакказ</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>в отриц. обороте</blockquote>
 		<blockquote>совершенно не..., абсолютно не..., ничуть, никак;</blockquote>
-		<blockquote>пакказ күн жааган жок атмосферных осадков (гл. обр. дождя) совсем не
-               было.</blockquote>
+		<blockquote>пакказ күн жааган жок атмосферных осадков (гл. обр. дождя) совсем не было.</blockquote>
 	</card>
 	<card>
 		<k>пакса</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бакса.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бакса"/>
 	</card>
 	<card>
 		<k>пакт</k>
-		<blockquote>пакт;</blockquote>
+		<trn>пакт</trn>
 		<blockquote>кол салышпоо жөнүндөгү пакт пакт о ненападении;</blockquote>
 		<blockquote>тынчтыктын пактиси пакт мира.</blockquote>
 	</card>
 	<card>
 		<k>пакта</k>
-		<blockquote>то же, что пахта.</blockquote>
+		<sameas word="пахта"/>
 	</card>
 	<card>
 		<k>пактакер</k>
-		<blockquote>то же, что пахтакер.</blockquote>
+		<sameas word="пахтакер"/>
 	</card>
 	<card>
 		<k>пактачы</k>
-		<blockquote>то же, что пахтачы.</blockquote>
+		<sameas word="пахтачы"/>
 	</card>
 	<card>
 		<k>пактачылык</k>
-		<blockquote>то же, что пахтачылык.</blockquote>
+		<sameas word="пахтачылык"/>
 	</card>
 	<card>
 		<k>пакти</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что факт.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="факт"/>
 	</card>
 	<card>
 		<k>пакыр</k>
 		<blockquote>
-			<p>южн.</p> уст.</blockquote>
-		<blockquote>то же, что бакыр II 3;</blockquote>
+			южн. уст.</blockquote>
+		<sameas word="бакыр" index="2" subindex="3"/>
 		<blockquote>бир пакыр две копейки;</blockquote>
 		<blockquote>эки пакыр четыре копейки.</blockquote>
 	</card>
 	<card>
 		<k>пал</k>
-		<blockquote>пал I</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бал III.</blockquote>
-		<blockquote>пал II</blockquote>
-		<blockquote>то же, что бал I 2.</blockquote>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="бал" index="3"/>
+		</homonym>
+		<homonym>
+			<sameas word="бал" index="1" subindex="2"/>
+		</homonym>
 	</card>
 	<card>
 		<k>палабот</k>
-		<blockquote>сев. разг.</blockquote>
-		<blockquote>то же, что полевод.</blockquote>
+		<meta>сев.</meta>
+		<meta>разг.</meta>
+		<sameas word="полевод"/>
 	</card>
 	<card>
 		<k>палаз</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>палас или половик из грубой шерстяной ткани.</blockquote>
 	</card>
 	<card>
 		<k>палакман</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что салмоор.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="салмоор"/>
 	</card>
 	<card>
 		<k>палам</k>
-		<blockquote>парное к салам.</blockquote>
+		<pair word="салам"/>
 	</card>
 	<card>
 		<k>палан</k>
-		<blockquote>то же, что балан;</blockquote>
-		<blockquote>палан-пустан или палан-түкүн или палантөлөң то-сё,
-               пятое-десятое;</blockquote>
-		<blockquote>паландын уулу палан деп, паркың элге чыгарба <p>фольк.</p> ты не хвались перед
-               народом, мол, я такой-то, сын такого-то (а хвались тем, что сделал).</blockquote>
+		<sameas word="балан"/>
+		<blockquote>палан-пустан или палан-түкүн или палантөлөң то-сё, пятое-десятое;</blockquote>
+		<ex>
+			<source>паландын уулу палан деп, паркың элге чыгарба фольк.</source>
+			<target>ты не хвались перед народом, мол, я такой-то, сын такого-то (а хвались тем, что сделал).</target>
+		</ex>
 	</card>
 	<card>
 		<k>палаң</k>
-		<blockquote>палаң I</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. бычье седло;</blockquote>
-		<blockquote>2. подхвостник на ослином седле.</blockquote>
-		<blockquote>палаң II</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>год барса (см. жыл I 2).</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meaning>
+				<blockquote>бычье седло;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>подхвостник на ослином седле.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<blockquote>год барса (см. жыл I 2).</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>паланча</k>
-		<blockquote>то же, что баланча.</blockquote>
+		<sameas word="баланча"/>
 	</card>
 	<card>
 		<k>палата</k>
-		<blockquote>в разн. знач. палата;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>палата</trn>
 		<blockquote>төмөнкү палата нижняя палата;</blockquote>
 		<blockquote>жогорку палата верхняя палата;</blockquote>
 		<blockquote>общиналар палатасы палата общин;</blockquote>
@@ -534,88 +561,94 @@
 	</card>
 	<card>
 		<k>палван</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что балбан.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="балбан"/>
 	</card>
 	<card>
 		<k>палек</k>
-		<blockquote>палек I</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. плеть (бахчевых культур);</blockquote>
-		<blockquote>2. (точнее ширин п л к) сорт дыни;</blockquote>
-		<blockquote>оозуңа ширин п л к похвала в рот тебе сладкой дыни.</blockquote>
-		<blockquote>палек II</blockquote>
-		<blockquote>ар. <p>южн.</p>
-		</blockquote>
-		<blockquote>небосвод;</blockquote>
-		<blockquote>асмани п л к высь.</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meaning>
+				<blockquote>плеть (бахчевых культур);</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>(точнее ширин п л к) сорт дыни;</blockquote>
+				<blockquote>оозуңа ширин п л к похвала в рот тебе сладкой дыни.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>южн.</meta>
+			<blockquote>небосвод;</blockquote>
+			<blockquote>асмани п л к высь.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>пали</k>
-		<blockquote>парное к али.</blockquote>
+		<pair word="али"/>
 	</card>
 	<card>
 		<k>палийса</k>
-		<blockquote>то же, что полиция.</blockquote>
+		<sameas word="полиция"/>
 	</card>
 	<card>
 		<k>палит</k>
-		<blockquote>то же, что балит.</blockquote>
+		<sameas word="балит"/>
 	</card>
 	<card>
 		<k>палоо</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>плов;</blockquote>
 		<blockquote>палоо бас- варить плов;</blockquote>
 		<blockquote>палоо бастыр-заставить варить плов.</blockquote>
 	</card>
 	<card>
 		<k>палта</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что балта.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="балта"/>
 	</card>
 	<card>
 		<k>палтоо</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пальто.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пальто"/>
 	</card>
 	<card>
 		<k>пальто</k>
-		<blockquote>пальто.</blockquote>
+		<trn>пальто</trn>
 	</card>
 	<card>
 		<k>памбаркут</k>
-		<blockquote>р.</blockquote>
+		<origin>р.</origin>
 		<blockquote>панбархат (ткань).</blockquote>
 	</card>
 	<card>
 		<k>памещик</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что помещик.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="помещик"/>
 	</card>
 	<card>
 		<k>памылыя</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что фамилия.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="фамилия"/>
 	</card>
 	<card>
 		<k>пан</k>
-		<blockquote>пан I</blockquote>
-		<blockquote>ар. уст.</blockquote>
-		<blockquote>наука.</blockquote>
-		<blockquote>пан II</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>род сладких лепёшек;</blockquote>
-		<blockquote>п нд н алың, жең берите п н, кушайте.</blockquote>
-		<blockquote>пан III</blockquote>
-		<blockquote>ист.</blockquote>
-		<blockquote>пан (польский).</blockquote>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>уст.</meta>
+			<blockquote>наука.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<blockquote>род сладких лепёшек;</blockquote>
+			<blockquote>п нд н алың, жең берите п н, кушайте.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>ист.</meta>
+			<blockquote>пан (польский).</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>паң</k>
@@ -624,63 +657,78 @@
 	</card>
 	<card>
 		<k>панай</k>
-		<blockquote>то же, что маанай.</blockquote>
+		<sameas word="маанай"/>
 	</card>
 	<card>
 		<k>панар</k>
-		<blockquote>р.</blockquote>
-		<blockquote>1. фонарь;</blockquote>
-		<blockquote>он сегизде жаркырап күйгөн панар-чыраксың стих. в восемнадцать (лет) ты
-               сверкаешь, как горящий фонарь-светильник;</blockquote>
-		<blockquote>2. сев. ламповое стекло.</blockquote>
+		<origin>р.</origin>
+		<meaning>
+			<blockquote>фонарь;</blockquote>
+			<ex>
+				<source>он сегизде жаркырап күйгөн панар-чыраксың стих.</source>
+				<target>в восемнадцать (лет) ты сверкаешь, как горящий фонарь-светильник;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>сев.</meta>
+			<blockquote>ламповое стекло.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>панара</k>
-		<blockquote>р. тяньш.</blockquote>
-		<blockquote>1. то же, что фанера;</blockquote>
-		<blockquote>2. фанерный потолок.</blockquote>
+		<origin>р.</origin>
+		<meta>тяньш.</meta>
+		<meaning>
+			<sameas word="фанера"/>
+		</meaning>
+		<meaning>
+			<blockquote>фанерный потолок.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>панарке</k>
-		<blockquote>р. <p>южн.</p>
-		</blockquote>
+		<origin>р.</origin>
+		<meta>южн.</meta>
 		<blockquote>фанерный потолок.</blockquote>
 	</card>
 	<card>
 		<k>панжа</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что манжа;</blockquote>
+		<meta>южн.</meta>
+		<sameas word="манжа"/>
 		<blockquote>панжа башы ист. командир над пятью солдатами.</blockquote>
 	</card>
 	<card>
 		<k>панжара</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. решётка;</blockquote>
-		<blockquote>2. оконкая рама.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>решётка;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>оконкая рама.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>панжи</k>
-		<blockquote>ир. <p>южн.</p>:</blockquote>
+		<blockquote>ир. южн.:</blockquote>
 		<blockquote>панжи кой пятилетняя овца.</blockquote>
 	</card>
 	<card>
 		<k>панжыра</k>
-		<blockquote>то же, что панжара.</blockquote>
+		<sameas word="панжара"/>
 	</card>
 	<card>
 		<k>панисламизм</k>
-		<blockquote>панисламизм.</blockquote>
+		<trn>панисламизм</trn>
 	</card>
 	<card>
 		<k>панисламист</k>
-		<blockquote>панисламист.</blockquote>
+		<trn>панисламист</trn>
 	</card>
 	<card>
 		<k>панке</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>азартная игра в карты;</blockquote>
 		<blockquote>панке ойно- играть в азартную карточную игру.</blockquote>
 	</card>
@@ -690,22 +738,22 @@
 	</card>
 	<card>
 		<k>панно</k>
-		<blockquote>панно.</blockquote>
+		<trn>панно</trn>
 	</card>
 	<card>
 		<k>панорама</k>
-		<blockquote>панорама.</blockquote>
+		<trn>панорама</trn>
 	</card>
 	<card>
 		<k>паңсат</k>
-		<blockquote>ир. ист.</blockquote>
-		<blockquote>пятисотник (должностное лицо в ханские времена; так же именовался и
-               предводитель отряда басмачей).</blockquote>
+		<origin>ир.</origin>
+		<meta>ист.</meta>
+		<blockquote>пятисотник (должностное лицо в ханские времена; так же именовался и предводитель отряда басмачей).</blockquote>
 	</card>
 	<card>
 		<k>пант</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>наставление, нравоучение.</blockquote>
 	</card>
 	<card>
@@ -722,7 +770,7 @@
 	</card>
 	<card>
 		<k>паншак</k>
-		<blockquote>см. пайшак.</blockquote>
+		<look word="пайшак"/>
 	</card>
 	<card>
 		<k>папа</k>
@@ -731,17 +779,16 @@
 	</card>
 	<card>
 		<k>папик</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что чачы 1;</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="чачы" subindex="1"/>
 		<blockquote>чач п пик то же, что чачпак.</blockquote>
 	</card>
 	<card>
 		<k>папирос</k>
-		<blockquote>(или папироса)</blockquote>
+		<meta>(или папироса)</meta>
 		<blockquote>папироса;</blockquote>
-		<blockquote>тиштеген папиросун тутандырып алды он закурил папиросу, которую держал в
-               зубах.</blockquote>
+		<blockquote>тиштеген папиросун тутандырып алды он закурил папиросу, которую держал в зубах.</blockquote>
 	</card>
 	<card>
 		<k>папка</k>
@@ -749,30 +796,55 @@
 	</card>
 	<card>
 		<k>папыш</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>детские матерчатые чулочки.</blockquote>
 	</card>
 	<card>
 		<k>пар</k>
-		<blockquote>пар I</blockquote>
-		<blockquote>р.</blockquote>
-		<blockquote>1. пара;</blockquote>
-		<blockquote>пар ат чегилген араба телега, запряжённая парой лошадей;</blockquote>
-		<blockquote>2. перен. пара, ровня;</blockquote>
-		<blockquote>ал сага пар келбейт он тебе не пара, не ровня;</blockquote>
-		<blockquote>мергениң менин парымбы? <p>фольк.</p> разве мне пара твой охотник?</blockquote>
-		<blockquote>3. перен. к лицу, соответствующий;</blockquote>
-		<blockquote>пар келишкен боруму стих. её наряд пришёлся ей к лицу (ещё см. бар
-               II).</blockquote>
-		<blockquote>пар II</blockquote>
-		<blockquote>ир. сев.</blockquote>
-		<blockquote>1. птичье перо;</blockquote>
-		<blockquote>пар жаздык подушка из птичьего пера;</blockquote>
-		<blockquote>2. <p>южн.</p> крыло птицы;</blockquote>
-		<blockquote>кушту учурат п р деген стих. птице позволяет летать крыло;</blockquote>
-		<blockquote>3. <p>южн.</p> то же, что паранда.</blockquote>
+		<homonym>
+			<origin>р.</origin>
+			<meaning>
+				<blockquote>пара;</blockquote>
+				<blockquote>пар ат чегилген араба телега, запряжённая парой лошадей;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>пара, ровня;</blockquote>
+				<blockquote>ал сага пар келбейт он тебе не пара, не ровня;</blockquote>
+				<ex>
+					<source>мергениң менин парымбы? фольк.</source>
+					<target>разве мне пара твой охотник?</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>к лицу, соответствующий;</blockquote>
+				<ex>
+					<source>пар келишкен боруму стих.</source>
+					<target>её наряд пришёлся ей к лицу (ещё см. бар II).</target>
+				</ex>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>сев.</meta>
+			<meaning>
+				<blockquote>птичье перо;</blockquote>
+				<blockquote>пар жаздык подушка из птичьего пера;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>южн.</meta>
+				<blockquote>крыло птицы;</blockquote>
+				<ex>
+					<source>кушту учурат п р деген стих.</source>
+					<target>птице позволяет летать крыло;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meta>южн.</meta>
+				<sameas word="паранда"/>
+			</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>пара</k>
@@ -781,78 +853,78 @@
 	</card>
 	<card>
 		<k>параан</k>
-		<blockquote>то же, что бараан;</blockquote>
-		<blockquote>караан-параан көрбөдүк мы не видели никаких признаков (жилья и
-               т.п.).</blockquote>
+		<sameas word="бараан"/>
+		<blockquote>караан-параан көрбөдүк мы не видели никаких признаков (жилья и т.п.).</blockquote>
 	</card>
 	<card>
 		<k>парабоз</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что паровоз.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="паровоз"/>
 	</card>
 	<card>
 		<k>параварди</k>
-		<blockquote>ир. <p>южн.</p>:</blockquote>
+		<blockquote>ир. южн.:</blockquote>
 		<blockquote>паравардида в заключение, в конце концов.</blockquote>
 	</card>
 	<card>
 		<k>параграф</k>
-		<blockquote>параграф.</blockquote>
+		<trn>параграф</trn>
 	</card>
 	<card>
 		<k>парад</k>
-		<blockquote>парад.</blockquote>
+		<trn>парад</trn>
 	</card>
 	<card>
 		<k>паразит</k>
-		<blockquote>прям., перен.</blockquote>
-		<blockquote>паразит.</blockquote>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<trn>паразит</trn>
 	</card>
 	<card>
 		<k>паразитология</k>
-		<blockquote>паразитология.</blockquote>
+		<trn>паразитология</trn>
 	</card>
 	<card>
 		<k>парай</k>
-		<blockquote>парное к сарай;</blockquote>
-		<blockquote>сарай-парайын үйгө бириктире салган сарай и всякие другие пристройки он
-               подвёл под одну крышу с домом.</blockquote>
+		<pair word="сарай"/>
+		<blockquote>сарай-парайын үйгө бириктире салган сарай и всякие другие пристройки он подвёл под одну крышу с домом.</blockquote>
 	</card>
 	<card>
 		<k>парак</k>
-		<blockquote>ир. чатк.</blockquote>
-		<blockquote>то же, что калбыр I.</blockquote>
+		<origin>ир.</origin>
+		<meta>чатк.</meta>
+		<sameas word="калбыр" index="1"/>
 	</card>
 	<card>
 		<k>паракор</k>
-		<blockquote>то же, что баракор.</blockquote>
+		<sameas word="баракор"/>
 	</card>
 	<card>
 		<k>паракот</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пароход.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пароход"/>
 	</card>
 	<card>
 		<k>параллелизм</k>
-		<blockquote>параллелизм.</blockquote>
+		<trn>параллелизм</trn>
 	</card>
 	<card>
 		<k>параллель</k>
-		<blockquote>параллель.</blockquote>
+		<trn>параллель</trn>
 	</card>
 	<card>
 		<k>паранда</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>птица.</blockquote>
 	</card>
 	<card>
 		<k>паранжы</k>
-		<blockquote>то же, что баранжы.</blockquote>
+		<sameas word="баранжы"/>
 	</card>
 	<card>
 		<k>парасат</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>догадливость, понятливость, рассудительность.</blockquote>
 	</card>
 	<card>
@@ -861,239 +933,272 @@
 	</card>
 	<card>
 		<k>парат</k>
-		<blockquote>парат: бел парат <p>южн.</p> то же, что окчонтой.</blockquote>
+		<blockquote>парат: бел парат южн. то же, что окчонтой.</blockquote>
 	</card>
 	<card>
 		<k>параход</k>
-		<blockquote>р.</blockquote>
+		<origin>р.</origin>
 		<blockquote>пароход.</blockquote>
 	</card>
 	<card>
 		<k>парачы</k>
-		<blockquote>то же, что баракор.</blockquote>
+		<sameas word="баракор"/>
 	</card>
 	<card>
 		<k>парбардигер</k>
-		<blockquote>то же, что барбардигер.</blockquote>
+		<sameas word="барбардигер"/>
 	</card>
 	<card>
 		<k>парваана</k>
-		<blockquote>то же, что барбаана.</blockquote>
+		<sameas word="барбаана"/>
 	</card>
 	<card>
 		<k>парвайиш</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>уход, воспитание.</blockquote>
 	</card>
 	<card>
 		<k>парга</k>
-		<blockquote>парное к арга.</blockquote>
+		<pair word="арга"/>
 	</card>
 	<card>
 		<k>паргабар</k>
-		<blockquote>то же, что биргөбөр.</blockquote>
+		<sameas word="биргөбөр"/>
 	</card>
 	<card>
 		<k>парда</k>
-		<blockquote>парда I</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. занавес, занавеска; покрывало; вуаль;</blockquote>
-		<blockquote>терезеге кисеядан жасалган пардалар тартылган окна были завешены кисейными
-               занавесками;</blockquote>
-		<blockquote>бетине парда салды лицо её закрыли покрывалом;</blockquote>
-		<blockquote>2. (точнее бет пардасы) перен. покров, маска;</blockquote>
-		<blockquote>текшерүү сенин кара пардаңды сыйрып таштады расследование сорвало с тебя (с
-               твоего лица) чёрную маску;</blockquote>
-		<blockquote>бет пардасын сыйрып таштап сорвав с него маску;</blockquote>
-		<blockquote>түн пардасы покров ночи;</blockquote>
-		<blockquote>айнек парда см. айнек 2.</blockquote>
-		<blockquote>парда- II:</blockquote>
-		<blockquote>көз парда- открыть глаза, прозреть;</blockquote>
-		<blockquote>пардагын көздү, көң Алай! стих. открой глаза, обширный Алай!;</blockquote>
-		<blockquote>көптү көрүп, көз пардадым күрөш менен жашымдан стих. много испытав, я
-               смолоду в борьбе прозрел.</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>занавес, занавеска; покрывало; вуаль;</blockquote>
+				<blockquote>терезеге кисеядан жасалган пардалар тартылган окна были завешены кисейными занавесками;</blockquote>
+				<blockquote>бетине парда салды лицо её закрыли покрывалом;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>(точнее бет пардасы) перен. покров, маска;</blockquote>
+				<blockquote>текшерүү сенин кара пардаңды сыйрып таштады расследование сорвало с тебя (с твоего лица) чёрную маску;</blockquote>
+				<blockquote>бет пардасын сыйрып таштап сорвав с него маску;</blockquote>
+				<blockquote>түн пардасы покров ночи;</blockquote>
+				<blockquote>айнек парда см. айнек 2.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>парда- II:</blockquote>
+			<blockquote>көз парда- открыть глаза, прозреть;</blockquote>
+			<ex>
+				<source>пардагын көздү, көң Алай! стих.</source>
+				<target>открой глаза, обширный Алай!;</target>
+			</ex>
+			<ex>
+				<source>көптү көрүп, көз пардадым күрөш менен жашымдан стих.</source>
+				<target>много испытав, я смолоду в борьбе прозрел.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>пардаз</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. лощение; лоск;</blockquote>
-		<blockquote>2. косметика (белила, румяна).</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>лощение; лоск;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>косметика (белила, румяна).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пардаш</k>
-		<blockquote>то же, что бардаш;</blockquote>
-		<blockquote>пардаш кыл, жарым шашылба стих. потерпи, любимая, не спеши.</blockquote>
+		<sameas word="бардаш"/>
+		<ex>
+			<source>пардаш кыл, жарым шашылба стих.</source>
+			<target>потерпи, любимая, не спеши.</target>
+		</ex>
 	</card>
 	<card>
 		<k>парз</k>
-		<blockquote>то же, что барыз.</blockquote>
+		<sameas word="барыз"/>
 	</card>
 	<card>
 		<k>парзант</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>дитя, ребёнок;</blockquote>
-		<blockquote>өмүрдө парзант көрбөй, кайгы тарткан стих. не имея в жизни детей, он
-               горевал.</blockquote>
+		<ex>
+			<source>өмүрдө парзант көрбөй, кайгы тарткан стих.</source>
+			<target>не имея в жизни детей, он горевал.</target>
+		</ex>
 	</card>
 	<card>
 		<k>парк</k>
-		<blockquote>парк I</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что барк I.</blockquote>
-		<blockquote>парк II</blockquote>
-		<blockquote>в разн. знач. парк;</blockquote>
-		<blockquote>парк тик- разбить парк;</blockquote>
-		<blockquote>маданий парк парк культуры;</blockquote>
-		<blockquote>трактор паркы тракторный парк.</blockquote>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="барк" index="1"/>
+		</homonym>
+		<homonym>
+			<meta>в разн. знач.</meta>
+			<trn>парк</trn>
+			<blockquote>парк тик- разбить парк;</blockquote>
+			<blockquote>маданий парк парк культуры;</blockquote>
+			<blockquote>трактор паркы тракторный парк.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>паркент</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что казнак</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="казнак"/>
 		<blockquote>боковое углубление в могиле, куда кладут покойника.</blockquote>
 	</card>
 	<card>
 		<k>паркет</k>
-		<blockquote>паркет.</blockquote>
+		<trn>паркет</trn>
 	</card>
 	<card>
 		<k>парку</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. орнаментированная верхняя сторона подушки;</blockquote>
-		<blockquote>2. подушка с орнаментированным верхом (употребляется как украшение для жүк;
-               см. жүк 2).</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>орнаментированная верхняя сторона подушки;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>подушка с орнаментированным верхом (употребляется как украшение для жүк; см. жүк 2).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>парла-</k>
-		<blockquote>парла- I</blockquote>
-		<blockquote>подбирать пары или в пару;</blockquote>
-		<blockquote>эки-экиден парлап кой разложи попарно, подбери одинаковые пары.</blockquote>
-		<blockquote>парла- II:</blockquote>
-		<blockquote>парлап-парлап төктү жашты <p>фольк.</p> он проливал обильные слёзы.</blockquote>
+		<homonym>
+			<blockquote>подбирать пары или в пару;</blockquote>
+			<blockquote>эки-экиден парлап кой разложи попарно, подбери одинаковые пары.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>парла- II:</blockquote>
+			<ex>
+				<source>парлап-парлап төктү жашты фольк.</source>
+				<target>он проливал обильные слёзы.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>парламент</k>
-		<blockquote>парламент.</blockquote>
+		<trn>парламент</trn>
 	</card>
 	<card>
 		<k>парламентаризм</k>
-		<blockquote>парламентаризм.</blockquote>
+		<trn>парламентаризм</trn>
 	</card>
 	<card>
 		<k>парламентарий</k>
-		<blockquote>парламентарий.</blockquote>
+		<trn>парламентарий</trn>
 	</card>
 	<card>
 		<k>парламенттик</k>
 		<blockquote>парламентский;</blockquote>
 		<blockquote>парламенттик делегация парламентская делегация;</blockquote>
 		<blockquote>парламенттик шайлоолор парламентские выборы;</blockquote>
-		<blockquote>коммунисттердин парламенттик группасы парламентская группа
-               коммунистов.</blockquote>
+		<blockquote>коммунисттердин парламенттик группасы парламентская группа коммунистов.</blockquote>
 	</card>
 	<card>
 		<k>парлат-</k>
-		<blockquote>понуд. от парла- II;</blockquote>
+		<caus word="парла" index="2"/>
 		<blockquote>далай жашын парлаткан он заставил его проливать обильные слёзы.</blockquote>
 	</card>
 	<card>
 		<k>парма</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>бурав, пёрка, коловорот.</blockquote>
 	</card>
 	<card>
 		<k>пармал</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>крыло (птичье);</blockquote>
-		<blockquote>ат - жигиттин пармалы <p>фольк.</p> конь - крылья молодца.</blockquote>
+		<ex>
+			<source>ат - жигиттин пармалы фольк.</source>
+			<target>конь - крылья молодца.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пармалчылдык</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что формализм.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="формализм"/>
 	</card>
 	<card>
 		<k>парман</k>
-		<blockquote>то же, что барман.</blockquote>
+		<sameas word="барман"/>
 	</card>
 	<card>
 		<k>паровоз</k>
-		<blockquote>паровоз;</blockquote>
+		<trn>паровоз</trn>
 		<blockquote>паровоз куруу заводу паровозостроительный завод.</blockquote>
 	</card>
 	<card>
 		<k>пароход</k>
-		<blockquote>пароход.</blockquote>
+		<trn>пароход</trn>
 	</card>
 	<card>
 		<k>пароходство</k>
-		<blockquote>пароходство.</blockquote>
+		<trn>пароходство</trn>
 	</card>
 	<card>
 		<k>парсант</k>
-		<blockquote>то же, что парзант.</blockquote>
+		<sameas word="парзант"/>
 	</card>
 	<card>
 		<k>парсы</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>персидский; по-персидски;</blockquote>
 		<blockquote>парсыча по-персидски; на персидском языке.</blockquote>
 	</card>
 	<card>
 		<k>парт</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>перо (птичье);</blockquote>
 		<blockquote>тооктун п рти куриное перо.</blockquote>
 	</card>
 	<card>
 		<k>парта</k>
-		<blockquote>парта;</blockquote>
+		<trn>парта</trn>
 		<blockquote>партага отур- сесть за парту.</blockquote>
 	</card>
 	<card>
 		<k>партактив</k>
-		<blockquote>партактив.</blockquote>
+		<trn>партактив</trn>
 	</card>
 	<card>
 		<k>партал</k>
-		<blockquote>то же, что бартал;</blockquote>
-		<blockquote>чатырларды бүктөтүп, партал атка жүктөтүп стих. велев свернуть палатки и
-               нагрузить на вьючных лошадей.</blockquote>
+		<sameas word="бартал"/>
+		<ex>
+			<source>чатырларды бүктөтүп, партал атка жүктөтүп стих.</source>
+			<target>велев свернуть палатки и нагрузить на вьючных лошадей.</target>
+		</ex>
 	</card>
 	<card>
 		<k>партаң</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>лист лопуха.</blockquote>
 	</card>
 	<card>
 		<k>партбилет</k>
-		<blockquote>партбилет.</blockquote>
+		<trn>партбилет</trn>
 	</card>
 	<card>
 		<k>партбюро</k>
-		<blockquote>партбюро.</blockquote>
+		<trn>партбюро</trn>
 	</card>
 	<card>
 		<k>партвзнос</k>
-		<blockquote>партвзнос.</blockquote>
+		<trn>партвзнос</trn>
 	</card>
 	<card>
 		<k>партиец</k>
-		<blockquote>партиец.</blockquote>
+		<trn>партиец</trn>
 	</card>
 	<card>
 		<k>партизан</k>
-		<blockquote>партизан;</blockquote>
+		<trn>партизан</trn>
 		<blockquote>партизан отряды партизанский отряд.</blockquote>
 	</card>
 	<card>
@@ -1108,26 +1213,33 @@
 	</card>
 	<card>
 		<k>партийс</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что партиец.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="партиец"/>
 	</card>
 	<card>
 		<k>партия</k>
-		<blockquote>1. полит. партия;</blockquote>
-		<blockquote>Советтер Союзунун Коммунисттик Партиясы Коммунистическая партия Советского
-               Союза;</blockquote>
-		<blockquote>Кыргызстан Коммунисттик Партиясы Коммунистическая партия
-               Киргизии;</blockquote>
-		<blockquote>2. разг. член партии, партийный;</blockquote>
-		<blockquote>партия бол- стать членом партии, вступить в партию;</blockquote>
-		<blockquote>мен партиядамын или разг. мен партиямын я партийный;</blockquote>
-		<blockquote>мен партия эмесмин или партияда жокмун я беспартийный;</blockquote>
-		<blockquote>сен партия болсон, мен кандидат если ты партийный, то я (ведь)
-               кандидат;</blockquote>
-		<blockquote>3. (количество) партия;</blockquote>
-		<blockquote>товардын жаңы партиясы новая партия товара;</blockquote>
-		<blockquote>4. то же, что саам партия (в игре);</blockquote>
-		<blockquote>бир партия шахмат ойнодук мы сыграли партию в шахматы.</blockquote>
+		<meaning>
+			<meta>полит.</meta>
+			<trn>партия</trn>
+			<blockquote>Советтер Союзунун Коммунисттик Партиясы Коммунистическая партия Советского Союза;</blockquote>
+			<blockquote>Кыргызстан Коммунисттик Партиясы Коммунистическая партия Киргизии;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>разг.</meta>
+			<blockquote>член партии, партийный;</blockquote>
+			<blockquote>партия бол- стать членом партии, вступить в партию;</blockquote>
+			<blockquote>мен партиядамын или разг. мен партиямын я партийный;</blockquote>
+			<blockquote>мен партия эмесмин или партияда жокмун я беспартийный;</blockquote>
+			<blockquote>сен партия болсон, мен кандидат если ты партийный, то я (ведь) кандидат;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>(количество) партия;</blockquote>
+			<blockquote>товардын жаңы партиясы новая партия товара;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>то же, что саам партия (в игре);</blockquote>
+			<blockquote>бир партия шахмат ойнодук мы сыграли партию в шахматы.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>партиялык</k>
@@ -1150,85 +1262,87 @@
 	</card>
 	<card>
 		<k>парткабинет</k>
-		<blockquote>парткабинет.</blockquote>
+		<trn>парткабинет</trn>
 	</card>
 	<card>
 		<k>партком</k>
-		<blockquote>партком.</blockquote>
+		<trn>партком</trn>
 	</card>
 	<card>
 		<k>парторг</k>
-		<blockquote>парторг.</blockquote>
+		<trn>парторг</trn>
 	</card>
 	<card>
 		<k>партпел</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что портфель.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="портфель"/>
 	</card>
 	<card>
 		<k>парфюмерия</k>
-		<blockquote>парфюмерия.</blockquote>
+		<trn>парфюмерия</trn>
 	</card>
 	<card>
 		<k>парча</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что барча III;</blockquote>
-		<blockquote>Маргалаңдай шаарда манат менен парча бар <p>фольк.</p> в городе Маргелане есть
-               красное сукно и парча.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="барча" index="3"/>
+		<ex>
+			<source>Маргалаңдай шаарда манат менен парча бар фольк.</source>
+			<target>в городе Маргелане есть красное сукно и парча.</target>
+		</ex>
 	</card>
 	<card>
 		<k>парыз</k>
-		<blockquote>то же, что барыз;</blockquote>
+		<sameas word="барыз"/>
 		<blockquote>милдети жана парызы его священная обязанность;</blockquote>
-		<blockquote>бир эскертип коюу парыз деп ойлогом я думал, что обязан раз
-               напомнить.</blockquote>
+		<blockquote>бир эскертип коюу парыз деп ойлогом я думал, что обязан раз напомнить.</blockquote>
 	</card>
 	<card>
 		<k>парык</k>
-		<blockquote>то же, что барк I.</blockquote>
+		<sameas word="барк" index="1"/>
 	</card>
 	<card>
 		<k>пас</k>
-		<blockquote>пас I</blockquote>
-		<blockquote>то же, что бас I;</blockquote>
-		<blockquote>аттан эгиз, иттен пас <p>южн.</p> загадка выше лошади, ниже собаки (отгадка эгер
-               седло);</blockquote>
-		<blockquote>бою пас низкого роста;</blockquote>
-		<blockquote>айбы чыккан жигиттин узун бою пас болот <p>фольк.</p> высокий рост разоблачённого
-               парня становится низким;</blockquote>
-		<blockquote>пастан жогору снизу вверх;</blockquote>
-		<blockquote>паста <p>южн.</p> внизу;</blockquote>
-		<blockquote>пасыраак</blockquote>
-		<blockquote>1) пониже;</blockquote>
-		<blockquote>2) похуже;</blockquote>
-		<blockquote>пас адам</blockquote>
-		<blockquote>1) низкий (подлый) человек;</blockquote>
-		<blockquote>2) (в языке старой знати, богачей) захудалый, бедный;</blockquote>
-		<blockquote>көөнү пас он удручён;</blockquote>
-		<blockquote>акылы пас недалёкий, ограниченный (умственно);</blockquote>
-		<blockquote>маанайы пас или паанайы пас то же, что маанайы бас (см.
-               маанай).</blockquote>
-		<blockquote>пас II</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>(только с числительным бир):</blockquote>
-		<blockquote>бир пастан соң через небольшой промежуток времени;</blockquote>
-		<blockquote>бир пас эс (или дем) алып немного отдохнув;</blockquote>
-		<blockquote>аттарын бир пас откозуп пустив коней своих немного попастись;</blockquote>
-		<blockquote>адам болмок - аста-аста, айбан болмок - бир паста погов. человеком стать -
-               медленно, скотиной стать - один миг;</blockquote>
-		<blockquote>отургандар бир паска жымжырт боло калышты сидящие на некоторое время вдруг
-               замолчали.</blockquote>
+		<homonym>
+			<sameas word="бас" index="1"/>
+			<blockquote>аттан эгиз, иттен пас южн. загадка выше лошади, ниже собаки (отгадка эгер седло);</blockquote>
+			<blockquote>бою пас низкого роста;</blockquote>
+			<ex>
+				<source>айбы чыккан жигиттин узун бою пас болот фольк.</source>
+				<target>высокий рост разоблачённого парня становится низким;</target>
+			</ex>
+			<blockquote>пастан жогору снизу вверх;</blockquote>
+			<blockquote>паста южн. внизу;</blockquote>
+			<blockquote>пасыраак</blockquote>
+			<blockquote>1) пониже;</blockquote>
+			<blockquote>2) похуже;</blockquote>
+			<blockquote>пас адам</blockquote>
+			<blockquote>1) низкий (подлый) человек;</blockquote>
+			<blockquote>2) (в языке старой знати, богачей) захудалый, бедный;</blockquote>
+			<blockquote>көөнү пас он удручён;</blockquote>
+			<blockquote>акылы пас недалёкий, ограниченный (умственно);</blockquote>
+			<blockquote>маанайы пас или паанайы пас то же, что маанайы бас (см. маанай).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>(только с числительным бир):</blockquote>
+			<blockquote>бир пастан соң через небольшой промежуток времени;</blockquote>
+			<blockquote>бир пас эс (или дем) алып немного отдохнув;</blockquote>
+			<blockquote>аттарын бир пас откозуп пустив коней своих немного попастись;</blockquote>
+			<ex>
+				<source>адам болмок - аста-аста, айбан болмок - бир паста погов.</source>
+				<target>человеком стать - медленно, скотиной стать - один миг;</target>
+			</ex>
+			<blockquote>отургандар бир паска жымжырт боло калышты сидящие на некоторое время вдруг замолчали.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>паселке</k>
-		<blockquote>чатк.</blockquote>
-		<blockquote>то же, что посёлок.</blockquote>
+		<meta>чатк.</meta>
+		<sameas word="посёлок"/>
 	</card>
 	<card>
 		<k>паспорт</k>
-		<blockquote>паспорт.</blockquote>
+		<trn>паспорт</trn>
 	</card>
 	<card>
 		<k>паспорттук</k>
@@ -1237,7 +1351,7 @@
 	</card>
 	<card>
 		<k>пассажир</k>
-		<blockquote>пассажир.</blockquote>
+		<trn>пассажир</trn>
 	</card>
 	<card>
 		<k>пассажирдик</k>
@@ -1246,7 +1360,7 @@
 	</card>
 	<card>
 		<k>пассив</k>
-		<blockquote>пассив.</blockquote>
+		<trn>пассив</trn>
 	</card>
 	<card>
 		<k>пассивдүү</k>
@@ -1260,72 +1374,71 @@
 	</card>
 	<card>
 		<k>паста</k>
-		<blockquote>паста I</blockquote>
-		<blockquote>паста;</blockquote>
-		<blockquote>тиш пастасы зубная паста.</blockquote>
-		<blockquote>паста- II</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что баста-;</blockquote>
-		<blockquote>жалын пастайт, желпилдеген шок канат погов. пламя утихнет, ветреная шалость
-               (с возрастом) успокоится.</blockquote>
+		<homonym>
+			<trn>паста</trn>
+			<blockquote>тиш пастасы зубная паста.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="баста"/>
+			<ex>
+				<source>жалын пастайт, желпилдеген шок канат погов.</source>
+				<target>пламя утихнет, ветреная шалость (с возрастом) успокоится.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>пастек</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>коротыш;</blockquote>
-		<blockquote>кат-кат тондув, п ст к бойлув загадка в многослойной одежде, маленького
-               роста (отгадка пияз лук).</blockquote>
+		<blockquote>кат-кат тондув, п ст к бойлув загадка в многослойной одежде, маленького роста (отгадка пияз лук).</blockquote>
 	</card>
 	<card>
 		<k>пастила</k>
-		<blockquote>пастила.</blockquote>
+		<trn>пастила</trn>
 	</card>
 	<card>
 		<k>пасторонка</k>
-		<blockquote>сев.</blockquote>
-		<blockquote>то же, что баструңке;</blockquote>
+		<meta>сев.</meta>
+		<sameas word="баструңке"/>
 		<blockquote>аттарды пасторонкадан чечип освободив лошадей от постромок.</blockquote>
 	</card>
 	<card>
 		<k>пастык</k>
 		<blockquote>низость;</blockquote>
-		<blockquote>байкап, тааный баштадык, асылдык менен пастыкты стих. понаблюдав, мы начали
-               различать (букв. узнавать) благородство и низость.</blockquote>
+		<ex>
+			<source>байкап, тааный баштадык, асылдык менен пастыкты стих.</source>
+			<target>понаблюдав, мы начали различать (букв. узнавать) благородство и низость.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пасылке</k>
-		<blockquote>р.</blockquote>
+		<origin>р.</origin>
 		<blockquote>посылка (почтовая).</blockquote>
 	</card>
 	<card>
 		<k>пасыя</k>
-		<blockquote>парное к насыя.</blockquote>
+		<pair word="насыя"/>
 	</card>
 	<card>
 		<k>пата</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бата;</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бата"/>
 		<blockquote>пата той- см. той I.</blockquote>
 	</card>
 	<card>
 		<k>паталга</k>
-		<blockquote>то же, что баталга.</blockquote>
+		<sameas word="баталга"/>
 	</card>
 	<card>
 		<k>патек</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что батек.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="батек"/>
 	</card>
 	<card>
 		<k>патент</k>
-		<blockquote>патент.</blockquote>
+		<trn>патент</trn>
 	</card>
 	<card>
 		<k>патентсиз</k>
@@ -1333,12 +1446,11 @@
 	</card>
 	<card>
 		<k>патенттел-</k>
-		<blockquote>патенттел-: патенттелген дары патентованное средство
-               (лекарство).</blockquote>
+		<blockquote>патенттел-: патенттелген дары патентованное средство (лекарство).</blockquote>
 	</card>
 	<card>
 		<k>патетика</k>
-		<blockquote>патетика.</blockquote>
+		<trn>патетика</trn>
 	</card>
 	<card>
 		<k>патетикалык</k>
@@ -1347,70 +1459,69 @@
 	</card>
 	<card>
 		<k>патефон</k>
-		<blockquote>патефон.</blockquote>
+		<trn>патефон</trn>
 	</card>
 	<card>
 		<k>патийпан</k>
-		<blockquote>чатк.</blockquote>
-		<blockquote>то же, что патефон.</blockquote>
+		<meta>чатк.</meta>
+		<sameas word="патефон"/>
 	</card>
 	<card>
 		<k>патинжан</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что патинча.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="патинча"/>
 	</card>
 	<card>
 		<k>патинча</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>помидор;</blockquote>
-		<blockquote>п тинч ни кургатып койсо, жакшы болот хорошо будет, если помидоры высушить
-               (на зиму).</blockquote>
+		<blockquote>п тинч ни кургатып койсо, жакшы болот хорошо будет, если помидоры высушить (на зиму).</blockquote>
 	</card>
 	<card>
 		<k>патир</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>небольшая сдобная лепёшка из пресного теста.</blockquote>
 	</card>
 	<card>
 		<k>патнус</k>
-		<blockquote>то же, что батынооз.</blockquote>
+		<sameas word="батынооз"/>
 	</card>
 	<card>
 		<k>патока</k>
-		<blockquote>патока.</blockquote>
+		<trn>патока</trn>
 	</card>
 	<card>
 		<k>патписке</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>подписка, письменное обязательство;</blockquote>
 		<blockquote>патписке бер- дать подписку.</blockquote>
 	</card>
 	<card>
 		<k>патпол</k>
-		<blockquote>то же, что батпол.</blockquote>
+		<sameas word="батпол"/>
 	</card>
 	<card>
 		<k>патрак</k>
-		<blockquote>то же, что батрак.</blockquote>
+		<sameas word="батрак"/>
 	</card>
 	<card>
 		<k>патриархалдык</k>
 		<blockquote>патриархальный;</blockquote>
 		<blockquote>коомдун патриархалдык түзүлүшү патриархальный строй общества;</blockquote>
 		<blockquote>патриархалдык көз караштар патриархальные взгляды;</blockquote>
-		<blockquote>патриархалдык-уруучулуктун калдыктары патриархально-родовые
-               пережитки.</blockquote>
+		<blockquote>патриархалдык-уруучулуктун калдыктары патриархально-родовые пережитки.</blockquote>
 	</card>
 	<card>
 		<k>патриот</k>
-		<blockquote>патриот.</blockquote>
+		<trn>патриот</trn>
 	</card>
 	<card>
 		<k>патриотизм</k>
-		<blockquote>патриотизм.</blockquote>
+		<trn>патриотизм</trn>
 	</card>
 	<card>
 		<k>патриоттук</k>
@@ -1419,71 +1530,71 @@
 	</card>
 	<card>
 		<k>патрон</k>
-		<blockquote>патрон;</blockquote>
+		<trn>патрон</trn>
 		<blockquote>патрон заводу патронный завод;</blockquote>
 		<blockquote>электр патрону электрический патрон.</blockquote>
 	</card>
 	<card>
 		<k>патруль</k>
-		<blockquote>патруль.</blockquote>
+		<trn>патруль</trn>
 	</card>
 	<card>
 		<k>патта</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>квитанция.</blockquote>
 	</card>
 	<card>
 		<k>патчагар</k>
-		<blockquote>то же, что баччагар;</blockquote>
+		<sameas word="баччагар"/>
 		<blockquote>тарт тилиңди, патчагар! замолчи, негодяй!</blockquote>
 	</card>
 	<card>
 		<k>патша</k>
-		<blockquote>то же, что бадыша.</blockquote>
+		<sameas word="бадыша"/>
 	</card>
 	<card>
 		<k>патыр</k>
-		<blockquote>патыр I</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что баатыр.</blockquote>
-		<blockquote>патыр II:</blockquote>
-		<blockquote>тытыр-патыр см. тытыр.</blockquote>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="баатыр"/>
+		</homonym>
+		<homonym>
+			<blockquote>патыр II:</blockquote>
+			<blockquote>тытыр-патыр см. тытыр.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>пауза</k>
-		<blockquote>театр.</blockquote>
-		<blockquote>пауза.</blockquote>
+		<meta>театр.</meta>
+		<trn>пауза</trn>
 	</card>
 	<card>
 		<k>паучак</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>потрясок (мельничный).</blockquote>
 	</card>
 	<card>
 		<k>пафос</k>
-		<blockquote>пафос.</blockquote>
+		<trn>пафос</trn>
 	</card>
 	<card>
 		<k>пахот</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что поход.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="поход"/>
 	</card>
 	<card>
 		<k>пахта</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>хлопок;</blockquote>
 		<blockquote>пахта эгүүчү райондор хлопкосеющие районы;</blockquote>
-		<blockquote>пахта катын или <p>южн.</p> пахта хатын название стелющегося травянистого
-               растения.</blockquote>
+		<blockquote>пахта катын или южн. пахта хатын название стелющегося травянистого растения.</blockquote>
 	</card>
 	<card>
 		<k>пахтакер</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>то же, что пахтачы.</blockquote>
+		<origin>ир.</origin>
+		<sameas word="пахтачы"/>
 	</card>
 	<card>
 		<k>пахтачы</k>
@@ -1496,129 +1607,140 @@
 	</card>
 	<card>
 		<k>пацифизм</k>
-		<blockquote>пацифизм.</blockquote>
+		<trn>пацифизм</trn>
 	</card>
 	<card>
 		<k>пацифист</k>
-		<blockquote>пацифист.</blockquote>
+		<trn>пацифист</trn>
 	</card>
 	<card>
 		<k>пачак</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>помятый, раздавленный, с вмятинами (напр. о яблоке, дыне, о ведре), битый,
-               надбитый (напр. о яйце), с пробоиной (напр. о стене);</blockquote>
-		<blockquote>ак пачак, кара пачак <p>южн.</p> виды брака коконов;</blockquote>
+		<meta>южн.</meta>
+		<blockquote>помятый, раздавленный, с вмятинами (напр. о яблоке, дыне, о ведре), битый, надбитый (напр. о яйце), с пробоиной (напр. о стене);</blockquote>
+		<blockquote>ак пачак, кара пачак южн. виды брака коконов;</blockquote>
 		<blockquote>пачак-пучагы чыкты сев. разлетелось вдребезги.</blockquote>
 	</card>
 	<card>
 		<k>пачакта-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>помять, раздавить (напр. яблоко, дыню, ведро), сделать пробоину, проломить,
-               продолбить (напр. стену).</blockquote>
+		<meta>южн.</meta>
+		<blockquote>помять, раздавить (напр. яблоко, дыню, ведро), сделать пробоину, проломить, продолбить (напр. стену).</blockquote>
 	</card>
 	<card>
 		<k>пачка</k>
-		<blockquote>пачка;</blockquote>
+		<trn>пачка</trn>
 		<blockquote>акча пачкасы пачка денег.</blockquote>
 	</card>
 	<card>
 		<k>пачке</k>
-		<blockquote>то же, что пачка.</blockquote>
+		<sameas word="пачка"/>
 	</card>
 	<card>
 		<k>пачки</k>
-		<blockquote>то же, что бачики.</blockquote>
+		<sameas word="бачики"/>
 	</card>
 	<card>
 		<k>пачча</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что жезде.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="жезде"/>
 	</card>
 	<card>
 		<k>паш</k>
-		<blockquote>паш I:</blockquote>
-		<blockquote>аш-пашка койбой вмиг, в два счёта.</blockquote>
-		<blockquote>паш II</blockquote>
-		<blockquote>парное к жаш 3;</blockquote>
-		<blockquote>жаш-пашын сурап эмне кыласың? зачем спрашиваешь о каком-то там его
-               возрасте?</blockquote>
+		<homonym>
+			<blockquote>паш I:</blockquote>
+			<blockquote>аш-пашка койбой вмиг, в два счёта.</blockquote>
+		</homonym>
+		<homonym>
+			<pair word="жаш" subindex="3"/>
+			<blockquote>жаш-пашын сурап эмне кыласың? зачем спрашиваешь о каком-то там его возрасте?</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>паша</k>
-		<blockquote>паша I</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что чиркей;</blockquote>
-		<blockquote>2. москит;</blockquote>
-		<blockquote>кашка паша вид комара.</blockquote>
-		<blockquote>паша II</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бадыша;</blockquote>
-		<blockquote>кан-паша то же, что канымдат.</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meaning>
+				<sameas word="чиркей"/>
+			</meaning>
+			<meaning>
+				<blockquote>москит;</blockquote>
+				<blockquote>кашка паша вид комара.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="бадыша"/>
+			<blockquote>кан-паша то же, что канымдат.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>пашаа</k>
-		<blockquote>то же, что бадыша.</blockquote>
+		<sameas word="бадыша"/>
 	</card>
 	<card>
 		<k>пашайи</k>
-		<blockquote>чатк.</blockquote>
-		<blockquote>1. то же, что башайы;</blockquote>
-		<blockquote>2. <p>южн.</p> уст. сорт кустарной хлопчатобумажной материи с тканым
-               узором;</blockquote>
-		<blockquote>жибек башайы сорт шёлковой материи с тканым узором;</blockquote>
-		<blockquote>3. синьцз. вид узора на паласной попоне.</blockquote>
+		<meta>чатк.</meta>
+		<meaning>
+			<sameas word="башайы"/>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<meta>уст.</meta>
+			<blockquote>сорт кустарной хлопчатобумажной материи с тканым узором;</blockquote>
+			<blockquote>жибек башайы сорт шёлковой материи с тканым узором;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>синьцз.</meta>
+			<blockquote>вид узора на паласной попоне.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пашалык</k>
-		<blockquote>то же, что бадышалык II.</blockquote>
+		<sameas word="бадышалык" index="2"/>
 	</card>
 	<card>
 		<k>пашизим</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что фашизм.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="фашизм"/>
 	</card>
 	<card>
 		<k>паштет</k>
-		<blockquote>паштет.</blockquote>
+		<trn>паштет</trn>
 	</card>
 	<card>
 		<k>пашыс</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что фашист.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="фашист"/>
 	</card>
 	<card>
 		<k>пая</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. стебель растения;</blockquote>
-		<blockquote>гозо пая, <p>южн.</p> гоза пәйә гузапая, стебли хлопка (после сбора волокна),
-               стерня хлопка;</blockquote>
-		<blockquote>буудай пая стебель пшеницы; стерня пшеницы;</blockquote>
-		<blockquote>шалы пая, <p>южн.</p> шалы пәйә</blockquote>
-		<blockquote>1) стерня риса;</blockquote>
-		<blockquote>2) рисовое поле (русские обычно говорят. шалпая);</blockquote>
-		<blockquote>2. редко подставка;</blockquote>
-		<blockquote>чырак пая подсвечник, подставка под светильник, подножие
-               светильника.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>стебель растения;</blockquote>
+			<blockquote>гозо пая, южн. гоза пәйә гузапая, стебли хлопка (после сбора волокна), стерня хлопка;</blockquote>
+			<blockquote>буудай пая стебель пшеницы; стерня пшеницы;</blockquote>
+			<blockquote>шалы пая, южн. шалы пәйә</blockquote>
+			<blockquote>1) стерня риса;</blockquote>
+			<blockquote>2) рисовое поле (русские обычно говорят. шалпая);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>редко</meta>
+			<blockquote>подставка;</blockquote>
+			<blockquote>чырак пая подсвечник, подставка под светильник, подножие светильника.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>педагог</k>
-		<blockquote>педагог.</blockquote>
+		<trn>педагог</trn>
 	</card>
 	<card>
 		<k>педагогика</k>
-		<blockquote>педагогика.</blockquote>
+		<trn>педагогика</trn>
 	</card>
 	<card>
 		<k>педагогия</k>
-		<blockquote>педагогия;</blockquote>
+		<trn>педагогия</trn>
 		<blockquote>педагогия окуу жайы педагогическое учебное заведение.</blockquote>
 	</card>
 	<card>
@@ -1629,19 +1751,19 @@
 	</card>
 	<card>
 		<k>педаль</k>
-		<blockquote>педаль.</blockquote>
+		<trn>педаль</trn>
 	</card>
 	<card>
 		<k>педант</k>
-		<blockquote>педант.</blockquote>
+		<trn>педант</trn>
 	</card>
 	<card>
 		<k>педиатр</k>
-		<blockquote>педиатр.</blockquote>
+		<trn>педиатр</trn>
 	</card>
 	<card>
 		<k>педиатрия</k>
-		<blockquote>педиатрия;</blockquote>
+		<trn>педиатрия</trn>
 		<blockquote>педиатрия кафедрасы кафедра педиатрии.</blockquote>
 	</card>
 	<card>
@@ -1650,21 +1772,18 @@
 	</card>
 	<card>
 		<k>пежекеле-</k>
-		<blockquote>пежекеле-: эжеке-пежекелеп (в отношении старшей, но не старой женщины)
-               умасливая и уговаривая (милая, мол, сестрица, дорогая, мол, сестрица и
-               т.п.).</blockquote>
+		<blockquote>пежекеле-: эжеке-пежекелеп (в отношении старшей, но не старой женщины) умасливая и уговаривая (милая, мол, сестрица, дорогая, мол, сестрица и т.п.).</blockquote>
 	</card>
 	<card>
 		<k>пезелин</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что вазелин.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="вазелин"/>
 	</card>
 	<card>
 		<k>пейзаж</k>
-		<blockquote>пейзаж;</blockquote>
+		<trn>пейзаж</trn>
 		<blockquote>пейзаж тарт- рисовать пейзаж;</blockquote>
-		<blockquote>сонун жер, эстен кетпес пейзаж прекрасное место, незабываемый
-               пейзаж.</blockquote>
+		<blockquote>сонун жер, эстен кетпес пейзаж прекрасное место, незабываемый пейзаж.</blockquote>
 	</card>
 	<card>
 		<k>пейзажчы</k>
@@ -1672,41 +1791,38 @@
 	</card>
 	<card>
 		<k>пейил</k>
-		<blockquote>то же, что бейил;</blockquote>
-		<blockquote>коногу пейил күтсө, үй ээси капа болот погов. когда гость церемонится,
-               хозяин печалится;</blockquote>
-		<blockquote>тамакка пейлим чаппайт меня на еду не тянет, у меня нет
-               аппетита;</blockquote>
+		<sameas word="бейил"/>
+		<ex>
+			<source>коногу пейил күтсө, үй ээси капа болот погов.</source>
+			<target>когда гость церемонится, хозяин печалится;</target>
+		</ex>
+		<blockquote>тамакка пейлим чаппайт меня на еду не тянет, у меня нет аппетита;</blockquote>
 		<blockquote>ток пейил (о человеке) удовлетворённый, успокоенный; спокойный;</blockquote>
 		<blockquote>пейлин тойгузуп коюптур он его удовлетворил, успокоил;</blockquote>
 		<blockquote>пейли-кую кенен отзывчивый, добрый, великодушный;</blockquote>
 		<blockquote>пейлин кең сала (он) расщедрившись;</blockquote>
 		<blockquote>пейлимде раазы болдум я искренне был доволен;</blockquote>
 		<blockquote>пейли курган (о человеке) зловредный; пакостный; низкий;</blockquote>
-		<blockquote>пейли курган Алооке беш көкүлдүү кызды алган зловредный Алооке взял (себе в
-               жёны) девочку;</blockquote>
+		<blockquote>пейли курган Алооке беш көкүлдүү кызды алган зловредный Алооке взял (себе в жёны) девочку;</blockquote>
 		<blockquote>пейли тарыды см. тары- I.</blockquote>
 	</card>
 	<card>
 		<k>пейилден-</k>
 		<blockquote>возыметь или выразить желание;</blockquote>
-		<blockquote>тийүүгө пейилденип, убада байлап, Жаңыл Мырза бура тартып кеткен выразив
-               желание выйти (за него) замуж, дав согласие, Джангыл Мырза поехала
-               обратно;</blockquote>
+		<blockquote>тийүүгө пейилденип, убада байлап, Жаңыл Мырза бура тартып кеткен выразив желание выйти (за него) замуж, дав согласие, Джангыл Мырза поехала обратно;</blockquote>
 		<blockquote>арам пейилден- см. арам.</blockquote>
 	</card>
 	<card>
 		<k>пейилдик</k>
-		<blockquote>то же, что бейилдик;</blockquote>
+		<sameas word="бейилдик"/>
 		<blockquote>кең пейилдик сөздөр великодушные слова;</blockquote>
 		<blockquote>арам пейилдик см. арам.</blockquote>
 	</card>
 	<card>
 		<k>пейилдүү</k>
-		<blockquote>то же, что бейилдүү;</blockquote>
+		<sameas word="бейилдүү"/>
 		<blockquote>пейилдүү сөздөр непринуждённый разговор о том о сём;</blockquote>
-		<blockquote>бекерчиликтин пейилдүү сөздөрүн сүйлөй берди он говорил о том о сём, он
-               говорил то, что говорят от нечего делать;</blockquote>
+		<blockquote>бекерчиликтин пейилдүү сөздөрүн сүйлөй берди он говорил о том о сём, он говорил то, что говорят от нечего делать;</blockquote>
 		<blockquote>кең пейилдүү (о человеке) великодушный.</blockquote>
 	</card>
 	<card>
@@ -1716,65 +1832,62 @@
 	</card>
 	<card>
 		<k>пекене</k>
-		<blockquote>то же, что пакене;</blockquote>
-		<blockquote>бою пекененин үнү бийик погов. кто ростом низок, у того голос высок (о том,
-               кто не делом берёт, а глоткой).</blockquote>
+		<sameas word="пакене"/>
+		<ex>
+			<source>бою пекененин үнү бийик погов.</source>
+			<target>кто ростом низок, у того голос высок (о том, кто не делом берёт, а глоткой).</target>
+		</ex>
 	</card>
 	<card>
 		<k>пелин</k>
-		<blockquote>парное к желин;</blockquote>
-		<blockquote>мунун желин-пелини ооруп жүрбөсүн? а там что, не вымя ли у неё
-               болит?</blockquote>
+		<pair word="желин"/>
+		<blockquote>мунун желин-пелини ооруп жүрбөсүн? а там что, не вымя ли у неё болит?</blockquote>
 	</card>
 	<card>
 		<k>пем</k>
-		<blockquote>парное к жем;</blockquote>
+		<pair word="жем"/>
 		<blockquote>жем-пем кое-какой зерновой корм;</blockquote>
-		<blockquote>эптеп жем-пем жыттатып турабыз мы (скот) кое-как, кое-чем немного
-               подкармливаем (букв. кое-какого зерна даём понюхать).</blockquote>
+		<blockquote>эптеп жем-пем жыттатып турабыз мы (скот) кое-как, кое-чем немного подкармливаем (букв. кое-какого зерна даём понюхать).</blockquote>
 	</card>
 	<card>
 		<k>пенде</k>
-		<blockquote>то же, что бенде;</blockquote>
+		<sameas word="бенде"/>
 		<blockquote>мындайды пендесине бербесин такого не дай (бог) никому.</blockquote>
 	</card>
 	<card>
 		<k>пендечилик</k>
-		<blockquote>то же, что бендечилик;</blockquote>
-		<blockquote>пендечилик да, бизден кетсе, кетип калгандыр да ведь слабость человеческая,
-               возможно, что мы виноваты (в этом);</blockquote>
+		<sameas word="бендечилик"/>
+		<blockquote>пендечилик да, бизден кетсе, кетип калгандыр да ведь слабость человеческая, возможно, что мы виноваты (в этом);</blockquote>
 		<blockquote>пендечилик кылды</blockquote>
 		<blockquote>1) он поддался слабости человеческой;</blockquote>
-		<blockquote>2) <p>южн.</p> перен. он умер.</blockquote>
+		<blockquote>2) южн. перен. он умер.</blockquote>
 	</card>
 	<card>
 		<k>пеңеш</k>
-		<blockquote>парное к кеңеш I 1.</blockquote>
+		<pair word="кеңеш" index="1" subindex="1"/>
 	</card>
 	<card>
 		<k>пенсионер</k>
-		<blockquote>пенсионер.</blockquote>
+		<trn>пенсионер</trn>
 	</card>
 	<card>
 		<k>пенсионерлик</k>
 		<blockquote>положение пенсионера;</blockquote>
-		<blockquote>пенсионерликке өт- перейти на положение пенсионера, уйти на
-               пенсию.</blockquote>
+		<blockquote>пенсионерликке өт- перейти на положение пенсионера, уйти на пенсию.</blockquote>
 	</card>
 	<card>
 		<k>пенсия</k>
-		<blockquote>пенсия.</blockquote>
+		<trn>пенсия</trn>
 	</card>
 	<card>
 		<k>пер</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что пери.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="пери"/>
 	</card>
 	<card>
 		<k>пербердигер</k>
-		<blockquote>ир. редко</blockquote>
+		<origin>ир.</origin>
+		<meta>редко</meta>
 		<blockquote>промыслитель (эпитет аллаха).</blockquote>
 	</card>
 	<card>
@@ -1784,7 +1897,7 @@
 	</card>
 	<card>
 		<k>перенде</k>
-		<blockquote>то же, что паранда.</blockquote>
+		<sameas word="паранда"/>
 	</card>
 	<card>
 		<k>перерыв</k>
@@ -1793,67 +1906,84 @@
 	</card>
 	<card>
 		<k>переселенец</k>
-		<blockquote>переселенец.</blockquote>
+		<trn>переселенец</trn>
 	</card>
 	<card>
 		<k>перзен,</k>
 		<blockquote>перзен, перзент</blockquote>
-		<blockquote>то же, что парзант;</blockquote>
-		<blockquote>кыз да болсо, перзентим <p>фольк.</p> хотя она и девочка, но моё дитя.</blockquote>
+		<sameas word="парзант"/>
+		<ex>
+			<source>кыз да болсо, перзентим фольк.</source>
+			<target>хотя она и девочка, но моё дитя.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пери</k>
-		<blockquote>ир. миф.</blockquote>
-		<blockquote>1. фея, пери (мифическое существо, гл. обр. в виде женщины, но может быть и
-               мужчина; существо это чаще доброе, но может быть и злым; при изгнании из больного
-               "злых духов" знахари различают два вида пери: мусулман периси мусульманская пери
-               (менее сильная и менее вредная) и капыр периси пери неверных (очень
-               зловредная);</blockquote>
-		<blockquote>кайып перилер, кырк чилтен <p>фольк.</p> незримые пери и сорок чилтен
-               (см.);</blockquote>
-		<blockquote>адамсыңбы, перисиңби? человек ты или пери?</blockquote>
-		<blockquote>дөө-пери или жин-пери дивы и пери или джины и пери (собирательное название
-               демонических существ: дөө - злое, пери - доброе);</blockquote>
-		<blockquote>перисиңби-дөөсүңбү? пенде сендей болобу? <p>фольк.</p> ты пери или див? разве может
-               быть (обыкновенный) человек таким, как ты?</blockquote>
-		<blockquote>пери урган или пери тийген помешанный, буйный, раздражённый;</blockquote>
-		<blockquote>пери ургандай (или тийгендей) теңселип, көзү кызыл чок экен <p>фольк.</p> он
-               шатается, как помешанный, глаза его красны (свирепы), как уголья;</blockquote>
-		<blockquote>пери тийгендей соолугуп, жин тийгендей оолугуп <p>фольк.</p> он то, как помешанный,
-               затихает, то, как бесноватый, бушует;</blockquote>
-		<blockquote>пери ойногон жер место сборища пери;</blockquote>
-		<blockquote>2. красавица;</blockquote>
-		<blockquote>мен көргөндөн сиздей жок, пери кызы болбо бир келген <p>фольк.</p> из тех, кого я
-               видел, подобной тебе нет, как бы ты не оказалась вдруг явившейся дочерью
-               пери;</blockquote>
-		<blockquote>кыргыздын кызы жакпады, периден тандап алсам - деп стих. киргизские девушки
-               не понравились, мол, возьму я (в жёны) пери;</blockquote>
-		<blockquote>пери зат то же, что перизат;</blockquote>
-		<blockquote>пери заада то же, что перизаада.</blockquote>
+		<origin>ир.</origin>
+		<meta>миф.</meta>
+		<meaning>
+			<blockquote>фея, пери (мифическое существо, гл. обр. в виде женщины, но может быть и мужчина; существо это чаще доброе, но может быть и злым; при изгнании из больного "злых духов" знахари различают два вида пери: мусулман периси мусульманская пери (менее сильная и менее вредная) и капыр периси пери неверных (очень зловредная);</blockquote>
+			<ex>
+				<source>кайып перилер, кырк чилтен фольк.</source>
+				<target>незримые пери и сорок чилтен (см.);</target>
+			</ex>
+			<blockquote>адамсыңбы, перисиңби? человек ты или пери?</blockquote>
+			<blockquote>дөө-пери или жин-пери дивы и пери или джины и пери (собирательное название демонических существ: дөө - злое, пери - доброе);</blockquote>
+			<ex>
+				<source>перисиңби-дөөсүңбү? пенде сендей болобу? фольк.</source>
+				<target>ты пери или див? разве может быть (обыкновенный) человек таким, как ты?</target>
+			</ex>
+			<blockquote>пери урган или пери тийген помешанный, буйный, раздражённый;</blockquote>
+			<ex>
+				<source>пери ургандай (или тийгендей) теңселип, көзү кызыл чок экен фольк.</source>
+				<target>он шатается, как помешанный, глаза его красны (свирепы), как уголья;</target>
+			</ex>
+			<ex>
+				<source>пери тийгендей соолугуп, жин тийгендей оолугуп фольк.</source>
+				<target>он то, как помешанный, затихает, то, как бесноватый, бушует;</target>
+			</ex>
+			<blockquote>пери ойногон жер место сборища пери;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>красавица;</blockquote>
+			<ex>
+				<source>мен көргөндөн сиздей жок, пери кызы болбо бир келген фольк.</source>
+				<target>из тех, кого я видел, подобной тебе нет, как бы ты не оказалась вдруг явившейся дочерью пери;</target>
+			</ex>
+			<ex>
+				<source>кыргыздын кызы жакпады, периден тандап алсам - деп стих.</source>
+				<target>киргизские девушки не понравились, мол, возьму я (в жёны) пери;</target>
+			</ex>
+			<blockquote>пери зат то же, что перизат;</blockquote>
+			<blockquote>пери заада то же, что перизаада.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>перизаада</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>красавица (со всеми присущими девушке или молодой женщине хорошими
-               качествами: умная, скромная, добрая и т.п.; букв. рождённая от пери);</blockquote>
-		<blockquote>перизаада Айчүрөк жыйырма бирге келгенде <p>фольк.</p> когда красавице Айчурек
-               исполнилось двадцать один (год).</blockquote>
+		<origin>ир.</origin>
+		<blockquote>красавица (со всеми присущими девушке или молодой женщине хорошими качествами: умная, скромная, добрая и т.п.; букв. рождённая от пери);</blockquote>
+		<ex>
+			<source>перизаада Айчүрөк жыйырма бирге келгенде фольк.</source>
+			<target>когда красавице Айчурек исполнилось двадцать один (год).</target>
+		</ex>
 	</card>
 	<card>
 		<k>перизат</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>пери, фея, красавица (букв. существо пери);</blockquote>
-		<blockquote>перизаттай кыз фееподобная девушка (красивая, стройная и
-               добронравная);</blockquote>
-		<blockquote>мен - перизат, сен - адам <p>фольк.</p> я - пери, ты - человек.</blockquote>
+		<blockquote>перизаттай кыз фееподобная девушка (красивая, стройная и добронравная);</blockquote>
+		<ex>
+			<source>мен - перизат, сен - адам фольк.</source>
+			<target>я - пери, ты - человек.</target>
+		</ex>
 	</card>
 	<card>
 		<k>периодика</k>
-		<blockquote>периодика.</blockquote>
+		<trn>периодика</trn>
 	</card>
 	<card>
 		<k>периферия</k>
-		<blockquote>периферия;</blockquote>
+		<trn>периферия</trn>
 		<blockquote>ал периферияда иштейт он работает на периферии.</blockquote>
 	</card>
 	<card>
@@ -1863,40 +1993,45 @@
 	</card>
 	<card>
 		<k>периште</k>
-		<blockquote>то же, что бериште.</blockquote>
+		<sameas word="бериште"/>
 	</card>
 	<card>
 		<k>перкон</k>
-		<blockquote>то же, что беркон.</blockquote>
+		<sameas word="беркон"/>
 	</card>
 	<card>
 		<k>перме</k>
-		<blockquote>р. разг.</blockquote>
-		<blockquote>1. то же, что ферма;</blockquote>
-		<blockquote>2. заведующий фермой;</blockquote>
-		<blockquote>перме болуп иштеймин я работаю заведующим фермой.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<meaning>
+			<sameas word="ферма"/>
+		</meaning>
+		<meaning>
+			<blockquote>заведующий фермой;</blockquote>
+			<blockquote>перме болуп иштеймин я работаю заведующим фермой.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>перпендикуляр</k>
-		<blockquote>перпендикуляр;</blockquote>
+		<trn>перпендикуляр</trn>
 		<blockquote>перпендикулярды түшүр- опустить перпендикуляр;</blockquote>
 		<blockquote>перпендикулярды тургуз- восставить перпендикуляр;</blockquote>
 		<blockquote>перпендикуляр сызыгы перпендикулярная линия.</blockquote>
 	</card>
 	<card>
 		<k>перрон</k>
-		<blockquote>перрон.</blockquote>
+		<trn>перрон</trn>
 	</card>
 	<card>
 		<k>персонаж</k>
-		<blockquote>лит.</blockquote>
-		<blockquote>персонаж;</blockquote>
+		<meta>лит.</meta>
+		<trn>персонаж</trn>
 		<blockquote>персонаждар персонажи;</blockquote>
 		<blockquote>пьесанын персонажы персонаж пьесы.</blockquote>
 	</card>
 	<card>
 		<k>персонал</k>
-		<blockquote>персонал;</blockquote>
+		<trn>персонал</trn>
 		<blockquote>медициналык персонал медицинский персонал.</blockquote>
 	</card>
 	<card>
@@ -1907,9 +2042,8 @@
 	</card>
 	<card>
 		<k>перспектива</k>
-		<blockquote>перспектива;</blockquote>
-		<blockquote>айыл чарбасын мындан ары өнүктүрүүнүн перспективалары перспективы
-               дальнейшего развития сельского хозяйства.</blockquote>
+		<trn>перспектива</trn>
+		<blockquote>айыл чарбасын мындан ары өнүктүрүүнүн перспективалары перспективы дальнейшего развития сельского хозяйства.</blockquote>
 	</card>
 	<card>
 		<k>перспективалык</k>
@@ -1918,42 +2052,47 @@
 	</card>
 	<card>
 		<k>пес</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. ложная проказа (белые пятна на коже);</blockquote>
-		<blockquote>2. перен. бран. (о человеке) зараза, мерзкий, гадкий.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>ложная проказа (белые пятна на коже);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>бран. (о человеке) зараза, мерзкий, гадкий.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>песир</k>
-		<blockquote>чатк.</blockquote>
-		<blockquote>то же, что бесир.</blockquote>
+		<meta>чатк.</meta>
+		<sameas word="бесир"/>
 	</card>
 	<card>
 		<k>пессимизм</k>
-		<blockquote>пессимизм.</blockquote>
+		<trn>пессимизм</trn>
 	</card>
 	<card>
 		<k>пессимист</k>
-		<blockquote>пессимист.</blockquote>
+		<trn>пессимист</trn>
 	</card>
 	<card>
 		<k>петит</k>
-		<blockquote>полигр.</blockquote>
-		<blockquote>петит.</blockquote>
+		<meta>полигр.</meta>
+		<trn>петит</trn>
 	</card>
 	<card>
 		<k>петиция</k>
-		<blockquote>петиция.</blockquote>
+		<trn>петиция</trn>
 	</card>
 	<card>
 		<k>печать</k>
-		<blockquote>печать;</blockquote>
+		<trn>печать</trn>
 		<blockquote>печать бас- приложить печать.</blockquote>
 	</card>
 	<card>
 		<k>печек</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>вьюнок.</blockquote>
 	</card>
 	<card>
@@ -1962,282 +2101,285 @@
 	</card>
 	<card>
 		<k>печет</k>
-		<blockquote>то же, что печать.</blockquote>
+		<sameas word="печать"/>
 	</card>
 	<card>
 		<k>печь</k>
-		<blockquote>редко</blockquote>
-		<blockquote>печь;</blockquote>
+		<meta>редко</meta>
+		<trn>печь</trn>
 		<blockquote>домна печи доменная печь.</blockquote>
 	</card>
 	<card>
 		<k>пешайван</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>терраса, веранда.</blockquote>
 	</card>
 	<card>
 		<k>пешака</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что пайшак.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="пайшак"/>
 	</card>
 	<card>
 		<k>пешене</k>
-		<blockquote>то же, что бешене.</blockquote>
+		<sameas word="бешене"/>
 	</card>
 	<card>
 		<k>пешим</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бешим.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бешим"/>
 	</card>
 	<card>
 		<k>пешка</k>
-		<blockquote>пешка;</blockquote>
+		<trn>пешка</trn>
 		<blockquote>жүргөн бир пешка да! да он же пешка!</blockquote>
 	</card>
 	<card>
 		<k>пианино</k>
-		<blockquote>пианино.</blockquote>
+		<trn>пианино</trn>
 	</card>
 	<card>
 		<k>пианист</k>
-		<blockquote>пианист.</blockquote>
+		<trn>пианист</trn>
 	</card>
 	<card>
 		<k>пибирал</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что февраль.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="февраль"/>
 	</card>
 	<card>
 		<k>пивной</k>
-		<blockquote>р.</blockquote>
-		<blockquote>то же, что пивокана.</blockquote>
+		<origin>р.</origin>
+		<sameas word="пивокана"/>
 	</card>
 	<card>
 		<k>пиво</k>
-		<blockquote>пиво.</blockquote>
+		<trn>пиво</trn>
 	</card>
 	<card>
 		<k>пивокана</k>
-		<blockquote>р.-ир.</blockquote>
+		<origin>р.-ир.</origin>
 		<blockquote>пивная.</blockquote>
 	</card>
 	<card>
 		<k>пийалма</k>
-		<blockquote>ир.-кирг. <p>южн.</p>
-		</blockquote>
+		<origin>ир.-кирг.</origin>
+		<meta>южн.</meta>
 		<blockquote>айва.</blockquote>
 	</card>
 	<card>
 		<k>пийба</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пиво.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пиво"/>
 	</card>
 	<card>
 		<k>пикир</k>
-		<blockquote>то же, что бикир I;</blockquote>
-		<blockquote>сурайынчы деген пикир оюна да келгени жок мысль о том, чтобы спросить, ему и
-               в голову не пришла;</blockquote>
-		<blockquote>пикириңе кетпесин не подумай (чего-либо дурного), не
-               беспокойся;</blockquote>
+		<sameas word="бикир" index="1"/>
+		<blockquote>сурайынчы деген пикир оюна да келгени жок мысль о том, чтобы спросить, ему и в голову не пришла;</blockquote>
+		<blockquote>пикириңе кетпесин не подумай (чего-либо дурного), не беспокойся;</blockquote>
 		<blockquote>пикир келишпестик см. келишпестик.</blockquote>
 	</card>
 	<card>
 		<k>пикирдеш</k>
-		<blockquote>то же, что бикирдеш I.</blockquote>
+		<sameas word="бикирдеш" index="1"/>
 	</card>
 	<card>
 		<k>пил</k>
-		<blockquote>то же, что бил I.</blockquote>
+		<sameas word="бил" index="1"/>
 	</card>
 	<card>
 		<k>пиленом</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пленум.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пленум"/>
 	</card>
 	<card>
 		<k>пилик</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что билик 1;</blockquote>
-		<blockquote>2. канитель (серебряная нитка).</blockquote>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="билик" subindex="1"/>
+		</meaning>
+		<meaning>
+			<blockquote>канитель (серебряная нитка).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пилимот</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пулемёт.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пулемёт"/>
 	</card>
 	<card>
 		<k>пилита</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>плита (кухонная).</blockquote>
 	</card>
 	<card>
 		<k>пилла</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>кокон.</blockquote>
 	</card>
 	<card>
 		<k>пилорама</k>
-		<blockquote>пилорама.</blockquote>
+		<trn>пилорама</trn>
 	</card>
 	<card>
 		<k>пинжек</k>
-		<blockquote>1. р. сев. пиджак;</blockquote>
-		<blockquote>2. тяньш. то же, что чыптама.</blockquote>
+		<meaning>
+			<origin>р.</origin>
+			<meta>сев.</meta>
+			<blockquote>пиджак;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>тяньш.</meta>
+			<sameas word="чыптама"/>
+		</meaning>
 	</card>
 	<card>
 		<k>пионер</k>
-		<blockquote>пионер;</blockquote>
+		<trn>пионер</trn>
 		<blockquote>пионер лагери пионерский лагерь;</blockquote>
 		<blockquote>пионер отряды пионерский отряд.</blockquote>
 	</card>
 	<card>
 		<k>пионервожатый</k>
-		<blockquote>пионервожатый.</blockquote>
+		<trn>пионервожатый</trn>
 	</card>
 	<card>
 		<k>пир</k>
-		<blockquote>ир. рел.</blockquote>
-		<blockquote>духовный наставник, патрон (духовный), глава дервишского ордена или части
-               его;</blockquote>
-		<blockquote>пир кылып, тутам колуңду <p>фольк.</p> держу я твою руку, считая тебя своим
-               наставником;</blockquote>
+		<origin>ир.</origin>
+		<meta>рел.</meta>
+		<blockquote>духовный наставник, патрон (духовный), глава дервишского ордена или части его;</blockquote>
+		<ex>
+			<source>пир кылып, тутам колуңду фольк.</source>
+			<target>держу я твою руку, считая тебя своим наставником;</target>
+		</ex>
 		<blockquote>пир тут- взять в свои духовные наставники;</blockquote>
-		<blockquote>пир туткан пириң человек, которого ты взял в свои духовные
-               наставники;</blockquote>
-		<blockquote>пирге кол бер- стать последователем духовного наставника (букв. дать руку
-               духовному наставнику);</blockquote>
+		<blockquote>пир туткан пириң человек, которого ты взял в свои духовные наставники;</blockquote>
+		<blockquote>пирге кол бер- стать последователем духовного наставника (букв. дать руку духовному наставнику);</blockquote>
 		<blockquote>колдоп жүргөн пир споспешествующий наставник;</blockquote>
-		<blockquote>жаа пирим! о мой наставник! (обращение за помощью к духу наставника, что
-               часто делают эпические богатыри);</blockquote>
+		<blockquote>жаа пирим! о мой наставник! (обращение за помощью к духу наставника, что часто делают эпические богатыри);</blockquote>
 		<blockquote>элим - пирим народ мой - покровитель мой;</blockquote>
-		<blockquote>пири тирүү жер <p>фольк.</p> благодатное место, благодатная земля (букв. место,
-               покровитель которого жив).</blockquote>
+		<ex>
+			<source>пири тирүү жер фольк.</source>
+			<target>благодатное место, благодатная земля (букв. место, покровитель которого жив).</target>
+		</ex>
 	</card>
 	<card>
 		<k>пирамида</k>
-		<blockquote>пирамида.</blockquote>
+		<trn>пирамида</trn>
 	</card>
 	<card>
 		<k>пирамидон</k>
-		<blockquote>пирамидон.</blockquote>
+		<trn>пирамидон</trn>
 	</card>
 	<card>
 		<k>пиргөвөр</k>
-		<blockquote>см. пириговор.</blockquote>
+		<look word="пириговор"/>
 	</card>
 	<card>
 		<k>пириварди</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>конец, окончание.</blockquote>
 	</card>
 	<card>
 		<k>пириговор</k>
-		<blockquote>(или пиргөвөр)</blockquote>
-		<blockquote>р. разг.</blockquote>
+		<meta>(или пиргөвөр)</meta>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>приговор (общественный).</blockquote>
 	</card>
 	<card>
 		<k>пирип</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>обман;</blockquote>
-		<blockquote>бүрөвгө пирип берем - деп, өзүмө пирип жедим хотел я другого обмануть, да
-               обманутым оказался сам.</blockquote>
+		<blockquote>бүрөвгө пирип берем - деп, өзүмө пирип жедим хотел я другого обмануть, да обманутым оказался сам.</blockquote>
 	</card>
 	<card>
 		<k>пиричина</k>
-		<blockquote>р. <p>южн.</p>
-		</blockquote>
+		<origin>р.</origin>
+		<meta>южн.</meta>
 		<blockquote>причина (прим. см. опшим).</blockquote>
 	</card>
 	<card>
 		<k>пирмир</k>
-		<blockquote>р. разг. <p>южн.</p>
-		</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<meta>южн.</meta>
 		<blockquote>пример, образец;</blockquote>
 		<blockquote>пирмир болсун пусть будет примером.</blockquote>
 	</card>
 	<card>
 		<k>пирожный</k>
-		<blockquote>р.</blockquote>
+		<origin>р.</origin>
 		<blockquote>пирожное.</blockquote>
 	</card>
 	<card>
 		<k>пироксилин</k>
-		<blockquote>пироксилин.</blockquote>
+		<trn>пироксилин</trn>
 	</card>
 	<card>
 		<k>пиртөкөл</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что протокол;</blockquote>
+		<meta>разг.</meta>
+		<sameas word="протокол"/>
 		<blockquote>пиртөкөл жаз- составить протокол на кого-л.</blockquote>
 	</card>
 	<card>
 		<k>пирөкөрөр</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что прокурор.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="прокурор"/>
 	</card>
 	<card>
 		<k>писант</k>
-		<blockquote>ир. <p>южн.</p>:</blockquote>
+		<blockquote>ир. южн.:</blockquote>
 		<blockquote>пис нт эмес легко, ничего не стоит;</blockquote>
 		<blockquote>жүз киле буга пис нт эмес сто кило для него нипочём.</blockquote>
 	</card>
 	<card>
 		<k>писта</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что мисте.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="мисте"/>
 	</card>
 	<card>
 		<k>пистон</k>
-		<blockquote>пистон;</blockquote>
+		<trn>пистон</trn>
 		<blockquote>пистондору от албай турган маузер маузер, который даёт осечки.</blockquote>
 	</card>
 	<card>
 		<k>пит</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бит.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бит"/>
 	</card>
 	<card>
 		<k>питина</k>
-		<blockquote>ар. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. интрига; смута;</blockquote>
-		<blockquote>2. ненавистник; смутьян.</blockquote>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>интрига; смута;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>ненавистник; смутьян.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>питир</k>
-		<blockquote>(или питир-садага)</blockquote>
-		<blockquote>ар. рел.</blockquote>
+		<meta>(или питир-садага)</meta>
+		<origin>ар.</origin>
+		<meta>рел.</meta>
 		<blockquote>милостыня, раздаваемая по случаю окончания поста (см. орозо).</blockquote>
 	</card>
 	<card>
 		<k>пиче</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>немножко, чуточку;</blockquote>
 		<blockquote>пичи-пичи пиязың барбы? есть ли у тебя немножечко лука?</blockquote>
 	</card>
 	<card>
 		<k>пишек</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что мышык.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="мышык"/>
 	</card>
 	<card>
 		<k>пишер</k>
@@ -2245,45 +2387,51 @@
 	</card>
 	<card>
 		<k>пишкек</k>
-		<blockquote>то же, что бишкек.</blockquote>
+		<sameas word="бишкек"/>
 	</card>
 	<card>
 		<k>пишман</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>раскаяние, сожаление.</blockquote>
 	</card>
 	<card>
 		<k>пияда</k>
-		<blockquote>ир. <p>южн.</p> [пийәдә]</blockquote>
+		<blockquote>ир. южн. [пийәдә]</blockquote>
 		<blockquote>пеший; пешком;</blockquote>
 		<blockquote>пийәдә алыс, чарчайсыңар пешком далеко, устанете;</blockquote>
-		<blockquote>жайыкышы пийәдә басканымды сурадың <p>фольк.</p> ты спросил о том, как я летом и
-               зимой ходил пешком.</blockquote>
+		<ex>
+			<source>жайыкышы пийәдә басканымды сурадың фольк.</source>
+			<target>ты спросил о том, как я летом и зимой ходил пешком.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пиядал</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что феодал.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="феодал"/>
 	</card>
 	<card>
 		<k>пияз</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>лук (растение); луковица;</blockquote>
 		<blockquote>эки баш пияз две луковицы;</blockquote>
 		<blockquote>кылыч пияз тяньш. род съедобного луковичного растения;</blockquote>
 		<blockquote>пияз аарчыгандай как липку (букв. как очищенный лук);</blockquote>
-		<blockquote>таза аарчыган пияздай тукумун үзүп салайын <p>фольк.</p> я изведу его род как
-               догола очищенную луковицу.</blockquote>
+		<ex>
+			<source>таза аарчыган пияздай тукумун үзүп салайын фольк.</source>
+			<target>я изведу его род как догола очищенную луковицу.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пиязи,</k>
 		<blockquote>пиязи, пиязы</blockquote>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>ткань домашнего производства из верблюжьей шерсти;</blockquote>
 		<blockquote>пиязы чепкен чекмень из верблюжьей шерсти;</blockquote>
-		<blockquote>жакшы соккон пиязы, сары жаргак чалбардай стих. хорошо сотканная пиязи
-               подобна (по прочности) нагольным жёлтым шароварам (см. жаргак).</blockquote>
+		<ex>
+			<source>жакшы соккон пиязы, сары жаргак чалбардай стих.</source>
+			<target>хорошо сотканная пиязи подобна (по прочности) нагольным жёлтым шароварам (см. жаргак).</target>
+		</ex>
 	</card>
 	<card>
 		<k>пияла</k>
@@ -2292,24 +2440,24 @@
 	</card>
 	<card>
 		<k>пиян</k>
-		<blockquote>р.</blockquote>
+		<origin>р.</origin>
 		<blockquote>пьяный;</blockquote>
-		<blockquote>пиян базар ист. воскресный базар (когда появлялось много
-               пьяных).</blockquote>
+		<blockquote>пиян базар ист. воскресный базар (когда появлялось много пьяных).</blockquote>
 	</card>
 	<card>
 		<k>пиянкеч</k>
-		<blockquote>р.-ир.</blockquote>
+		<origin>р.-ир.</origin>
 		<blockquote>пьяница;</blockquote>
 		<blockquote>пиянкеч болуп кетти он спился.</blockquote>
 	</card>
 	<card>
 		<k>плакат</k>
-		<blockquote>плакат.</blockquote>
+		<trn>плакат</trn>
 	</card>
 	<card>
 		<k>план</k>
-		<blockquote>в разн. знач. план;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>план</trn>
 		<blockquote>эгин даярдоо планы план хлебозаготовок;</blockquote>
 		<blockquote>өндүрүш планы производственный план;</blockquote>
 		<blockquote>окуу планы учебный план;</blockquote>
@@ -2323,7 +2471,7 @@
 	</card>
 	<card>
 		<k>пландоо</k>
-		<blockquote>и. д. от планда-</blockquote>
+		<actionNoun word="планда"/>
 		<blockquote>планирование;</blockquote>
 		<blockquote>пландоо бөлүмү плановый отдел.</blockquote>
 	</card>
@@ -2346,41 +2494,41 @@
 	</card>
 	<card>
 		<k>планёр</k>
-		<blockquote>планёр.</blockquote>
+		<trn>планёр</trn>
 	</card>
 	<card>
 		<k>планеризм</k>
-		<blockquote>планеризм.</blockquote>
+		<trn>планеризм</trn>
 	</card>
 	<card>
 		<k>планерист</k>
-		<blockquote>планерист.</blockquote>
+		<trn>планерист</trn>
 	</card>
 	<card>
 		<k>планета</k>
-		<blockquote>планета.</blockquote>
+		<trn>планета</trn>
 	</card>
 	<card>
 		<k>планетарий</k>
-		<blockquote>планетарий.</blockquote>
+		<trn>планетарий</trn>
 	</card>
 	<card>
 		<k>планка</k>
-		<blockquote>планка;</blockquote>
+		<trn>планка</trn>
 		<blockquote>ордендердин планкалары орденские планки.</blockquote>
 	</card>
 	<card>
 		<k>плантатор</k>
-		<blockquote>плантатор.</blockquote>
+		<trn>плантатор</trn>
 	</card>
 	<card>
 		<k>плантация</k>
-		<blockquote>плантация;</blockquote>
+		<trn>плантация</trn>
 		<blockquote>кызылча плантациялары свекловичные плантации.</blockquote>
 	</card>
 	<card>
 		<k>пластика</k>
-		<blockquote>пластика.</blockquote>
+		<trn>пластика</trn>
 	</card>
 	<card>
 		<k>пластикалык</k>
@@ -2390,28 +2538,28 @@
 	</card>
 	<card>
 		<k>пластилин</k>
-		<blockquote>пластилин.</blockquote>
+		<trn>пластилин</trn>
 	</card>
 	<card>
 		<k>пластинка</k>
-		<blockquote>пластинка.</blockquote>
+		<trn>пластинка</trn>
 	</card>
 	<card>
 		<k>пластмасса</k>
-		<blockquote>пластмасса.</blockquote>
+		<trn>пластмасса</trn>
 	</card>
 	<card>
 		<k>платформа</k>
 		<blockquote>в разн. знач.</blockquote>
-		<blockquote>платформа.</blockquote>
+		<trn>платформа</trn>
 	</card>
 	<card>
 		<k>плацдарм</k>
-		<blockquote>плацдарм.</blockquote>
+		<trn>плацдарм</trn>
 	</card>
 	<card>
 		<k>плацкарта</k>
-		<blockquote>плацкарта.</blockquote>
+		<trn>плацкарта</trn>
 	</card>
 	<card>
 		<k>пленардык</k>
@@ -2425,11 +2573,11 @@
 	</card>
 	<card>
 		<k>пленум</k>
-		<blockquote>пленум.</blockquote>
+		<trn>пленум</trn>
 	</card>
 	<card>
 		<k>пломба</k>
-		<blockquote>пломба.</blockquote>
+		<trn>пломба</trn>
 	</card>
 	<card>
 		<k>пломбала-</k>
@@ -2437,7 +2585,7 @@
 	</card>
 	<card>
 		<k>пломбалоо</k>
-		<blockquote>и. д. от пломбала-</blockquote>
+		<actionNoun word="пломбала"/>
 		<blockquote>пломбирование.</blockquote>
 	</card>
 	<card>
@@ -2446,19 +2594,19 @@
 	</card>
 	<card>
 		<k>пляж</k>
-		<blockquote>пляж.</blockquote>
+		<trn>пляж</trn>
 	</card>
 	<card>
 		<k>повар</k>
-		<blockquote>повар.</blockquote>
+		<trn>повар</trn>
 	</card>
 	<card>
 		<k>повесть</k>
-		<blockquote>повесть.</blockquote>
+		<trn>повесть</trn>
 	</card>
 	<card>
 		<k>погон</k>
-		<blockquote>погон.</blockquote>
+		<trn>погон</trn>
 	</card>
 	<card>
 		<k>погонный</k>
@@ -2466,61 +2614,64 @@
 	</card>
 	<card>
 		<k>пограничник</k>
-		<blockquote>пограничник.</blockquote>
+		<trn>пограничник</trn>
 	</card>
 	<card>
 		<k>погреб</k>
-		<blockquote>погреб.</blockquote>
+		<trn>погреб</trn>
 	</card>
 	<card>
 		<k>подвал</k>
-		<blockquote>в разн. знач. подвал.</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>подвал</trn>
 	</card>
 	<card>
 		<k>подвалдык</k>
-		<blockquote>в разн. знач. подвальный;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>подвальный</trn>
 		<blockquote>подвалдык жай подвальное помещенне;</blockquote>
 		<blockquote>подвалдык макала подвальная статья.</blockquote>
 	</card>
 	<card>
 		<k>подкормка</k>
-		<blockquote>с.-х.</blockquote>
+		<meta>с.-х.</meta>
 		<blockquote>подкормка (посевов).</blockquote>
 	</card>
 	<card>
 		<k>подполдук</k>
-		<blockquote>полит.</blockquote>
+		<meta>полит.</meta>
 		<blockquote>подпольный;</blockquote>
 		<blockquote>партиянын подполдук уюмдары подпольные партийные организации.</blockquote>
 	</card>
 	<card>
 		<k>подполковник</k>
-		<blockquote>подполковник.</blockquote>
+		<trn>подполковник</trn>
 	</card>
 	<card>
 		<k>подполье</k>
-		<blockquote>полит.</blockquote>
-		<blockquote>подполье;</blockquote>
+		<meta>полит.</meta>
+		<trn>подполье</trn>
 		<blockquote>революциялык подполье революционное подполье.</blockquote>
 	</card>
 	<card>
 		<k>подпольщик</k>
-		<blockquote>подпольщик.</blockquote>
+		<trn>подпольщик</trn>
 	</card>
 	<card>
 		<k>подразделение</k>
-		<blockquote>воен.</blockquote>
-		<blockquote>подразделение;</blockquote>
+		<meta>воен.</meta>
+		<trn>подразделение</trn>
 		<blockquote>подразделениенин командири командир подразделения.</blockquote>
 	</card>
 	<card>
 		<k>подстанция</k>
-		<blockquote>подстанция;</blockquote>
+		<trn>подстанция</trn>
 		<blockquote>трансформатордук подстанция трансформаторная подстанция.</blockquote>
 	</card>
 	<card>
 		<k>подшипка</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>подшивка (газет);</blockquote>
 		<blockquote>кыш айларынын подшипкасы подшивка (газет) за зимние месяцы;</blockquote>
 		<blockquote>подшипканы барактап перелистывая подшивку.</blockquote>
@@ -2531,7 +2682,7 @@
 	</card>
 	<card>
 		<k>поезд</k>
-		<blockquote>поезд.</blockquote>
+		<trn>поезд</trn>
 	</card>
 	<card>
 		<k>поезддик</k>
@@ -2540,12 +2691,13 @@
 	</card>
 	<card>
 		<k>пожалиска</k>
-		<blockquote>(или пожалюста)</blockquote>
-		<blockquote>то же, что пажалыста.</blockquote>
+		<meta>(или пожалюста)</meta>
+		<sameas word="пажалыста"/>
 	</card>
 	<card>
 		<k>позиция</k>
-		<blockquote>в разн. знач. позиция;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>позиция</trn>
 		<blockquote>согуштун алдынкы позициясы воен. передовые позиции;</blockquote>
 		<blockquote>советтик делегациянын позициясы позиция советской делегации;</blockquote>
 		<blockquote>командалык позициялар командные позиции;</blockquote>
@@ -2554,41 +2706,44 @@
 	<card>
 		<k>позывные</k>
 		<blockquote>радио</blockquote>
-		<blockquote>позывные.</blockquote>
+		<trn>позывные</trn>
 	</card>
 	<card>
 		<k>пой</k>
-		<blockquote>парное к кой I 1.</blockquote>
+		<pair word="кой" index="1" subindex="1"/>
 	</card>
 	<card>
 		<k>покчо</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что бокчо;</blockquote>
-		<blockquote>2. то же, что желдик.</blockquote>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="бокчо"/>
+		</meaning>
+		<meaning>
+			<sameas word="желдик"/>
+		</meaning>
 	</card>
 	<card>
 		<k>полдомочун</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>уполномоченный.</blockquote>
 	</card>
 	<card>
 		<k>полевод</k>
-		<blockquote>полевод.</blockquote>
+		<trn>полевод</trn>
 	</card>
 	<card>
 		<k>полигон</k>
-		<blockquote>полигон.</blockquote>
+		<trn>полигон</trn>
 	</card>
 	<card>
 		<k>поликлиника</k>
-		<blockquote>поликлиника.</blockquote>
+		<trn>поликлиника</trn>
 	</card>
 	<card>
 		<k>полип</k>
-		<blockquote>мед.</blockquote>
-		<blockquote>полип.</blockquote>
+		<meta>мед.</meta>
+		<trn>полип</trn>
 	</card>
 	<card>
 		<k>политбюро</k>
@@ -2596,7 +2751,7 @@
 	</card>
 	<card>
 		<k>политехнизация</k>
-		<blockquote>политехнизация.</blockquote>
+		<trn>политехнизация</trn>
 	</card>
 	<card>
 		<k>политехникалаштыр-</k>
@@ -2613,24 +2768,28 @@
 	</card>
 	<card>
 		<k>полиция</k>
-		<blockquote>1. полиция;</blockquote>
-		<blockquote>2. полицейский.</blockquote>
+		<meaning>
+			<blockquote>полиция;</blockquote>
+		</meaning>
+		<meaning>
+			<trn>полицейский</trn>
+		</meaning>
 	</card>
 	<card>
 		<k>полк</k>
-		<blockquote>полк.</blockquote>
+		<trn>полк</trn>
 	</card>
 	<card>
 		<k>полковник</k>
-		<blockquote>полковник.</blockquote>
+		<trn>полковник</trn>
 	</card>
 	<card>
 		<k>полководец</k>
-		<blockquote>полководец.</blockquote>
+		<trn>полководец</trn>
 	</card>
 	<card>
 		<k>полномочие</k>
-		<blockquote>полномочие.</blockquote>
+		<trn>полномочие</trn>
 	</card>
 	<card>
 		<k>полномочиелүү</k>
@@ -2639,25 +2798,25 @@
 	</card>
 	<card>
 		<k>полобай</k>
-		<blockquote>полобай: полобай-шолобайынды кой не отговаривайся; брось увиливать, не
-               морочь голову.</blockquote>
+		<blockquote>полобай: полобай-шолобайынды кой не отговаривайся; брось увиливать, не морочь голову.</blockquote>
 	</card>
 	<card>
 		<k>полоса</k>
-		<blockquote>полигр.</blockquote>
-		<blockquote>полоса.</blockquote>
+		<meta>полигр.</meta>
+		<trn>полоса</trn>
 	</card>
 	<card>
 		<k>помещик</k>
-		<blockquote>помещик.</blockquote>
+		<trn>помещик</trn>
 	</card>
 	<card>
 		<k>помидор</k>
-		<blockquote>помидор.</blockquote>
+		<trn>помидор</trn>
 	</card>
 	<card>
 		<k>помозий</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>бумазея.</blockquote>
 	</card>
 	<card>
@@ -2666,77 +2825,73 @@
 	</card>
 	<card>
 		<k>понду</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что фонд.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="фонд"/>
 	</card>
 	<card>
 		<k>поноо</k>
-		<blockquote>парное к аноо;</blockquote>
+		<pair word="аноо"/>
 		<blockquote>аноо-поноо то да это, всякое такое;</blockquote>
-		<blockquote>идишиңди да ала жүр, дүкөндөрдөн аноо-поноо ала келерсиң захвати с собой
-               свою посуду: из магазинов того-сего принесёшь.</blockquote>
+		<blockquote>идишиңди да ала жүр, дүкөндөрдөн аноо-поноо ала келерсиң захвати с собой свою посуду: из магазинов того-сего принесёшь.</blockquote>
 	</card>
 	<card>
 		<k>поолук</k>
-		<blockquote>парное к жоолук;</blockquote>
+		<pair word="жоолук"/>
 		<blockquote>жоолук-поолук платки и всякое такое.</blockquote>
 	</card>
 	<card>
 		<k>поп</k>
-		<blockquote>то же, что боп I.</blockquote>
+		<sameas word="боп" index="1"/>
 	</card>
 	<card>
 		<k>пополоң</k>
-		<blockquote>то же, что бополоң.</blockquote>
+		<sameas word="бополоң"/>
 	</card>
 	<card>
 		<k>попорос</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что папироса.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="папироса"/>
 	</card>
 	<card>
 		<k>пормалчылдык</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что формализм.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="формализм"/>
 	</card>
 	<card>
 		<k>пормо</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что борум.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="борум"/>
 	</card>
 	<card>
 		<k>пормоло-</k>
-		<blockquote>то же, что борумда-;</blockquote>
-		<blockquote>кезегинде Токоң да ырдачу элем пормолоп <p>фольк.</p> в своё время и я, твой Токо,
-               пел мастерски.</blockquote>
+		<sameas word="борумда"/>
+		<ex>
+			<source>кезегинде Токоң да ырдачу элем пормолоп фольк.</source>
+			<target>в своё время и я, твой Токо, пел мастерски.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пороз</k>
-		<blockquote>см. короз II.</blockquote>
+		<look word="короз" index="2"/>
 	</card>
 	<card>
 		<k>порон</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бороон.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бороон"/>
 	</card>
 	<card>
 		<k>порошок</k>
-		<blockquote>порошок;</blockquote>
+		<trn>порошок</trn>
 		<blockquote>тиш порошогу зубной порошок.</blockquote>
 	</card>
 	<card>
 		<k>порт</k>
-		<blockquote>порт.</blockquote>
+		<trn>порт</trn>
 	</card>
 	<card>
 		<k>портрет</k>
-		<blockquote>портрет;</blockquote>
-		<blockquote>алардын ичинде портреттер, пейзаждар бар среди них есть портреты,
-               пейзажи.</blockquote>
+		<trn>портрет</trn>
+		<blockquote>алардын ичинде портреттер, пейзаждар бар среди них есть портреты, пейзажи.</blockquote>
 	</card>
 	<card>
 		<k>портфелсиз</k>
@@ -2745,62 +2900,66 @@
 	</card>
 	<card>
 		<k>портфель</k>
-		<blockquote>в разн. знач. портфель.</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>портфель</trn>
 	</card>
 	<card>
 		<k>порум</k>
-		<blockquote>то же, что борум;</blockquote>
-		<blockquote>кемериң казак порумунда көрүнөт пояс твой кажется казахского фасона (букв.
-               формы);</blockquote>
-		<blockquote>карап турсаң, поруму - казак орус салдаттай стих. посмотришь - вид у него
-               (стройный), как у казака;</blockquote>
-		<blockquote>булбул үнү улам жакындап, түркүм порум менен сайрап келе жатат голос соловья
-               всё ближе звучит (букв. поёт) на разные лады;</blockquote>
-		<blockquote>карачы, биздин өлкө кандай порум стих. посмотри-ка, как красива наша
-               страна;</blockquote>
-		<blockquote>текебер болот поруму, тентек болот жоругу стих. (у пустозвона) вид бывает
-               надменный, поведение бывает непристойное.</blockquote>
+		<sameas word="борум"/>
+		<blockquote>кемериң казак порумунда көрүнөт пояс твой кажется казахского фасона (букв. формы);</blockquote>
+		<ex>
+			<source>карап турсаң, поруму - казак орус салдаттай стих.</source>
+			<target>посмотришь - вид у него (стройный), как у казака;</target>
+		</ex>
+		<blockquote>булбул үнү улам жакындап, түркүм порум менен сайрап келе жатат голос соловья всё ближе звучит (букв. поёт) на разные лады;</blockquote>
+		<ex>
+			<source>карачы, биздин өлкө кандай порум стих.</source>
+			<target>посмотри-ка, как красива наша страна;</target>
+		</ex>
+		<ex>
+			<source>текебер болот поруму, тентек болот жоругу стих.</source>
+			<target>(у пустозвона) вид бывает надменный, поведение бывает непристойное.</target>
+		</ex>
 	</card>
 	<card>
 		<k>порумда-</k>
-		<blockquote>то же, что борумда-;</blockquote>
-		<blockquote>кулжанын мүйүзүнөн өзүнчө порумдап жасалган сап рукоятка, особо сделанная из
-               рога горного барана;</blockquote>
-		<blockquote>жакшы устанын белгиси: калай да болсо, күмүштөй кармаган ишин порумдайт
-               <p>фольк.</p> признак хорошего мастера: даже из олова (букв. пусть будет олово), он так же
-               красиво сделает, как и из серебра (букв. будто серебро).</blockquote>
+		<sameas word="борумда"/>
+		<blockquote>кулжанын мүйүзүнөн өзүнчө порумдап жасалган сап рукоятка, особо сделанная из рога горного барана;</blockquote>
+		<ex>
+			<source>жакшы устанын белгиси: калай да болсо, күмүштөй кармаган ишин порумдайт фольк.</source>
+			<target>признак хорошего мастера: даже из олова (букв. пусть будет олово), он так же красиво сделает, как и из серебра (букв. будто серебро).</target>
+		</ex>
 	</card>
 	<card>
 		<k>порумдуу</k>
-		<blockquote>то же, что борумдуу.</blockquote>
+		<sameas word="борумдуу"/>
 	</card>
 	<card>
 		<k>пос</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>шкура, кожа; кожица, корка (напр. апельсина);</blockquote>
 		<blockquote>жыландын посу кожа змеи, змеиная кожа.</blockquote>
 	</card>
 	<card>
 		<k>посёлка</k>
-		<blockquote>то же, что посёлок;</blockquote>
+		<sameas word="посёлок"/>
 		<blockquote>жумушчу посёлкасы рабочий посёлок.</blockquote>
 	</card>
 	<card>
 		<k>поселкалык</k>
-		<blockquote>то же, что посёлоктук;</blockquote>
+		<sameas word="посёлоктук"/>
 		<blockquote>поселкалык совет поселковый совет.</blockquote>
 	</card>
 	<card>
 		<k>посёлок</k>
-		<blockquote>посёлок.</blockquote>
+		<trn>посёлок</trn>
 	</card>
 	<card>
 		<k>посёлоктук</k>
 		<blockquote>поселковый;</blockquote>
 		<blockquote>посёлоктук совет поселковый совет;</blockquote>
-		<blockquote>посёлоктук советтердин председателдери председатели поселковых
-               советов.</blockquote>
+		<blockquote>посёлоктук советтердин председателдери председатели поселковых советов.</blockquote>
 	</card>
 	<card>
 		<k>послание</k>
@@ -2808,9 +2967,9 @@
 	</card>
 	<card>
 		<k>послок</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что кабык I;</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="кабык" index="1"/>
 		<blockquote>теректин послогу кора тополя.</blockquote>
 	</card>
 	<card>
@@ -2820,47 +2979,48 @@
 	</card>
 	<card>
 		<k>посол</k>
-		<blockquote>дип.</blockquote>
-		<blockquote>посол.</blockquote>
+		<meta>дип.</meta>
+		<trn>посол</trn>
 	</card>
 	<card>
 		<k>пост</k>
-		<blockquote>в разн. знач. пост;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>пост</trn>
 		<blockquote>жетекчи постулар руководящие посты;</blockquote>
 		<blockquote>байкоочу пост наблюдательный пост;</blockquote>
 		<blockquote>постко тур- стоять на посту.</blockquote>
 	</card>
 	<card>
 		<k>постановка</k>
-		<blockquote>театр.</blockquote>
-		<blockquote>постановка.</blockquote>
+		<meta>театр.</meta>
+		<trn>постановка</trn>
 	</card>
 	<card>
 		<k>постановщик</k>
-		<blockquote>театр.</blockquote>
-		<blockquote>постановщик.</blockquote>
+		<meta>театр.</meta>
+		<trn>постановщик</trn>
 	</card>
 	<card>
 		<k>постек</k>
-		<blockquote>ир. <p>южн.</p> чуйск.</blockquote>
-		<blockquote>то же, что көлдөлөң I.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meta>чуйск.</meta>
+		<sameas word="көлдөлөң" index="1"/>
 	</card>
 	<card>
 		<k>постун</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>шуба.</blockquote>
 	</card>
 	<card>
 		<k>пота</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бото II.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бото" index="2"/>
 	</card>
 	<card>
 		<k>потенциал</k>
-		<blockquote>потенциал;</blockquote>
+		<trn>потенциал</trn>
 		<blockquote>согуш потенциалы или согуш-тук потенциал военный потенциал.</blockquote>
 	</card>
 	<card>
@@ -2870,13 +3030,12 @@
 	</card>
 	<card>
 		<k>потолок</k>
-		<blockquote>потолок;</blockquote>
-		<blockquote>сөзүнүн баары потолокко чыкты все его слова оказались пустыми, пустой
-               болтовнёй.</blockquote>
+		<trn>потолок</trn>
+		<blockquote>сөзүнүн баары потолокко чыкты все его слова оказались пустыми, пустой болтовнёй.</blockquote>
 	</card>
 	<card>
 		<k>потун</k>
-		<blockquote>парное к отун 1.</blockquote>
+		<pair word="отун" subindex="1"/>
 	</card>
 	<card>
 		<k>поход</k>
@@ -2884,9 +3043,14 @@
 	</card>
 	<card>
 		<k>почок</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. <p>южн.</p> кожица, корка (фруктов, арбуза);</blockquote>
-		<blockquote>2. то же, что мардек.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>кожица, корка (фруктов, арбуза);</blockquote>
+		</meaning>
+		<meaning>
+			<sameas word="мардек"/>
+		</meaning>
 	</card>
 	<card>
 		<k>почта</k>
@@ -2895,22 +3059,34 @@
 	</card>
 	<card>
 		<k>почтачы</k>
-		<blockquote>1. почтальон;</blockquote>
-		<blockquote>2. уст. станционный смотритель.</blockquote>
+		<meaning>
+			<blockquote>почтальон;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>станционный смотритель.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>почто,</k>
 		<blockquote>почто, почто</blockquote>
-		<blockquote>1. то же, что почта;</blockquote>
-		<blockquote>редакциялык почтодон из редакционной почты;</blockquote>
-		<blockquote>почто-телеграфдык кызматчылар почтово-телеграфные служащие;</blockquote>
-		<blockquote>2. уст. почтовая тройка в упряжке;</blockquote>
-		<blockquote>сарамжалдуу жигиттер чегип койгон почтоодой стих. аккуратные парни подобны
-               почтовой упряжке.</blockquote>
+		<meaning>
+			<sameas word="почта"/>
+			<blockquote>редакциялык почтодон из редакционной почты;</blockquote>
+			<blockquote>почто-телеграфдык кызматчылар почтово-телеграфные служащие;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>почтовая тройка в упряжке;</blockquote>
+			<ex>
+				<source>сарамжалдуу жигиттер чегип койгон почтоодой стих.</source>
+				<target>аккуратные парни подобны почтовой упряжке.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>почточу</k>
-		<blockquote>то же, что почтачы;</blockquote>
+		<sameas word="почтачы"/>
 		<blockquote>колхоздун почточусу колхозный почтальон;</blockquote>
 		<blockquote>почточу кыз девушка-почтальон.</blockquote>
 	</card>
@@ -2920,10 +3096,8 @@
 	</card>
 	<card>
 		<k>пош</k>
-		<blockquote>(или пош-пош)</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>(или пош-пош)</meta>
+		<meta>южн.</meta>
 		<blockquote>дорогу!, берегись! (окрик кучера, быстро едущего верхового).</blockquote>
 	</card>
 	<card>
@@ -2932,47 +3106,44 @@
 	</card>
 	<card>
 		<k>поэзия</k>
-		<blockquote>поэзия.</blockquote>
+		<trn>поэзия</trn>
 	</card>
 	<card>
 		<k>поэма</k>
-		<blockquote>поэма.</blockquote>
+		<trn>поэма</trn>
 	</card>
 	<card>
 		<k>поэт</k>
-		<blockquote>поэт.</blockquote>
+		<trn>поэт</trn>
 	</card>
 	<card>
 		<k>поюз</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что поезд.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="поезд"/>
 	</card>
 	<card>
 		<k>права</k>
 		<blockquote>права (шофёрские);</blockquote>
-		<blockquote>праваңды экинчи көрөм деп ойлобо ты не думай, что вторично увидишь свои
-               права (ты их не получишь).</blockquote>
+		<blockquote>праваңды экинчи көрөм деп ойлобо ты не думай, что вторично увидишь свои права (ты их не получишь).</blockquote>
 	</card>
 	<card>
 		<k>правление</k>
-		<blockquote>правление;</blockquote>
+		<trn>правление</trn>
 		<blockquote>колхоз правлениеси правление колхоза.</blockquote>
 	</card>
 	<card>
 		<k>практика</k>
-		<blockquote>в разн. знач. практика;</blockquote>
-		<blockquote>теорияны практика менен айкалыштыруу сочетание теории с
-               практикой;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>практика</trn>
+		<blockquote>теорияны практика менен айкалыштыруу сочетание теории с практикой;</blockquote>
 		<blockquote>студенттердин практикасы практика студентов;</blockquote>
 		<blockquote>практика жүзүндө көрсөт- показать на практике.</blockquote>
 	</card>
 	<card>
 		<k>практикалан-</k>
 		<blockquote>практиковаться, применяться на практике;</blockquote>
-		<blockquote>жүгөрү аянттарын малалоо эч качан практикаланган эмес боронование площадей
-               кукурузы никогда не практиковалось;</blockquote>
-		<blockquote>бул жерлерде малды кыштатуу кеңири практикалана элек в этих местах зимовка
-               скота пока ещё широко не практиковалась.</blockquote>
+		<blockquote>жүгөрү аянттарын малалоо эч качан практикаланган эмес боронование площадей кукурузы никогда не практиковалось;</blockquote>
+		<blockquote>бул жерлерде малды кыштатуу кеңири практикалана элек в этих местах зимовка скота пока ещё широко не практиковалась.</blockquote>
 	</card>
 	<card>
 		<k>практикалык</k>
@@ -2981,13 +3152,13 @@
 	</card>
 	<card>
 		<k>практикант</k>
-		<blockquote>практикант.</blockquote>
+		<trn>практикант</trn>
 	</card>
 	<card>
 		<k>предмет</k>
-		<blockquote>в разн. знач. предмет;</blockquote>
-		<blockquote>кайсы предметтен экзамен бердиң (или өткөрдүң) ? ты по какому предмету сдал
-               экзамен?</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>предмет</trn>
+		<blockquote>кайсы предметтен экзамен бердиң (или өткөрдүң) ? ты по какому предмету сдал экзамен?</blockquote>
 		<blockquote>талкуунун предмети предмет (тема) обсуждения.</blockquote>
 	</card>
 	<card>
@@ -2999,14 +3170,13 @@
 	</card>
 	<card>
 		<k>председатель</k>
-		<blockquote>председатель;</blockquote>
-		<blockquote>Министрлер Советинин Председатели Председатель Совета
-               Министров;</blockquote>
+		<trn>председатель</trn>
+		<blockquote>Министрлер Советинин Председатели Председатель Совета Министров;</blockquote>
 		<blockquote>колхоздун председатели председатель колхоза.</blockquote>
 	</card>
 	<card>
 		<k>президент</k>
-		<blockquote>президент.</blockquote>
+		<trn>президент</trn>
 	</card>
 	<card>
 		<k>президенттик</k>
@@ -3014,40 +3184,40 @@
 	</card>
 	<card>
 		<k>президиум</k>
-		<blockquote>президиум;</blockquote>
+		<trn>президиум</trn>
 		<blockquote>ардактуу президиум почётный президиум.</blockquote>
 	</card>
 	<card>
 		<k>премьер</k>
-		<blockquote>премьер;</blockquote>
+		<trn>премьер</trn>
 		<blockquote>премьер-министр премьер-министр.</blockquote>
 	</card>
 	<card>
 		<k>премьера</k>
-		<blockquote>театр.</blockquote>
-		<blockquote>премьера.</blockquote>
+		<meta>театр.</meta>
+		<trn>премьера</trn>
 	</card>
 	<card>
 		<k>препарат</k>
-		<blockquote>препарат.</blockquote>
+		<trn>препарат</trn>
 	</card>
 	<card>
 		<k>пресс</k>
-		<blockquote>тех.</blockquote>
-		<blockquote>пресс;</blockquote>
+		<meta>тех.</meta>
+		<trn>пресс</trn>
 		<blockquote>электр пресси электрический пресс.</blockquote>
 	</card>
 	<card>
 		<k>пресс-конференция</k>
-		<blockquote>пресс-конференция.</blockquote>
+		<trn>пресс-конференция</trn>
 	</card>
 	<card>
 		<k>прибор</k>
-		<blockquote>прибор.</blockquote>
+		<trn>прибор</trn>
 	</card>
 	<card>
 		<k>привилегия</k>
-		<blockquote>привилегия.</blockquote>
+		<trn>привилегия</trn>
 	</card>
 	<card>
 		<k>привилегиялуу</k>
@@ -3055,37 +3225,34 @@
 	</card>
 	<card>
 		<k>пригөбөр</k>
-		<blockquote>то же, что биргөбөр.</blockquote>
+		<sameas word="биргөбөр"/>
 	</card>
 	<card>
 		<k>приёмник</k>
 		<blockquote>радио</blockquote>
-		<blockquote>приёмник.</blockquote>
+		<trn>приёмник</trn>
 	</card>
 	<card>
 		<k>призма</k>
-		<blockquote>мат.</blockquote>
-		<blockquote>призма.</blockquote>
+		<meta>мат.</meta>
+		<trn>призма</trn>
 	</card>
 	<card>
 		<k>приказ</k>
-		<blockquote>приказ;</blockquote>
+		<trn>приказ</trn>
 		<blockquote>приказды орундадык мы приказ выполнили.</blockquote>
 	</card>
 	<card>
 		<k>прима</k>
-		<blockquote>прима;</blockquote>
+		<trn>прима</trn>
 		<blockquote>прима-балерина прима-балерина.</blockquote>
 	</card>
 	<card>
 		<k>принцип</k>
-		<blockquote>принцип;</blockquote>
-		<blockquote>тынчтыкта жанаша жашоо принциби принцип мирного
-               сосуществования;</blockquote>
-		<blockquote>же бул сенин принциптериңе каршыбы? или это против твоих
-               принципов?</blockquote>
-		<blockquote>ар кимдин жарамдуулугуна жараша, ар кимге анын эмгегине жараша деген
-               принциби принцип: от каждого по способностям, каждому по потребностям.</blockquote>
+		<trn>принцип</trn>
+		<blockquote>тынчтыкта жанаша жашоо принциби принцип мирного сосуществования;</blockquote>
+		<blockquote>же бул сенин принциптериңе каршыбы? или это против твоих принципов?</blockquote>
+		<blockquote>ар кимдин жарамдуулугуна жараша, ар кимге анын эмгегине жараша деген принциби принцип: от каждого по способностям, каждому по потребностям.</blockquote>
 	</card>
 	<card>
 		<k>принципиалдуу</k>
@@ -3097,8 +3264,7 @@
 	<card>
 		<k>принципиалдуулук</k>
 		<blockquote>принципиальность;</blockquote>
-		<blockquote>өжөрлүк менен принципиалдуулукту ажырата албайт турбайсыңбы! да ты ведь не
-               можешь отличить упрямство от принципиальности!;</blockquote>
+		<blockquote>өжөрлүк менен принципиалдуулукту ажырата албайт турбайсыңбы! да ты ведь не можешь отличить упрямство от принципиальности!;</blockquote>
 		<blockquote>принципиалдуулугуң жок у тебя нет принципиальности.</blockquote>
 	</card>
 	<card>
@@ -3111,16 +3277,16 @@
 	</card>
 	<card>
 		<k>пристань</k>
-		<blockquote>пристань.</blockquote>
+		<trn>пристань</trn>
 	</card>
 	<card>
 		<k>пристатил</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что председатель.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="председатель"/>
 	</card>
 	<card>
 		<k>прицеп</k>
-		<blockquote>прицеп;</blockquote>
+		<trn>прицеп</trn>
 		<blockquote>прицеби бар автомобиль автомобиль с прицепом.</blockquote>
 	</card>
 	<card>
@@ -3130,11 +3296,11 @@
 	</card>
 	<card>
 		<k>пробирка</k>
-		<blockquote>пробирка.</blockquote>
+		<trn>пробирка</trn>
 	</card>
 	<card>
 		<k>проблема</k>
-		<blockquote>проблема;</blockquote>
+		<trn>проблема</trn>
 		<blockquote>куралсыздануу проблемасы проблема разоружения;</blockquote>
 		<blockquote>талаш проблемалар спорные проблемы.</blockquote>
 	</card>
@@ -3145,12 +3311,12 @@
 	</card>
 	<card>
 		<k>провинция</k>
-		<blockquote>провинция.</blockquote>
+		<trn>провинция</trn>
 	</card>
 	<card>
 		<k>провод</k>
-		<blockquote>тех.</blockquote>
-		<blockquote>провод;</blockquote>
+		<meta>тех.</meta>
+		<trn>провод</trn>
 		<blockquote>түз провод прямой провод (телеграфный);</blockquote>
 		<blockquote>түз провод менен по прямому проводу;</blockquote>
 		<blockquote>суу провод то же, что водопровод.</blockquote>
@@ -3162,7 +3328,7 @@
 	</card>
 	<card>
 		<k>провокатор</k>
-		<blockquote>провокатор.</blockquote>
+		<trn>провокатор</trn>
 	</card>
 	<card>
 		<k>провокатордук</k>
@@ -3171,7 +3337,7 @@
 	</card>
 	<card>
 		<k>провокация</k>
-		<blockquote>провокация.</blockquote>
+		<trn>провокация</trn>
 	</card>
 	<card>
 		<k>провокациялык</k>
@@ -3180,17 +3346,15 @@
 	</card>
 	<card>
 		<k>прогноз</k>
-		<blockquote>прогноз;</blockquote>
+		<trn>прогноз</trn>
 		<blockquote>аба ырайынын прогнозу прогноз погоды.</blockquote>
 	</card>
 	<card>
 		<k>программа</k>
-		<blockquote>программа;</blockquote>
-		<blockquote>Советтер Союзунун Коммунисттик Партиясынын программасы Программа
-               Коммунистической партии Советского Союза;</blockquote>
+		<trn>программа</trn>
+		<blockquote>Советтер Союзунун Коммунисттик Партиясынын программасы Программа Коммунистической партии Советского Союза;</blockquote>
 		<blockquote>кыргыз тили боюнча программа программа по киргизскому языку;</blockquote>
-		<blockquote>эртеңки берүүлөрдүн программасын угуңуздар радио слушайте программу
-               завтрашних передач.</blockquote>
+		<blockquote>эртеңки берүүлөрдүн программасын угуңуздар радио слушайте программу завтрашних передач.</blockquote>
 	</card>
 	<card>
 		<k>программалык</k>
@@ -3199,7 +3363,7 @@
 	</card>
 	<card>
 		<k>прогресс</k>
-		<blockquote>прогресс.</blockquote>
+		<trn>прогресс</trn>
 	</card>
 	<card>
 		<k>прогрессивдүү</k>
@@ -3217,26 +3381,29 @@
 	</card>
 	<card>
 		<k>продукт</k>
-		<blockquote>1. продукт;</blockquote>
-		<blockquote>продуктылар продукты;</blockquote>
-		<blockquote>мал чарба продуктылары продукты животноводства;</blockquote>
-		<blockquote>2. только мн. продуктылар продукты питания.</blockquote>
+		<meaning>
+			<trn>продукт</trn>
+			<blockquote>продуктылар продукты;</blockquote>
+			<blockquote>мал чарба продуктылары продукты животноводства;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>только мн. продуктылар продукты питания.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>продуктуулук</k>
 		<blockquote>продуктивность;</blockquote>
-		<blockquote>малдын продуктуулугун жогорулатуу повышение продуктивности
-               скота.</blockquote>
+		<blockquote>малдын продуктуулугун жогорулатуу повышение продуктивности скота.</blockquote>
 	</card>
 	<card>
 		<k>продукция</k>
-		<blockquote>продукция;</blockquote>
+		<trn>продукция</trn>
 		<blockquote>айыл чарба продукциясы сельскохозяйственная продукция;</blockquote>
 		<blockquote>продукциянын сапаты качество продукции.</blockquote>
 	</card>
 	<card>
 		<k>проект</k>
-		<blockquote>проект;</blockquote>
+		<trn>проект</trn>
 		<blockquote>иймараттын проектиси проект здания;</blockquote>
 		<blockquote>проект бюросу проектное бюро.</blockquote>
 	</card>
@@ -3246,7 +3413,7 @@
 	</card>
 	<card>
 		<k>проектилен-</k>
-		<blockquote>возвр. от проектиле-</blockquote>
+		<refv word="проектиле"/>
 		<blockquote>проектироваться.</blockquote>
 	</card>
 	<card>
@@ -3257,55 +3424,54 @@
 	</card>
 	<card>
 		<k>прожектор</k>
-		<blockquote>прожектор.</blockquote>
+		<trn>прожектор</trn>
 	</card>
 	<card>
 		<k>проза</k>
-		<blockquote>проза.</blockquote>
+		<trn>проза</trn>
 	</card>
 	<card>
 		<k>прозаик</k>
-		<blockquote>прозаик.</blockquote>
+		<trn>прозаик</trn>
 	</card>
 	<card>
 		<k>прозалык</k>
-		<blockquote>лит.</blockquote>
+		<meta>лит.</meta>
 		<blockquote>прозаический;</blockquote>
 		<blockquote>прозалык чыгарма прозаическое произведение.</blockquote>
 	</card>
 	<card>
 		<k>прокат</k>
-		<blockquote>тех.</blockquote>
-		<blockquote>прокат.</blockquote>
+		<meta>тех.</meta>
+		<trn>прокат</trn>
 	</card>
 	<card>
 		<k>прокаттык</k>
-		<blockquote>тех.</blockquote>
+		<meta>тех.</meta>
 		<blockquote>прокатный;</blockquote>
 		<blockquote>прокаттык стан прокатный стан.</blockquote>
 	</card>
 	<card>
 		<k>прокатчы</k>
-		<blockquote>тех.</blockquote>
+		<meta>тех.</meta>
 		<blockquote>прокатчик.</blockquote>
 	</card>
 	<card>
 		<k>прокламация</k>
-		<blockquote>прокламация.</blockquote>
+		<trn>прокламация</trn>
 	</card>
 	<card>
 		<k>прокуратура</k>
-		<blockquote>прокуратура.</blockquote>
+		<trn>прокуратура</trn>
 	</card>
 	<card>
 		<k>прокурор</k>
-		<blockquote>прокурор.</blockquote>
+		<trn>прокурор</trn>
 	</card>
 	<card>
 		<k>пролетар</k>
 		<blockquote>пролетарий;</blockquote>
-		<blockquote>бардык өлкөлөрдүн пролетарлары, бириккиле! пролетарии всех стран,
-               соединяйтесь!</blockquote>
+		<blockquote>бардык өлкөлөрдүн пролетарлары, бириккиле! пролетарии всех стран, соединяйтесь!</blockquote>
 	</card>
 	<card>
 		<k>пролетардык</k>
@@ -3314,27 +3480,26 @@
 	</card>
 	<card>
 		<k>пролетариат</k>
-		<blockquote>пролетариат;</blockquote>
+		<trn>пролетариат</trn>
 		<blockquote>пролетариат диктатурасы диктатура пролетариата.</blockquote>
 	</card>
 	<card>
 		<k>пролог</k>
-		<blockquote>пролог.</blockquote>
+		<trn>пролог</trn>
 	</card>
 	<card>
 		<k>промфинплан</k>
-		<blockquote>промфинплан.</blockquote>
+		<trn>промфинплан</trn>
 	</card>
 	<card>
 		<k>промысел</k>
 		<blockquote>(практика даёт производные только от основы промысло)</blockquote>
-		<blockquote>промысел;</blockquote>
-		<blockquote>"Кыргыз нефть" промыселдер башкармасы правление промыслов
-               "Киргизнефть".</blockquote>
+		<trn>промысел</trn>
+		<blockquote>"Кыргыз нефть" промыселдер башкармасы правление промыслов "Киргизнефть".</blockquote>
 	</card>
 	<card>
 		<k>промысло</k>
-		<blockquote>то же, что промысел;</blockquote>
+		<sameas word="промысел"/>
 		<blockquote>балык промыслосу рыбный промысел.</blockquote>
 	</card>
 	<card>
@@ -3346,7 +3511,7 @@
 	</card>
 	<card>
 		<k>пропаганда</k>
-		<blockquote>пропаганда;</blockquote>
+		<trn>пропаганда</trn>
 		<blockquote>партиялык пропаганда партийная пропаганда.</blockquote>
 	</card>
 	<card>
@@ -3355,21 +3520,21 @@
 	</card>
 	<card>
 		<k>пропагандалан-</k>
-		<blockquote>возвр. от пропагандала-</blockquote>
+		<refv word="пропагандала"/>
 		<blockquote>пропагандироваться.</blockquote>
 	</card>
 	<card>
 		<k>пропагандалаш-</k>
-		<blockquote>взаимн. от пропагандала-.</blockquote>
+		<recv word="пропагандала"/>
 	</card>
 	<card>
 		<k>пропагандалоо</k>
-		<blockquote>и. д. от пропагандала-</blockquote>
+		<actionNoun word="пропагандала"/>
 		<blockquote>пропагандирование.</blockquote>
 	</card>
 	<card>
 		<k>пропагандист</k>
-		<blockquote>пропагандист.</blockquote>
+		<trn>пропагандист</trn>
 	</card>
 	<card>
 		<k>пропагандисттик</k>
@@ -3377,14 +3542,14 @@
 	</card>
 	<card>
 		<k>пропорция</k>
-		<blockquote>мат.</blockquote>
-		<blockquote>пропорция;</blockquote>
+		<meta>мат.</meta>
+		<trn>пропорция</trn>
 		<blockquote>арифметикалык пропорция арифметическая пропорция;</blockquote>
 		<blockquote>геометриялык пропорция геометрическая пропорция.</blockquote>
 	</card>
 	<card>
 		<k>пропорциялуу</k>
-		<blockquote>мат.</blockquote>
+		<meta>мат.</meta>
 		<blockquote>пропорциональный;</blockquote>
 		<blockquote>пропорциялуу бөлүнүү пропорциональное деление;</blockquote>
 		<blockquote>тескери пропорциялуу обратно пропорциональный;</blockquote>
@@ -3392,57 +3557,55 @@
 	</card>
 	<card>
 		<k>прораб</k>
-		<blockquote>прораб.</blockquote>
+		<trn>прораб</trn>
 	</card>
 	<card>
 		<k>просто</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>просто;</blockquote>
+		<meta>разг.</meta>
+		<trn>просто</trn>
 		<blockquote>просто абийиримди кетиришти они просто осрамили меня.</blockquote>
 	</card>
 	<card>
 		<k>протест</k>
-		<blockquote>в разн. знач. протест.</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>протест</trn>
 	</card>
 	<card>
 		<k>протестант</k>
-		<blockquote>протестант.</blockquote>
+		<trn>протестант</trn>
 	</card>
 	<card>
 		<k>протокол</k>
-		<blockquote>протокол;</blockquote>
-		<blockquote>протоколго жазуу или протоколго кийирүү протоколирование, занесение в
-               протокол.</blockquote>
+		<trn>протокол</trn>
+		<blockquote>протоколго жазуу или протоколго кийирүү протоколирование, занесение в протокол.</blockquote>
 	</card>
 	<card>
 		<k>профбилет</k>
-		<blockquote>профбилет.</blockquote>
+		<trn>профбилет</trn>
 	</card>
 	<card>
 		<k>профессионал</k>
-		<blockquote>профессионал.</blockquote>
+		<trn>профессионал</trn>
 	</card>
 	<card>
 		<k>профессионалдык</k>
 		<blockquote>профессиональный;</blockquote>
 		<blockquote>профессионалдык союз профессиональный союз;</blockquote>
-		<blockquote>профессионалдык-техникалык мектеп профессионально-техническая
-               школа.</blockquote>
+		<blockquote>профессионалдык-техникалык мектеп профессионально-техническая школа.</blockquote>
 	</card>
 	<card>
 		<k>профессия</k>
-		<blockquote>профессия;</blockquote>
+		<trn>профессия</trn>
 		<blockquote>эркин профессия свободная профессия.</blockquote>
 	</card>
 	<card>
 		<k>профессиялык</k>
 		<blockquote>профессиональный;</blockquote>
-		<blockquote>профессиялык-техникалык билим профессионально-технические
-               знания.</blockquote>
+		<blockquote>профессиялык-техникалык билим профессионально-технические знания.</blockquote>
 	</card>
 	<card>
 		<k>профессор</k>
-		<blockquote>профессор.</blockquote>
+		<trn>профессор</trn>
 	</card>
 	<card>
 		<k>профессордук</k>
@@ -3451,7 +3614,7 @@
 	</card>
 	<card>
 		<k>профилактика</k>
-		<blockquote>профилактика.</blockquote>
+		<trn>профилактика</trn>
 	</card>
 	<card>
 		<k>профилактикалык</k>
@@ -3461,58 +3624,57 @@
 	</card>
 	<card>
 		<k>профком</k>
-		<blockquote>профком.</blockquote>
+		<trn>профком</trn>
 	</card>
 	<card>
 		<k>профсоюз</k>
-		<blockquote>профсоюз.</blockquote>
+		<trn>профсоюз</trn>
 	</card>
 	<card>
 		<k>профсоюздук</k>
 		<blockquote>профсоюзный;</blockquote>
 		<blockquote>профсоюздук уюм профсоюзная организация;</blockquote>
-		<blockquote>профсоюздук жана коомчулук уюмдар профсоюзные и общественные
-               организации.</blockquote>
+		<blockquote>профсоюздук жана коомчулук уюмдар профсоюзные и общественные организации.</blockquote>
 	</card>
 	<card>
 		<k>проходка</k>
-		<blockquote>горн.</blockquote>
-		<blockquote>проходка;</blockquote>
+		<meta>горн.</meta>
+		<trn>проходка</trn>
 		<blockquote>шахталардын проходкасы проходка шахт.</blockquote>
 	</card>
 	<card>
 		<k>проходчик</k>
-		<blockquote>горн.</blockquote>
-		<blockquote>проходчик.</blockquote>
+		<meta>горн.</meta>
+		<trn>проходчик</trn>
 	</card>
 	<card>
 		<k>процент</k>
-		<blockquote>процент;</blockquote>
+		<trn>процент</trn>
 		<blockquote>планды жүз процент орундатуу выполнение плана на сто процентов.</blockquote>
 	</card>
 	<card>
 		<k>процесс</k>
-		<blockquote>процесс;</blockquote>
+		<trn>процесс</trn>
 		<blockquote>соттоо процесси судебный процесс;</blockquote>
 		<blockquote>технологиялык процесс технологический процесс;</blockquote>
 		<blockquote>өндүрүш процесстери производственные процессы.</blockquote>
 	</card>
 	<card>
 		<k>пружина</k>
-		<blockquote>пружина;</blockquote>
+		<trn>пружина</trn>
 		<blockquote>сааттын пружинасы часовая пружина.</blockquote>
 	</card>
 	<card>
 		<k>психиатр</k>
-		<blockquote>психиатр.</blockquote>
+		<trn>психиатр</trn>
 	</card>
 	<card>
 		<k>психиатрия</k>
-		<blockquote>психиатрия.</blockquote>
+		<trn>психиатрия</trn>
 	</card>
 	<card>
 		<k>психика</k>
-		<blockquote>психика.</blockquote>
+		<trn>психика</trn>
 	</card>
 	<card>
 		<k>психикалык</k>
@@ -3523,17 +3685,18 @@
 	</card>
 	<card>
 		<k>психоз</k>
-		<blockquote>прям., перен.</blockquote>
-		<blockquote>психоз;</blockquote>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<trn>психоз</trn>
 		<blockquote>согуштук психоз военный психоз.</blockquote>
 	</card>
 	<card>
 		<k>психолог</k>
-		<blockquote>психолог.</blockquote>
+		<trn>психолог</trn>
 	</card>
 	<card>
 		<k>психология</k>
-		<blockquote>психология.</blockquote>
+		<trn>психология</trn>
 	</card>
 	<card>
 		<k>психологиялык</k>
@@ -3542,72 +3705,83 @@
 	</card>
 	<card>
 		<k>публицист</k>
-		<blockquote>публицист.</blockquote>
+		<trn>публицист</trn>
 	</card>
 	<card>
 		<k>публицистика</k>
-		<blockquote>публицистика.</blockquote>
+		<trn>публицистика</trn>
 	</card>
 	<card>
 		<k>пуд</k>
-		<blockquote>то же, что бут I.</blockquote>
+		<sameas word="бут" index="1"/>
 	</card>
 	<card>
 		<k>пуй</k>
-		<blockquote>парное к уй;</blockquote>
+		<pair word="уй"/>
 		<blockquote>уй-пуй всякие коровы, разные коровы, коровёнки;</blockquote>
 		<blockquote>уй-пуюң барбы? у тебя коровёнка какая-нибудь есть?</blockquote>
 		<blockquote>чочко-мочко, уй-пуй всякие там свиньи, коровы.</blockquote>
 	</card>
 	<card>
 		<k>пукта</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. прочный, крепкий;</blockquote>
-		<blockquote>пукта жип крепкая нитка;</blockquote>
-		<blockquote>2. (о человеке) аккуратный;</blockquote>
-		<blockquote>3. (о человеке) расчётливый.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>прочный, крепкий;</blockquote>
+			<blockquote>пукта жип крепкая нитка;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>(о человеке) аккуратный;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>(о человеке) расчётливый.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пул</k>
 		<blockquote>ир. с греч.</blockquote>
-		<blockquote>1. деньги;</blockquote>
-		<blockquote>пулуң болсо, кулуңмун погов. если у тебя есть деньги, я твой
-               раб;</blockquote>
-		<blockquote>2. <p>южн.</p> полкопейки;</blockquote>
-		<blockquote>эки пул копейка;</blockquote>
-		<blockquote>сегиз пул четыре копейки;</blockquote>
-		<blockquote>чай пул уст.</blockquote>
-		<blockquote>1) чаевые;</blockquote>
-		<blockquote>2) маклерское вознаграждение;</blockquote>
-		<blockquote>зарылдын пулу күйөт раз нужно, так деньги не в счёт (если очень захотелось
-               или очень нужно, то с расходами не считаются);</blockquote>
-		<blockquote>зарылдын пулу күйсүн кылышат они швыряют деньгами.</blockquote>
+		<meaning>
+			<blockquote>деньги;</blockquote>
+			<ex>
+				<source>пулуң болсо, кулуңмун погов.</source>
+				<target>если у тебя есть деньги, я твой раб;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>полкопейки;</blockquote>
+			<blockquote>эки пул копейка;</blockquote>
+			<blockquote>сегиз пул четыре копейки;</blockquote>
+			<blockquote>чай пул уст.</blockquote>
+			<blockquote>1) чаевые;</blockquote>
+			<blockquote>2) маклерское вознаграждение;</blockquote>
+			<blockquote>зарылдын пулу күйөт раз нужно, так деньги не в счёт (если очень захотелось или очень нужно, то с расходами не считаются);</blockquote>
+			<blockquote>зарылдын пулу күйсүн кылышат они швыряют деньгами.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пула</k>
-		<blockquote>то же, что пилла;</blockquote>
+		<sameas word="пилла"/>
 		<blockquote>пула курту шелковичный червь.</blockquote>
 	</card>
 	<card>
 		<k>пулакат</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что плакат.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="плакат"/>
 	</card>
 	<card>
 		<k>пулан</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что план.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="план"/>
 	</card>
 	<card>
 		<k>пулда-</k>
 		<blockquote>продать (превратив в деньги);</blockquote>
-		<blockquote>там курдуруп 2 000 сомго пулдады выстроив дом, он продал (его) за 2000
-               рублей.</blockquote>
+		<blockquote>там курдуруп 2 000 сомго пулдады выстроив дом, он продал (его) за 2000 рублей.</blockquote>
 	</card>
 	<card>
 		<k>пулемёт</k>
-		<blockquote>пулемёт.</blockquote>
+		<trn>пулемёт</trn>
 	</card>
 	<card>
 		<k>пулемётчу</k>
@@ -3615,12 +3789,12 @@
 	</card>
 	<card>
 		<k>пүлүс</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что плюс.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="плюс"/>
 	</card>
 	<card>
 		<k>пүлөө</k>
-		<blockquote>парное к түлөө I.</blockquote>
+		<pair word="түлөө" index="1"/>
 	</card>
 	<card>
 		<k>пуна</k>
@@ -3633,7 +3807,8 @@
 	</card>
 	<card>
 		<k>пункт</k>
-		<blockquote>в разн. знач. пункт;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>пункт</trn>
 		<blockquote>кабыл алуу пункуту приёмный пункт;</blockquote>
 		<blockquote>договордун пункуту пункт договора;</blockquote>
 		<blockquote>чакыруу пункуту воен. призывной пункт;</blockquote>
@@ -3642,256 +3817,232 @@
 	</card>
 	<card>
 		<k>пүнкүт</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пункт.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пункт"/>
 	</card>
 	<card>
 		<k>пуну</k>
-		<blockquote>см. бул I.</blockquote>
+		<look word="бул" index="1"/>
 	</card>
 	<card>
 		<k>пүпүп</k>
-		<blockquote>(или алалай пүпүп, <p>южн.</p> әләләй пүпүп)</blockquote>
-		<blockquote>то же, что үпүп;</blockquote>
+		<meta>(или алалай пүпүп, южн. әләләй пүпүп)</meta>
+		<sameas word="үпүп"/>
 		<blockquote>пүпүп жаз алдында келет удод прилетает весной.</blockquote>
 	</card>
 	<card>
 		<k>пургурам</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что программа.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="программа"/>
 	</card>
 	<card>
 		<k>пүргөн</k>
-		<blockquote>р. <p>южн.</p>
-		</blockquote>
+		<origin>р.</origin>
+		<meta>южн.</meta>
 		<blockquote>фургон, бричка.</blockquote>
 	</card>
 	<card>
 		<k>пурд</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>только в отриц. обороте постоянство, верность;</blockquote>
-		<blockquote>анын сөзүнүн пурду жок его слово ничего не стоит (он может что угодно
-               пообещать);</blockquote>
-		<blockquote>көп бара берсең, арызыңдың пурду болбой калат если часто будешь обращаться,
-               то твои заявления ничего не будут стоить.</blockquote>
+		<blockquote>анын сөзүнүн пурду жок его слово ничего не стоит (он может что угодно пообещать);</blockquote>
+		<blockquote>көп бара берсең, арызыңдың пурду болбой калат если часто будешь обращаться, то твои заявления ничего не будут стоить.</blockquote>
 	</card>
 	<card>
 		<k>пуризм</k>
-		<blockquote>лингв.</blockquote>
-		<blockquote>пуризм.</blockquote>
+		<meta>лингв.</meta>
+		<trn>пуризм</trn>
 	</card>
 	<card>
 		<k>пурист</k>
-		<blockquote>лингв.</blockquote>
-		<blockquote>пурист.</blockquote>
+		<meta>лингв.</meta>
+		<trn>пурист</trn>
 	</card>
 	<card>
 		<k>пүркит</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бүркүт.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бүркүт"/>
 	</card>
 	<card>
 		<k>пурут</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>пучок волос под нижней губой мужчины (часть бороды).</blockquote>
 	</card>
 	<card>
 		<k>пүрчөк</k>
-		<blockquote>пүрчөк I</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бурч, булуң 1.</blockquote>
-		<blockquote>пүрчөк II</blockquote>
-		<blockquote>р. <p>южн.</p> уст.</blockquote>
-		<blockquote>вершок.</blockquote>
+		<homonym>
+			<meta>южн.</meta>
+			<blockquote>то же, что бурч, булуң 1.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>р.</origin>
+			<meta>южн.</meta>
+			<meta>уст.</meta>
+			<blockquote>вершок.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>пүрөн</k>
-		<blockquote>парное к үрөн I.</blockquote>
+		<pair word="үрөн" index="1"/>
 	</card>
 	<card>
 		<k>пустак</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>пустяк, пустяки.</blockquote>
 	</card>
 	<card>
 		<k>пустан</k>
-		<blockquote>парное к палан.</blockquote>
+		<pair word="палан"/>
 	</card>
 	<card>
 		<k>пүстөл</k>
-		<blockquote>парное к үстөл;</blockquote>
+		<pair word="үстөл"/>
 		<blockquote>үстөл-пүстөл столы-столишки, столы и всякое такое.</blockquote>
 	</card>
 	<card>
 		<k>пут</k>
-		<blockquote>талас.</blockquote>
-		<blockquote>то же, что бут I;</blockquote>
+		<meta>талас.</meta>
+		<sameas word="бут" index="1"/>
 		<blockquote>бир пут ун один пуд муки.</blockquote>
 	</card>
 	<card>
 		<k>путёвка</k>
-		<blockquote>путёвка;</blockquote>
+		<trn>путёвка</trn>
 		<blockquote>комсомолдук путёвка менен по комсомольской путёвке.</blockquote>
 	</card>
 	<card>
 		<k>пүткөр-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бүткөр-.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бүткөр"/>
 	</card>
 	<card>
 		<k>пүтүвө</k>
 		<blockquote>
-			<p>южн.</p> женск.</blockquote>
+			южн. женск.</blockquote>
 		<blockquote>виноград.</blockquote>
 	</card>
 	<card>
 		<k>пүтөв</k>
-		<blockquote>пүтөв: кош пүтөв <p>южн.</p> пригоршня;</blockquote>
+		<blockquote>пүтөв: кош пүтөв южн. пригоршня;</blockquote>
 		<blockquote>пүтөв кочкорок то же, что кочкорок.</blockquote>
 	</card>
 	<card>
 		<k>пухта</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что пукта.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="пукта"/>
 	</card>
 	<card>
 		<k>пучак</k>
-		<blockquote>парное к пачак.</blockquote>
+		<pair word="пачак"/>
 	</card>
 	<card>
 		<k>пүчү</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бүчү;</blockquote>
-		<blockquote>пүчү боо этн. ответный подарок деньгами отца жениха отцу невесты и его
-               родственникам.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бүчү"/>
+		<blockquote>пүчү боо этн. ответный подарок деньгами отца жениха отцу невесты и его родственникам.</blockquote>
 	</card>
 	<card>
 		<k>пүчүлүк</k>
-		<blockquote>то же, что бүчүлүк.</blockquote>
+		<sameas word="бүчүлүк"/>
 	</card>
 	<card>
 		<k>пушак</k>
-		<blockquote>парное к ушак;</blockquote>
+		<pair word="ушак"/>
 		<blockquote>ал ушак-пушактан алыс он далёк от всяких сплетен и пересудов.</blockquote>
 	</card>
 	<card>
 		<k>пушаң</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что пышаң.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="пышаң"/>
 	</card>
 	<card>
 		<k>пушман</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бушман.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бушман"/>
 	</card>
 	<card>
 		<k>пушту</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>розовый (цвет).</blockquote>
 	</card>
 	<card>
 		<k>пызылдак</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>жужжалка (детская игрушка).</blockquote>
 	</card>
 	<card>
 		<k>пый</k>
-		<blockquote>парное к чый I.</blockquote>
+		<pair word="чый" index="1"/>
 	</card>
 	<card>
 		<k>пыйба</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что пиво.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="пиво"/>
 	</card>
 	<card>
 		<k>пыйналыш</k>
-		<blockquote>парное к жыйналыш;</blockquote>
-		<blockquote>сенин жыйналыш-пыйналышың эле көбөйдү очень уж много у тебя стало разных
-               собраний.</blockquote>
+		<pair word="жыйналыш"/>
+		<blockquote>сенин жыйналыш-пыйналышың эле көбөйдү очень уж много у тебя стало разных собраний.</blockquote>
 	</card>
 	<card>
 		<k>пыйын</k>
-		<blockquote>парное к тыйын II;</blockquote>
+		<pair word="тыйын" index="2"/>
 		<blockquote>тыйын-пыйын деньжонки;</blockquote>
-		<blockquote>алаканына тыйын-пыйын кыса келдиби? он принёс в кулаке (букв. зажав в
-               ладонь) какие-нибудь деньжонки?</blockquote>
+		<blockquote>алаканына тыйын-пыйын кыса келдиби? он принёс в кулаке (букв. зажав в ладонь) какие-нибудь деньжонки?</blockquote>
 	</card>
 	<card>
 		<k>пык</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>шпоры (у птицы);</blockquote>
 		<blockquote>короздун пыгы шпоры петуха.</blockquote>
 	</card>
 	<card>
 		<k>пылан</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что план.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="план"/>
 	</card>
 	<card>
 		<k>пыр</k>
-		<blockquote>то же, что быр I;</blockquote>
+		<sameas word="быр" index="1"/>
 		<blockquote>пырга кетти распылилось, пошло прахом.</blockquote>
 	</card>
 	<card>
 		<k>пырарап</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что прораб.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="прораб"/>
 	</card>
 	<card>
 		<k>пыргырам</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что программа.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="программа"/>
 	</card>
 	<card>
 		<k>пыронт</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что фронт.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="фронт"/>
 	</card>
 	<card>
 		<k>пырпыра-</k>
-		<blockquote>то же, что бырпыра-.</blockquote>
+		<sameas word="бырпыра"/>
 	</card>
 	<card>
 		<k>пырылда-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бырпылда-.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бырпылда"/>
 	</card>
 	<card>
 		<k>пыс-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>таиться, скрываться;</blockquote>
 		<blockquote>пысып жатат он лежит затаившись.</blockquote>
 	</card>
 	<card>
 		<k>пыстырма</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>засада;</blockquote>
 		<blockquote>пыстырма болуп туруп</blockquote>
 		<blockquote>1) из засады;</blockquote>
@@ -3899,131 +4050,116 @@
 	</card>
 	<card>
 		<k>пыткыл</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>то же, что кокту (ср. быткыл).</blockquote>
 	</card>
 	<card>
 		<k>пычак</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бычак.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="бычак"/>
 	</card>
 	<card>
 		<k>пычакта-</k>
-		<blockquote>то же, что бычакта-;</blockquote>
+		<sameas word="бычакта"/>
 		<blockquote>баскан изин пычактап всячески преследуя и издеваясь.</blockquote>
 	</card>
 	<card>
 		<k>пычан</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>сено.</blockquote>
 	</card>
 	<card>
 		<k>пычың</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>насмешка, колкость.</blockquote>
 	</card>
 	<card>
 		<k>пычыр</k>
-		<blockquote>пычыр: пычыр-пычыр ир. <p>южн.</p> шёпот, перешёптывание.</blockquote>
+		<blockquote>пычыр: пычыр-пычыр ир. южн. шёпот, перешёптывание.</blockquote>
 	</card>
 	<card>
 		<k>пыш</k>
-		<blockquote>пыш I</blockquote>
-		<blockquote>то же, что быш I.</blockquote>
-		<blockquote>пыш- II</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>окунать;</blockquote>
-		<blockquote>кой пыш- купать овец.</blockquote>
+		<homonym>
+			<sameas word="быш" index="1"/>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<blockquote>окунать;</blockquote>
+			<blockquote>кой пыш- купать овец.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>пышаң</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>примитивный рычаг (жердь).</blockquote>
 	</card>
 	<card>
 		<k>пышкырык</k>
-		<blockquote>то же, что бышкырык.</blockquote>
+		<sameas word="бышкырык"/>
 	</card>
 	<card>
 		<k>пышлаң</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что быштан.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="быштан"/>
 	</card>
 	<card>
 		<k>пышмана</k>
-		<blockquote>сев.</blockquote>
-		<blockquote>1. задаток (напр. в купле-продаже),</blockquote>
-		<blockquote>2. заклад (напр. в конских скачках).</blockquote>
+		<meta>сев.</meta>
+		<meaning>
+			<blockquote>задаток (напр. в купле-продаже),</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>заклад (напр. в конских скачках).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пышмый-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что мышмый-.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="мышмый"/>
 	</card>
 	<card>
 		<k>пыштаң</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что быштан.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="быштан"/>
 	</card>
 	<card>
 		<k>пышык</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>то же, что бышык I 1, 2.</blockquote>
 	</card>
 	<card>
 		<k>пышыр-</k>
-		<blockquote>пышыр- I</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что бышыр- I.</blockquote>
-		<blockquote>пышыр- II</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что ийле-;</blockquote>
-		<blockquote>тери пышыр- выделывать кожу.</blockquote>
-		<blockquote>пышыр- III</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>понуд. от пыш- II.</blockquote>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="бышыр" index="1"/>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="ийле"/>
+			<blockquote>тери пышыр- выделывать кожу.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<caus word="пыш" index="2"/>
+		</homonym>
 	</card>
 	<card>
 		<k>пыядал</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что феодал.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="феодал"/>
 	</card>
 	<card>
 		<k>пыяз</k>
-		<blockquote>то же, что пияз.</blockquote>
+		<sameas word="пияз"/>
 	</card>
 	<card>
 		<k>пыяла</k>
-		<blockquote>то же, что пияла.</blockquote>
+		<sameas word="пияла"/>
 	</card>
 	<card>
 		<k>пыянкеч</k>
-		<blockquote>р.-ир.</blockquote>
+		<origin>р.-ир.</origin>
 		<blockquote>пьяница.</blockquote>
 	</card>
 	<card>
@@ -4032,40 +4168,46 @@
 	</card>
 	<card>
 		<k>пьеса</k>
-		<blockquote>пьеса.</blockquote>
+		<trn>пьеса</trn>
 	</card>
 	<card>
 		<k>пө</k>
-		<blockquote>то же, что бөпү;</blockquote>
-		<blockquote>конгуроолуу боз кыргый, бөбөлөп үндөп "пө" десең, кол үстүнөн жем жеген
-               <p>фольк.</p> серый ястреб с бубенцом, если подозвать, крикнув "пө!", он из рук ест
-               корм.</blockquote>
+		<sameas word="бөпү"/>
+		<ex>
+			<source>конгуроолуу боз кыргый, бөбөлөп үндөп "пө" десең, кол үстүнөн жем жеген фольк.</source>
+			<target>серый ястреб с бубенцом, если подозвать, крикнув "пө!", он из рук ест корм.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пөгө</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что бөгө I;</blockquote>
-		<blockquote>2. (точнее тухумдун пөгөсү) тупой конец яйца.</blockquote>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="бөгө" index="1"/>
+		</meaning>
+		<meaning>
+			<blockquote>(точнее тухумдун пөгөсү) тупой конец яйца.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пөк</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. трухлявый, дуплистый (напр. о дереве);</blockquote>
-		<blockquote>2. перен. (о человеке) дряблый; растяпа.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>трухлявый, дуплистый (напр. о дереве);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>(о человеке) дряблый; растяпа.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>пөлүскө-</k>
-		<blockquote>то же, что болускей.</blockquote>
+		<sameas word="болускей"/>
 	</card>
 	<card>
 		<k>пөстөк</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что көлдөлөң I.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="көлдөлөң" index="1"/>
 	</card>
 	<card>
 		<k>пөөш</k>
