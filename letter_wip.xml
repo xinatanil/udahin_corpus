@@ -3,7 +3,7 @@
 	<card>
 		<k>паал</k>
 		<pair word="саал" index="1"/>
-		<blockquote>талкууну өткөрөбүз, сындайбыз, саал-паал жинине тиебиз проведём обсуждение, покритикуем, малость его за живое заденем.</blockquote>
+		<blockquote>талкууну өткөрөбүз, сындайбыз, саал-паал жинине тиебиз@@ проведём обсуждение, покритикуем, малость его за живое заденем.</blockquote>
 	</card>
 	<card>
 		<k>паан</k>
@@ -13,7 +13,7 @@
 		<k>паана</k>
 		<meaning>
 			<sameas word="маана" index="2"/>
-			<blockquote>үйүңүздүн жанын паана кылып, тамак бышырып, ичип кетели - деп бурулдук мы (сюда) завернули, чтобы найти убежище возле вашего дома, сварить пищу, поесть и ехать (дальше);</blockquote>
+			<blockquote>үйүңүздүн жанын паана кылып, тамак бышырып, ичип кетели - деп бурулдук@@ мы (сюда) завернули, чтобы найти убежище возле вашего дома, сварить пищу, поесть и ехать (дальше);</blockquote>
 			<ex>
 				<source>бакыр киши паанада погов.</source>
 				<target>бедный человек под прикрытием (ему легче жить, он не на виду);</target>
@@ -22,18 +22,18 @@
 		<meaning>
 			<meta>южн.</meta>
 			<sameas word="шынаа"/>
-			<blockquote>паана менен жараттар (бревно) раскалывают клином.</blockquote>
+			<blockquote>паана менен жараттар@@ (бревно) раскалывают клином.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>паанай</k>
 		<sameas word="маанай"/>
-		<blockquote>паанайы пас он подавлен; у него настроение мрачное.</blockquote>
+		<blockquote>паанайы пас@@ он подавлен; у него настроение мрачное.</blockquote>
 	</card>
 	<card>
 		<k>паанала-</k>
 		<sameas word="маанала"/>
-		<blockquote>башка бир жерге барып паанала ты отправься куда-нибудь в другое место и найди себе прибежище;</blockquote>
+		<blockquote>башка бир жерге барып паанала@@ ты отправься куда-нибудь в другое место и найди себе прибежище;</blockquote>
 		<ex>
 			<source>каптал ташты пааналап, калмактын четин аралап фольк.</source>
 			<target>прячась за камни и ходя среди калмыков (с целью разведки).</target>
@@ -42,7 +42,7 @@
 	<card>
 		<k>пааналаш</k>
 		<actionNoun word="паанала"/>
-		<blockquote>эми ал кайда барып баш пааналашы керек? куда теперь он должен идти, чтобы голову приклонить (или чтобы найти защиту) ?</blockquote>
+		<blockquote>эми ал кайда барып баш пааналашы керек?@@ куда теперь он должен идти, чтобы голову приклонить (или чтобы найти защиту) ?</blockquote>
 	</card>
 	<card>
 		<k>паанекте-</k>
@@ -53,8 +53,8 @@
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<meta>(или пабаска араба)</meta>
-		<blockquote>повозка, экипаж, фаэтон;</blockquote>
-		<blockquote>үч атка кошкон пабаска араба экипаж, запряжённый тройкой лошадей.</blockquote>
+		<trn>повозка, экипаж, фаэтон;</trn>
+		<blockquote>үч атка кошкон пабаска араба@@ экипаж, запряжённый тройкой лошадей.</blockquote>
 	</card>
 	<card>
 		<k>пабирик</k>
@@ -80,15 +80,15 @@
 		<k>падалөк</k>
 		<origin>р.</origin>
 		<meta>сев.</meta>
-		<blockquote>подлог, мошенничество;</blockquote>
-		<blockquote>падалөгү чыгып калды у него обнаружился подлог.</blockquote>
+		<trn>подлог, мошенничество;</trn>
+		<blockquote>падалөгү чыгып калды@@ у него обнаружился подлог.</blockquote>
 	</card>
 	<card>
 		<k>падар</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>отец;</blockquote>
-		<blockquote>только в выражении: падарыңа наалат! проклятие твоему отцу! (что он породил такого негодника или такую негодницу).</blockquote>
+		<trn>отец;</trn>
+		<blockquote>только в выражении: падарыңа наалат!@@ проклятие твоему отцу! (что он породил такого негодника или такую негодницу).</blockquote>
 	</card>
 	<card>
 		<k>падачы</k>
@@ -100,24 +100,28 @@
 		<origin>р.</origin>
 		<meta>сев.</meta>
 		<meaning>
-			<blockquote>подвода;</blockquote>
-			<blockquote>падбот жалда- нанять подводу;</blockquote>
+			<trn>подвода;</trn>
+			<blockquote>падбот жалда-@@ нанять подводу;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>большая чашка (спиртного, кумыса и т.п.).</blockquote>
+			<trn>большая чашка (спиртного, кумыса и т.п.).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>падумат</k>
-		<blockquote>р. разг.:</blockquote>
-		<blockquote>падумат эт- подумать, обдумать;</blockquote>
-		<blockquote>сиз да ойлоңуз, мен да падумат этейин вы подумайте, я тоже подумаю.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<collocation>
+			<k>падумат эт-</k>
+			<trn>подумать, обдумать</trn>
+			<blockquote>сиз да ойлоңуз, мен да падумат этейин@@ вы подумайте, я тоже подумаю.</blockquote>
+		</collocation>
 	</card>
 	<card>
 		<k>падыша</k>
 		<sameas word="бадыша"/>
-		<blockquote>жарым падыша ист. генерал-губернатор (букв. полуцарь).</blockquote>
+		<blockquote>жарым падыша ист.@@ генерал-губернатор (букв. полуцарь).</blockquote>
 	</card>
 	<card>
 		<k>падышачыл</k>
@@ -126,31 +130,33 @@
 	<card>
 		<k>падышачылык</k>
 		<meaning>
-			<blockquote>всё свойственное царю (поведение царя, царские замашки и т.п.);</blockquote>
+			<trn>всё свойственное царю (поведение царя, царские замашки и т.п.);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>царизм;</blockquote>
-			<blockquote>падышачылыктын колониялык саясаты колониальная политика царизма.</blockquote>
+			<trn>царизм;</trn>
+			<blockquote>падышачылыктын колониялык саясаты@@ колониальная политика царизма.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>пажалыста</k>
 		<origin>р.</origin>
 		<meta>сев.</meta>
-		<blockquote>пожалуйста;</blockquote>
-		<blockquote>чай ичсеңер, пажалыста, азыр если будете пить чай, пожалуйста, сейчас (будет готов).</blockquote>
+		<trn>пожалуйста;</trn>
+		<blockquote>чай ичсеңер, пажалыста, азыр@@ если будете пить чай, пожалуйста, сейчас (будет готов).</blockquote>
 	</card>
 	<card>
 		<k>пай</k>
 		<homonym>
 			<trn>пай</trn>
-			<blockquote>кирүү пайы или пай акы вступительный пай.</blockquote>
+			<blockquote>кирүү пайы или пай акы@@ вступительный пай.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>пай II:</blockquote>
-			<blockquote>пай-пай! ай-ай, ой-ой! (возглас удивления или неудовольствия);</blockquote>
-			<blockquote>пай-пай, сонун экен! ой-ой, как хорошо!;</blockquote>
-			<blockquote>мунун жазыгы эмне экен? пай-пай-пай в чём же его вина? ай-ай!</blockquote>
+			<collocation>
+				<k>пай-пай!</k>
+				<trn>ай-ай, ой-ой! (возглас удивления или неудовольствия);</trn>
+				<blockquote>пай-пай, сонун экен!@@ ой-ой, как хорошо!;</blockquote>
+				<blockquote>мунун жазыгы эмне экен? пай-пай-пай@@ в чём же его вина? ай-ай!</blockquote>				
+			</collocation>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
@@ -162,14 +168,14 @@
 		<k>пайабзал</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>обувь.</blockquote>
+		<trn>обувь.</trn>
 	</card>
 	<card>
 		<k>пайвант</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meta>бот.</meta>
-		<blockquote>прививка.</blockquote>
+		<trn>прививка.</trn>
 	</card>
 	<card>
 		<k>пайгамбар</k>
@@ -184,8 +190,8 @@
 		<k>пайда</k>
 		<homonym>
 			<origin>ир.</origin>
-			<blockquote>появление;</blockquote>
-			<blockquote>пайда бол- появиться.</blockquote>
+			<trn>появление;</trn>
+			<blockquote>пайда бол-@@ появиться.</blockquote>
 		</homonym>
 		<homonym>
 			<origin>ар.</origin>
@@ -194,20 +200,20 @@
 				<source>жамандын жолдошу көп, жанына пайдасы жок погов.</source>
 				<target>у дурного товарищей много, (но от них) душе его пользы нет;</target>
 			</ex>
-			<blockquote>эмне (или кандай) пайдасы бар? какая от этого (или от него) польза?</blockquote>
-			<blockquote>пайдасы да жок, зыяны да жок от этого (или от него) нет ни пользы, ни убытка (или ни вреда);</blockquote>
-			<blockquote>пайда тап- или пайда түшүр- получить выгоду;</blockquote>
-			<blockquote>пайдасына в его пользу;</blockquote>
-			<blockquote>мелдеш "Спартактын" пайдасына бүттү соревнование закончилось в пользу "Спартака";</blockquote>
-			<blockquote>өз пайдасына чабат он стремится к личной выгоде;</blockquote>
-			<blockquote>пайдага чаппаган (о человеке) бескорыстный, не жадный (до наживы).</blockquote>
+			<blockquote>эмне (или кандай) пайдасы бар?@@ какая от этого (или от него) польза?</blockquote>
+			<blockquote>пайдасы да жок, зыяны да жок@@ от этого (или от него) нет ни пользы, ни убытка (или ни вреда);</blockquote>
+			<blockquote>пайда тап- или пайда түшүр-@@ получить выгоду;</blockquote>
+			<blockquote>пайдасына@@ в его пользу;</blockquote>
+			<blockquote>мелдеш "Спартактын" пайдасына бүттү@@ соревнование закончилось в пользу "Спартака";</blockquote>
+			<blockquote>өз пайдасына чабат@@ он стремится к личной выгоде;</blockquote>
+			<blockquote>пайдага чаппаган@@ (о человеке) бескорыстный, не жадный (до наживы).</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>пайдагер</k>
 		<meta>(или пайдакеч, пайдакор)</meta>
 		<origin>ар.-ир.</origin>
-		<blockquote>стяжатель, корыстолюбец;</blockquote>
+		<trn>стяжатель, корыстолюбец;</trn>
 		<ex>
 			<source>сүткө берген соодагер, артык алар пайдагер стих.</source>
 			<target>торговец, дающий в рост, берущий лихву корыстолюбец.</target>
@@ -215,34 +221,34 @@
 	</card>
 	<card>
 		<k>пайдалан-</k>
-		<blockquote>пользоваться, извлекать пользу; использовать; воспользоваться;</blockquote>
-		<blockquote>киши эмгегинен пайдалан- пользоваться чужим трудом, эксплуатировать чужой труд.</blockquote>
+		<trn>пользоваться, извлекать пользу; использовать; воспользоваться;</trn>
+		<blockquote>киши эмгегинен пайдалан-@@ пользоваться чужим трудом, эксплуатировать чужой труд.</blockquote>
 	</card>
 	<card>
 		<k>пайдалангыч</k>
-		<blockquote>использующий;</blockquote>
-		<blockquote>киши эмгегинен пайдалангыч уст. эксплуататор.</blockquote>
+		<trn>использующий;</trn>
+		<blockquote>киши эмгегинен пайдалангыч@@ уст. эксплуататор.</blockquote>
 	</card>
 	<card>
 		<k>пайдалант-</k>
 		<caus word="пайдалан"/>
-		<blockquote>дать возможность использовать или воспользоваться;</blockquote>
-		<blockquote>мен мылтыгымды эч кимге пайдалантпаймын я никому не позволю пользоваться моим ружьём; своё ружьё я никому не дам.</blockquote>
+		<trn>дать возможность использовать или воспользоваться;</trn>
+		<blockquote>мен мылтыгымды эч кимге пайдалантпаймын@@ я никому не позволю пользоваться моим ружьём; своё ружьё я никому не дам.</blockquote>
 	</card>
 	<card>
 		<k>пайдалануу</k>
 		<actionNoun word="пайдалан"/>
-		<blockquote>использование, утилизация, эксплуатация чего-л.;</blockquote>
-		<blockquote>атом энергиясын тынчтык максатта пайдалануу использование атомной энергии в мирных целях;</blockquote>
-		<blockquote>пайдаланууга берилди сдано в эксплуатацию.</blockquote>
+		<trn>использование, утилизация, эксплуатация чего-л.;</trn>
+		<blockquote>атом энергиясын тынчтык максатта пайдалануу@@ использование атомной энергии в мирных целях;</blockquote>
+		<blockquote>пайдаланууга берилди@@ сдано в эксплуатацию.</blockquote>
 	</card>
 	<card>
 		<k>пайдаланыл-</k>
 		<pass word="пайдалан"/>
-		<blockquote>быть используемым, использоваться;</blockquote>
-		<blockquote>бардык мүмкүнчүлүктөр пайдаланылсын должны быть использованы все возможности;</blockquote>
-		<blockquote>көп резервдер пайдаланылбай жатат многие резервы не используются;</blockquote>
-		<blockquote>пайдаланылган адабияттар использованная литература.</blockquote>
+		<trn>быть используемым, использоваться;</trn>
+		<blockquote>бардык мүмкүнчүлүктөр пайдаланылсын@@ должны быть использованы все возможности;</blockquote>
+		<blockquote>көп резервдер пайдаланылбай жатат@@ многие резервы не используются;</blockquote>
+		<blockquote>пайдаланылган адабияттар@@ использованная литература.</blockquote>
 	</card>
 	<card>
 		<k>пайдаланылуу</k>
@@ -254,52 +260,55 @@
 	</card>
 	<card>
 		<k>пайдалаш</k>
-		<blockquote>соучастник в прибыли.</blockquote>
+		<trn>соучастник в прибыли.</trn>
 	</card>
 	<card>
 		<k>пайдалуу</k>
-		<blockquote>полезный; выгодный, прибыльный.</blockquote>
+		<trn>полезный; выгодный, прибыльный.</trn>
 	</card>
 	<card>
 		<k>пайдалуулук</k>
-		<blockquote>полезность; выгодность, прибыльность.</blockquote>
+		<trn>полезность; выгодность, прибыльность.</trn>
 	</card>
 	<card>
 		<k>пайдасыз</k>
-		<blockquote>бесполезный; невыгодный.</blockquote>
+		<trn>бесполезный; невыгодный.</trn>
 	</card>
 	<card>
 		<k>пайдасыздык</k>
-		<blockquote>бесполезность; невыгодность.</blockquote>
+		<trn>бесполезность; невыгодность.</trn>
 	</card>
 	<card>
 		<k>пайдубал</k>
 		<meaning>
 			<meta>прям.</meta>
 			<meta>перен.</meta>
-			<blockquote>фундамент, основа;</blockquote>
-			<blockquote>үйдүн пайдубалын бүтө элекмин я ещё не закончил фундамент дома;</blockquote>
-			<blockquote>пайдубалды көтөрүштү они возвели фундамент;</blockquote>
-			<blockquote>социализмдин пайдубалы фундамент социализма;</blockquote>
+			<trn>фундамент, основа;</trn>
+			<blockquote>үйдүн пайдубалын бүтө элекмин@@ я ещё не закончил фундамент дома;</blockquote>
+			<blockquote>пайдубалды көтөрүштү@@ они возвели фундамент;</blockquote>
+			<blockquote>социализмдин пайдубалы@@ фундамент социализма;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>крепостная стена;</blockquote>
+			<trn>крепостная стена;</trn>
 			<ex>
 				<source>жети кез коргон пайдубал фольк.</source>
 				<target>(высотою) в семь аршин крепостная стена;</target>
 			</ex>
-			<blockquote>пайдубалдай бекемсиң, адептүү балам экенсиң ты крепок, как крепостная стена, учтивый ты мой сын.</blockquote>
+			<blockquote>пайдубалдай бекемсиң, адептүү балам экенсиң@@ ты крепок, как крепостная стена, учтивый ты мой сын.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>пайла-</k>
-		<blockquote>ир.-кирг. южн., сев. редко</blockquote>
+		<origin>ир.-кирг.</origin>
+		<meta>южн.</meta>
+		<meta>сев.</meta>
+		<meta>редко</meta>
 		<meaning>
-			<blockquote>подстерегать, выслеживать;</blockquote>
-			<blockquote>мерген айувду пайлап калды южн. охотник подстерегает (или выслеживает) медведя;</blockquote>
+			<trn>подстерегать, выслеживать;</trn>
+			<blockquote>мерген айувду пайлап калды южн.@@ охотник подстерегает (или выслеживает) медведя;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>присматривать;</blockquote>
+			<trn>присматривать;</trn>
 			<ex>
 				<source>жүргүлө, бир-бириңди пайлабыраак стих.</source>
 				<target>двигайтесь, один за другим присматривая.</target>
@@ -309,7 +318,7 @@
 	<card>
 		<k>паймарек</k>
 		<meta>памир.</meta>
-		<blockquote>питательное питьё из смеси айрана и сливок.</blockquote>
+		<trn>питательное питьё из смеси айрана и сливок.</trn>
 	</card>
 	<card>
 		<k>пайнап</k>
@@ -320,12 +329,12 @@
 		<k>пайнек</k>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>тупой конец яйца;</blockquote>
+			<trn>тупой конец яйца;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>украшение в виде металлической оправы на конце ножен;</blockquote>
-			<blockquote>жез пайнек кылыч сабля в ножнах с медным наконечником.</blockquote>
+			<trn>украшение в виде металлической оправы на конце ножен;</trn>
+			<blockquote>жез пайнек кылыч@@ сабля в ножнах с медным наконечником.</blockquote>
 		</meaning>
 	</card>
 	<card>
@@ -342,27 +351,32 @@
 		<k>пайса</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
+		<transcription>пəйсə</transcription>
 		<meta>уст.</meta>
-		<blockquote>мера веса, равная приблизительно 50 граммам;</blockquote>
-		<blockquote>эки пайса чай сто граммов чаю.</blockquote>
+		<trn>мера веса, равная приблизительно 50 граммам;</trn>
+		<blockquote>эки пайса чай@@ сто граммов чаю.</blockquote>
 	</card>
 	<card>
-		<k>пайсала-</k>
-		<blockquote>
-			южн. уст.</blockquote>
-		<blockquote>взвешивать на пайса (см.).</blockquote>
+		<k>пайсала</k>
+		<meta>южн.</meta>
+		<transcription>пəйсəлə</transcription>
+		<meta>уст.</meta>
+		<trn>взвешивать на пайса (см.).</trn>
 	</card>
 	<card>
-		<k>пайтаба,</k>
-		<blockquote>пайтаба, пайтама</blockquote>
+		<k>пайтаба</k>
 		<meta>южн.</meta>
 		<sameas word="байтама"/>
+	</card>
+	<card>
+		<k>пайтама</k>
+		<sameas word="пайтаба" />
 	</card>
 	<card>
 		<k>пайтеше</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>плотничий топор, тесло.</blockquote>
+		<trn>плотничий топор, тесло.</trn>
 	</card>
 	<card>
 		<k>пайтон</k>
@@ -375,7 +389,7 @@
 		<meta>южн.</meta>
 		<meaning>
 			<sameas word="шыйрак"/>
-			<blockquote>к лл -пайча см. келде;</blockquote>
+			<blockquote>кəллə-пайча@@ см. келде;</blockquote>
 		</meaning>
 		<meaning>
 			<sameas word="багалек"/>
@@ -385,20 +399,21 @@
 		<k>пайчеки</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
+		<transcription>пəйчеки</transcription>
 		<sameas word="чарык" index="2"/>
 	</card>
 	<card>
 		<k>пайчы</k>
 		<origin>ир.-кирг.</origin>
 		<meta>южн.</meta>
-		<blockquote>соглядатай.</blockquote>
+		<trn>соглядатай.</trn>
 	</card>
 	<card>
 		<k>пайшак</k>
 		<meta>(или паншак)</meta>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>вилы пятирожковые.</blockquote>
+		<trn>вилы пятирожковые.</trn>
 	</card>
 	<card>
 		<k>пайшамби</k>
@@ -422,7 +437,7 @@
 		<k>пакал</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>солома.</blockquote>
+		<trn>солома.</trn>
 	</card>
 	<card>
 		<k>пакас</k>
@@ -431,8 +446,9 @@
 	<card>
 		<k>пакене</k>
 		<meta>южн.</meta>
+		<transcription>пəкəнə</transcription>
 		<sameas word="бакене"/>
-		<blockquote>бойу пакене киши человек низкого роста.</blockquote>
+		<blockquote>бойу пакене киши@@ человек низкого роста.</blockquote>
 	</card>
 	<card>
 		<k>пакет</k>
@@ -442,9 +458,9 @@
 		<k>пакказ</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>в отриц. обороте</blockquote>
-		<blockquote>совершенно не..., абсолютно не..., ничуть, никак;</blockquote>
-		<blockquote>пакказ күн жааган жок атмосферных осадков (гл. обр. дождя) совсем не было.</blockquote>
+		<meta>в отриц. обороте</meta>
+		<trn>совершенно не..., абсолютно не..., ничуть, никак;</trn>
+		<blockquote>пакказ күн жааган жок@@ атмосферных осадков (гл. обр. дождя) совсем не было.</blockquote>
 	</card>
 	<card>
 		<k>пакса</k>
@@ -454,8 +470,8 @@
 	<card>
 		<k>пакт</k>
 		<trn>пакт</trn>
-		<blockquote>кол салышпоо жөнүндөгү пакт пакт о ненападении;</blockquote>
-		<blockquote>тынчтыктын пактиси пакт мира.</blockquote>
+		<blockquote>кол салышпоо жөнүндөгү пакт@@ пакт о ненападении;</blockquote>
+		<blockquote>тынчтыктын пактиси@@ пакт мира.</blockquote>
 	</card>
 	<card>
 		<k>пакта</k>
@@ -480,11 +496,11 @@
 	</card>
 	<card>
 		<k>пакыр</k>
-		<blockquote>
-			южн. уст.</blockquote>
+		<meta>южн.</meta>
+		<meta>уст.</meta>
 		<sameas word="бакыр" index="2" subindex="3"/>
-		<blockquote>бир пакыр две копейки;</blockquote>
-		<blockquote>эки пакыр четыре копейки.</blockquote>
+		<blockquote>бир пакыр@@ две копейки;</blockquote>
+		<blockquote>эки пакыр@@ четыре копейки.</blockquote>
 	</card>
 	<card>
 		<k>пал</k>
@@ -506,7 +522,7 @@
 		<k>палаз</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>палас или половик из грубой шерстяной ткани.</blockquote>
+		<trn>палас или половик из грубой шерстяной ткани.</trn>
 	</card>
 	<card>
 		<k>палакман</k>
@@ -521,7 +537,7 @@
 	<card>
 		<k>палан</k>
 		<sameas word="балан"/>
-		<blockquote>палан-пустан или палан-түкүн или палантөлөң то-сё, пятое-десятое;</blockquote>
+		<blockquote>палан-пустан или палан-түкүн или палантөлөң@@ то-сё, пятое-десятое;</blockquote>
 		<ex>
 			<source>паландын уулу палан деп, паркың элге чыгарба фольк.</source>
 			<target>ты не хвались перед народом, мол, я такой-то, сын такого-то (а хвались тем, что сделал).</target>
@@ -532,17 +548,19 @@
 		<homonym>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
+			<transcription>пəлəң</transcription>
 			<meaning>
-				<blockquote>бычье седло;</blockquote>
+				<trn>бычье седло;</trn>
 			</meaning>
 			<meaning>
-				<blockquote>подхвостник на ослином седле.</blockquote>
+				<trn>подхвостник на ослином седле.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
-			<blockquote>год барса (см. жыл I 2).</blockquote>
+			<transcription>пəлəң</transcription>
+			<trn>год барса (см. жыл I 2).</trn>
 		</homonym>
 	</card>
 	<card>
@@ -553,11 +571,11 @@
 		<k>палата</k>
 		<meta>в разн. знач.</meta>
 		<trn>палата</trn>
-		<blockquote>төмөнкү палата нижняя палата;</blockquote>
-		<blockquote>жогорку палата верхняя палата;</blockquote>
-		<blockquote>общиналар палатасы палата общин;</blockquote>
-		<blockquote>элдик палата народная палата;</blockquote>
-		<blockquote>китеп палатасы книжная палата.</blockquote>
+		<blockquote>төмөнкү палата@@ нижняя палата;</blockquote>
+		<blockquote>жогорку палата@@ верхняя палата;</blockquote>
+		<blockquote>общиналар палатасы@@ палата общин;</blockquote>
+		<blockquote>элдик палата@@ народная палата;</blockquote>
+		<blockquote>китеп палатасы@@ книжная палата.</blockquote>
 	</card>
 	<card>
 		<k>палван</k>
@@ -569,19 +587,21 @@
 		<homonym>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
+			<transcription>пəлəк</transcription>
 			<meaning>
-				<blockquote>плеть (бахчевых культур);</blockquote>
+				<trn>плеть (бахчевых культур);</trn>
 			</meaning>
 			<meaning>
-				<blockquote>(точнее ширин п л к) сорт дыни;</blockquote>
-				<blockquote>оозуңа ширин п л к похвала в рот тебе сладкой дыни.</blockquote>
+				<trn>(точнее ширин пəлəк) сорт дыни;</trn>
+				<blockquote>оозуңа ширин пəлəк@@ похвала в рот тебе сладкой дыни.</blockquote>
 			</meaning>
 		</homonym>
 		<homonym>
 			<origin>ар.</origin>
 			<meta>южн.</meta>
-			<blockquote>небосвод;</blockquote>
-			<blockquote>асмани п л к высь.</blockquote>
+			<transcription>пəлəк</transcription>
+			<trn>небосвод;</trn>
+			<blockquote>асмани пəлəк@@ высь.</blockquote>
 		</homonym>
 	</card>
 	<card>
