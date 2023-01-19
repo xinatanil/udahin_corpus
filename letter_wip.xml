@@ -249,7 +249,7 @@
 		</homonym>
 		<homonym>
 			<origin>ар.</origin>
-			<blockquote>польза, выгода, прибыль;</blockquote>
+			<trn>польза, выгода, прибыль;</trn>
 			<ex>
 				<source>жамандын жолдошу көп, жанына пайдасы жок погов.</source>
 				<target>у дурного товарищей много, (но от них) душе его пользы нет;</target>
@@ -784,9 +784,9 @@
 	<card>
 		<k>палоо</k>
 		<origin>ир.</origin>
-		<blockquote>плов;</blockquote>
-		<blockquote>палоо бас- варить плов;</blockquote>
-		<blockquote>палоо бастыр-заставить варить плов.</blockquote>
+		<trn>плов;</trn>
+		<blockquote>палоо бас-@@ варить плов;</blockquote>
+		<blockquote>палоо бастыр-@@ заставить варить плов.</blockquote>
 	</card>
 	<card>
 		<k>палта</k>
@@ -805,7 +805,7 @@
 	<card>
 		<k>памбаркут</k>
 		<origin>р.</origin>
-		<blockquote>панбархат (ткань).</blockquote>
+		<trn>панбархат (ткань).</trn>
 	</card>
 	<card>
 		<k>памещик</k>
@@ -822,23 +822,27 @@
 		<homonym>
 			<origin>ар.</origin>
 			<meta>уст.</meta>
-			<blockquote>наука.</blockquote>
+			<trn>наука.</trn>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
-			<blockquote>род сладких лепёшек;</blockquote>
-			<blockquote>п нд н алың, жең берите п н, кушайте.</blockquote>
+			<transcription>пəн</transcription>
+			<trn>род сладких лепёшек;</trn>
+			<blockquote>пəндəн алың, жең@@ берите пəн, кушайте.</blockquote>
 		</homonym>
 		<homonym>
 			<meta>ист.</meta>
-			<blockquote>пан (польский).</blockquote>
+			<trn>пан (польский).</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>паң</k>
-		<blockquote>паң: паң-атак слава, известность;</blockquote>
-		<blockquote>паң-атакка конду он прославился.</blockquote>
+		<collocation>
+			<k>паң-атак</k>
+			<trn>слава, известность;</trn>
+			<blockquote>паң-атакка конду@@ он прославился.</blockquote>
+		</collocation>
 	</card>
 	<card>
 		<k>панай</k>
@@ -848,7 +852,7 @@
 		<k>панар</k>
 		<origin>р.</origin>
 		<meaning>
-			<blockquote>фонарь;</blockquote>
+			<trn>фонарь;</trn>
 			<ex>
 				<source>он сегизде жаркырап күйгөн панар-чыраксың стих.</source>
 				<target>в восемнадцать (лет) ты сверкаешь, как горящий фонарь-светильник;</target>
@@ -856,7 +860,7 @@
 		</meaning>
 		<meaning>
 			<meta>сев.</meta>
-			<blockquote>ламповое стекло.</blockquote>
+			<trn>ламповое стекло.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -867,36 +871,46 @@
 			<sameas word="фанера"/>
 		</meaning>
 		<meaning>
-			<blockquote>фанерный потолок.</blockquote>
+			<trn>фанерный потолок.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>панарке</k>
 		<origin>р.</origin>
 		<meta>южн.</meta>
-		<blockquote>фанерный потолок.</blockquote>
+		<transcription>пəнəркə</transcription>
+		<trn>фанерный потолок.</trn>
 	</card>
 	<card>
 		<k>панжа</k>
 		<meta>южн.</meta>
 		<sameas word="манжа"/>
-		<blockquote>панжа башы ист. командир над пятью солдатами.</blockquote>
+		<collocation>
+			<k>панжа башы</k>
+			<meta>ист.</meta>
+			<trn>командир над пятью солдатами.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>панжара</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>решётка;</blockquote>
+			<trn>решётка;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>оконкая рама.</blockquote>
+			<trn>оконная рама.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>панжи</k>
-		<blockquote>ир. южн.:</blockquote>
-		<blockquote>панжи кой пятилетняя овца.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<transcription>пəнжи</transcription>
+		<collocation>
+			<k>панжи кой</k>
+			<trn>пятилетняя овца.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>панжыра</k>
@@ -914,12 +928,12 @@
 		<k>панке</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>азартная игра в карты;</blockquote>
-		<blockquote>панке ойно- играть в азартную карточную игру.</blockquote>
+		<trn>азартная игра в карты;</trn>
+		<blockquote>панке ойно-@@ играть в азартную карточную игру.</blockquote>
 	</card>
 	<card>
 		<k>панкечилик</k>
-		<blockquote>увлечение азартными играми в карты.</blockquote>
+		<trn>увлечение азартными играми в карты.</trn>
 	</card>
 	<card>
 		<k>панно</k>
@@ -933,25 +947,26 @@
 		<k>паңсат</k>
 		<origin>ир.</origin>
 		<meta>ист.</meta>
-		<blockquote>пятисотник (должностное лицо в ханские времена; так же именовался и предводитель отряда басмачей).</blockquote>
+		<trn>пятисотник (должностное лицо в ханские времена; так же именовался и предводитель отряда басмачей).</trn>
 	</card>
 	<card>
 		<k>пант</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>наставление, нравоучение.</blockquote>
+		<transcription>пəнт</transcription>
+		<trn>наставление, нравоучение.</trn>
 	</card>
 	<card>
 		<k>пантүркизм</k>
-		<blockquote>пантюркизм.</blockquote>
+		<trn>пантюркизм.</trn>
 	</card>
 	<card>
 		<k>пантүркист</k>
-		<blockquote>пантюркист.</blockquote>
+		<trn>пантюркист.</trn>
 	</card>
 	<card>
 		<k>пантүркисттик</k>
-		<blockquote>пантюркистский.</blockquote>
+		<trn>пантюркистский.</trn>
 	</card>
 	<card>
 		<k>паншак</k>
@@ -959,30 +974,31 @@
 	</card>
 	<card>
 		<k>папа</k>
-		<blockquote>папа (отец);</blockquote>
-		<blockquote>папаң келдиби? твой папа пришёл?</blockquote>
+		<trn>папа (отец);</trn>
+		<blockquote>папаң келдиби?@@ твой папа пришёл?</blockquote>
 	</card>
 	<card>
 		<k>папик</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
+		<transcription>пəпик</transcription>
 		<sameas word="чачы" subindex="1"/>
-		<blockquote>чач п пик то же, что чачпак.</blockquote>
+		<blockquote>чач пəпик@@ то же, что чачпак.</blockquote>
 	</card>
 	<card>
 		<k>папирос</k>
 		<meta>(или папироса)</meta>
-		<blockquote>папироса;</blockquote>
-		<blockquote>тиштеген папиросун тутандырып алды он закурил папиросу, которую держал в зубах.</blockquote>
+		<trn>папироса;</trn>
+		<blockquote>тиштеген папиросун тутандырып алды@@ он закурил папиросу, которую держал в зубах.</blockquote>
 	</card>
 	<card>
 		<k>папка</k>
-		<blockquote>папка (для бумаг).</blockquote>
+		<trn>папка (для бумаг).</trn>
 	</card>
 	<card>
 		<k>папыш</k>
 		<meta>южн.</meta>
-		<blockquote>детские матерчатые чулочки.</blockquote>
+		<trn>детские матерчатые чулочки.</trn>
 	</card>
 	<card>
 		<k>пар</k>
