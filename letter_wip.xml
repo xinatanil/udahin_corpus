@@ -1662,8 +1662,14 @@
 	<card>
 		<k>парыз</k>
 		<sameas word="барыз"/>
-		<blockquote>милдети жана парызы@@ его священная обязанность;</blockquote>
-		<blockquote>бир эскертип коюу парыз деп ойлогом@@ я думал, что обязан раз напомнить.</blockquote>
+		<ex>
+			<source>милдети жана парызы</source>
+			<target>его священная обязанность;</target>
+		</ex>
+		<ex>
+			<source>бир эскертип коюу парыз деп ойлогом</source>
+			<target>я думал, что обязан раз напомнить.</target>
+		</ex>
 	</card>
 	<card>
 		<k>парык</k>
@@ -1673,14 +1679,26 @@
 		<k>пас</k>
 		<homonym>
 			<sameas word="бас" index="1"/>
-			<blockquote>аттан эгиз, иттен пас южн.@@ загадка выше лошади, ниже собаки (отгадка эгер седло);</blockquote>
-			<blockquote>бою пас@@ низкого роста;</blockquote>
+			<ex>
+				<source>аттан эгиз, иттен пас южн.</source>
+				<target>загадка выше лошади, ниже собаки (отгадка эгер седло);</target>
+			</ex>
+			<ex>
+				<source>бою пас</source>
+				<target>низкого роста;</target>
+			</ex>
 			<ex>
 				<source>айбы чыккан жигиттин узун бою пас болот фольк.</source>
 				<target>высокий рост разоблачённого парня становится низким;</target>
 			</ex>
-			<blockquote>пастан жогору@@ снизу вверх;</blockquote>
-			<blockquote>паста южн.@@ внизу;</blockquote>
+			<ex>
+				<source>пастан жогору</source>
+				<target>снизу вверх;</target>
+			</ex>
+			<ex>
+				<source>паста южн.</source>
+				<target>внизу;</target>
+			</ex>
 			<collocation>
 				<k>пасыраак</k>
 				<meaning>
@@ -1699,21 +1717,42 @@
 					<trn>(в языке старой знати, богачей) захудалый, бедный;</trn>
 				</meaning>
 			</collocation>
-			<blockquote>көөнү пас@@ он удручён;</blockquote>
-			<blockquote>акылы пас@@ недалёкий, ограниченный (умственно);</blockquote>
-			<blockquote>маанайы пас или паанайы пас@@ то же, что маанайы бас (см. маанай).</blockquote>
+			<ex>
+				<source>көөнү пас</source>
+				<target>он удручён;</target>
+			</ex>
+			<ex>
+				<source>акылы пас</source>
+				<target>недалёкий, ограниченный (умственно);</target>
+			</ex>
+			<ex>
+				<source>маанайы пас или паанайы пас</source>
+				<target>то же, что маанайы бас (см. маанай).</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>(только с числительным бир)</meta>
-			<blockquote>бир пастан соң@@ через небольшой промежуток времени;</blockquote>
-			<blockquote>бир пас эс (или дем) алып@@ немного отдохнув;</blockquote>
-			<blockquote>аттарын бир пас откозуп@@ пустив коней своих немного попастись;</blockquote>
+			<ex>
+				<source>бир пастан соң</source>
+				<target>через небольшой промежуток времени;</target>
+			</ex>
+			<ex>
+				<source>бир пас эс (или дем) алып</source>
+				<target>немного отдохнув;</target>
+			</ex>
+			<ex>
+				<source>аттарын бир пас откозуп</source>
+				<target>пустив коней своих немного попастись;</target>
+			</ex>
 			<ex>
 				<source>адам болмок - аста-аста, айбан болмок - бир паста погов.</source>
 				<target>человеком стать - медленно, скотиной стать - один миг;</target>
 			</ex>
-			<blockquote>отургандар бир паска жымжырт боло калышты@@ сидящие на некоторое время вдруг замолчали.</blockquote>
+			<ex>
+				<source>отургандар бир паска жымжырт боло калышты</source>
+				<target>сидящие на некоторое время вдруг замолчали.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -1728,7 +1767,10 @@
 	<card>
 		<k>паспорттук</k>
 		<trn>паспортный;</trn>
-		<blockquote>паспорттук стол@@ паспортный стол.</blockquote>
+		<ex>
+			<source>паспорттук стол</source>
+			<target>паспортный стол.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пассажир</k>
@@ -1737,7 +1779,10 @@
 	<card>
 		<k>пассажирдик</k>
 		<trn>пассажирский;</trn>
-		<blockquote>пассажирдик поезд@@ пассажирский поезд.</blockquote>
+		<ex>
+			<source>пассажирдик поезд</source>
+			<target>пассажирский поезд.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пассив</k>
@@ -1746,18 +1791,27 @@
 	<card>
 		<k>пассивдүү</k>
 		<trn>пассивный;</trn>
-		<blockquote>пассивдүү мамиле@@ пассивное отношение.</blockquote>
+		<ex>
+			<source>пассивдүү мамиле</source>
+			<target>пассивное отношение.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пассивдүүлүк</k>
 		<trn>пассивность;</trn>
-		<blockquote>пассивдүүлүк менен@@ пассивно.</blockquote>
+		<ex>
+			<source>пассивдүүлүк менен</source>
+			<target>пассивно.</target>
+		</ex>
 	</card>
 	<card>
 		<k>паста</k>
 		<homonym>
 			<trn>паста</trn>
-			<blockquote>тиш пастасы@@ зубная паста.</blockquote>
+			<ex>
+				<source>тиш пастасы</source>
+				<target>зубная паста.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
@@ -1774,7 +1828,10 @@
 		<meta>южн.</meta>
 		<transcription>пəстəк</transcription>
 		<trn>коротыш;</trn>
-		<blockquote>кат-кат тондув, пəстəк бойлув@@ загадка в многослойной одежде, маленького роста (отгадка пияз лук).</blockquote>
+		<ex>
+			<source>кат-кат тондув, пəстəк бойлув</source>
+			<target>загадка в многослойной одежде, маленького роста (отгадка пияз лук).</target>
+		</ex>
 	</card>
 	<card>
 		<k>пастила</k>
@@ -1784,7 +1841,10 @@
 		<k>пасторонка</k>
 		<meta>сев.</meta>
 		<sameas word="баструңке"/>
-		<blockquote>аттарды пасторонкадан чечип@@ освободив лошадей от постромок.</blockquote>
+		<ex>
+			<source>аттарды пасторонкадан чечип</source>
+			<target>освободив лошадей от постромок.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пастык</k>
@@ -1807,7 +1867,10 @@
 		<k>пата</k>
 		<meta>южн.</meta>
 		<sameas word="бата"/>
-		<blockquote>пата той-@@ см. той I.</blockquote>
+		<ex>
+			<source>пата той-</source>
+			<target>см. той I.</target>
+		</ex>
 	</card>
 	<card>
 		<k>паталга</k>
@@ -1841,7 +1904,10 @@
 	<card>
 		<k>патетикалык</k>
 		<trn>патетический;</trn>
-		<blockquote>патетикалык симфония@@ патетическая симфония.</blockquote>
+		<ex>
+			<source>патетикалык симфония</source>
+			<target>патетическая симфония.</target>
+		</ex>
 	</card>
 	<card>
 		<k>патефон</k>
@@ -1864,7 +1930,10 @@
 		<meta>южн.</meta>
 		<transcription>пəтинчə</transcription>
 		<trn>помидор;</trn>
-		<blockquote>пəтинчəни кургатып койсо, жакшы болот@@ хорошо будет, если помидоры высушить (на зиму).</blockquote>
+		<ex>
+			<source>пəтинчəни кургатып койсо, жакшы болот</source>
+			<target>хорошо будет, если помидоры высушить (на зиму).</target>
+		</ex>
 	</card>
 	<card>
 		<k>патир</k>
@@ -1886,7 +1955,10 @@
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<trn>подписка, письменное обязательство;</trn>
-		<blockquote>патписке бер-@@ дать подписку.</blockquote>
+		<ex>
+			<source>патписке бер-</source>
+			<target>дать подписку.</target>
+		</ex>
 	</card>
 	<card>
 		<k>патпол</k>
@@ -1899,9 +1971,18 @@
 	<card>
 		<k>патриархалдык</k>
 		<trn>патриархальный;</trn>
-		<blockquote>коомдун патриархалдык түзүлүшү@@ патриархальный строй общества;</blockquote>
-		<blockquote>патриархалдык көз караштар@@ патриархальные взгляды;</blockquote>
-		<blockquote>патриархалдык-уруучулуктун калдыктары@@ патриархально-родовые пережитки.</blockquote>
+		<ex>
+			<source>коомдун патриархалдык түзүлүшү</source>
+			<target>патриархальный строй общества;</target>
+		</ex>
+		<ex>
+			<source>патриархалдык көз караштар</source>
+			<target>патриархальные взгляды;</target>
+		</ex>
+		<ex>
+			<source>патриархалдык-уруучулуктун калдыктары</source>
+			<target>патриархально-родовые пережитки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>патриот</k>
@@ -1914,13 +1995,22 @@
 	<card>
 		<k>патриоттук</k>
 		<trn>патриотический;</trn>
-		<blockquote>патриоттук сезим@@ патриотическое чувство.</blockquote>
+		<ex>
+			<source>патриоттук сезим</source>
+			<target>патриотическое чувство.</target>
+		</ex>
 	</card>
 	<card>
 		<k>патрон</k>
 		<trn>патрон</trn>
-		<blockquote>патрон заводу@@ патронный завод;</blockquote>
-		<blockquote>электр патрону@@ электрический патрон.</blockquote>
+		<ex>
+			<source>патрон заводу</source>
+			<target>патронный завод;</target>
+		</ex>
+		<ex>
+			<source>электр патрону</source>
+			<target>электрический патрон.</target>
+		</ex>
 	</card>
 	<card>
 		<k>патруль</k>
@@ -1936,7 +2026,10 @@
 	<card>
 		<k>патчагар</k>
 		<sameas word="баччагар"/>
-		<blockquote>тарт тилиңди, патчагар!@@ замолчи, негодяй!</blockquote>
+		<ex>
+			<source>тарт тилиңди, патчагар!</source>
+			<target>замолчи, негодяй!</target>
+		</ex>
 	</card>
 	<card>
 		<k>патша</k>
@@ -1979,7 +2072,10 @@
 		<k>пахта</k>
 		<origin>ир.</origin>
 		<trn>хлопок;</trn>
-		<blockquote>пахта эгүүчү райондор@@ хлопкосеющие районы;</blockquote>
+		<ex>
+			<source>пахта эгүүчү райондор</source>
+			<target>хлопкосеющие районы;</target>
+		</ex>
 		<collocation>
 			<k>пахта катын</k>
 			<meta>или южн. пахта хатын</meta>
@@ -1998,7 +2094,10 @@
 	<card>
 		<k>пахтачылык</k>
 		<trn>хлопководство;</trn>
-		<blockquote>пахтачылык совхозу@@ хлопководческий совхоз.</blockquote>
+		<ex>
+			<source>пахтачылык совхозу</source>
+			<target>хлопководческий совхоз.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пацифизм</k>
