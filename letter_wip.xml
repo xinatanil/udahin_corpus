@@ -2626,7 +2626,7 @@
 	<card>
 		<k>перизаада</k>
 		<origin>ир.</origin>
-		<blockquote>красавица (со всеми присущими девушке или молодой женщине хорошими качествами: умная, скромная, добрая и т.п.; букв. рождённая от пери);</blockquote>
+		<trn>красавица (со всеми присущими девушке или молодой женщине хорошими качествами: умная, скромная, добрая и т.п.; букв. рождённая от пери);</trn>
 		<ex>
 			<source>перизаада Айчүрөк жыйырма бирге келгенде фольк.</source>
 			<target>когда красавице Айчурек исполнилось двадцать один (год).</target>
@@ -2635,8 +2635,8 @@
 	<card>
 		<k>перизат</k>
 		<origin>ир.</origin>
-		<blockquote>пери, фея, красавица (букв. существо пери);</blockquote>
-		<blockquote>перизаттай кыз фееподобная девушка (красивая, стройная и добронравная);</blockquote>
+		<trn>пери, фея, красавица (букв. существо пери);</trn>
+		<blockquote>перизаттай кыз@@ фееподобная девушка (красивая, стройная и добронравная);</blockquote>
 		<ex>
 			<source>мен - перизат, сен - адам фольк.</source>
 			<target>я - пери, ты - человек.</target>
@@ -2649,12 +2649,12 @@
 	<card>
 		<k>периферия</k>
 		<trn>периферия</trn>
-		<blockquote>ал периферияда иштейт он работает на периферии.</blockquote>
+		<blockquote>ал периферияда иштейт@@ он работает на периферии.</blockquote>
 	</card>
 	<card>
 		<k>перифериялык</k>
-		<blockquote>периферийный;</blockquote>
-		<blockquote>перифериялык театр периферийный театр.</blockquote>
+		<trn>периферийный;</trn>
+		<blockquote>перифериялык театр@@ периферийный театр.</blockquote>
 	</card>
 	<card>
 		<k>периште</k>
@@ -2672,16 +2672,16 @@
 			<sameas word="ферма"/>
 		</meaning>
 		<meaning>
-			<blockquote>заведующий фермой;</blockquote>
-			<blockquote>перме болуп иштеймин я работаю заведующим фермой.</blockquote>
+			<trn>заведующий фермой;</trn>
+			<blockquote>перме болуп иштеймин@@ я работаю заведующим фермой.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>перпендикуляр</k>
 		<trn>перпендикуляр</trn>
-		<blockquote>перпендикулярды түшүр- опустить перпендикуляр;</blockquote>
-		<blockquote>перпендикулярды тургуз- восставить перпендикуляр;</blockquote>
-		<blockquote>перпендикуляр сызыгы перпендикулярная линия.</blockquote>
+		<blockquote>перпендикулярды түшүр-@@ опустить перпендикуляр;</blockquote>
+		<blockquote>перпендикулярды тургуз-@@ восставить перпендикуляр;</blockquote>
+		<blockquote>перпендикуляр сызыгы@@ перпендикулярная линия.</blockquote>
 	</card>
 	<card>
 		<k>перрон</k>
@@ -2691,40 +2691,41 @@
 		<k>персонаж</k>
 		<meta>лит.</meta>
 		<trn>персонаж</trn>
-		<blockquote>персонаждар персонажи;</blockquote>
-		<blockquote>пьесанын персонажы персонаж пьесы.</blockquote>
+		<blockquote>персонаждар@@ персонажи;</blockquote>
+		<blockquote>пьесанын персонажы@@ персонаж пьесы.</blockquote>
 	</card>
 	<card>
 		<k>персонал</k>
 		<trn>персонал</trn>
-		<blockquote>медициналык персонал медицинский персонал.</blockquote>
+		<blockquote>медициналык персонал@@ медицинский персонал.</blockquote>
 	</card>
 	<card>
 		<k>персоналдык</k>
-		<blockquote>персональный;</blockquote>
-		<blockquote>персоналдык пенсия персональная пенсия;</blockquote>
-		<blockquote>персоналдык пенсионер персональный пенсионер.</blockquote>
+		<trn>персональный;</trn>
+		<blockquote>персоналдык пенсия@@ персональная пенсия;</blockquote>
+		<blockquote>персоналдык пенсионер@@ персональный пенсионер.</blockquote>
 	</card>
 	<card>
 		<k>перспектива</k>
 		<trn>перспектива</trn>
-		<blockquote>айыл чарбасын мындан ары өнүктүрүүнүн перспективалары перспективы дальнейшего развития сельского хозяйства.</blockquote>
+		<blockquote>айыл чарбасын мындан ары өнүктүрүүнүн перспективалары@@ перспективы дальнейшего развития сельского хозяйства.</blockquote>
 	</card>
 	<card>
 		<k>перспективалык</k>
-		<blockquote>перспективный;</blockquote>
-		<blockquote>перспективалык план перспективный план.</blockquote>
+		<trn>перспективный;</trn>
+		<blockquote>перспективалык план@@ перспективный план.</blockquote>
 	</card>
 	<card>
 		<k>пес</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>ложная проказа (белые пятна на коже);</blockquote>
+			<trn>ложная проказа (белые пятна на коже);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>бран. (о человеке) зараза, мерзкий, гадкий.</blockquote>
+			<meta>бран.</meta>
+			<trn>(о человеке) зараза, мерзкий, гадкий.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -2752,17 +2753,17 @@
 	<card>
 		<k>печать</k>
 		<trn>печать</trn>
-		<blockquote>печать бас- приложить печать.</blockquote>
+		<blockquote>печать бас-@@ приложить печать.</blockquote>
 	</card>
 	<card>
 		<k>печек</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>вьюнок.</blockquote>
+		<trn>вьюнок.</trn>
 	</card>
 	<card>
 		<k>печенье</k>
-		<blockquote>печенье (кондитерское изделие).</blockquote>
+		<trn>печенье (кондитерское изделие).</trn>
 	</card>
 	<card>
 		<k>печет</k>
@@ -2772,13 +2773,13 @@
 		<k>печь</k>
 		<meta>редко</meta>
 		<trn>печь</trn>
-		<blockquote>домна печи доменная печь.</blockquote>
+		<blockquote>домна печи@@ доменная печь.</blockquote>
 	</card>
 	<card>
 		<k>пешайван</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>терраса, веранда.</blockquote>
+		<trn>терраса, веранда.</trn>
 	</card>
 	<card>
 		<k>пешака</k>
@@ -2798,7 +2799,7 @@
 	<card>
 		<k>пешка</k>
 		<trn>пешка</trn>
-		<blockquote>жүргөн бир пешка да! да он же пешка!</blockquote>
+		<blockquote>жүргөн бир пешка да!@@ да он же пешка!</blockquote>
 	</card>
 	<card>
 		<k>пианино</k>
@@ -2825,13 +2826,13 @@
 	<card>
 		<k>пивокана</k>
 		<origin>р.-ир.</origin>
-		<blockquote>пивная.</blockquote>
+		<trn>пивная.</trn>
 	</card>
 	<card>
 		<k>пийалма</k>
 		<origin>ир.-кирг.</origin>
 		<meta>южн.</meta>
-		<blockquote>айва.</blockquote>
+		<trn>айва.</trn>
 	</card>
 	<card>
 		<k>пийба</k>
@@ -2841,9 +2842,9 @@
 	<card>
 		<k>пикир</k>
 		<sameas word="бикир" index="1"/>
-		<blockquote>сурайынчы деген пикир оюна да келгени жок мысль о том, чтобы спросить, ему и в голову не пришла;</blockquote>
-		<blockquote>пикириңе кетпесин не подумай (чего-либо дурного), не беспокойся;</blockquote>
-		<blockquote>пикир келишпестик см. келишпестик.</blockquote>
+		<blockquote>сурайынчы деген пикир оюна да келгени жок@@ мысль о том, чтобы спросить, ему и в голову не пришла;</blockquote>
+		<blockquote>пикириңе кетпесин@@ не подумай (чего-либо дурного), не беспокойся;</blockquote>
+		<blockquote>пикир келишпестик@@ см. келишпестик.</blockquote>
 	</card>
 	<card>
 		<k>пикирдеш</k>
@@ -2865,7 +2866,7 @@
 			<sameas word="билик" subindex="1"/>
 		</meaning>
 		<meaning>
-			<blockquote>канитель (серебряная нитка).</blockquote>
+			<trn>канитель (серебряная нитка).</trn>
 		</meaning>
 	</card>
 	<card>
@@ -2877,13 +2878,14 @@
 		<k>пилита</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>плита (кухонная).</blockquote>
+		<trn>плита (кухонная).</trn>
 	</card>
 	<card>
 		<k>пилла</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>кокон.</blockquote>
+		<transcription>пиллə</transcription>
+		<trn>кокон.</trn>
 	</card>
 	<card>
 		<k>пилорама</k>
@@ -2894,7 +2896,7 @@
 		<meaning>
 			<origin>р.</origin>
 			<meta>сев.</meta>
-			<blockquote>пиджак;</blockquote>
+			<trn>пиджак;</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
@@ -2904,8 +2906,8 @@
 	<card>
 		<k>пионер</k>
 		<trn>пионер</trn>
-		<blockquote>пионер лагери пионерский лагерь;</blockquote>
-		<blockquote>пионер отряды пионерский отряд.</blockquote>
+		<blockquote>пионер лагери@@ пионерский лагерь;</blockquote>
+		<blockquote>пионер отряды@@ пионерский отряд.</blockquote>
 	</card>
 	<card>
 		<k>пионервожатый</k>
@@ -2915,17 +2917,17 @@
 		<k>пир</k>
 		<origin>ир.</origin>
 		<meta>рел.</meta>
-		<blockquote>духовный наставник, патрон (духовный), глава дервишского ордена или части его;</blockquote>
+		<trn>духовный наставник, патрон (духовный), глава дервишского ордена или части его;</trn>
 		<ex>
 			<source>пир кылып, тутам колуңду фольк.</source>
 			<target>держу я твою руку, считая тебя своим наставником;</target>
 		</ex>
-		<blockquote>пир тут- взять в свои духовные наставники;</blockquote>
-		<blockquote>пир туткан пириң человек, которого ты взял в свои духовные наставники;</blockquote>
-		<blockquote>пирге кол бер- стать последователем духовного наставника (букв. дать руку духовному наставнику);</blockquote>
-		<blockquote>колдоп жүргөн пир споспешествующий наставник;</blockquote>
-		<blockquote>жаа пирим! о мой наставник! (обращение за помощью к духу наставника, что часто делают эпические богатыри);</blockquote>
-		<blockquote>элим - пирим народ мой - покровитель мой;</blockquote>
+		<blockquote>пир тут-@@ взять в свои духовные наставники;</blockquote>
+		<blockquote>пир туткан пириң@@ человек, которого ты взял в свои духовные наставники;</blockquote>
+		<blockquote>пирге кол бер-@@ стать последователем духовного наставника (букв. дать руку духовному наставнику);</blockquote>
+		<blockquote>колдоп жүргөн пир@@ споспешествующий наставник;</blockquote>
+		<blockquote>жаа пирим!@@ о мой наставник! (обращение за помощью к духу наставника, что часто делают эпические богатыри);</blockquote>
+		<blockquote>элим - пирим@@ народ мой - покровитель мой;</blockquote>
 		<ex>
 			<source>пири тирүү жер фольк.</source>
 			<target>благодатное место, благодатная земля (букв. место, покровитель которого жив).</target>
@@ -2946,40 +2948,41 @@
 	<card>
 		<k>пириварди</k>
 		<meta>южн.</meta>
-		<blockquote>конец, окончание.</blockquote>
+		<trn>конец, окончание.</trn>
 	</card>
 	<card>
 		<k>пириговор</k>
 		<meta>(или пиргөвөр)</meta>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>приговор (общественный).</blockquote>
+		<trn>приговор (общественный).</trn>
 	</card>
 	<card>
 		<k>пирип</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>обман;</blockquote>
-		<blockquote>бүрөвгө пирип берем - деп, өзүмө пирип жедим хотел я другого обмануть, да обманутым оказался сам.</blockquote>
+		<trn>обман;</trn>
+		<blockquote>бүрөвгө пирип берем - деп, өзүмө пирип жедим@@ хотел я другого обмануть, да обманутым оказался сам.</blockquote>
 	</card>
 	<card>
 		<k>пиричина</k>
 		<origin>р.</origin>
 		<meta>южн.</meta>
-		<blockquote>причина (прим. см. опшим).</blockquote>
+		<transcription>пиричинə</transcription>
+		<trn>причина (прим. см. опшим).</trn>
 	</card>
 	<card>
 		<k>пирмир</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<meta>южн.</meta>
-		<blockquote>пример, образец;</blockquote>
-		<blockquote>пирмир болсун пусть будет примером.</blockquote>
+		<trn>пример, образец;</trn>
+		<blockquote>пирмир болсун@@ пусть будет примером.</blockquote>
 	</card>
 	<card>
 		<k>пирожный</k>
 		<origin>р.</origin>
-		<blockquote>пирожное.</blockquote>
+		<trn>пирожное.</trn>
 	</card>
 	<card>
 		<k>пироксилин</k>
@@ -2989,7 +2992,7 @@
 		<k>пиртөкөл</k>
 		<meta>разг.</meta>
 		<sameas word="протокол"/>
-		<blockquote>пиртөкөл жаз- составить протокол на кого-л.</blockquote>
+		<blockquote>пиртөкөл жаз-@@ составить протокол на кого-л.</blockquote>
 	</card>
 	<card>
 		<k>пирөкөрөр</k>
