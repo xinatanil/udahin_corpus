@@ -2044,7 +2044,7 @@
 		<homonym>
 			<collocation>
 				<k>тытыр-патыр</k>
-				<trn>см. тытыр.</trn>
+				<look word="тытыр"/>
 			</collocation>
 		</homonym>
 	</card>
@@ -2110,19 +2110,30 @@
 	<card>
 		<k>пачак</k>
 		<meta>южн.</meta>
-		<blockquote>помятый, раздавленный, с вмятинами (напр. о яблоке, дыне, о ведре), битый, надбитый (напр. о яйце), с пробоиной (напр. о стене);</blockquote>
-		<blockquote>ак пачак, кара пачак южн. виды брака коконов;</blockquote>
-		<blockquote>пачак-пучагы чыкты сев. разлетелось вдребезги.</blockquote>
+		<trn>помятый, раздавленный, с вмятинами (напр. о яблоке, дыне, о ведре), битый, надбитый (напр. о яйце), с пробоиной (напр. о стене);</trn>
+		<collocation>
+			<k>ак пачак, кара пачак</k>
+			<meta>южн.</meta>
+			<trn>виды брака коконов;</trn>
+		</collocation>
+		<collocation>
+			<k>пачак-пучагы чыкты</k>
+			<meta>южн.</meta>
+			<trn>разлетелось вдребезги.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>пачакта-</k>
 		<meta>южн.</meta>
-		<blockquote>помять, раздавить (напр. яблоко, дыню, ведро), сделать пробоину, проломить, продолбить (напр. стену).</blockquote>
+		<trn>помять, раздавить (напр. яблоко, дыню, ведро), сделать пробоину, проломить, продолбить (напр. стену).</trn>
 	</card>
 	<card>
 		<k>пачка</k>
 		<trn>пачка</trn>
-		<blockquote>акча пачкасы пачка денег.</blockquote>
+		<ex>
+			<source>акча пачкасы</source>
+			<target>пачка денег.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пачке</k>
@@ -2262,11 +2273,15 @@
 	</card>
 	<card>
 		<k>педучилище</k>
-		<blockquote>уст. педучилище.</blockquote>
+		<meta>уст.</meta>
+		<trn>педучилище</trn>
 	</card>
 	<card>
 		<k>пежекеле-</k>
-		<blockquote>пежекеле-: эжеке-пежекелеп (в отношении старшей, но не старой женщины) умасливая и уговаривая (милая, мол, сестрица, дорогая, мол, сестрица и т.п.).</blockquote>
+		<collocation>
+			<k>эжеке-пежекелеп</k>
+			<trn>(в отношении старшей, но не старой женщины) умасливая и уговаривая (милая, мол, сестрица, дорогая, мол, сестрица и т.п.).</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>пезелин</k>
@@ -2321,7 +2336,10 @@
 	</card>
 	<card>
 		<k>пейилдүүлүк</k>
-		<blockquote>пейилдүүлүк: кичи пейилдүүлүк вежливость, учтивость;</blockquote>
+		<collocation>
+			<k>кичи пейилдүүлүк</k>
+			<trn>вежливость, учтивость;</trn>
+		</collocation>
 		<blockquote>кичи пейилдүүлүк менен вежливо, учтиво.</blockquote>
 	</card>
 	<card>
@@ -2827,7 +2845,8 @@
 	</card>
 	<card>
 		<k>писант</k>
-		<blockquote>ир. южн.:</blockquote>
+		<origin>ир.</origin>
+		<blockquote>южн.:</blockquote>
 		<blockquote>пис нт эмес легко, ничего не стоит;</blockquote>
 		<blockquote>жүз киле буга пис нт эмес сто кило для него нипочём.</blockquote>
 	</card>
@@ -2877,7 +2896,10 @@
 	</card>
 	<card>
 		<k>пишер</k>
-		<blockquote>пишер: адам пишери славный, лучший богатырь.</blockquote>
+		<collocation>
+			<k>адам пишери</k>
+			<trn>славный, лучший богатырь.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>пишкек</k>
@@ -2891,7 +2913,9 @@
 	</card>
 	<card>
 		<k>пияда</k>
-		<blockquote>ир. южн. [пийәдә]</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>[пийәдә]</blockquote>
 		<blockquote>пеший; пешком;</blockquote>
 		<blockquote>пийәдә алыс, чарчайсыңар пешком далеко, устанете;</blockquote>
 		<ex>
@@ -2929,7 +2953,7 @@
 	</card>
 	<card>
 		<k>пияла</k>
-		<blockquote>ир. из греч.</blockquote>
+		<origin>ир. из греч.</origin>
 		<blockquote>пиала.</blockquote>
 	</card>
 	<card>
@@ -3104,7 +3128,10 @@
 	</card>
 	<card>
 		<k>погонный</k>
-		<blockquote>погонный: погонный метр погонный метр.</blockquote>
+		<collocation>
+			<k>погонный метр</k>
+			<trn>погонный метр</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>пограничник</k>
@@ -3172,7 +3199,10 @@
 	</card>
 	<card>
 		<k>подъёмный</k>
-		<blockquote>подъёмный: подъёмный акча подъёмные деньги.</blockquote>
+		<collocation>
+			<k>подъёмный акча</k>
+			<trn>подъёмные деньги.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>поезд</k>
@@ -3292,7 +3322,10 @@
 	</card>
 	<card>
 		<k>полобай</k>
-		<blockquote>полобай: полобай-шолобайынды кой не отговаривайся; брось увиливать, не морочь голову.</blockquote>
+		<collocation>
+			<k>полобай-шолобайынды кой</k>
+			<trn>не отговаривайся; брось увиливать, не морочь голову.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>полоса</k>
@@ -3315,7 +3348,11 @@
 	</card>
 	<card>
 		<k>помош</k>
-		<blockquote>помош: зайым помош разг. то же, что заемпомощь.</blockquote>
+		<collocation>
+			<k>зайым помош</k>
+			<meta>разг.</meta>
+			<sameas word="заемпомощь"/>
+		</collocation>
 	</card>
 	<card>
 		<k>понду</k>
@@ -3596,7 +3633,10 @@
 	</card>
 	<card>
 		<k>пошто-</k>
-		<blockquote>пошто-: пош-пошто- кричать повторно "пош!" (см.).</blockquote>
+		<collocation>
+			<k>пош-пошто-</k>
+			<trn>кричать повторно "пош!" (см.).</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>поэзия</k>
@@ -4233,7 +4273,7 @@
 	</card>
 	<card>
 		<k>пул</k>
-		<blockquote>ир. с греч.</blockquote>
+		<origin>ир. с греч.</origin>
 		<meaning>
 			<blockquote>деньги;</blockquote>
 			<ex>
@@ -4292,11 +4332,15 @@
 	</card>
 	<card>
 		<k>пуна</k>
-		<blockquote>пуна: ана-пуна то же, что ана-мына (см. мына).</blockquote>
+		<collocation>
+			<k>ана-пуна</k>
+			<sameas word="ана-мына" />
+			<look word="мына" />
+		</collocation>
 	</card>
 	<card>
 		<k>пунда</k>
-		<blockquote>кит. (у синьцз. киргизов)</blockquote>
+		<origin>кит. (у синьцз. киргизов)</origin>
 		<blockquote>станция.</blockquote>
 	</card>
 	<card>
@@ -4419,7 +4463,11 @@
 	</card>
 	<card>
 		<k>пүтөв</k>
-		<blockquote>пүтөв: кош пүтөв южн. пригоршня;</blockquote>
+		<collocation>
+			<k>кош пүтөв</k>
+			<meta>южн.</meta>
+			<trn>пригоршня;</trn>
+		</collocation>
 		<blockquote>пүтөв кочкорок то же, что кочкорок.</blockquote>
 	</card>
 	<card>
@@ -4570,7 +4618,12 @@
 	</card>
 	<card>
 		<k>пычыр</k>
-		<blockquote>пычыр: пычыр-пычыр ир. южн. шёпот, перешёптывание.</blockquote>
+		<collocation>
+			<k>пычыр-пычыр</k>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<trn>шёпот, перешёптывание.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>пыш</k>
@@ -4705,6 +4758,9 @@
 	</card>
 	<card>
 		<k>пөөш</k>
-		<blockquote>пөөш: арам пөөш то же, что арампөөш.</blockquote>
+		<collocation>
+			<k>арам пөөш</k>
+			<sameas word="арампөөш"/>
+		</collocation>
 	</card>
 </root>
