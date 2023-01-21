@@ -1029,13 +1029,13 @@
 		<homonym>
 			<origin>р.</origin>
 			<meaning>
-				<blockquote>пара;</blockquote>
-				<blockquote>пар ат чегилген араба телега, запряжённая парой лошадей;</blockquote>
+				<trn>пара;</trn>
+				<blockquote>пар ат чегилген араба@@ телега, запряжённая парой лошадей;</blockquote>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>пара, ровня;</blockquote>
-				<blockquote>ал сага пар келбейт он тебе не пара, не ровня;</blockquote>
+				<trn>пара, ровня;</trn>
+				<blockquote>ал сага пар келбейт@@ он тебе не пара, не ровня;</blockquote>
 				<ex>
 					<source>мергениң менин парымбы? фольк.</source>
 					<target>разве мне пара твой охотник?</target>
@@ -1043,7 +1043,7 @@
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>к лицу, соответствующий;</blockquote>
+				<trn>к лицу, соответствующий;</trn>
 				<ex>
 					<source>пар келишкен боруму стих.</source>
 					<target>её наряд пришёлся ей к лицу (ещё см. бар II).</target>
@@ -1054,14 +1054,15 @@
 			<origin>ир.</origin>
 			<meta>сев.</meta>
 			<meaning>
-				<blockquote>птичье перо;</blockquote>
-				<blockquote>пар жаздык подушка из птичьего пера;</blockquote>
+				<trn>птичье перо;</trn>
+				<blockquote>пар жаздык@@ подушка из птичьего пера;</blockquote>
 			</meaning>
 			<meaning>
 				<meta>южн.</meta>
-				<blockquote>крыло птицы;</blockquote>
+				<transcription>пəр</transcription>
+				<trn>крыло птицы;</trn>
 				<ex>
-					<source>кушту учурат п р деген стих.</source>
+					<source>кушту учурат пəр деген стих.</source>
 					<target>птице позволяет летать крыло;</target>
 				</ex>
 			</meaning>
@@ -1073,13 +1074,17 @@
 	</card>
 	<card>
 		<k>пара</k>
-		<blockquote>пара I, II</blockquote>
-		<blockquote>то же, что бара I, II.</blockquote>
+		<homonym>
+			<sameas word="бара" index="1"/>
+		</homonym>
+		<homonym>
+			<sameas word="бара" index="2"/>
+		</homonym>
 	</card>
 	<card>
 		<k>параан</k>
 		<sameas word="бараан"/>
-		<blockquote>караан-параан көрбөдүк мы не видели никаких признаков (жилья и т.п.).</blockquote>
+		<blockquote>караан-параан көрбөдүк@@ мы не видели никаких признаков (жилья и т.п.).</blockquote>
 	</card>
 	<card>
 		<k>парабоз</k>
@@ -1088,8 +1093,12 @@
 	</card>
 	<card>
 		<k>параварди</k>
-		<blockquote>ир. южн.:</blockquote>
-		<blockquote>паравардида в заключение, в конце концов.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<collocation>
+			<k>паравардида</k>
+			<trn>в заключение, в конце концов.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>параграф</k>
@@ -1112,7 +1121,7 @@
 	<card>
 		<k>парай</k>
 		<pair word="сарай"/>
-		<blockquote>сарай-парайын үйгө бириктире салган сарай и всякие другие пристройки он подвёл под одну крышу с домом.</blockquote>
+		<blockquote>сарай-парайын үйгө бириктире салган сарай@@ и всякие другие пристройки он подвёл под одну крышу с домом.</blockquote>
 	</card>
 	<card>
 		<k>парак</k>
@@ -1141,7 +1150,8 @@
 		<k>паранда</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>птица.</blockquote>
+		<transcription>пəрəндə</transcription>
+		<trn>птица.</trn>
 	</card>
 	<card>
 		<k>паранжы</k>
@@ -1150,20 +1160,24 @@
 	<card>
 		<k>парасат</k>
 		<origin>ар.</origin>
-		<blockquote>догадливость, понятливость, рассудительность.</blockquote>
+		<trn>догадливость, понятливость, рассудительность.</trn>
 	</card>
 	<card>
 		<k>парасаттуу</k>
-		<blockquote>догадливый, понятливый, рассудительный.</blockquote>
+		<trn>догадливый, понятливый, рассудительный.</trn>
 	</card>
 	<card>
 		<k>парат</k>
-		<blockquote>парат: бел парат южн. то же, что окчонтой.</blockquote>
+		<collocation>
+			<k>бел парат</k>
+			<meta>южн.</meta>
+			<sameas word="окчонтой" />
+		</collocation>
 	</card>
 	<card>
 		<k>параход</k>
 		<origin>р.</origin>
-		<blockquote>пароход.</blockquote>
+		<trn>пароход.</trn>
 	</card>
 	<card>
 		<k>парачы</k>
@@ -1181,7 +1195,8 @@
 		<k>парвайиш</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>уход, воспитание.</blockquote>
+		<transcription>пəрвəйиш</transcription>
+		<trn>уход, воспитание.</trn>
 	</card>
 	<card>
 		<k>парга</k>
@@ -1196,29 +1211,33 @@
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
-				<blockquote>занавес, занавеска; покрывало; вуаль;</blockquote>
-				<blockquote>терезеге кисеядан жасалган пардалар тартылган окна были завешены кисейными занавесками;</blockquote>
-				<blockquote>бетине парда салды лицо её закрыли покрывалом;</blockquote>
+				<trn>занавес, занавеска; покрывало; вуаль;</trn>
+				<blockquote>терезеге кисеядан жасалган пардалар тартылган@@ окна были завешены кисейными занавесками;</blockquote>
+				<blockquote>бетине парда салды@@ лицо её закрыли покрывалом;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>(точнее бет пардасы) перен. покров, маска;</blockquote>
-				<blockquote>текшерүү сенин кара пардаңды сыйрып таштады расследование сорвало с тебя (с твоего лица) чёрную маску;</blockquote>
-				<blockquote>бет пардасын сыйрып таштап сорвав с него маску;</blockquote>
-				<blockquote>түн пардасы покров ночи;</blockquote>
-				<blockquote>айнек парда см. айнек 2.</blockquote>
+				<meta>(точнее бет пардасы)</meta>
+				<meta>перен.</meta>
+				<trn>покров, маска;</trn>
+				<blockquote>текшерүү сенин кара пардаңды сыйрып таштады@@ расследование сорвало с тебя (с твоего лица) чёрную маску;</blockquote>
+				<blockquote>бет пардасын сыйрып таштап@@ сорвав с него маску;</blockquote>
+				<blockquote>түн пардасы@@ покров ночи;</blockquote>
+				<blockquote>айнек парда@@ см. айнек 2.</blockquote>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>парда- II:</blockquote>
-			<blockquote>көз парда- открыть глаза, прозреть;</blockquote>
-			<ex>
-				<source>пардагын көздү, көң Алай! стих.</source>
-				<target>открой глаза, обширный Алай!;</target>
-			</ex>
-			<ex>
-				<source>көптү көрүп, көз пардадым күрөш менен жашымдан стих.</source>
-				<target>много испытав, я смолоду в борьбе прозрел.</target>
-			</ex>
+			<collocation>
+				<k>көз парда-</k>
+				<trn>открыть глаза, прозреть;</trn>
+				<ex>
+					<source>пардагын көздү, көң Алай! стих.</source>
+					<target>открой глаза, обширный Алай!;</target>
+				</ex>
+				<ex>
+					<source>көптү көрүп, көз пардадым күрөш менен жашымдан стих.</source>
+					<target>много испытав, я смолоду в борьбе прозрел.</target>
+				</ex>				
+			</collocation>
 		</homonym>
 	</card>
 	<card>
@@ -1226,10 +1245,10 @@
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>лощение; лоск;</blockquote>
+			<trn>лощение; лоск;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>косметика (белила, румяна).</blockquote>
+			<trn>косметика (белила, румяна).</trn>
 		</meaning>
 	</card>
 	<card>
@@ -1247,7 +1266,7 @@
 	<card>
 		<k>парзант</k>
 		<origin>ир.</origin>
-		<blockquote>дитя, ребёнок;</blockquote>
+		<trn>дитя, ребёнок;</trn>
 		<ex>
 			<source>өмүрдө парзант көрбөй, кайгы тарткан стих.</source>
 			<target>не имея в жизни детей, он горевал.</target>
@@ -1262,17 +1281,18 @@
 		<homonym>
 			<meta>в разн. знач.</meta>
 			<trn>парк</trn>
-			<blockquote>парк тик- разбить парк;</blockquote>
-			<blockquote>маданий парк парк культуры;</blockquote>
-			<blockquote>трактор паркы тракторный парк.</blockquote>
+			<blockquote>парк тик-@@ разбить парк;</blockquote>
+			<blockquote>маданий парк@@ парк культуры;</blockquote>
+			<blockquote>трактор паркы@@ тракторный парк.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>паркент</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
+		<transcription>пəркəнт</transcription>
 		<sameas word="казнак"/>
-		<blockquote>боковое углубление в могиле, куда кладут покойника.</blockquote>
+		<trn>боковое углубление в могиле, куда кладут покойника.</trn>
 	</card>
 	<card>
 		<k>паркет</k>
@@ -1283,24 +1303,24 @@
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>орнаментированная верхняя сторона подушки;</blockquote>
+			<trn>орнаментированная верхняя сторона подушки;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>подушка с орнаментированным верхом (употребляется как украшение для жүк; см. жүк 2).</blockquote>
+			<trn>подушка с орнаментированным верхом (употребляется как украшение для жүк; см. жүк 2).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>парла-</k>
 		<homonym>
-			<blockquote>подбирать пары или в пару;</blockquote>
-			<blockquote>эки-экиден парлап кой разложи попарно, подбери одинаковые пары.</blockquote>
+			<trn>подбирать пары или в пару;</trn>
+			<blockquote>эки-экиден парлап кой@@ разложи попарно, подбери одинаковые пары.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>парла- II:</blockquote>
-			<ex>
-				<source>парлап-парлап төктү жашты фольк.</source>
-				<target>он проливал обильные слёзы.</target>
-			</ex>
+			<collocation>
+				<k>парлап-парлап төктү жашты</k>
+				<meta>фольк.</meta>
+				<trn>он проливал обильные слёзы.</trn>
+			</collocation>
 		</homonym>
 	</card>
 	<card>
@@ -1317,27 +1337,27 @@
 	</card>
 	<card>
 		<k>парламенттик</k>
-		<blockquote>парламентский;</blockquote>
-		<blockquote>парламенттик делегация парламентская делегация;</blockquote>
-		<blockquote>парламенттик шайлоолор парламентские выборы;</blockquote>
-		<blockquote>коммунисттердин парламенттик группасы парламентская группа коммунистов.</blockquote>
+		<trn>парламентский;</trn>
+		<blockquote>парламенттик делегация@@ парламентская делегация;</blockquote>
+		<blockquote>парламенттик шайлоолор@@ парламентские выборы;</blockquote>
+		<blockquote>коммунисттердин парламенттик группасы@@ парламентская группа коммунистов.</blockquote>
 	</card>
 	<card>
 		<k>парлат-</k>
 		<caus word="парла" index="2"/>
-		<blockquote>далай жашын парлаткан он заставил его проливать обильные слёзы.</blockquote>
+		<blockquote>далай жашын парлаткан@@ он заставил его проливать обильные слёзы.</blockquote>
 	</card>
 	<card>
 		<k>парма</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>бурав, пёрка, коловорот.</blockquote>
+		<trn>бурав, пёрка, коловорот.</trn>
 	</card>
 	<card>
 		<k>пармал</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>крыло (птичье);</blockquote>
+		<trn>крыло (птичье);</trn>
 		<ex>
 			<source>ат - жигиттин пармалы фольк.</source>
 			<target>конь - крылья молодца.</target>
@@ -1355,7 +1375,7 @@
 	<card>
 		<k>паровоз</k>
 		<trn>паровоз</trn>
-		<blockquote>паровоз куруу заводу паровозостроительный завод.</blockquote>
+		<blockquote>паровоз куруу заводу@@ паровозостроительный завод.</blockquote>
 	</card>
 	<card>
 		<k>пароход</k>
@@ -1372,20 +1392,21 @@
 	<card>
 		<k>парсы</k>
 		<origin>ир.</origin>
-		<blockquote>персидский; по-персидски;</blockquote>
-		<blockquote>парсыча по-персидски; на персидском языке.</blockquote>
+		<trn>персидский; по-персидски;</trn>
+		<blockquote>парсыча@@ по-персидски; на персидском языке.</blockquote>
 	</card>
 	<card>
 		<k>парт</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>перо (птичье);</blockquote>
-		<blockquote>тооктун п рти куриное перо.</blockquote>
+		<transcription>пəрт</transcription>
+		<trn>перо (птичье);</trn>
+		<blockquote>тооктун пəрти@@ куриное перо.</blockquote>
 	</card>
 	<card>
 		<k>парта</k>
 		<trn>парта</trn>
-		<blockquote>партага отур- сесть за парту.</blockquote>
+		<blockquote>партага отур-@@ сесть за парту.</blockquote>
 	</card>
 	<card>
 		<k>партактив</k>
@@ -1403,7 +1424,7 @@
 		<k>партаң</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>лист лопуха.</blockquote>
+		<trn>лист лопуха.</trn>
 	</card>
 	<card>
 		<k>партбилет</k>
@@ -1424,17 +1445,17 @@
 	<card>
 		<k>партизан</k>
 		<trn>партизан</trn>
-		<blockquote>партизан отряды партизанский отряд.</blockquote>
+		<blockquote>партизан отряды@@ партизанский отряд.</blockquote>
 	</card>
 	<card>
 		<k>партизандык</k>
-		<blockquote>партизанский;</blockquote>
-		<blockquote>партизандык кыймыл партизанское движение;</blockquote>
-		<blockquote>партизандык согуш партизанская война.</blockquote>
+		<trn>партизанский;</trn>
+		<blockquote>партизандык кыймыл@@ партизанское движение;</blockquote>
+		<blockquote>партизандык согуш@@ партизанская война.</blockquote>
 	</card>
 	<card>
 		<k>партизанчылык</k>
-		<blockquote>партизанщина.</blockquote>
+		<trn>партизанщина.</trn>
 	</card>
 	<card>
 		<k>партийс</k>
@@ -1446,36 +1467,36 @@
 		<meaning>
 			<meta>полит.</meta>
 			<trn>партия</trn>
-			<blockquote>Советтер Союзунун Коммунисттик Партиясы Коммунистическая партия Советского Союза;</blockquote>
-			<blockquote>Кыргызстан Коммунисттик Партиясы Коммунистическая партия Киргизии;</blockquote>
+			<blockquote>Советтер Союзунун Коммунисттик Партиясы@@ Коммунистическая партия Советского Союза;</blockquote>
+			<blockquote>Кыргызстан Коммунисттик Партиясы@@ Коммунистическая партия Киргизии;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>разг.</meta>
-			<blockquote>член партии, партийный;</blockquote>
-			<blockquote>партия бол- стать членом партии, вступить в партию;</blockquote>
-			<blockquote>мен партиядамын или разг. мен партиямын я партийный;</blockquote>
-			<blockquote>мен партия эмесмин или партияда жокмун я беспартийный;</blockquote>
-			<blockquote>сен партия болсон, мен кандидат если ты партийный, то я (ведь) кандидат;</blockquote>
+			<trn>член партии, партийный;</trn>
+			<blockquote>партия бол-@@ стать членом партии, вступить в партию;</blockquote>
+			<blockquote>мен партиядамын или разг. мен партиямын@@ я партийный;</blockquote>
+			<blockquote>мен партия эмесмин или партияда жокмун@@ я беспартийный;</blockquote>
+			<blockquote>сен партия болсон, мен кандидат@@ если ты партийный, то я (ведь) кандидат;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>(количество) партия;</blockquote>
-			<blockquote>товардын жаңы партиясы новая партия товара;</blockquote>
+			<trn>(количество) партия;</trn>
+			<blockquote>товардын жаңы партиясы@@ новая партия товара;</blockquote>
 		</meaning>
 		<meaning>
 			<blockquote>то же, что саам партия (в игре);</blockquote>
-			<blockquote>бир партия шахмат ойнодук мы сыграли партию в шахматы.</blockquote>
+			<blockquote>бир партия шахмат ойнодук@@ мы сыграли партию в шахматы.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>партиялык</k>
-		<blockquote>партийный;</blockquote>
-		<blockquote>партиялык уюм партийная организация;</blockquote>
-		<blockquote>партиялык органдар партийные органы;</blockquote>
-		<blockquote>партиялык конференция партийная конференция;</blockquote>
-		<blockquote>партиялык жетекчилик партийное руководство;</blockquote>
-		<blockquote>партиялык мектеп партийная школа;</blockquote>
-		<blockquote>партиялык турмуш партийная жизнь;</blockquote>
-		<blockquote>партиялык эмес жүрүш-туруш непартийное поведение.</blockquote>
+		<trn>партийный;</trn>
+		<blockquote>партиялык уюм@@ партийная организация;</blockquote>
+		<blockquote>партиялык органдар@@ партийные органы;</blockquote>
+		<blockquote>партиялык конференция@@ партийная конференция;</blockquote>
+		<blockquote>партиялык жетекчилик@@ партийное руководство;</blockquote>
+		<blockquote>партиялык мектеп@@ партийная школа;</blockquote>
+		<blockquote>партиялык турмуш@@ партийная жизнь;</blockquote>
+		<blockquote>партиялык эмес жүрүш-туруш@@ непартийное поведение.</blockquote>
 	</card>
 	<card>
 		<k>партиясыз</k>
