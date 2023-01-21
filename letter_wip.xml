@@ -3100,7 +3100,10 @@
 		<collocation>
 			<k>писəнт эмес</k>
 			<trn>легко, ничего не стоит;</trn>
-			<blockquote>жүз киле буга писəнт эмес@@ сто кило для него нипочём.</blockquote>
+			<ex>
+				<source>жүз киле буга писəнт эмес</source>
+				<target>сто кило для него нипочём.</target>
+			</ex>
 		</collocation>
 	</card>
 	<card>
@@ -3112,7 +3115,10 @@
 	<card>
 		<k>пистон</k>
 		<trn>пистон</trn>
-		<blockquote>пистондору от албай турган маузер@@ маузер, который даёт осечки.</blockquote>
+		<ex>
+			<source>пистондору от албай турган маузер</source>
+			<target>маузер, который даёт осечки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пит</k>
@@ -3143,7 +3149,10 @@
 		<meta>южн.</meta>
 		<transcription>пичə, пичи</transcription>
 		<trn>немножко, чуточку;</trn>
-		<blockquote>пичи-пичи пиязың барбы?@@ есть ли у тебя немножечко лука?</blockquote>
+		<ex>
+			<source>пичи-пичи пиязың барбы?</source>
+			<target>есть ли у тебя немножечко лука?</target>
+		</ex>
 	</card>
 	<card>
 		<k>пишек</k>
@@ -3173,7 +3182,10 @@
 		<meta>южн.</meta>
 		<transcription>пийәдә</transcription>
 		<trn>пеший; пешком;</trn>
-		<blockquote>пийәдә алыс, чарчайсыңар@@ пешком далеко, устанете;</blockquote>
+		<ex>
+			<source>пийәдә алыс, чарчайсыңар</source>
+			<target>пешком далеко, устанете;</target>
+		</ex>
 		<ex>
 			<source>жайыкышы пийәдә басканымды сурадың фольк.</source>
 			<target>ты спросил о том, как я летом и зимой ходил пешком.</target>
@@ -3188,9 +3200,18 @@
 		<k>пияз</k>
 		<origin>ир.</origin>
 		<trn>лук (растение); луковица;</trn>
-		<blockquote>эки баш пияз@@ две луковицы;</blockquote>
-		<blockquote>кылыч пияз тяньш.@@ род съедобного луковичного растения;</blockquote>
-		<blockquote>пияз аарчыгандай@@ как липку (букв. как очищенный лук);</blockquote>
+		<ex>
+			<source>эки баш пияз</source>
+			<target>две луковицы;</target>
+		</ex>
+		<ex>
+			<source>кылыч пияз тяньш.</source>
+			<target>род съедобного луковичного растения;</target>
+		</ex>
+		<ex>
+			<source>пияз аарчыгандай</source>
+			<target>как липку (букв. как очищенный лук);</target>
+		</ex>
 		<ex>
 			<source>таза аарчыган пияздай тукумун үзүп салайын фольк.</source>
 			<target>я изведу его род как догола очищенную луковицу.</target>
@@ -3203,8 +3224,11 @@
 	</card>
 	<card>
 		<k>пиязы</k>
-		<sameas word="пиязи" />
-		<blockquote>пиязы чепкен чекмень@@ из верблюжьей шерсти;</blockquote>
+		<sameas word="пиязи"/>
+		<ex>
+			<source>пиязы чепкен чекмень</source>
+			<target>из верблюжьей шерсти;</target>
+		</ex>
 		<ex>
 			<source>жакшы соккон пиязы, сары жаргак чалбардай стих.</source>
 			<target>хорошо сотканная пиязи подобна (по прочности) нагольным жёлтым шароварам (см. жаргак).</target>
@@ -3219,13 +3243,19 @@
 		<k>пиян</k>
 		<origin>р.</origin>
 		<trn>пьяный;</trn>
-		<blockquote>пиян базар ист.@@ воскресный базар (когда появлялось много пьяных).</blockquote>
+		<ex>
+			<source>пиян базар ист.</source>
+			<target>воскресный базар (когда появлялось много пьяных).</target>
+		</ex>
 	</card>
 	<card>
 		<k>пиянкеч</k>
 		<origin>р.-ир.</origin>
 		<trn>пьяница;</trn>
-		<blockquote>пиянкеч болуп кетти@@ он спился.</blockquote>
+		<ex>
+			<source>пиянкеч болуп кетти</source>
+			<target>он спился.</target>
+		</ex>
 	</card>
 	<card>
 		<k>плакат</k>
@@ -3235,12 +3265,30 @@
 		<k>план</k>
 		<meta>в разн. знач.</meta>
 		<trn>план</trn>
-		<blockquote>эгин даярдоо планы@@ план хлебозаготовок;</blockquote>
-		<blockquote>өндүрүш планы@@ производственный план;</blockquote>
-		<blockquote>окуу планы@@ учебный план;</blockquote>
-		<blockquote>пландан тышкары@@ сверх плана;</blockquote>
-		<blockquote>үйдүн планы@@ план дома;</blockquote>
-		<blockquote>алдыңкы планда@@ на переднем плане.</blockquote>
+		<ex>
+			<source>эгин даярдоо планы</source>
+			<target>план хлебозаготовок;</target>
+		</ex>
+		<ex>
+			<source>өндүрүш планы</source>
+			<target>производственный план;</target>
+		</ex>
+		<ex>
+			<source>окуу планы</source>
+			<target>учебный план;</target>
+		</ex>
+		<ex>
+			<source>пландан тышкары</source>
+			<target>сверх плана;</target>
+		</ex>
+		<ex>
+			<source>үйдүн планы</source>
+			<target>план дома;</target>
+		</ex>
+		<ex>
+			<source>алдыңкы планда</source>
+			<target>на переднем плане.</target>
+		</ex>
 	</card>
 	<card>
 		<k>планда-</k>
@@ -3250,20 +3298,38 @@
 		<k>пландоо</k>
 		<actionNoun word="планда"/>
 		<trn>планирование;</trn>
-		<blockquote>пландоо бөлүмү@@ плановый отдел.</blockquote>
+		<ex>
+			<source>пландоо бөлүмү</source>
+			<target>плановый отдел.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пландоочу</k>
 		<trn>плановик;</trn>
-		<blockquote>пландоочу орундар@@ планирующие органы.</blockquote>
+		<ex>
+			<source>пландоочу орундар</source>
+			<target>планирующие органы.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пландуу</k>
 		<trn>плановый;</trn>
-		<blockquote>пландуу түрдө@@ планово, по плану;</blockquote>
-		<blockquote>пландуу түрдө иште-@@ работать планово;</blockquote>
-		<blockquote>пландуу иретте@@ в плановом порядке;</blockquote>
-		<blockquote>көп пландуу чыгарма@@ многоплановое произведение.</blockquote>
+		<ex>
+			<source>пландуу түрдө</source>
+			<target>планово, по плану;</target>
+		</ex>
+		<ex>
+			<source>пландуу түрдө иште-</source>
+			<target>работать планово;</target>
+		</ex>
+		<ex>
+			<source>пландуу иретте</source>
+			<target>в плановом порядке;</target>
+		</ex>
+		<ex>
+			<source>көп пландуу чыгарма</source>
+			<target>многоплановое произведение.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пландуулук</k>
@@ -3292,7 +3358,10 @@
 	<card>
 		<k>планка</k>
 		<trn>планка</trn>
-		<blockquote>ордендердин планкалары@@ орденские планки.</blockquote>
+		<ex>
+			<source>ордендердин планкалары</source>
+			<target>орденские планки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>плантатор</k>
@@ -3301,7 +3370,10 @@
 	<card>
 		<k>плантация</k>
 		<trn>плантация</trn>
-		<blockquote>кызылча плантациялары@@ свекловичные плантации.</blockquote>
+		<ex>
+			<source>кызылча плантациялары</source>
+			<target>свекловичные плантации.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пластика</k>
@@ -3310,8 +3382,14 @@
 	<card>
 		<k>пластикалык</k>
 		<trn>пластический;</trn>
-		<blockquote>пластикалык кыймыл@@ пластические движения;</blockquote>
-		<blockquote>пластикалык масса@@ пластическая масса.</blockquote>
+		<ex>
+			<source>пластикалык кыймыл</source>
+			<target>пластические движения;</target>
+		</ex>
+		<ex>
+			<source>пластикалык масса</source>
+			<target>пластическая масса.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пластилин</k>
@@ -3341,12 +3419,18 @@
 	<card>
 		<k>пленардык</k>
 		<trn>пленарный;</trn>
-		<blockquote>пленардык заседание@@ пленарное заседание.</blockquote>
+		<ex>
+			<source>пленардык заседание</source>
+			<target>пленарное заседание.</target>
+		</ex>
 	</card>
 	<card>
 		<k>плёнка</k>
 		<trn>плёнка (фото, звукозапись);</trn>
-		<blockquote>ырды плёнкага алды@@ он записал песню на плёнку.</blockquote>
+		<ex>
+			<source>ырды плёнкага алды</source>
+			<target>он записал песню на плёнку.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пленум</k>
@@ -3409,8 +3493,14 @@
 		<k>подвалдык</k>
 		<meta>в разн. знач.</meta>
 		<trn>подвальный</trn>
-		<blockquote>подвалдык жай@@ подвальное помещенне;</blockquote>
-		<blockquote>подвалдык макала@@ подвальная статья.</blockquote>
+		<ex>
+			<source>подвалдык жай</source>
+			<target>подвальное помещенне;</target>
+		</ex>
+		<ex>
+			<source>подвалдык макала</source>
+			<target>подвальная статья.</target>
+		</ex>
 	</card>
 	<card>
 		<k>подкормка</k>
@@ -3421,7 +3511,10 @@
 		<k>подполдук</k>
 		<meta>полит.</meta>
 		<trn>подпольный;</trn>
-		<blockquote>партиянын подполдук уюмдары@@ подпольные партийные организации.</blockquote>
+		<ex>
+			<source>партиянын подполдук уюмдары</source>
+			<target>подпольные партийные организации.</target>
+		</ex>
 	</card>
 	<card>
 		<k>подполковник</k>
@@ -3431,7 +3524,10 @@
 		<k>подполье</k>
 		<meta>полит.</meta>
 		<trn>подполье</trn>
-		<blockquote>революциялык подполье@@ революционное подполье.</blockquote>
+		<ex>
+			<source>революциялык подполье</source>
+			<target>революционное подполье.</target>
+		</ex>
 	</card>
 	<card>
 		<k>подпольщик</k>
@@ -3441,20 +3537,32 @@
 		<k>подразделение</k>
 		<meta>воен.</meta>
 		<trn>подразделение</trn>
-		<blockquote>подразделениенин командири@@ командир подразделения.</blockquote>
+		<ex>
+			<source>подразделениенин командири</source>
+			<target>командир подразделения.</target>
+		</ex>
 	</card>
 	<card>
 		<k>подстанция</k>
 		<trn>подстанция</trn>
-		<blockquote>трансформатордук подстанция@@ трансформаторная подстанция.</blockquote>
+		<ex>
+			<source>трансформатордук подстанция</source>
+			<target>трансформаторная подстанция.</target>
+		</ex>
 	</card>
 	<card>
 		<k>подшипка</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<trn>подшивка (газет);</trn>
-		<blockquote>кыш айларынын подшипкасы@@ подшивка (газет) за зимние месяцы;</blockquote>
-		<blockquote>подшипканы барактап@@ перелистывая подшивку.</blockquote>
+		<ex>
+			<source>кыш айларынын подшипкасы</source>
+			<target>подшивка (газет) за зимние месяцы;</target>
+		</ex>
+		<ex>
+			<source>подшипканы барактап</source>
+			<target>перелистывая подшивку.</target>
+		</ex>
 	</card>
 	<card>
 		<k>подъёмный</k>
@@ -3470,7 +3578,10 @@
 	<card>
 		<k>поезддик</k>
 		<trn>поездной;</trn>
-		<blockquote>поезддик мастер@@ поездной мастер.</blockquote>
+		<ex>
+			<source>поезддик мастер</source>
+			<target>поездной мастер.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пожалиска</k>
@@ -3481,10 +3592,22 @@
 		<k>позиция</k>
 		<meta>в разн. знач.</meta>
 		<trn>позиция</trn>
-		<blockquote>согуштун алдынкы позициясы воен.@@ передовые позиции;</blockquote>
-		<blockquote>советтик делегациянын позициясы@@ позиция советской делегации;</blockquote>
-		<blockquote>командалык позициялар@@ командные позиции;</blockquote>
-		<blockquote>туура эмес позиция@@ неправильная позиция.</blockquote>
+		<ex>
+			<source>согуштун алдынкы позициясы воен.</source>
+			<target>передовые позиции;</target>
+		</ex>
+		<ex>
+			<source>советтик делегациянын позициясы</source>
+			<target>позиция советской делегации;</target>
+		</ex>
+		<ex>
+			<source>командалык позициялар</source>
+			<target>командные позиции;</target>
+		</ex>
+		<ex>
+			<source>туура эмес позиция</source>
+			<target>неправильная позиция.</target>
+		</ex>
 	</card>
 	<card>
 		<k>позывные</k>
