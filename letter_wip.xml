@@ -4716,16 +4716,16 @@
 	<card>
 		<k>пропаганда</k>
 		<trn>пропаганда</trn>
-		<blockquote>партиялык пропаганда партийная пропаганда.</blockquote>
+		<blockquote>партиялык пропаганда@@ партийная пропаганда.</blockquote>
 	</card>
 	<card>
 		<k>пропагандала-</k>
-		<blockquote>пропагандировать.</blockquote>
+		<trn>пропагандировать.</trn>
 	</card>
 	<card>
 		<k>пропагандалан-</k>
 		<refv word="пропагандала"/>
-		<blockquote>пропагандироваться.</blockquote>
+		<trn>пропагандироваться.</trn>
 	</card>
 	<card>
 		<k>пропагандалаш-</k>
@@ -4734,7 +4734,7 @@
 	<card>
 		<k>пропагандалоо</k>
 		<actionNoun word="пропагандала"/>
-		<blockquote>пропагандирование.</blockquote>
+		<trn>пропагандирование.</trn>
 	</card>
 	<card>
 		<k>пропагандист</k>
@@ -4742,22 +4742,22 @@
 	</card>
 	<card>
 		<k>пропагандисттик</k>
-		<blockquote>пропагандистский.</blockquote>
+		<trn>пропагандистский.</trn>
 	</card>
 	<card>
 		<k>пропорция</k>
 		<meta>мат.</meta>
 		<trn>пропорция</trn>
-		<blockquote>арифметикалык пропорция арифметическая пропорция;</blockquote>
-		<blockquote>геометриялык пропорция геометрическая пропорция.</blockquote>
+		<blockquote>арифметикалык пропорция@@ арифметическая пропорция;</blockquote>
+		<blockquote>геометриялык пропорция@@ геометрическая пропорция.</blockquote>
 	</card>
 	<card>
 		<k>пропорциялуу</k>
 		<meta>мат.</meta>
-		<blockquote>пропорциональный;</blockquote>
-		<blockquote>пропорциялуу бөлүнүү пропорциональное деление;</blockquote>
-		<blockquote>тескери пропорциялуу обратно пропорциональный;</blockquote>
-		<blockquote>туура пропор-циялуу прямо пропорциональный.</blockquote>
+		<trn>пропорциональный;</trn>
+		<blockquote>пропорциялуу бөлүнүү@@ пропорциональное деление;</blockquote>
+		<blockquote>тескери пропорциялуу@@ обратно пропорциональный;</blockquote>
+		<blockquote>туура пропор-циялуу@@ прямо пропорциональный.</blockquote>
 	</card>
 	<card>
 		<k>прораб</k>
@@ -4767,7 +4767,7 @@
 		<k>просто</k>
 		<meta>разг.</meta>
 		<trn>просто</trn>
-		<blockquote>просто абийиримди кетиришти они просто осрамили меня.</blockquote>
+		<blockquote>просто абийиримди кетиришти@@ они просто осрамили меня.</blockquote>
 	</card>
 	<card>
 		<k>протест</k>
@@ -4781,7 +4781,7 @@
 	<card>
 		<k>протокол</k>
 		<trn>протокол</trn>
-		<blockquote>протоколго жазуу или протоколго кийирүү протоколирование, занесение в протокол.</blockquote>
+		<blockquote>протоколго жазуу или протоколго кийирүү@@ протоколирование, занесение в протокол.</blockquote>
 	</card>
 	<card>
 		<k>профбилет</k>
@@ -4793,19 +4793,19 @@
 	</card>
 	<card>
 		<k>профессионалдык</k>
-		<blockquote>профессиональный;</blockquote>
-		<blockquote>профессионалдык союз профессиональный союз;</blockquote>
-		<blockquote>профессионалдык-техникалык мектеп профессионально-техническая школа.</blockquote>
+		<trn>профессиональный;</trn>
+		<blockquote>профессионалдык союз@@ профессиональный союз;</blockquote>
+		<blockquote>профессионалдык-техникалык мектеп@@ профессионально-техническая школа.</blockquote>
 	</card>
 	<card>
 		<k>профессия</k>
 		<trn>профессия</trn>
-		<blockquote>эркин профессия свободная профессия.</blockquote>
+		<blockquote>эркин профессия@@ свободная профессия.</blockquote>
 	</card>
 	<card>
 		<k>профессиялык</k>
-		<blockquote>профессиональный;</blockquote>
-		<blockquote>профессиялык-техникалык билим профессионально-технические знания.</blockquote>
+		<trn>профессиональный;</trn>
+		<blockquote>профессиялык-техникалык билим@@ профессионально-технические знания.</blockquote>
 	</card>
 	<card>
 		<k>профессор</k>
@@ -4813,8 +4813,8 @@
 	</card>
 	<card>
 		<k>профессордук</k>
-		<blockquote>профессорский;</blockquote>
-		<blockquote>профессордук наам профессорское звание.</blockquote>
+		<trn>профессорский;</trn>
+		<blockquote>профессордук наам@@ профессорское звание.</blockquote>
 	</card>
 	<card>
 		<k>профилактика</k>
@@ -4822,9 +4822,9 @@
 	</card>
 	<card>
 		<k>профилактикалык</k>
-		<blockquote>профилактический;</blockquote>
-		<blockquote>профилактикалык чаралар профилактические меры;</blockquote>
-		<blockquote>профилактикалык ремонт профилактический ремонт.</blockquote>
+		<trn>профилактический;</trn>
+		<blockquote>профилактикалык чаралар@@ профилактические меры;</blockquote>
+		<blockquote>профилактикалык ремонт@@ профилактический ремонт.</blockquote>
 	</card>
 	<card>
 		<k>профком</k>
@@ -4836,15 +4836,15 @@
 	</card>
 	<card>
 		<k>профсоюздук</k>
-		<blockquote>профсоюзный;</blockquote>
-		<blockquote>профсоюздук уюм профсоюзная организация;</blockquote>
-		<blockquote>профсоюздук жана коомчулук уюмдар профсоюзные и общественные организации.</blockquote>
+		<trn>профсоюзный;</trn>
+		<blockquote>профсоюздук уюм@@ профсоюзная организация;</blockquote>
+		<blockquote>профсоюздук жана коомчулук уюмдар@@ профсоюзные и общественные организации.</blockquote>
 	</card>
 	<card>
 		<k>проходка</k>
 		<meta>горн.</meta>
 		<trn>проходка</trn>
-		<blockquote>шахталардын проходкасы проходка шахт.</blockquote>
+		<blockquote>шахталардын проходкасы@@ проходка шахт.</blockquote>
 	</card>
 	<card>
 		<k>проходчик</k>
@@ -4854,19 +4854,19 @@
 	<card>
 		<k>процент</k>
 		<trn>процент</trn>
-		<blockquote>планды жүз процент орундатуу выполнение плана на сто процентов.</blockquote>
+		<blockquote>планды жүз процент орундатуу@@ выполнение плана на сто процентов.</blockquote>
 	</card>
 	<card>
 		<k>процесс</k>
 		<trn>процесс</trn>
-		<blockquote>соттоо процесси судебный процесс;</blockquote>
-		<blockquote>технологиялык процесс технологический процесс;</blockquote>
-		<blockquote>өндүрүш процесстери производственные процессы.</blockquote>
+		<blockquote>соттоо процесси@@ судебный процесс;</blockquote>
+		<blockquote>технологиялык процесс@@ технологический процесс;</blockquote>
+		<blockquote>өндүрүш процесстери@@ производственные процессы.</blockquote>
 	</card>
 	<card>
 		<k>пружина</k>
 		<trn>пружина</trn>
-		<blockquote>сааттын пружинасы часовая пружина.</blockquote>
+		<blockquote>сааттын пружинасы@@ часовая пружина.</blockquote>
 	</card>
 	<card>
 		<k>психиатр</k>
@@ -4882,17 +4882,23 @@
 	</card>
 	<card>
 		<k>психикалык</k>
-		<blockquote>психический:</blockquote>
-		<blockquote>психикалык оору</blockquote>
-		<blockquote>1) психическая болезнь;</blockquote>
-		<blockquote>2) психически больной.</blockquote>
+		<trn>психический</trn>
+		<collocation>
+			<k>психикалык оору</k>
+			<meaning>
+				<trn>психическая болезнь;</trn>
+			</meaning>
+			<meaning>
+				<trn>психически больной.</trn>
+			</meaning>
+		</collocation>
 	</card>
 	<card>
 		<k>психоз</k>
 		<meta>прям.</meta>
 		<meta>перен.</meta>
 		<trn>психоз</trn>
-		<blockquote>согуштук психоз военный психоз.</blockquote>
+		<blockquote>согуштук психоз@@ военный психоз.</blockquote>
 	</card>
 	<card>
 		<k>психолог</k>
@@ -4904,8 +4910,8 @@
 	</card>
 	<card>
 		<k>психологиялык</k>
-		<blockquote>психологический;</blockquote>
-		<blockquote>психологиялык роман лит. психологический роман.</blockquote>
+		<trn>психологический;</trn>
+		<blockquote>психологиялык роман лит.@@ психологический роман.</blockquote>
 	</card>
 	<card>
 		<k>публицист</k>
@@ -4922,30 +4928,33 @@
 	<card>
 		<k>пуй</k>
 		<pair word="уй"/>
-		<blockquote>уй-пуй всякие коровы, разные коровы, коровёнки;</blockquote>
-		<blockquote>уй-пуюң барбы? у тебя коровёнка какая-нибудь есть?</blockquote>
-		<blockquote>чочко-мочко, уй-пуй всякие там свиньи, коровы.</blockquote>
+		<collocation>
+			<k>уй-пуй</k>
+			<trn>всякие коровы, разные коровы, коровёнки;</trn>
+			<blockquote>уй-пуюң барбы?@@ у тебя коровёнка какая-нибудь есть?</blockquote>
+			<blockquote>чочко-мочко, уй-пуй@@ всякие там свиньи, коровы.</blockquote>			
+		</collocation>
 	</card>
 	<card>
 		<k>пукта</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>прочный, крепкий;</blockquote>
-			<blockquote>пукта жип крепкая нитка;</blockquote>
+			<trn>прочный, крепкий;</trn>
+			<blockquote>пукта жип@@ крепкая нитка;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>(о человеке) аккуратный;</blockquote>
+			<trn>(о человеке) аккуратный;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>(о человеке) расчётливый.</blockquote>
+			<trn>(о человеке) расчётливый.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>пул</k>
 		<origin>ир. с греч.</origin>
 		<meaning>
-			<blockquote>деньги;</blockquote>
+			<trn>деньги;</trn>
 			<ex>
 				<source>пулуң болсо, кулуңмун погов.</source>
 				<target>если у тебя есть деньги, я твой раб;</target>
@@ -4953,20 +4962,27 @@
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>полкопейки;</blockquote>
-			<blockquote>эки пул копейка;</blockquote>
-			<blockquote>сегиз пул четыре копейки;</blockquote>
-			<blockquote>чай пул уст.</blockquote>
-			<blockquote>1) чаевые;</blockquote>
-			<blockquote>2) маклерское вознаграждение;</blockquote>
-			<blockquote>зарылдын пулу күйөт раз нужно, так деньги не в счёт (если очень захотелось или очень нужно, то с расходами не считаются);</blockquote>
-			<blockquote>зарылдын пулу күйсүн кылышат они швыряют деньгами.</blockquote>
+			<trn>полкопейки;</trn>
+			<blockquote>эки пул@@ копейка;</blockquote>
+			<blockquote>сегиз пул@@ четыре копейки;</blockquote>
+			<collocation>
+				<k>чай пул</k>
+				<meta>уст.</meta>
+				<meaning>
+					<trn>чаевые;</trn>
+				</meaning>
+				<meaning>
+					<trn>маклерское вознаграждение;</trn>
+				</meaning>
+			</collocation>
+			<blockquote>зарылдын пулу күйөт@@ раз нужно, так деньги не в счёт (если очень захотелось или очень нужно, то с расходами не считаются);</blockquote>
+			<blockquote>зарылдын пулу күйсүн кылышат@@ они швыряют деньгами.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>пула</k>
 		<sameas word="пилла"/>
-		<blockquote>пула курту шелковичный червь.</blockquote>
+		<blockquote>пула курту@@ шелковичный червь.</blockquote>
 	</card>
 	<card>
 		<k>пулакат</k>
@@ -4980,8 +4996,8 @@
 	</card>
 	<card>
 		<k>пулда-</k>
-		<blockquote>продать (превратив в деньги);</blockquote>
-		<blockquote>там курдуруп 2 000 сомго пулдады выстроив дом, он продал (его) за 2000 рублей.</blockquote>
+		<trn>продать (превратив в деньги);</trn>
+		<blockquote>там курдуруп 2 000 сомго пулдады@@ выстроив дом, он продал (его) за 2000 рублей.</blockquote>
 	</card>
 	<card>
 		<k>пулемёт</k>
