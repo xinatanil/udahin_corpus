@@ -1,7 +1,7 @@
 import re
 import fileinput
 
-metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.'
+metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.'
 originWord = 'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.'
 metaOrOriginWord = metaWord + '|' + originWord
 referencePattern = '(\w+)-? ?([IVX]+)? ?(\d)?[\.|;]?'
@@ -15,12 +15,15 @@ with open ('letter_after.xml', 'r' ) as f:
 #        <trn>$1</trn>
     content_new = re.sub('<blockquote>в разн\. знач\. (\w+).?<\/blockquote>', r'<meta>в разн. знач.</meta>\n\t\t<trn>\1</trn>', content, flags = re.M)
 
+# <blockquote>пейилдүүлүк: кичи пейилдүүлүк## вежливость, учтивость;</blockquote>
+    content_new = re.sub('<blockquote>(.+: )?(.+)## (.+)</blockquote>', r'<collocation><k>\2</k>\n<blockquote>\3</blockquote></collocation>', content_new, flags = re.M)
+
 # <blockquote>р. ист. разг.</blockquote>
 # <blockquote>р. сев.</blockquote>
     content_new = re.sub(rf'<blockquote>({metaOrOriginWord}) ({metaOrOriginWord}) ?({metaOrOriginWord})?</blockquote>', r'<blockquote>\1</blockquote>\n<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n', content_new, flags = re.M)
 
 # <blockquote>2. южн. уст. сорт кустарной хлопчатобумажной материи с тканым узором;</blockquote>
-    content_new = re.sub(rf'<blockquote>(\d\.) ({metaOrOriginWord}) ?({metaOrOriginWord})? (.+)</blockquote>', r'<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n<blockquote>\4</blockquote>\n', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>(\d\.)? ?({metaOrOriginWord}) ?({metaOrOriginWord})? (.+)</blockquote>', r'<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n<blockquote>\4</blockquote>\n', content_new, flags = re.M)
     
     # remove numbers in meanings
     content_new = re.sub(rf'<blockquote>\d\. (.+)</blockquote>', r'<blockquote>\1</blockquote>', content_new, flags = re.M)
@@ -87,12 +90,14 @@ with open ('letter_after.xml', 'r' ) as f:
 # <blockquote>зордун түбү кор болот погов. конец насилия - позор (насилием доброго имени не заслужишь);</blockquote>
     content_new = re.sub('<blockquote>(.+) (фольк.|погов.|стих.) (.+.)</blockquote>', r'<ex><source>\1 \2</source><target>\3</target></ex>', content_new, flags = re.M)
 
+
 # <blockquote>(ср. зер V)</blockquote>
 # to
 # <meta>(ср. зер V)</meta>
-    content_new = re.sub('<blockquote>\(ср\. (.+)\)</blockquote>', r'<meta>(ср. \1)</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>\(ср\. (.+)\).?</blockquote>', r'<meta>(ср. \1)</meta>', content_new, flags = re.M)
     
     content_new = re.sub('<blockquote>\(или (.+)\)</blockquote>', r'<meta>(или \1)</meta>', content_new, flags = re.M)
+
 
 
     outputFile = open("letter_after.xml", "w")
