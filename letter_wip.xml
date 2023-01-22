@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>на</k>
-		<blockquote>чуйск.</blockquote>
-		<blockquote>то же, что не I</blockquote>
+		<meta>чуйск.</meta>
+		<sameas word="не" index="1"/>
 		<blockquote>что;</blockquote>
 		<blockquote>на кылат? что он будет делать?</blockquote>
 	</card>
 	<card>
 		<k>наабай</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. пекарь, выпекающий лепёшки;</blockquote>
-		<blockquote>наабай өлүп жатса, койнунан наны чыгып жатат погов. пекарь умирает, а из-за
-               пазухи у него лепёшки выходят;</blockquote>
-		<blockquote>2. уст. продавец лепёшек;</blockquote>
-		<blockquote>3. то же, что наабайкана.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>пекарь, выпекающий лепёшки;</blockquote>
+			<ex>
+				<source>наабай өлүп жатса, койнунан наны чыгып жатат погов.</source>
+				<target>пекарь умирает, а из-за пазухи у него лепёшки выходят;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>продавец лепёшек;</blockquote>
+		</meaning>
+		<meaning>
+			<sameas word="наабайкана"/>
+		</meaning>
 	</card>
 	<card>
 		<k>наабайкана</k>
-		<blockquote>ир. уст.</blockquote>
+		<origin>ир.</origin>
+		<meta>уст.</meta>
 		<blockquote>хлебопекарня, где выпекаются лепёшки.</blockquote>
 	</card>
 	<card>
@@ -27,12 +37,13 @@
 	</card>
 	<card>
 		<k>нааброт</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>наоборот (в знач. вводн. сл. и противит. частицы).</blockquote>
 	</card>
 	<card>
 		<k>наадан</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>невежда; неуч; глупый.</blockquote>
 	</card>
 	<card>
@@ -41,31 +52,36 @@
 	</card>
 	<card>
 		<k>нааданчылык</k>
-		<blockquote>то же, что наадандык.</blockquote>
+		<sameas word="наадандык"/>
 	</card>
 	<card>
 		<k>наал</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>подковка (на каблуке);</blockquote>
-		<blockquote>алтын наал, жез өкчө <p>фольк.</p> золотая подковка, медный каблук.</blockquote>
+		<ex>
+			<source>алтын наал, жез өкчө фольк.</source>
+			<target>золотая подковка, медный каблук.</target>
+		</ex>
 	</card>
 	<card>
 		<k>наала</k>
-		<blockquote>то же, что наалат;</blockquote>
-		<blockquote>элдин нааласына кал- вызвать осуждение или проклятие со стороны
-               народа.</blockquote>
+		<sameas word="наалат"/>
+		<blockquote>элдин нааласына кал- вызвать осуждение или проклятие со стороны народа.</blockquote>
 	</card>
 	<card>
 		<k>наалат</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. проклятие;</blockquote>
-		<blockquote>наалатын чачты он изрекал проклятия;</blockquote>
-		<blockquote>атаңа наалат! бран. будь проклят твой отец!;</blockquote>
-		<blockquote>2. проклятый;</blockquote>
-		<blockquote>бул наалатыңды эмнеге чакыра койдуң? зачем ты позвал (или пригласил) этого
-               проклятого?</blockquote>
-		<blockquote>наалат күн то же, что кокуй күн (см. кокуй 1);</blockquote>
-		<blockquote>токо наалат см. токонаалат.</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>проклятие;</blockquote>
+			<blockquote>наалатын чачты он изрекал проклятия;</blockquote>
+			<blockquote>атаңа наалат! бран. будь проклят твой отец!;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>проклятый;</blockquote>
+			<blockquote>бул наалатыңды эмнеге чакыра койдуң? зачем ты позвал (или пригласил) этого проклятого?</blockquote>
+			<blockquote>наалат күн то же, что кокуй күн (см. кокуй 1);</blockquote>
+			<blockquote>токо наалат см. токонаалат.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>наалаттуу</k>
@@ -74,69 +90,87 @@
 	</card>
 	<card>
 		<k>наалаты</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что наалат 2.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="наалат" subindex="2"/>
 	</card>
 	<card>
 		<k>наалы</k>
-		<blockquote>наалы I</blockquote>
-		<blockquote>(или наалы така или наалы өкчө)</blockquote>
-		<blockquote>то же, что наал;</blockquote>
-		<blockquote>наалысы алтын, жез өкчө <p>фольк.</p> подковки (у сапог) золотые, каблуки
-               медные.</blockquote>
-		<blockquote>наалы- II</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. стонать, рыдать; жаловаться (на судьбу, на своё положение);</blockquote>
-		<blockquote>кедейликке наалып, энеси көпкө чейин ыйлады жалуясь на бедность, мать его
-               долго плакала;</blockquote>
-		<blockquote>2. (о старых людях) быть не в полном уме;</blockquote>
-		<blockquote>наалыбай, тим отурчу! не пори чушь, сиди смирно!;</blockquote>
-		<blockquote>наалып калган турбайбы! ведь он же из ума выжил!</blockquote>
+		<homonym>
+			<meta>(или наалы така или наалы өкчө)</meta>
+			<sameas word="наал"/>
+			<ex>
+				<source>наалысы алтын, жез өкчө фольк.</source>
+				<target>подковки (у сапог) золотые, каблуки медные.</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>стонать, рыдать; жаловаться (на судьбу, на своё положение);</blockquote>
+				<blockquote>кедейликке наалып, энеси көпкө чейин ыйлады жалуясь на бедность, мать его долго плакала;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>(о старых людях) быть не в полном уме;</blockquote>
+				<blockquote>наалыбай, тим отурчу! не пори чушь, сиди смирно!;</blockquote>
+				<blockquote>наалып калган турбайбы! ведь он же из ума выжил!</blockquote>
+			</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>наалыт-</k>
-		<blockquote>понуд. от наалы- II</blockquote>
+		<caus word="наалы" index="2"/>
 		<blockquote>печалить, огорчать.</blockquote>
 	</card>
 	<card>
 		<k>наалыш</k>
-		<blockquote>наалыш I</blockquote>
-		<blockquote>и. д. от наалы- II.</blockquote>
-		<blockquote>наалыш- II</blockquote>
-		<blockquote>взаимн. от наалы- II.</blockquote>
+		<homonym>
+			<actionNoun word="наалы" index="2"/>
+		</homonym>
+		<homonym>
+			<recv word="наалы" index="2"/>
+		</homonym>
 	</card>
 	<card>
 		<k>наам</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. наименование, название;</blockquote>
-		<blockquote>2. звание;</blockquote>
-		<blockquote>согуштук наам воинское звание;</blockquote>
-		<blockquote>илимий наам учёное звание.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>наименование, название;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>звание;</blockquote>
+			<blockquote>согуштук наам воинское звание;</blockquote>
+			<blockquote>илимий наам учёное звание.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>наама</k>
-		<blockquote>наама I</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. <p>южн.</p> музыка;</blockquote>
-		<blockquote>2. (в эпосе) музыкальный инструмент;</blockquote>
-		<blockquote>дүйнөдөгу нааманы түрдүү-түрдүү чалган бар <p>фольк.</p> есть (там) такие, которые
-               играют на разные лады на инструментах.</blockquote>
-		<blockquote>наама II</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>(в эпосе) священная книга.</blockquote>
-		<blockquote>наама III</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>неграмотный, тёмный;</blockquote>
-		<blockquote>биз наама адамбыз, иши кылып, ыкылас кылсак болду мы люди тёмные, (в
-               вопросах религии) не разбираемся, есть добрые намерения - и довольно.</blockquote>
+		<homonym>
+			<origin>ар.</origin>
+			<meaning>
+				<meta>южн.</meta>
+				<blockquote>музыка;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>(в эпосе) музыкальный инструмент;</blockquote>
+				<ex>
+					<source>дүйнөдөгу нааманы түрдүү-түрдүү чалган бар фольк.</source>
+					<target>есть (там) такие, которые играют на разные лады на инструментах.</target>
+				</ex>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>(в эпосе) священная книга.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>неграмотный, тёмный;</blockquote>
+			<blockquote>биз наама адамбыз, иши кылып, ыкылас кылсак болду мы люди тёмные, (в вопросах религии) не разбираемся, есть добрые намерения - и довольно.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>наамачы</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>музыкант.</blockquote>
 	</card>
 	<card>
@@ -146,29 +180,33 @@
 	</card>
 	<card>
 		<k>наапа</k>
-		<blockquote>то же, что мапы.</blockquote>
+		<sameas word="мапы"/>
 	</card>
 	<card>
 		<k>наар</k>
-		<blockquote>наар I</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>пища;</blockquote>
-		<blockquote>наар ал- или наар тат- принимать пищу; закусывать;</blockquote>
-		<blockquote>оозуна наар ала элек он пока ещё ничего не ел, у него во рту маковой росинки
-               не было;</blockquote>
-		<blockquote>биздикине келип, наар татып кеткиле приходите к нам откушать;</blockquote>
-		<blockquote>үч күн наар татканым жок я три дня ничего не ел;</blockquote>
-		<blockquote>оозуна наар тамыз- капать (умирающему) в рот воду.</blockquote>
-		<blockquote>наар II</blockquote>
-		<blockquote>1. тиснение по коже; тиснёный орнамент;</blockquote>
-		<blockquote>наар түшүр- наносить тиснёный узор;</blockquote>
-		<blockquote>2. (точнее колдун наары) мелкие линии на внутренней стороне пальцев и
-               ладоней;</blockquote>
-		<blockquote>беттин наары цвет лица; красота лица.</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>пища;</blockquote>
+			<blockquote>наар ал- или наар тат- принимать пищу; закусывать;</blockquote>
+			<blockquote>оозуна наар ала элек он пока ещё ничего не ел, у него во рту маковой росинки не было;</blockquote>
+			<blockquote>биздикине келип, наар татып кеткиле приходите к нам откушать;</blockquote>
+			<blockquote>үч күн наар татканым жок я три дня ничего не ел;</blockquote>
+			<blockquote>оозуна наар тамыз- капать (умирающему) в рот воду.</blockquote>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>тиснение по коже; тиснёный орнамент;</blockquote>
+				<blockquote>наар түшүр- наносить тиснёный узор;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>(точнее колдун наары) мелкие линии на внутренней стороне пальцев и ладоней;</blockquote>
+				<blockquote>беттин наары цвет лица; красота лица.</blockquote>
+			</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>нааразы</k>
-		<blockquote>ир.-ар.</blockquote>
+		<origin>ир.-ар.</origin>
 		<blockquote>недовольный;</blockquote>
 		<blockquote>нааразы бол- остаться недовольным;</blockquote>
 		<blockquote>нааразы кыл- вызывать недовольство.</blockquote>
@@ -180,8 +218,7 @@
 	<card>
 		<k>нааразылык</k>
 		<blockquote>недовольство; протест;</blockquote>
-		<blockquote>нааразылык билдир- заявить (своё) недовольство; выразить
-               протест.</blockquote>
+		<blockquote>нааразылык билдир- заявить (своё) недовольство; выразить протест.</blockquote>
 	</card>
 	<card>
 		<k>наардуу</k>
@@ -189,123 +226,119 @@
 	</card>
 	<card>
 		<k>набак</k>
-		<blockquote>ист.</blockquote>
-		<blockquote>то же, что абак;</blockquote>
-		<blockquote>набакка жаткыр- или набакка кама- или набакка сал- посадить в
-               тюрьму.</blockquote>
+		<meta>ист.</meta>
+		<sameas word="абак"/>
+		<blockquote>набакка жаткыр- или набакка кама- или набакка сал- посадить в тюрьму.</blockquote>
 	</card>
 	<card>
 		<k>набакты</k>
-		<blockquote>то же, что абакты;</blockquote>
-		<blockquote>набактыга каматтыр- или набактыга салдыр- приказать посадить в
-               тюрьму;</blockquote>
-		<blockquote>жалгыз уулумду миң башылар набакка салдырган тысяцкие сделали так, что моего
-               единственного сына посадили в тюрьму;</blockquote>
+		<sameas word="абакты"/>
+		<blockquote>набактыга каматтыр- или набактыга салдыр- приказать посадить в тюрьму;</blockquote>
+		<blockquote>жалгыз уулумду миң башылар набакка салдырган тысяцкие сделали так, что моего единственного сына посадили в тюрьму;</blockquote>
 		<blockquote>набакты кес- приговорить к тюремному заключению.</blockquote>
 	</card>
 	<card>
 		<k>набат</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>леденцы (сахар в кристаллах).</blockquote>
 	</card>
 	<card>
 		<k>набыт</k>
-		<blockquote>(или навыт)</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. уничтоженный, погибший;</blockquote>
-		<blockquote>навыт кыл- уничтожить, погубить;</blockquote>
-		<blockquote>навыт бол- погибнуть;</blockquote>
-		<blockquote>2. ущерб, вред.</blockquote>
+		<meta>(или навыт)</meta>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>уничтоженный, погибший;</blockquote>
+			<blockquote>навыт кыл- уничтожить, погубить;</blockquote>
+			<blockquote>навыт бол- погибнуть;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>ущерб, вред.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>набытта-</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>уничтожать, губить;</blockquote>
 		<blockquote>жоону набытта- уничтожить врага.</blockquote>
 	</card>
 	<card>
 		<k>навада</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что непада.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="непада"/>
 	</card>
 	<card>
 		<k>навай</k>
-		<blockquote>то же, что наабай.</blockquote>
+		<sameas word="наабай"/>
 	</card>
 	<card>
 		<k>навайын</k>
-		<blockquote>ир. <p>южн.</p> этн.</blockquote>
-		<blockquote>обратный привод в дом мужа жены, которая уходила от него к своим
-               родителям.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meta>этн.</meta>
+		<blockquote>обратный привод в дом мужа жены, которая уходила от него к своим родителям.</blockquote>
 	</card>
 	<card>
 		<k>нават</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что набат;</blockquote>
-		<blockquote>2. перен. что-либо приятное, доставляющее удовольствие.</blockquote>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="набат"/>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>что-либо приятное, доставляющее удовольствие.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>наваттуу</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>(о человеке) обаятельный и аккуратно одетый.</blockquote>
 	</card>
 	<card>
 		<k>навбат</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что нөөмөт.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="нөөмөт"/>
 	</card>
 	<card>
 		<k>навыт</k>
-		<blockquote>см. набыт.</blockquote>
+		<look word="набыт"/>
 	</card>
 	<card>
 		<k>нагайбыл</k>
 		<blockquote>нагайбыл: (или негайбыл)</blockquote>
-		<blockquote>нагайбыл иш сомнительное, неясное, неопределённое дело или
-               положение.</blockquote>
+		<blockquote>нагайбыл иш сомнительное, неясное, неопределённое дело или положение.</blockquote>
 	</card>
 	<card>
 		<k>наган</k>
-		<blockquote>наган.</blockquote>
+		<trn>наган</trn>
 	</card>
 	<card>
 		<k>нагара</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>барабан, литавры.</blockquote>
 	</card>
 	<card>
 		<k>нагенде</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>кое-где, местами; иногда, временами.</blockquote>
 	</card>
 	<card>
 		<k>нагирет</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>награда.</blockquote>
 	</card>
 	<card>
 		<k>нагруске</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>нагрузка (работа, поручение).</blockquote>
 	</card>
 	<card>
 		<k>нагчагер</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что лакшигер.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<sameas word="лакшигер"/>
 	</card>
 	<card>
 		<k>нагыз</k>
@@ -314,66 +347,76 @@
 	</card>
 	<card>
 		<k>надзиратель</k>
-		<blockquote>надзиратель.</blockquote>
+		<trn>надзиратель</trn>
 	</card>
 	<card>
 		<k>надзор</k>
-		<blockquote>надзор;</blockquote>
+		<trn>надзор</trn>
 		<blockquote>прокурордук надзор прокурорский надзор.</blockquote>
 	</card>
 	<card>
 		<k>надстройка</k>
-		<blockquote>филос.</blockquote>
-		<blockquote>надстройка.</blockquote>
+		<meta>филос.</meta>
+		<trn>надстройка</trn>
 	</card>
 	<card>
 		<k>наесеп</k>
-		<blockquote>то же, что найынсап.</blockquote>
+		<sameas word="найынсап"/>
 	</card>
 	<card>
 		<k>наети</k>
-		<blockquote>ар. <p>южн.</p>
-		</blockquote>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
 		<blockquote>очень;</blockquote>
 		<blockquote>н й ти жаман киши очень дурной человек.</blockquote>
 	</card>
 	<card>
 		<k>нажир</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>март.</blockquote>
 	</card>
 	<card>
 		<k>наз</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. жеманность, кокетство; капризы:</blockquote>
-		<blockquote>кызы бардын назы бар погов. кто имеет дочку (невесту), тот имеет и
-               капризы;</blockquote>
-		<blockquote>2. <p>южн.</p> обида, недовольство.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>жеманность, кокетство; капризы:</blockquote>
+			<ex>
+				<source>кызы бардын назы бар погов.</source>
+				<target>кто имеет дочку (невесту), тот имеет и капризы;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>обида, недовольство.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>назар</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>взгляд; помыслы;</blockquote>
-		<blockquote>назар сал- обратить внимание, отнестись со вниманием, с участием; проявить
-               заботу; присматривать;</blockquote>
-		<blockquote>кумайык багып сен берсең, назарым анык салармын <p>фольк.</p> если ты воспитаешь
-               кумайык'а (см.), я по-настоящему проявлю заботу (о тебе);</blockquote>
-		<blockquote>назарынан сыртта болду он не обратил внимания, оставил без
-               внимания;</blockquote>
-		<blockquote>назарымда <p>южн.</p> на мой взгляд, по моему мнению; я полагаю;</blockquote>
-		<blockquote>кымыздуу үй - назар, кыздуу үй - базар погов. дом, где есть кумыс, на
-               примете (ему уделяют внимание), дом, где есть девушка, шумный;</blockquote>
+		<blockquote>назар сал- обратить внимание, отнестись со вниманием, с участием; проявить заботу; присматривать;</blockquote>
+		<ex>
+			<source>кумайык багып сен берсең, назарым анык салармын фольк.</source>
+			<target>если ты воспитаешь кумайык'а (см.), я по-настоящему проявлю заботу (о тебе);</target>
+		</ex>
+		<blockquote>назарынан сыртта болду он не обратил внимания, оставил без внимания;</blockquote>
+		<blockquote>назарымда южн. на мой взгляд, по моему мнению; я полагаю;</blockquote>
+		<ex>
+			<source>кымыздуу үй - назар, кыздуу үй - базар погов.</source>
+			<target>дом, где есть кумыс, на примете (ему уделяют внимание), дом, где есть девушка, шумный;</target>
+		</ex>
 		<blockquote>назары ач жадный, завистливый;</blockquote>
-		<blockquote>байдын уулу назары ач, ыймандуу киши андан кач погов. байский сын жаден,
-               честный человек, беги от него;</blockquote>
+		<ex>
+			<source>байдын уулу назары ач, ыймандуу киши андан кач погов.</source>
+			<target>байский сын жаден, честный человек, беги от него;</target>
+		</ex>
 		<blockquote>назары сынды он обиделся;</blockquote>
 		<blockquote>назары сынып кайра тартты обидевшись, он повернул обратно;</blockquote>
-		<blockquote>назары сынып, күйбөгөн жери күл болду он обиделся и из себя
-               выходит;</blockquote>
-		<blockquote>сунган ашым ичпесең, сынып калат назарым <p>фольк.</p> если ты не вкусишь пищи,
-               которую я предлагаю, мне будет обидно;</blockquote>
+		<blockquote>назары сынып, күйбөгөн жери күл болду он обиделся и из себя выходит;</blockquote>
+		<ex>
+			<source>сунган ашым ичпесең, сынып калат назарым фольк.</source>
+			<target>если ты не вкусишь пищи, которую я предлагаю, мне будет обидно;</target>
+		</ex>
 		<blockquote>назарымды сындырба не обижай меня, не причиняй мне огорчения;</blockquote>
 		<blockquote>абышканын назарын сындырган он обидел старика;</blockquote>
 		<blockquote>назарга алып принимая во внимание;</blockquote>
@@ -381,10 +424,10 @@
 	</card>
 	<card>
 		<k>назат</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>назад;</blockquote>
-		<blockquote>"жумуш" дегенде назат кетип жүргөндөр да бар есть и такие, которые, когда
-               говорят "работа", пятятся назад.</blockquote>
+		<blockquote>"жумуш" дегенде назат кетип жүргөндөр да бар есть и такие, которые, когда говорят "работа", пятятся назад.</blockquote>
 	</card>
 	<card>
 		<k>наздан-</k>
@@ -392,7 +435,7 @@
 	</card>
 	<card>
 		<k>наздант-</k>
-		<blockquote>понуд. от наздан-.</blockquote>
+		<caus word="наздан"/>
 	</card>
 	<card>
 		<k>наздык</k>
@@ -400,78 +443,113 @@
 	</card>
 	<card>
 		<k>назик</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. тонкий, нежный, изящный; утончённый;</blockquote>
-		<blockquote>колдорунун кыймылы эң назик движения рук её изящны;</blockquote>
-		<blockquote>назик сөз нежное, ласковое слово;</blockquote>
-		<blockquote>2. изнеженный;</blockquote>
-		<blockquote>3. (о деле, вопросе) щекотливый;</blockquote>
-		<blockquote>4. <p>южн.</p> бисер.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>тонкий, нежный, изящный; утончённый;</blockquote>
+			<blockquote>колдорунун кыймылы эң назик движения рук её изящны;</blockquote>
+			<blockquote>назик сөз нежное, ласковое слово;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>изнеженный;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>(о деле, вопросе) щекотливый;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>бисер.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>назиктик</k>
 		<blockquote>нежность, изящество;</blockquote>
-		<blockquote>башка кыздарга бүткөн назиктик, таттуу кыял менде да бар нежность и сладкие
-               мечты, свойственные другим девушкам, есть и у меня.</blockquote>
+		<blockquote>башка кыздарга бүткөн назиктик, таттуу кыял менде да бар нежность и сладкие мечты, свойственные другим девушкам, есть и у меня.</blockquote>
 	</card>
 	<card>
 		<k>назир</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. рел. обет, жертва или угощение с богоугодной целью (по
-               умершему);</blockquote>
-		<blockquote>назир тайы- приносить (обещанную) жертву или устраивать угощение с
-               богоугодной целью;</blockquote>
-		<blockquote>2. <p>южн.</p> косичка, оставляемая на голове мальчика при бритье.</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<meta>рел.</meta>
+			<blockquote>обет, жертва или угощение с богоугодной целью (по умершему);</blockquote>
+			<blockquote>назир тайы- приносить (обещанную) жертву или устраивать угощение с богоугодной целью;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>косичка, оставляемая на голове мальчика при бритье.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>назначыт</k>
-		<blockquote>р. разг.:</blockquote>
+		<origin>р.</origin>
+		<blockquote>разг.:</blockquote>
 		<blockquote>назначыт эт- назначить.</blockquote>
 	</card>
 	<card>
 		<k>назр</k>
-		<blockquote>(или назыр)</blockquote>
-		<blockquote>то же, что назир.</blockquote>
+		<meta>(или назыр)</meta>
+		<sameas word="назир"/>
 	</card>
 	<card>
 		<k>най</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. флейта;</blockquote>
-		<blockquote>жез най медная флейта;</blockquote>
-		<blockquote>2. чубук курительной трубки;</blockquote>
-		<blockquote>3. <p>южн.</p> всякий предмет в виде трубки;</blockquote>
-		<blockquote>4. <p>южн.</p> ствол ружья;</blockquote>
-		<blockquote>кош най (най, а не н й под влиянием первого слова) или кош най мылтык
-               двухствольное ружьё;</blockquote>
-		<blockquote>5. <p>южн.</p> труба железной печи;</blockquote>
-		<blockquote>найдай поджарый и стройный (напр. конь, подготовленный к
-               скачкам);</blockquote>
-		<blockquote>най тамак тонкая и изящная шея (красавицы).</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>флейта;</blockquote>
+			<blockquote>жез най медная флейта;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>чубук курительной трубки;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>всякий предмет в виде трубки;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>ствол ружья;</blockquote>
+			<blockquote>кош най (най, а не н й под влиянием первого слова) или кош най мылтык двухствольное ружьё;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>труба железной печи;</blockquote>
+			<blockquote>найдай поджарый и стройный (напр. конь, подготовленный к скачкам);</blockquote>
+			<blockquote>най тамак тонкая и изящная шея (красавицы).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>найват</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>любимая, возлюбленная.</blockquote>
 	</card>
 	<card>
 		<k>найза</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. копьё, пика;</blockquote>
-		<blockquote>найза сал- наносить удар копьём;</blockquote>
-		<blockquote>найза салар ыктуусу <p>фольк.</p> лучшие из копейщиков;</blockquote>
-		<blockquote>найза же- получить удар копьём, быть поражённым копьём;</blockquote>
-		<blockquote>атадан калган санаты: найза сынса аш-тойдо, карматып колго жаңыртат стих.
-               обычай, оставшийся от предков: когда ломается копьё на тризне, пире, дают в руки
-               новое;</blockquote>
-		<blockquote>найзанын учуна сал- предать мечу (букв. копью);</blockquote>
-		<blockquote>найзанын учу, кылычтын мизи менен жүрүп, көрүшпөдүк мы вели между собой
-               кровавую распрю (букв. жили на конце копья и на острие меча), а потому не
-               встречались;</blockquote>
-		<blockquote>2. иглы (ежа, дикобраза); кирпинин найзасы иглы ежа;</blockquote>
-		<blockquote>3. карт. король;</blockquote>
-		<blockquote>4. перен. <p>южн.</p> (о человеке) двуличный.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>копьё, пика;</blockquote>
+			<blockquote>найза сал- наносить удар копьём;</blockquote>
+			<ex>
+				<source>найза салар ыктуусу фольк.</source>
+				<target>лучшие из копейщиков;</target>
+			</ex>
+			<blockquote>найза же- получить удар копьём, быть поражённым копьём;</blockquote>
+			<ex>
+				<source>атадан калган санаты: найза сынса аш-тойдо, карматып колго жаңыртат стих.</source>
+				<target>обычай, оставшийся от предков: когда ломается копьё на тризне, пире, дают в руки новое;</target>
+			</ex>
+			<blockquote>найзанын учуна сал- предать мечу (букв. копью);</blockquote>
+			<blockquote>найзанын учу, кылычтын мизи менен жүрүп, көрүшпөдүк мы вели между собой кровавую распрю (букв. жили на конце копья и на острие меча), а потому не встречались;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>иглы (ежа, дикобраза); кирпинин найзасы иглы ежа;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>карт.</meta>
+			<blockquote>король;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<meta>южн.</meta>
+			<blockquote>(о человеке) двуличный.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>найзагай</k>
@@ -479,7 +557,7 @@
 	</card>
 	<card>
 		<k>найзакер</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>копейщик (воин, вооружённый копьём).</blockquote>
 	</card>
 	<card>
@@ -488,11 +566,13 @@
 	</card>
 	<card>
 		<k>найзалаш</k>
-		<blockquote>найзалаш I</blockquote>
-		<blockquote>и. д. от найзала-.</blockquote>
-		<blockquote>найзалаш- II</blockquote>
-		<blockquote>взаимн. от найзала-</blockquote>
-		<blockquote>сражаться на копьях, на пиках.</blockquote>
+		<homonym>
+			<actionNoun word="найзала"/>
+		</homonym>
+		<homonym>
+			<recv word="найзала"/>
+			<blockquote>сражаться на копьях, на пиках.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>найзачан</k>
@@ -500,7 +580,7 @@
 	</card>
 	<card>
 		<k>найзачы</k>
-		<blockquote>то же, что найзакер.</blockquote>
+		<sameas word="найзакер"/>
 	</card>
 	<card>
 		<k>найлуу</k>
@@ -510,25 +590,33 @@
 	</card>
 	<card>
 		<k>найранбоз</k>
-		<blockquote>ир. <p>южн.</p> прям., перен.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
 		<blockquote>фокусник.</blockquote>
 	</card>
 	<card>
 		<k>найүмүт</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>без надежды, потерявший надежду; обездоленный;</blockquote>
 		<blockquote>найүмүт адам калбасын чтоб обездоленных людей не осталось.</blockquote>
 	</card>
 	<card>
 		<k>найча</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. трубочка;</blockquote>
-		<blockquote>2. <p>южн.</p> один из видов чач учтук (см. учтук);</blockquote>
-		<blockquote>найча бел (о женщине) с тонким станом, изящная.</blockquote>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>трубочка;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>один из видов чач учтук (см. учтук);</blockquote>
+			<blockquote>найча бел (о женщине) с тонким станом, изящная.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>найынсап</k>
-		<blockquote>ир.-ар.</blockquote>
+		<origin>ир.-ар.</origin>
 		<blockquote>нечестный, негодяй.</blockquote>
 	</card>
 	<card>
@@ -537,112 +625,129 @@
 	</card>
 	<card>
 		<k>найып</k>
-		<blockquote>ар. ист.</blockquote>
+		<origin>ар.</origin>
+		<meta>ист.</meta>
 		<blockquote>помощник уездного начальника.</blockquote>
 	</card>
 	<card>
 		<k>найэсеп</k>
-		<blockquote>то же, что найынсап.</blockquote>
+		<sameas word="найынсап"/>
 	</card>
 	<card>
 		<k>нак</k>
-		<blockquote>нак I</blockquote>
-		<blockquote>(накта)</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>наличный; наличность;</blockquote>
-		<blockquote>накта акча или просто накта наличные деньги;</blockquote>
-		<blockquote>нактай наличными, чистоганом.</blockquote>
-		<blockquote>нак II</blockquote>
-		<blockquote>как раз, точь-в-точь;</blockquote>
-		<blockquote>нак ушул мезгилде как раз в это время;</blockquote>
-		<blockquote>нак ушул жерде как раз в этом месте, именно в этом месте;</blockquote>
-		<blockquote>нак бүгүн как раз сегодня.</blockquote>
+		<homonym>
+			<blockquote>(накта)</blockquote>
+			<origin>ар.</origin>
+			<blockquote>наличный; наличность;</blockquote>
+			<blockquote>накта акча или просто накта наличные деньги;</blockquote>
+			<blockquote>нактай наличными, чистоганом.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>как раз, точь-в-точь;</blockquote>
+			<blockquote>нак ушул мезгилде как раз в это время;</blockquote>
+			<blockquote>нак ушул жерде как раз в этом месте, именно в этом месте;</blockquote>
+			<blockquote>нак бүгүн как раз сегодня.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>наказ</k>
-		<blockquote>полит.</blockquote>
-		<blockquote>наказ;</blockquote>
+		<meta>полит.</meta>
+		<trn>наказ</trn>
 		<blockquote>шайлоочулардын наказдары наказы избирателей.</blockquote>
 	</card>
 	<card>
 		<k>накай</k>
-		<blockquote>тяньш.</blockquote>
-		<blockquote>то же, что нак II;</blockquote>
+		<meta>тяньш.</meta>
+		<sameas word="нак" index="2"/>
 		<blockquote>накай чын чистая правда.</blockquote>
 	</card>
 	<card>
 		<k>накер</k>
 		<blockquote>вид дорогого стремени (теперь не встречается);</blockquote>
-		<blockquote>накери теке мүйүздөн, сыртын жапкан күмүштөн стих. стремена у него из рога
-               дикого козла, снаружи покрыты серебром.</blockquote>
+		<ex>
+			<source>накери теке мүйүздөн, сыртын жапкан күмүштөн стих.</source>
+			<target>стремена у него из рога дикого козла, снаружи покрыты серебром.</target>
+		</ex>
 	</card>
 	<card>
 		<k>накери</k>
-		<blockquote>(в эпосе) особые сапоги с загнутыми кверху носками (в них обычно обуты
-               богатыри).</blockquote>
+		<blockquote>(в эпосе) особые сапоги с загнутыми кверху носками (в них обычно обуты богатыри).</blockquote>
 	</card>
 	<card>
 		<k>накерле-</k>
-		<blockquote>то же, что нөкөрлө-;</blockquote>
-		<blockquote>накерлеп сайган желегим <p>фольк.</p>
+		<sameas word="нөкөрлө"/>
+		<blockquote>накерлеп сайган желегим фольк.
 		</blockquote>
 		<blockquote>1) мой украшенный вышивным узором флаг;</blockquote>
 		<blockquote>2) перен. ласк. моё милое дитя.</blockquote>
 	</card>
 	<card>
 		<k>накес</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>(о человеке) нечестный, низкий.</blockquote>
 	</card>
 	<card>
 		<k>накта</k>
-		<blockquote>накта I</blockquote>
-		<blockquote>см. нак I.</blockquote>
-		<blockquote>накта II</blockquote>
-		<blockquote>то же, что нак II;</blockquote>
-		<blockquote>накта бышкан совсем поспело или сварилось или зажарилось или
-               испеклось.</blockquote>
+		<homonym>
+			<look word="нак" index="1"/>
+		</homonym>
+		<homonym>
+			<sameas word="нак" index="2"/>
+			<blockquote>накта бышкан совсем поспело или сварилось или зажарилось или испеклось.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нактай</k>
-		<blockquote>см. нак I.</blockquote>
+		<look word="нак" index="1"/>
 	</card>
 	<card>
 		<k>накүста</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что накүштө;</blockquote>
-		<blockquote>2. то же, что накес.</blockquote>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="накүштө"/>
+		</meaning>
+		<meaning>
+			<sameas word="накес"/>
+		</meaning>
 	</card>
 	<card>
 		<k>накүштө</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>ростовщик;</blockquote>
-		<blockquote>накүштөдөн карыздар болбо, ооган менен дос болбо погов. не имей дела с
-               ростовщиком, не дружи со слугою вельможи.</blockquote>
+		<ex>
+			<source>накүштөдөн карыздар болбо, ооган менен дос болбо погов.</source>
+			<target>не имей дела с ростовщиком, не дружи со слугою вельможи.</target>
+		</ex>
 	</card>
 	<card>
 		<k>накчегер</k>
-		<blockquote>то же, что лакшигер.</blockquote>
+		<sameas word="лакшигер"/>
 	</card>
 	<card>
 		<k>накшы</k>
-		<blockquote>ар. <p>южн.</p>
-		</blockquote>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
 		<blockquote>рисунок, орнамент (гл. обр. шитый).</blockquote>
 	</card>
 	<card>
 		<k>накыл</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. поучительное предание;</blockquote>
-		<blockquote>накыл сөз или накыл кеп мудрое слово, мудрое поучение (идущее от прежних
-               поколений);</blockquote>
-		<blockquote>накыл кылып, кеп айткан <p>фольк.</p> говорил он мудрые поучения;</blockquote>
-		<blockquote>2. (о человеке) мудрый;</blockquote>
-		<blockquote>ар бир сөзү белгилүү накыл Током келгенби? <p>фольк.</p> прибыл ли мой мудрый Токо,
-               каждое слово которого прославлено (букв. известно) ?</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>поучительное предание;</blockquote>
+			<blockquote>накыл сөз или накыл кеп мудрое слово, мудрое поучение (идущее от прежних поколений);</blockquote>
+			<ex>
+				<source>накыл кылып, кеп айткан фольк.</source>
+				<target>говорил он мудрые поучения;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<blockquote>(о человеке) мудрый;</blockquote>
+			<ex>
+				<source>ар бир сөзү белгилүү накыл Током келгенби? фольк.</source>
+				<target>прибыл ли мой мудрый Токо, каждое слово которого прославлено (букв. известно) ?</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>накыс</k>
@@ -650,20 +755,23 @@
 	</card>
 	<card>
 		<k>накыш</k>
-		<blockquote>(ср. акыш I, акуш):</blockquote>
+		<meta>(ср. акыш I, акуш)</meta>
 		<blockquote>кыз накыш девичий угодник;</blockquote>
-		<blockquote>он экиде Күлчоро - катын жандуу, кыз накыш - калабалуу бала эле <p>фольк.</p> в
-               двенадцать (лет) Кюльчоро-бабник, девичий угодник, бедовым был
-               пареньком.</blockquote>
+		<ex>
+			<source>он экиде Күлчоро - катын жандуу, кыз накыш - калабалуу бала эле фольк.</source>
+			<target>в двенадцать (лет) Кюльчоро-бабник, девичий угодник, бедовым был пареньком.</target>
+		</ex>
 	</card>
 	<card>
 		<k>накыштуу</k>
-		<blockquote>то же, что накыш;</blockquote>
+		<sameas word="накыш"/>
 		<blockquote>кыз накыштуу девичий угодник.</blockquote>
 	</card>
 	<card>
 		<k>накь</k>
-		<blockquote>ир. <p>южн.</p> [нәк]</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>[нәк]</blockquote>
 		<blockquote>название сорта груш.</blockquote>
 	</card>
 	<card>
@@ -672,196 +780,218 @@
 	</card>
 	<card>
 		<k>налог</k>
-		<blockquote>налог;</blockquote>
+		<trn>налог</trn>
 		<blockquote>айыл-чарба налогу сельскохозяйственный налог;</blockquote>
 		<blockquote>жеке налог ист. индивидуальный налог;</blockquote>
 		<blockquote>азык-түлүк налогу ист. продовольственный налог.</blockquote>
 	</card>
 	<card>
 		<k>налы-</k>
-		<blockquote>то же, что наалы- II.</blockquote>
+		<sameas word="наалы" index="2"/>
 	</card>
 	<card>
 		<k>нама</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>(ср. наама II)</blockquote>
+		<origin>ир.</origin>
+		<meta>(ср. наама II)</meta>
 		<blockquote>вторая часть сложных слов;</blockquote>
 		<blockquote>күбөнама или күбөлүк нама свидетельство, удостоверение.</blockquote>
 	</card>
 	<card>
 		<k>намааран</k>
-		<blockquote>ир.-ар.</blockquote>
-		<blockquote>1. то же, что намакырам;</blockquote>
-		<blockquote>2. перен. лишённый чего-л., обделённый;</blockquote>
-		<blockquote>намааран калдым я остался ни с чем, мне ничего не досталось;</blockquote>
-		<blockquote>акчадан намааран калдым мне денег не досталось (напр. к моему приходу в
-               кассе деньги кончились).</blockquote>
+		<origin>ир.-ар.</origin>
+		<meaning>
+			<sameas word="намакырам"/>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>лишённый чего-л., обделённый;</blockquote>
+			<blockquote>намааран калдым я остался ни с чем, мне ничего не досталось;</blockquote>
+			<blockquote>акчадан намааран калдым мне денег не досталось (напр. к моему приходу в кассе деньги кончились).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>намаз</k>
-		<blockquote>1. рел. намаз (совершаемые пять раз в день уставные обязательные молитвы у
-               мусульман на арабском языке; в старом быту, когда часы были очень редки, по этим
-               молитвам часто определялось время);</blockquote>
-		<blockquote>беш убак намаз пять уставных молитв:</blockquote>
-		<blockquote>1) багымдат (совершается перед восходом солнца, но не при
-               восходе),</blockquote>
-		<blockquote>2) бешим (когда солнце от зенита склонится к западу),</blockquote>
-		<blockquote>3) дигер или намаздигер или намазгер (перед заходом, но не во время захода
-               солнца),</blockquote>
-		<blockquote>4) шам (вскоре после захода солнца),</blockquote>
-		<blockquote>5) куптан (перед сном);</blockquote>
-		<blockquote>беш убакыт намазды билбеген</blockquote>
-		<blockquote>1) тот, кто не совершает пятикратной молитвы;</blockquote>
-		<blockquote>2) перен. то же, что бейнамаз;</blockquote>
-		<blockquote>жума намаз пятничная молитва;</blockquote>
-		<blockquote>намаз оку- совершать намаз;</blockquote>
-		<blockquote>намазды окуп көрдүм - жумушу жоктун иши экен шутл. я пробовал совершать
-               намаз - оказывается, (это) занятие бездельника;</blockquote>
-		<blockquote>намаз окут-</blockquote>
-		<blockquote>1) заставить совершить намаз;</blockquote>
-		<blockquote>2) перен. проучить, отчитать кого-л.;</blockquote>
-		<blockquote>намазыңды окутту он тебя здорово проучил;</blockquote>
-		<blockquote>намазга жык-</blockquote>
-		<blockquote>1) руководить первым в жизни мусульманина совершением намаза (указывая, что
-               и как следует делать);</blockquote>
-		<blockquote>2) (о предстоятеле на намазе) давать знак начать намаз; приступить к
-               совершению намаза;</blockquote>
-		<blockquote>намазга жыгыл- возвр. от намазга жык-;</blockquote>
-		<blockquote>жай намаз (или жайнамаз) молитвенный коврик (кусок материи или вывернутая
-               наизнанку чистая верхняя одежда, подстилаемые под ноги во время намаза, совершаемого
-               не в мечети);</blockquote>
-		<blockquote>2. молитва (в эпосе иногда так называется и немусульманская
-               молитва);</blockquote>
-		<blockquote>кайраттанып Жолой дөө, калмакча намаз окунуп, карк алтын сүрөт буту бар
-               <p>фольк.</p> расхрабрившись, великан Джолой совершил молитву по-калмыкски, (а) у него есть
-               божок из чистого золота.</blockquote>
+		<meaning>
+			<meta>рел.</meta>
+			<blockquote>намаз (совершаемые пять раз в день уставные обязательные молитвы у мусульман на арабском языке; в старом быту, когда часы были очень редки, по этим молитвам часто определялось время);</blockquote>
+			<blockquote>беш убак намаз пять уставных молитв:</blockquote>
+			<blockquote>1) багымдат (совершается перед восходом солнца, но не при восходе),</blockquote>
+			<blockquote>2) бешим (когда солнце от зенита склонится к западу),</blockquote>
+			<blockquote>3) дигер или намаздигер или намазгер (перед заходом, но не во время захода солнца),</blockquote>
+			<blockquote>4) шам (вскоре после захода солнца),</blockquote>
+			<blockquote>5) куптан (перед сном);</blockquote>
+			<blockquote>беш убакыт намазды билбеген</blockquote>
+			<blockquote>1) тот, кто не совершает пятикратной молитвы;</blockquote>
+			<blockquote>2) перен. то же, что бейнамаз;</blockquote>
+			<blockquote>жума намаз пятничная молитва;</blockquote>
+			<blockquote>намаз оку- совершать намаз;</blockquote>
+			<blockquote>намазды окуп көрдүм - жумушу жоктун иши экен шутл. я пробовал совершать намаз - оказывается, (это) занятие бездельника;</blockquote>
+			<blockquote>намаз окут-</blockquote>
+			<blockquote>1) заставить совершить намаз;</blockquote>
+			<blockquote>2) перен. проучить, отчитать кого-л.;</blockquote>
+			<blockquote>намазыңды окутту он тебя здорово проучил;</blockquote>
+			<blockquote>намазга жык-</blockquote>
+			<blockquote>1) руководить первым в жизни мусульманина совершением намаза (указывая, что и как следует делать);</blockquote>
+			<blockquote>2) (о предстоятеле на намазе) давать знак начать намаз; приступить к совершению намаза;</blockquote>
+			<blockquote>намазга жыгыл- возвр. от намазга жык-;</blockquote>
+			<blockquote>жай намаз (или жайнамаз) молитвенный коврик (кусок материи или вывернутая наизнанку чистая верхняя одежда, подстилаемые под ноги во время намаза, совершаемого не в мечети);</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>молитва (в эпосе иногда так называется и немусульманская молитва);</blockquote>
+			<ex>
+				<source>кайраттанып Жолой дөө, калмакча намаз окунуп, карк алтын сүрөт буту бар фольк.</source>
+				<target>расхрабрившись, великан Джолой совершил молитву по-калмыкски, (а) у него есть божок из чистого золота.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>намазгер</k>
-		<blockquote>(или намаздигер)</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>см. намаз 1.</blockquote>
+		<meta>(или намаздигер)</meta>
+		<origin>ир.</origin>
+		<look word="намаз" subindex="1"/>
 	</card>
 	<card>
 		<k>намазкөй</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>богомольный, набожный.</blockquote>
 	</card>
 	<card>
 		<k>намакырам</k>
-		<blockquote>ир.-ар. уст.</blockquote>
-		<blockquote>чужой, посторонний (о мужчине, которому не разрешалось входить на данную
-               женскую половину; о женщине, лицо которой не разрешалось видеть данному
-               мужчине).</blockquote>
+		<origin>ир.-ар.</origin>
+		<meta>уст.</meta>
+		<blockquote>чужой, посторонний (о мужчине, которому не разрешалось входить на данную женскую половину; о женщине, лицо которой не разрешалось видеть данному мужчине).</blockquote>
 	</card>
 	<card>
 		<k>намаркен</k>
-		<blockquote>(или намеркен)</blockquote>
-		<blockquote>то же, что амыркен;</blockquote>
+		<meta>(или намеркен)</meta>
+		<sameas word="амыркен"/>
 		<blockquote>намаркен өтүк лакированные сапоги;</blockquote>
 		<blockquote>намеркен маасы лакированные ичиги;</blockquote>
 		<blockquote>намеркен кепич лакированные кожаные галоши.</blockquote>
 	</card>
 	<card>
 		<k>намарт</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>трус.</blockquote>
 	</card>
 	<card>
 		<k>намеркен</k>
-		<blockquote>см. намаркен.</blockquote>
+		<look word="намаркен"/>
 	</card>
 	<card>
 		<k>намыз</k>
-		<blockquote>то же, что намыс;</blockquote>
+		<sameas word="намыс"/>
 		<blockquote>намызыма чыдап жүрө албаймын я не могу жить с (такой) обидой;</blockquote>
 		<blockquote>ал намызын колуна алды он защитил свою честь.</blockquote>
 	</card>
 	<card>
 		<k>намыздан-</k>
-		<blockquote>то же, что намыстан-.</blockquote>
+		<sameas word="намыстан"/>
 	</card>
 	<card>
 		<k>намызкөй</k>
-		<blockquote>то же, что намыскөй.</blockquote>
+		<sameas word="намыскөй"/>
 	</card>
 	<card>
 		<k>намызкөйлүк</k>
-		<blockquote>то же, что намыскөйлүк.</blockquote>
+		<sameas word="намыскөйлүк"/>
 	</card>
 	<card>
 		<k>намыс</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. (или ар-намыс) честь, репутация, доброе имя; чувство собственного
-               достоинства;</blockquote>
-		<blockquote>качпай жоого барган кыз, далай намыс алган кыз стих. девушка, которая, не
-               уклоняясь, пошла на врага, девушка, которая честь отстояла (отомстив
-               врагу);</blockquote>
-		<blockquote>туу жайылтып жоо сайып, биз жарайбыз намыска стих. мы готовы, распустив
-               знамёна, постоять за честь;</blockquote>
-		<blockquote>кеткен намыс кимдики? келген намыс кимдики? <p>фольк.</p> кто опозорился? кто
-               защитил свою честь? (кто бежал от врага? кто с честью сражался?);</blockquote>
-		<blockquote>намыс кетпесин чтоб не ударить лицом в грязь;</blockquote>
-		<blockquote>намысын кетир- осрамить, опозорить;</blockquote>
-		<blockquote>намысты колдон тайдырган или намысты колдон кетирген он осрамился, лишился
-               авторитета;</blockquote>
-		<blockquote>намыска тууган эр молодец, рождённый, чтобы постоять за честь; славный
-               молодец;</blockquote>
-		<blockquote>намыс балаадыр, отко сууга саладыр погов. честь - беда: в огонь и в воду
-               ввергает (во имя чести человек готов терпеть всякие невзгоды);</blockquote>
-		<blockquote>кыргызга намыс алып бер ты (герой) защити честь киргизов;</blockquote>
-		<blockquote>намысым колума тийди я отомщён, я вновь обрёл свой авторитет (напр. был
-               оклеветан, а затем установил истину, или был побеждён в спортивном состязании, а
-               затем взял реванш);</blockquote>
-		<blockquote>намыстан жыгыл- уронить своё достоинство, осрамиться;</blockquote>
-		<blockquote>желмогуз менен алышкан, жыгылбаган намыстан <p>фольк.</p> он сражался с бабой-ягой,
-               (и) не осрамился;</blockquote>
-		<blockquote>сынган намыс поруганная (врагом) честь;</blockquote>
-		<blockquote>намысын колго алган он добился своего, он смыл свой позор (по отношению к
-               врагу);</blockquote>
-		<blockquote>2. стыд, срам;</blockquote>
-		<blockquote>коёнду камыш өлтүрөт, эрди (или азаматты) намыс өлтүрөт погов. зайца камыш
-               убивает, молодца срам убивает;</blockquote>
-		<blockquote>өлгөн менен кыз бергенге намыс кылба погов. не стыдись (бедности совершения
-               обрядов при похоронах) умершего и выдавая дочь замуж;</blockquote>
-		<blockquote>намыс көр- считать для себя позорным, унизительным;</blockquote>
-		<blockquote>кароолчу болуп турууну да намыс көрбөйт он не считает для себя позорным быть
-               сторожем;</blockquote>
-		<blockquote>3. обида;</blockquote>
-		<blockquote>намысы келсе керек он, по-видимому, обиделся;</blockquote>
-		<blockquote>намысына келди его задело за живое;</blockquote>
-		<blockquote>намыска намыс кагылса, агынан өлөт турбайбы <p>фольк.</p> когда обида (или честь)
-               столкнёт с обидой (или с честью), то ведь (кто-то) без вины умирает;</blockquote>
-		<blockquote>намыска намыс ат коюп, өлмөк болду көрүнөө <p>фольк.</p> ринувшись мстить за обиду,
-               он явно пошёл на верную смерть;</blockquote>
-		<blockquote>4. обычай;</blockquote>
-		<blockquote>катын намысынан кара киет жена надевает траур, чтобы соблюсти обычай (если
-               даже она не опечалена);</blockquote>
-		<blockquote>5. ист. родовая честь;</blockquote>
-		<blockquote>намыска жет- постоять за себя, добиться своего;</blockquote>
-		<blockquote>айыкпасам мен шордуу, намысыма жетпеймин стих. если я, несчастный, не
-               выздоровею, то не смогу постоять за себя;</blockquote>
-		<blockquote>намысын талаш- стоять за чью-л. честь, стоять за кого-л.;</blockquote>
-		<blockquote>мен иттик кылбайм, намысын талашам я свинства себе не позволю, за честь его
-               постою;</blockquote>
-		<blockquote>намыска түш- выйти на поединок, выйти на единоборство;</blockquote>
-		<blockquote>тебетей кийгендин намысы мужская честь;</blockquote>
-		<blockquote>намыска тий- обесчестить (девушку);</blockquote>
-		<blockquote>сокур намыс кулак в кармане;</blockquote>
-		<blockquote>сокур намыс талашып, катын, баланын маңдайында күпүлдөп жүргөн показывая
-               кулак в кармане, он перед женой и детьми бушевал (а не там, где следовало
-               бы).</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>(или ар-намыс) честь, репутация, доброе имя; чувство собственного достоинства;</blockquote>
+			<ex>
+				<source>качпай жоого барган кыз, далай намыс алган кыз стих.</source>
+				<target>девушка, которая, не уклоняясь, пошла на врага, девушка, которая честь отстояла (отомстив врагу);</target>
+			</ex>
+			<ex>
+				<source>туу жайылтып жоо сайып, биз жарайбыз намыска стих.</source>
+				<target>мы готовы, распустив знамёна, постоять за честь;</target>
+			</ex>
+			<ex>
+				<source>кеткен намыс кимдики? келген намыс кимдики? фольк.</source>
+				<target>кто опозорился? кто защитил свою честь? (кто бежал от врага? кто с честью сражался?);</target>
+			</ex>
+			<blockquote>намыс кетпесин чтоб не ударить лицом в грязь;</blockquote>
+			<blockquote>намысын кетир- осрамить, опозорить;</blockquote>
+			<blockquote>намысты колдон тайдырган или намысты колдон кетирген он осрамился, лишился авторитета;</blockquote>
+			<blockquote>намыска тууган эр молодец, рождённый, чтобы постоять за честь; славный молодец;</blockquote>
+			<ex>
+				<source>намыс балаадыр, отко сууга саладыр погов.</source>
+				<target>честь - беда: в огонь и в воду ввергает (во имя чести человек готов терпеть всякие невзгоды);</target>
+			</ex>
+			<blockquote>кыргызга намыс алып бер ты (герой) защити честь киргизов;</blockquote>
+			<blockquote>намысым колума тийди я отомщён, я вновь обрёл свой авторитет (напр. был оклеветан, а затем установил истину, или был побеждён в спортивном состязании, а затем взял реванш);</blockquote>
+			<blockquote>намыстан жыгыл- уронить своё достоинство, осрамиться;</blockquote>
+			<ex>
+				<source>желмогуз менен алышкан, жыгылбаган намыстан фольк.</source>
+				<target>он сражался с бабой-ягой, (и) не осрамился;</target>
+			</ex>
+			<blockquote>сынган намыс поруганная (врагом) честь;</blockquote>
+			<blockquote>намысын колго алган он добился своего, он смыл свой позор (по отношению к врагу);</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>стыд, срам;</blockquote>
+			<ex>
+				<source>коёнду камыш өлтүрөт, эрди (или азаматты) намыс өлтүрөт погов.</source>
+				<target>зайца камыш убивает, молодца срам убивает;</target>
+			</ex>
+			<ex>
+				<source>өлгөн менен кыз бергенге намыс кылба погов.</source>
+				<target>не стыдись (бедности совершения обрядов при похоронах) умершего и выдавая дочь замуж;</target>
+			</ex>
+			<blockquote>намыс көр- считать для себя позорным, унизительным;</blockquote>
+			<blockquote>кароолчу болуп турууну да намыс көрбөйт он не считает для себя позорным быть сторожем;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>обида;</blockquote>
+			<blockquote>намысы келсе керек он, по-видимому, обиделся;</blockquote>
+			<blockquote>намысына келди его задело за живое;</blockquote>
+			<ex>
+				<source>намыска намыс кагылса, агынан өлөт турбайбы фольк.</source>
+				<target>когда обида (или честь) столкнёт с обидой (или с честью), то ведь (кто-то) без вины умирает;</target>
+			</ex>
+			<ex>
+				<source>намыска намыс ат коюп, өлмөк болду көрүнөө фольк.</source>
+				<target>ринувшись мстить за обиду, он явно пошёл на верную смерть;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<blockquote>обычай;</blockquote>
+			<blockquote>катын намысынан кара киет жена надевает траур, чтобы соблюсти обычай (если даже она не опечалена);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>ист.</meta>
+			<blockquote>родовая честь;</blockquote>
+			<blockquote>намыска жет- постоять за себя, добиться своего;</blockquote>
+			<ex>
+				<source>айыкпасам мен шордуу, намысыма жетпеймин стих.</source>
+				<target>если я, несчастный, не выздоровею, то не смогу постоять за себя;</target>
+			</ex>
+			<blockquote>намысын талаш- стоять за чью-л. честь, стоять за кого-л.;</blockquote>
+			<blockquote>мен иттик кылбайм, намысын талашам я свинства себе не позволю, за честь его постою;</blockquote>
+			<blockquote>намыска түш- выйти на поединок, выйти на единоборство;</blockquote>
+			<blockquote>тебетей кийгендин намысы мужская честь;</blockquote>
+			<blockquote>намыска тий- обесчестить (девушку);</blockquote>
+			<blockquote>сокур намыс кулак в кармане;</blockquote>
+			<blockquote>сокур намыс талашып, катын, баланын маңдайында күпүлдөп жүргөн показывая кулак в кармане, он перед женой и детьми бушевал (а не там, где следовало бы).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>намыскөй</k>
-		<blockquote>ар.-ир.</blockquote>
-		<blockquote>1. обидчивый;</blockquote>
-		<blockquote>2. тот, кто защищает честь кого-л., борется за честь чего-л.</blockquote>
+		<origin>ар.-ир.</origin>
+		<meaning>
+			<blockquote>обидчивый;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>тот, кто защищает честь кого-л., борется за честь чего-л.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>намыскөйлүк</k>
-		<blockquote>то же, что намыскөйчүлүк.</blockquote>
+		<sameas word="намыскөйчүлүк"/>
 	</card>
 	<card>
 		<k>намыскөйчүлүк</k>
@@ -874,8 +1004,7 @@
 		<blockquote>постыдный, бесстыдный, нечестный;</blockquote>
 		<blockquote>намыссыз адам нечестный человек;</blockquote>
 		<blockquote>намыссыз иш нечестное дело;</blockquote>
-		<blockquote>мек андай намыссыз ишке жүрбөймүн я на такое нечестное дело не
-               пойду.</blockquote>
+		<blockquote>мек андай намыссыз ишке жүрбөймүн я на такое нечестное дело не пойду.</blockquote>
 	</card>
 	<card>
 		<k>намыссыздык</k>
@@ -883,88 +1012,99 @@
 	</card>
 	<card>
 		<k>намыстан-</k>
-		<blockquote>1. стыдиться, совеститься, считать для себя унизительным;</blockquote>
-		<blockquote>2. досадовать.</blockquote>
+		<meaning>
+			<blockquote>стыдиться, совеститься, считать для себя унизительным;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>досадовать.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>намыстандыр-</k>
-		<blockquote>то же, что намыстант-.</blockquote>
+		<sameas word="намыстант"/>
 	</card>
 	<card>
 		<k>намыстант-</k>
-		<blockquote>понуд. от намыстан-</blockquote>
-		<blockquote>1. стыдить;</blockquote>
-		<blockquote>2. вызывать чувство досады, обиды.</blockquote>
+		<caus word="намыстан"/>
+		<meaning>
+			<blockquote>стыдить;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>вызывать чувство досады, обиды.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>намыстаныш-</k>
-		<blockquote>взаимн. от намыстан-;</blockquote>
-		<blockquote>жашап калган башым менен окуп жүргөнүмдү көрүп жаш келиндер намыстанышты
-               увидев, что я, старуха, учусь, молодухи (за себя) устыдились.</blockquote>
+		<recv word="намыстан"/>
+		<blockquote>жашап калган башым менен окуп жүргөнүмдү көрүп жаш келиндер намыстанышты увидев, что я, старуха, учусь, молодухи (за себя) устыдились.</blockquote>
 	</card>
 	<card>
 		<k>намыстуу</k>
-		<blockquote>(или ар-намыстуу)</blockquote>
-		<blockquote>принципиальный, тот, кто дорожит своей честью, своим
-               достоинством;</blockquote>
-		<blockquote>намыстуу киши человек принципиальный, высоко держащий своё
-               достоинство.</blockquote>
+		<meta>(или ар-намыстуу)</meta>
+		<blockquote>принципиальный, тот, кто дорожит своей честью, своим достоинством;</blockquote>
+		<blockquote>намыстуу киши человек принципиальный, высоко держащий своё достоинство.</blockquote>
 	</card>
 	<card>
 		<k>намыстуулук</k>
-		<blockquote>(или ар-намыстуулук)</blockquote>
+		<meta>(или ар-намыстуулук)</meta>
 		<blockquote>честь, принципиальное отношение;</blockquote>
 		<blockquote>ар-намыстуулуктун иши дело чести.</blockquote>
 	</card>
 	<card>
 		<k>намыстык</k>
-		<blockquote>то же, что намыстуулук.</blockquote>
+		<sameas word="намыстуулук"/>
 	</card>
 	<card>
 		<k>намысчыл</k>
-		<blockquote>чванливый, без меры обидчивый, тот, кто склонен по поводу и без повода
-               вломиться в амбицию.</blockquote>
+		<blockquote>чванливый, без меры обидчивый, тот, кто склонен по поводу и без повода вломиться в амбицию.</blockquote>
 	</card>
 	<card>
 		<k>намыян</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>портмоне, кошелёк для денег.</blockquote>
 	</card>
 	<card>
 		<k>нан</k>
-		<blockquote>нан I</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. хлеб, лепёшка (печённая в тандыре; см. тандыр I);</blockquote>
-		<blockquote>жапкан нан</blockquote>
-		<blockquote>1) лепёшка (печённая в перевёрнутом на угли котле);</blockquote>
-		<blockquote>2) <p>южн.</p> узбекская лепёшка (печённая в тандыре);</blockquote>
-		<blockquote>2. то же, что дан хлеб в зерне;</blockquote>
-		<blockquote>кур эле нан жеп жүргөн экенбиз мы оказались просто дармоедами;</blockquote>
-		<blockquote>нан бол- превратиться в лепёшку, расплющиться, быть убитым;</blockquote>
-		<blockquote>жерге тийип нан болуп, тегереги кан болду <p>фольк.</p> коснувшись земли (т.е.
-               упав) он расплющился, вокруг него образовалась кровавая лужа;</blockquote>
-		<blockquote>нан кыл- превратить в лепёшку, расплющить, убить;</blockquote>
-		<blockquote>Туура-Сууну кан кылып, душмандын баарын нан кылып <p>фольк.</p> (речку) Тура-Суу
-               окровавив, врагов всех убив;</blockquote>
-		<blockquote>жети (или тогуз или редко алты) нан этн. семь (или девять или редко шесть)
-               хлебцев (благодарственная милостыня или угощение с богоугодной целью по случаю
-               избавления от какой-л. беды);</blockquote>
-		<blockquote>асканын боору менен өтүп, жакасын кармап, жети нан кудайы бергендери да
-               болучу были такие, кто, миновав (опасный) склон скалы, давали милостыню;</blockquote>
-		<blockquote>жети нандак садака, карыптарга бергиле <p>фольк.</p> дайте беднякам милостыню по
-               семи хлебцев;</blockquote>
-		<blockquote>нан кой- уст. ставить перед собой хлеб при совершении клятвы;</blockquote>
-		<blockquote>нан кармап ант ич- уст. поклясться на хлебе;</blockquote>
-		<blockquote>сени нан урар! заклинаю тебя хлебом!;</blockquote>
-		<blockquote>ак буудайдын наны ичиңи тээп жүргөн чагың это было время, когда ты был
-               опьянён своей силой или властью или богатством (букв. это было время, когда тебя
-               внутри толкал хлеб белой пшеницы).</blockquote>
-		<blockquote>нан- II</blockquote>
-		<blockquote>то же, что ынан-.</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>хлеб, лепёшка (печённая в тандыре; см. тандыр I);</blockquote>
+				<blockquote>жапкан нан</blockquote>
+				<blockquote>1) лепёшка (печённая в перевёрнутом на угли котле);</blockquote>
+				<blockquote>2) южн. узбекская лепёшка (печённая в тандыре);</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>то же, что дан хлеб в зерне;</blockquote>
+				<blockquote>кур эле нан жеп жүргөн экенбиз мы оказались просто дармоедами;</blockquote>
+				<blockquote>нан бол- превратиться в лепёшку, расплющиться, быть убитым;</blockquote>
+				<ex>
+					<source>жерге тийип нан болуп, тегереги кан болду фольк.</source>
+					<target>коснувшись земли (т.е. упав) он расплющился, вокруг него образовалась кровавая лужа;</target>
+				</ex>
+				<blockquote>нан кыл- превратить в лепёшку, расплющить, убить;</blockquote>
+				<ex>
+					<source>Туура-Сууну кан кылып, душмандын баарын нан кылып фольк.</source>
+					<target>(речку) Тура-Суу окровавив, врагов всех убив;</target>
+				</ex>
+				<blockquote>жети (или тогуз или редко алты) нан этн. семь (или девять или редко шесть) хлебцев (благодарственная милостыня или угощение с богоугодной целью по случаю избавления от какой-л. беды);</blockquote>
+				<blockquote>асканын боору менен өтүп, жакасын кармап, жети нан кудайы бергендери да болучу были такие, кто, миновав (опасный) склон скалы, давали милостыню;</blockquote>
+				<ex>
+					<source>жети нандак садака, карыптарга бергиле фольк.</source>
+					<target>дайте беднякам милостыню по семи хлебцев;</target>
+				</ex>
+				<blockquote>нан кой- уст. ставить перед собой хлеб при совершении клятвы;</blockquote>
+				<blockquote>нан кармап ант ич- уст. поклясться на хлебе;</blockquote>
+				<blockquote>сени нан урар! заклинаю тебя хлебом!;</blockquote>
+				<blockquote>ак буудайдын наны ичиңи тээп жүргөн чагың это было время, когда ты был опьянён своей силой или властью или богатством (букв. это было время, когда тебя внутри толкал хлеб белой пшеницы).</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<sameas word="ынан"/>
+		</homonym>
 	</card>
 	<card>
 		<k>нанбаш</k>
-		<blockquote>см. ээр.</blockquote>
+		<look word="ээр"/>
 	</card>
 	<card>
 		<k>нангысыз</k>
@@ -972,31 +1112,32 @@
 	</card>
 	<card>
 		<k>нандуу</k>
-		<blockquote>то же, что дандуу</blockquote>
+		<sameas word="дандуу"/>
 		<blockquote>богатый зерновым хлебом;</blockquote>
-		<blockquote>малдуусунан мал алып, нандуусунан нан алып <p>фольк.</p> у богатых скотом забирая
-               скот, у богатых зерном забирая зерно.</blockquote>
+		<ex>
+			<source>малдуусунан мал алып, нандуусунан нан алып фольк.</source>
+			<target>у богатых скотом забирая скот, у богатых зерном забирая зерно.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нандыр</k>
-		<blockquote>сев.</blockquote>
-		<blockquote>то же, что тандыр I.</blockquote>
+		<meta>сев.</meta>
+		<sameas word="тандыр" index="1"/>
 	</card>
 	<card>
 		<k>Наңкүр</k>
-		<blockquote>см. Мүңкүр II.</blockquote>
+		<look word="Мүңкүр" index="2"/>
 	</card>
 	<card>
 		<k>нанпар</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>приспособление для накалывания лепёшек перед печением (пучок маховых перьев
-               или проволочек, воткнутых в деревянный пестик).</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>приспособление для накалывания лепёшек перед печением (пучок маховых перьев или проволочек, воткнутых в деревянный пестик).</blockquote>
 	</card>
 	<card>
 		<k>нанушта</k>
-		<blockquote>ир.-кирг. <p>южн.</p>
-		</blockquote>
+		<origin>ир.-кирг.</origin>
+		<meta>южн.</meta>
 		<blockquote>завтрак.</blockquote>
 	</card>
 	<card>
@@ -1005,36 +1146,40 @@
 	</card>
 	<card>
 		<k>нап</k>
-		<blockquote>ар. <p>южн.</p>
-		</blockquote>
-		<blockquote>польза, выгода; на севере встречено в форме нап только в одном
-               выражении:</blockquote>
-		<blockquote>эрден эрге нап! ну, по рукам! (букв. от молодца молодцу
-               польза!).</blockquote>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<blockquote>польза, выгода; на севере встречено в форме нап только в одном выражении:</blockquote>
+		<blockquote>эрден эрге нап! ну, по рукам! (букв. от молодца молодцу польза!).</blockquote>
 	</card>
 	<card>
 		<k>напака</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. ист. средства, которые муж обязан был по шариату давать на пропитание
-               своей разведённой жене в течение ста дней после развода;</blockquote>
-		<blockquote>2. уст. то же, что алимент.</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<meta>ист.</meta>
+			<blockquote>средства, которые муж обязан был по шариату давать на пропитание своей разведённой жене в течение ста дней после развода;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<sameas word="алимент"/>
+		</meaning>
 	</card>
 	<card>
 		<k>напил</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>(или напил намаз)</blockquote>
-		<blockquote>молитва необязательная, совершаемая сверх пяти обязательных (см.
-               намаз).</blockquote>
+		<origin>ар.</origin>
+		<meta>(или напил намаз)</meta>
+		<blockquote>молитва необязательная, совершаемая сверх пяти обязательных (см. намаз).</blockquote>
 	</card>
 	<card>
 		<k>напис</k>
-		<blockquote>напис I</blockquote>
-		<blockquote>см. напси.</blockquote>
-		<blockquote>напис II</blockquote>
-		<blockquote>ар. <p>южн.</p>
-		</blockquote>
-		<blockquote>тонкий;</blockquote>
-		<blockquote>кагаздан напис тоньше бумаги.</blockquote>
+		<homonym>
+			<look word="напси"/>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>южн.</meta>
+			<blockquote>тонкий;</blockquote>
+			<blockquote>кагаздан напис тоньше бумаги.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>направление</k>
@@ -1043,67 +1188,76 @@
 	</card>
 	<card>
 		<k>напреч</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>продолговатый четырёхугольный ковровый мешок, кладётся на жүк (см. жүк 2)
-               как убранство.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>продолговатый четырёхугольный ковровый мешок, кладётся на жүк (см. жүк 2) как убранство.</blockquote>
 	</card>
 	<card>
 		<k>напс</k>
-		<blockquote>то же, что напси;</blockquote>
+		<sameas word="напси"/>
 		<blockquote>напсы бузулган он проявил непомерную жадность.</blockquote>
 	</card>
 	<card>
 		<k>напси</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>(встречается и в форме напис, когда употребляется без личных притяж.
-               аффиксов) вожделение; жадность, алчность, корыстные помыслы;</blockquote>
+		<origin>ар.</origin>
+		<blockquote>(встречается и в форме напис, когда употребляется без личных притяж. аффиксов) вожделение; жадность, алчность, корыстные помыслы;</blockquote>
 		<blockquote>напсиси жаман или напсиси бузук жадный, алчный;</blockquote>
 		<blockquote>напсиңди тый перестань жадничать;</blockquote>
 		<blockquote>сугалак, напсиси ачылган адам прожорливый, жадный человек;</blockquote>
 		<blockquote>напсиңди агытпа не жадничай, не зарься сверх меры;</blockquote>
-		<blockquote>напсисин араандай ачып койду в своих корыстных помыслах он перешёл все
-               границы, он готов захватить всё;</blockquote>
+		<blockquote>напсисин араандай ачып койду в своих корыстных помыслах он перешёл все границы, он готов захватить всё;</blockquote>
 		<blockquote>напсиңди ашырба не жадничай сверх меры;</blockquote>
 		<blockquote>өз напсине тартат он только о своей выгоде заботится;</blockquote>
-		<blockquote>өз напсиме тартпаймын я не буду о своих интересах заботиться (в ущерб
-               другим);</blockquote>
-		<blockquote>мен ырдабайм, напис бузуп, мал үчүн стих. не пою я за плату (букв. за скот),
-               прельстясь корыстью.</blockquote>
+		<blockquote>өз напсиме тартпаймын я не буду о своих интересах заботиться (в ущерб другим);</blockquote>
+		<ex>
+			<source>мен ырдабайм, напис бузуп, мал үчүн стих.</source>
+			<target>не пою я за плату (букв. за скот), прельстясь корыстью.</target>
+		</ex>
 	</card>
 	<card>
 		<k>напти</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>род женской одежды.</blockquote>
 	</card>
 	<card>
 		<k>нар</k>
-		<blockquote>нар I</blockquote>
-		<blockquote>1. одногорбый верблюд;</blockquote>
-		<blockquote>жүктүн оорун нар көтөрөт погов. большому кораблю большое плавание (букв.
-               одногорбый верблюд тяжёлый груз поднимает);</blockquote>
-		<blockquote>атан эмес - нар не кастрированный верблюд, а верблюд-жеребец;</blockquote>
-		<blockquote>2. редко двугорбый верблюд;</blockquote>
-		<blockquote>айдай барып, мал берем, айры өркөч нар берем <p>фольк.</p> я погоню и дам скот, дам
-               двугорбых верблюдов;</blockquote>
-		<blockquote>нар кескен хорошая сабля, булатный меч;</blockquote>
-		<blockquote>уста менен дос болсоң, нар кескенин аларсың погов. если с кузнецом
-               сдружишься, то булатный меч получишь;</blockquote>
-		<blockquote>нардай тоно- ограбить начисто, ободрать как липку;</blockquote>
-		<blockquote>бул үч ууру хандардын казналарын бир эле эмес, алда канча ирет нардай
-               тоношкон (из сказки) эти три вора сокровища ханов грабили начисто не раз, а много
-               раз.</blockquote>
-		<blockquote>нар II</blockquote>
-		<blockquote>то же, что нары I;</blockquote>
-		<blockquote>нар жакта по ту сторону;</blockquote>
-		<blockquote>нар жактан с той стороны;</blockquote>
-		<blockquote>нар жагын айтып не кылам а уж об остальном и говорить нечего;</blockquote>
-		<blockquote>нар жагын айтпай эле коёюн а уж о том, что было дальше, я и говорить не
-               буду, а уж об остальном и говорить нечего.</blockquote>
-		<blockquote>нар III</blockquote>
-		<blockquote>р.</blockquote>
-		<blockquote>нары.</blockquote>
+		<homonym>
+			<meaning>
+				<blockquote>одногорбый верблюд;</blockquote>
+				<ex>
+					<source>жүктүн оорун нар көтөрөт погов.</source>
+					<target>большому кораблю большое плавание (букв. одногорбый верблюд тяжёлый груз поднимает);</target>
+				</ex>
+				<blockquote>атан эмес - нар не кастрированный верблюд, а верблюд-жеребец;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>редко</meta>
+				<blockquote>двугорбый верблюд;</blockquote>
+				<ex>
+					<source>айдай барып, мал берем, айры өркөч нар берем фольк.</source>
+					<target>я погоню и дам скот, дам двугорбых верблюдов;</target>
+				</ex>
+				<blockquote>нар кескен хорошая сабля, булатный меч;</blockquote>
+				<ex>
+					<source>уста менен дос болсоң, нар кескенин аларсың погов.</source>
+					<target>если с кузнецом сдружишься, то булатный меч получишь;</target>
+				</ex>
+				<blockquote>нардай тоно- ограбить начисто, ободрать как липку;</blockquote>
+				<blockquote>бул үч ууру хандардын казналарын бир эле эмес, алда канча ирет нардай тоношкон (из сказки) эти три вора сокровища ханов грабили начисто не раз, а много раз.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<sameas word="нары" index="1"/>
+			<blockquote>нар жакта по ту сторону;</blockquote>
+			<blockquote>нар жактан с той стороны;</blockquote>
+			<blockquote>нар жагын айтып не кылам а уж об остальном и говорить нечего;</blockquote>
+			<blockquote>нар жагын айтпай эле коёюн а уж о том, что было дальше, я и говорить не буду, а уж об остальном и говорить нечего.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>р.</origin>
+			<blockquote>нары.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нарагыраак</k>
@@ -1111,95 +1265,112 @@
 	</card>
 	<card>
 		<k>наразы</k>
-		<blockquote>то же, что нааразы.</blockquote>
+		<sameas word="нааразы"/>
 	</card>
 	<card>
 		<k>нарат</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что наряд.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="наряд"/>
 	</card>
 	<card>
 		<k>нарван</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>приставная лестница.</blockquote>
 	</card>
 	<card>
 		<k>наргия</k>
-		<blockquote>ир.</blockquote>
-		<blockquote>(или наргия чөп)</blockquote>
+		<origin>ир.</origin>
+		<meta>(или наргия чөп)</meta>
 		<blockquote>пырей опушённый.</blockquote>
 	</card>
 	<card>
 		<k>нарек</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>молодой самец горного козла.</blockquote>
 	</card>
 	<card>
 		<k>нарет</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что наряд.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="наряд"/>
 	</card>
 	<card>
 		<k>наржак</k>
-		<blockquote>то же, что аржак.</blockquote>
+		<sameas word="аржак"/>
 	</card>
 	<card>
 		<k>нарзан</k>
-		<blockquote>нарзан.</blockquote>
+		<trn>нарзан</trn>
 	</card>
 	<card>
 		<k>наристе</k>
-		<blockquote>то же, что арыста;</blockquote>
-		<blockquote>наристеги жаш бала - жетиле элек чырпыктай стих. малый ребёнок подобен
-               недоросшей веточке.</blockquote>
+		<sameas word="арыста"/>
+		<ex>
+			<source>наристеги жаш бала - жетиле элек чырпыктай стих.</source>
+			<target>малый ребёнок подобен недоросшей веточке.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нарк</k>
-		<blockquote>нарк I</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. цена, стоимость; ценность;</blockquote>
-		<blockquote>өзүнө турган нарк эк. себестоимость;</blockquote>
-		<blockquote>өзүнө турган наркты төмөндөтүү снижение себестоимости;</blockquote>
-		<blockquote>наркы канча? сколько стоит?</blockquote>
-		<blockquote>үйдөгү ойду базардагы нарк бузат погов. то, что задумано дома, нарушает
-               базарная цена;</blockquote>
-		<blockquote>наркына жеткизе сат- продать по выгодной, по полной цене; продать, не
-               продешевив;</blockquote>
-		<blockquote>малын же эгинин наркына жеткизе саткандары аз мало таких, которые (на
-               базаре) продавали свой скот или зерно по полной цене;</blockquote>
-		<blockquote>ой өзүндө, нарк колуңда погов. воля твоя (букв. мысль - твоя, цена - в твоих
-               руках);</blockquote>
-		<blockquote>2. перен. достоинство, авторитет, ценность, значимость;</blockquote>
-		<blockquote>билбеди менин баркымды, өткөздү менин наркымды <p>фольк.</p> он не оценил меня, он
-               унизил меня;</blockquote>
-		<blockquote>кыйыштырып сүйлөмөк - акындардын наркынан стих. складно говорить -
-               достоинство акына;</blockquote>
-		<blockquote>наркы түшүп калды</blockquote>
-		<blockquote>1) цена на это упала;</blockquote>
-		<blockquote>2) перен. его дела плохи, его авторитет пошатнулся;</blockquote>
-		<blockquote>наркта жок (о человеке) никудышный;</blockquote>
-		<blockquote>3. обычай, обыкновение;</blockquote>
-		<blockquote>кудалашпай кыз берген, кайсы наркта бар экен? <p>фольк.</p> по какому это обычаю,
-               чтоб выдавать дочь без сватовства? (так не заведено);</blockquote>
-		<blockquote>ата-бабадан берки нарк обычай отцов и дедов, исконный обычай;</blockquote>
-		<blockquote>ата-бабанын наркы дедовское установление;</blockquote>
-		<blockquote>нарк сүйлө- или нарк айт- или нарк кыл- делать наставление, высказывать
-               суждение, подкрепляя ссылками на народные обычаи;</blockquote>
-		<blockquote>нарк сүйлөгөн, эл бийлеген акылмандар мудрецы, делающие наставления и
-               правящие народом;</blockquote>
-		<blockquote>"айбандан мындай болбойт" деп, ак сакалдар нарк айткан <p>фольк.</p> седовласые
-               высказали суждение, мол, среди животных нет такого (прекрасного коня), как
-               этот;</blockquote>
-		<blockquote>4. обычное право;</blockquote>
-		<blockquote>нарк-шараатта жок ни в каких законах не писано (букв. ни в обычном праве, ни
-               в шариате нет).</blockquote>
-		<blockquote>нарк II</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>домашнее животное, начавшее плодиться в положенный срок.</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>цена, стоимость; ценность;</blockquote>
+				<blockquote>өзүнө турган нарк эк. себестоимость;</blockquote>
+				<blockquote>өзүнө турган наркты төмөндөтүү снижение себестоимости;</blockquote>
+				<blockquote>наркы канча? сколько стоит?</blockquote>
+				<ex>
+					<source>үйдөгү ойду базардагы нарк бузат погов.</source>
+					<target>то, что задумано дома, нарушает базарная цена;</target>
+				</ex>
+				<blockquote>наркына жеткизе сат- продать по выгодной, по полной цене; продать, не продешевив;</blockquote>
+				<blockquote>малын же эгинин наркына жеткизе саткандары аз мало таких, которые (на базаре) продавали свой скот или зерно по полной цене;</blockquote>
+				<ex>
+					<source>ой өзүндө, нарк колуңда погов.</source>
+					<target>воля твоя (букв. мысль - твоя, цена - в твоих руках);</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>достоинство, авторитет, ценность, значимость;</blockquote>
+				<ex>
+					<source>билбеди менин баркымды, өткөздү менин наркымды фольк.</source>
+					<target>он не оценил меня, он унизил меня;</target>
+				</ex>
+				<ex>
+					<source>кыйыштырып сүйлөмөк - акындардын наркынан стих.</source>
+					<target>складно говорить - достоинство акына;</target>
+				</ex>
+				<blockquote>наркы түшүп калды</blockquote>
+				<blockquote>1) цена на это упала;</blockquote>
+				<blockquote>2) перен. его дела плохи, его авторитет пошатнулся;</blockquote>
+				<blockquote>наркта жок (о человеке) никудышный;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>обычай, обыкновение;</blockquote>
+				<ex>
+					<source>кудалашпай кыз берген, кайсы наркта бар экен? фольк.</source>
+					<target>по какому это обычаю, чтоб выдавать дочь без сватовства? (так не заведено);</target>
+				</ex>
+				<blockquote>ата-бабадан берки нарк обычай отцов и дедов, исконный обычай;</blockquote>
+				<blockquote>ата-бабанын наркы дедовское установление;</blockquote>
+				<blockquote>нарк сүйлө- или нарк айт- или нарк кыл- делать наставление, высказывать суждение, подкрепляя ссылками на народные обычаи;</blockquote>
+				<blockquote>нарк сүйлөгөн, эл бийлеген акылмандар мудрецы, делающие наставления и правящие народом;</blockquote>
+				<ex>
+					<source>"айбандан мындай болбойт" деп, ак сакалдар нарк айткан фольк.</source>
+					<target>седовласые высказали суждение, мол, среди животных нет такого (прекрасного коня), как этот;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<blockquote>обычное право;</blockquote>
+				<blockquote>нарк-шараатта жок ни в каких законах не писано (букв. ни в обычном праве, ни в шариате нет).</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<blockquote>домашнее животное, начавшее плодиться в положенный срок.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>наркескен</k>
@@ -1207,161 +1378,167 @@
 	</card>
 	<card>
 		<k>нарком</k>
-		<blockquote>ист.</blockquote>
+		<meta>ист.</meta>
 		<blockquote>нарком (народный комиссар).</blockquote>
 	</card>
 	<card>
 		<k>наркомат</k>
-		<blockquote>ист.</blockquote>
+		<meta>ист.</meta>
 		<blockquote>наркомат (народный комиссариат).</blockquote>
 	</card>
 	<card>
 		<k>нарктуу</k>
-		<blockquote>(о пожилом человеке) степенный, рассудительный; знающий принятые нормы
-               поведения и следующий им;</blockquote>
-		<blockquote>нарктуу киши степенный, рассудительный человек (поведение которого
-               заслуживает подражания);</blockquote>
+		<blockquote>(о пожилом человеке) степенный, рассудительный; знающий принятые нормы поведения и следующий им;</blockquote>
+		<blockquote>нарктуу киши степенный, рассудительный человек (поведение которого заслуживает подражания);</blockquote>
 		<blockquote>нарктуу сөз поучительное слово;</blockquote>
 		<blockquote>нарктуу кептен сүйлө- то же, что нарк сүйлө- (см. нарк I 3).</blockquote>
 	</card>
 	<card>
 		<k>наркы</k>
-		<blockquote>то же, что аркы;</blockquote>
+		<sameas word="аркы"/>
 		<blockquote>наркы өйүздө на том (противоположном) берегу;</blockquote>
-		<blockquote>наркы ата <p>южн.</p> дед (по линии отца);</blockquote>
+		<blockquote>наркы ата южн. дед (по линии отца);</blockquote>
 		<blockquote>наркы күнү следующий день за...;</blockquote>
-		<blockquote>ал же эртең, же андан наркы күнү келет он приедет завтра или
-               послезавтра;</blockquote>
-		<blockquote>мурдакы күнү эмес, андан наркы күнү не третьего дня, а четыре дня тому
-               назад;</blockquote>
+		<blockquote>ал же эртең, же андан наркы күнү келет он приедет завтра или послезавтра;</blockquote>
+		<blockquote>мурдакы күнү эмес, андан наркы күнү не третьего дня, а четыре дня тому назад;</blockquote>
 		<blockquote>наркы-берки иш всякого рода дела и работы;</blockquote>
-		<blockquote>наркы-беркини билген киши человек, сведущий в разного рода житейскнх делах,
-               бывалый человек.</blockquote>
+		<blockquote>наркы-беркини билген киши человек, сведущий в разного рода житейскнх делах, бывалый человек.</blockquote>
 	</card>
 	<card>
 		<k>народник</k>
-		<blockquote>ист.</blockquote>
-		<blockquote>народник.</blockquote>
+		<meta>ист.</meta>
+		<trn>народник</trn>
 	</card>
 	<card>
 		<k>народничество</k>
-		<blockquote>ист.</blockquote>
-		<blockquote>народничество.</blockquote>
+		<meta>ист.</meta>
+		<trn>народничество</trn>
 	</card>
 	<card>
 		<k>народоволец</k>
-		<blockquote>ист.</blockquote>
-		<blockquote>народоволец.</blockquote>
+		<meta>ист.</meta>
+		<trn>народоволец</trn>
 	</card>
 	<card>
 		<k>нарпос</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>корка плода граната (служащая для изготовления жёлтой краски).</blockquote>
 	</card>
 	<card>
 		<k>нарушения</k>
-		<blockquote>р. разг.</blockquote>
-		<blockquote>1. закон о нарушении устава сельскохозяйственной артели;</blockquote>
-		<blockquote>ал вакта нарушения жок экен <p>южн.</p> в то время закона о нарушении не
-               было;</blockquote>
-		<blockquote>2. нарушение устава сельскохозяйственной артели.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<meaning>
+			<blockquote>закон о нарушении устава сельскохозяйственной артели;</blockquote>
+			<blockquote>ал вакта нарушения жок экен южн. в то время закона о нарушении не было;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>нарушение устава сельскохозяйственной артели.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нарча</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>молодой одногорбый верблюд;</blockquote>
-		<blockquote>байгесинин башына тогуз нарча төө сайды стих. первым призом он поставил
-               девять молодых одногорбых верблюдов.</blockquote>
+		<ex>
+			<source>байгесинин башына тогуз нарча төө сайды стих.</source>
+			<target>первым призом он поставил девять молодых одногорбых верблюдов.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нары</k>
-		<blockquote>нары I</blockquote>
-		<blockquote>то же, что ары I;</blockquote>
-		<blockquote>жүр нарыга салып (сделав) кое-как, через пень колоду,
-               шаляй-валяй;</blockquote>
-		<blockquote>койчу нары! или кой нары! да ну тебя!, да брось ты!;</blockquote>
-		<blockquote>кой нары, карыганыңда калп айтпай да брось ты, не ври на старости
-               лет;</blockquote>
-		<blockquote>жогол нары! убирайся отсюда!;</blockquote>
-		<blockquote>нары салса, сыр айтпайт, бери салса, чын айтпайт туда повернёшь - он секрета
-               не говорит, сюда повернёшь - он правды не говорит;</blockquote>
-		<blockquote>бүткүл күчү менен аны ичтен нары тээп калды он изо всей силы ударил ногой в
-               живот;</blockquote>
-		<blockquote>мурундан нары муштап калды он ударил кулаком по носу.</blockquote>
-		<blockquote>нары II</blockquote>
-		<blockquote>то же, что ары II;</blockquote>
-		<blockquote>нары балбан, нары шер он и силач, он и лев (храбрец);</blockquote>
-		<blockquote>нары жалгыз, нары жаш он и одинок, и молод;</blockquote>
-		<blockquote>нары жалганчы, нары зөөкүр он и враль, и хулиган.</blockquote>
+		<homonym>
+			<sameas word="ары" index="1"/>
+			<blockquote>жүр нарыга салып (сделав) кое-как, через пень колоду, шаляй-валяй;</blockquote>
+			<blockquote>койчу нары! или кой нары! да ну тебя!, да брось ты!;</blockquote>
+			<blockquote>кой нары, карыганыңда калп айтпай да брось ты, не ври на старости лет;</blockquote>
+			<blockquote>жогол нары! убирайся отсюда!;</blockquote>
+			<blockquote>нары салса, сыр айтпайт, бери салса, чын айтпайт туда повернёшь - он секрета не говорит, сюда повернёшь - он правды не говорит;</blockquote>
+			<blockquote>бүткүл күчү менен аны ичтен нары тээп калды он изо всей силы ударил ногой в живот;</blockquote>
+			<blockquote>мурундан нары муштап калды он ударил кулаком по носу.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="ары" index="2"/>
+			<blockquote>нары балбан, нары шер он и силач, он и лев (храбрец);</blockquote>
+			<blockquote>нары жалгыз, нары жаш он и одинок, и молод;</blockquote>
+			<blockquote>нары жалганчы, нары зөөкүр он и враль, и хулиган.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нарык</k>
-		<blockquote>то же, что нарк I.</blockquote>
+		<sameas word="нарк" index="1"/>
 	</card>
 	<card>
 		<k>нарыла-</k>
-		<blockquote>то же, что арыла-;</blockquote>
+		<sameas word="арыла"/>
 		<blockquote>иш карылап кетти дело затянулось;</blockquote>
-		<blockquote>улам нарылап отуруп, көрүнбөй калды он, всё удаляясь, скрылся из
-               виду.</blockquote>
+		<blockquote>улам нарылап отуруп, көрүнбөй калды он, всё удаляясь, скрылся из виду.</blockquote>
 	</card>
 	<card>
 		<k>нарын</k>
-		<blockquote>1. кушанье, состоящее из мелко нарезанного варёного мяса, слегка политого
-               бульоном;</blockquote>
-		<blockquote>этин салып бышырып, чоң казандан түшүрүп, туурап нарын коюшуп, аябастан
-               тоюшуп <p>фольк.</p> положив мясо (в котёл), сварив, вынув из большого котла, нарезав,
-               сделав нарын, они как следует насытились;</blockquote>
-		<blockquote>2. <p>южн.</p> то же, что беш бармак (см. бармак).</blockquote>
+		<meaning>
+			<blockquote>кушанье, состоящее из мелко нарезанного варёного мяса, слегка политого бульоном;</blockquote>
+			<ex>
+				<source>этин салып бышырып, чоң казандан түшүрүп, туурап нарын коюшуп, аябастан тоюшуп фольк.</source>
+				<target>положив мясо (в котёл), сварив, вынув из большого котла, нарезав, сделав нарын, они как следует насытились;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>то же, что беш бармак (см. бармак).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нарыста</k>
-		<blockquote>то же, что арыста;</blockquote>
+		<sameas word="арыста"/>
 		<blockquote>нарыста бала несмышлёное дитя.</blockquote>
 	</card>
 	<card>
 		<k>наряд</k>
 		<blockquote>наряд (на производстве, военный и т.п.);</blockquote>
-		<blockquote>эртең иштеле турган иштердин нарядын берди он дал наряд на работу, которую
-               следует выполнить завтра.</blockquote>
+		<blockquote>эртең иштеле турган иштердин нарядын берди он дал наряд на работу, которую следует выполнить завтра.</blockquote>
 	</card>
 	<card>
 		<k>нарядчик</k>
-		<blockquote>нарядчик.</blockquote>
+		<trn>нарядчик</trn>
 	</card>
 	<card>
 		<k>нас</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>1. то же, что насыбай;</blockquote>
-		<blockquote>2. перен. (обращение к детям) грязнуля;</blockquote>
-		<blockquote>насым, ий! ах ты, мой грязненький!</blockquote>
+		<meta>южн.</meta>
+		<meaning>
+			<sameas word="насыбай"/>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>(обращение к детям) грязнуля;</blockquote>
+			<blockquote>насым, ий! ах ты, мой грязненький!</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>насаат</k>
-		<blockquote>то же, что насият.</blockquote>
+		<sameas word="насият"/>
 	</card>
 	<card>
 		<k>насак</k>
-		<blockquote>ир.-кирг. <p>южн.</p>
-		</blockquote>
+		<origin>ир.-кирг.</origin>
+		<meta>южн.</meta>
 		<blockquote>больной, нездоровый.</blockquote>
 	</card>
 	<card>
 		<k>насибе</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>то же, что насип.</blockquote>
+		<origin>ар.</origin>
+		<sameas word="насип"/>
 	</card>
 	<card>
 		<k>насил</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>(о людях) род, порода, происхождение;</blockquote>
 		<blockquote>насилдери менен байланыштуу они связаны своим происхождением;</blockquote>
-		<blockquote>манап насилинен из манапского (см. манап) рода, манапского
-               происхождения;</blockquote>
-		<blockquote>ургаачы экен насилим стих. я ведь женщина (букв. я ведь женской
-               породы);</blockquote>
+		<blockquote>манап насилинен из манапского (см. манап) рода, манапского происхождения;</blockquote>
+		<ex>
+			<source>ургаачы экен насилим стих.</source>
+			<target>я ведь женщина (букв. я ведь женской породы);</target>
+		</ex>
 		<blockquote>насил орундуу сөз вообще (это) дельное слово, дельная речь.</blockquote>
 	</card>
 	<card>
@@ -1370,95 +1547,88 @@
 	</card>
 	<card>
 		<k>насип</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. то, что предопределено судьбой; судьба, доля;</blockquote>
-		<blockquote>насип болсо если суждено, если удастся;</blockquote>
-		<blockquote>насип болду удалось, посчастливилось;</blockquote>
-		<blockquote>насип айдап келди или насип буюрду так уж судьбе угодно было, так уж
-               суждено;</blockquote>
-		<blockquote>2. перен. пища, яства и питьё;</blockquote>
-		<blockquote>тасторкон насипке бай: боорсок, кант, өрүк төгүлдү стол (см. тасторкон)
-               богат яствами: баурсаки (см. боорсок), сахар, урюк насыпаны;</blockquote>
-		<blockquote>үй-бүлө, ойноп-күлүп, эртең мененки насипке олтурушат семья весело садится
-               за завтрак;</blockquote>
-		<blockquote>буюрган насиптен ооз тийип чык закуси чем бог послал.</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>то, что предопределено судьбой; судьба, доля;</blockquote>
+			<blockquote>насип болсо если суждено, если удастся;</blockquote>
+			<blockquote>насип болду удалось, посчастливилось;</blockquote>
+			<blockquote>насип айдап келди или насип буюрду так уж судьбе угодно было, так уж суждено;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>пища, яства и питьё;</blockquote>
+			<blockquote>тасторкон насипке бай: боорсок, кант, өрүк төгүлдү стол (см. тасторкон) богат яствами: баурсаки (см. боорсок), сахар, урюк насыпаны;</blockquote>
+			<blockquote>үй-бүлө, ойноп-күлүп, эртең мененки насипке олтурушат семья весело садится за завтрак;</blockquote>
+			<blockquote>буюрган насиптен ооз тийип чык закуси чем бог послал.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>насия</k>
-		<blockquote>то же, что насыя.</blockquote>
+		<sameas word="насыя"/>
 	</card>
 	<card>
 		<k>насиялуу</k>
-		<blockquote>то же, что насыялуу.</blockquote>
+		<sameas word="насыялуу"/>
 	</card>
 	<card>
 		<k>насият</k>
-		<blockquote>то же, что насыят.</blockquote>
+		<sameas word="насыят"/>
 	</card>
 	<card>
 		<k>насос</k>
-		<blockquote>насос.</blockquote>
+		<trn>насос</trn>
 	</card>
 	<card>
 		<k>наспай</k>
-		<blockquote>см. насыбай.</blockquote>
+		<look word="насыбай"/>
 	</card>
 	<card>
 		<k>насти</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что маасы.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="маасы"/>
 	</card>
 	<card>
 		<k>насыбай</k>
-		<blockquote>(или наспай, асмай)</blockquote>
-		<blockquote>насвай (табак специального приготовления для закладывания под язык или за
-               нижнюю губу);</blockquote>
-		<blockquote>насыбай ат- или насыбай тарт- или насыбай чек- закладывать насвай,
-               употреблять насвай;</blockquote>
-		<blockquote>бир атым насыбай или бир тартым насыбай насвай на одну
-               закладку;</blockquote>
-		<blockquote>насыбай аттыр- угостить насваем (соотв. русскому дать
-               покурить);</blockquote>
-		<blockquote>наспайың аттырып кой дай-ка мне на закладку насваю, угости-ка меня
-               насваем;</blockquote>
-		<blockquote>насыбайдай сагындырдың я сильно скучаю по тебе (букв. ты заставила меня
-               скучать по тебе, как по насваю);</blockquote>
-		<blockquote>наспай тартым пять-шесть минут, немного времени (букв. время, достаточное,
-               чтобы подержать во рту насвай и выплюнуть);</blockquote>
-		<blockquote>наспай тартым сайышып, коркуп калган белемсиң <p>фольк.</p> ты чуть повоевал и,
-               видимо, уже испугался;</blockquote>
-		<blockquote>насыбай атар время перед рассветом (когда просыпались, чтобы сделать
-               закладку насвая).</blockquote>
+		<meta>(или наспай, асмай)</meta>
+		<blockquote>насвай (табак специального приготовления для закладывания под язык или за нижнюю губу);</blockquote>
+		<blockquote>насыбай ат- или насыбай тарт- или насыбай чек- закладывать насвай, употреблять насвай;</blockquote>
+		<blockquote>бир атым насыбай или бир тартым насыбай насвай на одну закладку;</blockquote>
+		<blockquote>насыбай аттыр- угостить насваем (соотв. русскому дать покурить);</blockquote>
+		<blockquote>наспайың аттырып кой дай-ка мне на закладку насваю, угости-ка меня насваем;</blockquote>
+		<blockquote>насыбайдай сагындырдың я сильно скучаю по тебе (букв. ты заставила меня скучать по тебе, как по насваю);</blockquote>
+		<blockquote>наспай тартым пять-шесть минут, немного времени (букв. время, достаточное, чтобы подержать во рту насвай и выплюнуть);</blockquote>
+		<ex>
+			<source>наспай тартым сайышып, коркуп калган белемсиң фольк.</source>
+			<target>ты чуть повоевал и, видимо, уже испугался;</target>
+		</ex>
+		<blockquote>насыбай атар время перед рассветом (когда просыпались, чтобы сделать закладку насвая).</blockquote>
 	</card>
 	<card>
 		<k>насыбайчы</k>
 		<blockquote>насвайщик (человек, употребляющий насыбай, см.);</blockquote>
-		<blockquote>насыбайчынын үйү - какырык менен түкүрүк погов. дом насвайщика - одни
-               плевки.</blockquote>
+		<ex>
+			<source>насыбайчынын үйү - какырык менен түкүрүк погов.</source>
+			<target>дом насвайщика - одни плевки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>насыл</k>
-		<blockquote>то же, что насил.</blockquote>
+		<sameas word="насил"/>
 	</card>
 	<card>
 		<k>насып</k>
-		<blockquote>то же, что насип.</blockquote>
+		<sameas word="насип"/>
 	</card>
 	<card>
 		<k>насыя</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>кредит, долг (гл. обр. за товары);</blockquote>
 		<blockquote>насыяга бер- отдать в уплату долга (за купленное);</blockquote>
 		<blockquote>насыяга сат- продавать в кредит;</blockquote>
 		<blockquote>насыя өндүр- собирать долги, получать долги;</blockquote>
-		<blockquote>насыя таяк или насыя токмок наказание авансом, чтоб впредь неповадно было
-               (букв. палка в кредит);</blockquote>
-		<blockquote>насыя таяк (или токмок) жеп атат его бьют авансом (не за то, что совершил, а
-               за то, что, может быть, совершит);</blockquote>
-		<blockquote>насыя жаза тарт- получить незаслуженное наказание, оказаться без вины
-               виноватым;</blockquote>
+		<blockquote>насыя таяк или насыя токмок наказание авансом, чтоб впредь неповадно было (букв. палка в кредит);</blockquote>
+		<blockquote>насыя таяк (или токмок) жеп атат его бьют авансом (не за то, что совершил, а за то, что, может быть, совершит);</blockquote>
+		<blockquote>насыя жаза тарт- получить незаслуженное наказание, оказаться без вины виноватым;</blockquote>
 		<blockquote>насыя-пасыя должишки, какой-нибудь долг, всякие там долги.</blockquote>
 	</card>
 	<card>
@@ -1471,18 +1641,22 @@
 	</card>
 	<card>
 		<k>насыят</k>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. наставление, добрый совет, назидание, нравоучение, поучение;</blockquote>
-		<blockquote>насыят айт-</blockquote>
-		<blockquote>1) делать наставления, наставлять;</blockquote>
-		<blockquote>2) выражать соболезнование родственникам умершего, успокаивая
-               их;</blockquote>
-		<blockquote>акыл-насыят айт- учить уму-разуму, давать добрый совет;</blockquote>
-		<blockquote>2. лит. насыят (поэма дидактического содержания).</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>наставление, добрый совет, назидание, нравоучение, поучение;</blockquote>
+			<blockquote>насыят айт-</blockquote>
+			<blockquote>1) делать наставления, наставлять;</blockquote>
+			<blockquote>2) выражать соболезнование родственникам умершего, успокаивая их;</blockquote>
+			<blockquote>акыл-насыят айт- учить уму-разуму, давать добрый совет;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>лит.</meta>
+			<blockquote>насыят (поэма дидактического содержания).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>насыятчы</k>
-		<blockquote>уст.</blockquote>
+		<meta>уст.</meta>
 		<blockquote>агитатор.</blockquote>
 	</card>
 	<card>
@@ -1491,15 +1665,17 @@
 	</card>
 	<card>
 		<k>натова</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>проклятие;</blockquote>
-		<blockquote>экөвүздү кошпогон табийгатка натова <p>фольк.</p> проклятие природе, которая не
-               соединила нас двоих.</blockquote>
+		<ex>
+			<source>экөвүздү кошпогон табийгатка натова фольк.</source>
+			<target>проклятие природе, которая не соединила нас двоих.</target>
+		</ex>
 	</card>
 	<card>
 		<k>натрий</k>
-		<blockquote>натрий.</blockquote>
+		<trn>натрий</trn>
 	</card>
 	<card>
 		<k>натрийлүү</k>
@@ -1508,20 +1684,22 @@
 	</card>
 	<card>
 		<k>натура</k>
-		<blockquote>в разн. знач. натура;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>натура</trn>
 		<blockquote>натура акысы ист. натуроплата;</blockquote>
 		<blockquote>натурадан тартылган сүрөт картина, нарисованная с натуры.</blockquote>
 	</card>
 	<card>
 		<k>натуралдык</k>
-		<blockquote>в разн. знач. натуральный;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>натуральный</trn>
 		<blockquote>натуралдык чоңдукта в натуральную величину;</blockquote>
-		<blockquote>натуралдык азык-түлүк налогу ист. натуральный продовольственный
-               налог.</blockquote>
+		<blockquote>натуралдык азык-түлүк налогу ист. натуральный продовольственный налог.</blockquote>
 	</card>
 	<card>
 		<k>натуралист</k>
-		<blockquote>в разн. знач. натуралист.</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>натуралист</trn>
 	</card>
 	<card>
 		<k>натуралисттик</k>
@@ -1529,21 +1707,23 @@
 	</card>
 	<card>
 		<k>натуура</k>
-		<blockquote>ир.-кирг.</blockquote>
-		<blockquote>1. неправильно;</blockquote>
-		<blockquote>натуура түшүнүшүп неправильно поняв;</blockquote>
-		<blockquote>2. незаконно;</blockquote>
-		<blockquote>натуура жол менен неправильным, незаконным путём.</blockquote>
+		<origin>ир.-кирг.</origin>
+		<meaning>
+			<blockquote>неправильно;</blockquote>
+			<blockquote>натуура түшүнүшүп неправильно поняв;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>незаконно;</blockquote>
+			<blockquote>натуура жол менен неправильным, незаконным путём.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>натыйжа</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>результат;</blockquote>
 		<blockquote>натыйжасы кандай болду? каков результат?</blockquote>
-		<blockquote>өч бир натыйжа чыкпады никакого (положительного) результата не
-               получилось;</blockquote>
-		<blockquote>кеп иштин башталышында эмес, натыйжасында конец - делу венец; конец дело
-               красит; дело не в начале, а в результате.</blockquote>
+		<blockquote>өч бир натыйжа чыкпады никакого (положительного) результата не получилось;</blockquote>
+		<blockquote>кеп иштин башталышында эмес, натыйжасында конец - делу венец; конец дело красит; дело не в начале, а в результате.</blockquote>
 	</card>
 	<card>
 		<k>натыйжалуу</k>
@@ -1553,8 +1733,7 @@
 	<card>
 		<k>натыйжасыз</k>
 		<blockquote>без результата, безрезультатный;</blockquote>
-		<blockquote>натыйжасыз калтыр- оставить без результата, оставить без
-               последствий.</blockquote>
+		<blockquote>натыйжасыз калтыр- оставить без результата, оставить без последствий.</blockquote>
 	</card>
 	<card>
 		<k>натыйжасыздык</k>
@@ -1563,28 +1742,26 @@
 	<card>
 		<k>наушник</k>
 		<blockquote>радио</blockquote>
-		<blockquote>наушник;</blockquote>
+		<trn>наушник</trn>
 		<blockquote>наушниктерди баштарына кийди они надели наушники.</blockquote>
 	</card>
 	<card>
 		<k>нафил</k>
-		<blockquote>то же, что напил.</blockquote>
+		<sameas word="напил"/>
 	</card>
 	<card>
 		<k>нафталин</k>
-		<blockquote>нафталин;</blockquote>
+		<trn>нафталин</trn>
 		<blockquote>нафталиндин жыты запах нафталина.</blockquote>
 	</card>
 	<card>
 		<k>нахаң</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что лахаң.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="лахаң"/>
 	</card>
 	<card>
 		<k>национализация</k>
-		<blockquote>национализация.</blockquote>
+		<trn>национализация</trn>
 	</card>
 	<card>
 		<k>национализацияла-</k>
@@ -1592,12 +1769,12 @@
 	</card>
 	<card>
 		<k>национализациялоо</k>
-		<blockquote>и. д. от национализацияла-</blockquote>
+		<actionNoun word="национализацияла"/>
 		<blockquote>национализирование.</blockquote>
 	</card>
 	<card>
 		<k>нацист</k>
-		<blockquote>нацист.</blockquote>
+		<trn>нацист</trn>
 	</card>
 	<card>
 		<k>нацисттик</k>
@@ -1605,7 +1782,7 @@
 	</card>
 	<card>
 		<k>начальник</k>
-		<blockquote>начальник;</blockquote>
+		<trn>начальник</trn>
 		<blockquote>станция начальниги начальник станции;</blockquote>
 		<blockquote>милиция начальниги начальник милиции.</blockquote>
 	</card>
@@ -1616,18 +1793,18 @@
 	<card>
 		<k>начандик,</k>
 		<blockquote>начандик, начанлик</blockquote>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что начальник;</blockquote>
+		<meta>разг.</meta>
+		<sameas word="начальник"/>
 		<blockquote>начандиктин милдети обязанности начальника.</blockquote>
 	</card>
 	<card>
 		<k>начандиктик</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что начальниктик.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="начальниктик"/>
 	</card>
 	<card>
 		<k>начар</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>слабый, немощный; плохой;</blockquote>
 		<blockquote>начар өнүккөн өлкөлөр слаборазвитые страны;</blockquote>
 		<blockquote>ден соолугу начар у него плохое здоровье;</blockquote>
@@ -1635,59 +1812,67 @@
 	</card>
 	<card>
 		<k>начарла-</k>
-		<blockquote>то же, что начарлан-.</blockquote>
+		<sameas word="начарлан"/>
 	</card>
 	<card>
 		<k>начарлан-</k>
-		<blockquote>возвр. от начарла-</blockquote>
+		<refv word="начарла"/>
 		<blockquote>слабеть; ухудшаться.</blockquote>
 	</card>
 	<card>
 		<k>начарлант-</k>
-		<blockquote>понуд. от начарлан-</blockquote>
+		<caus word="начарлан"/>
 		<blockquote>ослаблять; ухудшать.</blockquote>
 	</card>
 	<card>
 		<k>начарлантуу</k>
-		<blockquote>и. д. от начарлант-</blockquote>
+		<actionNoun word="начарлант"/>
 		<blockquote>ослабление; ухудшение;</blockquote>
 		<blockquote>сапатын начарлантуу ухудшение качества.</blockquote>
 	</card>
 	<card>
 		<k>начарлануу</k>
-		<blockquote>и. д. от начарлан-</blockquote>
+		<actionNoun word="начарлан"/>
 		<blockquote>ослабевание; ухудшение.</blockquote>
 	</card>
 	<card>
 		<k>начарлат-</k>
-		<blockquote>понуд. от начарла-.</blockquote>
+		<caus word="начарла"/>
 	</card>
 	<card>
 		<k>начарлатуу</k>
-		<blockquote>и. д. от начарлат-</blockquote>
+		<actionNoun word="начарлат"/>
 		<blockquote>ослабление; ухудшение.</blockquote>
 	</card>
 	<card>
 		<k>начарлоо</k>
-		<blockquote>и. д. от начарла-;</blockquote>
-		<blockquote>абалым сенсиз күн сайын начарлоодо моё состояние без тебя с каждым днём
-               ухудшается.</blockquote>
+		<actionNoun word="начарла"/>
+		<blockquote>абалым сенсиз күн сайын начарлоодо моё состояние без тебя с каждым днём ухудшается.</blockquote>
 	</card>
 	<card>
 		<k>начендик</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что начальник.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="начальник"/>
 	</card>
 	<card>
 		<k>наша,</k>
 		<blockquote>наша, нашаа</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. <p>южн.</p> конопля;</blockquote>
-		<blockquote>2. анаша, гашиш (наркотик, приготовляемый из индийской
-               конопли);</blockquote>
-		<blockquote>3. перен. удовольствие;</blockquote>
-		<blockquote>болбоду байлык нашаасы, ууру кылып жан сактап стих. не получилось радости от
-               богатства, нажитого воровством.</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>конопля;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>анаша, гашиш (наркотик, приготовляемый из индийской конопли);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>удовольствие;</blockquote>
+			<ex>
+				<source>болбоду байлык нашаасы, ууру кылып жан сактап стих.</source>
+				<target>не получилось радости от богатства, нажитого воровством.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>нашаачы</k>
@@ -1697,84 +1882,82 @@
 	<card>
 		<k>нашват,</k>
 		<blockquote>нашват, нашпурт</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>название сорта груш.</blockquote>
 	</card>
 	<card>
 		<k>нашта</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что нанушта.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="нанушта"/>
 	</card>
 	<card>
 		<k>наштар</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>ланцет (употребляемый гл. обр. для кровопускания);</blockquote>
-		<blockquote>наштар менен чегип, сары сууларын агызам проколов ланцетом, я выпущу у него
-               сукровицу.</blockquote>
+		<blockquote>наштар менен чегип, сары сууларын агызам проколов ланцетом, я выпущу у него сукровицу.</blockquote>
 	</card>
 	<card>
 		<k>не</k>
-		<blockquote>не I</blockquote>
-		<blockquote>то же, что эмне;</blockquote>
-		<blockquote>не үчүн? зачем?, почему?</blockquote>
-		<blockquote>душман не дебейт, түшкө не кирбейт! погов. враг чего не скажет, во сне что
-               (только) не приснится!;</blockquote>
-		<blockquote>не болду? что случилось?</blockquote>
-		<blockquote>келдик не, келбедик не а что из того, пришли мы или не пришли?</blockquote>
-		<blockquote>болору болгондон кийин сүйлөдү не, сүйдөбөдү не! что из того, говорил он или
-               не говорил, когда уже всё закончилось!;</blockquote>
-		<blockquote>бири кетти, неси калды погов. лиха беда начало (букв. один прошёл, что там
-               осталось? говорится о первом дне поста);</blockquote>
-		<blockquote>айтпай турган неси бар? а что же тут такого, чего нельзя было бы сказать?, а
-               почему этого и не сказать?</blockquote>
-		<blockquote>неси болсо да что бы там ни было, что ни говори, но...;</blockquote>
-		<blockquote>неси болсо да, көрө жаталы что бы там ни было, посмотрим;</blockquote>
-		<blockquote>неси болсо да, мына беш күндөн бери ал жорткон сыңары дайынсыз как бы там ни
-               было, а он вот уж пять дней, как ветер, в нетях;</blockquote>
-		<blockquote>несине күлөсүңөр? чему вы смеётесь? что в этом смешного?</blockquote>
-		<blockquote>жүргөн журтта нелер жок у живых людей чего только не бывает;</blockquote>
-		<blockquote>нелер келип, не кетпейт эр жигиттин башына! чего только не случается с
-               молодцем! (всякое в молодой жизни бывает);</blockquote>
-		<blockquote>нелер бар да, нелер жок всякое есть, чего только нет;</blockquote>
-		<blockquote>Каркыранын түзүндө нелер бар да, нелер жок! <p>фольк.</p> в Каркаринской долине
-               чего только нет!;</blockquote>
-		<blockquote>көз не бир укмуштарды көрөт! какого только дива не увидит
-               глаз!;</blockquote>
-		<blockquote>көркүнө теңдеше албас кооз гүлдөр, не бир сыр, не бир аруу назик түрлөр!
-               стих. несравненные по красоте цветы, что за окраска, что за изящная
-               форма!;</blockquote>
-		<blockquote>не бир (или небир) особый, отменный, выдающийся;</blockquote>
-		<blockquote>не бир кыйын окумуштуулар выдающиеся учёные;</blockquote>
-		<blockquote>не бир жалгыз эр какой единственный в своём роде славный молодец! (ещё см.
-               непир);</blockquote>
-		<blockquote>не бара жок на всякий случай; не ровён час;</blockquote>
-		<blockquote>ненин сөзү? какие разговоры?, о чём разговоры?</blockquote>
-		<blockquote>не II:</blockquote>
-		<blockquote>не..., не... или..., или..., не то..., не то...;</blockquote>
-		<blockquote>ал кезде не жыйырма, не жыйырма бирдеги курагым мне тогда было не то
-               двадцать, не то двадцать один год (точно не помню);</blockquote>
-		<blockquote>не он бирде, не он экидемин мне (было) не то одиннадцать, не то двенадцать
-               (лет).</blockquote>
-		<blockquote>не III</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>не..., не..., ни..., ни...;</blockquote>
-		<blockquote>биздин тилибиз не тажик эмес, не кыргыз эмес наш язык ни таджикский, ни
-               киргизский (смешанный).</blockquote>
+		<homonym>
+			<sameas word="эмне"/>
+			<blockquote>не үчүн? зачем?, почему?</blockquote>
+			<ex>
+				<source>душман не дебейт, түшкө не кирбейт! погов.</source>
+				<target>враг чего не скажет, во сне что (только) не приснится!;</target>
+			</ex>
+			<blockquote>не болду? что случилось?</blockquote>
+			<blockquote>келдик не, келбедик не а что из того, пришли мы или не пришли?</blockquote>
+			<blockquote>болору болгондон кийин сүйлөдү не, сүйдөбөдү не! что из того, говорил он или не говорил, когда уже всё закончилось!;</blockquote>
+			<ex>
+				<source>бири кетти, неси калды погов.</source>
+				<target>лиха беда начало (букв. один прошёл, что там осталось? говорится о первом дне поста);</target>
+			</ex>
+			<blockquote>айтпай турган неси бар? а что же тут такого, чего нельзя было бы сказать?, а почему этого и не сказать?</blockquote>
+			<blockquote>неси болсо да что бы там ни было, что ни говори, но...;</blockquote>
+			<blockquote>неси болсо да, көрө жаталы что бы там ни было, посмотрим;</blockquote>
+			<blockquote>неси болсо да, мына беш күндөн бери ал жорткон сыңары дайынсыз как бы там ни было, а он вот уж пять дней, как ветер, в нетях;</blockquote>
+			<blockquote>несине күлөсүңөр? чему вы смеётесь? что в этом смешного?</blockquote>
+			<blockquote>жүргөн журтта нелер жок у живых людей чего только не бывает;</blockquote>
+			<blockquote>нелер келип, не кетпейт эр жигиттин башына! чего только не случается с молодцем! (всякое в молодой жизни бывает);</blockquote>
+			<blockquote>нелер бар да, нелер жок всякое есть, чего только нет;</blockquote>
+			<ex>
+				<source>Каркыранын түзүндө нелер бар да, нелер жок! фольк.</source>
+				<target>в Каркаринской долине чего только нет!;</target>
+			</ex>
+			<blockquote>көз не бир укмуштарды көрөт! какого только дива не увидит глаз!;</blockquote>
+			<ex>
+				<source>көркүнө теңдеше албас кооз гүлдөр, не бир сыр, не бир аруу назик түрлөр! стих.</source>
+				<target>несравненные по красоте цветы, что за окраска, что за изящная форма!;</target>
+			</ex>
+			<blockquote>не бир (или небир) особый, отменный, выдающийся;</blockquote>
+			<blockquote>не бир кыйын окумуштуулар выдающиеся учёные;</blockquote>
+			<blockquote>не бир жалгыз эр какой единственный в своём роде славный молодец! (ещё см. непир);</blockquote>
+			<blockquote>не бара жок на всякий случай; не ровён час;</blockquote>
+			<blockquote>ненин сөзү? какие разговоры?, о чём разговоры?</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>не II:</blockquote>
+			<blockquote>не..., не... или..., или..., не то..., не то...;</blockquote>
+			<blockquote>ал кезде не жыйырма, не жыйырма бирдеги курагым мне тогда было не то двадцать, не то двадцать один год (точно не помню);</blockquote>
+			<blockquote>не он бирде, не он экидемин мне (было) не то одиннадцать, не то двенадцать (лет).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<blockquote>не..., не..., ни..., ни...;</blockquote>
+			<blockquote>биздин тилибиз не тажик эмес, не кыргыз эмес наш язык ни таджикский, ни киргизский (смешанный).</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>небак</k>
-		<blockquote>то же, что эбак;</blockquote>
+		<sameas word="эбак"/>
 		<blockquote>жашы отуздан небак ашкан ему давно уже за тридцать;</blockquote>
-		<blockquote>көчөнү көлдөлөң тосуп, эл небак чогулган народ давно уже собрался,
-               перегородив собой улицу.</blockquote>
+		<blockquote>көчөнү көлдөлөң тосуп, эл небак чогулган народ давно уже собрался, перегородив собой улицу.</blockquote>
 	</card>
 	<card>
 		<k>небере</k>
-		<blockquote>то же, что небире.</blockquote>
+		<sameas word="небире"/>
 	</card>
 	<card>
 		<k>небир</k>
@@ -1787,7 +1970,7 @@
 	</card>
 	<card>
 		<k>негайбыл</k>
-		<blockquote>см. нагайбыл.</blockquote>
+		<look word="нагайбыл"/>
 	</card>
 	<card>
 		<k>неге</k>
@@ -1813,22 +1996,21 @@
 	<card>
 		<k>негизде-</k>
 		<blockquote>основать, укрепить; обосновать;</blockquote>
-		<blockquote>өзүнүн сөзүн дурустап негиздей алган жок он не мог толком обосновать свои
-               слова.</blockquote>
+		<blockquote>өзүнүн сөзүн дурустап негиздей алган жок он не мог толком обосновать свои слова.</blockquote>
 	</card>
 	<card>
 		<k>негиздел-</k>
-		<blockquote>страд. от негизде-</blockquote>
+		<pass word="негизде"/>
 		<blockquote>основываться, укрепляться; быть обоснованным;</blockquote>
 		<blockquote>фактыларга негизделген корутунду вывод, основанный на фактах.</blockquote>
 	</card>
 	<card>
 		<k>негизден-</k>
-		<blockquote>возвр. от негизде-.</blockquote>
+		<refv word="негизде"/>
 	</card>
 	<card>
 		<k>негиздет-</k>
-		<blockquote>понуд. от негизде-</blockquote>
+		<caus word="негизде"/>
 		<blockquote>заставить основать, заставить укрепить; заставить обосновать.</blockquote>
 	</card>
 	<card>
@@ -1838,7 +2020,7 @@
 	</card>
 	<card>
 		<k>негиздөө</k>
-		<blockquote>и. д. от негизде-</blockquote>
+		<actionNoun word="негизде"/>
 		<blockquote>основание; обоснование;</blockquote>
 		<blockquote>фактыларга негиздөө обоснование фактами.</blockquote>
 	</card>
@@ -1856,24 +2038,28 @@
 	</card>
 	<card>
 		<k>недайымке</k>
-		<blockquote>р. ист.</blockquote>
+		<origin>р.</origin>
+		<meta>ист.</meta>
 		<blockquote>недоимка.</blockquote>
 	</card>
 	<card>
 		<k>неден</k>
-		<blockquote>сев.</blockquote>
+		<meta>сев.</meta>
 		<blockquote>почему, по какой причине;</blockquote>
-		<blockquote>Текесте бекер мал болсо, неден келдиң энтелеп? стих. если на Текесе есть
-               даровой скот, почему ты поспешил сюда? (ну и жил бы себе там).</blockquote>
+		<ex>
+			<source>Текесте бекер мал болсо, неден келдиң энтелеп? стих.</source>
+			<target>если на Текесе есть даровой скот, почему ты поспешил сюда? (ну и жил бы себе там).</target>
+		</ex>
 	</card>
 	<card>
 		<k>нез</k>
-		<blockquote>см. эз I;</blockquote>
+		<look word="эз" index="1"/>
 		<blockquote>нез бол- растеряться, оторопеть, стать невменяемым;</blockquote>
-		<blockquote>көптүгүн көрүп бул элдин, эстен танып, нез болду стих. увидев, что народ
-               этот столь многочислен, он потерял рассудок, оторопел;</blockquote>
-		<blockquote>сүйүнгөнүнө чыдабай, нез өңдөнө түштү несказанно радуясь, он вдруг стал как
-               невменяемый.</blockquote>
+		<ex>
+			<source>көптүгүн көрүп бул элдин, эстен танып, нез болду стих.</source>
+			<target>увидев, что народ этот столь многочислен, он потерял рассудок, оторопел;</target>
+		</ex>
+		<blockquote>сүйүнгөнүнө чыдабай, нез өңдөнө түштү несказанно радуясь, он вдруг стал как невменяемый.</blockquote>
 	</card>
 	<card>
 		<k>нейтралдаштыр-</k>
@@ -1889,68 +2075,75 @@
 	</card>
 	<card>
 		<k>нейтралитет</k>
-		<blockquote>нейтралитет.</blockquote>
+		<trn>нейтралитет</trn>
 	</card>
 	<card>
 		<k>некролог</k>
-		<blockquote>некролог.</blockquote>
+		<trn>некролог</trn>
 	</card>
 	<card>
 		<k>неликтен</k>
 		<blockquote>почему, по какой причине;</blockquote>
-		<blockquote>неликтен ак алтын териминде токсону жигит, тогуз кыз эмес? стих. почему на
-               сборе белого золота не девяносто парней и девять девушек? (т.е. почему парней так
-               мало?);</blockquote>
-		<blockquote>неликтен келди ачууңуз? <p>фольк.</p> почему вы разгневались?</blockquote>
+		<ex>
+			<source>неликтен ак алтын териминде токсону жигит, тогуз кыз эмес? стих.</source>
+			<target>почему на сборе белого золота не девяносто парней и девять девушек? (т.е. почему парней так мало?);</target>
+		</ex>
+		<ex>
+			<source>неликтен келди ачууңуз? фольк.</source>
+			<target>почему вы разгневались?</target>
+		</ex>
 	</card>
 	<card>
 		<k>неме</k>
-		<blockquote>1. что (в сочет. с бир и ар в фольклоре встречаются и разговорные формы:
-               неңке, деме, деңке);</blockquote>
-		<blockquote>бир неме нечто, некая вещь;</blockquote>
-		<blockquote>бир немең барбы? у тебя есть что-нибудь?</blockquote>
-		<blockquote>мурдунан күңкүлдөп, өзүнчө бир неңке деди он пробурчал что-то себе под
-               нос;</blockquote>
-		<blockquote>түк неме ничего, абсолютно нечего;</blockquote>
-		<blockquote>ар неме всякая вещь, всякая всячина;</blockquote>
-		<blockquote>ар немеге бир неме погов. всякой вещи своё нечто;</blockquote>
-		<blockquote>ар неңке бар есть всякая всячина;</blockquote>
-		<blockquote>2. редко кто;</blockquote>
-		<blockquote>немесин койбой чакырды он позвал всех их без исключения (букв. позвал, не
-               оставляя никакого кто);</blockquote>
-		<blockquote>эр көкүрөк неме он храбрый;</blockquote>
-		<blockquote>...деген неме некий, некто, нечто;</blockquote>
-		<blockquote>чет өлкөлүк разведканын агенти деген неме некий агент иностранной
-               разведки;</blockquote>
-		<blockquote>барып турган куу неме он хитрец из хитрецов;</blockquote>
-		<blockquote>ал иштин көзүн билген неме он (такой, что) тонко дело знает.</blockquote>
+		<meaning>
+			<blockquote>что (в сочет. с бир и ар в фольклоре встречаются и разговорные формы: неңке, деме, деңке);</blockquote>
+			<blockquote>бир неме нечто, некая вещь;</blockquote>
+			<blockquote>бир немең барбы? у тебя есть что-нибудь?</blockquote>
+			<blockquote>мурдунан күңкүлдөп, өзүнчө бир неңке деди он пробурчал что-то себе под нос;</blockquote>
+			<blockquote>түк неме ничего, абсолютно нечего;</blockquote>
+			<blockquote>ар неме всякая вещь, всякая всячина;</blockquote>
+			<ex>
+				<source>ар немеге бир неме погов.</source>
+				<target>всякой вещи своё нечто;</target>
+			</ex>
+			<blockquote>ар неңке бар есть всякая всячина;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>редко</meta>
+			<blockquote>кто;</blockquote>
+			<blockquote>немесин койбой чакырды он позвал всех их без исключения (букв. позвал, не оставляя никакого кто);</blockquote>
+			<blockquote>эр көкүрөк неме он храбрый;</blockquote>
+			<blockquote>...деген неме некий, некто, нечто;</blockquote>
+			<blockquote>чет өлкөлүк разведканын агенти деген неме некий агент иностранной разведки;</blockquote>
+			<blockquote>барып турган куу неме он хитрец из хитрецов;</blockquote>
+			<blockquote>ал иштин көзүн билген неме он (такой, что) тонко дело знает.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>немине</k>
-		<blockquote>(или немне)</blockquote>
-		<blockquote>то же, что эмне;</blockquote>
+		<meta>(или немне)</meta>
+		<sameas word="эмне"/>
 		<blockquote>неминеден капаң бар? чем ты огорчён?</blockquote>
 		<blockquote>алда немнеге таарынгансып как будто на что-то обидевшись.</blockquote>
 	</card>
 	<card>
 		<k>неңиз</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что негиз.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="негиз"/>
 	</card>
 	<card>
 		<k>неңке</k>
-		<blockquote>см. неме.</blockquote>
+		<look word="неме"/>
 	</card>
 	<card>
 		<k>непада</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>случайно;</blockquote>
-		<blockquote>непада келбей калса а если он вдруг не придёт?, а если против ожидания он не
-               придёт?</blockquote>
+		<blockquote>непада келбей калса а если он вдруг не придёт?, а если против ожидания он не придёт?</blockquote>
 	</card>
 	<card>
 		<k>непалам</k>
-		<blockquote>то же, что непада.</blockquote>
+		<sameas word="непада"/>
 	</card>
 	<card>
 		<k>непир</k>
@@ -1961,12 +2154,12 @@
 	<card>
 		<k>непит,</k>
 		<blockquote>непит, непти</blockquote>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что нефть.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="нефть"/>
 	</card>
 	<card>
 		<k>нерв</k>
-		<blockquote>нерв;</blockquote>
+		<trn>нерв</trn>
 		<blockquote>нервине тие бербе не трепли ему нервы;</blockquote>
 		<blockquote>нервилер нервы;</blockquote>
 		<blockquote>нервилери бузулган у него нервы расстроены, он нервный.</blockquote>
@@ -1974,25 +2167,24 @@
 	<card>
 		<k>нерсе</k>
 		<blockquote>вещь, предмет;</blockquote>
-		<blockquote>зарыл болгон нерселердин бардыгы бар есть все необходимые вещи, всё
-               необходимое имеется;</blockquote>
+		<blockquote>зарыл болгон нерселердин бардыгы бар есть все необходимые вещи, всё необходимое имеется;</blockquote>
 		<blockquote>бир нерсе алып келдиңби? ты что-нибудь принёс?</blockquote>
 		<blockquote>эч нерсени билбейт он ничего не знает;</blockquote>
 		<blockquote>эч нерседен коркпойт он ничего не боится.</blockquote>
 	</card>
 	<card>
 		<k>нес</k>
-		<blockquote>то же, что эз I.</blockquote>
+		<sameas word="эз" index="1"/>
 	</card>
 	<card>
 		<k>нестроевой</k>
-		<blockquote>воен.</blockquote>
-		<blockquote>нестроевой.</blockquote>
+		<meta>воен.</meta>
+		<trn>нестроевой</trn>
 	</card>
 	<card>
 		<k>нестыравой</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что нестроевой.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="нестроевой"/>
 	</card>
 	<card>
 		<k>нет-</k>
@@ -2001,21 +2193,24 @@
 		<blockquote>нетесиң? как ты поступишь? что ты сделаешь?, для чего тебе?</blockquote>
 		<blockquote>мында туруп нетели? к чему нам здесь стоять?</blockquote>
 		<blockquote>неттиңиз? что вы сделали?, как вы поступили?</blockquote>
-		<blockquote>дагы көргүн неткенин <p>фольк.</p> ты ещё посмотри, что он сделал;</blockquote>
-		<blockquote>балбандыгы эмей неткени? а если не его качество силача, так что же это?
-               (видно же, что он силач);</blockquote>
-		<blockquote>кыранга найза нетиптир <p>фольк.</p> он богатыря копьём "того" (ну, вот, как бы вам
-               сказать);</blockquote>
-		<blockquote>бүгүн үйдөн чыкпасаң нетет? а что случится, если ты сегодня из дома не
-               выйдешь?</blockquote>
+		<ex>
+			<source>дагы көргүн неткенин фольк.</source>
+			<target>ты ещё посмотри, что он сделал;</target>
+		</ex>
+		<blockquote>балбандыгы эмей неткени? а если не его качество силача, так что же это? (видно же, что он силач);</blockquote>
+		<ex>
+			<source>кыранга найза нетиптир фольк.</source>
+			<target>он богатыря копьём "того" (ну, вот, как бы вам сказать);</target>
+		</ex>
+		<blockquote>бүгүн үйдөн чыкпасаң нетет? а что случится, если ты сегодня из дома не выйдешь?</blockquote>
 	</card>
 	<card>
 		<k>нетиш-</k>
-		<blockquote>взаимн. от нет-.</blockquote>
+		<recv word="нет"/>
 	</card>
 	<card>
 		<k>нефтепровод</k>
-		<blockquote>нефтепровод.</blockquote>
+		<trn>нефтепровод</trn>
 	</card>
 	<card>
 		<k>нефтичи</k>
@@ -2023,78 +2218,81 @@
 	</card>
 	<card>
 		<k>нефть</k>
-		<blockquote>нефть.</blockquote>
+		<trn>нефть</trn>
 	</card>
 	<card>
 		<k>нефтяник</k>
-		<blockquote>то же, что нефтичи.</blockquote>
+		<sameas word="нефтичи"/>
 	</card>
 	<card>
 		<k>неч</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что нече;</blockquote>
+		<meta>южн.</meta>
+		<sameas word="нече"/>
 		<blockquote>неч күндө үргөтөсүң? во сколько дней ты обучишь?</blockquote>
 	</card>
 	<card>
 		<k>нече</k>
 		<blockquote>(нечен)</blockquote>
-		<blockquote>1. сколько;</blockquote>
-		<blockquote>нече күн? сколько дней?</blockquote>
-		<blockquote>бир нече или бир нечен несколько, много;</blockquote>
-		<blockquote>нечендер многие;</blockquote>
-		<blockquote>мындай сөздөрдүн неченин укту таких слов он слышал много;</blockquote>
-		<blockquote>нечен түрдүү многообразный, разнообразный;</blockquote>
-		<blockquote>2. (в сочет. с десятками, сотнями, тысячами) с чем-то;</blockquote>
-		<blockquote>отуз нече сом тридцать с чем-то рублей.</blockquote>
+		<meaning>
+			<blockquote>сколько;</blockquote>
+			<blockquote>нече күн? сколько дней?</blockquote>
+			<blockquote>бир нече или бир нечен несколько, много;</blockquote>
+			<blockquote>нечендер многие;</blockquote>
+			<blockquote>мындай сөздөрдүн неченин укту таких слов он слышал много;</blockquote>
+			<blockquote>нечен түрдүү многообразный, разнообразный;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>(в сочет. с десятками, сотнями, тысячами) с чем-то;</blockquote>
+			<blockquote>отуз нече сом тридцать с чем-то рублей.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>неченде-</k>
 		<blockquote>неченде-: нечендеген много; многочисленный;</blockquote>
-		<blockquote>"нечендеген алтын мүлк, чачып кетет" деп уктум <p>фольк.</p> слышал я, что он, мол,
-               многочисленные золотые сокровища транжирит.</blockquote>
+		<ex>
+			<source>"нечендеген алтын мүлк, чачып кетет" деп уктум фольк.</source>
+			<target>слышал я, что он, мол, многочисленные золотые сокровища транжирит.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нечик</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>как; какой;</blockquote>
 		<blockquote>алда нечик невесть какой.</blockquote>
 	</card>
 	<card>
 		<k>нигилизм</k>
-		<blockquote>нигилизм.</blockquote>
+		<trn>нигилизм</trn>
 	</card>
 	<card>
 		<k>нигилист</k>
-		<blockquote>нигилист.</blockquote>
+		<trn>нигилист</trn>
 	</card>
 	<card>
 		<k>ниет</k>
 		<blockquote>(нээт)</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. намерение, замысел;</blockquote>
-		<blockquote>жакшы ниет - жарым иш погов. доброе намерение - (уже) половина
-               дела;</blockquote>
-		<blockquote>ниети ак честный, чистосердечный;</blockquote>
-		<blockquote>ак ниет чистое намерение; честность;</blockquote>
-		<blockquote>ак ниет эмгек честный труд;</blockquote>
-		<blockquote>ак ниет иш өзү бүтөт честное дело само (благополучно) закончится (так обычно
-               говорят на свадьбе);</blockquote>
-		<blockquote>кара ниет нечестность, злое намерение;</blockquote>
-		<blockquote>нээтим тартпайт у меня нет желания, меня не тянет;</blockquote>
-		<blockquote>ушу ишти иштөөгө нээтим тартпай турат выполнять это дело у меня нет
-               желания;</blockquote>
-		<blockquote>2. чаяние, упование; намерение;</blockquote>
-		<blockquote>аны, ардактуу конок кылып, узатуу нээтиндебиз у нас есть намерение проводить
-               его как почётного гостя;</blockquote>
-		<blockquote>нээти карарган он дошёл до остервенения, его ничем не уговоришь и не
-               успокоишь;</blockquote>
-		<blockquote>ниет кош- давать согласие на замужество;</blockquote>
-		<blockquote>ниетиңди кошпо, Айнажан ты, Айнаджан, не соглашайся выйти (за
-               него).</blockquote>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>намерение, замысел;</blockquote>
+			<ex>
+				<source>жакшы ниет - жарым иш погов.</source>
+				<target>доброе намерение - (уже) половина дела;</target>
+			</ex>
+			<blockquote>ниети ак честный, чистосердечный;</blockquote>
+			<blockquote>ак ниет чистое намерение; честность;</blockquote>
+			<blockquote>ак ниет эмгек честный труд;</blockquote>
+			<blockquote>ак ниет иш өзү бүтөт честное дело само (благополучно) закончится (так обычно говорят на свадьбе);</blockquote>
+			<blockquote>кара ниет нечестность, злое намерение;</blockquote>
+			<blockquote>нээтим тартпайт у меня нет желания, меня не тянет;</blockquote>
+			<blockquote>ушу ишти иштөөгө нээтим тартпай турат выполнять это дело у меня нет желания;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>чаяние, упование; намерение;</blockquote>
+			<blockquote>аны, ардактуу конок кылып, узатуу нээтиндебиз у нас есть намерение проводить его как почётного гостя;</blockquote>
+			<blockquote>нээти карарган он дошёл до остервенения, его ничем не уговоришь и не успокоишь;</blockquote>
+			<blockquote>ниет кош- давать согласие на замужество;</blockquote>
+			<blockquote>ниетиңди кошпо, Айнажан ты, Айнаджан, не соглашайся выйти (за него).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>ниеттик</k>
@@ -2113,56 +2311,54 @@
 	</card>
 	<card>
 		<k>нике</k>
-		<blockquote>ар. этн.</blockquote>
+		<origin>ар.</origin>
+		<meta>этн.</meta>
 		<blockquote>обряд бракосочетания (мусульманский);</blockquote>
 		<blockquote>нике кый- сочетаться браком;</blockquote>
 		<blockquote>нике кош- или нике байла- жениться;</blockquote>
 		<blockquote>Бүбүканга нике байлады он женился на Бюбюкан;</blockquote>
-		<blockquote>нике кыюу или нике байлоо или нике байлаш совершение обряда
-               бракосочетания;</blockquote>
-		<blockquote>чапма нике пренебр. бракосочетание, совершённое кое-как, на скорую руку
-               ("самокрутка");</blockquote>
-		<blockquote>нике кыйдыр- или нике окут- заставить совершить обряд бракосочетания,
-               поженить;</blockquote>
-		<blockquote>Бегайым менен Каныбектин никесин окуткан он поженил Бегаим и
-               Каныбека;</blockquote>
-		<blockquote>никеси бузула турган жери жок никакой беды в этом нет; от этого ничего
-               плохого не случится;</blockquote>
-		<blockquote>никенин суусу этн. вода при бракосочетании (которую мулла в заключение
-               бракосочетания, хлебнув сам, даёт молодым, свидетелям и всем
-               присутствующим).</blockquote>
+		<blockquote>нике кыюу или нике байлоо или нике байлаш совершение обряда бракосочетания;</blockquote>
+		<blockquote>чапма нике пренебр. бракосочетание, совершённое кое-как, на скорую руку ("самокрутка");</blockquote>
+		<blockquote>нике кыйдыр- или нике окут- заставить совершить обряд бракосочетания, поженить;</blockquote>
+		<blockquote>Бегайым менен Каныбектин никесин окуткан он поженил Бегаим и Каныбека;</blockquote>
+		<blockquote>никеси бузула турган жери жок никакой беды в этом нет; от этого ничего плохого не случится;</blockquote>
+		<blockquote>никенин суусу этн. вода при бракосочетании (которую мулла в заключение бракосочетания, хлебнув сам, даёт молодым, свидетелям и всем присутствующим).</blockquote>
 	</card>
 	<card>
 		<k>никеле-</k>
-		<blockquote>этн.</blockquote>
+		<meta>этн.</meta>
 		<blockquote>сочетать браком (мусульманским);</blockquote>
-		<blockquote>ак никелеп өзүмө, катын алып бербедиң <p>фольк.</p> ты не дал мне жену, с которой
-               сочетал меня браком;</blockquote>
+		<ex>
+			<source>ак никелеп өзүмө, катын алып бербедиң фольк.</source>
+			<target>ты не дал мне жену, с которой сочетал меня браком;</target>
+		</ex>
 		<blockquote>ак никелеп алган жары его законная подруга.</blockquote>
 	</card>
 	<card>
 		<k>никелей</k>
-		<blockquote>талас.</blockquote>
+		<meta>талас.</meta>
 		<blockquote>дитя греха, незаконнорождённый.</blockquote>
 	</card>
 	<card>
 		<k>никелен-</k>
-		<blockquote>возвр. от никеле-</blockquote>
+		<refv word="никеле"/>
 		<blockquote>сочетаться браком (мусульманским).</blockquote>
 	</card>
 	<card>
 		<k>никелеш-</k>
-		<blockquote>взаимн. от никеле-;</blockquote>
-		<blockquote>Айчүрөк менен Күлчоро никелешсин деп, айтып <p>фольк.</p> сказав, мол, пусть
-               Айчурек и Кюльчоро сочетаются браком.</blockquote>
+		<recv word="никеле"/>
+		<ex>
+			<source>Айчүрөк менен Күлчоро никелешсин деп, айтып фольк.</source>
+			<target>сказав, мол, пусть Айчурек и Кюльчоро сочетаются браком.</target>
+		</ex>
 	</card>
 	<card>
 		<k>никелешүү</k>
-		<blockquote>и. д. от никелеш-.</blockquote>
+		<actionNoun word="никелеш"/>
 	</card>
 	<card>
 		<k>никелүү</k>
-		<blockquote>этн.</blockquote>
+		<meta>этн.</meta>
 		<blockquote>состоящий в законном (мусульманском) браке;</blockquote>
 		<blockquote>ак никелүү келиним моя законная сноха.</blockquote>
 	</card>
@@ -2172,163 +2368,198 @@
 	</card>
 	<card>
 		<k>нимне</k>
-		<blockquote>
-			<p>южн.</p> талас.</blockquote>
-		<blockquote>то же, что эмне;</blockquote>
+		<meta>южн.</meta>
+		<meta>талас.</meta>
+		<sameas word="эмне"/>
 		<blockquote>нимне кылсаң, өзүң бил делай как хочешь;</blockquote>
 		<blockquote>нимне кыласың? что будешь делать?, как поступишь?</blockquote>
 	</card>
 	<card>
 		<k>нимшек</k>
-		<blockquote>ир. <p>южн.</p> уст.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meta>уст.</meta>
 		<blockquote>мера веса, равная примерно 12 кг.</blockquote>
 	</card>
 	<card>
 		<k>нипничке</k>
-		<blockquote>см. ничке.</blockquote>
+		<look word="ничке"/>
 	</card>
 	<card>
 		<k>нисап</k>
-		<blockquote>то же, что ынсап;</blockquote>
-		<blockquote>боору суук манаптын жок экен го нисабы <p>фольк.</p> у жестокосердого манапа нет
-               ведь справедливости.</blockquote>
+		<sameas word="ынсап"/>
+		<ex>
+			<source>боору суук манаптын жок экен го нисабы фольк.</source>
+			<target>у жестокосердого манапа нет ведь справедливости.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нитроглицерин</k>
-		<blockquote>нитроглицерин.</blockquote>
+		<trn>нитроглицерин</trn>
 	</card>
 	<card>
 		<k>ничке</k>
-		<blockquote>то же, что ичке;</blockquote>
+		<sameas word="ичке"/>
 		<blockquote>нип-ничке (орф. нипничке) тоненький-тоненький;</blockquote>
 		<blockquote>нип-ничке кара каш тоненькие чёрные брови.</blockquote>
 	</card>
 	<card>
 		<k>ничкер-</k>
-		<blockquote>то же, что ичкер- II.</blockquote>
+		<sameas word="ичкер" index="2"/>
 	</card>
 	<card>
 		<k>ничово</k>
-		<blockquote>р. разг.</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
 		<blockquote>ничего (всё равно, пускай, ладно).</blockquote>
 	</card>
 	<card>
 		<k>нишалла</k>
-		<blockquote>нишалла I</blockquote>
-		<blockquote>неправ. вместо иншаалла.</blockquote>
-		<blockquote>нишалла II</blockquote>
-		<blockquote>ир. <p>южн.</p> этн.</blockquote>
-		<blockquote>лакомство из сахара, сбитых яичных белков и мыльного корня (обычно
-               приготовлялось во время поста).</blockquote>
+		<homonym>
+			<blockquote>неправ. вместо иншаалла.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meta>этн.</meta>
+			<blockquote>лакомство из сахара, сбитых яичных белков и мыльного корня (обычно приготовлялось во время поста).</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нияз</k>
-		<blockquote>ир. редко</blockquote>
-		<blockquote>1. милостыня;</blockquote>
-		<blockquote>2. добродетель.</blockquote>
+		<origin>ир.</origin>
+		<meta>редко</meta>
+		<meaning>
+			<blockquote>милостыня;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>добродетель.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нов</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что ноо I.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="ноо" index="1"/>
 	</card>
 	<card>
 		<k>нова</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>деревянное корыто для стирки белья.</blockquote>
 	</card>
 	<card>
 		<k>новатор</k>
-		<blockquote>новатор.</blockquote>
+		<trn>новатор</trn>
 	</card>
 	<card>
 		<k>новатордук</k>
-		<blockquote>(или новаторлук)</blockquote>
+		<meta>(или новаторлук)</meta>
 		<blockquote>новаторство.</blockquote>
 	</card>
 	<card>
 		<k>новда</k>
-		<blockquote>ир. <p>южн.</p>,</blockquote>
+		<origin>ир.</origin>
+		<blockquote>южн.,</blockquote>
 		<blockquote>ноода тяньш.</blockquote>
-		<blockquote>1. молодая ветвь, молодой стройный побег дерева;</blockquote>
-		<blockquote>уугуң талдын ноодасы <p>фольк.</p> твои унины (см. уук I) из таловых
-               ветвей;</blockquote>
-		<blockquote>босогоң кайың ноодасы стих. твои босого (см.) из берёзовых
-               ветвей;</blockquote>
-		<blockquote>2. перен. (о человеке, чаще о девушке, молодухе) молодой и
-               стройный;</blockquote>
-		<blockquote>боюң талдын новдасы, бетиң айдын шовласы <p>фольк.</p> стан твой (строен), как
-               молодой побег ветви, лицо твоё, как луч луны;</blockquote>
-		<blockquote>3. перен. любимая, милая;</blockquote>
-		<blockquote>ышкырат улар ак зовда, ышкыңа күйдүм, ак новда <p>фольк.</p> свистит улар на белой
-               скале, я сгораю от любви к тебе, милая (букв. белая ветвь).</blockquote>
+		<meaning>
+			<blockquote>молодая ветвь, молодой стройный побег дерева;</blockquote>
+			<ex>
+				<source>уугуң талдын ноодасы фольк.</source>
+				<target>твои унины (см. уук I) из таловых ветвей;</target>
+			</ex>
+			<ex>
+				<source>босогоң кайың ноодасы стих.</source>
+				<target>твои босого (см.) из берёзовых ветвей;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>(о человеке, чаще о девушке, молодухе) молодой и стройный;</blockquote>
+			<ex>
+				<source>боюң талдын новдасы, бетиң айдын шовласы фольк.</source>
+				<target>стан твой (строен), как молодой побег ветви, лицо твоё, как луч луны;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>любимая, милая;</blockquote>
+			<ex>
+				<source>ышкырат улар ак зовда, ышкыңа күйдүм, ак новда фольк.</source>
+				<target>свистит улар на белой скале, я сгораю от любви к тебе, милая (букв. белая ветвь).</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>ноё-</k>
 		<blockquote>редко, то же, что ною-;</blockquote>
-		<blockquote>аргымак болсоң, ноёрсуң, ак болот болсоң, жоёрсуң <p>фольк.</p> если ты скакун,
-               притомишься, если ты белый булат, притупишься (всё изнашивается).</blockquote>
+		<ex>
+			<source>аргымак болсоң, ноёрсуң, ак болот болсоң, жоёрсуң фольк.</source>
+			<target>если ты скакун, притомишься, если ты белый булат, притупишься (всё изнашивается).</target>
+		</ex>
 	</card>
 	<card>
 		<k>ноён</k>
-		<blockquote>то же, что оён.</blockquote>
+		<sameas word="оён"/>
 	</card>
 	<card>
 		<k>ноёндук</k>
-		<blockquote>то же, что оёндук.</blockquote>
+		<sameas word="оёндук"/>
 	</card>
 	<card>
 		<k>ноко</k>
-		<blockquote>то же, что око I;</blockquote>
-		<blockquote>ноко сыяк или ноко сымак <p>южн.</p> (о человеке) нелюдимый,
-               необщительный.</blockquote>
+		<sameas word="око" index="1"/>
+		<blockquote>ноко сыяк или ноко сымак южн. (о человеке) нелюдимый, необщительный.</blockquote>
 	</card>
 	<card>
 		<k>ноколо-</k>
 		<blockquote>отделывать позументом или канителью;</blockquote>
-		<blockquote>кыргагына калпактын, ноколоп, сайма сайдырган стих. поля колпака он велел
-               вышить канителью.</blockquote>
+		<ex>
+			<source>кыргагына калпактын, ноколоп, сайма сайдырган стих.</source>
+			<target>поля колпака он велел вышить канителью.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ноконо</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>ноготь (болезнь лошадей, выражающаяся в задержании мочи).</blockquote>
 	</card>
 	<card>
 		<k>нокоро</k>
-		<blockquote>то же, что окоро.</blockquote>
+		<sameas word="окоро"/>
 	</card>
 	<card>
 		<k>нокот</k>
-		<blockquote>нокот I</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>в разн. знач. точка;</blockquote>
-		<blockquote>көзүн албай бир нокотко кадалат он, не отрывая глаз, впивается в одну
-               точку;</blockquote>
-		<blockquote>сөздү нокотуна келтирип айтат он говорит ясно, чётко и складно.</blockquote>
-		<blockquote>нокот II</blockquote>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>название сорта гороха.</blockquote>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>в разн. знач.</meta>
+			<trn>точка</trn>
+			<blockquote>көзүн албай бир нокотко кадалат он, не отрывая глаз, впивается в одну точку;</blockquote>
+			<blockquote>сөздү нокотуна келтирип айтат он говорит ясно, чётко и складно.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<blockquote>название сорта гороха.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нокотек</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
-		<blockquote>1. астрагал волокнистый (растение);</blockquote>
-		<blockquote>2. перен. незаконнорождённое дитя.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>астрагал волокнистый (растение);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>незаконнорождённое дитя.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нокто</k>
 		<blockquote>недоуздок, оброть;</blockquote>
 		<blockquote>нокто кат- надеть недоуздок, обротать;</blockquote>
-		<blockquote>нокто агасы (или олжо агасы) ист. человек, которому несколько лиц сообща
-               подарили коня (по отношению к дарителям; такие отношения бывали и между целыми
-               родами).</blockquote>
+		<blockquote>нокто агасы (или олжо агасы) ист. человек, которому несколько лиц сообща подарили коня (по отношению к дарителям; такие отношения бывали и между целыми родами).</blockquote>
 	</card>
 	<card>
 		<k>ноктоло-</k>
@@ -2340,12 +2571,14 @@
 	</card>
 	<card>
 		<k>ноль</k>
-		<blockquote>прям., перен.</blockquote>
-		<blockquote>ноль.</blockquote>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<trn>ноль</trn>
 	</card>
 	<card>
 		<k>номер</k>
-		<blockquote>в разн. знач. номер;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>номер</trn>
 		<blockquote>журналдын кезектеги номери очередной номер журнала;</blockquote>
 		<blockquote>номер белгиси номерной знак.</blockquote>
 	</card>
@@ -2355,7 +2588,7 @@
 	</card>
 	<card>
 		<k>номердел-</k>
-		<blockquote>страд. от номерде-;</blockquote>
+		<pass word="номерде"/>
 		<blockquote>номерделген нумерованный.</blockquote>
 	</card>
 	<card>
@@ -2364,40 +2597,46 @@
 	</card>
 	<card>
 		<k>номердөө</k>
-		<blockquote>и. д. от номерде-</blockquote>
+		<actionNoun word="номерде"/>
 		<blockquote>нумерация.</blockquote>
 	</card>
 	<card>
 		<k>номур</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что номер.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="номер"/>
 	</card>
 	<card>
 		<k>нонок</k>
-		<blockquote>ир. тяньш., <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<blockquote>тяньш., южн.</blockquote>
 		<blockquote>растяпа, неумеха; бестолковый, ненаходчивый в словах.</blockquote>
 	</card>
 	<card>
 		<k>ноо</k>
-		<blockquote>ноо I</blockquote>
-		<blockquote>ир.</blockquote>
-		<blockquote>1. жёлоб;</blockquote>
-		<blockquote>2. тяньш. колода, куда кладут соль для скота.</blockquote>
-		<blockquote>ноо II</blockquote>
-		<blockquote>р.</blockquote>
-		<blockquote>но! (возглас понукания).</blockquote>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>жёлоб;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>тяньш.</meta>
+				<blockquote>колода, куда кладут соль для скота.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>р.</origin>
+			<blockquote>но! (возглас понукания).</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нооват</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>очередь;</blockquote>
-		<blockquote>нооват менен алсаңарчы! да берите же по очереди! (не все
-               сразу).</blockquote>
+		<blockquote>нооват менен алсаңарчы! да берите же по очереди! (не все сразу).</blockquote>
 	</card>
 	<card>
 		<k>ноода</k>
-		<blockquote>см. новда.</blockquote>
+		<look word="новда"/>
 	</card>
 	<card>
 		<k>ноокас</k>
@@ -2412,7 +2651,7 @@
 	<card>
 		<k>ноокастан-</k>
 		<blockquote>возвр. от ноокаста-,</blockquote>
-		<blockquote>то же, что ноокаста-.</blockquote>
+		<sameas word="ноокаста"/>
 	</card>
 	<card>
 		<k>ноолан</k>
@@ -2420,50 +2659,67 @@
 	</card>
 	<card>
 		<k>ноолу</k>
-		<blockquote>ар. сев.</blockquote>
-		<blockquote>1. низкая глинобитная ограда вокруг могилы;</blockquote>
-		<blockquote>2. тяньш. глинобитный забор вокруг приусадебного участка;</blockquote>
-		<blockquote>3. тяньш. приусадебный участок; огород.</blockquote>
+		<origin>ар.</origin>
+		<meta>сев.</meta>
+		<meaning>
+			<blockquote>низкая глинобитная ограда вокруг могилы;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>тяньш.</meta>
+			<blockquote>глинобитный забор вокруг приусадебного участка;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>тяньш.</meta>
+			<blockquote>приусадебный участок; огород.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>ноопаз</k>
-		<blockquote>то же, что оопаз.</blockquote>
+		<sameas word="оопаз"/>
 	</card>
 	<card>
 		<k>ноопалаң</k>
-		<blockquote>ир. тяньш.</blockquote>
-		<blockquote>1. бычок по третьему году;</blockquote>
-		<blockquote>2. перен. захудалый молодой бычок.</blockquote>
+		<origin>ир.</origin>
+		<meta>тяньш.</meta>
+		<meaning>
+			<blockquote>бычок по третьему году;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>захудалый молодой бычок.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>ноопуруш</k>
-		<blockquote>ир. <p>южн.</p>
-		</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>(о человеке) рослый, сильный.</blockquote>
 	</card>
 	<card>
 		<k>нооруз</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>день Нового года (около 20 марта);</blockquote>
 		<blockquote>нооруз көжө то же, что оруздама.</blockquote>
 	</card>
 	<card>
 		<k>ноот</k>
-		<blockquote>ноот I</blockquote>
-		<blockquote>тяньш.</blockquote>
-		<blockquote>то же, что обут.</blockquote>
-		<blockquote>ноот II</blockquote>
-		<blockquote>то же, что набыт;</blockquote>
-		<blockquote>ноот кыл- уничтожить, погубить.</blockquote>
+		<homonym>
+			<meta>тяньш.</meta>
+			<sameas word="обут"/>
+		</homonym>
+		<homonym>
+			<sameas word="набыт"/>
+			<blockquote>ноот кыл- уничтожить, погубить.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нооту</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>сукно.</blockquote>
 	</card>
 	<card>
 		<k>нооча</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>(о человеке) рослый и стройный (обычно и молодцеватый);</blockquote>
 		<blockquote>нооча бойлуу высокого роста.</blockquote>
 	</card>
@@ -2471,12 +2727,14 @@
 		<k>ноочо</k>
 		<blockquote>охот.</blockquote>
 		<blockquote>скрад;</blockquote>
-		<blockquote>ноочого кирди саятчы, колбоорго коён тири байлап стих. охотник, привязав в
-               сеть живого зайца, залез в скрад.</blockquote>
+		<ex>
+			<source>ноочого кирди саятчы, колбоорго коён тири байлап стих.</source>
+			<target>охотник, привязав в сеть живого зайца, залез в скрад.</target>
+		</ex>
 	</card>
 	<card>
 		<k>норма</k>
-		<blockquote>норма;</blockquote>
+		<trn>норма</trn>
 		<blockquote>иштөө нормалары нормы выработки;</blockquote>
 		<blockquote>күндүк нормалары дневные кормы;</blockquote>
 		<blockquote>нормадан тышкары сверх нормы.</blockquote>
@@ -2487,7 +2745,7 @@
 	</card>
 	<card>
 		<k>нормалан-</k>
-		<blockquote>возвр.-страд. от нормала-</blockquote>
+		<refpass word="нормала"/>
 		<blockquote>нормироваться, быть нормируемым;</blockquote>
 		<blockquote>нормаланган нормированный.</blockquote>
 	</card>
@@ -2497,13 +2755,14 @@
 	</card>
 	<card>
 		<k>нормалдуу</k>
-		<blockquote>в разн. знач. нормальный;</blockquote>
+		<meta>в разн. знач.</meta>
+		<trn>нормальный</trn>
 		<blockquote>нормалдуу жана түшүнүктүү иш дело нормальное и понятное;</blockquote>
 		<blockquote>нормалдуу психика нормальная психика.</blockquote>
 	</card>
 	<card>
 		<k>нормалоо</k>
-		<blockquote>и. д. от нормала-</blockquote>
+		<actionNoun word="нормала"/>
 		<blockquote>нормирование.</blockquote>
 	</card>
 	<card>
@@ -2512,70 +2771,85 @@
 	</card>
 	<card>
 		<k>носорог</k>
-		<blockquote>носорог.</blockquote>
+		<trn>носорог</trn>
 	</card>
 	<card>
 		<k>нота</k>
-		<blockquote>нота I</blockquote>
-		<blockquote>полит.</blockquote>
-		<blockquote>нота.</blockquote>
-		<blockquote>нота II</blockquote>
-		<blockquote>муз.</blockquote>
-		<blockquote>нота;</blockquote>
-		<blockquote>ноталар ноты;</blockquote>
-		<blockquote>нота кагазы нотная бумага.</blockquote>
+		<homonym>
+			<meta>полит.</meta>
+			<blockquote>нота.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>муз.</blockquote>
+			<trn>нота</trn>
+			<blockquote>ноталар ноты;</blockquote>
+			<blockquote>нота кагазы нотная бумага.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нотариус</k>
-		<blockquote>нотариус.</blockquote>
+		<trn>нотариус</trn>
 	</card>
 	<card>
 		<k>нохут</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что нокот II.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="нокот" index="2"/>
 	</card>
 	<card>
 		<k>ношотур</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>нашатырь.</blockquote>
 	</card>
 	<card>
 		<k>ною-</k>
 		<blockquote>утомляться, выказывать слабость, обессилевать, лишаться сил;</blockquote>
 		<blockquote>эч ноюп койбойт он ничуть не утомляется;</blockquote>
-		<blockquote>адырдуу жерден ноюбас, алыска минсе, жоорубас <p>фольк.</p> по холмистым местам
-               (этот конь) не утомляется, от дальнего пути у него не бывает ссадин;</blockquote>
-		<blockquote>кылганына токсон уста ноюган <p>фольк.</p> при изготовлении (богатырского меча)
-               девяносто мастеров обессилели;</blockquote>
-		<blockquote>өгөөсүнө чыдабай. элүү шекирт ноюган <p>фольк.</p> не вытерпев отделки
-               (богатырского меча) напильниками, пятьдесят подмастерьев обессилели.</blockquote>
+		<ex>
+			<source>адырдуу жерден ноюбас, алыска минсе, жоорубас фольк.</source>
+			<target>по холмистым местам (этот конь) не утомляется, от дальнего пути у него не бывает ссадин;</target>
+		</ex>
+		<ex>
+			<source>кылганына токсон уста ноюган фольк.</source>
+			<target>при изготовлении (богатырского меча) девяносто мастеров обессилели;</target>
+		</ex>
+		<ex>
+			<source>өгөөсүнө чыдабай. элүү шекирт ноюган фольк.</source>
+			<target>не вытерпев отделки (богатырского меча) напильниками, пятьдесят подмастерьев обессилели.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ноябрь</k>
-		<blockquote>ноябрь.</blockquote>
+		<trn>ноябрь</trn>
 	</card>
 	<card>
 		<k>нрава</k>
-		<blockquote>р.</blockquote>
+		<origin>р.</origin>
 		<blockquote>нравы.</blockquote>
 	</card>
 	<card>
 		<k>ну</k>
-		<blockquote>р.</blockquote>
-		<blockquote>ну;</blockquote>
+		<origin>р.</origin>
+		<trn>ну</trn>
 		<blockquote>ну, айталык ну, скажем; ну, предположим.</blockquote>
 	</card>
 	<card>
 		<k>нук</k>
-		<blockquote>1. русло;</blockquote>
-		<blockquote>жаңы нук боюнча суу жүрө баштады началось движение воды по новому
-               руслу;</blockquote>
-		<blockquote>2. тяньш. следы старого строения;</blockquote>
-		<blockquote>3. перен. знак, признак;</blockquote>
-		<blockquote>жанган жылдыз төштө сапсары, ал - эрдиктин өчпөс нуктары стих. на груди
-               жёлтая-жёлтая (т.е. золотая) звезда, это - немеркнущие знаки героизма.</blockquote>
+		<meaning>
+			<blockquote>русло;</blockquote>
+			<blockquote>жаңы нук боюнча суу жүрө баштады началось движение воды по новому руслу;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>тяньш.</meta>
+			<blockquote>следы старого строения;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>знак, признак;</blockquote>
+			<ex>
+				<source>жанган жылдыз төштө сапсары, ал - эрдиктин өчпөс нуктары стих.</source>
+				<target>на груди жёлтая-жёлтая (т.е. золотая) звезда, это - немеркнущие знаки героизма.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>нуктуу</k>
@@ -2584,22 +2858,19 @@
 	</card>
 	<card>
 		<k>нуку-</k>
-		<blockquote>то же, что уку-.</blockquote>
+		<sameas word="уку"/>
 	</card>
 	<card>
 		<k>нукуй</k>
-		<blockquote>то же, что укуй;</blockquote>
+		<sameas word="укуй"/>
 		<blockquote>башынан нукуй алайын сделаю-ка я ему на голове укуй (см.).</blockquote>
 	</card>
 	<card>
 		<k>нукул</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
+		<meta>южн.</meta>
 		<blockquote>только, исключительно;</blockquote>
 		<blockquote>нукул кара койлор только чёрные овцы;</blockquote>
-		<blockquote>ол кышлак - нукул кыргыз тот кишлак исключительно киргизский (там только
-               киргизы).</blockquote>
+		<blockquote>ол кышлак - нукул кыргыз тот кишлак исключительно киргизский (там только киргизы).</blockquote>
 	</card>
 	<card>
 		<k>нукула-</k>
@@ -2608,45 +2879,42 @@
 	</card>
 	<card>
 		<k>нукум</k>
-		<blockquote>то же, что укум II;</blockquote>
-		<blockquote>кишинин баарын өз нукумуң менен ченебегин не суди по себе о всех людях, не
-               подходи ко всем людям со своей меркой.</blockquote>
+		<sameas word="укум" index="2"/>
+		<blockquote>кишинин баарын өз нукумуң менен ченебегин не суди по себе о всех людях, не подходи ко всем людям со своей меркой.</blockquote>
 	</card>
 	<card>
 		<k>нукур</k>
-		<blockquote>нукур I</blockquote>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что күн жилик (см. жилик).</blockquote>
-		<blockquote>нукур II</blockquote>
-		<blockquote>то же, что нукура.</blockquote>
+		<homonym>
+			<meta>южн.</meta>
+			<blockquote>то же, что күн жилик (см. жилик).</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="нукура"/>
+		</homonym>
 	</card>
 	<card>
 		<k>нукура</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>чистый, без примеси; абсолютный;</blockquote>
 		<blockquote>нукура чын абсолютно верно;</blockquote>
 		<blockquote>нукура чындык чистая правда;</blockquote>
 		<blockquote>анын айтканы нукура чындык сказанное им - чистая правда;</blockquote>
 		<blockquote>нукура элдик акын истинно народный акын;</blockquote>
-		<blockquote>нукура кыргыздын сөзү менен сүйлөйт он употребляет в речи только киргизские
-               слова; он чисто говорит по-киргизски;</blockquote>
+		<blockquote>нукура кыргыздын сөзү менен сүйлөйт он употребляет в речи только киргизские слова; он чисто говорит по-киргизски;</blockquote>
 		<blockquote>нукура чоңдук мат. абсолютная величина.</blockquote>
 	</card>
 	<card>
 		<k>нукуш-</k>
-		<blockquote>взаимн. от нуку-;</blockquote>
-		<blockquote>экөө бир-бирин нукушуп өттү проходя мимо, они толкнули друг друга в бок
-               (напр. о киргизских борцах перед началом схватки)</blockquote>
+		<recv word="нуку"/>
+		<blockquote>экөө бир-бирин нукушуп өттү проходя мимо, они толкнули друг друга в бок (напр. о киргизских борцах перед началом схватки)</blockquote>
 	</card>
 	<card>
 		<k>нүкөр</k>
-		<blockquote>то же, что накери.</blockquote>
+		<sameas word="накери"/>
 	</card>
 	<card>
 		<k>нуль</k>
-		<blockquote>то же, что ноль.</blockquote>
+		<sameas word="ноль"/>
 	</card>
 	<card>
 		<k>нун</k>
@@ -2654,30 +2922,29 @@
 	</card>
 	<card>
 		<k>нур</k>
-		<blockquote>нур I</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>свет, луч света;</blockquote>
-		<blockquote>күндүн нуру лучи солнца;</blockquote>
-		<blockquote>нур төгүлгөн шашке мезгил позднее утро, разливается свет
-               (солнца);</blockquote>
-		<blockquote>көзүмдүн нуру ласк. свет очей моих;</blockquote>
-		<blockquote>бетинин нуру качты он изменился в лице, он побледнел;</blockquote>
-		<blockquote>нуру төгүлгөн сулуу лучезарная красавица.</blockquote>
-		<blockquote>нур II</blockquote>
-		<blockquote>то же, что ур II;</blockquote>
-		<blockquote>нур кызы дева рая, гурия;</blockquote>
-		<blockquote>бейиштеги нурдун кыздары райские девы.</blockquote>
+		<homonym>
+			<origin>ар.</origin>
+			<blockquote>свет, луч света;</blockquote>
+			<blockquote>күндүн нуру лучи солнца;</blockquote>
+			<blockquote>нур төгүлгөн шашке мезгил позднее утро, разливается свет (солнца);</blockquote>
+			<blockquote>көзүмдүн нуру ласк. свет очей моих;</blockquote>
+			<blockquote>бетинин нуру качты он изменился в лице, он побледнел;</blockquote>
+			<blockquote>нуру төгүлгөн сулуу лучезарная красавица.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="ур" index="2"/>
+			<blockquote>нур кызы дева рая, гурия;</blockquote>
+			<blockquote>бейиштеги нурдун кыздары райские девы.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нура-</k>
-		<blockquote>то же, что ура- II.</blockquote>
+		<sameas word="ура" index="2"/>
 	</card>
 	<card>
 		<k>нургуч</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>(ср. үбөлүк)</blockquote>
+		<meta>южн.</meta>
+		<meta>(ср. үбөлүк)</meta>
 		<blockquote>скалка для раскатывания теста.</blockquote>
 	</card>
 	<card>
@@ -2686,131 +2953,163 @@
 	</card>
 	<card>
 		<k>нурдангансы-</k>
-		<blockquote>уподоб. от нурдан-</blockquote>
+		<similative word="нурдан"/>
 		<blockquote>как бы излучать свет;</blockquote>
-		<blockquote>эки бети нурдангансып, кубанычы ташый түштү щёки её как бы излучают свет,
-               радость переполнила её (она вся сияет от радости).</blockquote>
+		<blockquote>эки бети нурдангансып, кубанычы ташый түштү щёки её как бы излучают свет, радость переполнила её (она вся сияет от радости).</blockquote>
 	</card>
 	<card>
 		<k>нурдант-</k>
-		<blockquote>понуд. от нурдан-</blockquote>
+		<caus word="нурдан"/>
 		<blockquote>озарять.</blockquote>
 	</card>
 	<card>
 		<k>нурдуу</k>
-		<blockquote>1. лучезарный; румяный; красивый и симпатичный;</blockquote>
-		<blockquote>нурдуу жигит красивый парень;</blockquote>
-		<blockquote>2. благородный;</blockquote>
-		<blockquote>нурдуу жүз благородное, исполненное величия лицо.</blockquote>
+		<meaning>
+			<blockquote>лучезарный; румяный; красивый и симпатичный;</blockquote>
+			<blockquote>нурдуу жигит красивый парень;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>благородный;</blockquote>
+			<blockquote>нурдуу жүз благородное, исполненное величия лицо.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нурк</k>
 		<blockquote>племя, род; порода;</blockquote>
 		<blockquote>нуркуң ким? какого ты рода?, какого ты происхождения?</blockquote>
-		<blockquote>нурку кыргыз болгонго аш бермеги ант болду <p>фольк.</p> была дана клятва устроить
-               тризну для всех киргизов (для всех, кто киргиз по происхождению);</blockquote>
-		<blockquote>быйыл бөдөнөнүн нурку аз в этом году перепелов (букв. перепелиной породы)
-               мало;</blockquote>
+		<ex>
+			<source>нурку кыргыз болгонго аш бермеги ант болду фольк.</source>
+			<target>была дана клятва устроить тризну для всех киргизов (для всех, кто киргиз по происхождению);</target>
+		</ex>
+		<blockquote>быйыл бөдөнөнүн нурку аз в этом году перепелов (букв. перепелиной породы) мало;</blockquote>
 		<blockquote>нурку момун тихого характера, скромный.</blockquote>
 	</card>
 	<card>
 		<k>нурлан-</k>
-		<blockquote>то же, что нурдан-.</blockquote>
+		<sameas word="нурдан"/>
 	</card>
 	<card>
 		<k>нурлант-</k>
-		<blockquote>то же, что нурдант-.</blockquote>
+		<sameas word="нурдант"/>
 	</card>
 	<card>
 		<k>нурлуу</k>
-		<blockquote>то же, что нурдуу.</blockquote>
+		<sameas word="нурдуу"/>
 	</card>
 	<card>
 		<k>нуру</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>навоз.</blockquote>
 	</card>
 	<card>
 		<k>нуска</k>
-		<blockquote>нуска I</blockquote>
-		<blockquote>ар.</blockquote>
-		<blockquote>1. образец; пример, достойный подражания;</blockquote>
-		<blockquote>акылдуунун сөзү кыска, айта салса - нуска погов. речь умного коротка, а
-               скажет - образец (для других);</blockquote>
-		<blockquote>акылы бар карылар айткан сөзү нускадай стих. слова, сказанные умными
-               стариками, - образец (для других);</blockquote>
-		<blockquote>нускаңды ташта артыңа, атагың чыгат көп менен <p>фольк.</p> оставь (хороший) пример
-               (человеческой жизни), и твоё имя прославится в массах;</blockquote>
-		<blockquote>алып калсам нусканы айткан ширин кебиңден <p>фольк.</p> хотелось бы мне (молодому
-               акыну) научиться твоим сладким словам;</blockquote>
-		<blockquote>ай нуска название вышивного орнамента в виде полумесяца;</blockquote>
-		<blockquote>2. народная мудрость; мудрость, идущая исстари;</blockquote>
-		<blockquote>сөзүндө нуска бар в его словах есть мудрость, в его словах есть то, что
-               установлено ещё не нами;</blockquote>
-		<blockquote>чалдын көркү - нускада красота старика в его мудрых поучениях;</blockquote>
-		<blockquote>нуска сөз мудрое слово, мудрая речь;</blockquote>
-		<blockquote>нуска сөз узуң баштады, сөз айтуудан шашпады <p>фольк.</p> начала искусница мудрую
-               речь, в речи своей не спешила;</blockquote>
-		<blockquote>3. степенность, солидность, важность (во внешности, в движениях, в речи, в
-               поступках);</blockquote>
-		<blockquote>эшик ачылып, коноктор киргенде байбиче нуска көрсөттү: "келгиле,
-               кагылайындар" когда открылась дверь и вошли гости, байбиче (см.) степенно пригласила:
-               "пожалуйте, милые";</blockquote>
-		<blockquote>4. уст. экземпляр;</blockquote>
-		<blockquote>асыл нуска подлинник;</blockquote>
-		<blockquote>асыл нускасы менен туура канц. с подлинным верно;</blockquote>
-		<blockquote>16000 нуска (тираж) 16000 экземпляров.</blockquote>
-		<blockquote>нуска- II</blockquote>
-		<blockquote>показывать; показывать рукой; давать знак, сигнализировать; указывать;
-               давать указания;</blockquote>
-		<blockquote>кол менен нуска- показать рукой;</blockquote>
-		<blockquote>колу менен Ак-Бууранын капчыгайы тарапты нускады он рукой указал в сторону
-               ущелья (реки) Ак-Буры.</blockquote>
+		<homonym>
+			<origin>ар.</origin>
+			<meaning>
+				<blockquote>образец; пример, достойный подражания;</blockquote>
+				<ex>
+					<source>акылдуунун сөзү кыска, айта салса - нуска погов.</source>
+					<target>речь умного коротка, а скажет - образец (для других);</target>
+				</ex>
+				<ex>
+					<source>акылы бар карылар айткан сөзү нускадай стих.</source>
+					<target>слова, сказанные умными стариками, - образец (для других);</target>
+				</ex>
+				<ex>
+					<source>нускаңды ташта артыңа, атагың чыгат көп менен фольк.</source>
+					<target>оставь (хороший) пример (человеческой жизни), и твоё имя прославится в массах;</target>
+				</ex>
+				<ex>
+					<source>алып калсам нусканы айткан ширин кебиңден фольк.</source>
+					<target>хотелось бы мне (молодому акыну) научиться твоим сладким словам;</target>
+				</ex>
+				<blockquote>ай нуска название вышивного орнамента в виде полумесяца;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>народная мудрость; мудрость, идущая исстари;</blockquote>
+				<blockquote>сөзүндө нуска бар в его словах есть мудрость, в его словах есть то, что установлено ещё не нами;</blockquote>
+				<blockquote>чалдын көркү - нускада красота старика в его мудрых поучениях;</blockquote>
+				<blockquote>нуска сөз мудрое слово, мудрая речь;</blockquote>
+				<ex>
+					<source>нуска сөз узуң баштады, сөз айтуудан шашпады фольк.</source>
+					<target>начала искусница мудрую речь, в речи своей не спешила;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<blockquote>степенность, солидность, важность (во внешности, в движениях, в речи, в поступках);</blockquote>
+				<blockquote>эшик ачылып, коноктор киргенде байбиче нуска көрсөттү: "келгиле, кагылайындар" когда открылась дверь и вошли гости, байбиче (см.) степенно пригласила: "пожалуйте, милые";</blockquote>
+			</meaning>
+			<meaning>
+				<meta>уст.</meta>
+				<blockquote>экземпляр;</blockquote>
+				<blockquote>асыл нуска подлинник;</blockquote>
+				<blockquote>асыл нускасы менен туура канц. с подлинным верно;</blockquote>
+				<blockquote>16000 нуска (тираж) 16000 экземпляров.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>показывать; показывать рукой; давать знак, сигнализировать; указывать; давать указания;</blockquote>
+			<blockquote>кол менен нуска- показать рукой;</blockquote>
+			<blockquote>колу менен Ак-Бууранын капчыгайы тарапты нускады он рукой указал в сторону ущелья (реки) Ак-Буры.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>нускалуу</k>
-		<blockquote>1. примерный, образцовый;</blockquote>
-		<blockquote>2. мудрый; почтенный, степенный;</blockquote>
-		<blockquote>нускалуу сөз наставительная речь; речь, уснащаемая ссылками на старые
-               народные обычаи;</blockquote>
-		<blockquote>нускалуу байбиче женщина пожилая, умудрённая житейским опытом, степенная,
-               почтенная и знающая правила обхождения; матрона;</blockquote>
-		<blockquote>чоң энеси карылардын нускалуусу его бабушка самая почтенная из
-               старых;</blockquote>
-		<blockquote>нускалуу чал почтенный старик;</blockquote>
-		<blockquote>нускалуу чалдардын айтуу боюнча по словам почтенных стариков.</blockquote>
+		<meaning>
+			<blockquote>примерный, образцовый;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>мудрый; почтенный, степенный;</blockquote>
+			<blockquote>нускалуу сөз наставительная речь; речь, уснащаемая ссылками на старые народные обычаи;</blockquote>
+			<blockquote>нускалуу байбиче женщина пожилая, умудрённая житейским опытом, степенная, почтенная и знающая правила обхождения; матрона;</blockquote>
+			<blockquote>чоң энеси карылардын нускалуусу его бабушка самая почтенная из старых;</blockquote>
+			<blockquote>нускалуу чал почтенный старик;</blockquote>
+			<blockquote>нускалуу чалдардын айтуу боюнча по словам почтенных стариков.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нускалуулук</k>
 		<blockquote>отвл. от нускалуу</blockquote>
-		<blockquote>1. примерность, образцовость;</blockquote>
-		<blockquote>2. почтенность, степенность.</blockquote>
+		<meaning>
+			<blockquote>примерность, образцовость;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>почтенность, степенность.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нускоо</k>
-		<blockquote>и. д. от нуска- II</blockquote>
-		<blockquote>1. показывание, указание;</blockquote>
-		<blockquote>нускоосу боюнча по его указанию, как он указал или показал;</blockquote>
-		<blockquote>нускоо айт- давать указание, давать наставление, поучать;</blockquote>
-		<blockquote>2. уст. инструкция.</blockquote>
+		<actionNoun word="нуска" index="2"/>
+		<meaning>
+			<blockquote>показывание, указание;</blockquote>
+			<blockquote>нускоосу боюнча по его указанию, как он указал или показал;</blockquote>
+			<blockquote>нускоо айт- давать указание, давать наставление, поучать;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>инструкция.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нускоолуу</k>
-		<blockquote>то же, что нускалуу;</blockquote>
+		<sameas word="нускалуу"/>
 		<blockquote>нускоолуу сөз поучение, наставление;</blockquote>
 		<blockquote>нускоолуу киши почтенный, примерный человек.</blockquote>
 	</card>
 	<card>
 		<k>нускоочу</k>
-		<blockquote>1. певец-импровизатор, слагающий назидательные песни;</blockquote>
-		<blockquote>2. уст. инструктор.</blockquote>
+		<meaning>
+			<blockquote>певец-импровизатор, слагающий назидательные песни;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>инструктор.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нуургуч</k>
-		<blockquote>
-			<p>южн.</p>
-		</blockquote>
-		<blockquote>то же, что үбөлүк.</blockquote>
+		<meta>южн.</meta>
+		<sameas word="үбөлүк"/>
 	</card>
 	<card>
 		<k>ныгай-</k>
@@ -2818,7 +3117,7 @@
 	</card>
 	<card>
 		<k>ныгайт-</k>
-		<blockquote>понуд. от ныгай-</blockquote>
+		<caus word="ныгай"/>
 		<blockquote>усилить, укрепить.</blockquote>
 	</card>
 	<card>
@@ -2827,43 +3126,45 @@
 	</card>
 	<card>
 		<k>ныгырыл-</k>
-		<blockquote>страд. от ныгыр-</blockquote>
+		<pass word="ныгыр"/>
 		<blockquote>быть придавленным, притиснутым; рассесться (напр. о стене).</blockquote>
 	</card>
 	<card>
 		<k>ныгырылыш-</k>
-		<blockquote>взаимн. от ныгырыл-.</blockquote>
+		<recv word="ныгырыл"/>
 	</card>
 	<card>
 		<k>нык</k>
-		<blockquote>то же, что ык I;</blockquote>
+		<sameas word="ык" index="1"/>
 		<blockquote>нык тойгон наевшийся до отвала.</blockquote>
 	</card>
 	<card>
 		<k>ныксыра-</k>
-		<blockquote>то же, что ыксыра-;</blockquote>
-		<blockquote>этке, майга ныксырап, эркин уктап жатыпсың стих. разомлев от жира и мяса, ты
-               спокойно спишь.</blockquote>
+		<sameas word="ыксыра"/>
+		<ex>
+			<source>этке, майга ныксырап, эркин уктап жатыпсың стих.</source>
+			<target>разомлев от жира и мяса, ты спокойно спишь.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ныксырат-</k>
-		<blockquote>понуд. от ныксыра-</blockquote>
+		<caus word="ныксыра"/>
 		<blockquote>разморить, расслабить;</blockquote>
-		<blockquote>сентябрь айынын нымшыган ысыгы ого бетер ныксыратты сырая сентябрьская жара
-               ещё больше разморила.</blockquote>
+		<blockquote>сентябрь айынын нымшыган ысыгы ого бетер ныксыратты сырая сентябрьская жара ещё больше разморила.</blockquote>
 	</card>
 	<card>
 		<k>ныкта-</k>
 		<blockquote>укрепить, прикрепить;</blockquote>
 		<blockquote>ныктап жаса- сделать что-л. прочно, крепко;</blockquote>
-		<blockquote>топурактан ныктап жасалган кебете прочно слепленный из глины
-               бюст;</blockquote>
-		<blockquote>Аккуланы токунуп, ээрге ныктай олтуруп <p>фольк.</p> оседлав (коня) Аккулу и плотно
-               сев в седло.</blockquote>
+		<blockquote>топурактан ныктап жасалган кебете прочно слепленный из глины бюст;</blockquote>
+		<ex>
+			<source>Аккуланы токунуп, ээрге ныктай олтуруп фольк.</source>
+			<target>оседлав (коня) Аккулу и плотно сев в седло.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ныктал-</k>
-		<blockquote>возвр.-страд. от ныкта-</blockquote>
+		<refpass word="ныкта"/>
 		<blockquote>укрепиться; слежаться (напр. о снеге);</blockquote>
 		<blockquote>ныкталып жаткан кар слежавшийся плотный снег.</blockquote>
 	</card>
@@ -2875,41 +3176,46 @@
 	<card>
 		<k>ныл</k>
 		<blockquote>(ср. нылда-, ср. монг. нил) чёрный; перен. мрачный;</blockquote>
-		<blockquote>көөнүмө нылдар толду меня гнетёт тоска (букв. сердце моё наполнилось
-               чёрными);</blockquote>
+		<blockquote>көөнүмө нылдар толду меня гнетёт тоска (букв. сердце моё наполнилось чёрными);</blockquote>
 		<blockquote>көзүңө ныл жабылгыр! чтоб тебе ослепнуть!;</blockquote>
-		<blockquote>көзүңө ныл жабылгандай он как в шорах (ничего не видит, не
-               замечает).</blockquote>
+		<blockquote>көзүңө ныл жабылгандай он как в шорах (ничего не видит, не замечает).</blockquote>
 	</card>
 	<card>
 		<k>нылда-</k>
 		<blockquote>делать что-л. блестяще чёрным;</blockquote>
-		<blockquote>ууктарын нылдаган, каалга менен кереге канча түрдөп сырдаган <p>фольк.</p>
-               (киргизы) унины (см. уук I) делали блестяще чёрными, а створчатые двери и кереге
-               раскрашивали в разные цвета.</blockquote>
+		<ex>
+			<source>ууктарын нылдаган, каалга менен кереге канча түрдөп сырдаган фольк.</source>
+			<target>(киргизы) унины (см. уук I) делали блестяще чёрными, а створчатые двери и кереге раскрашивали в разные цвета.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нылдат-</k>
-		<blockquote>понуд. от нылда-.</blockquote>
+		<caus word="нылда"/>
 	</card>
 	<card>
 		<k>ным</k>
-		<blockquote>ным I</blockquote>
-		<blockquote>влага; влажное место; сырость;</blockquote>
-		<blockquote>нымга салып жибит- отволаживать.</blockquote>
-		<blockquote>ным II</blockquote>
-		<blockquote>то же, что дым;</blockquote>
-		<blockquote>күүгүм кирип, күн батты, элдин алды ным жатты <p>фольк.</p> свечерело, зашло
-               солнце, первые (букв. ранние) люди все легли (спать);</blockquote>
-		<blockquote>нымың калбагыр! бран. чтоб вас ни одного не осталось!, подохнуть вам
-               всем!</blockquote>
+		<homonym>
+			<blockquote>влага; влажное место; сырость;</blockquote>
+			<blockquote>нымга салып жибит- отволаживать.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="дым"/>
+			<ex>
+				<source>күүгүм кирип, күн батты, элдин алды ным жатты фольк.</source>
+				<target>свечерело, зашло солнце, первые (букв. ранние) люди все легли (спать);</target>
+			</ex>
+			<blockquote>нымың калбагыр! бран. чтоб вас ни одного не осталось!, подохнуть вам всем!</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>ныма</k>
-		<blockquote>
-			<p>южн.</p> памирск.</blockquote>
-		<blockquote>то же, что эмне;</blockquote>
-		<blockquote>тагы ныма кылайын? <p>фольк.</p> что мне ещё сделать?</blockquote>
+		<meta>южн.</meta>
+		<blockquote>памирск.</blockquote>
+		<sameas word="эмне"/>
+		<ex>
+			<source>тагы ныма кылайын? фольк.</source>
+			<target>что мне ещё сделать?</target>
+		</ex>
 	</card>
 	<card>
 		<k>нымда-</k>
@@ -2917,15 +3223,17 @@
 	</card>
 	<card>
 		<k>нымдал-</k>
-		<blockquote>возвр.-страд. от нымда-</blockquote>
+		<refpass word="нымда"/>
 		<blockquote>отсыреть.</blockquote>
 	</card>
 	<card>
 		<k>нымдуу</k>
 		<blockquote>сырой, влажный;</blockquote>
 		<blockquote>нымдуу кум сырой песок;</blockquote>
-		<blockquote>көкүрөк нымдуу көздөн аккан жашыман <p>фольк.</p> грудь (моя) влажна от слёз,
-               текущих из глаз моих.</blockquote>
+		<ex>
+			<source>көкүрөк нымдуу көздөн аккан жашыман фольк.</source>
+			<target>грудь (моя) влажна от слёз, текущих из глаз моих.</target>
+		</ex>
 	</card>
 	<card>
 		<k>нымдуулук</k>
@@ -2933,7 +3241,7 @@
 	</card>
 	<card>
 		<k>нымжан</k>
-		<blockquote>ир.</blockquote>
+		<origin>ир.</origin>
 		<blockquote>еле живой; очень слабый;</blockquote>
 		<blockquote>бу көзүм нымжаныраак этот глаз у меня слабоват (плохо видит).</blockquote>
 	</card>
@@ -2948,21 +3256,18 @@
 	<card>
 		<k>нымтыра-</k>
 		<blockquote>приятно разомлеть, слегка размориться (от пищи, питья);</blockquote>
-		<blockquote>этке тоюп, нымтырайт насытившись мясом, он почувствовал приятную
-               тяжесть.</blockquote>
+		<blockquote>этке тоюп, нымтырайт насытившись мясом, он почувствовал приятную тяжесть.</blockquote>
 	</card>
 	<card>
 		<k>нымшы-</k>
-		<blockquote>то же, что ымшы-;</blockquote>
-		<blockquote>чекелери нымшыды у них лбы покрылись испариной, слегка
-               вспотели;</blockquote>
+		<sameas word="ымшы"/>
+		<blockquote>чекелери нымшыды у них лбы покрылись испариной, слегка вспотели;</blockquote>
 		<blockquote>күн нымшып турат душно (когда небо покрыто тучами).</blockquote>
 	</card>
 	<card>
 		<k>нымык-</k>
 		<blockquote>слегка увлажниться, слегка вспотеть;</blockquote>
-		<blockquote>чай ичип, бир аз нымыктым, бирок жакшылап тердей алганым жок я попил чаю и
-               слегка вспотел, но пропотеть не мог.</blockquote>
+		<blockquote>чай ичип, бир аз нымыктым, бирок жакшылап тердей алганым жок я попил чаю и слегка вспотел, но пропотеть не мог.</blockquote>
 	</card>
 	<card>
 		<k>ныпас</k>
@@ -2971,57 +3276,77 @@
 	</card>
 	<card>
 		<k>ныпта</k>
-		<blockquote>то же, что ыпта I;</blockquote>
-		<blockquote>ныптага күмүш саптуу кылыч илип стих. прицепив себе сбоку саблю с серебряной
-               рукояткой;</blockquote>
-		<blockquote>бир жак ныптасы менен шал болуптур у него односторонний
-               паралич.</blockquote>
+		<sameas word="ыпта" index="1"/>
+		<ex>
+			<source>ныптага күмүш саптуу кылыч илип стих.</source>
+			<target>прицепив себе сбоку саблю с серебряной рукояткой;</target>
+		</ex>
+		<blockquote>бир жак ныптасы менен шал болуптур у него односторонний паралич.</blockquote>
 	</card>
 	<card>
 		<k>ныпча</k>
-		<blockquote>сев. уст.</blockquote>
-		<blockquote>1. сорт лёгкой материи;</blockquote>
-		<blockquote>2. лёгкий халат (без подкладки).</blockquote>
+		<meta>сев.</meta>
+		<meta>уст.</meta>
+		<meaning>
+			<blockquote>сорт лёгкой материи;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>лёгкий халат (без подкладки).</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нысап</k>
-		<blockquote>то же, что ынсап;</blockquote>
-		<blockquote>соодагерде нысап жок погов. у торговца совести нет;</blockquote>
+		<sameas word="ынсап"/>
+		<ex>
+			<source>соодагерде нысап жок погов.</source>
+			<target>у торговца совести нет;</target>
+		</ex>
 		<blockquote>нысабы жок бессовестный, безжалостный;</blockquote>
 		<blockquote>нысаптан кеткен бессовестный, нечестный.</blockquote>
 	</card>
 	<card>
 		<k>нысапсыз</k>
-		<blockquote>то же, что ынсапсыз.</blockquote>
+		<sameas word="ынсапсыз"/>
 	</card>
 	<card>
 		<k>ныяз</k>
-		<blockquote>то же, что нияз.</blockquote>
+		<sameas word="нияз"/>
 	</card>
 	<card>
 		<k>нээт</k>
-		<blockquote>см. ниет.</blockquote>
+		<look word="ниет"/>
 	</card>
 	<card>
 		<k>нөвет</k>
-		<blockquote>1. то же, что нөөмөт;</blockquote>
-		<blockquote>2. поединок, единоборство;</blockquote>
-		<blockquote>эки адам нөветке чыгыптыр два человека вышли на единоборство.</blockquote>
+		<meaning>
+			<sameas word="нөөмөт"/>
+		</meaning>
+		<meaning>
+			<blockquote>поединок, единоборство;</blockquote>
+			<blockquote>эки адам нөветке чыгыптыр два человека вышли на единоборство.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>нөкөр</k>
 		<blockquote>(в эпосе)</blockquote>
-		<blockquote>1. слуга эпического богатыря, хана, феодала;</blockquote>
-		<blockquote>2. отрок (княжеский);</blockquote>
-		<blockquote>3. свита жены или дочери эпического богатыря, хана, феодала;</blockquote>
-		<blockquote>өз жанында нөкөрү - алтымыш келин, сексен кыз <p>фольк.</p> свита при ней -
-               шестьдесят молодух, восемьдесят девиц.</blockquote>
+		<meaning>
+			<blockquote>слуга эпического богатыря, хана, феодала;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>отрок (княжеский);</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>свита жены или дочери эпического богатыря, хана, феодала;</blockquote>
+			<ex>
+				<source>өз жанында нөкөрү - алтымыш келин, сексен кыз фольк.</source>
+				<target>свита при ней - шестьдесят молодух, восемьдесят девиц.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>нөкөрлүк</k>
 		<blockquote>отвл. от нөкөр;</blockquote>
-		<blockquote>кырк кызды нөкөрлүккө тандап алды она отобрала сорок девушек для
-               свиты.</blockquote>
+		<blockquote>кырк кызды нөкөрлүккө тандап алды она отобрала сорок девушек для свиты.</blockquote>
 	</card>
 	<card>
 		<k>нөкөрлө-</k>
@@ -3030,17 +3355,17 @@
 	</card>
 	<card>
 		<k>нөл</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что ноль.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="ноль"/>
 	</card>
 	<card>
 		<k>нөлөк</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>то же, что налог.</blockquote>
+		<meta>разг.</meta>
+		<sameas word="налог"/>
 	</card>
 	<card>
 		<k>нөшөр</k>
-		<blockquote>(или кара нөшөр)</blockquote>
+		<meta>(или кара нөшөр)</meta>
 		<blockquote>ливень, проливной дождь;</blockquote>
 		<blockquote>кара нөшөр куюп турат льёт проливной дождь.</blockquote>
 	</card>
@@ -3052,24 +3377,29 @@
 	</card>
 	<card>
 		<k>нөшөрлөт-</k>
-		<blockquote>понуд. от нөшөрлө-;</blockquote>
-		<blockquote>көктү булут каптап, жаан нөшөрлөтүп куюп жиберди тучи покрыли небо, и хлынул
-               проливной дождь.</blockquote>
+		<caus word="нөшөрлө"/>
+		<blockquote>көктү булут каптап, жаан нөшөрлөтүп куюп жиберди тучи покрыли небо, и хлынул проливной дождь.</blockquote>
 	</card>
 	<card>
 		<k>нөөмөт</k>
-		<blockquote>ар.</blockquote>
+		<origin>ар.</origin>
 		<blockquote>(см. дөөмөт)</blockquote>
-		<blockquote>1. очередь;</blockquote>
-		<blockquote>нөөмөт менен по очереди;</blockquote>
-		<blockquote>дагы нөөмөт жетти опять подошла очередь;</blockquote>
-		<blockquote>2. удобный случай, удобный момент;</blockquote>
-		<blockquote>эрге нөөмөт бир келет <p>фольк.</p> молодцу удобный момент (показать себя) всё же
-               приходит.</blockquote>
+		<meaning>
+			<blockquote>очередь;</blockquote>
+			<blockquote>нөөмөт менен по очереди;</blockquote>
+			<blockquote>дагы нөөмөт жетти опять подошла очередь;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>удобный случай, удобный момент;</blockquote>
+			<ex>
+				<source>эрге нөөмөт бир келет фольк.</source>
+				<target>молодцу удобный момент (показать себя) всё же приходит.</target>
+			</ex>
+		</meaning>
 	</card>
 	<card>
 		<k>нөөмөтчү</k>
-		<blockquote>уст.</blockquote>
+		<meta>уст.</meta>
 		<blockquote>дежурный.</blockquote>
 	</card>
 </root>
