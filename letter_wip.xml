@@ -5107,7 +5107,7 @@
 	</card>
 	<card>
 		<k>пулемётчу</k>
-		<blockquote>пулемётчик.</blockquote>
+		<trn>пулемётчик.</trn>
 	</card>
 	<card>
 		<k>пүлүс</k>
@@ -5129,17 +5129,17 @@
 	<card>
 		<k>пунда</k>
 		<origin>кит. (у синьцз. киргизов)</origin>
-		<blockquote>станция.</blockquote>
+		<trn>станция.</trn>
 	</card>
 	<card>
 		<k>пункт</k>
 		<meta>в разн. знач.</meta>
 		<trn>пункт</trn>
-		<blockquote>кабыл алуу пункуту приёмный пункт;</blockquote>
-		<blockquote>договордун пункуту пункт договора;</blockquote>
-		<blockquote>чакыруу пункуту воен. призывной пункт;</blockquote>
-		<blockquote>коргонуу пункуту воен. оборонительный пункт;</blockquote>
-		<blockquote>пункт-пункуту менен по пунктам.</blockquote>
+		<blockquote>кабыл алуу пункуту@@ приёмный пункт;</blockquote>
+		<blockquote>договордун пункуту@@ пункт договора;</blockquote>
+		<blockquote>чакыруу пункуту воен.@@ призывной пункт;</blockquote>
+		<blockquote>коргонуу пункуту воен.@@ оборонительный пункт;</blockquote>
+		<blockquote>пункт-пункуту менен@@ по пунктам.</blockquote>
 	</card>
 	<card>
 		<k>пүнкүт</k>
@@ -5154,7 +5154,7 @@
 		<k>пүпүп</k>
 		<meta>(или алалай пүпүп, южн. әләләй пүпүп)</meta>
 		<sameas word="үпүп"/>
-		<blockquote>пүпүп жаз алдында келет удод прилетает весной.</blockquote>
+		<blockquote>пүпүп жаз алдында келет@@ удод прилетает весной.</blockquote>
 	</card>
 	<card>
 		<k>пургурам</k>
@@ -5165,15 +5165,16 @@
 		<k>пүргөн</k>
 		<origin>р.</origin>
 		<meta>южн.</meta>
-		<blockquote>фургон, бричка.</blockquote>
+		<trn>фургон, бричка.</trn>
 	</card>
 	<card>
 		<k>пурд</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>только в отриц. обороте постоянство, верность;</blockquote>
-		<blockquote>анын сөзүнүн пурду жок его слово ничего не стоит (он может что угодно пообещать);</blockquote>
-		<blockquote>көп бара берсең, арызыңдың пурду болбой калат если часто будешь обращаться, то твои заявления ничего не будут стоить.</blockquote>
+		<meta>только в отриц. обороте</meta>
+		<trn>постоянство, верность;</trn>
+		<blockquote>анын сөзүнүн пурду жок@@ его слово ничего не стоит (он может что угодно пообещать);</blockquote>
+		<blockquote>көп бара берсең, арызыңдың пурду болбой калат@@ если часто будешь обращаться, то твои заявления ничего не будут стоить.</blockquote>
 	</card>
 	<card>
 		<k>пуризм</k>
@@ -5193,19 +5194,20 @@
 	<card>
 		<k>пурут</k>
 		<meta>южн.</meta>
-		<blockquote>пучок волос под нижней губой мужчины (часть бороды).</blockquote>
+		<trn>пучок волос под нижней губой мужчины (часть бороды).</trn>
 	</card>
 	<card>
 		<k>пүрчөк</k>
 		<homonym>
 			<meta>южн.</meta>
-			<blockquote>то же, что бурч, булуң 1.</blockquote>
+			<sameas word="бурч" index="1"/>
+			<sameas word="булуң" index="1"/>
 		</homonym>
 		<homonym>
 			<origin>р.</origin>
 			<meta>южн.</meta>
 			<meta>уст.</meta>
-			<blockquote>вершок.</blockquote>
+			<trn>вершок.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -5216,7 +5218,7 @@
 		<k>пустак</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>пустяк, пустяки.</blockquote>
+		<trn>пустяк, пустяки.</trn>
 	</card>
 	<card>
 		<k>пустан</k>
@@ -5225,18 +5227,18 @@
 	<card>
 		<k>пүстөл</k>
 		<pair word="үстөл"/>
-		<blockquote>үстөл-пүстөл столы-столишки, столы и всякое такое.</blockquote>
+		<blockquote>үстөл-пүстөл@@ столы-столишки, столы и всякое такое.</blockquote>
 	</card>
 	<card>
 		<k>пут</k>
 		<meta>талас.</meta>
 		<sameas word="бут" index="1"/>
-		<blockquote>бир пут ун один пуд муки.</blockquote>
+		<blockquote>бир пут ун@@ один пуд муки.</blockquote>
 	</card>
 	<card>
 		<k>путёвка</k>
 		<trn>путёвка</trn>
-		<blockquote>комсомолдук путёвка менен по комсомольской путёвке.</blockquote>
+		<blockquote>комсомолдук путёвка менен@@ по комсомольской путёвке.</blockquote>
 	</card>
 	<card>
 		<k>пүткөр-</k>
@@ -5245,9 +5247,10 @@
 	</card>
 	<card>
 		<k>пүтүвө</k>
-		<blockquote>
-			южн. женск.</blockquote>
-		<blockquote>виноград.</blockquote>
+		<meta>южн.</meta>
+		<transcription>пүтүвə</transcription>
+		<meta>женск.</meta>
+		<trn>виноград.</trn>
 	</card>
 	<card>
 		<k>пүтөв</k>
@@ -5256,7 +5259,7 @@
 			<meta>южн.</meta>
 			<trn>пригоршня;</trn>
 		</collocation>
-		<blockquote>пүтөв кочкорок то же, что кочкорок.</blockquote>
+		<blockquote>пүтөв кочкорок@@ то же, что кочкорок.</blockquote>
 	</card>
 	<card>
 		<k>пухта</k>
@@ -5271,7 +5274,7 @@
 		<k>пүчү</k>
 		<meta>южн.</meta>
 		<sameas word="бүчү"/>
-		<blockquote>пүчү боо этн. ответный подарок деньгами отца жениха отцу невесты и его родственникам.</blockquote>
+		<blockquote>пүчү боо этн.## ответный подарок деньгами отца жениха отцу невесты и его родственникам.</blockquote>
 	</card>
 	<card>
 		<k>пүчүлүк</k>
@@ -5280,7 +5283,7 @@
 	<card>
 		<k>пушак</k>
 		<pair word="ушак"/>
-		<blockquote>ал ушак-пушактан алыс он далёк от всяких сплетен и пересудов.</blockquote>
+		<blockquote>ал ушак-пушактан алыс@@ он далёк от всяких сплетен и пересудов.</blockquote>
 	</card>
 	<card>
 		<k>пушаң</k>
@@ -5296,12 +5299,12 @@
 		<k>пушту</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>розовый (цвет).</blockquote>
+		<trn>розовый (цвет).</trn>
 	</card>
 	<card>
 		<k>пызылдак</k>
 		<meta>южн.</meta>
-		<blockquote>жужжалка (детская игрушка).</blockquote>
+		<trn>жужжалка (детская игрушка).</trn>
 	</card>
 	<card>
 		<k>пый</k>
@@ -5315,20 +5318,23 @@
 	<card>
 		<k>пыйналыш</k>
 		<pair word="жыйналыш"/>
-		<blockquote>сенин жыйналыш-пыйналышың эле көбөйдү очень уж много у тебя стало разных собраний.</blockquote>
+		<blockquote>сенин жыйналыш-пыйналышың эле көбөйдү@@ очень уж много у тебя стало разных собраний.</blockquote>
 	</card>
 	<card>
 		<k>пыйын</k>
 		<pair word="тыйын" index="2"/>
-		<blockquote>тыйын-пыйын деньжонки;</blockquote>
-		<blockquote>алаканына тыйын-пыйын кыса келдиби? он принёс в кулаке (букв. зажав в ладонь) какие-нибудь деньжонки?</blockquote>
+		<collocation>
+			<k>тыйын-пыйын</k>
+			<trn>деньжонки;</trn>
+			<blockquote>алаканына тыйын-пыйын кыса келдиби?@@ он принёс в кулаке (букв. зажав в ладонь) какие-нибудь деньжонки?</blockquote>
+		</collocation>
 	</card>
 	<card>
 		<k>пык</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>шпоры (у птицы);</blockquote>
-		<blockquote>короздун пыгы шпоры петуха.</blockquote>
+		<trn>шпоры (у птицы);</trn>
+		<blockquote>короздун пыгы@@ шпоры петуха.</blockquote>
 	</card>
 	<card>
 		<k>пылан</k>
@@ -5338,7 +5344,7 @@
 	<card>
 		<k>пыр</k>
 		<sameas word="быр" index="1"/>
-		<blockquote>пырга кетти распылилось, пошло прахом.</blockquote>
+		<blockquote>пырга кетти@@ распылилось, пошло прахом.</blockquote>
 	</card>
 	<card>
 		<k>пырарап</k>
@@ -5367,21 +5373,29 @@
 	<card>
 		<k>пыс-</k>
 		<meta>южн.</meta>
-		<blockquote>таиться, скрываться;</blockquote>
-		<blockquote>пысып жатат он лежит затаившись.</blockquote>
+		<trn>таиться, скрываться;</trn>
+		<blockquote>пысып жатат@@ он лежит затаившись.</blockquote>
 	</card>
 	<card>
 		<k>пыстырма</k>
 		<meta>южн.</meta>
-		<blockquote>засада;</blockquote>
-		<blockquote>пыстырма болуп туруп</blockquote>
-		<blockquote>1) из засады;</blockquote>
-		<blockquote>2) перен. исподтишка.</blockquote>
+		<trn>засада;</trn>
+		<collocation>
+			<k>пыстырма болуп туруп</k>
+			<meaning>
+				<trn>из засады;</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>исподтишка.</trn>
+			</meaning>			
+		</collocation>
 	</card>
 	<card>
 		<k>пыткыл</k>
 		<meta>южн.</meta>
-		<blockquote>то же, что кокту (ср. быткыл).</blockquote>
+		<blockquote>то же, что кокту.</blockquote>
+		<blockquote>(ср. быткыл).</blockquote>
 	</card>
 	<card>
 		<k>пычак</k>
@@ -5391,18 +5405,18 @@
 	<card>
 		<k>пычакта-</k>
 		<sameas word="бычакта"/>
-		<blockquote>баскан изин пычактап всячески преследуя и издеваясь.</blockquote>
+		<blockquote>баскан изин пычактап@@ всячески преследуя и издеваясь.</blockquote>
 	</card>
 	<card>
 		<k>пычан</k>
 		<meta>южн.</meta>
-		<blockquote>сено.</blockquote>
+		<trn>сено.</trn>
 	</card>
 	<card>
 		<k>пычың</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>насмешка, колкость.</blockquote>
+		<trn>насмешка, колкость.</trn>
 	</card>
 	<card>
 		<k>пычыр</k>
@@ -5420,14 +5434,14 @@
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
-			<blockquote>окунать;</blockquote>
-			<blockquote>кой пыш- купать овец.</blockquote>
+			<trn>окунать;</trn>
+			<blockquote>кой пыш-@@ купать овец.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>пышаң</k>
 		<meta>южн.</meta>
-		<blockquote>примитивный рычаг (жердь).</blockquote>
+		<trn>примитивный рычаг (жердь).</trn>
 	</card>
 	<card>
 		<k>пышкырык</k>
@@ -5442,10 +5456,10 @@
 		<k>пышмана</k>
 		<meta>сев.</meta>
 		<meaning>
-			<blockquote>задаток (напр. в купле-продаже),</blockquote>
+			<trn>задаток (напр. в купле-продаже),</trn>
 		</meaning>
 		<meaning>
-			<blockquote>заклад (напр. в конских скачках).</blockquote>
+			<trn>заклад (напр. в конских скачках).</trn>
 		</meaning>
 	</card>
 	<card>
@@ -5461,7 +5475,8 @@
 	<card>
 		<k>пышык</k>
 		<meta>южн.</meta>
-		<blockquote>то же, что бышык I 1, 2.</blockquote>
+		<sameas word="бышык" index="1" subindex="1"/>
+		<sameas word="бышык" index="1" subindex="2"/>
 	</card>
 	<card>
 		<k>пышыр-</k>
@@ -5495,11 +5510,11 @@
 	<card>
 		<k>пыянкеч</k>
 		<origin>р.-ир.</origin>
-		<blockquote>пьяница.</blockquote>
+		<trn>пьяница.</trn>
 	</card>
 	<card>
 		<k>пыянкечтик</k>
-		<blockquote>пьянство.</blockquote>
+		<trn>пьянство.</trn>
 	</card>
 	<card>
 		<k>пьеса</k>
@@ -5520,7 +5535,7 @@
 			<sameas word="бөгө" index="1"/>
 		</meaning>
 		<meaning>
-			<blockquote>(точнее тухумдун пөгөсү) тупой конец яйца.</blockquote>
+			<trn>(точнее тухумдун пөгөсү) тупой конец яйца.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -5528,11 +5543,11 @@
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>трухлявый, дуплистый (напр. о дереве);</blockquote>
+			<trn>трухлявый, дуплистый (напр. о дереве);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>(о человеке) дряблый; растяпа.</blockquote>
+			<trn>(о человеке) дряблый; растяпа.</trn>
 		</meaning>
 	</card>
 	<card>
