@@ -95,7 +95,10 @@
 	<card>
 		<k>падага</k>
 		<pair word="садага"/>
-		<blockquote>садага-падага всякого рода милостыня и подаяния.</blockquote>
+		<collocation>
+			<k>садага-падага</k>
+			<trn>всякого рода милостыня и подаяния.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>падалөк</k>
@@ -1582,7 +1585,8 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>то же, что саам партия (в игре);</blockquote>
+			<sameas word="саам" subindex="2"/>
+			<trn>партия (в игре);</trn>
 			<ex>
 				<source>бир партия шахмат ойнодук</source>
 				<target>мы сыграли партию в шахматы.</target>
@@ -2152,7 +2156,10 @@
 	<card>
 		<k>паш</k>
 		<homonym>
-			<blockquote>аш-пашка койбой## вмиг, в два счёта.</blockquote>
+			<collocation>
+				<k>аш-пашка койбой</k>
+				<trn>вмиг, в два счёта.</trn>
+			</collocation>
 		</homonym>
 		<homonym>
 			<pair word="жаш" subindex="3"/>
@@ -5310,7 +5317,10 @@
 		<k>пүчү</k>
 		<meta>южн.</meta>
 		<sameas word="бүчү"/>
-		<blockquote>пүчү боо этн.## ответный подарок деньгами отца жениха отцу невесты и его родственникам.</blockquote>
+		<collocation>
+			<k>пүчү боо этн.</k>
+			<trn>ответный подарок деньгами отца жениха отцу невесты и его родственникам.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>пүчүлүк</k>
@@ -5449,7 +5459,7 @@
 		<k>пыткыл</k>
 		<meta>южн.</meta>
 		<sameas word="кокту"/>
-		<blockquote>(ср. быткыл).</blockquote>
+		<meta>(ср. быткыл)</meta>
 	</card>
 	<card>
 		<k>пычак</k>
@@ -5547,7 +5557,10 @@
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="ийле"/>
-			<blockquote>тери пышыр- выделывать кожу.</blockquote>
+			<ex>
+				<source>тери пышыр-</source>
+				<target>выделывать кожу.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
