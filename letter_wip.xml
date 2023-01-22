@@ -647,88 +647,97 @@
 		<meta>разг.</meta>
 		<collocation>
 			<k>назначыт эт-</k>
-			<blockquote>назначить.</blockquote>
+			<trn>назначить.</trn>
 		</collocation>
 	</card>
 	<card>
 		<k>назр</k>
-		<meta>(или назыр)</meta>
+		<sameas word="назир"/>
+	</card>
+	<card>
+		<k>назыр</k>
 		<sameas word="назир"/>
 	</card>
 	<card>
 		<k>най</k>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>флейта;</blockquote>
-			<blockquote>жез най медная флейта;</blockquote>
+			<trn>флейта;</trn>
+			<blockquote>жез най@@ медная флейта;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>чубук курительной трубки;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>южн.</meta>
-			<blockquote>всякий предмет в виде трубки;</blockquote>
+			<trn>чубук курительной трубки;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>ствол ружья;</blockquote>
-			<blockquote>кош най (най, а не н й под влиянием первого слова) или кош най мылтык двухствольное ружьё;</blockquote>
+			<transcription>нəй</transcription>
+			<trn>всякий предмет в виде трубки;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>труба железной печи;</blockquote>
-			<blockquote>найдай поджарый и стройный (напр. конь, подготовленный к скачкам);</blockquote>
-			<blockquote>най тамак тонкая и изящная шея (красавицы).</blockquote>
+			<transcription>нəй</transcription>
+			<trn>ствол ружья;</trn>
+			<blockquote>кош най (най, а не нəй под влиянием первого слова) или кош най мылтык@@ двухствольное ружьё;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<transcription>нəй</transcription>
+			<trn>труба железной печи;</trn>
+			<blockquote>найдай@@ поджарый и стройный (напр. конь, подготовленный к скачкам);</blockquote>
+			<blockquote>най тамак@@ тонкая и изящная шея (красавицы).</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>найват</k>
 		<meta>южн.</meta>
-		<blockquote>любимая, возлюбленная.</blockquote>
+		<transcription>нəйвəт</transcription>
+		<trn>любимая, возлюбленная.</trn>
 	</card>
 	<card>
 		<k>найза</k>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>копьё, пика;</blockquote>
-			<blockquote>найза сал- наносить удар копьём;</blockquote>
+			<trn>копьё, пика;</trn>
+			<blockquote>найза сал-@@ наносить удар копьём;</blockquote>
 			<ex>
 				<source>найза салар ыктуусу фольк.</source>
 				<target>лучшие из копейщиков;</target>
 			</ex>
-			<blockquote>найза же- получить удар копьём, быть поражённым копьём;</blockquote>
+			<blockquote>найза же-@@ получить удар копьём, быть поражённым копьём;</blockquote>
 			<ex>
 				<source>атадан калган санаты: найза сынса аш-тойдо, карматып колго жаңыртат стих.</source>
 				<target>обычай, оставшийся от предков: когда ломается копьё на тризне, пире, дают в руки новое;</target>
 			</ex>
-			<blockquote>найзанын учуна сал- предать мечу (букв. копью);</blockquote>
-			<blockquote>найзанын учу, кылычтын мизи менен жүрүп, көрүшпөдүк мы вели между собой кровавую распрю (букв. жили на конце копья и на острие меча), а потому не встречались;</blockquote>
+			<blockquote>найзанын учуна сал-@@ предать мечу (букв. копью);</blockquote>
+			<blockquote>найзанын учу, кылычтын мизи менен жүрүп, көрүшпөдүк@@ мы вели между собой кровавую распрю (букв. жили на конце копья и на острие меча), а потому не встречались;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>иглы (ежа, дикобраза); кирпинин найзасы иглы ежа;</blockquote>
+			<trn>иглы (ежа, дикобраза);</trn>
+			<blockquote>кирпинин найзасы@@ иглы ежа;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>карт.</meta>
-			<blockquote>король;</blockquote>
+			<trn>король;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
 			<meta>южн.</meta>
-			<blockquote>(о человеке) двуличный.</blockquote>
+			<trn>(о человеке) двуличный.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>найзагай</k>
-		<blockquote>редко, то же, что чагылган.</blockquote>
+		<meta>редко</meta>
+		<blockquote>то же, что чагылган.</blockquote>
 	</card>
 	<card>
 		<k>найзакер</k>
 		<origin>ир.</origin>
-		<blockquote>копейщик (воин, вооружённый копьём).</blockquote>
+		<trn>копейщик (воин, вооружённый копьём).</trn>
 	</card>
 	<card>
 		<k>найзала-</k>
-		<blockquote>действовать копьём, пикой; колоть копьём, пикой.</blockquote>
+		<trn>действовать копьём, пикой; колоть копьём, пикой.</trn>
 	</card>
 	<card>
 		<k>найзалаш</k>
@@ -737,12 +746,12 @@
 		</homonym>
 		<homonym>
 			<recv word="найзала"/>
-			<blockquote>сражаться на копьях, на пиках.</blockquote>
+			<trn>сражаться на копьях, на пиках.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>найзачан</k>
-		<blockquote>вооружённый копьём, пикой.</blockquote>
+		<trn>вооружённый копьём, пикой.</trn>
 	</card>
 	<card>
 		<k>найзачы</k>
@@ -750,9 +759,9 @@
 	</card>
 	<card>
 		<k>найлуу</k>
-		<blockquote>с трубкой, с чубуком;</blockquote>
-		<blockquote>жез найлуу чылым кальян с медным чубуком;</blockquote>
-		<blockquote>алтын найлуу сыр канжа трубка с золотым чубуком.</blockquote>
+		<trn>с трубкой, с чубуком;</trn>
+		<blockquote>жез найлуу чылым@@ кальян с медным чубуком;</blockquote>
+		<blockquote>алтын найлуу сыр канжа@@ трубка с золотым чубуком.</blockquote>
 	</card>
 	<card>
 		<k>найранбоз</k>
@@ -760,40 +769,41 @@
 		<meta>южн.</meta>
 		<meta>прям.</meta>
 		<meta>перен.</meta>
-		<blockquote>фокусник.</blockquote>
+		<trn>фокусник.</trn>
 	</card>
 	<card>
 		<k>найүмүт</k>
 		<origin>ир.</origin>
-		<blockquote>без надежды, потерявший надежду; обездоленный;</blockquote>
-		<blockquote>найүмүт адам калбасын чтоб обездоленных людей не осталось.</blockquote>
+		<trn>без надежды, потерявший надежду; обездоленный;</trn>
+		<blockquote>найүмүт адам калбасын@@ чтоб обездоленных людей не осталось.</blockquote>
 	</card>
 	<card>
 		<k>найча</k>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>трубочка;</blockquote>
+			<trn>трубочка;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>один из видов чач учтук (см. учтук);</blockquote>
-			<blockquote>найча бел (о женщине) с тонким станом, изящная.</blockquote>
+			<transcription>нəйчə</transcription>
+			<trn>один из видов чач учтук (см. учтук);</trn>
+			<blockquote>найча бел@@ (о женщине) с тонким станом, изящная.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>найынсап</k>
 		<origin>ир.-ар.</origin>
-		<blockquote>нечестный, негодяй.</blockquote>
+		<trn>нечестный, негодяй.</trn>
 	</card>
 	<card>
 		<k>найынсаптык</k>
-		<blockquote>нечестность, гадость.</blockquote>
+		<trn>нечестность, гадость.</trn>
 	</card>
 	<card>
 		<k>найып</k>
 		<origin>ар.</origin>
 		<meta>ист.</meta>
-		<blockquote>помощник уездного начальника.</blockquote>
+		<trn>помощник уездного начальника.</trn>
 	</card>
 	<card>
 		<k>найэсеп</k>
@@ -802,34 +812,33 @@
 	<card>
 		<k>нак</k>
 		<homonym>
-			<blockquote>(накта)</blockquote>
 			<origin>ар.</origin>
-			<blockquote>наличный; наличность;</blockquote>
-			<blockquote>накта акча или просто накта наличные деньги;</blockquote>
-			<blockquote>нактай наличными, чистоганом.</blockquote>
+			<trn>наличный; наличность;</trn>
+			<blockquote>накта акча или просто накта@@ наличные деньги;</blockquote>
+			<blockquote>нактай@@ наличными, чистоганом.</blockquote>			
 		</homonym>
 		<homonym>
-			<blockquote>как раз, точь-в-точь;</blockquote>
-			<blockquote>нак ушул мезгилде как раз в это время;</blockquote>
-			<blockquote>нак ушул жерде как раз в этом месте, именно в этом месте;</blockquote>
-			<blockquote>нак бүгүн как раз сегодня.</blockquote>
+			<trn>как раз, точь-в-точь;</trn>
+			<blockquote>нак ушул мезгилде@@ как раз в это время;</blockquote>
+			<blockquote>нак ушул жерде@@ как раз в этом месте, именно в этом месте;</blockquote>
+			<blockquote>нак бүгүн@@ как раз сегодня.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>наказ</k>
 		<meta>полит.</meta>
 		<trn>наказ</trn>
-		<blockquote>шайлоочулардын наказдары наказы избирателей.</blockquote>
+		<blockquote>шайлоочулардын наказдары@@ наказы избирателей.</blockquote>
 	</card>
 	<card>
 		<k>накай</k>
 		<meta>тяньш.</meta>
 		<sameas word="нак" index="2"/>
-		<blockquote>накай чын чистая правда.</blockquote>
+		<blockquote>накай чын@@ чистая правда.</blockquote>
 	</card>
 	<card>
 		<k>накер</k>
-		<blockquote>вид дорогого стремени (теперь не встречается);</blockquote>
+		<trn>вид дорогого стремени (теперь не встречается);</trn>
 		<ex>
 			<source>накери теке мүйүздөн, сыртын жапкан күмүштөн стих.</source>
 			<target>стремена у него из рога дикого козла, снаружи покрыты серебром.</target>
@@ -837,21 +846,30 @@
 	</card>
 	<card>
 		<k>накери</k>
-		<blockquote>(в эпосе) особые сапоги с загнутыми кверху носками (в них обычно обуты богатыри).</blockquote>
+		<trn>(в эпосе) особые сапоги с загнутыми кверху носками (в них обычно обуты богатыри).</trn>
 	</card>
 	<card>
 		<k>накерле-</k>
 		<sameas word="нөкөрлө"/>
-		<blockquote>накерлеп сайган желегим фольк.
-		</blockquote>
-		<blockquote>1) мой украшенный вышивным узором флаг;</blockquote>
-		<blockquote>2) перен. ласк. моё милое дитя.</blockquote>
+		<collocation>
+			<k>накерлеп сайган желегим</k>
+			<meta>фольк.</meta>
+			<meaning>
+				<trn>мой украшенный вышивным узором флаг;</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<meta>ласк.</meta>
+				<trn>моё милое дитя.</trn>
+			</meaning>			
+		</collocation>
 	</card>
 	<card>
 		<k>накес</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>(о человеке) нечестный, низкий.</blockquote>
+		<transcription>нəкəс</transcription>
+		<trn>(о человеке) нечестный, низкий.</trn>
 	</card>
 	<card>
 		<k>накта</k>
@@ -860,7 +878,7 @@
 		</homonym>
 		<homonym>
 			<sameas word="нак" index="2"/>
-			<blockquote>накта бышкан совсем поспело или сварилось или зажарилось или испеклось.</blockquote>
+			<blockquote>накта бышкан@@ совсем поспело или сварилось или зажарилось или испеклось.</blockquote>
 		</homonym>
 	</card>
 	<card>
@@ -880,7 +898,7 @@
 	<card>
 		<k>накүштө</k>
 		<origin>ир.</origin>
-		<blockquote>ростовщик;</blockquote>
+		<trn>ростовщик;</trn>
 		<ex>
 			<source>накүштөдөн карыздар болбо, ооган менен дос болбо погов.</source>
 			<target>не имей дела с ростовщиком, не дружи со слугою вельможи.</target>
@@ -894,35 +912,35 @@
 		<k>накшы</k>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<blockquote>рисунок, орнамент (гл. обр. шитый).</blockquote>
+		<trn>рисунок, орнамент (гл. обр. шитый).</trn>
 	</card>
 	<card>
 		<k>накыл</k>
 		<origin>ар.</origin>
 		<meaning>
-			<blockquote>поучительное предание;</blockquote>
-			<blockquote>накыл сөз или накыл кеп мудрое слово, мудрое поучение (идущее от прежних поколений);</blockquote>
+			<trn>поучительное предание;</trn>
+			<blockquote>накыл сөз или накыл кеп@@ мудрое слово, мудрое поучение (идущее от прежних поколений);</blockquote>
 			<ex>
 				<source>накыл кылып, кеп айткан фольк.</source>
 				<target>говорил он мудрые поучения;</target>
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>(о человеке) мудрый;</blockquote>
+			<trn>(о человеке) мудрый;</trn>
 			<ex>
 				<source>ар бир сөзү белгилүү накыл Током келгенби? фольк.</source>
-				<target>прибыл ли мой мудрый Токо, каждое слово которого прославлено (букв. известно) ?</target>
+				<target>прибыл ли мой мудрый Токо, каждое слово которого прославлено (букв. известно)?</target>
 			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>накыс</k>
-		<blockquote>небольшая горная седловина.</blockquote>
+		<trn>небольшая горная седловина.</trn>
 	</card>
 	<card>
 		<k>накыш</k>
 		<meta>(ср. акыш I, акуш)</meta>
-		<blockquote>кыз накыш девичий угодник;</blockquote>
+		<blockquote>кыз накыш@@ девичий угодник;</blockquote>
 		<ex>
 			<source>он экиде Күлчоро - катын жандуу, кыз накыш - калабалуу бала эле фольк.</source>
 			<target>в двенадцать (лет) Кюльчоро-бабник, девичий угодник, бедовым был пареньком.</target>
@@ -931,25 +949,25 @@
 	<card>
 		<k>накыштуу</k>
 		<sameas word="накыш"/>
-		<blockquote>кыз накыштуу девичий угодник.</blockquote>
+		<blockquote>кыз накыштуу@@ девичий угодник.</blockquote>
 	</card>
 	<card>
 		<k>накь</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>[нәк]</blockquote>
-		<blockquote>название сорта груш.</blockquote>
+		<transcription>[нәк]</transcription>
+		<trn>название сорта груш.</trn>
 	</card>
 	<card>
 		<k>наладчик</k>
-		<blockquote>наладчик; слесарь-наладчик.</blockquote>
+		<trn>наладчик; слесарь-наладчик.</trn>
 	</card>
 	<card>
 		<k>налог</k>
 		<trn>налог</trn>
-		<blockquote>айыл-чарба налогу сельскохозяйственный налог;</blockquote>
-		<blockquote>жеке налог ист. индивидуальный налог;</blockquote>
-		<blockquote>азык-түлүк налогу ист. продовольственный налог.</blockquote>
+		<blockquote>айыл-чарба налогу@@ сельскохозяйственный налог;</blockquote>
+		<blockquote>жеке налог ист.@@ индивидуальный налог;</blockquote>
+		<blockquote>азык-түлүк налогу ист.@@ продовольственный налог.</blockquote>
 	</card>
 	<card>
 		<k>налы-</k>
@@ -959,8 +977,8 @@
 		<k>нама</k>
 		<origin>ир.</origin>
 		<meta>(ср. наама II)</meta>
-		<blockquote>вторая часть сложных слов;</blockquote>
-		<blockquote>күбөнама или күбөлүк нама свидетельство, удостоверение.</blockquote>
+		<trn>вторая часть сложных слов;</trn>
+		<blockquote>күбөнама или күбөлүк нама@@ свидетельство, удостоверение.</blockquote>
 	</card>
 	<card>
 		<k>намааран</k>
@@ -970,9 +988,9 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>лишённый чего-л., обделённый;</blockquote>
-			<blockquote>намааран калдым я остался ни с чем, мне ничего не досталось;</blockquote>
-			<blockquote>акчадан намааран калдым мне денег не досталось (напр. к моему приходу в кассе деньги кончились).</blockquote>
+			<trn>лишённый чего-л., обделённый;</trn>
+			<blockquote>намааран калдым@@ я остался ни с чем, мне ничего не досталось;</blockquote>
+			<blockquote>акчадан намааран калдым@@ мне денег не досталось (напр. к моему приходу в кассе деньги кончились).</blockquote>
 		</meaning>
 	</card>
 	<card>
