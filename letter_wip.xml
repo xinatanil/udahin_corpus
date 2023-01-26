@@ -2838,7 +2838,7 @@
 	<card>
 		<k>небир</k>
 		<sameas word="не бир"/>
-		<blockquote>(см. не I).</blockquote>
+		<look word="не" index="1"/>
 	</card>
 	<card>
 		<k>небире</k>
@@ -3115,7 +3115,7 @@
 	<card>
 		<k>непир</k>
 		<sameas word="не бир"/>
-		<blockquote>(см. не I);</blockquote>
+		<look word="не" index="1"/>
 		<ex>
 			<source>непир сулуу гүлдөр!</source>
 			<target>что за красивые цветы!;</target>
@@ -4385,7 +4385,7 @@
 	<card>
 		<k>нөөмөт</k>
 		<origin>ар.</origin>
-		<blockquote>(см. дөөмөт)</blockquote>
+		<look word="дөөмөт"/>
 		<meaning>
 			<blockquote>очередь;</blockquote>
 			<blockquote>нөөмөт менен по очереди;</blockquote>
