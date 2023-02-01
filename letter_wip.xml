@@ -405,7 +405,7 @@
 		<k>нагайбыл</k>
 		<collocation>
 			<k>нагайбыл иш</k>
-			<blockquote>сомнительное, неясное, неопределённое дело или положение.</blockquote>
+			<trn>сомнительное, неясное, неопределённое дело или положение.</trn>
 		</collocation>
 	</card>
 	<card>
@@ -3633,7 +3633,8 @@
 	</card>
 	<card>
 		<k>ноё-</k>
-		<blockquote>редко, то же, что ною-;</blockquote>
+		<meta>редко</meta>
+		<sameas word="ною-" />
 		<ex>
 			<source>аргымак болсоң, ноёрсуң, ак болот болсоң, жоёрсуң фольк.</source>
 			<target>если ты скакун, притомишься, если ты белый булат, притупишься (всё изнашивается).</target>
@@ -3650,11 +3651,15 @@
 	<card>
 		<k>ноко</k>
 		<sameas word="око" index="1"/>
-		<blockquote>ноко сыяк или ноко сымак южн. (о человеке) нелюдимый, необщительный.</blockquote>
+		<collocation>
+			<k>ноко сыяк или ноко сымак</k>
+			<meta>южн.</meta>
+			<trn>(о человеке) нелюдимый, необщительный.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>ноколо-</k>
-		<blockquote>отделывать позументом или канителью;</blockquote>
+		<trn>отделывать позументом или канителью;</trn>
 		<ex>
 			<source>кыргагына калпактын, ноколоп, сайма сайдырган стих.</source>
 			<target>поля колпака он велел вышить канителью.</target>
@@ -3664,7 +3669,7 @@
 		<k>ноконо</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>ноготь (болезнь лошадей, выражающаяся в задержании мочи).</blockquote>
+		<trn>ноготь (болезнь лошадей, выражающаяся в задержании мочи).</trn>
 	</card>
 	<card>
 		<k>нокоро</k>
@@ -3676,13 +3681,13 @@
 			<origin>ар.</origin>
 			<meta>в разн. знач.</meta>
 			<trn>точка</trn>
-			<blockquote>көзүн албай бир нокотко кадалат он, не отрывая глаз, впивается в одну точку;</blockquote>
-			<blockquote>сөздү нокотуна келтирип айтат он говорит ясно, чётко и складно.</blockquote>
+			<blockquote>көзүн албай бир нокотко кадалат@@ он, не отрывая глаз, впивается в одну точку;</blockquote>
+			<blockquote>сөздү нокотуна келтирип айтат@@ он говорит ясно, чётко и складно.</blockquote>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
-			<blockquote>название сорта гороха.</blockquote>
+			<trn>название сорта гороха.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -3690,29 +3695,31 @@
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>астрагал волокнистый (растение);</blockquote>
+			<trn>астрагал волокнистый (растение);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>незаконнорождённое дитя.</blockquote>
+			<trn>незаконнорождённое дитя.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>нокто</k>
-		<blockquote>недоуздок, оброть;</blockquote>
-		<blockquote>нокто кат- надеть недоуздок, обротать;</blockquote>
-		<ex>
-			<source>нокто агасы (или олжо агасы) ист.</source>
-			<target>человек, которому несколько лиц сообща подарили коня (по отношению к дарителям; такие отношения бывали и между целыми родами).</target>
-		</ex>
+		<trn>недоуздок, оброть;</trn>
+		<blockquote>нокто кат-## надеть недоуздок, обротать;</blockquote>
+		<collocation>
+			<k>нокто агасы</k>
+			<meta>(или олжо агасы)</meta>
+			<meta>ист.</meta>
+			<trn>человек, которому несколько лиц сообща подарили коня (по отношению к дарителям; такие отношения бывали и между целыми родами).</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>ноктоло-</k>
-		<blockquote>надеть недоуздок, обротать.</blockquote>
+		<trn>надеть недоуздок, обротать.</trn>
 	</card>
 	<card>
 		<k>ноктолуу</k>
-		<blockquote>с недоуздком, в недоуздке.</blockquote>
+		<trn>с недоуздком, в недоуздке.</trn>
 	</card>
 	<card>
 		<k>ноль</k>
@@ -3724,26 +3731,26 @@
 		<k>номер</k>
 		<meta>в разн. знач.</meta>
 		<trn>номер</trn>
-		<blockquote>журналдын кезектеги номери очередной номер журнала;</blockquote>
-		<blockquote>номер белгиси номерной знак.</blockquote>
+		<blockquote>журналдын кезектеги номери@@ очередной номер журнала;</blockquote>
+		<blockquote>номер белгиси@@ номерной знак.</blockquote>
 	</card>
 	<card>
 		<k>номерде-</k>
-		<blockquote>нумеровать.</blockquote>
+		<trn>нумеровать.</trn>
 	</card>
 	<card>
 		<k>номердел-</k>
 		<pass word="номерде"/>
-		<blockquote>номерделген нумерованный.</blockquote>
+		<blockquote>номерделген@@ нумерованный.</blockquote>
 	</card>
 	<card>
 		<k>номердүү</k>
-		<blockquote>снабжённый номером, нумерованный.</blockquote>
+		<trn>снабжённый номером, нумерованный.</trn>
 	</card>
 	<card>
 		<k>номердөө</k>
 		<actionNoun word="номерде"/>
-		<blockquote>нумерация.</blockquote>
+		<trn>нумерация.</trn>
 	</card>
 	<card>
 		<k>номур</k>
@@ -3753,31 +3760,32 @@
 	<card>
 		<k>нонок</k>
 		<origin>ир.</origin>
-		<blockquote>тяньш., южн.</blockquote>
-		<blockquote>растяпа, неумеха; бестолковый, ненаходчивый в словах.</blockquote>
+		<meta>тяньш.</meta>
+		<meta>южн.</meta>
+		<trn>растяпа, неумеха; бестолковый, ненаходчивый в словах.</trn>
 	</card>
 	<card>
 		<k>ноо</k>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
-				<blockquote>жёлоб;</blockquote>
+				<trn>жёлоб;</trn>
 			</meaning>
 			<meaning>
 				<meta>тяньш.</meta>
-				<blockquote>колода, куда кладут соль для скота.</blockquote>
+				<trn>колода, куда кладут соль для скота.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
 			<origin>р.</origin>
-			<blockquote>но! (возглас понукания).</blockquote>
+			<trn>но! (возглас понукания).</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>нооват</k>
 		<origin>ар.</origin>
-		<blockquote>очередь;</blockquote>
-		<blockquote>нооват менен алсаңарчы! да берите же по очереди! (не все сразу).</blockquote>
+		<trn>очередь;</trn>
+		<blockquote>нооват менен алсаңарчы!@@ да берите же по очереди! (не все сразу).</blockquote>
 	</card>
 	<card>
 		<k>ноода</k>
@@ -3785,37 +3793,37 @@
 	</card>
 	<card>
 		<k>ноокас</k>
-		<blockquote>больной;</blockquote>
-		<blockquote>ал өткөн күздөн бери ноокас он с прошлой осени болен.</blockquote>
+		<trn>больной;</trn>
+		<blockquote>ал өткөн күздөн бери ноокас@@ он с прошлой осени болен.</blockquote>
 	</card>
 	<card>
 		<k>ноокаста-</k>
-		<blockquote>болеть, хворать;</blockquote>
-		<blockquote>ноокастап калдым я заболел.</blockquote>
+		<trn>болеть, хворать;</trn>
+		<blockquote>ноокастап калдым@@ я заболел.</blockquote>
 	</card>
 	<card>
 		<k>ноокастан-</k>
-		<blockquote>возвр. от ноокаста-,</blockquote>
+		<blockquote>возвр. от ноокаста-</blockquote>
 		<sameas word="ноокаста"/>
 	</card>
 	<card>
 		<k>ноолан</k>
-		<blockquote>название материи.</blockquote>
+		<trn>название материи.</trn>
 	</card>
 	<card>
 		<k>ноолу</k>
 		<origin>ар.</origin>
 		<meta>сев.</meta>
 		<meaning>
-			<blockquote>низкая глинобитная ограда вокруг могилы;</blockquote>
+			<trn>низкая глинобитная ограда вокруг могилы;</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>глинобитный забор вокруг приусадебного участка;</blockquote>
+			<trn>глинобитный забор вокруг приусадебного участка;</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>приусадебный участок; огород.</blockquote>
+			<trn>приусадебный участок; огород.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -3827,24 +3835,24 @@
 		<origin>ир.</origin>
 		<meta>тяньш.</meta>
 		<meaning>
-			<blockquote>бычок по третьему году;</blockquote>
+			<trn>бычок по третьему году;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>захудалый молодой бычок.</blockquote>
+			<trn>захудалый молодой бычок.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ноопуруш</k>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>(о человеке) рослый, сильный.</blockquote>
+		<trn>(о человеке) рослый, сильный.</trn>
 	</card>
 	<card>
 		<k>нооруз</k>
 		<origin>ир.</origin>
-		<blockquote>день Нового года (около 20 марта);</blockquote>
-		<blockquote>нооруз көжө то же, что оруздама.</blockquote>
+		<trn>день Нового года (около 20 марта);</trn>
+		<blockquote>нооруз көжө## то же, что оруздама.</blockquote>
 	</card>
 	<card>
 		<k>ноот</k>
@@ -3854,24 +3862,24 @@
 		</homonym>
 		<homonym>
 			<sameas word="набыт"/>
-			<blockquote>ноот кыл- уничтожить, погубить.</blockquote>
+			<blockquote>ноот кыл-## уничтожить, погубить.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>нооту</k>
 		<origin>ир.</origin>
-		<blockquote>сукно.</blockquote>
+		<trn>сукно.</trn>
 	</card>
 	<card>
 		<k>нооча</k>
 		<origin>ир.</origin>
-		<blockquote>(о человеке) рослый и стройный (обычно и молодцеватый);</blockquote>
-		<blockquote>нооча бойлуу высокого роста.</blockquote>
+		<trn>(о человеке) рослый и стройный (обычно и молодцеватый);</trn>
+		<blockquote>нооча бойлуу@@ высокого роста.</blockquote>
 	</card>
 	<card>
 		<k>ноочо</k>
 		<blockquote>охот.</blockquote>
-		<blockquote>скрад;</blockquote>
+		<trn>скрад;</trn>
 		<ex>
 			<source>ноочого кирди саятчы, колбоорго коён тири байлап стих.</source>
 			<target>охотник, привязав в сеть живого зайца, залез в скрад.</target>
@@ -3880,39 +3888,39 @@
 	<card>
 		<k>норма</k>
 		<trn>норма</trn>
-		<blockquote>иштөө нормалары нормы выработки;</blockquote>
-		<blockquote>күндүк нормалары дневные кормы;</blockquote>
-		<blockquote>нормадан тышкары сверх нормы.</blockquote>
+		<blockquote>иштөө нормалары@@ нормы выработки;</blockquote>
+		<blockquote>күндүк нормалары@@ дневные кормы;</blockquote>
+		<blockquote>нормадан тышкары@@ сверх нормы.</blockquote>
 	</card>
 	<card>
 		<k>нормала-</k>
-		<blockquote>нормировать.</blockquote>
+		<trn>нормировать.</trn>
 	</card>
 	<card>
 		<k>нормалан-</k>
 		<refpass word="нормала"/>
-		<blockquote>нормироваться, быть нормируемым;</blockquote>
-		<blockquote>нормаланган нормированный.</blockquote>
+		<trn>нормироваться, быть нормируемым;</trn>
+		<blockquote>нормаланган@@ нормированный.</blockquote>
 	</card>
 	<card>
 		<k>нормалаштыруу</k>
-		<blockquote>нормализация.</blockquote>
+		<trn>нормализация.</trn>
 	</card>
 	<card>
 		<k>нормалдуу</k>
 		<meta>в разн. знач.</meta>
 		<trn>нормальный</trn>
-		<blockquote>нормалдуу жана түшүнүктүү иш дело нормальное и понятное;</blockquote>
-		<blockquote>нормалдуу психика нормальная психика.</blockquote>
+		<blockquote>нормалдуу жана түшүнүктүү иш@@ дело нормальное и понятное;</blockquote>
+		<blockquote>нормалдуу психика@@ нормальная психика.</blockquote>
 	</card>
 	<card>
 		<k>нормалоо</k>
 		<actionNoun word="нормала"/>
-		<blockquote>нормирование.</blockquote>
+		<trn>нормирование.</trn>
 	</card>
 	<card>
 		<k>нормалоочу</k>
-		<blockquote>нормировщик.</blockquote>
+		<trn>нормировщик.</trn>
 	</card>
 	<card>
 		<k>носорог</k>
@@ -3927,8 +3935,8 @@
 		<homonym>
 			<blockquote>муз.</blockquote>
 			<trn>нота</trn>
-			<blockquote>ноталар ноты;</blockquote>
-			<blockquote>нота кагазы нотная бумага.</blockquote>
+			<blockquote>ноталар@@ ноты;</blockquote>
+			<blockquote>нота кагазы@@ нотная бумага.</blockquote>
 		</homonym>
 	</card>
 	<card>
@@ -3943,12 +3951,12 @@
 	<card>
 		<k>ношотур</k>
 		<origin>ар.</origin>
-		<blockquote>нашатырь.</blockquote>
+		<trn>нашатырь.</trn>
 	</card>
 	<card>
 		<k>ною-</k>
-		<blockquote>утомляться, выказывать слабость, обессилевать, лишаться сил;</blockquote>
-		<blockquote>эч ноюп койбойт он ничуть не утомляется;</blockquote>
+		<trn>утомляться, выказывать слабость, обессилевать, лишаться сил;</trn>
+		<blockquote>эч ноюп койбойт@@ он ничуть не утомляется;</blockquote>
 		<ex>
 			<source>адырдуу жерден ноюбас, алыска минсе, жоорубас фольк.</source>
 			<target>по холмистым местам (этот конь) не утомляется, от дальнего пути у него не бывает ссадин;</target>
@@ -3969,27 +3977,27 @@
 	<card>
 		<k>нрава</k>
 		<origin>р.</origin>
-		<blockquote>нравы.</blockquote>
+		<trn>нравы.</trn>
 	</card>
 	<card>
 		<k>ну</k>
 		<origin>р.</origin>
 		<trn>ну</trn>
-		<blockquote>ну, айталык ну, скажем; ну, предположим.</blockquote>
+		<blockquote>ну, айталык@@ ну, скажем; ну, предположим.</blockquote>
 	</card>
 	<card>
 		<k>нук</k>
 		<meaning>
-			<blockquote>русло;</blockquote>
-			<blockquote>жаңы нук боюнча суу жүрө баштады началось движение воды по новому руслу;</blockquote>
+			<trn>русло;</trn>
+			<blockquote>жаңы нук боюнча суу жүрө баштады@@ началось движение воды по новому руслу;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>следы старого строения;</blockquote>
+			<trn>следы старого строения;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>знак, признак;</blockquote>
+			<trn>знак, признак;</trn>
 			<ex>
 				<source>жанган жылдыз төштө сапсары, ал - эрдиктин өчпөс нуктары стих.</source>
 				<target>на груди жёлтая-жёлтая (т.е. золотая) звезда, это - немеркнущие знаки героизма.</target>
