@@ -1,7 +1,7 @@
 import re
 import fileinput
 
-metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.'
+metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.'
 originWord = 'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.|ир\.-ар\.'
 metaOrOriginWord = metaWord + '|' + originWord
 referencePattern = '(\w+)-? ?([IVX]+)? ?(\d)?[\.|;]?'
@@ -16,7 +16,7 @@ with open ('letter_after.xml', 'r' ) as f:
     content_new = re.sub('<blockquote>в разн\. знач\. (\w+).?<\/blockquote>', r'<meta>в разн. знач.</meta>\n\t\t<trn>\1</trn>', content, flags = re.M)
 
 # <blockquote>пейилдүүлүк: кичи пейилдүүлүк## вежливость, учтивость;</blockquote>
-    content_new = re.sub('<blockquote>(.+: )?(.+)## (.+)</blockquote>', r'<collocation><k>\2</k>\n<blockquote>\3</blockquote></collocation>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(.+: )?(.+)## (.+)</blockquote>', r'<collocation><k>\2</k>\n<trn>\3</trn></collocation>', content_new, flags = re.M)
 
 # <blockquote>р. ист. разг.</blockquote>
 # <blockquote>р. сев.</blockquote>
@@ -45,7 +45,8 @@ with open ('letter_after.xml', 'r' ) as f:
     
     content_new = re.sub(rf'<blockquote>уподоб\. от {referencePattern}<\/blockquote>', rf'<similative {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>парное к {referencePattern}<\/blockquote>', rf'<pair {referenceReplace} />', content_new, flags = re.M)
-    
+    content_new = re.sub(rf'<blockquote>многокр\. от {referencePattern}<\/blockquote>', rf'<iter {referenceReplace} />', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>отвл\. от {referencePattern}<\/blockquote>', rf'<abstract {referenceReplace} />', content_new, flags = re.M)
     
     #replace meta sameas and look tags
     content_new = re.sub(rf'<blockquote>то же, что {referencePattern}<\/blockquote>', rf'<sameas {referenceReplace} />', content_new, flags = re.M)
