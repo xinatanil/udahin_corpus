@@ -2116,7 +2116,8 @@
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>то же, что беш бармак (см. бармак).</blockquote>
+			<sameas word="беш бармак"/>
+			<look word="бармак" />
 		</meaning>
 	</card>
 	<card>
@@ -3601,8 +3602,8 @@
 	<card>
 		<k>новда</k>
 		<origin>ир.</origin>
-		<blockquote>южн.,</blockquote>
-		<blockquote>ноода тяньш.</blockquote>
+		<meta>южн.</meta>
+		<meta>ноода тяньш.</meta>
 		<meaning>
 			<trn>молодая ветвь, молодой стройный побег дерева;</trn>
 			<ex>
@@ -4123,7 +4124,8 @@
 		<k>нукур</k>
 		<homonym>
 			<meta>южн.</meta>
-			<blockquote>то же, что күн жилик (см. жилик).</blockquote>
+			<sameas word="күн жилик" />
+			<look word="жилик" />
 		</homonym>
 		<homonym>
 			<sameas word="нукура"/>
