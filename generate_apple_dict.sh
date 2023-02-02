@@ -1,0 +1,3 @@
+cd apple_dict_template
+make
+make install
