@@ -28,3 +28,30 @@ span.column {
 		color: white;
 	}
 }
+
+div.ex, div.trn {
+	padding-bottom: 8px;
+}
+
+div.source {
+	color: gray;
+	padding-left: 8px;
+}
+
+div.target {
+	padding-left: 8px;
+}
+
+div.collocation div.headword {
+	color: gray;
+	padding-left: 8px;
+}
+
+div.collocation div.trn {
+	padding-left: 8px;
+}
+
+div.meta, div.origin, div.pos {
+	color: green;
+	font-style: italic;
+}
