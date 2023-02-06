@@ -55,3 +55,7 @@ div.meta, div.origin, div.pos {
 	color: green;
 	font-style: italic;
 }
+
+div.homonym {
+	padding-top: 8px;
+}

@@ -35,8 +35,9 @@
                   <xsl:copy-of select="udn:processMeaning(., 0)" />
                   
                   <xsl:for-each select="meaning">
-                    <xsl:number value="position()" />
-                    <br/>
+                    <div class="meaningIndex">
+                      <xsl:number value="position()" />
+                    </div>
                     <xsl:copy-of select="udn:processMeaning(., 0)" />
                   </xsl:for-each>
                 </xsl:when>
@@ -49,28 +50,31 @@
             <xsl:when test="$homonymsCount > 1">
               
               <xsl:for-each select="homonym">
-                <xsl:number value="position()" format="I"/>
-                <br/>
-                
-                <xsl:choose>
-                  <xsl:when test="count(meaning) = 0">
-                    <xsl:copy-of select="udn:processMeaning(., 0)" />
-                  </xsl:when>
-                  <xsl:when test="count(meaning) = 1">
-                    <xsl:value-of select="error()" />
-                    <!-- should never happen, check XML -->
-                  </xsl:when>
-                  <xsl:when test="count(meaning) > 1">
-                    <xsl:copy-of select="udn:processMeaning(., 0)" />
-                    
-                    <xsl:for-each select="meaning">
-                      <xsl:number value="position()" />
-                      <br/>
+                <div class="homonym">
+                  <div class="homonymIndex">
+                    <xsl:number value="position()" format="I"/>
+                  </div>
+                  
+                  <xsl:choose>
+                    <xsl:when test="count(meaning) = 0">
                       <xsl:copy-of select="udn:processMeaning(., 0)" />
-                    </xsl:for-each>
-                  </xsl:when>
-                </xsl:choose>
-                
+                    </xsl:when>
+                    <xsl:when test="count(meaning) = 1">
+                      <xsl:value-of select="error()" />
+                      <!-- should never happen, check XML -->
+                    </xsl:when>
+                    <xsl:when test="count(meaning) > 1">
+                      <xsl:copy-of select="udn:processMeaning(., 0)" />
+                      
+                      <xsl:for-each select="meaning">
+                        <div class="meaningIndex">
+                          <xsl:number value="position()" />
+                        </div>
+                        <xsl:copy-of select="udn:processMeaning(., 0)" />
+                      </xsl:for-each>
+                    </xsl:when>
+                  </xsl:choose>
+                </div>  
               </xsl:for-each>
               
             </xsl:when>
@@ -183,12 +187,14 @@
       <xsl:copy-of select="$oneLineTag"/>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'transcription'">
-      <xsl:text>\[</xsl:text>
+      <xsl:text>[</xsl:text>
       <xsl:value-of select="$oneLineTag"/>
-      <xsl:text>\]</xsl:text>
+      <xsl:text>]</xsl:text>
     </xsl:if>
     <xsl:if test="name($oneLineTag) = 'blockquote'">
-      <xsl:value-of select="$oneLineTag"/>
+      <div class="blockquote">
+        <xsl:value-of select="$oneLineTag"/>
+      </div>
     </xsl:if>
   </xsl:function>
   
