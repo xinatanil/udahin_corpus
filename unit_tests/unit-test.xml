@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <card>
+      <k>наалат</k>
+      <origin>ар.</origin>
+      <meaning>
+         <trn>проклятие;</trn>
+         <ex>
+            <source>наалатын чачты</source>
+            <target>он изрекал проклятия;</target>
+         </ex>
+         <ex>
+            <source>атаңа наалат! бран.</source>
+            <target>будь проклят твой отец!;</target>
+         </ex>
+      </meaning>
+      <meaning>
+         <trn>проклятый;</trn>
+         <ex>
+            <source>бул наалатыңды эмнеге чакыра койдуң?</source>
+            <target>зачем ты позвал (или пригласил) этого проклятого?</target>
+         </ex>
+         <ex>
+            <source>наалат күн</source>
+            <target>то же, что кокуй күн (см. кокуй 1);</target>
+         </ex>
+         <ex>
+            <source>токо наалат</source>
+            <target>см. токонаалат.</target>
+         </ex>
+      </meaning>
+   </card>
+   <card>
+      <k>наалаттуу</k>
+      <trn>приносящий беду, приносящий несчастье;</trn>
+      <ex>
+         <source>наалаттуу мүшкүл иш</source>
+         <target>дело, приносящее несчастье.</target>
+      </ex>
+   </card>
+   <card>
+      <k>нак</k>
+      <homonym>
+         <origin>ар.</origin>
+         <trn>наличный; наличность;</trn>
+         <ex>
+            <source>накта акча или просто накта</source>
+            <target>наличные деньги;</target>
+         </ex>
+         <ex>
+            <source>нактай</source>
+            <target>наличными, чистоганом.</target>
+         </ex>
+      </homonym>
+      <homonym>
+         <trn>как раз, точь-в-точь;</trn>
+         <ex>
+            <source>нак ушул мезгилде</source>
+            <target>как раз в это время;</target>
+         </ex>
+         <ex>
+            <source>нак ушул жерде</source>
+            <target>как раз в этом месте, именно в этом месте;</target>
+         </ex>
+         <ex>
+            <source>нак бүгүн</source>
+            <target>как раз сегодня.</target>
+         </ex>
+      </homonym>
+   </card>
+   <card>
+      <k>нар</k>
+      <homonym>
+         <meaning>
+            <trn>одногорбый верблюд;</trn>
+            <ex>
+               <source>жүктүн оорун нар көтөрөт погов.</source>
+               <target>большому кораблю большое плавание (букв. одногорбый верблюд тяжёлый груз поднимает);</target>
+            </ex>
+            <ex>
+               <source>атан эмес - нар</source>
+               <target>не кастрированный верблюд, а верблюд-жеребец;</target>
+            </ex>
+         </meaning>
+         <meaning>
+            <meta>редко</meta>
+            <trn>двугорбый верблюд;</trn>
+            <ex>
+               <source>айдай барып, мал берем, айры өркөч нар берем фольк.</source>
+               <target>я погоню и дам скот, дам двугорбых верблюдов;</target>
+            </ex>
+            <collocation>
+               <k>нар кескен</k>
+               <trn>хорошая сабля, булатный меч;</trn>
+               <ex>
+                  <source>уста менен дос болсоң, нар кескенин аларсың погов.</source>
+                  <target>если с кузнецом сдружишься, то булатный меч получишь;</target>
+               </ex>
+            </collocation>
+            <collocation>
+               <k>нардай тоно-</k>
+               <trn>ограбить начисто, ободрать как липку;</trn>
+               <ex>
+                  <source>бул үч ууру хандардын казналарын бир эле эмес, алда канча ирет нардай тоношкон</source>
+                  <target>(из сказки) эти три вора сокровища ханов грабили начисто не раз, а много раз.</target>
+               </ex>
+            </collocation>
+         </meaning>
+      </homonym>
+      <homonym>
+         <sameas word="нары" index="1"/>
+         <ex>
+            <source>нар жакта</source>
+            <target>по ту сторону;</target>
+         </ex>
+         <ex>
+            <source>нар жактан</source>
+            <target>с той стороны;</target>
+         </ex>
+         <ex>
+            <source>нар жагын айтып не кылам</source>
+            <target>а уж об остальном и говорить нечего;</target>
+         </ex>
+         <ex>
+            <source>нар жагын айтпай эле коёюн</source>
+            <target>а уж о том, что было дальше, я и говорить не буду, а уж об остальном и говорить нечего.</target>
+         </ex>
+      </homonym>
+      <homonym>
+         <origin>р.</origin>
+         <trn>нары.</trn>
+      </homonym>
+   </card>
+</root>

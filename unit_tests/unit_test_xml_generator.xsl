@@ -16,14 +16,10 @@
     <xsl:template match="card">
         <xsl:variable name="word" select="k" />
         <xsl:if test="
-            $word = 'а' or
-            $word = 'аба' or
-            $word = 'ааламдык' or
-            $word = 'аарчы' or
-            $word = 'якь' or
-            $word = 'ячейке' or
-            $word = 'хуш' or
-            $word = 'локулда'">
+            $word = 'наалат' or
+            $word = 'нак' or
+            $word = 'нар' or
+            $word = 'наалаттуу'">
             <card>
                 <xsl:copy-of select="node()" />
             </card>
