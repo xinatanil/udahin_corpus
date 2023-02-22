@@ -1,6 +1,3 @@
-cp letter_wip.xml letter_after.xml
-
-python3 remove_weird_formatting.py
 python3 python_script.py
 
 export XMLLINT_INDENT=$'\t'
