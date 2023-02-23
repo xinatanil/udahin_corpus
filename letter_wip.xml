@@ -404,65 +404,79 @@
 	</card>
 	<card>
 		<k>үбөлөнүү</k>
+		<pos>ger</pos>
 		<actionNoun word="үбөлөн"/>
 	</card>
 	<card>
-		<k>үбөлөт-</k>
+		<k>үбөлөт-</k> 
+		<pos>v</pos>
 		<caus word="үбөлө"/>
-		<blockquote>растирать (размельчать).</blockquote>
+		<trn>растирать (размельчать).</trn>
 	</card>
 	<card>
-		<k>ува</k>
+		<k>ува</k> 
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>название болезни ног у лошадей.</blockquote>
+		<trn>название болезни ног у лошадей.</trn>
 	</card>
 	<card>
-		<k>уважим</k>
+		<k>уважим</k> 
+		<pos>adj</pos>
 		<origin>ар.</origin>
 		<meta>рел.</meta>
-		<blockquote>долженствующий, обязательный.</blockquote>
+		<trn>долженствующий, обязательный.</trn>
 	</card>
 	<card>
 		<k>увазир</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>уст.</meta>
-		<blockquote>визирь; министр.</blockquote>
+		<trn>визирь; министр.</trn>
 	</card>
 	<card>
-		<k>увай</k>
+		<k>увай</k> 
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="убай" index="3"/>
 	</card>
 	<card>
-		<k>увак</k>
-		<sameas word="убакты"/>
-		<blockquote>кышкы экзамендердин увагында во время зимних экзаменов.</blockquote>
+		<k>увак</k> 
+		<pos>n</pos>
+		<sameas word="убакты"/> 
+	  <ex> 
+		<source>кышкы экзамендердин увагында.</source> 
+		<target>во время зимних экзаменов.</target> 
+     </ex>
 	</card>
 	<card>
-		<k>увакым</k>
+		<k>увакым</k> 
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="вакым"/>
-	</card>
+	</card> 
 	<card>
-		<k>уваса</k>
+		<k>уваса</k> 
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>обрешётка на потолке, состоящая из полукруглых брусочков, укладываемых поперёк балок перекрытия.</blockquote>
+		<trn>обрешётка на потолке, состоящая из полукруглых брусочков, укладываемых поперёк балок перекрытия.</trn>
 	</card>
 	<card>
 		<k>увасажуп</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>потолок, сделанный из брусочков (см. уваса).</blockquote>
+		<trn>потолок, сделанный из брусочков (см. уваса).</trn>
 	</card>
 	<card>
 		<k>уват</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>межа на пахотном поле, конец чьей-л. пашни, запущенная полоса меж двух полей;</blockquote>
+			<trn>межа на пахотном поле, конец чьей-л. пашни, запущенная полоса меж двух полей;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>арык, проходящий по границе поля.</blockquote>
+			<trn>арык, проходящий по границе поля.</trn>
 		</meaning>
 	</card>
 	<card>
