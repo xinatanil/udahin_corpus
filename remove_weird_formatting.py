@@ -1,8 +1,11 @@
 import re
 import fileinput
+import sys
 
+inputFilename = sys.argv[1]
+outputFilename = sys.argv[1]
 
-with open ('letter_wip.xml', 'r' ) as f:
+with open(inputFilename, 'r' ) as f:
     content = f.read()
 
 # replace weird newline and 8 spaces in source
@@ -14,7 +17,7 @@ with open ('letter_wip.xml', 'r' ) as f:
     content_new = re.sub('южн\.\n\t\t</blockquote>', r'южн.</blockquote>', content_new, flags = re.M)
     content_new = re.sub('<blockquote>\n\t\t\tюжн\.', r'<blockquote>южн.', content_new, flags = re.M)
     
-    outputFile = open("letter_after.xml", "w")
+    outputFile = open(outputFilename, "w")
     outputFile.write(content_new)
     outputFile.close()
 

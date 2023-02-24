@@ -1,12 +1,16 @@
 import re
 import fileinput
+import sys
+
+inputFilename = sys.argv[1]
+outputFilename = sys.argv[1]
 
 metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.'
 originWord = 'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.|ир\.-ар\.'
 metaOrOriginWord = metaWord + '|' + originWord
 referencePattern = '(\w+)-? ?([IVX]+)? ?(\d)?[\.|;]?'
 referenceReplace = 'word="\\1" index="\\2" subindex="\\3"'
-with open ('letter_after.xml', 'r' ) as f:
+with open(inputFilename, 'r' ) as f:
     content = f.read()
 
 # <blockquote>в разн. знач. район.</blockquote>
@@ -101,7 +105,7 @@ with open ('letter_after.xml', 'r' ) as f:
 
 
 
-    outputFile = open("letter_after.xml", "w")
+    outputFile = open(outputFilename, "w")
     outputFile.write(content_new)
     outputFile.close()
 
