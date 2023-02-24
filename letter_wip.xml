@@ -408,19 +408,19 @@
 		<actionNoun word="үбөлөн"/>
 	</card>
 	<card>
-		<k>үбөлөт-</k> 
+		<k>үбөлөт-</k>
 		<pos>v</pos>
 		<caus word="үбөлө"/>
 		<trn>растирать (размельчать).</trn>
 	</card>
 	<card>
-		<k>ува</k> 
+		<k>ува</k>
 		<pos>n</pos>
 		<meta>южн.</meta>
 		<trn>название болезни ног у лошадей.</trn>
 	</card>
 	<card>
-		<k>уважим</k> 
+		<k>уважим</k>
 		<pos>adj</pos>
 		<origin>ар.</origin>
 		<meta>рел.</meta>
@@ -434,28 +434,28 @@
 		<trn>визирь; министр.</trn>
 	</card>
 	<card>
-		<k>увай</k> 
+		<k>увай</k>
 		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="убай" index="3"/>
 	</card>
 	<card>
-		<k>увак</k> 
+		<k>увак</k>
 		<pos>n</pos>
-		<sameas word="убакты"/> 
-	  <ex> 
-		<source>кышкы экзамендердин увагында.</source> 
-		<target>во время зимних экзаменов.</target> 
-     </ex>
+		<sameas word="убакты"/>
+		<ex>
+			<source>кышкы экзамендердин увагында.</source>
+			<target>во время зимних экзаменов.</target>
+		</ex>
 	</card>
 	<card>
-		<k>увакым</k> 
+		<k>увакым</k>
 		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="вакым"/>
-	</card> 
+	</card>
 	<card>
-		<k>уваса</k> 
+		<k>уваса</k>
 		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
@@ -787,7 +787,7 @@
 	<card>
 		<k>уезд</k>
 		<meta>ист.</meta>
-		<blockquote>уезд.</blockquote>
+		<trn>уезд</trn>
 	</card>
 	<card>
 		<k>уждан</k>
@@ -800,7 +800,7 @@
 	</card>
 	<card>
 		<k>ужин</k>
-		<blockquote>ужин;</blockquote>
+		<trn>ужин</trn>
 		<blockquote>ужин даярда- готовить ужин;</blockquote>
 		<blockquote>сен, эмесе, ужин даярдагын если так, ты готовь ужин.</blockquote>
 	</card>
