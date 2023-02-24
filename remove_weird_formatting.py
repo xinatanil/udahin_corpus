@@ -3,7 +3,7 @@ import fileinput
 import sys
 
 inputFilename = sys.argv[1]
-outputFilename = sys.argv[1]
+outputFilename = sys.argv[2]
 
 with open(inputFilename, 'r' ) as f:
     content = f.read()
