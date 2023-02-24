@@ -147,10 +147,10 @@
 		<pos>n</pos>
 		<homonym>
 			<sameas word="убайым" index="1"/>
-				<ex>
-					<source>убайың тарттым</source>
-					<target>я тосковал, горевал о тебе; я о тебе беспокоился;</target>
-				</ex>
+			<ex>
+				<source>убайың тарттым</source>
+				<target>я тосковал, горевал о тебе; я о тебе беспокоился;</target>
+			</ex>
 			<collocation>
 				<k>убайда кал-</k>
 				<trn>сожалеть, горевать, беспокоиться.</trn>
@@ -181,6 +181,7 @@
 			<ex>
 				<source>убай бербейт</source>
 				<target>не доставляет удовольствия, не приносит благодати.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
@@ -217,19 +218,19 @@
 		<homonym>
 			<origin>ар.</origin>
 			<trn>страх, боязнь; беспокойство, забота; печаль;</trn>
-				<collocation>
-					<k>убайым же-</k>
-					<meta><i>или</i> убайым чек- <i>или</i> убайым тарт-</meta>
-					<trn>беспокоиться, бояться;</trn>
-					<ex>
-						<source>эч бир убайым жебей, барып тынч алгыла</source>
-						<target>вы ни о чём не беспокойтесь, идите и отдыхайте;</target>
-					</ex>
-				</collocation>
-				<collocation>
-					<k>убайым чектир-</k>
-					<trn>причинять беспокойство, печалить;</trn>
-				</collocation>
+			<collocation>
+				<k>убайым же-</k>
+				<meta><i>или</i> убайым чек- <i>или</i> убайым тарт-</meta>
+				<trn>беспокоиться, бояться;</trn>
+				<ex>
+					<source>эч бир убайым жебей, барып тынч алгыла</source>
+					<target>вы ни о чём не беспокойтесь, идите и отдыхайте;</target>
+				</ex>
+			</collocation>
+			<collocation>
+				<k>убайым чектир-</k>
+				<trn>причинять беспокойство, печалить;</trn>
+			</collocation>
 			<ex>
 				<source>сары убайым</source>
 				<target>большая забота; большая печаль;</target>
@@ -258,7 +259,7 @@
 		<pos>adj</pos>
 		<trn>испытывающий страх, боящийся;</trn>
 		<ex>
-			<source>>суукка убайымдуу</source>
+			<source>суукка убайымдуу</source>
 			<target>боящийся мороза, неморозостойкий;</target>
 		</ex>
 		<ex>
@@ -320,15 +321,15 @@
 		</homonym>
 		<homonym>
 			<trn>мелкий, размельчённый;</trn>
-				<collocation>
-					<k>убак-түйөк <i>или</i> убак-тээк</k>
-					<meaning>
-				<trn>мелочь, мелочишка;</trn>
-			</meaning>
-			<meaning>
-				<trn>подробности, детали.</trn>
-			</meaning>
-				</collocation>
+			<collocation>
+				<k>убак-түйөк <i>или</i> убак-тээк</k>
+				<meaning>
+					<trn>мелочь, мелочишка;</trn>
+				</meaning>
+				<meaning>
+					<trn>подробности, детали.</trn>
+				</meaning>
+			</collocation>
 		</homonym>
 	</card>
 	<card>
