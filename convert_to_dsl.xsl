@@ -44,6 +44,9 @@
         <xsl:when test="name() = 'collocation'">
           <xsl:copy-of select="foo:processMeaning(., $indentationOffset)" />
         </xsl:when>
+        <xsl:when test="name() = 'meaning'">
+          <xsl:copy-of select="foo:processMeaning(., $indentationOffset)" />
+        </xsl:when>
         <xsl:otherwise>
           <xsl:variable name="result" select="foo:processOneLineTag(.)" />
           <xsl:if test="$result != ''">

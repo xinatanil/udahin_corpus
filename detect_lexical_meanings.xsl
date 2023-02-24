@@ -78,6 +78,10 @@
                         </xsl:choose>
                     </xsl:when>
                     <xsl:when test="count(homonym) = 1">
+                        <xsl:variable name="errorWord" select="k"/>
+                        <xsl:message terminate="yes">
+                        <xsl:value-of select="$errorWord"/>
+                        </xsl:message>
                         <xsl:value-of select="error()" />
                         <!-- should never happen, check XML -->
                     </xsl:when>
