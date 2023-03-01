@@ -1657,82 +1657,173 @@
 	</card>
 	<card>
 		<k>үзүр</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<meaning>
-				<blockquote>удовольствие, наслаждение;</blockquote>
-				<blockquote>үзүр көр- или үзур сүр- наслаждаться, получать удовольствие;</blockquote>
-				<blockquote>уунун үзүрүн көрдүк мы насладились охотой (и её результатами);</blockquote>
-				<blockquote>алар сүргөн үзүрдү бирге сүрөйүн то удовольствие, которое испытывают они, испытаю-ка и я вместе с ними;</blockquote>
+				<trn>удовольствие, наслаждение;</trn>
 			</meaning>
+			<ex>
+				<source>үзүр көр- или үзур сүр</source>
+				<target>наслаждаться, получать удовольствие;</target>
+			</ex>
+			<ex>
+				<sourse>уунун үзүрүн көрдүк</sourse>
+				<target>мы насладились охотой (и её результатами);</target>
+			</ex>
+			<ex>
+				<source>алар сүргөн үзүрдү бирге сүрөйүн</source>
+				<target>то удовольствие, которое испытывают они, испытаю-ка и я вместе с ними;</target>
+			</ex>
 			<meaning>
-				<blockquote>приятный результат, удовлетворение;</blockquote>
-				<blockquote>узакка созулган чыгармачылык изденүү өз үзүрүн берди долгие творческие искания дали свой приятный результат.</blockquote>
+				<trn>приятный результат, удовлетворение;</trn>
 			</meaning>
+				<ex>
+				<source>узакка созулган чыгармачылык изденүү өз үзүрүн берди</source>
+				<target>долгие творческие искания дали свой приятный результат.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<origin>ар.</origin>
-			<blockquote>извинение, извиняющая причина;</blockquote>
-			<blockquote>үзүр айт- изложить извиняющую причину;</blockquote>
-			<blockquote>даарат алалбайм, үзүрүм бар я омовение совершать не буду, у меня есть на то причина (напр. я болен);</blockquote>
-			<blockquote>үзүр-мазыр кеп разговор о взаимных обидах;</blockquote>
-			<blockquote>үзүр-мазыр кебиң болсо, айт если у тебя есть жалобы (на обиды), говори.</blockquote>
+			<trn>извинение, извиняющая причина;</trn>
+		<ex>
+			<source>үзүр айт</source>
+			<target>изложить извиняющую причину;</target>
+		</ex>
+		<ex>
+			<source>даарат алалбайм, үзүрүм бар</source>
+			<target>я омовение совершать не буду, у меня есть на то причина (напр. я болен);</target>
+		</ex>
+		<ex>
+			<source>үзүр-мазыр кеп</source>
+			<target>разговор о взаимных обидах;</target>
+		</ex>
+		<ex>
+			<source>үзүр-мазыр кебиң болсо, айт</source> 
+			<target>если у тебя есть жалобы (на обиды), говори.</target>
+		</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>үзүрдүү</k>
-		<blockquote>үзүрдүү I, II</blockquote>
-		<blockquote>то же, что үзүрлүү I, II.</blockquote>
+		<pos>adj</pos>
+		<meta>үзүрдүү</meta>
+		<sameas word="үзүрлүү" index="1"/>
 	</card>
 	<card>
 		<k>үзүрлүү</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>дающий благоприятный результат, удовлетворение; доставляющий блаженство, благоденствие;</blockquote>
-			<blockquote>көпчүлүк кол тийгизген эмгек үзүрлүү болот труд, в котором участвовал коллектив, даёт хороший результат;</blockquote>
-			<blockquote>үзүрлүү өмүр сүргөн карылар старики, живущие в довольстве;</blockquote>
-			<blockquote>биздин максат - сенин ишиңдин үзүрлүү тыянагын чыгаруу наша цель - довести твоё дело до благоприятного конца;</blockquote>
-			<blockquote>ишиң үзүрлүү болсун! желаю тебе приятного результата в работе!</blockquote>
+			<trn>дающий благоприятный результат, удовлетворение; доставляющий блаженство, благоденствие;</trn>
+		<ex>
+			<source>көпчүлүк кол тийгизген эмгек үзүрлүү болот</source>
+			<target>труд, в котором участвовал коллектив, даёт хороший результат;</target>
+		</ex>
+		<ex>
+			<source>үзүрлүү өмүр сүргөн карылар</source>
+			<target>старики, живущие в довольстве;</target>
+		</ex>
+		<ex>
+			<source>биздин максат - сенин ишиңдин үзүрлүү тыянагын чыгаруу</source>
+			<target>наша цель - довести твоё дело до благоприятного конца;</target>
+		</ex>
+		<ex>
+			<source>ишиң үзүрлүү болсун!</source>
+			<target>желаю тебе приятного результата в работе!</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>с извинением;</blockquote>
-			<blockquote>үзүрлүү кеп изложение извиняющих причин, обстоятельств.</blockquote>
+			<trn>с извинением;</trn>
+			<ex>
+			<source>үзүрлүү кеп</source>
+			<target>изложение извиняющих причин, обстоятельств.</target>
+		    </ex>
 		</homonym>
 	</card>
 	<card>
 		<k>үзүү</k>
+		<pos>v</pos>
 		<actionNoun word="үз" index="2"/>
-		<blockquote>срывание, обрывание.</blockquote>
+		<trn>срывание, обрывание.</trn>
 	</card>
 	<card>
 		<k>үзүш-</k>
+		<pos>v</pos>
 		<recv word="үз" index="2"/>
-		<blockquote>совместно рвать, обрывать.</blockquote>
+		<trn>совместно рвать, обрывать.</trn>
 	</card>
 	<card>
 		<k>үзөңгү</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>стремя;</blockquote>
-			<blockquote>темир таман үзөңгү стремя с железным донцем;</blockquote>
-			<blockquote>үзөңгүгө бут сал- вложить ногу в стремя;</blockquote>
+			<trn>стремя;</trn>
 			<ex>
-				<source>үзөңгүгө бутун салды, баатыр Аяз аттанды фольк.</source>
-				<target>вложил ногу в стремя, сел верхом богатырь Аяз;</target>
+			<source>темир таман үзөңгү</source>
+			<target>стремя с железным донцем;</target>
+		</ex>
+		<ex>
+			<source>үзөңгүгө бут сал</source>
+			<target>вложить ногу в стремя;</target>
+		</ex>
+		<ex>
+			<source>үзөңгүгө бутун салды, баатыр Аяз аттанды фольк.</source>
+			<target>вложил ногу в стремя, сел верхом богатырь Аяз;</target>
+		</ex>
+			<ex>
+			<source>үзөңгү кагышып</source>
+			<target>(ехать) стремя в стремя; голова в голову;</target>
+		</ex>
+		<ex>
+			<source>үзөңгү кагышып кир</source> 
+			<target>прийти голова в голову (на скачках);</target>
+		</ex>
+		<collocation>
+			<k>үзөңгү боо или үзөңгу боолук</k>
+			<meaning>
+			<trn>путлища стремян;</trn>
+		</meaning>
+		</collocation>
+		<collocation>
+			<k>үзөңгү боолукка сал-</blockquote>
+			   <meaning>
+			      <trn>1) (о всаднике) волочить что-л., заложив верёвку под путлище;</trn>
+			  </meaning>
+			  <meaning>
+			      <trn>2) взять за шкирку (заставить делать насильно);</trn>
+		       </meaning>
+			 <ex>
+			 <source>сени үзөңгү боолукка салам</source>
+			 <target>я тебя силой заставлю;</target>
 			</ex>
-			<blockquote>үзөңгү кагышып (ехать) стремя в стремя; голова в голову;</blockquote>
-			<blockquote>үзөңгү кагышып кир- прийти голова в голову (на скачках);</blockquote>
-			<blockquote>үзөңгү боо или үзөңгу боолук путлища стремян;</blockquote>
-			<blockquote>үзөңгү боолукка сал-</blockquote>
-			<blockquote>1) (о всаднике) волочить что-л., заложив верёвку под путлище;</blockquote>
-			<blockquote>2) взять за шкирку (заставить делать насильно);</blockquote>
-			<blockquote>сени үзөңгү боолукка салам я тебя силой заставлю;</blockquote>
-			<blockquote>үзөңгү боолош или үзөңгү жолдош то же, что үзөңгүлөш;</blockquote>
-			<blockquote>үзөңгүнү чирене тээп (он) надменно (букв. важно опираясь на стремя);</blockquote>
-			<blockquote>үзөңгүнү чирене тээп турган кези время, когда он чувствует себя независимым, когда он у дел, влиятелен;</blockquote>
-			<blockquote>үзөңгүнү тең тээп калдык мы (я и ты, я и он, мы и они) уже сравнялись (напр. в силе, по положению; букв. мы уже на стремя одинаково опираемся);</blockquote>
-			<blockquote>үзөңгүгө бугу илингендин баары</blockquote>
-			<blockquote>1) все великовозрастные;</blockquote>
-			<blockquote>2) все, занимающие видное общественное положение (букв. все, чья нога вдета в стремя);</blockquote>
-			<blockquote>үзөңгүдөн по стремя;</blockquote>
+		</collocation>
+		<collocation>
+			 <k>үзөңгү боолош или үзөңгү жолдош</k>
+			 <sameas word="үзөңгүлөш"/>
+			 <ex>
+			 <source>үзөңгүнү чирене тээп</source>
+			 <target>(он) надменно (букв. важно опираясь на стремя);</target>
+			</ex>
+			<ex>
+			 <source>үзөңгүнү чирене тээп турган кези</source>
+			 <target>время, когда он чувствует себя независимым, когда он у дел, влиятелен;</target>
+			</ex>
+			<ex>
+			 <source>үзөңгүнү тең тээп калдык</source>
+			 <target>мы (я и ты, я и он, мы и они) уже сравнялись (напр. в силе, по положению; букв. мы уже на стремя одинаково опираемся);</target>
+			</ex>
+		</collocation>
+        <collocation>
+			<k>үзөңгүгө бугу илингендин баары</k>
+			<meaning>
+			<trn>1) все великовозрастные;</trn>
+		</meaning>
+		<meaning>
+			<trn>2) все, занимающие видное общественное положение (букв. все, чья нога вдета в стремя);</trn>
+		</meaning>
+		      <ex>
+			    <source>үзөңгүдөн</source>
+			    <target>по стремя;</target>
+			</ex>
 			<ex>
 				<source>Каркыранын талаасы - үзөңгүдөн чөп экен фольк.</source>
 				<target>Каркаринская долина - трава по стремя (там).</target>
@@ -1744,195 +1835,391 @@
 	</card>
 	<card>
 		<k>үзөңгүлөш</k>
-		<blockquote>соратник, единомышленник.</blockquote>
+		<pos>n</pos>
+		<trn>соратник, единомышленник.</trn>
 	</card>
 	<card>
 		<k>үзөңгүлөштүк</k>
+		<pos>n</pos>
 		<abstract word="үзөңгүлөш"/>
 	</card>
 	<card>
 		<k>үзөөгөн,</k>
-		<blockquote>үзөөгөн, үзөөнөк</blockquote>
-		<blockquote>(о лошади, корове) часто срывающийся с привязи.</blockquote>
+		<pos>adj</pos>
+		<sameas word="үзөөнөк"/>
+		<trn>(о лошади, корове) часто срывающийся с привязи.</trn>
 	</card>
 	<card>
 		<k>уй</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
-				<blockquote>корова (в некоторых южных говорах жылаңач уй, а в некоторых уй употребляется только в сочет. тувар уй);</blockquote>
-				<blockquote>жүндүү уй южн. корова яка;</blockquote>
+				<trn>корова (в некоторых южных говорах жылаңач уй, а в некоторых уй употребляется только в сочет. тувар уй);</trn>
+			</meaning>
+			    <ex>
+				    <source>жүндүү уй</source>
+				    <target>южн. корова яка;</target>
+				</ex>
 				<ex>
 					<source>сасык деп, уй мурдун кесип таштабайт погов.</source>
 					<target>из-за того, что нос у коровы вонюч, его не отрезают;</target>
 				</ex>
-				<blockquote>уйга килем жапкандай как корове седло (букв. будто корову ковром покрыть);</blockquote>
-				<blockquote>уй мүйүз коровьи рога;</blockquote>
-				<blockquote>уй мүйүз тартып отур- сесть в кружок;</blockquote>
-			</meaning>
+				<ex>
+				    <source>уйга килем жапкандай</source>
+				    <target>как корове седло (букв. будто корову ковром покрыть);</target>
+				</ex>
+				<ex>
+				    <source>уй мүйүз</source>
+	                <target>коровьи рога;</target>
+	            </ex>
+	            <ex>
+				    <source>уй мүйүз тартып отур-</source>
+				    <target>сесть в кружок;</target>
+				</ex>
 			<meaning>
-				<blockquote>вол;</blockquote>
+				<trn>вол;</trn>
+			</meaning>
 				<ex>
 					<source>букасын биттеп, уй кылып, айгырын биттеп, ат кылып фольк.</source>
 					<target>кастрировав быка, сделал волом, кастрировав жеребца, сделал мерином;</target>
 				</ex>
+			<meaning>
+				<trn>год коровы (см. жыл I 2);</trn>
 			</meaning>
 			<meaning>
-				<blockquote>год коровы (см. жыл I 2);</blockquote>
+				<trn>при игре в тогуз коргол (см. коргол):</trn>
 			</meaning>
 			<meaning>
-				<blockquote>при игре в тогуз коргол (см. коргол):</blockquote>
-				<blockquote>бел уй пятая лунка слева, жаман уй шестая лунка слева, эки тиш уй седьмая лунка слева, тел уй восьмая лунка слева, куйрук уй девятая лунка слева;</blockquote>
-				<blockquote>уюм тууду игра, напоминающая тогуз коргол (пять лунок, и в каждой лунке по пяти камешков);</blockquote>
-				<blockquote>жарга камалган сокур уйдай оказавшийся в беспомощном состоянии;</blockquote>
-				<blockquote>уйдун бөйрөгүндөй эл немногочисленный народ;</blockquote>
-				<blockquote>уй баш кара жанаяк большая деревянная чашка с ручкой;</blockquote>
-				<blockquote>уй түгүндөй бесчисленное множество, несметное число;</blockquote>
-				<blockquote>уй түгүндөй жаан сев. мелкий и частый дождь; ситный дождь;</blockquote>
-				<blockquote>уй боор см. боор.</blockquote>
+				<trn>бел уй пятая лунка слева, жаман уй шестая лунка слева, эки тиш уй седьмая лунка слева, тел уй восьмая лунка слева, куйрук уй девятая лунка слева;</trn>
 			</meaning>
+		</collocation>
+				<k>уюм тууду</k>
+				<meaning>
+					<trn>игра, напоминающая тогуз коргол (пять лунок, и в каждой лунке по пяти камешков);</trn>
+				</meaning>
+			<ex>
+				<source>жарга камалган сокур уйдай</source>
+				<target>оказавшийся в беспомощном состоянии;</target>
+			</ex>
+			<ex>
+				<source>уйдун бөйрөгүндөй эл</source>
+				<target>немногочисленный народ;</target>
+			</ex>
+			<ex>
+				<source>уй баш кара жанаяк</source>
+				<target>большая деревянная чашка с ручкой;</target>
+			</ex>
+			<ex>
+				<source>уй түгүндөй</source>
+				<target>бесчисленное множество, несметное число;</target>
+			</ex>
+			<ex>
+				<source>уй түгүндөй жаан</source>
+				<target>сев. мелкий и частый дождь; ситный дождь;</target>
+			</ex>
+			<ex>
+				<source>уй боор</source> 
+				<target>см. боор.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>уй II:</blockquote>
+			<k>уй II:</k>
+			<pos>n</pos>
 			<blockquote>ай-уй см. ай III 2.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>үй</k>
+		<pos>n<pos>
 		<homonym>
-			<blockquote>юрта, дом, жилище;</blockquote>
+			<trn>юрта, дом, жилище;</trn>
 			<ex>
 				<source>үйдүн ашы үйгө сонун погов.</source>
 				<target>в чужой юрте пища хороша; чужая изба засидчива;</target>
 			</ex>
-			<blockquote>үйдүн көркү аялда красота юрты (дома) в жене;</blockquote>
-			<blockquote>үйгө кайт- возвратиться домой;</blockquote>
-			<blockquote>боз үй юрта;</blockquote>
-			<blockquote>ак үй</blockquote>
-			<blockquote>1) белая юрта;</blockquote>
-			<blockquote>2) синьцз. юрта;</blockquote>
-			<blockquote>3) богатая, роскошная юрта;</blockquote>
-			<blockquote>4) белёный дом;</blockquote>
-			<blockquote>чоң үй</blockquote>
-			<blockquote>1) большая юрта;</blockquote>
 			<ex>
-				<source>2) ист.</source>
-				<target>наследственная юрта; отцовская юрта; юрта младшего сына;</target>
+			    <source>үйдүн көркү аялда</source>
+			    <target>красота юрты (дома) в жене;</target>
 			</ex>
-			<ex>
-				<source>3) (южн. башкы үй) ист.</source>
-				<target>главная юрта в ауле, где жили богач или глава аула и его старшая жена;</target>
+			    <source>үйгө кайт-</source>
+			    <target>возвратиться домой;</target>
 			</ex>
-			<blockquote>кичи үй</blockquote>
-			<blockquote>1) маленькая юрта;</blockquote>
-			<ex>
-				<source>2) ист.</source>
-				<target>малая юрта, где жили бедные родичи или люди незначительные;</target>
-			</ex>
+			<collocation>
+				<k>боз үй</k> 
+				<trn>юрта;</trn>
+			</collocation>
+			<collocation>
+			    <k>ак үй</k>
+				<meaning>
+					<trn>белая юрта;</trn>
+				</meaning>
+				<meaning>
+					<meta>синьцз.</meta>
+			    	<trn>юрта;</trn>
+				</meaning>
+				<meaning>
+			    	<trn>3) богатая, роскошная юрта;</trn>
+				</meaning>
+				<meaning>
+			    	<trn>4) белёный дом;</trn>
+				</meaning>
+		</collocation>
+			<collocation>
+			   <k>чоң үй</k>
+			 <meaning>
+			   <trn>1) большая юрта;</trn>
+			</meaning>
+			<meaning>
+				<meta>2) ист.</meta>
+				<trn>наследственная юрта; отцовская юрта; юрта младшего сына;</trn>
+			</meaning>
+			<meaning>
+				<meta>3) (южн. башкы үй) ист.</meta>
+				<trn>главная юрта в ауле, где жили богач или глава аула и его старшая жена;</trn>
+			</collocation>
+			<collocation>
+				<k>кичи үй</k>
+				<meaning>
+			<trn>1) маленькая юрта;</trn>
+			</meaning>
+			<meaning>
+				<meta>2) ист.</meta>
+				<trn>малая юрта, где жили бедные родичи или люди незначительные;</trn>
+			</meaning>
 			<ex>
 				<source>чоң үйдө болчу чогулуш, кичи үйгө жыйын жыйыптыр фольк.</source>
 				<target>сбор, который должен быть в главной юрте, он собрал в малой юрте;</target>
 			</ex>
-			<ex>
-				<source>3) ист.</source>
-				<target>юрта младшей жены;</target>
+			<meaning>
+				<meta>3) ист.</meta>
+				<trn>юрта младшей жены;</trn>
+			</meaning>
 			</ex>
-			<blockquote>кара үй</blockquote>
-			<blockquote>1) бедная юрта;</blockquote>
-			<blockquote>2) южн. уст. женская половина юрты;</blockquote>
-			<blockquote>3) южн. маленькая юрта, которую берут на летовку;</blockquote>
-			<blockquote>кыргыз үй или кара үй южн. юрта;</blockquote>
-			<blockquote>там үй глинобитный дом;</blockquote>
-			<blockquote>постоянное жилище (в отличие от юрты);</blockquote>
-			<blockquote>ысык үй тяньш. постоянное жилище (глинобитное, кирпичное и т.п. - в отличие от юрты);</blockquote>
-			<blockquote>жалгыз үй</blockquote>
-			<blockquote>1) юрта, стоящая одиноко, отдельно от аула;</blockquote>
-			<blockquote>2) перен. человек, живущий на отшибе, отдельно от аула;</blockquote>
-			<blockquote>үйдөгү</blockquote>
-			<blockquote>1) тот, кто в доме;</blockquote>
-			<blockquote>2) перен. муж;</blockquote>
-			<blockquote>3) перен. жена;</blockquote>
-			<blockquote>жер үй землянка;</blockquote>
-			<blockquote>балдар үйү детский дом, детдом;</blockquote>
-			<blockquote>кызыл үй красная юрта;</blockquote>
-			<blockquote>төрөт үйү родильный дом;</blockquote>
-			<blockquote>маданий үй дом культуры;</blockquote>
-			<blockquote>дем алыш үйү дом отдыха;</blockquote>
-			<blockquote>үй-жай жилище;</blockquote>
-			<blockquote>үй-жай кооперативи жилищный кооператив;</blockquote>
-			<blockquote>үй-жай шарттары жилищные условия;</blockquote>
-			<blockquote>үй тик- ставить юрту;</blockquote>
-			<ex>
-				<source>үй көтөр- ист.</source>
-				<target>ставить юрту со специальной целью (напр. к приезду почётных гостей);</target>
-			</ex>
-			<blockquote>үй көтөрт- понуд. от үй көтөр-;</blockquote>
-			<ex>
-				<source>көтөртүп койгон үйү жок, көрүшүп келген бийи жок фольк.</source>
-				<target>нет юрты, специально для него поставленной, нет биев (см. бий II), пришедших приветствовать (т.е. встречают его без почёта);</target>
-			</ex>
-			<blockquote>үй сал- или үй кур- строить дом;</blockquote>
-			<blockquote>үйлөр кирпичтен курулуп жатат дома строятся из кирпича;</blockquote>
-			<blockquote>үйгө чык- выйти замуж;</blockquote>
-			<blockquote>үй жаны уст. свадебный обряд: первое посещение женихом невесты в особой юрте;</blockquote>
-			<blockquote>үй ичи или үй-бүлө семейство, семья;</blockquote>
-			<blockquote>бүтүн үй-бүлөсү менен (он) со всей своей семьёй;</blockquote>
-			<blockquote>үй-бүлөчүлүк семейственность;</blockquote>
-			<blockquote>үйдүн боочусу тың</blockquote>
-			<blockquote>1) у него юрта в полном порядке;</blockquote>
-			<blockquote>2) он живёт в достатке;</blockquote>
-			<blockquote>үйдөй одинокий, одиноко стоящий;</blockquote>
-			<ex>
-				<source>үч миң киши, үйдөй мен фольк.</source>
-				<target>три тысячи человек (врагов) - я (против них) одинок;</target>
-			</ex>
-			<blockquote>жандын үйү душка (ямочка на горле);</blockquote>
-			<ex>
-				<source>өлөр жериң ушу - деп, жандын үйүн туштады фольк.</source>
-				<target>убойное место здесь, мол, он направил (удар) в душку;</target>
-			</ex>
-			<blockquote>үйүн күйгүр! бран. сгори твой дом!;</blockquote>
-			<blockquote>үйүң күйгүрлөр! бран. чтоб им...!;</blockquote>
-			<blockquote>үйүмдү таппай каламын я (если всё это съем или выпью) дома своего не найду, я до дома не дойду;</blockquote>
-			<blockquote>үй күчүк см. күчүк;</blockquote>
-			<blockquote>үй үстүнөн см. үст.</blockquote>
+			<collocation>
+			<k>кара үй</k>
+			<meaning>
+			<trn>1) бедная юрта;</trn>
+		</meaning>
+		<meaning>
+			<trn>2) южн. уст. женская половина юрты;</trn>
+		</meaning>
+		<meaning>
+			<trn>3) южн. маленькая юрта, которую берут на летовку;</trn>
+		</meaning>
+		<collocation>
+			   <k>кыргыз үй или кара үй южн. юрта;</k>
+		    <meaning>
+			   <trn>там үй глинобитный дом;</trn>
+			</meaning>
+			<meaning>
+			   <trn>постоянное жилище (в отличие от юрты);</trn>
+			</meaning>
+		<ex>
+			<source>ысык үй тяньш.</source>
+		    <target>постоянное жилище (глинобитное, кирпичное и т.п. - в отличие от юрты);</target>
+		</ex>
+		<collocation>
+			<k>жалгыз үй</k>
+			<meaning>
+			<trn>1) юрта, стоящая одиноко, отдельно от аула;</trn>
+		</meaning>
+		<meaning>
+			<trn>2) перен. человек, живущий на отшибе, отдельно от аула;</trn>
+		</meaning>
+	</collocation>
+			<k>үйдөгү</k>
+		<meaning>
+			<trn>1) тот, кто в доме;</trn>
+		</meaning>
+		<meaning>
+			<trn>2) перен. муж;</trn>
+		</meaning>
+		<meaning>
+			<trn>3) перен. жена;</trn>
+		</meaning>
+	</collocation>
+		<ex>
+			<source>жер үй</source>
+			<target>землянка;</target>
+		</ex>
+		<ex>
+			<source>балдар үйү</source> 
+			<target>детский дом, детдом;</target>
+		</ex>
+		<ex>
+			<source>кызыл үй</source> 
+			<target>красная юрта;</target>
+		</ex>
+		<ex>
+			<source>төрөт үйү</source> 
+			<target>родильный дом;</target>
+		</ex>
+		<ex>
+			<source>маданий үй</source>
+			<target>дом культуры;</target>
+		</ex>
+		<ex>
+			<source>дем алыш үйү</source>
+			<target>дом отдыха;</target>
+		</ex>
+		<ex>
+			<source>үй-жай</source> 
+			<target>жилище;</target>
+		</ex>
+		<ex>
+			<source>үй-жай кооперативи</source>
+			<target>жилищный кооператив;</target>
+		</ex>
+		<ex>
+			<source>үй-жай шарттары</source>
+			<target>жилищные условия;</target>
+		</ex>
+	    <ex>
+			<source>>үй тик-</source> 
+			<target>ставить юрту;</target>
+		</ex>
+		<ex>
+			<source>үй көтөр- ист.</source>
+			<target>ставить юрту со специальной целью (напр. к приезду почётных гостей);</target>
+		</ex>
+		<ex>
+			<source>үй көтөрт-</source> 
+			<target>понуд. от үй көтөр-;</target>
+		</ex>
+		<ex>
+			<source>көтөртүп койгон үйү жок, көрүшүп келген бийи жок фольк.</source>
+			<target>нет юрты, специально для него поставленной, нет биев (см. бий II), пришедших приветствовать (т.е. встречают его без почёта);</target>
+		</ex>
+		<ex>
+			<source>үй сал- или үй кур-</source> 
+			<target>строить дом;</target>
+		</ex>
+		<ex>
+			<source>үйлөр кирпичтен курулуп жатат</source> 
+			<target>дома строятся из кирпича;</target>
+		</ex>
+	<collocation>
+			<k>үйгө чык-</k> 
+			<meaning>
+			<trn>выйти замуж;</trn>
+		</meaning>
+		<meaning>
+			<trn>үй жаны уст. свадебный обряд: первое посещение женихом невесты в особой юрте;</trn>
+		</meaning>
+	</collocation>
+			<collocation>
+			<k>үй ичи или үй-бүлө</k> 
+			<trn>семейство, семья;</trn>
+		<ex>
+			<source>бүтүн үй-бүлөсү менен</source> 
+			<target>(он) со всей своей семьёй;</target>
+		</ex>
+			<source>үй-бүлөчүлүк</source> 
+			<target>семейственность;</target>
+		</ex>
+		</collocation>
+		<collocation>
+			<k>үйдүн боочусу тың</k>
+		<meaning>
+			<trn>1) у него юрта в полном порядке;</trn>
+		</meaning>
+		<meaning>
+			<trn>2) он живёт в достатке;</trn>
+		</meaning>
+	</collocation>
+	    <ex>
+			<source>үйдөй</source> 
+			<target>одинокий, одиноко стоящий;</target>
+		</ex>
+		<ex>
+			<source>үч миң киши, үйдөй мен фольк.</source>
+			<target>три тысячи человек (врагов) - я (против них) одинок;</target>
+		</ex>
+		<ex>
+			<source>жандын үйү</source> 
+			<target>душка (ямочка на горле);</target>
+		</ex>
+		<ex>
+			<source>өлөр жериң ушу - деп, жандын үйүн туштады фольк.</source>
+			<target>убойное место здесь, мол, он направил (удар) в душку;</target>
+		</ex>
+		<ex>
+			<source>үйүн күйгүр!</source>
+			<meta>бран.</meta> 
+			<target>сгори твой дом!;</target>
+		</ex>
+		<ex>
+			<source>үйүң күйгүрлөр!</source> 
+			<meta>бран.</meta> 
+			<target>чтоб им...!;</target>
+		</ex>
+		<ex>
+			<source>үйүмдү таппай каламын</source>
+			<target>я (если всё это съем или выпью) дома своего не найду, я до дома не дойду;</target>
+		</ex>
+		<ex>
+			<source>үй күчүк</source> 
+			<target>см. күчүк;</target>
+		</ex>
+		<ex>
+			<source>үй үстүнөн</source>
+			<target>см. үст.</target>
 		</homonym>
 		<homonym>
-			<blockquote>үй II:</blockquote>
-			<blockquote>алдо-үй! баю-бай!</blockquote>
+			<k>алдо-үй!</k>
+			<trn>баю-бай!</trn>
 		</homonym>
 		<homonym>
-			<blockquote>складывать в кучу;</blockquote>
-			<blockquote>көң үй- складывать в кучу навоз;</blockquote>
-			<blockquote>чөп үй- складывать в копны, в стога траву, сено;</blockquote>
-			<ex>
-				<source>жаман бука өз башына чөп үйөт погов.</source>
-				<target>дрянной бык (рогами) на свою голову траву складывает (проявляет излишнюю энергию).</target>
-			</ex>
+			<trn>складывать в кучу;</trn>
+		<ex>
+			<source>көң үй-</source> 
+			<target>складывать в кучу навоз;</target>
+		</ex>
+		<ex>
+			<source>чөп үй-</source> 
+			<target>складывать в копны, в стога траву, сено;</target>
+		</ex>
+		<ex>
+			<source>жаман бука өз башына чөп үйөт погов.</source>
+			<target>дрянной бык (рогами) на свою голову траву складывает (проявляет излишнюю энергию).</target>
+		</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>уйгак</k>
+	    <pos>n<pos>
 		<meta>(или төө уйгак)</meta>
-		<blockquote>репей, репейник (его головка);</blockquote>
-		<blockquote>козу уйгак василёк раскидистый; дурнишник обыкновенный;</blockquote>
-		<blockquote>ит уйгак череда (растение);</blockquote>
+		<trn>репей, репейник (его головка);</trn>
 		<ex>
+		   <source>козу уйгак</source> 
+		   <target>василёк раскидистый; дурнишник обыкновенный;</target>
+	    </ex>
+	    <ex>
+		   <source>ит уйгак</source> 
+		   <target>череда (растение);</target>
+        </ex>
+	    <ex>
 			<source>уул жаманы - уйгак менен тең погов.</source>
 			<target>дурной сын, что репей;</target>
-		</ex>
-		<ex>
+	    </ex>
+	    <ex>
 			<source>жаман адат курусун, - жүнгө кирген уйгактай стих.</source>
 			<target>пусть исчезнет дурной обычай - (он) что репей в шерсти.</target>
-		</ex>
+	    </ex>
 	</card>
 	<card>
 		<k>уйгактуу</k>
-		<blockquote>покрытый репьями.</blockquote>
+		<pos>adj</pos>
+		<trn>покрытый репьями.</trn>
 	</card>
 	<card>
 		<k>уйгар-</k>
-		<blockquote>наметить;</blockquote>
-		<blockquote>бул ишти мага уйгарып койду это дело поручили мне; на это дело выделили меня.</blockquote>
+		<pos>v</pos>
+		<trn>наметить;</trn>
+	<ex>
+		<source>бул ишти мага уйгарып койду</source> 
+		<target>это дело поручили мне; на это дело выделили меня.</target>
+	</ex>
 	</card>
 	<card>
 		<k>уйгаруу</k>
@@ -1940,135 +2227,255 @@
 	</card>
 	<card>
 		<k>уйгу</k>
-		<blockquote>уйгу: уйгу-туйгу сумятица, переполох;</blockquote>
+		<pos>n</pos>
+	<ex>
+		<collocation>
+			<k>уйгу-туйгу</k> 
+		<meaning>
+		    <trn>сумятица, переполох;</trn>
+	    </meaning>
 		<ex>
 			<source>уйгу-туйгу түшүшүп, жыйылган колдун баарысы жоо-жарагын алышып фольк.</source>
 			<target>всё собравшееся войско, переполошившись, схватилось за оружие;</target>
 		</ex>
-		<blockquote>уйгу-туйгу жел шальной ветер (сильный и вьюжный);</blockquote>
-		<blockquote>уйгу-туйгу ышкырган борошо метелица с сильным завывающим ветром;</blockquote>
-		<blockquote>ичи (или көңүлү) уйгу-туйгу болуп турат он испытывает большое волнение, сильное беспокойство.</blockquote>
+		<ex>
+		    <source>уйгу-туйгу жел</source> 
+		    <target>шальной ветер (сильный и вьюжный);</target>
+		</ex>
+		<ex>
+		    <source>уйгу-туйгу ышкырган борошо</source> 
+		    <target>метелица с сильным завывающим ветром;</target>
+		</ex>
+		<ex>
+		    <source>ичи (или көңүлү) уйгу-туйгу болуп турат</source> 
+		    <target>он испытывает большое волнение, сильное беспокойство.</target>
+		</ex>
+	</collocation>
 	</card>
 	<card>
 		<k>үйгүз-</k>
+		<pos>v<pos>
 		<caus word="үй" index="3"/>
-		<blockquote>чөп үйгүзгүн вели собрать в копны сено.</blockquote>
+		<ex>
+		<source>чөп үйгүзгүн</source> 
+		<target>вели собрать в копны сено.</target>
+	</ex>
 	</card>
 	<card>
 		<k>үйгүч</k>
-		<blockquote>үйгүч: чөп үйгүч с.-х. стогометатель.</blockquote>
+		<pos>n</pos>
+		<ex>
+		<source>чөп үйгүч</source>
+		<meta>с.-х.</meta> 
+		<target>стогометатель.</target>
+	</ex>
 	</card>
 	<card>
 		<k>уйкалыш-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>прилаживаться, подгоняться; приводиться в соответствие;</blockquote>
+			<trn>прилаживаться, подгоняться; приводиться в соответствие;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>рифмоваться.</blockquote>
+			<trn>рифмоваться.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>уйкалыштыр-</k>
+		<pos>v</pos>
 		<caus word="уйкалыш"/>
 	</card>
 	<card>
 		<k>уйкана</k>
-		<blockquote>кирг.-ир.</blockquote>
-		<blockquote>коровник (хлев).</blockquote>
+		<pos>n</pos>
+		<meta>кирг.-ир.</meta>
+		<trn>коровник (хлев).</trn>
 	</card>
 	<card>
 		<k>уйкаш</k>
+		<pos>adj</pos>
 		<homonym>
 			<meaning>
-				<blockquote>складный, соразмерный;</blockquote>
+				<trn>складный, соразмерный;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>рифмующийся; рифма;</blockquote>
-				<blockquote>уйкаш сөздөр рифмующиеся слова;</blockquote>
-				<blockquote>аты уйкаш тёзка (когда имена одинаковы или рифмуются, напр. Канчоро и Күлчоро);</blockquote>
-				<blockquote>аты уйкашым мой тёзка;</blockquote>
-				<blockquote>ырынын уйкашы жок он нескладно (без рифмы, ритма) слагает стихи;</blockquote>
-				<blockquote>төгүлмө уйкаш редифная рифма.</blockquote>
+				<trn>рифмующийся; рифма;</trn>
 			</meaning>
+			<ex>
+				<source>уйкаш сөздөр</source> 
+				<target>рифмующиеся слова;</target>
+			</ex>
+			<ex>
+				<source>аты уйкаш</source> 
+				<target>тёзка (когда имена одинаковы или рифмуются, напр. Канчоро и Күлчоро);</target>
+			</ex>
+			<ex>
+				<source>аты уйкашым</source> 
+				<target>мой тёзка;</target>
+			</ex>
+			<ex>
+				<source>ырынын уйкашы жок</source> 
+				<target>он нескладно (без рифмы, ритма) слагает стихи;</target>
+			</ex>
+			<ex>
+				<source>төгүлмө уйкаш</source> 
+				<target>редифная рифма.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>быть складным, соразмерным;</blockquote>
+				<trn>быть складным, соразмерным;</trn>
 			</meaning>
 			<meaning>
-				<blockquote>рифмоваться.</blockquote>
+				<trn>рифмоваться.</trn>
 			</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>уйкаштык</k>
+		<pos>n<pos>
 		<meaning>
-			<blockquote>складность, соразмерность;</blockquote>
+			<trn>складность, соразмерность;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>согласованность в рифме; рифма.</blockquote>
+			<trn>согласованность в рифме; рифма.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>уйку</k>
-		<blockquote>сон;</blockquote>
-		<blockquote>алп уйку богатырский сон (крепкий, но может быть и очень коротким);</blockquote>
-		<blockquote>куш уйку чуткий, краткий сон;</blockquote>
-		<blockquote>сүт уйку безмятежный сон;</blockquote>
-		<blockquote>жаш балдар сүт уйкуда мемиреген малые дети безмятежно спали;</blockquote>
-		<blockquote>таттуу уйку сладкий сон;</blockquote>
-		<blockquote>оор уйку время, когда все (в ауле, ныне - в селе) спят;</blockquote>
-		<blockquote>таңга бир уйку калганда время, близкое к рассвету (между временным пробуждением перед рассветом, зарёй);</blockquote>
-		<blockquote>уйкусу канды он выспался;</blockquote>
-		<blockquote>түн уйкусун төрт бөлгөн он не знал покоя по ночам;</blockquote>
-		<blockquote>биз азыр тамак ичпей, уйку көрбөй калдык мы сейчас остаёмся без еды, без сна;</blockquote>
-		<blockquote>ал түнү, ооналактап, уйку бетин көрбөдү в ту ночь он ворочался, глаз не сомкнул;</blockquote>
-		<blockquote>түн уйкусун алып, күндүзү тынчын кетирет ночью он спать не даёт и днём покоя лишает;</blockquote>
-		<blockquote>уйку келтир- нагнать сон;</blockquote>
+		<pos>n</pos>
+		<trn>сон;</trn>
+		<ex>
+		    <source>алп уйку</source> 
+		    <target>богатырский сон (крепкий, но может быть и очень коротким);</target>
+		</ex>
+		<ex>
+		    <source>куш уйку</source> 
+		    <target>чуткий, краткий сон;</target>
+		</ex>
+		<ex>
+		    <source>сүт уйку</source> 
+		    <target>безмятежный сон;</target>
+		</ex>
+		<ex>
+		    <source>жаш балдар сүт уйкуда мемиреген</source> 
+		    <target>малые дети безмятежно спали;</target>
+		</ex>
+		<ex>
+		    <source>таттуу уйку</source> 
+		    <target>сладкий сон;</target>
+		</ex>
+		<ex>
+		    <source>оор уйку</source> 
+		    <target>время, когда все (в ауле, ныне - в селе) спят;</target>
+		</ex>
+		<ex>
+		    <source>таңга бир уйку калганда</source> 
+		    <target>время, близкое к рассвету (между временным пробуждением перед рассветом, зарёй);</target>
+		</ex>
+		<ex>
+		    <source>уйкусу канды</source> 
+		    <target>он выспался;</target>
+		</ex>
+		<ex>
+		    <source>түн уйкусун төрт бөлгөн</source> 
+		    <target>он не знал покоя по ночам;</target>
+		</ex>
+		<ex>
+		    <source>биз азыр тамак ичпей, уйку көрбөй калдык</source> 
+		    <target>мы сейчас остаёмся без еды, без сна;</target>
+		</ex>
+		<ex>
+		    <source>ал түнү, ооналактап, уйку бетин көрбөдү</source> 
+		    <target>в ту ночь он ворочался, глаз не сомкнул;</target>
+		</ex>
+		<ex>
+		    <source>түн уйкусун алып, күндүзү тынчын кетирет</source> 
+		    <target>ночью он спать не даёт и днём покоя лишает;</target>
+		</ex>
+		<ex>
+		    <source>уйку келтир-</source> 
+		    <target>нагнать сон;</target>
+		</ex>
 		<ex>
 			<source>кубулжуп кушу сайраса, уйку басып талытар стих.</source>
 			<target>когда (там) птицы поют с переливами, (это) сон нагоняет, размаривает (по старым киргизским представлениям, приятное вызывает покой, сон, неприятное разгоняет его);</target>
 		</ex>
-		<blockquote>уйкуда басып өлтүр- заспать (ребёнка);</blockquote>
-		<blockquote>уйкуга бастыр- поддаться сну;</blockquote>
-		<blockquote>уйку-соонун ичинде или уйку-соонун ортосунда или уйку аралаш сквозь сон, в полусне;</blockquote>
-		<blockquote>кара уйку неотвязный сон;</blockquote>
-		<blockquote>түбөлүк уйку вечный сон (смерть);</blockquote>
-		<blockquote>уйку ач- см. ач- III.</blockquote>
+		<ex>
+		    <source>уйкуда басып өлтүр-</source> 
+		    <target>заспать (ребёнка);</target>
+		</ex>
+		<ex>
+		    <source>уйкуга бастыр-</source> 
+		    <target>поддаться сну;</target>
+		</ex>
+		<ex>
+		    <source>уйку-соонун ичинде или уйку-соонун ортосунда или уйку аралаш</source> 
+		    <target>сквозь сон, в полусне;</target>
+		</ex>
+		<ex>
+		    <source>кара уйку</source> 
+		    <target>неотвязный сон;</target>
+		</ex>
+		<ex>
+		    <source>түбөлүк уйку</source> 
+		    <target>вечный сон (смерть);</target>
+		</ex>
+		<ex>
+		    <source>уйку ач- см. ач- III.</source>
 	</card>
 	<card>
 		<k>уйкулук</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<meta>этн.</meta>
-		<blockquote>что-либо съестное, которое приносит гость хозяину, рассчитывая у него ночевать;</blockquote>
-		<blockquote>уйкулук алып келдим я принёс немного поесть.</blockquote>
+		<trn>что-либо съестное, которое приносит гость хозяину, рассчитывая у него ночевать;</trn>
+	<ex>
+		<source>уйкулук алып келдим</source> 
+		<target>я принёс немного поесть.</target>
+	</ex>
 	</card>
 	<card>
 		<k>уйкулуу</k>
-		<blockquote>сонный, заспанный;</blockquote>
-		<blockquote>уйкулуу көз сонные глаза, заспанные глаза;</blockquote>
-		<blockquote>уйкулуу көзү менен (он) сонными глазами, спросонья;</blockquote>
-		<blockquote>уйкулуу басып келди он лениво (будто во сне) подошёл.</blockquote>
+		<pos>adj</pos>
+		<trn>сонный, заспанный;</trn>
+		<ex>
+		   <source>уйкулуу көз</source> 
+		   <target>сонные глаза, заспанные глаза;</target>
+		</ex>
+		<ex>
+		    <source>уйкулуу көзү менен</source> 
+		    <target>(он) сонными глазами, спросонья;</target>
+		</ex>
+		<ex>
+		    <source>уйкулуу басып келди</source> 
+		    <target>он лениво (будто во сне) подошёл.</target>
 	</card>
 	<card>
 		<k>уйкусура-</k>
-		<blockquote>говорить или бредить во сне.</blockquote>
+		<pos>v</pos>
+		<trn>говорить или бредить во сне.</trn>
 	</card>
 	<card>
 		<k>уйкусуроо</k>
+		<pos>n<pos>
 		<actionNoun word="уйкусура"/>
 		<meaning>
-			<blockquote>бред во сне;</blockquote>
+			<trn>бред во сне;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>полусонное состояние;</blockquote>
-			<blockquote>уйкусуроо көз полусонные глаза.</blockquote>
+			<trn>полусонное состояние;</trn>
+		<ex>
+			<source>уйкусуроо көз</source> 
+			<target>полусонные глаза.</target>
+		</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>уйкучу</k>
+		<pos>n<pos>
 		<meta>(или уйкучул)</meta>
-		<blockquote>сонливый; соня;</blockquote>
+		<trn>сонливый; соня;</trn>
 		<ex>
 			<source>ары жок - күлкүчүл, санаасы жок - уйкучул погов.</source>
 			<target>бессовестный смешлив, беспечный сонлив.</target>
@@ -2076,23 +2483,42 @@
 	</card>
 	<card>
 		<k>уйкучулдук</k>
-		<blockquote>сонливость.</blockquote>
+		<pos>n</pos>
+		<trn>сонливость.</trn>
 	</card>
 	<card>
 		<k>уйкуш</k>
-		<blockquote>уйкуш: айкыш-уйкуш см. айкыш.</blockquote>
+		<pos>n<pos>
+		<ex>
+		    <source>айкыш-уйкуш</source> 
+		    <target>см. айкыш.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үйлүү</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>имеющий юрту, имеющий дом;</blockquote>
+			<trn>имеющий юрту, имеющий дом;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>женатый, семейный;</blockquote>
-			<blockquote>үйлүү-жайлуу киши человек, имеющий свой домашний очаг;</blockquote>
-			<blockquote>мен үйлүү-жайлуу болом, мага да өзүм сүйгөн мейман келет я обзаведусь домашним очагом, ко мне тоже будут приходить любимые гости;</blockquote>
-			<blockquote>аз үйлүү (об ауле, селе) малолюдный;</blockquote>
-			<blockquote>азыраак үйлүү туугандар незначительное число родичей;</blockquote>
+			<trn>женатый, семейный;</trn>
+		</meaning>
+		<ex>
+			<source>үйлүү-жайлуу киши</source>
+			<target>человек, имеющий свой домашний очаг;</target>
+		</ex>
+		<ex>
+			<source>мен үйлүү-жайлуу болом, мага да өзүм сүйгөн мейман келет</source> 
+			<target>я обзаведусь домашним очагом, ко мне тоже будут приходить любимые гости;</target>
+		</ex>
+		<ex>
+			<source>аз үйлүү</source> 
+			<target>(об ауле, селе) малолюдный;</target>
+		</ex>
+		<ex>
+			<source>азыраак үйлүү туугандар</source> 
+			<target>незначительное число родичей;</target>
+		</ex>
 			<ex>
 				<source>ак үйлүү ист.</source>
 				<target>заложник (из представителей знати при дворе правителя противной стороны);</target>
@@ -2105,101 +2531,161 @@
 				<source>уруу сайын бирден бий, кан алдында ак үйлүү, келсин Кокон шаарына стих.</source>
 				<target>от каждого рода по одному бию (см. бий II) пусть явятся заложниками в город Коканд к хану.</target>
 			</ex>
-		</meaning>
 	</card>
 	<card>
 		<k>үйлө</k>
+		<pos>v<pos>
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="үлө"/>
-			<blockquote>Жунушаалынын уулун үйлөдүк, эми анын бизде үйлөсү калган жок сына Джунушалы мы женили, теперь с нас ему ничего не причитается (он свою долю получил).</blockquote>
+		<ex>
+			<source>Жунушаалынын уулун үйлөдүк, эми анын бизде үйлөсү калган жок</source> 
+			<target>сына Джунушалы мы женили, теперь с нас ему ничего не причитается (он свою долю получил).</target>
+		</ex>
 		</homonym>
 		<homonym>
-			<blockquote>дуть, выдыхать;</blockquote>
-			<blockquote>үйлөп ич- пить, предварительно подув;</blockquote>
+			<trn>дуть, выдыхать;</trn>
+			<ex>
+			    <source>үйлөп ич-</source> 
+				<target>пить, предварительно подув;</target>
+			</ex>
 			<ex>
 				<source>оозу күйгөн үйлөп ичет погов.</source>
 				<target>у кого рот обожжён, тот пьёт подув; обжёгшись на молоке, станешь дуть и на воду;</target>
 			</ex>
-			<blockquote>от үйлө- раздувать огонь;</blockquote>
+			<ex>
+			    <source>от үйлө-</source> 
+			    <target>раздувать огонь;</target>
+			</ex>
 			<ex>
 				<source>үйлөп койгон канаттай, үнгө келбей сулады фольк.</source>
 				<target>он беззвучно свалился, будто пёрышко, на которое подули;</target>
 			</ex>
-			<blockquote>көөрүк уйлө- вздувать горн;</blockquote>
-			<blockquote>мен аны үйлөп жиберем стоит мне только дунуть на него (и он слетит);</blockquote>
-			<blockquote>көөкөр үйлө- (в народной медицине) вдувать ртом воздух в лёгкие больного.</blockquote>
+			<ex>
+			    <source>көөрүк уйлө-</source> 
+			    <target>вздувать горн;</target>
+			</ex>
+			<ex>
+			    <source>мен аны үйлөп жиберем</source> 
+			    <target>стоит мне только дунуть на него (и он слетит);</target>
+			</ex>
+			<ex>
+			    <source>көөкөр үйлө-</source> 
+			    <target>(в народной медицине) вдувать ртом воздух в лёгкие больного.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>южн., сев. редко</blockquote>
-			<blockquote>женить;</blockquote>
-			<blockquote>уулуң үйлө, келин ал жени сына своего, возьми сноху;</blockquote>
+			    <meta>южн., сев. редко</meta>
+			    <trn>женить;</trn>
+		    <ex>
+			    <source>уулуң үйлө, келин ал</source> 
+			    <target>жени сына своего, возьми сноху;</target>
+			</ex>
 			<ex>
 				<source>көрөм десең урматын, уул үйлөп, кыз чыгар фольк.</source>
 				<target>если хочешь быть у них в почёте (букв. видеть от них почёт), жени сына, выдай дочь.</target>
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>үйлө- IV:</blockquote>
-			<blockquote>үй үйлө- обзаводиться семьёй и домашним очагом;</blockquote>
-			<blockquote>жеңил үйлөп с лёгкой юртой;</blockquote>
-			<blockquote>жеңил үйлөп, көчө келген он прикочевал налегке (с лёгкими юртами).</blockquote>
+			<k>үйлө- IV:</k>
+		<ex>
+			<source>үй үйлө-</source> 
+			<target>обзаводиться семьёй и домашним очагом;</target>
+		</ex>
+		<ex>
+			<source>жеңил үйлөп</source> 
+			<target>с лёгкой юртой;</target>
+		</ex>
+		<ex>
+			<source>жеңил үйлөп, көчө келген</source> 
+			<target>он прикочевал налегке (с лёгкими юртами).</target>
+		</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>үйлөн-</k>
+		<pos>v</pos>
 		<refv word="үйлө" index="3"/>
-		<blockquote>жениться;</blockquote>
-		<blockquote>кызга үйлөн- жениться на девушке;</blockquote>
-		<blockquote>Зыйнакүлдү таштап, мага үйлөнгөн он бросил Зыйнакюль и женился на мне.</blockquote>
+		<trn>жениться;</trn>
+	<ex>
+		<source>кызга үйлөн-</source> 
+		<target>жениться на девушке;</target>
+	</ex>
+	<ex>
+		<source>Зыйнакүлдү таштап, мага үйлөнгөн</source> 
+		<target>он бросил Зыйнакюль и женился на мне.</target>
+	</ex>
 	</card>
 	<card>
 		<k>үйлөндүр-</k>
+		<pos>v</pos>
 		<sameas word="үйлөнт"/>
 	</card>
 	<card>
 		<k>үйлөндүрүү</k>
+		<pos>v</pos>
 		<actionNoun word="үйлөндүр"/>
-		<blockquote>Гүлсараханга үйлөндүрүүнү ойлол задумав женить его на Гюльсарахан.</blockquote>
+		<ex>
+		    <source>Гүлсараханга үйлөндүрүүнү ойлоп</source> 
+		    <target>задумав женить его на Гюльсарахан.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үйлөнт-</k>
+		<pos>v</pos>
 		<caus word="үйлөн"/>
 		<meaning>
-			<blockquote>женить;</blockquote>
+			<trn>женить;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>выдать замуж;</blockquote>
+			<trn>выдать замуж;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>поженить;</blockquote>
-			<blockquote>бой жетип чоңойгондо ата-энелери экөөнү үйлөнтүп коюшту когда (девушка и парень) достигли совершеннолетия, родители их поженили.</blockquote>
+			<trn>поженить;</trn>
+		<ex>
+			<source>бой жетип чоңойгондо ата-энелери экөөнү үйлөнтүп коюшту</source> 
+			<target>когда (девушка и парень) достигли совершеннолетия, родители их поженили.</target>
+		</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>үйлөнүү</k>
+		<pos>n</pos>
 		<actionNoun word="үйлөн"/>
-		<blockquote>Дарыяханга үйлөнүү женитьба на Дарыяхан.</blockquote>
+		<ex>
+		    <source>Дарыяханга үйлөнүү</source> 
+		    <target>женитьба на Дарыяхан.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үйлөнүш</k>
+		<pos>n</pos>
 		<actionNoun word="үйлөн"/>
-		<blockquote>женитьба;</blockquote>
-		<blockquote>перинин кызына үйлөнүштүн аракетин кылды (из сказки) он старался жениться на дочери пери.</blockquote>
+		<trn>женитьба;</trn>
+		<ex>
+		    <source>>перинин кызына үйлөнүштүн аракетин кылды</source> 
+		    <meta>(из сказки)</meta> 
+		    <target>он старался жениться на дочери пери.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үйлөт-</k>
+		<pos>v</pos>
 		<caus word="уйлө" index="2"/>
-		<blockquote>көөрүк үйлөт- заставить вздувать горн (заставить кузнецов работать).</blockquote>
+		<ex>
+		    <source>көөрүк үйлөт-</source> 
+		    <target>заставить вздувать горн (заставить кузнецов работать).</target>
+		</ex>
 	</card>
 	<card>
 		<k>үйлөш-</k>
+		<pos>v</pos>
 		<homonym>
 			<recv word="уйлө" index="2"/>
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
-			<blockquote>собираться вместе;</blockquote>
+			<trn>собираться вместе;</trn>
 			<ex>
 				<source>алма жейли үйлөшүп, айылда турсак сүйлөшүп фольк.</source>
 				<target>будем есть яблоки вместе, стоя и беседуя в ауле.</target>
@@ -2208,68 +2694,118 @@
 	</card>
 	<card>
 		<k>үймө</k>
-		<blockquote>собранный в кучу, в груду; куча, груда;</blockquote>
-		<blockquote>үймө кум груда песка, куча песка;</blockquote>
-		<blockquote>үймө саман куча соломы;</blockquote>
-		<blockquote>каймак аралашкан үймө кашык таруу полная ложка (жареного) пшена, смешанного со сливками;</blockquote>
-		<blockquote>үймө табак эт полное блюдо мяса;</blockquote>
-		<blockquote>үймө-жыйма полным-полно.</blockquote>
+		<pos>adj</pos>
+		<trn>собранный в кучу, в груду; куча, груда;</trn>
+		<ex>
+		    <source>үймө кум</source> 
+		    <target>груда песка, куча песка;</target>
+		</ex>
+		<ex>
+		    <source>үймө саман</source> 
+		    <target>куча соломы;</target>
+		</ex>
+		<ex>
+		    <source>каймак аралашкан үймө кашык таруу</source> 
+		    <target>полная ложка (жареного) пшена, смешанного со сливками;</target>
+		</ex>
+		<ex>
+		    <source>үймө табак эт</source> 
+		    <target>полное блюдо мяса;</target>
+		</ex>
+		<ex>
+	 	    <source>үймө-жыйма</source> 
+	 	    <target>полным-полно.</target>
+	 	</ex>
 	</card>
 	<card>
 		<k>үймөк</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>стог, скирда;</blockquote>
-			<blockquote>чөмөлө-үймөктөр копны и скирды (сена, соломы в поле);</blockquote>
-			<blockquote>үймөк үй- или чуйск. үймөк ат- скирдовать, складывать в скирды, в стога;</blockquote>
+			<trn>стог, скирда;</trn>
+			<ex>
+			    <source>чөмөлө-үймөктөр</source> 
+			    <target>копны и скирды (сена, соломы в поле);</target>
+			</ex>
+			<ex>
+			    <source>үймөк үй- или чуйск. үймөк ат-</source> 
+			    <target>скирдовать, складывать в скирды, в стога;</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<meta>прям.</meta>
 			<meta>перен.</meta>
-			<blockquote>груда, куча;</blockquote>
-			<blockquote>металл үймөгү груда металла;</blockquote>
-			<blockquote>жазылган кагаздардын үймөгү груда исписанной бумаги;</blockquote>
-			<blockquote>каталардын үймөгү уйма ошибок.</blockquote>
+			<trn>груда, куча;</trn>
+			<ex>
+			    <source>металл үймөгү</source> 
+			    <target>груда металла;</target>
+			</ex>
+			<ex>
+			    <source>жазылган кагаздардын үймөгү</source> 
+			    <target>груда исписанной бумаги;</target>
+			</ex>
+			<ex>
+			    <source>каталардын үймөгү</source> 
+			    <target>уйма ошибок.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>үймөктө-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>скирдовать, вершить стог;</blockquote>
+			<trn>скирдовать, вершить стог;</trn>
 		</meaning>
 		<meaning>
 			<meta>прям.</meta>
 			<meta>перен.</meta>
-			<blockquote>собирать в кучу, в груду; нагромождать.</blockquote>
+			<trn>собирать в кучу, в груду; нагромождать.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>үймөкчө</k>
-		<blockquote>стожок, небольшой стог, небольшая скирда.</blockquote>
+		<trn>стожок, небольшой стог, небольшая скирда.</trn>
 	</card>
 	<card>
 		<k>үймөлөктө-</k>
-		<blockquote>собираться в кучу, в груду;</blockquote>
-		<blockquote>уймөлөктөгөн эл скопище, толпа народа.</blockquote>
+		<pos>v</pos>
+		<trn>собираться в кучу, в груду;</trn>
+		<ex>
+		    <source>уймөлөктөгөн эл</source> 
+		    <target>скопище, толпа народа.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үймөлөктөт-</k>
+		<pos>v</pos>
 		<caus word="үймөлөктө"/>
-		<blockquote>сгрудить, нагромоздить;</blockquote>
-		<blockquote>жети-сегиз кишини арабасына үймөлөктөтүп алып посадив (букв. нагромоздив) на свою телегу семь-восемь человек.</blockquote>
+		<trn>сгрудить, нагромоздить;</trn>
+		<ex>
+		    <source>жети-сегиз кишини арабасына үймөлөктөтүп алып</source> 
+		    <target>посадив (букв. нагромоздив) на свою телегу семь-восемь человек.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үймөлөктөш-</k>
+		<pos>v</pos>
 		<recv word="үймөлөктө"/>
 	</card>
 	<card>
 		<k>уйпа-</k>
-		<blockquote>прикончить, убить;</blockquote>
-		<blockquote>уйпачы уу смертельный яд.</blockquote>
+		<pos>v</pos>
+		<trn>прикончить, убить;</trn>
+		<ex>
+		    <source>уйпачы уу</source> 
+		    <target>смертельный яд.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уйпал-</k>
+		<pos>v</pos>
 		<pass word="уйпа"/>
-		<blockquote>уйпалып кал! женская брань пропади ты!, подохни ты!; чтоб тебе пропасть!, чтоб тебе подохнуть!</blockquote>
+		<ex>
+		    <source>уйпалып кал!</source> 
+		    <target>женская брань пропади ты!, подохни ты!; чтоб тебе пропасть!, чтоб тебе подохнуть!</target>
+		</ex>
 	</card>
 	<card>
 		<k>уйпала-</k>
