@@ -3261,7 +3261,7 @@
 	<card>
 		<k>үйрүлт-</k>
 		<caus word="үйрүл"/>
-		<blockquote>камчы үйрүлт-</blockquote>
+		<blockquote>камчы үйрүлт-</blockquote>v 
 		<blockquote>1) угрожать плетью (подняв её кверху и вращая);</blockquote>
 		<blockquote>2) перен. запугивать, действовать угрозами.</blockquote>
 	</card>
@@ -11560,18 +11560,28 @@
 	</card>
 	<card>
 		<k>учураш-</k>
+		<pos>v</pos>
 		<recv word="учура"/>
 		<meaning>
-			<blockquote>встретиться, повстречаться;</blockquote>
+			<trn>встретиться, повстречаться;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>поздороваться;</blockquote>
-			<blockquote>тааныш кишиден бетер учурашты он поздоровался со знакомым;</blockquote>
-			<blockquote>учурашкыча! до свидания!;</blockquote>
-			<blockquote>учурашпай калды он перестал раскланиваться; он прекратил знакомство;</blockquote>
+			<trn>поздороваться;</trn>
+		<ex>
+			<source>тааныш кишиден бетер учурашты</source>
+			<target>он поздоровался со знакомым;</target>
+		</ex>
+		<ex>\
+			<source>учурашкыча!</source>
+			<target>до свидания!;</target>
+		</ex>
+		<ex>
+			<source>учурашпай калды</source>
+			<target>он перестал раскланиваться; он прекратил знакомство;</target>
+		</ex>
 		</meaning>
 		<meaning>
-			<blockquote>(об акынах) приветствовать друг друга импровизациями;</blockquote>
+			<trn>(об акынах) приветствовать друг друга импровизациями;</trn>
 			<ex>
 				<source>учурашып ырдачы, уяңдыктан пайда жок фольк.</source>
 				<target>спой приветствие, от стеснительности (от того, что будешь стесняться) пользы нет.</target>
@@ -11580,78 +11590,123 @@
 	</card>
 	<card>
 		<k>учураштыр-</k>
-		<blockquote>понуд от учураш-.</blockquote>
+		<pos>v</pos>
+		<trn>понуд от учураш-.</trn>
 	</card>
 	<card>
 		<k>учурашуу</k>
-		<actionNoun word="учураш"/>
+		<pos>ger</pos>
+ <actionNoun word="учураш"/>
 		<meaning>
-			<blockquote>встреча кого-л. с кем-л.;</blockquote>
+			<trn>встреча кого-л. с кем-л.;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>импровизированное приветствие песней (одна из форм поэзии акынов).</blockquote>
+			<trn>импровизированное приветствие песней (одна из форм поэзии акынов).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>учурма</k>
-		<blockquote>двускатная крыша;</blockquote>
-		<blockquote>учурмасы бар жыгач үй деревянный дом с двускатной крышей.</blockquote>
+		<pos>n</pos>
+		<trn>двускатная крыша;</trn>
+	<ex>
+		<source>учурмасы бар жыгач үй.</source>
+		<target> деревянный дом с двускатной крышей.</target>
+	</ex>
 	</card>
 	<card>
 		<k>учуроо</k>
+		<pos>ger</pos>
 		<actionNoun word="учура"/>
 	</card>
 	<card>
 		<k>учурт-</k>
+		<pos>v</pos>
 		<caus word="учур" index="2"/>
 		<meaning>
-			<blockquote>пустить по ветру, развеять;</blockquote>
-			<blockquote>сени куюнга айтып, жүнүңдү учуртайын (из сказки) я скажу о тебе смерчу, чтобы он развеял твою шерсть (шерсть, которую ты треплешь);</blockquote>
+			<trn>пустить по ветру, развеять;</trn>
+		<ex>
+			<source>сени куюнга айтып, жүнүңдү учуртайын</source>
+			<target> (из сказки) я скажу о тебе смерчу, чтобы он развеял твою шерсть (шерсть, которую ты треплешь);</target>
+		</ex>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>утрировать, преувеличивать;</blockquote>
-			<blockquote>учуртуп айт- преувеличить, из мухи слона сделать, приврать.</blockquote>
+			<trn>утрировать, преувеличивать;</trn>
+		<ex>
+			<source>учуртуп айт</source>
+			<target> преувеличить, из мухи слона сделать, приврать.</target>
+		</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>учуртма</k>
-		<blockquote>преувеличение, враньё, небылицы;</blockquote>
-		<blockquote>уккандын учуртмасы көп, көргөнүңөн кеп сал в том, что слышал, (бывает) много небылиц, расскажи о том, что видел.</blockquote>
+		<pos>n</pos>
+		<trn>преувеличение, враньё, небылицы;</trn>
+	<ex>
+		<source>уккандын учуртмасы көп, көргөнүңөн кеп сал</source> 
+		<target>в том, что слышал, (бывает) много небылиц, расскажи о том, что видел.</target>
+	</ex>
 	</card>
 	<card>
 		<k>учуртмалуу</k>
-		<blockquote>содержащий в себе небылицы, преувеличения;</blockquote>
-		<blockquote>учуртмалуу ушак раздутая сплетня, невероятная клевета;</blockquote>
-		<blockquote>учуртмалуу ушакчы сплетник, раздувающий сплетни или клеветник, распространяющий клевету;</blockquote>
-		<blockquote>чымынды төө кылып көрсөтүүчү учуртмалуу ушакчылар сплетники (или клеветники), которые раздувают (сплетни), делая из мухи верблюда.</blockquote>
+		<pos>adj</pos>
+		<trn>содержащий в себе небылицы, преувеличения;</trn>
+	<collocation>
+		<source>учуртмалуу ушак</source>
+		<target>раздутая сплетня, невероятная клевета;</target>
+	</collocation>
+	<collocation>
+		<source>учуртмалуу ушакчы</source>
+		<target> сплетник, раздувающий сплетни или клеветник, распространяющий клевету;</target>
+	</collocation>	
+	<ex>
+		<source>чымынды төө кылып көрсөтүүчү учуртмалуу ушакчылар</source>
+		<target>сплетники (или клеветники), которые раздувают (сплетни), делая из мухи верблюда.</target>
+	</ex>
 	</card>
 	<card>
 		<k>учурул-</k>
+        <pos>v</pos>
 		<pass word="учур" index="2"/>
-		<blockquote>космостук көп ракета учурулду запущено много космических ракет;</blockquote>
-		<blockquote>уккан сөз учурулуп кетет, көргөндөрүңдөн айта отур то, что слышишь, бывает преувеличенным, рассказывай то, что видел.</blockquote>
+	<ex>
+		<source>космостук көп ракета учурулду</source>
+		<target> запущено много космических ракет;</target>
+	</ex>
+	<ex>
+		<source>уккан сөз учурулуп кетет, көргөндөрүңдөн айта отур</source>
+		<target> то, что слышишь, бывает преувеличенным, рассказывай то, что видел.</target>
+	</ex>
 	</card>
 	<card>
 		<k>учуруу</k>
+		<pos>ger</pos>
 		<actionNoun word="учур" index="2"/>
 	</card>
 	<card>
 		<k>учуу</k>
+		<pos>ger</pos>
 		<actionNoun word="уч" index="3"/>
-		<blockquote>летание, полёт;</blockquote>
-		<blockquote>түнкү учуу ав. ночной полёт;</blockquote>
-		<blockquote>учууга канат, конууга куйрук таап алды он нашёл надёжную опору в ком-чём-л. (букв. он обрёл крылья, чтобы летать, хвост, чтобы садиться).</blockquote>
+		<trn>летание, полёт;</trn>
+	<collocation>
+		<source>түнкү учуу ав.</source>
+		<target> ночной полёт;</target>
+	</collocation>  
+	<ex>
+		<source>учууга канат, конууга куйрук таап алды</source>
+		<target>он нашёл надёжную опору в ком-чём-л. (букв. он обрёл крылья, чтобы летать, хвост, чтобы садиться).</target>
+    </ex>
 	</card>
 	<card>
 		<k>учуучу</k>
-		<blockquote>летающий; лётчик.</blockquote>
+		<pos>n</pos>
+		<trn>летающий; лётчик.</trn>
 	</card>
 	<card>
 		<k>учуш</k>
+		<pos>ger</pos>
 		<homonym>
 			<actionNoun word="уч" index="3"/>
-			<blockquote>летание, полёт.</blockquote>
+			<trn>летание, полёт.</trn>
 		</homonym>
 		<homonym>
 			<recv word="уч" index="3"/>
@@ -11659,8 +11714,9 @@
 	</card>
 	<card>
 		<k>уччул</k>
+		<pos>adj</pos>
 		<meta>лингв.</meta>
-		<blockquote>переднеязычный (согласный звук);</blockquote>
+		<trn>переднеязычный (согласный звук);</blockquote>
 		<blockquote>уччулдар переднеязычные (согласные).</blockquote>
 	</card>
 	<card>
@@ -12026,6 +12082,7 @@
 	</card>
 	<card>
 		<k>үшүт-</k>
+
 		<homonym>
 			<caus word="үшү" index="1"/>
 			<blockquote>заставить сверлить.</blockquote>
@@ -12037,6 +12094,7 @@
 	</card>
 	<card>
 		<k>үшүчөөк</k>
+		<pos>n</pos>
 		<sameas word="үшүкчөөл"/>
 	</card>
 	<card>
