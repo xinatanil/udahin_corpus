@@ -10177,40 +10177,56 @@
 	</card>
 	<card>
 		<k>утопиялык</k>
-		<blockquote>утопический;</blockquote>
-		<blockquote>утопиялык социализм утопический социализм.</blockquote>
+		<pos>adj</pos>
+		<trn>утопический;</trn>
+		<collocation>
+		   <k>утопиялык социализм</k>
+		   <trn>утопический социализм.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>утопиячы</k>
+		<pos>n</pos>
 		<sameas word="утопист"/>
 	</card>
 	<card>
 		<k>уттур-</k>
+		<pos>v</pos>
 		<caus word="ут" index="2"/>
-		<blockquote>проиграть (напр. в карты);</blockquote>
-		<blockquote>бир сомун уттуруп койду он проиграл один рубль;</blockquote>
-		<blockquote>ал сага уттурбайт он тебе не проиграет.</blockquote>
+		<trn>проиграть (напр. в карты);</trn>
+		<ex>
+		    <source>бир сомун уттуруп койду</source>
+		    <target>он проиграл один рубль;</target>
+		</ex>
+		<ex>
+		    <source>ал сага уттурбайт</source>
+		    <target>он тебе не проиграет.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уттуруу</k>
 		<actionNoun word="уттур"/>
-		<blockquote>проигрывание, проигрыш.</blockquote>
+		<trn>проигрывание, проигрыш.</trn>
 	</card>
 	<card>
 		<k>уттуруш</k>
 		<homonym>
 			<actionNoun word="уттур"/>
-			<blockquote>проигрыш.</blockquote>
+			<trn>проигрыш.</trn>
 		</homonym>
 		<homonym>
 			<recv word="уттур"/>
-			<blockquote>совместно проигрывать.</blockquote>
+			<trn>совместно проигрывать.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>үттүү</k>
-		<blockquote>с узким отверстием;</blockquote>
-		<blockquote>үттүү мончок бусинка с отверстием;</blockquote>
+		<pos>adj</pos>
+		<trn>с узким отверстием;</trn>
+		<collocation>
+		     <k>үттүү мончок</k>
+		     <trn>бусинка с отверстием;</trn>
+		</collocation>
 		<ex>
 			<source>үттүү мончок жерде жатпайт погов.</source>
 			<target>бусинка с дырочкой на земле не валяется (нужная вещь зря не пропадёт).</target>
@@ -10218,67 +10234,114 @@
 	</card>
 	<card>
 		<k>үтүк</k>
+		<pos>n</pos>
 		<origin>р.</origin>
-		<blockquote>утюг.</blockquote>
+		<trn>утюг.</trn>
 	</card>
 	<card>
 		<k>үтүктө-</k>
-		<blockquote>утюжить, гладить.</blockquote>
+		<pos>v</pos>
+		<trn>утюжить, гладить.</trn>
 	</card>
 	<card>
 		<k>утул-</k>
+		<pos>v</pos>
 		<pass word="ут" index="2"/>
-		<blockquote>быть выигранным;</blockquote>
-		<blockquote>беш сомум утулду я проиграл пять рублей (букв. мои пять рублей кем-л. выиграны);</blockquote>
-		<blockquote>мен утулдум я проигрался.</blockquote>
+		<trn>быть выигранным;</trn>
+		<ex>
+		    <source>беш сомум утулду</source>
+		    <target>я проиграл пять рублей (букв. мои пять рублей кем-л. выиграны);</target>
+		</ex>
+		<ex>
+		    <source>мен утулдум</source>
+		    <target>я проигрался.</target>
+		</ex>
 	</card>
 	<card>
 		<k>утур</k>
+		<pos>adv</pos>
 		<look word="утуру"/>
 	</card>
 	<card>
 		<k>үтүр</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>надстрочный знак арабского алфавита в форме запятой (в старом алфавите передавал звуки у, ү, о, ө, а в реформированном выделял у, ү);</blockquote>
+			<trn>надстрочный знак арабского алфавита в форме запятой (в старом алфавите передавал звуки у, ү, о, ө, а в реформированном выделял у, ү);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>запятая.</blockquote>
+			<trn>запятая.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>утургу</k>
+		<pos>n</pos>
 		<look word="утуру"/>
 	</card>
 	<card>
 		<k>утурда-</k>
+		<pos>adv</pos>
 		<sameas word="утурула"/>
-		<blockquote>утурдап бас- идти навстречу.</blockquote>
+		<ex>
+		   <source>утурдап бас-</source>
+		   <target>идти навстречу.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үтүрдүү</k>
-		<blockquote>снабжённый знаком үтүр (см.);</blockquote>
-		<blockquote>үтүрдүү чекит точка с запятой.</blockquote>
+		<pos>adj</pos>
+		<trn>снабжённый знаком үтүр (см.);</trn>
+		<collocation>
+		     <k>үтүрдүү чекит</k>
+		     <trn>точка с запятой.</trn>
+		 </collocation>
 	</card>
 	<card>
 		<k>утурку</k>
-		<blockquote>противоположный, противостоящий;</blockquote>
-		<blockquote>утурку тиш резцы (зубы).</blockquote>
+		<pos>adv</pos>
+		<trn>противоположный, противостоящий;</trn>
+		<collocation>
+		     <k>утурку тиш</k>
+		     <trn>резцы (зубы).</trn>
+	    </collocation>
 	</card>
 	<card>
 		<k>утурла-</k>
+		<pos>v</pos>
 		<sameas word="утурула"/>
-		<blockquote>утурлап чык- выйти или выехать навстречу;</blockquote>
-		<blockquote>атыңды минип, Эркинди утурлачы сядь на лошадь и поезжай навстречу Эркину.</blockquote>
+		<ex>
+		    <source>утурлап чык-</source>
+		    <target>выйти или выехать навстречу;</target>
+		</ex>
+		<ex>
+		    <source>атыңды минип, Эркинди утурлачы</source>
+		    <target>сядь на лошадь и поезжай навстречу Эркину.</target>
+		</ex>
 	</card>
 	<card>
 		<k>утуру</k>
+		<pos>adv</pos>
 		<meta>(или утур, утургу)</meta>
-		<blockquote>навстречу; напротив;</blockquote>
-		<blockquote>утуру жүгүр- бежать навстречу;</blockquote>
-		<blockquote>утуру кара- смотреть прямо; смотреть, заглядывая в глаза;</blockquote>
-		<blockquote>утуру-утуру или утургусун-утуру то и дело, снова и снова, опять и опять; как только, так сейчас же; вслед;</blockquote>
-		<blockquote>утур-утуру эле келе берди он то и дело приходил;</blockquote>
-		<blockquote>утур-тетир бас- или утуру-тетири бас- ходить взад и вперёд, ходить из угла в угол;</blockquote>
+		<trn>навстречу; напротив;</trn>
+		<ex>
+		    <source>утуру жүгүр-</source>
+		    <target>бежать навстречу;</target>
+		</ex>
+		<ex>
+		    <source>утуру кара-</source>
+		    <target>смотреть прямо; смотреть, заглядывая в глаза;</target>
+	    </ex>
+	    <collocation>
+		     <k>утуру-утуру <i>или</i> утургусун-утуру</k>
+		     <trn>то и дело, снова и снова, опять и опять; как только, так сейчас же; вслед;</trn>
+		 </collocation>
+		 <ex>
+		     <source>утур-утуру эле келе берди</source>
+		     <target> он то и дело приходил;</target>
+		 </ex>
+		 <ex>
+		      <source>утур-тетир бас- <i>или</i> утуру-тетири бас-</source>
+		      <target>ходить взад и вперёд, ходить из угла в угол;</target>
+		</ex>
 		<ex>
 			<source>утуру камчы салышып фольк.</source>
 			<target>приняв (его) сторону и постоянно (ему) помогая.</target>
@@ -10286,116 +10349,181 @@
 	</card>
 	<card>
 		<k>утурула-</k>
-		<blockquote>двигаться навстречу; встречать;</blockquote>
-		<blockquote>Кайназар аттууларды утурулай басты Кайназар пошёл навстречу верховым;</blockquote>
-		<blockquote>утурулап умтул-</blockquote>
-		<blockquote>1) ринуться навстречу;</blockquote>
-		<blockquote>2) делать что-л. ещё и ещё, опять и опять;</blockquote>
-		<blockquote>утурулап чай сурады он без конца просил чаю (выпивал чашку и просил ещё и ещё);</blockquote>
-		<blockquote>утурулап кол алышты они ещё и ещё раз жали друг другу руки.</blockquote>
+		<pos>v<pos>
+		<trn>двигаться навстречу; встречать;</trn>
+		<ex>
+		    <source>Кайназар аттууларды утурулай басты</source>
+		    <target>Кайназар пошёл навстречу верховым;</target>
+		</ex>
+		<ex>
+		    <source>утурулап умтул-</source>
+		    <target>1) ринуться навстречу;</target>
+		    <target>2) делать что-л. ещё и ещё, опять и опять;</target>
+		</ex>
+		<ex>
+		    <source>утурулап чай сурады</source>
+		    <target>он без конца просил чаю (выпивал чашку и просил ещё и ещё);</target>
+		</ex>
+		<ex>
+		    <source>утурулап кол алышты</source>
+		    <target>они ещё и ещё раз жали друг другу руки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>утурулат-</k>
 		<caus word="утурула"/>
-		<blockquote>утурулата унчукту он сказал ещё и ещё раз.</blockquote>
+		<ex>
+		    <source>утурулата унчукту</source>
+		    <target>он сказал ещё и ещё раз.</target>
+		</ex>
 	</card>
 	<card>
 		<k>утурум</k>
-		<blockquote>утурум: жазгы утурум см. жазгы.</blockquote>
+		<pos>n</pos>
+		<collocation>
+			<k>жазгы утурум см. жазгы.</k>
+	    </collocation>
 	</card>
 	<card>
 		<k>утурумдук</k>
+		<pos>adv</pos>
 		<meaning>
-			<blockquote>запас продуктов питания на раннюю весну (самое голодное время года);</blockquote>
-			<blockquote>утурумдук ун запас муки на весну;</blockquote>
-			<blockquote>утурумдук май запас жиров на весну;</blockquote>
+			<trn>запас продуктов питания на раннюю весну (самое голодное время года);</trn>
+			<ex>
+			    <source>утурумдук ун</source>
+			    <target>запас муки на весну;</target>
+			</ex>
+			<ex>
+			    <source>утурумдук май</source>
+			    <target>запас жиров на весну;</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>время нужды; нужда;</blockquote>
-			<blockquote>утурумдук акча деньги на текущие нужды.</blockquote>
+			<trn>время нужды; нужда;</trn>
+			<collocation>
+			    <k>утурумдук акча</k>
+			    <trn>деньги на текущие нужды.</trn>
+			</collocation>
 		</meaning>
 	</card>
 	<card>
 		<k>үтүрөгөй</k>
+		<pos>adj</pos>
 		<sameas word="үтүрөкөй"/>
 	</card>
 	<card>
 		<k>үтүрөй-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>насупиться;</blockquote>
-			<blockquote>Эркин Жумага карап үтүрөйдү Эркин, нахмурившись, посмотрел на Джуму;</blockquote>
+			<trn>насупиться;</trn>
+			<ex>
+			    <source>Эркин Жумага карап үтүрөйдү</source>
+			    <target>Эркин, нахмурившись, посмотрел на Джуму;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>иметь жалкий, неприглядный вид;</blockquote>
-			<blockquote>үтүрөйгөн үй жалкая юрта.</blockquote>
+			<trn>иметь жалкий, неприглядный вид;</trn>
+			<ex>
+			    <source>үтүрөйгөн үй</source>
+			    <target>жалкая юрта.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>үтүрөйт-</k>
+		<pos>v</pos>
 		<caus word="үтүрөй"/>
 	</card>
 	<card>
 		<k>үтүрөкөй</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>неприглядный; некрасивый;</blockquote>
+			<trn>неприглядный; некрасивый;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>(точнее үтүрөкөй ит) простая собака, дворняжка или помесь борзой и дворняжки.</blockquote>
+			<trn>(точнее үтүрөкөй ит) простая собака, дворняжка или помесь борзой и дворняжки.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>үтүрөң</k>
-		<blockquote>үтүрөң: үтүрөң эт-</blockquote>
+		<pos>adj</pos>
+		<collocation>
+		    <k>үтүрөң эт-</k>
+		</collocation>
 		<sameas word="үтүрөңдө"/>
-		<blockquote>үтүрөң тентек вспыльчивый; забияка.</blockquote>
+		<collocation>
+		     <k>үтүрөң тентек</k>
+		     <trn>вспыльчивый; забияка.</trn>
+		 </collocation>
 	</card>
 	<card>
 		<k>үтүрөңдө-</k>
-		<blockquote>набрасываться с мрачным видом; лезть в драку.</blockquote>
+		<pos>v</pos>
+		<trn>набрасываться с мрачным видом; лезть в драку.</trn>
 	</card>
 	<card>
 		<k>үтүрөңдөмө</k>
-		<blockquote>забияка; ершистый.</blockquote>
+		<pos>adj</pos>
+		<trn>забияка; ершистый.</trn>
 	</card>
 	<card>
 		<k>үтүрөңдөт-</k>
+		<pos>v</pos>
 		<caus word="үтүрөндө"/>
-		<blockquote>катуу сүйлөп, кабагьш үтүрөндөтүп, Алымга карап умтулду громко говоря, нахмурив брови, он рванулся к Алыму.</blockquote>
+		<ex>
+		    <source>катуу сүйлөп, кабагьш үтүрөндөтүп, Алымга карап умтулду</source>
+		    <target>громко говоря, нахмурив брови, он рванулся к Алыму.</target>
+		</ex>
 	</card>
 	<card>
 		<k>үтүрөңдөш-</k>
+		<pos>v</pos>
 		<recv word="үтүроңдө"/>
-		<blockquote>эл менен үтүрөңдөшпой коштошсо да болот лучше бы попрощаться с народом по-хорошему (букв. не хмурясь друг на друга).</blockquote>
+		<ex>
+		    <source>эл менен үтүрөңдөшпой коштошсо да болот</source>
+		    <target>лучше бы попрощаться с народом по-хорошему (букв. не хмурясь друг на друга).</target>
+		</ex>
 	</card>
 	<card>
 		<k>утуу</k>
 		<actionNoun word="ут" index="2"/>
-		<blockquote>выигрывание.</blockquote>
+		<trn>выигрывание.</trn>
 	</card>
 	<card>
 		<k>утуш</k>
+		<pos>n<pos>
 		<homonym>
 			<meaning>
-				<blockquote>выигрыш;</blockquote>
-				<blockquote>утуш заёму выигрышный заём;</blockquote>
-				<blockquote>утуш оюну розыгрыш;</blockquote>
+				<trn>выигрыш;</trn>
+				<collocation>
+				     <k>утуш заёму</k>
+				     <trn>выигрышный заём;</trn>
+				 </collocation>
+				 <collocation>
+				     <k>утуш оюну</k>
+				     <trn>розыгрыш;</trn>
+				 </collocation>
 			</meaning>
 			<meaning>
-				<blockquote>азартная игра;</blockquote>
-				<blockquote>утуш ойно- играть в азартные игры.</blockquote>
+				<trn>азартная игра;</trn>
+				<ex>
+				    <source>утуш ойно-</source>
+				    <target>играть в азартные игры.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
 			<recv word="ут" index="2"/>
-			<blockquote>совместно выигрывать.</blockquote>
+			<trn>совместно выигрывать.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>уу</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
-				<blockquote>яд;</blockquote>
+				<trn>яд;</trn>
 				<ex>
 					<source>тилден бал да тамат, уу да тамат погов.</source>
 					<target>с языка и мёд каплет, и яд каплет;</target>
@@ -10404,9 +10532,11 @@
 					<source>жылаандын териси кооз, тиши - уу погов.</source>
 					<target>кожа змеи красива, зубы -яд;</target>
 				</ex>
-				<blockquote>уу жут-</blockquote>
-				<blockquote>1) принимать яд;</blockquote>
-				<blockquote>2) перен. испытывать горечь, боль душевную;</blockquote>
+				<collocation>
+				     <trn>уу жут-</trn>
+				     <trn>1) принимать яд;</trn>
+				     <trn>2) перен. испытывать горечь, боль душевную;</trn>
+				 </collocation>
 				<ex>
 					<source>суу ич десе, уу ичкен фольк.</source>
 					<target>ему приказали пить воду, а он пил яд (т.е. проявил усердие не по разуму);</target>
@@ -10415,19 +10545,37 @@
 					<source>уу ичкен бир өлөт, ант ичкен миң өлөт погов.</source>
 					<target>принявший яд раз умирает, принявший присягу тысячу раз умирает (принятие присяги считалось делом зазорным);</target>
 				</ex>
-				<blockquote>уу ичкендей кыл- или уу ичкендей кыр- (о людях, живых существах) свалить всех (многих) разом и наповал;</blockquote>
+				<ex>
+				     <source>уу ичкендей кыл- <i>или</i> уу ичкендей кыр-</source>
+				     <target>(о людях, живых существах) свалить всех (многих) разом и наповал;</target>
+				 </ex>
 				<ex>
 					<source>ажыдаардын уусуна алтымыш күндөп чылаган фольк.</source>
 					<target>(меч) он шестьдесят дней мочил в яде дракона;</target>
 				</ex>
-				<blockquote>таяктын уусу боль от удара палкой; боль от побоев;</blockquote>
-				<blockquote>таяктын уусуна колум сенек болгон рука моя отнялась от жгучих ударов (по ней) палкой;</blockquote>
+				<collocation>
+				     <k>таяктын уусу</k>
+				     <trn>боль от удара палкой; боль от побоев;</trn>
+				 </collocation>
+				 <ex>
+				     <source>таяктын уусуна колум сенек болгон</source>
+				     <target>рука моя отнялась от жгучих ударов (по ней) палкой;</target>
+				 </ex>
 			</meaning>
 			<meaning>
-				<blockquote>приёмы, секреты;</blockquote>
-				<blockquote>жолдун уусу секреты пути (преграды, неровности и т.п.);</blockquote>
-				<blockquote>жолдун уусун билбеген киши баштай албайт человек, который не знает секретов (данного) пути, не может быть проводником;</blockquote>
-				<blockquote>жол билбейм десе, жол уусун билгендер да табылат если он скажет что не знает дороги, то найдутся и такие, которые знают секреты пути;</blockquote>
+				<trn>приёмы, секреты;</trn>
+				<collocation>
+				      <k>жолдун уусу</k>
+				      <trn>секреты пути (преграды, неровности и т.п.);</trn>
+				  </collocation>
+				  <ex>
+				       <source>жолдун уусун билбеген киши баштай албайт</source>
+				       <target>человек, который не знает секретов (данного) пути, не может быть проводником;</target>
+				   </ex>
+				   <ex>
+				       <source>жол билбейм десе, жол уусун билгендер да табылат</source>
+				       <target>если он скажет что не знает дороги, то найдутся и такие, которые знают секреты пути;</target>
+				   </ex>
 				<ex>
 					<source>устанын уусун билгенче, темирдин суусун бил погов.</source>
 					<target>прежде чем изучить приёмы кузнеца, изучи закалку железа (стали).</target>
@@ -10436,27 +10584,41 @@
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>охота (гл. обр. на зверя, на диких парнокопытных);</blockquote>
+				<trn>охота (гл. обр. на зверя, на диких парнокопытных);</trn>
 				<ex>
 					<source>мойнунан байлаган ит ууга жарабайт погов.</source>
 					<target>собака, привязанная за шею, для охоты не годится;</target>
 				</ex>
-				<blockquote>уу уула- или уу кыл- охотиться;</blockquote>
-				<blockquote>ууга чык- выходить или выезжать на охоту;</blockquote>
+				<ex>
+				     <source>уу уула- <i>или</i> уу кыл-</source>
+				     <target>охотиться;</target>
+				 </ex>
+				 <ex>
+				      <source>ууга чык-</source>
+				      <target>выходить или выезжать на охоту;</target>
+				  </ex>
 			</meaning>
 			<meaning>
-				<blockquote>охота с сетями на птиц.</blockquote>
+				<trn>охота с сетями на птиц.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>уу III:</blockquote>
-			<blockquote>"уу" десе, "чуу" дейт он из мухи слона делает (букв. если скажут "уу", так он скажет "чуу");</blockquote>
-			<blockquote>уу-чуу или уу-дуу крик, гомон, гвалт;</blockquote>
-			<blockquote>эмне үчүн уу-чуу келесиңер (или болосуңар) ? что вы такой гвалт подняли?</blockquote>
+			<k>уу</k>
+			<ex>
+			    <source>"уу" десе, "чуу" дейт</source>
+			    <target>он из мухи слона делает (букв. если скажут "уу", так он скажет "чуу");</target>
+			</ex>
+			<collocation>
+			    <k>уу-чуу <i>или</i> уу-дуу</k>
+			    <trn>крик, гомон, гвалт;</trn>
+			</collocation>
+			<ex>
+			    <source>эмне үчүн уу-чуу келесиңер (<i>или</i> болосуңар) ?</source>
+			    <target>что вы такой гвалт подняли?</target>
 		</homonym>
 		<homonym>
 			<origin>ар.</origin>
-			<blockquote>(ху - он, т.е. бог) возглас, которым дервиши сопровождают свои радения;</blockquote>
+			<trn>(ху - он, т.е. бог) возглас, которым дервиши сопровождают свои радения;</trn>
 			<ex>
 				<source>таң атканча "уу!" деген эшендерди там басты фольк.</source>
 				<target>(вовремя землетрясения) дома задавили дервишей, которые до рассвета восклицают "уу!".</target>
@@ -10465,7 +10627,8 @@
 	</card>
 	<card>
 		<k>үү</k>
-		<blockquote>звукоподражание уханью филина.</blockquote>
+		<pos>ideo</pos>
+		<trn>звукоподражание уханью филина.</trn>
 	</card>
 	<card>
 		<k>уугуш-</k>
@@ -10473,7 +10636,11 @@
 	</card>
 	<card>
 		<k>уудун</k>
-		<blockquote>уудун: уудуң-шуудуң сплетни, пересуды;</blockquote>
+		<pos>adj</pos>
+		<collocation>
+		     <k>уудуң-шуудуң</k>
+		     <trn>сплетни, пересуды;</trn>
+		</collocation>
 		<ex>
 			<source>уудуң-шуудуң кеп жүргөн ургаачынын бирөөнөн фольк.</source>
 			<target>сплетни пошли от какой-то бабы.</target>
@@ -10481,62 +10648,136 @@
 	</card>
 	<card>
 		<k>ууз</k>
-		<blockquote>молозиво (в кипячёном виде в киргизском быту считается лакомством);</blockquote>
+		<pos>n</pos>
+		<trn>молозиво (в кипячёном виде в киргизском быту считается лакомством);</trn>
 		<ex>
 			<source>уйдун тууруна күтүп, уузуна күтпөптүр погов.</source>
 			<target>отёла коровы дождался, а молозива не дождался (долго ждал, а самого важного момента не дождался);</target>
 		</ex>
-		<blockquote>туубаган уйдун уузу или кысыр уйдун уузу перен. журавль в небе (букв. молозиво неотелившейся или яловой коровы);</blockquote>
-		<blockquote>ууз кымыз кумыс из молока начального периода лактации кобылиц;</blockquote>
-		<blockquote>жумурдун уузу сычужина ягнёнка (употребляется для сквашивания молока);</blockquote>
-		<blockquote>жумурунда уузу жок обжора, жадный;</blockquote>
-		<blockquote>жумурунда уузу жок тоймоюнча "кел" дебейт обжора не скажет "прошу", пока сам не насытится;</blockquote>
-		<blockquote>ууз бозо буза первой закваски, буза-первач, лучшая буза;</blockquote>
-		<blockquote>сиз бозоңуздун уузун өзүнүз ичсеңиз керек свою лучшую бузу вы, видимо, сами пили (никого не угощали);</blockquote>
-		<blockquote>ууз арча молодая стройная арча;</blockquote>
-		<blockquote>ууз кайың молодая стройная берёза;</blockquote>
-		<blockquote>ууз эт нежное тело;</blockquote>
-		<blockquote>ууздай ровный, прямой; складный; аккуратный, с иголочки (об одежде); нежный (о теле);</blockquote>
+		<ex>
+		    <source>туубаган уйдун уузу или кысыр уйдун уузу перен.</source>
+		    <target>журавль в небе (букв. молозиво неотелившейся или яловой коровы);</target>
+		</ex>
+		<ex>
+		    <source>ууз кымыз</source>
+		    <target>кумыс из молока начального периода лактации кобылиц;</target>
+		</ex>
+		<ex>
+		    <source>жумурдун уузу</source>
+		    <target>сычужина ягнёнка (употребляется для сквашивания молока);</target>
+		</ex>
+		<ex>
+		    <source>жумурунда уузу жок</source>
+		    <target>обжора, жадный;</target>
+		</ex>
+		<ex>
+		    <source>жумурунда уузу жок тоймоюнча "кел" дебейт</source>
+		    <target>обжора не скажет "прошу", пока сам не насытится;</target>
+		</ex>
+		<ex>
+		    <source>ууз бозо</source>
+		    <target>буза первой закваски, буза-первач, лучшая буза;</target>
+	    </ex>
+	    <ex>
+		    <source>сиз бозоңуздун уузун өзүнүз ичсеңиз керек</source>
+		    <target>свою лучшую бузу вы, видимо, сами пили (никого не угощали);</target>
+		</ex>
+		<ex>
+		    <source>ууз арча</source>
+		    <target>молодая стройная арча;</target>
+		</ex>
+		<ex>
+		    <source>ууз кайың</source>
+		    <target>молодая стройная берёза;</target>
+		</ex>
+		<ex>
+		    <source>ууз эт</source>
+		    <target>нежное тело;</target>
+		</ex>
+		<ex>
+		     <source>ууздай</source>
+		     <target>ровный, прямой; складный; аккуратный, с иголочки (об одежде); нежный (о теле);</target>
+		 </ex>
 		<ex>
 			<source>ууздай болгон ак эти ар жеринен көрүндү фольк.</source>
 			<target>её нежное белое тело (сквозь изодранную одежду) виднелось в разных местах;</target>
 		</ex>
-		<blockquote>башында ууздай калпак на голове у него аккуратный колпак;</blockquote>
-		<blockquote>ууздай кыз-келиндер девицы-молодицы как на подбор (одна другой лучше);</blockquote>
-		<blockquote>ууздай тунук настоящий, чистый, без примеси;</blockquote>
-		<blockquote>менин билүүмчө "Манастын" ууздай тунугун Тыныбек айтса керек эле насколько я знаю, настоящий (эпос) "Манас" исполнял, видимо, Тыныбек.</blockquote>
+		<ex>
+		    <sourc>башында ууздай калпак</sourc>
+		    <target>на голове у него аккуратный колпак;</target>
+		</ex>
+		<ex>
+		    <source>ууздай кыз-келиндер</source>
+		    <target>девицы-молодицы как на подбор (одна другой лучше);</target>
+		</ex>
+		<ex>
+		    <source>ууздай тунук</source>
+		    <target>настоящий, чистый, без примеси;</target>
+	   </ex>
+	   <ex>
+		    <source>менин билүүмчө "Манастын" ууздай тунугун Тыныбек айтса керек эле</source>
+		    <target>насколько я знаю, настоящий (эпос) "Манас" исполнял, видимо, Тыныбек.</target>
+	   </ex>
 	</card>
 	<card>
 		<k>уук</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>унина (жердь купола юрты);</blockquote>
-			<blockquote>ууктун алаканы плоская (нижняя) часть унины;</blockquote>
-			<blockquote>ууктун учу верхний конец унины;</blockquote>
-			<blockquote>ууктун билеги наружная сторона низа унины;</blockquote>
-			<blockquote>ийри талдардан жасалган жаман ууктар плохие унины, сделанные из кривого тала;</blockquote>
+			<trn>унина (жердь купола юрты);</trn>
+			<ex>
+			     <source>ууктун алаканы</source>
+			     <target>плоская (нижняя) часть унины;</target>
+		    </ex>
+		    <ex>
+			    <source>ууктун учу</source>
+			    <target>верхний конец унины;</target>
+			</ex>
+			<ex>
+			    <source>ууктун билеги</source>
+			    <target>наружная сторона низа унины;</target>
+			</ex>
+			<ex>
+			    <source>ийри талдардан жасалган жаман ууктар</source>
+			    <target>плохие унины, сделанные из кривого тала;</target>
+			</ex>
 			<ex>
 				<source>уугум сага айтамын, уулум сен ук погов.</source>
-				<target>тебе, унина моя, говорю, ты, сын мой, слушай;</target>
+			 	<target>тебе, унина моя, говорю, ты, сын мой, слушай;</target>
 			</ex>
-			<blockquote>кызыл уук оголённые унины, непокрытая юрта;</blockquote>
-			<blockquote>кызыл уук болуп в спешке, поспешно; в переполохе, в панике;</blockquote>
-			<blockquote>эл, кызыл уук болуп, качып кетти народ в панике убежал;</blockquote>
-			<blockquote>кызыл уук кыл- разгромить и разграбить дочиста;</blockquote>
-			<blockquote>ууктун учу сынбаган он не подвергался даже и малейшему разгрому (букв. конец его унины не ломался).</blockquote>
+			<ex>
+			    <source>кызыл уук</source>
+			    <target>оголённые унины, непокрытая юрта;</target>
+			</ex>
+			<ex>
+			    <source>кызыл уук болуп</source>
+			    <target>в спешке, поспешно; в переполохе, в панике;</target>
+			</ex>
+			<ex>
+			    <source>эл, кызыл уук болуп, качып кетти</source>
+			    <target>народ в панике убежал;</target>
+			</ex>
+			<collocation>
+			   <k>кызыл уук кыл-</k>
+			   <trn>разгромить и разграбить дочиста;</trn>
+			</collocation>
+			<ex>
+			    <source>ууктун учу сынбаган</source>
+			    <target>он не подвергался даже и малейшему разгрому (букв. конец его унины не ломался).</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>отравляться.</blockquote>
+			<trn>отравляться.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>ууктур-</k>
 		<caus word="уук" index="2"/>
 		<meaning>
-			<blockquote>отравлять;</blockquote>
+			<trn>отравлять;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>огорчать;</blockquote>
+			<trn>огорчать;</trn>
 			<ex>
 				<source>кыз баласы кызыктырат, уул баласы ууктурат погов.</source>
 				<target>дитя дочери веселит, дитя сына огорчает.</target>
@@ -10545,11 +10786,21 @@
 	</card>
 	<card>
 		<k>уул</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>сын;</blockquote>
-			<blockquote>тондуу уул усыновлённый ребёнок (мальчик);</blockquote>
-			<blockquote>тонсуз уул родной сын;</blockquote>
-			<blockquote>бакма уул воспитанник;</blockquote>
+			<trn>сын;</trn>
+			<collocation>
+			     <k>тондуу уул</k>
+			     <trn>усыновлённый ребёнок (мальчик);</trn>
+			 </collocation>
+			 <collocation>
+			     <k>тонсуз уул</k>
+			     <trn>родной сын;</trn>
+			 </collocation>
+			 <collocation>
+			     <k>бакма уул</k>
+			     <trn>воспитанник;</trn>
+			 </collocation>
 			<ex>
 				<source>олжолснуп кул болгон, Кутманга бакма уул болгон фольк.</source>
 				<target>попав в плен, стал рабом, стал воспитанником Кутмана;</target>
@@ -10561,9 +10812,15 @@
 		</meaning>
 		<meaning>
 			<meta>редко</meta>
-			<blockquote>ребёнок, дитя (независимо от пола);</blockquote>
-			<blockquote>эркек уул мальчик, сын;</blockquote>
-			<blockquote>эркек уул мында жок, жалаң кыз балдары бар экен мальчиков здесь нет, есть только девочки;</blockquote>
+			<trn>ребёнок, дитя (независимо от пола);</trn>
+			<ex>
+			    <source>эркек уул</source>
+			    <target>мальчик, сын;</target>
+			</ex>
+			<ex>
+			   <source>эркек уул мында жок, жалаң кыз балдары бар экен</source>
+			   <target>мальчиков здесь нет, есть только девочки;</target>
+			</ex>
 			<ex>
 				<source>Айчүрөктүн баласы эгерде эркек уул болсо фольк.</source>
 				<target>если дитя Айчурек окажется мальчиком;</target>
@@ -10571,90 +10828,148 @@
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>молодец;</blockquote>
-			<blockquote>ой, баракелди ай, уул экен! вот это да! молодец, оказывается, он!;</blockquote>
-			<blockquote>мен, ыраазы, уул экенсиң! я доволен, ты молодец!;</blockquote>
-			<blockquote>ата (нын) уулу молодец; молодец; достойный;</blockquote>
+			<trn>молодец;</trn>
+			<ex>
+			    <source>ой, баракелди ай, уул экен!</source>
+			    <target>вот это да! молодец, оказывается, он!;</target>
+			</ex>
+			<ex>
+			    <source>мен, ыраазы, уул экенсиң!</source>
+			    <target>я доволен, ты молодец!;</target>
+			</ex>
+			<collocation>
+			    <k>ата (нын) уулу</k>
+			    <trn>молодец; молодец; достойный;</trn>
+			</collocation>
 		</meaning>
 		<meaning>
 			<meta>уст.</meta>
-			<blockquote>с притяж. аффиксом 3 л. (уулу) соответствует русскому фамильному окончанию: Малик уулу Маликов;</blockquote>
+			<trn>с притяж. аффиксом 3 л. (уулу) соответствует русскому фамильному окончанию: Малик уулу Маликов;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>в игре в тогуз коргол (см. коргол):</blockquote>
-			<blockquote>уч уул три камешка в одной лунке (выигрыш);</blockquote>
-			<blockquote>беш уул пять камешков в одной лунке (проигрыш);</blockquote>
-			<blockquote>жети уул семь камешков в одной лунке (проигрыш);</blockquote>
-			<blockquote>тогуз уул девять камешков в одной лунке (проигрыш);</blockquote>
-			<blockquote>уул табар кончик сычуга (жумур см. III) у овцы (по старому поверью, съевшая это женщина родит сына).</blockquote>
+			<trn>в игре в тогуз коргол (см. коргол):</trn>
+			<ex>
+			    <source>уч уул</source>
+			    <target>три камешка в одной лунке (выигрыш);</target>
+			</ex>
+			<ex>
+			    <source>беш уул</source>
+			    <target>пять камешков в одной лунке (проигрыш);</target>
+			</ex>
+			<ex>
+			    <source>жети уул</source>
+			    <target>семь камешков в одной лунке (проигрыш);</target>
+			</ex>
+			<ex>
+			    <source>тогуз уул</source>
+			    <target>девять камешков в одной лунке (проигрыш);</target>
+			</ex>
+			<ex>
+			    <source>уул табар</source>
+			    <target>кончик сычуга (жумур см. III) у овцы (по старому поверью, съевшая это женщина родит сына).</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>уула-</k>
+		<pos>v</pos>
 		<homonym>
-			<blockquote>охотиться;</blockquote>
-			<blockquote>балык уула- рыбачить;</blockquote>
-			<blockquote>түтүн уула- идти на дымок (в расчёте на угощение).</blockquote>
+			<trn>охотиться;</trn>
+			<ex>
+			    <source>балык уула-</source>
+			    <target>рыбачить;</target>
+			</ex>
+			<ex>
+			    <source>түтүн уула-</source>
+			    <target>идти на дымок (в расчёте на угощение).</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>уула- II:</blockquote>
-			<blockquote>уулап-чуулап с шумом и гудением.</blockquote>
+			<k>уула- II:</k>
+			<collocation
+			     <k>уулап-чуулап</k>
+			     <trn>с шумом и гудением.</trn>
+			 </collocation>
 		</homonym>
 	</card>
-	<card>
+	<card> 
 		<k>уулан-</k>
-		<blockquote>отравляться;</blockquote>
-		<blockquote>ууланган сөз едкое слово.</blockquote>
+		<pos>v</pos>
+		<trn>отравляться;</trn>
+		<collocation
+		    <k>ууланган сөз</k>
+		    <trn>едкое слово.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>ууландыр-</k>
+		<pos>inf</pos>
 		<caus word="уулан"/>
 		<meaning>
-			<blockquote>отравлять; перен. задевать за живое;</blockquote>
+			<trn>отравлять; перен. задевать за живое;</trn>
 		</meaning>
 		<meaning>
 			<meta>уст.</meta>
-			<blockquote>протравливать (зерно).</blockquote>
+			<trn>протравливать (зерно).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ууландыруу</k>
 		<actionNoun word="ууландыр"/>
 		<meaning>
-			<blockquote>отравление кого-л.;</blockquote>
+			<trn>отравление кого-л.;</trn>
 		</meaning>
 		<meaning>
 			<meta>уст.</meta>
-			<blockquote>протравливание (зерна).</blockquote>
+			<trn>протравливание (зерна).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>уулант-</k>
 		<caus word="уулан"/>
-		<blockquote>отравлять.</blockquote>
+		<trn>отравлять.</trn>
 	</card>
 	<card>
 		<k>уулда-</k>
-		<blockquote>уулда-: уулдап-чуулдап громко плача, рыдая; крича в беспокойстве.</blockquote>
+		<pos>inf</pos>
+		<collocation>
+		     <k>уулдап-чуулдап</k>
+		     <trn>громко плача, рыдая; крича в беспокойстве.</trn>
+		 </collocation>
 	</card>
 	<card>
 		<k>уулдат-</k>
 		<caus word="уулда"/>
-		<blockquote>уулдатып-чуулдатып доведя до громкого плача, до рыданий; сильно притесняя, обижая.</blockquote>
+		<collocation>
+		     <k>уулдатып-чуулдатып</k>
+		     <trn>доведя до громкого плача, до рыданий; сильно притесняя, обижая.</trn>
+		 </collocation>
 	</card>
 	<card>
 		<k>уулдаш-</k>
-		<blockquote>уулдаш-: ата-уулдашып бөлүндү они разделились по родам, по признакам родовой близости.</blockquote>
+		<pos>adj</pos>
+		<ex>
+		     <source>ата-уулдашып бөлүндү</source>
+		     <target>они разделились по родам, по признакам родовой близости.</target>
+		 </ex>
 	</card>
 	<card>
 		<k>уулдуу</k>
-		<blockquote>уулдуу: дагы бир уулдуу болушкан у них появился ещё один сын;</blockquote>
-		<blockquote>уулдуу бол! пожелание женщине желаю тебе родить сына!</blockquote>
+		<pos>adj</pos>
+		<ex>
+		    <source>дагы бир уулдуу болушкан</source>
+		    <target>у них появился ещё один сын;</target>
+		</ex>
+		<ex>
+		    <source>уулдуу бол!</source>
+		    <target>пожелание женщине желаю тебе родить сына!</target>
+		</ex>
 	</card>
 	<card>
 		<k>үүлдө-,</k>
-		<blockquote>үүлдө-, үүлө-</blockquote>
-		<blockquote>(о филине) ухать;</blockquote>
+		<pos>v</pos>
+		<k>үүлдө-, үүлө-</k>
+		<trn>(о филине) ухать;</trn>
 		<ex>
 			<source>үкүсү жыгач башында, үнү чыгып үүлдөп фольк.</source>
 			<target>филин там на дереве, голос его раздаётся ухая;</target>
@@ -10666,8 +10981,9 @@
 	</card>
 	<card>
 		<k>уулжан</k>
+		<pos>n</pos>
 		<meta>(ср. улжан)</meta>
-		<blockquote>название лекарственного травянистого растения;</blockquote>
+		<trn>название лекарственного травянистого растения;</trn>
 		<ex>
 			<source>уулжан берип, ичинен эски дартын буздуруп фольк.</source>
 			<target>дав (больному) уулжан, старую болезнь победил (букв. разрушил).</target>
@@ -10676,76 +10992,108 @@
 	<card>
 		<k>уулоо</k>
 		<actionNoun word="уула" index="1"/>
-		<blockquote>балык уулоо рыбная ловля.</blockquote>
+		<collocation>
+		   <k>балык уулоо</k>
+		   <trn>рыбная ловля.</trn>
+		</collocation>
 	</card>
 	<card>
 		<k>уулук-</k>
+		<pos>v</pos>
 		<sameas word="уук" index="2"/>
 	</card>
 	<card>
 		<k>уулуктур-</k>
+		<pos>v</pos>
 		<sameas word="ууктур"/>
 	</card>
 	<card>
 		<k>уулуктуруу</k>
 		<actionNoun word="уулуктур"/>
-		<blockquote>отравление (действие).</blockquote>
+		<trn>отравление (действие).</trn>
 	</card>
 	<card>
 		<k>уулуктуруучу</k>
-		<blockquote>отравляющий, ядовитый;</blockquote>
-		<blockquote>уулуктуруучу газ уст. отравляющий газ.</blockquote>
+		<pos>adj</pos>
+		<trn>отравляющий, ядовитый;</trn>
+		<ex>
+		    <source>уулуктуруучу газ уст.</source>
+		    <target>отравляющий газ.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уулуу</k>
-		<blockquote>отравленный, содержащий отраву, ядовитый.</blockquote>
+		<pos>adj</pos>
+		<trn>отравленный, содержащий отраву, ядовитый.</trn>
 	</card>
 	<card>
 		<k>уулучулук</k>
+		<pos>n</pos>
 		<blockquote>(уул-у-чу-лук)</blockquote>
 		<meta>уст.</meta>
-		<blockquote>употреблялось в значении русского окончания "-щина" (от имён личных);</blockquote>
-		<blockquote>Ыйбак уулучулук (от Ыйбак уулу Ыйбаков) ыйбаковщина.</blockquote>
+		<trn>употреблялось в значении русского окончания "-щина" (от имён личных);</trn>
+		<ex>
+		   <source>Ыйбак уулучулук</source>
+		   <target>(от Ыйбак уулу Ыйбаков) ыйбаковщина.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уурда-</k>
-		<blockquote>красть, воровать.</blockquote>
+		<pos>v</pos>
+		<trn>красть, воровать.</trn>
 	</card>
 	<card>
 		<k>уурдагыч</k>
-		<blockquote>вор, расхититель.</blockquote>
+		<pos>n</pos>
+		<trn>вор, расхититель.</trn>
 	</card>
 	<card>
 		<k>уурдал-</k>
 		<pass word="уурда"/>
-		<blockquote>быть украденным;</blockquote>
-		<blockquote>уурдалган мал краденый скот, украденный скот;</blockquote>
-		<blockquote>уурдалган дүкөн обворованный магазин.</blockquote>
+		<trn>быть украденным;</trn>
+		<ex>
+		   <source>уурдалган мал</source>
+		   <target>краденый скот, украденный скот;</target>
+		</ex>
+		<ex>
+		   <source>уурдалган дүкөн</source>
+		   <target>обворованный магазин.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уурдалыш</k>
 		<actionNoun word="уурдал"/>
-		<blockquote>покража.</blockquote>
+		<trn>покража.</trn>
 	</card>
 	<card>
 		<k>уурдан-</k>
-		<blockquote>делать что-л. тайком, крадучись, воровски;</blockquote>
-		<blockquote>уурданып бар- пойти тайком, крадучись (от людей).</blockquote>
+		<pos>inf</pos>
+		<trn>делать что-л. тайком, крадучись, воровски;</trn>
+		<ex>
+		    <source>уурданып бар-</source>
+		    <target>пойти тайком, крадучись (от людей).</target>
+		</ex>
 	</card>
 	<card>
 		<k>уурдат-</k>
+		<pos>inf</pos>
 		<caus word="уурда"/>
-		<blockquote>заставить украсть;</blockquote>
-		<blockquote>атымды уурдаттым у меня украли лошадь (я допустил, чтобы украли мою лошадь).</blockquote>
+		<trn>заставить украсть;</trn>
+		<ex>
+		   <source>атымды уурдаттым</source>
+		   <target>у меня украли лошадь (я допустил, чтобы украли мою лошадь).</target>
+		</ex>
 	</card>
 	<card>
 		<k>уурдаттыр-</k>
+		<pos>inf</pos>
 		<caus word="уурдат"/>
 	</card>
 	<card>
 		<k>уурдаш-</k>
+		<pos>inf</pos>
 		<recv word="уурда"/>
-		<blockquote>совместно красть.</blockquote>
+		<trn>совместно красть.</trn>
 	</card>
 	<card>
 		<k>уурдоо</k>
@@ -10753,31 +11101,64 @@
 	</card>
 	<card>
 		<k>уурдоочу</k>
-		<blockquote>ворующий.</blockquote>
+		<pos>n</pos>
+		<trn>ворующий.</trn>
 	</card>
 	<card>
 		<k>уурдоочулук</k>
-		<blockquote>воровство, разворовывание.</blockquote>
+		<pos>n</pos>
+		<trn>воровство, разворовывание.</trn>
 	</card>
 	<card>
 		<k>уурт</k>
-		<blockquote>середина внутренней части щеки;</blockquote>
-		<blockquote>уурттун жамажайы (или просто жамажай) внутренняя часть щеки между углом губ и собственно уурт;</blockquote>
-		<blockquote>сол жакы уурту менен күлүмсүрөп койду он улыбнулся левым углом губ;</blockquote>
-		<blockquote>уурттары жылмайып, эки бетинен, билинер-билинбес болуп, кипкичинекей эки чуңкурча көрүндү углы губ её сложились в улыбку, а на щеках её показались чуть заметные ямочки;</blockquote>
-		<blockquote>ууртунан май чубуртуп</blockquote>
-		<blockquote>1) размазывая жир по губам;</blockquote>
-		<blockquote>2) перен. чревоугодничая;</blockquote>
-		<blockquote>уурту салаңдаган щёки у него рыхлые и отвисшие (как напр. у бульдога);</blockquote>
-		<blockquote>ууртун салаңдатып распустив свои рыхлые щёки;</blockquote>
-		<blockquote>атынын уурту жарылып канап келатат губы его коня разодраны (удилами), течёт кровь;</blockquote>
-		<blockquote>уурттарды чулчуйт- надуть жирные щёки, надуться (о толстощёком);</blockquote>
-		<blockquote>уурттарын чулчуйтуп, кеп айталбай, башын ийкей берген надувшись, он не мог слова сказать, (только) кивал головой (в знак согласия, одобрения);</blockquote>
-		<blockquote>уурт тартмай или ууртка тартмай детская игра: надувают щеку и щёлкают по ней пальцем.</blockquote>
+		<pos>n</pos>
+		<trn>середина внутренней части щеки;</trn>
+		<ex>
+		    <source>уурттун жамажай (<i>или</i> просто жамажай)</source>
+		    <target>внутренняя часть щеки между углом губ и собственно уурт;</target>
+		</ex>
+		<ex>
+		    <source>сол жакы уурту менен күлүмсүрөп койду</source>
+		    <target>он улыбнулся левым углом губ;</target>
+		</ex>
+		<ex>
+		    <source>уурттары жылмайып, эки бетинен, билинер-билинбес болуп, кипкичинекей эки чуңкурча көрүндү</source>
+		    <target>углы губ её сложились в улыбку, а на щеках её показались чуть заметные ямочки;</target>
+		</ex>
+		<collocation>
+		    <k>ууртунан май чубуртуп</k>
+		    <trn>1) размазывая жир по губам;</trn>
+		    <trn>2) перен. чревоугодничая;</trn>
+		</collocation>
+		<ex>
+		   <source>уурту салаңдаган</source>
+		   <target>щёки у него рыхлые и отвисшие (как напр. у бульдога);</target>
+		</ex>
+		<ex>
+		    <source>ууртун салаңдатып</source>
+		    <target>распустив свои рыхлые щёки;</target>
+		</ex>
+		<ex>
+		    <source>атынын уурту жарылып канап келатат</source>
+		    <target>губы его коня разодраны (удилами), течёт кровь;</target>
+		</ex>
+		<ex>
+		    <source>уурттарды чулчуйт-</source>
+		    <target>надуть жирные щёки, надуться (о толстощёком);</target>
+		</ex>
+		<ex>
+		    <source>уурттарын чулчуйтуп, кеп айталбай, башын ийкей берген</source>
+		    <target>надувшись, он не мог слова сказать, (только) кивал головой (в знак согласия, одобрения);</target>
+		</ex>
+		<ex>
+		   <source>уурт тартмай <i>или</i> ууртка тартмай</source>
+		   <target>детская игра: надувают щеку и щёлкают по ней пальцем.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уурта-</k>
-		<blockquote>хлебать, глотать;</blockquote>
+		<pos>v<p/
+		<trn>хлебать, глотать;</trn>
 		<ex>
 			<source>уяты жоктун колуна кашык тийсе, беш ууртайт погов.</source>
 			<target>если дурному попадёт в руки ложка, он пять раз хлебнёт (в старом быту чашка с жидкой пищей и ложка шли по кругу; каждый, хлебнув раз-два, передавал другому);</target>
@@ -10786,118 +11167,193 @@
 			<source>күндө келген күл ууртайт, айда келген май ууртайт погов.</source>
 			<target>кто каждый день приходит, золу глотает, кто в месяц раз приходит, жир глотает;</target>
 		</ex>
-		<blockquote>кан уурта- убить (букв. хлебать кровь; от древнего обычая хлебнуть крови убитого врага);</blockquote>
-		<blockquote>кан ууртай элегиңде кайра бур! поворачивай обратно, пока тебя не убили!;</blockquote>
-		<blockquote>каныңды ууртабасам! не я буду, если не убью тебя!;</blockquote>
-		<blockquote>туз ууртагандай ичи ачышты его задело за живое (букв. у него нутро защипало, будто он соли проглотил).</blockquote>
+		<collocation>
+		    <k>кан уурта-</k>
+		    <trn>убить (букв. хлебать кровь; от древнего обычая хлебнуть крови убитого врага);</trn>
+		</collocation>
+		<ex>
+		    <source>кан ууртай элегиңде кайра бур!</source>
+		    <target>поворачивай обратно, пока тебя не убили!;</target>
+		</ex>
+		<ex>
+		    <source>каныңды ууртабасам!</source>
+		    <target>не я буду, если не убью тебя!;</target>
+		</ex>
+		<ex>
+		    <source>туз ууртагандай ичи ачышты</source>
+		    <target>его задело за живое (букв. у него нутро защипало, будто он соли проглотил).</target>
+		</ex>
 	</card>
 	<card>
 		<k>ууртал-</k>
+		<pos>inf</pos>
 		<pass word="уурта"/>
 	</card>
 	<card>
 		<k>ууртам</k>
-		<blockquote>глоток.</blockquote>
+		<pos>n</pos>
+		<trn>глоток.</trn>
 	</card>
 	<card>
 		<k>ууртат-</k>
+		<pos>inf</pos>
 		<caus word="уурта"/>
-		<blockquote>заставить хлебать, заставить глотать.</blockquote>
+		<trn>заставить хлебать, заставить глотать.</trn>
 	</card>
 	<card>
 		<k>ууртаттыр-</k>
+		<pos>inf</pos>
 		<caus word="ууртат"/>
-		<blockquote>үч кашык суу ууртаттырды он велел дать хлебнуть три ложки воды.</blockquote>
+		<ex>
+		    <source>үч кашык суу ууртаттырды</source>
+		    <target>он велел дать хлебнуть три ложки воды.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ууртоо</k>
 		<actionNoun word="уурта"/>
-		<blockquote>хлебание, глотание.</blockquote>
+		<trn>хлебание, глотание.</trn>
 	</card>
 	<card>
 		<k>ууртта-</k>
-		<blockquote>взять за щеку.</blockquote>
+		<pos>v</pos>
+		<trn>взять за щеку.</trn>
 	</card>
 	<card>
 		<k>ууру</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>вор;</blockquote>
+			<trn>вор;</trn>
 			<ex>
 				<source>уурусу күчтүү (или күч) болсо, ээси өлөт или уурусу күч болсо, ээсин коркутат погов.</source>
 				<target>если вор силён, то хозяин погибает или если вор силён, он хозяина пугает;</target>
 			</ex>
-			<blockquote>ууру алып кетиптир вор утащил;</blockquote>
-			<blockquote>ууру басып, үйгө кирген он вошёл в дом крадучись;</blockquote>
-			<blockquote>ууру тут- считать вором; подозревать в воровстве;</blockquote>
-			<blockquote>ууруларча воровски, тайно, крадучись;</blockquote>
-			<blockquote>ууру-төгүн всякие такие воры, воры-плуты;</blockquote>
+			<ex>
+			    <source>ууру алып кетиптир</source>
+			    <target>вор утащил;</target>
+			</ex>
+			<ex>
+			    <source>ууру басып, үйгө кирген</source>
+			    <target>он вошёл в дом крадучись;</target>
+			</ex>
+			<ex>
+			    <source>ууру тут-</source>
+			    <target>считать вором; подозревать в воровстве;</target>
+			</ex>
+			<ex>
+			    <source>ууруларча</source>
+			    <target>воровски, тайно, крадучись;</target>
+		   </ex>
+		   <collocation>
+			    <k>ууру-төгүн</k>
+			    <trn>всякие такие воры, воры-плуты;</trn>
+			</collocation>
 		</meaning>
 		<meaning>
-			<blockquote>воровство;</blockquote>
-			<blockquote>ууру кыл- воровать;</blockquote>
+			<trn>воровство;</trn>
+			<ex>
+			    <source>ууру кыл-</source>
+			    <target>воровать;</target>
+			</ex>
 			<ex>
 				<source>көрбөйт деп, ууру кылба погов.</source>
 				<target>не воруй, полагая, что не увидят;</target>
 			</ex>
-			<blockquote>жулук ууру см. жулук;</blockquote>
-			<blockquote>түндүктөн түшмө ууру опытный и крупный вор.</blockquote>
+			<look word="жулук"/>
+			<ex>
+			    <source>түндүктөн түшмө ууру</source>
+			    <target>опытный и крупный вор.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>уурулук</k>
-		<blockquote>воровство;</blockquote>
-		<blockquote>он беш жашынан баштап жулук уурулукка өтүп начав в пятнадцать лет с мелкого воровства.</blockquote>
+		<pos>n</pos>
+		<trn>воровство;</trn>
+		<ex>
+		    <source>он беш жашынан баштап жулук уурулукка өтүп</source>
+		    <target>начав в пятнадцать лет с мелкого воровства.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уурусунт-</k>
+		<pos>v</pos>
 		<similative word="ууру"/>
 		<blockquote>считать вором, принимать за вора, относиться как к вору.</blockquote>
 	</card>
 	<card>
 		<k>ууч</k>
-		<blockquote>горсть; пригоршня; перен. горсточка, небольшая кучка (напр. людей);</blockquote>
-		<blockquote>кош ууч (или кошууч или кочууш) пригоршня (букв. две горсти).</blockquote>
+		<pos>n</pos>
+		<trn>горсть; пригоршня; перен. горсточка, небольшая кучка (напр. людей);</trn>
+		<ex>
+		    <source>кош ууч (<i>или</i> кошууч <i>или</i> кочууш)</source>
+		    <target>пригоршня (букв. две горсти).</target>
+		</ex>
 	</card>
 	<card>
 		<k>уучта-</k>
-		<blockquote>брать горстью, брать в горсть;</blockquote>
-		<blockquote>уучтап келип, топурак салып жатышты они брали по горсти земли и бросали в могилу (отдавая последний долг);</blockquote>
-		<blockquote>кош уучтап (или кошуучтап или кочууштап) пригоршней, пригоршнями;</blockquote>
+		<pos>v</pos>
+		<trn>брать горстью, брать в горсть;</trn>
+		<ex>
+		    <source>уучтап келип, топурак салып жатышты</source>
+		    <target>они брали по горсти земли и бросали в могилу (отдавая последний долг);</target>
+		</ex>
+		<ex>
+		    <source>кош уучтап (<i>или</i> кошуучтап <i>или</i> кочууштап)</source>
+		    <target>пригоршней, пригоршнями;</target>
+		</ex>
 		<ex>
 			<source>капка батпай калганын, кочууштап, уучтап алышып, куржунуна салышып фольк.</source>
 			<target>то, что не вмещалось в мешки, они брали пригоршнями, горстями и клали в перемётные сумы;</target>
 		</ex>
-		<blockquote>кочууштап ич- пить из пригоршни.</blockquote>
+		<ex>
+		    <source>кочууштап ич-</source>
+		    <target>пить из пригоршни.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уучташ-</k>
+		<pos>v</pos>
 		<recv word="уучта"/>
-		<blockquote>кол уучташып беря попеременно пятерню друг друга в свою горсть;</blockquote>
-		<blockquote>узун жендердии ичинде кол уучташып экөө тымызын сүйлөшөт (базарные маклеры) в длинных рукавах держат попеременно пятерню друг друга (и тайно от покупателя, продавца и посторонних договариваются о цене).</blockquote>
+		<collocation>
+		     <k>кол уучташып</k>
+		     <trn>беря попеременно пятерню друг друга в свою горсть;</trn>
+		 </collocation>
+		 <ex>
+		     <source>узун жендердии ичинде кол уучташып экөө тымызын сүйлөшөт</source>
+		     <target>(базарные маклеры) в длинных рукавах держат попеременно пятерню друг друга (и тайно от покупателя, продавца и посторонних договариваются о цене).</target>
 	</card>
 	<card>
 		<k>уучу</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>охотник;</blockquote>
+			<trn>охотник;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>охотник с сетями на птиц.</blockquote>
+			<trn>охотник с сетями на птиц.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>уучулук</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>охота;</blockquote>
-			<blockquote>уучулук - акмакчылык охота пуще неволи (букв. охота - дурость);</blockquote>
+			<trn>охота;</trn>
+			<ex>
+			    <source>уучулук - акмакчылык</source>
+			    <target>охота пуще неволи (букв. охота - дурость);</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>охотничий промысел.</blockquote>
+			<trn>охотничий промысел.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>үүш</k>
 		<sameas word="үш" index="1"/>
-		<blockquote>элдин жүрөгүнүн үүшүн алган он запугал народ.</blockquote>
+		<ex>
+		    <source>элдин жүрөгүнүн үүшүн алган</source>
+		    <target>он запугал народ.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уушта-</k>
@@ -10905,13 +11361,17 @@
 	</card>
 	<card>
 		<k>үф!</k>
-		<blockquote>(ф гортанно-губной, произносится с призвуком ш);</blockquote>
+		<pos>ideo</pos>
+		<trn>(ф гортанно-губной, произносится с призвуком ш);</trn>
 		<meaning>
-			<blockquote>у-ух!, ох! (тяжёлый, горестный вздох);</blockquote>
-			<blockquote>"үф" де- дунуть (ртом);</blockquote>
+			<trn>у-ух!, ох! (тяжёлый, горестный вздох);</trn>
+			<ex>
+			    <source>"үф" де-</source>
+			    <target>дунуть (ртом);</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>возглас дервишей во время радения;</blockquote>
+			<trn>возглас дервишей во время радения;</trn>
 			<ex>
 				<source>курулган күндө алкаңыз, таң атканча үф! деген фольк.</source>
 				<target>у вас радения устраивались каждый день и до утра произносилось "үф!".</target>
@@ -10920,172 +11380,394 @@
 	</card>
 	<card>
 		<k>үфүлө-</k>
-		<blockquote>үфүлө-: баланы үфү-үфүлөп өстүр- воспитывать ребёнка в излишней неге.</blockquote>
+		<pos>v</pos>
+		<ex>
+		    <source>баланы үфү-үфүлөп өстүр-</source>
+		    <target>воспитывать ребёнка в излишней неге.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уч</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
-				<blockquote>конец, остриё;</blockquote>
-				<blockquote>таяктын учу острый конец палки;</blockquote>
-				<blockquote>найзанын учу остриё копья;</blockquote>
+				<trn>конец, остриё;</trn>
+				<ex>
+				   <source>таяктын учу</source>
+				   <target>острый конец палки;</target>
+				</ex>
+				<ex>
+				    <source>найзанын учу</source>
+				    <target>остриё копья;</target>
+				</ex>
 				<ex>
 					<source>найза учунда турасың фольк.</source>
 					<target>тебя вот-вот прикончат;</target>
 				</ex>
-				<blockquote>кулактын учу мочка уха;</blockquote>
-				<blockquote>калем уч перо (для письма);</blockquote>
+				<ex>
+				   <source>кулактын учу</source>
+				   <target>мочка уха;</target>
+				</ex>
+				<ex>
+				    <source>калем уч</source>
+				    <target>перо (для письма);</target>
+				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>редко, то же, что учук II 1;</blockquote>
-				<blockquote>учуң узарып, уругуң көбөйсүн! желаю, чтоб род твой продолжался и множился!;</blockquote>
-				<blockquote>учу узарып, көктөп өссүн! пусть род его продолжится и благоденствует!;</blockquote>
-				<blockquote>ооз учунан жооп кайтарды он ответил только для видимости;</blockquote>
-				<blockquote>ооз учунан айт- сказать, чтобы только отделаться;</blockquote>
-				<blockquote>көз учунан беглым взглядом;</blockquote>
-				<blockquote>учуна жет- исчерпать;</blockquote>
-				<blockquote>бул өңдүү фактыларды көрсөтүп, учуна жетүү кыйын, эң көп исчерпать подобные факты очень трудно, их много;</blockquote>
-				<blockquote>кептин учуна чык-</blockquote>
-				<blockquote>1) закончить свою речь;</blockquote>
-				<blockquote>2) сдержать своё слово, исполнить своё обещание;</blockquote>
-				<blockquote>кептин учуна чыкпады</blockquote>
-				<blockquote>1) он не закончил свою речь;</blockquote>
-				<blockquote>2) он не сдержал своего слова, не выполнил обещания;</blockquote>
-				<blockquote>атасынан калган малдын учуна чыкты он промотал скот, оставшийся от отца;</blockquote>
-				<blockquote>сары убайымдын учуна чыга албай келе жатат он никак не может отделаться от горестных мыслей;</blockquote>
-				<blockquote>окуянын учу-кыйрына жете албады он не мог глубоко, до конца разобраться в событиях;</blockquote>
-				<blockquote>ант учуна чыкты он нарушил клятву от начала до конца;</blockquote>
-				<blockquote>көздүн учунда вдали, куда едва глаз достаёт;</blockquote>
-				<blockquote>тилимдин эле учунда турат вертится вот на языке;</blockquote>
-				<blockquote>жең учу менен суйлөш- (о маклерах на базаре) договариваться о цене, держа другого за руку в рукаве и отсчитывая по пальцам (см. уучташ-, жең I);</blockquote>
-				<blockquote>учу-кыйыры жок бескрайний, необъятный;</blockquote>
-				<blockquote>учу-кыйрына көз жетпеген улуу Родинабыз наша необъятная великая Родина;</blockquote>
-				<blockquote>эл учу-түбү чогулган собрался весь народ от мала до велика;</blockquote>
-				<blockquote>калемдин учу менен росчерком пера.</blockquote>
+				<trn>редко, то же, что учук II 1;</trn>
+				<ex>
+				    <source>учуң узарып, уругуң көбөйсүн!</source>
+				    <target>желаю, чтоб род твой продолжался и множился!;</target>
+				</ex>
+				<ex>
+				    <source>учу узарып, көктөп өссүн!</source>
+				    <target>пусть род его продолжится и благоденствует!;</target>
+				</ex>
+				<ex>
+				    <source>ооз учунан жооп кайтарды</source>
+				    <target>он ответил только для видимости;</target>
+				</ex>
+				<ex>
+				    <source>ооз учунан айт-</source>
+				    <target>сказать, чтобы только отделаться;</target>
+				</ex>
+				<collocation>
+				    <k>көз учунан</k>
+				    <trn>беглым взглядом;</trn>
+				</collocation>
+				<collocation>
+				    <k>учуна жет-</k>
+				    <trn>исчерпать;</trn>
+				</collocation>
+				<ex>
+				    <source>бул өңдүү фактыларды көрсөтүп, учуна жетүү кыйын, эң көп</source>
+				    <target>исчерпать подобные факты очень трудно, их много;</target>
+				</ex>
+				<ex>
+				    <source>кептин учуна чык-</source>
+				    <target>1) закончить свою речь;</target>
+				    <target>2) сдержать своё слово, исполнить своё обещание;</target>
+				</ex>
+				<ex>
+				    <source>кептин учуна чыкпады</source>
+				    <target>1) он не закончил свою речь;</target>
+				    <target>2) он не сдержал своего слова, не выполнил обещания;</target>
+				</ex>
+				<ex>
+				    <source>атасынан калган малдын учуна чыкты</source>
+				    <target>он промотал скот, оставшийся от отца;</target>
+				</ex>
+				<ex>
+				     <source>сары убайымдын учуна чыга албай келе жатат</source>
+				     <target>он никак не может отделаться от горестных мыслей;</target>
+		    	</ex>
+		    	<ex>
+				    <source>окуянын учу-кыйрына жете албады</source>
+				    <target>он не мог глубоко, до конца разобраться в событиях;</target>
+				</ex>
+				<ex>
+				    <source>ант учуна чыкты</source>
+				    <target>он нарушил клятву от начала до конца;</target>
+				</ex>
+				<collocation>
+				    <k>көздүн учунда</k>
+				    <trn>вдали, куда едва глаз достаёт;</trn>
+				</collocation>
+				<collocation>
+				     <k>тилимдин эле учунда турат</k>
+				     <trn>вертится вот на языке;</trn>
+				 </collocation>
+				 <ex>
+				      <source>жең учу менен суйлөш-</source>
+				      <target>(о маклерах на базаре) договариваться о цене, держа другого за руку в рукаве и отсчитывая по пальцам (<look word="уучташ,жең" index="I"/>);</target>
+				  </ex>
+				  <collocation>
+				       <k>учу-кыйыры жок</k>
+				       <trn>бескрайний, необъятный;</trn>
+				   </collocation>
+				   <ex>
+				       <source>учу-кыйрына көз жетпеген улуу Родинабыз</source>
+				       <target>наша необъятная великая Родина;</target>
+				   </ex>
+				   <ex>
+				        <source>эл учу-түбү чогулган</source>
+				        <target>собрался весь народ от мала до велика;</target>
+				    </ex>
+				    <ex>
+				         <source>калемдин учу</source>
+				         <target>менен росчерком пера.</target>
+				     </ex>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>уч II:</blockquote>
-			<blockquote>эс-учу жок см. эс I.</blockquote>
+		    <k>эс-учу жок</k> <look word="эс" index="I"/>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>летать, лететь;</blockquote>
-				<blockquote>учуп кел- прилететь;</blockquote>
-				<blockquote>учуп кет- улететь;</blockquote>
-				<blockquote>асмандап уч- или оболоп уч- летать высоко;</blockquote>
-				<blockquote>дайрып уч- взмыть;</blockquote>
-				<blockquote>калкып уч- парить плавно;</blockquote>
-				<blockquote>кайпып уч- лететь бреющим полётом;</blockquote>
+				<trn>летать, лететь;</trn>
+				<ex>
+				    <source>учуп кел-</source>
+				    <target>прилететь;</target>
+				</ex>
+				<ex>
+				    <source>учуп кет-</source>
+				    <target>улететь;</target>
+				</ex>
+				<ex>
+				     <source>асмандап уч- <i>или</i> оболоп уч-</source>
+				     <target>летать высоко;</target>
+				 </ex>
+				 <ex>
+				     <source>дайрып уч-</source>
+				     <target>взмыть;</target>
+				 </ex>
+				 <ex>
+				     <source>калкып уч-</source>
+				     <target>парить плавно;</target>
+				 </ex>
+				 <ex>
+				     <source>кайпып уч-</source>
+				     <target>лететь бреющим полётом;</target>
+				 </ex>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>(только о детях) умереть;</blockquote>
-				<blockquote>учуп кетти (ребёнок) умер;</blockquote>
+				<trn>(только о детях) умереть;</trn>
+				<ex>
+				    <source>учуп кетти</source>
+				    <target>(ребёнок) умер;</target>
+				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>стираться, выцветать (о красках); сохнуть, желтеть, жухнуть (о растениях);</blockquote>
-				<blockquote>боёк учуп, жок болуп калды краски (от времени) стёрлись;</blockquote>
-				<blockquote>чөп учуп кетти трава (при внезапной засухе, при суховее) посохла;</blockquote>
-				<blockquote>тоодон уч- свалиться с горы;</blockquote>
-				<blockquote>окко уч- быть застреленным; погибнуть от стрелы, от пули;</blockquote>
-				<blockquote>алып учкан кыял пылкое воображение;</blockquote>
-				<blockquote>көздөн уч- быть предметом большого желания;</blockquote>
-				<blockquote>көзүнөн акча учуп калды он очень нуждается в деньгах;</blockquote>
-				<blockquote>жакын туугандан көзү учуп, жалгызсырап жүрөт он чувствует себя одиноким, тоскуя по близким родственникам;</blockquote>
-				<blockquote>учуп-күйүп стремительно, энергично;</blockquote>
-				<blockquote>учуп кал- слететь (с места, с должности).</blockquote>
+				<trn>стираться, выцветать (о красках); сохнуть, желтеть, жухнуть (о растениях);</trn>
+				<ex>
+				    <source>боёк учуп, жок болуп калды</source>
+				    <target>краски (от времени) стёрлись;</target>
+				</ex>
+				<ex>
+				    <source>чөп учуп кетти</source>
+				    <target>трава (при внезапной засухе, при суховее) посохла;</target>
+				</ex>
+				<ex>
+				    <source>тоодон уч-</source>
+				    <target>свалиться с горы;</target>
+				 </ex>
+				 <ex>
+				     <source>окко уч-</source>
+				     <target>быть застреленным; погибнуть от стрелы, от пули;</target>
+				 </ex>
+				 <ex>
+				     <source>алып учкан кыял</source>
+				     <target>пылкое воображение;</target>
+				 </ex>
+				 <ex>
+				     <source>көздөн уч-</source>
+				     <target>быть предметом большого желания;</target>
+				 </ex>
+				 <ex>
+				     <source>көзүнөн акча учуп калды</source>
+				     <target>он очень нуждается в деньгах;</target>
+				 </ex>
+				 <ex>
+				     <source>жакын туугандан көзү учуп, жалгызсырап жүрөт</source>
+				     <target>он чувствует себя одиноким, тоскуя по близким родственникам;</target>
+				 </ex>
+				 <collocation>
+				     <k>учуп-күйүп</k>
+				     <trn>стремительно, энергично;</trn>
+				 </collocation>
+				 <ex>
+				     <source>учуп кал-</source>
+				    <target>слететь (с места, с должности).</target>
+				</ex>
 			</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>үч</k>
+		<pos>num</pos>
 		<homonym>
-			<blockquote>три;</blockquote>
-			<blockquote>үч сом три рубля;</blockquote>
-			<blockquote>үч жылдык</blockquote>
-			<blockquote>1) трёхлетний;</blockquote>
-			<blockquote>үч жылдык план трёхлетний план;</blockquote>
-			<blockquote>2) трёхлетие;</blockquote>
-			<blockquote>үчтөн бир одна треть;</blockquote>
-			<blockquote>үч айлык трёхмесячный;</blockquote>
-			<blockquote>үч буту бар, аксабайт загадка три ноги у него, а не хромает (отгадка тулга треног);</blockquote>
-			<blockquote>үч кошкон (в произношении үчкошкон) центр чего-л., где встречаются люди (районный центр, сельсовет, квартира, где могут многие встречаться и т.п.;раньше таким местом являлся базар);</blockquote>
-			<blockquote>чон базардын үч кошкону центр большого базара;</blockquote>
-			<blockquote>үч баш название вышивного орнамента;</blockquote>
-			<blockquote>үчтүн айы см. ай I 2.</blockquote>
+			<trn>три;</trn>
+			<ex>
+			    <source>үч сом</source>
+			    <target>три рубля;</target>
+			</ex>
+			<ex>
+			    <source>үч жылдык</source>
+			    <target>1) трёхлетний;</target>
+			</ex>
+			<ex>
+			    <source>үч жылдык план</source>
+			    <target>трёхлетний план;</target>
+			</ex>
+			<trn>2) трёхлетие;<trn/>
+			<ex>
+			    <source>үчтөн бир</source>
+			    <target>одна треть;</target>
+			</ex>
+			<ex>
+			    <source>үч айлык</source>
+			    <target>трёхмесячный;</target>
+			</ex>
+			<ex>
+			    <source>үч буту бар, аксабайт</source>
+			    <target>загадка три ноги у него, а не хромает (отгадка тулга треног);</target>
+			</ex>
+			<ex>
+			     <source>үч кошкон (в произношении үчкошкон)</source>
+			     <target>центр чего-л., где встречаются люди (районный центр, сельсовет, квартира, где могут многие встречаться и т.п.;раньше таким местом являлся базар);</target>
+			 </ex>
+			 <ex>
+			      <source>чон базардын үч кошкону</source>
+			      <target>центр большого базара;</target>
+			  </ex>
+			  <ex>
+			      <source>үч баш</source>
+			      <target>название вышивного орнамента;</target>
+			  </ex>
+			  <collocation>
+		       	  <k>үчтүн айы <look word="ай" index="I2"/>.</k>
+		       	</collocation>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>(при игре в ордо и при детских играх в альчики) пять;</blockquote>
-				<blockquote>бирдин үчү пять (альчиков);</blockquote>
-				<blockquote>бирдин үчү бир шесть (альчиков);</blockquote>
-				<blockquote>бирдин үчү эки семь (альчиков);</blockquote>
-				<blockquote>экинин үчү десять (альчиков);</blockquote>
-				<blockquote>экинин үчү төрт четырнадцать (альчиков);</blockquote>
-				<blockquote>бештин үчү двадцать пять (альчиков);</blockquote>
-				<blockquote>кырктын үчү (в произношении кырктын үчү) чүкө двести альчиков;</blockquote>
-				<blockquote>2.: бирдин үчү несколько, небольшое число; два-три, три-четыре, пять-шесть;</blockquote>
-				<blockquote>анын чакан үйүнүн төрүндө бирдин үчү болуп олтурушкан кишилер в его маленькой юрте на почётном месте сидели несколько (немного) человек;</blockquote>
-				<blockquote>бирдин үчү эле малы бар у него немного скота (три-четыре, пять-шесть голов).</blockquote>
+				<trn>(при игре в ордо и при детских играх в альчики) пять;</trn>
+				<ex>
+				    <source>бирдин үчү</source>
+				    <target>пять (альчиков);</target>
+				</ex>
+				<ex>
+				    <source>бирдин үчү бир</source>
+				    <target>шесть (альчиков);</target>
+				</ex>
+				<ex>
+				    <source>бирдин үчү эки</source>
+				    <target>семь (альчиков);</target>
+				</ex>
+				<ex>
+				    <source>экинин үчү</source>
+				    <target>десять (альчиков);</target>
+				</ex>
+				<ex>
+				    <source>экинин үчү төрт</source>
+				    <target>четырнадцать (альчиков);</target>
+				</ex>
+				<ex>
+				   <source>бештин үчү</source>
+				   <target>двадцать пять (альчиков);</target>
+				</ex>
+				<ex>
+				   <source>кырктын үчү (в произношении кырктын үчү) чүкө</source>
+				   <target>двести альчиков;</target>
+				</ex>
+				<ex>
+				    <source>2.: бирдин үчү</source>
+				    <target>несколько, небольшое число; два-три, три-четыре, пять-шесть;</target>
+				</ex>
+				<ex>
+				    <source>анын чакан үйүнүн төрүндө бирдин үчү болуп олтурушкан кишилер</source>
+				    <target>в его маленькой юрте на почётном месте сидели несколько (немного) человек;</target>
+				</ex>
+				<ex>
+				    <source>бирдин үчү эле малы бар</source>
+				    <target>у него немного скота (три-четыре, пять-шесть голов).</target>
+				</ex>
 			</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>уча</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>крестец, задок;</blockquote>
-			<blockquote>курсагы учасынын тышында, куйругу кулагынын учунда загадка брюхо его поверх крестца, хвост его на концах ушей (отгадка комуз);</blockquote>
+			<trn>крестец, задок;</trn>
+			<ex>
+			    <source>курсагы учасынын тышында, куйругу кулагынын учунда загадка</source>
+			    <target>брюхо его поверх крестца, хвост его на концах ушей (отгадка комуз);</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<meta>сев.</meta>
-			<blockquote>почечная часть конской туши; южн. (местами) почечная часть овечьей или козьей туши;</blockquote>
-			<blockquote>учаны, кадырлув деп, эркектерге, дөштү аялдарга беревиз южн. почечную часть, считая лучшей (букв. почётной), подаём мужчинам, грудинку - женщинам;</blockquote>
+			<trn>почечная часть конской туши; южн. (местами) почечная часть овечьей или козьей туши;</trn>
+			<ex>
+			    <source>учаны, кадырлув деп, эркектерге, дөштү аялдарга беревиз южн.</source>
+			    <target>почечную часть, считая лучшей (букв. почётной), подаём мужчинам, грудинку - женщинам;</target>
+			</ex>
 			<ex>
 				<source>бейли жакшы кең болсо, майы калың учадай стих.</source>
 				<target>(хозяйка) с добрым нравом и щедрая подобна жирной почечной части (конской туши);</target>
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>спинка (пальто, пиджака);</blockquote>
-			<blockquote>кудай учаңан ургур! проклятие порази тебя бог в крестец!</blockquote>
+			<trn>спинка (пальто, пиджака);</trn>
+			<ex>
+			    <source>кудай учаңан ургур!</source>
+			    <target>проклятие порази тебя бог в крестец!</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>үчала</k>
-		<blockquote>белый беркут (редко встречающаяся порода).</blockquote>
+		<pos>n</pos>
+		<trn>белый беркут (редко встречающаяся порода).</trn>
 	</card>
 	<card>
 		<k>учан</k>
-		<blockquote>учан: учан теңиз много; многочисленный;</blockquote>
-		<blockquote>учан теңиз эл или учан теңиз журт многочисленный народ;</blockquote>
-		<blockquote>учан теңиз уят неслыханный позор.</blockquote>
+		<pos>adj</pos>
+		<collocation>
+		     <k>учан теңиз</k>
+		     <trn>много; многочисленный;</trn>
+		 </collocation>
+		 <ex>
+		     <source>учан теңиз эл или учан теңиз журт</source>
+		     <target>многочисленный народ;</target>
+		 </ex>
+		 <ex>
+		    <source>учан теңиз уят</source>
+		    <target>неслыханный позор.</target>
+		</ex>
 	</card>
 	<card>
 		<k>учаска,</k>
-		<blockquote>учаска, учаске</blockquote>
+		<pos>n</pos>
+		<trn>учаска, учаске</trn>
 		<meta>разг.</meta>
 		<sameas word="участок"/>
-		<blockquote>агрономдук учаска агроучасток;</blockquote>
-		<blockquote>шайлоо учаскасы избирательный участок.</blockquote>
+		<ex>
+		    <source>агрономдук учаска</source>
+		    <target>агроучасток;</target>
+		</ex>
+		<ex>
+		   <source>шайлоо учаскасы</source>
+		   <target>избирательный участок.</target>
+		</ex>
 	</card>
 	<card>
 		<k>учаскалык</k>
-		<blockquote>(участкалык)</blockquote>
+		<pos>adg</pos>
+		<k>(участкалык)</k>
 		<sameas word="участоктуу"/>
-		<blockquote>учаскалык инспектор участковый инспектор;</blockquote>
-		<blockquote>участкалык милиционер участковый милиционер.</blockquote>
+		<ex>
+		    <source>учаскалык инспектор</source>
+		    <target>участковый инспектор;</target>
+		</ex>
+        <ex>
+		    <source>участкалык милиционер</source>
+		    <target>участковый милиционер.</target>
+		</ex>
 	</card>
 	<card>
 		<k>учаске</k>
+		<pos>n</pos>
 		<look word="учаска"/>
 	</card>
 	<card>
 		<k>участкалык</k>
+		<pos>adj</pos>
 		<look word="учаскалык"/>
 	</card>
 	<card>
 		<k>участкобой</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meaning>
 			<meta>разг.</meta>
@@ -11093,18 +11775,23 @@
 		</meaning>
 		<meaning>
 			<meta>ист.</meta>
-			<blockquote>участковый пристав (ведал делами сельского и кочевого населения).</blockquote>
+			<trn>участковый пристав (ведал делами сельского и кочевого населения).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>участковый</k>
-		<blockquote>участковый милиционер.</blockquote>
+		<pos>n</pos>
+		<trn>участковый милиционер.</trn>
 	</card>
 	<card>
 		<k>участок</k>
+		<pos>n</pos>
 		<meta>в разн. знач.</meta>
 		<trn>участок</trn>
-		<blockquote>белгиленген участоктор намеченные участки.</blockquote>
+		<ex>
+		   <source>белгиленген участоктор</source>
+		   <target>намеченные участки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>участоктук</k>
