@@ -12725,13 +12725,15 @@
 	</card>
 	<card>
 		<k>учуучу</k>
-		<blockquote>летающий; лётчик.</blockquote>
+		<pos>n</pos>
+		<trn>летающий; лётчик.</trn>
 	</card>
 	<card>
 		<k>учуш</k>
+		<pos>n</pos>
 		<homonym>
 			<actionNoun word="уч" index="3"/>
-			<blockquote>летание, полёт.</blockquote>
+			<trn>летание, полёт.</trn>
 		</homonym>
 		<homonym>
 			<recv word="уч" index="3"/>
@@ -12739,116 +12741,146 @@
 	</card>
 	<card>
 		<k>уччул</k>
+		<pos>adj</pos>
 		<meta>лингв.</meta>
-		<blockquote>переднеязычный (согласный звук);</blockquote>
-		<blockquote>уччулдар переднеязычные (согласные).</blockquote>
+		<trn>переднеязычный (согласный звук);</trn>
+		<blockquote>уччулдар@@ переднеязычные (согласные).</blockquote>
 	</card>
 	<card>
 		<k>үчөлөсү</k>
+		<pos>adv</pos>
 		<meta>южн.</meta>
-		<blockquote>они все трое;</blockquote>
-		<blockquote>үчэлэси йэм жөнөдүлөр они все трое отправились, отбыли.</blockquote>
+		<trn>они все трое;</trn>
+		<blockquote>үчэлэси йэм жөнөдүлөр@@ они все трое отправились, отбыли.</blockquote>
 	</card>
 	<card>
 		<k>үчөчкө</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="участок"/>
 	</card>
 	<card>
 		<k>үчөчкөбөй</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>ист.</meta>
 		<meta>разг.</meta>
-		<blockquote>участковый (пристав).</blockquote>
+		<trn>участковый (пристав).</trn>
 	</card>
 	<card>
 		<k>үчөчкөлүк</k>
+		<pos>adj</pos>
 		<meta>разг.</meta>
 		<sameas word="участоктук"/>
 	</card>
 	<card>
 		<k>үчөө</k>
-		<blockquote>трое, все трое;</blockquote>
-		<blockquote>үчөөбүз мы трое, мы все трое;</blockquote>
-		<blockquote>учөөңөр вы трое, вы все трое.</blockquote>
+		<pos>num</pos>
+		<trn>трое, все трое;</trn>
+		<blockquote>үчөөбүз@@ мы трое, мы все трое;</blockquote>
+		<blockquote>учөөңөр@@ вы трое, вы все трое.</blockquote>
 	</card>
 	<card>
 		<k>үчөөлө-</k>
-		<blockquote>үчөөлө-: үчөөлөп втроём;</blockquote>
-		<blockquote>эликтин терисин үчөөлөп сыйрып жатышканда когда они втроём снимали шкуру с косули.</blockquote>
+		<pos>adv</pos>
+		<meta>үчөөлө-: үчөөлөп</meta>
+		<trn>втроём;</trn>
+		<blockquote>эликтин терисин үчөөлөп сыйрып жатышканда@@ когда они втроём снимали шкуру с косули.</blockquote>
 	</card>
 	<card>
 		<k>үш</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
-			<blockquote>сознание; чувства;</blockquote>
-			<blockquote>үшү жок он без чувств, без сознания, в бессознательном состоянии;</blockquote>
-			<blockquote>үшүнө келди он пришёл в чувство; он успокоился;</blockquote>
-			<blockquote>үшүн кетир- или жүрөктүн үшүн ал- запугать до потери сознания;</blockquote>
-			<ex>
-				<source>коркутуп айтып Карагул, Коңурдун үшүн алган го фольк.</source>
-				<target>Карагул, пугая словами, довёл ведь Конгура до растерянности;</target>
-			</ex>
-			<blockquote>жүрөгүнүн үшүн алуу запугивание кого-л.;</blockquote>
-			<blockquote>үшү кетти он совершенно растерялся;</blockquote>
-			<ex>
-				<source>үшүм кетип, мен турам, үмүт үзүп жандан - деп фольк.</source>
-				<target>я стою, совершенно растерявшись и потеряв надежду на жизнь (думая, что мне пришёл конец);</target>
-			</ex>
-			<blockquote>үшүнө келтир- привести в чувство;</blockquote>
-			<blockquote>үш болсун деп для устрашения.</blockquote>
+			<trn>сознание; чувства;</trn>
+			<blockquote>үшү жок@@ он без чувств, без сознания, в бессознательном состоянии;</blockquote>
+			<blockquote>үшүнө келди@@ он пришёл в чувство; он успокоился;</blockquote>
+			<collocation>
+				<k>үшүн кетир-</k>
+				<meta><i>или</i> жүрөктүн үшүн ал-</meta>
+				<trn>запугать до потери сознания;</trn>
+				<ex>
+					<source>коркутуп айтып Карагул, Коңурдун үшүн алган го фольк.</source>
+					<target>Карагул, пугая словами, довёл ведь Конгура до растерянности;</target>
+				</ex>
+				<blockquote>жүрөгүнүн үшүн алуу@@ запугивание кого-л.;</blockquote>
+				<blockquote>үшү кетти@@ он совершенно растерялся;</blockquote>
+				<ex>
+					<source>үшүм кетип, мен турам, үмүт үзүп жандан - деп фольк.</source>
+					<target>я стою, совершенно растерявшись и потеряв надежду на жизнь (думая, что мне пришёл конец);</target>
+				</ex>
+			</collocation>
+			<blockquote>үшүнө келтир-@@ привести в чувство;</blockquote>
+			<blockquote>үш болсун деп@@ для устрашения.</blockquote>
 		</homonym>
 		<homonym>
 			<sameas word="үф" subindex="1"/>
-			<blockquote>ал "үш" деп үшкүрүп, "быш" деп бышкырып койбойт он не ахнет и не фыркнет (о человеке, который легко справляется с физической работой).</blockquote>
+			<blockquote>ал "үш" деп үшкүрүп, "быш" деп бышкырып койбойт@@ он не ахнет и не фыркнет (о человеке, который легко справляется с физической работой).</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>ушаа</k>
+		<pos>pr</pos>
 		<look word="ушул"/>
 	</card>
 	<card>
 		<k>ушак</k>
+		<pos>adj</pos>
 		<homonym>
-			<blockquote>мелкий (не крупный);</blockquote>
-			<blockquote>ушак кой мелкие овцы;</blockquote>
-			<blockquote>балдары ушак у него детишки маленькие;</blockquote>
-			<blockquote>улан-ушак см. улан I.</blockquote>
+			<trn>мелкий (не крупный);</trn>
+			<blockquote>ушак кой@@ мелкие овцы;</blockquote>
+			<blockquote>балдары ушак@@ у него детишки маленькие;</blockquote>
+			<collocation>
+				<k>улан-ушак</k>
+				<look word="улан"/>
+			</collocation>
 		</homonym>
 		<homonym>
-			<blockquote>сплетня, пересуды; клевета;</blockquote>
+			<trn>сплетня, пересуды; клевета;</trn>
 			<ex>
 				<source>укпайт деп, ушак айтпа; билбейт деп, ууру кылба погов.</source>
 				<target>не сплетничай, полагая, что не услышат; не воруй, полагая, что не узнают;</target>
 			</ex>
-			<blockquote>ушак жүргүз- или ушак тарат- распространять сплетни;</blockquote>
+			<collocation>
+				<k>ушак жүргүз-</k>
+				<meta><i>или</i> ушак тарат-</meta>
+				<trn>распространять сплетни;</trn>
+			</collocation>
 			<ex>
 				<source>ушак айың кеп уксаң, көңүлүңдү аздырба фольк.</source>
 				<target>если ты услышишь (обо мне) сплетни и пересуды, то не расстраивайся;</target>
 			</ex>
-			<blockquote>ушак-шыкактар сплетни-пересуды.</blockquote>
+			<collocation>
+				<k>ушак-шыкактар</k>
+				<trn>сплетни-пересуды.</trn>
+			</collocation>
 		</homonym>
 	</card>
 	<card>
 		<k>ушакта-</k>
-		<blockquote>сплетничать; хулить заглазно.</blockquote>
+		<pos>inf</pos>
+		<trn>сплетничать; хулить заглазно.</trn>
 	</card>
 	<card>
 		<k>ушактат-</k>
+		<pos>caus</pos>
 		<caus word="ушакта"/>
 	</card>
 	<card>
 		<k>ушакташ-</k>
+		<pos>v</pos>
 		<recv word="ушакта"/>
 	</card>
 	<card>
 		<k>ушактоо</k>
+		<pos>ger</pos>
 		<actionNoun word="ушакта"/>
-		<blockquote>сплетничание; охаивание за глаза.</blockquote>
+		<trn>сплетничание; охаивание за глаза.</trn>
 	</card>
 	<card>
 		<k>ушакчы</k>
-		<blockquote>клеветник, сплетник;</blockquote>
+		<pos>n</pos>
+		<trn>клеветник, сплетник;</trn>
 		<ex>
 			<source>бекерчиден безе кач ушакчыдан көчө кач фольк.</source>
 			<target>от бездельника отвратившись, убегай, от клеветника переселившись, убегай.</target>
@@ -12856,85 +12888,104 @@
 	</card>
 	<card>
 		<k>ушакчыл</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>склонный к клевете;</blockquote>
+			<trn>склонный к клевете;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>клеветнический;</blockquote>
-			<blockquote>ушакчыл макала клеветническая статья.</blockquote>
+			<trn>клеветнический;</trn>
+			<blockquote>ушакчыл макала@@ клеветническая статья.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>ушакчылык</k>
-		<blockquote>клевета, клеветнические измышления, инсинуации.</blockquote>
+		<pos>n</pos>
+		<trn>клевета, клеветнические измышления, инсинуации.</trn>
 	</card>
 	<card>
 		<k>ушала-</k>
-		<blockquote>тереть, растирать, натирать; массировать;</blockquote>
-		<blockquote>кол ушала- потирать руки;</blockquote>
-		<blockquote>алаканын ушалай, манжаларын карсылдатып койду потирая руки, он хрустнул пальцами;</blockquote>
-		<blockquote>көз ушала- протирать глаза.</blockquote>
+		<pos>inf</pos>
+		<trn>тереть, растирать, натирать; массировать;</trn>
+		<blockquote>кол ушала-@@ потирать руки;</blockquote>
+		<blockquote>алаканын ушалай, манжаларын карсылдатып койду@@ потирая руки, он хрустнул пальцами;</blockquote>
+		<blockquote>көз ушала-@@ протирать глаза.</blockquote>
 	</card>
 	<card>
 		<k>ушалат-</k>
+		<pos>caus</pos>
 		<caus word="ушала"/>
 	</card>
 	<card>
 		<k>ушалаттыр-</k>
+		<pos>caus</pos>
 		<caus word="ушалат"/>
-		<blockquote>Карабек колун, ушалаттырбай, тартып алды Карабек отдёрнул руку, не позволив массировать.</blockquote>
+		<blockquote>Карабек колун, ушалаттырбай, тартып алды Карабек@@ отдёрнул руку, не позволив массировать.</blockquote>
 	</card>
 	<card>
 		<k>ушат-</k>
+		<pos>inf</pos>
 		<meaning>
-			<blockquote>размельчать;</blockquote>
+			<trn>размельчать;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>транжирить; расходовать, тратить;</blockquote>
-			<blockquote>акчаны ушатып койдум я растранжирил деньги;</blockquote>
-			<blockquote>жаагын ушата чапты см. жаак 1.</blockquote>
+			<trn>транжирить; расходовать, тратить;</trn>
+			<blockquote>акчаны ушатып койдум@@ я растранжирил деньги;</blockquote>
+			<collocation>
+				<k>жаагын ушата чапты</k>
+				<look word="жаак"/>
+			</collocation>
 		</meaning>
 	</card>
 	<card>
 		<k>ушатуу</k>
+		<pos>ger</pos>
 		<actionNoun word="ушат"/>
-		<blockquote>размельчение.</blockquote>
+		<trn>размельчение.</trn>
 	</card>
 	<card>
 		<k>ушерде</k>
+		<pos>adv</pos>
 		<meta>разг.</meta>
-		<blockquote>то же, что ушул жерде (см. ушул).</blockquote>
+		<sameas word="ушул жерде"/>
+		<look word="ушул"/>
 	</card>
 	<card>
 		<k>ушетте</k>
+		<pos>adv</pos>
 		<meta>южн.</meta>
-		<blockquote>здесь, в этом месте;</blockquote>
-		<blockquote>ушетте эле өскөнбүз мы здесь (в этих местах) выросли.</blockquote>
+		<trn>здесь, в этом месте;</trn>
+		<blockquote>ушетте эле өскөнбүз@@ мы здесь (в этих местах) выросли.</blockquote>
 	</card>
 	<card>
 		<k>ушинт-</k>
-		<blockquote>поступить так, сделать так;</blockquote>
-		<blockquote>эртеңден калбай ушинткиле завтра же сделайте так;</blockquote>
-		<blockquote>бая эле ушинтпейсиңби! давно бы ты так и сделал!</blockquote>
+		<pos>inf</pos>
+		<trn>поступить так, сделать так;</trn>
+		<blockquote>эртеңден калбай ушинткиле@@ завтра же сделайте так;</blockquote>
+		<blockquote>бая эле ушинтпейсиңби!@@ давно бы ты так и сделал!</blockquote>
 	</card>
 	<card>
 		<k>ушинтип</k>
-		<blockquote>так, таким образом.</blockquote>
+		<pos>adv</pos>
+		<trn>так, таким образом.</trn>
 	</card>
 	<card>
 		<k>ушинтиш</k>
+		<pos>adv</pos>
 		<actionNoun word="ушинт"/>
-		<blockquote>бул эң жакшы ой, ушинтиш керек это очень хорошая мысль, нужно так и сделать.</blockquote>
+		<blockquote>бул эң жакшы ой, ушинтиш керек@@ это очень хорошая мысль, нужно так и сделать.</blockquote>
 	</card>
 	<card>
 		<k>үшкү</k>
-		<blockquote>сверло, пёрка; шило для прокалывания дыр в уук'е (см. уук I);</blockquote>
-		<blockquote>үшкү баш голова шилом, клином (в форме редьки хвостом вниз).</blockquote>
+		<pos>n</pos>
+		<trn>сверло, пёрка; шило для прокалывания дыр в уук'е</trn>
+		<look word="уук"/>
+		<blockquote>үшкү баш@@ голова шилом, клином (в форме редьки хвостом вниз).</blockquote>
 	</card>
 	<card>
 		<k>үшкүр-</k>
-		<blockquote>делать протяжные выдохи с шумом; тяжело вздыхать;</blockquote>
-		<blockquote>катуу үшкүрдү он тяжело и громко вздохнул;</blockquote>
+		<pos>inf</pos>
+		<trn>делать протяжные выдохи с шумом; тяжело вздыхать;</trn>
+		<blockquote>катуу үшкүрдү@@ он тяжело и громко вздохнул;</blockquote>
 		<ex>
 			<source>үшкүрсөң чыгат көк түтүн, өрт алып, ичиң жангандай фольк.</source>
 			<target>когда ты тяжело вздыхаешь, исходит синий (т.е. густой) дым, будто нутро у тебя горит пожаром.</target>
@@ -12942,58 +12993,70 @@
 	</card>
 	<card>
 		<k>үшкүрт-</k>
+		<pos>caus</pos>
 		<caus word="үшкүр"/>
-		<blockquote>үшкүртө турган иш дело (или положение), достойное сожаления; случай, достойный сожаления; дело, которое может повести к тяжёлым последствиям.</blockquote>
+		<blockquote>үшкүртө турган@@ иш дело (или положение), достойное сожаления; случай, достойный сожаления; дело, которое может повести к тяжёлым последствиям.</blockquote>
 	</card>
 	<card>
 		<k>үшкүрүк</k>
-		<blockquote>тяжёлый вздох;</blockquote>
-		<blockquote>үшкүрүк-бышкырык горе-печаль.</blockquote>
+		<pos>n</pos>
+		<trn>тяжёлый вздох;</trn>
+		<blockquote>үшкүрүк-бышкырык@@ горе-печаль.</blockquote>
 	</card>
 	<card>
 		<k>үшкүрүктүү</k>
-		<blockquote>печальный; горюющий.</blockquote>
+		<pos>adj</pos>
+		<trn>печальный; горюющий.</trn>
 	</card>
 	<card>
 		<k>үшкүрүн-</k>
-		<blockquote>возвр. от үшкүр-,</blockquote>
+		<pos>v</pos>
+		<meta>возвр.</meta>
 		<sameas word="үшкүр"/>
-		<blockquote>үшкүрүнүп-күйүнүп печалясь и горюя.</blockquote>
+		<blockquote>үшкүрүнүп-күйүнүп@@ печалясь и горюя.</blockquote>
 	</card>
 	<card>
 		<k>үшкөл</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>ист.</meta>
-		<blockquote>школа (см. мектеп).</blockquote>
+		<trn>школа</trn>
+		<look word="мектеп"/>
 	</card>
 	<card>
 		<k>үшмөк</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
-		<blockquote>петелька на клубке шерсти, которую прядут (зацепляя пальцем, чтобы клубок шерсти не падал).</blockquote>
+		<trn>петелька на клубке шерсти, которую прядут (зацепляя пальцем, чтобы клубок шерсти не падал).</trn>
 	</card>
 	<card>
 		<k>ушта-</k>
+		<pos>inf</pos>
 		<sameas word="учта"/>
 	</card>
 	<card>
 		<k>уштал-</k>
+		<pos>pass</pos>
 		<sameas word="учтал"/>
-		<blockquote>уштук</blockquote>
+		<sameas word="уштук"/>
 		<sameas word="учтук"/>
 	</card>
 	<card>
 		<k>үштүк</k>
-		<blockquote>үштүк: баштык-үштүк мешочки-сумочки;</blockquote>
-		<blockquote>баштык-үштүгүндү ала жүр ты захвати с собой какие-нибудь мешочки.</blockquote>
+		<pos>n</pos>
+		<meta>баштык-үштүк</meta>
+		<trn>мешочки-сумочки;</trn>
+		<blockquote>баштык-үштүгүндү ала жүр@@ ты захвати с собой какие-нибудь мешочки.</blockquote>
 	</card>
 	<card>
 		<k>үшү-</k>
+		<pos>inf</pos>
 		<homonym>
-			<blockquote>сверлить, протыкать дырку.</blockquote>
+			<trn>сверлить, протыкать дырку.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>мёрзнуть, зябнуть;</blockquote>
-			<blockquote>жумуш кылсаң, үшүйсүң, арак ичсең, тердейсиң когда работаешь - мёрзнешь, когда водку пьёшь - потеешь;</blockquote>
+			<trn>мёрзнуть, зябнуть;</trn>
+			<blockquote>жумуш кылсаң, үшүйсүң, арак ичсең, тердейсиң@@ когда работаешь - мёрзнешь, когда водку пьёшь - потеешь;</blockquote>
 			<ex>
 				<source>үшүгөндү шишиген жетелейт погов.</source>
 				<target>замёрзшего распухший ведёт.</target>
@@ -13002,99 +13065,129 @@
 	</card>
 	<card>
 		<k>ушу,</k>
-		<blockquote>ушу, ушул</blockquote>
+		<pos>pr</pos>
+		<meta>ушу, ушул</meta>
 		<blockquote>(дат. п. ушуга и ушаа) этот (при указании на предмет менее близкий, чем обозначаемый местоимением бул, бу, и менее далёкий, чем обозначаемый местоимением ошол, ошо);</blockquote>
-		<blockquote>ушул жерде здесь;</blockquote>
-		<blockquote>ушул күндөн баштап начиная с этого дня;</blockquote>
-		<blockquote>ушул сөзүңө ким ишенсин? кто же поверит этим твоим словам?</blockquote>
-		<blockquote>ушунубуз тот из нас или то наше (нам принадлежащее или к нам относящееся);</blockquote>
+		<blockquote>ушул жерде@@ здесь;</blockquote>
+		<blockquote>ушул күндөн баштап@@ начиная с этого дня;</blockquote>
+		<blockquote>ушул сөзүңө ким ишенсин?@@ кто же поверит этим твоим словам?</blockquote>
+		<blockquote>ушунубуз@@ тот из нас или то наше (нам принадлежащее или к нам относящееся);</blockquote>
 		<ex>
 			<source>жалгыз барып, жоо сайган, же ушунум бекен балалык? фольк.</source>
 			<target>разве то, что я отправился один и разил врагов, является ребячеством?</target>
 		</ex>
-		<blockquote>ушул чак</blockquote>
-		<blockquote>1) это время;</blockquote>
-		<blockquote>2) грам. уст. настоящее время;</blockquote>
-		<blockquote>ушуну көрмөксүң! так тебе и надо!;</blockquote>
-		<blockquote>ушуну менен катар одновременно с этим;</blockquote>
-		<blockquote>кылбаганы эле ушубу! этого ещё недоставало!;</blockquote>
-		<blockquote>ушу сыяктуулар и им подобные; и тому подобное.</blockquote>
-		<blockquote>ушуекке талас. сюда;</blockquote>
-		<blockquote>Чолпонбай ушуекке уй багыпкелчү Чолпонбай приходил сюда пасти коров.</blockquote>
+		<collocation>
+			<k>ушул чак</k>
+			<meaning>
+				<trn>это время;</trn>
+			</meaning>
+			<meaning>
+				<meta>грам.</meta>
+				<meta>уст.</meta>
+				<trn>настоящее время;</trn>
+			</meaning>
+		</collocation>
+		<blockquote>ушуну көрмөксүң!@@ так тебе и надо!;</blockquote>
+		<blockquote>ушуну менен катар@@ одновременно с этим;</blockquote>
+		<blockquote>кылбаганы эле ушубу!@@ этого ещё недоставало!;</blockquote>
+		<blockquote>ушу сыяктуулар@@ и им подобные; и тому подобное.</blockquote>
+		<collocation>
+			<k>ушуекке</k>
+			<meta>талас.</meta>
+			<trn>сюда;</trn>
+			<blockquote>Чолпонбай ушуекке уй багыпкелчү@@ Чолпонбай приходил сюда пасти коров.</blockquote>
+		</collocation>
 	</card>
 	<card>
 		<k>үшүк</k>
-		<blockquote>мороз, заморозки;</blockquote>
-		<blockquote>үшүк алды или үшүк урду или үшүк чалды заморозило; побило морозом;</blockquote>
-		<blockquote>үшүккө алдыр- отморозить;</blockquote>
-		<blockquote>бутумду үшүк чалып кетти или бүтумду үшүккө алдырдым я отморозил себе ноги;</blockquote>
-		<blockquote>үшүккө алдырган бут отмороженная нога;</blockquote>
-		<blockquote>айдаган жүгөрүлөрү үшүккө чалдыгып бышты его кукуруза созрела, но была приморожена.</blockquote>
+		<pos>n</pos>
+		<trn>мороз, заморозки;</trn>
+		<collocation>
+			<k>үшүк алды</k>
+			<meta><i>или</i> үшүк урду <i>или</i> үшүк чалды</meta>
+			<trn>заморозило; побило морозом;</trn>
+			<blockquote>үшүккө алдыр-@@ отморозить;</blockquote>
+			<blockquote>бутумду үшүк чалып кетти <i>или</i> бүтумду үшүккө алдырдым@@ я отморозил себе ноги;</blockquote>
+			<blockquote>үшүккө алдырган бут@@ отмороженная нога;</blockquote>
+			<blockquote>айдаган жүгөрүлөрү үшүккө чалдыгып бышты@@ его кукуруза созрела, но была приморожена.</blockquote>
+		</collocation>
 	</card>
 	<card>
 		<k>үшүкчөөл</k>
-		<blockquote>зябкий; легко поддающийся действию мороза.</blockquote>
+		<pos>adj</pos>
+		<trn>зябкий; легко поддающийся действию мороза.</trn>
 	</card>
 	<card>
 		<k>ушул</k>
+		<pos>pr</pos>
 		<look word="ушу"/>
 	</card>
 	<card>
 		<k>ушунда</k>
-		<blockquote>здесь; в этот момент; тогда.</blockquote>
+		<pos>adv</pos>
+		<trn>здесь; в этот момент; тогда.</target>
 	</card>
 	<card>
 		<k>ушундай</k>
-		<blockquote>так; такой;</blockquote>
-		<blockquote>ушундай эмеспи? не так ли?, не правда ли?</blockquote>
-		<blockquote>ушундай болуп келди жана мындан ары да ушундай болот так было, так будет и впредь;</blockquote>
-		<blockquote>ушундай экен-ээ! так вот оно как!; так вот оно что!;</blockquote>
-		<blockquote>ушундай да болмок (или болчу) беле? виданное ли это дело? где это видано?</blockquote>
-		<blockquote>ушундай эле боло койсун а хоть бы и так; допустим, что это так.</blockquote>
+		<pos>adv</pos>
+		<trn>так; такой;</trn>
+		<blockquote>ушундай эмеспи?@@ не так ли?, не правда ли?</blockquote>
+		<blockquote>ушундай болуп келди жана мындан ары да ушундай болот@@ так было, так будет и впредь;</blockquote>
+		<blockquote>ушундай экен-ээ!@@ так вот оно как!; так вот оно что!;</blockquote>
+		<blockquote>ушундай да болмок (<i>или</i> болчу) беле?@@ виданное ли это дело? где это видано?</blockquote>
+		<blockquote>ушундай эле боло койсун@@ а хоть бы и так; допустим, что это так.</blockquote>
 	</card>
 	<card>
 		<k>ушундайлык</k>
+		<pos>n</pos>
 		<abstract word="ушундай"/>
-		<blockquote>(обладание такими данными, свойствами);</blockquote>
-		<blockquote>ушундайлыгыбыздан из-за того, что мы таковы.</blockquote>
+		<trn>(обладание такими данными, свойствами);</trn>
+		<blockquote>ушундайлыгыбыздан@@ из-за того, что мы таковы.</blockquote>
 	</card>
 	<card>
 		<k>ушундайча</k>
-		<blockquote>так вот, таким вот образом.</blockquote>
+		<pos>adv</pos>
+		<trn>так вот, таким вот образом.</trn>
 	</card>
 	<card>
 		<k>үшүнт-</k>
-		<blockquote>(ушуну эт-)</blockquote>
-		<blockquote>так сделать, так поступить;</blockquote>
-		<blockquote>үшүнтүп так, таким образом;</blockquote>
-		<blockquote>үшүнтө берсек если мы будем продолжать так делать.</blockquote>
+		<pos>inf</pos>
+		<meta>(ушуну эт-)</meta>
+		<trn>так сделать, так поступить;</trn>
+		<blockquote>үшүнтүп так,@@ таким образом;</blockquote>
+		<blockquote>үшүнтө берсек@@ если мы будем продолжать так делать.</blockquote>
 	</card>
 	<card>
 		<k>үшүнтүл-</k>
+		<pos>v</pos>
 		<refpass word="үшүнт"/>
 	</card>
 	<card>
 		<k>ушунча</k>
-		<blockquote>столько; так много;</blockquote>
-		<blockquote>ушунчаңда кеткин! уходи, пока цел!, уходи, пока не поздно!;</blockquote>
-		<blockquote>ушунчамда тизгинимди тартсам кантет? а не лучше ли мне, пока не поздно, повернуть оглобли?</blockquote>
+		<pos>adv</pos>
+		<trn>столько; так много;</trn>
+		<blockquote>ушунчаңда кеткин!@@ уходи, пока цел!, уходи, пока не поздно!;</blockquote>
+		<blockquote>ушунчамда тизгинимди тартсам кантет?@@ а не лучше ли мне, пока не поздно, повернуть оглобли?</blockquote>
 	</card>
 	<card>
 		<k>ушунчалык</k>
-		<blockquote>столько; настолько;</blockquote>
-		<blockquote>ушунчалык жакшы настолько хорошо; настолько хороший;</blockquote>
-		<blockquote>ушунчалык машакат столько трудностей.</blockquote>
+		<pos>adv</pos>
+		<trn>столько; настолько;</trn>
+		<blockquote>ушунчалык жакшы@@ настолько хорошо; настолько хороший;</blockquote>
+		<blockquote>ушунчалык машакат@@ столько трудностей.</blockquote>
 	</card>
 	<card>
 		<k>ушур</k>
+		<pos>n</pos>
 		<sameas word="үшүр"/>
 	</card>
 	<card>
 		<k>үшүр</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>ист.</meta>
 		<meaning>
-			<blockquote>десятина (налог в размере одной десятой урожая);</blockquote>
+			<trn>десятина (налог в размере одной десятой урожая);</trn>
 		</meaning>
 		<meaning>
 			<sameas word="кепсен"/>
@@ -13102,241 +13195,275 @@
 	</card>
 	<card>
 		<k>үшүркө-</k>
-		<blockquote>үшүркө-: жүрөгү үшүркөп калган он очень запуган.</blockquote>
+		<pos>inf</pos>
+		<meta>үшүркө-: жүрөгү үшүркөп калган</meta>
+		<trn>он очень запуган.</trn>
 	</card>
 	<card>
 		<k>үшүт-</k>
+		<pos>caus</pos>
 		<homonym>
 			<caus word="үшү" index="1"/>
-			<blockquote>заставить сверлить.</blockquote>
+			<trn>заставить сверлить.</trn>
 		</homonym>
 		<homonym>
 			<caus word="үшү" index="2"/>
-			<blockquote>боз үйүбүз кышкысын үшүтүп эле коючу в нашей юрте зимой было холодно (букв. зимой наша юрта морозила).</blockquote>
+			<blockquote>боз үйүбүз кышкысын үшүтүп эле коючу@@ в нашей юрте зимой было холодно (букв. зимой наша юрта морозила).</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>үшүчөөк</k>
+		<pos>adj</pos>
 		<sameas word="үшүкчөөл"/>
 	</card>
 	<card>
 		<k>үшш</k>
+		<pos>ideo</pos>
 		<sameas word="үф" subindex="1"/>
 	</card>
 	<card>
 		<k>үшө-</k>
-		<blockquote>үшө-: жер үшө- (или жерүшө-)</blockquote>
-		<blockquote>1) тяготиться на чужбине;</blockquote>
-		<blockquote>2) сохнуть от тоски по родной земле;</blockquote>
-		<blockquote>жер үшөдүм чужбина меня измучила;</blockquote>
-		<blockquote>жолдош издеп, үшөп көргөн жан эмес он не такой человек, чтобы искать друзей, нуждаясь в них.</blockquote>
+		<meta>үшө-: жер үшө- (<i>или</i> жерүшө-)</meta>
+		<meaning>
+			<trn>тяготиться на чужбине;</trn>
+		</meaning>
+		<meaning>
+			<trn>сохнуть от тоски по родной земле;</trn>
+		</meaning>
+		<blockquote>жер үшөдүм@@ чужбина меня измучила;</blockquote>
+		<blockquote>жолдош издеп, үшөп көргөн жан эмес@@ он не такой человек, чтобы искать друзей, нуждаясь в них.</blockquote>
 	</card>
 	<card>
 		<k>үшөнчүк</k>
-		<blockquote>үшөнчүк: үшөнчүк баштык мешочек для хранения инструментов.</blockquote>
+		<pos>n</pos>
+		<meta>үшөнчүк: үшөнчүк баштык</meta>
+		<trn>мешочек для хранения инструментов.</trn>
 	</card>
 	<card>
 		<k>үшөө</k>
+		<pos>ger</pos>
 		<actionNoun word="үшө"/>
-		<blockquote>жер үшөө (или жерүшөө) тоска по родине, по родным местам.</blockquote>
+		<blockquote>жер үшөө (<i>или</i> жерүшөө)@@ тоска по родине, по родным местам.</blockquote>
 	</card>
 	<card>
 		<k>ую-</k>
+		<pos>inf</pos>
 		<meaning>
-			<blockquote>(о крови, молоке) свернуться;</blockquote>
+			<trn>(о крови, молоке) свернуться;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>скопиться, собраться;</blockquote>
+			<trn>скопиться, собраться;</trn>
 			<ex>
 				<source>ушу суунун боюнда уюган кошун-кол жатыр фольк.</source>
 				<target>на берегу этой вот большой реки расположилось большое войско-рать;</target>
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>неотступно следовать за кем-л.;предаться всецело кому-чему-л., вполне довериться;</blockquote>
-			<blockquote>абдан уюдум я полностью убедился, я со всем согласен;</blockquote>
+			<trn>неотступно следовать за кем-л.;предаться всецело кому-чему-л., вполне довериться;</trn>
+			<blockquote>абдан уюдум@@ я полностью убедился, я со всем согласен;</blockquote>
 			<ex>
 				<source>ушул кепке көпчүлүк уюп калган чагы экен фольк.</source>
 				<target>это был момент, когда большинство (народа) убедилось в правильности этих слов;</target>
 			</ex>
-			<blockquote>мен Каныбектин айтканына уюп турам меня тронули слова Каныбека; я целиком во власти того, что сказал Каныбек;</blockquote>
-			<blockquote>көңүлүм бир аз уюп калды я немного успокоился;</blockquote>
-			<blockquote>көнүлүм уюбай турат мне не очень верится, меня не очень убеждает, у меня есть некоторое сомнение;</blockquote>
+			<blockquote>мен Каныбектин айтканына уюп турам@@ меня тронули слова Каныбека; я целиком во власти того, что сказал Каныбек;</blockquote>
+			<blockquote>көңүлүм бир аз уюп калды@@ я немного успокоился;</blockquote>
+			<blockquote>көнүлүм уюбай турат@@ мне не очень верится, меня не очень убеждает, у меня есть некоторое сомнение;</blockquote>
 			<ex>
 				<source>түк көңүлүм уюбайт, уккан менен кулагым стих.</source>
 				<target>мне совершенно не верится, хотя ухо моё слышит;</target>
 			</ex>
-			<blockquote>уюп уктап калыптыр он крепко уснул;</blockquote>
-			<blockquote>буту уюп калыптыр у него нога натрудилась; он натрудил себе ногу.</blockquote>
+			<blockquote>уюп уктап калыптыр@@ он крепко уснул;</blockquote>
+			<blockquote>буту уюп калыптыр@@ у него нога натрудилась; он натрудил себе ногу.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>уюгансы-</k>
+		<pos>v</pos>
 		<similative word="ую"/>
 	</card>
 	<card>
 		<k>уюк</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>рой, скопище;</blockquote>
-			<blockquote>аарынын уюгу</blockquote>
-			<blockquote>1) рой пчёл;</blockquote>
-			<blockquote>2) осиное гнездо;</blockquote>
-			<blockquote>аарынын уюгуна тийип ал- растревожить пчелиный рой или осиное гнездо;</blockquote>
-			<blockquote>кумурсканын уюгу муравьиная куча;</blockquote>
+			<trn>рой, скопище;</trn>
+			<ex>
+				<source>аарынын уюгу</source>
+				<target>рой пчёл; осиное гнездо;</target>
+			</ex>
+			<blockquote>аарынын уюгуна тийип ал-@@ растревожить пчелиный рой или осиное гнездо;</blockquote>
+			<blockquote>кумурсканын уюгу@@ муравьиная куча;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>ячейка;</blockquote>
-			<blockquote>комсомолдордун уюгу уст. комсомольская ячейка.</blockquote>
+			<trn>ячейка;</trn>
+			<blockquote>комсомолдордун уюгу уст.@@ комсомольская ячейка.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>уюкта-</k>
-		<blockquote>скапливаться во множестве, собираться в кучу (гл. обр. о насекомых).</blockquote>
+		<pos>inf</pos>
+		<trn>скапливаться во множестве, собираться в кучу (гл. обр. о насекомых).</trn>
 	</card>
 	<card>
 		<k>уюктан-</k>
-		<blockquote>возвр. от уюкта-,</blockquote>
+		<pos>v</pos>
+		<refv word="уюкта-"/>
 		<sameas word="уюкта"/>
 	</card>
 	<card>
 		<k>уюл</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>место, где разделяются вихры, где образуются завитки (на макушке головы человека, на лбу или на щеке лошади);</blockquote>
+			<trn>место, где разделяются вихры, где образуются завитки (на макушке головы человека, на лбу или на щеке лошади);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>полюс;</blockquote>
-			<blockquote>Түндүк уюл Северный полюс;</blockquote>
+			<trn>полюс;</trn>
+			<blockquote>Түндүк уюл@@ Северный полюс;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>нарост, наплыв (на дереве);</blockquote>
+			<trn>нарост, наплыв (на дереве);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>комель дерева;</blockquote>
-			<blockquote>таштын уюлундай (о человеке) кряжистый, крепкий физически и ловкий житейски.</blockquote>
+			<trn>комель дерева;</trn>
+			<blockquote>таштын уюлундай@@ (о человеке) кряжистый, крепкий физически и ловкий житейски.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>уюлгу-</k>
+		<pos>inf</pos>
 		<meaning>
-			<blockquote>крутиться, кружиться, порывисто метаться;</blockquote>
-			<blockquote>уюлгуган шамал порывистый ветер; ветер, порывисто дующий то с одной, то с другой стороны;</blockquote>
-			<blockquote>уюлгуп соккон жел порывисто дующий сильный ветер;</blockquote>
+			<trn>крутиться, кружиться, порывисто метаться;</trn>
+			<blockquote>уюлгуган шамал@@ порывистый ветер; ветер, порывисто дующий то с одной, то с другой стороны;</blockquote>
+			<blockquote>уюлгуп соккон жел@@ порывисто дующий сильный ветер;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>клубиться;</blockquote>
-			<blockquote>уюлгуган чаң столбом вздымающаяся густая пыль;</blockquote>
-			<blockquote>тамекинин түтүнү калың тумандай уюлгуйт табачный дым висит, как густой туман;</blockquote>
+			<trn>клубиться;</trn>
+			<blockquote>уюлгуган чаң@@ столбом вздымающаяся густая пыль;</blockquote>
+			<blockquote>тамекинин түтүнү калың тумандай уюлгуйт@@ табачный дым висит, как густой туман;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>кудрявиться (о густых волосах, шерсти);</blockquote>
+			<trn>кудрявиться (о густых волосах, шерсти);</trn>
 			<ex>
 				<source>койлору кунан букадай, уюлгуйт уяң жүндөрү стих.</source>
 				<target>овцы там с трёхлетнего быка, их тонкая (и густая) шерсть кудрявится;</target>
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>(о траве) полечь;</blockquote>
-			<blockquote>уюлгуган (о человеке) расторопный, ловкий, энергичный.</blockquote>
+			<trn>(о траве) полечь;</trn>
+			<blockquote>уюлгуган@@ (о человеке) расторопный, ловкий, энергичный.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>уюлгут-</k>
+		<pos>caus</pos>
 		<caus word="уюлгу"/>
-		<blockquote>кер атты минип, чаң уюлгутуп жөнөдү сев на карего коня, он помчался, вздымая пыль;</blockquote>
+		<blockquote>кер атты минип, чаң уюлгутуп жөнөдү@@ сев на карего коня, он помчался, вздымая пыль;</blockquote>
 		<ex>
 			<source>уюлгутуп камчы уруп, кирип барды ошондо фольк.</source>
 			<target>взмахнув плетью и ударив, он ворвался;</target>
 		</ex>
-		<blockquote>таң желине коюу чачын уюлгутуп подставив утреннему ветру (трепать) свои густые волосы.</blockquote>
+		<blockquote>таң желине коюу чачын уюлгутуп@@ подставив утреннему ветру (трепать) свои густые волосы.</blockquote>
 	</card>
 	<card>
 		<k>уюлуш-</k>
-		<blockquote>спутаться, слегка всклокочиться, взлохматиться;</blockquote>
-		<blockquote>уюлушкан сакалын сылай поглаживая свою спутавшуюся бороду.</blockquote>
+		<pos>v</pos>
+		<trn>спутаться, слегка всклокочиться, взлохматиться;</trn>
+		<blockquote>уюлушкан сакалын сылай@@ поглаживая свою спутавшуюся бороду.</blockquote>
 	</card>
 	<card>
 		<k>уюм</k>
-		<blockquote>организация (учреждение);</blockquote>
-		<blockquote>коом уюмдары или коомдук уюмдар общаственные организации;</blockquote>
-		<blockquote>партиялык уюмдар партийные организации;</blockquote>
-		<blockquote>комсомолдук уюмдар комсомольские организации;</blockquote>
-		<blockquote>партиялык баштапкы уюм первичная партийная организация;</blockquote>
-		<blockquote>профсоюздук уюмдар профсоюзные организации;</blockquote>
-		<blockquote>Бириккен Улуттардын Уюму Организация Объединённых Наций.</blockquote>
+		<pos>n</pos>
+		<trn>организация (учреждение);</trn>
+		<blockquote>коом уюмдары <i>или</i> коомдук уюмдар@@ общаственные организации;</blockquote>
+		<blockquote>партиялык уюмдар@@ партийные организации;</blockquote>
+		<blockquote>комсомолдук уюмдар@@ комсомольские организации;</blockquote>
+		<blockquote>партиялык баштапкы уюм@@ первичная партийная организация;</blockquote>
+		<blockquote>профсоюздук уюмдар@@ профсоюзные организации;</blockquote>
+		<blockquote>Бириккен Улуттардын Уюму@@ Организация Объединённых Наций.</blockquote>
 	</card>
 	<card>
 		<k>уюмдаш-</k>
-		<blockquote>организовываться.</blockquote>
+		<pos>v</pos>
+		<trn>организовываться.</trn>
 	</card>
 	<card>
 		<k>уюмдашкандык</k>
-		<blockquote>организованность.</blockquote>
+		<pos>n</pos>
+		<trn>организованность.</trn>
 	</card>
 	<card>
 		<k>уюмдаштыр-</k>
+		<pos>caus</pos>
 		<caus word="уюмдаш"/>
-		<blockquote>организовывать.</blockquote>
+		<trn>организовывать.</trn>
 	</card>
 	<card>
 		<k>уюмдаштыруу</k>
+		<pos>ger</pos>
 		<actionNoun word="уюмдаштыр"/>
-		<blockquote>организация (действие);</blockquote>
-		<blockquote>уюмдаштыруу жыйылышы организационное собрание;</blockquote>
-		<blockquote>партиялык-уюмдаштыруу жумуштары партийно-организационная работа;</blockquote>
-		<blockquote>массалык-уюмдаштыруу иштери организационно-массовая работа;</blockquote>
-		<blockquote>уюмдаштыруу маселелери организационные вопросы.</blockquote>
+		<trn>организация (действие);</trn>
+		<blockquote>уюмдаштыруу жыйылышы@@ организационное собрание;</blockquote>
+		<blockquote>партиялык-уюмдаштыруу жумуштары@@ партийно-организационная работа;</blockquote>
+		<blockquote>массалык-уюмдаштыруу иштери@@ организационно-массовая работа;</blockquote>
+		<blockquote>уюмдаштыруу маселелери@@ организационные вопросы.</blockquote>
 	</card>
 	<card>
 		<k>уюмдаштыруучу</k>
-		<blockquote>организатор.</blockquote>
+		<pos>n</pos>
+		<trn>организатор.</trn>
 	</card>
 	<card>
 		<k>уюмдашуу</k>
+		<pos>ger</pos>
 		<actionNoun word="уюмдаш"/>
 	</card>
 	<card>
 		<k>уюңкура-</k>
-		<blockquote>чувствовать лёгкую ломоту, слегка натрудить (спину, напр. от долгого сидения согнувшись, от верховой езды и т.п.);</blockquote>
-		<blockquote>атка көп жүрүп, бели уюңкурап калган он долго ехал верхом на лошади, и у него поясницу слегка ломило;</blockquote>
-		<blockquote>уюңкураган белин түзөп распрямив свою натруженную поясннцу.</blockquote>
+		<pos>inf</pos>
+		<trn>чувствовать лёгкую ломоту, слегка натрудить (спину, напр. от долгого сидения согнувшись, от верховой езды и т.п.);</trn>
+		<blockquote>атка көп жүрүп, бели уюңкурап@@ калган он долго ехал верхом на лошади, и у него поясницу слегка ломило;</blockquote>
+		<blockquote>уюңкураган белин түзөп@@ распрямив свою натруженную поясннцу.</blockquote>
 	</card>
 	<card>
 		<k>уют-</k>
-		<blockquote>уют-: айран уют- сквашивать айран;</blockquote>
-		<blockquote>уюткан айран, ынак сүт ичип, боорубузду агартып жатабыз пьём сквашеннын айран, чистое молоко, поправляем своё здоровье;</blockquote>
-		<blockquote>ылай уют- месить глину;</blockquote>
-		<blockquote>көңүлүмө уюта албадым я не вполне убедился.</blockquote>
+		<pos>inf</pos>
+		<meta>уют-: айран уют-</meta>
+		<trn>сквашивать айран;</trn>
+		<blockquote>уюткан айран, ынак сүт ичип, боорубузду агартып жатабыз@@ пьём сквашеннын айран, чистое молоко, поправляем своё здоровье;</blockquote>
+		<blockquote>ылай уют-@@ месить глину;</blockquote>
+		<blockquote>көңүлүмө уюта албадым@@ я не вполне убедился.</blockquote>
 	</card>
 	<card>
 		<k>уютку</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>закваска (молочная);</blockquote>
+			<trn>закваска (молочная);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>действенный, активный элемент; заводила;</blockquote>
+			<trn>действенный, активный элемент; заводила;</trn>
 			<ex>
 				<source>моңолдор - журттун уюткусу погов. ист.</source>
 				<target>(племя) монголдор - бродило народа;</target>
 			</ex>
-			<blockquote>чатактын уюткулары зачинщики скандалов;</blockquote>
+			<blockquote>чатактын уюткулары@@ зачинщики скандалов;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>полит.</meta>
 			<meta>уст.</meta>
-			<blockquote>ядро;</blockquote>
-			<blockquote>жетекчи уютку руководящее ядро;</blockquote>
-			<blockquote>сөз уюткусу именно то слово, которое нужно;</blockquote>
-			<blockquote>көрсө, сөз уюткусу сизде тура смотрю я - ваше слово как раз в точку.</blockquote>
+			<trn>ядро;</trn>
+			<blockquote>жетекчи уютку@@ руководящее ядро;</blockquote>
+			<blockquote>сөз уюткусу@@ именно то слово, которое нужно;</blockquote>
+			<blockquote>көрсө, сөз уюткусу сизде тура@@ смотрю я - ваше слово как раз в точку.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>уюткулуу</k>
-		<blockquote>спаянный, монолитный; объединившийся вокруг основного ядра;</blockquote>
-		<blockquote>уюткулуу эл сильный, крепкий, сплочённый народ;</blockquote>
-		<blockquote>уюткулуу жер место, где свой народ, свой коллектив;</blockquote>
-		<blockquote>уюткулуу жериңде көгөргөнүң жакшы хорошо жить в своём месте, со своим народом, со своим коллективом;</blockquote>
+		<pos>adj</pos>
+		<trn>спаянный, монолитный; объединившийся вокруг основного ядра;</trn>
+		<blockquote>уюткулуу эл@@ сильный, крепкий, сплочённый народ;</blockquote>
+		<blockquote>уюткулуу жер@@ место, где свой народ, свой коллектив;</blockquote>
+		<blockquote>уюткулуу жериңде көгөргөнүң жакшы@@ хорошо жить в своём месте, со своим народом, со своим коллективом;</blockquote>
 		<ex>
 			<source>уюткулуу бай ист.</source>
 			<target>наследственный богач (получивший богатство в наследство от своих родителей).</target>
@@ -13344,113 +13471,128 @@
 	</card>
 	<card>
 		<k>уютуу</k>
+		<pos>ger</pos>
 		<actionNoun word="уют"/>
 	</card>
 	<card>
 		<k>уюш-</k>
+		<pos>v</pos>
 		<recv word="ую"/>
 		<meaning>
-			<blockquote>сваляться, скомкаться;</blockquote>
+			<trn>сваляться, скомкаться;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>объединиться, организоваться.</blockquote>
+			<trn>объединиться, организоваться.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>уюшкандык</k>
-		<blockquote>организованность;</blockquote>
-		<blockquote>уюшкандык менен организованно.</blockquote>
+		<pos>n</pos>
+		<trn>организованность;</trn>
+		<blockquote>уюшкандык менен@@ организованно.</blockquote>
 	</card>
 	<card>
 		<k>уюшма</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>объединение;</blockquote>
+			<trn>объединение;</trn>
 		</meaning>
 		<meaning>
 			<meta>уст.</meta>
-			<blockquote>коллективное хозяйство, колхоз.</blockquote>
+			<trn>коллективное хозяйство, колхоз.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>уюшмалуулук</k>
-		<blockquote>организованность.</blockquote>
+		<pos>n</pos>
+		<trn>организованность.</trn>
 	</card>
 	<card>
 		<k>уюштур-</k>
+		<pos>caus</pos>
 		<caus word="уюш"/>
-		<blockquote>организовывать;</blockquote>
-		<blockquote>социалисттик мамлекет массаны уюштурат жана баш коштурат социалистическое государство организует и объединяет массы.</blockquote>
+		<trn>организовывать;</trn>
+		<blockquote>социалисттик мамлекет массаны уюштурат жана баш коштурат@@ социалистическое государство организует и объединяет массы.</blockquote>
 	</card>
 	<card>
 		<k>уюштургуч</k>
-		<blockquote>организатор.</blockquote>
+		<pos>n</pos>
+		<trn>организатор.</trn>
 	</card>
 	<card>
 		<k>уюштурул-</k>
+		<pos>pass</pos>
 		<pass word="уюштур"/>
-		<blockquote>организовываться; быть организуемым.</blockquote>
+		<trn>организовываться; быть организуемым.</trn>
 	</card>
 	<card>
 		<k>уюштурулуш</k>
+		<pos>ger</pos>
 		<actionNoun word="уюштурул"/>
-		<blockquote>байланыштын уюштурулушу организация связи.</blockquote>
+		<blockquote>байланыштын уюштурулушу@@ организация связи.</blockquote>
 	</card>
 	<card>
 		<k>уюштуруу</k>
+		<pos>ger</pos>
 		<actionNoun word="уюштур"/>
-		<blockquote>организация;</blockquote>
-		<blockquote>эмгек уюштуруу организация труда;</blockquote>
-		<blockquote>уюштуруу маселелери организационные вопросы;</blockquote>
-		<blockquote>уюштуруу комитети организационный комитет;</blockquote>
-		<blockquote>уюштуруу инструкторлук бөлүм организационно-инструкторский отдел;</blockquote>
-		<blockquote>колхоздорду уюштуруу-чарба жагынан чыңдоо организационно-хозяйственное укрепление колхозов.</blockquote>
+		<trn>организация;</trn>
+		<blockquote>эмгек уюштуруу@@ организация труда;</blockquote>
+		<blockquote>уюштуруу маселелери@@ организационные вопросы;</blockquote>
+		<blockquote>уюштуруу комитети@@ организационный комитет;</blockquote>
+		<blockquote>уюштуруу инструкторлук бөлүм@@ организационно-инструкторский отдел;</blockquote>
+		<blockquote>колхоздорду уюштуруу-чарба жагынан чыңдоо@@ организационно-хозяйственное укрепление колхозов.</blockquote>
 	</card>
 	<card>
 		<k>уюштуруучу</k>
-		<blockquote>организатор;</blockquote>
-		<blockquote>партия уюштуруучусу партийный организатор.</blockquote>
+		<pos>n</pos>
+		<trn>организатор;</trn>
+		<blockquote>партия уюштуруучусу@@ партийный организатор.</blockquote>
 	</card>
 	<card>
 		<k>уюштуруучулук</k>
-		<blockquote>организованность;</blockquote>
-		<blockquote>уюштуруучулук иши организационная работа;</blockquote>
-		<blockquote>милдеттенмелерди орундоо - уюштуруучулук ишке байланыштуу выполнение обязательств связано с организаторской работой;</blockquote>
-		<blockquote>уюштуруучулук жөндөмдүүлүгү организаторские способности.</blockquote>
+		<pos>n</pos>
+		<trn>организованность;</trn>
+		<blockquote>уюштуруучулук иши@@ организационная работа;</blockquote>
+		<blockquote>милдеттенмелерди орундоо - уюштуруучулук ишке байланыштуу@@ выполнение обязательств связано с организаторской работой;</blockquote>
+		<blockquote>уюштуруучулук жөндөмдүүлүгү@@ организаторские способности.</blockquote>
 	</card>
 	<card>
 		<k>уюшул-</k>
+		<pos>pass</pos>
 		<pass word="уюш"/>
-		<blockquote>организовываться; объединяться;</blockquote>
-		<blockquote>уюшулган жол менен организованным путём;</blockquote>
-		<blockquote>балдар бакчасы уюшулган организован детский сад.</blockquote>
+		<trn>организовываться; объединяться;</trn>
+		<blockquote>уюшулган жол менен@@ организованным путём;</blockquote>
+		<blockquote>балдар бакчасы уюшулган@@ организован детский сад.</blockquote>
 	</card>
 	<card>
 		<k>уя</k>
-		<blockquote>гнездо;</blockquote>
-		<blockquote>уя сал- вить гнездо; гнездиться;</blockquote>
+		<pos>n</pos>
+		<trn>гнездо;</trn>
+		<blockquote>уя сал-@@ вить гнездо; гнездиться;</blockquote>
 		<ex>
 			<source>сагызгандын уясын салган жерин сурадың фольк.</source>
 			<target>ты спросил, где сорока вьёт гнездо;</target>
 		</ex>
-		<blockquote>уя бас- сидеть на яйцах, высиживать птенцов;</blockquote>
-		<blockquote>уя баскан үпүп удод, сидящий на яйцах;</blockquote>
+		<blockquote>уя бас-@@ сидеть на яйцах, высиживать птенцов;</blockquote>
+		<blockquote>уя баскан үпүп@@ удод, сидящий на яйцах;</blockquote>
 		<ex>
 			<source>уядан эмне көрсө, учканда ошону алат погов.</source>
 			<target>что видел в гнезде, то (и) будет ловить, когда вылетит;</target>
 		</ex>
-		<blockquote>жөргөмүштүн уясы паутина;</blockquote>
-		<blockquote>үкүнүн (или куркулдайдын) уясын тааптыр ему привалило большое счастье (букв. он нашёл гнездо филина или ремеза);</blockquote>
-		<blockquote>уядан бир эркек, үч кыз көргөн Умсунай Умсунай имела (родила) одного мальчика и трёх девочек.</blockquote>
+		<blockquote>жөргөмүштүн уясы@@ паутина;</blockquote>
+		<blockquote>үкүнүн (<i>или</i> куркулдайдын) уясын тааптыр@@ ему привалило большое счастье (букв. он нашёл гнездо филина или ремеза);</blockquote>
+		<blockquote>уядан бир эркек, үч кыз көргөн Умсунай@@ Умсунай имела (родила) одного мальчика и трёх девочек.</blockquote>
 	</card>
 	<card>
 		<k>уял</k>
+		<pos>inf</pos>
 		<homonym>
 			<pair word="аял" index="1"/>
-			<blockquote>аяд-уял кылбастан не медля, не мешкая.</blockquote>
+			<blockquote>аяд-уял кылбастан@@ не медля, не мешкая.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>стыдиться;</blockquote>
-			<blockquote>менден уялат он меня стыдится;</blockquote>
+			<trn>стыдиться;</trn>
+			<blockquote>менден уялат@@ он меня стыдится;</blockquote>
 			<ex>
 				<source>уялбагандан өзүң уял погов.</source>
 				<target>бессовестного сам стыдись (с бессовестным не связывайся);</target>
@@ -13463,47 +13605,51 @@
 				<source>уялгандан кара жер айрылат (или как жарылат) погов.</source>
 				<target>от стыда земля разверзается (чтобы скрыть чей-л. позор);</target>
 			</ex>
-			<blockquote>уялсаң боло! постыдился бы!;</blockquote>
-			<blockquote>уялбастан без зазрения совести;</blockquote>
-			<blockquote>уялгандан өлгөн жок он готов был умереть от стыда; он только что не умер от стыда (был близок к тому);</blockquote>
-			<blockquote>көзүм уялды я не могу смотреть на свет;</blockquote>
-			<blockquote>эмесе ичип коёюн, колуңуз уялып калбасын да ладно уж, выпью, чтобы не обидеть вашу руку (которая мне подносит).</blockquote>
+			<blockquote>уялсаң боло!@@ постыдился бы!;</blockquote>
+			<blockquote>уялбастан@@ без зазрения совести;</blockquote>
+			<blockquote>уялгандан өлгөн жок@@ он готов был умереть от стыда; он только что не умер от стыда (был близок к тому);</blockquote>
+			<blockquote>көзүм уялды@@ я не могу смотреть на свет;</blockquote>
+			<blockquote>эмесе ичип коёюн, колуңуз уялып калбасын@@ да ладно уж, выпью, чтобы не обидеть вашу руку (которая мне подносит).</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>уяла-</k>
-		<blockquote>гнездиться;</blockquote>
-		<blockquote>оозуңа жылан уялагыр! замолчи ты! (букв. чтоб у тебя во рту змея гнездо завела!).</blockquote>
+		<pos>inf</pos>
+		<trn>гнездиться;</trn>
+		<blockquote>оозуңа жылан уялагыр!@@ замолчи ты! (букв. чтоб у тебя во рту змея гнездо завела!).</blockquote>
 	</card>
 	<card>
 		<k>уялан-</k>
+		<pos>v</pos>
 		<refv word="уяла"/>
-		<blockquote>вить гнездо для себя; устраиваться в гнезде.</blockquote>
+		<trn>вить гнездо для себя; устраиваться в гнезде.</trn>
 	</card>
 	<card>
 		<k>уялаш</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>одного гнезда; одного выводка;</blockquote>
+			<trn>одного гнезда; одного выводка;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>единоутробный;</blockquote>
-			<blockquote>уялаш карындашы его единоутробная младшая сестра;</blockquote>
-			<blockquote>Канчоро менен Күлчорону Каныкей, Семетейге уялаш болсун деп, эмчегин эмизген Каныкей дала пососать свою грудь Канчоро и Кюльчоро, чтобы они стали родными (её сыну) Семетею.</blockquote>
+			<trn>единоутробный;</trn>
+			<blockquote>уялаш карындашы@@ его единоутробная младшая сестра;</blockquote>
+			<blockquote>Канчоро менен Күлчорону Каныкей, Семетейге уялаш болсун деп, эмчегин эмизген@@ Каныкей дала пососать свою грудь Канчоро и Кюльчоро, чтобы они стали родными (её сыну) Семетею.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>уялаштык</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>единоутробность;</blockquote>
+			<trn>единоутробность;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>родственное чувство, родственная забота друг о друге;</blockquote>
+			<trn>родственное чувство, родственная забота друг о друге;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>близкая дружба; сродство душ;</blockquote>
-			<blockquote>мен үчүн Зуннахундан уялаштык боор табылбайт для меня более близкого человека, чем Зуннахун, не найдётся.</blockquote>
+			<trn>близкая дружба; сродство душ;</trn>
+			<blockquote>мен үчүн Зуннахундан уялаштык боор табылбайт@@ для меня более близкого человека, чем Зуннахун, не найдётся.</blockquote>
 		</meaning>
 	</card>
 	<card>
