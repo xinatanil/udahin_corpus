@@ -6781,7 +6781,7 @@
 	</card>
 	<card>
 		<k>уна-</k>
-		<pos>v</pos>
+		<pos>inf</pos>
 		<trn>одобрять, соглашаться.</trn>
 	</card>
 	<card>
@@ -6804,6 +6804,7 @@
 	</card>
 	<card>
 		<k>унаасыз</k>
+		<pos>adj</pos>
 		<trn>не имеющий тягла, рабочего скота;</trn>
 		<ex>
 			<source>унаасыз дыйкандар</source>
@@ -6812,24 +6813,29 @@
 	</card>
 	<card>
 		<k>унал-</k>
+		<pos>v</pos>
 		<refpass word="уна"/>
 	</card>
 	<card>
 		<k>унарву</k>
+		<pos>adj</pos>
 		<meta>южн.</meta>
 		<trn>слабый, немощный.</trn>
 	</card>
 	<card>
 		<k>унат-</k>
+		<pos>caus</pos>
 		<caus word="уна"/>
 		<trn>заставить согласиться; уговорить.</trn>
 	</card>
 	<card>
 		<k>унаш-</k>
+		<pos>v</pos>
 		<recv word="уна"/>
 	</card>
 	<card>
 		<k>уңгу</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>обух; та часть железки (наконечника копья), куда вставляется древко;</trn>
 			<ex>
@@ -6852,6 +6858,7 @@
 	</card>
 	<card>
 		<k>уңгула-</k>
+		<pos>ger</pos>
 		<trn>действовать ловко, пронырливо;</trn>
 		<ex>
 			<source>ал уңгулай берет</source>
@@ -6860,24 +6867,29 @@
 	</card>
 	<card>
 		<k>уңгучул</k>
+		<pos>adj</pos>
 		<trn>пронырливый, изворотливый, ловкий.</trn>
 	</card>
 	<card>
 		<k>уңгучулук</k>
+		<pos>n</pos>
 		<trn>пронырливость, изворотливость, ловкость.</trn>
 	</card>
 	<card>
 		<k>үндүстүр</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="индустрия"/>
 	</card>
 	<card>
 		<k>үндүстүрүлөштүр-</k>
+		<pos>ger</pos>
 		<meta>разг.</meta>
 		<trn>индустриализировать.</trn>
 	</card>
 	<card>
 		<k>үндүү</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>звучный;</trn>
 			<ex>
@@ -6915,6 +6927,7 @@
 	</card>
 	<card>
 		<k>үндө-</k>
+		<pos>ger</pos>
 		<homonym>
 			<meaning>
 				<trn>призывать (гл. обр. ловчую птицу);</trn>
@@ -6955,6 +6968,7 @@
 	</card>
 	<card>
 		<k>үндөк</k>
+		<pos>n</pos>
 		<trn>призыв (ловчей птицы);</trn>
 		<ex>
 			<source>үндөккө келе элек куш</source>
@@ -6963,7 +6977,8 @@
 	</card>
 	<card>
 		<k>үндөн-</k>
-		<ект>уподобляться в отношении голоса, голосом быть похожим на кого-что-л.;</ект>
+		<pos>v</pos>
+		<trn>уподобляться в отношении голоса, голосом быть похожим на кого-что-л.;</trn>
 		<ex>
 			<source>булбулдун үнү үндөнөт</source>
 			<target>голос её похож на голос соловья;</target>
@@ -6979,10 +6994,12 @@
 	</card>
 	<card>
 		<k>үндөнт-</k>
+		<pos>caus</pos>
 		<caus word="үндөн"/>
 	</card>
 	<card>
 		<k>үндөш</k>
+		<pos>adj</pos>
 		<homonym>
 			<trn>созвучный.</trn>
 		</homonym>
@@ -6997,6 +7014,7 @@
 	</card>
 	<card>
 		<k>үндөштүк</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>созвучие;</trn>
 		</meaning>
@@ -7012,10 +7030,12 @@
 	</card>
 	<card>
 		<k>үндөө</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>чернушка (трава).</trn>
 		</homonym>
 		<homonym>
+			<pos>ger</pos>
 			<actionNoun word="үндө" index="1"/>
 			<trn>призыв, воззвание, обращение;</trn>
 			<collocation>
@@ -7027,10 +7047,12 @@
 	</card>
 	<card>
 		<k>унжуй-</k>
+		<pos>adv</pos>
 		<trn>быть угрюмым; нахмуриться, насупиться.</trn>
 	</card>
 	<card>
 		<k>унжуңда-</k>
+		<pos>inf</pos>
 		<trn>понуриться;</trn>
 		<ex>
 			<source>унжуңдап кетип баратат</source>
@@ -7039,10 +7061,12 @@
 	</card>
 	<card>
 		<k>универмаг</k>
+		<pos>n</pos>
 		<trn>универмаг</trn>
 	</card>
 	<card>
 		<k>универсалдуу</k>
+		<pos>adj</pos>
 		<trn>универсальный;</trn>
 		<ex>
 			<source>универсалдуу магазин</source>
@@ -7051,6 +7075,7 @@
 	</card>
 	<card>
 		<k>университет</k>
+		<pos>n</pos>
 		<trn>университет</trn>
 		<ex>
 			<source>университеттик</source>
@@ -7063,10 +7088,12 @@
 	</card>
 	<card>
 		<k>үңкүгүй</k>
+		<pos>adj</pos>
 		<trn>(о человеке) угрюмый; скрытный.</trn>
 	</card>
 	<card>
 		<k>уңкуй-</k>
+		<pos>adv</pos>
 		<trn>понуро склонить голову, принять покорный вид;</trn>
 		<ex>
 			<source>байлоого түшкөн кулдай уңкуюп отурат</source>
@@ -7079,6 +7106,7 @@
 	</card>
 	<card>
 		<k>үңкүй-</k>
+		<pos>adv</pos>
 		<trn>быть в подавленном настроении; понуриться, опустить голову;</trn>
 		<ex>
 			<source>үңкүйүп эле үйдө жатат <i>или</i> үнкүйүп эле үйдө отурат</source>
@@ -7107,18 +7135,22 @@
 	</card>
 	<card>
 		<k>уңкуйт-</k>
+		<pos>caus</pos>
 		<caus word="уңкуй"/>
 	</card>
 	<card>
 		<k>үңкүйүү</k>
+		<pos>ger</pos>
 		<actionNoun word="үңкүй"/>
 	</card>
 	<card>
 		<k>үңкүйүш-</k>
+		<pos>v</pos>
 		<recv word="үнкүй"/>
 	</card>
 	<card>
 		<k>уңкул</k>
+		<pos>adj</pos>
 		<collocation>
 			<k>ункул-чуңкул</k>
 			<sameas word="уңкур-чуңкур"/>
@@ -7131,6 +7163,7 @@
 	</card>
 	<card>
 		<k>уңкур</k>
+		<pos>adj</pos>
 		<collocation>
 			<k>уңкур-чуңкур</k>
 			<trn>покрытый ямами и рытвинами, в ямах и рытвинах.</trn>
@@ -7138,6 +7171,7 @@
 	</card>
 	<card>
 		<k>үңкүр</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>пещера (может быть расположена горизонтально и вертикально); грот;</trn>
 			<ex>
@@ -7166,6 +7200,7 @@
 	</card>
 	<card>
 		<k>үнсүз</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>безголосый, без голоса; беззвучный, без звука;</trn>
 			<collocation>
@@ -7180,6 +7215,7 @@
 	</card>
 	<card>
 		<k>үңү-</k>
+		<pos>inf</pos>
 		<trn>врезаться, врыться во что-л.; пробить, проковырять дыру;</trn>
 		<ex>
 			<source>жерди үңүн кирди</source>
@@ -7192,6 +7228,7 @@
 	</card>
 	<card>
 		<k>үңүл-</k>
+		<pos>v</pos>
 		<refv word="үңү"/>
 		<collocation>
 			<k>үңүлүп кара-</k>
@@ -7217,6 +7254,7 @@
 	</card>
 	<card>
 		<k>уңулда-</k>
+		<pos>inf</pos>
 		<meaning>
 			<trn>издавать тихие повизгивающие звуки (напр. о тихо плачущей и приговаривающей женщине);</trn>
 			<ex>
@@ -7234,6 +7272,7 @@
 	</card>
 	<card>
 		<k>үңүлдө-</k>
+		<pos>v</pos>
 		<trn>звучать глухо и печально;</trn>
 		<ex>
 			<source>үңүлдөп ыйлайт</source>
@@ -7246,10 +7285,12 @@
 	</card>
 	<card>
 		<k>үңүлүш-</k>
+		<pos>v</pos>
 		<recv word="үңүл"/>
 	</card>
 	<card>
 		<k>үңүрөй-</k>
+		<pos>v</pos>
 		<trn>зиять; иметь вид пещеры;</trn>
 		<ex>
 			<source>үнүройгөн үңкүр</source>
@@ -7270,6 +7311,7 @@
 	</card>
 	<card>
 		<k>үңүрөкөй</k>
+		<pos>adj</pos>
 		<trn>зияющий; имеющий вид пещеры, открытого отверстия;</trn>
 		<ex>
 			<source>үңүрөкөйгө - теңирекей</source>
@@ -7278,6 +7320,7 @@
 	</card>
 	<card>
 		<k>үңүрөңдө-</k>
+		<pos>inf</pos>
 		<meaning>
 			<trn>двигаться, издавая страшный грохот;</trn>
 			<ex>
@@ -7300,6 +7343,7 @@
 	</card>
 	<card>
 		<k>унут</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>забвение; забытость;</trn>
 			<ex>
@@ -7329,6 +7373,7 @@
 	</card>
 	<card>
 		<k>унуткар-</k>
+		<pos>inf</pos>
 		<meaning>
 			<trn>делать вид, что забыл;</trn>
 			<ex>
@@ -7342,18 +7387,22 @@
 	</card>
 	<card>
 		<k>унуткаруу</k>
+		<pos>ger</pos>
 		<actionNoun word="унуткар"/>
 	</card>
 	<card>
 		<k>унуткарыл-</k>
+		<pos>v</pos>
 		<pass word="унуткар"/>
 	</card>
 	<card>
 		<k>унуткус</k>
+		<pos>adj</pos>
 		<trn>незабываемый.</trn>
 	</card>
 	<card>
 		<k>унутма</k>
+		<pos>n</pos>
 		<trn>забывчивость;</trn>
 		<ex>
 			<source>унутма тийген! <i>или</i> унутма тийгир!</source>
@@ -7362,6 +7411,7 @@
 	</card>
 	<card>
 		<k>унуттур-</k>
+		<pos>caus</pos>
 		<caus word="унут" index="2"/>
 		<ex>
 			<source>Каныбектин кайгысын унуттуруп, көңүлүн ачмакчы болот</source>
@@ -7374,6 +7424,7 @@
 	</card>
 	<card>
 		<k>унутул-</k>
+		<pos>v</pos>
 		<refpass word="унут" index="2"/>
 		<trn>быть забытым;</trn>
 		<ex>
@@ -7383,6 +7434,7 @@
 	</card>
 	<card>
 		<k>унутулгус</k>
+		<pos>adj</pos>
 		<trn>незабываемый;</trn>
 		<ex>
 			<source>унутулгус таасир</source>
@@ -7391,6 +7443,7 @@
 	</card>
 	<card>
 		<k>унутуу</k>
+		<pos>ger</pos>
 		<actionNoun word="унут" index="2"/>
 		<ex>
 			<source>унутуу жарабайт</source>
@@ -7399,6 +7452,7 @@
 	</card>
 	<card>
 		<k>унутуш-</k>
+		<pos>v</pos>
 		<recv word="унут" index="2"/>
 		<ex>
 			<source>өткөн-кеткенди унутушалык</source>
@@ -7407,22 +7461,27 @@
 	</card>
 	<card>
 		<k>унутчаак</k>
+		<pos>adj</pos>
 		<trn>забывчивый, беспамятный.</trn>
 	</card>
 	<card>
 		<k>унутчаактык</k>
+		<pos>n</pos>
 		<trn>забывчивость.</trn>
 	</card>
 	<card>
 		<k>үңүш-</k>
+		<pos>v</pos>
 		<recv word="үңү"/>
 	</card>
 	<card>
 		<k>унчугуш-</k>
+		<pos>v</pos>
 		<recv word="унчук"/>
 	</card>
 	<card>
 		<k>унчук-</k>
+		<pos>inf</pos>
 		<trn>подавать голос, издавать звук;</trn>
 		<ex>
 			<source>көп унчукпайт, сөзгө жок</source>
@@ -7456,6 +7515,7 @@
 	</card>
 	<card>
 		<k>унчуктур-</k>
+		<pos>caus</pos>
 		<caus word="унчук"/>
 		<ex>
 			<source>аны унчуктурбай таштады <i>или</i> аны унчуктурбай салды</source>
@@ -7464,6 +7524,7 @@
 	</card>
 	<card>
 		<k>уңшу-</k>
+		<pos>inf</pos>
 		<trn>издавать заунывные и протяжные звуки;</trn>
 		<ex>
 			<source>уңшуган үн</source>
@@ -7476,14 +7537,17 @@
 	</card>
 	<card>
 		<k>уңшуй-</k>
+		<pos>adv</pos>
 		<sameas word="уңкуй"/>
 	</card>
 	<card>
 		<k>үңшүй-</k>
+		<pos>adv</pos>
 		<sameas word="үңкүй"/>
 	</card>
 	<card>
 		<k>үнө</k>
+		<pos>n</pos>
 		<collocation>
 			<k>үнө бою</k>
 			<trn>весь его стан; всё его существо;</trn>
@@ -7495,6 +7559,7 @@
 	</card>
 	<card>
 		<k>үнөм</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>экономия;</trn>
 			<ex>
@@ -7532,6 +7597,7 @@
 	</card>
 	<card>
 		<k>үнөмдүк</k>
+		<pos>n</pos>
 		<trn>экономность;</trn>
 		<ex>
 			<source>үнөмдүк менен</source>
@@ -7540,6 +7606,7 @@
 	</card>
 	<card>
 		<k>үнөмдүү</k>
+		<pos>adv</pos>
 		<trn>с экономией, экономно;</trn>
 		<ex>
 			<source>сууну үнөмдүү пайдаланалы</source>
@@ -7548,10 +7615,12 @@
 	</card>
 	<card>
 		<k>үнөмдө-</k>
+		<pos>inf</pos>
 		<trn>экономить.</trn>
 	</card>
 	<card>
 		<k>үнөмдөө-</k>
+		<pos>ger</pos>
 		<actionNoun word="үнөмдө"/>
 		<trn>экономия;</trn>
 		<ex>
@@ -7561,6 +7630,7 @@
 	</card>
 	<card>
 		<k>үп</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>драгоценная (лучшая) часть домашней утвари одежды; драгоценности, сокровища;</trn>
 			<ex>
@@ -7649,6 +7719,7 @@
 	</card>
 	<card>
 		<k>упа</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>белила (косметические); пудра;</trn>
 			<collocation>
@@ -7670,22 +7741,27 @@
 	</card>
 	<card>
 		<k>упай</k>
+		<pos>n</pos>
 		<trn>название игры в альчики: играют двое: окчу (см.) и кийикчи (см.).</trn>
 	</card>
 	<card>
 		<k>упала-</k>
+		<pos>inf</pos>
 		<trn>натирать белилами (лицо); пудрить.</trn>
 	</card>
 	<card>
 		<k>упалат-</k>
+		<pos>caus</pos>
 		<caus word="упала"/>
 	</card>
 	<card>
 		<k>упалоо</k>
+		<pos>ger</pos>
 		<actionNoun word="упала"/>
 	</card>
 	<card>
 		<k>упалуу</k>
+		<pos>adj</pos>
 		<trn>(о лице) натёртый белилами, набелённый;</trn>
 		<collocation>
 			<k>упалуу бет</k>
@@ -7703,10 +7779,12 @@
 	</card>
 	<card>
 		<k>упасыз</k>
+		<pos>adj</pos>
 		<sameas word="опаасыз"/>
 	</card>
 	<card>
 		<k>упат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>разрушение, гибель;</trn>
 		<ex>
@@ -7720,15 +7798,18 @@
 	</card>
 	<card>
 		<k>уполномочун</k>
+		<pos>adj</pos>
 		<origin>р.</origin>
 		<trn>уполномоченный.</trn>
 	</card>
 	<card>
 		<k>үпсүй-</k>
+		<pos>adv</pos>
 		<sameas word="үксүй"/>
 	</card>
 	<card>
 		<k>упта-</k>
+		<pos>inf</pos>
 		<trn>смешивать толокно с молоком, со сливками или с жиром;</trn>
 		<ex>
 			<source>талканды майга уптап жедим</source>
@@ -7741,10 +7822,12 @@
 	</card>
 	<card>
 		<k>уптат-</k>
+		<pos>caus</pos>
 		<caus word="упта"/>
 	</card>
 	<card>
 		<k>үптө-</k>
+		<pos>inf</pos>
 		<trn>прибирать, приводить в порядок;</trn>
 		<ex>
 			<source>байдын үбүн үптөп, жүгүн жүктөп</source>
@@ -7761,6 +7844,7 @@
 	</card>
 	<card>
 		<k>үптөт-</k>
+		<pos>caus</pos>
 		<caus word="үптө"/>
 		<ex>
 			<source>тулпардын баарысын үртүк менен үптөтүп фольк.</source>
@@ -7769,6 +7853,7 @@
 	</card>
 	<card>
 		<k>үпү</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="үпүп"/>
 		</homonym>
@@ -7786,6 +7871,7 @@
 	</card>
 	<card>
 		<k>үпүкө</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<trn>опойковый; опойковые сапоги;</trn>
 		<ex>
@@ -7795,15 +7881,18 @@
 	</card>
 	<card>
 		<k>үпүлмалик</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>название растения.</trn>
 	</card>
 	<card>
 		<k>упуң</k>
+		<pos>adv</pos>
 		<pair word="апың" index="2"/>
 	</card>
 	<card>
 		<k>үпүп</k>
+		<pos>n</pos>
 		<meta>(или сасык үпүп; см. үп III)</meta>
 		<trn>удод, потатуйка;</trn>
 		<ex>
@@ -7817,6 +7906,7 @@
 	</card>
 	<card>
 		<k>упура-</k>
+		<pos>inf</pos>
 		<trn>разбиваться на мелкие крупинки;</trn>
 		<ex>
 			<source>аттын тизесинен упураган курагак кар</source>
@@ -7825,6 +7915,7 @@
 	</card>
 	<card>
 		<k>упурак</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>размельчённый, мелкий;</trn>
 		</meaning>
@@ -7843,6 +7934,7 @@
 	</card>
 	<card>
 		<k>упурат-</k>
+		<pos>caus</pos>
 		<caus word="упура"/>
 		<ex>
 			<source>сөзүмдү упуратпа</source>
@@ -7851,6 +7943,7 @@
 	</card>
 	<card>
 		<k>упчу</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>соска;</trn>
 		</meaning>
@@ -7865,6 +7958,7 @@
 	</card>
 	<card>
 		<k>үпчү</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>тесёмки, пришиваемые к одежде (вместо пуговиц);</trn>
@@ -7887,6 +7981,7 @@
 	</card>
 	<card>
 		<k>үпчүлүү</k>
+		<pos>adv</pos>
 		<meaning>
 			<trn>(об одежде) на завязках (вместо пуговиц);</trn>
 		</meaning>
@@ -7900,6 +7995,7 @@
 	</card>
 	<card>
 		<k>үпчүлө-</k>
+		<pos>inf</pos>
 		<meaning>
 			<trn>завязывать одежду завязками (см. үпчү I);</trn>
 		</meaning>
@@ -7921,6 +8017,7 @@
 	</card>
 	<card>
 		<k>үпчүн</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>(в эпосе) название военных доспехов;</trn>
 			<ex>
@@ -7934,6 +8031,7 @@
 	</card>
 	<card>
 		<k>үпчүндө-</k>
+		<pos>v</pos>
 		<trn>покрыть (коня) роскошной попоной;</trn>
 		<ex>
 			<source>кара атты Жаңыл үпчүндөп, минип турган кезинде стих.</source>
@@ -7942,6 +8040,7 @@
 	</card>
 	<card>
 		<k>ур</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>нарост, наплыв, гриб (на дереве);</trn>
 			<ex>
@@ -8161,6 +8260,7 @@
 	</card>
 	<card>
 		<k>үр</k>
+		<pos>inf</pos>
 		<homonym>
 			<sameas word="ур" index="2"/>
 		</homonym>
@@ -8182,6 +8282,7 @@
 	</card>
 	<card>
 		<k>ура</k>
+		<pos>inf</pos>
 		<homonym>
 			<sameas word="ураа"/>
 		</homonym>
@@ -8217,10 +8318,12 @@
 	</card>
 	<card>
 		<k>ураа</k>
+		<pos>ideo</pos>
 		<trn>ура</trn>
 	</card>
 	<card>
 		<k>ураала-</k>
+		<pos>inf</pos>
 		<trn>кричать "ура";</trn>
 		<collocation>
 			<k>ураалап көтөр-</k>
