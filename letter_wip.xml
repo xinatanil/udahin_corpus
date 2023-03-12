@@ -8126,10 +8126,12 @@
 	</card>
 	<card>
 		<k>ураалаш-</k>
+		<pos>v</pos>
 		<recv word="ураала"/>
 	</card>
 	<card>
 		<k>ураан</k>
+		<pos>n</pos>
 		<meaning>
 			<meta>ист.</meta>
 			<trn>уран, боевой клич (своего рода пароль; были ураны: общенародный, у каждого племени, у каждого рода и даже у каждого мелкого подразделения; общекиргизский уран - кыргыз, общеказахский - алаш; по выкрикиваемому урану узнавали своих);</trn>
@@ -8184,6 +8186,7 @@
 	</card>
 	<card>
 		<k>ураандаш-</k>
+		<pos>v</pos>
 		<meaning>
 			<meta>ист.</meta>
 			<trn>совместно издать один и тот же боевой клич;</trn>
@@ -8198,10 +8201,12 @@
 	</card>
 	<card>
 		<k>ураанчыл</k>
+		<pos>adj</pos>
 		<trn>патриот своего племени, рода, родовой группы.</trn>
 	</card>
 	<card>
 		<k>урал-</k>
+		<pos>np</pos>
 		<pass word="ура" index="2"/>
 		<ex>
 			<source>уралбас бирдиктүүлүк</source>
@@ -8210,10 +8215,12 @@
 	</card>
 	<card>
 		<k>урала-</k>
+		<pos>n</pos>
 		<sameas word="ураала"/>
 	</card>
 	<card>
 		<k>уралгыс</k>
+		<pos>adj</pos>
 		<trn>нерушимый, прочный;</trn>
 		<ex>
 			<source>уралгыс бакыт</source>
@@ -8222,28 +8229,34 @@
 	</card>
 	<card>
 		<k>урамал</k>
+		<pos>n</pos>
 		<trn>разруха, развал.</trn>
 	</card>
 	<card>
 		<k>уранды</k>
+		<pos>n</pos>
 		<trn>развалины.</trn>
 	</card>
 	<card>
 		<k>урат-</k>
+		<pos>v</pos>
 		<caus word="ура" index="2"/>
 		<trn>разрушать, разваливать; свалить (напр. человека с яра).</trn>
 	</card>
 	<card>
 		<k>ураттыр-</k>
+		<pos>v</pos>
 		<caus word="урат"/>
 	</card>
 	<card>
 		<k>уратуу</k>
+		<pos>n</pos>
 		<actionNoun word="урат"/>
 		<trn>разрушение, превращение в развалины.</trn>
 	</card>
 	<card>
 		<k>урбер</k>
+		<pos>n</pos>
 		<collocation>
 			<k>ур-берге ал-</k>
 			<look word="ур" index="4"/>
@@ -8251,10 +8264,12 @@
 	</card>
 	<card>
 		<k>ургаал</k>
+		<pos>n</pos>
 		<trn>напряжённость, интенсивность.</trn>
 	</card>
 	<card>
 		<k>ургаалдуу</k>
+		<pos>adj</pos>
 		<trn>напряжённый, интенсивный;</trn>
 		<ex>
 			<source>ургаалдуу түрдө иште-</source>
@@ -8263,6 +8278,7 @@
 	</card>
 	<card>
 		<k>ургаачы</k>
+		<pos>n</pos>
 		<meta>(ср. эркек)</meta>
 		<meaning>
 			<trn>живое существо женского пола; самка (любого животного, птицы и т.п.);</trn>
@@ -8290,11 +8306,13 @@
 	</card>
 	<card>
 		<k>ургаачылык</k>
+		<pos>n</pos>
 		<abstract word="ургаачы"/>
 		<trn>свойства живого существа женского пола.</trn>
 	</card>
 	<card>
 		<k>ургу</k>
+		<pos>n</pos>
 		<trn>(в эпосе) шомпол;</trn>
 		<ex>
 			<source>кыргы менен кыргылап, ургу менен ургулап фольк.</source>
@@ -8303,10 +8321,12 @@
 	</card>
 	<card>
 		<k>үргү-</k>
+		<pos>v</pos>
 		<trn>споткнувшись, быть вот-вот готовым упасть.</trn>
 	</card>
 	<card>
 		<k>ургуз-</k>
+		<pos>caus</pos>
 		<caus word="ур" index="4"/>
 		<ex>
 			<source>жуучуга келген кыргызды, журтуна атам ургузду фольк.</source>
@@ -8315,6 +8335,7 @@
 	</card>
 	<card>
 		<k>үргүз-</k>
+		<pos>caus</pos>
 		<caus word="үр" index="2"/>
 		<trn>вызывать лай;</trn>
 		<ex>
@@ -8324,6 +8345,7 @@
 	</card>
 	<card>
 		<k>үргүл-</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
 		<sameas word="үйрүл"/>
 		<collocation>
@@ -8333,11 +8355,13 @@
 	</card>
 	<card>
 		<k>ургула-</k>
+		<pos>v</pos>
 		<iter word="ур" index="4"/>
 		<trn>бить повторно, бить несколько раз.</trn>
 	</card>
 	<card>
 		<k>ургулан-</k>
+		<pos>v</pos>
 		<refv word="ургула"/>
 		<ex>
 			<source>тоого ташка ургуландың</source>
@@ -8346,11 +8370,13 @@
 	</card>
 	<card>
 		<k>үргүлдө-</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
 		<sameas word="үргүлө"/>
 	</card>
 	<card>
 		<k>үргүлжү</k>
+		<pos>prn</pos>
 		<meta>южн.</meta>
 		<trn>все; скопом; оптом;</trn>
 		<ex>
@@ -8368,6 +8394,7 @@
 	</card>
 	<card>
 		<k>үргүлт-</k>
+		<pos>v</pos>
 		<sameas word="үйрүлт"/>
 		<ex>
 			<source>жылкыны кайрып алыптыр, үргүлтүп айдап жүрө албай, үч баатыр анда калыптыр фольк.</source>
@@ -8376,10 +8403,12 @@
 	</card>
 	<card>
 		<k>үргүлө-</k>
+		<pos>v</pos>
 		<trn>дремать; быть в полусонном состоянии; клевать носом.</trn>
 	</card>
 	<card>
 		<k>үргүлөгөнсү-</k>
+		<pos>v</pos>
 		<similative word="үргүлө"/>
 		<trn>как бы дремать, подрёмывать;</trn>
 		<ex>
@@ -8389,6 +8418,7 @@
 	</card>
 	<card>
 		<k>үргүлөңкүрө-</k>
+		<pos>v</pos>
 		<trn>слегка дремать, подрёмывать;</trn>
 		<ex>
 			<source>уйкуга мас болгондой саал үргүлөңкүрөп отурду</source>
@@ -8397,6 +8427,7 @@
 	</card>
 	<card>
 		<k>үргүлөт-</k>
+		<pos>caus</pos>
 		<caus word="үргүлө"/>
 		<trn>нагонять дремоту;</trn>
 		<ex>
@@ -8406,10 +8437,12 @@
 	</card>
 	<card>
 		<k>үргүлөтүү</k>
+		<pos>subs</pos>
 		<actionNoun word="үргүлөт"/>
 	</card>
 	<card>
 		<k>үргүлөө</k>
+		<pos>inf</pos>
 		<actionNoun word="үргүлө"/>
 		<ex>
 			<source>ат үстүндө үргүлөөгө кирди</source>
@@ -8418,6 +8451,7 @@
 	</card>
 	<card>
 		<k>ургун</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>чуйск.</meta>
 			<trn>плечевое сочленение.</trn>
@@ -8429,16 +8463,19 @@
 	</card>
 	<card>
 		<k>үргөн-</k>
+		<pos>adv</pos>
 		<meta>южн.</meta>
 		<sameas word="үйрөн"/>
 	</card>
 	<card>
 		<k>урда-</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
 		<sameas word="уурда"/>
 	</card>
 	<card>
 		<k>урдур-</k>
+		<pos>v</pos>
 		<caus word="ур" index="4"/>
 		<trn>заставить ударить, заставить бить; допустить, чтобы побили, оказаться побитым;</trn>
 		<ex>
@@ -8473,6 +8510,7 @@
 	</card>
 	<card>
 		<k>үрдүр-</k>
+		<pos>v</pos>
 		<sameas word="үргүз"/>
 		<ex>
 			<source>тышка киши чыгарбай, иттерди атып, үрдүрбөй стих.</source>
@@ -8481,6 +8519,7 @@
 	</card>
 	<card>
 		<k>урдуу</k>
+		<pos>adj</pos>
 		<sameas word="нурдуу"/>
 		<ex>
 			<source>ургаачынын урдуусу фольк.</source>
@@ -8489,6 +8528,7 @@
 	</card>
 	<card>
 		<k>урк</k>
+		<pos>n</pos>
 		<sameas word="урук" index="2" subindex="4"/>
 		<trn>род, племя;</trn>
 		<ex>
@@ -8498,6 +8538,7 @@
 	</card>
 	<card>
 		<k>үрк-</k>
+		<pos>v</pos>
 		<trn>пугаться, в страхе шарахаться;</trn>
 		<ex>
 			<source>кой үрктү</source>
@@ -8522,10 +8563,12 @@
 	</card>
 	<card>
 		<k>уркугуй</k>
+		<pos>n</pos>
 		<trn>выпирающий, выдающийся углом, острым концом.</trn>
 	</card>
 	<card>
 		<k>уркуй-</k>
+		<pos>v</pos>
 		<trn>выпятиться, выдаваться углом, острым концом;</trn>
 		<ex>
 			<source>аки бетинин сөөгү уркуйган</source>
@@ -8538,6 +8581,7 @@
 	</card>
 	<card>
 		<k>үркүн</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>переполох, сумятица, смятение, массовое беспорядочное бегство (так называют конец жестоко подавленного киргизского восстания 1916 г. и бегство киргизов в Китай);</trn>
@@ -8564,10 +8608,12 @@
 	</card>
 	<card>
 		<k>үркүнчөк</k>
+		<pos>adj</pos>
 		<trn>пугливый, шарахающийся с перепугу.</trn>
 	</card>
 	<card>
 		<k>үркүт</k>
+		<pos>v</pos>
 		<homonym>
 			<sameas word="үртүк"/>
 		</homonym>
@@ -8598,14 +8644,17 @@
 	</card>
 	<card>
 		<k>үркүтүү</k>
+		<pos>v</pos>
 		<actionNoun word="үркүт" index="2"/>
 	</card>
 	<card>
 		<k>үркүү</k>
+		<pos>v</pos>
 		<actionNoun word="үрк"/>
 	</card>
 	<card>
 		<k>Үркөр</k>
+		<pos>n</pos>
 		<trn>Плеяды (созвездие);</trn>
 		<ex>
 			<source>Үркөр кулжа айынын биринде кулпуга кирет; текенин онунда чыгат</source>
@@ -8658,10 +8707,12 @@
 	</card>
 	<card>
 		<k>урлуу</k>
+		<pos>adj</pos>
 		<sameas word="нурлуу"/>
 	</card>
 	<card>
 		<k>урма</k>
+		<pos>adj</pos>
 		<collocation>
 			<k>урма суу</k>
 			<trn>быстрая вода, быстрая река;</trn>
@@ -8685,6 +8736,7 @@
 	</card>
 	<card>
 		<k>урмай</k>
+		<pos>n</pos>
 		<collocation>
 			<k>урмай уруу</k>
 			<trn>южн. игра в ножички (мальчики бросают свои ножи; выигрывает тот, чей нож, воткнувшись в землю, встанет рукояткой вверх).</trn>
@@ -8692,6 +8744,7 @@
 	</card>
 	<card>
 		<k>урмат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>почёт, уважение, почести;</trn>
 		<ex>
@@ -8721,18 +8774,22 @@
 	</card>
 	<card>
 		<k>урматсыз</k>
+		<pos>n</pos>
 		<trn>непочтительный.</trn>
 	</card>
 	<card>
 		<k>урматсыздык</k>
+		<pos>n</pos>
 		<trn>непочтительность.</trn>
 	</card>
 	<card>
 		<k>урматта-</k>
+		<pos>v</pos>
 		<trn>чтить, уважать, оказывать почести.</trn>
 	</card>
 	<card>
 		<k>урматташ-</k>
+		<pos>v</pos>
 		<recv word="урматта"/>
 		<ex>
 			<source>баары аны урматташат</source>
@@ -8741,11 +8798,13 @@
 	</card>
 	<card>
 		<k>урматтоо</k>
+		<pos>v</pos>
 		<actionNoun word="урматта"/>
 		<trn>оказание почестей; почёт, уважение.</trn>
 	</card>
 	<card>
 		<k>урматтуу</k>
+		<pos>adj</pos>
 		<trn>уважаемый, чтимый;</trn>
 		<collocation>
 			<k>эң жогорку урматтуу</k>
@@ -8755,16 +8814,19 @@
 	</card>
 	<card>
 		<k>урна</k>
+		<pos>n</pos>
 		<meta>в разн. знач.</meta>
 		<trn>урна</trn>
 	</card>
 	<card>
 		<k>урол</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="роль"/>
 	</card>
 	<card>
 		<k>урп</k>
+		<pos>n</pos>
 		<collocation>
 			<k>урп-адат</k>
 			<blockquote>то же, что үрп-адат (см. үрп III).</blockquote>
@@ -8772,6 +8834,7 @@
 	</card>
 	<card>
 		<k>үрп</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>осадок кумыса на стенках бурдюка (идёт на кумысную закваску); сгустки свернувшегося кумыса.</trn>
 		</homonym>
@@ -8798,6 +8861,7 @@
 	</card>
 	<card>
 		<k>урпак</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>отруби;</trn>
 		</meaning>
@@ -8812,14 +8876,17 @@
 	</card>
 	<card>
 		<k>үрпүгүй</k>
+		<pos>n</pos>
 		<sameas word="үрпөгөй"/>
 	</card>
 	<card>
 		<k>үрпүй-</k>
+		<pos>v</pos>
 		<sameas word="үрпөй"/>
 	</card>
 	<card>
 		<k>үрпүйт-</k>
+		<pos>prn</pos>
 		<sameas word="үрпөйт"/>
 		<collocation>
 			<k>жүн үрпүйт-</k>
@@ -8828,14 +8895,17 @@
 	</card>
 	<card>
 		<k>үрпүйтүү</k>
+		<pos>v</pos>
 		<actionNoun word="үрпүйт"/>
 	</card>
 	<card>
 		<k>үрпүйүү</k>
+		<pos>v</pos>
 		<actionNoun word="үрпүй"/>
 	</card>
 	<card>
 		<k>үрпүйө</k>
+		<pos>n</pos>
 		<meta>инд.</meta>
 		<meta>южн.</meta>
 		<meta>уст.</meta>
@@ -8843,6 +8913,7 @@
 	</card>
 	<card>
 		<k>үрпөгөй</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>(о волосах) косматый;</trn>
 			<ex>
@@ -8860,6 +8931,7 @@
 	</card>
 	<card>
 		<k>үрпөй-</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>нахохлиться, ошетиниться;</trn>
 			<ex>
@@ -8878,6 +8950,7 @@
 	</card>
 	<card>
 		<k>үрпөйт-</k>
+		<pos>prn</pos>
 		<caus word="үрпөй"/>
 		<ex>
 			<source>карышкыр арыктыгын билдирбей, итке жонун үрпөйтөт погов.</source>
@@ -8886,6 +8959,7 @@
 	</card>
 	<card>
 		<k>үрпөйүңкү</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>слегка нахохлившийся;</trn>
 		</meaning>
@@ -8899,6 +8973,7 @@
 	</card>
 	<card>
 		<k>үрпөк</k>
+		<pos>adj</pos>
 		<trn>нахохлившийся, взъерошенный;</trn>
 		<ex>
 			<source>үрпөк чач</source>
@@ -8920,15 +8995,18 @@
 	</card>
 	<card>
 		<k>үрпөкбаш</k>
+		<pos>n</pos>
 		<sameas word="үрпөк баш"/>
 		<look word="үрпөк"/>
 	</card>
 	<card>
 		<k>үрпөктөш-</k>
+		<pos>v</pos>
 		<sameas word="үрпөңдөш"/>
 	</card>
 	<card>
 		<k>үрпөңдө-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>нахохлиться, ощетиниться (находясь в движении);</trn>
 		</meaning>
@@ -8943,6 +9021,7 @@
 	</card>
 	<card>
 		<k>үрпөңдөш-</k>
+		<pos.v</card>
 		<recv word="үрпөңдө"/>
 		<ex>
 			<source>не үрпөңдөштүңөр</source>
@@ -8951,6 +9030,7 @@
 	</card>
 	<card>
 		<k>үрт-</k>
+		<pos>n</pos>
 		<collocation>
 			<k>арткан-үрткөн</k>
 			<trn>остатки, объедки;</trn>
@@ -8962,10 +9042,12 @@
 	</card>
 	<card>
 		<k>уртокмок</k>
+		<pos>n</pos>
 		<blockquote>то же, что ур токмок (см. токмок).</blockquote>
 	</card>
 	<card>
 		<k>үртүк</k>
+		<pos>n</pos>
 		<trn>дорогая попона с украшениями;</trn>
 		<ex>
 			<source>алтын, күмүш, абайы - кыз келиндин үртүгү стих.</source>
@@ -8974,6 +9056,7 @@
 	</card>
 	<card>
 		<k>үртүктө-</k>
+		<pos>v</pos>
 		<trn>покрывать дорогой попоной с украшениями;</trn>
 		<ex>
 			<source>үртүктөгөн күлүктөр</source>
@@ -8986,6 +9069,7 @@
 	</card>
 	<card>
 		<k>уруй</k>
+		<pos>v</pos>
 		<homonym>
 			<sameas word="урук" index="1"/>
 		</homonym>
@@ -8995,6 +9079,7 @@
 	</card>
 	<card>
 		<k>урук</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<trn>дух;</trn>
@@ -9057,6 +9142,7 @@
 	</card>
 	<card>
 		<k>уруксат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>разрешение, позволение;</trn>
 		<collocation>
@@ -9074,25 +9160,30 @@
 	</card>
 	<card>
 		<k>уруксатсыз</k>
+		<pos>n</pos>
 		<trn>без спроса, без разрешения.</trn>
 	</card>
 	<card>
 		<k>уруктал-</k>
+		<pos>v</pos>
 		<trn>размножаться, плодиться.</trn>
 	</card>
 	<card>
 		<k>уруктан-</k>
+		<pos>v</pos>
 		<meta>с.-х.</meta>
 		<trn>осеменяться.</trn>
 	</card>
 	<card>
 		<k>уруктандыр-</k>
+		<pos>cop</pos>
 		<caus word="уруктан"/>
 		<meta>с.-х.</meta>
 		<trn>осеменять.</trn>
 	</card>
 	<card>
 		<k>уруктандыруу</k>
+		<pos>caus</pos>
 		<actionNoun word="уруктандыр"/>
 		<meta>с.-х.</meta>
 		<trn>осеменение;</trn>
@@ -9103,6 +9194,7 @@
 	</card>
 	<card>
 		<k>уруктандырыл-</k>
+		<pos>v</pos>
 		<pass word="уруктандыр"/>
 		<ex>
 			<source>эгерде күүлөгөнү болсо, экинчи жолу уруктандырылат</source>
@@ -9111,16 +9203,19 @@
 	</card>
 	<card>
 		<k>уруктануу</k>
+		<pos>v</pos>
 		<actionNoun word="уруктан"/>
 		<meta>с.-х.</meta>
 		<trn>восприятие осеменения.</trn>
 	</card>
 	<card>
 		<k>уруктат-</k>
+		<pos>caus</pos>
 		<trn>расплодить; размножить.</trn>
 	</card>
 	<card>
 		<k>урукташ</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>соплеменник; одного с кем-л. рода, племени;</trn>
 			<ex>
@@ -9139,14 +9234,17 @@
 	</card>
 	<card>
 		<k>урукташтыр-</k>
+		<pos>v</pos>
 		<sameas word="уруктандыр"/>
 	</card>
 	<card>
 		<k>урукташтырыл-</k>
+		<pos>v</pos>
 		<sameas word="уруктандырыл"/>
 	</card>
 	<card>
 		<k>уруктук</k>
+		<pos>adj</pos>
 		<trn>семенной;</trn>
 		<ex>
 			<source>уруктук кызылча</source>
@@ -9155,6 +9253,7 @@
 	</card>
 	<card>
 		<k>урукчулдук</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>родовые отношения;</trn>
 			<ex>
@@ -9168,10 +9267,12 @@
 	</card>
 	<card>
 		<k>урукчулук</k>
+		<pos>n</pos>
 		<look word="урукчулдук"/>
 	</card>
 	<card>
 		<k>урул-</k>
+		<pos>v</pos>
 		<pass word="ур" index="4"/>
 		<ex>
 			<source>кызыл кулактарга катуу сокку урулду</source>
@@ -9184,6 +9285,7 @@
 	</card>
 	<card>
 		<k>үрүл</k>
+		<pos>n</pos>
 		<collocation>
 			<k>үрүл-бүрүл</k>
 			<look word="бүрүл"/>
@@ -9191,6 +9293,7 @@
 	</card>
 	<card>
 		<k>үрүлдө-</k>
+		<pos>v</pos>
 		<trn>рычать; ворчать.</trn>
 	</card>
 	<card>
