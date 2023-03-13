@@ -14885,12 +14885,12 @@
 	<card>
 		<k>уялгансы-</k>
 		<similative word="уял" index="2"/>
-		<blockquote>делать вид, что стыдишься; как бы стыдиться.</blockquote>
+		<trn>делать вид, что стыдишься; как бы стыдиться.</trn>
 	</card>
 	<card>
 		<k>уялт-</k>
 		<caus word="уял" index="2"/>
-		<blockquote>устыдить, осрамить; поставить в неловкое положение;</blockquote>
+		<trn>устыдить, осрамить; поставить в неловкое положение;</trn>
 		<ex>
 			<source>аш кадырын билбеген үй ээсин уялтат погов.</source>
 			<target>кто в пище толку не понимает, тот ставит хозяина дома в неловкое положение;</target>
@@ -14899,9 +14899,18 @@
 			<source>бербегенди берип уялт погов.</source>
 			<target>дай тому, кто не дал, и (тем) устыди;</target>
 		</ex>
-		<blockquote>күн көздү уялтат солнце режет, слепит глаза;</blockquote>
-		<blockquote>көз уялткан нур ослепительный свет;</blockquote>
-		<blockquote>агарган кары, жалтыраган музу көздү уялтат блестящий снег и сверкающий лёд слепят глаза.</blockquote>
+		<ex>
+			<source>күн көздү уялтат</source>
+			<target>солнце режет, слепит глаза;</target>
+		</ex>
+		<ex>
+			<source>көз уялткан нур</source>
+			<target>ослепительный свет;</target>
+		</ex>
+		<ex>
+			<source>агарган кары, жалтыраган музу көздү уялтат</source>
+			<target>блестящий снег и сверкающий лёд слепят глаза.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уялтуу</k>
@@ -14911,13 +14920,19 @@
 		<k>уялуу</k>
 		<homonym>
 			<meaning>
-				<blockquote>имеющий логово, берлогу, гнездо;</blockquote>
+				<trn>имеющий логово, берлогу, гнездо;</trn>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>многочисленный;</blockquote>
-				<blockquote>уялуу журт могучий народ;</blockquote>
-				<blockquote>уялуу бугу олень (самец), имеющий многочисленное потомство.</blockquote>
+				<trn>многочисленный;</trn>
+				<ex>
+					<source>уялуу журт</source>
+					<target>могучий народ;</target>
+				</ex>
+				<ex>
+					<source>уялуу бугу</source>
+					<target>олень (самец), имеющий многочисленное потомство.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -14926,78 +14941,156 @@
 	</card>
 	<card>
 		<k>уялчаак</k>
-		<blockquote>стыдливый, застенчивый.</blockquote>
+		<trn>стыдливый, застенчивый.</trn>
 	</card>
 	<card>
 		<k>уялчаактык</k>
-		<blockquote>стыдливость, застенчивость.</blockquote>
+		<trn>стыдливость, застенчивость.</trn>
 	</card>
 	<card>
 		<k>уялыңкы</k>
-		<blockquote>слегка смутившийся, немного устыдившийся; сконфузившийся;</blockquote>
-		<blockquote>уялыңкы тартып калды он немного сконфузился.</blockquote>
+		<trn>слегка смутившийся, немного устыдившийся; сконфузившийся;</trn>
+		<ex>
+			<source>уялыңкы тартып калды</source>
+			<target>он немного сконфузился.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уялыңкыра-</k>
-		<blockquote>слегка смущаться, немного стыдиться;</blockquote>
-		<blockquote>Каныбек акыркы сөзүн уялыңкырап сүйлөдү последние слова Каныбек сказал, слегка смутившись;</blockquote>
-		<blockquote>уялыңкырап, төмөн карады он, смутившись, опустил глаза;</blockquote>
-		<blockquote>уялыңкырап, кыңкая берди келиндердин бири немного смутившись, одна из молодых склонилась набок;</blockquote>
-		<blockquote>кызарып уялыңкырай түштү он вдруг смутился и покраснел.</blockquote>
+		<trn>слегка смущаться, немного стыдиться;</trn>
+		<ex>
+			<source>Каныбек акыркы сөзүн уялыңкырап сүйлөдү</source>
+			<target>последние слова Каныбек сказал, слегка смутившись;</target>
+		</ex>
+		<ex>
+			<source>уялыңкырап, төмөн карады</source>
+			<target>он, смутившись, опустил глаза;</target>
+		</ex>
+		<ex>
+			<source>уялыңкырап, кыңкая берди келиндердин бири</source>
+			<target>немного смутившись, одна из молодых склонилась набок;</target>
+		</ex>
+		<ex>
+			<source>кызарып уялыңкырай түштү</source>
+			<target>он вдруг смутился и покраснел.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уяң</k>
 		<meaning>
-			<blockquote>робкий, застенчивый; несмелый, нерешительный;</blockquote>
-			<blockquote>уяң жигит застенчивый парень;</blockquote>
-			<blockquote>уяң тарт- стать растяпой;</blockquote>
+			<trn>робкий, застенчивый; несмелый, нерешительный;</trn>
+			<ex>
+				<source>уяң жигит</source>
+				<target>застенчивый парень;</target>
+			</ex>
+			<ex>
+				<source>уяң тарт-</source>
+				<target>стать растяпой;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>мягкий, нежный;</blockquote>
-			<blockquote>уяң жүн мягкая, тонкая шерсть, руно;</blockquote>
-			<blockquote>уяң жүндүү койлор тонкорунные овцы;</blockquote>
-			<blockquote>жарым уяң жүңдүү койлор полугрубошёрстные овцы.</blockquote>
+			<trn>мягкий, нежный;</trn>
+			<ex>
+				<source>уяң жүн</source>
+				<target>мягкая, тонкая шерсть, руно;</target>
+			</ex>
+			<ex>
+				<source>уяң жүндүү койлор</source>
+				<target>тонкорунные овцы;</target>
+			</ex>
+			<ex>
+				<source>жарым уяң жүңдүү койлор</source>
+				<target>полугрубошёрстные овцы.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>уяңдык</k>
-		<blockquote>робость, застенчивость; несмелость;</blockquote>
-		<blockquote>баягы жалчылыктын уяңдыгы бар у него робость бывшего батрака.</blockquote>
+		<trn>робость, застенчивость; несмелость;</trn>
+		<ex>
+			<source>баягы жалчылыктын уяңдыгы бар</source>
+			<target>у него робость бывшего батрака.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уят</k>
-		<blockquote>стыд, срам, позор;</blockquote>
+		<trn>стыд, срам, позор;</trn>
 		<ex>
 			<source>уят өлүмдөн катуу погов.</source>
 			<target>стыд хуже смерти;</target>
 		</ex>
-		<blockquote>уят сөз неприличное слово;</blockquote>
-		<blockquote>уятка кал- устыдиться; осрамиться;</blockquote>
+		<ex>
+			<source>уят сөз</source>
+			<target>неприличное слово;</target>
+		</ex>
+		<ex>
+			<source>уятка кал-</source>
+			<target>устыдиться; осрамиться;</target>
+		</ex>
 		<ex>
 			<source>ашыккан калар уятка, саргайган жетер муратка погов.</source>
 			<target>торопыга осрамится, трудяга достигнет цели;</target>
 		</ex>
-		<blockquote>уят кыл- осрамить, опозорить;</blockquote>
-		<blockquote>мени уят кылба ты меня не осрами;</blockquote>
-		<blockquote>уяты чыкты он осрамился;</blockquote>
-		<blockquote>уят бол- осрамиться, опозориться;</blockquote>
-		<blockquote>сизге уят болдум мне стыдно перед вами; я себя осрамил перед вами;</blockquote>
+		<ex>
+			<source>уят кыл-</source>
+			<target>осрамить, опозорить;</target>
+		</ex>
+		<ex>
+			<source>мени уят кылба</source>
+			<target>ты меня не осрами;</target>
+		</ex>
+		<ex>
+			<source>уяты чыкты</source>
+			<target>он осрамился;</target>
+		</ex>
+		<ex>
+			<source>уят бол-</source>
+			<target>осрамиться, опозориться;</target>
+		</ex>
+		<ex>
+			<source>сизге уят болдум</source>
+			<target>мне стыдно перед вами; я себя осрамил перед вами;</target>
+		</ex>
 		<ex>
 			<source>ат уяты - сатуу, кыз уяты - тартуу фольк.</source>
 			<target>срам коня - продажа (хорошего коня не продают), срам девушки - подношение (её в качестве дара, как вещь);</target>
 		</ex>
-		<blockquote>уятты жыйнаштырып коюп бесцеремонно, развязно;</blockquote>
-		<blockquote>уяты качкан бесцеремонный, развязный;</blockquote>
-		<blockquote>уят-сыйытты коюп или уят-сыятты коюп без зазрения совести;</blockquote>
-		<blockquote>уят эмеспи! как не стыдно!;</blockquote>
-		<blockquote>уят-суятты ойлобой без стыда и совести (делать что-л.);</blockquote>
-		<blockquote>уят-сыйытсыз кишилер бессовестные люди;</blockquote>
-		<blockquote>уят берүү уст. поставить на вид (род взыскания);</blockquote>
-		<blockquote>менин сунушум бул: Ыйлаакка уят берилсин моё предложение такое: поставить Ыйлааку на вид.</blockquote>
+		<ex>
+			<source>уятты жыйнаштырып коюп</source>
+			<target>бесцеремонно, развязно;</target>
+		</ex>
+		<ex>
+			<source>уяты качкан</source>
+			<target>бесцеремонный, развязный;</target>
+		</ex>
+		<ex>
+			<source>уят-сыйытты коюп или уят-сыятты коюп</source>
+			<target>без зазрения совести;</target>
+		</ex>
+		<ex>
+			<source>уят эмеспи!</source>
+			<target>как не стыдно!;</target>
+		</ex>
+		<ex>
+			<source>уят-суятты ойлобой</source>
+			<target>без стыда и совести (делать что-л.);</target>
+		</ex>
+		<ex>
+			<source>уят-сыйытсыз кишилер</source>
+			<target>бессовестные люди;</target>
+		</ex>
+		<ex>
+			<source>уят берүү уст.</source>
+			<target>поставить на вид (род взыскания);</target>
+		</ex>
+		<ex>
+			<source>менин сунушум бул: Ыйлаакка уят берилсин</source>
+			<target>моё предложение такое: поставить Ыйлааку на вид.</target>
+		</ex>
 	</card>
 	<card>
 		<k>уяткар-</k>
-		<blockquote>пристыдить, устыдить.</blockquote>
+		<trn>пристыдить, устыдить.</trn>
 	</card>
 	<card>
 		<k>уяткарыш-</k>
@@ -15005,31 +15098,43 @@
 	</card>
 	<card>
 		<k>уятсыз</k>
-		<blockquote>бесстыжий; бесстыдник, срамник.</blockquote>
+		<trn>бесстыжий; бесстыдник, срамник.</trn>
 	</card>
 	<card>
 		<k>уятсыздан-</k>
-		<blockquote>стать бессовестным; не стыдиться.</blockquote>
+		<trn>стать бессовестным; не стыдиться.</trn>
 	</card>
 	<card>
 		<k>уятсыздык</k>
-		<blockquote>бесстыдство.</blockquote>
+		<trn>бесстыдство.</trn>
 	</card>
 	<card>
 		<k>уяттуу</k>
 		<meaning>
-			<blockquote>совестливый, стыдливый;</blockquote>
+			<trn>совестливый, стыдливый;</trn>
 			<ex>
 				<source>камчы кайраттуу болсо, катын уяттуу болот погов.</source>
 				<target>уст. (ныне шутл.) если плеть сильна, то жена скромна;</target>
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>уважаемый, почётный (тот, перед кем испытывают стеснение);</blockquote>
-			<blockquote>уяттуу киши уважаемый, почётный человек;</blockquote>
-			<blockquote>бүгүн үйүмө уяттуу кишилер келет сегодня ко мне в дом придут уважаемые люди;</blockquote>
-			<blockquote>уяттуу конок почётный гость;</blockquote>
-			<blockquote>уяттуу-кадырлуулар почётные и уважаемые.</blockquote>
+			<trn>уважаемый, почётный (тот, перед кем испытывают стеснение);</trn>
+			<ex>
+				<source>уяттуу киши</source>
+				<target>уважаемый, почётный человек;</target>
+			</ex>
+			<ex>
+				<source>бүгүн үйүмө уяттуу кишилер келет</source>
+				<target>сегодня ко мне в дом придут уважаемые люди;</target>
+			</ex>
+			<ex>
+				<source>уяттуу конок</source>
+				<target>почётный гость;</target>
+			</ex>
+			<ex>
+				<source>уяттуу-кадырлуулар</source>
+				<target>почётные и уважаемые.</target>
+			</ex>
 		</meaning>
 	</card>
 </root>
