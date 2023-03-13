@@ -3990,7 +3990,7 @@
 	</card>
 	<card>
 		<k>укма</k>
-         <pos>n</pos>
+		<pos>n</pos>
 		<trn>много слышавший;</trn>
 		<ex>
 			<source>укма билген кары <i>или</i> укма сөздүү</source>
@@ -4104,7 +4104,7 @@
 	</card>
 	<card>
 		<k>уксуз</k>
-        <pos>adj</pos>
+		<pos>adj</pos>
 		<trn>без следов тропинок;</trn>
 		<ex>
 			<source>уксуз жерден жол баштап</source>
@@ -4558,7 +4558,7 @@
 	</card>
 	<card>
 		<k>укуш-</k>
-        <pos>inf</pos>
+		<pos>inf</pos>
 		<recv word="уку"/>
 		<ex>
 			<source>бирин бири колтукка укушуп</source>
@@ -4609,8 +4609,8 @@
 		</collocation>
 	</card>
 	<card>
-	<k>үкөн</k>
-    <pos>adj</pos>
+		<k>үкөн</k>
+		<pos>adj</pos>
 		<collocation>
 			<k>үкөн бара</k>
 			<meta>иссык-кульск.</meta>
