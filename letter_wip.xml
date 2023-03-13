@@ -3961,6 +3961,7 @@
 	</card>
 	<card>
 		<k>уккулуктуу</k>
+		<pos>adj</pos>
 		<trn>приятный на слух; мелодичный;</trn>
 		<ex>
 			<source>уккулуктуу кылып ырдап</source>
@@ -3977,17 +3978,19 @@
 	</card>
 	<card>
 		<k>уккус</k>
+		<pos>adj</pos>
 		<collocation>
 			<k>адам уккус</k>
 			<trn>такое, от чего уши вянут;</trn>
 			<ex>
-				<source>адам уккус тил менен</source>
-				<target>тилдейт он ругает так, что слушать невозможно.</target>
+				<source>адам уккус тил менен тилдейт</source>
+				<target>он ругает так, что слушать невозможно.</target>
 			</ex>
 		</collocation>
 	</card>
 	<card>
 		<k>укма</k>
+         <pos>n</pos>
 		<trn>много слышавший;</trn>
 		<ex>
 			<source>укма билген кары <i>или</i> укма сөздүү</source>
@@ -3996,6 +3999,7 @@
 	</card>
 	<card>
 		<k>укмаксан</k>
+		<pos>n</pos>
 		<trn>делающий вид, что не слышит;</trn>
 		<ex>
 			<source>укмаксан болуп</source>
@@ -4004,6 +4008,7 @@
 	</card>
 	<card>
 		<k>укмамыш</k>
+		<pos>v</pos>
 		<collocation>
 			<k>укмамышка сал-</k>
 			<trn>прикинуться, будто не слышал;</trn>
@@ -4015,6 +4020,7 @@
 	</card>
 	<card>
 		<k>укмуш</k>
+		<pos>adj</pos>
 		<trn>диковинная весть, ошеломляющее сообщение, сногсшибательное сообщение;</trn>
 		<collocation>
 			<k>укмуштун-укмушу</k>
@@ -4039,6 +4045,7 @@
 	</card>
 	<card>
 		<k>укмуштан-</k>
+		<pos>v</pos>
 		<trn>принимать необычайные, изумительные формы;</trn>
 		<ex>
 			<source>укмуштанган жигит</source>
@@ -4051,11 +4058,13 @@
 	</card>
 	<card>
 		<k>укмуштант-</k>
+		<pos>inf</pos>
 		<caus word="укмуштан"/>
 		<trn>изумлять, ошеломлять.</trn>
 	</card>
 	<card>
 		<k>укмуштуу</k>
+		<pos>adj</pos>
 		<trn>удивительный; занимательный; из ряда вон выходящий; странный;</trn>
 		<ex>
 			<source>ракета укмуштуудай так түштү</source>
@@ -4080,6 +4089,7 @@
 	</card>
 	<card>
 		<k>укол</k>
+		<pos>n</pos>
 		<meta>мед.</meta>
 		<trn>укол</trn>
 		<collocation>
@@ -4089,10 +4099,12 @@
 	</card>
 	<card>
 		<k>үксүгүй</k>
+		<pos>adj</pos>
 		<trn>лохматый, косматый.</trn>
 	</card>
 	<card>
 		<k>уксуз</k>
+        <pos>adj</pos>
 		<trn>без следов тропинок;</trn>
 		<ex>
 			<source>уксуз жерден жол баштап</source>
@@ -4101,6 +4113,7 @@
 	</card>
 	<card>
 		<k>үксүй-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>быть лохматым;</trn>
 		</meaning>
@@ -4119,10 +4132,12 @@
 	</card>
 	<card>
 		<k>үксүйт-</k>
+		<pos>inf</pos>
 		<caus word="үксүй"/>
 	</card>
 	<card>
 		<k>үксүңдө-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>лохматиться, косматиться;</trn>
 		</meaning>
@@ -4133,10 +4148,12 @@
 	</card>
 	<card>
 		<k>үксөгөй</k>
+		<pos>adj</pos>
 		<sameas word="үксүгүй"/>
 	</card>
 	<card>
 		<k>үксөй-</k>
+		<pos>v</pos>
 		<sameas word="үксүй"/>
 		<ex>
 			<source>иштеп олтурган кары, жай бурулуп, үксөйө карады</source>
@@ -4145,18 +4162,22 @@
 	</card>
 	<card>
 		<k>үксөйт-</k>
+		<pos>inf</pos>
 		<sameas word="үксүйт"/>
 	</card>
 	<card>
 		<k>үксөк</k>
+		<pos>adj</pos>
 		<sameas word="үксүгүй"/>
 	</card>
 	<card>
 		<k>үксөңдө-</k>
+		<pos>inf</pos>
 		<sameas word="үксүңдө"/>
 	</card>
 	<card>
 		<k>укта-</k>
+		<post>n</post>
 		<meaning>
 			<trn>спать;</trn>
 			<ex>
@@ -4182,6 +4203,7 @@
 	</card>
 	<card>
 		<k>уктат-</k>
+		<pos>inf</pos>
 		<trn>уложить спать; прям., перен. усыпить;</trn>
 		<ex>
 			<source>баласын уктатып коюп келет</source>
@@ -4214,6 +4236,7 @@
 	</card>
 	<card>
 		<k>уктур-</k>
+		<pos>inf</pos>
 		<caus word="ук" index="2"/>
 		<trn>втолковать, разъяснить;</trn>
 		<collocation>
@@ -4236,6 +4259,7 @@
 	</card>
 	<card>
 		<k>уку-</k>
+		<pos>v</pos>
 		<trn>подтолкнуть (напр. в бок);</trn>
 		<ex>
 			<source>акырын! - деп, Алым аны капталга укуду</source>
@@ -4244,6 +4268,7 @@
 	</card>
 	<card>
 		<k>үкү</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>филин (в старом быту считался священным);</trn>
 			<ex>
@@ -4305,6 +4330,7 @@
 	</card>
 	<card>
 		<k>укуй</k>
+		<pos>n</pos>
 		<trn>одна из форм штрафа в детских играх: выпяченным сгибом среднего пальца кулака с силой, рывком проводят по голове штрафуемого;</trn>
 		<collocation>
 			<k>укуй ал-</k>
@@ -4313,6 +4339,7 @@
 	</card>
 	<card>
 		<k>укук</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>право;</trn>
 		<ex>
@@ -4330,14 +4357,17 @@
 	</card>
 	<card>
 		<k>укуксуз</k>
+		<pos>adj</pos>
 		<trn>не имеющий прав; лишённый прав; бесправный.</trn>
 	</card>
 	<card>
 		<k>укуксуздук</k>
+		<pos>n</pos>
 		<trn>бесправие.</trn>
 	</card>
 	<card>
 		<k>укуктуу</k>
+		<pos>adj</pos>
 		<trn>имеющий право;</trn>
 		<ex>
 			<source>тең укуктуу</source>
@@ -4350,6 +4380,7 @@
 	</card>
 	<card>
 		<k>укуктуулук</k>
+		<pos>ger</pos>
 		<abstract word="укуктуу"/>
 		<collocation>
 			<k>тең укуктуулук</k>
@@ -4362,6 +4393,7 @@
 	</card>
 	<card>
 		<k>укула-</k>
+		<pos>v</pos>
 		<iter word="уку"/>
 		<collocation>
 			<k>укулап-чукулап сыр сура-</k>
@@ -4370,10 +4402,12 @@
 	</card>
 	<card>
 		<k>укулда-</k>
+		<pos>inf</pos>
 		<sameas word="лукулда"/>
 	</card>
 	<card>
 		<k>үкүлө-</k>
+		<pos>v</pos>
 		<trn>снабжать пером филина; украшать перьями филина или какой-либо другой птицы;</trn>
 		<ex>
 			<source>көз тийбесин деп, үкүлөп тумар тагылган үч жүз күлүк чубап өттү</source>
@@ -4386,6 +4420,7 @@
 	</card>
 	<card>
 		<k>укум</k>
+		<pos>n</pos>
 		<homonym>
 			<collocation>
 				<k>укумда жок</k>
@@ -4419,6 +4454,7 @@
 	</card>
 	<card>
 		<k>укума</k>
+		<pos>n</pos>
 		<collocation>
 			<k>укума сөз</k>
 			<trn>колкость.</trn>
@@ -4430,6 +4466,7 @@
 	</card>
 	<card>
 		<k>укумдуу</k>
+		<pos>adj</pos>
 		<sameas word="укумчул"/>
 		<ex>
 			<source>укумдуу кишиден уккамын</source>
@@ -4438,6 +4475,7 @@
 	</card>
 	<card>
 		<k>укумчу</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>много слышавший: хорошо знающий старину, былые дела;</trn>
 		</meaning>
@@ -4451,10 +4489,12 @@
 	</card>
 	<card>
 		<k>укумчул</k>
+		<pos>n</pos>
 		<sameas word="укумчу"/>
 	</card>
 	<card>
 		<k>үкүр</k>
+		<pos>n</pos>
 		<trn>(в эпосе, когда речь ведётся от лица калмыка или в диалоге с калмыком) крупный рогатый скот;</trn>
 		<ex>
 			<source>өзүң тийген күнүңдө, үкүрүң айдап алгамын, Жолой фольк.</source>
@@ -4467,9 +4507,10 @@
 	</card>
 	<card>
 		<k>укурук</k>
+		<pos>n</pos>
 		<trn>укрюк, укрючина (жердь с арканом, петлей на конце для поимки пасущихся лошадей);</trn>
 		<ex>
-			<source>өкмөттүн (или улуктун) укуругу узун</source>
+			<source>өкмөттүн (<i>или</i> улуктун) укуругу узун</source>
 			<target>укрючина правительства (или правителя) длинна (преступника везде найдёт);</target>
 		</ex>
 		<collocation>
@@ -4517,6 +4558,7 @@
 	</card>
 	<card>
 		<k>укуш-</k>
+        <pos>inf</pos>
 		<recv word="уку"/>
 		<ex>
 			<source>бирин бири колтукка укушуп</source>
@@ -4525,13 +4567,15 @@
 	</card>
 	<card>
 		<k>үкөз</k>
+		<pos>n</pos>
 		<origin>р.</origin>
-		<meta>(или үкөз молдо)</meta>
+		<meta>(<i>или</i> үкөз молдо)</meta>
 		<meta>ист.</meta>
 		<trn>писарь волостного управителя.</trn>
 	</card>
 	<card>
 		<k>үкөк</k>
+		<pos>n</pos>
 		<trn>сундучок для хранения съестных припасов;</trn>
 		<collocation>
 			<k>үкөк сакал</k>
@@ -4540,6 +4584,7 @@
 	</card>
 	<card>
 		<k>үкөл</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="укол"/>
 		<collocation>
@@ -4557,13 +4602,15 @@
 	</card>
 	<card>
 		<k>үкөлө-</k>
+		<pos>v</pos>
 		<collocation>
 			<k>аке-үкөлөп</k>
 			<trn>всячески ублажая и упрашивая.</trn>
 		</collocation>
 	</card>
 	<card>
-		<k>үкөн</k>
+	<k>үкөн</k>
+    <pos>adj</pos>
 		<collocation>
 			<k>үкөн бара</k>
 			<meta>иссык-кульск.</meta>
@@ -4573,6 +4620,7 @@
 	</card>
 	<card>
 		<k>ул-</k>
+		<pos>v</pos>
 		<pair word="жул"/>
 	</card>
 	<card>
