@@ -9021,7 +9021,7 @@
 	</card>
 	<card>
 		<k>үрпөңдөш-</k>
-		<pos.v</card>
+		<pos>v</pos>
 		<recv word="үрпөңдө"/>
 		<ex>
 			<source>не үрпөңдөштүңөр</source>
