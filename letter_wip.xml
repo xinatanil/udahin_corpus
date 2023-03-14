@@ -12707,6 +12707,7 @@
 	</card>
 	<card>
 		<k>участоктук</k>
+		<pos>adj</pos>
 		<trn>относящийся к участку, участковый;</trn>
 		<ex>
 			<source>экинчи участоктуу эл суду</source>
@@ -12719,6 +12720,7 @@
 	</card>
 	<card>
 		<k>учёт</k>
+		<pos>n</pos>
 		<meta>в разн. знач.</meta>
 		<trn>учёт</trn>
 		<ex>
@@ -12748,6 +12750,7 @@
 	</card>
 	<card>
 		<k>учёттук</k>
+		<pos>adj</pos>
 		<trn>учётный;</trn>
 		<collocation>
 			<k>учёттук карточка</k>
@@ -12760,10 +12763,12 @@
 	</card>
 	<card>
 		<k>учётчик</k>
+		<pos>n</pos>
 		<trn>учётчик</trn>
 	</card>
 	<card>
 		<k>учкай</k>
+		<pos>adj</pos>
 		<trn>несерьёзно, поверхностно, легко; слегка;</trn>
 		<ex>
 			<source>учкай чаап</source>
@@ -12796,11 +12801,13 @@
 	</card>
 	<card>
 		<k>учкансы-</k>
+		<pos>v</pos>
 		<similative word="уч" index="3"/>
 		<trn>как бы лететь, будто лететь.</trn>
 	</card>
 	<card>
 		<k>учкачтыр-</k>
+		<pos>v</pos>
 		<sameas word="учкаштыр"/>
 		<ex>
 			<source>төөгө учкачтырып</source>
@@ -12809,6 +12816,7 @@
 	</card>
 	<card>
 		<k>учкаш-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>садиться в забедры, на забедры (на верховое животное, на котором уже есть всадник);</trn>
 			<ex>
@@ -12827,6 +12835,7 @@
 	</card>
 	<card>
 		<k>учкаштыр-</k>
+		<pos>v</pos>
 		<caus word="учкаш"/>
 		<meaning>
 			<trn>(о всаднике) посадить на забедры (позади себя);</trn>
@@ -12853,14 +12862,17 @@
 	</card>
 	<card>
 		<k>учкаштыруу</k>
+		<pos>ger</pos>
 		<actionNoun word="учкаштыр"/>
 	</card>
 	<card>
 		<k>учкашуу</k>
+		<pos>ger</pos>
 		<actionNoun word="учкаш"/>
 	</card>
 	<card>
 		<k>учкаяк</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>(о коне) горячий; быстроходный, но невыносливый;</trn>
 		</meaning>
@@ -12871,14 +12883,17 @@
 	</card>
 	<card>
 		<k>учкаякта-</k>
+		<pos>v</pos>
 		<trn>мчаться.</trn>
 	</card>
 	<card>
 		<k>учкошкон</k>
+		<pos>n</pos>
 		<look word="уч" index="1"/>
 	</card>
 	<card>
 		<k>учку</k>
+		<pos>adj</pos>
 		<trn>крайний, конечный;</trn>
 		<ex>
 			<source>учку элдин учуна, кырка элдин кыйрына кетти</source>
@@ -12887,6 +12902,7 @@
 	</card>
 	<card>
 		<k>учкул</k>
+		<pos>adj</pos>
 		<trn>способный быстро летать, быстролётный; прям., перен. быстрокрылый;</trn>
 		<ex>
 			<source>сен кузгунсуң-кузгунсуң, жамы куштан учкулсуң фольк.</source>
@@ -12907,6 +12923,7 @@
 	</card>
 	<card>
 		<k>үчкүл</k>
+		<pos>n</pos>
 		<trn>треугольный; треугольник;</trn>
 		<ex>
 			<source>кең бурчтуу үчкүл мат.</source>
@@ -12919,10 +12936,12 @@
 	</card>
 	<card>
 		<k>учкулдук</k>
+		<pos>n</pos>
 		<trn>способность быстро летать, быстролётность.</trn>
 	</card>
 	<card>
 		<k>учкулук</k>
+		<pos>n</pos>
 		<collocation>
 			<k>учкулук-тыңгылык</k>
 			<trn>занимательные новости, слухи, разговоры;</trn>
@@ -12934,6 +12953,7 @@
 	</card>
 	<card>
 		<k>учкун</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>искра;</trn>
 			<ex>
@@ -12955,10 +12975,12 @@
 	</card>
 	<card>
 		<k>учкур</k>
+		<pos>adj</pos>
 		<sameas word="учкул"/>
 	</card>
 	<card>
 		<k>учкуч</k>
+		<pos>n</pos>
 		<trn>лётчик;</trn>
 		<ex>
 			<source>космонавт-учкуч</source>
@@ -12967,15 +12989,18 @@
 	</card>
 	<card>
 		<k>учлан</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<trn>название травянистого растения.</trn>
 	</card>
 	<card>
 		<k>учма</k>
 		<meaning>
+			<pos>n</pos>
 			<trn>крутой склон горы, покрытый снегом;</trn>
 		</meaning>
 		<meaning>
+			<pos>adj</pos>
 			<trn>летучий;</trn>
 			<ex>
 				<source>учма заттар хим.</source>
@@ -12985,6 +13010,7 @@
 	</card>
 	<card>
 		<k>учмак</k>
+		<pos>n</pos>
 		<trn>рай;</trn>
 		<ex>
 			<source>аны учмактын учуна чыгарып жиберди</source>
@@ -12994,9 +13020,11 @@
 	<card>
 		<k>учмактуу</k>
 		<meaning>
+			<pos>n</pos>
 			<trn>обитатель рая; райский;</trn>
 		</meaning>
 		<meaning>
+			<pos>adj</pos>
 			<trn>удивительный, чудесный;</trn>
 			<ex>
 				<source>учмактуу шаар чоң Бээжин фольк.</source>
@@ -13006,10 +13034,12 @@
 	</card>
 	<card>
 		<k>учмоюл</k>
+		<pos>n</pos>
 		<trn>сказочная змея.</trn>
 	</card>
 	<card>
 		<k>учсуз</k>
+		<pos>adj</pos>
 		<trn>бесконечный, бескрайний;</trn>
 		<ex>
 			<source>учсуз-түпсүз асман</source>
@@ -13018,6 +13048,7 @@
 	</card>
 	<card>
 		<k>учта-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>заострять конец, очинять (карандаш);</trn>
 		</meaning>
@@ -13027,6 +13058,7 @@
 	</card>
 	<card>
 		<k>учтал-</k>
+		<pos>v</pos>
 		<pass word="учта"/>
 		<meaning>
 			<trn>быть заостряемым;</trn>
@@ -13041,6 +13073,7 @@
 	</card>
 	<card>
 		<k>учтан-</k>
+		<pos>v</pos>
 		<refv word="учта"/>
 		<trn>заканчиваться остриём, острым концом;</trn>
 		<ex>
@@ -13050,16 +13083,19 @@
 	</card>
 	<card>
 		<k>учтат-</k>
+		<pos>v</pos>
 		<caus word="учта"/>
 		<trn>заставить насадить наконечник; заставить приделать конец к чему-л.</trn>
 	</card>
 	<card>
 		<k>учташ-</k>
+		<pos>v</pos>
 		<recv word="учта"/>
 		<trn>соединяться концами.</trn>
 	</card>
 	<card>
 		<k>учтук</k>
+		<pos>n</pos>
 		<collocation>
 			<k>чач учтук</k>
 			<meaning>
@@ -13082,11 +13118,13 @@
 	</card>
 	<card>
 		<k>үчтүк</k>
+		<pos>n</pos>
 		<meta>карт.</meta>
 		<trn>тройка.</trn>
 	</card>
 	<card>
 		<k>учтур-</k>
+		<pos>v</pos>
 		<caus word="уч" index="3"/>
 		<ex>
 			<source>атты санга камчылап, ала качып учтуруп, көз илешпей жоголду стих.</source>
@@ -13095,11 +13133,16 @@
 	</card>
 	<card>
 		<k>учтуу</k>
-		<blockquote>снабжённый острым концом, остроконечный;</blockquote>
-		<blockquote>эки учтуу сөз двусмысленное слово, выражение.</blockquote>
+		<pos>adj</pos>
+		<trn>снабжённый острым концом, остроконечный;</trn>
+		<collocation>
+			<k>эки учтуу сөз</k>
+			<source>двусмысленное слово, выражение.</source>
+		</collocation>
 	</card>
 	<card>
 		<k>үчтө</k>
+		<pos>num</pos>
 		<meta>южн.</meta>
 		<transcription>үчтə</transcription>
 		<trn>три штуки;</trn>
@@ -13110,6 +13153,7 @@
 	</card>
 	<card>
 		<k>учук</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>пузырьки на губах (напр. при лихорадке);</trn>
@@ -13165,6 +13209,7 @@
 	</card>
 	<card>
 		<k>учукта-</k>
+		<pos>v</pos>
 		<homonym>
 			<meaning>
 				<meta>этн.</meta>
@@ -13193,10 +13238,12 @@
 	</card>
 	<card>
 		<k>учуктат-</k>
+		<pos>v</pos>
 		<caus word="учукта" index="1"/>
 	</card>
 	<card>
 		<k>учуктоо</k>
+		<pos>ger</pos>
 		<homonym>
 			<actionNoun word="учукта" index="1"/>
 			<meaning>
@@ -13215,11 +13262,13 @@
 	</card>
 	<card>
 		<k>үчүлтүк</k>
+		<pos>num</pos>
 		<meta>(ср. экилтик)</meta>
 		<trn>при счёте идущий за три единицы.</trn>
 	</card>
 	<card>
 		<k>үчүлүк</k>
+		<pos>num</pos>
 		<meaning>
 			<trn>тройка (цифра);</trn>
 		</meaning>
@@ -13241,6 +13290,7 @@
 	</card>
 	<card>
 		<k>учун-</k>
+		<pos>v</pos>
 		<meta>(ср. желинде- 2)</meta>
 		<trn>(об однокопытных животных) заболеть болезнью, при которой появляется опухоль мошонки;</trn>
 		<ex>
@@ -13250,6 +13300,7 @@
 	</card>
 	<card>
 		<k>үчүн</k>
+		<pos>post</pos>
 		<trn>послелог, выражающий цель или причину для, ради, из-за, по причине; чтобы;</trn>
 		<ex>
 			<source>сен үчүн</source>
@@ -13282,6 +13333,7 @@
 	</card>
 	<card>
 		<k>үчүнчү</k>
+		<pos>num</pos>
 		<trn>третий;</trn>
 		<ex>
 			<source>үчүнчү сорт</source>
@@ -13295,6 +13347,7 @@
 	<card>
 		<k>учур</k>
 		<homonym>
+			<pos>n</pos>
 			<trn>время, момент; случай;</trn>
 			<ex>
 				<source>мындай учурларда</source>
@@ -13338,6 +13391,7 @@
 			</collocation>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<caus word="уч" index="3"/>
 			<meaning>
 				<trn>заставить лететь; упустить или вспугнуть (что-л. летающее); запустить (напр. ракету);</trn>
@@ -13389,6 +13443,7 @@
 	</card>
 	<card>
 		<k>учура-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>встретиться, натолкнуться;</trn>
 			<ex>
@@ -13434,6 +13489,7 @@
 	</card>
 	<card>
 		<k>учурат-</k>
+		<pos>v</pos>
 		<caus word="учура"/>
 		<ex>
 			<source>үзгүлтүккө учурат-</source>
@@ -13446,6 +13502,7 @@
 	</card>
 	<card>
 		<k>учуратуу</k>
+		<pos>ger</pos>
 		<actionNoun word="учурат"/>
 		<ex>
 			<source>мелдешке катышпаган адамды учуратуу кыйын</source>
