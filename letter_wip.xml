@@ -5433,10 +5433,12 @@
 	</card>
 	<card>
 		<k>үлдүрөө</k>
+		<pos>ger</pos>
 		<actionNoun word="үлдүрө"/>
 	</card>
 	<card>
 		<k>үлдө</k>
+		<pos>n</pos>
 		<collocation>
 			<k>үлдө менен бүлдө</k>
 			<trn>разного рода дорогие ткани, дорогая одежда;</trn>
@@ -5448,15 +5450,18 @@
 	</card>
 	<card>
 		<k>улжан</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<trn>название травянистого растения.</trn>
 	</card>
 	<card>
 		<k>үлжүрө-</k>
+		<pos>v</pos>
 		<sameas word="үлдүрө"/>
 	</card>
 	<card>
 		<k>улкун-</k>
+		<pos>v</pos>
 		<collocation>
 			<k>улкунуп-жулкунуп</k>
 			<trn>без меры горячась, злясь и буйствуя (размахивая руками и дёргаясь всем телом);</trn>
@@ -5468,6 +5473,7 @@
 	</card>
 	<card>
 		<k>үлкөн</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>большой, огромный;</trn>
 			<ex>
@@ -5494,6 +5500,7 @@
 	</card>
 	<card>
 		<k>улоо</k>
+		<pos>ger</pos>
 		<homonym>
 			<actionNoun word="ула" index="1"/>
 			<meaning>
@@ -5513,6 +5520,7 @@
 	</card>
 	<card>
 		<k>улооло-</k>
+		<pos>v</pos>
 		<sameas word="ылооло"/>
 		<ex>
 			<source>жолдогу элди улоолоп жүрүп</source>
@@ -5521,10 +5529,12 @@
 	</card>
 	<card>
 		<k>улоочу</k>
+		<pos>n</pos>
 		<sameas word="ылоочу"/>
 	</card>
 	<card>
 		<k>үлп</k>
+		<pos>adj</pos>
 		<trn>подражательное слово;</trn>
 		<collocation>
 			<k>үлп эт-</k>
@@ -5557,14 +5567,17 @@
 	</card>
 	<card>
 		<k>улпак</k>
+		<pos>n</pos>
 		<sameas word="урпак"/>
 	</card>
 	<card>
 		<k>улпат</k>
+		<pos>n</pos>
 		<sameas word="үлпөт"/>
 	</card>
 	<card>
 		<k>үлпүлдө-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>пушиться; быть мягким, нежным, чистеньким;</trn>
 			<ex>
@@ -5594,6 +5607,7 @@
 	</card>
 	<card>
 		<k>үлпүлдөк</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>что-либо очень мягкое, пушистое; то, что колеблется от малейшего дуновения;</trn>
 			<ex>
@@ -5624,6 +5638,7 @@
 	</card>
 	<card>
 		<k>үлпүлдөт-</k>
+		<pos>n</pos>
 		<caus word="үлпулдө"/>
 		<collocation>
 			<k>үстүнөн үлпүлдөтүп өт-</k>
@@ -5632,6 +5647,7 @@
 	</card>
 	<card>
 		<k>үлпүнчөк</k>
+		<pos>n</pos>
 		<meaning>
 			<sameas word="үлбүрөк"/>
 		</meaning>
@@ -5645,6 +5661,7 @@
 	</card>
 	<card>
 		<k>үлпөт</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meaning>
 			<trn>дружеская компания; бражничающая компания;</trn>
@@ -5687,6 +5704,7 @@
 	</card>
 	<card>
 		<k>ултан</k>
+		<pos>n</pos>
 		<meta>чуйск.</meta>
 		<trn>подошва (обуви), подмётка;</trn>
 		<ex>
@@ -5700,6 +5718,7 @@
 	</card>
 	<card>
 		<k>ултар-</k>
+		<pos>v</pos>
 		<trn>шить (обувь);</trn>
 		<ex>
 			<source>өтүк ултарып, оокат кыла турган</source>
@@ -5712,6 +5731,7 @@
 	</card>
 	<card>
 		<k>ултарт-</k>
+		<pos>v</pos>
 		<caus word="ултар"/>
 		<ex>
 			<source>өтүк ултарттым</source>
@@ -5720,19 +5740,23 @@
 	</card>
 	<card>
 		<k>ултартуу</k>
+		<pos>ger</pos>
 		<actionNoun word="ултарт"/>
 	</card>
 	<card>
 		<k>ултаруу</k>
+		<pos>ger</pos>
 		<actionNoun word="ултар"/>
 		<trn>шитьё (обуви).</trn>
 	</card>
 	<card>
 		<k>ултун-</k>
+		<pos>n</pos>
 		<sameas word="улутун"/>
 	</card>
 	<card>
 		<k>улу</k>
+		<pos>adj</pos>
 		<homonym>
 			<sameas word="улуу" index="2"/>
 		</homonym>
@@ -5741,6 +5765,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<meta>прям.</meta>
 				<meta>перен.</meta>
 				<trn>выть;</trn>
@@ -5780,6 +5805,7 @@
 	</card>
 	<card>
 		<k>үлүй-</k>
+		<pos>v</pos>
 		<sameas word="үлүндө"/>
 		<ex>
 			<source>ылампа үлүйүп (<i>или</i> үлүндөп) жанат</source>
@@ -5792,6 +5818,7 @@
 	</card>
 	<card>
 		<k>улук</k>
+		<pos>n</pos>
 		<meta>уст.</meta>
 		<trn>начальник, правитель, повелитель;</trn>
 		<ex>
@@ -5805,6 +5832,7 @@
 	</card>
 	<card>
 		<k>үлүк</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>костяной комель рога;</trn>
 		</meaning>
@@ -5814,6 +5842,7 @@
 	</card>
 	<card>
 		<k>улукман</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meaning>
 			<trn>Улукман Лукман (имя древнего мудреца);</trn>
@@ -5832,6 +5861,7 @@
 	</card>
 	<card>
 		<k>улукмандуу</k>
+		<pos>adj</pos>
 		<sameas word="улукман" subindex="2"/>
 		<ex>
 			<source>улукмандуу карысы</source>
@@ -5840,15 +5870,18 @@
 	</card>
 	<card>
 		<k>улуксан</k>
+		<pos>adj</pos>
 		<meta>чатк.</meta>
 		<trn>(о человеке) скромный, но не теряющий достоинства.</trn>
 	</card>
 	<card>
 		<k>улуксат</k>
+		<pos>n</pos>
 		<sameas word="уруксат"/>
 	</card>
 	<card>
 		<k>улуксу-</k>
+		<pos>v</pos>
 		<similative word="улук"/>
 		<trn>мнить себя начальником, изображать из себя начальника, повелителя; важничать;</trn>
 		<ex>
@@ -5858,6 +5891,7 @@
 	</card>
 	<card>
 		<k>улуксун-</k>
+		<pos>v</pos>
 		<refv word="улуксу"/>
 		<sameas word="улуксу"/>
 		<collocation>
@@ -5867,20 +5901,24 @@
 	</card>
 	<card>
 		<k>улуксунт-</k>
+		<pos>v</pos>
 		<caus word="улуксун"/>
 		<trn>принимать за начальника; оказывать почести.</trn>
 	</card>
 	<card>
 		<k>улукта-</k>
+		<pos>v</pos>
 		<trn>оказывать почести, выказывать уважение.</trn>
 	</card>
 	<card>
 		<k>улукташ-</k>
+		<pos>v</pos>
 		<recv word="улукта"/>
 		<trn>ходить по начальству с претензиями друг на друга; заводить тяжбу.</trn>
 	</card>
 	<card>
 		<k>улуктук</k>
+		<pos>n</pos>
 		<trn>положение начальника, правителя, повелителя; важничанье;</trn>
 		<ex>
 			<source>кымбат абам кеп башта, улуктукту сен ташта фольк.</source>
@@ -5889,16 +5927,19 @@
 	</card>
 	<card>
 		<k>үлүл</k>
+		<pos>n</pos>
 		<trn>улитка.</trn>
 	</card>
 	<card>
 		<k>улулдайым</k>
+		<pos>adj</pos>
 		<origin>ар.</origin>
 		<meta>редко</meta>
 		<trn>вечный (эпитет аллаха).</trn>
 	</card>
 	<card>
 		<k>улума</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>воющий;</trn>
 		</meaning>
@@ -5909,6 +5950,7 @@
 	</card>
 	<card>
 		<k>улун-</k>
+		<pos>v</pos>
 		<collocation>
 			<k>улунуп-жулунуп</k>
 			<meaning>
@@ -5925,6 +5967,7 @@
 	</card>
 	<card>
 		<k>үлүңдө-</k>
+		<pos>v</pos>
 		<trn>быть слабым (гл. обр. о свете, огне, о глазах);</trn>
 		<ex>
 			<source>үлүндөгөн шамдын нуру</source>
@@ -5937,6 +5980,7 @@
 	</card>
 	<card>
 		<k>үлүңдөт-</k>
+		<pos>v</pos>
 		<caus word="үлүңдө"/>
 		<ex>
 			<source>жаман чырагын үлүңдөтүп, Сан-Женин аягында Жин-Ху-А отурат</source>
@@ -5945,6 +5989,7 @@
 	</card>
 	<card>
 		<k>үлүрөй-</k>
+		<pos>v</pos>
 		<trn>смотреть помутневшими, безжизненными глазами; щурить глаза;</trn>
 		<ex>
 			<source>үлүрөйгөн</source>
@@ -5957,6 +6002,7 @@
 	</card>
 	<card>
 		<k>үлүрөйт-</k>
+		<pos>v</pos>
 		<caus word="үлүрөй"/>
 		<collocation>
 			<k>көз үлүрөйт-</k>
@@ -5965,6 +6011,7 @@
 	</card>
 	<card>
 		<k>улут</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>нация;</trn>
 			<ex>
@@ -6006,20 +6053,24 @@
 	</card>
 	<card>
 		<k>улутташтыр-</k>
+		<pos>v</pos>
 		<trn>национализировать.</trn>
 	</card>
 	<card>
 		<k>улутташтыруу</k>
+		<pos>ger</pos>
 		<actionNoun word="улутташтыр"/>
 		<trn>национализация.</trn>
 	</card>
 	<card>
 		<k>улутташтырыл-</k>
+		<pos>v</pos>
 		<pass word="улутташтыр"/>
 		<trn>национализироваться.</trn>
 	</card>
 	<card>
 		<k>улуттук</k>
+		<pos>adj</pos>
 		<trn>национальный;</trn>
 		<ex>
 			<source>улуттук фронт</source>
@@ -6036,6 +6087,7 @@
 	</card>
 	<card>
 		<k>улутун-</k>
+		<pos>v</pos>
 		<trn>вздыхать, выражая сожаление;</trn>
 		<ex>
 			<source>башын чайкай, улутунуп койду</source>
@@ -6052,14 +6104,17 @@
 	</card>
 	<card>
 		<k>улутундур-</k>
+		<pos>v</pos>
 		<caus word="улутун"/>
 	</card>
 	<card>
 		<k>улутунт-</k>
+		<pos>v</pos>
 		<look word="улутундур"/>
 	</card>
 	<card>
 		<k>улутунуу</k>
+		<pos>ger</pos>
 		<actionNoun word="улутун"/>
 	</card>
 	<card>
