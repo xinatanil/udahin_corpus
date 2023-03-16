@@ -510,7 +510,7 @@
 			<source>убара болбо</source>
 			<target>не беспокойся; не утруждай себя;</target>
 		</ex>
-		<collocatio//n>
+		<collocation>
 			<k>убара кыл</k>
 			<trn>утруждать, беспокоить кого-л.;</trn>
 		</collocation>
@@ -12143,7 +12143,7 @@
 	</card>
 	<card>
 		<k>уулоо</k>
-		 <pos>ger</pos>
+		<pos>ger</pos>
 		<actionNoun word="уула" index="1"/>
 		<collocation>
 			<k>балык уулоо</k>
