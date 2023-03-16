@@ -835,7 +835,7 @@
 	</card>
 	<card>
 		<k>угул-</k>
-		<po>v</po>
+		<pos>v</pos>
 		<refpass word="ук" index="2"/>
 		<trn>быть слышимым; слышаться;</trn>
 		<ex>
@@ -10904,7 +10904,9 @@
 	</card>
 	<card>
 		<k>үстүбаш</k>
-		<trn>то же, что үстү-баш (см. үст).</trn>
+		<pos>n</pos>
+		<sameas word="үстү-баш"/>
+		<look word="үст"/>
 	</card>
 	<card>
 		<k>устук</k>
