@@ -864,7 +864,10 @@
 	<card>
 		<k>угулмаксан</k>
 		<pos>adj</pos>
-		<blockquote>угулар-угулмаксан айтты он произнёс едва слышно.</blockquote>
+		<ex>
+			<source>угулар-угулмаксан айтты</source>
+			<target>он произнёс едва слышно.</target>
+		</ex>
 	</card>
 	<card>
 		<k>угумдуу</k>
@@ -2503,7 +2506,7 @@
 			</ex>
 			<collocation>
 				<k>үй көтөрт-</k>
-				<blockquote>понуд. от үй көтөр-;</blockquote>
+				<caus word="үй көтөр"/>
 				<ex>
 					<source>көтөртүп койгон үйү жок, көрүшүп келген бийи жок фольк.</source>
 					<target>нет юрты, специально для него поставленной, нет биев (см. бий II), пришедших приветствовать (т.е. встречают его без почёта);</target>
@@ -4951,7 +4954,7 @@
 		<homonym>
 			<origin>ар.</origin>
 			<meta>редко</meta>
-			<blockquote>улем, богослов.</blockquote>
+			<trn>улем, богослов.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -9108,7 +9111,8 @@
 		<pos>n</pos>
 		<collocation>
 			<k>урп-адат</k>
-			<blockquote>то же, что үрп-адат (см. үрп III).</blockquote>
+			<sameas word="үрп-адат"/>
+			<look word="үрп" index="III"/>
 		</collocation>
 	</card>
 	<card>
@@ -9126,7 +9130,6 @@
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>урп III:</blockquote>
 			<collocation>
 				<k>үрп-адат</k>
 				<origin>ар.</origin>
@@ -9322,7 +9325,8 @@
 	<card>
 		<k>уртокмок</k>
 		<pos>n</pos>
-		<blockquote>то же, что ур токмок (см. токмок).</blockquote>
+		<sameas word="ур токмок"/>
+		<look word="токмок"/>
 	</card>
 	<card>
 		<k>үртүк</k>
@@ -11021,7 +11025,8 @@
 		</collocation>
 		<collocation>
 			<k>үстөккө-босток</k>
-			<blockquote>то же, что үстөкө-босток (см. үстөкө).</blockquote>
+			<sameas word="үстөкө-босток"/>
+			<look word="үстөкө"/>
 		</collocation>
 	</card>
 	<card>
@@ -12191,7 +12196,7 @@
 	<card>
 		<k>уулучулук</k>
 		<pos>n</pos>
-		<blockquote>(уул-у-чу-лук)</blockquote>
+		<meta>(уул-у-чу-лук)</meta>
 		<meta>уст.</meta>
 		<trn>употреблялось в значении русского окончания "-щина" (от имён личных);</trn>
 		<ex>
