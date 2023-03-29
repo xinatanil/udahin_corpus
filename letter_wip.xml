@@ -3,24 +3,26 @@
 	<card>
 		<k>и</k>
 		<homonym>
-			<blockquote>(обычно носовое)</blockquote>
+			<meta>(обычно носовое)</meta>
+			<meta>частица вопр. с оттенком недоумения</meta>
 			<meaning>
-				<blockquote>частица вопр. с оттенком недоумения ну?, что?</blockquote>
+				<trn>ну?, что?</trn>
 			</meaning>
 			<meaning>
-				<blockquote>(обычно долгое) межд. побудительное ну! (так-так!; ну, продолжай!).</blockquote>
+				<meta>(обычно долгое) межд. побудительное</meta>
+				<trn>ну! (так-так!; ну, продолжай!).</trn>
 			</meaning>
 		</homonym>
 		<homonym>
 			<origin>р.</origin>
 			<meta>разг.</meta>
-			<blockquote>и (союз, сочетающийся с киргизскими союзами жана, да);</blockquote>
-			<blockquote>и ушундай кылсак и если мы сделаем так;</blockquote>
-			<blockquote>и мындан кийин и после этого;</blockquote>
-			<blockquote>и башкалар и другие;</blockquote>
-			<blockquote>и жана и ещё;</blockquote>
-			<blockquote>и жана да и ещё, и опять же;</blockquote>
-			<blockquote>и муну да бүтүрүш керек нужно и это кончить.</blockquote>
+			<trn>и (союз, сочетающийся с киргизскими союзами жана, да);</trn>
+			<blockquote>и ушундай кылсак@@ и если мы сделаем так;</blockquote>
+			<blockquote>и мындан кийин@@ и после этого;</blockquote>
+			<blockquote>и башкалар@@ и другие;</blockquote>
+			<blockquote>и жана@@ и ещё;</blockquote>
+			<blockquote>и жана да@@ и ещё, и опять же;</blockquote>
+			<blockquote>и муну да бүтүрүш керек@@ нужно и это кончить.</blockquote>
 		</homonym>
 	</card>
 	<card>
@@ -29,9 +31,9 @@
 	</card>
 	<card>
 		<k>ибеп</k>
-		<blockquote>подозрение, сомнение; боязнь;</blockquote>
-		<blockquote>ибебим бар или ибеп жеп турам у меня есть подозрение, сомнение;</blockquote>
-		<blockquote>жандан ибеп же- опасаться за жизнь;</blockquote>
+		<trn>подозрение, сомнение; боязнь;</trn>
+		<blockquote>ибебим бар <i>или</i> ибеп жеп турам@@ у меня есть подозрение, сомнение;</blockquote>
+		<blockquote>жандан ибеп же-@@ опасаться за жизнь;</blockquote>
 		<ex>
 			<source>жалпы баарың ыйлайсың - жаныңдан ибеп жейсиңби? фольк.</source>
 			<target>все вы плачете: за жизнь свою опасаетесь?</target>
@@ -40,37 +42,37 @@
 	<card>
 		<k>ибилис</k>
 		<origin>ар.</origin>
-		<blockquote>дьявол, сатана.</blockquote>
+		<trn>дьявол, сатана.</trn>
 	</card>
 	<card>
 		<k>ибрет</k>
 		<origin>ар.</origin>
-		<blockquote>хороший, поучительный пример.</blockquote>
+		<trn>хороший, поучительный пример.</trn>
 	</card>
 	<card>
 		<k>иглан</k>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<blockquote>объявление, сообщение.</blockquote>
+		<trn>объявление, сообщение.</trn>
 	</card>
 	<card>
 		<k>игланнама</k>
 		<origin>ар.-ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>объявление, сообщение (письменное, печатное).</blockquote>
+		<trn>объявление, сообщение <i>(письменное, печатное)</i>.</trn>
 	</card>
 	<card>
 		<k>ида</k>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
 		<meta>этн.</meta>
-		<blockquote>стодневный срок после смерти мужа или развода с мужем (до истечения которого женщина не может вторично выйти замуж).</blockquote>
+		<trn>стодневный срок после смерти мужа или развода с мужем (до истечения которого женщина не может вторично выйти замуж).</trn>
 	</card>
 	<card>
 		<k>идара</k>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<blockquote>учреждение, канцелярия.</blockquote>
+		<trn>учреждение, канцелярия.</trn>
 	</card>
 	<card>
 		<k>идеал</k>
@@ -78,16 +80,16 @@
 	</card>
 	<card>
 		<k>идеалдаштыр-</k>
-		<blockquote>идеализировать.</blockquote>
+		<trn>идеализировать.</trn>
 	</card>
 	<card>
 		<k>идеалдаштыруу</k>
 		<actionNoun word="идеалдаштыр"/>
-		<blockquote>идеализирование, идеализация.</blockquote>
+		<trn>идеализирование, идеализация.</trn>
 	</card>
 	<card>
 		<k>идеалдык</k>
-		<blockquote>идеальный.</blockquote>
+		<trn>идеальный.</trn>
 	</card>
 	<card>
 		<k>идеализация</k>
@@ -95,12 +97,12 @@
 	</card>
 	<card>
 		<k>идеализацияла-</k>
-		<blockquote>идеализировать.</blockquote>
+		<trn>идеализировать.</trn>
 	</card>
 	<card>
 		<k>идеализациялоо</k>
 		<actionNoun word="идеализацияла"/>
-		<blockquote>идеализирование.</blockquote>
+		<trn>идеализирование.</trn>
 	</card>
 	<card>
 		<k>идеализм</k>
@@ -112,7 +114,7 @@
 	</card>
 	<card>
 		<k>идеалисттик</k>
-		<blockquote>идеалистический.</blockquote>
+		<trn>идеалистический.</trn>
 	</card>
 	<card>
 		<k>идеалчы</k>
