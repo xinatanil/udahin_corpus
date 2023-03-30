@@ -17,12 +17,30 @@
 			<origin>р.</origin>
 			<meta>разг.</meta>
 			<trn>и (союз, сочетающийся с киргизскими союзами жана, да);</trn>
-			<blockquote>и ушундай кылсак@@ и если мы сделаем так;</blockquote>
-			<blockquote>и мындан кийин@@ и после этого;</blockquote>
-			<blockquote>и башкалар@@ и другие;</blockquote>
-			<blockquote>и жана@@ и ещё;</blockquote>
-			<blockquote>и жана да@@ и ещё, и опять же;</blockquote>
-			<blockquote>и муну да бүтүрүш керек@@ нужно и это кончить.</blockquote>
+			<ex>
+				<source>и ушундай кылсак</source>
+				<target>и если мы сделаем так;</target>
+			</ex>
+			<ex>
+				<source>и мындан кийин</source>
+				<target>и после этого;</target>
+			</ex>
+			<ex>
+				<source>и башкалар</source>
+				<target>и другие;</target>
+			</ex>
+			<ex>
+				<source>и жана</source>
+				<target>и ещё;</target>
+			</ex>
+			<ex>
+				<source>и жана да</source>
+				<target>и ещё, и опять же;</target>
+			</ex>
+			<ex>
+				<source>и муну да бүтүрүш керек</source>
+				<target>нужно и это кончить.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -31,9 +49,16 @@
 	</card>
 	<card>
 		<k>ибеп</k>
+		<pos>n</pos>
 		<trn>подозрение, сомнение; боязнь;</trn>
-		<blockquote>ибебим бар <i>или</i> ибеп жеп турам@@ у меня есть подозрение, сомнение;</blockquote>
-		<blockquote>жандан ибеп же-@@ опасаться за жизнь;</blockquote>
+		<ex>
+			<source>ибебим бар <i>или</i> ибеп жеп турам</source>
+			<target>у меня есть подозрение, сомнение;</target>
+		</ex>
+		<ex>
+			<source>жандан ибеп же-</source>
+			<target>опасаться за жизнь;</target>
+		</ex>
 		<ex>
 			<source>жалпы баарың ыйлайсың - жаныңдан ибеп жейсиңби? фольк.</source>
 			<target>все вы плачете: за жизнь свою опасаетесь?</target>
@@ -41,28 +66,33 @@
 	</card>
 	<card>
 		<k>ибилис</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>дьявол, сатана.</trn>
 	</card>
 	<card>
 		<k>ибрет</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>хороший, поучительный пример.</trn>
 	</card>
 	<card>
 		<k>иглан</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
 		<trn>объявление, сообщение.</trn>
 	</card>
 	<card>
 		<k>игланнама</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
 		<meta>южн.</meta>
 		<trn>объявление, сообщение <i>(письменное, печатное)</i>.</trn>
 	</card>
 	<card>
 		<k>ида</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
 		<meta>этн.</meta>
@@ -70,54 +100,66 @@
 	</card>
 	<card>
 		<k>идара</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
 		<trn>учреждение, канцелярия.</trn>
 	</card>
 	<card>
 		<k>идеал</k>
+		<pos>n</pos>
 		<trn>идеал</trn>
 	</card>
 	<card>
 		<k>идеалдаштыр-</k>
+		<pos>v</pos>
 		<trn>идеализировать.</trn>
 	</card>
 	<card>
 		<k>идеалдаштыруу</k>
+		<pos>ger</pos>
 		<actionNoun word="идеалдаштыр"/>
 		<trn>идеализирование, идеализация.</trn>
 	</card>
 	<card>
 		<k>идеалдык</k>
+		<pos>adj</pos>
 		<trn>идеальный.</trn>
 	</card>
 	<card>
 		<k>идеализация</k>
+		<pos>n</pos>
 		<trn>идеализация</trn>
 	</card>
 	<card>
 		<k>идеализацияла-</k>
+		<pos>v</pos>
 		<trn>идеализировать.</trn>
 	</card>
 	<card>
 		<k>идеализациялоо</k>
+		<pos>ger</pos>
 		<actionNoun word="идеализацияла"/>
 		<trn>идеализирование.</trn>
 	</card>
 	<card>
 		<k>идеализм</k>
+		<pos>n</pos>
 		<trn>идеализм</trn>
 	</card>
 	<card>
 		<k>идеалист</k>
+		<pos>n</pos>
 		<trn>идеалист</trn>
 	</card>
 	<card>
 		<k>идеалисттик</k>
+		<pos>adj</pos>
 		<trn>идеалистический.</trn>
 	</card>
 	<card>
 		<k>идеалчы</k>
+		<pos>n</pos>
 		<meta>уст.</meta>
 		<sameas word="идеалист"/>
 	</card>
@@ -2152,7 +2194,7 @@
 	</card>
 	<card>
 		<k>империалист</k>
-		<blockquote>империалист.</blockquote>
+		<trn>империалист</trn>
 	</card>
 	<card>
 		<k>империалисттик</k>
