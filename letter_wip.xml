@@ -165,20 +165,24 @@
 	</card>
 	<card>
 		<k>идеолог</k>
+		<pos>n</pos>
 		<trn>идеолог</trn>
 	</card>
 	<card>
 		<k>идеология</k>
+		<pos>n</pos>
 		<trn>идеология</trn>
 	</card>
 	<card>
 		<k>идеологиялык</k>
-		<blockquote>идеологический;</blockquote>
-		<blockquote>идеологиялык күрөш идеологическая борьба.</blockquote>
+		<pos>adj</pos>
+		<trn>идеологический;</trn>
+		<blockquote>идеологиялык күрөш@@ идеологическая борьба.</blockquote>
 	</card>
 	<card>
 		<k>идер-</k>
-		<blockquote>подбадривать, понукать, погонять (коня);</blockquote>
+		<pos>v</pos>
+		<trn>подбадривать, понукать, погонять (коня);</trn>
 		<ex>
 			<source>Алгарасын идерип, үзөңгүгө чидерип фольк.</source>
 			<target>понукая своего Алгару (коня), упираясь крепко в стремена;</target>
@@ -190,6 +194,7 @@
 	</card>
 	<card>
 		<k>идерлүү</k>
+		<pos>adj</pos>
 		<ex>
 			<source>идерлүү: идерлүү жигит, күлүк ат фольк.</source>
 			<target>боевой парень и быстрый конь.</target>
@@ -197,179 +202,234 @@
 	</card>
 	<card>
 		<k>идея</k>
+		<pos>n</pos>
 		<trn>идея</trn>
 	</card>
 	<card>
 		<k>идеялуулук</k>
-		<blockquote>идейность.</blockquote>
+		<pos>n</pos>
+		<trn>идейность.</trn>
 	</card>
 	<card>
 		<k>идеялык</k>
-		<blockquote>идейный;</blockquote>
-		<blockquote>идеялык-саясий деңгел идейно-политический уровень.</blockquote>
+		<pos>adj</pos>
+		<trn>идейный;</trn>
+		<blockquote>идеялык-саясий деңгел@@ идейно-политический уровень.</blockquote>
 	</card>
 	<card>
 		<k>идеясыздык</k>
-		<blockquote>безыдейность.</blockquote>
+		<pos>n</pos>
+		<trn>безыдейность.</trn>
 	</card>
 	<card>
 		<k>идиома</k>
+		<pos>n</pos>
 		<trn>идиома</trn>
 	</card>
 	<card>
 		<k>идиомалык</k>
-		<blockquote>идиоматический.</blockquote>
+		<pos>adj</pos>
+		<trn>идиоматический.</trn>
 	</card>
 	<card>
 		<k>идиоматика</k>
+		<pos>n</pos>
 		<trn>идиоматика</trn>
 	</card>
 	<card>
 		<k>идиот</k>
+		<pos>n</pos>
 		<trn>идиот</trn>
 	</card>
 	<card>
 		<k>идиотизм</k>
+		<pos>n</pos>
 		<trn>идиотизм</trn>
 	</card>
 	<card>
 		<k>идирек</k>
+		<pos>adj</pos>
 		<homonym>
 			<meta>южн.</meta>
 			<meta>(ср. ийрек)</meta>
-			<blockquote>корявый, шершавый; зазубренный;</blockquote>
-			<blockquote>идирек жыгач корявое дерево;</blockquote>
-			<blockquote>бычактын идиреги бар нож с зазубринами.</blockquote>
+			<trn>корявый, шершавый; зазубренный;</trn>
+			<blockquote>идирек жыгач@@ корявое дерево;</blockquote>
+			<blockquote>бычактын идиреги бар@@ нож с зазубринами.</blockquote>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<origin>ар.</origin>
-			<blockquote>сообразительность, понятливость;</blockquote>
-			<blockquote>идиреги бар сообразительный, понятливый.</blockquote>
+			<trn>сообразительность, понятливость;</trn>
+			<blockquote>идиреги бар@@ сообразительный, понятливый.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>идиректүү</k>
-		<blockquote>сообразительный, понятливый, способный.</blockquote>
+		<pos>adj</pos>
+		<trn>сообразительный, понятливый, способный.</trn>
 	</card>
 	<card>
 		<k>идиш</k>
-		<blockquote>посуда, сосуд; тара;</blockquote>
-		<blockquote>идиш-аяк всякого рода посуда.</blockquote>
+		<pos>n</pos>
+		<trn>посуда, сосуд; тара;</trn>
+		<blockquote>идиш-аяк@@ всякого рода посуда.</blockquote>
 	</card>
 	<card>
 		<k>идра</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="идара"/>
 	</card>
 	<card>
 		<k>ижаза</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>позволение, разрешение (прим. см. ирада).</blockquote>
+		<trn>позволение, разрешение (прим. см. ирада).</target>
 	</card>
 	<card>
 		<k>ижара</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>аренда;</blockquote>
-		<blockquote>ижарага кой- сдавать в аренду.</blockquote>
+		<trn>аренда;</trn>
+		<blockquote>ижарага кой-@@ сдавать в аренду.</blockquote>
 	</card>
 	<card>
 		<k>ижират</k>
 		<origin>ар.</origin>
-		<blockquote>хиджра (начало мусульманского летосчисления - с 16 июля 622 г. н. э.).</blockquote>
+		<trn>хиджра (начало мусульманского летосчисления - с 16 июля 622 г. н. э.).</trn>
 	</card>
 	<card>
 		<k>из</k>
-		<blockquote>в разн. знач.</blockquote>
-		<blockquote>след;</blockquote>
-		<blockquote>жөө адамдын изи след пешего человека;</blockquote>
-		<blockquote>түлкүнүн изи след лисы;</blockquote>
-		<blockquote>кайра изиме салып качканда когда я убегал путём, которым прибыл сюда;</blockquote>
-		<blockquote>изим менен кайтайын возвращусь-ка я туда, откуда прибыл;</blockquote>
-		<blockquote>изи жок прям., перен. никаких следов нет;</blockquote>
-		<blockquote>раскот кылган акчасынын изи жок куда он израсходовал деньги - неизвестно;</blockquote>
-		<blockquote>он миң сомдун изи жок недосчитываются десяти тысяч рублей (нет оправдательных документов и т.п.);</blockquote>
-		<blockquote>изин суутпай по горячим следам;</blockquote>
-		<blockquote>из жашырып жүрөт он заметает следы;</blockquote>
-		<blockquote>из эбак сууган давно и след простыл;</blockquote>
-		<blockquote>изин таптырбай кетти или изин бастырбай кетти он исчез бесследно;</blockquote>
-		<blockquote>так ошондон бери Түлөберди из бастырбайт именно с тех пор Тюлеберди исчез бесследно;</blockquote>
-		<blockquote>изин таппай калды прям., перен. cледов не нашёл;</blockquote>
-		<blockquote>он миңдеген сомдун изин таппай калды не осталось и следа от десятков тысяч рублей;</blockquote>
-		<blockquote>изин бастыр- подменить кого-что-л., кем-чем-л.;</blockquote>
-		<blockquote>торпоктор менен изин бастырып коюп, өгүздөрдү сатып жеди он продавал быков, подменяя их телятами, и (деньги) прикарманивал;</blockquote>
-		<blockquote>изин сал- сваливать на кого-что-л.;</blockquote>
-		<blockquote>"музоолор ичти, яслидеги балдар ичти" деп, музоолорго, балдарга изин сала бергенсиңер говоря: " (молоко) пили телята, дети в яслях", сваливаете вы на телят, на детей;</blockquote>
-		<blockquote>изине түштү он его преследует;</blockquote>
-		<blockquote>из чал- выслеживать, искать, всматриваясь в следы;</blockquote>
-		<ex>
-			<source>ээр белдей белеске из чалган Бакай акылман, эңкее барып, көрдү эми фольк.</source>
-			<target>мудрый Бакай, искавший по следам, согнувшись, взобрался на небольшой перевал и увидел;</target>
-		</ex>
+		<pos>n</pos>
+		<meta>в разн. знач.</meta>
+		<trn>след;</trn>
+		<blockquote>жөө адамдын изи@@ след пешего человека;</blockquote>
+		<blockquote>түлкүнүн изи@@ след лисы;</blockquote>
+		<blockquote>кайра изиме салып качканда@@ когда я убегал путём, которым прибыл сюда;</blockquote>
+		<blockquote>изим менен кайтайын@@ возвращусь-ка я туда, откуда прибыл;</blockquote>
+		<minicard>
+			<k>изи жок</k>
+			<meta>прям., перен.</meta>
+			<trn>никаких следов нет;</trn>
+			<blockquote>раскот кылган акчасынын изи жок@@ куда он израсходовал деньги - неизвестно;</blockquote>
+			<blockquote>он миң сомдун изи жок@@ недосчитываются десяти тысяч рублей (нет оправдательных документов и т.п.);</blockquote>
+		</minicard>
+		<blockquote>изин суутпай@@ по горячим следам;</blockquote>
+		<blockquote>из жашырып жүрөт@@ он заметает следы;</blockquote>
+		<blockquote>из эбак сууган@@ давно и след простыл;</blockquote>
+		<blockquote>изин таптырбай кетти <i>или</i> изин бастырбай кетти@@ он исчез бесследно;</blockquote>
+		<blockquote>так ошондон бери Түлөберди из бастырбайт@@ именно с тех пор Тюлеберди исчез бесследно;</blockquote>
+		<minicard>
+			<k>изин таппай калды</k>
+			<meta>прям., перен.</meta>
+			<trn>cледов не нашёл;</trn>
+			<blockquote>он миңдеген сомдун изин таппай калды@@ не осталось и следа от десятков тысяч рублей;</blockquote>
+		</minicard>
+		<minicard>
+			<k>изин бастыр-</k>
+			<pos>v</pos>
+			<trn>подменить кого-что-л., кем-чем-л.;</trn>
+			<blockquote>торпоктор менен изин бастырып коюп, өгүздөрдү сатып жеди@@ он продавал быков, подменяя их телятами, и (деньги) прикарманивал;</blockquote>
+		</minicard>
+		<minicard>
+			<k>изин сал-</k>
+			<pos>v</pos>
+			<trn>сваливать на кого-что-л.;</trn>
+			<blockquote>"музоолор ичти, яслидеги балдар ичти" деп, музоолорго, балдарга изин сала бергенсиңер@@ говоря: " (молоко) пили телята, дети в яслях", сваливаете вы на телят, на детей;</blockquote>
+		<blockquote>изине түштү@@ он его преследует;</blockquote>
+		</minicard>
+		<minicard>
+			<k>из чал-</k>
+			<pos>v</pos>
+			<trn>выслеживать, искать, всматриваясь в следы;</trn>
+			<ex>
+				<source>ээр белдей белеске из чалган Бакай акылман, эңкее барып, көрдү эми фольк.</source>
+				<target>мудрый Бакай, искавший по следам, согнувшись, взобрался на небольшой перевал и увидел;</target>
+			</ex>
+		</minicard>
 		<ex>
 			<source>душман эмес, тууганбыз, изиңди өлчөп, кууганбыз фольк.</source>
 			<target>не враги мы, а родичи, тщательно разыскивали тебя по следам;</target>
 		</ex>
-		<blockquote>баскан изине бычак салып остервенившись против него;</blockquote>
-		<blockquote>баскан изим артымда калсын! не сойти мне с этого места (если...) !;</blockquote>
-		<blockquote>из кубала- см. кубала-;</blockquote>
-		<blockquote>сары изине чөп сал- см. чөп.</blockquote>
+		<blockquote>баскан изине бычак салып@@ остервенившись против него;</blockquote>
+		<blockquote>баскан изим артымда калсын!@@ не сойти мне с этого места (если...) !;</blockquote>
+		<minicard>
+			<k>из кубала-</k>
+			<pos>v</pos>
+			<look word="кубала"/>
+		</minicard>
+		<minicard>
+			<pos>v</pos>
+			<k>сары изине чөп сал-</k>
+			<look word="чөп"/>
+		</minicard>
 	</card>
 	<card>
 		<k>изаат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>уважение, почёт;</blockquote>
-		<blockquote>изаат кыл- или изаат көрсөт- оказывать почёт.</blockquote>
+		<trn>уважение, почёт;</trn>
+		<blockquote>изаат кыл- <i>или</i> изаат көрсөт-@@ оказывать почёт.</blockquote>
 	</card>
 	<card>
 		<k>изааттуу</k>
-		<blockquote>(в старом эпистолярном стиле)</blockquote>
-		<blockquote>уважаемый.</blockquote>
+		<pos>adj</pos>
+		<meta>(в старом эпистолярном стиле)</meta>
+		<trn>уважаемый.</trn>
 	</card>
 	<card>
 		<k>изат</k>
+		<pos>n</pos>
 		<sameas word="изаат"/>
 	</card>
 	<card>
 		<k>изаттуу</k>
+		<pos>adj</pos>
 		<sameas word="изааттуу"/>
 	</card>
 	<card>
 		<k>избене</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="звено"/>
 	</card>
 	<card>
 		<k>изде-</k>
-		<blockquote>искать, разыскивать;</blockquote>
-		<blockquote>жол изде- прям., перен. искать дорогу, искать пути;</blockquote>
+		<pos>v</pos>
+		<trn>искать, разыскивать;</trn>
+		<blockquote>жол изде-@@ прям., перен. искать дорогу, искать пути;</blockquote>
 		<ex>
 			<source>күрөктүн издегени бок, боктун издегени күрөк погов.</source>
 			<target>два сапога пара (букв. лопата ищет дерьмо, а дерьмо ищет лопату);</target>
 		</ex>
-		<blockquote>изимди абдан издей көр не теряй меня из виду;</blockquote>
-		<blockquote>минип жүрүп, атын издейт шутл. сидя (на коне), коня своего ищет.</blockquote>
+		<blockquote>изимди абдан издей көр@@ не теряй меня из виду;</blockquote>
+		<blockquote>минип жүрүп, атын издейт@@ шутл. сидя (на коне), коня своего ищет.</blockquote>
 	</card>
 	<card>
 		<k>издел-</k>
+		<pos>v</pos>
 		<pass word="изде"/>
-		<blockquote>разыскиваться.</blockquote>
+		<trn>разыскиваться.</trn>
 	</card>
 	<card>
 		<k>изден-</k>
+		<pos>v</pos>
 		<refv word="изде"/>
-		<blockquote>быть в поисках чего-л.; домогаться, добиваться чего-л.;</blockquote>
-		<blockquote>Бөрүбай да колхозго өтүү амалын изденди (кулак) Бёрюбай тоже изыскивал способы пробраться в колхоз.</blockquote>
+		<trn>быть в поисках чего-л.; домогаться, добиваться чего-л.;</trn>
+		<blockquote>Бөрүбай да колхозго өтүү амалын изденди (кулак)@@ Бёрюбай тоже изыскивал способы пробраться в колхоз.</blockquote>
 	</card>
 	<card>
 		<k>изденүү</k>
+		<pos>ger</pos>
 		<actionNoun word="изден"/>
-		<blockquote>происки, домогательства;</blockquote>
-		<blockquote>душмандардын изденүүлөрү происки врагов.</blockquote>
+		<trn>происки, домогательства;</trn>
+		<blockquote>душмандардын изденүүлөрү@@ происки врагов.</blockquote>
 	</card>
 	<card>
 		<k>издет-</k>
+		<pos>v</pos>
 		<caus word="изде"/>
-		<blockquote>заставить искать;</blockquote>
+		<trn>заставить искать;</trn>
 		<ex>
 			<source>жамандык издетпей эле табылат погов.</source>
 			<target>на грех мастера нет (букв. зло, не заставляя себя искать, найдётся).</target>
@@ -377,38 +437,44 @@
 	</card>
 	<card>
 		<k>издеттир-</k>
+		<pos>v</pos>
 		<caus word="издет"/>
 	</card>
 	<card>
 		<k>издетүү</k>
+		<pos>ger</pos>
 		<actionNoun word="издет"/>
 	</card>
 	<card>
 		<k>издеш-</k>
+		<pos>v</pos>
 		<recv word="изде"/>
-		<blockquote>совместно искать.</blockquote>
+		<trn>совместно искать.</trn>
 	</card>
 	<card>
 		<k>издөө</k>
+		<pos>ger</pos>
 		<actionNoun word="изде"/>
-		<blockquote>разыскивание, поиски.</blockquote>
+		<trn>разыскивание, поиски.</trn>
 	</card>
 	<card>
 		<k>изет</k>
+		<pos>n</pos>
 		<sameas word="изаат"/>
 	</card>
 	<card>
 		<k>изилде-</k>
+		<pos>v</pos>
 		<homonym>
 			<meaning>
-				<blockquote>идти по следам, разыскивать по следам;</blockquote>
+				<trn>идти по следам, разыскивать по следам;</trn>
 				<ex>
 					<source>изин кууп адашпай, изилдеп булар барды эми фольк.</source>
 					<target>по их следам, не сбиваясь, двинулись они теперь на розыски;</target>
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>исследовать.</blockquote>
+				<trn>исследовать.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -418,60 +484,72 @@
 	</card>
 	<card>
 		<k>изилдегич</k>
-		<blockquote>искатель, исследователь.</blockquote>
+		<pos>n</pos>
+		<trn>искатель, исследователь.</trn>
 	</card>
 	<card>
 		<k>изилдөө</k>
+		<pos>ger</pos>
 		<actionNoun word="изилде" index="1"/>
-		<blockquote>исследование;</blockquote>
+		<trn>исследование;</trn>
 		<blockquote>илим-изилдөө институту научно-исследовательский институт.</blockquote>
 	</card>
 	<card>
 		<k>изилдөөчү</k>
-		<blockquote>исследователь.</blockquote>
+		<pos>n</pos>
+		<trn>исследователь.</trn>
 	</card>
 	<card>
 		<k>изирик</k>
+		<pos>n</pos>
 		<sameas word="зирк"/>
 	</card>
 	<card>
 		<k>изиркектен-</k>
+		<pos>v</pos>
 		<sameas word="исиркектен"/>
 	</card>
 	<card>
 		<k>изнек</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>знак; значок, бляха.</blockquote>
+		<trn>знак; значок, бляха.</trn>
 	</card>
 	<card>
 		<k>изолятор</k>
+		<pos>n</pos>
 		<trn>изолятор</trn>
 	</card>
 	<card>
 		<k>изоляция</k>
+		<pos>n</pos>
 		<trn>изоляция</trn>
 	</card>
 	<card>
 		<k>изүүлдө-</k>
+		<pos>v</pos>
 		<sameas word="изилде" index="1"/>
 	</card>
 	<card>
 		<k>изүүлдөөчү</k>
+		<pos>n</pos>
 		<sameas word="изилдөөчү"/>
 	</card>
 	<card>
 		<k>ии</k>
+		<pos>ideo</pos>
 		<sameas word="и" index="1"/>
-		<blockquote>ии, эмне болуп кетти? ну, что случилось?</blockquote>
+		<blockquote>ии, эмне болуп кетти?@@ ну, что случилось?</blockquote>
 	</card>
 	<card>
 		<k>иий</k>
+		<pos>ideo</pos>
 		<sameas word="ий" index="1"/>
-		<blockquote>иий, айланайын! ух, миленький!;</blockquote>
-		<blockquote>иий, күнүңдү көрөйүн! ох, дай тебе жизни! (лаская ребёнка);</blockquote>
-		<blockquote>иий, балакет баскыр! ух, чтоб тебе!;</blockquote>
-		<blockquote>иий, ачуу экен! ох, как горько!</blockquote>
+		<blockquote>иий, айланайын!@@ ух, миленький!;</blockquote>
+		<blockquote>иий, күнүңдү көрөйүн!@@ ох, дай тебе жизни! (лаская ребёнка);</blockquote>
+		<blockquote>иий, балакет баскыр!@@ ух, чтоб тебе!;</blockquote>
+		<blockquote>иий, ачуу экен!@@ ох, как горько!</blockquote>
 	</card>
 	<card>
 		<k>ий</k>
