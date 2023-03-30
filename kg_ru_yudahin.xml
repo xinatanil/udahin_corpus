@@ -214983,7 +214983,7 @@
 	</card>
 	<card>
 		<k>үгөлөн-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<sameas word="убөлөн"/>
 		<ex>
 			<source>бутубуз баскан жердин кыртышы үгөлөнүп, чөптөрдүн тамыры жулунуп жатты</source>
@@ -215288,7 +215288,7 @@
 	</card>
 	<card>
 		<k>үз</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="жүз" index="2"/>
@@ -215376,7 +215376,7 @@
 	</card>
 	<card>
 		<k>уза-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<meaning>
 			<trn>удаляться, отдаляться;</trn>
 			<ex>
@@ -215447,7 +215447,7 @@
 	</card>
 	<card>
 		<k>узан-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>работать, заниматься ремеслом (гл. обр. о кузнеце);</trn>
 		<ex>
 			<source>уста узанып атат</source>
@@ -215475,7 +215475,7 @@
 	</card>
 	<card>
 		<k>узар-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>удлиняться;</trn>
 		<ex>
 			<source>шилтеп ийсе, кылычы аркан бою узарган стих.</source>
@@ -215667,13 +215667,13 @@
 	</card>
 	<card>
 		<k>узда-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>делать что-л. искусно, мастерски.</trn>
 	</card>
 	<card>
 		<k>уздат-</k>
 		<pos>v</pos>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="узда"/>
 		<ex>
 			<source>чымырата тиктирген, уздан узга уздаткан фольк.</source>
@@ -218053,7 +218053,7 @@
 	</card>
 	<card>
 		<k>укмуштант-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="укмуштан"/>
 		<trn>изумлять, ошеломлять.</trn>
 	</card>
@@ -218127,7 +218127,7 @@
 	</card>
 	<card>
 		<k>үксүйт-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="үксүй"/>
 	</card>
 	<card>
@@ -218157,7 +218157,7 @@
 	</card>
 	<card>
 		<k>үксөйт-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<sameas word="үксүйт"/>
 	</card>
 	<card>
@@ -218167,7 +218167,7 @@
 	</card>
 	<card>
 		<k>үксөңдө-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<sameas word="үксүңдө"/>
 	</card>
 	<card>
@@ -218399,7 +218399,7 @@
 	</card>
 	<card>
 		<k>укулда-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<sameas word="лукулда"/>
 	</card>
 	<card>
@@ -218556,7 +218556,7 @@
 	</card>
 	<card>
 		<k>укуш-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<recv word="уку"/>
 		<ex>
 			<source>бирин бири колтукка укушуп</source>
@@ -220452,7 +220452,7 @@
 	</card>
 	<card>
 		<k>умтулдур-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="умтул"/>
 		<ex>
 			<source>эмгекке умтулдур</source>
@@ -220658,7 +220658,7 @@
 	</card>
 	<card>
 		<k>үмүттөндүр-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="үмүттөн"/>
 		<trn>обнадёживать.</trn>
 	</card>
@@ -220794,7 +220794,7 @@
 	</card>
 	<card>
 		<k>уна-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>одобрять, соглашаться.</trn>
 	</card>
 	<card>
@@ -222548,7 +222548,7 @@
 	</card>
 	<card>
 		<k>ургуз-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="ур" index="4"/>
 		<ex>
 			<source>жуучуга келген кыргызды, журтуна атам ургузду фольк.</source>
@@ -222557,7 +222557,7 @@
 	</card>
 	<card>
 		<k>үргүз-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="үр" index="2"/>
 		<trn>вызывать лай;</trn>
 		<ex>
@@ -222649,7 +222649,7 @@
 	</card>
 	<card>
 		<k>үргүлөт-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="үргүлө"/>
 		<trn>нагонять дремоту;</trn>
 		<ex>
@@ -222664,7 +222664,7 @@
 	</card>
 	<card>
 		<k>үргүлөө</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<actionNoun word="үргүлө"/>
 		<ex>
 			<source>ат үстүндө үргүлөөгө кирди</source>
@@ -223406,7 +223406,7 @@
 	</card>
 	<card>
 		<k>уруктандыруу</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<actionNoun word="уруктандыр"/>
 		<meta>с.-х.</meta>
 		<trn>осеменение;</trn>
@@ -223433,7 +223433,7 @@
 	</card>
 	<card>
 		<k>уруктат-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<trn>расплодить; размножить.</trn>
 	</card>
 	<card>
@@ -226003,7 +226003,7 @@
 	</card>
 	<card>
 		<k>ууландыр-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="уулан"/>
 		<meaning>
 			<trn>отравлять; перен. задевать за живое;</trn>
@@ -226033,7 +226033,7 @@
 	</card>
 	<card>
 		<k>уулда-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<collocation>
 			<k>уулдап-чуулдап</k>
 			<trn>громко плача, рыдая; крича в беспокойстве.</trn>
@@ -226197,12 +226197,12 @@
 	</card>
 	<card>
 		<k>уурдаттыр-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="уурдат"/>
 	</card>
 	<card>
 		<k>уурдаш-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<recv word="уурда"/>
 		<trn>совместно красть.</trn>
 	</card>
@@ -226303,7 +226303,7 @@
 	</card>
 	<card>
 		<k>ууртал-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<pass word="уурта"/>
 	</card>
 	<card>
@@ -226313,13 +226313,13 @@
 	</card>
 	<card>
 		<k>ууртат-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="уурта"/>
 		<trn>заставить хлебать, заставить глотать.</trn>
 	</card>
 	<card>
 		<k>ууртаттыр-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<caus word="ууртат"/>
 		<ex>
 			<source>үч кашык суу ууртаттырды</source>
@@ -228064,12 +228064,12 @@
 	</card>
 	<card>
 		<k>ушакта-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>сплетничать; хулить заглазно.</trn>
 	</card>
 	<card>
 		<k>ушактат-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="ушакта"/>
 	</card>
 	<card>
@@ -228113,7 +228113,7 @@
 	</card>
 	<card>
 		<k>ушала-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>тереть, растирать, натирать; массировать;</trn>
 		<ex>
 			<source>кол ушала-</source>
@@ -228130,12 +228130,12 @@
 	</card>
 	<card>
 		<k>ушалат-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="ушала"/>
 	</card>
 	<card>
 		<k>ушалаттыр-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="ушалат"/>
 		<ex>
 			<source>Карабек колун, ушалаттырбай, тартып алды Карабек</source>
@@ -228144,7 +228144,7 @@
 	</card>
 	<card>
 		<k>ушат-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<meaning>
 			<trn>размельчать;</trn>
 		</meaning>
@@ -228185,7 +228185,7 @@
 	</card>
 	<card>
 		<k>ушинт-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>поступить так, сделать так;</trn>
 		<ex>
 			<source>эртеңден калбай ушинткиле</source>
@@ -228222,7 +228222,7 @@
 	</card>
 	<card>
 		<k>үшкүр-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>делать протяжные выдохи с шумом; тяжело вздыхать;</trn>
 		<ex>
 			<source>катуу үшкүрдү</source>
@@ -228235,7 +228235,7 @@
 	</card>
 	<card>
 		<k>үшкүрт-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="үшкүр"/>
 		<ex>
 			<source>үшкүртө турган</source>
@@ -228282,7 +228282,7 @@
 	</card>
 	<card>
 		<k>ушта-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<sameas word="учта"/>
 	</card>
 	<card>
@@ -228304,7 +228304,7 @@
 	</card>
 	<card>
 		<k>үшү-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<homonym>
 			<trn>сверлить, протыкать дырку.</trn>
 		</homonym>
@@ -228470,7 +228470,7 @@
 	</card>
 	<card>
 		<k>үшүнт-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<meta>(ушуну эт-)</meta>
 		<trn>так сделать, так поступить;</trn>
 		<ex>
@@ -228532,7 +228532,7 @@
 	</card>
 	<card>
 		<k>үшүркө-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<collocation>
 			<k>жүрөгү үшүркөп калган</k>
 			<trn>он очень запуган.</trn>
@@ -228540,7 +228540,7 @@
 	</card>
 	<card>
 		<k>үшүт-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<homonym>
 			<caus word="үшү" index="1"/>
 			<trn>заставить сверлить.</trn>
@@ -228604,7 +228604,7 @@
 	</card>
 	<card>
 		<k>ую-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<meaning>
 			<trn>(о крови, молоке) свернуться;</trn>
 		</meaning>
@@ -228685,7 +228685,7 @@
 	</card>
 	<card>
 		<k>уюкта-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>скапливаться во множестве, собираться в кучу (гл. обр. о насекомых).</trn>
 	</card>
 	<card>
@@ -228720,7 +228720,7 @@
 	</card>
 	<card>
 		<k>уюлгу-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<meaning>
 			<trn>крутиться, кружиться, порывисто метаться;</trn>
 			<ex>
@@ -228760,7 +228760,7 @@
 	</card>
 	<card>
 		<k>уюлгут-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="уюлгу"/>
 		<ex>
 			<source>кер атты минип, чаң уюлгутуп жөнөдү</source>
@@ -228825,7 +228825,7 @@
 	</card>
 	<card>
 		<k>уюмдаштыр-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="уюмдаш"/>
 		<trn>организовывать.</trn>
 	</card>
@@ -228863,7 +228863,7 @@
 	</card>
 	<card>
 		<k>уюңкура-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<trn>чувствовать лёгкую ломоту, слегка натрудить (спину, напр. от долгого сидения согнувшись, от верховой езды и т.п.);</trn>
 		<ex>
 			<source>атка көп жүрүп, бели уюңкурап</source>
@@ -228876,7 +228876,7 @@
 	</card>
 	<card>
 		<k>уют-</k>
-		<pos>inf</pos>
+		<pos>v</pos>
 		<collocation>
 			<k>айран уют-</k>
 			<trn>сквашивать айран;</trn>
@@ -228994,7 +228994,7 @@
 	</card>
 	<card>
 		<k>уюштур-</k>
-		<pos>caus</pos>
+		<pos>v</pos>
 		<caus word="уюш"/>
 		<trn>организовывать;</trn>
 		<ex>
