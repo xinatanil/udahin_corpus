@@ -2602,22 +2602,53 @@
 	</card>
 	<card>
 		<k>ир</k>
-		<blockquote>ир I, ири:</blockquote>
-		<blockquote>ир алдында или ири алдында впереди всех;</blockquote>
-		<blockquote>ирде или ириде прежде, раньше;</blockquote>
-		<blockquote>ириде мен келдим раньше (других) пришёл я, первым пришёл я.</blockquote>
-		<blockquote>вспомогательный глагол, придающий действию, выраженному основным глаголом, оттенок решительности, категоричности;</blockquote>
-		<blockquote>чаап ирди он рубанул;</blockquote>
-		<blockquote>ыргыта коюп ирди он с силой швырнул;</blockquote>
-		<blockquote>бат эле берип ирбейсиңби! да подай же ты (сюда) скорее!;</blockquote>
-		<blockquote>бычакты берип иргин передай-ка (сюда) нож;</blockquote>
-		<blockquote>кийимин уурдатып ирген у него украли одежду.</blockquote>
+		<homonym>
+			<minicard>
+				<k>ири</k>
+				<ex>
+					<source>ир алдында <i>или</i> ири алдында</source>
+					<target>впереди всех;</target>
+				</ex>
+				<ex>
+					<source>ирде <i>или</i> ириде</source>
+					<target>прежде, раньше;</target>
+				</ex>
+				<ex>
+					<source>ириде мен келдим</source>
+					<target>раньше (других) пришёл я, первым пришёл я.</target>
+				</ex>
+			</minicard>
+		</homonym>
+		<homonym>
+			<trn>вспомогательный глагол, придающий действию, выраженному основным глаголом, оттенок решительности, категоричности;</trn>
+			<ex>
+				<source>чаап ирди</source>
+				<target>он рубанул;</target>
+			</ex>
+			<ex>
+				<source>ыргыта коюп ирди</source>
+				<target>он с силой швырнул;</target>
+			</ex>
+			<ex>
+				<source>бат эле берип ирбейсиңби!</source>
+				<target>да подай же ты (сюда) скорее!;</target>
+			</ex>
+			<ex>
+				<source>бычакты берип иргин</source>
+				<target>передай-ка (сюда) нож;</target>
+			</ex>
+			<ex>
+				<source>кийимин уурдатып ирген</source>
+				<target>у него украли одежду.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>ирада</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>редко</meta>
-		<blockquote>воля, собственная воля, желание;</blockquote>
+		<trn>воля, собственная воля, желание;</trn>
 		<ex>
 			<source>келмек - ирада, кетмек - ижаза погов.</source>
 			<target>прийти (в гости - своя) воля, уйти - разрешение (хозяина).</target>
@@ -2630,9 +2661,15 @@
 	</card>
 	<card>
 		<k>Ирбит</k>
-		<blockquote>(от г. Ирбит, Ирбитская ярмарка):</blockquote>
-		<blockquote>базардын Ирбит кезинде в самый разгар торговли;</blockquote>
-		<blockquote>отундун Ирбит кези время, когда имеется много топлива.</blockquote>
+		<meta>(от г. Ирбит, Ирбитская ярмарка)</meta>
+		<ex>
+			<source>базардын Ирбит кезинде</source>
+			<target>в самый разгар торговли;</target>
+		</ex>
+		<ex>
+			<source>отундун Ирбит кези</source>
+			<target>время, когда имеется много топлива.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ирге</k>
@@ -2640,15 +2677,24 @@
 			<look word="иреге"/>
 		</homonym>
 		<homonym>
-			<blockquote>встряхивать, выбирая крупное или лучшее.</blockquote>
+			<trn>встряхивать, выбирая крупное или лучшее.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>иргел-</k>
 		<pass word="ирге" index="2"/>
-		<blockquote>иргелип, майдасы калды перетряслось, и осталась мелочь;</blockquote>
-		<blockquote>иргелип терил- быть тщательно собираемым;</blockquote>
-		<blockquote>иргелген чыгармалар избранные произведения.</blockquote>
+		<ex>
+			<source>иргелип, майдасы калды</source>
+			<target>перетряслось, и осталась мелочь;</target>
+		</ex>
+		<ex>
+			<source>иргелип терил-</source>
+			<target>быть тщательно собираемым;</target>
+		</ex>
+		<ex>
+			<source>иргелген чыгармалар</source>
+			<target>избранные произведения.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иргелеш</k>
@@ -2661,18 +2707,30 @@
 	</card>
 	<card>
 		<k>иргил-</k>
-		<blockquote>быть предупредительным; быть послушным;</blockquote>
-		<blockquote>айтсам эле, иргилип эле тура калды я только сказал, а он уже предупредительно встал (чтобы исполнить).</blockquote>
+		<trn>быть предупредительным; быть послушным;</trn>
+		<ex>
+			<source>айтсам эле, иргилип эле тура калды</source>
+			<target>я только сказал, а он уже предупредительно встал (чтобы исполнить).</target>
+		</ex>
 	</card>
 	<card>
 		<k>иргилт-</k>
-		<blockquote>иргилт-: көздүн жашын иргилтип проливая слёзы.</blockquote>
+		<ex>
+			<source>көздүн жашын иргилтип</source>
+			<target>проливая слёзы.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иргит-</k>
-		<blockquote>только с отриц.:</blockquote>
-		<blockquote>иргитпей без промедления, немедленно, тут же;</blockquote>
-		<blockquote>иргитпей берди он дал без промедления.</blockquote>
+		<meta>только с отриц.</meta>
+		<ex>
+			<source>иргитпей</source>
+			<target>без промедления, немедленно, тут же;</target>
+		</ex>
+		<ex>
+			<source>иргитпей берди</source>
+			<target>он дал без промедления.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иргөө</k>
@@ -2684,35 +2742,54 @@
 			<look word="ир" index="1"/>
 		</homonym>
 		<homonym>
-			<blockquote>выбирать крупное.</blockquote>
+			<trn>выбирать крупное.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>ирден-</k>
 		<refv word="ирде" index="2"/>
 		<meaning>
-			<blockquote>увеличиваться (в размерах, в объёме), становиться крупным, укрупняться;</blockquote>
+			<trn>увеличиваться (в размерах, в объёме), становиться крупным, укрупняться;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>встать на ноги, оправиться (пополнеть, восстановить своё здоровье, благосостояние и т.п.);</blockquote>
-			<blockquote>мал ирденгенде когда скот немного оправится;</blockquote>
-			<blockquote>ал ирденип калыптыр, башта кедей болчу он поправил своё материальное положение, раньше был бедняком;</blockquote>
-			<blockquote>бир оңолуп, кайра ылаңдай калып, айтор көп ирденбей жүрө берди то он поправлялся, то заболевал, словом, как следует не оправлялся.</blockquote>
+			<trn>встать на ноги, оправиться (пополнеть, восстановить своё здоровье, благосостояние и т.п.);</trn>
+			<ex>
+				<source>мал ирденгенде</source>
+				<target>когда скот немного оправится;</target>
+			</ex>
+			<ex>
+				<source>ал ирденип калыптыр, башта кедей болчу</source>
+				<target>он поправил своё материальное положение, раньше был бедняком;</target>
+			</ex>
+			<ex>
+				<source>бир оңолуп, кайра ылаңдай калып, айтор көп ирденбей жүрө берди</source>
+				<target>то он поправлялся, то заболевал, словом, как следует не оправлялся.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>ирдент-</k>
 		<caus word="ирден" subindex="2"/>
-		<blockquote>поставить на ноги, помочь поправить своё материальное положение;</blockquote>
-		<blockquote>тентип келгенде өзүм ирденттим эле, эми, тоюнуп алып, камчысын үйрүп турбайбы! когда он пришёл сюда бездомным, я помог ему встать на ноги, а теперь он, смотри-ка, насытившись, угрожает!</blockquote>
+		<trn>поставить на ноги, помочь поправить своё материальное положение;</trn>
+		<ex>
+			<source>тентип келгенде өзүм ирденттим эле, эми, тоюнуп алып, камчысын үйрүп турбайбы!</source>
+			<target>когда он пришёл сюда бездомным, я помог ему встать на ноги, а теперь он, смотри-ка, насытившись, угрожает!</target>
+		</ex>
 	</card>
 	<card>
 		<k>ирдүү</k>
 		<sameas word="ири" index="1"/>
-		<blockquote>ирдүүлөрү</blockquote>
-		<blockquote>1) наиболее крупные;</blockquote>
-		<blockquote>2) перен. наиболее видные;</blockquote>
+		<minicard>
+			<k>ирдүүлөрү</k>
+			<meaning>
+				<trn>наиболее крупные;</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>наиболее видные;</trn>
+			</meaning>
+		</minicard>
 		<ex>
 			<source>ирдүүрөк деген бир жандык - кыргыздан келген көк бука фольк.</source>
 			<target>(да и) самое-то крупное из животных - это сивый бык, прибывший от киргизов.</target>
@@ -2720,32 +2797,60 @@
 	</card>
 	<card>
 		<k>ире</k>
-		<blockquote>ире: ире-шире сумерки, начало вечерней темноты;</blockquote>
-		<blockquote>ире-шире болгондо</blockquote>
-		<blockquote>1) когда смерклось;</blockquote>
-		<blockquote>2) перен. когда наступило спокойствие, полная тишина;</blockquote>
 		<ex>
-			<source>ире-шире болгондо, тараанчы талга конгондо фольк.</source>
-			<target>когда всё успокоилось, когда воробьи сели на вербу (на ночлег).</target>
+			<source>ире-шире</source>
+			<target>сумерки, начало вечерней темноты;</target>
 		</ex>
+		<minicard>
+			<k>ире-шире болгондо</k>
+			<meaning>
+				<trn>когда смерклось;</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>когда наступило спокойствие, полная тишина;</trn>
+				<ex>
+					<source>ире-шире болгондо, тараанчы талга конгондо фольк.</source>
+					<target>когда всё успокоилось, когда воробьи сели на вербу (на ночлег).</target>
+				</ex>
+			</meaning>
+		</minicard>
 	</card>
 	<card>
 		<k>иреге,</k>
-		<blockquote>иреге, ирге</blockquote>
-		<blockquote>место у порога (в юрте это место отводилось для менее почётных людей);</blockquote>
-		<blockquote>иреге тарапка барып, отура кетти он пошёл к порогу и сел;</blockquote>
-		<blockquote>ирегеси көтөрүлүп, көчүп конбогон эл народ, который никогда не кочевал, не менял насиженных мест;</blockquote>
-		<blockquote>ирегебизден май акты у нас гости не переводились и ели-пили в изобилии (скот резали для гостей без конца);</blockquote>
-		<blockquote>ирегеден майды агызды он устраивал у себя постоянные обильные угощения.</blockquote>
+		<trn>место у порога (в юрте это место отводилось для менее почётных людей);</trn>
+		<ex>
+			<source>иреге тарапка барып, отура кетти</source>
+			<target>он пошёл к порогу и сел;</target>
+		</ex>
+		<ex>
+			<source>ирегеси көтөрүлүп, көчүп конбогон эл</source>
+			<target>народ, который никогда не кочевал, не менял насиженных мест;</target>
+		</ex>
+		<ex>
+			<source>ирегебизден май акты</source>
+			<target>у нас гости не переводились и ели-пили в изобилии (скот резали для гостей без конца);</target>
+		</ex>
+		<ex>
+			<source>ирегеден майды агызды</source>
+			<target>он устраивал у себя постоянные обильные угощения.</target>
+		</ex>
+	</card>
+	<card>
+		<k>ирге</k>
+		<look word="иреге"/>
 	</card>
 	<card>
 		<k>ирегелеш</k>
 		<homonym>
-			<blockquote>живущий с кем-л. порог к порогу; близкий сосед; сопредельный;</blockquote>
-			<blockquote>ирегелеш кон- расположиться на стоянку или прикочевать и расположиться в близком соседстве с кем-л.</blockquote>
+			<trn>живущий с кем-л. порог к порогу; близкий сосед; сопредельный;</trn>
+			<ex>
+				<source>ирегелеш кон-</source>
+				<target>расположиться на стоянку или прикочевать и расположиться в близком соседстве с кем-л.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>водиться, водить дружбу с кем-л.</blockquote>
+			<trn>водиться, водить дружбу с кем-л.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -2754,14 +2859,17 @@
 	</card>
 	<card>
 		<k>ирекет</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>рел.</meta>
-		<blockquote>поясной поклон (во время молитвы).</blockquote>
+		<trn>поясной поклон (во время молитвы).</trn>
 	</card>
 	<card>
 		<k>ирел</k>
-		<blockquote>англ. через уйг., южн. уст.</blockquote>
-		<blockquote>железная дорога.</blockquote>
+		<origin>англ. через уйг.</origin>
+		<meta>южн.</meta>
+		<meta>уст.</meta>
+		<trn>железная дорога.</trn>
 	</card>
 	<card>
 		<k>ирең</k>
@@ -2771,56 +2879,86 @@
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>лицо; цвет лица;</blockquote>
-				<blockquote>жаш ирең молодое лицо;</blockquote>
-				<blockquote>иреңи жаман у него плохой (болезненный) цвет лица;</blockquote>
-				<blockquote>иреңи суук</blockquote>
-				<blockquote>1) неприятное, несимпатичное лицо;</blockquote>
-				<blockquote>2) (о человеке) скверный;</blockquote>
-				<blockquote>иреңи жылуу с приятным лицом.</blockquote>
+				<trn>лицо; цвет лица;</trn>
+				<ex>
+					<source>жаш ирең</source>
+					<target>молодое лицо;</target>
+				</ex>
+				<ex>
+					<source>иреңи жаман</source>
+					<target>у него плохой (болезненный) цвет лица;</target>
+				</ex>
+				<minicard>
+					<k>иреңи суук</k>
+					<meaning>
+						<trn>неприятное, несимпатичное лицо;</trn>
+					</meaning>
+					<meaning>
+						<trn>(о человеке) скверный;</trn>
+					</meaning>
+				</minicard>
+				<ex>
+					<source>иреңи жылуу</source>
+					<target>с приятным лицом.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>ирең II:</blockquote>
-			<blockquote>ирең-бараң то же, что үрүң-бараң (см. үрүң);</blockquote>
-			<blockquote>ирең-бараң таң аткан рассвет занялся.</blockquote>
+			<ex>
+				<source>ирең-бараң</source>
+				<target>то же, что үрүң-бараң (см. үрүң);</target>
+			</ex>
+			<ex>
+				<source>ирең-бараң таң аткан</source>
+				<target>рассвет занялся.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>иренде</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>[ирәндә]</blockquote>
-		<blockquote>рубанок, фуганок.</blockquote>
+		<transcription>ирәндә</transcription>
+		<trn>рубанок, фуганок.</trn>
 	</card>
 	<card>
 		<k>иренделе-</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
-		<blockquote>[ирәндәлә]</blockquote>
-		<blockquote>строгать рубанком, фуганком, фуговать.</blockquote>
+		<transcription>ирәндәлә</transcription>
+		<trn>строгать рубанком, фуганком, фуговать.</trn>
 	</card>
 	<card>
 		<k>иреңден-</k>
 		<meaning>
-			<blockquote>принять окраску, иметь вид кого-чего-л.;</blockquote>
+			<trn>принять окраску, иметь вид кого-чего-л.;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>(о лице) посвежетъ;</blockquote>
-			<blockquote>иреңдеп калыпсың у тебя лицо посвежело.</blockquote>
+			<trn>(о лице) посвежетъ;</trn>
+			<ex>
+				<source>иреңдеп калыпсың</source>
+				<target>у тебя лицо посвежело.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>иренжи-</k>
-		<origin>ир.</origin>
-		<blockquote>-кирг.</blockquote>
-		<blockquote>огорчаться;</blockquote>
-		<blockquote>көөнүм иренжиди я огорчён.</blockquote>
+		<origin>ир.-кирг.</origin>
+		<trn>огорчаться;</trn>
+		<ex>
+			<source>көөнүм иренжиди</source>
+			<target>я огорчён.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иренжит-</k>
 		<caus word="иренжи"/>
-		<blockquote>огорчить;</blockquote>
-		<blockquote>силердин көңүлдөрүңөрдү иренжитпөөнү мен да эскертейин я тоже намекну, чтобы вас не огорчали.</blockquote>
+		<trn>огорчить;</trn>
+		<ex>
+			<source>силердин көңүлдөрүңөрдү иренжитпөөнү мен да эскертейин</source>
+			<target>я тоже намекну, чтобы вас не огорчали.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иренжитүү</k>
