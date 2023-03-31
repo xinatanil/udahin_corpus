@@ -1947,20 +1947,21 @@
 			<meaning>
 				<trn>название узора вышивки;</trn>
 				<ex>
-					<source>илме-чалма<source/>
-					<target/>выкрутасы. махинации;</target>
-				<ex/>
+					<source>илме-чалма</source>
+					<target>выкрутасы. махинации;</target>
+				</ex>
 				<ex>
-				<source>илме-чалма аския сөздөр</source>
-				<target/>весёлые шутки с подковырами.</source>
+					<source>илме-чалма аския сөздөр</source>
+					<target>весёлые шутки с подковырами.</target>
 				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
 			<minicard>
-			<k>илме II: илме кайып</k> 
-			<origin>ар.</origin> 
-			<trn>тайна непостижимая.</trn>
+				<k>илме кайып</k>
+				<origin>ар.</origin>
+				<trn>тайна непостижимая.</trn>
+			</minicard>
 		</homonym>
 	</card>
 	<card>
