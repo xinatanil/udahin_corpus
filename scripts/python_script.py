@@ -45,7 +45,7 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub(rf'<blockquote>понуд\. от {referencePattern}<\/blockquote>', rf'<caus {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>взаимн\. от {referencePattern}<\/blockquote>', rf'<recv {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>страд\. от {referencePattern}<\/blockquote>', rf'<pass {referenceReplace} />', content_new, flags = re.M)
-    content_new = re.sub(rf'<blockquote>возвр\.-страд\. от {referencePattern}<\/blockquote>', rf'<refpass {referenceReplace} />', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>возвр\.- ?страд\. от {referencePattern}<\/blockquote>', rf'<refpass {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>возвр\. от {referencePattern}<\/blockquote>', rf'<refv {referenceReplace} />', content_new, flags = re.M)
     
     content_new = re.sub(rf'<blockquote>уподоб\. от {referencePattern}<\/blockquote>', rf'<similative {referenceReplace} />', content_new, flags = re.M)
