@@ -1939,28 +1939,38 @@
 	</card>
 	<card>
 		<k>илме</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
-				<blockquote>(точнее илме шибеге) вышивальный крючок;</blockquote>
+				<trn>(точнее илме шибеге) вышивальный крючок;</trn>
 			</meaning>
 			<meaning>
-				<blockquote>название узора вышивки;</blockquote>
-				<blockquote>илме-чалма выкрутасы. махинации;</blockquote>
-				<blockquote>илме-чалма аския сөздөр весёлые шутки с подковырами.</blockquote>
+				<trn>название узора вышивки;</trn>
+				<ex>
+					<source>илме-чалма<source/>
+					<target/>выкрутасы. махинации;</target>
+				<ex/>
+				<ex>
+				<source>илме-чалма аския сөздөр</source>
+				<target/>весёлые шутки с подковырами.</source>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>илме II:</blockquote>
-			<blockquote>илме кайып ар. тайна непостижимая.</blockquote>
+			<minicard>
+			<k>илме II: илме кайып</k> 
+			<origin>ар.</origin> 
+			<trn>тайна непостижимая.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>илмек</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>крючок, зацепка;</blockquote>
+			<trn>крючок, зацепка;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>петля (при завязывании узла петлей, бантом);</blockquote>
+			<trn>петля (при завязывании узла петлей, бантом);</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
@@ -1969,22 +1979,25 @@
 	</card>
 	<card>
 		<k>илмектеш-</k>
-		<blockquote>(о двух крючках) зацепиться один за другой.</blockquote>
+		<pos>v</pos>
+		<trn>(о двух крючках) зацепиться один за другой.</trn>
 	</card>
 	<card>
 		<k>илмектешүү</k>
+		<pos>ger</pos>
 		<actionNoun word="илмектеш"/>
-		<blockquote>сцепление.</blockquote>
+		<trn>сцепление.</trn>
 	</card>
 	<card>
 		<k>илмеңде-</k>
-		<blockquote>двигаться быстро, проворно;</blockquote>
-		<blockquote>илмеңдеп учкан камгактар быстро летящее перекати-поле.</blockquote>
+		<pos>v</pos>
+		<trn>двигаться быстро, проворно;</trn>
+		<blockquote>илмеңдеп учкан камгактар@@ быстро летящее перекати-поле.</blockquote>
 	</card>
 	<card>
 		<k>илмеңдет-</k>
 		<caus word="илмеңде"/>
-		<blockquote>ийнесин илмеңдете сайып (о швее) быстро и ловко действуя иглой.</blockquote>
+		<blockquote>ийнесин илмеңдете сайып@@ (о швее) быстро и ловко действуя иглой.</blockquote>
 	</card>
 	<card>
 		<k>илмеңдеш-</k>
@@ -1992,122 +2005,144 @@
 	</card>
 	<card>
 		<k>илмигий</k>
-		<blockquote>худенький; замухрышка.</blockquote>
+		<pos>adj</pos>
+		<trn>худенький; замухрышка.</trn>
 	</card>
 	<card>
 		<k>илмий-</k>
-		<blockquote>быть тонким, хрупким, быть сухопарым;</blockquote>
-		<blockquote>капшыра кармап койсо, сынып кетчүдөй илмийген билек тоненькая рука, которая, кажется, сломается, как только покрепче возьмёшь её.</blockquote>
+		<pos>v</pos>
+		<trn>быть тонким, хрупким, быть сухопарым;</trn>
+		<blockquote>капшыра кармап койсо, сынып кетчүдөй илмийген билек@@ тоненькая рука, которая, кажется, сломается, как только покрепче возьмёшь её.</blockquote>
 	</card>
 	<card>
 		<k>илмиңде-</k>
-		<blockquote>уподобляться в своих движениях тонкому, хрупкому, сухопарому.</blockquote>
+		<pos>v</pos>
+		<trn>уподобляться в своих движениях тонкому, хрупкому, сухопарому.</trn>
 	</card>
 	<card>
 		<k>илтик</k>
-		<blockquote>основная единица при расчётах в игре в альчики (см. бирилтик, экилтик).</blockquote>
+		<pos>n</pos>
+		<trn>основная единица при расчётах в игре в альчики (см. бирилтик, экилтик).</trn>
 	</card>
 	<card>
 		<k>илүү</k>
+		<pos>ger</pos>
 		<actionNoun word="ил"/>
-		<blockquote>эски чапанды эптеп илүү кылып жүргөн он носил кое-как свой рваный чапан;</blockquote>
-		<blockquote>балама илүү кылбады этн. она не оказала внимания моему (новорождённому) ребёнку (увидев его в первый раз, и пуговички не пришила к его одежде).</blockquote>
+		<blockquote>эски чапанды эптеп илүү кылып жүргөн@@ он носил кое-как свой рваный чапан;</blockquote>
+		<blockquote>балама илүү кылбады@@ этн. она не оказала внимания моему (новорождённому) ребёнку (увидев его в первый раз, и пуговички не пришила к его одежде).</blockquote>
 	</card>
 	<card>
 		<k>илүүлүү</k>
+		<pos>adj</pos>
 		<sameas word="илинүү" index="1"/>
 	</card>
 	<card>
 		<k>илээле-</k>
-		<blockquote>двигаться очень медленно, вяло, лениво;</blockquote>
-		<blockquote>бол! илээлебесеңчи! живо! не плетись!</blockquote>
+		<pos>v</pos>
+		<trn>двигаться очень медленно, вяло, лениво;</trn>
+		<blockquote>бол! илээлебесеңчи!@@ живо! не плетись!</blockquote>
 	</card>
 	<card>
 		<k>илээлет-</k>
+		<pos>v</pos>
 		<caus word="илээле"/>
 	</card>
 	<card>
 		<k>илээнди</k>
-		<blockquote>неряха; растяпа.</blockquote>
+		<pos>n</pos>
+		<trn>неряха; растяпа.</trn>
 	</card>
 	<card>
 		<k>илээндилик</k>
-		<blockquote>неряшливость, запущенность.</blockquote>
+		<pos>n</pos>
+		<trn>неряшливость, запущенность.</trn>
 	</card>
 	<card>
 		<k>илээш-</k>
-		<blockquote>прилипнуть, прицепиться; перен. неотвязно следовать за кем-л.;</blockquote>
-		<blockquote>этек-жеңиңе илээшип, көп күндөр өстүм я рос долго, цепляясь за твои рукава и подол;</blockquote>
+		<pos>v</pos>
+		<trn>прилипнуть, прицепиться; перен. неотвязно следовать за кем-л.;</trn>
+		<blockquote>этек-жеңиңе илээшип, көп күндөр өстүм@@ я рос долго, цепляясь за твои рукава и подол;</blockquote>
 		<ex>
 			<source>Ачбуудан мага карматпайт, үч күндөн бери илээштим фольк.</source>
 			<target>(конь) Ачбудан не даёт себя поймать, три дня я следовал за ним;</target>
 		</ex>
-		<blockquote>сага илээшпеймин к тебе я не пристану, с тобой заодно не буду;</blockquote>
-		<blockquote>көз илээшкенче в мгновение ока, моментально;</blockquote>
-		<blockquote>көзгө илээшпей кетти он мгновенно скрылся;</blockquote>
-		<blockquote>көзгө илээшпеген незаметный глазу, микроскопический;</blockquote>
-		<blockquote>илээшкени бар она тронулась умом;</blockquote>
-		<blockquote>чаңга илээшпей калды см. чаң.</blockquote>
+		<blockquote>сага илээшпеймин@@ к тебе я не пристану, с тобой заодно не буду;</blockquote>
+		<blockquote>көз илээшкенче@@ в мгновение ока, моментально;</blockquote>
+		<blockquote>көзгө илээшпей кетти@@ он мгновенно скрылся;</blockquote>
+		<blockquote>көзгө илээшпеген@@ незаметный глазу, микроскопический;</blockquote>
+		<blockquote>илээшкени бар@@ она тронулась умом;</blockquote>
+		<blockquote>чаңга илээшпей калды@@ см. чаң.</blockquote>
 	</card>
 	<card>
 		<k>илээшкек</k>
-		<blockquote>липкий.</blockquote>
+		<pos>adj</pos>
+		<trn>липкий.</trn>
 	</card>
 	<card>
 		<k>илээштир-</k>
+		<pos>v</pos>
 		<caus word="илээш"/>
 	</card>
 	<card>
 		<k>илээшүү</k>
+		<pos>ger</pos>
 		<actionNoun word="илээш"/>
 	</card>
 	<card>
 		<k>илээшчээк</k>
-		<blockquote>липкий, прилипчивый;</blockquote>
-		<blockquote>жаман жоруктар, куду уйгак сыяктуу илээшчээк келет скверные привычки прилипчивы, как репей.</blockquote>
+		<pos>adj</pos>
+		<trn>липкий, прилипчивый;</trn>
+		<blockquote>жаман жоруктар, куду уйгак сыяктуу илээшчээк келет@@ скверные привычки прилипчивы, как репей.</blockquote>
 	</card>
 	<card>
 		<k>им-</k>
+		<pos>v</pos>
 		<sameas word="мин" index="3"/>
-		<blockquote>атка име качты сев верхом на лошадь, он ускакал.</blockquote>
+		<blockquote>атка име качты@@ сев верхом на лошадь, он ускакал.</blockquote>
 	</card>
 	<card>
 		<k>имам</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>имам (лицо, руководящее молением в мечети; настоятель мечети).</blockquote>
+		<trn>имам (лицо, руководящее молением в мечети; настоятель мечети).</trn>
 	</card>
 	<card>
 		<k>иман</k>
+		<pos>n</pos>
 		<sameas word="ыман"/>
 	</card>
 	<card>
 		<k>имарат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>здание.</blockquote>
+		<trn>здание.</trn>
 	</card>
 	<card>
 		<k>имбе</k>
+		<pos>ij</pos>
 		<meta>южн.</meta>
-		<blockquote>дет.</blockquote>
-		<blockquote>да (утверждение).</blockquote>
+		<meta>дет.</meta>
+		<trn>да (утверждение).</trn>
 	</card>
 	<card>
 		<k>имение</k>
+		<pos>n</pos>
 		<trn>имение</trn>
 	</card>
 	<card>
 		<k>имер-</k>
-		<blockquote>обвести кругом, завернуть, повернуть;</blockquote>
-		<blockquote>аттын башын имер- повернуть коня;</blockquote>
-		<blockquote>жылкыны имерип келди он завернул лошадей (и пригнал);</blockquote>
-		<blockquote>бүткөн боюн имерип чыкты он повернулся всем телом;</blockquote>
+		<pos>v</pos>
+		<trn>обвести кругом, завернуть, повернуть;</trn>
+		<blockquote>аттын башын имер-@@ повернуть коня;</blockquote>
+		<blockquote>жылкыны имерип келди@@ он завернул лошадей (и пригнал);</blockquote>
+		<blockquote>бүткөн боюн имерип чыкты@@ он повернулся всем телом;</blockquote>
 		<ex>
 			<source>жаш имерди көзүнөн фольк.</source>
 			<target>он смахнул с глаза слезу;</target>
 		</ex>
-		<blockquote>камчы имер- крутить нагайкой (угрожая или готовясь хлестнуть);</blockquote>
-		<blockquote>боору имерди он отнёсся участливо, он пожалел;</blockquote>
-		<blockquote>балдарды айла менен имерген он хитростью расположил к себе детей.</blockquote>
+		<blockquote>камчы имер-@@ крутить нагайкой (угрожая или готовясь хлестнуть);</blockquote>
+		<blockquote>боору имерди@@ он отнёсся участливо, он пожалел;</blockquote>
+		<blockquote>балдарды айла менен имерген@@ он хитростью расположил к себе детей.</blockquote>
 	</card>
 	<card>
 		<k>имерил-</k>
