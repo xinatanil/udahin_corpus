@@ -1,0 +1,54 @@
+<root>
+    <card>
+        <k>итирей-</k>
+        <blockquote>быть плюгавым, невзрачным;</blockquote>
+        <blockquote>көзүнүн чуңкуруна бир чөйчөк суу куйса толбочудай болуп, итирейип жүдөп калыптыр он так похудел, что если ему в глазницу налить чашку воды, она (глазница) не наполнится;</blockquote>
+        <blockquote>кап, итирейген! ух ты, плюгавый!</blockquote>
+    </card>
+    <card>
+		<k>итирке-</k>
+		<sameas word="итиркен"/>
+	</card>
+    <card>
+		<k>итиркей</k>
+		<blockquote>итиркей: итиркейим келип турат мне противно, я испытываю неприятное чувство (брезгливости или боязливости); у меня поджилки трясутся.</blockquote>
+	</card>
+    <card>
+		<k>итиркен-</k>
+		<blockquote>брезгливо передёрнуться.</blockquote>
+	</card>
+    <card>
+		<k>иткел</k>
+		<blockquote>пена, накипь на жирном бульоне;</blockquote>
+		<blockquote>иткелдей кылып уютуп фольк.
+		</blockquote>
+		<blockquote>1) сгущая пену (кипячением);</blockquote>
+		<blockquote>2) перен. неотступно преследуя, беспощадно громя.</blockquote>
+	</card>
+    <card>
+		<k>иткелдүү</k>
+		<blockquote>(о бульоне) покрытый пеной и жиром;</blockquote>
+		<blockquote>иткелдүү сорпо наварный бульон.</blockquote>
+	</card>
+    <card>
+		<k>имла,</k>
+		<blockquote>имла, имле</blockquote>
+		<blockquote>ар. уст.</blockquote>
+		<blockquote>орфография, правописание;</blockquote>
+		<blockquote>имле эрежелери орфографические правила, правила орфографии.</blockquote>
+	</card>
+	<card>
+		<k>ийме</k>
+		<blockquote>ийме: ийме-чийме извилистый;</blockquote>
+		<blockquote>ийме-чийме жол извилистая дорога.</blockquote>
+	</card>
+	<card>
+		<k>иймениш</k>
+		<homonym>
+			<actionNoun word="иймен"/>
+		</homonym>
+		<homonym>
+			<recv word="иймен"/>
+		</homonym>
+	</card>
+</root>
