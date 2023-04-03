@@ -51,4 +51,53 @@
 			<recv word="иймен"/>
 		</homonym>
 	</card>
+	<card>
+		<k>иллалда,</k>
+		<trn>иллалда, иллалла</trn>
+		<sameas word="илдалда"/>
+	</card>
+	<card>
+		<k>ичкертүү</k>
+		<actionNoun word="ичкерт"/>
+		<blockquote>ичкертүү белгиси грам. мягкий знак.</blockquote>
+	</card>
+	<card>
+		<k>ичме,</k>
+		<blockquote>ичме, ичмей:</blockquote>
+		<blockquote>кан ичмей жажда крови;</blockquote>
+		<blockquote>кан ичмеси кармады его обуяла жажда крови;</blockquote>
+		<ex>
+			<source>кан-ичме кемпир жез тумшук фольк.</source>
+			<target>кровожадная старуха баба-яга;</target>
+		</ex>
+		<blockquote>май ичме см. май I.</blockquote>
+	</card>
+	<card>
+		<k>иш</k>
+		<blockquote>иш I</blockquote>
+		<blockquote>дело, работа;</blockquote>
+		<blockquote>контролдук иш контрольная работа;</blockquote>
+		<blockquote>курстук иш курсовая работа;</blockquote>
+		<blockquote>дипломдук иш дипломная работа;</blockquote>
+		<blockquote>иш жүзүндө на деле, практически;</blockquote>
+		<blockquote>иш таштоо уст. забастовка, стачка;</blockquote>
+		<blockquote>иш жүргүзүүчү уст. делопроизводитель;</blockquote>
+		<blockquote>эки иштен бир иш, деп попутно и другое дело (напр. еду в командировку, а
+               попутно и по личным делам);</blockquote>
+		<blockquote>кылмыш иши уголовное дело;</blockquote>
+		<blockquote>бекердин иши см. бекер 1;</blockquote>
+		<blockquote>иш илгери! см. илгери 1;</blockquote>
+		<blockquote>иштин көзун тааны- см. көз.</blockquote>
+		<blockquote>иш II</blockquote>
+		<blockquote>(ишшек)</blockquote>
+		<blockquote>
+			<p>южн.</p>
+		</blockquote>
+		<blockquote>то же, что шишек.</blockquote>
+	</card>
+	<card>
+		<k>иштерман,</k>
+		<blockquote>иштерман, иштермен</blockquote>
+		<blockquote>работяга; трудолюбивый.</blockquote>
+	</card>
 </root>
