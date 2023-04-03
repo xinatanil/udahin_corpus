@@ -9,7 +9,8 @@
     <xsl:output method="xml" indent="yes" />
     
     <xsl:template match="text()" />    
-    
+    <!-- Add check for empty <pos></pos> tags -->
+    <!-- Add check for cards that have only <sameas> or <look> tags -->
     <xsl:template match="/root">
         <root>
             <xsl:text>&#xa;</xsl:text>
