@@ -4918,25 +4918,49 @@
 	<card>
 		<k>ичкертүү</k>
 		<actionNoun word="ичкерт"/>
-		<blockquote>ичкертүү белгиси грам. мягкий знак.</blockquote>
+		<ex>
+			<source>ичкертүү белгиси грам.</source>
+			<target>мягкий знак.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичкештир-</k>
 		<meta>сев.</meta>
 		<sameas word="ичкерештир"/>
-		<blockquote>отту ичкештирип кой поправь огонь.</blockquote>
+		<ex>
+			<source>отту ичкештирип кой</source>
+			<target>поправь огонь.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ички</k>
 		<homonym>
-			<blockquote>в разн. знач.</blockquote>
-			<blockquote>внутренний;</blockquote>
-			<blockquote>ички оорулар внутренние болезни;</blockquote>
-			<blockquote>ички соода внутренняя торговля;</blockquote>
-			<blockquote>ички пикири его тайные мысли;</blockquote>
-			<blockquote>ички кырдаалдар внутренняя обстановка;</blockquote>
-			<blockquote>ички саясий кризис внутриполитический кризис;</blockquote>
-			<blockquote>ички жумуштарды мен тындырып тургандыктан, атам тышкы иштер менен болду так как внутренние (по хозяйству) дела справлял я, отец мой был занят делами внешними.</blockquote>
+			<meta>в разн. знач.</meta>
+			<trn>внутренний;</trn>
+			<ex>
+				<source>ички оорулар</source>
+				<target>внутренние болезни;</target>
+			</ex>
+			<ex>
+				<source>ички соода</source>
+				<target>внутренняя торговля;</target>
+			</ex>
+			<ex>
+				<source>ички пикири</source>
+				<target>его тайные мысли;</target>
+			</ex>
+			<ex>
+				<source>ички кырдаалдар</source>
+				<target>внутренняя обстановка;</target>
+			</ex>
+			<ex>
+				<source>ички саясий кризис</source>
+				<target>внутриполитический кризис;</target>
+			</ex>
+			<ex>
+				<source>ички жумуштарды мен тындырып тургандыктан, атам тышкы иштер менен болду</source>
+				<target>так как внутренние (по хозяйству) дела справлял я, отец мой был занят делами внешними.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<sameas word="ичкилик" index="1" subindex="1"/>
@@ -4946,27 +4970,33 @@
 		<k>ичкилик</k>
 		<homonym>
 			<meaning>
-				<blockquote>напиток; спиртной напиток;</blockquote>
+				<trn>напиток; спиртной напиток;</trn>
 				<ex>
 					<source>"ишке чык" десе, укпайсын; "ичкилик" десе, чуркайсың стих.</source>
 					<target>скажет: "иди на работу",-ты не слышишь, скажут: "выпивка",- ты бежишь;</target>
 				</ex>
-				<blockquote>ичкилик-жегилик пития и яства;</blockquote>
+				<ex>
+					<source>ичкилик-жегилик</source>
+					<target>пития и яства;</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<blockquote>пьянство;</blockquote>
-				<blockquote>ичкиликке берилип предавшись пьянству.</blockquote>
+				<ex>
+					<source>ичкиликке берилип</source>
+					<target>предавшись пьянству.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="ичилик" subindex="1"/>
-			<blockquote>подкладка (портновская).</blockquote>
+			<trn>подкладка (портновская).</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>ичкисин</k>
-		<blockquote>внутрь; внутренне;</blockquote>
+		<trn>внутрь; внутренне;</trn>
 		<ex>
 			<source>ак жибек кийдим ичкисин, атилес киндим тышкысын фольк.</source>
 			<target>под низ я надела белый шёлк, поверх я надела атлас.</target>
@@ -4975,37 +5005,55 @@
 	<card>
 		<k>ичкич</k>
 		<meaning>
-			<blockquote>много пьющий;</blockquote>
-			<blockquote>кан ичкич кровопийца;</blockquote>
+			<trn>много пьющий;</trn>
+			<ex>
+				<source>кан ичкич</source>
+				<target>кровопийца;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>пьяница.</blockquote>
+			<trn>пьяница.</trn>
 		</meaning>
 	</card>
 	<card>
-		<k>ичме,</k>
-		<blockquote>ичме, ичмей:</blockquote>
-		<blockquote>кан ичмей жажда крови;</blockquote>
-		<blockquote>кан ичмеси кармады его обуяла жажда крови;</blockquote>
+		<k>ичме</k>
+		<ex>
+			<source>кан ичмей</source>
+			<target>жажда крови;</target>
+		</ex>
+		<ex>
+			<source>кан ичмеси кармады</source>
+			<target>его обуяла жажда крови;</target>
+		</ex>
 		<ex>
 			<source>кан-ичме кемпир жез тумшук фольк.</source>
 			<target>кровожадная старуха баба-яга;</target>
 		</ex>
-		<blockquote>май ичме см. май I.</blockquote>
+		<ex>
+			<source>май ичме</source>
+			<target>см. май I.</target>
+		</ex>
+	</card>
+	<card>
+		<k>ичмей</k>
+		<look word="ичме"/>
 	</card>
 	<card>
 		<k>ичмек</k>
-		<blockquote>подкладка потника, подпотник;</blockquote>
-		<blockquote>жоор аттын ичмегиндей грязный, неряшливый.</blockquote>
+		<trn>подкладка потника, подпотник;</trn>
+		<ex>
+			<source>жоор аттын ичмегиндей</source>
+			<target>грязный, неряшливый.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичмекей</k>
 		<meaning>
-			<blockquote>тот, кто пьёт, ест;</blockquote>
+			<trn>тот, кто пьёт, ест;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>нечисть, пакостник.</blockquote>
+			<trn>нечисть, пакостник.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -5014,12 +5062,15 @@
 	</card>
 	<card>
 		<k>ичте-</k>
-		<blockquote>подшить, подбить (подшить подкладку);</blockquote>
-		<blockquote>пальтого жибек ичте- подбить пальто шёлком.</blockquote>
+		<trn>подшить, подбить (подшить подкладку);</trn>
+		<ex>
+			<source>пальтого жибек ичте-</source>
+			<target>подбить пальто шёлком.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичтет-</k>
-		<blockquote>понуд. от ичте-,</blockquote>
+		<caus word="ичте"/>
 		<sameas word="ичте"/>
 		<ex>
 			<source>ичин суусар ичтетип, тышын буулум тыштатып фольк.</source>
@@ -5028,64 +5079,133 @@
 	</card>
 	<card>
 		<k>ичтеш</k>
-		<blockquote>равный с чем-л. по объёму, по вместимости.</blockquote>
+		<trn>равный с чем-л. по объёму, по вместимости.</trn>
 	</card>
 	<card>
 		<k>ичти</k>
-		<blockquote>ичти: ичти-тышты внутри и снаружи;</blockquote>
-		<blockquote>кийгендери ичти-тышты баркыт она вся в бархате (напр. и платье и верхняя одежда бархатные).</blockquote>
+		<minicard>
+			<k>ичти-тышты</k>
+			<trn>внутри и снаружи;</trn>
+			<ex>
+				<source>кийгендери ичти-тышты баркыт</source>
+				<target>она вся в бархате (напр. и платье и верхняя одежда бархатные).</target>
+			</ex>
+		</minicard>
 	</card>
 	<card>
 		<k>ичтиртеден</k>
-		<blockquote>изнутри, из внутренней части; внутренне.</blockquote>
+		<trn>изнутри, из внутренней части; внутренне.</trn>
 	</card>
 	<card>
 		<k>ичтүү</k>
-		<blockquote>ёмкий.</blockquote>
+		<trn>ёмкий.</trn>
 	</card>
 	<card>
 		<k>ичтүүлүк</k>
-		<blockquote>ёмкость;</blockquote>
-		<blockquote>ичтүүлүк өлчөөсү мера ёмкости.</blockquote>
+		<trn>ёмкость;</trn>
+		<ex>
+			<source>ичтүүлүк өлчөөсү</source>
+			<target>мера ёмкости.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иш</k>
 		<homonym>
-			<blockquote>дело, работа;</blockquote>
-			<blockquote>контролдук иш контрольная работа;</blockquote>
-			<blockquote>курстук иш курсовая работа;</blockquote>
-			<blockquote>дипломдук иш дипломная работа;</blockquote>
-			<blockquote>иш жүзүндө на деле, практически;</blockquote>
-			<blockquote>иш таштоо уст. забастовка, стачка;</blockquote>
-			<blockquote>иш акы уст. заработная плата;</blockquote>
-			<blockquote>иш орду уст. предприятие;</blockquote>
-			<blockquote>иш жүргүзүү уст. делопроизводство;</blockquote>
-			<blockquote>иш жүргүзүүчү уст. делопроизводитель;</blockquote>
-			<blockquote>эки иштен бир иш, деп попутно и другое дело (напр. еду в командировку, а попутно и по личным делам);</blockquote>
-			<blockquote>иши кылып одним словом, короче говоря, как бы там ни было;</blockquote>
-			<blockquote>иши кылып иштейт он работает кое-как;</blockquote>
-			<blockquote>эчтеме менен иши жок ему ни до чего дела нет; он ни во что не вмешивается, он ни о чём не заботится;</blockquote>
-			<blockquote>башына иш түштү с ним стряслась беда; он попал в затруднительное положение;</blockquote>
+			<trn>дело, работа;</trn>
+			<ex>
+				<source>контролдук иш</source>
+				<target>контрольная работа;</target>
+			</ex>
+			<ex>
+				<source>курстук иш</source>
+				<target>курсовая работа;</target>
+			</ex>
+			<ex>
+				<source>дипломдук иш</source>
+				<target>дипломная работа;</target>
+			</ex>
+			<ex>
+				<source>иш жүзүндө</source>
+				<target>на деле, практически;</target>
+			</ex>
+			<ex>
+				<source>иш таштоо уст.</source>
+				<target>забастовка, стачка;</target>
+			</ex>
+			<ex>
+				<source>иш акы уст.</source>
+				<target>заработная плата;</target>
+			</ex>
+			<ex>
+				<source>иш орду уст.</source>
+				<target>предприятие;</target>
+			</ex>
+			<ex>
+				<source>иш жүргүзүү уст.</source>
+				<target>делопроизводство;</target>
+			</ex>
+			<ex>
+				<source>иш жүргүзүүчү уст.</source>
+				<target>делопроизводитель;</target>
+			</ex>
+			<ex>
+				<source>эки иштен бир иш, деп</source>
+				<target>попутно и другое дело (напр. еду в командировку, а попутно и по личным делам);</target>
+			</ex>
+			<ex>
+				<source>иши кылып</source>
+				<target>одним словом, короче говоря, как бы там ни было;</target>
+			</ex>
+			<ex>
+				<source>иши кылып иштейт</source>
+				<target>он работает кое-как;</target>
+			</ex>
+			<ex>
+				<source>эчтеме менен иши жок</source>
+				<target>ему ни до чего дела нет; он ни во что не вмешивается, он ни о чём не заботится;</target>
+			</ex>
+			<ex>
+				<source>башына иш түштү</source>
+				<target>с ним стряслась беда; он попал в затруднительное положение;</target>
+			</ex>
 			<ex>
 				<source>эр башына иш түшсө, өтүгү менен суу кечет стих.</source>
 				<target>если с молодцем беда стрясётся, он в сапогах через воду переправится;</target>
 			</ex>
-			<blockquote>айта жүрчү иш салдык мы учинили такое, что об этом будут говорить;</blockquote>
-			<blockquote>кылмыш иши уголовное дело;</blockquote>
-			<blockquote>бекердин иши см. бекер 1;</blockquote>
-			<blockquote>иш илгери! см. илгери 1;</blockquote>
-			<blockquote>иштин көзун тааны- см. көз.</blockquote>
+			<ex>
+				<source>айта жүрчү иш салдык</source>
+				<target>мы учинили такое, что об этом будут говорить;</target>
+			</ex>
+			<ex>
+				<source>кылмыш иши</source>
+				<target>уголовное дело;</target>
+			</ex>
+			<ex>
+				<source>бекердин иши</source>
+				<target>см. бекер 1;</target>
+			</ex>
+			<ex>
+				<source>иш илгери!</source>
+				<target>см. илгери 1;</target>
+			</ex>
+			<ex>
+				<source>иштин көзун тааны-</source>
+				<target>см. көз.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>(ишшек)</blockquote>
 			<meta>южн.</meta>
 			<sameas word="шишек"/>
 		</homonym>
 	</card>
 	<card>
+		<k>ишшек</k>
+		<look word="иш" index="2"/>
+	</card>
+	<card>
 		<k>ишарат</k>
 		<origin>ар.</origin>
-		<blockquote>знак, намёк;</blockquote>
+		<trn>знак, намёк;</trn>
 		<ex>
 			<source>айбанга келтек, адамга ишарат погов.</source>
 			<target>животному - палка, человеку - намёк.</target>
@@ -5093,7 +5213,7 @@
 	</card>
 	<card>
 		<k>ишаратта-</k>
-		<blockquote>поступать согласно шариату.</blockquote>
+		<trn>поступать согласно шариату.</trn>
 	</card>
 	<card>
 		<k>ишек</k>
@@ -5103,17 +5223,23 @@
 	<card>
 		<k>ишемби</k>
 		<origin>ир.</origin>
-		<blockquote>суббота.</blockquote>
+		<trn>суббота.</trn>
 	</card>
 	<card>
 		<k>ишембилик</k>
-		<blockquote>субботник.</blockquote>
+		<trn>субботник.</trn>
 	</card>
 	<card>
 		<k>ишен-</k>
-		<blockquote>верить, доверять, полагаться на кого-л.;</blockquote>
-		<blockquote>ишенген кишим человек, которому я доверяю, на которого надеюсь, полагаюсь;</blockquote>
-		<blockquote>ишенип кой будь уверен.</blockquote>
+		<trn>верить, доверять, полагаться на кого-л.;</trn>
+		<ex>
+			<source>ишенген кишим</source>
+			<target>человек, которому я доверяю, на которого надеюсь, полагаюсь;</target>
+		</ex>
+		<ex>
+			<source>ишенип кой</source>
+			<target>будь уверен.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишенбестик</k>
@@ -5121,16 +5247,16 @@
 	</card>
 	<card>
 		<k>ишенбөөчүлүк</k>
-		<blockquote>неверие, недоверие.</blockquote>
+		<trn>неверие, недоверие.</trn>
 	</card>
 	<card>
 		<k>ишенгич</k>
-		<blockquote>доверчивый.</blockquote>
+		<trn>доверчивый.</trn>
 	</card>
 	<card>
 		<k>ишендир-</k>
 		<caus word="ишен"/>
-		<blockquote>заставить поверить; уверить, внушить доверие, обнадёжить;</blockquote>
+		<trn>заставить поверить; уверить, внушить доверие, обнадёжить;</trn>
 		<ex>
 			<source>ойношчул катын ыйлап ишендирет погов.</source>
 			<target>жена, склонная к любовным похождениям, слезами доверия добивается.</target>
@@ -5139,42 +5265,63 @@
 	<card>
 		<k>ишендирүү</k>
 		<actionNoun word="ишендир"/>
-		<blockquote>уверение, заверение, внушение доверия, обнадёживание.</blockquote>
+		<trn>уверение, заверение, внушение доверия, обнадёживание.</trn>
 	</card>
 	<card>
 		<k>ишенил-</k>
 		<pass word="ишен"/>
-		<blockquote>ишенилген киши доверенное лицо.</blockquote>
+		<ex>
+			<source>ишенилген киши</source>
+			<target>доверенное лицо.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишеним</k>
-		<blockquote>доверие.</blockquote>
+		<trn>доверие.</trn>
 	</card>
 	<card>
 		<k>ишенимдүү</k>
-		<blockquote>уверенный; надёжный;</blockquote>
-		<blockquote>ишенимдүү кадам менен уверенным шагом;</blockquote>
-		<blockquote>ишенимдүү жигиттер ат байлаган казыктай стих.. надёжные парни подобны колу, к которому привязывают коня.</blockquote>
+		<trn>уверенный; надёжный;</trn>
+		<ex>
+			<source>ишенимдүү кадам менен</source>
+			<target>уверенным шагом;</target>
+		</ex>
+		<ex>
+			<source>ишенимдүү жигиттер ат байлаган казыктай стих.</source>
+			<target>надёжные парни подобны колу, к которому привязывают коня.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишенимдүүлүк</k>
-		<blockquote>свойства и качества человека, к которому имеют доверие.</blockquote>
+		<trn>свойства и качества человека, к которому имеют доверие.</trn>
 	</card>
 	<card>
 		<k>ишеничтик</k>
-		<blockquote>уверенность;</blockquote>
-		<blockquote>ишеничтик менен уверенно.</blockquote>
+		<trn>уверенность;</trn>
+		<ex>
+			<source>ишеничтик менен</source>
+			<target>уверенно.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишеничтүү</k>
 		<sameas word="ишенчиликтүү"/>
-		<blockquote>ишеничтүү түрдө уверенно, надёжно;</blockquote>
-		<blockquote>ишеничтүү бас- уверенно шагать;</blockquote>
-		<blockquote>ишеничтүү үн уверенный голос.</blockquote>
+		<ex>
+			<source>ишеничтүү түрдө</source>
+			<target>уверенно, надёжно;</target>
+		</ex>
+		<ex>
+			<source>ишеничтүү бас-</source>
+			<target>уверенно шагать;</target>
+		</ex>
+		<ex>
+			<source>ишеничтүү үн</source>
+			<target>уверенный голос.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишеничтүүлүк</k>
-		<blockquote>доверчивость.</blockquote>
+		<trn>доверчивость.</trn>
 	</card>
 	<card>
 		<k>ишент-</k>
@@ -5183,26 +5330,35 @@
 	<card>
 		<k>ишенүү</k>
 		<actionNoun word="ишен"/>
-		<blockquote>доверие, вера;</blockquote>
-		<blockquote>ишенүү вотуму полит. вотум доверия.</blockquote>
+		<trn>доверие, вера;</trn>
+		<ex>
+			<source>ишенүү вотуму полит.</source>
+			<target>вотум доверия.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишенчилик</k>
-		<blockquote>доверие;</blockquote>
-		<blockquote>ишенчиликти жой- потерять доверие;</blockquote>
-		<blockquote>менин ишенчилигим сизге качан кетти эле? с каких пор вы перестали мне доверять?</blockquote>
+		<trn>доверие;</trn>
+		<ex>
+			<source>ишенчиликти жой-</source>
+			<target>потерять доверие;</target>
+		</ex>
+		<ex>
+			<source>менин ишенчилигим сизге качан кетти эле?</source>
+			<target>с каких пор вы перестали мне доверять?</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишенчиликтүү</k>
-		<blockquote>заслуживающий доверия, надёжный.</blockquote>
+		<trn>заслуживающий доверия, надёжный.</trn>
 	</card>
 	<card>
 		<k>ишенчээк</k>
-		<blockquote>доверчивый.</blockquote>
+		<trn>доверчивый.</trn>
 	</card>
 	<card>
 		<k>ишенчээктик</k>
-		<blockquote>доверчивость.</blockquote>
+		<trn>доверчивость.</trn>
 	</card>
 	<card>
 		<k>иши-</k>
@@ -5213,39 +5369,48 @@
 		<k>ишик</k>
 		<meta>южн.</meta>
 		<sameas word="шишик"/>
-		<blockquote>ак ишик название болезни.</blockquote>
+		<ex>
+			<source>ак ишик</source>
+			<target>название болезни.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишкана</k>
-		<blockquote>кирг.- ир.</blockquote>
-		<blockquote>мастерская; предприятие.</blockquote>
+		<blockquote>кирг.-ир.</blockquote>
+		<trn>мастерская; предприятие.</trn>
 	</card>
 	<card>
 		<k>ишкеме</k>
 		<meta>южн.</meta>
-		<blockquote>гусак (ливер, осердье, грудной потрох).</blockquote>
+		<trn>гусак (ливер, осердье, грудной потрох).</trn>
 	</card>
 	<card>
 		<k>ишкеп</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>шкаф.</blockquote>
+		<trn>шкаф.</trn>
 	</card>
 	<card>
 		<k>ишкер</k>
-		<blockquote>кирг.- ир.</blockquote>
+		<blockquote>кирг.-ир.</blockquote>
 		<meaning>
-			<blockquote>деятельный, активный, энергичный;</blockquote>
-			<blockquote>ишкер киши деловой человек;</blockquote>
-			<blockquote>ишкер чөйрөлөр деловые круги;</blockquote>
+			<trn>деятельный, активный, энергичный;</trn>
+			<ex>
+				<source>ишкер киши</source>
+				<target>деловой человек;</target>
+			</ex>
+			<ex>
+				<source>ишкер чөйрөлөр</source>
+				<target>деловые круги;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>деятель; активист.</blockquote>
+			<trn>деятель; активист.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ишкердик</k>
-		<blockquote>активность, энергичность.</blockquote>
+		<trn>активность, энергичность.</trn>
 	</card>
 	<card>
 		<k>ишкердүү</k>
@@ -5253,8 +5418,11 @@
 			<sameas word="ишкер" subindex="2"/>
 		</meaning>
 		<meaning>
-			<blockquote>по-деловому;</blockquote>
-			<blockquote>жаңы окуу жылына ишкердүү даярданалы по-деловому подготовимся к новому учебному году.</blockquote>
+			<trn>по-деловому;</trn>
+			<ex>
+				<source>жаңы окуу жылына ишкердүү даярданалы</source>
+				<target>по-деловому подготовимся к новому учебному году.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
@@ -5264,12 +5432,18 @@
 	<card>
 		<k>ишкиликтүү</k>
 		<meaning>
-			<blockquote>деятельный;</blockquote>
-			<blockquote>ишкиликтүү катышкан он принял деятельное участие;</blockquote>
+			<trn>деятельный;</trn>
+			<ex>
+				<source>ишкиликтүү катышкан</source>
+				<target>он принял деятельное участие;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>действенный;</blockquote>
-			<blockquote>ишкиликтүү чара көрүлгөн эмес не было принято действенных мер.</blockquote>
+			<trn>действенный;</trn>
+			<ex>
+				<source>ишкиликтүү чара көрүлгөн эмес</source>
+				<target>не было принято действенных мер.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
@@ -5277,12 +5451,15 @@
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<meaning>
-			<blockquote>школа;</blockquote>
+			<trn>школа;</trn>
 		</meaning>
 		<meaning>
 			<meta>ист.</meta>
-			<blockquote>русская или русско-туземная школа (в отличие от мектеп, см.);</blockquote>
-			<blockquote>ишкөл акчасы см. акча I.</blockquote>
+			<trn>русская или русско-туземная школа (в отличие от мектеп, см.);</trn>
+			<ex>
+				<source>ишкөл акчасы</source>
+				<target>см. акча I.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
@@ -5293,7 +5470,7 @@
 	<card>
 		<k>ишлет</k>
 		<meta>южн.</meta>
-		<blockquote>деятельность;</blockquote>
+		<trn>деятельность;</trn>
 		<ex>
 			<source>пилиги жок чырак жарылбайт, ишлети жок жигит жарабайт погов.</source>
 			<target>светильник без фитиля не светит, бездеятельный молодец ни на что не годен.</target>
@@ -5301,70 +5478,94 @@
 	</card>
 	<card>
 		<k>ишмекер</k>
-		<blockquote>кирг. - ир.</blockquote>
+		<blockquote>кирг.-ир.</blockquote>
 		<meaning>
-			<blockquote>мастер (ремесленник);</blockquote>
+			<trn>мастер (ремесленник);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>рукодельница; портниха.</blockquote>
+			<trn>рукодельница; портниха.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ишмер</k>
 		<meaning>
-			<blockquote>искусник, мастер;</blockquote>
+			<trn>искусник, мастер;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>деятель;</blockquote>
-			<blockquote>илимге эмгек сиңирген ишмер заслуженный деятель науки.</blockquote>
+			<trn>деятель;</trn>
+			<ex>
+				<source>илимге эмгек сиңирген ишмер</source>
+				<target>заслуженный деятель науки.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>ишмердик</k>
 		<meaning>
-			<blockquote>мастерство;</blockquote>
+			<trn>мастерство;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>деятельность.</blockquote>
+			<trn>деятельность.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>иште-</k>
-		<blockquote>работать;</blockquote>
+		<trn>работать;</trn>
 		<ex>
 			<source>иштесең, тиштерсиң погов.</source>
 			<target>поработаешь, так и поешь;</target>
 		</ex>
-		<blockquote>иштеп чыгаруу выработка;</blockquote>
-		<blockquote>иштеп чыгаруу нормасы норма выработки;</blockquote>
-		<blockquote>иштеп чыгуу обсуждение, проработка.</blockquote>
+		<ex>
+			<source>иштеп чыгаруу</source>
+			<target>выработка;</target>
+		</ex>
+		<ex>
+			<source>иштеп чыгаруу нормасы</source>
+			<target>норма выработки;</target>
+		</ex>
+		<ex>
+			<source>иштеп чыгуу</source>
+			<target>обсуждение, проработка.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иштел-</k>
 		<pass word="иште"/>
-		<blockquote>иштелген иштери жаман эмес работа, которую он исполнил, неплоха.</blockquote>
+		<ex>
+			<source>иштелген иштери жаман эмес</source>
+			<target>работа, которую он исполнил, неплоха.</target>
+		</ex>
 	</card>
 	<card>
-		<k>иштерман,</k>
-		<blockquote>иштерман, иштермен</blockquote>
+		<k>иштерман</k>
 		<blockquote>работяга; трудолюбивый.</blockquote>
+	</card>
+	<card>
+		<k>иштермен</k>
+		<look word="иштерман"/>
 	</card>
 	<card>
 		<k>иштет-</k>
 		<caus word="иште"/>
 		<meaning>
-			<blockquote>заставлять работать, использовать на работе;</blockquote>
-			<blockquote>Алым - жакшы жигит, бирок жакшылап иштетип пайдалануу керек Алым - хороший парень, но его нужно хорошо использовать на работе;</blockquote>
+			<trn>заставлять работать, использовать на работе;</trn>
+			<ex>
+				<source>Алым - жакшы жигит, бирок жакшылап иштетип пайдалануу керек</source>
+				<target>Алым - хороший парень, но его нужно хорошо использовать на работе;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>обрабатывать;</blockquote>
-			<blockquote>жер иштет- обрабатывать землю.</blockquote>
+			<trn>обрабатывать;</trn>
+			<ex>
+				<source>жер иштет-</source>
+				<target>обрабатывать землю.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>иштетил-</k>
 		<pass word="иштет"/>
-		<blockquote>подвергаться обработке, обрабатываться.</blockquote>
+		<trn>подвергаться обработке, обрабатываться.</trn>
 	</card>
 	<card>
 		<k>иштеттир-</k>
@@ -5372,44 +5573,74 @@
 	</card>
 	<card>
 		<k>иштиктүү</k>
-		<blockquote>дельный, деловой; деятельный;</blockquote>
-		<blockquote>иштиктүү сунуш деловое предложение;</blockquote>
-		<blockquote>иштиктүү аңгеме деловая беседа;</blockquote>
-		<blockquote>иштиктүү жардам деловая помощь;</blockquote>
-		<blockquote>иштиктүү чара действенная мера;</blockquote>
-		<blockquote>иштебегендерге иштиктүү чара көрүлүү керек против неработающих нужно принять действенные меры;</blockquote>
-		<blockquote>иштиктүү кагаздар деловые бумаги;</blockquote>
-		<blockquote>иштиктүү эч нерсе айтканы жок он ничего дельного не сказал;</blockquote>
-		<blockquote>иштиктүү адам деятельный человек.</blockquote>
+		<trn>дельный, деловой; деятельный;</trn>
+		<ex>
+			<source>иштиктүү сунуш</source>
+			<target>деловое предложение;</target>
+		</ex>
+		<ex>
+			<source>иштиктүү аңгеме</source>
+			<target>деловая беседа;</target>
+		</ex>
+		<ex>
+			<source>иштиктүү жардам</source>
+			<target>деловая помощь;</target>
+		</ex>
+		<minicard>
+			<k>иштиктүү чара</k>
+			<trn>действенная мера;</trn>
+			<ex>
+				<source>иштебегендерге иштиктүү чара көрүлүү керек</source>
+				<target>против неработающих нужно принять действенные меры;</target>
+			</ex>
+		</minicard>
+		<ex>
+			<source>иштиктүү кагаздар</source>
+			<target>деловые бумаги;</target>
+		</ex>
+		<ex>
+			<source>иштиктүү эч нерсе айтканы жок</source>
+			<target>он ничего дельного не сказал;</target>
+		</ex>
+		<ex>
+			<source>иштиктүү адам</source>
+			<target>деятельный человек.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иштиктүүлүк</k>
-		<blockquote>деловитость.</blockquote>
+		<trn>деловитость.</trn>
 	</card>
 	<card>
 		<k>иштүү</k>
 		<meaning>
-			<blockquote>работяга;</blockquote>
+			<trn>работяга;</trn>
 		</meaning>
 		<meaning>
 			<sameas word="ишмекер" subindex="2"/>
-			<blockquote>иштүү кызга тиктирген она поручила шить искусной швее девице.</blockquote>
+			<ex>
+				<source>иштүү кызга тиктирген</source>
+				<target>она поручила шить искусной швее девице.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>иштүүлүк</k>
-		<blockquote>искусность в рукоделии, в шитье.</blockquote>
+		<trn>искусность в рукоделии, в шитье.</trn>
 	</card>
 	<card>
 		<k>иштөө</k>
 		<actionNoun word="иште"/>
-		<blockquote>иштөө нормалары нормы выработки.</blockquote>
+		<ex>
+			<source>иштөө нормалары</source>
+			<target>нормы выработки.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ишчөткө</k>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>щётка.</blockquote>
+		<trn>щётка.</trn>
 	</card>
 	<card>
 		<k>ишшек</k>
@@ -5425,7 +5656,10 @@
 	</card>
 	<card>
 		<k>ия</k>
-		<blockquote>а?</blockquote>
-		<blockquote>эмне дедиң, ия? ты что сказал, а?</blockquote>
+		<trn>а?</trn>
+		<ex>
+			<source>эмне дедиң, ия?</source>
+			<target>ты что сказал, а?</target>
+		</ex>
 	</card>
 </root>
