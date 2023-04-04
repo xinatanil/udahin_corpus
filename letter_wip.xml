@@ -1697,6 +1697,7 @@
 	</card>
 	<card>
 		<k>илгирт-</k>
+		<pos>v</pos>
 		<homonym>
 			<caus word="илгир" index="2"/>
 			<ex>
@@ -1706,26 +1707,33 @@
 		</homonym>
 		<homonym>
 			<caus word="илгир" index="3"/>
-			<blockquote>илгиртпей не заставляя себя ждать, не заставляя себя упрашивать;</blockquote>
-			<blockquote>көөнү туура болсо, илгиртпей келет если у него намерения. хорошие, он придёт, не заставив себя ждать.</blockquote>
+			<minicard>
+			<k>илгиртпей</k>
+			<pos>adv</pos>
+			<trn> не заставляя себя ждать, не заставляя себя упрашивать;</trn>
+			<blockquote>көөнү туура болсо, илгиртпей келет@@ если у него намерения. хорошие, он придёт, не заставив себя ждать.</blockquote>
+		</minicard>
 		</homonym>
 	</card>
 	<card>
 		<k>илгит-</k>
+		<pos>v</pos>
 		<meta>тяньш.</meta>
 		<sameas word="илгирт" index="2"/>
 	</card>
 	<card>
 		<k>илгич</k>
 		<meaning>
-			<blockquote>(в некоторых местах) ремённый пояс с пряжкой (в старину с украшениями);</blockquote>
-			<blockquote>илгичин курчанды он подпоясался (своим поясом);</blockquote>
+			<pos>n</pos>
+			<trn>(в некоторых местах) ремённый пояс с пряжкой (в старину с украшениями);</trn>
+			<blockquote>илгичин курчанды@@ он подпоясался (своим поясом);</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>крюк, приспособление, за которое или которым можно чта-л. зацепить;</blockquote>
-			<blockquote>кийим илгич вешалка для одежды;</blockquote>
-			<blockquote>суу илгич сев. коромысло (для переноски вёдер);</blockquote>
-			<blockquote>чай илгич сев. то же, что можу II 1;</blockquote>
+			<pos>n</pos>
+			<trn>крюк, приспособление, за которое или которым можно чта-л. зацепить;</trn>
+			<blockquote>кийим илгич@@ вешалка для одежды;</blockquote>
+			<blockquote>суу илгич@@ сев. коромысло (для переноски вёдер);</blockquote>
+			<blockquote>чай илгич@@ сев. то же, что можу II 1;</blockquote>
 		</meaning>
 		<meaning>
 			<sameas word="илгир" index="1"/>
@@ -1733,33 +1741,39 @@
 	</card>
 	<card>
 		<k>илгичтик</k>
-		<blockquote>хваткость, хватка;</blockquote>
-		<blockquote>мышыкча илгичтик мекен кошачьей хваткой.</blockquote>
+		<pos>n</pos>
+		<trn>хваткость, хватка;</trn>
+		<blockquote>мышыкча илгичтик мекен@@ кошачьей хваткой.</blockquote>
 	</card>
 	<card>
 		<k>илдалда</k>
+		<pos>idio</pos>
 		<origin>ар.</origin>
-		<blockquote>о боже!</blockquote>
+		<trn>о боже!</trn>
 	</card>
 	<card>
 		<k>илдалдала-</k>
-		<blockquote>произносить "илдалда" (см.).</blockquote>
+		<pos>v</pos>
+		<trn>произносить "илдалда" (см.).</trn>
 	</card>
 	<card>
 		<k>илдекер</k>
+		<pos>v</pos>
 		<sameas word="илегер"/>
 	</card>
 	<card>
 		<k>илдет</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>болезнь, тяжёлая болезнь, недуг;</blockquote>
-		<blockquote>дагы бир ай дарылансаң, бардык илдетиң жоголот если ещё месяц полечишься, вся твоя болезнь пройдёт;</blockquote>
-		<blockquote>жугуштуу илдет заразная болезнь;</blockquote>
-		<blockquote>илдет жугуз- заразить какой-л. болезнью.</blockquote>
+		<trn>болезнь, тяжёлая болезнь, недуг;</trn>
+		<blockquote>дагы бир ай дарылансаң, бардык илдетиң жоголот@@ если ещё месяц полечишься, вся твоя болезнь пройдёт;</blockquote>
+		<blockquote>жугуштуу илдет@@ заразная болезнь;</blockquote>
+		<blockquote>илдет жугуз@@- заразить какой-л. болезнью.</blockquote>
 	</card>
 	<card>
 		<k>илдеттүү</k>
-		<blockquote>болезненный, мучительный;</blockquote>
+		<pos>adj</pos>
+		<trn>болезненный, мучительный;</trn>
 		<ex>
 			<source>илдеттүү күнгө жолугуп калганың айт, Токтогул фольк.</source>
 			<target>ты, Токтогул, расскажи о том, какой тяжёлой была твоя жизнь (букв. как ты попал в мучительную жизнь).</target>
@@ -1767,12 +1781,15 @@
 	</card>
 	<card>
 		<k>илдир-</k>
+		<pos>v</pos>
 		<meaning>
+			<pos>v</pos>
 			<caus word="ил"/>
-			<blockquote>заставить зацепить, заставить прицепить;</blockquote>
+			<trn>заставить зацепить, заставить прицепить;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>поймать добычу с помощью ловчей птицы;</blockquote>
+			<pos>v</pos>
+			<trn>поймать добычу с помощью ловчей птицы;</trn>
 			<ex>
 				<source>атамдан калган Акшумкар этине келген чагы экен, өрдөк, казды илдирип, сала турган чагы экен фольк.</source>
 				<target>оставшийся от отца Акшумкар (букв. белый кречет) в нужном теле, (сейчас) время, когда его можно пускать, чтобы ловить уток и гусей;</target>
@@ -1787,20 +1804,24 @@
 		<k>иле</k>
 		<origin>ар.</origin>
 		<meaning>
-			<blockquote>ловкость, проворство; увёртка, уловка, ловкий приём;</blockquote>
-			<blockquote>баракелде илеңе! ловко ты сделал!;</blockquote>
+			<pos>n</pos>
+			<trn>ловкость, проворство; увёртка, уловка, ловкий приём;</trn>
+			<blockquote>баракелде илеңе!@@ ловко ты сделал!;</blockquote>
 		</meaning>
 		<meaning>
+			<pos>adj</pos>
 			<meta>южн.</meta>
-			<blockquote>(о человеке) нечестный, подлый.</blockquote>
+			<trn>(о человеке) нечестный, подлый.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>илебай</k>
+		<pos>n</pos>
 		<sameas word="ылаббай"/>
 	</card>
 	<card>
 		<k>илеге</k>
+		<pos>n</pos>
 		<meta>талас.</meta>
 		<sameas word="иреге"/>
 	</card>
@@ -1808,52 +1829,64 @@
 		<k>илеген</k>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>таз, металлическое корыто (для стирки белья);</blockquote>
+			<pos>n</pos>
+			<trn>таз, металлическое корыто (для стирки белья);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>блюдо, поднос;</blockquote>
-			<blockquote>чыны илеген фарфоровое или фаянсовое блюдо.</blockquote>
+			<pos>n</pos>
+			<trn>блюдо, поднос;</trn>
+			<blockquote>чыны илеген@@ фарфоровое или фаянсовое блюдо.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>илегер</k>
+		<pos>n</pos>
 		<blockquote>ар.- ир.</blockquote>
 		<sameas word="илелүү"/>
 	</card>
 	<card>
 		<k>илегилек</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>белый аист;</blockquote>
-		<blockquote>кара илегилек чёрный аист;</blockquote>
-		<blockquote>эртең менен кетет илегилек, кечинде келет илегилек загадка утром уходит аист, вечером приходит аист (отгадка түндүк жабуу войлок для закрывания түндүк'а; см. түндүк 3).</blockquote>
+		<trn>белый аист;</trn>
+		<blockquote>кара илегилек@@ чёрный аист;</blockquote>
+		<blockquote>эртең менен кетет илегилек, кечинде келет илегилек@@ загадка утром уходит аист, вечером приходит аист (отгадка түндүк жабуу войлок для закрывания түндүк'а; см. түндүк 3).</blockquote>
 	</card>
 	<card>
 		<k>илек</k>
+		<pos>n</pos>
 		<homonym>
+			<pos>n</pos>
 			<origin>ир.</origin>
-			<blockquote>несметное количество (букв. сто тысяч, но в таком значении киргизы этого слова не знают);</blockquote>
+			<trn>несметное количество (букв. сто тысяч, но в таком значении киргизы этого слова не знают);</trn>
 			<ex>
 				<source>жетимиш илек жоо келсе, жеке аралап кол салган фольк.</source>
 				<target>когда приходило врагов видимо-невидимо, он один, врываясь, нападал.</target>
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<meta>южн.</meta>
 			<sameas word="элечек"/>
 		</homonym>
 		<homonym>
-			<blockquote>илек III:</blockquote>
-			<blockquote>көзгө илек болбой, бастырып кетсеңиздер (хорошо) вам бы удалиться, не быть на глазах.</blockquote>
+			<pos>n</pos>
+		<meaning>
+			<k>илек III:</k>
+			<blockquote>көзгө илек болбой, бастырып кетсеңиздер@@ (хорошо) вам бы удалиться, не быть на глазах.</blockquote>
+		</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>илекер</k>
+		<pos>n</pos>
 		<blockquote>ар.- ир.</blockquote>
 		<meaning>
 			<sameas word="илелүү"/>
 		</meaning>
 		<meaning>
-			<blockquote>лекарь;</blockquote>
+			<pos>n</pos>
+			<trn>лекарь;</trn>
 			<ex>
 				<source>жети илекер жыйылып, жарага дары жабышты фольк.</source>
 				<target>собрались семь лекарей и приложили к ране лекарство.</target>
@@ -1862,44 +1895,58 @@
 	</card>
 	<card>
 		<k>илекердүү</k>
+		<pos>adj</pos>
 		<sameas word="илекор"/>
 	</card>
 	<card>
 		<k>илеки</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="элечек"/>
 	</card>
 	<card>
 		<k>илекор</k>
+		<pos>adj</pos>
 		<blockquote>ар.- ир.</blockquote>
-		<blockquote>(о богатыре) хитроумный; мастер на военные хитрости.</blockquote>
+		<trn>(о богатыре) хитроумный; мастер на военные хитрости.</trn>
 	</card>
 	<card>
 		<k>илекте-</k>
-		<blockquote>илекте-: илектеп сотнями тысяч, числом несметным.</blockquote>
+		<pos>adv</pos>
+		<ex>
+			<source>илекте-: илектеп</source>
+			<target>сотнями тысяч, числом несметным.</target>
+		</ex>
 	</card>
 	<card>
 		<k>илелүү</k>
+		<pos>adj</pos>
 		<origin>ар.</origin>
-		<blockquote>-кирг.</blockquote>
-		<blockquote>ловкий, увёртливый;</blockquote>
-		<blockquote>илелүү балбан ловкий борец; борец, знающий много ловких приёмов борьбы.</blockquote>
+		<origin>-кирг.</origin>
+		<trn>ловкий, увёртливый;</trn>
+		<blockquote>илелүү балбан@@ ловкий борец; борец, знающий много ловких приёмов борьбы.</blockquote>
 	</card>
 	<card>
 		<k>илең</k>
+		<pos>adv</pos>
+	<minicard>
 		<blockquote>илең: илең-салаң медленно, вяло; спустя рукава;</blockquote>
-		<blockquote>оорусу айыкпай, илең-салаң болуп жүрөт болезнь его в том же состоянии, не хуже и не лучше;</blockquote>
-		<blockquote>жумушту бүтүрбөй, илең-салаң кылып жүрөт он тянет с выполнением работы, делая её спустя рукава.</blockquote>
+		<blockquote>оорусу айыкпай, илең-салаң болуп жүрөт@@ болезнь его в том же состоянии, не хуже и не лучше;</blockquote>
+		<blockquote>жумушту бүтүрбөй, илең-салаң кылып жүрөт@@ он тянет с выполнением работы, делая её спустя рукава.</blockquote>
+	</minicard>
 	</card>
 	<card>
 		<k>илеңгир</k>
+		<pos>n</pos>
 		<meta>тяньш.</meta>
-		<blockquote>металлическое корыто для стирки белья.</blockquote>
+		<trn>металлическое корыто для стирки белья.</trn>
 	</card>
 	<card>
 		<k>илеп</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>дуновение; энергия, исходящая из чего-л.;</blockquote>
+		<pos>n</pos>
+			<trn>дуновение; энергия, исходящая из чего-л.;</trn>
 			<blockquote>күндүн илеби или күн нурунун илеби солнечная теплота, тепло солнечных лучей;</blockquote>
 			<blockquote>ысыктын илеби кайтканда когда спадёт жара;</blockquote>
 			<blockquote>оттун илеби тепло от огня;</blockquote>
@@ -1917,48 +1964,54 @@
 				<source>ооздон чыккан илепке кимдер башын ийбеген? фольк.</source>
 				<target>перед дыханием, исходящим изо рта (богатыря), кто не склонял головы? (т.е. кто не страшился его грозности?);</target>
 			</ex>
-			<blockquote>адамга суук илеби тийбеген ооз уста, которые никого не порочили;</blockquote>
-			<blockquote>коркунуч илеби алган жүрөгү бир аз эс алгандай болду его сердце, объятое страхом, как будто немного успокоилось;</blockquote>
-			<blockquote>илеп тарт- втягивать в себя, вдыхать;</blockquote>
-			<blockquote>эки ирет илеп тартып, түтүндү ууртунан бур-бур үйлөп чыгарып два раза затянувшись, он выпустил изо рта (букв. из углов губ) клубы дыма;</blockquote>
-			<blockquote>бычак илеп тартып турат нож берёт (режет) очень хорошо;</blockquote>
-			<blockquote>илебине дан бышат (иногда говорят: бышпайт) к нему подступа нет, он никого и ничего не признаёт;</blockquote>
-			<blockquote>илеби мокоду или илеби кайтты у него настроение упало, он огорчился;</blockquote>
-			<blockquote>илебин кайтар- огорчить;</blockquote>
-			<blockquote>илеп белгиси грам. восклицательный знак.</blockquote>
+			<blockquote>адамга суук илеби тийбеген ооз уста,@@ которые никого не порочили;</blockquote>
+			<blockquote>коркунуч илеби алган жүрөгү бир аз эс алгандай болду@@ его сердце, объятое страхом, как будто немного успокоилось;</blockquote>
+			<blockquote>илеп тарт@@- втягивать в себя, вдыхать;</blockquote>
+			<blockquote>эки ирет илеп тартып, түтүндү ууртунан бур-бур үйлөп чыгарып@@ два раза затянувшись, он выпустил изо рта (букв. из углов губ) клубы дыма;</blockquote>
+			<blockquote>бычак илеп тартып турат@@ нож берёт (режет) очень хорошо;</blockquote>
+			<blockquote>илебине дан бышат@@ (иногда говорят: бышпайт) к нему подступа нет, он никого и ничего не признаёт;</blockquote>
+			<blockquote>илеби мокоду или илеби кайтты@@ у него настроение упало, он огорчился;</blockquote>
+			<blockquote>илебин кайтар@@- огорчить;</blockquote>
+			<blockquote>илеп белгиси@@ грам. восклицательный знак.</blockquote>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<origin>ир.</origin>
 			<blockquote>тяньш., южн.</blockquote>
-			<blockquote>губа;</blockquote>
+			<trn>губа;</trn>
 			<ex>
 				<source>илеби жука көрүнөт - чечен жигит болгудай фольк.</source>
 				<target>губы у него как будто тонкие - он, пожалуй, окажется речистым парнем;</target>
 			</ex>
 			<blockquote>торбонун овзун бувгандай дордок экен илебиң южн.
-				фольк. губы у тебя толстые, будто завязанная торба.</blockquote>
+				фольк.@@ губы у тебя толстые, будто завязанная торба.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>илепай</k>
+		<pos>n</pos>
 		<sameas word="ылаббай"/>
 	</card>
 	<card>
 		<k>илептүү</k>
-		<blockquote>илептүү: илептүү сүйлөм грам. восклицательное предложение.</blockquote>
+		<pos>adj</pos>
+		<blockquote>илептүү: илептүү сүйлөм@@ грам. восклицательное предложение.</blockquote>
 	</card>
 	<card>
 		<k>илес</k>
-		<blockquote>илес: илес: ак илес</blockquote>
+		<pos>n</pos>
+		<meta>илес: илес: ак илес</meta>
 		<sameas word="агылес"/>
 	</card>
 	<card>
 		<k>илечек</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="элечек"/>
 	</card>
 	<card>
 		<k>илечил</k>
+		<pos>adj</pos>
 		<origin>ар.-кирг.</origin>
 		<sameas word="илелүү"/>
 	</card>
