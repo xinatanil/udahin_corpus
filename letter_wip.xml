@@ -1109,120 +1109,215 @@
 	</card>
 	<card>
 		<k>ийне</k>
-		<blockquote>игла;</blockquote>
-		<blockquote>ийне топчу или ийне төөнөч южн. булавка;</blockquote>
-		<blockquote>көзү жырык ийне</blockquote>
-		<blockquote>1) игла со сломанным ушком;</blockquote>
-		<blockquote>2) перен. мелочь, не стоящая внимания;</blockquote>
-		<blockquote>көзү жырык ийне албайт он (чужого) крошки не возьмёт;</blockquote>
-		<blockquote>жүрөгүнө ийне сайылды он уязвлён;</blockquote>
-		<blockquote>ийне капта жата алабы? (калька с русского) шила в мешке не утаишь (букв. разве может игла лежать в мешке?);</blockquote>
-		<blockquote>ийне менен кудук казгандай всё равно, что колодец иголкой копать (об очень кропотливой работе);</blockquote>
-		<blockquote>ийне менен сайгандай как ужаленный;</blockquote>
-		<blockquote>ийне-жибине чейин или ийне-жибинен бери до мельчайших подробностей, всю подноготную;</blockquote>
-		<blockquote>сиздин арызды ийнесинен жибине чейин талдап келдим ваше заявление я разобрал со всей тщательностью;</blockquote>
-		<blockquote>ийне-жиптей чуточку;</blockquote>
+		<pos>n</pos>
+		<trn>игла;</trn>
 		<ex>
+			<source>ийне топчу или ийне төөнөч южн.</source>
+			<target>булавка;</target>
+		</ex>
+		<minicard>
+			<k>көзү жырык ийне</k>
+			<meaning>
+				<trn>игла со сломанным ушком;</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>мелочь, не стоящая внимания;</trn>
+			</meaning>
+				<ex>
+					<source>көзү жырык ийне албайт</source>
+					<target>он (чужого) крошки не возьмёт;</target>
+				</ex>
+		</minicard>
+		        <ex>
+			<source>жүрөгүнө ийне сайылды</source>
+			<target>он уязвлён</target>
+		        </ex>
+		        <ex>
+			<source>ийне капта жата алабы?</source>
+			<target>(калька с русского) шила в мешке не утаишь (букв. разве может игла лежать в мешке?)</target>
+		        </ex>
+		        <ex>
+			<source>ийне менен кудук казгандай</source>
+			<target>всё равно, что колодец иголкой копать (об очень кропотливой работе)</target>
+		        </ex>
+		        <ex>
+			<source>ийне менен сайгандай</source>
+			<target>как ужаленный</target>
+	    </ex>
+	    <ex>
+			<source>ийне-жибине чейин или ийне-жибинен бери</source>
+			<target>до мельчайших подробностей, всю подноготную</target>
+	   </ex>
+        <ex>
+			<source>сиздин арызды ийнесинен жибине чейин талдап келдим</source>
+			<target>ваше заявление я разобрал со всей тщательностью;</target>
+	   </ex>
+		<ex>
+			<source>ийне-жиптей</source>
+			<target>чуточку;</target>
+	   </ex>
+	    <ex>
 			<source>алсыздарга тийчү эмес ийне-жиптей жардамы фольк.</source>
 			<target>беднякам от него не было ни на волос помощи;</target>
-		</ex>
-		<blockquote>ийне жеген иттей</blockquote>
-		<blockquote>1) как собака, проглотившая иголку (о человеке, который страдает от позывов к рвоте);</blockquote>
-		<blockquote>2) страшно исхудалый, измождённый;</blockquote>
-		<blockquote>ийне жоголду название игры: одному из участников закрывают глаза, другой подходит, щёлкает его и садится на место; тот, открыв глаза, должен угадать, кто щёлкнул.</blockquote>
+	   </ex>
+	   <minicard>
+		   <k>ийне жеген иттей</k>
+		   <meaning>
+		        <trn>как собака, проглотившая иголку (о человеке, который страдает от позывов к рвоте);</trn>
+	       </meaning>
+	       <meaning>
+		        <trn>2) страшно исхудалый, измождённый;</trn>
+	       </meaning>
+	    <ex>
+		   <source>ийне жоголду</source>
+		   <target>название игры: одному из участников закрывают глаза, другой подходит, щёлкает его и садится на место; тот, открыв глаза, должен угадать, кто щёлкнул</target>
+	   </ex>
 	</card>
 	<card>
 		<k>ийнек</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>корова; корова яка.</blockquote>
+		<trn>корова; корова яка</trn>
 	</card>
 	<card>
 		<k>ийнелик</k>
 		<meaning>
-			<blockquote>стрекоза;</blockquote>
+			<trn>стрекоза;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>булавка.</blockquote>
+			<trn>булавка.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ийнечелик</k>
-		<blockquote>величиной с иголку; маленький;</blockquote>
-		<blockquote>ийнечелик иштеген иши көрүнбөйт нет никаких признаков выполненной им работы;</blockquote>
-		<blockquote>мен бирөөнүн ийнечелик да акысын жегеним жок чужого я ни крошки не присвоил.</blockquote>
+		<pos>adj</pos>
+		<trn>величиной с иголку; маленький;</trn>
+      <ex>
+		<source>ийнечелик иштеген иши көрүнбөйт</source>
+		<target>нет никаких признаков выполненной им работы;</target>
+	</ex>
+	<ex>
+		<source>мен бирөөнүн ийнечелик да акысын жегеним жок</source>
+		<target>чужого я ни крошки не присвоил.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийр-</k>
-		<look word="ийир" index="2"/>
+		<pos>v</pos> 
+		<word="ийир" index="2"/>
 	</card>
 	<card>
 		<k>ийре-</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
-		<blockquote>махать;</blockquote>
-		<blockquote>колуну ийреп махнув рукой.</blockquote>
+		<trn>махать;</trn>
+		<ex>
+		<source>колуну ийреп</source>
+		<target>махнув рукой.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийрей-</k>
-		<blockquote>кривиться.</blockquote>
+		<pos>v</pos>
+		<trn>кривиться.</trn>
 	</card>
 	<card>
 		<k>ийрейт-</k>
+		<pos>v</pos>
 		<caus word="ийрей"/>
-		<blockquote>кривить.</blockquote>
+		<trn>кривить.</trn>
 	</card>
 	<card>
 		<k>ийрек</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>зигзаг, извилина, ломаная линия; зигзагообразный, извилистый;</blockquote>
+			<trn>зигзаг, извилина, ломаная линия; зигзагообразный, извилистый;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>приспособление для очистки кожи (железная или деревянная пластинка с крупными зубьями);</blockquote>
-			<blockquote>ийректей</blockquote>
-			<blockquote>1) загнутый, крючкообразный;</blockquote>
-			<blockquote>2) перен. (о ребёнке) замухрышка;</blockquote>
+			<trn>приспособление для очистки кожи (железная или деревянная пластинка с крупными зубьями);</trn>
+		</meaning>
+		<minicard>
+			<k>ийректей</k>
+			<pos>adj</pos>
+		<meaning>
+			<trn>загнутый, крючкообразный;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>название игры.</blockquote>
+			<trn>перен. (о ребёнке) замухрышка;</trn>
 		</meaning>
+		<meaning>
+			<trn>название игры.</trn>
+		</meaning>
+	</minicard>
 	</card>
 	<card>
 		<k>ийректе-</k>
-		<blockquote>скоблить ийрек'ом (см. ийрек 2).</blockquote>
+		<pos>v</pos>
+		<trn>скоблить ийрек'ом (см. ийрек 2).</trn>
 	</card>
 	<card>
 		<k>ийрелеңде-</k>
+		<pos>v</pos>
 		<sameas word="ийреңде"/>
-		<blockquote>ийрелеңдеп узата кеткен жол уходящая вдаль извилистая дорога.</blockquote>
+	<ex>
+		<source>ийрелеңдеп узата кеткен жол</source>
+		<target>уходящая вдаль извилистая дорога.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийреңде-</k>
+		<po>v</po>
 		<meaning>
-			<blockquote>извиваться (напр. о тропинке);</blockquote>
+			<trn>извиваться (напр. о тропинке);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>ковылять (напр. о кривобоком или пьяном человеке).</blockquote>
+			<trn>ковылять (напр. о кривобоком или пьяном человеке).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ийреңдет-</k>
+		<pos>v</pos>
 		<caus word="ийреңде"/>
-		<blockquote>ийреңдетип тарт- тянуть что-л. по извилистой линии.</blockquote>
+	<ex>
+		<source>ийреңдетип тарт-</source>
+		<target>тянуть что-л. по извилистой линии.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийри</k>
+		<pos>adj</pos>
 		<homonym>
-			<blockquote>кривой, извилистый;</blockquote>
-			<blockquote>ийри отуруп, түз кеңешели сядем-ка да посоветуемся; сядем-ка рядком, да поговорим ладком;</blockquote>
-			<blockquote>ийри-мийри или ийри-муйру или ийри-буйру вкривь и вкось; искривлённый;</blockquote>
-			<blockquote>ийри-буйрулук или ийри-муйрулук кривизна, искривлённость;</blockquote>
+			<trn>кривой, извилистый;</trn>
+		<ex>
+			<source>ийри отуруп, түз кеңешели</source>
+			<target>сядем-ка да посоветуемся; сядем-ка рядком, да поговорим ладком;</target>
+		</ex>
+		<ex>
+			<source>ийри-мийри или ийри-муйру или ийри-буйру</source>
+			<target>вкривь и вкось; искривлённый;</target>
+		</ex>
+		<ex>
+			<source>ийри-буйрулук или ийри-муйрулук</source>
+			<target>кривизна, искривлённость;</target>
+		</ex>
 			<ex>
 				<source>кол ийрисине тартат погов.</source>
 				<target>своя рубашка ближе к телу (букв. рука тянет в сторону своей кривизны);</target>
 			</ex>
-			<blockquote>сүйрүсүнө сүт толду, ийрисине эт толду он выправился, оправился (физически, материально, в отношении общественного положения);</blockquote>
-			<blockquote>ийрим жанып калды я очень огорчён, обижен;</blockquote>
-			<blockquote>баланын ийрин жандырба не огорчай ребёнка.</blockquote>
+			<ex>
+			<source>сүйрүсүнө сүт толду, ийрисине эт толду</source>
+			<target>он выправился, оправился (физически, материально, в отношении общественного положения);</target>
+		</ex>
+		<ex>
+			<source>ийрим жанып калды</source>
+			<target>я очень огорчён, обижен;</target>
+		</ex>
+		<ex>
+			<source>баланын ийрин жандырба</source>
+			<target>не огорчай ребёнка.</target>
+		</ex>
 		</homonym>
 		<homonym>
 			<sameas word="ийир" index="2"/>
@@ -1230,22 +1325,29 @@
 	</card>
 	<card>
 		<k>ийрий-</k>
-		<blockquote>покривиться, скривиться.</blockquote>
+		<pos>v</pos>
+		<trn>покривиться, скривиться.</trn>
 	</card>
 	<card>
 		<k>ийрил-</k>
+		<pos>v</pos>
 		<pass word="ийир" index="2"/>
 	</card>
 	<card>
 		<k>ийрилиш-</k>
+		<pos>ger</pos>
 		<recv word="ийрил"/>
-		<blockquote>койлор чогулуп ийрилишти овцы сгрудились.</blockquote>
+	<ex>
+		<source>койлор чогулуп ийрилишти</source>
+		<target>овцы сгрудились.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийрилт-</k>
+		<pos>v</card>
 		<homonym>
 			<caus word="ийрил"/>
-			<blockquote>собрать в кучу, сгрудить;</blockquote>
+			<trn>собрать в кучу, сгрудить;</trn>
 			<ex>
 				<source>олжолоп алып кайткан көп жылкыны ийрилтип, туюк жарга салган камап стих.</source>
 				<target>множество захваченных коней он, сгрудив, загнал в глухой овраг.</target>
@@ -1261,81 +1363,117 @@
 	</card>
 	<card>
 		<k>ийрим</k>
-		<blockquote>(неправ. ирим)</blockquote>
+		<pos>n</pos>
+		<meta>(неправ. ирим)</meta>
 		<meaning>
-			<blockquote>клубок;</blockquote>
-			<blockquote>бир ийрим жип клубок ниток;</blockquote>
-			<blockquote>бир ийрим жүн количество шерсти, достаточное для намотки на одно веретено;</blockquote>
+			<trn>клубок;</trn>
+		</meaning>
+		<ex>
+			<source>бир ийрим жип</source>
+			<target>клубок ниток;</target>
+		</ex>
+		<ex>
+			<source>бир ийрим жүн</source>
+			<target>количество шерсти, достаточное для намотки на одно веретено;</target>
+		</ex>
+			<meta>уст.</meta>
+			<meaning>
+			<trn>кружок;</trn>
 		</meaning>
 		<meaning>
-			<meta>уст.</meta>
-			<blockquote>кружок;</blockquote>
-			<blockquote>саясий ийрим политкружок.</blockquote>
+			<trn>саясий ийрим политкружок.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ийсе-</k>
-		<blockquote>кивать головой;</blockquote>
-		<blockquote>кол ийсе- раздражённо махнуть рукой, отмахнуться.</blockquote>
+		<pos>v</pos>
+		<trn>кивать головой;</trn>
+	<ex>
+		<source>кол ийсе-</source>
+		<target>раздражённо махнуть рукой, отмахнуться.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийсеңде-</k>
-		<blockquote>уподобляться в своих движениях худому, тщедушному.</blockquote>
+		<pos>v</pos>
+		<trn>уподобляться в своих движениях худому, тщедушному.</trn>
 	</card>
 	<card>
 		<k>ийсин-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>(о кобылице) задержать молоко;</blockquote>
-			<blockquote>бээ ийсинип калды кобылица задержала молоко;</blockquote>
+			<trn>(о кобылице) задержать молоко;</trn>
 		</meaning>
+		<ex>
+			<source>бээ ийсинип калды</source>
+			<target>кобылица задержала молоко;</target>
+		</ex>
 		<meaning>
-			<blockquote>(о женщине при виде крупного мужчины) вожделеть, млеть.</blockquote>
+			<trn>(о женщине при виде крупного мужчины) вожделеть, млеть.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ийсиниш-</k>
+		<pos>v</pos>
 		<recv word="ийсин"/>
 	</card>
 	<card>
 		<k>ийсинт-</k>
+		<pos>v</pos>
 		<caus word="ийсин"/>
-		<blockquote>кулунду салалбаган киши ийсинтип коёт человек, не умеющий подпустить жеребёнка (к кобылице), доводит её до того, что она задерживает молоко.</blockquote>
+		<ex>
+		<source>кулунду салалбаган киши ийсинтип коёт</source>
+		<target>человек, не умеющий подпустить жеребёнка (к кобылице), доводит её до того, что она задерживает молоко.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийүү</k>
+		<pos>n</pos>
 		<actionNoun word="ий" index="3"/>
 		<meaning>
-			<blockquote>сгибание, загибание;</blockquote>
+			<trn>сгибание, загибание;</trn>
 		</meaning>
 		<meaning>
 			<meta>полит.</meta>
 			<meta>уст.</meta>
-			<blockquote>загиб;</blockquote>
-			<blockquote>баш ийүүдө болгон находящийся в чьём-л. подчинении.</blockquote>
+			<meaning>
+			<trn>загиб;</trn>
 		</meaning>
+		<ex>
+			<source>баш ийүүдө болгон</source>
+			<target>находящийся в чьём-л. подчинении.</target>
+		</ex>
 	</card>
 	<card>
 		<k>икая</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>рассказ, повествование.</blockquote>
+		<trn>рассказ, повествование.</trn>
 	</card>
 	<card>
 		<k>ике</k>
+		<pos>n</pos>
 		<sameas word="нике"/>
-		<blockquote>андан икеси бузулбайт беды от этого никакой не будет.</blockquote>
+		<ex>
+		<source>андан икеси бузулбайт</source>
+		<target>беды от этого никакой не будет.</target>
+	</ex>
 	</card>
 	<card>
 		<k>икеле-</k>
+		<pos>n</pos>
 		<sameas word="никеле"/>
 	</card>
 	<card>
 		<k>икелеси</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>[икәләси]</blockquote>
-		<blockquote>они оба.</blockquote>
+		<transcription>[икәләси]</transcription>
+		<trn>они оба.</trn>
 	</card>
 	<card>
 		<k>икелүү</k>
+		<pos>v</pos>
 		<sameas word="никелүү"/>
 	</card>
 	<card>
