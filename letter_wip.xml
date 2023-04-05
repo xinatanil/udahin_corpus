@@ -5050,6 +5050,7 @@
 	</card>
 	<card>
 		<k>итирей-</k>
+		<pos>v</pos>
 		<trn>быть плюгавым, невзрачным;</trn>
 		<ex>
 			<source>көзүнүн чуңкуруна бир чөйчөк суу куйса толбочудай болуп, итирейип жүдөп калыптыр</source>
@@ -5062,10 +5063,12 @@
 	</card>
 	<card>
 		<k>итирке-</k>
+		<pos>v</pos>
 		<sameas word="итиркен"/>
 	</card>
 	<card>
 		<k>итиркей</k>
+		<pos>n</pos>
 		<ex>
 			<source>итиркейим келип турат</source>
 			<target>мне противно, я испытываю неприятное чувство (брезгливости или боязливости); у меня поджилки трясутся.</target>
@@ -5073,14 +5076,17 @@
 	</card>
 	<card>
 		<k>итиркек</k>
+		<pos>n</pos>
 		<sameas word="итиркей"/>
 	</card>
 	<card>
 		<k>итиркен-</k>
+		<pos>v</pos>
 		<trn>брезгливо передёрнуться.</trn>
 	</card>
 	<card>
 		<k>иткел</k>
+		<pos>n</pos>
 		<trn>пена, накипь на жирном бульоне;</trn>
 		<minicard>
 			<k>иткелдей кылып уютуп</k>
@@ -5096,6 +5102,7 @@
 	</card>
 	<card>
 		<k>иткелдүү</k>
+		<pos>adj</pos>
 		<trn>(о бульоне) покрытый пеной и жиром;</trn>
 		<ex>
 			<source>иткелдүү сорпо</source>
@@ -5104,6 +5111,7 @@
 	</card>
 	<card>
 		<k>иттик</k>
+		<pos>n</pos>
 		<trn>всё отрицательное, свойственное собаке; свинство;</trn>
 		<ex>
 			<source>иттик кылды</source>
@@ -5120,6 +5128,7 @@
 	</card>
 	<card>
 		<k>иттүү</k>
+		<pos>adj</pos>
 		<trn>имеющий собаку, с собакой;</trn>
 		<ex>
 			<source>иттүү конок</source>
@@ -5136,6 +5145,7 @@
 	</card>
 	<card>
 		<k>итчилик</k>
+		<pos>n</pos>
 		<sameas word="иттик"/>
 		<trn>бул эмне деген итчилик? это что за свинство?</trn>
 		<ex>
@@ -5145,6 +5155,7 @@
 	</card>
 	<card>
 		<k>иф</k>
+		<pos>ideo</pos>
 		<trn>подражание звуку, произносимому втягиванием воздуха через углы губ;</trn>
 		<ex>
 			<source>иф...- деп, ууртуна толуп кеткен шилекейин шыр тартып</source>
@@ -5153,6 +5164,7 @@
 	</card>
 	<card>
 		<k>ихи</k>
+		<pos>ideo</pos>
 		<meta>(от начала до конца с губной окраской)</meta>
 		<sameas word="и" index="2"/>
 		<ex>
@@ -5166,10 +5178,12 @@
 	</card>
 	<card>
 		<k>ихин</k>
+		<pos>ideo</pos>
 		<look word="ихи"/>
 	</card>
 	<card>
 		<k>ич</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>внутренность, внутренняя часть;</trn>
@@ -5493,6 +5507,7 @@
 	</card>
 	<card>
 		<k>иче</k>
+		<pos>n</pos>
 		<ex>
 			<source>иче-карды</source>
 			<target>см. ичек.</target>
@@ -5500,6 +5515,7 @@
 	</card>
 	<card>
 		<k>ичеги</k>
+		<pos>n</pos>
 		<homonym>
 			<look word="ичек"/>
 		</homonym>
@@ -5518,6 +5534,7 @@
 	</card>
 	<card>
 		<k>ичегилик</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<trn>подтопка, растопка (мелкое топливо: хворост, щепки);</trn>
 		<ex>
@@ -5527,6 +5544,7 @@
 	</card>
 	<card>
 		<k>ичек</k>
+		<pos>n</pos>
 		<meta>(чаще ичеги)</meta>
 		<trn>кишки;</trn>
 		<ex>
@@ -5564,6 +5582,7 @@
 	</card>
 	<card>
 		<k>ичен</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="чээн"/>
 		<ex>
@@ -5573,6 +5592,7 @@
 	</card>
 	<card>
 		<k>ичерман</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>выпивоха;</trn>
 		</meaning>
@@ -5586,10 +5606,12 @@
 	</card>
 	<card>
 		<k>ичермен</k>
+		<pos>n</pos>
 		<look word="ичерман"/>
 	</card>
 	<card>
 		<k>ичик</k>
+		<pos>n</pos>
 		<trn>шуба, крытая материей;</trn>
 		<ex>
 			<source>киш ичик</source>
@@ -5602,15 +5624,18 @@
 	</card>
 	<card>
 		<k>ичикче</k>
+		<pos>n</pos>
 		<blockquote>шубка, меховая куртка.</blockquote>
 	</card>
 	<card>
 		<k>ичил-</k>
+		<pos>v</pos>
 		<refpass word="ич" index="3"/>
 		<blockquote>чай ичилип бүткөндөн кийин после того, как попили чаю.</blockquote>
 	</card>
 	<card>
 		<k>ичилик</k>
+		<pos>n</pos>
 		<meaning>
 			<blockquote>подкладка (портновская);</blockquote>
 		</meaning>
@@ -5620,20 +5645,24 @@
 	</card>
 	<card>
 		<k>ичим</k>
+		<pos>n</pos>
 		<blockquote>ичим: бир ичим количество (жидкости), достаточное для того, чтобы один раз попить.</blockquote>
 	</card>
 	<card>
 		<k>ичир-</k>
+		<pos>v</pos>
 		<caus word="ич" index="3"/>
 		<blockquote>заставлять пить; поить;</blockquote>
 		<blockquote>ичирип-жегиз- поить-кормить.</blockquote>
 	</card>
 	<card>
 		<k>ичиркен-</k>
+		<pos>v</pos>
 		<blockquote>вздрогнуть, невольно передёрнуться.</blockquote>
 	</card>
 	<card>
 		<k>ичиркент-</k>
+		<pos>v</pos>
 		<caus word="ичиркен"/>
 		<ex>
 			<source>кабыргаң жарып, ок тийсе, ичиркентпе этиңди фольк.</source>
@@ -5643,6 +5672,7 @@
 	</card>
 	<card>
 		<k>ичиркентме</k>
+		<pos>n</pos>
 		<meaning>
 			<blockquote>дрожь, съёживание (от холода);</blockquote>
 		</meaning>
@@ -5652,12 +5682,14 @@
 	</card>
 	<card>
 		<k>ичиртки</k>
+		<pos>adj</pos>
 		<meta>(или ичиртки дуба)</meta>
 		<meta>этн.</meta>
 		<blockquote>знахарские магические надписи на чашке.</blockquote>
 	</card>
 	<card>
 		<k>ичиш</k>
+		<pos>v</pos>
 		<homonym>
 			<actionNoun word="ич" index="3"/>
 		</homonym>
@@ -5668,6 +5700,7 @@
 	</card>
 	<card>
 		<k>ичке</k>
+		<pos>adj</pos>
 		<meaning>
 			<blockquote>тонкий (противоп. жоон I; ср. жука);</blockquote>
 			<ex>
@@ -5693,6 +5726,7 @@
 	</card>
 	<card>
 		<k>ичкеле-</k>
+		<pos>v</pos>
 		<blockquote>действовать тонко, дипломатично, осторожно, незаметно;</blockquote>
 		<blockquote>ичкелеп айт- сказать тонко, дипломатично;</blockquote>
 		<blockquote>ичкелеп билчи потихоньку разузнай-ка;</blockquote>
@@ -5700,17 +5734,20 @@
 	</card>
 	<card>
 		<k>ичкелет-</k>
+		<pos>v</pos>
 		<blockquote>понуд. от ичкеле-,</blockquote>
 		<sameas word="ичкеле"/>
 		<blockquote>ичкелетип айт- сказать тонко, дипломатично.</blockquote>
 	</card>
 	<card>
 		<k>ичкелештир-</k>
+		<pos>v</pos>
 		<meta>сев.</meta>
 		<sameas word="ичкерештир"/>
 	</card>
 	<card>
 		<k>ичкер</k>
+		<pos>adv</pos>		
 		<homonym>
 			<sameas word="ичкери"/>
 			<blockquote>ичкер тарап внутренняя сторона (дома, двора).</blockquote>
@@ -5721,15 +5758,18 @@
 	</card>
 	<card>
 		<k>ичкерет-</k>
+		<pos>v</pos>
 		<sameas word="ичкерештир"/>
 	</card>
 	<card>
 		<k>ичкерештир-</k>
+		<pos>v</pos>
 		<blockquote>ичкерештир-: от ичкерештир- поправлять огонь в очаге, подкладывая наверх оставшееся по краям недогоревшее топливо;</blockquote>
 		<blockquote>оң колу менен куурай ичкерештирип, оттун күйгөнүн тиктөөдө правой рукой поправляя (горящий) курай, он пристально смотрит на огонь.</blockquote>
 	</card>
 	<card>
 		<k>ичкери</k>
+		<pos>adv</pos>
 		<meaning>
 			<blockquote>внутрь, внутри;</blockquote>
 		</meaning>
@@ -5741,20 +5781,24 @@
 	</card>
 	<card>
 		<k>ичкерки</k>
+		<pos>adj</pos>
 		<blockquote>внутренний (находящийся внутри);</blockquote>
 		<blockquote>ичкерки үйдө во внутренних комнатах.</blockquote>
 	</card>
 	<card>
 		<k>ичкерт-</k>
+		<pos>v</pos>
 		<caus word="ичкер" index="2"/>
 		<blockquote>утончать, делать тонким.</blockquote>
 	</card>
 	<card>
 		<k>ичкертил-</k>
+		<pos>v</pos>
 		<pass word="ичкерт"/>
 	</card>
 	<card>
 		<k>ичкертүү</k>
+		<pos>ger</pos>
 		<actionNoun word="ичкерт"/>
 		<ex>
 			<source>ичкертүү белгиси грам.</source>
@@ -5763,6 +5807,7 @@
 	</card>
 	<card>
 		<k>ичкештир-</k>
+		<pos>v</pos>
 		<meta>сев.</meta>
 		<sameas word="ичкерештир"/>
 		<ex>
@@ -5772,6 +5817,7 @@
 	</card>
 	<card>
 		<k>ички</k>
+		<pos>adj</pos>
 		<homonym>
 			<meta>в разн. знач.</meta>
 			<trn>внутренний;</trn>
@@ -5806,6 +5852,7 @@
 	</card>
 	<card>
 		<k>ичкилик</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>напиток; спиртной напиток;</trn>
@@ -5834,6 +5881,7 @@
 	</card>
 	<card>
 		<k>ичкисин</k>
+		<pos>adv</pos>
 		<trn>внутрь; внутренне;</trn>
 		<ex>
 			<source>ак жибек кийдим ичкисин, атилес киндим тышкысын фольк.</source>
@@ -5842,6 +5890,7 @@
 	</card>
 	<card>
 		<k>ичкич</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>много пьющий;</trn>
 			<ex>
@@ -5855,6 +5904,7 @@
 	</card>
 	<card>
 		<k>ичме</k>
+		<pos>v<pos>
 		<ex>
 			<source>кан ичмей</source>
 			<target>жажда крови;</target>
@@ -5874,10 +5924,12 @@
 	</card>
 	<card>
 		<k>ичмей</k>
+		<pos>v</pos>
 		<look word="ичме"/>
 	</card>
 	<card>
 		<k>ичмек</k>
+		<pos>n</pos>
 		<trn>подкладка потника, подпотник;</trn>
 		<ex>
 			<source>жоор аттын ичмегиндей</source>
@@ -5886,6 +5938,7 @@
 	</card>
 	<card>
 		<k>ичмекей</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>тот, кто пьёт, ест;</trn>
 		</meaning>
@@ -5896,10 +5949,12 @@
 	</card>
 	<card>
 		<k>ичмекте-</k>
+		<pos>v</pos>
 		<sameas word="ичкеле"/>
 	</card>
 	<card>
 		<k>ичте-</k>
+		<pos>v</pos>
 		<trn>подшить, подбить (подшить подкладку);</trn>
 		<ex>
 			<source>пальтого жибек ичте-</source>
@@ -5908,6 +5963,7 @@
 	</card>
 	<card>
 		<k>ичтет-</k>
+		<pos>v</pos>
 		<caus word="ичте"/>
 		<sameas word="ичте"/>
 		<ex>
@@ -5917,10 +5973,12 @@
 	</card>
 	<card>
 		<k>ичтеш</k>
+		<pos>adj</pos>
 		<trn>равный с чем-л. по объёму, по вместимости.</trn>
 	</card>
 	<card>
 		<k>ичти</k>
+		<pos>adv</pos>
 		<minicard>
 			<k>ичти-тышты</k>
 			<trn>внутри и снаружи;</trn>
@@ -5932,14 +5990,17 @@
 	</card>
 	<card>
 		<k>ичтиртеден</k>
+		<pos>adv</pos>
 		<trn>изнутри, из внутренней части; внутренне.</trn>
 	</card>
 	<card>
 		<k>ичтүү</k>
+		<pos>adj</pos>
 		<trn>ёмкий.</trn>
 	</card>
 	<card>
 		<k>ичтүүлүк</k>
+		<pos>n</pos>
 		<trn>ёмкость;</trn>
 		<ex>
 			<source>ичтүүлүк өлчөөсү</source>
@@ -5948,6 +6009,7 @@
 	</card>
 	<card>
 		<k>иш</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>дело, работа;</trn>
 			<ex>
@@ -6038,10 +6100,12 @@
 	</card>
 	<card>
 		<k>ишшек</k>
+		<pos>n</pos>
 		<look word="иш" index="2"/>
 	</card>
 	<card>
 		<k>ишарат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>знак, намёк;</trn>
 		<ex>
@@ -6051,24 +6115,29 @@
 	</card>
 	<card>
 		<k>ишаратта-</k>
+		<pos>v</pos>
 		<trn>поступать согласно шариату.</trn>
 	</card>
 	<card>
 		<k>ишек</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="шишек"/>
 	</card>
 	<card>
 		<k>ишемби</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<trn>суббота.</trn>
 	</card>
 	<card>
 		<k>ишембилик</k>
+		<pos>n</pos>
 		<trn>субботник.</trn>
 	</card>
 	<card>
 		<k>ишен-</k>
+		<pos>v</pos>
 		<trn>верить, доверять, полагаться на кого-л.;</trn>
 		<ex>
 			<source>ишенген кишим</source>
@@ -6081,18 +6150,22 @@
 	</card>
 	<card>
 		<k>ишенбестик</k>
+		<pos>n</pos>
 		<sameas word="ишенбөөчүлүк"/>
 	</card>
 	<card>
 		<k>ишенбөөчүлүк</k>
+		<pos>n</pos>
 		<trn>неверие, недоверие.</trn>
 	</card>
 	<card>
 		<k>ишенгич</k>
+		<pos>adj</pos>
 		<trn>доверчивый.</trn>
 	</card>
 	<card>
 		<k>ишендир-</k>
+		<pos>v</pos>
 		<caus word="ишен"/>
 		<trn>заставить поверить; уверить, внушить доверие, обнадёжить;</trn>
 		<ex>
@@ -6102,11 +6175,13 @@
 	</card>
 	<card>
 		<k>ишендирүү</k>
+		<pos>ger</pos>
 		<actionNoun word="ишендир"/>
 		<trn>уверение, заверение, внушение доверия, обнадёживание.</trn>
 	</card>
 	<card>
 		<k>ишенил-</k>
+		<pos>v</pos>
 		<pass word="ишен"/>
 		<ex>
 			<source>ишенилген киши</source>
@@ -6115,10 +6190,12 @@
 	</card>
 	<card>
 		<k>ишеним</k>
+		<pos>n</pos>
 		<trn>доверие.</trn>
 	</card>
 	<card>
 		<k>ишенимдүү</k>
+		<pos>adj</pos>
 		<trn>уверенный; надёжный;</trn>
 		<ex>
 			<source>ишенимдүү кадам менен</source>
@@ -6131,10 +6208,12 @@
 	</card>
 	<card>
 		<k>ишенимдүүлүк</k>
+		<pos>n</pos>
 		<trn>свойства и качества человека, к которому имеют доверие.</trn>
 	</card>
 	<card>
 		<k>ишеничтик</k>
+		<pos>n</pos>
 		<trn>уверенность;</trn>
 		<ex>
 			<source>ишеничтик менен</source>
@@ -6143,6 +6222,7 @@
 	</card>
 	<card>
 		<k>ишеничтүү</k>
+		<pos>adj</pos>
 		<sameas word="ишенчиликтүү"/>
 		<ex>
 			<source>ишеничтүү түрдө</source>
@@ -6159,14 +6239,17 @@
 	</card>
 	<card>
 		<k>ишеничтүүлүк</k>
+		<pos>n</pos>
 		<trn>доверчивость.</trn>
 	</card>
 	<card>
 		<k>ишент-</k>
+		<pos>v</pos>
 		<sameas word="ишендир"/>
 	</card>
 	<card>
 		<k>ишенүү</k>
+		<pos>ger</pos>
 		<actionNoun word="ишен"/>
 		<trn>доверие, вера;</trn>
 		<ex>
@@ -6176,6 +6259,7 @@
 	</card>
 	<card>
 		<k>ишенчилик</k>
+		<pos>n</pos>
 		<trn>доверие;</trn>
 		<ex>
 			<source>ишенчиликти жой-</source>
@@ -6188,14 +6272,17 @@
 	</card>
 	<card>
 		<k>ишенчиликтүү</k>
+		<pos>adj</pos>
 		<trn>заслуживающий доверия, надёжный.</trn>
 	</card>
 	<card>
 		<k>ишенчээк</k>
+		<pos>adj</pos>
 		<trn>доверчивый.</trn>
 	</card>
 	<card>
 		<k>ишенчээктик</k>
+		<pos>n</pos>
 		<trn>доверчивость.</trn>
 	</card>
 	<card>
@@ -6205,6 +6292,7 @@
 	</card>
 	<card>
 		<k>ишик</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
 		<sameas word="шишик"/>
 		<ex>
@@ -6214,22 +6302,26 @@
 	</card>
 	<card>
 		<k>ишкана</k>
+		<pos>n</pos>
 		<blockquote>кирг.-ир.</blockquote>
 		<trn>мастерская; предприятие.</trn>
 	</card>
 	<card>
 		<k>ишкеме</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<trn>гусак (ливер, осердье, грудной потрох).</trn>
 	</card>
 	<card>
 		<k>ишкеп</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<trn>шкаф.</trn>
 	</card>
 	<card>
 		<k>ишкер</k>
+		<pos>n</pos>
 		<blockquote>кирг.-ир.</blockquote>
 		<meaning>
 			<trn>деятельный, активный, энергичный;</trn>
@@ -6248,10 +6340,12 @@
 	</card>
 	<card>
 		<k>ишкердик</k>
+		<pos>n</pos>
 		<trn>активность, энергичность.</trn>
 	</card>
 	<card>
 		<k>ишкердүү</k>
+		<pos>adj</pos>
 		<meaning>
 			<sameas word="ишкер" subindex="2"/>
 		</meaning>
@@ -6265,10 +6359,12 @@
 	</card>
 	<card>
 		<k>ишкерлик</k>
+		<pos>n</pos>
 		<sameas word="ишкердик"/>
 	</card>
 	<card>
 		<k>ишкиликтүү</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>деятельный;</trn>
 			<ex>
@@ -6286,6 +6382,7 @@
 	</card>
 	<card>
 		<k>ишкөл</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<meaning>
@@ -6302,11 +6399,13 @@
 	</card>
 	<card>
 		<k>ишлем</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="шилээн"/>
 	</card>
 	<card>
 		<k>ишлет</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<trn>деятельность;</trn>
 		<ex>
@@ -6316,6 +6415,7 @@
 	</card>
 	<card>
 		<k>ишмекер</k>
+		<pos>n</pos>
 		<blockquote>кирг.-ир.</blockquote>
 		<meaning>
 			<trn>мастер (ремесленник);</trn>
@@ -6326,6 +6426,7 @@
 	</card>
 	<card>
 		<k>ишмер</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>искусник, мастер;</trn>
 		</meaning>
@@ -6339,6 +6440,7 @@
 	</card>
 	<card>
 		<k>ишмердик</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>мастерство;</trn>
 		</meaning>
@@ -6348,6 +6450,7 @@
 	</card>
 	<card>
 		<k>иште-</k>
+		<pos>v</pos>
 		<trn>работать;</trn>
 		<ex>
 			<source>иштесең, тиштерсиң погов.</source>
@@ -6368,6 +6471,7 @@
 	</card>
 	<card>
 		<k>иштел-</k>
+		<pos>v</pos>
 		<pass word="иште"/>
 		<ex>
 			<source>иштелген иштери жаман эмес</source>
@@ -6376,14 +6480,17 @@
 	</card>
 	<card>
 		<k>иштерман</k>
+		<pos>n</pos>
 		<blockquote>работяга; трудолюбивый.</blockquote>
 	</card>
 	<card>
 		<k>иштермен</k>
+		<pos>n</pos>
 		<look word="иштерман"/>
 	</card>
 	<card>
 		<k>иштет-</k>
+		<pos>v</pos>
 		<caus word="иште"/>
 		<meaning>
 			<trn>заставлять работать, использовать на работе;</trn>
@@ -6402,15 +6509,18 @@
 	</card>
 	<card>
 		<k>иштетил-</k>
+		<pos>v</pos>
 		<pass word="иштет"/>
 		<trn>подвергаться обработке, обрабатываться.</trn>
 	</card>
 	<card>
 		<k>иштеттир-</k>
+		<pos>v</pos>
 		<caus word="иштет"/>
 	</card>
 	<card>
 		<k>иштиктүү</k>
+		<pos>adj</pos>
 		<trn>дельный, деловой; деятельный;</trn>
 		<ex>
 			<source>иштиктүү сунуш</source>
@@ -6447,10 +6557,12 @@
 	</card>
 	<card>
 		<k>иштиктүүлүк</k>
+		<pos>n</pos>
 		<trn>деловитость.</trn>
 	</card>
 	<card>
 		<k>иштүү</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>работяга;</trn>
 		</meaning>
@@ -6464,10 +6576,12 @@
 	</card>
 	<card>
 		<k>иштүүлүк</k>
+		<pos>n</pos>
 		<trn>искусность в рукоделии, в шитье.</trn>
 	</card>
 	<card>
 		<k>иштөө</k>
+		<pos>ger</pos>
 		<actionNoun word="иште"/>
 		<ex>
 			<source>иштөө нормалары</source>
@@ -6476,24 +6590,29 @@
 	</card>
 	<card>
 		<k>ишчөткө</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<trn>щётка.</trn>
 	</card>
 	<card>
 		<k>ишшек</k>
+		<pos>n</pos>
 		<look word="иш" index="2"/>
 	</card>
 	<card>
 		<k>июль</k>
+		<pos>n</pos>
 		<trn>июль</trn>
 	</card>
 	<card>
 		<k>июнь</k>
+		<pos>n</pos>
 		<trn>июнь</trn>
 	</card>
 	<card>
 		<k>ия</k>
+		<pos>ideo</pos>
 		<trn>а?</trn>
 		<ex>
 			<source>эмне дедиң, ия?</source>
