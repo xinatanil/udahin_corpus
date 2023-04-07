@@ -5747,7 +5747,7 @@
 	</card>
 	<card>
 		<k>ичкер</k>
-		<pos>adv</pos>		
+		<pos>adv</pos>
 		<homonym>
 			<sameas word="ичкери"/>
 			<blockquote>ичкер тарап внутренняя сторона (дома, двора).</blockquote>
@@ -5904,7 +5904,7 @@
 	</card>
 	<card>
 		<k>ичме</k>
-		<pos>v<pos>
+		<pos>v</pos>
 		<ex>
 			<source>кан ичмей</source>
 			<target>жажда крови;</target>
