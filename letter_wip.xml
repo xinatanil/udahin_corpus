@@ -3987,45 +3987,93 @@
 		<k>ирет</k>
 		<origin>р.</origin>
 		<meaning>
-			<blockquote>ряд, порядок;</blockquote>
-			<blockquote>иретке тизилиш- становиться по порядку; становиться рядами;</blockquote>
-			<blockquote>башкаруу ирети менен уст. административным порядком;</blockquote>
-			<blockquote>ирети менен в порядке; по порядку; перен. толково, дельно;</blockquote>
-			<blockquote>ирети жок сөз бестолковая, путаная речь;</blockquote>
+			<trn>ряд, порядок;</trn>
+			<ex>
+				<source>иретке тизилиш-</source>
+				<target>становиться по порядку; становиться рядами;</target>
+			</ex>
+			<ex>
+				<source>башкаруу ирети менен уст.</source>
+				<target>административным порядком;</target>
+			</ex>
+			<ex>
+				<source>ирети менен</source>
+				<target>в порядке; по порядку; перен. толково, дельно;</target>
+			</ex>
+			<ex>
+				<source>ирети жок сөз</source>
+				<target>бестолковая, путаная речь;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>черёд, очередь;</blockquote>
-			<blockquote>ирет бүттү перен. разг. с плеч долой, я своё отбарабанил (а как -не имеет значения);</blockquote>
-			<blockquote>ирет бүттү кылба не втирай очки; делай так, как следует, для дела, а не для формы;</blockquote>
-			<blockquote>ирет ат сев. уст. очередная частная лошадь (которая давалась от общестеа для разъездов по общественным или служебным делам);</blockquote>
+			<trn>черёд, очередь;</trn>
+			<ex>
+				<source>ирет бүттү перен. разг.</source>
+				<target>с плеч долой, я своё отбарабанил (а как -не имеет значения);</target>
+			</ex>
+			<ex>
+				<source>ирет бүттү кылба</source>
+				<target>не втирай очки; делай так, как следует, для дела, а не для формы;</target>
+			</ex>
+			<ex>
+				<source>ирет ат сев. уст.</source>
+				<target>очередная частная лошадь (которая давалась от общества для разъездов по общественным или служебным делам);</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>удобный момент, удобный случай;</blockquote>
-			<blockquote>ирети келбеди обстоятельства сложились неудачно, не удалось что-л.;</blockquote>
-			<blockquote>ирети келгенде при (удобном) случае;</blockquote>
-			<blockquote>ирети келсе, айтам если выпадет удобный случай, скажу; если придётся к слову, скажу;</blockquote>
-			<blockquote>иретин келтире албаймын никак не могу улучить удобный момент;</blockquote>
+			<trn>удобный момент, удобный случай;</trn>
+			<ex>
+				<source>ирети келбеди</source>
+				<target>обстоятельства сложились неудачно, не удалось что-л.;</target>
+			</ex>
+			<ex>
+				<source>ирети келгенде</source>
+				<target>при (удобном) случае;</target>
+			</ex>
+			<ex>
+				<source>ирети келсе, айтам</source>
+				<target>если выпадет удобный случай, скажу; если придётся к слову, скажу;</target>
+			</ex>
+			<ex>
+				<source>иретин келтире албаймын</source>
+				<target>никак не могу улучить удобный момент;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>раз;</blockquote>
-			<blockquote>эки ирет два раза;</blockquote>
-			<blockquote>эчен ирет сколько раз; несколько раз;</blockquote>
-			<blockquote>бир нече ирет кемитүү уменьшение в несколько раз;</blockquote>
-			<blockquote>биринчи ирет первый раз.</blockquote>
+			<trn>раз;</trn>
+			<ex>
+				<source>эки ирет</source>
+				<target>два раза;</target>
+			</ex>
+			<ex>
+				<source>эчен ирет</source>
+				<target>сколько раз; несколько раз;</target>
+			</ex>
+			<ex>
+				<source>бир нече ирет кемитүү</source>
+				<target>уменьшение в несколько раз;</target>
+			</ex>
+			<ex>
+				<source>биринчи ирет</source>
+				<target>первый раз.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>иретсиз</k>
-		<blockquote>в беспорядке, беспорядочно; перен. бестолково.</blockquote>
+		<trn>в беспорядке, беспорядочно; перен. бестолково.</trn>
 	</card>
 	<card>
 		<k>иретсиздик</k>
-		<blockquote>беспорядок; перен. бестолковость.</blockquote>
+		<trn>беспорядок; перен. бестолковость.</trn>
 	</card>
 	<card>
 		<k>иретте-</k>
-		<blockquote>приводить в порядок, наводить порядок, ставить или складывать по порядку;</blockquote>
-		<blockquote>китептерди иреттеп кой расставь книги по порядку, приведи книги в порядок;</blockquote>
+		<trn>приводить в порядок, наводить порядок, ставить или складывать по порядку;</trn>
+		<ex>
+			<source>китептерди иреттеп кой</source>
+			<target>расставь книги по порядку, приведи книги в порядок;</target>
+		</ex>
 		<ex>
 			<source>иреттеп журтун билди эми фольк.</source>
 			<target>он навёл порядок среди своего народа и управлял (им).</target>
@@ -4034,7 +4082,7 @@
 	<card>
 		<k>иреттел-</k>
 		<refpass word="иретте"/>
-		<blockquote>быть приводимым в порядок, упорядочиваться.</blockquote>
+		<trn>быть приводимым в порядок, упорядочиваться.</trn>
 	</card>
 	<card>
 		<k>иреттелүү</k>
@@ -4044,16 +4092,16 @@
 		<k>иреттеш-</k>
 		<recv word="иретте"/>
 		<meaning>
-			<blockquote>действовать по очереди, заменять друг друга по очереди;</blockquote>
+			<trn>действовать по очереди, заменять друг друга по очереди;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>упорядочиваться.</blockquote>
+			<trn>упорядочиваться.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>иреттештир-</k>
 		<caus word="иреттеш"/>
-		<blockquote>приводить в порядок, расставлять по порядку.</blockquote>
+		<trn>приводить в порядок, расставлять по порядку.</trn>
 	</card>
 	<card>
 		<k>иреттештирүү</k>
@@ -4065,8 +4113,11 @@
 	</card>
 	<card>
 		<k>иреттик</k>
-		<blockquote>порядковый;</blockquote>
-		<blockquote>иреттик сан атооч грам. порядковое числительное.</blockquote>
+		<trn>порядковый;</trn>
+		<ex>
+			<source>иреттик сан атооч грам.</source>
+			<target>порядковое числительное.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иреттөө</k>
@@ -4075,23 +4126,41 @@
 	<card>
 		<k>ири</k>
 		<homonym>
-			<blockquote>крупный;</blockquote>
-			<blockquote>ири менчик крупная собственность;</blockquote>
-			<blockquote>ири тарт- крупнеть, становиться крупнее; укрупняться;</blockquote>
-			<blockquote>теги ири уст. знатного происхождения;</blockquote>
-			<blockquote>теги ири, анын ата даңкы бүткүл уездге белгилүү он знатного происхождения, авторитет его отца известен всему уезду.</blockquote>
+			<trn>крупный;</trn>
+			<ex>
+				<source>ири менчик</source>
+				<target>крупная собственность;</target>
+			</ex>
+			<ex>
+				<source>ири тарт-</source>
+				<target>крупнеть, становиться крупнее; укрупняться;</target>
+			</ex>
+			<ex>
+				<source>теги ири уст.</source>
+				<target>знатного происхождения;</target>
+			</ex>
+			<ex>
+				<source>теги ири, анын ата даңкы бүткүл уездге белгилүү</source>
+				<target>он знатного происхождения, авторитет его отца известен всему уезду.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<look word="ир" index="1"/>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>(о молоке) прокиснуть, свернуться;</blockquote>
-				<blockquote>кымыз ириди кумыс (не перебродил, а) свернулся;</blockquote>
-				<blockquote>ириген сүттүн быштагындай желтоватый, с желтинкой;</blockquote>
+				<trn>(о молоке) прокиснуть, свернуться;</trn>
+				<ex>
+					<source>кымыз ириди</source>
+					<target>кумыс (не перебродил, а) свернулся;</target>
+				</ex>
+				<ex>
+					<source>ириген сүттүн быштагындай</source>
+					<target>желтоватый, с желтинкой;</target>
+				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>гнить;</blockquote>
+				<trn>гнить;</trn>
 				<ex>
 					<source>ириген ооздон чириген сөз чыгат погов.</source>
 					<target>из гнилого рта гнилые слова выходят;</target>
@@ -4099,9 +4168,15 @@
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>разлагаться, деморализоваться;</blockquote>
-				<blockquote>аскерлердин арасы ириди войско разложилось, деморализовалось;</blockquote>
-				<blockquote>иригенди жуурган, бузулганды тузөгөн стих.. деморализованных он объединил, разложившихся призвал к порядку.</blockquote>
+				<trn>разлагаться, деморализоваться;</trn>
+				<ex>
+					<source>аскерлердин арасы ириди</source>
+					<target>войско разложилось, деморализовалось;</target>
+				</ex>
+				<ex>
+					<source>иригенди жуурган, бузулганды тузөгөн стих.</source>
+					<target>деморализованных он объединил, разложившихся призвал к порядку.</target>
+				</ex>
 			</meaning>
 		</homonym>
 	</card>
@@ -4112,17 +4187,22 @@
 	<card>
 		<k>ирик</k>
 		<homonym>
-			<blockquote>трёхлетний валух;</blockquote>
-			<blockquote>чарк токтогон ирик валух старше трёх лет.</blockquote>
+			<trn>трёхлетний валух;</trn>
+			<ex>
+				<source>чарк токтогон ирик</source>
+				<target>валух старше трёх лет.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>ирик II:</blockquote>
-			<blockquote>ирик-чириктер всякая пакость, нечисть.</blockquote>
+			<minicard>
+				<k>ирик-чириктер</k>
+				<trn>всякая пакость, нечисть.</trn>
+			</minicard>
 		</homonym>
 	</card>
 	<card>
 		<k>ирикте-</k>
-		<blockquote>выбирать крупное.</blockquote>
+		<trn>выбирать крупное.</trn>
 	</card>
 	<card>
 		<k>ирил-</k>
@@ -4131,22 +4211,25 @@
 	<card>
 		<k>ирилен-</k>
 		<meaning>
-			<blockquote>становиться крупным, укрупняться;</blockquote>
+			<trn>становиться крупным, укрупняться;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>важничать.</blockquote>
+			<trn>важничать.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ирилениш</k>
 		<actionNoun word="ирилен"/>
-		<blockquote>өнөр жайлардын ирилениши укрупнение промышленных предприятий.</blockquote>
+		<ex>
+			<source>өнөр жайлардын ирилениши</source>
+			<target>укрупнение промышленных предприятий.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ирилент-</k>
 		<caus word="ирилен"/>
-		<blockquote>укрупнять.</blockquote>
+		<trn>укрупнять.</trn>
 	</card>
 	<card>
 		<k>ирилентүү</k>
@@ -4158,7 +4241,7 @@
 	</card>
 	<card>
 		<k>ирилет-</k>
-		<blockquote>укрупнять.</blockquote>
+		<trn>укрупнять.</trn>
 	</card>
 	<card>
 		<k>ирилетүү</k>
@@ -4166,32 +4249,38 @@
 	</card>
 	<card>
 		<k>ирилеш-</k>
-		<blockquote>становиться более крупным, укрупняться;</blockquote>
-		<blockquote>ирилешкен чарба укрупнённое хозяйство.</blockquote>
+		<trn>становиться более крупным, укрупняться;</trn>
+		<ex>
+			<source>ирилешкен чарба</source>
+			<target>укрупнённое хозяйство.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ирилештир-</k>
 		<caus word="ирилеш"/>
-		<blockquote>укрупнять.</blockquote>
+		<trn>укрупнять.</trn>
 	</card>
 	<card>
 		<k>ирилештирил-</k>
 		<pass word="ирилештир"/>
-		<blockquote>укрупняться;</blockquote>
-		<blockquote>ирилештирилген колхоздор укрупнённые колхозы.</blockquote>
+		<trn>укрупняться;</trn>
+		<ex>
+			<source>ирилештирилген колхоздор</source>
+			<target>укрупнённые колхозы.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ирим</k>
 		<homonym>
 			<meaning>
-				<blockquote>пучина, омут;</blockquote>
+				<trn>пучина, омут;</trn>
 				<ex>
 					<source>карынын ырымы жаман, суунун ирими жаман погов.</source>
 					<target>опасно заклинание старика, опасна пучина вод;</target>
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>заводь.</blockquote>
+				<trn>заводь.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -4199,16 +4288,19 @@
 		</homonym>
 		<homonym>
 			<look word="ийрим"/>
-			<blockquote>сабатсыздыкты жоюу ирими кружок по ликвидации неграмотности.</blockquote>
+			<ex>
+				<source>сабатсыздыкты жоюу ирими</source>
+				<target>кружок по ликвидации неграмотности.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>иримчик</k>
-		<blockquote>сыр домашнего приготовления (из кипячёного молока).</blockquote>
+		<trn>сыр домашнего приготовления (из кипячёного молока).</trn>
 	</card>
 	<card>
 		<k>иримчил</k>
-		<blockquote>тот, кого тянет к пучине, водовороту, заводи;</blockquote>
+		<trn>тот, кого тянет к пучине, водовороту, заводи;</trn>
 		<ex>
 			<source>балык иримчил погов.</source>
 			<target>рыба ищет, где глубже.</target>
