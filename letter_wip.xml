@@ -658,65 +658,72 @@
 	</card>
 	<card>
 		<k>ий</k>
+		<pos>ideo</pos>
 		<homonym>
-			<blockquote>межд., выражающее недовольство, порицание, приятное удивление;</blockquote>
-			<blockquote>ий, атаң көру! эх, чтоб тебя!;</blockquote>
-			<blockquote>ий-ий! ушул чоң энем кызык киши теги! ой, эта моя бабушка очень забавный человек!</blockquote>
+			<trn>межд., выражающее недовольство, порицание, приятное удивление;</trn>
+			<blockquote>ий, атаң көру!@@эх, чтоб тебя!;</blockquote>
+			<blockquote>ий-ий! ушул чоң энем кызык киши теги!@@ой, эта моя бабушка очень забавный человек!</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>выделка, дубление (кожи);</blockquote>
-			<blockquote>ийи жеткен (кожа) вполне выделана;</blockquote>
-			<blockquote>ийи өтүп кетти (кожа) передержана (и испорчена);</blockquote>
-			<blockquote>ийге келди или ийге көндү он смягчился;</blockquote>
-			<blockquote>бир иштин соңуна түшкөндө, ийин чыгара түшөбүз раз мы берёмся за дело, так уж сделаем его как надо;</blockquote>
-			<blockquote>ийи майда жибек плотный и тонкий высокого качества шёлк;</blockquote>
-			<blockquote>ийи майда кездеме или ийи майда мата плотная и тонкая материя;</blockquote>
-			<blockquote>ийи майда матадай (о женщине) добронравная, степенная.</blockquote>
+			<pos>n</pos>
+			<trn>выделка, дубление (кожи);</trn>
+			<blockquote>ийи жеткен@@(кожа) вполне выделана;</blockquote>
+			<blockquote>ийи өтүп кетти@@(кожа) передержана (и испорчена);</blockquote>
+			<blockquote>ийге келди или ийге көндү@@он смягчился;</blockquote>
+			<blockquote>бир иштин соңуна түшкөндө, ийин чыгара түшөбүз@@раз мы берёмся за дело, так уж сделаем его как надо;</blockquote>
+			<blockquote>ийи майда жибек@@плотный и тонкий высокого качества шёлк;</blockquote>
+			<blockquote>ийи майда кездеме или ийи майда мата@@плотная и тонкая материя;</blockquote>
+			<blockquote>ийи майда матадай@@(о женщине) добронравная, степенная.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>гнуть, сгибать;</blockquote>
-			<blockquote>үзөңгү ий- гнуть (деревянные) стремена;</blockquote>
-			<blockquote>жыгачты ийип, алкак жасайт он гнёт палки и делает круги;</blockquote>
-			<blockquote>баш ий-</blockquote>
+			<pos>v</pos>
+			<trn>гнуть, сгибать;</trn>
+			<blockquote>үзөңгү ий@@гнуть (деревянные) стремена;</blockquote>
+			<blockquote>жыгачты ийип, алкак жасайт@@он гнёт палки и делает круги;</blockquote>
+			<trn>баш ий-</trn>
+		<meaning>
 			<blockquote>1) склонять голову;</blockquote>
+		</meaning>
+		<meaning>
 			<blockquote>2) перен. подчиняться;</blockquote>
-			<blockquote>бел ий- перен. склоняться, поддаваться;</blockquote>
-			<blockquote>кыйынчылыкка бел ийбеген он не склонялся перед трудностями.</blockquote>
+		</meaning>
+			<blockquote>бел ий@@перен. склоняться, поддаваться;</blockquote>
+			<blockquote>кыйынчылыкка бел ийбеген@@он не склонялся перед трудностями.</blockquote>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>(о вымени) размякнуть;</blockquote>
+				<trn>(о вымени) размякнуть;</trn>
 			</meaning>
 			<meaning>
-				<blockquote>спустить (молоко);</blockquote>
-				<blockquote>бээ ийди кобылица спустила (молоко);</blockquote>
+				<trn>спустить (молоко);</trn>
+				<blockquote>бээ ийди@@кобылица спустила (молоко);</blockquote>
 				<ex>
 					<source>эмчеги сүткө толуп, ийип кетти фольк.</source>
 					<target>груди её наполнились молоком, и (молоко) потекло;</target>
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>повернуть, оттянуть;</blockquote>
+				<trn>повернуть, оттянуть;</trn>
 				<ex>
 					<source>мен иемин баркыңа, издеп келдим калкыңа фольк.</source>
 					<target>я покорён твоими достоинствами, прибыл в поисках (тебя) к твоему народу;</target>
 				</ex>
-				<blockquote>тизгин ий- или аттын оозун ий- (о всаднике) повернуть коня;</blockquote>
-				<blockquote>аттын оозун ийиптир (всадник поводьями) повернул голову коня;</blockquote>
-				<blockquote>Баатырбектин короосун көздөй тизгин ийди он повернул коня в сторону двора Батырбека;</blockquote>
+				<blockquote>тизгин ий- или аттын оозун ий@@(о всаднике) повернуть коня;</blockquote>
+				<blockquote>аттын оозун ийиптир@@(всадник поводьями) повернул голову коня;</blockquote>
+				<blockquote>Баатырбектин короосун көздөй тизгин ийди@@он повернул коня в сторону двора Батырбека;</blockquote>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>расщедриться, раздобриться; отнестись участливо, сочувственно;</blockquote>
-				<blockquote>кайгысына ортоктош болууга көңүлү ийди он отнёсся участливо к его горю.</blockquote>
+				<trn>расщедриться, раздобриться; отнестись участливо, сочувственно;</trn>
+				<blockquote>кайгысына ортоктош болууга көңүлү ийди@@он отнёсся участливо к его горю.</blockquote>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>то же, что ир- II, жибер- 3;</blockquote>
-			<blockquote>муштап ийди он ударил кулаком;</blockquote>
-			<blockquote>сөгүп ийди он выругал;</blockquote>
-			<blockquote>шилтеп ийди он махнул;</blockquote>
-			<blockquote>аткарып ийди он посадил на лошадь;</blockquote>
+			<trn>то же, что ир- II, жибер- 3;</trn>
+			<blockquote>муштап ийди@@он ударил кулаком;</blockquote>
+			<blockquote>сөгүп ийди@@он выругал;</blockquote>
+			<blockquote>шилтеп ийди@@он махнул;</blockquote>
+			<blockquote>аткарып ийди@@он посадил на лошадь;</blockquote>
 			<ex>
 				<source>ай-ааламды бу доңуз соруп не таштады фольк.</source>
 				<target>эта свинья (правитель) всю вселенную чуть не высосал.</target>
@@ -725,33 +732,37 @@
 	</card>
 	<card>
 		<k>ийбаа</k>
+		<pos>n</pos>
 		<sameas word="ыйбаа"/>
 	</card>
 	<card>
 		<k>ийбадат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>(или таат-ийбадат)</meta>
-		<blockquote>служение, поклонение богу.</blockquote>
+		<trn>служение, поклонение богу.</trn>
 	</card>
 	<card>
 		<k>ийбадаткана</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
 		<meta>редко</meta>
-		<blockquote>храм, молельня.</blockquote>
+		<trn>храм, молельня.</trn>
 	</card>
 	<card>
 		<k>ийбарат</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<sameas word="ибрет"/>
-				<blockquote>ийбарат ал- брать пример;</blockquote>
+				<blockquote>ийбарат ал@@брать пример;</blockquote>
 				<ex>
 					<source>залимдерден өчүңдү ал, ийбарат калсын артыңа стих.</source>
 					<target>отомсти тиранам, пусть останется после тебя поучительный пример;</target>
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>название мелодии.</blockquote>
+				<trn>название мелодии.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -761,26 +772,39 @@
 	</card>
 	<card>
 		<k>ийги</k>
+		<pos>adj</pos>
 		<meta>редко</meta>
-		<blockquote>хорошо; хороший; добро;</blockquote>
+		<trn>хорошо; хороший; добро;</trn>
 		<ex>
-			<source>атадан уул тууса, - ийги; ата жолун кууса, - ийги погов.</source>
-			<target>хорошо, когда у отца родится сын; хорошо, когда он следует отцу;</target>
+			<source>атадан уул тууса, - ийги; ата жолун кууса, - ийги</source>
+			<target>погов.хорошо, когда у отца родится сын; хорошо, когда он следует отцу;</target>
 		</ex>
-		<blockquote>түсү ийги или түрү ийги миловидный, симпатичный;</blockquote>
-		<blockquote>түсү ийги жигит көрүнөсүң ты, как посмотрю, симпатичный парень.</blockquote>
+		<ex>
+		<source>түсү ийги или түрү ийги</source>
+		<target> миловидный, симпатичный;</target>
+	</ex>
+	<ex>
+		<source>түсү ийги жигит көрүнөсүң</source>
+		<target>ты, как посмотрю, симпатичный парень.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийгиз-</k>
+		<pos>v</pos>
 		<caus word="ий" index="3"/>
-		<blockquote>баш ийгиз-</blockquote>
-		<blockquote>1) заставить склонить голову;</blockquote>
-		<blockquote>2) перен. подчинить, заставить подчиниться.</blockquote>
+		<minicard>баш ийгиз-</minicard>
+	<meaning>
+		<trn>1) заставить склонить голову;</trn>
+	</meaning>
+	<meaning>
+		<trn>2) перен. подчинить, заставить подчиниться.</trn>
+	</meaning>
 	</card>
 	<card>
 		<k>ийгилик</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>доброе дело;</blockquote>
+			<trn>доброе дело;</trn>
 			<ex>
 				<source>ийгиликтин эрте-кечи жок погов.</source>
 				<target>для доброго дела (никогда) ни рано ни поздно;</target>
@@ -791,94 +815,164 @@
 			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>продуктивность; успех, достижение;</blockquote>
-			<blockquote>ийгиликтерибиз наши достижения;</blockquote>
-			<blockquote>ийгилиги болбой жатат не клеится, ничего не выходит.</blockquote>
+			<trn>продуктивность; успех, достижение;</trn>
+		<ex>
+			<source>ийгиликтерибиз</source>
+			<target> наши достижения;</target>
+		</ex>
+		<ex>
+			<source>ийгилиги болбой жатат</source>
+			<target>не клеится, ничего не выходит.</target>
+		</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>ийгиликтүү</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>приносящий добро, пользу;</blockquote>
-			<blockquote>ийгиликтүү таасир благотворное влияние;</blockquote>
+			<trn>приносящий добро, пользу;</trn>
+		<ex>
+			<source>ийгиликтүү таасир</source>
+			<target>благотворное влияние;</target>
+		</ex>
 		</meaning>
 		<meaning>
-			<blockquote>успешный, плодотворный, продуктивный;</blockquote>
-			<blockquote>ийгиликтүү иш благое дело;</blockquote>
-			<blockquote>ишиң ийгиликтүү болсун! пусть процветает твоё дело!;</blockquote>
-			<blockquote>сапарыңар ийгиликтүү болсун! счастливого вам пути!;</blockquote>
-			<blockquote>ийгиликтүү түрдө успешно.</blockquote>
+			<trn>успешный, плодотворный, продуктивный;</trn>
+		<ex>
+			<source>ийгиликтүү иш </source>
+			<target>благое дело</target>
+		</ex>
+		<ex>
+			<source>ишиң ийгиликтүү болсун!</source>
+			<target>пусть процветает твоё дело!;</target>
+		</ex>
+		<ex>
+			<source>сапарыңар ийгиликтүү болсун!</source>
+			<target>счастливого вам пути!;</target>
+		</ex>
+		<ex>
+			<source>ийгиликтүү түрдө</source>
+			 <target>успешно.</target>
+		</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>ийди</k>
-		<blockquote>нож (для вырезания деревянной посуды и для подрезания копыт лошади при ковке);</blockquote>
-		<blockquote>ийди керки тесла (см. керки) с лезвием в виде желобка.</blockquote>
+		<pos>n</pos>
+		<trn>нож (для вырезания деревянной посуды и для подрезания копыт лошади при ковке);</trn>
+	<ex>
+		<source>ийди керки</source>
+		<target>тесла (см. керки) с лезвием в виде желобка.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийдиле-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>вырезать, выдалбливать (деревянную посуду);</blockquote>
-			<blockquote>туяк ийдиле- подрезать копыта (при ковке);</blockquote>
+			<trn>вырезать, выдалбливать (деревянную посуду);</trn>
+		<ex>
+			<source>туяк ийдиле</source>
+			<target>подрезать копыта (при ковке);</target>
+		</ex>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>шутл. сильно прослабить;</blockquote>
-			<blockquote>ичиңди ийдилеп кетти тебя здорово пронесло;</blockquote>
-			<blockquote>ийдилеп же- беззастенчиво грабить, обворовывать.</blockquote>
+			<trn>шутл. сильно прослабить;</trn>
+		<ex>
+			<source>ичиңди ийдилеп кетти</source> 
+			<target>тебя здорово пронесло;</target>
+		</ex>
+		<ex>
+			<source>ийдилеп же</source>
+			<target> беззастенчиво грабить, обворовывать.</target>
+		</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>ийдир-</k>
+		<pos>v</pos>
 		<caus word="ий" index="3"/>
-		<blockquote>баш ийдир-</blockquote>
-		<blockquote>1) заставить склонить голову;</blockquote>
-		<blockquote>2) перен. подчинить, заставить подчиниться;</blockquote>
-		<blockquote>туунун башын ийдир- склонить знамёна.</blockquote>
+		<minicard>баш ийдир-</minicard>
+	<meaning>
+		<trn>1) заставить склонить голову;</trn>
+	</meaning>
+	<meaning>
+		<trn>2) перен. подчинить, заставить подчиниться;</trn>
+	</meaning>
+		<blockquote>туунун башын ийдир@@склонить знамёна.</blockquote>
 	</card>
 	<card>
 		<k>ийдиш</k>
+		<pos>n</pos>
 		<sameas word="идиш"/>
 	</card>
 	<card>
 		<k>ийе</k>
+		<pos>ideo</pos>
 		<blockquote>ийе I, ийи</blockquote>
-		<blockquote>то же, что ооба да (утверждение);</blockquote>
-		<blockquote>ийи, андан кийин? да, ну а затем?</blockquote>
+		<blockquote>то же,что@@ооба да (утверждение);</blockquote>
+		<blockquote>ийи, андан кийин?@@да, ну а затем?</blockquote>
 		<blockquote>ийе II, ийи</blockquote>
 		<blockquote>южн.:</blockquote>
-		<blockquote>кимди ийи койсо, маңа баары бир кого бы ни поставили, мне всё равно;</blockquote>
-		<blockquote>кимди ийе (или ийи) койсо, өзүм тапшырам кого бы ни поставили, сдавать я буду сам.</blockquote>
+		<blockquote>кимди ийи койсо, маңа баары бир@@кого бы ни поставили, мне всё равно;</blockquote>
+		<blockquote>кимди ийе (или ийи) койсо, өзүм тапшырам@@кого бы ни поставили, сдавать я буду сам.</blockquote>
 	</card>
 	<card>
 		<k>ийзат</k>
+		<pos>n</pos>
 		<sameas word="изаат"/>
 	</card>
 	<card>
 		<k>ийзаттуу</k>
+		<pos>adj</pos>
 		<sameas word="изааттуу"/>
 	</card>
 	<card>
 		<k>ийи</k>
+		<pos>v</pos>
 		<blockquote>ийи I, II</blockquote>
 		<blockquote>см. ийе I, II.</blockquote>
 		<sameas word="ий" index="4"/>
-		<blockquote>ийибей калган не спустила молока (о корове, овце и т.п.).</blockquote>
+		<blockquote>ийибей калган@@не спустила молока (о корове, овце и т.п.).</blockquote>
 	</card>
 	<card>
 		<k>ийик</k>
-		<blockquote>веретено;</blockquote>
-		<blockquote>кол ийик маленькое веретено;</blockquote>
-		<blockquote>ийик ийир- прясть пряжу;</blockquote>
-		<blockquote>кол ийиктей послушный, исполнительный;</blockquote>
-		<blockquote>ийиктей имерил- или ийиктей чимирил-действовать расторопно, быстро (букв. вращаться, как веретено);</blockquote>
-		<blockquote>келиндер, ийиктей имерилип, Каныбектин айтканын орундатууда молодухи живо исполняют то, что говорит Каныбек;</blockquote>
-		<blockquote>ийик баш тяньш. то же, что томук I 1.</blockquote>
+		<pos>n</pos>
+		<trn>веретено;</trn>
+	<ex>
+		<source>кол ийик</source>
+		<target>маленькое веретено;</target>
+	</ex>
+	<ex>
+		<source>ийик ийир</source>
+		<target>прясть пряжу;</target>
+	</ex>
+	<ex>
+		<source>кол ийиктей</source>
+		<target>послушный, исполнительный;</target>
+	</ex>
+	<ex>
+		<source>ийиктей имерил или ийиктей чимирил</source>
+		<target>действовать расторопно, быстро (букв. вращаться, как веретено);</target>
+	</ex>
+	<ex>
+		<source>келиндер, ийиктей имерилип, Каныбектин айтканын орундатууда</source>
+		<target>молодухи живо исполняют то, что говорит Каныбек;</target>
+	</ex> 
+    <ex>
+		<source>ийик баш тяньш.</source>
+		<target>то же, что томук I 1.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийил-</k>
-		<refpass word="ий" index="3"/>
-		<blockquote>гнуться, сгибаться, склоняться;</blockquote>
+		<pos>v</pos>
+	<meaning>
+		<trn>возвр.- страд. от ий- III</trn>
+	</meaning>
+	<meaning>
+		<trn>гнуться, сгибаться, склоняться;</trn>
+	</meaning>
 		<ex>
 			<source>жаш чыбыктын ийилгени - сынганы, жаш жигиттин уялганы - өлгөнү погов.</source>
 			<target>согнулся молодой прутик - сломался, осрамился молодой парень - умер;</target>
@@ -894,106 +988,124 @@
 	</card>
 	<card>
 		<k>ийилиш-</k>
+		<pos>v</pos>
 		<recv word="ийил"/>
-		<blockquote>тура калышып, колдорун бооруна ала ийилишти они встали, (почтительно) скрестили руки на груди и склонились.</blockquote>
+		<blockquote>тура калышып, колдорун бооруна ала ийилишти@@они встали, (почтительно) скрестили руки на груди и склонились.</blockquote>
 	</card>
 	<card>
 		<k>ийилиштүү</k>
-		<blockquote>подчинённый, подвластный;</blockquote>
-		<blockquote>ийилиштүү болуп, айткан буйругунан чыкпаган (ему) были подвластны и его приказаний не ослушивались.</blockquote>
+		<pos>adj</pos>
+		<trn>подчинённый, подвластный;</trn>
+	<ex>
+		<source>ийилиштүү болуп, айткан буйругунан чыкпаган</source>
+		 <target>(ему) были подвластны и его приказаний не ослушивались.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийилт-</k>
+		<pos>v</pos>
 		<caus word="ийил"/>
-		<blockquote>шагын ийилтип турган анжир, анар, шабдалы гнут ветки инжир, гранаты, персики.</blockquote>
+	<ex>
+		<source>шагын ийилтип турган анжир, анар, шабдалы</source>
+		<target>гнут ветки инжир, гранаты, персики.</target>
+	</ex>
 	</card>
 	<card>
 		<k>ийилчээк</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>гибкий (легко гнущийся);</blockquote>
+			<trn>гибкий (легко гнущийся);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>слабый, неокрепший.</blockquote>
+			<trn>слабый, неокрепший.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ийин</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
-				<blockquote>плечо;</blockquote>
-				<blockquote>ийини или ийни его плечо;</blockquote>
-				<blockquote>мылтыкты бир ийнинен экинчи ийнине которо койду он переложил ружьё с одного плеча на другое;</blockquote>
-				<blockquote>ийнин куушуруп койду он пожал плечами;</blockquote>
+				<trn>плечо;</trn>
+				<blockquote>ийини или ийни@@его плечо;</blockquote>
+				<blockquote>мылтыкты бир ийнинен экинчи ийнине которо койду@@он переложил ружьё с одного плеча на другое;</blockquote>
+				<blockquote>ийнин куушуруп койду@@он пожал плечами;</blockquote>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
-				<blockquote>одежда;</blockquote>
-				<blockquote>ийиниңди тоздурба не доводи свою одежду до износа; не ходи оборванцем;</blockquote>
-				<blockquote>курсак тоюп, ийин бүтөлө баштады только-только стали сытыми и одетыми;</blockquote>
-				<blockquote>ак ийин или оролмо тоонун ак ийин охот. один из видов беркута;</blockquote>
-				<blockquote>ийини менен тынып дем алды он испуганно дышал;</blockquote>
-				<blockquote>ийин менен тынып, отуруп калды он растерялся, не мог ничего ответить;</blockquote>
-				<blockquote>ийин ич подоплёка рубахи;</blockquote>
-				<blockquote>ийин жыгач чуйск. коромысло (для переноски вёдер).</blockquote>
+				<trn>одежда;</trn>
+				<blockquote>ийиниңди тоздурба@@не доводи свою одежду до износа; не ходи оборванцем;</blockquote>
+				<blockquote>курсак тоюп, ийин бүтөлө баштады@@только-только стали сытыми и одетыми;</blockquote>
+				<blockquote>ак ийин или оролмо тоонун ак ийин@@охот. один из видов беркута;</blockquote>
+				<blockquote>ийини менен тынып дем алды@@он испуганно дышал;</blockquote>
+				<blockquote>ийин менен тынып, отуруп калды@@он растерялся, не мог ничего ответить;</blockquote>
+				<blockquote>ийин ич@@подоплёка рубахи;</blockquote>
+				<blockquote>ийин жыгач@@уйск. коромысло (для переноски вёдер).</blockquote>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>нора;</blockquote>
-			<blockquote>ийини или ийни его нора;</blockquote>
+			<trn>нора;</trn>
+			<blockquote>ийини или ийни@@его нора;</blockquote>
 			<ex>
-				<source>түлкү ийнин карап үрсө, котур болот погов.</source>
-				<target>если лиса лает, повернувшись к своей норе, она паршивеет (о человеке, который охаивает свой народ, свою родину);</target>
+				<source>түлкү ийнин карап үрсө, котур болот </source>
+				<target>погов.если лиса лает, повернувшись к своей норе, она паршивеет (о человеке, который охаивает свой народ, свою родину);</target>
 			</ex>
-			<blockquote>ичип-жеп, ийинге кирет загадка попив, поев, в нору входит (отгадка бычак, кын нож с ножнами);</blockquote>
-			<blockquote>барар жерим, батар ийиним жок у меня нет пристанища, нет прибежища (букв. нет места, куда бы я пошёл, нет норы, куда бы я вошёл).</blockquote>
+			<blockquote>ичип-жеп, ийинге кирет@@загадка попив, поев, в нору входит (отгадка бычак, кын нож с ножнами);</blockquote>
+			<blockquote>барар жерим, батар ийиним жок@@у меня нет пристанища, нет прибежища (букв. нет места, куда бы я пошёл, нет норы, куда бы я вошёл).</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>ийинде-</k>
-		<blockquote>взять на плечи;</blockquote>
-		<blockquote>чакаларын ийиндеп, сууга жөнөдү взяв на плечи вёдра (т.е. коромысло с вёдрами), она пошла по воду.</blockquote>
+		<pos>v</pos>
+		<trn>взять на плечи;</trn>
+		<blockquote>чакаларын ийиндеп, сууга жөнөдү@@взяв на плечи вёдра (т.е. коромысло с вёдрами), она пошла по воду.</blockquote>
 	</card>
 	<card>
 		<k>ийиндегич</k>
+		<pos>n</pos>
 		<meta>(или суу ийиндегич)</meta>
 		<meta>сев.</meta>
-		<blockquote>коромысло (для переноски вёдер).</blockquote>
+		<trn>коромысло (для переноски вёдер).</trn>
 	</card>
 	<card>
 		<k>ийинди</k>
-		<blockquote>остатки молока в вымени после доения;</blockquote>
-		<blockquote>күрөң уйдун музоосун агытып, кийинки ийиндисин эмизип жаткан эле она отпустила телёнка тёмно-рыжей коровы и подпустила, чтобы он досасывал.</blockquote>
+		<pos>n</pos>
+		<trn>остатки молока в вымени после доения;</trn>
+		<blockquote>күрөң уйдун музоосун агытып, кийинки ийиндисин эмизип жаткан эле@@ она отпустила телёнка тёмно-рыжей коровы и подпустила, чтобы он досасывал.</blockquote>
 	</card>
 	<card>
 		<k>ийиндүү</k>
+		<pos>adj</pos>
 		<homonym>
-			<blockquote>плечистый, широкоплечий.</blockquote>
+			<trn>плечистый, широкоплечий.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>изобилующий норами;</blockquote>
-			<blockquote>ийиндүү жер место, изрытое норами.</blockquote>
+			<trn>изобилующий норами;</trn>
+			<blockquote>ийиндүү жер@@ место, изрытое норами.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>ийиңки</k>
-		<blockquote>слегка изогнутый.</blockquote>
+		<pos>adj</pos>
+		<trn>слегка изогнутый.</trn>
 	</card>
 	<card>
 		<k>ийир</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="ийри" index="1"/>
-			<blockquote>ийрин жандырба или ийрисин жандырба согнутое не разгибай.</blockquote>
+			<blockquote>ийрин жандырба или ийрисин жандырба@@ согнутое не разгибай.</blockquote>
 		</homonym>
 		<homonym>
 			<blockquote>(деепр. ийирип, ийрип)</blockquote>
 			<meaning>
+			<pos>v</pos>
 				<blockquote>прясть, вить, сучить;</blockquote>
-				<blockquote>жүн ийир- прясть шерсть;</blockquote>
+				<blockquote>жүн ийир@@ прясть шерсть;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>сгонять в кучу, заворачивать (напр. свой косяк - о жеребце);</blockquote>
-				<blockquote>кой ийир- загнать овец в загон.</blockquote>
+				<trn>сгонять в кучу, заворачивать (напр. свой косяк - о жеребце);</trn>
+				<blockquote>кой ийир@@ загнать овец в загон.</blockquote>
 			</meaning>
 		</homonym>
 	</card>
