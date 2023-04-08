@@ -1,1 +1,1 @@
-saxon -xsl:playground.xsl -s:../letter_wip.xml -o:output.xml
+saxon -xsl:findWordsWithoutPos.xsl -s:../letter_wip.xml -o:output.xml
