@@ -1252,7 +1252,7 @@
 			<meta>(деепр. ийирип, ийрип)</meta>
 			<meaning>
 				<pos>v</pos>
-				<blockquote>прясть, вить, сучить;</blockquote>
+				<trn>прясть, вить, сучить;</trn>
 				<ex>
 					<source>жүн ийир</source>
 					<target>прясть шерсть;</target>
@@ -1560,8 +1560,12 @@
 	<card>
 		<k>ийн</k>
 		<pos>n</pos>
-		<blockquote>ийн I, II</blockquote>
-		<blockquote>см. ийин I, II.</blockquote>
+		<homonym>
+			<look word="ийн" index="1"/>
+		</homonym>
+		<homonym>
+			<look word="ийн" index="2"/>
+		</homonym>
 	</card>
 	<card>
 		<k>ийне</k>
@@ -2910,7 +2914,7 @@
 		<k>илимпоз</k>
 		<pos>n</pos>
 		<origin>ар.-ир.</origin>
-		<blockquote>(о человеке) учёный.</blockquote>
+		<trn>(о человеке) учёный.</trn>
 	</card>
 	<card>
 		<k>илин-</k>
@@ -3673,7 +3677,7 @@
 	</card>
 	<card>
 		<k>индивидуалисттик</k>
-		<blockquote>индивидуалистический.</blockquote>
+		<trn>индивидуалистический.</trn>
 	</card>
 	<card>
 		<k>индинге</k>
@@ -3777,7 +3781,7 @@
 	</card>
 	<card>
 		<k>иңир</k>
-		<blockquote>сумерки, ранний вечер;</blockquote>
+		<trn>сумерки, ранний вечер;</trn>
 		<ex>
 			<source>иңир жамынып</source>
 			<target>под прикрытием сумерек;</target>
@@ -3904,7 +3908,7 @@
 	<card>
 		<k>интенсивдүү</k>
 		<pos>adj</pos>
-		<blockquote>интенсивный;</blockquote>
+		<trn>интенсивный;</trn>
 		<ex>
 			<source>интенсивдүү турдө</source>
 			<target>интенсивно.</target>
@@ -3917,7 +3921,7 @@
 	</card>
 	<card>
 		<k>интенсификацияла-</k>
-		<blockquote>интенсифицировать.</blockquote>
+		<trn>интенсифицировать.</trn>
 	</card>
 	<card>
 		<k>интенсификациялоо</k>
@@ -3958,12 +3962,12 @@
 	</card>
 	<card>
 		<k>интернационалдаштыр-</k>
-		<blockquote>интернационализировать.</blockquote>
+		<trn>интернационализировать.</trn>
 	</card>
 	<card>
 		<k>интернационалдык</k>
 		<pos>adj</pos>
-		<blockquote>интернациональный.</blockquote>
+		<trn>интернациональный.</trn>
 	</card>
 	<card>
 		<k>интернационализм</k>
@@ -5816,7 +5820,7 @@
 				</minicard>
 			</meaning>
 			<meaning>
-				<blockquote>живот, брюхо; желудок;</blockquote>
+				<trn>живот, брюхо; желудок;</trn>
 				<ex>
 					<source>ичим ооруйт</source>
 					<target>у меня живот болит;</target>
@@ -6217,40 +6221,49 @@
 	<card>
 		<k>ичикче</k>
 		<pos>n</pos>
-		<blockquote>шубка, меховая куртка.</blockquote>
+		<trn>шубка, меховая куртка.</trn>
 	</card>
 	<card>
 		<k>ичил-</k>
 		<pos>v</pos>
 		<refpass word="ич" index="3"/>
-		<blockquote>чай ичилип бүткөндөн кийин после того, как попили чаю.</blockquote>
+		<ex>
+			<source>чай ичилип бүткөндөн кийин</source>
+			<target>после того, как попили чаю.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичилик</k>
 		<pos>n</pos>
 		<meaning>
-			<blockquote>подкладка (портновская);</blockquote>
+			<trn>подкладка (портновская);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>поднаряд (обуви).</blockquote>
+			<trn>поднаряд (обуви).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ичим</k>
 		<pos>n</pos>
-		<blockquote>ичим: бир ичим количество (жидкости), достаточное для того, чтобы один раз попить.</blockquote>
+		<minicard>
+			<k>бир ичим</k>
+			<trn>количество (жидкости), достаточное для того, чтобы один раз попить.</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>ичир-</k>
 		<pos>v</pos>
 		<caus word="ич" index="3"/>
-		<blockquote>заставлять пить; поить;</blockquote>
-		<blockquote>ичирип-жегиз- поить-кормить.</blockquote>
+		<trn>заставлять пить; поить;</trn>
+		<ex>
+			<source>ичирип-жегиз-</source>
+			<target>поить-кормить.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичиркен-</k>
 		<pos>v</pos>
-		<blockquote>вздрогнуть, невольно передёрнуться.</blockquote>
+		<trn>вздрогнуть, невольно передёрнуться.</trn>
 	</card>
 	<card>
 		<k>ичиркент-</k>
@@ -6260,16 +6273,19 @@
 			<source>кабыргаң жарып, ок тийсе, ичиркентпе этиңди фольк.</source>
 			<target>если (даже) пуля пробьёт тебе ребро, ты не дрогни телом;</target>
 		</ex>
-		<blockquote>Ыманбайдын бул кеби Касейинди ичиркентти эти слова Ыманбая очень неприятно подействовали на Касейина.</blockquote>
+		<ex>
+			<source>Ыманбайдын бул кеби Касейинди ичиркентти</source>
+			<target>эти слова Ыманбая очень неприятно подействовали на Касейина.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичиркентме</k>
 		<pos>n</pos>
 		<meaning>
-			<blockquote>дрожь, съёживание (от холода);</blockquote>
+			<trn>дрожь, съёживание (от холода);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>название болезни (видимо, нервной).</blockquote>
+			<trn>название болезни (видимо, нервной).</trn>
 		</meaning>
 	</card>
 	<card>
@@ -6277,7 +6293,7 @@
 		<pos>adj</pos>
 		<meta>(или ичиртки дуба)</meta>
 		<meta>этн.</meta>
-		<blockquote>знахарские магические надписи на чашке.</blockquote>
+		<trn>знахарские магические надписи на чашке.</trn>
 	</card>
 	<card>
 		<k>ичиш</k>
@@ -6287,49 +6303,70 @@
 		</homonym>
 		<homonym>
 			<recv word="ич" index="3"/>
-			<blockquote>совместно пить.</blockquote>
+			<trn>совместно пить.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>ичке</k>
 		<pos>adj</pos>
 		<meaning>
-			<blockquote>тонкий (противоп. жоон I; ср. жука);</blockquote>
+			<trn>тонкий (противоп. жоон I; ср. жука);</trn>
 			<ex>
 				<source>ичке жерден үзүлөт погов.</source>
 				<target>где тонко, там и рвётся;</target>
 			</ex>
-			<blockquote>ичке жол тропинка (по ущельям и ложбинам);</blockquote>
+			<ex>
+				<source>ичке жол</source>
+				<target>тропинка (по ущельям и ложбинам);</target>
+			</ex>
 			<ex>
 				<source>жаадай учуп Сарала ичке жолдоп, төтөлөп фольк.</source>
 				<target>стрелой летит (конь) Сарала тропинкой напрямик;</target>
 			</ex>
-			<blockquote>ип-ичке то же, что ипичке (см. ип);</blockquote>
+			<ex>
+				<source>ип-ичке</source>
+				<target>то же, что ипичке (см. ип);</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>тонко, тщательно;</blockquote>
-			<blockquote>ичке талдап очень тонко, тщательно отбирая или выбирая;</blockquote>
+			<trn>тонко, тщательно;</trn>
+			<ex>
+				<source>ичке талдап</source>
+				<target>очень тонко, тщательно отбирая или выбирая;</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<meta>лингв.</meta>
-			<blockquote>(о звуке) переднего ряда, палатальный, мягкий.</blockquote>
+			<trn>(о звуке) переднего ряда, палатальный, мягкий.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ичкеле-</k>
 		<pos>v</pos>
-		<blockquote>действовать тонко, дипломатично, осторожно, незаметно;</blockquote>
-		<blockquote>ичкелеп айт- сказать тонко, дипломатично;</blockquote>
-		<blockquote>ичкелеп билчи потихоньку разузнай-ка;</blockquote>
-		<blockquote>ичкелей басып осторожно ступая, незаметно идя.</blockquote>
+		<trn>действовать тонко, дипломатично, осторожно, незаметно;</trn>
+		<ex>
+			<source>ичкелеп айт-</source>
+			<target>сказать тонко, дипломатично;</target>
+		</ex>
+		<ex>
+			<source>ичкелеп билчи</source>
+			<target>потихоньку разузнай-ка;</target>
+		</ex>
+		<ex>
+			<source>ичкелей басып</source>
+			<target>осторожно ступая, незаметно идя.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичкелет-</k>
 		<pos>v</pos>
-		<blockquote>понуд. от ичкеле-,</blockquote>
+		<caus word="ичкеле"/>
 		<sameas word="ичкеле"/>
-		<blockquote>ичкелетип айт- сказать тонко, дипломатично.</blockquote>
+		<ex>
+			<source>ичкелетип айт-</source>
+			<target>сказать тонко, дипломатично.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичкелештир-</k>
@@ -6342,10 +6379,13 @@
 		<pos>adv</pos>
 		<homonym>
 			<sameas word="ичкери"/>
-			<blockquote>ичкер тарап внутренняя сторона (дома, двора).</blockquote>
+			<ex>
+				<source>ичкер тарап</source>
+				<target>внутренняя сторона (дома, двора).</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>утончаться, делаться тонким (противоп. жооной-).</blockquote>
+			<trn>утончаться, делаться тонким (противоп. жооной-).</trn>
 		</homonym>
 	</card>
 	<card>
@@ -6356,32 +6396,41 @@
 	<card>
 		<k>ичкерештир-</k>
 		<pos>v</pos>
-		<blockquote>ичкерештир-: от ичкерештир- поправлять огонь в очаге, подкладывая наверх оставшееся по краям недогоревшее топливо;</blockquote>
-		<blockquote>оң колу менен куурай ичкерештирип, оттун күйгөнүн тиктөөдө правой рукой поправляя (горящий) курай, он пристально смотрит на огонь.</blockquote>
+		<minicard>
+			<k>от ичкерештир-</k>
+			<trn>поправлять огонь в очаге, подкладывая наверх оставшееся по краям недогоревшее топливо;</trn>
+			<ex>
+				<source>оң колу менен куурай ичкерештирип, оттун күйгөнүн тиктөөдө</source>
+				<target>правой рукой поправляя (горящий) курай, он пристально смотрит на огонь.</target>
+			</ex>
+		</minicard>
 	</card>
 	<card>
 		<k>ичкери</k>
 		<pos>adv</pos>
 		<meaning>
-			<blockquote>внутрь, внутри;</blockquote>
+			<trn>внутрь, внутри;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
 			<meta>этн.</meta>
-			<blockquote>(в старом быту у узбеков и таджиков) внутренняя, женская половина дома.</blockquote>
+			<trn>(в старом быту у узбеков и таджиков) внутренняя, женская половина дома.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ичкерки</k>
 		<pos>adj</pos>
-		<blockquote>внутренний (находящийся внутри);</blockquote>
-		<blockquote>ичкерки үйдө во внутренних комнатах.</blockquote>
+		<trn>внутренний (находящийся внутри);</trn>
+		<ex>
+			<source>ичкерки үйдө</source>
+			<target>во внутренних комнатах.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ичкерт-</k>
 		<pos>v</pos>
 		<caus word="ичкер" index="2"/>
-		<blockquote>утончать, делать тонким.</blockquote>
+		<trn>утончать, делать тонким.</trn>
 	</card>
 	<card>
 		<k>ичкертил-</k>
@@ -6458,7 +6507,7 @@
 				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>пьянство;</blockquote>
+				<trn>пьянство;</trn>
 				<ex>
 					<source>ичкиликке берилип</source>
 					<target>предавшись пьянству.</target>
@@ -6895,7 +6944,7 @@
 	<card>
 		<k>ишкана</k>
 		<pos>n</pos>
-		<blockquote>кирг.-ир.</blockquote>
+		<origin>кирг.-ир.</origin>
 		<trn>мастерская; предприятие.</trn>
 	</card>
 	<card>
@@ -6914,7 +6963,7 @@
 	<card>
 		<k>ишкер</k>
 		<pos>n</pos>
-		<blockquote>кирг.-ир.</blockquote>
+		<origin>кирг.-ир.</origin>
 		<meaning>
 			<trn>деятельный, активный, энергичный;</trn>
 			<ex>
@@ -7008,7 +7057,7 @@
 	<card>
 		<k>ишмекер</k>
 		<pos>n</pos>
-		<blockquote>кирг.-ир.</blockquote>
+		<origin>кирг.-ир.</origin>
 		<meaning>
 			<trn>мастер (ремесленник);</trn>
 		</meaning>
@@ -7073,7 +7122,7 @@
 	<card>
 		<k>иштерман</k>
 		<pos>n</pos>
-		<blockquote>работяга; трудолюбивый.</blockquote>
+		<trn>работяга; трудолюбивый.</trn>
 	</card>
 	<card>
 		<k>иштермен</k>
