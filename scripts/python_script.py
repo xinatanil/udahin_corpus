@@ -90,7 +90,7 @@ with open(inputFilename, 'r' ) as f:
 #            <source>радиолошкон райондор</source>
 #            <target>радиофицированные районы</target>
 #        </ex>
-    content_new = re.sub('<blockquote>(.+)@@ (.+.)</blockquote>', r'<ex><source>\1</source>\n<target>\2</target></ex>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>(.+)@@ ?(.+.)</blockquote>', r'<ex><source>\1</source>\n<target>\2</target></ex>', content_new, flags = re.M)
     
 # <blockquote>адамдан заты бир бөлөк фольк. он лучший из людей (букв. его сущность особая от людей);</blockquote>
 # <blockquote>зордун түбү кор болот погов. конец насилия - позор (насилием доброго имени не заслужишь);</blockquote>
