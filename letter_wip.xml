@@ -3884,24 +3884,35 @@
 	</card>
 	<card>
 		<k>инструкция</k>
+		<pos>n</pos>
 		<trn>инструкция</trn>
 	</card>
 	<card>
 		<k>интеллигент</k>
+		<pos>n</pos>
 		<trn>интеллигент</trn>
-		<blockquote>интеллигенттер интеллигенты, интеллигенция.</blockquote>
+		<ex>
+			<source>интеллигенттер</source>
+			<target>интеллигенты, интеллигенция.</target>
+		</ex>
 	</card>
 	<card>
 		<k>интеллигенция</k>
+		<pos>n</pos>
 		<trn>интеллигенция</trn>
 	</card>
 	<card>
 		<k>интенсивдүү</k>
+		<pos>adj</pos>
 		<blockquote>интенсивный;</blockquote>
-		<blockquote>интенсивдүү турдө интенсивно.</blockquote>
+		<ex>
+			<source>интенсивдүү турдө</source>
+			<target>интенсивно.</target>
+		</ex>
 	</card>
 	<card>
 		<k>интенсификация</k>
+		<pos>n</pos>
 		<trn>интенсификация</trn>
 	</card>
 	<card>
@@ -3911,29 +3922,39 @@
 	<card>
 		<k>интенсификациялоо</k>
 		<actionNoun word="интенсификацияла"/>
-		<blockquote>интенсифицирование, интенсификация;</blockquote>
-		<blockquote>айыл чарба өндүрүшүн интенсификациялоо интенсификация сельскохозяйственного производства.</blockquote>
+		<trn>интенсифицирование, интенсификация;</trn>
+		<ex>
+			<source>айыл чарба өндүрүшүн интенсификациялоо</source>
+			<target>интенсификация сельскохозяйственного производства.</target>
+		</ex>
 	</card>
 	<card>
 		<k>интервент</k>
+		<pos>n</pos>
 		<trn>интервент</trn>
 	</card>
 	<card>
 		<k>интервенция</k>
+		<pos>n</pos>
 		<trn>интервенция</trn>
 	</card>
 	<card>
 		<k>интервью</k>
+		<pos>n</pos>
 		<trn>интервью</trn>
 	</card>
 	<card>
 		<k>интернат</k>
+		<pos>n</pos>
 		<trn>интернат</trn>
 	</card>
 	<card>
 		<k>интернационал</k>
 		<trn>интернационал</trn>
-		<blockquote>Коммунисттик Интернационал Коммунистический Интернационал.</blockquote>
+		<ex>
+			<source>Коммунисттик Интернационал</source>
+			<target>Коммунистический Интернационал.</target>
+		</ex>
 	</card>
 	<card>
 		<k>интернационалдаштыр-</k>
@@ -3941,61 +3962,82 @@
 	</card>
 	<card>
 		<k>интернационалдык</k>
+		<pos>adj</pos>
 		<blockquote>интернациональный.</blockquote>
 	</card>
 	<card>
 		<k>интернационализм</k>
+		<pos>n</pos>
 		<trn>интернационализм</trn>
 	</card>
 	<card>
 		<k>интернационалист</k>
+		<pos>n</pos>
 		<trn>интернационалист</trn>
 	</card>
 	<card>
 		<k>интизар</k>
 		<origin>ар.</origin>
-		<blockquote>страстно желающий;</blockquote>
+		<trn>страстно желающий;</trn>
 		<ex>
 			<source>бала үчүн жүрөм интизар фольк.</source>
 			<target>я страстно желаю ребёнка;</target>
 		</ex>
-		<blockquote>сени көрүүгө интизармын я очень хочу тебя видеть.</blockquote>
+		<ex>
+			<source>сени көрүүгө интизармын</source>
+			<target>я очень хочу тебя видеть.</target>
+		</ex>
 	</card>
 	<card>
 		<k>интонация</k>
+		<pos>n</pos>
 		<trn>интонация</trn>
 	</card>
 	<card>
 		<k>инфекция</k>
+		<pos>n</pos>
 		<trn>инфекция</trn>
 	</card>
 	<card>
 		<k>инфекциялык</k>
-		<blockquote>инфекционный;</blockquote>
-		<blockquote>инфекциялык оорулар инфекционные заболевания;</blockquote>
-		<blockquote>инфекциялык оорукана инфекционная больница.</blockquote>
+		<pos>adj</pos>
+		<trn>инфекционный;</trn>
+		<ex>
+			<source>инфекциялык оорулар</source>
+			<target>инфекционные заболевания;</target>
+		</ex>
+		<ex>
+			<source>инфекциялык оорукана</source>
+			<target>инфекционная больница.</target>
+		</ex>
 	</card>
 	<card>
 		<k>инфляция</k>
+		<pos>n</pos>
 		<trn>инфляция</trn>
 	</card>
 	<card>
 		<k>информатор</k>
+		<pos>n</pos>
 		<trn>информатор</trn>
 	</card>
 	<card>
 		<k>информация</k>
+		<pos>n</pos>
 		<trn>информация</trn>
 	</card>
 	<card>
 		<k>информациялык</k>
-		<blockquote>информационный;</blockquote>
-		<blockquote>информациялык билдирүү информационное сообщение.</blockquote>
+		<trn>информационный;</trn>
+		<ex>
+			<source>информациялык билдирүү</source>
+			<target>информационное сообщение.</target>
+		</ex>
 	</card>
 	<card>
 		<k>иншаалла</k>
 		<origin>ар.</origin>
-		<blockquote>(в речи старшего поколения) если угодно аллаху, если бог даст.</blockquote>
+		<trn>(в речи старшего поколения) если угодно аллаху, если бог даст.</trn>
 	</card>
 	<card>
 		<k>иншахалла</k>
@@ -4003,9 +4045,15 @@
 	</card>
 	<card>
 		<k>ип</k>
-		<blockquote>усиление к словам, начинающимся на и;</blockquote>
-		<blockquote>ипичке тонкий-претонкий, тонюсенький;</blockquote>
-		<blockquote>ипичке сым тоненькая проволока.</blockquote>
+		<trn>усиление к словам, начинающимся на и;</trn>
+		<ex>
+			<source>ипичке</source>
+			<target>тонкий-претонкий, тонюсенький;</target>
+		</ex>
+		<ex>
+			<source>ипичке сым</source>
+			<target>тоненькая проволока.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ипеп</k>
