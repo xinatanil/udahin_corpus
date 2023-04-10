@@ -316,6 +316,7 @@
 	</card>
 	<card>
 		<k>ижират</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>хиджра (начало мусульманского летосчисления - с 16 июля 622 г. н. э.).</trn>
 	</card>
@@ -1545,6 +1546,7 @@
 	</card>
 	<card>
 		<k>иймент-</k>
+		<pos>v</pos>
 		<caus word="иймен"/>
 		<trn>устыдить, вызвать чувство неловкости, нерешительности, замешательства.</trn>
 	</card>
@@ -1643,6 +1645,7 @@
 	</card>
 	<card>
 		<k>ийнелик</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>стрекоза;</trn>
 		</meaning>
@@ -2242,6 +2245,7 @@
 	</card>
 	<card>
 		<k>илгертеден</k>
+		<pos>adv</pos>
 		<trn>издавна, исстари, с давних пор;</trn>
 		<ex>
 			<source>илгертеден болгон</source>
@@ -2975,9 +2979,11 @@
 	<card>
 		<k>илиниш</k>
 		<homonym>
+			<pos>ger</pos>
 			<actionNoun word="илин"/>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<recv word="илин"/>
 		</homonym>
 	</card>
@@ -3171,6 +3177,7 @@
 	</card>
 	<card>
 		<k>илмеңдет-</k>
+		<pos>v</pos>
 		<caus word="илмеңде"/>
 		<ex>
 			<source>ийнесин илмеңдете сайып</source>
@@ -3179,6 +3186,7 @@
 	</card>
 	<card>
 		<k>илмеңдеш-</k>
+		<pos>v</pos>
 		<recv word="илмеңде"/>
 	</card>
 	<card>
@@ -3669,14 +3677,17 @@
 	</card>
 	<card>
 		<k>индивидуализм</k>
+		<pos>n</pos>
 		<trn>индивидуализм</trn>
 	</card>
 	<card>
 		<k>индивидуалист</k>
+		<pos>n</pos>
 		<trn>индивидуалист</trn>
 	</card>
 	<card>
 		<k>индивидуалисттик</k>
+		<pos>adv</pos>
 		<trn>индивидуалистический.</trn>
 	</card>
 	<card>
@@ -3686,6 +3697,7 @@
 	</card>
 	<card>
 		<k>индустриалдуу</k>
+		<pos>adv</pos>
 		<trn>индустриальный;</trn>
 		<ex>
 			<source>индустриалдуу агрардуу өлкө</source>
@@ -3694,19 +3706,23 @@
 	</card>
 	<card>
 		<k>индустриализация</k>
+		<pos>n</pos>
 		<trn>индустриализация</trn>
 	</card>
 	<card>
 		<k>индустриализациялаштыр-</k>
+		<pos>v</pos>
 		<sameas word="индустриялаштыр"/>
 	</card>
 	<card>
 		<k>индустриализациялаштыруу</k>
+		<pos>ger</pos>
 		<actionNoun word="индустриализациялаштыр"/>
 		<trn>индустриализация (как процесс).</trn>
 	</card>
 	<card>
 		<k>индустрия</k>
+		<pos>n</pos>
 		<trn>индустрия</trn>
 		<ex>
 			<source>оор индустрия</source>
@@ -3715,6 +3731,7 @@
 	</card>
 	<card>
 		<k>индустриялаштыр-</k>
+		<pos>v</pos>
 		<trn>индустриализировать.</trn>
 	</card>
 	<card>
@@ -3724,6 +3741,7 @@
 	</card>
 	<card>
 		<k>инек</k>
+		<pos>n</pos>
 		<meta>(в некоторых местах)</meta>
 		<sameas word="уй"/>
 		<ex>
@@ -3741,10 +3759,12 @@
 	</card>
 	<card>
 		<k>инженер</k>
+		<pos>n</pos>
 		<trn>инженер</trn>
 	</card>
 	<card>
 		<k>инжу</k>
+		<pos>n</pos>
 		<origin>кит.</origin>
 		<trn>жемчуг;</trn>
 		<ex>
@@ -3754,6 +3774,7 @@
 	</card>
 	<card>
 		<k>ини</k>
+		<pos>n</pos>
 		<meaning>
 			<trn>младший брат;</trn>
 		</meaning>
@@ -3773,6 +3794,7 @@
 	</card>
 	<card>
 		<k>инилик</k>
+		<pos>n</pos>
 		<abstract word="ини"/>
 		<ex>
 			<source>акы берсең, буудай бер; иниликке санасаң, ичке күдүк кылбай бер фольк.</source>
@@ -3781,6 +3803,7 @@
 	</card>
 	<card>
 		<k>иңир</k>
+		<pos>n</pos>
 		<trn>сумерки, ранний вечер;</trn>
 		<ex>
 			<source>иңир жамынып</source>
@@ -3809,23 +3832,28 @@
 	</card>
 	<card>
 		<k>иңирттел-</k>
+		<pos>v</pos>
 		<trn>темнеться вдали; виднеться туманно, неясно.</trn>
 	</card>
 	<card>
 		<k>инициатива</k>
+		<pos>n</pos>
 		<trn>инициатива</trn>
 	</card>
 	<card>
 		<k>инициатор</k>
+		<pos>n</pos>
 		<trn>инициатор</trn>
 	</card>
 	<card>
 		<k>иничек</k>
+		<pos>n</pos>
 		<meta>уменьш.-ласк. от ини</meta>
 		<trn>братишка.</trn>
 	</card>
 	<card>
 		<k>инкеналда</k>
+		<pos>adv</pos>
 		<meta>сев.</meta>
 		<trn>много, обильно;</trn>
 		<ex>
@@ -3835,14 +3863,17 @@
 	</card>
 	<card>
 		<k>инкубатор</k>
+		<pos>n</pos>
 		<trn>инкубатор</trn>
 	</card>
 	<card>
 		<k>инкубация</k>
+		<pos>n</pos>
 		<trn>инкубация</trn>
 	</card>
 	<card>
 		<k>инспектор</k>
+		<pos>n</pos>
 		<trn>инспектор</trn>
 		<ex>
 			<source>эл агартуу бөлүмүнүн инспектору</source>
@@ -3851,6 +3882,7 @@
 	</card>
 	<card>
 		<k>инспекция</k>
+		<pos>n</pos>
 		<trn>инспекция</trn>
 		<ex>
 			<source>жумушчу-дыйкан инспекциясы ист.</source>
@@ -3859,6 +3891,7 @@
 	</card>
 	<card>
 		<k>институт</k>
+		<pos>n</pos>
 		<trn>институт</trn>
 		<ex>
 			<source>педагогиялык институт</source>
@@ -3867,14 +3900,17 @@
 	</card>
 	<card>
 		<k>инструктаж</k>
+		<pos>n</pos>
 		<trn>инструктаж</trn>
 	</card>
 	<card>
 		<k>инструктор</k>
+		<pos>n</pos>
 		<trn>инструктор.</trn>
 	</card>
 	<card>
 		<k>инструкторлук</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>инструкторский;</trn>
 			<ex>
@@ -3921,10 +3957,12 @@
 	</card>
 	<card>
 		<k>интенсификацияла-</k>
+		<pos>v</pos>
 		<trn>интенсифицировать.</trn>
 	</card>
 	<card>
 		<k>интенсификациялоо</k>
+		<pos>ger</pos>
 		<actionNoun word="интенсификацияла"/>
 		<trn>интенсифицирование, интенсификация;</trn>
 		<ex>
@@ -3954,6 +3992,7 @@
 	</card>
 	<card>
 		<k>интернационал</k>
+		<pos>n</pos>
 		<trn>интернационал</trn>
 		<ex>
 			<source>Коммунисттик Интернационал</source>
@@ -3962,6 +4001,7 @@
 	</card>
 	<card>
 		<k>интернационалдаштыр-</k>
+		<pos>v</pos>
 		<trn>интернационализировать.</trn>
 	</card>
 	<card>
@@ -3981,6 +4021,7 @@
 	</card>
 	<card>
 		<k>интизар</k>
+		<pos>adj</pos>
 		<origin>ар.</origin>
 		<trn>страстно желающий;</trn>
 		<ex>
@@ -4032,6 +4073,7 @@
 	</card>
 	<card>
 		<k>информациялык</k>
+		<pos>adj</pos>
 		<trn>информационный;</trn>
 		<ex>
 			<source>информациялык билдирүү</source>
@@ -4049,6 +4091,7 @@
 	</card>
 	<card>
 		<k>ип</k>
+		<pos>adj</pos>
 		<trn>усиление к словам, начинающимся на и;</trn>
 		<ex>
 			<source>ипичке</source>
@@ -4069,6 +4112,7 @@
 	</card>
 	<card>
 		<k>ир</k>
+		<pos>adv</pos>
 		<homonym>
 			<minicard>
 				<k>ири</k>
@@ -4128,6 +4172,7 @@
 	</card>
 	<card>
 		<k>Ирбит</k>
+		<pos>adj</pos>
 		<meta>(от г. Ирбит, Ирбитская ярмарка)</meta>
 		<ex>
 			<source>базардын Ирбит кезинде</source>
@@ -4140,6 +4185,7 @@
 	</card>
 	<card>
 		<k>ирге</k>
+		<pos>v</pos>
 		<homonym>
 			<look word="иреге"/>
 		</homonym>
@@ -4149,6 +4195,7 @@
 	</card>
 	<card>
 		<k>иргел-</k>
+		<pos>v</pos>
 		<pass word="ирге" index="2"/>
 		<ex>
 			<source>иргелип, майдасы калды</source>
@@ -4166,14 +4213,17 @@
 	<card>
 		<k>иргелеш</k>
 		<homonym>
+			<pos>n</pos>
 			<sameas word="ирегелеш" index="1"/>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<sameas word="ирегелеш" index="2"/>
 		</homonym>
 	</card>
 	<card>
 		<k>иргил-</k>
+		<pos>adv</pos>
 		<trn>быть предупредительным; быть послушным;</trn>
 		<ex>
 			<source>айтсам эле, иргилип эле тура калды</source>
@@ -4182,6 +4232,7 @@
 	</card>
 	<card>
 		<k>иргилт-</k>
+		<pos>v</pos>
 		<ex>
 			<source>көздүн жашын иргилтип</source>
 			<target>проливая слёзы.</target>
@@ -4189,6 +4240,7 @@
 	</card>
 	<card>
 		<k>иргит-</k>
+		<pos>adv</pos>
 		<meta>только с отриц.</meta>
 		<ex>
 			<source>иргитпей</source>
@@ -4205,6 +4257,7 @@
 	</card>
 	<card>
 		<k>ирде</k>
+		<pos>v</pos>
 		<homonym>
 			<look word="ир" index="1"/>
 		</homonym>
@@ -4214,6 +4267,7 @@
 	</card>
 	<card>
 		<k>ирден-</k>
+		<pos>v</pos>
 		<refv word="ирде" index="2"/>
 		<meaning>
 			<trn>увеличиваться (в размерах, в объёме), становиться крупным, укрупняться;</trn>
@@ -4237,6 +4291,7 @@
 	</card>
 	<card>
 		<k>ирдент-</k>
+		<pos>v</pos>
 		<caus word="ирден" subindex="2"/>
 		<trn>поставить на ноги, помочь поправить своё материальное положение;</trn>
 		<ex>
@@ -4246,6 +4301,7 @@
 	</card>
 	<card>
 		<k>ирдүү</k>
+		<pos>adj</pos>
 		<sameas word="ири" index="1"/>
 		<minicard>
 			<k>ирдүүлөрү</k>
@@ -4264,6 +4320,7 @@
 	</card>
 	<card>
 		<k>ире</k>
+		<pos>adv</pos>
 		<ex>
 			<source>ире-шире</source>
 			<target>сумерки, начало вечерней темноты;</target>
@@ -4285,6 +4342,7 @@
 	</card>
 	<card>
 		<k>иреге</k>
+		<pos>n</pos>
 		<trn>место у порога (в юрте это место отводилось для менее почётных людей);</trn>
 		<ex>
 			<source>иреге тарапка барып, отура кетти</source>
@@ -4310,6 +4368,7 @@
 	<card>
 		<k>ирегелеш</k>
 		<homonym>
+			<pos>n</pos>
 			<trn>живущий с кем-л. порог к порогу; близкий сосед; сопредельный;</trn>
 			<ex>
 				<source>ирегелеш кон-</source>
@@ -4317,6 +4376,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<trn>водиться, водить дружбу с кем-л.</trn>
 		</homonym>
 	</card>
@@ -4333,6 +4393,7 @@
 	</card>
 	<card>
 		<k>ирел</k>
+		<pos>n</pos>
 		<origin>англ. через уйг.</origin>
 		<meta>южн.</meta>
 		<meta>уст.</meta>
@@ -4340,6 +4401,7 @@
 	</card>
 	<card>
 		<k>ирең</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<sameas word="ыраң"/>
@@ -4398,6 +4460,7 @@
 	</card>
 	<card>
 		<k>иреңден-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>принять окраску, иметь вид кого-чего-л.;</trn>
 		</meaning>
@@ -4411,6 +4474,7 @@
 	</card>
 	<card>
 		<k>иренжи-</k>
+		<pos>v</pos>
 		<origin>ир.-кирг.</origin>
 		<trn>огорчаться;</trn>
 		<ex>
@@ -4420,6 +4484,7 @@
 	</card>
 	<card>
 		<k>иренжит-</k>
+		<pos>v</pos>
 		<caus word="иренжи"/>
 		<trn>огорчить;</trn>
 		<ex>
@@ -4434,9 +4499,11 @@
 	<card>
 		<k>иренжиш</k>
 		<homonym>
+			<pos>ger</pos>
 			<actionNoun word="иренжи"/>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<recv word="иренжи"/>
 		</homonym>
 	</card>
@@ -4447,6 +4514,7 @@
 	</card>
 	<card>
 		<k>ирет</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meaning>
 			<trn>ряд, порядок;</trn>
@@ -4523,14 +4591,17 @@
 	</card>
 	<card>
 		<k>иретсиз</k>
+		<pos>adv</pos>
 		<trn>в беспорядке, беспорядочно; перен. бестолково.</trn>
 	</card>
 	<card>
 		<k>иретсиздик</k>
+		<pos>n</pos>
 		<trn>беспорядок; перен. бестолковость.</trn>
 	</card>
 	<card>
 		<k>иретте-</k>
+		<pos>v</pos>
 		<trn>приводить в порядок, наводить порядок, ставить или складывать по порядку;</trn>
 		<ex>
 			<source>китептерди иреттеп кой</source>
@@ -4543,15 +4614,18 @@
 	</card>
 	<card>
 		<k>иреттел-</k>
+		<pos>v</pos>
 		<refpass word="иретте"/>
 		<trn>быть приводимым в порядок, упорядочиваться.</trn>
 	</card>
 	<card>
 		<k>иреттелүү</k>
+		<pos>ger</pos>
 		<actionNoun word="иреттел"/>
 	</card>
 	<card>
 		<k>иреттеш-</k>
+		<pos>v</pos>
 		<recv word="иретте"/>
 		<meaning>
 			<trn>действовать по очереди, заменять друг друга по очереди;</trn>
@@ -4562,19 +4636,23 @@
 	</card>
 	<card>
 		<k>иреттештир-</k>
+		<pos>v</pos>
 		<caus word="иреттеш"/>
 		<trn>приводить в порядок, расставлять по порядку.</trn>
 	</card>
 	<card>
 		<k>иреттештирүү</k>
+		<pos>ger</pos>
 		<actionNoun word="иреттештир"/>
 	</card>
 	<card>
 		<k>иреттешүү</k>
+		<pos>ger</pos>
 		<actionNoun word="иреттеш"/>
 	</card>
 	<card>
 		<k>иреттик</k>
+		<pos>adj</pos>
 		<trn>порядковый;</trn>
 		<ex>
 			<source>иреттик сан атооч грам.</source>
@@ -4583,10 +4661,12 @@
 	</card>
 	<card>
 		<k>иреттөө</k>
+		<pos>ger</pos>
 		<actionNoun word="иретте"/>
 	</card>
 	<card>
 		<k>ири</k>
+		<pos>adj</pos>
 		<homonym>
 			<trn>крупный;</trn>
 			<ex>
@@ -4611,6 +4691,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<trn>(о молоке) прокиснуть, свернуться;</trn>
 				<ex>
 					<source>кымыз ириди</source>
@@ -4629,6 +4710,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>v</pos>
 				<meta>перен.</meta>
 				<trn>разлагаться, деморализоваться;</trn>
 				<ex>
@@ -4648,6 +4730,7 @@
 	</card>
 	<card>
 		<k>ирик</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>трёхлетний валух;</trn>
 			<ex>
@@ -4664,6 +4747,7 @@
 	</card>
 	<card>
 		<k>ирикте-</k>
+		<pos>v</pos>
 		<trn>выбирать крупное.</trn>
 	</card>
 	<card>
@@ -4672,6 +4756,7 @@
 	</card>
 	<card>
 		<k>ирилен-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>становиться крупным, укрупняться;</trn>
 		</meaning>
@@ -4682,6 +4767,7 @@
 	</card>
 	<card>
 		<k>ирилениш</k>
+		<pos>ger</pos>
 		<actionNoun word="ирилен"/>
 		<ex>
 			<source>өнөр жайлардын ирилениши</source>
@@ -4690,6 +4776,7 @@
 	</card>
 	<card>
 		<k>ирилент-</k>
+		<pos>v</pos>
 		<caus word="ирилен"/>
 		<trn>укрупнять.</trn>
 	</card>
@@ -4703,14 +4790,17 @@
 	</card>
 	<card>
 		<k>ирилет-</k>
+		<pos>v</pos>
 		<trn>укрупнять.</trn>
 	</card>
 	<card>
 		<k>ирилетүү</k>
+		<pos>ger</pos>
 		<actionNoun word="ирилет"/>
 	</card>
 	<card>
 		<k>ирилеш-</k>
+		<pos>v</pos>
 		<trn>становиться более крупным, укрупняться;</trn>
 		<ex>
 			<source>ирилешкен чарба</source>
@@ -4719,11 +4809,13 @@
 	</card>
 	<card>
 		<k>ирилештир-</k>
+		<pos>v</pos>
 		<caus word="ирилеш"/>
 		<trn>укрупнять.</trn>
 	</card>
 	<card>
 		<k>ирилештирил-</k>
+		<pos>v</pos>
 		<pass word="ирилештир"/>
 		<trn>укрупняться;</trn>
 		<ex>
@@ -4733,6 +4825,7 @@
 	</card>
 	<card>
 		<k>ирим</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>пучина, омут;</trn>
@@ -4758,10 +4851,12 @@
 	</card>
 	<card>
 		<k>иримчик</k>
+		<pos>n</pos>
 		<trn>сыр домашнего приготовления (из кипячёного молока).</trn>
 	</card>
 	<card>
 		<k>иримчил</k>
+		<pos>adj</pos>
 		<trn>тот, кого тянет к пучине, водовороту, заводи;</trn>
 		<ex>
 			<source>балык иримчил погов.</source>
@@ -5126,6 +5221,7 @@
 	</card>
 	<card>
 		<k>искек</k>
+		<pos>n</pos>
 		<meta>этн.</meta>
 		<trn>пинцет, щипчики (для выщипывания растительности на лице или на половых органах);</trn>
 		<ex>
