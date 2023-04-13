@@ -4464,9 +4464,16 @@
 		</meaning>
 		<meaning>
 			<blockquote>черёд, очередь (в играх);</blockquote>
-			<blockquote>ал өнөгүн алдырбайт</blockquote>
-			<blockquote>1) он свой черёд никому не уступит;</blockquote>
-			<blockquote>2) перен. он (никому) спуску не даст; он своего не упустит;</blockquote>
+			<minicard>
+				<k>ал өнөгүн алдырбайт</k>
+				<meaning>
+					<trn>он свой черёд никому не уступит;</trn>
+				</meaning>
+				<meaning>
+					<meta>перен.</meta>
+					<trn>он (никому) спуску не даст; он своего не упустит;</trn>
+				</meaning>
+			</minicard>
 			<blockquote>өнөгүңдү душманга алдырба не поддавайся врагу;</blockquote>
 			<blockquote>өнөгүн жанга бербеген неподатливый; тот, кто не даёт себя в обиду;</blockquote>
 			<blockquote>өнөгүн жоого бербеген тот, кто не спустит врагу;</blockquote>
@@ -4693,24 +4700,48 @@
 			<blockquote>өлкө туш как раз против;</blockquote>
 			<blockquote>Калыбектин үйүнүн өпкө тушунан өтүл бара жатып, үй жагына бурулуп бир карады эле проезжая против дома Калыбека, он обернулся в сторону дома и взглянул;</blockquote>
 			<blockquote>өпкө-жүрөгүн тиштеп (он) бесстрашно, презирая смерть (напр. пошёл на врага);</blockquote>
-			<blockquote>өпкөсү жок</blockquote>
-			<blockquote>1) слабый, бессильный;</blockquote>
-			<blockquote>2) глупый, недалёкий;</blockquote>
+			<minicard>
+				<k>өпкөсү жок</k>
+				<meaning>
+					<trn>слабый, бессильный;</trn>
+				</meaning>
+				<meaning>
+					<trn>глупый, недалёкий;</trn>
+				</meaning>
+			</minicard>
 			<blockquote>өпкөсү оозуна келди (у него) дух занимается;</blockquote>
 			<blockquote>жел өпкө хвастун, пустозвон;</blockquote>
 			<blockquote>жел толгон эле өпкө (о человеке) напыщенный и пустой;</blockquote>
 			<blockquote>ала өпкө грубо самонадеянный;</blockquote>
-			<blockquote>кара өпкө</blockquote>
-			<blockquote>1) повальная болезнь, чума коз;</blockquote>
-			<blockquote>2) проклятие по адресу коз;</blockquote>
+			<minicard>
+				<k>кара өпкө</k>
+				<meaning>
+					<trn>повальная болезнь, чума коз;</trn>
+				</meaning>
+				<meaning>
+					<trn>проклятие по адресу коз;</trn>
+				</meaning>
+			</minicard>
 			<blockquote>ак өпкө название болезни лёгких;</blockquote>
 			<blockquote>жоон өпкө важничающий;</blockquote>
-			<blockquote>өлкөсү көөп калыптыр</blockquote>
-			<blockquote>1) (о ребёнке) он взахлёб плачет;</blockquote>
-			<blockquote>2) он очень возбуждён, он горячится;</blockquote>
-			<blockquote>өлкөсү ичине батпайт</blockquote>
-			<blockquote>1) он плачет с захлёбом;</blockquote>
-			<blockquote>2) он очень обиделся;</blockquote>
+			<minicard>
+				<k>өлкөсү көөп калыптыр</k>
+				<meaning>
+					<trn>(о ребёнке) он взахлёб плачет;</trn>
+				</meaning>
+				<meaning>
+					<trn>он очень возбуждён, он горячится;</trn>
+				</meaning>
+			</minicard>
+			<minicard>
+				<k>өлкөсү ичине батпайт</k>
+				<meaning>
+					<trn>он плачет с захлёбом;</trn>
+				</meaning>
+				<meaning>
+					<trn>он очень обиделся;</trn>
+				</meaning>
+			</minicard>
 			<blockquote>өпкөсү өпкөсүнө батпай ыйлады (о ребёнке) он плакал с захлёбом;</blockquote>
 			<blockquote>кичинекей кыз өпкөсү өпкөсүнө батпай, үйүнө ыйлаган бойдон барды маленькая девочка с горьким плачем пошла к себе домой;</blockquote>
 			<blockquote>өпкөсүн калбыр кылып жалынат он слёзно умоляет;</blockquote>
@@ -4802,9 +4833,15 @@
 				<blockquote>өргө чапкан, кызуу кандуу, жүрөктүү энергичный, горячий, храбрый;</blockquote>
 				<blockquote>өргө чабар өнөрү жок ничего особенного он из себя не представляет;с неба звёзд он не хватает;</blockquote>
 				<blockquote>өрү кетип (или калып), өзү карып калган он сильно ослаб, постарел;</blockquote>
-				<blockquote>өрү бүткөн или өрү калган</blockquote>
-				<blockquote>1) он уже доживает свой век; ему уже умирать пора;</blockquote>
-				<blockquote>2) он дальше не пойдёт (напр. в науке);</blockquote>
+				<minicard>
+					<k>өрү бүткөн или өрү калган</k>
+					<meaning>
+						<trn>он уже доживает свой век; ему уже умирать пора;</trn>
+					</meaning>
+					<meaning>
+						<trn>он дальше не пойдёт (напр. в науке);</trn>
+					</meaning>
+				</minicard>
 				<blockquote>өрү калган ат старая лошадь.</blockquote>
 			</meaning>
 		</homonym>
@@ -4891,12 +4928,24 @@
 			<blockquote>свадебная юрта, юрта для новобрачных;</blockquote>
 			<blockquote>өргөө көтөр- или өргөө тик- ставить свадебную юрту:</blockquote>
 			<blockquote>"күйөө, кыздын өргөөсү" делинип, обочо четке он эки канат ак үй тигилген под названием "өргөө жениха и невесты" была поставлена белая юрта в двенадцать полотнищ;</blockquote>
-			<blockquote>өргөө көтөрөр</blockquote>
-			<blockquote>1) установка отцом невесты юрты для молодых;</blockquote>
-			<blockquote>2) подарки за установку юрты для молодых от родителей жениха родственницам невесты;</blockquote>
-			<blockquote>өргөө жабар</blockquote>
-			<blockquote>1) покрытие кошмами остова юрты для новобрачных;</blockquote>
-			<blockquote>2) подарки за покрытие кошмами остова юрты для новобрачных родственницам невесты;</blockquote>
+			<minicard>
+				<k>өргөө көтөрөр</k>
+				<meaning>
+					<trn>установка отцом невесты юрты для молодых;</trn>
+				</meaning>
+				<meaning>
+					<trn>подарки за установку юрты для молодых от родителей жениха родственницам невесты;</trn>
+				</meaning>
+			</minicard>
+			<minicard>
+				<k>өргөө жабар</k>
+				<meaning>
+					<trn>покрытие кошмами остова юрты для новобрачных;</trn>
+				</meaning>
+				<meaning>
+					<trn>подарки за покрытие кошмами остова юрты для новобрачных родственницам невесты;</trn>
+				</meaning>
+			</minicard>
 		</meaning>
 		<meaning>
 			<blockquote>чистая юрта (у багатого киргиза, которая являлась как бы горницей, гостиной - в ней пища не готовилась);</blockquote>
@@ -4998,9 +5047,15 @@
 	<card>
 		<k>өркөн</k>
 		<blockquote>(значение даётся приблизительно; ср. өлкөн, өөркүн) благодать, приволье, счастье;</blockquote>
-		<blockquote>өркөнүң (или өлкөнүң) өссүн доброе пожелание</blockquote>
-		<blockquote>1) желаю тебе счастья;</blockquote>
-		<blockquote>2) большое тебе спасибо;</blockquote>
+		<minicard>
+			<k>өркөнүң (или өлкөнүң) өссүн доброе пожелание</k>
+			<meaning>
+				<trn>желаю тебе счастья;</trn>
+			</meaning>
+			<meaning>
+				<trn>большое тебе спасибо;</trn>
+			</meaning>
+		</minicard>
 		<blockquote>өркөнүң өссүн, өрүшүң кеңисин! желаю тебе счастья, да расширится твоё пастбище!;</blockquote>
 		<blockquote>көшөгөң көгөрсүн, өркөнүң өссүн! да процветает твоя семья, желаю тебе счастья!;</blockquote>
 		<blockquote>өркөнү өскөн Украина благодатная Украина;</blockquote>
@@ -5137,9 +5192,16 @@
 			<blockquote>өрт алды сгорело, уничтожено пожаром;</blockquote>
 			<blockquote>өрт алгыр! чтоб ему сгореть!;</blockquote>
 			<blockquote>өрт өчүр- тушить пожар;</blockquote>
-			<blockquote>өрт өчкөндөй кыл-</blockquote>
-			<blockquote>1) сделать так, будто погас пожар;</blockquote>
-			<blockquote>2) перен. лишить жизни;</blockquote>
+			<minicard>
+				<k>өрт өчкөндөй кыл-</k>
+				<meaning>
+					<trn>сделать так, будто погас пожар;</trn>
+				</meaning>
+				<meaning>
+					<meta>перен.</meta>
+					<trn>лишить жизни;</trn>
+				</meaning>
+			</minicard>
 			<blockquote>өлөңдүү жерге өрт койгон (о человеке) бесшабашный, безрассудный (букв. тот, кто поджигает место, поросшее осокой);</blockquote>
 			<blockquote>өрткө каршы команда противопожарная команда;</blockquote>
 		</meaning>
@@ -5257,9 +5319,16 @@
 			<blockquote>плетение, заплетание;</blockquote>
 			<blockquote>бир өрүм чач одна коса или косичка;</blockquote>
 			<blockquote>эки өрүм чач две косы или косички;</blockquote>
-			<blockquote>өрүмгө чачым жете элек</blockquote>
-			<blockquote>1) мои волосы не выросли ещё настолько, чтобы их заплетать;</blockquote>
-			<blockquote>2) перен. я ещё девочка;</blockquote>
+			<minicard>
+				<k>өрүмгө чачым жете элек</k>
+				<meaning>
+					<trn>мои волосы не выросли ещё настолько, чтобы их заплетать;</trn>
+				</meaning>
+				<meaning>
+					<meta>перен.</meta>
+					<trn>я ещё девочка;</trn>
+				</meaning>
+			</minicard>
 		</meaning>
 		<meaning>
 			<blockquote>ремённое плетение (часть плети, кнута).</blockquote>
@@ -5761,9 +5830,15 @@
 				<blockquote>ал кул болуп өткөн он был (всю жизнь) рабом;</blockquote>
 				<blockquote>өттү-кетти было да прошло; было да сплыло;</blockquote>
 				<blockquote>өткөнү - өттү дейли (ну уж) скажем, что прошло (не будем вспоминать);</blockquote>
-				<blockquote>өткөн-кеткен</blockquote>
-				<blockquote>1) путники, прохожие-проезжие;</blockquote>
-				<blockquote>2) былое-прошлое;</blockquote>
+				<minicard>
+					<k>өткөн-кеткен</k>
+					<meaning>
+						<trn>путники, прохожие-проезжие;</trn>
+					</meaning>
+					<meaning>
+						<trn>былое-прошлое;</trn>
+					</meaning>
+				</minicard>
 				<ex>
 					<source>өткөн менен кеткенди баян кылып таштады фольк.</source>
 					<target>он рассказал о прошлом, о былом;</target>
@@ -5918,9 +5993,16 @@
 		<blockquote>проходной, сквозной; переходящий;</blockquote>
 		<blockquote>өтмө бригада сквозная бригада;</blockquote>
 		<blockquote>өтмө Кызыл Туу переходящее Красное Знамя;</blockquote>
-		<blockquote>айланып өтмө жол</blockquote>
-		<blockquote>1) объездная дорога;</blockquote>
-		<blockquote>2) перен. обходный путь;</blockquote>
+		<minicard>
+			<k>айланып өтмө жол</k>
+			<meaning>
+				<trn>объездная дорога;</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>обходный путь;</trn>
+			</meaning>
+		</minicard>
 		<blockquote>өтмө катар или өтмө катардан сплошь, насквозь;</blockquote>
 		<blockquote>өтмө катарыман суу өттү я промок до нитки;</blockquote>
 		<ex>
@@ -5981,12 +6063,26 @@
 	<card>
 		<k>өтүктүү</k>
 		<blockquote>имеющий сапоги, в сапогах;</blockquote>
-		<blockquote>соору өтүктүү</blockquote>
-		<blockquote>1) тот, кто обут в сапоги из грубой кожи (см. соору);</blockquote>
-		<blockquote>2) перен. бедняк;</blockquote>
-		<blockquote>жеке өтүктүү</blockquote>
-		<blockquote>1) тот, кто носит франтовские сапоги (см. жеке II);</blockquote>
-		<blockquote>2) перен. богатый, власть имущий.</blockquote>
+		<minicard>
+			<k>соору өтүктүү</k>
+			<meaning>
+				<trn>тот, кто обут в сапоги из грубой кожи (см. соору);</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>бедняк;</trn>
+			</meaning>
+		</minicard>
+		<minicard>
+			<k>жеке өтүктүү</k>
+			<meaning>
+				<trn>тот, кто носит франтовские сапоги (см. жеке II);</trn>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>богатый, власть имущий.</trn>
+			</meaning>
+		</minicard>
 	</card>
 	<card>
 		<k>өтүктө-</k>
@@ -6347,9 +6443,15 @@
 		<k>өчүргүч</k>
 		<meaning>
 			<blockquote>тушилка (самоварная);</blockquote>
-			<blockquote>өрт өчүргүч</blockquote>
-			<blockquote>1) огнетушитель;</blockquote>
-			<blockquote>2) пожарник;</blockquote>
+			<minicard>
+				<k>өрт өчүргүч</k>
+				<meaning>
+					<trn>огнетушитель;</trn>
+				</meaning>
+				<meaning>
+					<trn>пожарник;</trn>
+				</meaning>
+			</minicard>
 		</meaning>
 		<meaning>
 			<blockquote>резинка (для стирания написанного).</blockquote>
