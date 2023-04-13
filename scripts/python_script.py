@@ -23,9 +23,13 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub('<blockquote>(.+: )?(.+)## (.+)</blockquote>(\n\s+<blockquote>(.+)@@1 (.+.)</blockquote>)?(\n\s+<blockquote>(.+)@@2 (.+.)</blockquote>)?(\n\s+<blockquote>(.+)@@3 (.+.)</blockquote>)?(\n\s+<blockquote>(.+)@@4 (.+.)</blockquote>)?(\n\s+<blockquote>(.+)@@5 (.+.)</blockquote>)?', r'<minicard><k>\2</k>\n<trn>\3</trn><ex><source>\5</source>\n<target>\6</target></ex><ex><source>\8</source>\n<target>\9</target></ex><ex><source>\11</source>\n<target>\12</target></ex><ex><source>\14</source>\n<target>\15</target></ex><ex><source>\17</source>\n<target>\18</target></ex></minicard>', content_new, flags=re.M)
     content_new = re.sub('<ex><source></source>\n<target></target></ex>', r'', content_new, flags = re.M)
 
+    content_new = re.sub('<blockquote>([^:\n]+)</blockquote>\n\s+<blockquote>1\) (.+)</blockquote>\s+<blockquote>2\) (.+)</blockquote>', r'<minicard><k>\1</k><meaning><trn>\2</trn></meaning><meaning><trn>\3</trn></meaning></minicard>', content_new, flags=re.M)
+
 # <blockquote>р. ист. разг.</blockquote>
 # <blockquote>р. сев.</blockquote>
     content_new = re.sub(rf'<blockquote>({metaOrOriginWord}) ({metaOrOriginWord}) ?({metaOrOriginWord})?</blockquote>', r'<blockquote>\1</blockquote>\n<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n', content_new, flags = re.M)
+    
+    content_new = re.sub(rf'<trn>({metaOrOriginWord}) ({metaOrOriginWord})? ?({metaOrOriginWord})? ?(.+)</trn>', r'<blockquote>\1</blockquote>\n<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n<trn>\4</trn>\n', content_new, flags = re.M)
 
 # <blockquote>2. южн. уст. сорт кустарной хлопчатобумажной материи с тканым узором;</blockquote>
     content_new = re.sub(rf'<blockquote>(\d\.)? ?({metaOrOriginWord}) ?({metaOrOriginWord})? (.+)</blockquote>', r'<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n<blockquote>\4</blockquote>\n', content_new, flags = re.M)
