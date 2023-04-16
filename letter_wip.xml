@@ -6465,70 +6465,78 @@
 	</card>
 	<card>
 		<k>өтөө</k>
+		<pos>v</pos>
 		<actionNoun word="өт" index="3"/>
-		<blockquote>исполнение, выполнение;</blockquote>
-		<blockquote>муну өтөөң керек ты должен это выполнить.</blockquote>
+		<trn>исполнение, выполнение;</trn>
+		<blockquote>муну өтөөң керек@@ ты должен это выполнить.</blockquote>
 	</card>
 	<card>
 		<k>өтөөл</k>
+		<pos>adj</pos>
 		<meta>(ср. өткөөл)</meta>
-		<blockquote>примитивный мост, временный мост; проход, переход;</blockquote>
-		<blockquote>өтөөл доору переходный период.</blockquote>
+		<trn>примитивный мост, временный мост; проход, переход;</trn>
+		<blockquote>өтөөл доору@@ переходный период.</blockquote>
 	</card>
 	<card>
 		<k>өф</k>
+		<pos>ij</pos>
 		<meta>(ср. үф)</meta>
-		<blockquote>межд. ох!, у-ух! (тяжёлый вздох);</blockquote>
-		<blockquote>"өф!" деп, үшкүрдү "ох", - тяжело вздохнул он.</blockquote>
+		<trn>межд. ох!, у-ух! (тяжёлый вздох);</trn>
+		<blockquote>"өф!" деп, үшкүрдү@@ "ох", - тяжело вздохнул он.</blockquote>
 	</card>
 	<card>
 		<k>өх</k>
+		<pos>ij</pos>
 		<sameas word="өф"/>
 	</card>
 	<card>
 		<k>өч</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>злоба; месть, мщение;</blockquote>
-			<blockquote>өч ал- сорвать зло; отомстить;</blockquote>
-			<blockquote>өчүмдү алдым я сорвал зло; я отомстил;</blockquote>
-			<blockquote>экөөбүз өчпүз мы с ним во вражде;</blockquote>
-			<blockquote>атаңдын өчү менде жок твоего отца не я убил (что ты меня преследуешь!).</blockquote>
+			<trn>злоба; месть, мщение;</trn>
+			<blockquote>өч ал-@@ сорвать зло; отомстить;</blockquote>
+			<blockquote>өчүмдү алдым@@ я сорвал зло; я отомстил;</blockquote>
+			<blockquote>экөөбүз өчпүз@@ мы с ним во вражде;</blockquote>
+			<blockquote>атаңдын өчү менде жок@@ твоего отца не я убил (что ты меня преследуешь!).</blockquote>
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<meta>прям.</meta>
 				<meta>перен.</meta>
-				<blockquote>гаснуть;</blockquote>
-				<blockquote>от өчтү огонь погас;</blockquote>
-				<blockquote>самоор өчүп калды самовар заглох;</blockquote>
-				<blockquote>ый өчтү плач прекратился;</blockquote>
-				<blockquote>өмүрү өчтү он умер;</blockquote>
+				<trn>гаснуть;</trn>
+				<blockquote>от өчтү@@ огонь погас;</blockquote>
+				<blockquote>самоор өчүп калды@@ самовар заглох;</blockquote>
+				<blockquote>ый өчтү@@ плач прекратился;</blockquote>
+				<blockquote>өмүрү өчтү@@ он умер;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>стираться (о написанном); уничтожаться;</blockquote>
-				<blockquote>кат өчтү написанное стёрлось;</blockquote>
-				<blockquote>өлбөс-өчпөс бессмертный;</blockquote>
-				<blockquote>Лениндин өлбөс-өчпөс иши бессмертное дело Ленина;</blockquote>
-				<blockquote>өлбөс-өчпөс эрдик бессмертный подвиг;</blockquote>
-				<blockquote>өчпөстүн отун жагып, өлбөстүн күнүн көр- влачить жалкое существование;</blockquote>
-				<blockquote>өчөрү калган киши человек, уже отживший свой век;</blockquote>
-				<blockquote>атым өчсүн не зовись я таким-то, не будь я такой-то (если...).</blockquote>
+				<trn>стираться (о написанном); уничтожаться;</trn>
+				<blockquote>кат өчтү@@ написанное стёрлось;</blockquote>
+				<blockquote>өлбөс-өчпөс@@ бессмертный;</blockquote>
+				<blockquote>Лениндин өлбөс-өчпөс иши@@ бессмертное дело Ленина;</blockquote>
+				<blockquote>өлбөс-өчпөс эрдик@@ бессмертный подвиг;</blockquote>
+				<blockquote>өчпөстүн отун жагып, өлбөстүн күнүн көр-@@ влачить жалкое существование;</blockquote>
+				<blockquote>өчөрү калган киши@@ человек, уже отживший свой век;</blockquote>
+				<blockquote>атым өчсүн@@ не зовись я таким-то, не будь я такой-то (если...).</blockquote>
 			</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>өчкүс</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>неугасимый, неугасающий; немеркнущий;</blockquote>
-			<blockquote>өчкүс атак немеркнущая слава;</blockquote>
+			<trn>неугасимый, неугасающий; немеркнущий;</trn>
+			<blockquote>өчкүс атак@@ немеркнущая слава;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>не стирающийся (о написанном); не уничтожаемый.</blockquote>
+			<trn>не стирающийся (о написанном); не уничтожаемый.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>өчмөндүк</k>
-		<blockquote>мстительность, злобность, жестокость;</blockquote>
+		<pos>n</pos>
+		<trn>мстительность, злобность, жестокость;</trn>
 		<ex>
 			<source>өз журтуңду өлтүрсөң, өчмөндүк болот мунуңуз фольк.</source>
 			<target>если ты свой народ умертвишь, это будет жестокость.</target>
@@ -6536,45 +6544,54 @@
 	</card>
 	<card>
 		<k>өчмөндүү</k>
+		<pos>adj</pos>
 		<sameas word="өчтүү"/>
-		<blockquote>өчмөндүү жоо злобный враг.</blockquote>
+		<blockquote>өчмөндүү жоо@@ злобный враг.</blockquote>
 	</card>
 	<card>
 		<k>өчмөнтөй</k>
-		<blockquote>злобный, мстительный, затаивший злобу.</blockquote>
+		<pos>adj</pos>
+		<trn>злобный, мстительный, затаивший злобу.</trn>
 	</card>
 	<card>
 		<k>өчсү-</k>
-		<blockquote>уподоб. от өч I,</blockquote>
+		<pos>n</pos>
+		<blockquote>уподоб. от өч I</blockquote>
 		<sameas word="өчөш" index="2"/>
 	</card>
 	<card>
+
 		<k>өчтүү</k>
-		<blockquote>мстительный, злобный;</blockquote>
+		<pos>adj</pos>
+		<trn>мстительный, злобный;</trn>
 		<ex>
 			<source>эки өчтүүнү бир күчтүү кошуптур погов.</source>
 			<target>двух озлобленных (друг на друга) соединил (примирил) один сильный;</target>
 		</ex>
-		<blockquote>бирине бири өчтүү они друг на друга озлоблены;</blockquote>
-		<blockquote>сөөк өчтүү имеющий родовую вражду, имеющий давнюю и непримиримую вражду.</blockquote>
+		<blockquote>бирине бири өчтүү@@ они друг на друга озлоблены;</blockquote>
+		<blockquote>сөөк өчтүү@@ имеющий родовую вражду, имеющий давнюю и непримиримую вражду.</blockquote>
 	</card>
 	<card>
 		<k>өчтөш-</k>
-		<blockquote>злобствовать;</blockquote>
-		<blockquote>өчтөшкөн душман злобствующий враг, злобный враг.</blockquote>
+		<pos>n</pos>
+		<trn>злобствовать;</trn>
+		<blockquote>өчтөшкөн душман@@ злобствующий враг, злобный враг.</blockquote>
 	</card>
 	<card>
 		<k>өчүгүш-</k>
+		<pos>v</pos>
 		<recv word="өчүк"/>
-		<blockquote>мстить взаимно, озлобляться друг на друга.</blockquote>
+		<trn>мстить взаимно, озлобляться друг на друга.</trn>
 	</card>
 	<card>
 		<k>өчүк-</k>
-		<blockquote>злобствовать;</blockquote>
-		<blockquote>өчүгүп калган он затаил злобу.</blockquote>
+		<pos>n</pos>
+		<trn>злобствовать;</trn>
+		<blockquote>өчүгүп калган@@ он затаил злобу.</blockquote>
 	</card>
 	<card>
 		<k>өчүл-</k>
+		<pos>v</pos>
 		<refpass word="өч" index="2"/>
 		<ex>
 			<source>жаккан чырак өчүлбөйт фольк.</source>
@@ -6583,48 +6600,52 @@
 	</card>
 	<card>
 		<k>өчүңкү</k>
-		<blockquote>слабый, едва заметный (напр. о звуке); блёклый (о краске);</blockquote>
-		<blockquote>өңү өчүңкү сүрөт картина, краски которой поблёкли;</blockquote>
-		<blockquote>өчүңкү үн менен айтты он сказал слабым голосом (напр. о тяжелобольном);</blockquote>
-		<blockquote>ындыны өчүңкү см. ындын.</blockquote>
+		<pos>adj</pos>
+		<trn>слабый, едва заметный (напр. о звуке); блёклый (о краске);</trn>
+		<blockquote>өңү өчүңкү сүрөт@@ картина, краски которой поблёкли;</blockquote>
+		<blockquote>өчүңкү үн менен айтты@@ он сказал слабым голосом (напр. о тяжелобольном);</blockquote>
+		<blockquote>ындыны өчүңкү@@ см. ындын.</blockquote>
 	</card>
 	<card>
 		<k>өчүр-</k>
+		<pos>v</pos>
 		<caus word="өч" index="2"/>
 		<meaning>
 			<meta>в разн. знач.</meta>
 			<trn>гасить</trn>
-			<blockquote>шамды өчүр- гасить свечу;</blockquote>
-			<blockquote>күйүп турган шамын өчүрдү перен. его (радостного, весёлого) он привёл в уныние, он испортил ему настроение (напр. грубо окрикнув);</blockquote>
-			<blockquote>самоорду өчүр- глушить самовар;</blockquote>
-			<blockquote>марка өчүр- гасить марку;</blockquote>
+			<blockquote>шамды өчүр-@@ гасить свечу;</blockquote>
+			<blockquote>күйүп турган шамын өчүрдү@@ перен. его (радостного, весёлого) он привёл в уныние, он испортил ему настроение (напр. грубо окрикнув);</blockquote>
+			<blockquote>самоорду өчүр-@@ глушить самовар;</blockquote>
+			<blockquote>марка өчүр-@@ гасить марку;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>стирать (напр. написанное на доске), вычёркивать;</blockquote>
-			<blockquote>ушул сөздү өчүрүп ташта вот это слово вычеркни;</blockquote>
-			<blockquote>менин атымды тизмеден өчүрбө моё имя из списка не вычёркивай;</blockquote>
+			<trn>стирать (напр. написанное на доске), вычёркивать;</trn>
+			<blockquote>ушул сөздү өчүрүп ташта@@ вот это слово вычеркни;</blockquote>
+			<blockquote>менин атымды тизмеден өчүрбө@@ моё имя из списка не вычёркивай;</blockquote>
 			<ex>
 				<source>өчүрбөй өчүм алармын фольк.</source>
 				<target>я отомщу ему во что бы то ни стало; я не перестану ему мстить;</target>
 			</ex>
-			<blockquote>көмүр өчүр- жечь (из дерева) уголь;</blockquote>
-			<blockquote>шакар өчүр- см. шакар.</blockquote>
+			<blockquote>көмүр өчүр-@@ жечь (из дерева) уголь;</blockquote>
+			<blockquote>шакар өчүр-@@ см. шакар.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>өчүргүс</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>неугасимый;</blockquote>
+			<trn>неугасимый;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>не поддающийся стиранию.</blockquote>
+			<trn>не поддающийся стиранию.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>өчүргүч</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>тушилка (самоварная);</blockquote>
-			<minicard>
+			<trn>тушилка (самоварная);</trn>
+		<minicard>
 				<k>өрт өчүргүч</k>
 				<meaning>
 					<trn>огнетушитель;</trn>
@@ -6632,42 +6653,51 @@
 				<meaning>
 					<trn>пожарник;</trn>
 				</meaning>
-			</minicard>
 		</meaning>
 		<meaning>
-			<blockquote>резинка (для стирания написанного).</blockquote>
+			<trn>резинка (для стирания написанного).</trn>
 		</meaning>
+	</minicard>
 	</card>
 	<card>
 		<k>өчүрт-</k>
+		<pos>v</pos>
 		<caus word="өчүр"/>
 	</card>
 	<card>
 		<k>өчүрүү</k>
+		<pos>ger</pos>
 		<actionNoun word="өчүр"/>
 	</card>
 	<card>
 		<k>өчүрүүчү</k>
-		<blockquote>гаситель;</blockquote>
-		<blockquote>өрт өчүрүүчү пожарник.</blockquote>
+		<pos>n</pos>
+		<trn>гаситель;</trn>
+		<blockquote>өрт өчүрүүчү@@ пожарник.</blockquote>
 	</card>
 	<card>
 		<k>өчөй</k>
-		<blockquote>(о людях старых и немощных) горбиться, сгибаться, скрючиваться;</blockquote>
-		<blockquote>карыдым - деп, өчөйбөй, кайратыңы жыйна не говори, что постарел, не горбись, крепись;</blockquote>
-		<blockquote>баягында басалбай өчөйүп баратканын көрдүм эле, эми жөн эле баладан бетер лапылдап баратат я как-то видел, как он согнулся и не мог ходить, а теперь просто бодрее мальчика шагает.</blockquote>
+		<pos>v</pos>
+		<trn>(о людях старых и немощных) горбиться, сгибаться, скрючиваться;</trn>
+		<blockquote>карыдым - деп, өчөйбөй, кайратыңы жыйна@@ не говори, что постарел, не горбись, крепись;</blockquote>
+		<blockquote>баягында басалбай өчөйүп баратканын көрдүм эле, эми жөн эле баладан бетер лапылдап баратат@@ я как-то видел, как он согнулся и не мог ходить, а теперь просто бодрее мальчика шагает.</blockquote>
 	</card>
 	<card>
 		<k>өчөң</k>
-		<blockquote>өчөң: өчөң-өчөң (о людях старых и немощных) сгорбившись, согнувшись, скрючившись;</blockquote>
-		<blockquote>кашаң торусун өчөң-өчөң темине келаткан он (старенький), скрючившись, понукал своего ленивого гнедого, ударяя ногами в бока.</blockquote>
+		<pos>adj</pos>
+		<minicard>
+			<k>өчөң-өчөң</k>
+			<trn>(о людях старых и немощных) сгорбившись, согнувшись, скрючившись;</trn>
+		<blockquote>кашаң торусун өчөң-өчөң темине келаткан@@ он (старенький), скрючившись, понукал своего ленивого гнедого, ударяя ногами в бока.</blockquote>
 	</card>
 	<card>
 		<k>өчөңдө-</k>
-		<blockquote>(о людях старых и немощных) двигаться сгорбившись, согнувшись, скрючившись.</blockquote>
+		<pos>v</pos>
+		<trn>(о людях старых и немощных) двигаться сгорбившись, согнувшись, скрючившись.</trn>
 	</card>
 	<card>
 		<k>өчөңдөт-</k>
+		<pos>v</pos>
 		<caus word="өчөңдө"/>
 		<ex>
 			<source>байтал минип өчөңдөтүп, сайды жээктеп, өттү Майрык стих.</source>
@@ -6676,94 +6706,115 @@
 	</card>
 	<card>
 		<k>өчөш</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>злоба, мстительность;</blockquote>
+			<trn>злоба, мстительность;</trn>
 			<ex>
 				<source>өчөшүмө тийгенде, өздөн кайра тартпаймын фольк.</source>
 				<target>если он обозлит меня, я не посмотрю, что он свой.</target>
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>злобствовать, злиться;</blockquote>
+			<pos>v</pos>
+			<trn>злобствовать, злиться;</trn>
 			<ex>
 				<source>жаманына өчөшүп, калкты кырып жиберсең, кыйрайт такоо казыгың фольк.</source>
 				<target>если ты, озлобившись на дурных, уничтожишь (весь) народ, рухнет твоя опора (букв. твой опорный кол);</target>
 			</ex>
-			<blockquote>мага өчөшүп мне назло;</blockquote>
-			<blockquote>өчөшкөндөй как назло.</blockquote>
+			<blockquote>мага өчөшүп@@ мне назло;</blockquote>
+			<blockquote>өчөшкөндөй@@ как назло.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>өчөшкөнсү-</k>
+		<pos>v</pos>
 		<similative word="өчөш" index="2"/>
-		<blockquote>өчөшкөнсүп то же, что өчөшкөндөй (см. өчөш- II).</blockquote>
+		<minicard>
+		   <k>өчөшкөнсүп</k>
+		   <trn>то же, что өчөшкөндөй (см. өчөш- II).</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>өчөштүк</k>
-		<blockquote>злоба, озлобленность.</blockquote>
+		<pos>n</pos>
+		<trn>злоба, озлобленность.</trn>
 	</card>
 	<card>
 		<k>өчөштүр-</k>
+		<pos>v</pos>
 		<caus word="өчөш" index="2"/>
 	</card>
 	<card>
 		<k>өш!</k>
-		<blockquote>окрик на крупный рогатый скот.</blockquote>
+		<pos>ij</pos>
+		<trn>окрик на крупный рогатый скот.</trn>
 	</card>
 	<card>
 		<k>өшкөнүр</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="үлүл"/>
-		<blockquote>улитка.</blockquote>
+		<trn>улитка.</trn>
 	</card>
 	<card>
 		<k>өштө-</k>
-		<blockquote>өштө-: өш-өштө- окрикивать крупный рогатый скот.</blockquote>
+		<pos>v</pos>
+		<minicard>
+		   <k>өш-өштө</k>
+		   <trn>окрикивать крупный рогатый скот.</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>өшөнт-</k>
-		<blockquote>(ошону-эт-)</blockquote>
-		<blockquote>сделать, поступить так;</blockquote>
-		<blockquote>өшөнтүп так, таким образом;</blockquote>
-		<blockquote>өшөнтсө да несмотря на это, даже и в этом случае;</blockquote>
-		<blockquote>өшөнтө поступая так.</blockquote>
+		<pos>v</pos>
+		<meta>(ошону-эт-)</meta>
+		<trn>сделать, поступить так;</trn>
+		<blockquote>өшөнтүп@@ так, таким образом;</blockquote>
+		<blockquote>өшөнтсө да@@ несмотря на это, даже и в этом случае;</blockquote>
+		<blockquote>өшөнтө@@ поступая так.</blockquote>
 	</card>
 	<card>
 		<k>өшөнтүш</k>
+		<pos>v</pos>
 		<homonym>
 			<actionNoun word="өшөнт"/>
-			<blockquote>өшөнтүш керек нужно сделать так; нужно поступить таким образом.</blockquote>
+			<blockquote>өшөнтүш керек@@ нужно сделать так; нужно поступить таким образом.</blockquote>
 		</homonym>
 		<homonym>
 			<recv word="өшөнт"/>
-			<blockquote>өшөтүшүп так вот, таким образом;</blockquote>
-			<blockquote>өшөнтүшүп, алар көнбөй койду таким образом, они не согласились;</blockquote>
-			<blockquote>өшөнтүшүп, алар келбей турган болду итак, они решили не приходить.</blockquote>
+			<blockquote>өшөтүшүп@@ так вот, таким образом;</blockquote>
+			<blockquote>өшөнтүшүп, алар көнбөй койду@@ таким образом, они не согласились;</blockquote>
+			<blockquote>өшөнтүшүп, алар келбей турган болду@@ итак, они решили не приходить.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>өшөр</k>
+		<pos>n</pos>
 		<sameas word="нөшөр"/>
-		<blockquote>кара өшөр куюп турат льёт проливной дождь.</blockquote>
+		<blockquote>кара өшөр куюп турат@@ льёт проливной дождь.</blockquote>
 	</card>
 	<card>
 		<k>өшөрлө-</k>
+		<pos>v</pos>
 		<sameas word="нөшөрлө"/>
-		<blockquote>өшөрлөп төккөн кара жамгыр тыйылды ливень прекратился.</blockquote>
+		<blockquote>өшөрлөп төккөн кара жамгыр тыйылды@@ ливень прекратился.</blockquote>
 	</card>
 	<card>
 		<k>өшөрлөн-</k>
+		<pos>adj</pos>
 		<refv word="өшөрлө"/>
-		<blockquote>өшөрлөнгөн жаандай сөздү биринин артынан бирин жаадырып он сыпал словами, как будто (лил) проливной дождь.</blockquote>
+		<blockquote>өшөрлөнгөн жаандай сөздү биринин артынан бирин жаадырып@@ он сыпал словами, как будто (лил) проливной дождь.</blockquote>
 	</card>
 	<card>
 		<k>өшөрлөт-</k>
+		<pos>v</pos>
 		<sameas word="нөшөрлөт"/>
-		<blockquote>жамгыр көз ачырбай өшөрлөтөт дождь льёт так, что невозможно открыть глаза.</blockquote>
+		<blockquote>жамгыр көз ачырбай өшөрлөтөт@@ дождь льёт так, что невозможно открыть глаза.</blockquote>
 	</card>
 	<card>
 		<k>өө</k>
-		<blockquote>подражание звуку, издаваемому при позыве к рвоте;</blockquote>
+		<pos>ideo</pos>
+		<trn>подражание звуку, издаваемому при позыве к рвоте;</trn>
 		<ex>
 			<source>"өө" деп, Манас окшуса, өжөк-өжөк зарке тип фольк.</source>
 			<target>когда Манаса позывало к рвоте, у него со звуком "өө" вырывались сгустки жёлчи.</target>
