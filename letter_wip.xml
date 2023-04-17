@@ -1,4 +1,4 @@
-f<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>өбүрө</k>
@@ -5129,7 +5129,7 @@ f<?xml version="1.0" encoding="UTF-8"?>
 		<pos>v</pos>
 		<meta>южн.</meta>
 		<sameas word="өрдө" index="2"/>
-		<blockquote>ырды й м он сегизден өрлөгөндө үйрөнөт@@ песням тоже научаются, когда (человеку) перевалит за восемнадцать.</blockquote>
+		<blockquote>ырды йəм он сегизден өрлөгөндө үйрөнөт@@ песням тоже научаются, когда (человеку) перевалит за восемнадцать.</blockquote>
 	</card>
 	<card>
 		<k>өрмө</k>
@@ -5193,7 +5193,7 @@ f<?xml version="1.0" encoding="UTF-8"?>
 		<pos>n</pos>
 		<meaning>
 			<trn>пожар;</trn>
-			<blockquote>өрт сал- или өрт кой-@@ поджечь, устроить пожар;</blockquote>
+			<blockquote>өрт сал- <i>или</i> өрт кой-@@ поджечь, устроить пожар;</blockquote>
 			<blockquote>жүргөн жерине өрт салат@@ где бы он ни появился, везде пакости творит (букв. пожар устраивает);</blockquote>
 			<blockquote>өрт чыкты@@ возник, случился пожар;</blockquote>
 			<ex>
