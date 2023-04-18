@@ -5,7 +5,7 @@ import sys
 inputFilename = sys.argv[1]
 outputFilename = sys.argv[2]
 
-metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.|иссык-кульск\.|анат\.|грам\.|ирон\.|инд\.'
+metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.|иссык-кульск\.|анат\.|грам\.|ирон\.|инд\.|геогр\.|ласк\.'
 originWord = 'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.|ир\.-ар\.|кирг\.-ир\.'
 metaOrOriginWord = metaWord + '|' + originWord
 referencePattern = '(\w+)-? ?([IVX]+)? ?(\d)?[\.|;]?'
@@ -56,7 +56,11 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub(rf'<blockquote>парное к {referencePattern}<\/blockquote>', rf'<pair {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>многокр\. от {referencePattern}<\/blockquote>', rf'<iter {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>отвл\. от {referencePattern}<\/blockquote>', rf'<abstract {referenceReplace} />', content_new, flags = re.M)
-    
+    content_new = re.sub(rf'<blockquote>уменьш\. от {referencePattern}<\/blockquote>', rf'<dim {referenceReplace} />', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>уменьш\.-ласк\. от {referencePattern}<\/blockquote>', rf'<dimaff {referenceReplace} />', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>деепр\. от {referencePattern}<\/blockquote>', rf'<participle {referenceReplace} />', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>\(ср\. {referencePattern}\)<\/blockquote>', rf'<compare {referenceReplace} />', content_new, flags = re.M)
+
     #replace meta sameas and look tags
     content_new = re.sub(rf'<blockquote>то же, что {referencePattern}<\/blockquote>', rf'<sameas {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>\(?см\. {referencePattern}\)?.?<\/blockquote>', rf'<look {referenceReplace} />', content_new, flags = re.M)
@@ -118,7 +122,7 @@ with open(inputFilename, 'r' ) as f:
 #content_new = re.sub('', r'', content_new, flags = re.M)
 
 
-#ав\.|англ\.|башк\.|бенг\.|буд\.|бухг\.|вводн. сл\.|вет\.|вин\.|вопр\.|вр\.|в сочет\.|вспом\.|г\.|геогр\.|гл\.|гл. обр\.|греч\.|груб\.|дат\.|деепр\.|дет\.|др\.|звукоподр\.|знач\.|и др\.|им\.|инд\.|исх\.|и т. д\.|и т. п\.|ичкилик\.|каз\.|канц\.|кирг\.|книжн\.|л\.|-л.\-|ласк\.|межд\.|мест\.|местн\.|метео\.|многокр\.|монг\.|муз\.|напр\.|наст\.|неодобр\.|неправ\.|орф\.|отриц\.|офиц\.|п\.|памирск\.|погов\.|поэт\.|пренебр\.|прил\.|прим\.|притяж\.|прич\.|противит\.|противоп\.|прош\.|прям\.|психол\.|разг\.|род\.|санскр\.|см\.|собир\.|соед\.|сокр\.|соотв\.|ср\.|стих\.||тадж\.|тат\.|т.е\.|тув\.|узб\.|уйг\.|уменьш\.|употр\.|усил\.|уступ\.|физ\.|фин\.|фольк\.|шахм\.|школ\.|шутл\.|эвф\.|эк\.|юр.
+#ав\.|англ\.|башк\.|бенг\.|буд\.|бухг\.|вводн. сл\.|вет\.|вин\.|вопр\.|вр\.|в сочет\.|вспом\.|г\.||гл\.|гл. обр\.|греч\.|груб\.|дат\.|деепр\.|дет\.|др\.|звукоподр\.|знач\.|и др\.|им\.|инд\.|исх\.|и т. д\.|и т. п\.|ичкилик\.|каз\.|канц\.|кирг\.|книжн\.|л\.|-л.\-||межд\.|мест\.|местн\.|метео\.|многокр\.|монг\.|муз\.|напр\.|наст\.|неодобр\.|неправ\.|орф\.|отриц\.|офиц\.|п\.|памирск\.|погов\.|поэт\.|пренебр\.|прил\.|прим\.|притяж\.|прич\.|противит\.|противоп\.|прош\.|прям\.|психол\.|разг\.|род\.|санскр\.|см\.|собир\.|соед\.|сокр\.|соотв\.|ср\.|стих\.||тадж\.|тат\.|т.е\.|тув\.|узб\.|уйг\.|уменьш\.|употр\.|усил\.|уступ\.|физ\.|фин\.|фольк\.|шахм\.|школ\.|шутл\.|эвф\.|эк\.|юр.
 
 # <blockquote>отвл. от нускалуу</blockquote>
 # <blockquote>отвл. от нөкөр;</blockquote>
