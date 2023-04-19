@@ -2482,7 +2482,10 @@
 							<source>өлөрчө токмокто-</source>
 							<target>бить смертным боем;</target>
 						</ex>
-						<blockquote>өлөр-өлгөнчө ыраазымын я доволен-предоволен;</blockquote>
+						<ex>
+							<source>өлөр-өлгөнчө ыраазымын</source>
+							<target>я доволен-предоволен;</target>
+						</ex>
 					</meaning>
 				</minicard>
 				<ex>
@@ -3269,7 +3272,8 @@
 		<homonym>
 			<minicard>
 				<k>өлө кийиз</k>
-				<blockquote>то же, что өрө кийиз (см. өрө I).</blockquote>
+				<sameas word="өрө кийиз"/>
+				<look word="өрө" index="1"/>
 			</minicard>
 		</homonym>
 		<homonym>
@@ -4881,7 +4885,8 @@
 			</minicard>
 		</homonym>
 		<homonym>
-			<blockquote>(деепр. өөп; см. жытта- 2)</blockquote>
+			<participle word="өөп"/>
+			<look word="жытта" subindex="2"/>
 			<trn>целовать;</trn>
 			<minicard>
 				<k>ооздон өп-</k>
@@ -4908,7 +4913,10 @@
 	<card>
 		<k>өпкүлө-</k>
 		<iter word="өп" index="2"/>
-		<blockquote>кыса-кыса кучактап, өпкүлөп жибердим я крепко обнял и расцеловал (поцеловал много раз).</blockquote>
+		<ex>
+			<source>кыса-кыса кучактап, өпкүлөп жибердим</source>
+			<target>я крепко обнял и расцеловал (поцеловал много раз).</target>
+		</ex>
 	</card>
 	<card>
 		<k>өпкүлөш-</k>
@@ -5035,7 +5043,10 @@
 					<trn>он очень обиделся;</trn>
 				</meaning>
 			</minicard>
-			<blockquote>өпкөсү өпкөсүнө батпай ыйлады@ (о ребёнке) он плакал с захлёбом;</blockquote>
+			<ex>
+				<source>өпкөсү өпкөсүнө батпай ыйлады</source>
+				<target>(о ребёнке) он плакал с захлёбом;</target>
+			</ex>
 			<ex>
 				<source>кичинекей кыз өпкөсү өпкөсүнө батпай, үйүнө ыйлаган бойдон барды</source>
 				<target>маленькая девочка с горьким плачем пошла к себе домой;</target>
@@ -5445,7 +5456,10 @@
 		<k>өрдөк</k>
 		<pos>n</pos>
 		<trn>утка;</trn>
-		<blockquote>арам өрдөк@ крохаль;</blockquote>
+		<minicard>
+			<k>арам өрдөк</k>
+			<trn>крохаль;</trn>
+		</minicard>
 		<ex>
 			<source>кызыл баш өрдөк</source>
 			<target>красноголовая утка;</target>
@@ -6602,9 +6616,12 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>то же, что өзөк I, ач өсөк</blockquote>
-			<meta>тяньш.</meta>
-			<trn>прожорливый.</trn>
+			<sameas word="өзөк" index="1"/>
+			<minicard>
+				<k>ач өсөк</k>
+				<meta>тяньш.</meta>
+				<trn>прожорливый.</trn>
+			</minicard>
 		</homonym>
 	</card>
 	<card>
@@ -7453,7 +7470,10 @@
 		<pos>adj</pos>
 		<meaning>
 			<trn>проходящий, переходящий;</trn>
-			<blockquote>өтүүчү Кызыл Туу то же, что өтмө Кызыл Туу (см. өтмө);</blockquote>
+			<ex>
+				<source>өтүүчү Кызыл Туу</source>
+				<target>то же, что өтмө Кызыл Туу (см. өтмө);</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<trn>(о товаре) ходовой;</trn>
@@ -8363,11 +8383,11 @@
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>то же, что кокту (но длиннее);</blockquote>
+			<trn>то же, что кокту (но длиннее);</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>пространство между двумя жылга (см.); ровное место (в горах), равнина (среди гор);</blockquote>
+			<trn>пространство между двумя жылга (см.); ровное место (в горах), равнина (среди гор);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
