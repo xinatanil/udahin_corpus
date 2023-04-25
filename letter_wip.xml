@@ -1878,7 +1878,7 @@
 		<meaning>
 			<trn>афоризм, мудрое изречение, поговорка;</trn>
 			<minicard>
-				<k>макал-ылакаптар</k> 
+				<k>макал-ылакаптар</k>
 				<trn>пословицы и поговорки; мудрые изречения;</trn>
 			</minicard>
 		</meaning>
@@ -1900,7 +1900,7 @@
 		<k>ылам</k>
 		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>лям (название буквы л в арабском алфавите);</blockquote>
+		<trn>лям (название буквы л в арабском алфавите);</trn>
 		<blockquote>ылам дебестен <i>или</i> ылам-мим дебейтен@@ не сказав ни слова; не сделав ни единого возражения; не прекословя.</blockquote>
 	</card>
 	<card>
@@ -1924,9 +1924,9 @@
 	</card>
 	<card>
 		<k>ылампук</k>
-		<origin>кит.</origin>
-		<blockquote>через р. уст.</blockquote>
-		<blockquote>нанбук (материя).</blockquote>
+		<origin>кит. через р.</origin>
+		<meta>уст.</meta>
+		<trn>нанбук (материя).</trn>
 	</card>
 	<card>
 		<k>ылаң</k>
@@ -1958,7 +1958,7 @@
 			<blockquote>атым ылаңдап калыптыр@@ моя лошадь заболела (заразившись);</blockquote>
 		</meaning>
 		<meaning>
-			<meta>шутл.</meta> 
+			<meta>шутл.</meta>
 			<trn>(о человеке) болеть.</trn>
 		</meaning>
 	</card>
@@ -1977,7 +1977,7 @@
 		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>тяньш.</meta>
-		<blockquote>ластик, сатин;</blockquote>
+		<trn>ластик, сатин;</trn>
 		<ex>
 			<source>ыластан көйнөк кийчелең фольк.</source>
 			<target>ты носила сатиновое платье.</target>
@@ -1986,13 +1986,13 @@
 	<card>
 		<k>ылбыра-</k>
 		<pos>v</pos>
-		<blockquote>быть вялым, чахлым.</blockquote>
+		<trn>быть вялым, чахлым.</trn>
 	</card>
 	<card>
 		<k>ылвырай</k>
 		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>тонкий войлок.</blockquote>
+		<trn>тонкий войлок.</trn>
 	</card>
 	<card>
 		<k>ылга-</k>
@@ -2124,15 +2124,18 @@
 		<blockquote>эки беттен аккан жаш, акырек ылдый куюлуп фольк.@@ текущие по (двум) щекам слёзы лились на ключицы;</blockquote>
 		<blockquote>сакал ылдый жаш кетип фольк.@@ слёзы потекли по бороде;</blockquote>
 		<minicard>
-		<k>баш ылдый</k>
-		<meaning>
-		<trn>сряду, подряд;</trn>
-		<blockquote>баш ылдый сана-@@ считать всё или всех подряд;</blockquote>
-		<blockquote>баш ылдый катары менен олтургандардын колдоруна суу куйду@@ он всем (гостям) подряд поливал на руки воду;</blockquote>
-		</meaning>
-		<trn>сверху вниз;</trn>
-		<blockquote>баш ылдый суук жел сокту@@ с гор вниз дул холодный ветер;</blockquote>
-		<blockquote>башыман ылдый алтын куйса да, барбайм@@ хоть озолоти меня, я не пойду;</blockquote>
+			<k>баш ылдый</k>
+			<meaning>
+				<trn>сряду, подряд;</trn>
+				<blockquote>баш ылдый сана-@@ считать всё или всех подряд;</blockquote>
+				<blockquote>баш ылдый катары менен олтургандардын колдоруна суу куйду@@ он всем (гостям) подряд поливал на руки воду;</blockquote>
+			</meaning>
+			<meaning>
+				<trn>сверху вниз;</trn>
+				<blockquote>баш ылдый суук жел сокту@@ с гор вниз дул холодный ветер;</blockquote>
+				<blockquote>башыман ылдый алтын куйса да, барбайм@@ хоть озолоти меня, я не пойду;</blockquote>
+			</meaning>
+		</minicard>
 		<minicard>
 			<k>өөдө-ылдый</k>
 			<look word="өөдө"/>
@@ -2165,7 +2168,7 @@
 	<card>
 		<k>ылдыйтан</k>
 		<pos>adv</pos>
-		<sameas word="төмөнтөн"/> 
+		<sameas word="төмөнтөн"/>
 		<look word="төмөн"/>
 	</card>
 	<card>
@@ -2192,7 +2195,7 @@
 	<card>
 		<k>ылжак</k>
 		<sameas word="ыржак"/>
-		<blockquote>Батыш тиешесиз ылжак күлдү Батыш не к месту осклабилась.</blockquote>
+		<blockquote>Батыш тиешесиз ылжак күлдү@@ Батыш не к месту осклабилась.</blockquote>
 	</card>
 	<card>
 		<k>ылжаке</k>
@@ -2209,7 +2212,7 @@
 	<card>
 		<k>ылжаң</k>
 		<sameas word="ыржаң"/>
-		<blockquote>ылжаң этип бир койду осклабившись, он хихикнул.</blockquote>
+		<blockquote>ылжаң этип бир койду@@ осклабившись, он хихикнул.</blockquote>
 	</card>
 	<card>
 		<k>ылжаңда-</k>
@@ -2221,7 +2224,7 @@
 		<k>ылжы-</k>
 		<pos>v</pos>
 		<minicard>
-			<k>ылжыган мас</k> 
+			<k>ылжыган мас</k>
 			<trn>вдрызг пьяный.</trn>
 		</minicard>
 	</card>
@@ -2270,20 +2273,16 @@
 			<blockquote>улоого ат мин-@@ пользоваться верховым животным или подводой, выставляемыми в порядке общественной повинности;</blockquote>
 			<blockquote>атты ылоого мингиз-@@ дать лошадь в порядке общественной повинности;</blockquote>
 			<blockquote>ылоо жылкы@@ невыносливая лошадь;</blockquote>
-			<minicard>
-				<k>ат-ылооң аманбы?</k>
-				<sameas word="ат-көлүк аманбы?"/>
-				<look word="көлүк"/>
-			</minicard>
+			<blockquote>ат-ылооң аманбы?@@ то же, что ат-көлүк аманбы? (см. көлүк);</blockquote>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>улоо упряжная (не верховая) рабочая лошадь;</blockquote>
+			<trn>(улоо) упряжная (не верховая) рабочая лошадь;</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>улоо воз;</blockquote>
-			<blockquote>эки улоо көң два воза навоза.</blockquote>
+			<trn>(улоо) воз;</trn>
+			<blockquote>эки улоо көң@@ два воза навоза.</blockquote>
 		</meaning>
 	</card>
 	<card>
