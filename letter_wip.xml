@@ -7874,7 +7874,8 @@
 	</card>
 	<card>
 		<k>ышкырык</k>
-		<blockquote>свист;</blockquote>
+		<pos>n</pos>
+		<trn>свист;</trn>
 		<ex>
 			<source>айдаганы беш эчки (или козулуу кой), ышкырыгы таш жарат погов.</source>
 			<target>гонит он пять коз (или овцу с ягнёнком), а свист его камни дробит (свистит, будто гонит большой табун лошадей; говорят, когда о пустяковом деле громко кричат).</target>
@@ -7882,56 +7883,69 @@
 	</card>
 	<card>
 		<k>ышкырыкчы</k>
-		<blockquote>свистун.</blockquote>
+		<pos>n</pos>
+		<trn>свистун.</trn>
 	</card>
 	<card>
 		<k>ышкырын-</k>
+		<pos>v</pos>
 		<refv word="ышкыр"/>
-		<blockquote>ышкырынган үн свистящий звук; свистящий голос.</blockquote>
+		<blockquote>ышкырынган үн@@ свистящий звук; свистящий голос.</blockquote>
 	</card>
 	<card>
 		<k>ышлапа</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="шляпа"/>
 	</card>
 	<card>
 		<k>ышлом</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="шлем"/>
 	</card>
 	<card>
 		<k>ышмыян</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
 		<blockquote>шпион, тайный агент.</blockquote>
 	</card>
 	<card>
 		<k>ышпалда</k>
-		<blockquote>ышпалда: ышпалдасы чыгыптыр он достукался, дошёл до ручки (обеднел, ходит оборванцем, потерял былое положение и т.п.).</blockquote>
+		<pos>v</pos>
+		<minicard>
+			<k>ышпалдасы чыгыптыр</k> 
+			<trn>он достукался, дошёл до ручки (обеднел, ходит оборванцем, потерял былое положение и т.п.).</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>ышта-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>коптить, обрабатывать окуриванием (кожу);</blockquote>
+			<trn>коптить, обрабатывать окуриванием (кожу);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>выкуривать (зверя из норы).</blockquote>
+			<trn>выкуривать (зверя из норы).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ыштал-</k>
+		<pos>v</pos>
 		<pass word="ышта"/>
-		<blockquote>(о коже) прокапчиваться, пропитываться дымом при обработке окуриванием.</blockquote>
+		<trn>(о коже) прокапчиваться, пропитываться дымом при обработке окуриванием.</trn>
 	</card>
 	<card>
 		<k>ыштампул</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="штемпел"/>
 	</card>
 	<card>
 		<k>ыштан</k>
+		<pos>n</pos>
 		<origin>р.</origin>
-		<blockquote>панталоны; кальсоны;</blockquote>
+		<trn>панталоны; кальсоны;</trn>
 		<ex>
 			<source>ичи өткөндүн ыштаны билет погов.</source>
 			<target>о том, что у него понос, знают его кальсоны;</target>
@@ -7940,58 +7954,70 @@
 			<source>ыштанына чычкан колун аябайт погов.</source>
 			<target>груб. кто в штаны "наложил", тот рук не жалеет; снявши голову, по волосам не плачут;</target>
 		</ex>
-		<blockquote>ыштан салды кыл- спустить штаны на концы ног (при холоде, ложась спать, чтобы согревать ноги);</blockquote>
-		<blockquote>ыштанын чечкен осрамившийся;</blockquote>
-		<blockquote>башына ыштан чалалы осрамим-ка его (букв. намотаем ему на голову панталоны, как чалму);</blockquote>
+		<blockquote>ыштан салды кыл-@@ спустить штаны на концы ног (при холоде, ложась спать, чтобы согревать ноги);</blockquote>
+		<blockquote>ыштанын чечкен@@ осрамившийся;</blockquote>
+		<blockquote>башына ыштан чалалы@@ осрамим-ка его (букв. намотаем ему на голову панталоны, как чалму);</blockquote>
 		<ex>
 			<source>ыштаны менин башыма! фольк.</source>
 			<target>да будет мне позор от неё!; будь я ею проклят! (букв. панталоны её на мою голову!);</target>
 		</ex>
-		<blockquote>кызыл ыштан южн. то же, что тоңкулдак.</blockquote>
+		<minicard>
+			<k>кызыл ыштан</k> 
+			<meta>южн.</meta>
+			<sameas word="тоңкулдак"/>
+		</minicard>
 	</card>
 	<card>
 		<k>ыштандык</k>
-		<blockquote>материя, годная или достаточная для панталон, кальсон.</blockquote>
+		<pos>n</pos>
+		<trn>материя, годная или достаточная для панталон, кальсон.</trn>
 	</card>
 	<card>
 		<k>ыштап</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="штаб"/>
 	</card>
 	<card>
 		<k>ыштарап</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="штраф"/>
 	</card>
 	<card>
 		<k>ыштат</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="штат"/>
 	</card>
 	<card>
 		<k>ыштатный</k>
+		<pos>adj</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>штатный; состоящий в штате.</blockquote>
+		<trn>штатный; состоящий в штате.</trn>
 	</card>
 	<card>
 		<k>ыштоо</k>
+		<pos>ger</pos>
 		<actionNoun word="ышта"/>
 		<meaning>
-			<blockquote>копчение (кожи, овчины);</blockquote>
+			<trn>копчение (кожи, овчины);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>выкуривание (зверя из норы).</blockquote>
+			<trn>выкуривание (зверя из норы).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ыштуу</k>
-		<blockquote>(о коже) копчёный, продымлённый, обработанный окуриванием.</blockquote>
+		<pos>adj</pos>
+		<trn>(о коже) копчёный, продымлённый, обработанный окуриванием.</trn>
 	</card>
 	<card>
 		<k>ыштык</k>
-		<blockquote>коптильня (примитивная - для обработки кожи окуриванием);</blockquote>
-		<blockquote>кол ыштык коптильня с одним отверстием, вырытая в земле;</blockquote>
+		<pos>n</pos>
+		<trn>коптильня (примитивная - для обработки кожи окуриванием);</trn>
+		<blockquote>кол ыштык@@ коптильня с одним отверстием, вырытая в земле;</blockquote>
 		<ex>
 			<source>мурунунан чыккан буу, кол ыштыктай буркурап фольк.</source>
 			<target>пар, исходящий из ноздрей (богатыря), валит клубами, будто (дым) из коптильни.</target>
@@ -7999,31 +8025,36 @@
 	</card>
 	<card>
 		<k>ыштырап</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="штраф"/>
-		<blockquote>ыштырап сал-штрафовать.</blockquote>
+		<blockquote>ыштырап сал-@@ штрафовать.</blockquote>
 	</card>
 	<card>
 		<k>ышчот</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="счёт"/>
 	</card>
 	<card>
 		<k>ышылда-</k>
-		<blockquote>шипеть (напр. о змее).</blockquote>
+		<pos>v</pos>
+		<trn>шипеть (напр. о змее).</trn>
 	</card>
 	<card>
 		<k>ышылдат-</k>
+		<pos>v</pos>
 		<caus word="ышылда"/>
 	</card>
 	<card>
 		<k>ышын-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>лениво ворочаться (в постели, не желая вставать);</blockquote>
+			<trn>лениво ворочаться (в постели, не желая вставать);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>быть нерешительным;</blockquote>
-			<blockquote>ышынбай решительно, смело;</blockquote>
+			<trn>быть нерешительным;</trn>
+			<blockquote>ышынбай@@ решительно, смело;</blockquote>
 			<ex>
 				<source>ышынбай жоого тийип бак фольк.</source>
 				<target>смело напади на врага.</target>
@@ -8033,38 +8064,44 @@
 	<card>
 		<k>ышынчаак</k>
 		<meaning>
-			<blockquote>лежебока, соня (гл. обр. о том, кто с трудом просыпается; лениво встаёт с постели);</blockquote>
+			<pos>n</pos>
+			<trn>лежебока, соня (гл. обр. о том, кто с трудом просыпается; лениво встаёт с постели);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>нерешительный; вялый.</blockquote>
+			<pos>adj</pos>
+			<trn>нерешительный; вялый.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ышынчаактык</k>
-		<blockquote>нерешительность, несмелость; вялость.</blockquote>
+		<pos>n</pos>
+		<trn>нерешительность, несмелость; вялость.</trn>
 	</card>
 	<card>
 		<k>ыя</k>
+		<pos>ij</pos>
 		<meaning>
-			<blockquote>да!, я! (отклик);</blockquote>
+			<trn>да!, я! (отклик);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>а? (вопрос с оттенком удивления или неудовольствия);</blockquote>
-			<blockquote>сен айтпадыңбы, ыя! а разве ты не сказал, а?</blockquote>
-			<blockquote>сен ким, ыя? ты, кто такой, а?</blockquote>
-			<blockquote>эмне үчүн мени ээрчийсиң, ыя? ты что за мной ходишь, а?</blockquote>
-			<blockquote>сен кайда жүрөсүң, ыя? ты где это шатаешься, а?</blockquote>
-			<blockquote>эмне эле ойлонуп калгансың, ыя? что это ты так задумался, а?</blockquote>
-			<blockquote>Асан балам, бул эмне деген кебиң, ыя? дитя моё Асан, что у тебя за речи такие, а? дитя моё Асан, что это ты такое выдумал, а?</blockquote>
-			<blockquote>чогулушту ачышка акыны кайдан алдың сен, ыя? чего это ты присвоил право открывать собрание, а?</blockquote>
+			<trn>а? (вопрос с оттенком удивления или неудовольствия);</trn>
+			<blockquote>сен айтпадыңбы, ыя!@@ а разве ты не сказал, а?</blockquote>
+			<blockquote>сен ким, ыя?@@ ты, кто такой, а?</blockquote>
+			<blockquote>эмне үчүн мени ээрчийсиң, ыя?@@ ты что за мной ходишь, а?</blockquote>
+			<blockquote>сен кайда жүрөсүң, ыя?@@ ты где это шатаешься, а?</blockquote>
+			<blockquote>эмне эле ойлонуп калгансың, ыя?@@ что это ты так задумался, а?</blockquote>
+			<blockquote>Асан балам, бул эмне деген кебиң, ыя?@@ дитя моё Асан, что у тебя за речи такие, а? дитя моё Асан, что это ты такое выдумал, а?</blockquote>
+			<blockquote>чогулушту ачышка акыны кайдан алдың сен, ыя?@@ чего это ты присвоил право открывать собрание, а?</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>ыяз</k>
+		<pos>n</pos>
 		<sameas word="ныяз"/>
 	</card>
 	<card>
 		<k>ыяла-</k>
-		<blockquote>откликаться (на оклик).</blockquote>
+		<pos>v</pos>
+		<trn>откликаться (на оклик).</trn>
 	</card>
 </root>
