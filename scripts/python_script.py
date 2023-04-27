@@ -102,7 +102,7 @@ with open(inputFilename, 'r' ) as f:
     
 # <blockquote>адамдан заты бир бөлөк фольк. он лучший из людей (букв. его сущность особая от людей);</blockquote>
 # <blockquote>зордун түбү кор болот погов. конец насилия - позор (насилием доброго имени не заслужишь);</blockquote>
-    content_new = re.sub('<blockquote>(.+) (фольк\.|погов\.|стих\.|ист\.) (.+.)</blockquote>', r'<ex><source>\1 \2</source><target>\3</target></ex>', content_new, flags = re.M)
+    # content_new = re.sub('<blockquote>(.+) (фольк\.|погов\.|стих\.|ист\.) (.+.)</blockquote>', r'<ex><source>\1 \2</source><target>\3</target></ex>', content_new, flags = re.M)
 
 
 # <blockquote>(ср. зер V)</blockquote>
