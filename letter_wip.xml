@@ -6056,7 +6056,10 @@
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="жыргал"/>
-			<blockquote>ыргал жан@@ то же, что ыргалжан.</blockquote>
+			<ex>
+				<source>ыргал жан</source>
+				<target>то же, что ыргалжан.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<pass word="ырга" index="1"/>
