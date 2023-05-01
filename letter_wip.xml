@@ -396,18 +396,19 @@
 	</card>
 	<card>
 		<k>овкат</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="оокат" subindex="1"/>
 	</card>
 	<card>
 		<k>овлад</k>
-		<blockquote>ар. южн.</blockquote>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
 		<blockquote>род, племя;</blockquote>
 		<blockquote>овлади найман его род - найман, он принадлежит к племени найман.</blockquote>
 	</card>
 	<card>
 		<k>овлай</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="олуя"/>
 	</card>
 	<card>
@@ -483,7 +484,7 @@
 	</card>
 	<card>
 		<k>огон</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>ему.</blockquote>
 	</card>
 	<card>
@@ -508,7 +509,7 @@
 	<card>
 		<k>одо,</k>
 		<blockquote>одо, ондо</blockquote>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="анда" index="1"/>
 	</card>
 	<card>
@@ -518,7 +519,7 @@
 	<card>
 		<k>одон,</k>
 		<blockquote>одон, онон</blockquote>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="андан"/>
 	</card>
 	<card>
@@ -636,13 +637,14 @@
 	</card>
 	<card>
 		<k>ожерде</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>там, в том месте.</blockquote>
 	</card>
 	<card>
 		<k>ожура</k>
 		<meta>(или ожыра)</meta>
-		<blockquote>ар. южн.</blockquote>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
 		<meaning>
 			<blockquote>гостиная;</blockquote>
 		</meaning>
@@ -664,13 +666,13 @@
 	</card>
 	<card>
 		<k>озгор-</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>понуд. от оз-,</blockquote>
 		<sameas word="оздур"/>
 	</card>
 	<card>
 		<k>озгоруш</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<actionNoun word="озгор"/>
 	</card>
 	<card>
@@ -917,7 +919,7 @@
 	</card>
 	<card>
 		<k>ойдук</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>заплата, латка.</blockquote>
 	</card>
 	<card>
@@ -945,12 +947,12 @@
 	<card>
 		<k>ойер</k>
 		<meta>(или онойер)</meta>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="оноер"/>
 	</card>
 	<card>
 		<k>ойетте</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>там, в том месте.</blockquote>
 	</card>
 	<card>
@@ -1090,7 +1092,7 @@
 	</card>
 	<card>
 		<k>ойлосолув</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>рассудительный.</blockquote>
 	</card>
 	<card>
@@ -1174,7 +1176,7 @@
 	<card>
 		<k>оймотеке,</k>
 		<blockquote>оймотеке, оймотекей</blockquote>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="шырдамал"/>
 	</card>
 	<card>
@@ -1308,7 +1310,9 @@
 				<trn>игры молодёжи во время свадебного обряда;</trn>
 			</meaning>
 			<meaning>
-				<trn>сев. этн. подарки от жениха родственницам невесты (за увеселения, устраивавшиеся в ауле невесты во время посещения её женихом);</trn>
+				<meta>сев.</meta>
+				<meta>этн.</meta>
+				<trn>подарки от жениха родственницам невесты (за увеселения, устраивавшиеся в ауле невесты во время посещения её женихом);</trn>
 			</meaning>
 		</minicard>
 		<blockquote>алаканына ойнот- распоряжаться кем-л., требуя беспрекословного подчинения; держать в полном подчинении;</blockquote>
@@ -1657,7 +1661,7 @@
 	</card>
 	<card>
 		<k>октов</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="үбөлүк"/>
 	</card>
 	<card>
@@ -2073,7 +2077,7 @@
 	</card>
 	<card>
 		<k>ол</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>(иногда встречается и в эпосе)</blockquote>
 		<sameas word="ал" index="2"/>
 		<blockquote>онусу он, тот (из них);</blockquote>
@@ -2259,7 +2263,7 @@
 	</card>
 	<card>
 		<k>олоймок</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="көмөч"/>
 	</card>
 	<card>
@@ -2594,7 +2598,7 @@
 	</card>
 	<card>
 		<k>омко</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="оңко"/>
 	</card>
 	<card>
@@ -2769,7 +2773,7 @@
 			<blockquote>он экиден бири жок, уй байларга жиби жок у него абсолютно ничего нет, у него хоть шаром покати (букв. из двенадцати нет ни одного (см. үзүк), нет верёвки, чтобы привязать корову).</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<sameas word="ал" index="2"/>
 			<blockquote>то, тот;</blockquote>
 			<blockquote>он немнеси онун? что это он такое (делает) ?, что это с ним такое?, что это у него такое?</blockquote>
@@ -2892,14 +2896,14 @@
 	</card>
 	<card>
 		<k>ондай</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>вон такой; вон так;</blockquote>
 		<blockquote>ондай-мундай такой и этакий; так и этак.</blockquote>
 	</card>
 	<card>
 		<k>ондо</k>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<sameas word="анда" index="1"/>
 		</homonym>
 		<homonym>
@@ -2955,7 +2959,7 @@
 	</card>
 	<card>
 		<k>ондон</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="андан"/>
 	</card>
 	<card>
@@ -3152,23 +3156,23 @@
 	<card>
 		<k>оно</k>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<sameas word="ошо"/>
 			<blockquote>оно як та сторона;</blockquote>
 			<blockquote>оно якта в той стороне, там.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<sameas word="онов" index="1"/>
 			<blockquote>ономон көтөрүлүп кетти у меня выпало из памяти, я забыл.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<blockquote>вспоминать;</blockquote>
 			<blockquote>ж йд рим, сени оносом, кантип турам күбүнбөй фольк. разве я, милая, могу не гореть, когда вспоминаю тебя?</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<sameas word="ойно"/>
 		</homonym>
 	</card>
@@ -3180,30 +3184,31 @@
 	<card>
 		<k>онов</k>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<actionNoun word="оно" index="3"/>
 			<blockquote>мысль, память;</blockquote>
 			<blockquote>оновдон кетпейт к вл риң фольк. твои слова не выходят из памяти.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>южн. тот, вон тот;</blockquote>
+			<meta>южн.</meta>
+			<blockquote>тот, вон тот;</blockquote>
 			<blockquote>онов якта там, вов там, в той стороне.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>онову</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>оногу талас. вон тот.</blockquote>
 	</card>
 	<card>
 		<k>оноер</k>
 		<meta>(или оер)</meta>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>то место.</blockquote>
 	</card>
 	<card>
 		<k>оноетте</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>там, в том месте.</blockquote>
 	</card>
 	<card>
@@ -3256,7 +3261,7 @@
 	</card>
 	<card>
 		<k>онон</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="андан"/>
 	</card>
 	<card>
@@ -3399,7 +3404,7 @@
 	</card>
 	<card>
 		<k>ончо</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="анча"/>
 	</card>
 	<card>
@@ -3561,7 +3566,7 @@
 	</card>
 	<card>
 		<k>оодарышмак</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="эңиш" index="3" subindex="1"/>
 	</card>
 	<card>
@@ -3752,7 +3757,7 @@
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<blockquote>неправ. вместо авиз (см.);</blockquote>
 			<blockquote>эл суу ала турган ооздун боюнда на берегу пруда, из которого народ берёт воду.</blockquote>
 		</homonym>
@@ -3815,7 +3820,7 @@
 	</card>
 	<card>
 		<k>ооздурук</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="ооздук" index="1"/>
 	</card>
 	<card>
@@ -3900,7 +3905,7 @@
 			<blockquote>эл оокаттанып, турмуш көңүлдүү болду народ стал зажиточным, жизнь стала радостной;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>2. южн.</blockquote>
+			<meta>южн.</meta>
 			<blockquote>есть, кушать.</blockquote>
 		</meaning>
 	</card>
@@ -4010,7 +4015,7 @@
 			<sameas word="ноолу"/>
 		</homonym>
 		<homonym>
-			<blockquote>южн.</blockquote>
+			<meta>южн.</meta>
 			<sameas word="авли"/>
 			<blockquote>оолунун ичин каза бергиле копайте во дворе.</blockquote>
 		</homonym>
@@ -4384,7 +4389,7 @@
 	</card>
 	<card>
 		<k>оот</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="обут"/>
 	</card>
 	<card>
@@ -4569,7 +4574,7 @@
 	</card>
 	<card>
 		<k>опкун</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>трясина.</blockquote>
 	</card>
 	<card>
@@ -4932,7 +4937,8 @@
 	</card>
 	<card>
 		<k>опшим</k>
-		<blockquote>р. южн.</blockquote>
+		<origin>р.</origin>
+		<meta>южн.</meta>
 		<blockquote>в общем, вообще;</blockquote>
 		<blockquote>опшим, причинасы болмоюнча мындай кылбайт вообще, если нет причины, он так не поступит.</blockquote>
 	</card>
@@ -4968,7 +4974,8 @@
 	</card>
 	<card>
 		<k>оразгар</k>
-		<blockquote>ир. южн.</blockquote>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
 		<blockquote>хозяйство (семья, дом, домашние дела и т.п.).</blockquote>
 	</card>
 	<card>
@@ -4998,7 +5005,7 @@
 	</card>
 	<card>
 		<k>оргачар</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="очогор"/>
 	</card>
 	<card>
@@ -5363,7 +5370,7 @@
 	</card>
 	<card>
 		<k>орогон</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>название кушанья.</blockquote>
 	</card>
 	<card>
@@ -5585,7 +5592,7 @@
 	</card>
 	<card>
 		<k>оромо</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="дикек"/>
 	</card>
 	<card>
@@ -5702,7 +5709,7 @@
 	</card>
 	<card>
 		<k>ороом</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<meta>(ср. тат., башк. урам, каз. орам)</meta>
 		<meaning>
 			<blockquote>приусадебный участок колхозника;</blockquote>
@@ -5750,7 +5757,7 @@
 	</card>
 	<card>
 		<k>орошо</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>овечий помёт.</blockquote>
 	</card>
 	<card>
@@ -5894,7 +5901,7 @@
 	</card>
 	<card>
 		<k>ортомчу</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="жуучу"/>
 	</card>
 	<card>
@@ -6199,7 +6206,7 @@
 	</card>
 	<card>
 		<k>осар</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="ооздук" index="1"/>
 		<blockquote>удила.</blockquote>
 	</card>
@@ -6652,7 +6659,7 @@
 	</card>
 	<card>
 		<k>оттуз</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="отуз"/>
 	</card>
 	<card>
@@ -6740,7 +6747,8 @@
 	</card>
 	<card>
 		<k>отура</k>
-		<blockquote>южн. из уйг.,</blockquote>
+		<meta>южн.</meta>
+		<blockquote>из уйг.,</blockquote>
 		<sameas word="орто" subindex="1"/>
 	</card>
 	<card>
@@ -6869,7 +6877,7 @@
 	</card>
 	<card>
 		<k>охлов</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<sameas word="үбөлүк"/>
 		<blockquote>скалка.</blockquote>
 	</card>
@@ -7011,7 +7019,7 @@
 	</card>
 	<card>
 		<k>ошетте</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>то же, что ошерде (см. ошер).</blockquote>
 	</card>
 	<card>
@@ -7126,7 +7134,7 @@
 	</card>
 	<card>
 		<k>ошояк</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>то место, та сторона;</blockquote>
 		<blockquote>ошоякта там, в той стороне;</blockquote>
 		<blockquote>ошояктан оттуда, с той стороны.</blockquote>
@@ -7204,7 +7212,7 @@
 	</card>
 	<card>
 		<k>оюлма</k>
-		<blockquote>южн.</blockquote>
+		<meta>южн.</meta>
 		<blockquote>горная дорога, тропа, идущая вверх.</blockquote>
 	</card>
 	<card>
