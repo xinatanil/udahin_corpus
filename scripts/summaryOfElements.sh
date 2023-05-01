@@ -1,1 +1,1 @@
-saxon -xsl:playground.xsl -s:../letter_wip.xml -o:output.txt
+saxon -xsl:summaryOfElements.xsl -s:../letter_wip.xml -o:output.txt
