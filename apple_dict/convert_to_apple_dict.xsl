@@ -28,6 +28,9 @@
                   <xsl:copy-of select="udn:processMeaning(., 0)" />
                 </xsl:when>
                 <xsl:when test="count(meaning) = 1">
+                  <xsl:message terminate="yes">
+                    <xsl:value-of select="$word"/>
+                  </xsl:message>
                   <xsl:value-of select="error()" />
                   <!-- should never happen, check XML -->
                 </xsl:when>
