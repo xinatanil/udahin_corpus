@@ -422,10 +422,12 @@
 	</card>
 	<card>
 		<k>ызылдоо</k>
+		<pos>ger</pos>
 		<actionNoun word="ызылда"/>
 	</card>
 	<card>
 		<k>ызыңда-</k>
+		<pos>v</pos>
 		<sameas word="ызылда"/>
 		<ex>
 			<source>ызыңдап сурай бер-</source>
@@ -438,6 +440,7 @@
 	</card>
 	<card>
 		<k>ызыңдуу</k>
+		<pos>adj</pos>
 		<trn>со свистом, с жужжанием;</trn>
 		<ex>
 			<source>ызыңдуу ок үнү</source>
@@ -446,11 +449,13 @@
 	</card>
 	<card>
 		<k>ызырык</k>
+		<pos>n</pos>
 		<meta>тяньш.</meta>
 		<sameas word="ысырык"/>
 	</card>
 	<card>
 		<k>ызырын-</k>
+		<pos>v</pos>
 		<trn>зло набрасываться, набрасываться с кулаками, быть готовым броситься в драку, свирепеть;</trn>
 		<ex>
 			<source>кабактарын түйүп, ызырынды</source>
@@ -463,10 +468,12 @@
 	</card>
 	<card>
 		<k>ызырынуу</k>
+		<pos>ger</pos>
 		<actionNoun word="ызырын"/>
 	</card>
 	<card>
 		<k>ызырыныш-</k>
+		<pos>v</pos>
 		<recv word="ызырын"/>
 		<ex>
 			<source>экөө колунан келишинче тилдеди, ызырынышты</source>
@@ -475,11 +482,13 @@
 	</card>
 	<card>
 		<k>ызычуу</k>
-		<blockquote>то же, что ызы-чуу (см. ызы).</blockquote>
+		<pos>n</pos>
+		<trn>то же, что ызы-чуу (см. ызы).</trn>
 	</card>
 	<card>
 		<k>ый</k>
 		<homonym>
+			<pos>n</pos>
 			<trn>плач;</trn>
 			<ex>
 				<source>ыйга кир-</source>
@@ -507,11 +516,13 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>название буквы й.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>ыйбаа</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>стыд, стыдливость; скромность;</trn>
 		<ex>
@@ -541,6 +552,7 @@
 	</card>
 	<card>
 		<k>ыйбаалуу</k>
+		<pos>adj</pos>
 		<trn>стыдливый, застенчивый; скромный;</trn>
 		<ex>
 			<source>кыздын жанында ыйбаалуу сылык жүрдү</source>
@@ -549,10 +561,12 @@
 	</card>
 	<card>
 		<k>ыйбарат</k>
+		<pos>n</pos>
 		<sameas word="ибрет"/>
 	</card>
 	<card>
 		<k>ыйгар-</k>
+		<pos>v</pos>
 		<trn>намечать, предназначать;</trn>
 		<ex>
 			<source>председателдикке кимди ыйгардыңар?</source>
@@ -569,6 +583,7 @@
 	</card>
 	<card>
 		<k>ыйгарыл-</k>
+		<pos>v</pos>
 		<pass word="ыйгар"/>
 		<ex>
 			<source>жеңиш дагы ага ыйгарылды</source>
@@ -577,6 +592,7 @@
 	</card>
 	<card>
 		<k>ыйгаштырыл-</k>
+		<pos>v</pos>
 		<sameas word="ыйгарыл"/>
 		<ex>
 			<source>экинчи жана үчүнчү орунду ээлегендерге желекчелер ыйгаштырылат</source>
@@ -585,6 +601,7 @@
 	</card>
 	<card>
 		<k>ыйгылык</k>
+		<pos>n</pos>
 		<minicard>
 			<k>ыйгылыгым чычкылык болду</k>
 			<trn>я совсем замотался; я не знаю, за что хвататься (и то у меня не ладится, и это не устраивается).</trn>
@@ -592,19 +609,23 @@
 	</card>
 	<card>
 		<k>ыйзат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>почтение, уважение.</trn>
 	</card>
 	<card>
 		<k>ыйзатта-</k>
+		<pos>v</pos>
 		<trn>уважать, оказывать почтение.</trn>
 	</card>
 	<card>
 		<k>ыйзатташ-</k>
+		<pos>v</pos>
 		<recv word="ыйзатта"/>
 	</card>
 	<card>
 		<k>ыйзаттуу</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>уважаемый, чтимый;</trn>
 		</meaning>
@@ -618,6 +639,7 @@
 	</card>
 	<card>
 		<k>ыйзаттык</k>
+		<pos>n</pos>
 		<trn>уважение, почтение;</trn>
 		<minicard>
 			<k>ыйзаттык кыл-</k>
@@ -626,6 +648,7 @@
 	</card>
 	<card>
 		<k>ыйка-</k>
+		<pos>v</pos>
 		<trn>ёрзать;</trn>
 		<ex>
 			<source>безбелдекче көтүн ыйкап олтурат</source>
@@ -638,6 +661,7 @@
 	</card>
 	<card>
 		<k>ыйкы</k>
+		<pos>n</pos>
 		<minicard>
 			<k>ыйкы-тыйкы</k>
 			<trn>разлад, разброд, разноголосица; ссора, нелады;</trn>
@@ -657,6 +681,7 @@
 	</card>
 	<card>
 		<k>ыйла-</k>
+		<pos>v</pos>
 		<trn>плакать;</trn>
 		<ex>
 			<source>кан ыйла-</source>
@@ -678,18 +703,22 @@
 	<card>
 		<k>ыйлаак</k>
 		<meaning>
+			<pos>adj</pos>
 			<trn>плакса, нюня; плаксивый;</trn>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<trn>волдырь, пузырёк, наполненный жидкостью (напр. на околожелудочном жире овцы, коровы или на теле от ожогов); мокнущая мозоль.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ыйлаакта-</k>
+		<pos>v</pos>
 		<trn>образоваться - о волдыре, пузырьке, о мокнущей мозоли.</trn>
 	</card>
 	<card>
 		<k>ыйлаактан-</k>
+		<pos>v</pos>
 		<refv word="ыйлаакта"/>
 		<ex>
 			<source>зоонун боорунан ыйлаактанып сыгылып чыккан башат</source>
@@ -698,6 +727,7 @@
 	</card>
 	<card>
 		<k>ыйлаактат-</k>
+		<pos>v</pos>
 		<caus word="ыйлаакта"/>
 		<ex>
 			<source>колун ыйлаактатып, күйгүзүп алыптыр</source>
@@ -706,6 +736,7 @@
 	</card>
 	<card>
 		<k>ыйлакта-</k>
+		<pos>v</pos>
 		<trn>делать что-л. неохотно;</trn>
 		<ex>
 			<source>ыйлактабай козу байла</source>
@@ -714,6 +745,7 @@
 	</card>
 	<card>
 		<k>ыйламаксан</k>
+		<pos>adv</pos>
 		<minicard>
 			<k>ыйлар-ыйламаксан болуп</k>
 			<trn>будто плача.</trn>
@@ -721,10 +753,12 @@
 	</card>
 	<card>
 		<k>ыйламсыра-</k>
+		<pos>v</pos>
 		<trn>быть готовым вот-вот заплакать.</trn>
 	</card>
 	<card>
 		<k>ыйлат-</k>
+		<pos>v</pos>
 		<caus word="ыйла"/>
 		<meta>прям.</meta>
 		<meta>перен.</meta>
@@ -740,6 +774,7 @@
 	</card>
 	<card>
 		<k>ыйлаш-</k>
+		<pos>v</pos>
 		<recv word="ыйла"/>
 		<ex>
 			<source>ыйлашарга өз жакшы, сыйлашарга жат жакшы погов.</source>
@@ -748,11 +783,13 @@
 	</card>
 	<card>
 		<k>ыйлоо</k>
+		<pos>ger</pos>
 		<actionNoun word="ыйла"/>
 		<trn>плач.</trn>
 	</card>
 	<card>
 		<k>ыйлуу</k>
+		<pos>adj</pos>
 		<trn>с плачем;</trn>
 		<ex>
 			<source>ыйлуу, жаштуу, трагедиялуу кырдаалдар</source>
@@ -761,11 +798,13 @@
 	</card>
 	<card>
 		<k>ыймам</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>имам (ведущий богослужение в мечети; настоятель мечети).</trn>
 	</card>
 	<card>
 		<k>ыйман</k>
+		<pos>n</pos>
 		<sameas word="ыман"/>
 		<ex>
 			<source>ыйман айт- <i>или</i> ыйман угуз- <i>или</i> ыйман кыл-</source>
@@ -810,6 +849,7 @@
 	</card>
 	<card>
 		<k>ыймандаш</k>
+		<pos>n</pos>
 		<sameas word="ымандаш"/>
 		<ex>
 			<source>а дүйнөдө ыймандаш, бу дүйнөдө жыйгандаш фольк.</source>
@@ -822,27 +862,33 @@
 	</card>
 	<card>
 		<k>ыймандуу</k>
+		<pos>adj</pos>
 		<sameas word="ымандуу"/>
 	</card>
 	<card>
 		<k>ыймансыз</k>
+		<pos>adj</pos>
 		<sameas word="ымансыз"/>
 	</card>
 	<card>
 		<k>ыймарат</k>
+		<pos>n</pos>
 		<sameas word="имарат"/>
 	</card>
 	<card>
 		<k>ыймаратчыл</k>
+		<pos>n</pos>
 		<meta>уст.</meta>
 		<trn>строитель, зодчий.</trn>
 	</card>
 	<card>
 		<k>ыйчы</k>
 		<meaning>
+			<pos>n</pos>
 			<trn>плакальщица;</trn>
 		</meaning>
 		<meaning>
+			<pos>adj</pos>
 			<meta>перен.</meta>
 			<trn>плаксивый.</trn>
 		</meaning>
@@ -850,6 +896,7 @@
 	<card>
 		<k>ыйык</k>
 		<meaning>
+			<pos>adj</pos>
 			<trn>священный, приносящий счастье;</trn>
 			<ex>
 				<source>коом мүлкү - ыйык мүлк</source>
@@ -877,6 +924,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<meta>уст.</meta>
 			<trn>священное домашнее животное (пущенное в стадо с тем, чтобы его не резать и не употреблять в дело; местами лошадей из числа таких животных исключают);</trn>
 			<ex>
@@ -914,6 +962,7 @@
 			</minicard>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<trn>лучшее из диких парнокопытных;</trn>
 			<ex>
 				<source>аскада оттоп жайылган кийик болот турбайбы; адис мерген атканы ыйык болот турбайбы фольк.</source>
@@ -921,6 +970,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<trn>(чаще ыйык жал) холка;</trn>
 			<ex>
 				<source>ыйык жалдан карасам, араба баскан тагы бар фольк.</source>
@@ -928,6 +978,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<trn>верхняя часть лопатки (у лошади);</trn>
 			<ex>
 				<source>аттын ыйыгына минип калдык</source>
@@ -935,6 +986,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<trn>плечо (человека);</trn>
 			<ex>
 				<source>мылтыкты ыйыкка салып алып</source>
@@ -968,6 +1020,7 @@
 	</card>
 	<card>
 		<k>ыйыктык</k>
+		<pos>n</pos>
 		<abstract word="ыйык" subindex="1"/>
 		<ex>
 			<source>адамдын колу барбаган ыйыктыгы бар экен фольк.</source>
@@ -980,6 +1033,7 @@
 	</card>
 	<card>
 		<k>ыйын-</k>
+		<pos>v</pos>
 		<trn>тужиться, пыжиться;</trn>
 		<ex>
 			<source>ыйынып-ычкынып</source>
@@ -989,6 +1043,7 @@
 	<card>
 		<k>ык</k>
 		<homonym>
+			<pos>adj</pos>
 			<meaning>
 				<trn>крепкий, прочный;</trn>
 				<ex>
@@ -1013,6 +1068,7 @@
 			</meaning>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<sameas word="дык"/>
 			<ex>
 				<source>ык салып, таң агарса</source>
@@ -1051,6 +1107,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>n</pos>
 				<trn>приём, метод;</trn>
 				<ex>
 					<source>жаңы ыктарды кеңири колдонолу</source>
@@ -1187,6 +1244,7 @@
 			</meaning>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<trn>икота;</trn>
 			<minicard>
 				<k>ык тут-</k>
@@ -1202,6 +1260,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<compare word="ыдык"/>
 			<minicard>
 				<k>ык көр-</k>
@@ -1213,6 +1272,7 @@
 			</minicard>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<meaning>
 				<trn>(о животных) идти по ветру, спасаясь от него; спасаться от непогоды;</trn>
 				<ex>
@@ -1259,16 +1319,19 @@
 	</card>
 	<card>
 		<k>ыкарат</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<sameas word="каяша"/>
 	</card>
 	<card>
 		<k>ыквал</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="ыкыбал"/>
 	</card>
 	<card>
 		<k>ыклас</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<trn>внимание, прилежание;</trn>
 		<minicard>
