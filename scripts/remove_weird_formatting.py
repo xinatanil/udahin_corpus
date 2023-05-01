@@ -16,6 +16,9 @@ with open(inputFilename, 'r' ) as f:
 
     content_new = re.sub('южн\.\n\t\t</blockquote>', r'южн.</blockquote>', content_new, flags = re.M)
     content_new = re.sub('<blockquote>\n\t\t\tюжн\.', r'<blockquote>южн.', content_new, flags = re.M)
+
+    content_new = re.sub('южн\.\n      </blockquote>', r'южн.</blockquote>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>\n         южн\.', r'<blockquote>южн.', content_new, flags = re.M)
     
     outputFile = open(outputFilename, "w")
     outputFile.write(content_new)
