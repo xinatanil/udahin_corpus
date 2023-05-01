@@ -1,1 +1,1 @@
-saxon -xsl:playground.xsl -s:../kg_ru_yudahin.xml -o:output.xml
+saxon -xsl:printFinishedCounters.xsl -s:../kg_ru_yudahin.xml -o:output.xml
