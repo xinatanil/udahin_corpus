@@ -5871,58 +5871,91 @@
 	</card>
 	<card>
 		<k>ооналактат-</k>
+		<pos>v</pos>
 		<caus word="ооналакта"/>
-		<blockquote>ой жүгүртүү аны ооналактатып, тынчын кетирди размышления лишили его покоя, заставив переворачиваться с боку на бок.</blockquote>
+		 <ex>
+		  <sourse>ой жүгүртүү аны ооналактатып, тынчын кетирди</source>
+		  <target>размышления лишили его покоя, заставив переворачиваться с боку на бок.</target>
+		 </ex>
 	</card>
 	<card>
 		<k>оонат-</k>
+		<pos>v</pos>
 		<caus word="оона" index="2"/>
 	</card>
 	<card>
 		<k>оонаттыр-</k>
+		<pos>v</pos>
 		<caus word="оонат"/>
-		<blockquote>ат оонаттыр- дать лошади поваляться.</blockquote>
+		<ex>
+		<source>ат оонаттыр</source>
+		<target>дать лошади поваляться.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ооңкура-</k>
-		<blockquote>накрениться;</blockquote>
-		<blockquote>эси ооңкурап калган он впал в лёгкое беспамятство; он близок к состоянию беспамятства.</blockquote>
+		<pos>v</pos>
+		<trn>накрениться;</trn>
+		 <ex>
+		   <source>эси ооңкурап калган</source>
+		   <target>он впал в лёгкое беспамятство; он близок к состоянию беспамятства.</target>
+		   </ex>
 	</card>
 	<card>
 		<k>оопа</k>
+		<pos>int</pos>
 		<sameas word="опаа"/>
 	</card>
 	<card>
 		<k>оопаз</k>
-		<blockquote>кастрированный бычок по четвёртому году.</blockquote>
+		<pos>n</pos>
+		<trn>кастрированный бычок по четвёртому году.</trn>
 	</card>
 	<card>
 		<k>оопай</k>
-		<blockquote>(о недалёком человеке) нерешительный, непостоянный.</blockquote>
+		<pos>adj</pos>
+		<trn>(о недалёком человеке) нерешительный, непостоянный.</trn>
 	</card>
 	<card>
 		<k>оопайлык</k>
-		<blockquote>нерешительность, непостоянство (человека недалёкого).</blockquote>
+		<pos>n</pos>
+		<trn>нерешительность, непостоянство (человека недалёкого).</trn>
 	</card>
 	<card>
 		<k>оопас</k>
+		<pos>n</pos>
 		<sameas word="оопаз"/>
 	</card>
 	<card>
 		<k>оопасыз</k>
+		<pos>adj</pos>
 		<sameas word="опаасыз"/>
 	</card>
 	<card>
 		<k>оор</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>тяжёлый;</blockquote>
-			<blockquote>таш түшкөн жеринде оор погов. камень тяжёл в месте своего падения;</blockquote>
-			<blockquote>оор жүк тяжёлый груз;</blockquote>
+			<trn>тяжёлый</trn>
+	       <ex>
+			 <source>таш түшкөн жеринде оор</source>
+			 <target>погов. камень тяжёл в месте своего падения</target>
+		   </ex> 
+		   <ex> 
+			<source>оор жүк</source>
+			<target>тяжёлый груз</target>
+		   </ex>
 		</meaning>
 		<meaning>
-			<blockquote>трудный;</blockquote>
-			<blockquote>оор иш трудное дело;</blockquote>
-			<blockquote>оорду колдон, жеңилди жерден алат он человек обязательный, обходительный (не обидит, всегда поможет);</blockquote>
+			<trn>трудный</trn>
+			 <ex>
+			  <source>оор иш</source>
+			  <target>трудное дело</target>
+			 </ex>
+			 <ex>
+			 <source>оорду колдон, жеңилди жерден алат</source>
+			 <target>он человек обязательный, обходительный (не обидит, всегда поможет)</target>
+			</ex>
+			</meaning>
 			<minicard>
 				<k>оордун үстү, жеңилдин асты менен кайпып кетет</k>
 				<meaning>
@@ -5932,148 +5965,277 @@
 					<trn>он делает что-л. поверхностно, несерьёзно.</trn>
 				</meaning>
 			</minicard>
-		</meaning>
 	</card>
 	<card>
 		<k>оордо-</k>
-		<blockquote>становиться трудным, затруднительным;</blockquote>
-		<blockquote>тулпар жүгүн оордобойт погов. боевой конь не замечает тяжести своей ноши;</blockquote>
-		<blockquote>силердикине келдим, оордобойсуңар го дейм? я вот пришёл к вам и думаю, не буду ли вам в тягость?</blockquote>
+		<pos>ger</pos>
+		<trn>становиться трудным, затруднительным</trn>
+		<ex>
+		 <source>тулпар жүгүн оордобойт</source>
+		 <target>погов. боевой конь не замечает тяжести своей ноши</target>
+		</ex>
+		<ex>
+		 <source>силердикине келдим, оордобойсуңар го дейм?</source>
+		 <target>я вот пришёл к вам и думаю, не буду ли вам в тягость?</target>
+		</ex>
 	</card>
 	<card>
 		<k>оордук</k>
+		<pos>n</po>
 		<meaning>
-			<blockquote>тяжесть, вес;</blockquote>
-			<blockquote>оордугу бир тонна весом в одну тонну;</blockquote>
+			<trn>тяжесть,вес</trn>
+			<ex>
+			 <source>оордугу бир тонна</source>
+			 <target>весом в одну тонну</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>трудность.</blockquote>
+			<trn>трудность</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оорсок</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>(о дойном скоте) неподпускной;</blockquote>
-			<blockquote>оорсок уй неподпускная корова (корова, доящаяся без телёнка, что в старом быту было необычным);</blockquote>
-			<blockquote>обу жок катын оорсок уй саайт погов. несуразная баба корову без телёнка доит;</blockquote>
+			<trn>(о дойном скоте) неподпускной</trn>
+			<ex>
+			 <source>оорсок уй</source>
+			 <target>неподпускная корова (корова, доящаяся без телёнка, что в старом быту было необычным)</target>
+			</ex>
+			<ex>
+			 <source>обу жок катын оорсок уй саайт</source>
+			 <target>погов. несуразная баба корову без телёнка доит</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>то, что не относится к делу, пустое;</blockquote>
-			<blockquote>оорсок сөзүңдү койсоңчу! брось-ка ты пустые, не относящиеся к делу разговоры!;</blockquote>
-			<blockquote>оорсок намыс показная гордость (на самом деле гордиться нечем).</blockquote>
+			<trn>то, что не относится к делу, пустое</trn>
+			<ex>
+			 <source>оорсок сөзүңдү койсоңчу!</source>
+			 <target>брось-ка ты пустые, не относящиеся к делу разговоры!</target>
+			</ex>
+			<ex>
+			 <source>оорсок намыс</source>
+			 <target>показная гордость (на самом деле гордиться нечем).</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>оорсу-</k>
-		<blockquote>уподоб. от оор,</blockquote>
+		<pos>ger</pos>
+		<blockquote>уподоб. от оор</blockquote>
 		<sameas word="оорсун"/>
 	</card>
 	<card>
 		<k>оорсун-</k>
+		<pos>ger</pos>
 		<refv word="оорсу"/>
-		<blockquote>считать что-л. для себя тяжёлым, трудным;</blockquote>
-		<blockquote>сен мени оорсунасыңбы? тебе я в тягость, что ли?, я тебя стесняю, да?</blockquote>
+		<trn>считать что-л. для себя тяжёлым, трудным</trn>
+		 <ex>
+		  <source>сен мени оорсунасыңбы?</source>
+		  <target>тебе я в тягость, что ли?, я тебя стесняю, да?</target>
+		</ex>
 	</card>
 	<card>
 		<k>оору</k>
+		<pos>n</pos>
 		<homonym>
 			<compare word="ылаң"/>
 			<meaning>
-				<blockquote>болезнь (человека);</blockquote>
-				<blockquote>ички оорулар внутренние болезни;</blockquote>
-				<blockquote>көз оорусу болезнь глаз;</blockquote>
-				<blockquote>аялдар оорулары женские болезни;</blockquote>
-				<blockquote>жугуштуу оору заразная болезнь;</blockquote>
-				<blockquote>сары оору тоска, печаль;</blockquote>
-				<blockquote>сары оору бол- тосковать, печалиться, изводиться;</blockquote>
-				<blockquote>ак оору южн. лёгкое помешательство;</blockquote>
-				<blockquote>жин оору помешательство, сумасшествие;</blockquote>
+				<trn>болезнь (человека)</trn>
+				 <ex>
+				  <source>ички оорулар</source>
+				  <target>внутренние болезни</target>
+				</ex>
+				<ex>
+				  <source>көз оорусу</source>
+				  <target>болезнь глаз</target>
+				</ex>
+				<ex>
+				  <source>аялдар оорулары</source>
+				  <target>женские болезни</target>
+				</ex>
+				<ex>
+				  <source>жугуштуу оору</source>
+				  <target>заразная болезнь</target>
+				</ex>
+				<minicard>
+				 <k>сары оору</k>
+				 <trn>тоска, печаль</trn>
+				   <ex>
+				     <source>сары оору бол-</source>
+				     <target>тосковать, печалиться, изводиться</target>
+				  </ex>
+				</minicard>
+				<minicard>
+				  <meta>южн</meta>
+				  <k>ак оору</k>
+				  <trn>лёгкое помешательство</trn>
+				</minicard>
+				<minicard>
+				  <k>жин оору</k>
+				  <trn>помешательство, сумасшествие</trn>
+				</minicard>
 			</meaning>
 			<meaning>
-				<blockquote>больной;</blockquote>
-				<blockquote>мен оорумун я болен;</blockquote>
-				<blockquote>ит оорусу закоренелая дурная привычка (напр. к пьянству, воровству, скандалам и т.п.);</blockquote>
-				<blockquote>тил албаган ит оорусу бар он уж такой неслух, уж такой упрямец;</blockquote>
-				<blockquote>ооруга убайым жок см. убайым II.</blockquote>
+				<trn>больной</trn>
+				<ex>
+				  <source>мен оорумун</source>
+				  <target>я болен</target>
+				</ex>
+				<minicard>
+				  <k>ит оорусу</k>
+				  <trn>закоренелая дурная привычка (напр. к пьянству, воровству, скандалам и т.п.)</trn>
+				    <ex>
+				      <source>тил албаган ит оорусу бар</source>
+					  <target>он уж такой неслух, уж такой упрямец</target>
+					</ex>
+					<ex>
+				@@ооруга убайым жок@@ см. убайым II.
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
 			<compare word="ылаңда"/>
-			<blockquote>болеть, хворать (о человеке);</blockquote>
-			<blockquote>ооруп турсаң, ойноп турдум де погов. если ты болел и встал (поправился), говори, что ты развлекался (раз ты выздоровел, то прошедшая болезнь - забава);</blockquote>
-			<blockquote>кайсы жериң ооруйт? где у тебя болит?</blockquote>
-			<blockquote>башым ооруйт у меня болит голова;</blockquote>
-			<blockquote>оорубаган онтобойт см. онто-.</blockquote>
+			<pos>v</pos>
+			<trn>болеть, хворать (о человеке)</trn>
+			  <ex>
+			    <source>ооруп турсаң, ойноп турдум де</source> 
+                <target>погов. если ты болел и встал (поправился), говори, что ты развлекался (раз ты выздоровел, то прошедшая болезнь - забава)</target>
+			</ex>
+			<ex>
+			   <source>кайсы жериң ооруйт?</source>
+			   <target>где у тебя болит?</target>
+			</ex>
+			<ex>
+			   <source>башым ооруйт</source>
+			   <target>у меня болит голова</target>
+			</ex>
+			<ex>
+			@@оорубаган онтобойт см. онто-@@
+			</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>ооруз</k>
+		<pos>n</pos>
 		<sameas word="нооруз"/>
 	</card>
 	<card>
 		<k>оорук</k>
+		<pos>n</pos>
 		<meaning>
 			<meta>ист.</meta>
-			<blockquote>аул, который не мог кочевать далеко и останавливался на ближайшем летнем пастбище, отстав от общей кочёвки;</blockquote>
+			<trn>аул, который не мог кочевать далеко и останавливался на ближайшем летнем пастбище, отстав от общей кочёвки</trn>
 		</meaning>
 		<meaning>
-			<blockquote>(в эпосе) арьергард;</blockquote>
-			<blockquote>чалгынды калмак чалабы? оорукта Чубак калабы? фольк. разве в авангарде идёт калмык? разве в арьергарде остаётся Чубак?</blockquote>
+			<trn>(в эпосе) арьергард;</trn>
+			<ex>
+			  <source>чалгынды калмак чалабы? оорукта Чубак калабы?</source>
+			  <target>фольк  разве в авангарде идёт калмык? разве в арьергарде остаётся Чубак?</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>тыл (противоп. фронту).</blockquote>
+			<trn>тыл (противоп. фронту).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оорукана</k>
+		<pos>n</pos>
 		<origin>кирг.-ир.</origin>
-		<blockquote>больница.</blockquote>
+		<trn>больница.</trn>
 	</card>
 	<card>
 		<k>ооруксун-</k>
-		<blockquote>чувствовать недомогание или боль, выражая это внешне;</blockquote>
-		<blockquote>ооруксунуп аксай баскан чувствуя боль, он шёл хромая;</blockquote>
-		<blockquote>этинин ооруксунганын да унутту он забыл даже о том, что у него тело болит;</blockquote>
-		<blockquote>ооруксунуп ыңыран- покряхтывать от недомогания;</blockquote>
-		<blockquote>ооруксунган үн обиженно плаксивый голос;</blockquote>
-		<blockquote>ооруксунуп кайгырып, көзүнүн жашын тыялбайт стих. тяжело горюя, она не может унять слёз своих.</blockquote>
+		<pos>adv</pos>
+		<trn>чувствовать недомогание или боль, выражая это внешне;</trn>
+		  <ex>
+		   <source>ооруксунуп аксай</source>
+		   <target>баскан чувствуя боль, он шёл хромая;</target>
+		  </ex>
+		  <ex>
+		    <source>этинин ооруксунганын да унутту</source>
+			<target>он забыл даже о том, что у него тело болит</target>
+		  </ex>
+		  <ex>
+		    <source>ооруксунуп ыңыран</source>
+			<target>покряхтывать от недомогания;</target>
+		</ex>
+		<minicard>
+		  <k>ооруксунган үн</k>
+          <trn>обиженно плаксивый голос;</trn>
+		  <ex>
+		      <source>ооруксунуп кайгырып, көзүнүн жашын тыялбайт</source>
+		      <target>стих. тяжело горюя, она не может унять слёз своих.</trn>
+		   </ex>
+		</minicard>
 	</card>
 	<card>
 		<k>оорукчал</k>
-		<blockquote>(оорукчан)</blockquote>
-		<blockquote>болезненный, подверженный заболеваниям;</blockquote>
-		<blockquote>аялым картаң жана оорукчал моя жена стара и болезненна.</blockquote>
+		<pos>adj</pos>
+		<meta>(оорукчан)</meta>
+		<trn>болезненный, подверженный заболеваниям;</trn>
+		  <ex>
+		    <source>аялым картаң жана оорукчал</source>
+			<target>моя жена стара и болезненна.</target>
+		</ex>
 	</card>
 	<card>
 		<k>оорулук</k>
-		<blockquote>болезненность; болезнь.</blockquote>
+		<pos>n</pos>
+		<trn>болезненность; болезнь.</trn>
 	</card>
 	<card>
 		<k>оорулуу</k>
-		<blockquote>больной (прим. см. күлкү).</blockquote>
+		<pos>n</pos>
+		<trn>больной (прим. см. күлкү).</trn>
 	</card>
 	<card>
 		<k>оорумай</k>
-		<blockquote>болезнь; боль;</blockquote>
-		<blockquote>баш оорумайы бар у него бывают головные боли;</blockquote>
-		<blockquote>бутум ооруп калмайым бар у меня бывают боли в ногах;</blockquote>
-		<blockquote>оорумай-сыктамай болезни и недуги;</blockquote>
-		<blockquote>карылык толорсуктап турганда оорумай-сыктамай көп болот когда старость хватает за ноги, много бывает болезней и недугов.</blockquote>
+		<pos>n</pos>
+		<trn>болезнь; боль;</trn>
+		  <ex>
+		    <source>баш оорумайы бар</source>
+			<target>у него бывают головные боли;</target>
+		  </ex>
+		  <ex>
+		       <source>бутум ооруп калмайым бар</source>
+			   <target>у меня бывают боли в ногах;</target>
+			</ex>
+			<minicard>
+		       <k>оорумай-сыктамай</k>
+		       <trn>болезни и недуги;</trn>
+		         <ex>
+		            <source>карылык толорсуктап турганда оорумай-сыктамай көп болот</source>
+			        <target>когда старость хватает за ноги, много бывает болезней и недугов.</target>
+			     </ex>
+		</minicard>
 	</card>
 	<card>
 		<k>оорун-</k>
-		<blockquote>чувствовать боль;</blockquote>
-		<blockquote>эти оорунуп, эч бир жери майып болгону жок он только почувствовал боль в теле, но никаких повреждений не было.</blockquote>
+		<pos>v</pos>
+		<trn>чувствовать боль;</trn>
+		   <ex>
+		      <source>эти оорунуп, эч бир жери майып болгону жок</source>
+			  <target>он только почувствовал боль в теле, но никаких повреждений не было</target>
+		   </ex>
 	</card>
 	<card>
 		<k>оорут-</k>
+		<pos>v</pos>
 		<caus word="оору" index="2"/>
-		<blockquote>причинять боль;</blockquote>
-		<blockquote>бел оорутуп иште- работать до изнеможения;</blockquote>
-		<blockquote>балтыр этим ооруттум я натрудил себе (ходьбой) ноги (букв. икры).</blockquote>
+		<trn>причинять боль</trn>
+		  <ex>
+		   <source>бел оорутуп иште</source>
+		   <target>работать до изнеможения;</target>
+		</ex>
+		<ex>
+		   <source>балтыр этим ооруттум</source>
+		   <target>я натрудил себе (ходьбой) ноги (букв. икры).</target>
+		</ex>
 	</card>
 	<card>
 		<k>оорутуш</k>
+		<pos>v</pos>
 		<homonym>
 			<actionNoun word="оорут"/>
 		</homonym>
@@ -6083,156 +6245,280 @@
 	</card>
 	<card>
 		<k>ооруу</k>
+		<pos>n</pos>
 		<actionNoun word="оору" index="2"/>
 	</card>
 	<card>
 		<k>ооруш-</k>
+		<pos>n</pos>
 		<recv word="оору" index="2"/>
-		<blockquote>кай жерде көңүл ооруштук? где и чем мы обидели друг друга?</blockquote>
+		   <ex>
+		     <source>кай жерде көңүл ооруштук?</source>
+			 <target>где и чем мы обидели друг друга?</target>
+			</ex>
 	</card>
 	<card>
 		<k>оорчулук</k>
-		<blockquote>трудность, тягость, тяготы;</blockquote>
-		<blockquote>мага оорчулук келип жатат мне приходится трудно.</blockquote>
+		<pos>n</pos>
+		<trn>трудность, тягость, тяготы;</trn>
+		    <ex>
+		       <source>мага оорчулук келип жатат</source>
+			   <target>мне приходится трудно.</target>
+			</ex>
 	</card>
 	<card>
 		<k>оорчун</k>
+		<pos>n</pos>
 		<sameas word="орчун"/>
 	</card>
 	<card>
 		<k>оосур-</k>
+		<pos>v</pos>
 		<blockquote>груб.</blockquote>
-		<blockquote>испускать ветры;</blockquote>
-		<blockquote>оосурган кыз оосурбаган кыздын бетин тытыптыр погов. девица, испустившая ветры, исцарапала лицо той, которая не испускала; с больной головы на здоровую.</blockquote>
+	    <trn>испускать ветры;</trn>
+		    <ex>
+		        <source>оосурган кыз оосурбаган кыздын бетин тытыптыр</source>
+				<target>погов. девица, испустившая ветры, исцарапала лицо той, которая не испускала; с больной головы на здоровую.</target>
+			</ex>
 	</card>
 	<card>
 		<k>оосурак</k>
+		<pos>n</pos>
 		<blockquote>груб.</blockquote>
-		<blockquote>часто испускающий ветры.</blockquote>
+		<trn>часто испускающий ветры.</trn>
 	</card>
 	<card>
 		<k>оосурт-</k>
+		<pos>v</pos>
 		<caus word="оосур"/>
 	</card>
 	<card>
 		<k>оот</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="обут"/>
 	</card>
 	<card>
 		<k>ооту</k>
+		<pos>n</pos>
 		<sameas word="нооту"/>
 	</card>
 	<card>
 		<k>оочо</k>
+		<pos>n</pos>
 		<sameas word="обочо"/>
 	</card>
 	<card>
 		<k>оош</k>
+		<pos>v</pos>
 		<homonym>
 			<actionNoun word="оо" index="1"/>
-			<blockquote>оош-кыйыш взаимный обмен, взаимная помощь;</blockquote>
-			<blockquote>оош-кыйыш кылып, оокат кыл- жить, помогая друг другу;</blockquote>
-			<blockquote>оош-кыйыш кылып, мага бирдеме арттырып бериңиз вы найдите у себя какие-нибудь излишки и помогите мне.</blockquote>
+             <minicard>
+			   <k>оош-кыйыш</k>
+			   <trn>взаимный обмен, взаимная помощь;</trn>
+			     <ex>
+			      <source>оош-кыйыш кылып, оокат кыл-</source>
+				  <target>жить, помогая друг другу;</target>
+			 </ex>
+			 <ex>
+			    <source>оош-кыйыш кылып, мага бирдеме арттырып бериңиз</source>
+			    <target>вы найдите у себя какие-нибудь излишки и помогите мне.</target>
+			</ex>
+			</minicard>
 		</homonym>
 		<homonym>
-			<blockquote>меняться, обмениваться; сменять один другого;</blockquote>
-			<blockquote>күндөр өтүп, айлар алмашып, жылдар оошо берди проходили дни, менялись месяцы, и годы сменяли один другой;</blockquote>
-			<blockquote>кой оошуп кетпесин (смотрите) чтобы овцы не смешались;</blockquote>
-			<blockquote>акыл оошот, ырыс жугушат погов. ум переходит (люди обмениваются знаниями), счастье прилипает (счастье одного может осчастливить и других).</blockquote>
+		<meaning>
+		    <pos>v</pos>
+			<trn>меняться, обмениваться; сменять один другого;</trn>
+			  <ex>
+			     <source>күндөр өтүп, айлар алмашып, жылдар оошо берди</source>
+				 <target>проходили дни, менялись месяцы, и годы сменяли один другой;</target>
+			 </ex>
+			 <ex>
+			   <source>кой оошуп кетпесин</source>
+			   <target>(смотрите) чтобы овцы не смешались;</target>
+			</ex>
+			<ex>
+			    <source>акыл оошот, ырыс жугушат</source>
+			    <target>погов. ум переходит (люди обмениваются знаниями), счастье прилипает (счастье одного может осчастливить и других).</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>оошмо</k>
-		<blockquote>меняющийся, непостоянный, неустойчивый.</blockquote>
+		<pos>adj</pos>
+		<trn>меняющийся, непостоянный, неустойчивый.</trn>
 	</card>
 	<card>
 		<k>ооштур-</k>
+		<pos>v</pos>
 		<caus word="оош" index="2"/>
-		<blockquote>заменять одно другим.</blockquote>
+		<trn>заменять одно другим.</trn>
 	</card>
 	<card>
 		<k>оошуу</k>
+		<pos>n</pos>
 		<actionNoun word="оош" index="2"/>
-		<blockquote>взаимный обмен, замена;</blockquote>
-		<blockquote>табыш оошуу грам. перемещение звуков.</blockquote>
+		<trn>взаимный обмен, замена;</trn>
+		<minicard>
+		  <k>табыш оошуу</k>
+		    <trn>грам. перемещение звуков.</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>оп</k>
+		<pos>int</pos>
 		<homonym>
-			<blockquote>вдыхание, втягивание дыханием в себя;</blockquote>
-			<blockquote>оп тарт- вдохнуть, дыханием втянуть в себя;</blockquote>
-			<blockquote>ачууланып оп тартса, ай-ааламды соруптур фольк. когда (дракон), разъярившись, вдохнул, он целый мир втянул в себя;</blockquote>
-			<blockquote>ажыдаардай оп тартып, калтырбай калкын соромун фольк. вдохнув подобно дракону, я весь народ его поглощу.</blockquote>
+		<meaning>
+			<trn>вдыхание, втягивание дыханием в себя;</trn>
+			<ex>
+			  <source>оп тарт-
+			  <target>вдохнуть, дыханием втянуть в себя;</target>
+			</ex>
+			<ex>
+			   <source>ачууланып оп тартса, ай-ааламды соруптур</source>
+			   <target>фольк. когда (дракон), разъярившись, вдохнул, он целый мир втянул в себя;</target>
+			</ex>
+			<ex>
+			  <source>ажыдаардай оп тартып, калтырбай калкын соромун</source>
+			  <target>фольк. вдохнув подобно дракону, я весь народ его поглощу.</target>
+			  </ex>
+			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>оп II:</blockquote>
-			<blockquote>обу жок со странностями, несуразный, идущий вразрез с общепринятым; экстравагантный;</blockquote>
-			<blockquote>обу жок киши человек со странностями (в отношении поведения);экстравагантный человек;</blockquote>
-			<blockquote>обу жок чоң или опсуз чоң чрезмерно большой, громадина;</blockquote>
-			<blockquote>обу жок эле сүйлөй бербе не говори глупостей;</blockquote>
-			<blockquote>обун таппай керилет или опсуз керилет или обу жок керилет он важничает сверх меры;</blockquote>
-			<blockquote>обу жок кубанат он пришёл в телячий восторг;</blockquote>
-			<blockquote>обуң менен иш кыл думай о том, что ты делаешь (ещё прим. см. оорсок 1).</blockquote>
+		   <minicard>
+			   <k>оп II:</k>
+			   <ex>
+			     <source>обу жок</source>
+			     <target>со странностями, несуразный, идущий вразрез с общепринятым; экстравагантный;</target>
+			</ex>
+			<ex>
+			    <source>обу жок киши</source>
+			    <target>человек со странностями (в отношении поведения);экстравагантный человек;</target>
+			</ex>
+			<ex>
+			   <source>обу жок чоң или опсуз чоң</source>
+			   <target>чрезмерно большой, громадина;</target>
+			</ex>
+			<ex>
+			   <source>обу жок эле сүйлөй бербе</source>
+			   <target>не говори глупостей;</target>
+			</ex>
+			<ex>
+			    <source>обун таппай керилет или опсуз керилет или обу жок керилет</source>
+			    <target>он важничает сверх меры;</target>
+			</ex>
+			<ex>
+			   <source>обу жок кубанат</source>
+			   <target>он пришёл в телячий восторг;</target>
+			</ex>
+			<ex>
+			     <source>обуң менен иш кыл</source>
+				 <target>думай о том, что ты делаешь (ещё прим. см. оорсок 1).</target>
+			</ex>
+			</minicard>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
 				<sameas word="темин" index="1"/>
-				<blockquote>оп майда! возглас понукания молотящих животных;</blockquote>
+				<trn>оп майда! возглас понукания молотящих животных;</trn>
 			</meaning>
 			<meaning>
-				<blockquote>песня, которую пел молотильщик.</blockquote>
+				<trn>песня, которую пел молотильщик.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>усиление к словам, начинающимся на о;</blockquote>
-			<blockquote>опоор тяжёлый-претяжёлый, очень тяжёлый;</blockquote>
-			<blockquote>опоңой лёгкий-лёгкий, очень лёгкий (для выполнения);</blockquote>
-			<blockquote>опокшош совершенно одинаковые;</blockquote>
-			<blockquote>опокшош алты ак жастык шесть совершенно одинаковых белых подушек.</blockquote>
+		<meaning>
+			<trn>усиление к словам, начинающимся на о;</trn>
+			<ex>
+			    <source>опоор</source>
+			    <target>тяжёлый-претяжёлый, очень тяжёлый;</target>
+			</ex>
+			<ex>
+			    <source>опоңой</source>
+			    <target>лёгкий-лёгкий, очень лёгкий (для выполнения);</target>
+			</ex>
+			<ex>
+			   <source>опокшош</source>
+			   <target>совершенно одинаковые;</target>
+			</ex>
+			<ex>
+			   <source>опокшош алты ак жастык</source>
+			   <target>шесть совершенно одинаковых белых подушек.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>межд. ух! (произносится напр. при подъёме тяжестей);</blockquote>
-			<blockquote>"оп!" деп, ташты көтөрө койду ухнув, он поднял камень.</blockquote>
+		<meaning>
+			<trn>межд. ух! (произносится напр. при подъёме тяжестей);</trn>
+			<ex>
+			<source>"оп!" деп, ташты көтөрө койду</source>
+		    <target>ухнув, он поднял камень.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>опа</k>
+		<pos>int</pos>
 		<sameas word="опаа"/>
 	</card>
 	<card>
 		<k>опаа</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>верность (данному обещанию, любимой, любимому и т.п.), преданность (другу и т.п.);</blockquote>
-		<blockquote>опаасы жок неверный (тот, кто может нарушить верность, обещание, способный совершить вероломство);</blockquote>
-		<blockquote>убадага опаасы жок он не держит своего обещания;</blockquote>
-		<blockquote>опаасы жок дүнүйө превратный, непостоянный (этот) мир.</blockquote>
+		<trn>верность (данному обещанию, любимой, любимому и т.п.), преданность (другу и т.п.);</trn>
+		<ex>
+		    <source>опаасы жок</source>
+			<target>неверный (тот, кто может нарушить верность, обещание, способный совершить вероломство);</target>
+		</ex>
+		<ex>
+		    <source>убадага опаасы жок</source>
+			<target>он не держит своего обещания;</target>
+		</ex>
+		<ex>
+		     <source>опаасы жок дүнүйө</source>
+			 <target>превратный, непостоянный (этот) мир.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опаалаш</k>
-		<blockquote>сохраняющие верность друг другу, преданные друг другу.</blockquote>
+		<pos>n</pos>
+		<trn>сохраняющие верность друг другу, преданные друг другу.</trn>
 	</card>
 	<card>
 		<k>опаасыз</k>
-		<blockquote>непостоянный, изменчивый; неверный, вероломный;</blockquote>
-		<blockquote>опаасыз душман вероломный враг;</blockquote>
-		<blockquote>опаасыз дүнүйө то же, что опаасы жок дүнүйө (см. опаа).</blockquote>
+		<pos>adj</pos>
+		<trn>непостоянный, изменчивый; неверный, вероломный;</trn>
+		<ex>
+		    <source>опаасыз душман</source>
+		    <target>вероломный враг;</target>
+		</ex>
+		<ex>
+		<source>опаасыз дүнүйө то же, что опаасы жок дүнүйө (см. опаа).@@
 	</card>
 	<card>
 		<k>опаасыздык</k>
-		<blockquote>непостоянство, изменчивость; вероломство.</blockquote>
+		<pos>n</pos>
+		<trn>непостоянство, изменчивость; вероломство.</trn>
 	</card>
 	<card>
 		<k>опат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>кончина, смерть, гибель;</blockquote>
-		<blockquote>опат бол- скончаться, умереть.</blockquote>
+		<trn>кончина, смерть, гибель;</trn>
+		   <ex>
+		       <source>опат бол-</source>
+		       <target>скончаться, умереть.</target>
+		   </ex>
 	</card>
 	<card>
 		<k>опека</k>
+		<pos>n</pos>
 		<trn>опека</trn>
-		<blockquote>опекага ал- взять под опеку.</blockquote>
+		  <ex> 
+		    <source>опекага ал-</source> 
+			<target>взять под опеку.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опекун</k>
