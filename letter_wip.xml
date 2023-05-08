@@ -6574,7 +6574,7 @@
 		</meaning>
 		<meaning>
 			<trn>малопитательный;</trn>
-			<blockquote>жарма опкок келет (похлёбка) жарма (см. жарма I 3)@@ малопитательна.</blockquote>
+			<blockquote>жарма опкок келет@@ (похлёбка) жарма (см. жарма I 3) малопитательна.</blockquote>
 		</meaning>
 	</card>
 	<card>
@@ -6662,9 +6662,9 @@
 		<k>опол</k>
 		<pos>adj</pos>
 		<minicard>
-		  <k>опол тоодой</k>
-		  <trn>см. тоо.</trn>
-	   </minicard>
+			<k>опол тоодой</k>
+			<blockquote>см. тоо.</blockquote>
+		</minicard>
 	</card>
 	<card>
 		<k>ополдомочун</k>
@@ -6684,7 +6684,7 @@
 			<blockquote>опоң ун сев.@@ мука-сеянка.</blockquote>
 		</homonym>
 		<homonym>
-			<trn>опоң</blockquote>
+			<trn>опоң</trn>
 			<blockquote>опоң-чычаң сев.@@ детская забава: жердь, положенная поперёк бревна, на концы которой садятся дети и качаются.</blockquote>
 		</homonym>
 	</card>
@@ -6868,13 +6868,18 @@
 		<homonym>
 			<origin>р.</origin>
 			<meta>разг.</meta>
-			<meta>обыск.</meta>
-			<blockquote>опуз III, опуза</blockquote>
+			<trn>обыск.</trn>
+		</homonym>
+		<homonym>
 			<origin>ир.</origin>
 			<trn>застращивание, запугивание;</trn>
-			<blockquote>Ормон опуза<i>или</i> Ормон опуз показная храбрость, показная воинственность;</blockquote>
+			<blockquote>Ормон опуза<i>или</i> Ормон опуз@@ показная храбрость, показная воинственность;</blockquote>
 			<blockquote>Ормон опуз кылып, алдады@@ он обманул, взяв на пушку.</blockquote>
 		</homonym>
+	</card>
+	<card>
+		<k>опуза</k>
+		<look word="опуз" index="3"/>
 	</card>
 	<card>
 		<k>опузала-</k>
