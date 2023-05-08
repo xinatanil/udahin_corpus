@@ -6022,7 +6022,7 @@
 	<card>
 		<k>оорсу-</k>
 		<pos>ger</pos>
-		<blockquote>уподоб. от оор</blockquote>
+		<similative word="оор"/>
 		<sameas word="оорсун"/>
 	</card>
 	<card>
@@ -6367,7 +6367,8 @@
 		<trn>взаимный обмен, замена;</trn>
 		<minicard>
 			<k>табыш оошуу</k>
-			<trn>грам. перемещение звуков.</trn>
+			<meta>грам.</meta>
+			<trn>перемещение звуков.</trn>
 		</minicard>
 	</card>
 	<card>
@@ -6422,7 +6423,10 @@
 			<origin>ир.</origin>
 			<meaning>
 				<sameas word="темин" index="1"/>
-				<blockquote>оп майда@@ возглас понукания молотящих животных;</blockquote>
+				<ex>
+					<source>оп майда</source>
+					<target>возглас понукания молотящих животных;</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<trn>песня, которую пел молотильщик.</trn>
