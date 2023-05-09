@@ -2772,7 +2772,7 @@
 		<homonym>
 			<minicard>
 				<k>ок-эле</k>
-				<blockquote>то же, что огеле (см. ого I);</blockquote>
+				<anchorRef word="ого" index="1" anchor="огеле"/>
 				<ex>
 					<source>кийимдери ок эле жакшы</source>
 					<target>одежда на нём очень хорошая;</target>
@@ -3016,7 +3016,7 @@
 			</meaning>
 			<meaning>
 				<meta>женск.</meta>
-				<trn>то же, что молдо бала (см. молдо 1).</trn>
+				<anchorRef word="молдо" subindex="1" anchor="молдо бала"/>
 			</meaning>
 		</minicard>
 	</card>
@@ -7722,7 +7722,7 @@
 		</ex>
 		<ex>
 			<source>опаасыз дүнүйө</source>
-			<target>то же, что опаасы жок дүнүйө (см. опаа).</target>
+			<anchorRef word="опаа" anchor="опаасы жок дүнүйө"/>
 		</ex>
 	</card>
 	<card>
@@ -7881,7 +7881,7 @@
 	<card>
 		<k>опмайда</k>
 		<pos>n</pos>
-		<trn>то же, что оп майда (см. оп III).</trn>
+		<anchorRef word="оп" index="3" anchor="оп майда"/>
 	</card>
 	<card>
 		<k>опо</k>
@@ -7923,7 +7923,7 @@
 	<card>
 		<k>опоза</k>
 		<pos>n</pos>
-		<trn>то же, что опуза (см. опуз III).</trn>
+		<anchorRef word="опуз" index="3" anchor="опуза"/>
 	</card>
 	<card>
 		<k>опой-</k>
@@ -10290,12 +10290,12 @@
 	<card>
 		<k>орунбасар</k>
 		<pos>n</pos>
-		<blockquote>то же, что орун басар (см. орун 1).</blockquote>
+		<anchorRef word="орун" subindex="1" anchor="орун басар"/>
 	</card>
 	<card>
 		<k>орунбасарлык</k>
 		<pos>n</pos>
-		<blockquote>то же, что орун басарлык (см. орун 1).</blockquote>
+		<anchorRef word="орун" subindex="1" anchor="орун басарлык"/>
 	</card>
 	<card>
 		<k>орунда-</k>
@@ -11203,7 +11203,7 @@
 	</card>
 	<card>
 		<k>очогой</k>
-		<blockquote>то же, что очойгон (см. очой-).</blockquote>
+		<anchorRef word="очой" anchor="очойгон"/>
 	</card>
 	<card>
 		<k>очогор</k>
@@ -11303,13 +11303,13 @@
 	</card>
 	<card>
 		<k>ошер</k>
-		<blockquote>то же, что ошол жер (см. ошол);</blockquote>
+		<anchorRef word="ошол" anchor="ошол жер"/>
 		<blockquote>ошерде в том месте, там.</blockquote>
 	</card>
 	<card>
 		<k>ошетте</k>
 		<meta>южн.</meta>
-		<blockquote>то же, что ошерде (см. ошер).</blockquote>
+		<anchorRef word="ошер" anchor="ошерде"/>
 	</card>
 	<card>
 		<k>ошкур-</k>
