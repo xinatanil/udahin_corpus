@@ -3,92 +3,113 @@
 	<card>
 		<k>о</k>
 		<homonym>
+			<pos>prn</pos>
 			<sameas word="ал" index="2"/>
-			<blockquote>о дүйнө тот (загробный) мир;</blockquote>
-			<blockquote>о-бу южн. то-сё, то да это, такое-этакое.</blockquote>
+			<minicard>
+				<k>о дүйнө</k>
+				<trn>тот (загробный) мир;</trn>
+			</minicard>
+			<minicard>
+				<k>о-бу</k>
+				<meta>южн.</meta>
+				<trn>то-сё, то да это, такое-этакое.</trn>
+			</minicard>
 		</homonym>
 		<homonym>
+			<pos>prn</pos>
 			<origin>ар.</origin>
-			<blockquote>редко,</blockquote>
-			<blockquote>союз и;</blockquote>
-			<blockquote>о жана и ещё, а также;</blockquote>
-			<blockquote>о алей- кум салам! и вам мир! (ответ на приветствие).</blockquote>
+			<meta>редко,</meta>
+			<trn>союз и;</trn>
+			<blockquote>о жана@@ и ещё, а также;</blockquote>
+			<blockquote>о алей- кум салам!@@ и вам мир! (ответ на приветствие).</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>о III:</blockquote>
-			<blockquote>о, дарига</blockquote>
+			<pos>ideo</pos>
+			<sameas word="о" index="3"/>
+			<meta>о, дарига</meta>
 			<origin>ир.</origin>
-			<blockquote>редко,</blockquote>
-			<blockquote>возглас, выражающий горе, сожаление.</blockquote>
+			<meta>редко,</meta>
+			<trn>возглас, выражающий горе, сожаление.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>оазис</k>
+		<pos>n</pos>
 		<trn>оазис</trn>
 	</card>
 	<card>
 		<k>обара</k>
-		<blockquote>ир.:</blockquote>
-		<blockquote>эки обара на двоих;</blockquote>
-		<blockquote>ошолордун алдына, эки обара бир табак, этти тартып калды да стих. им он начал подавать мясо по одному блюду на двоих.</blockquote>
+		<pos>adv</pos>
+		<origin>ир.</origin>
+		<blockquote>эки обара## на двоих;</blockquote>
+		<blockquote>ошолордун алдына, эки обара бир табак, этти тартып калды да стих.@@1 им он начал подавать мясо по одному блюду на двоих.</blockquote>
 	</card>
 	<card>
 		<k>оббо</k>
+		<pos>ideo</pos>
 		<origin>ир.</origin>
-		<blockquote>межд., выражающее удивление;</blockquote>
-		<blockquote>оббо, түгөнгүр-э! ох, чтоб ему!; вон ведь он как!;</blockquote>
-		<blockquote>оббо, иш ушундай дечи! вон ведь, что!; дело-то, значит, вон какое!</blockquote>
+		<meta>межд., выражающее удивление;</meta>
+		<blockquote>оббо, түгөнгүр-э!@@ ох, чтоб ему!; вон ведь он как!;</blockquote>
+		<blockquote>оббо, иш ушундай дечи!@@ вон ведь, что!; дело-то, значит, вон какое!</blockquote>
 	</card>
 	<card>
 		<k>обдул-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>привставать, подаваясь корпусом вперёд;</blockquote>
-			<blockquote>обдула түшүп, көмкөрөсүнөн түштү он подался корпусом вперёд и упал ничком;</blockquote>
-			<blockquote>обдулуп, ага тигилишет подавшись корпусом вперёд, они уставились на него;</blockquote>
+			<trn>привставать, подаваясь корпусом вперёд;</trn>
+			<blockquote>обдула түшүп, көмкөрөсүнөн түштү@@ он подался корпусом вперёд и упал ничком;</blockquote>
+			<blockquote>обдулуп, ага тигилишет@@ подавшись корпусом вперёд, они уставились на него;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>сердито набрасываться, злобно или с горячностью порываться вперёд;</blockquote>
-			<blockquote>ээрден көчүгүн көтөрө, обдулуп коёт приподнимаясь на седле, он яростно подавался вперёд (напр. угрожая, порываясь ударить плетью);</blockquote>
-			<blockquote>обдулуп, ок үч жашар бир жетимче сүйлөдү, жаман тонун чечип салып стих. тринадцатилетний сиротка, сняв свой плохенький тулуп, (горячо) говорил, подавшись корпусом вперёд;</blockquote>
-			<blockquote>Карымшак байбичесине обдулган жок Карымшак не набросился с бранью на свою старуху.</blockquote>
+			<trn>сердито набрасываться, злобно или с горячностью порываться вперёд;</trn>
+			<blockquote>ээрден көчүгүн көтөрө, обдулуп коёт@@ приподнимаясь на седле, он яростно подавался вперёд (напр. угрожая, порываясь ударить плетью);</blockquote>
+			<blockquote>обдулуп, ок үч жашар бир жетимче сүйлөдү, жаман тонун чечип салып стих.@@ тринадцатилетний сиротка, сняв свой плохенький тулуп, (горячо) говорил, подавшись корпусом вперёд;</blockquote>
+			<blockquote>Карымшак байбичесине обдулган жок@@ Карымшак не набросился с бранью на свою старуху.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>обзор</k>
+		<pos>n</pos>
 		<trn>обзор</trn>
-		<blockquote>эл аралык обзор международный обзор;</blockquote>
-		<blockquote>каттарга обзор обзор писем.</blockquote>
+		<blockquote>эл аралык обзор@@ международный обзор;</blockquote>
+		<blockquote>каттарга обзор@@ обзор писем.</blockquote>
 	</card>
 	<card>
 		<k>обком</k>
+		<pos>n</pos>
 		<trn>обком</trn>
 	</card>
 	<card>
 		<k>областтык</k>
-		<blockquote>областной;</blockquote>
-		<blockquote>областтык аткаруу комитети областной исполнительный комитет;</blockquote>
-		<blockquote>областтык газета областная газета.</blockquote>
+		<pos>adj</pos>
+		<trn>областной;</trn>
+		<blockquote>областтык аткаруу комитети@@ областной исполнительный комитет;</blockquote>
+		<blockquote>областтык газета@@ областная газета.</blockquote>
 	</card>
 	<card>
 		<k>область</k>
+		<pos>n</pos>
 		<trn>область</trn>
 	</card>
 	<card>
 		<k>облигация</k>
+		<pos>n</pos>
 		<trn>облигация</trn>
 	</card>
 	<card>
 		<k>облик</k>
+		<pos>n</pos>
 		<trn>облик</trn>
-		<blockquote>моралдык облиги его моральный облик.</blockquote>
+		<blockquote>моралдык облиги@@ его моральный облик.</blockquote>
 	</card>
 	<card>
 		<k>обо</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>небо;</blockquote>
-			<blockquote>ободогу жылдыздай как звёзды на небе;</blockquote>
-			<blockquote>обо мелжиген тоолор вздымающиеся к небу горы.</blockquote>
+			<trn>небо;</trn>
+			<blockquote>ободогу жылдыздай@@ как звёзды на небе;</blockquote>
+			<blockquote>обо мелжиген тоолор@@ вздымающиеся к небу горы.</blockquote>
 		</homonym>
 		<homonym>
 			<sameas word="обоо" index="2"/>
@@ -103,47 +124,53 @@
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>(местами) старый истрёпанный шырдак (см.);</blockquote>
+			<trn>(местами) старый истрёпанный шырдак (см.);</trn>
 		</meaning>
 		<meaning>
 			<meta>тяньш.</meta>
-			<blockquote>(местами) то же, что ком;</blockquote>
+			<trn>(местами) то же, что ком;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>старьё, барахло (старая вещь, старая одежда).</blockquote>
+			<trn>старьё, барахло (старая вещь, старая одежда).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>ободой</k>
-		<blockquote>жадность, ненасытность;</blockquote>
-		<blockquote>ободоюң куруган ит! ух ты, пёс ненасытный!</blockquote>
+		<pos>n</pos>
+		<trn>жадность, ненасытность;</trn>
+		<blockquote>ободоюң куруган ит!@@ ух ты, пёс ненасытный!</blockquote>
 	</card>
 	<card>
 		<k>обоз</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>голос.</blockquote>
+		<trn>голос.</trn>
 	</card>
 	<card>
 		<k>обозгер</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>сев.</meta>
 		<sameas word="увазир"/>
-		<blockquote>обозгер жакшы - кан жакшы, катын жакшы - эр жакшы погов. визирь хорош, (так и) хан хорош; жена хороша, (так и) муж хорош.</blockquote>
+		<blockquote>обозгер жакшы - кан жакшы, катын жакшы - эр жакшы погов.@@ визирь хорош, (так и) хан хорош; жена хороша, (так и) муж хорош.</blockquote>
 	</card>
 	<card>
 		<k>обоздо-</k>
-		<blockquote>голосить, кричать.</blockquote>
+		<pos>v</pos>
+		<trn>голосить, кричать.</trn>
 	</card>
 	<card>
 		<k>обоздон-</k>
-		<blockquote>возвр. от обоздо-,</blockquote>
+		<pos>v</pos>
+		<meta>возвр. от обоздо-,</meta>
 		<sameas word="обоздо"/>
 	</card>
 	<card>
 		<k>обойма</k>
+		<pos>n</pos>
 		<trn>обойма</trn>
-		<blockquote>тапанча обоймасы обойма револьвера.</blockquote>
+		<blockquote>тапанча обоймасы@@ обойма револьвера.</blockquote>
 	</card>
 	<card>
 		<k>обол</k>
@@ -151,286 +178,341 @@
 	</card>
 	<card>
 		<k>оболку</k>
-		<blockquote>прежний;</blockquote>
-		<blockquote>оболкудай по-прежнему, как раньше, как вначале.</blockquote>
+		<pos>adv</pos>
+		<trn>прежний;</trn>
+		<minicard>
+			<k>оболкудай</k>
+			<trn>по-прежнему, как раньше, как вначале.</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>оболо-</k>
-		<blockquote>подниматься ввысь, к небу;</blockquote>
-		<blockquote>оболоп уч- взлетать ввысь;</blockquote>
-		<blockquote>чечени торгой чымчыктын оболоп көктө сайраган фольк. самая красноречивая из пташек - жаворонок, который поёт, взвиваясь к небу;</blockquote>
-		<blockquote>оргуп-оргуп чаң чыгат, обологон үн чыгат фольк. (от движения богатырей на конях) вихрем вздымается пыль, раздаются громкие (летящие к небу) голоса.</blockquote>
+		<pos>v</pos>
+		<trn>подниматься ввысь, к небу;</trn>
+		<blockquote>оболоп уч-## взлетать ввысь;</blockquote>
+		<blockquote>чечени торгой чымчыктын оболоп көктө сайраган фольк.@@ самая красноречивая из пташек - жаворонок, который поёт, взвиваясь к небу;</blockquote>
+		<blockquote>оргуп-оргуп чаң чыгат, обологон үн чыгат фольк.@@ (от движения богатырей на конях) вихрем вздымается пыль, раздаются громкие (летящие к небу) голоса.</blockquote>
 	</card>
 	<card>
 		<k>оболот-</k>
+		<pos>v</pos>
 		<caus word="оболо"/>
-		<blockquote>боз ала туйгун боосу жез, оң колуңа алыпсың, оболото салыпсың фольк. светло-серого ястреба ты взял в правую руку и пустил вверх (на добычу);</blockquote>
-		<blockquote>тууну оболотуп аштады он насадил знамя на высокое древко.</blockquote>
+		<blockquote>боз ала туйгун боосу жез, оң колуңа алыпсың, оболото салыпсың фольк.@@ светло-серого ястреба ты взял в правую руку и пустил вверх (на добычу);</blockquote>
+		<blockquote>тууну оболотуп аштады@@ он насадил знамя на высокое древко.</blockquote>
 	</card>
 	<card>
 		<k>оболочка</k>
-		<blockquote>биол.</blockquote>
+		<pos>n</pos>
+		<meta>биол.</meta>
 		<trn>оболочка</trn>
-		<blockquote>былжырлуу оболочка слизистая оболочка.</blockquote>
+		<blockquote>былжырлуу оболочка@@ слизистая оболочка.</blockquote>
 	</card>
 	<card>
 		<k>оболтон</k>
-		<blockquote>с давних пор, издавна, первоначально.</blockquote>
+		<pos>adv</pos>
+		<trn>с давних пор, издавна, первоначально.</trn>
 	</card>
 	<card>
 		<k>оболу</k>
+		<pos>adv</pos>
 		<origin>ар.</origin>
-		<blockquote>раньше, прежде; во-первых;</blockquote>
-		<blockquote>оболу өзүң ич, кийин мен ичейин сначала выпей ты, а потом я;</blockquote>
-		<blockquote>эң оболу прежде всего.</blockquote>
+		<trn>раньше, прежде; во-первых;</trn>
+		<blockquote>оболу өзүң ич, кийин мен ичейин@@ сначала выпей ты, а потом я;</blockquote>
+		<blockquote>эң оболу@@ прежде всего.</blockquote>
 	</card>
 	<card>
 		<k>обон</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<blockquote>напев, мотив; мелодия (для голоса; ср. күү I);</blockquote>
-		<blockquote>обон сал- петь.</blockquote>
+		<blockquote>обон сал-## петь.</blockquote>
 	</card>
 	<card>
 		<k>обондо-</k>
-		<blockquote>петь протяжно и мелодично, читать нараспев и мелодично (как читают коран; см. кыраат).</blockquote>
+		<pos>v</pos>
+		<trn>петь протяжно и мелодично, читать нараспев и мелодично (как читают коран; см. кыраат).</trn>
 	</card>
 	<card>
 		<k>обондош-</k>
+		<pos>v</pos>
 		<recv word="обондо"/>
 	</card>
 	<card>
 		<k>обончу</k>
-		<blockquote>певун.</blockquote>
+		<pos>n</pos>
+		<trn>певун.</trn>
 	</card>
 	<card>
 		<k>обоо</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
-			<blockquote>сап;</blockquote>
-			<blockquote>обоо менен шыйпаң дос или обоого шыйпаң үйүр погов. два сапога пара (букв. сап дружен с шелудивостью; того и другого облепляют мухи).</blockquote>
+			<trn>сап;</trn>
+			<blockquote>обоо менен шыйпаң дос или обоого шыйпаң үйүр погов.@@ два сапога пара (букв. сап дружен с шелудивостью; того и другого облепляют мухи).</blockquote>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>холм из камней, груда камней (обычно на вершине перевала во время перекочёвок мужчины слезали с коней и бросали в кучу пять-шесть камней, со временем из них образовывался холм - жертва духу горы);</blockquote>
+				<trn>холм из камней, груда камней (обычно на вершине перевала во время перекочёвок мужчины слезали с коней и бросали в кучу пять-шесть камней, со временем из них образовывался холм - жертва духу горы);</trn>
 			</meaning>
 			<meaning>
 				<meta>редко</meta>
-				<blockquote>межевой холмик.</blockquote>
+				<trn>межевой холмик.</trn>
 			</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>обор</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<compare word="обур" index="1"/>
-		<blockquote>страстное желание, вожделение;</blockquote>
-		<blockquote>обору ачылды в нем проснулась страсть;</blockquote>
-		<blockquote>оборуң кургур! прям., перен. ух ты, ненасытный!</blockquote>
+		<trn>страстное желание, вожделение;</trn>
+		<blockquote>обору ачылды@@ в нем проснулась страсть;</blockquote>
+		<blockquote>оборуң кургур! прям., перен.@@ ух ты, ненасытный!</blockquote>
 	</card>
 	<card>
 		<k>оборот</k>
+		<pos>n</pos>
 		<meta>в разн. знач.</meta>
 		<trn>оборот</trn>
-		<blockquote>соода обороту торговый оборот;</blockquote>
-		<blockquote>ишкананын жылдык обороту годовой оборот предприятия;</blockquote>
-		<blockquote>вагондордун обороту оборот вагонов.</blockquote>
+		<blockquote>соода обороту@@ торговый оборот;</blockquote>
+		<blockquote>ишкананын жылдык обороту@@ годовой оборот предприятия;</blockquote>
+		<blockquote>вагондордун обороту@@ оборот вагонов.</blockquote>
 	</card>
 	<card>
 		<k>обороттук</k>
-		<blockquote>эк.:</blockquote>
-		<blockquote>обороттук капитал оборотный капитал;</blockquote>
-		<blockquote>обороттук каражаттар оборотные средства.</blockquote>
+		<pos>adj</pos>
+		<meta>эк.:</meta>
+		<blockquote>обороттук капитал@@ оборотный капитал;</blockquote>
+		<blockquote>обороттук каражаттар@@ оборотные средства.</blockquote>
 	</card>
 	<card>
 		<k>обосол</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>сев.</meta>
 		<meta>ист.</meta>
-		<blockquote>новосёл (русский или украинский крестьянин, переселившийся в Киргизию после 1905 года).</blockquote>
+		<trn>новосёл (русский или украинский крестьянин, переселившийся в Киргизию после 1905 года).</trn>
 	</card>
 	<card>
 		<k>обочо</k>
 		<meaning>
-			<blockquote>бугор, холм, курган;</blockquote>
+			<pos>n</pos>
+			<trn>бугор, холм, курган;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>в некотором отдалении, поодаль, отдельно от других;</blockquote>
-			<blockquote>үйдөн обочо отуралы сядем-ка подальше от юрты;</blockquote>
-			<blockquote>обочороок отурду он сел поодаль, не вплотную;</blockquote>
-			<blockquote>обочороок барып отойдя подальше;</blockquote>
-			<blockquote>атты үйдөн обочороок байлагыла лошадь привяжите подальше от юрты.</blockquote>
+			<pos>adv</pos>
+			<trn>в некотором отдалении, поодаль, отдельно от других;</trn>
+			<blockquote>үйдөн обочо отуралы@@ сядем-ка подальше от юрты;</blockquote>
+			<blockquote>обочороок отурду@@ он сел поодаль, не вплотную;</blockquote>
+			<blockquote>обочороок барып@@ отойдя подальше;</blockquote>
+			<blockquote>атты үйдөн обочороок байлагыла@@ лошадь привяжите подальше от юрты.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>обочолон-</k>
-		<blockquote>обособиться; отодвинуться в сторону от других;</blockquote>
-		<blockquote>обочолонгон обособленный;</blockquote>
-		<blockquote>бир-биринен обочолонгон көрүнүштөр обособленные друг от друга явления.</blockquote>
+		<pos>v</pos>
+		<trn>обособиться; отодвинуться в сторону от других;</trn>
+		<blockquote>обочолонгон@@ обособленный;</blockquote>
+		<blockquote>бир-биринен обочолонгон көрүнүштөр@@ обособленные друг от друга явления.</blockquote>
 	</card>
 	<card>
 		<k>обочолонт-</k>
+		<pos>v</pos>
 		<caus word="обочолон"/>
-		<blockquote>обособить, отодвинуть в сторону от других.</blockquote>
+		<trn>обособить, отодвинуть в сторону от других.</blockquote>
 	</card>
 	<card>
 		<k>обочолонуу</k>
+		<pos>ger</pos>
 		<actionNoun word="обочолон"/>
 	</card>
 	<card>
 		<k>обочолот-</k>
-		<blockquote>обособить; изолировать.</blockquote>
+		<pos>v</pos>
+		<trn>обособить; изолировать.</trn>
 	</card>
 	<card>
 		<k>обочолотуу</k>
+		<pos>ger</pos>
 		<actionNoun word="обочолот"/>
-		<blockquote>обособление; изолирование.</blockquote>
+		<trn>обособление; изолирование.</trn>
 	</card>
 	<card>
 		<k>образ</k>
+		<pos>n</pos>
 		<meta>лит.</meta>
 		<trn>образ</trn>
-		<blockquote>унутулгус образ незабываемый образ.</blockquote>
+		<blockquote>унутулгус образ@@ незабываемый образ.</blockquote>
 	</card>
 	<card>
 		<k>образдуу</k>
+		<pos>adv</pos>
 		<meta>лит.</meta>
-		<blockquote>образный.</blockquote>
+		<trn>образный.</trn>
 	</card>
 	<card>
 		<k>образдуулук</k>
+		<pos>n</pos>
 		<meta>лит.</meta>
-		<blockquote>образность.</blockquote>
+		<trn>образность.</trn>
 	</card>
 	<card>
 		<k>оброй</k>
+		<pos>n</pos>
 		<sameas word="абийир" subindex="1"/>
 	</card>
 	<card>
 		<k>обулус</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="область"/>
-		<blockquote>обулусуң - Жети-Суу, кармаганың Кызыл Туу стих. твоя область - Семиречье, держишь Красное Знамя.</blockquote>
+		<blockquote>обулусуң - Жети-Суу, кармаганың Кызыл Туу стих.@@ твоя область - Семиречье, держишь Красное Знамя.</blockquote>
 	</card>
 	<card>
 		<k>обулустук</k>
+		<pos>adj</pos>
 		<meta>разг.</meta>
 		<sameas word="областтык"/>
 	</card>
 	<card>
 		<k>обур</k>
 		<homonym>
+			<pos>adj</pos>
 			<compare word="обор"/>
-			<blockquote>обжора, жадный;</blockquote>
-			<blockquote>обур уйдан чобур музоо тууйт погов. от прожорливой коровы простой (плохенький) телёнок родится;</blockquote>
-			<blockquote>обур агыт- см. агыт-.</blockquote>
+			<trn>обжора, жадный;</trn>
+			<blockquote>обур уйдан чобур музоо тууйт погов.@@ от прожорливой коровы простой (плохенький) телёнок родится;</blockquote>
+			<minicard>
+				<k>обур агыт-</k>
+				<look word="агыт-"/>
+			</minicard>
 		</homonym>
 		<homonym>
-			<blockquote>обур II:</blockquote>
-			<blockquote>обур-тобур топот;</blockquote>
-			<blockquote>обур-кобур разговоры, болтовня.</blockquote>
+			<pos>n</pos>
+			<sameas word="обур" index="2"/>
+			<blockquote>обур-тобур## топот;</blockquote>
+			<blockquote>обур-кобур## разговоры, болтовня.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>обурак</k>
+		<pos>n</pos>
 		<meta>(ср. абырак I, арбак)</meta>
-		<blockquote>авторитет, достоинство; слава;</blockquote>
-		<blockquote>обурагын арттырып, тулпардан тартуу берди дейт фольк. множа его славу, он подарил (ему) боевого коня;</blockquote>
-		<blockquote>обурагы дүң болгон слава о нём гремела.</blockquote>
+		<trn>авторитет, достоинство; слава;</trn>
+		<blockquote>обурагын арттырып, тулпардан тартуу берди дейт фольк.@@ множа его славу, он подарил (ему) боевого коня;</blockquote>
+		<blockquote>обурагы дүң болгон@@ слава о нём гремела.</blockquote>
 	</card>
 	<card>
 		<k>обурактуу</k>
+		<pos>adj</pos>
 		<meta>(ср. абырактуу I, арбактуу)</meta>
-		<blockquote>прославленный, знаменитый; сопутствуемый удачей;</blockquote>
-		<blockquote>обурактуу Манас прославленный (богатырь) Манас.</blockquote>
+		<trn>прославленный, знаменитый; сопутствуемый удачей;</trn>
+		<blockquote>обурактуу Манас@@ прославленный (богатырь) Манас.</blockquote>
 	</card>
 	<card>
 		<k>обут</k>
-		<blockquote>пруд;</blockquote>
-		<blockquote>каналдар менен обуттарда ар түрдүү балыктар көп в каналах и в прудах много разной рыбы.</blockquote>
+		<pos>n</pos>
+		<trn>пруд;</trn>
+		<blockquote>каналдар менен обуттарда ар түрдүү балыктар көп@@ в каналах и в прудах много разной рыбы.</blockquote>
 	</card>
 	<card>
 		<k>обход</k>
+		<pos>n</pos>
 		<trn>обход</trn>
-		<blockquote>врачтын эртең мененки обходу утренний обход врача.</blockquote>
+		<blockquote>врачтын эртең мененки обходу@@ утренний обход врача.</blockquote>
 	</card>
 	<card>
 		<k>община</k>
+		<pos>n</pos>
 		<trn>община</trn>
-		<blockquote>общиналар палатасы палата общин.</blockquote>
+		<blockquote>общиналар палатасы@@ палата общин.</blockquote>
 	</card>
 	<card>
 		<k>общиналык</k>
-		<blockquote>общинный;</blockquote>
-		<blockquote>байыркы общиналык түзүлүш первобытнообщинный строй.</blockquote>
+		<pos>adj</pos>
+		<trn>общинный;</trn>
+		<blockquote>байыркы общиналык түзүлүш@@ первобытнообщинный строй.</blockquote>
 	</card>
 	<card>
 		<k>объект</k>
+		<pos>n</pos>
 		<trn>объект</trn>
-		<blockquote>объектилер объекты.</blockquote>
+		<blockquote>объектилер@@ объекты.</blockquote>
 	</card>
 	<card>
 		<k>объектив</k>
+		<pos>n</pos>
 		<trn>объектив</trn>
 	</card>
 	<card>
 		<k>объективдүү</k>
-		<blockquote>объективный;</blockquote>
-		<blockquote>объективдүү себеп объективная причина;</blockquote>
-		<blockquote>коомдук өнүгүүнүн объективдүү закону объективный закон общественного рззвития.</blockquote>
+		<pos>adj</pos>
+		<trn>объективный</trn>
+		<blockquote>объективдүү себеп@@ объективная причина;</blockquote>
+		<blockquote>коомдук өнүгүүнүн объективдүү закону@@ объективный закон общественного рззвития.</blockquote>
 	</card>
 	<card>
 		<k>обыватель</k>
+		<pos>n</pos>
 		<trn>обыватель</trn>
-		<blockquote>ал обывателге айланды он превратился в обывателя.</blockquote>
+		<blockquote>ал обывателге айланды@@ он превратился в обывателя.</blockquote>
 	</card>
 	<card>
 		<k>обыс</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>обыск.</blockquote>
+		<trn>обыск.</trn>
 	</card>
 	<card>
 		<k>овация</k>
+		<pos>n</pos>
 		<trn>овация</trn>
-		<blockquote>овация бир нече минут бою басылбай турду овация не прекращалась несколько минут.</blockquote>
+		<blockquote>овация бир нече минут бою басылбай турду@@ овация не прекращалась несколько минут.</blockquote>
 	</card>
 	<card>
 		<k>овкат</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="оокат" subindex="1"/>
 	</card>
 	<card>
 		<k>овлад</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<blockquote>род, племя;</blockquote>
-		<blockquote>овлади найман его род - найман, он принадлежит к племени найман.</blockquote>
+		<trn>род, племя;</trn>
+		<blockquote>овлади найман@@ его род - найман, он принадлежит к племени найман.</blockquote>
 	</card>
 	<card>
 		<k>овлай</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="олуя"/>
 	</card>
 	<card>
 		<k>ово</k>
+		<pos>n</pos>
 		<sameas word="аба" index="2"/>
-		<blockquote>оводогу булуттун салкынынан бүткөндөй фольк. он создан как бы из прохлады небесной тучи.</blockquote>
+		<blockquote>оводогу булуттун салкынынан бүткөндөй фольк.@@ он создан как бы из прохлады небесной тучи.</blockquote>
 	</card>
 	<card>
 		<k>оводо</k>
+		<pos>n</pos>
 		<look word="ободо" subindex="4"/>
 	</card>
 	<card>
 		<k>овон</k>
+		<pos>n</pos>
 		<sameas word="обон"/>
 	</card>
 	<card>
 		<k>огдорул-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>(о волне) яростно и с силой вздыматься;</blockquote>
+			<trn>(о волне) яростно и с силой вздыматься;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>(о сильной лошади) ретиво двигаться вперёд.</blockquote>
+			<trn>(о сильной лошади) ретиво двигаться вперёд.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -440,12 +522,17 @@
 	<card>
 		<k>ого</k>
 		<homonym>
-			<blockquote>ого I:</blockquote>
-			<blockquote>огеле (ого эле) очень;</blockquote>
-			<blockquote>огеле жакшы очень хорошо;</blockquote>
-			<blockquote>ого бетер или ого бетерден или ого төтөн или ого тетен (пишется и слитно огобетер, оготөтөн, оготетен) ещё того сильнее, ещё того больше (лучше, хуже);</blockquote>
-			<blockquote>ого төтөн таарынды он ещё больше обиделся;</blockquote>
-			<blockquote>ого бетер курч кылган он сделал ещё острее.</blockquote>
+			<sameas word="ого" index="1"/>
+			<blockquote>огеле (ого эле)## очень;</blockquote>
+			<blockquote>огеле жакшы@@1 очень хорошо;</blockquote>
+			<minicard>
+				<k>ого бетер</k>
+				<meta><i>или</i> ого бетерден <i>или</i> ого төтөн <i>или</i> ого тетен</meta>
+				<meta>(пишется и слитно огобетер, оготөтөн, оготетен)</meta>
+				<trn>ещё того сильнее, ещё того больше (лучше, хуже);</trn>
+				<blockquote>ого төтөн таарынды@@ он ещё больше обиделся;</blockquote>
+				<blockquote>ого бетер курч кылган@@ он сделал ещё острее.</blockquote>
+			</minicard>
 		</homonym>
 		<homonym>
 			<sameas word="ага" index="2"/>
@@ -457,58 +544,66 @@
 	</card>
 	<card>
 		<k>огожо</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>подпорка;</blockquote>
+			<trn>подпорка;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>распорядитель; руководитель, начальник;</blockquote>
-			<blockquote>мына бул жайнаган аскерлерге огожо болуп жүрөсүң, деңизчи? так вы и скажите, что ты, мол, только значишься начальником над этим вот многочисленным войском?</blockquote>
+			<trn>распорядитель; руководитель, начальник;</trn>
+			<blockquote>мына бул жайнаган аскерлерге огожо болуп жүрөсүң, деңизчи?@@ так вы и скажите, что ты, мол, только значишься начальником над этим вот многочисленным войском?</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>огожоло-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>подпереть, укрепить подпоркой;</blockquote>
+			<trn>подпереть, укрепить подпоркой;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>поставить кого-л. присматривать, руководить.</blockquote>
+			<trn>поставить кого-л. присматривать, руководить.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оголрөскө</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>угрозыск (уголовный розыск).</blockquote>
+		<trn>угрозыск (уголовный розыск).</trn>
 	</card>
 	<card>
 		<k>огон</k>
+		<pos>prn</pos>
 		<meta>южн.</meta>
-		<blockquote>ему.</blockquote>
+		<trn>ему.</trn>
 	</card>
 	<card>
 		<k>огород</k>
+		<pos>n</pos>
 		<trn>огород</trn>
 	</card>
 	<card>
 		<k>оготетен,</k>
-		<blockquote>оготетен, оготөтөн</blockquote>
+		<pos>adv</pos>
+		<meta>оготетен, оготөтөн</meta>
 		<look word="ого" index="1"/>
 	</card>
 	<card>
 		<k>огулт-</k>
+		<pos>v</pos>
 		<pair word="чогулт"/>
-		<blockquote>огултуп-чогултуп айтканда вообще говоря.</blockquote>
+		<blockquote>огултуп-чогултуп айтканда@@ вообще говоря.</blockquote>
 	</card>
 	<card>
 		<k>одеяло</k>
-		<blockquote>одеяло (тканьёвое, бапковое);</blockquote>
-		<blockquote>ак одеяло менен жабылган жөнөкөй темир кровать покрытая белым одеялом простая железная кровать.</blockquote>
+		<pos>n</pos>
+		<trn>одеяло (тканьёвое, бапковое);</trn>
+		<blockquote>ак одеяло менен жабылган жөнөкөй темир@@ кровать покрытая белым одеялом простая железная кровать.</blockquote>
 	</card>
 	<card>
 		<k>одо,</k>
-		<blockquote>одо, ондо</blockquote>
+		<meta>одо, ондо</meta>
 		<meta>южн.</meta>
 		<sameas word="анда" index="1"/>
 	</card>
@@ -518,103 +613,113 @@
 	</card>
 	<card>
 		<k>одон,</k>
-		<blockquote>одон, онон</blockquote>
+		<meta>одон, онон</meta>
 		<meta>южн.</meta>
 		<sameas word="андан"/>
 	</card>
 	<card>
 		<k>одоно</k>
-		<blockquote>грубоватый, невежливый, вульгарный; неуклюжий;</blockquote>
-		<blockquote>одоно сөз грубоватое слово;</blockquote>
-		<blockquote>одоно көрүн- производить неприятное впечатление; казаться грубым; казаться неуклюжим;</blockquote>
-		<blockquote>одоно жаңылыштык грубая ошибка;</blockquote>
-		<blockquote>одонороок айтканда грубо говоря.</blockquote>
+		<pos>adj</pos>
+		<trn>грубоватый, невежливый, вульгарный; неуклюжий;</trn>
+		<blockquote>одоно сөз@@ грубоватое слово;</blockquote>
+		<blockquote>одоно көрүн-## производить неприятное впечатление; казаться грубым; казаться неуклюжим;</blockquote>
+		<blockquote>одоно жаңылыштык@@ грубая ошибка;</blockquote>
+		<blockquote>одонороок айтканда@@ грубо говоря.</blockquote>
 	</card>
 	<card>
 		<k>одонолук</k>
-		<blockquote>грубоватость, вульгарность; неуклюжесть.</blockquote>
+		<pos>v</pos>
+		<trn>грубоватость, вульгарность; неуклюжесть.</trn>
 	</card>
 	<card>
 		<k>одур</k>
-		<blockquote>одур: одур-будур корявый, шероховатый.</blockquote>
+		<pos>adj</pos>
+		<blockquote>одур-будур## корявый, шероховатый.</blockquote>
 	</card>
 	<card>
 		<k>одурай-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>(о лице) быть грубым, неприятным;</blockquote>
+			<trn>(о лице) быть грубым, неприятным;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>грубо окрикивать, набрасываться с бранью;</blockquote>
-			<blockquote>эмне одураясың мага? что ты на меня набрасываешься?</blockquote>
+			<trn>грубо окрикивать, набрасываться с бранью;</trn>
+			<blockquote>эмне одураясың мага?@@ что ты на меня набрасываешься?</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>одуракай</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>с грубыми чертами лица;</blockquote>
+			<trn>с грубыми чертами лица;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>грубый (плохо выделанный);</blockquote>
-			<blockquote>одуракай таар грубая армячина;</blockquote>
-			<blockquote>одуракай кездеме грубая материя.</blockquote>
+			<trn>грубый (плохо выделанный);</trn>
+			<blockquote>одуракай таар@@ грубая армячина;</blockquote>
+			<blockquote>одуракай кездеме@@ грубая материя.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>одураңда-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>уподобляться в своих движениях человеку с грубыми чертами лица;</blockquote>
+			<trn>уподобляться в своих движениях человеку с грубыми чертами лица;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>грубить; говорить властно, повелительно и грубо.</blockquote>
+			<trn>грубить; говорить властно, повелительно и грубо.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оёз</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>сев.</meta>
 		<meta>ист.</meta>
 		<meaning>
-			<blockquote>начальник уезда, уездный начальник;</blockquote>
+			<trn>начальник уезда, уездный начальник;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>уезд.</blockquote>
+			<trn>уезд.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оёзной</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>сев.</meta>
 		<meta>ист.</meta>
 		<meta>(или оёзной ачендик)</meta>
-		<blockquote>начальник уезда, уездный начальник.</blockquote>
+		<trn>начальник уезда, уездный начальник.</trn>
 	</card>
 	<card>
 		<k>оёк</k>
-		<blockquote>(о-йак)</blockquote>
-		<blockquote>южн., талас.</blockquote>
-		<blockquote>та сторона, то место;</blockquote>
-		<blockquote>оёкто там;</blockquote>
-		<blockquote>оёкко туда;</blockquote>
-		<blockquote>оёгун билбеймин то, что там (у него), я не знаю.</blockquote>
+		<meta>(о-йак)</meta>
+		<meta>южн., талас.</meta>
+		<trn>та сторона, то место;</trn>
+		<blockquote>оёкто@@ там;</blockquote>
+		<blockquote>оёкко@@ туда;</blockquote>
+		<blockquote>оёгун билбеймин@@ то, что там (у него), я не знаю.</blockquote>
 	</card>
 	<card>
 		<k>оён</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>богатырь;</blockquote>
+			<trn>богатырь;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>господин;</blockquote>
-			<blockquote>от ичинде отурган оён загадка в огне сидящий господин (отгадка кумган);</blockquote>
-			<blockquote>сен эмне, оён болуп кетипсиңби? ты что, господином стал?</blockquote>
+			<trn>господин;</trn>
+			<blockquote>от ичинде отурган оён@@ загадка в огне сидящий господин (отгадка кумган);</blockquote>
+			<blockquote>сен эмне, оён болуп кетипсиңби?@@ ты что, господином стал?</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>оёң</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>чуйск.</meta>
 			<compare word="ойбут"/>
-			<blockquote>яр с одной высокой стороной.</blockquote>
+			<trn>яр с одной высокой стороной.</trn>
 		</homonym>
 		<homonym>
 			<sameas word="ойдуң"/>
@@ -622,23 +727,26 @@
 	</card>
 	<card>
 		<k>оёндук</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>(в эпосе) богатырство, богатырские повадки;</blockquote>
+			<trn>(в эпосе) богатырство, богатырские повадки;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>важничанье, важность.</blockquote>
+			<trn>важничанье, важность.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оёнкомат</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>военкомат.</blockquote>
+		<trn>военкомат.</trn>
 	</card>
 	<card>
 		<k>ожерде</k>
+		<pos>adv</pos>
 		<meta>южн.</meta>
-		<blockquote>там, в том месте.</blockquote>
+		<trn>там, в том месте.</trn>
 	</card>
 	<card>
 		<k>ожура</k>
@@ -646,7 +754,7 @@
 		<origin>ар.</origin>
 		<meta>южн.</meta>
 		<meaning>
-			<blockquote>гостиная;</blockquote>
+			<trn>гостиная;</trn>
 		</meaning>
 		<meaning>
 			<sameas word="үжүрө"/>
@@ -654,24 +762,28 @@
 	</card>
 	<card>
 		<k>оз-</k>
-		<blockquote>уйти вперёд, опередить, обогнать;</blockquote>
-		<blockquote>тулпардан озуп, ат чыкпайт фольк. скакуна простая лошадь не обгонит;</blockquote>
-		<blockquote>кууп жетип, озуп кет- догнать и перегнать;</blockquote>
-		<blockquote>үчтөн он мүнөт озуптур уже десять минут четвёртого;</blockquote>
-		<blockquote>графиктен озуп опережая график.</blockquote>
+		<pos>v</pos>
+		<trn>уйти вперёд, опередить, обогнать;</trn>
+		<blockquote>тулпардан озуп, ат чыкпайт фольк.@@ скакуна простая лошадь не обгонит;</blockquote>
+		<blockquote>кууп жетип, озуп кет-## догнать и перегнать;</blockquote>
+		<blockquote>үчтөн он мүнөт озуптур@@1 уже десять минут четвёртого;</blockquote>
+		<blockquote>графиктен озуп@@ опережая график.</blockquote>
 	</card>
 	<card>
 		<k>озбур</k>
-		<blockquote>жадный.</blockquote>
+		<pos>adj</pos>
+		<trn>жадный.</trn>
 	</card>
 	<card>
 		<k>озгор-</k>
+		<pos>v</pos>
 		<meta>южн.</meta>
-		<blockquote>понуд. от оз-,</blockquote>
+		<meta>понуд. от оз-,<metae>
 		<sameas word="оздур"/>
 	</card>
 	<card>
 		<k>озгоруш</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<actionNoun word="озгор"/>
 	</card>
