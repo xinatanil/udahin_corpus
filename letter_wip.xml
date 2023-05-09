@@ -319,7 +319,7 @@
 		<k>обочолонт-</k>
 		<pos>v</pos>
 		<caus word="обочолон"/>
-		<trn>обособить, отодвинуть в сторону от других.</blockquote>
+		<trn>обособить, отодвинуть в сторону от других.</trn>
 	</card>
 	<card>
 		<k>обочолонуу</k>
@@ -546,7 +546,7 @@
 		<k>огожо</k>
 		<pos>n</pos>
 		<meaning>
-			<trn>подпорка;</blockquote>
+			<trn>подпорка;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
@@ -778,7 +778,7 @@
 		<k>озгор-</k>
 		<pos>v</pos>
 		<meta>южн.</meta>
-		<meta>понуд. от оз-,<metae>
+		<blockquote>понуд. от оз-</blockquote>
 		<sameas word="оздур"/>
 	</card>
 	<card>
