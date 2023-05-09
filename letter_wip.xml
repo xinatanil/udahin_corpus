@@ -18,18 +18,21 @@
 		<homonym>
 			<pos>prn</pos>
 			<origin>ар.</origin>
-			<meta>редко,</meta>
-			<trn>союз и;</trn>
+			<meta>редко</meta>
+			<meta>союз</meta>
+			<trn>и;</trn>
 			<blockquote>о жана@@ и ещё, а также;</blockquote>
 			<blockquote>о алей- кум салам!@@ и вам мир! (ответ на приветствие).</blockquote>
 		</homonym>
 		<homonym>
 			<pos>ideo</pos>
 			<sameas word="о" index="3"/>
-			<meta>о, дарига</meta>
-			<origin>ир.</origin>
-			<meta>редко,</meta>
-			<trn>возглас, выражающий горе, сожаление.</trn>
+			<minicard>
+				<k>о, дарига</k>
+				<origin>ир.</origin>
+				<meta>редко</meta>
+				<trn>возглас, выражающий горе, сожаление.</trn>
+			</minicard>
 		</homonym>
 	</card>
 	<card>
@@ -163,7 +166,7 @@
 	<card>
 		<k>обоздон-</k>
 		<pos>v</pos>
-		<meta>возвр. от обоздо-,</meta>
+		<blockquote>возвр. от обоздо-</blockquote>
 		<sameas word="обоздо"/>
 	</card>
 	<card>
@@ -224,7 +227,7 @@
 		<k>обон</k>
 		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>напев, мотив; мелодия (для голоса; ср. күү I);</blockquote>
+		<trn>напев, мотив; мелодия (для голоса; ср. күү I);</trn>
 		<blockquote>обон сал-## петь.</blockquote>
 	</card>
 	<card>
@@ -281,7 +284,7 @@
 	<card>
 		<k>обороттук</k>
 		<pos>adj</pos>
-		<meta>эк.:</meta>
+		<meta>эк.</meta>
 		<blockquote>обороттук капитал@@ оборотный капитал;</blockquote>
 		<blockquote>обороттук каражаттар@@ оборотные средства.</blockquote>
 	</card>
@@ -396,7 +399,7 @@
 	<card>
 		<k>обурак</k>
 		<pos>n</pos>
-		<meta>(ср. абырак I, арбак)</meta>
+		<blockquote>(ср. абырак I, арбак)</blockquote>
 		<trn>авторитет, достоинство; слава;</trn>
 		<blockquote>обурагын арттырып, тулпардан тартуу берди дейт фольк.@@ множа его славу, он подарил (ему) боевого коня;</blockquote>
 		<blockquote>обурагы дүң болгон@@ слава о нём гремела.</blockquote>
@@ -404,7 +407,7 @@
 	<card>
 		<k>обурактуу</k>
 		<pos>adj</pos>
-		<meta>(ср. абырактуу I, арбактуу)</meta>
+		<blockquote>(ср. абырактуу I, арбактуу)</blockquote>
 		<trn>прославленный, знаменитый; сопутствуемый удачей;</trn>
 		<blockquote>обурактуу Манас@@ прославленный (богатырь) Манас.</blockquote>
 	</card>
@@ -448,7 +451,7 @@
 		<pos>adj</pos>
 		<trn>объективный</trn>
 		<blockquote>объективдүү себеп@@ объективная причина;</blockquote>
-		<blockquote>коомдук өнүгүүнүн объективдүү закону@@ объективный закон общественного рззвития.</blockquote>
+		<blockquote>коомдук өнүгүүнүн объективдүү закону@@ объективный закон общественного развития.</blockquote>
 	</card>
 	<card>
 		<k>обыватель</k>
@@ -584,9 +587,12 @@
 		<trn>огород</trn>
 	</card>
 	<card>
-		<k>оготетен,</k>
+		<k>оготетен</k>
 		<pos>adv</pos>
-		<meta>оготетен, оготөтөн</meta>
+		<look word="ого" index="1"/>
+	</card>
+	<card>
+		<k>оготөтөн</k>
 		<look word="ого" index="1"/>
 	</card>
 	<card>
@@ -602,8 +608,7 @@
 		<blockquote>ак одеяло менен жабылган жөнөкөй темир@@ кровать покрытая белым одеялом простая железная кровать.</blockquote>
 	</card>
 	<card>
-		<k>одо,</k>
-		<meta>одо, ондо</meta>
+		<k>одо</k>
 		<meta>южн.</meta>
 		<sameas word="анда" index="1"/>
 	</card>
@@ -612,8 +617,7 @@
 		<sameas word="одоно"/>
 	</card>
 	<card>
-		<k>одон,</k>
-		<meta>одон, онон</meta>
+		<k>одон</k>
 		<meta>южн.</meta>
 		<sameas word="андан"/>
 	</card>
@@ -695,7 +699,8 @@
 	<card>
 		<k>оёк</k>
 		<meta>(о-йак)</meta>
-		<meta>южн., талас.</meta>
+		<meta>южн.</meta>
+		<meta>талас.</meta>
 		<trn>та сторона, то место;</trn>
 		<blockquote>оёкто@@ там;</blockquote>
 		<blockquote>оёкко@@ туда;</blockquote>
