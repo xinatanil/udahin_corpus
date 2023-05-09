@@ -1467,7 +1467,7 @@
 	<card>
 		<k>ойда</k>
 		<pos>ideo</pos>
-		<blockquote>(ср. олда, олдо I)</blockquote>
+		<meta>(ср. олда, олдо I)</meta>
 		<meta>возглас, выражающий похвалу или неодобрение</meta>
 		<trn>вон как!, здорово!;</trn>
 		<ex>
@@ -1604,7 +1604,7 @@
 				<meaning>
 					<trn>волнообразный, извилистый (напр. о горной тропе); неровный (то выше, то ниже; то подъём, то спуск);</trn>
 					<ex>
-						<source>>ойку-кайкы жүр-</source>
+						<source>ойку-кайкы жүр-</source>
 						<target>ходить извилистыми, путаными тропами;</target>
 					</ex>
 					<ex>
@@ -1681,7 +1681,7 @@
 	<card>
 		<k>ойкуштан-</k>
 		<pos>v</pos>
-		<blockquote>возвр. от ойкушта-</blockquote>
+		<refv word="ойкушта"/>
 		<sameas word="ойкушта"/>
 		<ex>
 			<source>ойкуштанып жүгүрүп, тер көбүгүм чачайын фольк.</source>
@@ -1881,7 +1881,7 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>взаимн. от ойло-</blockquote>
+			<recv word="ойло"/>
 			<ex>
 				<source>ойлошуп көрөлү</source>
 				<target>давайте-ка подумаем.</target>
@@ -1975,7 +1975,10 @@
 				<target>когда она больно щипала, ребёнок (будущий богатырь) ревел басом;</target>
 			</ex>
 		</minicard>
-		<blockquote>оймок боола-@@ см. боола-</blockquote>
+		<ex>
+			<source>оймок боола-</source>
+			<target>см. боола-</target>
+		</ex>
 	</card>
 	<card>
 		<k>оймокбооч</k>
@@ -2604,7 +2607,10 @@
 					<trn>(о человеке) паникёр;</trn>
 				</meaning>
 			</minicard>
-			<blockquote>"айт" десе "ойт" деген@@ см. айт I.</blockquote>
+			<ex>
+				<source>"айт" десе "ойт" деген</source>
+				<target>см. айт I.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<minicard>
@@ -2742,10 +2748,22 @@
 					<source>көзүндө огу болсо, тымызын жайласам дейт</source>
 					<target>(он так ненавидит, что) если бы у него в глазах была стрела, он готов был бы (взглядом) укокошить;</target>
 				</ex>
-				<blockquote>окко учур-@@ см. учур- II;</blockquote>
-				<blockquote>ок жылан@@ см. жылан 1;</blockquote>
-				<blockquote>чагылган огу@@ см. чагылган;</blockquote>
-				<blockquote>өгүз окко өл-, өгүз окко өлтүрүп кет-@@ см. өгүз</blockquote>
+				<ex>
+					<source>окко учур-</source>
+					<target>см. учур- II;</target>
+				</ex>
+				<ex>
+					<source>ок жылан</source>
+					<target>см. жылан 1;</target>
+				</ex>
+				<ex>
+					<source>чагылган огу</source>
+					<target>см. чагылган;</target>
+				</ex>
+				<ex>
+					<source>өгүз окко өл-, өгүз окко өлтүрүп кет-</source>
+					<target>см. өгүз</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<trn>камень, подброшенный выше других при игре в топ таш</trn>
