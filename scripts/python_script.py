@@ -65,6 +65,8 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub(rf'<blockquote>то же, что {referencePattern}<\/blockquote>', rf'<sameas {referenceReplace} />', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>\(?см\. {referencePattern}\)?.?<\/blockquote>', rf'<look {referenceReplace} />', content_new, flags = re.M)
     
+    content_new = re.sub(rf'<(.+)>то же, что ([\w\- ]+) \(см\. {referencePattern}\).?</\1>', r'<anchorRef word="\3" index="\4" subindex="\5" anchor="\2"/>', content_new, flags = re.M)
+
     content_new = re.sub('subindex=""', r'', content_new, flags = re.M)
     content_new = re.sub('index=""', r'', content_new, flags = re.M)
     content_new = re.sub('<blockquote></blockquote>\n', r'', content_new, flags = re.M)
@@ -119,13 +121,6 @@ with open(inputFilename, 'r' ) as f:
     outputFile.close()
 
 
-#content_new = re.sub('', r'', content_new, flags = re.M)
-
-
 #ав\.|англ\.|башк\.|бенг\.|буд\.|бухг\.|вводн. сл\.|вет\.|вин\.|вопр\.|вр\.|в сочет\.|вспом\.|г\.||гл\.|гл. обр\.|греч\.|дат\.|деепр\.|дет\.|др\.|звукоподр\.|знач\.|и др\.|им\.|инд\.|исх\.|и т. д\.|и т. п\.|ичкилик\.|каз\.|канц\.|кирг\.|книжн\.|л\.|-л.\-||межд\.|мест\.|местн\.|метео\.|многокр\.|монг\.|муз\.|напр\.|наст\.|неодобр\.|неправ\.|орф\.|отриц\.|офиц\.|п\.|памирск\.|погов\.|поэт\.|пренебр\.|прил\.|прим\.|притяж\.|прич\.|противит\.|противоп\.|прош\.|прям\.|психол\.|разг\.|род\.|санскр\.|см\.|собир\.|соед\.|сокр\.|соотв\.|ср\.|стих\.||тадж\.|тат\.|т.е\.|тув\.|узб\.|уйг\.|уменьш\.|употр\.|усил\.|уступ\.|физ\.|фин\.|фольк\.|шахм\.|школ\.|шутл\.|эк\.|юр.
 
-# <blockquote>отвл. от нускалуу</blockquote>
-# <blockquote>отвл. от нөкөр;</blockquote>
-# <blockquote>то же, что нар кескен (см. нар I).</blockquote>
-# <blockquote>то же, что беш бармак (см. бармак).</blockquote>
 # <blockquote>(см. не I).</blockquote>
