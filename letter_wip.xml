@@ -8256,311 +8256,565 @@
 	</card>
 	<card>
 		<k>опузда-</k>
+		<pos>v</pos>
 		<meta>разг.</meta>
-		<blockquote>конфисковать;</blockquote>
-		<blockquote>мал-мүлкүн опуздап, өз башын түрмөгө жиберген его имущество конфисковали, а его самого отправили в тюрьму.</blockquote>
+		<trn>конфисковать;</trn>
+		<ex>
+		    <source>мал-мүлкүн опуздап, өз башын түрмөгө жиберген</source>
+		    <target>его имущество конфисковали, а его самого отправили в тюрьму.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опуй-</k>
+		<pos>ideo</pos>
 		<sameas word="опой"/>
 	</card>
 	<card>
 		<k>опулда-</k>
-		<blockquote>опулда-: опулдап сүйлө- бахвалиться или грозиться, размахивая руками и вихляясь;</blockquote>
-		<blockquote>чала мас болгондо, ойду омкоруп, тоону томкоруп, опулдап сүйлөй баштайт во хмелю он, выворачивая долы, переворачивая горы, бахвалится, размахивая руками;</blockquote>
-		<blockquote>оору көрсө, дем салып, опулдаган молдолор фольк. когда муллы увидят больного они отчитывают (его), кривляясь и вихляясь;</blockquote>
-		<blockquote>көчүгү опулдап калды он струсил; у него поджилки трясутся.</blockquote>
+		<pos>v</pos>
+		<minicard>
+		    <k>опулдап сүйлө-</k>
+		    <trn>бахвалиться или грозиться, размахивая руками и вихляясь;</trn>
+		    <ex>
+		        <source>чала мас болгондо, ойду омкоруп, тоону томкоруп, опулдап сүйлөй баштайт</source>
+		        <target>во хмелю он, выворачивая долы, переворачивая горы, бахвалится, размахивая руками;</target>
+		    </ex>
+		</minicard>
+		<ex>
+		    <source>оору көрсө, дем салып, опулдаган молдолор фольк.</source>
+		    <target>когда муллы увидят больного они отчитывают (его), кривляясь и вихляясь;</target>
+		</ex>
+		<ex>
+		    <source>көчүгү опулдап калды</source>
+		    <target>он струсил; у него поджилки трясутся.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опулдат-</k>
+		<pos>v</pos>
 		<caus word="опулда"/>
-		<blockquote>кашаңыраак тору атты опулдата желдирип, келе жаткан он ехал, пустив свою гнедую с ленцой лошадь неуклюже трюхающей рысцой.</blockquote>
+		<ex>
+		    <source>кашаңыраак тору атты опулдата желдирип, келе жаткан</source>
+		    <target>он ехал, пустив свою гнедую с ленцой лошадь неуклюже трюхающей рысцой.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опулдатма-</k>
-		<blockquote>запугивание, застращивание (всякими былями и небылицами).</blockquote>
+		<pos>n</pos>
+		<trn>запугивание, застращивание (всякими былями и небылицами).</trn>
 	</card>
 	<card>
 		<k>опулдаш-</k>
+		<pos>v</pos>
 		<recv word="опулда"/>
-		<blockquote>орозодо молдолор опулдашат битирге фольк. в пост (см. орозо) муллы жадно рвутся, чтобы получить битир (см. битир I).</blockquote>
+		<ex>
+		    <source>орозодо молдолор опулдашат битирге фольк.</source>
+		    <target>в пост муллы жадно рвутся, чтобы получить битир.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опур</k>
+		<pos>v</pos>
 		<homonym>
-			<blockquote>опур I:</blockquote>
-			<blockquote>опур-топур суматоха, сумятица, переполох, содом;</blockquote>
-			<blockquote>үйдүн ичи опур-топур болуп кетти в доме настоящий содом пошёл (люди приходят, уходят, ночуют и т.п.).</blockquote>
+			<trn>опур</trn>
+			<minicard>
+			    <k>опур-топур</k>
+			    <trn>суматоха, сумятица, переполох, содом;</trn>
+			    <ex>
+			        <source>үйдүн ичи опур-топур болуп кетти</source>
+			        <target>в доме настоящий содом пошёл (люди приходят, уходят, ночуют и т.п.).</target>
+			    </ex>
+			</minicard>
 		</homonym>
 		<homonym>
-			<blockquote>отрывать, отхватывать большими кусками;</blockquote>
-			<blockquote>четинен опуруп жедик мы отрывали большими кусками и ели, мы жрали вовсю;</blockquote>
-			<blockquote>опуруп-жапырып выворачивая и валя; круша направо и налево;</blockquote>
-			<blockquote>кыйкырып жүрөт, элдин баарын опуруп-жапырып (о пьяном) он кричит, заглушая всех, не давая никому слова сказать.</blockquote>
+			<trn>отрывать, отхватывать большими кусками;</trn>
+			<ex>
+			    <source>четинен опуруп жедик</source>
+			    <target>мы отрывали большими кусками и ели, мы жрали вовсю;</target>
+			</ex>
+			<minicard>
+			    <k>опуруп-жапырып</k>
+			    <trn>выворачивая и валя; круша направо и налево;</trn>
+			    <ex>
+			        <source>кыйкырып жүрөт, элдин баарын опуруп-жапырып</source>
+			        <target>(о пьяном) он кричит, заглушая всех, не давая никому слова сказать.</target>
+			    </ex>
 		</homonym>
 	</card>
 	<card>
 		<k>опурай</k>
+		<pos>ij</pos>
 		<origin>ир.-кирг.</origin>
-		<blockquote>(о пир-ай)</blockquote>
-		<blockquote>вон ведь как!, смотри-ка ты!, диво-то какое!</blockquote>
+		<trn>вон ведь как!, смотри-ка ты!, диво-то какое!</trn>
 	</card>
 	<card>
 		<k>опураңда-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>порываться вперёд;</blockquote>
+			<trn>порываться вперёд;</trn>
 		</meaning>
 		<meaning>
 			<sameas word="апыраңда"/>
-			<blockquote>"он жолу ревизия келсе да, менден эч нерсе таба албайт" деп, опураңдайт "пусть даже десять раз явится ревизия, у меня (всё равно) ничего не найдёт" - бахвалится он.</blockquote>
+			<ex>
+			    <source>"он жолу ревизия келсе да, менден эч нерсе таба албайт" деп, опураңдайт</source>
+			    <target>"пусть даже десять раз явится ревизия, у меня (всё равно) ничего не найдёт" - бахвалится он.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>опурма</k>
-		<blockquote>опурма: кош ооз опурма двухствольное ружьё "переломка"; двухствольное ружьё, заряжающееся с казённой части.</blockquote>
+		<pos>n</pos>
+		<ex>
+		    <source>кош ооз опурма</source>
+		    <target>двухствольное ружьё "переломка"; двухствольное ружьё, заряжающееся с казённой части.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опурталдуу</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>опасный, таящий в себе опасность;</blockquote>
-			<blockquote>жолдун сырын билбейм, аска опурталдуу особенностей дороги я не знаю, скалы опасны (могут обрушиться);</blockquote>
-			<blockquote>алтын казган кен эле, опурталдуу жер эле, жалгыз ат баспас жаман жол фольк. (это) рудник, где копали золото, опасное место (всё в ямах), плохой путь, по которому лошадь одна не может идти;</blockquote>
-			<blockquote>опурталдуу сапар тяжёлый путь, трудная поездка;</blockquote>
-			<blockquote>опурталдуу түш сон, предвещающий недоброе;</blockquote>
+			<trn>опасный, таящий в себе опасность;</trn>
+			<ex>
+			    <source>жолдун сырын билбейм, аска опурталдуу</source>
+			    <target>особенностей дороги я не знаю, скалы опасны (могут обрушиться);</target>
+			</ex>
+			<ex>
+			    <source>алтын казган кен эле, опурталдуу жер эле, жалгыз ат баспас жаман жол фольк.</source>
+			    <target>(это) рудник, где копали золото, опасное место (всё в ямах), плохой путь, по которому лошадь одна не может идти;</target>
+			</ex>
+			<ex>
+			    <source>опурталдуу сапар</source>
+			    <target>тяжёлый путь, трудная поездка;</target>
+			</ex>
+			<ex>
+			    <source>опурталдуу түш</source>
+			    <target>сон, предвещающий недоброе;</target>
+			</ex>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>(о вещах) ненадёжный (ломкий, хрупкий).</blockquote>
+			<trn>(о вещах) ненадёжный (ломкий, хрупкий).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>опуртмалуу</k>
+		<pos>v</pos>
 		<meaning>
 			<sameas word="опурталдуу"/>
-			<blockquote>опуртмалуу жагдай опасная обстановка, опасное положение;</blockquote>
+			<ex>
+			    <source>опуртмалуу жагдай</source>
+			    <target>опасная обстановка, опасное положение;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>(о человеке) коварный.</blockquote>
+            <trn>(о человеке) коварный.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>опурук</k>
+		<pos>n</pos>
 		<meta>чатк.</meta>
-		<blockquote>обрыв, подмытый водой.</blockquote>
+		<trn>обрыв, подмытый водой.</trn>
 	</card>
 	<card>
 		<k>опурул-</k>
+		<pos>v</pos>
 		<refpass word="опур" index="2"/>
-		<blockquote>бирде тына калып, опурула-опурула соккон шамал ветер то затихал, то дул сильными порывами;</blockquote>
-		<blockquote>мага эмне опуруласың? ты что на меня набрасываешься?</blockquote>
-		<blockquote>үйүндө опурула берет, колунан эчтеме келбейт дома он бушует, а сделать-то ничего не может;</blockquote>
-		<blockquote>опурула жооп кайтарды он грубо ответил, он ответил с наскоком;</blockquote>
-		<blockquote>опурулган кол многочисленное войско, движущееся лавиной.</blockquote>
+		<ex>
+		    <source>бирде тына калып, опурула-опурула соккон шамал</source>
+		    <target>ветер то затихал, то дул сильными порывами;</target>
+		</ex>
+		<ex>
+		    <source>мага эмне опуруласың?</source>
+		    <target>ты что на меня набрасываешься?</target>
+		</ex>
+		<ex>
+		    <source>үйүндө опурула берет, колунан эчтеме келбейт</source>
+		    <target>дома он бушует, а сделать-то ничего не может;</target>
+		</ex>
+		<ex>
+		    <source>опурула жооп кайтарды</source>
+		    <target>он грубо ответил, он ответил с наскоком;</target>
+		</ex>
+		<ex>
+		    <source>опурулган кол</source>
+		    <target>многочисленное войско, движущееся лавиной.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опурулт-</k>
+		<pos>v</pos>
 		<caus word="опурул"/>
 	</card>
 	<card>
 		<k>опус</k>
-		<blockquote>опус I, II</blockquote>
-		<blockquote>то же, что опуз I, II.</blockquote>
+		<pos>n</pos>
+		<trn>опус</trn>
+		<sameas word="опуз"/>
 	</card>
 	<card>
 		<k>опут</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>опыт;</blockquote>
-		<blockquote>опутум мой опыт.</blockquote>
+		<trn>опыт;</trn>
+		<ex>
+		    <source>опутум</source>
+		    <target>мой опыт.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опшим</k>
+		<pos>adv</pos>
 		<origin>р.</origin>
 		<meta>южн.</meta>
-		<blockquote>в общем, вообще;</blockquote>
-		<blockquote>опшим, причинасы болмоюнча мындай кылбайт вообще, если нет причины, он так не поступит.</blockquote>
+		<trn>в общем, вообще;</trn>
+		<ex>
+		    <source>опшим, причинасы болмоюнча мындай кылбайт</source>
+		    <target>вообще, если нет причины, он так не поступит.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опшу</k>
+		<pos>adj</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>общий; сообща;</blockquote>
-		<blockquote>опшунун ортосундагы мал общественный скот;</blockquote>
-		<blockquote>опшубуз мы все;</blockquote>
-		<blockquote>опшу ыраазы бол если все согласятся; если будет общее согласие.</blockquote>
+		<trn>общий; сообща;</trn>
+		<ex>
+		    <source>опшунун ортосундагы</source>
+		    <target>мал общественный скот;</target>
+		</ex>
+		<ex>
+		    <source>опшубуз</source>
+		    <target>мы все;</target>
+		</ex>
+		<ex>
+		    <source>опшу ыраазы бол</source>
+		    <target>если все согласятся; если будет общее согласие.</target>
+		</ex>
 	</card>
 	<card>
 		<k>опшустуба</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>общество.</blockquote>
+		<trn>общество.</trn>
 	</card>
 	<card>
 		<k>ор</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>яма, ров;</blockquote>
-			<blockquote>ор каз- прям., перен. рыть яму.</blockquote>
+			<trn>яма, ров;</trn>
+			<ex>
+			    <source>ор каз-</source>
+			    <target>рыть яму.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<blockquote>жать, косить;</blockquote>
-			<blockquote>оруп-жыюу с.-х. уборка;</blockquote>
-			<blockquote>эгин оруп-жыюу хлебоуборка;</blockquote>
-			<blockquote>оруп-жыйып алчудай, баштыгына салчудай фольк. (он смотрит так свирепо) будто вот сожнёт, соберёт и в мешок положит;</blockquote>
-			<blockquote>ор ийрек миф. одна из принадлежностей жез тумшук (см. тумшук);</blockquote>
-			<blockquote>ор ийрегим, оргун жни мой ийрек (см. ийрек 2), жни (так в сказках кричит жез тумшук, нападая на свою жертву).</blockquote>
+			<trn>жать, косить;</trn>
+			<minicard>
+				<k>оруп-жыюу</k> 
+				<trn>уборка;</trn>
+				<ex>
+		        	<source>эгин оруп-жыюу</source>
+		        	<target>хлебоуборка;</target>
+		        </ex>
+		        <ex>
+			        <source>оруп-жыйып алчудай, баштыгына салчудай фольк.</source>
+			        <target>(он смотрит так свирепо) будто вот сожнёт, соберёт и в мешок положит;</target>
+			    </ex>
+			</minicard>
+			<ex>
+			    <source>ор ийрек миф.</source>
+			    <target>одна из принадлежностей жез тумшук</target>
+			</ex>
+			<ex>
+			    <source>ор ийрегим, оргун</source>
+			    <target>жни мой ийрек, жни (так в сказках кричит жез тумшук, нападая на свою жертву).</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
 		<k>оразгар</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>хозяйство (семья, дом, домашние дела и т.п.).</blockquote>
+		<trn>хозяйство (семья, дом, домашние дела и т.п.).</trn>
 	</card>
 	<card>
 		<k>оратор</k>
+		<pos>n</pos>
 		<trn>оратор</trn>
 	</card>
 	<card>
 		<k>орбита</k>
+		<pos>n</pos>
 		<trn>орбита</trn>
-		<blockquote>жер шарынын орбитасы земная орбита.</blockquote>
+        <ex>
+		    <source>жер шарынын орбитасы</source>
+		    <target>земная орбита.</target>
+		</ex>
 	</card>
 	<card>
 		<k>орган</k>
+		<pos>n</pos>
 		<meta>в разн. знач.</meta>
 		<trn>орган</trn>
-		<blockquote>партиялык жана советтик органдар партийные и советские органы.</blockquote>
+		<ex>
+		    <source>партиялык жана советтик органдар</source>
+		    <target>партийные и советские органы.</target>
+		</ex>
 	</card>
 	<card>
 		<k>организм</k>
+		<pos>n</pos>
 		<trn>организм</trn>
 	</card>
 	<card>
 		<k>органикалык</k>
-		<blockquote>органический;</blockquote>
-		<blockquote>органикалык заттар биол. органические вещества;</blockquote>
-		<blockquote>органикалык татаал бирикмелер хим. сложные органические соединения.</blockquote>
+		<pos>adj</pos>
+		<trn>органический;</trn>
+		<ex>
+		    <source>органикалык заттар биол.</source>
+		    <target>органические вещества;</target>
+		</ex>
+		<ex>
+		    <source>органикалык татаал бирикмелер хим.</source>
+		    <target>сложные органические соединения.</target>
+		</ex>
 	</card>
 	<card>
 		<k>оргачар</k>
+        <pos>adj</pos>
 		<meta>южн.</meta>
 		<sameas word="очогор"/>
 	</card>
 	<card>
 		<k>оргок</k>
+		<pos>n</pos>
 		<sameas word="орок"/>
 	</card>
 	<card>
 		<k>оргу</k>
+		<pos>v</pos>
 		<homonym>
-			<blockquote>оргу I:</blockquote>
-			<blockquote>оргу-баргы (о человеке) неуравновешенный, невоздержанный, непостоянный;</blockquote>
-			<blockquote>оргу-баргы сүйлө- говорить невоздержанно.</blockquote>
+			<trn>оргу</trn>
+			<minicard>
+			    <k>оргу-баргы</k>
+			    <trn>(о человеке) неуравновешенный, невоздержанный, непостоянный;</trn>
+			    <ex>
+			        <source>оргу-баргы сүйлө-</source>
+			        <target>говорить невоздержанно.</target>
+			    </ex>
+			</minicard>
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>(о воде) бить ключом, бурлить; подниматься, вздыматься;</blockquote>
-				<blockquote>жерден оргуп чыккан булак бьющий из земли родник;</blockquote>
+				<trn>(о воде) бить ключом, бурлить; подниматься, вздыматься;</trn>
+				<ex>
+				    <source>жерден оргуп чыккан булак</source>
+				    <target>бьющий из земли родник;</target>
+				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>дыбиться, бугриться;</blockquote>
-				<blockquote>оргуп чыккан шор вздыбившийся буграми солончак;</blockquote>
-				<blockquote>оргуп-оргуп чаң чыгат пыль клубами вздымается;</blockquote>
+				<trn>дыбиться, бугриться;</trn>
+				<ex>
+				    <source>оргуп чыккан шор</source>
+				    <target>вздыбившийся буграми солончак;</target>
+				</ex>
+				<ex>
+				    <source>оргуп-оргуп чаң чыгат</source>
+				    <target>пыль клубами вздымается;</target>
+				</ex>
 			</meaning>
 			<meaning>
-				<blockquote>резво прыгать, взбрыкивать;</blockquote>
-				<blockquote>ойноп-оргуп играя и прыгая.</blockquote>
+				<trn>резво прыгать, взбрыкивать;</trn>
+				<ex>
+				    <source>ойноп-оргуп</source>
+				    <target>играя и прыгая.</target>
+				</ex>
 			</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>оргуч</k>
-		<blockquote>хороший жнец.</blockquote>
+		<pos>n</pos>
+		<trn>хороший жнец.</trn>
 	</card>
 	<card>
 		<k>оргучта-</k>
+		<pos>v</pos>
 		<sameas word="оргу" index="2"/>
-		<blockquote>суу оргучтап жерден чыгып атат вода бьёт из земли.</blockquote>
+		<ex>
+		    <source>суу оргучтап жерден чыгып атат</source>
+		    <target>вода бьёт из земли.</target>
+		</ex>
 	</card>
 	<card>
 		<k>оргучтан-</k>
+		<pos>v</pos>
 		<refv word="оргучта"/>
-		<blockquote>кыйыры оргучтанды он взбеленился.</blockquote>
+		<ex>
+		    <source>кыйыры оргучтанды</source>
+		    <target>он взбеленился.</target>
+		</ex>
 	</card>
 	<card>
 		<k>оргушта-</k>
+		<pos>v</pos>
 		<sameas word="оргучта"/>
 	</card>
 	<card>
 		<k>орден</k>
+		<pos>n</pos>
 		<trn>орден</trn>
-		<blockquote>Ленин ордени орден Ленина;</blockquote>
-		<blockquote>Кызыл Туу ордени орден Красного Знамени;</blockquote>
-		<blockquote>Эмгек Кызыл Туу ордени орден Трудового Красного Знамени;</blockquote>
-		<blockquote>Ата Мекендик согуш ордени орден Отечественной войны;</blockquote>
-		<blockquote>Даңк ордени орден Славы;</blockquote>
-		<blockquote>"Ардак белгиси" ордени орден "Знак почёта";</blockquote>
-		<blockquote>"Баатыр эне" ордени орден "Мать-героиня".</blockquote>
+		<ex>
+		    <source>Ленин ордени</source>
+		    <target>орден Ленина;</target>
+		</ex>
+		<minicard>
+		   <k>Кызыл Туу ордени орден</k>
+		   <trn>Красного Знамени;</trn>
+		   <ex>
+		       <source>Эмгек Кызыл Туу ордени</source>
+		       <target>орден Трудового Красного Знамени;</target>
+		   </ex>
+		</minicard>
+		<ex>
+		    <source>Ата Мекендик согуш ордени</source>
+		    <target>орден Отечественной войны;</target>
+		</ex>
+		<ex>
+		    <source>Даңк ордени</source>
+		    <target>орден Славы;</target>
+		</ex>
+		<ex>
+		    <source>"Ардак белгиси" ордени</source>
+		    <target>орден "Знак почёта";</target>
+		</ex>
+		<ex>
+		    <source>"Баатыр эне" ордени</source>
+		    <target>орден "Мать-героиня".</target>
+		</ex>
 	</card>
 	<card>
 		<k>ордендүү</k>
-		<blockquote>орденоносный; орденоносец;</blockquote>
-		<blockquote>ордендүү Кыргызстан орденоносная Киргизия.</blockquote>
+		<pos>adj</pos>
+		<trn>орденоносный; орденоносец;</trn>
+		<ex>
+		    <source>ордендүү Кыргызстан</source>
+		    <target>орденоносная Киргизия.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ордер</k>
+		<pos>n</pos>
 		<trn>ордер</trn>
-		<blockquote>төлөө ордери платёжный ордер.</blockquote>
+		<ex>
+		    <source>төлөө ордери</source>
+		    <target>платёжный ордер.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ордо</k>
+		<pos>n</pos>
 		<meaning>
 			<meta>ист.</meta>
-			<blockquote>ханская ставка, ханский дворец, ханская юрта; богатая юрта феодала;</blockquote>
-			<blockquote>ордо күт- иметь и содержать свою ставку;</blockquote>
+			<trn>ханская ставка, ханский дворец, ханская юрта; богатая юрта феодала;</trn>
+			<ex>
+			    <source>ордо күт-</source>
+			    <target>иметь и содержать свою ставку;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>богатая юрта (вообще);</blockquote>
-			<blockquote>ак ордо богатая белая юрта;</blockquote>
+			<trn>богатая юрта (вообще);</trn>
+			<ex>
+			    <source>ак ордо</source>
+			    <target>богатая белая юрта;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>игра в альчики (азартная игра у взрослых киргизов, воспроизводящая бой за захват ханской ставки);</blockquote>
-			<blockquote>ордо ат- играть в ордо;</blockquote>
-			<blockquote>ордо аткандай (такое большое удовольствие) будто сыграл в ордо;</blockquote>
-			<blockquote>ордо сал- устраивать игру в ордо;</blockquote>
-			<blockquote>ордо салдыр- приказать устроить игру в ордо;</blockquote>
-			<blockquote>ордого сай- ставить ставку при игре в ордо;</blockquote>
-			<blockquote>ордого сайган бээлердин баарын силер алыңар фольк. всех кобылиц, поставленных на ставку, берите вы (выигрыш ваш);</blockquote>
-			<blockquote>ордо буз- бить первым, разбивая поставленные в кучку на кон альчики;</blockquote>
+			<trn>игра в альчики (азартная игра у взрослых киргизов, воспроизводящая бой за захват ханской ставки);</trn>
+			<minicard>
+			     <k>ордо ат-</k>
+			     <trn>играть в ордо;</trn>
+			     <ex>
+			         <source>ордо аткандай</source>
+			         <target>(такое большое удовольствие) будто сыграл в ордо;</target>
+			     </ex>
+			 </minicard>
+			 <minicard>
+			      <k>ордо сал-</k>
+			      <trn>устраивать игру в ордо;</trn>
+			      <ex>
+			          <source>ордо салдыр-</source>
+			          <target>приказать устроить игру в ордо;</target>
+			      </ex>
+			  </minicard>
+			  <minicard>
+			      <k>ордого сай-</k>
+			      <trn>ставить ставку при игре в ордо;</trn>
+			      <ex>
+			          <source>ордого сайган бээлердин баарын силер алыңар фольк.</source>
+			          <target>всех кобылиц, поставленных на ставку, берите вы (выигрыш ваш);</target>
+			      </ex>
+			  </minicard>
+			  <ex>
+			      <source>ордо буз-</source>
+			      <target>бить первым, разбивая поставленные в кучку на кон альчики;</target>
+			  </ex>
 		</meaning>
 		<meaning>
-			<blockquote>линия круга, по которой располагаются играющие в ордо;</blockquote>
-			<blockquote>жыландын ордосу место скопища змей;</blockquote>
-			<blockquote>ордо кыз ист. девушка из свиты ханши; девушка, прислуживающая в ханском дворце или в ханской ставке.</blockquote>
+			<trn>линия круга, по которой располагаются играющие в ордо;</trn>
+			<ex>
+			    <source>жыландын ордосу</source>
+			    <target>место скопища змей;</target>
+			</ex>
+			<ex>
+			    <source>ордо кыз ист.</source>
+			    <target>девушка из свиты ханши; девушка, прислуживающая в ханском дворце или в ханской ставке.</target>
+			</ex>
 		</meaning>
 	</card>
 	<card>
 		<k>ордокана</k>
+		<pos>n</pos>
 		<origin>кирг.-ир.</origin>
-		<blockquote>ханская ставка, ханский шатёр;</blockquote>
-		<blockquote>ордокана чатырга ал күнү кайра барыптыр фольк. в (свой) ханский шатёр в тот день он возвратился.</blockquote>
+		<trn>ханская ставка, ханский шатёр;</trn>
+		<ex>
+		    <source>ордокана чатырга ал күнү кайра барыптыр фольк.</source>
+		    <target>в (свой) ханский шатёр в тот день он возвратился.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ордолук</k>
+		<pos>n</pos>
 		<meta>ист.</meta>
-		<blockquote>находящийся при дворе, при ставке хана, феодала;</blockquote>
-		<blockquote>ордолук черүү воины при ставке хана, феодала.</blockquote>
+		<trn>находящийся при дворе, при ставке хана, феодала;</trn>
+		<ex>
+		    <source>ордолук черүү</source>
+		    <target>воины при ставке хана, феодала.</target>
+		</ex>
 	</card>
 	<card>
 		<k>ордолуу</k>
+		<pos>ger</pos>
 		<meaning>
-			<blockquote>обладатель дворца, ханской ставки;</blockquote>
-			<blockquote>ордолуу Букар шаары фольк. город Бухара с (ханским) дворцом;</blockquote>
+			<trn>обладатель дворца, ханской ставки;</trn>
+			<ex>
+			    <source>ордолуу Букар шаары фольк.</source>
+			    <target>город Бухара с (ханским) дворцом;</target>
+			</ex>
 		</meaning>
 		<meaning>
-			<blockquote>имеющий много родичей, сторонников и этим сильный;</blockquote>
-			<blockquote>ордолуу журт сплочённый и сильный народ;</blockquote>
-			<blockquote>он үчүмө келгенде ордолуу журтка кол салдым фольк. когда я достиг тринадцатилетнего возраста, я напал на сильный народ (говорит богатырь);</blockquote>
+			<trn>имеющий много родичей, сторонников и этим сильный;</trn>
+			<minicard>
+			    <k>ордолуу журт</k>
+			    <trn>сплочённый и сильный народ;</trn>
+			    <ex>
+			        <source>он үчүмө келгенде ордолуу журтка кол салдым фольк.</source>
+			        <target>когда я достиг тринадцатилетнего возраста, я напал на сильный народ (говорит богатырь);</target>
+			    </ex>
 			<minicard>
 				<k>ордолуу жылан</k>
 				<meaning>
@@ -8570,25 +8824,29 @@
 					<trn>змеиное скопище;</trn>
 				</meaning>
 			</minicard>
-			<blockquote>ордолуу бай см. бай I 1.</blockquote>
+			<blockquote>ордолуу бай@@ см. бай I 1.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>ордочу</k>
+		<pos>n</pos>
 		<compare word="чертмекчи"/>
-		<blockquote>мастер игры в ордо, игрок в ордо (см. ордо 3).</blockquote>
+		<trn>мастер игры в ордо, игрок в ордо (см. ордо 3).</trn>
 	</card>
 	<card>
 		<k>орду</k>
+		<pos>n</pos>
 		<look word="орун"/>
 	</card>
 	<card>
 		<k>ордун</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="орден"/>
 	</card>
 	<card>
 		<k>ордур</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>разг.</meta>
 			<meaning>
@@ -8600,30 +8858,38 @@
 		</homonym>
 		<homonym>
 			<caus word="ор" index="2"/>
-			<blockquote>заставить жать, заставить косить.</blockquote>
+			<trn>заставить жать, заставить косить.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>оригинал</k>
-		<blockquote>оригинал (подлинник);</blockquote>
-		<blockquote>макаланын оригиналы оригинал статьи.</blockquote>
+		<pos>adj</pos>
+		<trn>оригинал (подлинник);</trn>
+		<ex>
+		    <source>макаланын оригиналы</source>
+		    <target>оригинал статьи.</target>
+		</ex>
 	</card>
 	<card>
 		<k>оригиналдуу</k>
+		<pos>adj</pos>
 		<meta>в разн. знач.</meta>
 		<trn>оригинальный</trn>
 	</card>
 	<card>
 		<k>оригиналдуулук</k>
+		<pos>adj</pos>
 		<meta>в разн. знач.</meta>
 		<trn>оригинальность</trn>
 	</card>
 	<card>
 		<k>ориенталист</k>
+		<pos>n</pos>
 		<trn>ориенталист</trn>
 	</card>
 	<card>
 		<k>ориентация</k>
+		<pos>n</pos>
 		<trn>ориентация</trn>
 	</card>
 	<card>
