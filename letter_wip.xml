@@ -5517,6 +5517,7 @@
 	</card>
 	<card>
 		<k>оңурайт-</k>
+		<pos>v</pos>
 		<caus word="оңурай"/>
 		<ex>
 			<source>оң көзүнө бир сайып, оңурайтып алды эми фольк.</source>
@@ -5529,6 +5530,7 @@
 	</card>
 	<card>
 		<k>оңураңда-</k>
+		<pos>v</pos>
 		<trn>сердито, свирепо набрасываться;</trn>
 		<ex>
 			<source>эмне оңураңдайсың!</source>
@@ -5537,10 +5539,12 @@
 	</card>
 	<card>
 		<k>оңураңдоо</k>
+		<pos>ger</pos>
 		<actionNoun word="оңураңда"/>
 	</card>
 	<card>
 		<k>оңуш-</k>
+		<pos>v</pos>
 		<recv word="оң" index="2"/>
 		<ex>
 			<source>өлгөнүнөн калганы а күнү уктап оңушуп фольк.</source>
@@ -5557,21 +5561,25 @@
 	</card>
 	<card>
 		<k>ончо</k>
+		<pos>prn</pos>
 		<meta>южн.</meta>
 		<sameas word="анча"/>
 	</card>
 	<card>
 		<k>оңчул</k>
+		<pos>adj</pos>
 		<meta>полит.</meta>
 		<trn>правый.</trn>
 	</card>
 	<card>
 		<k>оңчулдук</k>
+		<pos>n</pos>
 		<meta>полит.</meta>
 		<trn>правый уклон.</trn>
 	</card>
 	<card>
 		<k>оңчулуктуу</k>
+		<pos>adv</pos>
 		<meta>чаще в отриц. обороте</meta>
 		<trn>как следует, толком, путём;</trn>
 		<ex>
@@ -5589,6 +5597,7 @@
 	</card>
 	<card>
 		<k>оңшой-</k>
+		<pos>v</pos>
 		<trn>(о человеке богатырского роста и сложения) быть хмурым, мрачным (гл. обр. из-за каких-л. неудач);</trn>
 		<ex>
 			<source>чындап каршы боло албай, калды Кыяз оңшоюп фольк.</source>
@@ -5601,6 +5610,7 @@
 	</card>
 	<card>
 		<k>оо-</k>
+		<pos>v</pos>
 		<homonym>
 			<trn>свешиваться на одну сторону, переваливаться; склоняться;</trn>
 			<ex>
@@ -5670,6 +5680,7 @@
 	</card>
 	<card>
 		<k>ооба</k>
+		<pos>ideo</pos>
 		<trn>да (согласие);</trn>
 		<ex>
 			<source>барасыңбы? - Ооба!</source>
@@ -5682,11 +5693,13 @@
 	</card>
 	<card>
 		<k>ооган</k>
+		<pos>n</pos>
 		<meta>ист.</meta>
 		<trn>слуга сановника, слуга вельможи.</trn>
 	</card>
 	<card>
 		<k>оодар-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>переворачивать, сваливать;</trn>
 			<ex>
@@ -5744,30 +5757,36 @@
 	</card>
 	<card>
 		<k>оодаргансы-</k>
+		<pos>v</pos>
 		<similative word="оодар"/>
 		<trn>как бы переворачивать.</trn>
 	</card>
 	<card>
 		<k>оодарт-</k>
+		<pos>v</pos>
 		<caus word="оодар"/>
 	</card>
 	<card>
 		<k>оодартуу</k>
+		<pos>ger</pos>
 		<actionNoun word="оодарт"/>
 	</card>
 	<card>
 		<k>оодаруу</k>
 		<actionNoun word="оодар"/>
 		<meaning>
+		<pos>ger</pos>
 			<trn>переворачивание, сваливание;</trn>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<meta>уст.</meta>
 			<trn>перевод (с одного языка на другой).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>оодарыл-</k>
+		<pos>v</pos>
 		<pass word="оодар"/>
 		<meaning>
 			<trn>быть перевёрнутым, переворачиваться;</trn>
@@ -5787,11 +5806,13 @@
 	</card>
 	<card>
 		<k>оодарылгыч</k>
+		<pos>adj</pos>
 		<trn>часто переворачивающийся, неустойчивый (напр. о лодке, санях и т.п.).</trn>
 	</card>
 	<card>
 		<k>оодарыш</k>
 		<homonym>
+			<pos>ger</pos>
 			<actionNoun word="оодар"/>
 			<meaning>
 				<trn>переворачивание, сваливание;</trn>
@@ -5805,6 +5826,7 @@
 			</meaning>
 		</homonym>
 		<homonym>
+			<pos>ger</pos>
 			<recv word="оодар"/>
 			<meaning>
 				<trn>совместно переворачивать;</trn>
@@ -5820,11 +5842,13 @@
 	</card>
 	<card>
 		<k>оодарышмак</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="эңиш" index="3" subindex="1"/>
 	</card>
 	<card>
 		<k>оодарыштыр-</k>
+		<pos>v</pos>
 		<caus word="оодарыш" index="2"/>
 		<minicard>
 			<k>казанда эт оодарыштыр-</k>
@@ -5838,6 +5862,7 @@
 	<card>
 		<k>оодарышуу</k>
 		<meaning>
+			<pos>ger</pos>
 			<actionNoun word="оодарыш" index="2"/>
 			<ex>
 				<source>курулай оодарышуудан эмне пайда бар?</source>
@@ -5845,6 +5870,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<sameas word="оодарыш" index="1"/>
 			<ex>
 				<source>ал оодарышуудан түк алдыра элек</source>
@@ -5862,6 +5888,7 @@
 	</card>
 	<card>
 		<k>оодук</k>
+		<pos>adj</pos>
 		<trn>склонённый, перевесившийся, свалившийся набок, накренившийся;</trn>
 		<ex>
 			<source>ээрдин бир жагына оодугураак отуруп</source>
@@ -5882,6 +5909,7 @@
 	</card>
 	<card>
 		<k>оодур-</k>
+		<pos>v</pos>
 		<caus word="оо" index="1"/>
 		<ex>
 			<source>оодура тартып салды</source>
@@ -5894,6 +5922,7 @@
 	</card>
 	<card>
 		<k>оож</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<minicard>
 			<k>оож ал-</k>
@@ -5911,6 +5940,7 @@
 	</card>
 	<card>
 		<k>ооз</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>рот;</trn>
@@ -6423,6 +6453,7 @@
 	</card>
 	<card>
 		<k>оозан-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>сказать, произнести, провозгласить;</trn>
 			<ex>
@@ -6452,6 +6483,7 @@
 	</card>
 	<card>
 		<k>оозандыр-</k>
+		<pos>v</pos>
 		<caus word="оозан"/>
 		<trn>дать или сунуть в рот; дать сосать;</trn>
 		<ex>
@@ -6461,6 +6493,7 @@
 	</card>
 	<card>
 		<k>оозант-</k>
+		<pos>v</pos>
 		<sameas word="оозандыр"/>
 		<ex>
 			<source>оозантмакка баланы оозуна эмчек салганы фольк.</source>
@@ -6469,6 +6502,7 @@
 	</card>
 	<card>
 		<k>ооздон-</k>
+		<pos>v</pos>
 		<trn>уподобляться в отношении рта;</trn>
 		<ex>
 			<source>ачылган көр ооздон-</source>
@@ -6489,6 +6523,7 @@
 	</card>
 	<card>
 		<k>ооздук</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>удила;</trn>
 			<ex>
@@ -6533,6 +6568,7 @@
 	</card>
 	<card>
 		<k>ооздукта-</k>
+		<pos>v</pos>
 		<trn>взнуздать; перен. обуздать, укротить;</trn>
 		<ex>
 			<source>аттарды ооздуктап</source>
@@ -6541,6 +6577,7 @@
 	</card>
 	<card>
 		<k>ооздурук</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="ооздук" index="1"/>
 	</card>
@@ -6557,6 +6594,7 @@
 	</card>
 	<card>
 		<k>оозеки</k>
+		<pos>adj</pos>
 		<origin>кирг.-ир.</origin>
 		<trn>устный;</trn>
 		<ex>
@@ -6570,6 +6608,7 @@
 	</card>
 	<card>
 		<k>оозку</k>
+		<pos>adj</pos>
 		<trn>находящийся у входного отверстия, у входа;</trn>
 		<ex>
 			<source>оозку бөлмө</source>
@@ -6578,11 +6617,13 @@
 	</card>
 	<card>
 		<k>оозул</k>
+		<pos>n</pos>
 		<trn>молочница (болезнь грудных детей).</trn>
 	</card>
 	<card>
 		<k>оокам</k>
 		<meaning>
+			<pos>n</pos>
 			<trn>время, момент;</trn>
 			<ex>
 				<source>бир оокамда</source>
@@ -6590,6 +6631,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>adv</pos>
 			<meta>перен.</meta>
 			<trn>сейчас же, немедля;</trn>
 			<ex>
@@ -6608,6 +6650,7 @@
 	</card>
 	<card>
 		<k>оокат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meaning>
 			<trn>пища, пропитание;</trn>
@@ -6710,6 +6753,7 @@
 	</card>
 	<card>
 		<k>оокаттан-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>начать жить в достатке;</trn>
 			<ex>
@@ -6728,6 +6772,7 @@
 	</card>
 	<card>
 		<k>оокаттуу</k>
+		<pos>adj</pos>
 		<trn>зажиточный, состоятельный;</trn>
 		<ex>
 			<source>бардык колхозчуларды оокаттуу кылалы</source>
@@ -6740,10 +6785,12 @@
 	</card>
 	<card>
 		<k>оокаттуулук</k>
+		<pos>n</pos>
 		<trn>зажиточность.</trn>
 	</card>
 	<card>
 		<k>оокум</k>
+		<pos>n</pos>
 		<sameas word="оокам"/>
 		<ex>
 			<source>бир оокумга маектешти</source>
@@ -6767,6 +6814,7 @@
 			</minicard>
 		</homonym>
 		<homonym>
+			<pos>v</pos>
 			<trn>удаляться, отдаляться;</trn>
 			<ex>
 				<source>бу тоодон тиги тоого оолап кетти</source>
@@ -6776,6 +6824,7 @@
 	</card>
 	<card>
 		<k>оолак</k>
+		<pos>adj</pos>
 		<trn>дальний, далёкий; далеко, в отдалении;</trn>
 		<ex>
 			<source>оолак отур</source>
@@ -6800,6 +6849,7 @@
 	</card>
 	<card>
 		<k>оолакта-</k>
+		<pos>v</pos>
 		<trn>удаляться, отдаляться;</trn>
 		<ex>
 			<source>оолактап тур-</source>
@@ -6808,6 +6858,7 @@
 	</card>
 	<card>
 		<k>оолактат-</k>
+		<pos>v</pos>
 		<caus word="солакта"/>
 		<trn>удалять, отдалять;</trn>
 		<ex>
@@ -6817,10 +6868,12 @@
 	</card>
 	<card>
 		<k>оолактатыш</k>
+		<pos>ger</pos>
 		<actionNoun word="оолактат"/>
 	</card>
 	<card>
 		<k>оолат-</k>
+		<pos>v</pos>
 		<caus word="оола" index="2"/>
 		<ex>
 			<source>бул жактан бизди дагы бир жакка оолатат</source>
@@ -6829,11 +6882,13 @@
 	</card>
 	<card>
 		<k>оолаш-</k>
+		<pos>v</pos>
 		<recv word="оола" index="2"/>
 		<trn>переменяться, обменяться; оказывать взаимное влияние (гл. обр. дурное).</trn>
 	</card>
 	<card>
 		<k>оолаштыр-</k>
+		<pos>v</pos>
 		<caus word="оолаш"/>
 		<meaning>
 			<trn>переменить, обменить;</trn>
@@ -6844,6 +6899,7 @@
 	</card>
 	<card>
 		<k>оолжу-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>колыхаться, плавно покачиваться, делать плавные и важные движения;</trn>
 			<ex>
@@ -6873,14 +6929,17 @@
 	</card>
 	<card>
 		<k>оолжут-</k>
+		<pos>v</pos>
 		<caus word="оолжу"/>
 	</card>
 	<card>
 		<k>оолжуш-</k>
+		<pos>v</pos>
 		<recv word="оолжу"/>
 	</card>
 	<card>
 		<k>оолок</k>
+		<pos>adv</pos>
 		<sameas word="оолак"/>
 		<ex>
 			<source>оолок тургун</source>
@@ -6889,6 +6948,7 @@
 	</card>
 	<card>
 		<k>оолу</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>тяньш.</meta>
 			<sameas word="ноолу"/>
@@ -6904,15 +6964,18 @@
 	</card>
 	<card>
 		<k>оолугуш-</k>
+		<pos>v</pos>
 		<recv word="оолук"/>
 		<trn>набрасываться с бранью друга на друга или скопом на других.</trn>
 	</card>
 	<card>
 		<k>оолугушуу</k>
+		<pos>ger</pos>
 		<actionNoun word="оолугуш"/>
 	</card>
 	<card>
 		<k>оолук-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>бесноваться, быть в сильном возбуждении;</trn>
 			<ex>
@@ -6948,6 +7011,7 @@
 	<card>
 		<k>оолукма</k>
 		<meaning>
+			<pos>adj</pos>
 			<trn>раздражительный, легко возбудимый, вспыльчивый;</trn>
 			<ex>
 				<source>оолукма киши</source>
@@ -6959,6 +7023,7 @@
 			</ex>
 		</meaning>
 		<meaning>
+			<pos>n</pos>
 			<trn>раздражительность, вспыльчивость;</trn>
 			<ex>
 				<source>оолукмасы кармап калыптыр</source>
@@ -6968,6 +7033,7 @@
 	</card>
 	<card>
 		<k>оолукмалуу</k>
+		<pos>adj</pos>
 		<trn>вспыльчивый, взбалмошный;</trn>
 		<ex>
 			<source>оолукмалуу балага ээликмелүү жин тиет погов.</source>
@@ -6976,6 +7042,7 @@
 	</card>
 	<card>
 		<k>оолуктур-</k>
+		<pos>v</pos>
 		<caus word="оолук"/>
 		<trn>подзадоривать, подзуживать;</trn>
 		<ex>
@@ -6985,14 +7052,17 @@
 	</card>
 	<card>
 		<k>оолуя</k>
+		<pos>n</pos>
 		<sameas word="олуя"/>
 	</card>
 	<card>
 		<k>оолуялык</k>
+		<pos>adj</pos>
 		<sameas word="олуялык"/>
 	</card>
 	<card>
 		<k>оома</k>
+		<pos>adj</pos>
 		<meaning>
 			<trn>сваливающийся набок;</trn>
 			<ex>
@@ -7007,6 +7077,7 @@
 	</card>
 	<card>
 		<k>оомалуу</k>
+		<pos>adj</pos>
 		<trn>изменчивый, переменчивый;</trn>
 		<ex>
 			<source>оомалуу-төкмөлүү</source>
@@ -7019,6 +7090,7 @@
 	</card>
 	<card>
 		<k>оомат</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<trn>благо, добро; счастье, удача;</trn>
 		<ex>
@@ -7032,6 +7104,7 @@
 	</card>
 	<card>
 		<k>оомачыл</k>
+		<pos>adj</pos>
 		<trn>склонный к непостоянству, неустойчивый; нерешительный;</trn>
 		<ex>
 			<source>оомачыл элементтер полит.</source>
@@ -7040,10 +7113,12 @@
 	</card>
 	<card>
 		<k>оомачылдык</k>
+		<pos>n</pos>
 		<abstract word="оомачыл"/>
 	</card>
 	<card>
 		<k>оомийн</k>
+		<pos>ideo</pos>
 		<origin>ар.</origin>
 		<trn>аминь!; да сбудется! (возглас по окончании молитвы, молитвенного напутствия и т.п.);</trn>
 		<ex>
@@ -7053,6 +7128,7 @@
 	</card>
 	<card>
 		<k>оона</k>
+		<pos>v</pos>
 		<homonym>
 			<trn>(ср. тув. оона самец косули, сайги, монг. самец антилопы)</trn>
 			<!-- TODO -->
@@ -7083,6 +7159,7 @@
 	</card>
 	<card>
 		<k>ооналакта-</k>
+		<pos>v</pos>
 		<meaning>
 			<trn>(о лошади при болезни жаталак, см.) часто валяться;</trn>
 		</meaning>
