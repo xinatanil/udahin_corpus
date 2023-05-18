@@ -2,7 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>да</k>
-		<pos></pos>
+		<pos>cnjcoo</pos>
 		<homonym>
 			<meaning>
 				<trn>союз соед. и, также, тоже;</trn>
@@ -49,6 +49,7 @@
 	<card>
 		<k>даа</k>
 		<homonym>
+			<pos>cnjcoo</pos>
 			<sameas word="дагы"/>
 			<blockquote>бир көргөн жан чынарды даа көрүшкө кумар бар фольк.@@ тот, кто видел (этот) чинар, жаждет увидеть (его) ещё раз.</blockquote>
 		</homonym>
@@ -64,10 +65,12 @@
 	</card>
 	<card>
 		<k>даагы</k>
+		<pos>cnjcoo</pos>
 		<sameas word="дагы"/>
 	</card>
 	<card>
 		<k>даакан</k>
+		<pos>n</pos>
 		<sameas word="дубакан"/>
 	</card>
 	<card>
@@ -113,30 +116,31 @@
 		<origin>ар.</origin>
 		<meaning>
 			<trn>пища, еда;</trn>
-			<blockquote>даам же- или даам ич- поесть, покушать;</blockquote>
-			<blockquote>олтуруп, даам жеп кетсең боло ты бы посидел да поел;</blockquote>
-			<blockquote>даам ооз тийип кет отведай пищи, закуси немного;</blockquote>
-			<blockquote>мени даам айдап келди я пришёл сюда потому, что мне как будто суждено было здесь поесть;</blockquote>
-			<blockquote>даам татпай или даам сызбай ничего не кушая;</blockquote>
-			<blockquote>ар даамдын башы разносолы;</blockquote>
-			<blockquote>ар даамдын башын жедик мы полакомились разной разностью;</blockquote>
+			<alter>даам же- или даам ич- поесть, покушать;</alter>
+			<blockquote>олтуруп, даам жеп кетсең боло@@ ты бы посидел да поел;</blockquote>
+			<blockquote>даам ооз тийип кет@@ отведай пищи, закуси немного;</blockquote>
+			<blockquote>мени даам айдап келди@@ я пришёл сюда потому, что мне как будто суждено было здесь поесть;</blockquote>
+			<blockquote>даам татпай <i>или</i> даам сызбай@@ ничего не кушая;</blockquote>
+			<blockquote>ар даамдын@@ башы разносолы;</blockquote>
+			<blockquote>ар даамдын башын жедик@@ мы полакомились разной разностью;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>вкус;</blockquote>
-			<blockquote>даамы жок невкусный;</blockquote>
-			<blockquote>даамы жаман скверный на вкус;</blockquote>
-			<blockquote>таттуу ооздун даамын кетирбе не порть хорошего впечатления; не выискивай мелких изъянов в том, что прекрасно (букв. не уничтожай сладости рта).</blockquote>
+			<trn>вкус;</trn>
+			<blockquote>даамы жок@@ невкусный;</blockquote>
+			<blockquote>даамы жаман@@ скверный на вкус;</blockquote>
+			<blockquote>таттуу ооздун даамын кетирбе@@ не порть хорошего впечатления; не выискивай мелких изъянов в том, что прекрасно (букв. не уничтожай сладости рта).</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>даамдан-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>чувствовать вкус чего-л.;</blockquote>
-			<blockquote>оозу эрмен даамданып он почувствовал во рту вкус полыни;</blockquote>
+			<trn>чувствовать вкус чего-л.;</trn>
+			<blockquote>оозу эрмен даамданып@@ он почувствовал во рту вкус полыни;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>иметь привкус;</blockquote>
-			<blockquote>көлдүн суусу даамданган көз жашы слёзы с привкусом воды (солёного) озера.</blockquote>
+			<trn>иметь привкус;</trn>
+			<blockquote>көлдүн суусу даамданган көз жашы@@ слёзы с привкусом воды (солёного) озера.</blockquote>
 		</meaning>
 	</card>
 	<card>
