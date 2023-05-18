@@ -8899,329 +8899,401 @@
 	<card>
 		<k>дүрбөлөң</k>
 		<blockquote>паника, переполох; бунт, смута;</blockquote>
-		<blockquote>дүрбөлөң сал- вызывать переполох; распускать волнующие слухи;</blockquote>
+		<blockquote>дүрбөлөң сал-вызывать переполох; распускать волнующие слухи;</blockquote>
 		<blockquote>дүрбөлөң түш- переполошиться;</blockquote>
 		<blockquote>дүрбөлөң түшүр- с предшеств. дат. п. переполошить.</blockquote>
 	</card>
 	<card>
 		<k>дүрбөлөңдө-</k>
-		<blockquote>приходить в смятение;</blockquote>
-		<blockquote>дүрбөлөңдөп калмактар, түгөл баары аттанып фольк. калмыки всполошились, и все вскочили на коней.</blockquote>
+		<pos>v</pos>
+		<trn>приходить в смятение;</trn>
+		<blockquote>дүрбөлөңдөп калмактар, түгөл баары аттанып фольк.@@ калмыки всполошились, и все вскочили на коней.</blockquote>
 	</card>
 	<card>
 		<k>дүрбөлөңдөт-</k>
+		<pos>v</pos>
 		<caus word="дүрбөлөңдө"/>
-		<blockquote>произвести переполох, смятение.</blockquote>
+		<trn>произвести переполох, смятение.</trn>
 	</card>
 	<card>
 		<k>дүрбөлөңсүз</k>
-		<blockquote>без смятения, без паники;</blockquote>
-		<blockquote>дүрбөлөңсүз чегине билүү умение отступать без паники.</blockquote>
+		<pos>adj</pos>
+		<trn>без смятения, без паники;</trn>
+		<blockquote>дүрбөлөңсүз чегине билүү@@ умение отступать без паники.</blockquote>
 	</card>
 	<card>
 		<k>дүрбөт-</k>
+		<pos>v</pos>
 		<caus word="дүрбө"/>
-		<blockquote>дүрбөтүп элди көчүрүп фольк. в переполохе подняв народ на перекочёвку.</blockquote>
+		<blockquote>дүрбөтүп элди көчүрүп фольк.@@ в переполохе подняв народ на перекочёвку.</blockquote>
 	</card>
 	<card>
 		<k>дүрбөш</k>
+		<pos>n</pos>
 		<actionNoun word="дүрбө"/>
-		<blockquote>переполох, смятение.</blockquote>
+		<trn>переполох, смятение.</trn>
 	</card>
 	<card>
 		<k>дүрбөш-</k>
+		<pos>v</pos>
 		<recv word="дүрбө"/>
 		<blockquote>(прим. см. арбы-).</blockquote>
 	</card>
 	<card>
 		<k>дүрбөөн</k>
-		<blockquote>набег, разгром; смятение;</blockquote>
-		<blockquote>дүрбөөн сал- произвести разгром;</blockquote>
-		<blockquote>Семетей угуп калбасын, калкыңа дүрбөөн салбасын фольк. как бы не прослышал Семетей, да как бы он не разгромил твой народ.</blockquote>
+		<pos>n</pos>
+		<trn>набег, разгром; смятение;</trn>
+		<blockquote>дүрбөөн сал-@@ произвести разгром;</blockquote>
+		<blockquote>Семетей угуп калбасын, калкыңа дүрбөөн салбасын фольк.@@ как бы не прослышал Семетей, да как бы он не разгромил твой народ.</blockquote>
 	</card>
 	<card>
 		<k>дүрвөн</k>
-		<blockquote>дүрвөн: дүрвөн-даркан южн. то же, что дабыр-дубур (см. дабыр);</blockquote>
-		<blockquote>дүрвөн-даркан болуп жүгүрүп чыктылар они торопливо и с шумом выбежали.</blockquote>
+		<pos>n</pos>
+		<minicard>
+		<k>дүрвөн-даркан</k>
+		<meta>южн.</meta>
+		<trn>то же, что дабыр-дубур (см. дабыр);</trn>
+		<blockquote>дүрвөн-даркан болуп жүгүрүп чыктылар@@ они торопливо и с шумом выбежали.</blockquote>
+		</minicard>
 	</card>
 	<card>
 		<k>дүргү-</k>
-		<blockquote>бежать в испуге, убегать; всполошиться.</blockquote>
+		<pos>v</pos>
+		<trn>бежать в испуге, убегать; всполошиться.</trn>
 	</card>
 	<card>
 		<k>дүргүш-</k>
+		<pos>v</pos>
 		<recv word="дүргү"/>
-		<blockquote>"жоо келди" деп, дүргүшүп, анча-мынча үркүшүп фольк. полагая, что враг пришёл, они немного испугались и всполошились.</blockquote>
+		<blockquote>"жоо келди" деп, дүргүшүп, анча-мынча үркүшүп фольк.@@ полагая, что враг пришёл, они немного испугались и всполошились.</blockquote>
 	</card>
 	<card>
 		<k>дүргөй</k>
+		<pos>adj</pos>
 		<look word="дүрүгөй"/>
 	</card>
 	<card>
 		<k>дүрдана</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
 		<meta>редко</meta>
 		<meaning>
-			<blockquote>жемчужина (см. дүр II);</blockquote>
+			<trn>жемчужина (см. дүр II);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>Дүрдана Дюрдана (имя собственное женское).</blockquote>
+			<trn>Дүрдана Дюрдана (имя собственное женское).</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дүрдүй-</k>
-		<blockquote>быть густо ветвистым;</blockquote>
-		<blockquote>калың токой дүрдүйөт кара кийген эмедей стих. густой лес будто одет в чёрное.</blockquote>
+		<pos>v</pos>
+		<trn>быть густо ветвистым;</trn>
+		<blockquote>калың токой дүрдүйөт кара кийген эмедей стих.@@ густой лес будто одет в чёрное.</blockquote>
 	</card>
 	<card>
 		<k>дүрдүк-</k>
-		<blockquote>всполошиться;</blockquote>
-		<blockquote>кой дүрдүктү овцы всполошились, испуганно шарахнулись.</blockquote>
+		<pos>v</pos>
+		<trn>всполошиться;</trn>
+		<blockquote>кой дүрдүктү@@ овцы всполошились, испуганно шарахнулись.</blockquote>
 	</card>
 	<card>
 		<k>дүрк-</k>
-		<blockquote>дүрк-: үркүп-дүркүп см. үрк-.</blockquote>
+		<minicard>
+		<k>үркүп-дүркүп</k>
+		<look word="үрк-"/>
+		</minicard>
 	</card>
 	<card>
 		<k>дүркүн</k>
-		<blockquote>группа, толпа, отряд;</blockquote>
-		<blockquote>дүркүн-дүркүн группами, толпами, отрядами.</blockquote>
+		<pos>n</pos>
+		<trn>группа, толпа, отряд;</trn>
+		<blockquote>дүркүн-дүркүн@@ группами, толпами, отрядами.</blockquote>
 	</card>
 	<card>
 		<k>дүркүрө-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>дрожать (прим. см. диркире-);</blockquote>
+			<trn>дрожать (прим. см. диркире-);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>(о толпе) шуметь; шумно торопиться;</blockquote>
-			<blockquote>дүркүрөгөн кол чабуулар бурные аплодисменты;</blockquote>
-			<blockquote>дүркүрөгөн кыйкырык громкий многоголосый крик;</blockquote>
-			<blockquote>эки жүз киши күркүрөп, аттаниакка дүркүрөп фольк. двести человек загрохотали, с шумом торопясь сесть на коней;</blockquote>
+			<trn>(о толпе) шуметь; шумно торопиться;</trn>
+			<blockquote>дүркүрөгөн кол чабуулар@@ бурные аплодисменты;</blockquote>
+			<blockquote>дүркүрөгөн кыйкырык@@ громкий многоголосый крик;</blockquote>
+			<blockquote>эки жүз киши күркүрөп, аттаниакка дүркүрөп фольк.@@ двести человек загрохотали, с шумом торопясь сесть на коней;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>иметь громкую славу; преуспевать;</blockquote>
-			<blockquote>дүркүрөп өскөн төрт түлүк бурно растущий и размножающийся скот;</blockquote>
-			<blockquote>дүркүрөгөн темптер бурные темпы.</blockquote>
+			<trn>иметь громкую славу; преуспевать;</trn>
+			<blockquote>дүркүрөп өскөн төрт түлүк@@ бурно растущий и размножающийся скот;</blockquote>
+			<blockquote>дүркүрөгөн темптер@@ бурные темпы.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дүркүрөт-</k>
+		<pos>v</pos>
 		<caus word="дүркүрө"/>
 	</card>
 	<card>
 		<k>дүрмөт</k>
-		<blockquote>заряд (ружейный);</blockquote>
-		<blockquote>куру дүрмөт холостой заряд;</blockquote>
-		<blockquote>куру дүрмөт ок менен, күп дегизе бир койду фольк. холостым зарядом он разок бахнул;</blockquote>
-		<blockquote>мылтыктын дүрмөтү бар ружьё заряжено.</blockquote>
+		<pos>n</pos>
+		<trn>заряд (ружейный);</trn>
+		<blockquote>куру дүрмөт@@ холостой заряд;</blockquote>
+		<blockquote>куру дүрмөт ок менен, күп дегизе бир койду фольк.@@ холостым зарядом он разок бахнул;</blockquote>
+		<blockquote>мылтыктын дүрмөтү бар@@ ружьё заряжено.</blockquote>
 	</card>
 	<card>
 		<k>дүрмөттө-</k>
-		<blockquote>заряжать (ружьё).</blockquote>
+		<pos>v</pos>
+		<trn>заряжать (ружьё).</trn>
 	</card>
 	<card>
 		<k>дүрмөттөлүү,</k>
-		<blockquote>дүрмөттөлүү, дүрмөттүү</blockquote>
-		<blockquote>(о ружье) заряжённый.</blockquote>
+		<pos>adj</pos>
+		<alter>дүрмөттөлүү, дүрмөттүү</alter>
+		<trn>(о ружье) заряжённый.</trn>
 	</card>
 	<card>
 		<k>дүрс</k>
-		<blockquote>подражательное слово;</blockquote>
-		<blockquote>дүрсө-дүрс уруш- тузить друг друга.</blockquote>
+		<pos>n</pos>
+		<trn>подражательное слово;</trn>
+		<blockquote>дүрсө-дүрс уруш-@@ тузить друг друга.</blockquote>
 	</card>
 	<card>
 		<k>дүрсүлдө-</k>
-		<blockquote>производить топот; топать.</blockquote>
+		<pos>v</pos>
+		<trn>производить топот; топать.</trn>
 	</card>
 	<card>
 		<k>дүрсүлдөт-</k>
+		<pos>v</pos>
 		<caus word="дүрсүлдө"/>
 	</card>
 	<card>
 		<k>дүрт</k>
-		<blockquote>звукоподражание взрыву, вспышке;</blockquote>
-		<blockquote>дүрт эт- вспыхнуть, воспламениться;</blockquote>
-		<blockquote>дүрт этме</blockquote>
-		<blockquote>1) легко воспламеняющийся; взрывчатый;</blockquote>
-		<blockquote>дүрт этме заттар взрывчатые вещества;</blockquote>
-		<blockquote>2) перен. вспыльчивый.</blockquote>
+		<pos>n</pos>
+		<trn>звукоподражание взрыву, вспышке;</trn>
+		<blockquote>дүрт эт-@@ вспыхнуть, воспламениться;</blockquote>
+		<minicard>
+		<k>дүрт этме</k>
+		<meaning>
+		<trn> легко воспламеняющийся; взрывчатый;</trn>
+		<blockquote>дүрт этме заттар@@ взрывчатые вещества;</blockquote>
+		</meaning>
+		<meaning>
+		<trn>перен. вспыльчивый.</trn>
+		</meaning>
+		</minicard>
 	</card>
 	<card>
 		<k>дүрүгөй,</k>
-		<blockquote>дүрүгөй, дүргөй</blockquote>
+		<pos>adj</pos>
+		<alter>дүрүгөй, дүргөй</alter>
 		<origin>ир.</origin>
-		<blockquote>простенький, плохенький;</blockquote>
-		<blockquote>дүрүгөй уй плохенькая коровёнка;</blockquote>
-		<blockquote>дүргөй ит простая или нечистопородная собака.</blockquote>
+		<trn>простенький, плохенький;</trn>
+		<blockquote>дүрүгөй уй@@ плохенькая коровёнка;</blockquote>
+		<blockquote>дүргөй ит@@ простая или нечистопородная собака.</blockquote>
 	</card>
 	<card>
 		<k>дүрүйө</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>сорт шёлковой ткани;</blockquote>
-			<blockquote>дүрүйө көйнөк шёлковое платье;</blockquote>
+			<trn>сорт шёлковой ткани;</trn>
+			<blockquote>дүрүйө көйнөк@@ шёлковое платье;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>особый вид платка;</blockquote>
-			<blockquote>дүрүйө тиккен ким сиздей? фольк. кто вышивает платок так (хорошо), как вы?</blockquote>
+			<trn>особый вид платка;</trn>
+			<blockquote>дүрүйө тиккен ким сиздей? фольк.@@ кто вышивает платок так (хорошо), как вы?</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дүрүлдө-</k>
+		<pos>v</pos>
 		<sameas word="дүркүрө"/>
-		<blockquote>бүткөн боюм дүрүлдөйт у меня от страха по телу мурашки побежали;</blockquote>
-		<blockquote>от дүрүлдөп күйөт огонь горит с треском, большим пламенем;</blockquote>
-		<blockquote>кой дүрүлдөп үрктү овцы испуганно шарахнулись.</blockquote>
+		<blockquote>бүткөн боюм дүрүлдөйт@@ у меня от страха по телу мурашки побежали;</blockquote>
+		<blockquote>от дүрүлдөп күйөт@@ огонь горит с треском, большим пламенем;</blockquote>
+		<blockquote>кой дүрүлдөп үрктү@@ овцы испуганно шарахнулись.</blockquote>
 	</card>
 	<card>
 		<k>дүрүлдөк</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>воробей.</blockquote>
+		<trn>воробей.</trn>
 	</card>
 	<card>
 		<k>дүрүлдөт-</k>
+		<pos>v</pos>
 		<caus word="дүрүлдө"/>
-		<blockquote>мына дүрүлдөтүп биз да жеттик вот и мы прикатили (приехали).</blockquote>
+		<blockquote>мына дүрүлдөтүп биз да жеттик@@ вот и мы прикатили (приехали).</blockquote>
 	</card>
 	<card>
 		<k>дүрүлдөш</k>
+		<pos>ger</pos>
 		<actionNoun word="дүрүлдө"/>
 	</card>
 	<card>
 		<k>дүрүлдөш-</k>
+		<pos>v</pos>
 		<recv word="дүрүлдө"/>
 	</card>
 	<card>
 		<k>дурус</k>
+		<pos>adj</pos>
 		<origin>ир.</origin>
-		<blockquote>правильно; правильный;</blockquote>
-		<blockquote>бардыгы дурус болду всё обошлось;</blockquote>
-		<blockquote>ниетибиз дурус наши намерения правильные.</blockquote>
+		<trn>правильно; правильный;</trn>
+		<blockquote>бардыгы дурус болду@@ всё обошлось;</blockquote>
+		<blockquote>ниетибиз дурус@@ наши намерения правильные.</blockquote>
 	</card>
 	<card>
 		<k>дуруста-</k>
-		<blockquote>исправлять, поправлять, налаживать;</blockquote>
-		<blockquote>дурустап как следует, хорошенько;</blockquote>
-		<blockquote>бой дуруста- приводить в порядок свою внешность, свой костюм.</blockquote>
+		<pos>v</pos>
+		<trn>исправлять, поправлять, налаживать;</trn>
+		<blockquote>дурустап@@ как следует, хорошенько;</blockquote>
+		<blockquote>бой дуруста-@@ приводить в порядок свою внешность, свой костюм.</blockquote>
 	</card>
 	<card>
 		<k>дурустал-</k>
+		<pos>v</pos>
 		<pass word="дуруста"/>
-		<blockquote>быть исправленным, поправленным, налаженным; исправляться, поправляться, налаживаться.</blockquote>
+		<trn>быть исправленным, поправленным, налаженным; исправляться, поправляться, налаживаться.</trn>
 	</card>
 	<card>
 		<k>дурустоо</k>
+		<pos>ger</pos>
 		<actionNoun word="дуруста"/>
-		<blockquote>проверка; исправление, поправка (как процесс).</blockquote>
+		<trn>проверка; исправление, поправка (как процесс).</trn>
 	</card>
 	<card>
 		<k>дурустук</k>
-		<blockquote>правильность.</blockquote>
+		<pos>n</pos>
+		<trn>правильность.</trn>
 	</card>
 	<card>
 		<k>дүрөө</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<sameas word="кошок" index="2"/>
 	</card>
 	<card>
 		<k>дутар,</k>
-		<blockquote>дутар, дуутар</blockquote>
+		<pos>n</pos>
+		<alter>дутар, дуутар</alter>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>дутар (двухструнный щипковый музыкальный инструмент);</blockquote>
-		<blockquote>дутар тарт- играть на дутаре;</blockquote>
-		<blockquote>дутар тарттыр- заставить играть на дутаре.</blockquote>
+		<trn>дутар (двухструнный щипковый музыкальный инструмент);</trn>
+		<blockquote>дутар тарт-@@ играть на дутаре;</blockquote>
+		<blockquote>дутар тарттыр-@@ заставить играть на дутаре.</blockquote>
 	</card>
 	<card>
 		<k>дуу</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>шум, гул, гвалт;</blockquote>
-			<blockquote>калың дуу сильный гул;</blockquote>
-			<blockquote>дуу деп с шумом, шумно;</blockquote>
-			<blockquote>дуу-дуу басаңдады шум начал затихать;</blockquote>
-			<blockquote>бардыгы "дуу" күлүп жиберишти все разразились хохотом;</blockquote>
-			<blockquote>күлкү дуу дей түштү раздался взрыв хохота;</blockquote>
-			<blockquote>дуу коюп вихрем (быстро);</blockquote>
-			<blockquote>эл дуусун басып, карап калды народ перестал шуметь и ждал;</blockquote>
-			<blockquote>иштеген эчтемкеси жок, жен эле дууга жүрөт сам-то он ничего не делает (заслуг у него никаких нет), а так, только суетится среди народа;</blockquote>
+			<trn>шум, гул, гвалт;</trn>
+			<blockquote>калың дуу@@ сильный гул;</blockquote>
+			<blockquote>дуу деп@@ с шумом, шумно;</blockquote>
+			<blockquote>дуу-дуу басаңдады@@ шум начал затихать;</blockquote>
+			<blockquote>бардыгы "дуу" күлүп жиберишти@@ все разразились хохотом;</blockquote>
+			<blockquote>күлкү дуу дей түштү@@ раздался взрыв хохота;</blockquote>
+			<blockquote>дуу коюп@@ вихрем (быстро);</blockquote>
+			<blockquote>эл дуусун басып, карап калды@@ народ перестал шуметь и ждал;</blockquote>
+			<blockquote>иштеген эчтемкеси жок, жен эле дууга жүрөт@@ сам-то он ничего не делает (заслуг у него никаких нет), а так, только суетится среди народа;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>побоище;</blockquote>
-			<blockquote>дуу сал- учинить побоище;</blockquote>
-			<blockquote>үлкөн жаңжал, улуу дуу аябай катуу салалы фольк. давайте-ка учиним большой скандал, великое побоище;</blockquote>
-			<blockquote>дууга кир- принять участие в побоище, вмешаться в побоище.</blockquote>
+			<trn>побоище;</trn>
+			<blockquote>дуу сал-@@ учинить побоище;</blockquote>
+			<blockquote>үлкөн жаңжал, улуу дуу аябай катуу салалы фольк.@@ давайте-ка учиним большой скандал, великое побоище;</blockquote>
+			<blockquote>дууга кир-@@ принять участие в побоище, вмешаться в побоище.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дүү</k>
+		<pos>n</pos>
 		<sameas word="дуу"/>
 	</card>
 	<card>
 		<k>дуудамал</k>
-		<blockquote>неясный, смутный.</blockquote>
+		<pos>adj</pos>
+		<trn>неясный, смутный.</trn>
 	</card>
 	<card>
 		<k>дуудамалда-</k>
-		<blockquote>стать неясным, смутным.</blockquote>
+		<pos>v</pos>
+		<trn>стать неясным, смутным.</trn>
 	</card>
 	<card>
 		<k>дуудамалдат-</k>
+		<pos>v</pos>
 		<caus word="дуудамалда"/>
-		<blockquote>сделать неясным, смутным;</blockquote>
-		<blockquote>түкшүмөлдү дуудамалдата салды не совсем ясное он сделал совсем неясным (т.е. окончательно запутал).</blockquote>
+		<trn>сделать неясным, смутным;</trn>
+		<blockquote>түкшүмөлдү дуудамалдата салды@@ не совсем ясное он сделал совсем неясным (т.е. окончательно запутал).</blockquote>
 	</card>
 	<card>
 		<k>дуудун</k>
+		<pos>n</pos>
 		<origin>кит.</origin>
-		<blockquote>сорт шёлковой ткани.</blockquote>
+		<trn>сорт шёлковой ткани.</trn>
 	</card>
 	<card>
 		<k>дуудуу</k>
+		<pos>n</pos>
 		<meta>(или дуу-дуу)</meta>
 		<origin>кит.</origin>
 		<meta>ист.</meta>
-		<blockquote>начальник провинции; генерал-губернатор.</blockquote>
+		<trn>начальник провинции; генерал-губернатор.</trn>
 	</card>
 	<card>
 		<k>дуула-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>шуметь, гудеть;</blockquote>
+			<trn>шуметь, гудеть;</trn>
+			</meaning>
 			<meta>перен.</meta>
-			<blockquote>вести себя шумно, веселиться; наслаждаться;</blockquote>
-			<blockquote>мотор дуулайт мотор гудит;</blockquote>
-			<blockquote>сен кер жорго минип дууладың, мен кер эшек минип куурадым фольк. ты на карем иноходце ездил и наслаждался, я на карем осле ездил и страдал;</blockquote>
+			<meaning>
+			<trn>вести себя шумно, веселиться; наслаждаться;</trn>
+			<blockquote>мотор дуулайт@@ мотор гудит;</blockquote>
+			<blockquote>сен кер жорго минип дууладың, мен кер эшек минип куурадым фольк.@@ ты на карем иноходце ездил и наслаждался, я на карем осле ездил и страдал;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>пользоваться славой, упиваться славой;</blockquote>
+			<trn>пользоваться славой, упиваться славой;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>быть во множестве.</blockquote>
+			<trn>быть во множестве.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дуулан</k>
+		<pos>n</pos>
 		<homonym>
-			<blockquote>(в эпосе) название дорогой ткани.</blockquote>
+			<trn>(в эпосе) название дорогой ткани.</trn>
 		</homonym>
 		<homonym>
+		<pos>v</pos>
 			<refv word="дуула"/>
-			<blockquote>шуметь, гудеть;</blockquote>
+			<meaning>
+			<trn>шуметь, гудеть;</trn>
+			</meaning>
+			<meaning>
 			<meta>перен.</meta>
-			<blockquote>шумно резвиться.</blockquote>
+			<trn>шумно резвиться.</trn>
+			</meaning>
 		</homonym>
 	</card>
 	<card>
-		<k>дуулда-</k>
-		<blockquote>шуметь, гудеть;</blockquote>
-		<blockquote>гомонить, оживлённо разговаривать;</blockquote>
-		<blockquote>баары бирдей чуулдап, алты жүз киши дуулдап фольк. все разом зашумели, шестьсот человек загомонили;</blockquote>
-		<blockquote>от дуулдап күйдү огонь загорелся большим пламенем;</blockquote>
-		<blockquote>дуулдап мас болушту они сильно опьянели;</blockquote>
-		<blockquote>туз куйгандай дуулдап турат жжёт (ест, разъедает) так, как будто солью посыпали.</blockquote>
+		<k>дуулда-</k
+		<pos>v</pos>>
+		<meaning>
+		<trn>шуметь, гудеть;</trn>
+		</meaning>
+		<meaning>
+		<trn>гомонить, оживлённо разговаривать;<trn>
+		<blockquote>баары бирдей чуулдап, алты жүз киши дуулдап фольк.@@ все разом зашумели, шестьсот человек загомонили;</blockquote>
+		<blockquote>от дуулдап күйдү@@ огонь загорелся большим пламенем;</blockquote>
+		<blockquote>дуулдап мас болушту@@ они сильно опьянели;</blockquote>
+		<blockquote>туз куйгандай дуулдап турат@@ жжёт (ест, разъедает) так, как будто солью посыпали.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>дуулдак</k>
