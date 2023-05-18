@@ -2099,242 +2099,285 @@
 	</card>
 	<card>
 		<k>даңкана</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>яма, куда сваливают навоз для удобрения.</blockquote>
+		<trn>яма, куда сваливают навоз для удобрения.</trn>
 	</card>
 	<card>
 		<k>даңкаңда-</k>
-		<blockquote>быть большим, крупным, но стройным и подвижным;</blockquote>
-		<blockquote>ооздугун кемирип, башын чайкап маңкаңдап, кең соорусу даңкаңдап фольк. (конь) грызёт свои удила, головой грациозно помахивает, его могучий круп шевелится;</blockquote>
-		<blockquote>даңкаңдаган катын крупная статная женщина.</blockquote>
+		<pos>v</pos>
+		<trn>быть большим, крупным, но стройным и подвижным;</trn>
+		<blockquote>ооздугун кемирип, башын чайкап маңкаңдап, кең соорусу даңкаңдап фольк.@@ (конь) грызёт свои удила, головой грациозно помахивает, его могучий круп шевелится;</blockquote>
+		<blockquote>даңкаңдаган катын@@ крупная статная женщина.</blockquote>
 	</card>
 	<card>
 		<k>даңкта-</k>
-		<blockquote>прославлять.</blockquote>
+		<pos>v</pos>
+		<trn>прославлять.</trn>
 	</card>
 	<card>
 		<k>даңктал-</k>
+		<pos>v</pos>
 		<refpass word="даңкта"/>
-		<blockquote>прославляться;</blockquote>
-		<blockquote>илимге баалуу жаңылык киргизип даңкталды он прославился тем, что внёс в науку что-то ценное новое.</blockquote>
+		<trn>прославляться;</trn>
+		<blockquote>илимге баалуу жаңылык киргизип даңкталды@@ он прославился тем, что внёс в науку что-то ценное новое.</blockquote>
 	</card>
 	<card>
 		<k>даңктуу</k>
-		<blockquote>прославленный, известный; знаменитый, знатный;</blockquote>
-		<blockquote>даңктуу жол басып өттү он прошёл славный путь;</blockquote>
-		<blockquote>даңктуу дата славная дата.</blockquote>
+		<pos>adj</pos>
+		<trn>прославленный, известный; знаменитый, знатный;</trn>
+		<blockquote>даңктуу жол басып өттү@@ он прошёл славный путь;</blockquote>
+		<blockquote>даңктуу дата@@ славная дата.</blockquote>
 	</card>
 	<card>
 		<k>даңктуулук</k>
-		<blockquote>слава, прославленность;</blockquote>
-		<blockquote>даңктуулуктун иши дело славы.</blockquote>
+		<pos>n</pos>
+		<trn>слава, прославленность;</trn>
+		<blockquote>даңктуулуктун иши@@ дело славы.</blockquote>
 	</card>
 	<card>
 		<k>даңкы</k>
+		<pos>n</pos>
 		<sameas word="даңк" subindex="2"/>
 	</card>
 	<card>
 		<k>даңкый-</k>
+		<pos>adj</pos>
 		<sameas word="даңкай"/>
-		<blockquote>даңкыйган ат здоровенный конь.</blockquote>
+		<blockquote>даңкыйган ат@@ здоровенный конь.</blockquote>
 	</card>
 	<card>
 		<k>даңкыл</k>
+		<pos>adj</pos>
 		<sameas word="даңгыл"/>
 	</card>
 	<card>
 		<k>даңкылда-</k>
-		<blockquote>издавать протяжные звуки на высоких нотах; звенеть;</blockquote>
-		<blockquote>ырчынын баары даңкылдап, сурнайлары аңылдап фольк. певцы все заливаются, их зурны верещат;</blockquote>
-		<blockquote>даңкылдаган жол твёрдая, укатанная дорога.</blockquote>
+		<pos>v</pos>
+		<trn>издавать протяжные звуки на высоких нотах; звенеть;</trn>
+		<blockquote>ырчынын баары даңкылдап, сурнайлары аңылдап фольк.@@ певцы все заливаются, их зурны верещат;</blockquote>
+		<blockquote>даңкылдаган жол@@ твёрдая, укатанная дорога.</blockquote>
 	</card>
 	<card>
 		<k>даңкылдат-</k>
+		<pos>v</pos>
 		<caus word="даңкылда"/>
 	</card>
 	<card>
 		<k>даңкылуу</k>
+		<pos>adj</pos>
 		<sameas word="даңктуу"/>
 	</card>
 	<card>
 		<k>даңса</k>
-		<blockquote>даңса I, даңза</blockquote>
+		<pos>n</pos>
+		<alter>даңса I, даңза</alter>
 		<origin>кит.</origin>
-		<blockquote>(в эпосе) родословная книга (в которую вписываются имена знаменитых людей);</blockquote>
-		<blockquote>манжуу каны Нескара, артык баатыр дагы бар, чоң даңсада каты бар фольк. есть и знаменитый богатырь Нескара, маньчжурский хан, (о нём) есть запись в большой родословной книге.</blockquote>
+		<trn>(в эпосе) родословная книга (в которую вписываются имена знаменитых людей);</trn>
+		<blockquote>манжуу каны Нескара, артык баатыр дагы бар, чоң даңсада каты бар фольк.@@ есть и знаменитый богатырь Нескара, маньчжурский хан, (о нём) есть запись в большой родословной книге.</blockquote>
+		<meaning>
 		<meta>тяньш.</meta>
-		<blockquote>лопаточка-скребок (для котла и для перемешивания бузы во время брожения).</blockquote>
+		<trn>лопаточка-скребок (для котла и для перемешивания бузы во время брожения).</trn>
 		<sameas word="даңаза"/>
+		</meaning>
 	</card>
 	<card>
 		<k>даңсачы</k>
-		<blockquote>(в эпосе) писец, ведущий даңса I (см.).</blockquote>
+		<pos>n</pos>
+		<trn>(в эпосе) писец, ведущий даңса I (см.).</trn>
 	</card>
 	<card>
 		<k>данык</k>
+		<pos>adj</pos>
 		<pair word="анык"/>
-		<blockquote>маселенин анык-даныгы суть вопроса.</blockquote>
+		<blockquote>маселенин анык-даныгы@@ суть вопроса.</blockquote>
 	</card>
 	<card>
 		<k>даңылда-</k>
+		<pos>v</pos>
 		<sameas word="даңкылда"/>
 	</card>
 	<card>
 		<k>данышман</k>
+		<pos>n</pos>
 		<sameas word="даанышман"/>
 	</card>
 	<card>
 		<k>дап</k>
+		<pos>adj</pos>
 		<homonym>
-			<blockquote>усиление к словам, начинающимся на да:</blockquote>
-			<blockquote>дапдаана совершенно отчётливо;</blockquote>
-			<blockquote>дапдайын точно известно;</blockquote>
-			<blockquote>дапдардай верзила; здоровенный;</blockquote>
-			<blockquote>дапдаяр совершенно готовый.</blockquote>
+			<trn>усиление к словам, начинающимся на да:</trn>
+			<blockquote>дапдаана@@ совершенно отчётливо;</blockquote>
+			<blockquote>дапдайын@@ точно известно;</blockquote>
+			<blockquote>дапдардай@@ верзила; здоровенный;</blockquote>
+			<blockquote>дапдаяр@@ совершенно готовый.</blockquote>
 		</homonym>
 		<homonym>
+		<pos>n</pos>
 			<origin>ир.</origin>
-			<blockquote>бубен;</blockquote>
-			<blockquote>дал как- или дап чал- бить в бубен, играть на бубне;</blockquote>
-			<blockquote>дап кактыр- или дап чалдыр- заставить бить в бубен, заставить играть на бубне.</blockquote>
+			<trn>бубен;</trn>
+			<blockquote>дал как- или дап чал-@@ бить в бубен, играть на бубне;</blockquote>
+			<blockquote>дап кактыр- или дап чалдыр-@@ заставить бить в бубен, заставить играть на бубне.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>дапа</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<blockquote>[дәпә]</blockquote>
-		<blockquote>момент, время;</blockquote>
-		<blockquote>шу дәпәдә в этот момент.</blockquote>
+		<meta>[дәпә]</meta>
+		<trn>момент, время;</trn>
+		<blockquote>шу дәпәдә@@ в этот момент.</blockquote>
 	</card>
 	<card>
 		<k>дапдаана</k>
+		<pos>adj</pos>
 		<look word="дап" index="1"/>
 	</card>
 	<card>
 		<k>дапдаары-</k>
-		<blockquote>обессилев, едва волочить ноги;</blockquote>
-		<blockquote>боруккан аттар, эки-үч күндөй оттой алышпай, дапдаарып, жүндөрү түктүйүп, ичтери кабырылды загнанные (быстрой ездой) кони два-три дня не могли пастись, едва передвигали ноги, шерсть у них взлохматилась, бока впали.</blockquote>
+		<pos>ger</pos>
+		<trn>обессилев, едва волочить ноги;</trn>
+		<blockquote>боруккан аттар, эки-үч күндөй оттой алышпай, дапдаарып, жүндөрү түктүйүп, ичтери кабырылды@@ загнанные (быстрой ездой) кони два-три дня не могли пастись, едва передвигали ноги, шерсть у них взлохматилась, бока впали.</blockquote>
 	</card>
 	<card>
 		<k>дапдайын</k>
+		<pos>adj</pos>
 		<look word="дап" index="1"/>
 	</card>
 	<card>
 		<k>дапдардай</k>
+		<pos>adj</pos>
 		<look word="дап" index="1"/>
 	</card>
 	<card>
 		<k>дапдаяр</k>
+		<pos>adj</pos>
 		<look word="дап" index="1"/>
 	</card>
 	<card>
 		<k>дапкырт</k>
+		<pos>n</pos>
 		<blockquote>слухи.</blockquote>
 	</card>
 	<card>
 		<k>дапса</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>тяньш.</meta>
 		<sameas word="дарбаза"/>
 	</card>
 	<card>
 		<k>дапылда-</k>
+		<pos>v</pos>
 		<sameas word="далпылда"/>
 	</card>
 	<card>
 		<k>дапылдат-</k>
+		<pos>v</pos>
 		<sameas word="далпылдат"/>
-		<blockquote>дапылдатып барысын, ашта жөө бастырып фольк. всех (огромных грузных богатырей) он заставил на поминках идти пешком (и тем их унизил).</blockquote>
+		<blockquote>дапылдатып барысын, ашта жөө бастырып фольк.@@ всех (огромных грузных богатырей) он заставил на поминках идти пешком (и тем их унизил).</blockquote>
 	</card>
 	<card>
 		<k>дар</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
-				<blockquote>виселица;</blockquote>
-				<blockquote>дарга ас- повесить (казнить);</blockquote>
-				<blockquote>дарга астыр- приказать повесить;</blockquote>
-				<blockquote>дардан качкан висельник (достойный, виселицы);</blockquote>
-				<blockquote>дардан качкан капыр! бран. ух, висельник!;</blockquote>
+				<trn>виселица;</trn>
+				<blockquote>дарга ас-@@ повесить (казнить);</blockquote>
+				<blockquote>дарга астыр-@@ приказать повесить;</blockquote>
+				<blockquote>дардан качкан@@ висельник (достойный, виселицы);</blockquote>
+				<blockquote>дардан качкан капыр! бран.@@ ух, висельник!;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>канат (в цирке для канатоходца);</blockquote>
-				<blockquote>дардай верзила, громадина; здоровенный;</blockquote>
-				<blockquote>дардай жигит болду он стал здоровенным парнем;</blockquote>
-				<blockquote>катын алсаң дардай, уул тууйт нардай погов. если возьмёшь жену здоровенную, родит сына великана (букв. как одногорбый верблюд).</blockquote>
+				<trn>канат (в цирке для канатоходца);</trn>
+				<blockquote>дардай@@ верзила, громадина; здоровенный;</blockquote>
+				<blockquote>дардай жигит болду@@ он стал здоровенным парнем;</blockquote>
+				<blockquote>катын алсаң дардай, уул тууйт нардай погов.@@ если возьмёшь жену здоровенную, родит сына великана (букв. как одногорбый верблюд).</blockquote>
 			</meaning>
 		</homonym>
 		<homonym>
-			<blockquote>звукоподражание треску, напр. рвущейся материи;</blockquote>
-			<blockquote>дар этип или дар деп с треском;</blockquote>
-			<blockquote>дар деп шымы айрылып фольк. штаны его с треском разорвались.</blockquote>
+		<pos>ideo</pos>
+			<trn>звукоподражание треску, напр. рвущейся материи;</trn>
+			<blockquote>дар этип или дар деп@@ с треском;</blockquote>
+			<blockquote>дар деп шымы айрылып фольк.@@ штаны его с треском разорвались.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>дара</k>
+		<pos>adj</pos>
 		<homonym>
-			<blockquote>отдельный, особо стоящий, не смешивающийся с другими;</blockquote>
-			<blockquote>дара жол чёткая линия;</blockquote>
-			<blockquote>дара жаш крупные слезинки.</blockquote>
+			<trn>отдельный, особо стоящий, не смешивающийся с другими;</trn>
+			<blockquote>дара жол@@ чёткая линия;</blockquote>
+			<blockquote>дара жаш@@ крупные слезинки.</blockquote>
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
-			<blockquote>[дәрә]</blockquote>
+			<meta>[дәрә]</meta>
 			<sameas word="дере"/>
-			<blockquote>даранын ичинде в ущелье.</blockquote>
+			<blockquote>даранын ичинде@@ в ущелье.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>даража</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>степень, почётная степень; почёт;</blockquote>
-		<blockquote>илимий даража учёная степень;</blockquote>
-		<blockquote>даража тап- получить степень; получить повышение (напр. по общественной или служебной линии);</blockquote>
-		<blockquote>биринчи даражадагы первой степени.</blockquote>
+		<trn>степень, почётная степень; почёт;</trn>
+		<blockquote>илимий даража@@ учёная степень;</blockquote>
+		<blockquote>даража тап-@@ получить степень; получить повышение (напр. по общественной или служебной линии);</blockquote>
+		<blockquote>биринчи даражадагы@@ первой степени.</blockquote>
 	</card>
 	<card>
 		<k>даражалуу</k>
-		<blockquote>имеющий степень, почётный;</blockquote>
-		<blockquote>жогорку даражалуу мектеп уст. высшая школа;</blockquote>
-		<blockquote>улуу даражалуу см. улуу II.</blockquote>
+		<pos>adj</pos>
+		<trn>имеющий степень, почётный;</trn>
+		<blockquote>жогорку даражалуу мектеп уст.@@ высшая школа;</blockquote>
+		<blockquote>улуу даражалуу см.@@ улуу II.</blockquote>
 	</card>
 	<card>
 		<k>даражы</k>
+		<pos>n</pos>
 		<sameas word="дарайы"/>
-		<blockquote>даражыдан көйнөгү дал-далынан бөлүндү фольк. её шёлковое платье изорвалось в клочья.</blockquote>
+		<blockquote>даражыдан көйнөгү дал-далынан бөлүндү фольк.@@ её шёлковое платье изорвалось в клочья.</blockquote>
 	</card>
 	<card>
 		<k>дараза</k>
+		<pos>n</pos>
 		<meta>талас.</meta>
 		<sameas word="тараза" index="1"/>
 	</card>
 	<card>
 		<k>дарай,</k>
-		<blockquote>дарай, дарайы</blockquote>
+		<pos>n</pos>
+		<alter>дарай, дарайы</alter>
 		<origin>ир.</origin>
-		<blockquote>сорт шёлка;</blockquote>
-		<blockquote>дарайдан кылган көйнөгү жик-жигинен сөгүлдү фольк. её шелковое платье разорвалось по всем швам.</blockquote>
+		<trn>сорт шёлка;</trn>
+		<blockquote>дарайдан кылган көйнөгү жик-жигинен сөгүлдү фольк.@@ её шелковое платье разорвалось по всем швам.</blockquote>
 	</card>
 	<card>
 		<k>дарак</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>дерево (гл. обр. посаженное; ср. жыгач);</blockquote>
-		<blockquote>бак-дарак деревья, древонасаждения.</blockquote>
+		<trn>дерево (гл. обр. посаженное; ср. жыгач);</trn>
+		<blockquote>бак-дарак@@ деревья, древонасаждения.</blockquote>
 	</card>
 	<card>
 		<k>дарала-</k>
-		<blockquote>чётко выделять, особо выделять; делать чётким.</blockquote>
+		<pos>v</pos>
+		<trn>чётко выделять, особо выделять; делать чётким.</trn>
 	</card>
 	<card>
 		<k>дарам</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>[дәрәм]</blockquote>
-		<blockquote>род женской одежды.</blockquote>
+		<meta>[дәрәм]</meta>
+		<trn>род женской одежды.</trn>
 	</card>
 	<card>
 		<k>дарат</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>южн.</meta>
 			<blockquote>ложбина.</blockquote>
@@ -2345,58 +2388,69 @@
 	</card>
 	<card>
 		<k>даратут</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
 		<sameas word="таратут"/>
 	</card>
 	<card>
 		<k>дарах</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>то же, что дарак (но название общее, родовое);</blockquote>
-		<blockquote>арча деген дарах дерево, называемое арча.</blockquote>
+		<trn>то же, что дарак (но название общее, родовое);</trn>
+		<blockquote>арча деген дарах@@ дерево, называемое арча.</blockquote>
 	</card>
 	<card>
 		<k>дарачы</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>[дәрәчи]</blockquote>
-		<blockquote>покой, успокоение;</blockquote>
-		<blockquote>дәрәчи тапчы көрүңдө фольк. найди-ка ты покой в могиле своей.</blockquote>
+		<meta>[дәрәчи]</meta>
+		<trn>покой, успокоение;</trn>
+		<blockquote>дәрәчи тапчы көрүңдө фольк.@@ найди-ка ты покой в могиле своей.</blockquote>
 	</card>
 	<card>
 		<k>дарбаан</k>
-		<blockquote>худая слава; распространение порочащих или недостаточно проверенных сведений;</blockquote>
-		<blockquote>элге дарбаан кылып жиберди он раззвонил по всему свету.</blockquote>
+		<pos>n</pos>
+		<trn>худая слава; распространение порочащих или недостаточно проверенных сведений;</trn>
+		<blockquote>элге дарбаан кылып жиберди@@ он раззвонил по всему свету.</blockquote>
 	</card>
 	<card>
 		<k>дарбаз</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<sameas word="дарчы"/>
 	</card>
 	<card>
 		<k>дарбаза</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>ворота.</blockquote>
+		<trn>ворота.</trn>
 	</card>
 	<card>
 		<k>дарбазалуу</k>
-		<blockquote>имеющий ворота;</blockquote>
-		<blockquote>дарбазалуу үй дом с воротами.</blockquote>
+		<pos>adj</pos>
+		<trn>имеющий ворота;</trn>
+		<blockquote>дарбазалуу үй@@ дом с воротами.</blockquote>
 	</card>
 	<card>
 		<k>дарбазачы</k>
-		<blockquote>привратник.</blockquote>
+		<pos>n</pos>
+		<trn>привратник.</trn>
 	</card>
 	<card>
 		<k>дарбай-</k>
+		<pos>v</pos>
 		<sameas word="дардай" index="2"/>
 	</card>
 	<card>
 		<k>дарбайт-</k>
+		<pos>v</pos>
 		<sameas word="дардайт"/>
-		<blockquote>чоң мурутун дарбайтып фольк. выставив свои громадные усы.</blockquote>
+		<blockquote>чоң мурутун дарбайтып фольк.@@ выставив свои громадные усы.</blockquote>
 	</card>
 	<card>
 		<k>дарбаң</k>
-		<blockquote>дарбаң: арбаң-дарбаң суматоха.</blockquote>
+		<pos>n</pos>
+		<blockquote> арбаң-дарбаң## суматоха.</blockquote>
 	</card>
 	<card>
 		<k>дарбы-</k>
