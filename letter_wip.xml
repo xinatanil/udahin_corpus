@@ -8824,7 +8824,7 @@
 	</card>
 	<card>
 		<k>дуга</k>
-		<pos>n</</pos>
+		<pos>n</pos>
 		<look word="дуба"/>
 	</card>
 	<card>
@@ -8894,7 +8894,7 @@
 		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<trn>дежурный.</blockquote>
+		<trn>дежурный.</trn>
 	</card>
 	<card>
 		<k>дүйнө,</k>
@@ -8945,7 +8945,7 @@
 	</card>
 	<card>
 		<k>дүйнөкор,</k>
-		<pos>n</</pos>
+		<pos>n</pos>
 		<alter>дүйнөкор, дүнүйөкор</alter>
 		<origin>ар.-ир.</origin>
 		<trn>стяжатель, корыстолюбец;</trn>
@@ -9009,17 +9009,17 @@
 	</card>
 	<card>
 		<k>дүкүйт-</k>
-		<pos>v</</pos>
+		<pos>v</pos>
 		<caus word="дүкүй"/>
 	</card>
 	<card>
 		<k>дүкүйүү</k>
-		<pos>v</</pos>
+		<pos>ger</pos>
 		<actionNoun word="дүкүй"/>
 	</card>
 	<card>
 		<k>дүкүлдө-</k>
-		<pos>v</</pos>
+		<pos>v</pos>
 		<meaning>
 			<trn>(о сердце) биться, стучать (от страха);</trn>
 			<blockquote>жүрогүм дүкүлдөп турат@@ у меня сердце сильно бьётся; я очень боюсь;</blockquote>
