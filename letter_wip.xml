@@ -955,8 +955,8 @@
 			<meta>южн.</meta>
 			<meaning>
 				<sameas word="так" index="3"/>
-				<blockquote>дак кыл-@@ покрыть пятнами, испачкать;</blockquote>
-				<blockquote>ак кагазды дак кылды@@ он испачкал белую бумагу;</blockquote>
+				<blockquote>дак кыл-## покрыть пятнами, испачкать;</blockquote>
+				<blockquote>ак кагазды дак кылды@@1 он испачкал белую бумагу;</blockquote>
 			</meaning>
 			<meaning>
 				<trn>душевная боль, страдание, огорчение;</trn>
@@ -1056,7 +1056,7 @@
 		</homonym>
 		<homonym>
 			<blockquote>дал-дал## изодранный в клочья;</blockquote>
-			<blockquote>дал-далы чыкты##1 разорвалось в клочки.</blockquote>
+			<blockquote>дал-далы чыкты@@1 разорвалось в клочки.</blockquote>
 		</homonym>
 		<homonym>
 			<pos>adj</pos>
@@ -1076,8 +1076,11 @@
 	<card>
 		<k>дала</k>
 		<pos>n</pos>
-		<alter>дала, далаа</alter>
 		<sameas word="талаа" subindex="1"/>
+	</card>
+	<card>
+		<k>далаа</k>
+		<look word="дала"/>
 	</card>
 	<card>
 		<k>далаалат</k>
@@ -1097,7 +1100,7 @@
 	</card>
 	<card>
 		<k>далаат</k>
-		<posn>n</posn>
+		<pos>n</pos>
 		<homonym>
 			<blockquote>далаатыңа келгир или далаатың жаман## женская брань по адресу женщин или девушек;</blockquote>
 			<blockquote>өң-далааты жок@@ она изменилась в лице.</blockquote>
@@ -1171,18 +1174,26 @@
 	</card>
 	<card>
 		<k>далбаа</k>
-		<alter>далбаа далба</alter>
-		<meaning>
-			<trn>приманка (для ловчей птицы), вабило;</trn>
-			<blockquote>карчыга үндөп далбаага фольк.@@ призывая ястреба на вабило;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>перен.</meta>
-			<trn>рваный, в клочьях;</trn>
-			<blockquote>кийими далба-далба болуп жыртылып жүрөт## он ходит в изодранной одежде. быть изодранным</blockquote>
+		<homonym>
+			<meaning>
+				<trn>приманка (для ловчей птицы), вабило;</trn>
+				<blockquote>карчыга үндөп далбаага фольк.@@ призывая ястреба на вабило;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<trn>рваный, в клочьях;</trn>
+				<blockquote>кийими далба-далба болуп жыртылып жүрөт@@ он ходит в изодранной одежде.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<trn>быть изодранным</trn>
 			<blockquote>кийимдери иштен чыгып далбааган@@ одежда его совершенно износилась;</blockquote>
 			<blockquote>гүлдөр солуп далбааптыр фольк.@@ цветы завяли и пожухли.</blockquote>
-		</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>далба</k>
+		<look word="далбаа" index="1"/>
 	</card>
 	<card>
 		<k>далбаала-</k>
@@ -1286,28 +1297,33 @@
 	</card>
 	<card>
 		<k>далда</k>
-		<alter>далда, далдаа</alter>
-		<trn>прикрытие, укрытие, защита, убежище;</trn>
-		<blockquote>таштын далдасына олтуруп@@ сидя под прикрытием камня;</blockquote>
-		<blockquote>көздөн далда@@ не на виду, скрытно;</blockquote>
-		<blockquote>көз ачып-жумганча, көздөн далда болду@@ он вмиг скрылся из виду;</blockquote>
-		<blockquote>көздөн далда же-@@ есть тайком от других;</blockquote>
-		<blockquote>көз далдасында кал-@@ остаться незамеченным;</blockquote>
-		<blockquote>көз далдасында калтыр-@@ не заметить;</blockquote>
-		<minicard>
-			<k>көздөн далда кыл-</k>
-			<meaning>
-				<trn>убрать с глаз;</trn>
-			</meaning>
-			<meaning>
-				<trn>похоронить (покойника).</trn>
-			</meaning>
-		</minicard>
-		<meaning>
+		<homonym>
+			<trn>прикрытие, укрытие, защита, убежище;</trn>
+			<blockquote>таштын далдасына олтуруп@@ сидя под прикрытием камня;</blockquote>
+			<blockquote>көздөн далда@@ не на виду, скрытно;</blockquote>
+			<blockquote>көз ачып-жумганча, көздөн далда болду@@ он вмиг скрылся из виду;</blockquote>
+			<blockquote>көздөн далда же-@@ есть тайком от других;</blockquote>
+			<blockquote>көз далдасында кал-@@ остаться незамеченным;</blockquote>
+			<blockquote>көз далдасында калтыр-@@ не заметить;</blockquote>
+			<minicard>
+				<k>көздөн далда кыл-</k>
+				<meaning>
+					<trn>убрать с глаз;</trn>
+				</meaning>
+				<meaning>
+					<trn>похоронить (покойника).</trn>
+				</meaning>
+			</minicard>
+		</homonym>
+		<homonym>
 			<trn>точно навести, прицелиться;</trn>
-		</meaning>
-		<blockquote>далдап атты@@ он выстрелил, хорошо прицелившись;</blockquote>
-		<blockquote>казанды очокко далдап ас-@@ повесить котёл над очагом ровно, правильно.</blockquote>
+			<blockquote>далдап атты@@ он выстрелил, хорошо прицелившись;</blockquote>
+			<blockquote>казанды очокко далдап ас-@@ повесить котёл над очагом ровно, правильно.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>далдаа</k>
+		<look word="далда" index="1"/>
 	</card>
 	<card>
 		<k>далдаа</k>
@@ -1343,7 +1359,7 @@
 	<card>
 		<k>далдак</k>
 		<pos>adv</pos>
-		<blockquote> далдак-дулдак## неуклюже, грузно.</blockquote>
+		<blockquote>далдак-дулдак## неуклюже, грузно.</blockquote>
 	</card>
 	<card>
 		<k>далдакта-</k>
