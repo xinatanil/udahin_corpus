@@ -2172,15 +2172,20 @@
 	<card>
 		<k>даңса</k>
 		<pos>n</pos>
-		<alter>даңса I, даңза</alter>
-		<origin>кит.</origin>
-		<trn>(в эпосе) родословная книга (в которую вписываются имена знаменитых людей);</trn>
-		<blockquote>манжуу каны Нескара, артык баатыр дагы бар, чоң даңсада каты бар фольк.@@ есть и знаменитый богатырь Нескара, маньчжурский хан, (о нём) есть запись в большой родословной книге.</blockquote>
-		<meaning>
+		<homonym>
+			<origin>кит.</origin>
+			<trn>(в эпосе) родословная книга (в которую вписываются имена знаменитых людей);</trn>
+			<blockquote>манжуу каны Нескара, артык баатыр дагы бар, чоң даңсада каты бар фольк.@@ есть и знаменитый богатырь Нескара, маньчжурский хан, (о нём) есть запись в большой родословной книге.</blockquote>
+		</homonym>
+		<homonym>
 			<meta>тяньш.</meta>
 			<trn>лопаточка-скребок (для котла и для перемешивания бузы во время брожения).</trn>
 			<sameas word="даңаза"/>
-		</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>даңза</k>
+		<look word="даңса" index="1"/>
 	</card>
 	<card>
 		<k>даңсачы</k>
@@ -2226,7 +2231,7 @@
 		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<meta>[дәпә]</meta>
+		<transcription>дәпә</transcription>
 		<trn>момент, время;</trn>
 		<blockquote>шу дәпәдә@@ в этот момент.</blockquote>
 	</card>
@@ -2259,7 +2264,7 @@
 	<card>
 		<k>дапкырт</k>
 		<pos>n</pos>
-		<blockquote>слухи.</blockquote>
+		<trn>слухи.</trn>
 	</card>
 	<card>
 		<k>дапса</k>
@@ -2288,21 +2293,21 @@
 				<trn>виселица;</trn>
 				<blockquote>дарга ас-@@ повесить (казнить);</blockquote>
 				<blockquote>дарга астыр-@@ приказать повесить;</blockquote>
-				<blockquote>дардан качкан@@ висельник (достойный, виселицы);</blockquote>
-				<blockquote>дардан качкан капыр! бран.@@ ух, висельник!;</blockquote>
+				<blockquote>дардан качкан## висельник (достойный, виселицы);</blockquote>
+				<blockquote>дардан качкан капыр! бран.@@1 ух, висельник!;</blockquote>
 			</meaning>
 			<meaning>
 				<trn>канат (в цирке для канатоходца);</trn>
-				<blockquote>дардай@@ верзила, громадина; здоровенный;</blockquote>
-				<blockquote>дардай жигит болду@@ он стал здоровенным парнем;</blockquote>
-				<blockquote>катын алсаң дардай, уул тууйт нардай погов.@@ если возьмёшь жену здоровенную, родит сына великана (букв. как одногорбый верблюд).</blockquote>
+				<blockquote>дардай## верзила, громадина; здоровенный;</blockquote>
+				<blockquote>дардай жигит болду@@1 он стал здоровенным парнем;</blockquote>
+				<blockquote>катын алсаң дардай, уул тууйт нардай погов.@@2 если возьмёшь жену здоровенную, родит сына великана (букв. как одногорбый верблюд).</blockquote>
 			</meaning>
 		</homonym>
 		<homonym>
 			<pos>ideo</pos>
 			<trn>звукоподражание треску, напр. рвущейся материи;</trn>
-			<blockquote>дар этип или дар деп@@ с треском;</blockquote>
-			<blockquote>дар деп шымы айрылып фольк.@@ штаны его с треском разорвались.</blockquote>
+			<blockquote>дар этип или дар деп## с треском;</blockquote>
+			<blockquote>дар деп шымы айрылып фольк.@@1 штаны его с треском разорвались.</blockquote>
 		</homonym>
 	</card>
 	<card>
@@ -2315,7 +2320,7 @@
 		</homonym>
 		<homonym>
 			<meta>южн.</meta>
-			<meta>[дәрә]</meta>
+			<transcription>[дәрә]</transcription>
 			<sameas word="дере"/>
 			<blockquote>даранын ичинде@@ в ущелье.</blockquote>
 		</homonym>
@@ -2349,12 +2354,15 @@
 		<sameas word="тараза" index="1"/>
 	</card>
 	<card>
-		<k>дарай,</k>
+		<k>дарай</k>
 		<pos>n</pos>
-		<alter>дарай, дарайы</alter>
 		<origin>ир.</origin>
 		<trn>сорт шёлка;</trn>
 		<blockquote>дарайдан кылган көйнөгү жик-жигинен сөгүлдү фольк.@@ её шелковое платье разорвалось по всем швам.</blockquote>
+	</card>
+	<card>
+		<k>дарайы</k>
+		<look word="дарай"/>
 	</card>
 	<card>
 		<k>дарак</k>
@@ -2372,7 +2380,7 @@
 		<k>дарам</k>
 		<pos>n</pos>
 		<meta>южн.</meta>
-		<meta>[дәрәм]</meta>
+		<transcription>[дәрәм]</transcription>
 		<trn>род женской одежды.</trn>
 	</card>
 	<card>
@@ -2380,7 +2388,7 @@
 		<pos>n</pos>
 		<homonym>
 			<meta>южн.</meta>
-			<blockquote>ложбина.</blockquote>
+			<trn>ложбина.</trn>
 		</homonym>
 		<homonym>
 			<sameas word="даарат"/>
@@ -2403,7 +2411,7 @@
 		<k>дарачы</k>
 		<pos>n</pos>
 		<meta>южн.</meta>
-		<meta>[дәрәчи]</meta>
+		<transcription>[дәрәчи]</transcription>
 		<trn>покой, успокоение;</trn>
 		<blockquote>дәрәчи тапчы көрүңдө фольк.@@ найди-ка ты покой в могиле своей.</blockquote>
 	</card>
@@ -2450,7 +2458,7 @@
 	<card>
 		<k>дарбаң</k>
 		<pos>n</pos>
-		<blockquote> арбаң-дарбаң## суматоха.</blockquote>
+		<blockquote>арбаң-дарбаң## суматоха.</blockquote>
 	</card>
 	<card>
 		<k>дарбы-</k>
