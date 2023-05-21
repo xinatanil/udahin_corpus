@@ -973,7 +973,7 @@
 			<blockquote>дак кылып келди@@ он явился с претензией, с притязаниями.</blockquote>
 		</homonym>
 		<homonym>
-		<pos>adj</pos>
+			<pos>adj</pos>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
 			<trn>сильно нагретый, раскалённый;</trn>
@@ -988,14 +988,14 @@
 	</card>
 	<card>
 		<k>даки</k>
-	   <pos>n</pos>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>уст.</meta>
 			<trn>белая кисея.</trn>
 		</homonym>
 		<homonym>
-		<pos>adj</pos>
+			<pos>adj</pos>
 			<trn>хитрый, лукавый, с хитрецой;</trn>
 			<blockquote>далайды көрүп, даки болгон куу@@ хитрец, прошедший огонь и воду, хитрец, которого не так-то легко провести.</blockquote>
 		</homonym>
@@ -1013,7 +1013,7 @@
 	</card>
 	<card>
 		<k>дакы</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<meaning>
 			<trn>курточка из телячьей шкуры с короткими рукавами;</trn>
 		</meaning>
@@ -1059,7 +1059,7 @@
 			<blockquote>дал-далы чыкты##1 разорвалось в клочки.</blockquote>
 		</homonym>
 		<homonym>
-		<pos>adj</pos>
+			<pos>adj</pos>
 			<meaning>
 				<trn>растерявшийся, опешивший</trn>
 				<blockquote>башым дал болду или көкүрөгүм дал болду@@ я растерялся и не знаю, что делать;</blockquote>
@@ -1182,7 +1182,7 @@
 			<blockquote>кийими далба-далба болуп жыртылып жүрөт## он ходит в изодранной одежде. быть изодранным</blockquote>
 			<blockquote>кийимдери иштен чыгып далбааган@@ одежда его совершенно износилась;</blockquote>
 			<blockquote>гүлдөр солуп далбааптыр фольк.@@ цветы завяли и пожухли.</blockquote>
-			</meaning>
+		</meaning>
 	</card>
 	<card>
 		<k>далбаала-</k>
@@ -1303,8 +1303,8 @@
 				<trn>похоронить (покойника).</trn>
 			</meaning>
 		</minicard>
-		  <meaning>
-		<trn>точно навести, прицелиться;</trn>
+		<meaning>
+			<trn>точно навести, прицелиться;</trn>
 		</meaning>
 		<blockquote>далдап атты@@ он выстрелил, хорошо прицелившись;</blockquote>
 		<blockquote>казанды очокко далдап ас-@@ повесить котёл над очагом ровно, правильно.</blockquote>
@@ -4382,7 +4382,7 @@
 		<trn>дело</trn>
 		<blockquote>өздүк дело@@ личное дело;</blockquote>
 		<blockquote>делого тик-@@ подшить к делу.</blockquote>
-		</card>
+	</card>
 	<card>
 		<k>делпилде-</k>
 		<pos>v</pos>
@@ -4429,19 +4429,19 @@
 			</minicard>
 			<blockquote>балта көтөргүчө дөңгөч дем алат погов.@@ пока топор поднимают, чурбак отдыхает;</blockquote>
 			<minicard>
-			<k>дем алыш</k>
+				<k>дем алыш</k>
 				<meaning>
 					<trn>отдых;</trn>
-			<blockquote>кезектүү дем алыш@@ очередной отпуск;</blockquote>
-			<blockquote>дем алыш үйлөрү@@ дома отдыха;</blockquote>
-			    </meaning>
-			    <meaning>
+					<blockquote>кезектүү дем алыш@@ очередной отпуск;</blockquote>
+					<blockquote>дем алыш үйлөрү@@ дома отдыха;</blockquote>
+				</meaning>
+				<meaning>
 					<trn>радио перерыв</trn>
 				</meaning>
-	            <meaning>
-				<meta>уст.</meta>
-				<trn>отпуск</trn>
-	            </meaning>
+				<meaning>
+					<meta>уст.</meta>
+					<trn>отпуск</trn>
+				</meaning>
 			</minicard>
 			<minicard>
 				<k>дем алдыр-</k>
@@ -4608,7 +4608,7 @@
 			<blockquote>мен тууралуу бирдеме деп кой@@2 замолви за меня словечко.</blockquote>
 		</homonym>
 		<homonym>
-		<pos>v</pos>
+			<pos>v</pos>
 			<trn>добавлять (досыпать, доливать);</trn>
 			<blockquote>үстүнө суу деме-@@ долить водой;</blockquote>
 			<blockquote>бошогон чынысына чайды демей куйду@@ он налил ему чаю в порожнюю чашку;</blockquote>
@@ -10286,15 +10286,15 @@
 		<trn>болтать, пустословить;</trn>
 		<blockquote>дөөрүбөй отур!@@ сиди и не болтай!;</blockquote>
 		<blockquote>эмне эле дөөрүп жатасың?@@ что ты мелешь?</blockquote>
-	<minicard>
-		<k>дөөрүк</k>
-		<meaning>
-			<trn>болтун, пустомеля;</trn>
-		</meaning>
-		<meaning>
-			<trn>болтовня.</trn>
-		</meaning>
-	</minicard>
+		<minicard>
+			<k>дөөрүк</k>
+			<meaning>
+				<trn>болтун, пустомеля;</trn>
+			</meaning>
+			<meaning>
+				<trn>болтовня.</trn>
+			</meaning>
+		</minicard>
 	</card>
 	<card>
 		<k>дөөрүт-</k>
