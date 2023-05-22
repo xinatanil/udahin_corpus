@@ -8654,32 +8654,40 @@
 	</card>
 	<card>
 		<k>диткис</k>
-		<blockquote>диткис: адам диткис редко. то же, что адамдын дити чыдагыс (см. дит).</blockquote>
+		<pos>adj</pos>
+		<blockquote>диткис: адам диткис@@ редко. то же, что адамдын дити чыдагыс@@ (см. дит).</blockquote>
 	</card>
 	<card>
 		<k>дитте-</k>
-		<blockquote>думать, предполагать;</blockquote>
-		<blockquote>"как ушундай кылар" деп, качандан бери диттедим фольк. я давно предполагал, что он именно так поступит.</blockquote>
+		<pos>v</pos>
+		<trn>думать, предполагать;</trn>
+		<ex>
+		<source>"как ушундай кылар" деп, качандан бери диттедим фольк.</source>
+		<target>я давно предполагал, что он именно так поступит.</target>
+		</ex>
 	</card>
 	<card>
 		<k>добогер</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
-		<blockquote>истец.</blockquote>
+		<trn>истец.</trn>
 	</card>
 	<card>
 		<k>добоон</k>
-		<blockquote>добоон: кишиликке добоону жок бран. в нём ничего человеческого-то нет (гл. обр. о человеке, который бросает друга в трудную минуту).</blockquote>
+		<pos>n</pos>
+		<blockquote>добоон: кишиликке добоону жок@@ бран.в нём ничего человеческого-то нет (гл. обр. о человеке, который бросает друга в трудную минуту).</blockquote>
 	</card>
 	<card>
 		<k>добул</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
-				<blockquote>град (сильный);</blockquote>
-				<blockquote>добул кагып кетти побило градом;</blockquote>
-				<blockquote>добул согуп кыйраткан эгин талаасы хлебное поле, уничтоженное градом;</blockquote>
+				<trn>град (сильный);</trn>
+				<blockquote>добул кагып кетти@@ побило градом;</blockquote>
+				<blockquote>добул согуп кыйраткан эгин талаасы@@ хлебное поле, уничтоженное градом;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>буря.</blockquote>
+				<trn>буря.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -8688,162 +8696,191 @@
 	</card>
 	<card>
 		<k>добулбас</k>
+		<pos>n</pos>
 		<look word="доолбас"/>
 	</card>
 	<card>
 		<k>добулдуу</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>с градом;</blockquote>
+			<trn>с градом;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>с бурей;</blockquote>
-			<blockquote>добулдуу өшөргө дуушар келдик нас захватил ливень с бурей;</blockquote>
-			<blockquote>добулдуу кара булут чёрная грозовая туча.</blockquote>
+			<trn>с бурей;</trn>
+			<blockquote>добулдуу өшөргө дуушар келдик@@ нас захватил ливень с бурей;</blockquote>
+			<blockquote>добулдуу кара булут@@ чёрная грозовая туча.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>добур-</k>
-		<blockquote>бормотать (о многих).</blockquote>
+		<pos>v</pos>
+		<trn>бормотать (о многих).</trn>
 	</card>
 	<card>
 		<k>добуш</k>
-		<blockquote>голос;</blockquote>
-		<blockquote>добуш берүү подача голосов, голосование;</blockquote>
-		<blockquote>добуш берүүнүн тартиби порядок голосования;</blockquote>
-		<blockquote>ачык добуш берүү открытое голосование;</blockquote>
-		<blockquote>жашырын добуш берүү тайное голосование;</blockquote>
-		<blockquote>добушка сал- или добуш кой- ставить на голосование, голосовать;</blockquote>
-		<blockquote>добушка салуу или добушка коюу голосование;</blockquote>
-		<blockquote>чечүүчү добуш решающий голос;</blockquote>
-		<blockquote>кеңеш берүүчү добуш совещательный голос;</blockquote>
-		<blockquote>бир добуштан единогласно;</blockquote>
-		<blockquote>бир кишидей бирдиктүү, бир үндөй добуш беришти фольк. единодушно, как один человек, они подали голоса, как один голос;</blockquote>
-		<blockquote>нааразылык добушу голос протеста.</blockquote>
+		<pos>n</pos>
+		<trn>голос;</trn>
+		<blockquote>добуш берүү@@ подача голосов, голосование;</blockquote>
+		<blockquote>добуш берүүнүн тартиби@@ порядок голосования;</blockquote>
+		<blockquote>ачык добуш берүү@@ открытое голосование;</blockquote>
+		<blockquote>жашырын добуш берүү@@ тайное голосование;</blockquote>
+		<blockquote>добушка сал- или добуш кой-@@ ставить на голосование, голосовать;</blockquote>
+		<blockquote>добушка салуу или добушка коюу@@ голосование;</blockquote>
+		<blockquote>чечүүчү добуш@@ решающий голос;</blockquote>
+		<blockquote>кеңеш берүүчү добуш@@ совещательный голос;</blockquote>
+		<blockquote>бир добуштан@@ единогласно;</blockquote>
+		<ex>
+		<source>бир кишидей бирдиктүү, бир үндөй добуш беришти фольк.</source>
+		<target> единодушно, как один человек, они подали голоса, как один голос</target>
+		</ex>
+		<blockquote>нааразылык добушу@@ голос протеста</blockquote>
 	</card>
 	<card>
 		<k>довулгу</k>
-		<meta>талас.</meta>
+		<pos>n</pos>
+		<alter>талас.</alter>
 		<sameas word="тобулгу"/>
 	</card>
 	<card>
 		<k>догдо-</k>
-		<blockquote>толпиться, собираться в кучу;</blockquote>
-		<blockquote>бак ичиндеги көлөкөдө догдогон эл народ, собравшийся в саду в тени.</blockquote>
+		<pos>v</pos>
+		<trn>толпиться, собираться в кучу;</trn>
+		<blockquote>бак ичиндеги көлөкөдө догдогон эл@@ народ, собравшийся в саду в тени.</blockquote>
 	</card>
 	<card>
 		<k>догдой-</k>
-		<blockquote>иметь вид коренастого, крепыша.</blockquote>
+		<pos>v</pos>
+		<trn>иметь вид коренастого, крепыша.</trn>
 	</card>
 	<card>
 		<k>догдур</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="доктор"/>
 	</card>
 	<card>
 		<k>догма</k>
+		<pos>n</pos>
 		<trn>догма</trn>
 	</card>
 	<card>
 		<k>догматик</k>
+		<pos>n</pos>
 		<trn>догматик</trn>
 	</card>
 	<card>
 		<k>догматикалык</k>
-		<blockquote>догматический.</blockquote>
+		<pos>adj</pos>
+		<trn>догматический.</trn>
 	</card>
 	<card>
 		<k>дого</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>р.</origin>
-			<blockquote>дуга (часть упряжи).</blockquote>
+			<trn>дуга (часть упряжи).</trn>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
-			<meta>южн.</meta>
-			<blockquote>обеденная чашка (в форме большой пиалы).</blockquote>
+			<alter>южн.</alter>
+			<meaning>обеденная чашка (в форме большой пиалы).</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>договор</k>
+		<pos>n</pos>
 		<trn>договор</trn>
-		<blockquote>тынчтык договор мирный договор.</blockquote>
+		<blockquote>тынчтык договор@@ мирный договор.</blockquote>
 	</card>
 	<card>
 		<k>догор-</k>
-		<blockquote>распрягать;</blockquote>
-		<blockquote>сөзүңдү догор перестань говорить.</blockquote>
+		<pos>v</pos>
+		<trn>распрягать;</trn>
+		<blockquote>сөзүңдү догор@@ перестань говорить.</blockquote>
 	</card>
 	<card>
 		<k>догур-</k>
+		<pos>v</pos>
 		<anchorRef word="док" index="1" anchor="док ур-"/>
 	</card>
 	<card>
 		<k>догурун-</k>
+		<pos>v</pos>
 		<anchorRef word="док" index="1" anchor="док урун-"/>
 	</card>
 	<card>
 		<k>додо</k>
+		<pos>adv</pos>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>куча, груда;</blockquote>
-			<blockquote>додо-додо кылып, үйүп койдүк мы нагромоздили грудой;</blockquote>
+			<trn>куча, груда;</trn>
+			<blockquote>додо-додо кылып, үйүп койдүк@@ мы нагромоздили грудой;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>толпа, скопление народа;</blockquote>
-			<blockquote>күлү додо болбогон склонный к постоянной смене местожительства, непоседа (букв. тот, чья зола кучей не бывает);</blockquote>
-			<blockquote>бир жерге күлү додо болгон киши эмес он не из тех, кто сидит на месте.</blockquote>
+			<trn>толпа, скопление народа;</trn>
+			<blockquote>күлү додо болбогон@@ склонный к постоянной смене местожительства, непоседа (букв. тот, чья зола кучей не бывает);</blockquote>
+			<blockquote>бир жерге күлү додо болгон киши эмес@@ он не из тех, кто сидит на месте.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>додоло-</k>
-		<blockquote>собирать в кучу, в груду;</blockquote>
-		<blockquote>додолоп койгон күл зола, собранная в большую кучу;</blockquote>
-		<blockquote>эжигейди далиңкеге додолоп салды он положил на тарелку груду домашнего сыра.</blockquote>
+		<pos>v</pos>
+		<trn>собирать в кучу, в груду;</trn>
+		<blockquote>додолоп койгон күл @@ зола, собранная в большую кучу;</blockquote>
+		<blockquote>эжигейди далиңкеге додолоп салды@@ он положил на тарелку груду домашнего сыра.</blockquote>
 	</card>
 	<card>
 		<k>додолон-</k>
+		<pos>v</pos>
 		<refpass word="додоло"/>
-		<blockquote>быть собранным в кучу, в груду;</blockquote>
-		<blockquote>топурактар додолонуп үйүлгөн глина навалена большой кучей;</blockquote>
-		<blockquote>столдун үстүндөгү додолонуп иретсиз жаткан кагаздар бумаги, лежащие на столе ворохом в беспорядке.</blockquote>
+		<trn>быть собранным в кучу, в груду;</trn>
+		<blockquote>топурактар додолонуп үйүлгөн@@ глина навалена большой кучей;</blockquote>
+		<blockquote>столдун үстүндөгү додолонуп иретсиз жаткан кагаздар@@ бумаги, лежащие на столе ворохом в беспорядке.</blockquote>
 	</card>
 	<card>
 		<k>дож</k>
+		<pos>n</pos>
 		<origin>р.</origin>
-		<blockquote>шутл. сокр.</blockquote>
-		<blockquote>молодёжь.</blockquote>
+		<meaning>шутл. сокр.</meaning>
+		<trn>молодёжь.</trn>
 	</card>
 	<card>
 		<k>дозок</k>
+		<pos>n</pos>
 		<sameas word="тозок"/>
-		<blockquote>кокус түшүп кетпесин жети түрлүү дозокко стих. как бы он не провалился в тартарары (т.е. не попал в большую беду).</blockquote>
+		<blockquote>кокус түшүп кетпесин жети түрлүү дозокко стих.@@ как бы он не провалился в тартарары (т.е. не попал в большую беду).</blockquote>
 	</card>
 	<card>
 		<k>дозоктол-</k>
+		<pos>v</pos>
 		<sameas word="тозоктол"/>
 	</card>
 	<card>
 		<k>дозор</k>
-		<meta>воен.</meta>
+		<pos>n</pos>
+		<alter>воен.</alter>
 		<trn>дозор</trn>
 	</card>
 	<card>
 		<k>дойбу</k>
-		<blockquote>шашка;</blockquote>
-		<blockquote>дойбу ойно- играть в шашки.</blockquote>
+		<pos>n</pos>
+		<trn>шашка;</trn>
+		<blockquote>дойбу ойно@@ играть в шашки.</blockquote>
 	</card>
 	<card>
 		<k>дойбучу</k>
-		<blockquote>шашист;</blockquote>
+		<pos>n</pos>
+		<trn>шашист;</trn>
 		<blockquote>дойбучулардын мелдеши соревнование по шашкам.</blockquote>
 	</card>
 	<card>
 		<k>док</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
-			<blockquote>запугивание, застращивание; грубый окрик;</blockquote>
-			<blockquote>док ур- (или догур-) запугивать, застращивать; грубо набрасываться;</blockquote>
-			<blockquote>жазыгым жок бала элем, не урасың догуңду? фольк. я невинный паренёк, что ж ты (на меня) набросился?</blockquote>
+			<trn>запугивание, застращивание; грубый окрик;</trn>
+			<blockquote>док ур- (или догур-)@@ запугивать, застращивать; грубо набрасываться;</blockquote>
+			<blockquote>жазыгым жок бала элем, не урасың догуңду? фольк.@@ я невинный паренёк, что ж ты (на меня) набросился?</blockquote>
 			<minicard>
 				<k>док урун- (или догурун-)</k>
 				<meaning>
@@ -8853,41 +8890,45 @@
 					<trn>покончить с собой или грозить покончить самоубийством;</trn>
 				</meaning>
 			</minicard>
-			<blockquote>ал док урунуп, балакетике каласың (смотри) он покончит с собой, а ты из-за него в беду попадёшь;</blockquote>
-			<blockquote>док арт- грубо требовать, шантажировать;</blockquote>
-			<blockquote>Акия догун арткан кишиче Элебеске кыналат Акия напирает на Элебеса, будто он ей обязан;</blockquote>
-			<blockquote>мен сенин тууганың болбосом, эмне догунду артасың? что ты на меня наседаешь с требованиями? я тебе не родственник;</blockquote>
-			<blockquote>догуңду артпа! не приставай!, отстань!</blockquote>
+			<blockquote>ал док урунуп, балакетике каласың@@ (смотри) он покончит с собой, а ты из-за него в беду попадёшь;</blockquote>
+			<blockquote>док арт- @@ грубо требовать, шантажировать;</blockquote>
+			<blockquote>Акия догун арткан кишиче Элебеске кыналат@@ Акия напирает на Элебеса, будто он ей обязан;</blockquote>
+			<blockquote>мен сенин тууганың болбосом, эмне догунду артасың?@@ что ты на меня наседаешь с требованиями? я тебе не родственник;</blockquote>
+			<blockquote>догуңду артпа!@@ не приставай!, отстань!</blockquote>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
-			<meta>южн.</meta>
-			<blockquote>пахтанье (сыворотка после пахтанья масла).</blockquote>
+			<alter>южн.</alter>
+			<meaning>пахтанье (сыворотка после пахтанья масла).</meaning>
 		</homonym>
 	</card>
 	<card>
 		<k>доклад</k>
+		<pos>n</pos>
 		<trn>доклад</trn>
-		<blockquote>кошумча доклад содоклад.</blockquote>
+		<blockquote>кошумча доклад@@ содоклад.</blockquote>
 	</card>
 	<card>
 		<k>докладчик,</k>
-		<blockquote>докладчик, докладчы</blockquote>
-		<blockquote>докладчик.</blockquote>
+		<pos>n</pos>
+		<alter>докладчик, докладчы</alter>
+		<trn>докладчик.</trn>
 	</card>
 	<card>
 		<k>доктор</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>доктор (учёная степень);</blockquote>
-			<blockquote>биологиялык илимдердиң доктору доктор биологических наук;</blockquote>
+			<trn>доктор (учёная степень);</trn>
+			<blockquote>биологиялык илимдердиң доктору@@ доктор биологических наук;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>доктор, врач.</blockquote>
+			<alter>доктор, врач.</alter>
 		</meaning>
 	</card>
 	<card>
-		<k>докторлук,</k>
-		<blockquote>докторлук, доктурдук</blockquote>
+		<k>докторлук</k>
+		<pos>adj</pos>
+		<alter>докторлук, доктурдук</alter>
 		<meaning>
 			<blockquote>врачевание;</blockquote>
 		</meaning>
@@ -8897,91 +8938,109 @@
 	</card>
 	<card>
 		<k>доктрина</k>
+		<pos>n<pos/>
 		<trn>доктрина</trn>
 	</card>
 	<card>
 		<k>доктурдук</k>
+		<pos>adj</pos>
 		<look word="докторлук"/>
 	</card>
 	<card>
 		<k>документ</k>
+		<pos>n</pos>
 		<trn>документ</trn>
 	</card>
 	<card>
 		<k>документалдуу</k>
-		<blockquote>документированный;</blockquote>
-		<blockquote>документалдуу материалдар документированные материалы.</blockquote>
+		<pos>adj</pos>
+		<trn>документированный;</trn>
+		<blockquote>документалдуу материалдар@@ документированные материалы.</blockquote>
 	</card>
 	<card>
 		<k>документалдык</k>
-		<blockquote>документальный;</blockquote>
-		<blockquote>документалдык фильм документальный фильм.</blockquote>
+		<pos>adj</pos>
+		<trn>документальный;</trn>
+		<blockquote>документалдык фильм@@ документальный фильм.</blockquote>
 	</card>
 	<card>
 		<k>докчу</k>
-		<blockquote>шантажист; тот, кто стремится взять запугиванием, застращиванием.</blockquote>
+		<pos>n</pos>
+		<trn>шантажист; тот, кто стремится взять запугиванием, застращиванием.</trn>
 	</card>
 	<card>
 		<k>долбоор</k>
+		<pos>n</pos>
 		<sameas word="долбор"/>
 	</card>
 	<card>
 		<k>долбор</k>
-		<blockquote>проект.</blockquote>
+		<pos>n</pos>
+		<trn>проект.</trn>
 	</card>
 	<card>
-		<k>долбордо-</k>
-		<blockquote>проектировать, намечать.</blockquote>
+		<k>долбордоo-</k>
+		<pos>v</pos>
+		<trn>проектировать, намечать.</trn>
 	</card>
 	<card>
 		<k>долбордон-</k>
+		<pos>v</pos>
 		<refpass word="долбордо"/>
-		<blockquote>быть проектируемым; проектироваться, намечаться.</blockquote>
+		<trn>быть проектируемым; проектироваться, намечаться.</trn>
 	</card>
 	<card>
 		<k>долдой-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>выпячиваться, выпирать буграми;</blockquote>
-			<blockquote>шымым дал-дал бөлүнүп, кири муздай долдоюп фольк. штаны мои разлезлись, грязь к ним пристала буграми;</blockquote>
+			<trn>выпячиваться, выпирать буграми;</trn>
+			<blockquote>шымым дал-дал бөлүнүп, кири муздай долдоюп фольк.@@ штаны мои разлезлись, грязь к ним пристала буграми;</blockquote>
 		</meaning>
 		<meaning>
 			<blockquote>(о человеке) быть здоровым и неуклюжим (о таком говорят: неладно скроен, да прочно сшит);</blockquote>
-			<blockquote>долдойгон неуклюжий здоровяк.</blockquote>
+			<blockquote>долдойгон@@ неуклюжий здоровяк.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>долдура-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>басить, издавать грубые звуки на низких нотах;</blockquote>
-			<blockquote>долдураган то же, что долдурак;</blockquote>
-			<blockquote>долдураган үн грубый голос;</blockquote>
+			<trn>басить, издавать грубые звуки на низких нотах;</trn>
+			<blockquote>долдураганто же, что долдурак;</blockquote>
+			<blockquote>долдураган үн@@ грубый голос;</blockquote>
 		</meaning>
 		<meaning>
-			<meta>перен.</meta>
+			<alter>перен.</alter>
 			<blockquote>говорить неясно, бормотать.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>долдурак</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>грубый бас;</blockquote>
-			<blockquote>эркектин долдурак үнү үйдөн угулду из дома послышался грубый мужской голос;</blockquote>
+			<trn>грубый бас;</trn>
+			<blockquote>эркектин долдурак үнү үйдөн угулду@@ из дома послышался грубый мужской голос;</blockquote>
 		</meaning>
 		<meaning>
-			<meta>перен.</meta>
+			<alter>перен.</alter>
 			<blockquote>неясное бормотание.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>должун</k>
+		<pos>n</pos>
 		<origin>р.</origin>
-		<meta>разг.</meta>
-		<blockquote>должник;</blockquote>
-		<blockquote>должундан алды жигитти стих. он брал себе джигитов (см. жигит 2) из должников;</blockquote>
-		<blockquote>должун бүлө дармоед.</blockquote>
+		<alter>разг.</alter>
+		<trn>должник;</trn>
+		<ex>
+		<source>должундан алды жигитти стих.</source>
+		<target>он брал себе джигитов (см. жигит 2) из должников;<target>
+		</ex>
+		<blockquote>должун бүлө@@ дармоед.</blockquote>
 	</card>
 	<card>
 		<k>доллар</k>
+		<pos>n</pos>
 		<trn>доллар</trn>
 	</card>
 	<card>
