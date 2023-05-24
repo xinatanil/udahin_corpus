@@ -2376,24 +2376,24 @@
 	</card>
 	<card>
 		<k>дамбалчан</k>
-        <pos>adj</pos>
+		<pos>adj</pos>
 		<trn>в одних кальсонах (без брюк).</trn>
 	</card>
 	<card>
 		<k>дамбаркана</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>тяньш.</meta>
 		<trn>закром.</trn>
 	</card>
 	<card>
 		<k>дамбаш</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<look word="ээр"/>
 	</card>
 	<card>
 		<k>дамбур</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<trn>тамбур (щипковый музыкальный инструмент);</trn>
@@ -2401,44 +2401,44 @@
 	</card>
 	<card>
 		<k>дамбылда</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<sameas word="даамолдо"/>
 	</card>
 	<card>
 		<k>дамбыр</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<minicard>
-            <meta>этн.</meta>
-            <k>дамбыр таш</k>
-            <trn>женское заклинание при первом весеннем громе с целью вызвать обилие трав и молока (женщины с подойниками три раза обегали юрту и кричали: жер айрылып, көк чык! желин айрылып, сүт чык! разверзнись, земля, и появись, трава! разверзнись, вымя, и появись, молоко!).</trn>
-        </minicard>
+			<meta>этн.</meta>
+			<k>дамбыр таш</k>
+			<trn>женское заклинание при первом весеннем громе с целью вызвать обилие трав и молока (женщины с подойниками три раза обегали юрту и кричали: жер айрылып, көк чык! желин айрылып, сүт чык! разверзнись, земля, и появись, трава! разверзнись, вымя, и появись, молоко!).</trn>
+		</minicard>
 	</card>
 	<card>
 		<k>дамжы-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<sameas word="деме" index="2"/>
 	</card>
 	<card>
 		<k>дампай-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<sameas word="кампай"/>
 		<blockquote>төрөлөрү чогулуп, дампайып түшүп калды эле фольк.@@ здоровенные толстяки из их знати, собравшись, слезли (с коней);</blockquote>
 		<blockquote>боз айгыр менен дампайып, үстүнөн чыгып калыптыр@@ он, здоровенный толстяк, подъехал к ним на сивом жеребце.</blockquote>
 	</card>
 	<card>
 		<k>дампаңда-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<trn>(о человеке неуклюжем или одетом, в непомерно просторную одежду) оживлённо двигаться;</trn>
 		<blockquote>атка минди дампаңдап фольк.@@ он взгромоздился на коня.</blockquote>
 	</card>
 	<card>
 		<k>дамулда</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<sameas word="даамолдо"/>
 	</card>
 	<card>
 		<k>дан</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meaning>
 			<trn>зерно, зерновой хлеб;</trn>
@@ -2446,9 +2446,9 @@
 			<blockquote>дан алдыр-@@ дать зерну налиться;</blockquote>
 			<blockquote>дан айда-@@ сеять хлеб;</blockquote>
 			<minicard>
-                <k>дан сугат</k>
-                <look word="сугат" index="2"/>
-            </minicard>
+				<k>дан сугат</k>
+				<look word="сугат" index="2"/>
+			</minicard>
 		</meaning>
 		<meaning>
 			<trn>хлеб (печёный);</trn>
@@ -2457,15 +2457,15 @@
 			<blockquote>рационалдык дан@@ рациональное зерно;</blockquote>
 			<blockquote>дан жебес@@ висок;</blockquote>
 			<minicard>
-                <k>дан куурай</k>
-                <look word="куурай"/>
-            </minicard>
+				<k>дан куурай</k>
+				<look word="куурай"/>
+			</minicard>
 		</meaning>
 	</card>
 	<card>
 		<k>даң</k>
 		<homonym>
-        <pos>n</pos>
+			<pos>n</pos>
 			<meaning>
 				<trn>подражание сильному и чёткому повторяющемуся звуку, напр. барабана;</trn>
 			</meaning>
@@ -2492,7 +2492,7 @@
 	</card>
 	<card>
 		<k>дана</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meaning>
@@ -2505,7 +2505,7 @@
 	</card>
 	<card>
 		<k>даңаза</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>кит.</origin>
 		<meaning>
 			<trn>великолепие, роскошь;</trn>
@@ -2521,23 +2521,23 @@
 	</card>
 	<card>
 		<k>даңазала-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<anchorRef word="даңаза" anchor="даңаза көтөр-"/>
 	</card>
 	<card>
 		<k>даңазалан-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<refpass word="даңазала"/>
 		<trn>быть прославляемым, прославляться.</trn>
 	</card>
 	<card>
 		<k>даңазалаш-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<recv word="даңазала"/>
 	</card>
 	<card>
 		<k>данакер,</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<alter>данакер, данекер</alter>
 		<origin>ир.</origin>
 		<meaning>
@@ -2555,7 +2555,7 @@
 	<card>
 		<k>данакерле-,</k>
 		<alter>данакерле-, данекерле-</alter>
-        <pos>v</pos>
+		<pos>v</pos>
 		<meaning>
 			<trn>паять (металл) клеем данакер (см.);</trn>
 		</meaning>
@@ -2566,26 +2566,26 @@
 	<card>
 		<k>даңга,</k>
 		<alter>даңга, даңган</alter>
-        <pos>n</pos>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<sameas word="даңкан"/>
 	</card>
 	<card>
 		<k>даңгел</k>
-        <pos>adv</pos>
+		<pos>adv</pos>
 		<trn>прямо;</trn>
 		<blockquote>ойноп күлүп, даңгел кет, тууп өскөн жериңе фольк.@@ позабавившись и посмеявшись, отправляйся прямо туда, где родился.</blockquote>
 	</card>
 	<card>
 		<k>даңгесе</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<trn>лентяй, лодырь.</trn>
 	</card>
 	<card>
 		<k>даңги</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<trn>теснина.</trn>
@@ -2593,13 +2593,13 @@
 	<card>
 		<k>даңгыл</k>
 		<meaning>
-        <pos>adj</pos>
+			<pos>adj</pos>
 			<trn>крепкий, прочный;</trn>
 			<blockquote>даңгыл жол@@ твёрдая, хорошо укатанная дорога;</blockquote>
 			<blockquote>ишке даңгыл жигит@@ выносливый и расторопный парень;</blockquote>
 		</meaning>
 		<meaning>
-        <pos>n</pos>
+			<pos>n</pos>
 			<trn>знаток;</trn>
 			<blockquote>жоопко жүйрүк даңгыл@@ знаток чего-л., который быстро находит нужный ответ;</blockquote>
 			<blockquote>кепке чечен даңгылы, келишкен мыкты камбылы фольк.@@ прибыли искусные говоруны, отличные ловкачи.</blockquote>
@@ -2607,91 +2607,91 @@
 	</card>
 	<card>
 		<k>даңгылдык</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<abstract word="даңгыл"/>
 		<blockquote>жүгүрмө чечен, тилге уста, даңгылдыгы дагы бар фольк.@@ он искусный говорун, речист, есть у него и ловкость.</blockquote>
 	</card>
 	<card>
 		<k>даңгыр</k>
 		<homonym>
-        <pos>adj</pos>
+			<pos>adj</pos>
 			<sameas word="даңгыл" subindex="1"/>
 			<blockquote>элдешсең - жолу даңгыр журт, эрегишсең,- жеңилбес ак ыйыктай алгыр журт фольк.@@ если с миром (к нему), (он) народ с гладкой дорогой, если с враждой (к нему), (он) народ с хваткой беркута.</blockquote>
 		</homonym>
 		<homonym>
-		<minicard>
-            <k>даңгыр-дуңгур</k>
-            <trn>стук, грохот.</trn>
-        </minicard>
+			<minicard>
+				<k>даңгыр-дуңгур</k>
+				<trn>стук, грохот.</trn>
+			</minicard>
 		</homonym>
 	</card>
 	<card>
 		<k>даңгыра-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<sameas word="даңкылда"/>
 		<blockquote>даңгыраган жол@@ хорошо укатанная дорога.</blockquote>
 	</card>
 	<card>
 		<k>даңгырат-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<caus word="даңгыра"/>
 	</card>
 	<card>
 		<k>даңгыт</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<trn>взрослый кобель (собака, волк);</trn>
 		<blockquote>даңгыт карышкыр@@ матёрый волк;</blockquote>
 		<blockquote>көсөө куйрук көк даңгыт, карышкыр алды буудайык фольк.@@ толстохвостого волка-кобеля ловил буудайык (см. буудайык II).</blockquote>
 	</card>
 	<card>
 		<k>данда-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<trn>быть разборчивым, притязательным, привередничать.</trn>
 	</card>
 	<card>
 		<k>даңда-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<trn>прославлять, оживлённо и с похвалой отзываться;</trn>
 		<blockquote>"Алмамбет келет экен" деп, атпай кыргыз даңдаган@@ Алмамбет, мол, едет сюда, оживлённо говорили все киргизы.</blockquote>
 	</card>
 	<card>
 		<k>дандай-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<trn>хвалиться, бахвалиться.</trn>
 	</card>
 	<card>
 		<k>дандайсы-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<similative word="дандай"/>
 		<trn>как бы хвалиться, как бы бахвалиться.</trn>
 	</card>
 	<card>
 		<k>даңдан-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<refv word="даңда"/>
 		<trn>показывать себя с хорошей стороны; своим видом или действиями выказывать свои хорошие качества;</trn>
 		<blockquote>бастырса, кетет даңданып, башын чайкап шаңданып, карап калат бууданды калктын баары таңданып фольк.@@ когда скакун важно выступает, весь народ, (одобрительно) покачивая головами, смотрит с удивлением.</blockquote>
 	</card>
 	<card>
 		<k>данданкүү</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<trn>зубочистка;</trn>
 		<blockquote>данданкүү мынча, эт канча? погов.@@ зубочисток столько (много), (а) мяса сколько?</blockquote>
 	</card>
 	<card>
 		<k>дандат-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<caus word="данда"/>
 	</card>
 	<card>
 		<k>даңдуң</k>
-        <pos>adj</pos>
+		<pos>adj</pos>
 		<blockquote>даңдуң баш## (образно) горный козёл.</blockquote>
 	</card>
 	<card>
 		<k>дандуу</k>
-        <pos>adj</pos>
+		<pos>adj</pos>
 		<meaning>
 			<trn>содержащий в себе зерно; снабжённый хлебными злаками, зерном; зерновой;</trn>
 			<blockquote>дандуу эгиндер@@ зерновые посевы;</blockquote>
@@ -2703,17 +2703,17 @@
 	</card>
 	<card>
 		<k>даңдуу</k>
-        <pos>adj</pos>
+		<pos>adj</pos>
 		<trn>известный, славный, знатный.</trn>
 	</card>
 	<card>
 		<k>дандыр</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<sameas word="тандыр" index="1"/>
 	</card>
 	<card>
 		<k>данек</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<trn>косточка (фруктовая, ягодная);</trn>
 		<blockquote>өрүктүн данеги@@ косточка абрикоса;</blockquote>
@@ -2722,28 +2722,28 @@
 	</card>
 	<card>
 		<k>данекер</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<look word="данакер"/>
 	</card>
 	<card>
 		<k>данекерле-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<look word="данакерле"/>
 	</card>
 	<card>
 		<k>данексиз</k>
-        <pos>adj</pos>
+		<pos>adj</pos>
 		<trn>(о фруктах, ягодах) бескосточковый;</trn>
 		<blockquote>данексиз жүзүм@@ бескосточковый виноград.</blockquote>
 	</card>
 	<card>
 		<k>даңза</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<look word="даңса" index="1"/>
 	</card>
 	<card>
 		<k>даңк</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<meaning>
 			<trn>(ср. даң I 1) подражание сильному однократному звуку;</trn>
 			<blockquote>даңк эт-## грохнуть;</blockquote>
@@ -2762,20 +2762,20 @@
 	</card>
 	<card>
 		<k>даңкай-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<trn>гордо вздыматься, выпячиваться;</trn>
 		<blockquote>даңкайган ак үйлөр@@ великолепные (гордо вздымающиеся) белые дома;</blockquote>
 		<blockquote>башындагы селдеси, жан казандай болуп даңкайып, башка селделерден бөтөнчө чоң чалма@@ на его голове возвышается, как небольшой котёл, среди других она особенно велика.</blockquote>
 	</card>
 	<card>
 		<k>даңкайт-</k>
-        <pos>v</pos>
+		<pos>v</pos>
 		<caus word="даңкай"/>
 		<blockquote>жер жүзүнө даңкайтып, баткызбай айдап баратат фольк.@@ (свои бесчисленные) табуны он гонит, а они на земной поверхности не умещаются.</blockquote>
 	</card>
 	<card>
 		<k>даңкан</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>кит.</origin>
 		<meaning>
 			<trn>котелок на трёх ножках;</trn>
@@ -2787,7 +2787,7 @@
 	</card>
 	<card>
 		<k>данкана</k>
-        <pos>n</pos>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<trn>закром.</trn>
