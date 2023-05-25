@@ -6581,309 +6581,367 @@
 	</card>
 	<card>
 		<k>деноддук</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>день отдыха (выходной день).</blockquote>
+		<trn>день отдыха (выходной день).</trn>
 	</card>
 	<card>
 		<k>депдер</k>
+		<pos>n</pos>
 		<sameas word="дептер"/>
 	</card>
 	<card>
 		<k>депилде-</k>
-		<blockquote>болтаться;</blockquote>
-		<blockquote>депилдеп бараткан эки этегин кымтып алууга да буямасы келген жок он не имел силы подоткнуть болтающиеся полы.</blockquote>
+		<pos>v</pos>
+		<trn>болтаться;</trn>
+		<blockquote>депилдеп бараткан эки этегин кымтып алууга да буямасы келген жок@@ он не имел силы подоткнуть болтающиеся полы.</blockquote>
 	</card>
 	<card>
 		<k>депилдет-</k>
+		<pos>v</pos>
 		<caus word="депилде"/>
 	</card>
 	<card>
 		<k>депкир</k>
 		<homonym>
+		<pos>n</pos>
 			<sameas word="текбир"/>
 		</homonym>
 		<homonym>
-			<blockquote>присутствие духа;</blockquote>
-			<blockquote>депкири качып калды или депкирин таппай калды он испугался, он растерялся;</blockquote>
-			<blockquote>депкирин таппай калдастап растерянно суетясь;</blockquote>
-			<blockquote>депкири качкан жок он не растерялся;</blockquote>
-			<blockquote>депкирин таптырбады он его поставил в безвыходное положение;</blockquote>
-			<blockquote>депкирин алды его испугало (что-л.);</blockquote>
-			<blockquote>депкир таппагыр! чтоб тебе покоя не знать!</blockquote>
+		<pos>n</pos>
+			<trn>присутствие духа;</trn>
+			<blockquote>депкири качып калды или депкирин таппай калды@@ он испугался, он растерялся;</blockquote>
+			<blockquote>депкирин таппай калдастап@@ растерянно суетясь;</blockquote>
+			<blockquote>депкири качкан жок@@ он не растерялся;</blockquote>
+			<blockquote>депкирин таптырбады@@ он его поставил в безвыходное положение;</blockquote>
+			<blockquote>депкирин алды@@ его испугало (что-л.);</blockquote>
+			<blockquote>депкир таппагыр!@@ чтоб тебе покоя не знать!</blockquote>
 		</homonym>
 		<homonym>
+		<pos>n</pos>
 			<sameas word="кепкир"/>
-			<blockquote>бала депкирден түшкөн эки боорсокту ала коюп ребёнок, схватил два баурсака (см. боорсок), упавшие из шумовки.</blockquote>
+			<blockquote>бала депкирден түшкөн эки боорсокту ала коюп@@ ребёнок, схватил два баурсака (см. боорсок), упавшие из шумовки.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>кашлять;</blockquote>
-			<blockquote>атым депкирип калыптыр моя лошадь кашляет.</blockquote>
+		<pos>v</pos>
+			<trn>кашлять;</trn>
+			<blockquote>атым депкирип калыптыр@@ моя лошадь кашляет.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>депкирт-</k>
+		<pos>v</pos>
 		<caus word="депкир" index="4"/>
 	</card>
 	<card>
 		<k>депо</k>
+		<pos>n</pos>
 		<trn>депо</trn>
 	</card>
 	<card>
 		<k>депозит</k>
+		<pos>n</pos>
 		<trn>депозит</trn>
 	</card>
 	<card>
 		<k>депсен</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>небольшая ровная впадина в горах.</blockquote>
+		<trn>небольшая ровная впадина в горах.</trn>
 	</card>
 	<card>
 		<k>дептер</k>
-		<blockquote>греч. через ир.</blockquote>
-		<blockquote>тетрадь; книга (канцелярская);</blockquote>
-		<blockquote>жекелик учёт дептери уст. личная учётная карточка;</blockquote>
-		<blockquote>чыгыш дептер журнал исходящих бумаг;</blockquote>
-		<blockquote>кириш дептер журнал входящих бумаг;</blockquote>
-		<blockquote>чөнтөк дептери записная (букв. карманная) книжка;</blockquote>
-		<blockquote>журналисттин чөнтөк дептеринен из записной книжки журналиста.</blockquote>
+		<pos>n</pos>
+		<origin>греч. через ир.</origin>
+		<trn>тетрадь; книга (канцелярская);</trn>
+		<blockquote>жекелик учёт дептери уст.@@ личная учётная карточка;</blockquote>
+		<blockquote>чыгыш дептер@@ журнал исходящих бумаг;</blockquote>
+		<blockquote>кириш дептер@@ журнал входящих бумаг;</blockquote>
+		<blockquote>чөнтөк дептери@@ записная (букв. карманная) книжка;</blockquote>
+		<blockquote>журналисттин чөнтөк дептеринен@@ из записной книжки журналиста.</blockquote>
 	</card>
 	<card>
 		<k>дептерче</k>
-		<blockquote>тетрадочка; книжечка (канцелярская); записная книжка, блокнот.</blockquote>
+		<pos>n</pos>
+		<trn>тетрадочка; книжечка (канцелярская); записная книжка, блокнот.</trn>
 	</card>
 	<card>
 		<k>депутат</k>
+		<pos>n</pos>
 		<trn>депутат</trn>
-		<blockquote>Жогорку Совет депутаты депутат Верховного Совета.</blockquote>
+		<blockquote>Жогорку Совет депутаты@@ депутат Верховного Совета.</blockquote>
 	</card>
 	<card>
 		<k>депутаттык</k>
 		<homonym>
-			<blockquote>депутатский;</blockquote>
-			<blockquote>депутаттык милдет депутатская обязанность.</blockquote>
+		<pos>adj</pos>
+			<trn>депутатский;</trn>
+			<blockquote>депутаттык милдет@@ депутатская обязанность.</blockquote>
 		</homonym>
 		<homonym>
-			<blockquote>положение депутата;</blockquote>
-			<blockquote>депутаттыкка көрсөт- выдвинуть в депутаты;</blockquote>
-			<blockquote>Кыргыз ССР Жогорку Советинин депутаттыгына кандидат кандидат в депутаты Верховного Совета Киргизской ССР.</blockquote>
+		<pos>n</pos>
+			<trn>положение депутата;</trn>
+			<blockquote>депутаттыкка көрсөт-@@ выдвинуть в депутаты;</blockquote>
+			<blockquote>Кыргыз ССР Жогорку Советинин депутаттыгына кандидат@@ кандидат в депутаты Верховного Совета Киргизской ССР.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>дер</k>
+		<pos>n</pos>
 		<meta>тяньш.</meta>
-		<blockquote>циновка, на которой сушат курут (см. курут I).</blockquote>
+		<trn>циновка, на которой сушат курут (см. курут I).</trn>
 	</card>
 	<card>
+	<pos>n</pos>
 		<k>дербиш</k>
 		<sameas word="дарвиш"/>
 	</card>
 	<card>
 		<k>дердей-</k>
 		<meaning>
-			<blockquote>(о ноздрях) раздуваться;</blockquote>
-			<blockquote>мурду дердейип турат у него ноздри раздуваются;</blockquote>
+		<pos>v</pos>
+			<trn>(о ноздрях) раздуваться;</trn>
+			<blockquote>мурду дердейип турат@@ у него ноздри раздуваются;</blockquote>
 		</meaning>
 		<meaning>
+		<pos>v</pos>
 			<meta>перен.</meta>
-			<blockquote>важничать;</blockquote>
-			<blockquote>башына балиш койдуруп, дердейип уктап калды приказав положить себе под голову подушку, он важно разлёгся и уснул.</blockquote>
+			<trn>важничать;</trn>
+			<blockquote>башына балиш койдуруп, дердейип уктап калды@@ приказав положить себе под голову подушку, он важно разлёгся и уснул.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дердекте-</k>
+		<pos>v</pos>
 		<sameas word="дердеңде"/>
 	</card>
 	<card>
 		<k>дерделеңде-</k>
-		<blockquote>то же, что дердеңде- 2, 3.</blockquote>
+		<pos>v</pos>
+		<sameas word="дердеңде" index="2, 3"/>
 	</card>
 	<card>
 		<k>дердеңде-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>(о ноздрях) раздуваться;</blockquote>
-			<blockquote>аттын таноосу дердеңдеп, тери зиркирейт ноздри коня раздуваются, и пот с него струится;</blockquote>
+			<trn>(о ноздрях) раздуваться;</trn>
+			<blockquote>аттын таноосу дердеңдеп, тери зиркирейт@@ ноздри коня раздуваются, и пот с него струится;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>(о человеке маленького роста) быть в приподнятом, боевом настроении; воспрянуть духом;</blockquote>
+			<trn>(о человеке маленького роста) быть в приподнятом, боевом настроении; воспрянуть духом;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>зазнаваться;</blockquote>
-			<blockquote>сен эмне дердеңдеп калгансың? ты что это зазнался?</blockquote>
+			<trn>зазнаваться;</trn>
+			<blockquote>сен эмне дердеңдеп калгансың?@@ ты что это зазнался?</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дердеңдет-</k>
+		<pos>v</pos>
 		<caus word="дердеңде"/>
 	</card>
 	<card>
 		<k>дердеңдетиш-</k>
+		<pos>v</pos>
 		<recv word="дердеңдет"/>
-		<blockquote>мурундарын дердеңдетишип, кулактарын тикчийтип раздувая ноздри и насторожив уши (о конях при приближении опасности).</blockquote>
+		<blockquote>мурундарын дердеңдетишип, кулактарын тикчийтип@@ раздувая ноздри и насторожив уши (о конях при приближении опасности).</blockquote>
 	</card>
 	<card>
 		<k>дере</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>теснина;</blockquote>
+		<trn>теснина;</trn>
 		<blockquote>көр дере замкнутая теснина.</blockquote>
 	</card>
 	<card>
 		<k>деревня</k>
+		<pos>n</pos>
 		<trn>деревня</trn>
 	</card>
 	<card>
 		<k>дерей-</k>
-		<blockquote>важничать, задирать нос;</blockquote>
-		<blockquote>сөз чыгарбайт кедейден, старчындар дерейген стих. (аульные) старшины важничали, бедняку слова не давали сказать.</blockquote>
+		<pos>v</pos>
+		<trn>важничать, задирать нос;</trn>
+		<blockquote>сөз чыгарбайт кедейден, старчындар дерейген стих.@@ (аульные) старшины важничали, бедняку слова не давали сказать.</blockquote>
 	</card>
 	<card>
 		<k>дерек</k>
+		<pos>n</pos>
 		<sameas word="дарек"/>
-		<blockquote>ач дерек болбоду фольк. никаких вестей нет.</blockquote>
+		<blockquote>ач дерек болбоду фольк.@@ никаких вестей нет.</blockquote>
 	</card>
 	<card>
 		<k>деректив,</k>
-		<blockquote>деректив, деректип</blockquote>
+		<pos>n</pos>
+		<alter>деректив, деректип</alter>
 		<sameas word="директива"/>
 	</card>
 	<card>
 		<k>деректир</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
 		<sameas word="директор"/>
 	</card>
 	<card>
 		<k>держава</k>
+		<pos>n</pos>
 		<trn>держава</trn>
-		<blockquote>Советтик держава Советская держава;</blockquote>
-		<blockquote>улуу державалар великие державы.</blockquote>
+		<blockquote>Советтик держава@@ Советская держава;</blockquote>
+		<blockquote>улуу державалар@@ великие державы.</blockquote>
 	</card>
 	<card>
 		<k>дерматин</k>
+		<pos>n</pos>
 		<trn>дерматин</trn>
 	</card>
 	<card>
 		<k>дерт</k>
+		<pos>n</pos>
 		<sameas word="дарт"/>
 	</card>
 	<card>
 		<k>дерттүү</k>
+		<pos>adj</pos>
 		<sameas word="дарттуу"/>
 	</card>
 	<card>
 		<k>дес</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>сила, мощь;</blockquote>
-		<blockquote>жамандын колуна дес тийсе, оңдурбайт погов. если дурной заберёт силу, то он житья не даст;</blockquote>
-		<blockquote>десим-күчүм жетпеди у меня силы-мочи не хватило;</blockquote>
-		<blockquote>агайындарынын дестерин кайтарып, шактарын сындырышка, анын адамгерчилиги эрик бербеди его гуманность не позволила ему пугать и обезнадёживать друзей своих;</blockquote>
-		<blockquote>деси кайтты или деси сууду он присмирел, притих; он растерялся;</blockquote>
-		<blockquote>дескайтар- или дес жандыр- или дес сындыр- запугать, припугнуть;</blockquote>
-		<blockquote>десин кайтара орой айтып койду он грубо сказал, припугнув его;</blockquote>
-		<blockquote>...десинен южн. [дәсидән] из-за, по причине.</blockquote>
+		<trn>сила, мощь;</trn>
+		<blockquote>жамандын колуна дес тийсе, оңдурбайт погов.@@ если дурной заберёт силу, то он житья не даст;</blockquote>
+		<blockquote>десим-күчүм жетпеди@@ у меня силы-мочи не хватило;</blockquote>
+		<blockquote>агайындарынын дестерин кайтарып, шактарын сындырышка, анын адамгерчилиги эрик бербеди@@ его гуманность не позволила ему пугать и обезнадёживать друзей своих;</blockquote>
+		<blockquote>деси кайтты или деси сууду@@ он присмирел, притих; он растерялся;</blockquote>
+		<blockquote>дескайтар- или дес жандыр- или дес сындыр-@@ запугать, припугнуть;</blockquote>
+		<blockquote>десин кайтара орой айтып койду@@ он грубо сказал, припугнув его;</blockquote>
+		<blockquote>...десинен южн.@@ [дәсидән] из-за, по причине.</blockquote>
 	</card>
 	<card>
 		<k>десетке</k>
+		<pos>num</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>десяток;</blockquote>
-		<blockquote>чайканада олтуруп, бир-эки десетке манту жеп сидя в чайхане и съев десятка два паровых пельменей.</blockquote>
+		<trn>десяток;</trn>
+		<blockquote>чайканада олтуруп, бир-эки десетке манту жеп@@ сидя в чайхане и съев десятка два паровых пельменей.</blockquote>
 	</card>
 	<card>
 		<k>десоромол</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>носовой платок.</blockquote>
+		<trn>носовой платок.</trn>
 	</card>
 	<card>
 		<k>деспот</k>
+		<pos>n</pos>
 		<trn>деспот</trn>
 	</card>
 	<card>
 		<k>деспотизм</k>
+		<pos>n</pos>
 		<trn>деспотизм</trn>
 	</card>
 	<card>
 		<k>десте</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>[дәстә]</blockquote>
-		<blockquote>рукоятка;</blockquote>
-		<blockquote>камчынын дестеси рукоятка плети, нагайки;</blockquote>
-		<blockquote>гүл десте букет цветов.</blockquote>
+		<transcription>[дәстә]</transcription>
+		<trn>рукоятка;</trn>
+		<blockquote>камчынын дестеси@@ рукоятка плети, нагайки;</blockquote>
+		<blockquote>гүл десте@@ букет цветов.</blockquote>
 	</card>
 	<card>
 		<k>дестеп</k>
+		<pos>adv</pos>
 		<origin>ир.</origin>
-		<blockquote>вначале, с самого начала, прежде всего.</blockquote>
+		<trn>вначале, с самого начала, прежде всего.</trn>
 	</card>
 	<card>
 		<k>дестепте</k>
+		<pos>adv</pos>
 		<blockquote>вначале, с самого начала, прежде всего.</blockquote>
 	</card>
 	<card>
 		<k>дестийер</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>помощник;</blockquote>
-		<blockquote>дестийер бала подросток (мальчик, который уже может помогать в работе).</blockquote>
+		<trn>помощник;</trn>
+		<blockquote>дестийер бала@@ подросток (мальчик, который уже может помогать в работе).</blockquote>
 	</card>
 	<card>
 		<k>деталь</k>
+		<pos>n</pos>
 		<meta>тех.</meta>
 		<trn>деталь</trn>
 	</card>
 	<card>
 		<k>деш</k>
 		<homonym>
+		<pos>ger</pos>
 			<actionNoun word="де"/>
 			<meaning>
-				<blockquote>сказывание;</blockquote>
-				<blockquote>андай деш жарабайт так не следует говорить;</blockquote>
-				<blockquote>мындай дешке жарабайт так говорить не годится;</blockquote>
-				<blockquote>таңданып Эши дал болду, буларга эмне дешине стих. удивился Эши, растерялся, не зная, что им сказать;</blockquote>
+			<pos>n</pos>
+				<trn>сказывание;</trn>
+				<blockquote>андай деш жарабайт@@ так не следует говорить;</blockquote>
+				<blockquote>мындай дешке жарабайт@@ так говорить не годится;</blockquote>
+				<blockquote>таңданып Эши дал болду, буларга эмне дешине стих.@@ удивился Эши, растерялся, не зная, что им сказать;</blockquote>
 			</meaning>
 			<meaning>
-				<blockquote>называние.</blockquote>
+			<pos>n</pos>
+				<trn>называние.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
+		<pos>v</pos>
 			<recv word="де"/>
-			<blockquote>совместно говорить; сговариваться, договариваться.</blockquote>
+			<trn>совместно говорить; сговариваться, договариваться.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>дешиш-</k>
+		<pos>v</pos>
 		<look word="деш" index="2"/>
 	</card>
 	<card>
 		<k>диагноз</k>
+		<pos>n</pos>
 		<trn>диагноз</trn>
-		<blockquote>диагноз кой- ставить диагноз.</blockquote>
+		<blockquote>диагноз кой-@@ ставить диагноз.</blockquote>
 	</card>
 	<card>
 		<k>диаграмма</k>
+		<pos>n</pos>
 		<trn>диаграмма</trn>
 	</card>
 	<card>
 		<k>диалект</k>
+		<pos>n</pos>
 		<trn>диалект</trn>
 	</card>
 	<card>
 		<k>диалектизм</k>
+		<pos>n</pos>
 		<trn>диалектизм</trn>
 	</card>
 	<card>
 		<k>диалектика</k>
+		<pos>n</pos>
 		<trn>диалектика</trn>
 	</card>
 	<card>
 		<k>диалектикалык</k>
-		<blockquote>диалектический;</blockquote>
-		<blockquote>диалектикалык материализм диалектический материализм.</blockquote>
+		<pos>adj</pos>
+		<trn>диалектический;</trn>
+		<blockquote>диалектикалык материализм@@ диалектический материализм.</blockquote>
 	</card>
 	<card>
 		<k>диалектолог</k>
+		<pos>n</pos>
 		<trn>диалектолог</trn>
 	</card>
 	<card>
