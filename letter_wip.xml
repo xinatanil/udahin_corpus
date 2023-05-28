@@ -6605,11 +6605,11 @@
 	<card>
 		<k>депкир</k>
 		<homonym>
-		<pos>n</pos>
+			<pos>n</pos>
 			<sameas word="текбир"/>
 		</homonym>
 		<homonym>
-		<pos>n</pos>
+			<pos>n</pos>
 			<trn>присутствие духа;</trn>
 			<blockquote>депкири качып калды или депкирин таппай калды@@ он испугался, он растерялся;</blockquote>
 			<blockquote>депкирин таппай калдастап@@ растерянно суетясь;</blockquote>
@@ -6619,12 +6619,12 @@
 			<blockquote>депкир таппагыр!@@ чтоб тебе покоя не знать!</blockquote>
 		</homonym>
 		<homonym>
-		<pos>n</pos>
+			<pos>n</pos>
 			<sameas word="кепкир"/>
 			<blockquote>бала депкирден түшкөн эки боорсокту ала коюп@@ ребёнок, схватил два баурсака (см. боорсок), упавшие из шумовки.</blockquote>
 		</homonym>
 		<homonym>
-		<pos>v</pos>
+			<pos>v</pos>
 			<trn>кашлять;</trn>
 			<blockquote>атым депкирип калыптыр@@ моя лошадь кашляет.</blockquote>
 		</homonym>
@@ -6675,12 +6675,12 @@
 	<card>
 		<k>депутаттык</k>
 		<homonym>
-		<pos>adj</pos>
+			<pos>adj</pos>
 			<trn>депутатский;</trn>
 			<blockquote>депутаттык милдет@@ депутатская обязанность.</blockquote>
 		</homonym>
 		<homonym>
-		<pos>n</pos>
+			<pos>n</pos>
 			<trn>положение депутата;</trn>
 			<blockquote>депутаттыкка көрсөт-@@ выдвинуть в депутаты;</blockquote>
 			<blockquote>Кыргыз ССР Жогорку Советинин депутаттыгына кандидат@@ кандидат в депутаты Верховного Совета Киргизской ССР.</blockquote>
@@ -6693,19 +6693,19 @@
 		<trn>циновка, на которой сушат курут (см. курут I).</trn>
 	</card>
 	<card>
-	<pos>n</pos>
+		<pos>n</pos>
 		<k>дербиш</k>
 		<sameas word="дарвиш"/>
 	</card>
 	<card>
 		<k>дердей-</k>
 		<meaning>
-		<pos>v</pos>
+			<pos>v</pos>
 			<trn>(о ноздрях) раздуваться;</trn>
 			<blockquote>мурду дердейип турат@@ у него ноздри раздуваются;</blockquote>
 		</meaning>
 		<meaning>
-		<pos>v</pos>
+			<pos>v</pos>
 			<meta>перен.</meta>
 			<trn>важничать;</trn>
 			<blockquote>башына балиш койдуруп, дердейип уктап калды@@ приказав положить себе под голову подушку, он важно разлёгся и уснул.</blockquote>
@@ -6882,22 +6882,22 @@
 	<card>
 		<k>деш</k>
 		<homonym>
-		<pos>ger</pos>
+			<pos>ger</pos>
 			<actionNoun word="де"/>
 			<meaning>
-			<pos>n</pos>
+				<pos>n</pos>
 				<trn>сказывание;</trn>
 				<blockquote>андай деш жарабайт@@ так не следует говорить;</blockquote>
 				<blockquote>мындай дешке жарабайт@@ так говорить не годится;</blockquote>
 				<blockquote>таңданып Эши дал болду, буларга эмне дешине стих.@@ удивился Эши, растерялся, не зная, что им сказать;</blockquote>
 			</meaning>
 			<meaning>
-			<pos>n</pos>
+				<pos>n</pos>
 				<trn>называние.</trn>
 			</meaning>
 		</homonym>
 		<homonym>
-		<pos>v</pos>
+			<pos>v</pos>
 			<recv word="де"/>
 			<trn>совместно говорить; сговариваться, договариваться.</trn>
 		</homonym>
