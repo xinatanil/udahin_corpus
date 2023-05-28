@@ -6719,7 +6719,8 @@
 	<card>
 		<k>дерделеңде-</k>
 		<pos>v</pos>
-		<sameas word="дердеңде" index="2, 3"/>
+		<sameas word="дердеңде" index="2"/>
+		<sameas word="дердеңде" index="3"/>
 	</card>
 	<card>
 		<k>дердеңде-</k>
@@ -6754,7 +6755,7 @@
 		<pos>n</pos>
 		<origin>ир.</origin>
 		<trn>теснина;</trn>
-		<blockquote>көр дере замкнутая теснина.</blockquote>
+		<blockquote>көр дере@@ замкнутая теснина.</blockquote>
 	</card>
 	<card>
 		<k>деревня</k>
@@ -6774,7 +6775,7 @@
 		<blockquote>ач дерек болбоду фольк.@@ никаких вестей нет.</blockquote>
 	</card>
 	<card>
-		<k>деректив,</k>
+		<k>деректив</k>
 		<pos>n</pos>
 		<alter>деректив, деректип</alter>
 		<sameas word="директива"/>
@@ -6818,7 +6819,7 @@
 		<blockquote>деси кайтты или деси сууду@@ он присмирел, притих; он растерялся;</blockquote>
 		<blockquote>дескайтар- или дес жандыр- или дес сындыр-@@ запугать, припугнуть;</blockquote>
 		<blockquote>десин кайтара орой айтып койду@@ он грубо сказал, припугнув его;</blockquote>
-		<blockquote>...десинен южн.@@ [дәсидән] из-за, по причине.</blockquote>
+		<blockquote>...десинен южн. [дәсидән]@@ из-за, по причине.</blockquote>
 	</card>
 	<card>
 		<k>десетке</k>
@@ -6864,7 +6865,7 @@
 	<card>
 		<k>дестепте</k>
 		<pos>adv</pos>
-		<blockquote>вначале, с самого начала, прежде всего.</blockquote>
+		<trn>вначале, с самого начала, прежде всего.</trn>
 	</card>
 	<card>
 		<k>дестийер</k>
