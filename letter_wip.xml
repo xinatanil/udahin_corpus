@@ -3919,19 +3919,21 @@
 		<pos>adj</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>дарзан ур-@@ дрожать, трепетать;</blockquote>
-		<blockquote>дарзан урат жүрөгүм фольк.@@ моё сердце сильно бьётся.</blockquote>
+		<blockquote>дарзан ур-## дрожать, трепетать;</blockquote>
+		<blockquote>дарзан урат жүрөгүм фольк.@@1 моё сердце сильно бьётся.</blockquote>
 	</card>
 	<card>
 		<k>дариг</k>
 		<pos>ij</pos>
-		<trn>о, дарига!</trn>
-		<look word="о" index="3"/>
+		<minicard>
+			<k>о, дарига!</k>
+			<look word="о" index="3"/>
+		</minicard>
 	</card>
 	<card>
-		<k>даригер,</k>
+		<k>даригер</k>
 		<pos>n</pos>
-		<trn>даригер, дарикер</trn>
+		<alter>даригер, дарикер</alter>
 		<sameas word="дарыгер"/>
 	</card>
 	<card>
