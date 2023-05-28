@@ -8202,7 +8202,7 @@
 		</meaning>
 		<meaning>
 			<trn>(об одежде) тёплый;</trn>
-			<blockquote>диңкилөөн кийинип@@ алыптыр он тепло оделся.</blockquote>
+			<blockquote>диңкилөөн кийинип алыптыр@@ он тепло оделся.</blockquote>
 		</meaning>
 	</card>
 	<card>
@@ -8212,7 +8212,8 @@
 			<sameas word="тиңсе"/>
 		</homonym>
 		<homonym>
-			<meta>кит., синьцз.</meta>
+			<origin>кит.</origin>
+			<meta>синьцз.</meta>
 			<trn>тюрьма;</trn>
 			<blockquote>кара диңсе@@ темница (тюрьма без окон).</blockquote>
 		</homonym>
@@ -8289,7 +8290,7 @@
 	<card>
 		<k>директорлук</k>
 		<pos>n</pos>
-		<blockquote>положение или должность директора, директорство.</blockquote>
+		<trn>положение или должность директора, директорство.</trn>
 	</card>
 	<card>
 		<k>дирекция</k>
@@ -8371,11 +8372,11 @@
 		<pos>n</pos>
 		<meta>спорт.</meta>
 		<trn>диск</trn>
-		<minicard>
-			<k>дискалуу</k>
-			<trn>дисковый;</trn>
-			<blockquote>дискалуу мала@@ дисковая борона.</blockquote>
-		</minicard>
+	</card>
+	<card>
+		<k>дискалуу</k>
+		<trn>дисковый;</trn>
+		<blockquote>дискалуу мала@@ дисковая борона.</blockquote>
 	</card>
 	<card>
 		<k>дискелөө</k>
