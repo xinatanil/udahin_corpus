@@ -8123,270 +8123,329 @@
 		</meaning>
 	</card>
 	<card>
-		<k>династия</k>
+		<k>династия</k> 
+		<pos>n</pos>
 		<trn>династия</trn>
 	</card>
 	<card>
 		<k>диндар</k>
+		<pos>adj</pos>
 		<origin>ар.-ир.</origin>
 		<sameas word="динчил"/>
 	</card>
 	<card>
 		<k>диндеш</k>
-		<blockquote>единоверец.</blockquote>
+		<pos>n</pos>
+		<trn>единоверец.</trn>
 	</card>
 	<card>
 		<k>диндештик</k>
-		<blockquote>единоверие, принадлежность к одной и той же религии.</blockquote>
+		<pos>n</pos>
+		<trn>единоверие, принадлежность к одной и той же религии.</trn>
 	</card>
 	<card>
 		<k>диндүү</k>
-		<blockquote>диндүү: адал диндүү правоверный.</blockquote>
+		<pos>adj</pos>
+		<blockquote>адал диндүү@@ правоверный.</blockquote>
 	</card>
 	<card>
 		<k>динистан</k>
-		<blockquote>(дин-ислам)</blockquote>
+		<pos>n</pos>
+		<alter>(дин-ислам)</alter>
 		<origin>ар.</origin>
-		<blockquote>ислам, мусульманская религия.</blockquote>
+		<trn>ислам, мусульманская религия.</trn>
 	</card>
 	<card>
 		<k>динистанда-</k>
-		<blockquote>динистанда-: динистандап акырып фольк. крича "динистан" (в качестве боевого клича).</blockquote>
+		<pos>v</pos>
+		<blockquote>динистандап акырып фольк.@@ крича "динистан" (в качестве боевого клича).</blockquote>
 	</card>
 	<card>
 		<k>диңке</k>
-		<blockquote>сила, терпение;</blockquote>
-		<blockquote>диңкем куруду я из сил выбился; мне надоело; мне невмоготу;</blockquote>
-		<blockquote>диңкесин соолт- или диңкесин курут- вымотать душу кому-л.</blockquote>
+		<pos>n</pos>
+		<trn>сила, терпение;</trn>
+		<blockquote>диңкем куруду@@ я из сил выбился; мне надоело; мне невмоготу;</blockquote>
+		<blockquote>диңкесин соолт- или диңкесин курут-@@ вымотать душу кому-л.</blockquote>
 	</card>
 	<card>
 		<k>диңкий-</k>
-		<blockquote>быть толстым здоровяком; выставляться всем своим огромным телом.</blockquote>
+		<pos>v</pos>
+		<trn>быть толстым здоровяком; выставляться всем своим огромным телом.</trn>
 	</card>
 	<card>
 		<k>диңкийт-</k>
+		<pos>v</pos>
 		<caus word="диңкий"/>
-		<blockquote>ичин диңкийтип выпятив огромное брюхо.</blockquote>
+		<blockquote>ичин диңкийтип@@ выпятив огромное брюхо.</blockquote>
 	</card>
 	<card>
 		<k>диңкилде-</k>
-		<blockquote>звенеть.</blockquote>
+		<pos>v</pos>
+		<trn>звенеть.</trn>
 	</card>
 	<card>
 		<k>диңкилдет-</k>
+		<pos>v</pos>
 		<caus word="диңкилде"/>
-		<blockquote>вызывать звон;</blockquote>
-		<blockquote>кулак түпкө диңкилдетип койгулап жаткандай (так в ушах звенит) будто (кто-то) даёт затрещины по уху.</blockquote>
+		<trn>вызывать звон;</trn>
+		<blockquote>кулак түпкө диңкилдетип койгулап жаткандай@@ (так в ушах звенит) будто (кто-то) даёт затрещины по уху.</blockquote>
 	</card>
 	<card>
 		<k>диңкилөөн</k>
+		<pos>adj</pos>
 		<meta>синьцз.</meta>
 		<meaning>
 			<sameas word="ысылык" subindex="2"/>
-			<blockquote>топостун эти уйдукунан да диңкилөөн келет мясо яка ещё более "горячительно", чем коровье;</blockquote>
+			<blockquote>топостун эти уйдукунан да диңкилөөн келет@@ мясо яка ещё более "горячительно", чем коровье;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>(об одежде) тёплый;</blockquote>
-			<blockquote>диңкилөөн кийинип алыптыр он тепло оделся.</blockquote>
+			<trn>(об одежде) тёплый;</trn>
+			<blockquote>диңкилөөн кийинип@@ алыптыр он тепло оделся.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>диңсе</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="тиңсе"/>
 		</homonym>
 		<homonym>
-			<blockquote>кит., синьцз.</blockquote>
-			<blockquote>тюрьма;</blockquote>
-			<blockquote>кара диңсе темница (тюрьма без окон).</blockquote>
+			<meta>кит., синьцз.</meta>
+			<trn>тюрьма;</trn>
+			<blockquote>кара диңсе@@ темница (тюрьма без окон).</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>динсиз</k>
-		<blockquote>атеист, безбожник.</blockquote>
+		<pos>n</pos>
+		<trn>атеист, безбожник.</trn>
 	</card>
 	<card>
 		<k>динсиздик</k>
-		<blockquote>атеизм, безбожие.</blockquote>
+		<pos>n</pos>
+		<trn>атеизм, безбожие.</trn>
 	</card>
 	<card>
 		<k>динчил</k>
-		<blockquote>религиозный (о человеке), верующий.</blockquote>
+		<pos>adj</pos>
+		<trn>религиозный (о человеке), верующий.</trn>
 	</card>
 	<card>
 		<k>динчилдик</k>
-		<blockquote>религиозность.</blockquote>
+		<pos>n</pos>
+		<trn>религиозность.</trn>
 	</card>
 	<card>
 		<k>диплом</k>
+		<pos>n</pos>
 		<trn>диплом</trn>
 	</card>
 	<card>
 		<k>дипломант</k>
+		<pos>n</pos>
 		<trn>дипломант</trn>
 	</card>
 	<card>
 		<k>дипломат</k>
+		<pos>n</pos>
 		<trn>дипломат</trn>
 	</card>
 	<card>
 		<k>дипломатия</k>
+		<pos>n</pos>
 		<trn>дипломатия</trn>
 	</card>
 	<card>
 		<k>дипломаттык</k>
-		<blockquote>дипломатический;</blockquote>
-		<blockquote>дипломаттык жана соода байланышы дипломатическая и торговая связь;</blockquote>
-		<blockquote>дипломаттык корпус дипломатический корпус.</blockquote>
+		<pos>adj</pos>
+		<trn>дипломатический;</trn>
+		<blockquote>дипломаттык жана соода байланышы@@ дипломатическая и торговая связь;</blockquote>
+		<blockquote>дипломаттык корпус@@ дипломатический корпус.</blockquote>
 	</card>
 	<card>
 		<k>дир</k>
-		<blockquote>подражательное слово;</blockquote>
-		<blockquote>дир этип калтыра- или дир-дир как- дрожать.</blockquote>
+		<pos>n</pos>
+		<trn>подражательное слово;</trn>
+		<blockquote>дир этип калтыра- или дир-дир как-@@ дрожать.</blockquote>
 	</card>
 	<card>
 		<k>дирдий-</k>
-		<blockquote>быть полным, пышным;</blockquote>
-		<blockquote>дирдийген жастык подушка с пышными торчащими углами.</blockquote>
+		<pos>v</pos>
+		<trn>быть полным, пышным;</trn>
+		<blockquote>дирдийген жастык@@ подушка с пышными торчащими углами.</blockquote>
 	</card>
 	<card>
 		<k>директива</k>
+		<pos>n</pos>
 		<trn>директива</trn>
 	</card>
 	<card>
 		<k>директор</k>
+		<pos>n</pos>
 		<trn>директор</trn>
 	</card>
 	<card>
 		<k>директорлук</k>
+		<pos>n</pos>
 		<blockquote>положение или должность директора, директорство.</blockquote>
 	</card>
 	<card>
 		<k>дирекция</k>
+		<pos>n</pos>
 		<trn>дирекция</trn>
 	</card>
 	<card>
 		<k>дирижабль</k>
+		<pos>n</pos>
 		<trn>дирижабль</trn>
 	</card>
 	<card>
 		<k>дирижёр</k>
+		<pos>n</pos>
 		<trn>дирижёр</trn>
 	</card>
 	<card>
 		<k>дирижёрлук</k>
-		<blockquote>дирижёрство;</blockquote>
-		<blockquote>дирижёрлук кыл- дирижировать.</blockquote>
+		<pos>n</pos>
+		<trn>дирижёрство;</trn>
+		<blockquote>дирижёрлук кыл-@@ дирижировать.</blockquote>
 	</card>
 	<card>
 		<k>дирилде-</k>
+		<pos>v</pos>
 		<sameas word="диркире"/>
-		<blockquote>тоошу дирилдеди у него голос дрожал;</blockquote>
-		<blockquote>үшүп, дирилдеп турам я озяб и дрожу;</blockquote>
-		<blockquote>дирилдеп кан чыгып турат кровь струится.</blockquote>
+		<blockquote>тоошу дирилдеди@@ у него голос дрожал;</blockquote>
+		<blockquote>үшүп, дирилдеп турам@@ я озяб и дрожу;</blockquote>
+		<blockquote>дирилдеп кан чыгып турат@@ кровь струится.</blockquote>
 	</card>
 	<card>
 		<k>дирилдет-</k>
+		<pos>v</pos>
 		<caus word="дирилде"/>
-		<blockquote>тоошун дирилдетти он продребезжал своим голосом;</blockquote>
-		<blockquote>сыдырым жалбырактарды дирилдетет прохладный ветерок шевелит листву.</blockquote>
+		<blockquote>тоошун дирилдетти@@ он продребезжал своим голосом;</blockquote>
+		<blockquote>сыдырым жалбырактарды дирилдетет@@ прохладный ветерок шевелит листву.</blockquote>
 	</card>
 	<card>
 		<k>диркире-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>дрожать;</blockquote>
-			<blockquote>канатынын күүсүнөн тал, карагай диркиреп фольк. от (взмаха) крыльев (богатырского кречета) дрожат вербы и ели;</blockquote>
+			<trn>дрожать;</trn>
+			<blockquote>канатынын күүсүнөн тал, карагай диркиреп фольк.@@ от (взмаха) крыльев (богатырского кречета) дрожат вербы и ели;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>струиться (тонкой, сильной дрожащей струёй);</blockquote>
-			<blockquote>бүткөн бою дүркүрөйт, эмчектен сүтү диркирейт фольк. всё её тело трепещет, из груди молоко струится.</blockquote>
+			<trn>струиться (тонкой, сильной дрожащей струёй);</trn>
+			<blockquote>бүткөн бою дүркүрөйт, эмчектен сүтү диркирейт фольк.@@ всё её тело трепещет, из груди молоко струится.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>диркирет-</k>
+		<pos>v</pos>
 		<caus word="диркире"/>
 	</card>
 	<card>
 		<k>дирт</k>
-		<blockquote>подражательное слово;</blockquote>
-		<blockquote>кан дирт дей түштү кровь брызнула.</blockquote>
+		<pos>n</pos>
+		<trn>подражательное слово;</trn>
+		<blockquote>кан дирт дей түштү@@ кровь брызнула.</blockquote>
 	</card>
 	<card>
 		<k>диртилде-</k>
-		<blockquote>вздрагивать, судорожно подёргиваться.</blockquote>
+		<pos>v</pos>
+		<trn>вздрагивать, судорожно подёргиваться.</trn>
 	</card>
 	<card>
 		<k>диртилдек</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>нервное подёргивание;</blockquote>
+			<trn>нервное подёргивание;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>вспыльчивый.</blockquote>
+			<trn>вспыльчивый.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>диск</k>
+		<pos>n</pos>
 		<meta>спорт.</meta>
 		<trn>диск</trn>
-		<blockquote>дискалуу дисковый;</blockquote>
-		<blockquote>дискалуу мала дисковая борона.</blockquote>
+	<minicard>
+		<k>дискалуу</k>
+		<trn>дисковый;</trn>
+		<blockquote>дискалуу мала@@ дисковая борона.</blockquote>
+	</minicard>
 	</card>
 	<card>
 		<k>дискелөө</k>
+		<pos>n</pos>
 		<meta>с.-х.</meta>
-		<blockquote>дискование.</blockquote>
+		<trn>дискование.</trn>
 	</card>
 	<card>
 		<k>дискриминация</k>
+		<pos>n</pos>
 		<trn>дискриминация</trn>
 	</card>
 	<card>
 		<k>дискриминацияла-</k>
-		<blockquote>дискриминировать.</blockquote>
+		<pos>v</pos>
+		<trn>дискриминировать.</trn>
 	</card>
 	<card>
 		<k>дискриминациялан-</k>
+		<pos>v</pos>
 		<pass word="дискриминацияла"/>
-		<blockquote>дискриминироваться.</blockquote>
+		<trn>дискриминироваться.</trn>
 	</card>
 	<card>
 		<k>дискуссия</k>
+		<pos>n</pos>
 		<trn>дискуссия</trn>
 	</card>
 	<card>
 		<k>диспут</k>
+		<pos>n</pos>
 		<trn>диспут</trn>
 	</card>
 	<card>
 		<k>дистанция</k>
+		<pos>n</pos>
 		<trn>дистанция</trn>
 	</card>
 	<card>
 		<k>дисциплина</k>
+		<pos>n</pos>
 		<trn>дисциплина</trn>
 	</card>
 	<card>
 		<k>дит</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>помыслы, желание; внимание;</blockquote>
-		<blockquote>дит бар, кудурет жок желание у него есть, а силы нет;</blockquote>
-		<blockquote>Гүлстанда көп улут, тили башка, дити бир стих. в Гюлистане (т.е. в СССР) много национальностей, языки их различны, помыслы одни;</blockquote>
-		<blockquote>дит кыл- пожелать;</blockquote>
-		<blockquote>дит кылсаңыз, биздикинде жүрүңүз стих. если пожелаете, живите у нас;</blockquote>
-		<blockquote>бардык дитин бөлдү он уделил всё внимание, приложил все усилия;</blockquote>
-		<blockquote>дитиңде сакта храни в сердце, не показывая этого;</blockquote>
-		<blockquote>дити менен (или дитин коюп или дитин салып) угуп турат он слушает внимательно;</blockquote>
-		<blockquote>көркөм адабият китептерине дитин койду он увлёкся художественной литературой;</blockquote>
-		<blockquote>жагабы сенин дитиңе? фольк. нравится ль тебе?</blockquote>
-		<blockquote>эч кимдин дити барбады никто не осмелился;</blockquote>
-		<blockquote>дит бак- осмелиться, посметь, решиться;</blockquote>
-		<blockquote>эл дит багып карай алышпай, терс бурулуп кетенчиктеди люди, не решаясь взглянуть, отвернулись и попятились назад;</blockquote>
-		<blockquote>кармашалбай дит багып, канчалар качкан бытырап фольк. не смея сразиться, многие бежали врассыпную;</blockquote>
-		<blockquote>адамдын дити чыдагыс страшный на вид; вызывающий содрогание, омерзение.</blockquote>
+		<trn>помыслы, желание; внимание;</trn>
+		<blockquote>дит бар, кудурет жок@@ желание у него есть, а силы нет;</blockquote>
+		<blockquote>Гүлстанда көп улут, тили башка, дити бир стих.@@ в Гюлистане (т.е. в СССР) много национальностей, языки их различны, помыслы одни;</blockquote>
+	<minicard>
+		<k>дит кыл-</k> 
+		<trn>пожелать;</trn>
+		<blockquote>дит кылсаңыз, биздикинде жүрүңүз стих.@@ если пожелаете, живите у нас;</blockquote>
+	</minicard>
+		<blockquote>бардык дитин бөлдү@@ он уделил всё внимание, приложил все усилия;</blockquote>
+		<blockquote>дитиңде сакта@@ храни в сердце, не показывая этого;</blockquote>
+		<blockquote>дити менен (или дитин коюп или дитин салып) угуп турат@@ он слушает внимательно;</blockquote>
+		<blockquote>көркөм адабият китептерине дитин койду@@ он увлёкся художественной литературой;</blockquote>
+		<blockquote>жагабы сенин дитиңе? фольк.@@ нравится ль тебе?</blockquote>
+		<blockquote>эч кимдин дити барбады@@ никто не осмелился;</blockquote>
+	<minicard>
+		<k>дит бак-</k> 
+		<trn>осмелиться, посметь, решиться;</trn>
+		<blockquote>эл дит багып карай алышпай, терс бурулуп кетенчиктеди@@ люди, не решаясь взглянуть, отвернулись и попятились назад;</blockquote>
+		<blockquote>кармашалбай дит багып, канчалар качкан бытырап фольк.@@ не смея сразиться, многие бежали врассыпную;</blockquote>
+	</minicard>
+		<blockquote>адамдын дити чыдагыс@@ страшный на вид; вызывающий содрогание, омерзение.</blockquote>
 	</card>
 	<card>
 		<k>дитин-</k>
+		<pos>v</pos>
 		<sameas word="титин"/>
 	</card>
 	<card>
