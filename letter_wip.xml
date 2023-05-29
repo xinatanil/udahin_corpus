@@ -11087,362 +11087,408 @@
 	</card>
 	<card>
 		<k>дүкүлдөт-</k>
-		<caus word="дүкүлдө"/>
+		<pos>v</pos>
+		<blockquote>понуд. от дүкүлдө-</blockquote>
 	</card>
 	<card>
 		<k>дүкөн</k>
-		<origin>ар.</origin>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>лавка, магазин;</blockquote>
+			<meta>ар.</meta>
+			<trn>лавка, магазин;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>мастерская;</blockquote>
+			<trn>мастерская;</trn>
 		</meaning>
 		<meaning>
 			<meta>южн.</meta>
-			<blockquote>станок (ремесленника);</blockquote>
-			<blockquote>аңгеме дүкөн сал- или аңгеме дүкөн кур- вести беседу, точить лясы;</blockquote>
-			<blockquote>сөз дүкөнү кызыды разговор оживился.</blockquote>
+			<trn>станок (ремесленника);</trn>
+			<blockquote>аңгеме дүкөн сал- или аңгеме дүкөн кур-@@ вести беседу, точить лясы;</blockquote>
+			<blockquote>сөз дүкөнү кызыды@@ разговор оживился.</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дүкөнчү</k>
+		<pos>n</pos>
 		<meaning>
 			<meta>уст.</meta>
-			<blockquote>лавочник;</blockquote>
+			<trn>лавочник;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>заведующий магазином.</blockquote>
+			<trn>заведующий магазином.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дүкөнчүлүк</k>
+		<pos>n</pos>
 		<meta>уст.</meta>
-		<blockquote>занятие или положение лавочника.</blockquote>
+		<trn>занятие или положение лавочника.</trn>
 	</card>
 	<card>
 		<k>дүкөрт</k>
-		<origin>ир.</origin>
-		<blockquote>ножнички (для подстригания усов, бровей, ногтей);</blockquote>
-		<blockquote>дүкөртүң бардыр жаныңда, устараң бардыр алдыңда фольк. ножнички, надо думать, есть при тебе, бритва, нужно полагать, есть при тебе.</blockquote>
+		<pos>n</pos>
+		<meta>ир.</meta>
+		<trn>ножнички (для подстригания усов, бровей, ногтей);</trn>
+		<blockquote>дүкөртүң бардыр жаныңда, устараң бардыр алдыңда фольк.@@ ножнички, надодумать, есть при тебе, бритва, нужно полагать, есть при тебе.</blockquote>
 	</card>
 	<card>
 		<k>дүкөрттө-</k>
-		<blockquote>подстригать ножничками (см. дүкөрт);</blockquote>
-		<blockquote>сербейип турат бир топ кыл, дүкөрттөп койсун кашыңды стих. у тебя в бровях торчат волоски, пусть подстрижёт.</blockquote>
+		<pos>v</pos>
+		<trn>подстригать ножничками (см. дүкөрт);</trn>
+		<blockquote>сербейип турат бир топ кыл, дүкөрттөп койсун кашыңды стих.@@ у тебя в бровях торчат волоски, пусть подстрижёт.</blockquote>
 	</card>
 	<card>
 		<k>дулай</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>зимняя обувь, изготовляемая из войлока или овчины (гл. обр. для верховой езды);</blockquote>
+			<trn>зимняя обувь, изготовляемая из войлока или овчины (гл. обр. для верховой езды);</trn>
 		</meaning>
 		<meaning>
-			<blockquote>нарыв, опухоль (чаще от пут - на ногах ловчей птицы);</blockquote>
-			<blockquote>бутуна дулай чыкты у него на ноге появился нарыв;</blockquote>
-			<blockquote>бетиңе дулай чыккыр! бран. язва тебе на морду!</blockquote>
+			<trn>нарыв, опухоль (чаще от пут - на ногах ловчей птицы);</trn>
+			<blockquote>бутуна дулай чыкты@@ у него на ноге появился нарыв;</blockquote>
+			<blockquote>бетиңе дулай чыккыр! бран.@@ язва тебе на морду!</blockquote>
 		</meaning>
 	</card>
 	<card>
 		<k>дулдак</k>
-		<pair word="далдак"/>
+		<pos>adj</pos>
+		<blockquote>парное к далдак</blockquote>
 	</card>
 	<card>
 		<k>дулдугуй</k>
-		<sameas word="дулугуй"/>
-		<blockquote>дулдугуй беттүү, өңү саз фольк. с широким и испитым лицом.</blockquote>
+		<pos>adj</pos>
+		<blockquote>то же, что дулугуй</blockquote>
+		<blockquote>дулдугуй беттүү, өңү саз фольк.@@ с широким и испитым лицом.</blockquote>
 	</card>
 	<card>
 		<k>дулдуй-</k>
-		<sameas word="дулуй"/>
-		<blockquote>дулдуюп, унчукпай, өзүнүкүн иштейт он насупится, молчит и делает по-своему.</blockquote>
+		<pos>v</pos>
+		<blockquote>то же, что дулуй-</blockquote>
+		<blockquote>дулдуюп, унчукпай, өзүнүкүн иштейт@@ он насупится, молчит и делает по-своему.</blockquote>
 	</card>
 	<card>
 		<k>дулдул</k>
-		<origin>ар.</origin>
+		<pos>n</pos>
+		<meta>ар.</meta>
 		<meaning>
 			<meta>миф.</meta>
-			<blockquote>сказочный быстроногий и неутомимый конь (от клички лошака халифа Алия);</blockquote>
+			<trn>сказочный быстроногий и неутомимый конь (от клички лошака халифа Алия);</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>неутомимый скакун.</blockquote>
+			<trn>неутомимый скакун.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дулдуңда-</k>
-		<blockquote>(о полном человеке среднего роста) злиться, сердиться;</blockquote>
-		<blockquote>дулдуңдап, чыгып кетти он, обозлившись, ушёл.</blockquote>
+		<pos>v</pos>
+		<trn>(о полном человеке среднего роста) злиться, сердиться;</trn>
+		<blockquote>дулдуңдап, чыгып кетти@@ он, обозлившись, ушёл.</blockquote>
 	</card>
 	<card>
 		<k>дулугуй</k>
-		<blockquote>широколицый и мрачный.</blockquote>
+		<pos>adj</pos>
+		<trn>широколицый и мрачный.</trn>
 	</card>
 	<card>
 		<k>дулуй-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>насупиться, нахмуриться (гл. обр. о широколицем);</blockquote>
-			<blockquote>унчукпай гана, дулуюп, олтура берчү он обычно сидел и мрачно молчал;</blockquote>
-			<blockquote>үйдөгүлөр менен мурункудай, дулуйбай, ачылып бажырашып отурат (теперь уж) он не дуется, а, как я раньше, весело разговаривает с домашними;</blockquote>
-			<blockquote>дулуюп, терс бурулат эр Мүзүрет стих. нахмурившись, отворачивается молодец Музурет;</blockquote>
+			<trn>насупиться, нахмуриться (гл. обр. о широколицем);</trn>
+			<blockquote>унчукпай гана, дулуюп, олтура берчү@@ он обычно сидел и мрачно молчал;</blockquote>
+			<blockquote>үйдөгүлөр менен мурункудай, дулуйбай, ачылып бажырашып отурат@@ (теперь уж) он не дуется, а, как я раньше, весело разговаривает с домашними;</blockquote>
+			<blockquote>дулуюп, терс бурулат эр Мүзүрет стих.@@ нахмурившись, отворачивается молодец Музурет;</blockquote>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>упрямиться.</blockquote>
+			<trn>упрямиться.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дүлөй</k>
+		<pos>adj</pos>
 		<meaning>
-			<blockquote>глухой;</blockquote>
-			<blockquote>дүлөйгө салам берсең, "атаңдын башы!" дейт погов. скажи глухому "здравствуй", а он тебя обругает;</blockquote>
-			<blockquote>эки дүлөй кошулса, бир бирине күлүшөт фольк. когда сойдутся двое глухих, они друг над другом смеются;</blockquote>
-			<blockquote>дүлөй кишинин оозуна карайт погов. глухой смотрит на рот другого;</blockquote>
-			<blockquote>дүлөй-дудук глухонемой;</blockquote>
+			<trn>глухой;</trn>
+			<blockquote>дүлөйгө салам берсең, "атаңдын башы!" дейт погов.@@ скажи глухому"здравствуй", а он тебя обругает;</blockquote>
+			<blockquote>эки дүлөй кошулса, бир бирине күлүшөт фольк.@@ когда сойдутся двое глухих, они друг над другом смеются;</blockquote>
+			<blockquote>дүлөй кишинин оозуна карайт погов.@@ глухой смотрит на рот другого;</blockquote>
+			<blockquote>дүлөй-дудук@@ глухонемой;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>ушная сера;</blockquote>
+			<pos>n</pos>
+			<trn>ушная сера;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>небольшие наросты, будто бы появляющиеся на сердце животных (отсутствие их якобы служит признаком хорошей скаковой лошади);</blockquote>
-			<blockquote>туягында тура жок, жүрөгүндө дүлөй жок фольк. в копыте у него нет кости (см. тура I), на сердце у него нет нароста;</blockquote>
+			<trn>небольшие наросты, будто бы появляющиеся на сердце животных (отсутствие их якобы служит признаком хорошей скаковой лошади);</trn>
+			<blockquote>туягында тура жок, жүрөгүндө дүлөй жок фольк.@@ в копыте у него нет кости (см. тура I), на сердце у него нет нароста;</blockquote>
 		</meaning>
 		<meaning>
-			<blockquote>(или жер дүлөй) дождевик, чёртова тавлинка (род гриба, наполненного пылью;</blockquote>
-			<blockquote>в народной медицине употребляется в качестее присыпки на раны);</blockquote>
-			<minicard>
-				<k>алай-дүлөй</k>
-				<meaning>
-					<trn>метель;</trn>
-				</meaning>
-				<meaning>
-					<trn>суматоха;</trn>
-				</meaning>
-			</minicard>
-			<blockquote>алай-дүлөй борошо сокту закрутила метель;</blockquote>
-			<blockquote>алай-дүлөй бороон болуп турат сильно буранит;</blockquote>
-			<blockquote>эти дүлөй толстокожий (не проявляющий чувствительности к боли);</blockquote>
-			<blockquote>жүрөктүн дүлөйү предсердие.</blockquote>
+			<i>(или жер дүлөй)</i>
+			<trn>дождевик, чёртова тавлинка (род гриба, наполненного пылью,в народной медицине употребляется в качестее присыпки на раны)</trn>
 		</meaning>
+		<minicard>
+			<k>алай-дүлөй</k>
+			<meaning>
+				<trn>метель;</trn>
+			</meaning>
+			<meaning>
+				<trn>суматоха;</trn>
+				<blockquote>алай-дүлөй борошо сокту@@ закрутила метель;</blockquote>
+				<blockquote>алай-дүлөй бороон болуп турат@@ сильно буранит;</blockquote>
+				<blockquote>эти дүлөй@@ толстокожий (не проявляющий чувствительности к боли);</blockquote>
+				<blockquote>жүрөктүн дүлөйү@@ предсердие.</blockquote>
+			</meaning>
+		</minicard>
 	</card>
 	<card>
 		<k>дум</k>
-		<sameas word="дүм" index="1"/>
+		<pos>n</pos>
+		<blockquote>то же, что дүм</blockquote>
 	</card>
 	<card>
 		<k>дүм</k>
-		<homonym>
-			<origin>ир.</origin>
-			<blockquote>хвост (в прям. анач.- только на юге);</blockquote>
-			<blockquote>мылтыктын дүмү приклад ружья;</blockquote>
-			<blockquote>дүмү болуп южн. слепо следуя за кем-л.</blockquote>
-		</homonym>
-		<homonym>
-			<blockquote>грозный, величавый вид; величавость;</blockquote>
-			<blockquote>дүмүнөн эле адам коркот одного вида его люди боятся;</blockquote>
-			<blockquote>дүмү менен коркутат он видом одним устрашает;</blockquote>
-			<blockquote>бет алдынан караса, миң кишинин дүмү бар фольк. если посмотреть на него спереди, у него грозная величавость тысячи человек;</blockquote>
-			<blockquote>атанып айкөл, кан болуп, айтканы элге дүм болуп фольк. прозванный великодушным, (Манас) ханом стал, слова его для народа величавыми стали.</blockquote>
-		</homonym>
+		<pos>n</pos>
+		<meaning>
+			<meta>ир.</meta>
+			<trn>хвост (в прям. анач.- только на юге);</trn>
+			<blockquote>мылтыктын дүмү@@ приклад ружья;</blockquote>
+			<blockquote>дүмү болуп@@ южн. слепо следуя за кем-л.</blockquote>
+		</meaning>
+		<meaning>
+			<trn>грозный, величавый вид; величавость;</trn>
+			<blockquote>дүмүнөн эле адам коркот@@ одного вида его люди боятся;</blockquote>
+			<blockquote>дүмү менен коркутат@@ он видом одним устрашает;</blockquote>
+			<blockquote>бет алдынан караса, миң кишинин дүмү бар фольк.@@ если посмотреть на него спереди, у него грозная величавость тысячи человек;</blockquote>
+			<blockquote>атанып айкөл, кан болуп, айтканы элге дүм болуп фольк.@@ прозванный великодушным, (Манас) ханом стал, слова его для народа величавыми стали.</blockquote>
+		</meaning>
 	</card>
 	<card>
 		<k>дума</k>
+		<pos>n</pos>
 		<meta>ист.</meta>
-		<trn>дума</trn>
-		<blockquote>Мамлекеттик дума Государственная дума.</blockquote>
+		<blockquote>Мамлекеттик дума@@ Государственная дума.</blockquote>
 	</card>
 	<card>
 		<k>думак</k>
-		<sameas word="дымак"/>
-		<blockquote>думак күт- важничать.</blockquote>
+		<pos>n</pos>
+		<blockquote>то же, что дымак</blockquote>
+		<blockquote>думак күт-@@ важничать.</blockquote>
 	</card>
 	<card>
 		<k>думала-</k>
-		<blockquote>катиться, перекатываться;</blockquote>
-		<blockquote>колдон түшкөн сымаптай, коргошундай думалап, тили сенде, дили - жат стих. перекатывается, как упавшая с руки ртуть, как (расплавленный) свинец; язык его у тебя (языком он твой), а сердце чуждо.</blockquote>
+		<pos>v</pos>
+		<trn>катиться, перекатываться;</trn>
+		<blockquote>колдон түшкөн сымаптай, коргошундай думалап, тили сенде, дили - жат стих.@@ перекатывается, как упавшая с руки ртуть, как (расплавленный) свинец; язык его у тебя (языком он твой), а сердце чуждо.</blockquote>
 	</card>
 	<card>
 		<k>думана</k>
-		<look word="дубана"/>
+		<pos>n</pos>
+		<blockquote>см. дубана</blockquote>
 	</card>
 	<card>
 		<k>думба</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
-		<meaning>
-			<sameas word="тумба"/>
-		</meaning>
-		<meaning>
-			<blockquote>межевой знак.</blockquote>
-		</meaning>
+		<blockquote>то же, что тумба</blockquote>
+		<trn>межевой знак.</trn>
 	</card>
 	<card>
 		<k>думбала-</k>
-		<blockquote>плотно, наглухо закутывать.</blockquote>
+		<pos>v</pos>
+		<trn>плотно, наглухо закутывать.</trn>
 	</card>
 	<card>
 		<k>думбалакта-</k>
-		<blockquote>валять, переворачивать;</blockquote>
-		<blockquote>бирин бири думбалактап (они) валяя друг друга.</blockquote>
+		<pos>v</pos>
+		<trn>валять, переворачивать;</trn>
+		<blockquote>бирин бири думбалактап@@ (они) валяя друг друга.</blockquote>
 	</card>
 	<card>
 		<k>думбалакташ-</k>
-		<recv word="думбалакта"/>
-		<blockquote>барахтаться, валяться, переворачивая друг друга.</blockquote>
+		<pos>v</pos>
+		<blockquote>взаимн. от думбалакта-</blockquote>
+		<trn>барахтаться, валяться, переворачивая друг друга.</trn>
 	</card>
 	<card>
 		<k>думбалан-</k>
-		<refv word="думбала"/>
-		<blockquote>плотно, наглухо закутываться;</blockquote>
-		<blockquote>думбаланып жат- лежать, закутавшись с головой.</blockquote>
+		<pos>gna</pos>
+		<blockquote>возвр. от думбала-</blockquote>
+		<trn>плотно, наглухо закутываться;</trn>
+		<blockquote>думбаланып жат-@@ лежать, закутавшись с головой.</blockquote>
 	</card>
 	<card>
 		<k>думбалоо</k>
-		<actionNoun word="думбала"/>
-		<blockquote>көз думбалоо отвод глаз, обман.</blockquote>
+		<pos>ger</pos>
+		<blockquote>и. д. от думбала-</blockquote>
+		<blockquote>көз думбалоо@@ отвод глаз, обман.</blockquote>
 	</card>
 	<card>
 		<k>думбул</k>
-		<blockquote>овсянка (птица).</blockquote>
+		<pos>np</pos>
+		<trn>овсянка (птица).</trn>
 	</card>
 	<card>
 		<k>дүмбүл</k>
+		<pos>adj</pos>
 		<origin>ир.</origin>
 		<meaning>
-			<blockquote>(о фруктах и некоторых злаках) недозрелый;</blockquote>
+			<trn>(о фруктах и некоторых злаках) недозрелый</trn>
 		</meaning>
 		<meaning>
-			<blockquote>молодые восковой спелости початки кукурузы;</blockquote>
+			<trn>молодые восковой спелости початки кукурузы</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>(о человеке) неотёсанный.</blockquote>
+			<trn>(о человеке) неотёсанный.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дүмбүрчөк</k>
-		<sameas word="дүмүрчөк"/>
+		<pos>n</pos>
+		<blockquote>то же, что дүмүрчөк</blockquote>
 	</card>
 	<card>
 		<k>дүмбө</k>
-		<homonym>
-			<blockquote>наконечник шомпола; шомпол.</blockquote>
-		</homonym>
-		<homonym>
+		<pos>n</pos>
+		<meaning>
+			<trn>наконечник шомпола; шомпол.</trn>
+		</meaning>
+		<meaning>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
-			<blockquote>курдюк.</blockquote>
-		</homonym>
+			<trn>курдюк.</trn>
+		</meaning>
 	</card>
 	<card>
 		<k>дүмбөк</k>
-		<sameas word="дүңгө"/>
+		<pos>n</pos>
+		<blockquote>то же, что дүңгө</blockquote>
 	</card>
 	<card>
 		<k>дүмбөлө-</k>
-		<blockquote>забить заряд.</blockquote>
+		<pos>v</pos>
+		<trn>забить заряд.</trn>
 	</card>
 	<card>
 		<k>думкелтек</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>[думкәлтәк]</blockquote>
-		<sameas word="дүмпүлдөк"/>
+		<transcription>[думкәлтәк]</transcription>
+		<blockquote>то же, что дүмпүлдөк.</blockquote>
 	</card>
 	<card>
 		<k>дүмкелтек</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>[дүмкәлтәк]</blockquote>
-		<sameas word="дүмпүлдөк"/>
+		<transcription>[дүмкәлтәк]</transcription>
+		<blockquote>то же, что дүмпүлдөк</blockquote>
 	</card>
 	<card>
 		<k>дүмп</k>
-		<blockquote>подражание глухому отрывистому звуку;</blockquote>
-		<blockquote>дүмп дей түштү бухнуло.</blockquote>
+		<pos>ideo</pos>
+		<trn>подражание глухому отрывистому звуку;</trn>
+		<blockquote>дүмп дей түштү@@ бухнуло.</blockquote>
 	</card>
 	<card>
 		<k>думпуй-</k>
-		<sameas word="дүмпүй"/>
-		<blockquote>курсагы чоң думпуйган стих. его большой живот вспучился.</blockquote>
+		<pos>v</pos>
+		<blockquote>то же, что дүмпүй-</blockquote>
+		<blockquote>курсагы чоң думпуйган стих.@@ его большой живот вспучился.</blockquote>
 	</card>
 	<card>
 		<k>дүмпүй-</k>
-		<blockquote>выпячаваться бугром, горбом, вспучиваться;</blockquote>
-		<blockquote>дүмпүйгөн калың кол жатат сгрудившись, стоит несметное войско.</blockquote>
+		<pos>v</pos>
+		<trn>выпячаваться бугром, горбом, вспучиваться;</trn>
+		<blockquote>дүмпүйгөн калың кол жатат@@ сгрудившись, стоит несметное войско.</blockquote>
 	</card>
 	<card>
 		<k>думпуйт-</k>
-		<caus word="думпуй"/>
-		<blockquote>курсагын думпуйтуп выпятив свой живот.</blockquote>
+		<pos>v</pos>
+		<blockquote>понуд. от думпуй-</blockquote>
+		<blockquote>курсагын думпуйтуп@@ выпятив свой живот.</blockquote>
 	</card>
 	<card>
 		<k>дүмпүйт-</k>
-		<caus word="дүмпүй"/>
+		<pos>v</pos>
+		<blockquote>понуд. от дүмпүй-</blockquote>
 	</card>
 	<card>
 		<k>дүмпүлдө-</k>
-		<blockquote>издавать глухие отрывистые звуки.</blockquote>
+		<pos>v</pos>
+		<trn>издавать глухие отрывистые звуки.</trn>
 	</card>
 	<card>
 		<k>дүмпүлдөк</k>
-		<blockquote>волки и овцы (игра).</blockquote>
+		<pos>n</pos>
+		<trn>волки и овцы (игра).</trn>
 	</card>
 	<card>
 		<k>дүмпүлдөт-</k>
-		<caus word="дүмпүлдө"/>
+		<pos>v</pos>
+		<blockquote>понуд. от дүмпүлдө-</blockquote>
 		<meaning>
-			<blockquote>извлекать глухие отрывистые звуки;</blockquote>
+			<trn>извлекать глухие отрывистые звуки;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>бить, тузить.</blockquote>
+			<trn>бить, тузить.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дүмпөй-</k>
-		<sameas word="дүмпүй"/>
-		<blockquote>карарып багы дүмпөйүп, колхоздор жайлап жаткан жер (это) место, (где) темнеют густые сады и (где) расположились колхозы.</blockquote>
+		<pos>v</pos>
+		<blockquote>то же, что дүмпүй-</blockquote>
+		<blockquote>карарып багы дүмпөйүп, колхоздор жайлап жаткан жер@@ (это) место, (где) темнеют густые сады и (где) расположились колхозы.</blockquote>
 	</card>
 	<card>
 		<k>думук-</k>
+		<pos>v</pos>
 		<meaning>
-			<blockquote>страдать от духоты, чувствовать удушье;</blockquote>
+			<trn>страдать от духоты, чувствовать удушье;</trn>
 		</meaning>
 		<meaning>
 			<meta>перен.</meta>
-			<blockquote>быть в подавленном состоянии.</blockquote>
+			<trn>быть в подавленном состоянии.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>думуктур-</k>
-		<caus word="думук"/>
-		<blockquote>душить;</blockquote>
-		<blockquote>аба думуктуруп турат погода душная.</blockquote>
+		<pos>v</pos>
+		<blockquote>понуд. от думук-</blockquote>
+		<trn>душить;</trn>
+		<blockquote>аба думуктуруп турат@@ погода душная.</blockquote>
 	</card>
 	<card>
 		<k>дүмүр</k>
+		<pos>n</pos>
 		<meaning>
-			<blockquote>обгоревший пень; подгнившие и почерневшие корни дерева;</blockquote>
+			<trn>обгоревший пень; подгнившие и почерневшие корни дерева;</trn>
 		</meaning>
 		<meaning>
-			<blockquote>корень испорченного зуба.</blockquote>
+			<trn>корень испорченного зуба.</trn>
 		</meaning>
 	</card>
 	<card>
 		<k>дүмүрчөк</k>
+		<pos>n</pos>
 		<meta>разг.</meta>
-		<blockquote>квитанция, корешок квитанции.</blockquote>
+		<trn>квитанция, корешок квитанции.</trn>
 	</card>
 	<card>
 		<k>дүмүрөй-</k>
-		<blockquote>чернеть, чернеться;</blockquote>
-		<blockquote>дүмүрөйгөн кара киши чёрный-пречёрный (и полный) человек;</blockquote>
-		<blockquote>түп-түп чий дүмүрөйүп көрүнөт кусты чия чернеют.</blockquote>
+		<pos>v</pos>
+		<trn>чернеть, чернеться;</trn>
+		<blockquote>дүмүрөйгөн кара киши@@ чёрный-пречёрный (и полный) человек;</blockquote>
+		<blockquote>түп-түп чий дүмүрөйүп көрүнөт@@ кусты чия чернеют.</blockquote>
 	</card>
 	<card>
 		<k>дүмүрөңдө-</k>
-		<blockquote>чернеться (о ком-чём-л. движущемся);</blockquote>
-		<blockquote>бир танкисин карасаң, алды кийнин карабай дүмүрөңдөн, окопту тепсеп жатат чаркырап стих. посмотришь на танк - он без опаски, чернея, давит окопы с верезжанием;</blockquote>
-		<blockquote>бир чычкан, дүмүрөңдөп, ийин казып жаткан экен видно было, как мышь возится, роет нору.</blockquote>
+		<pos>v</pos>
+		<trn>чернеться (о ком-чём-л. движущемся);</trn>
+		<blockquote>бир танкисин карасаң, алды кийнин карабай дүмүрөңдөн, окопту тепсеп жатат чаркырап стих.@@ посмотришь на танк - он без опаски, чернея, давит окопы с верезжанием;</blockquote>
+		<blockquote>бир чычкан, дүмүрөңдөп, ийин казып жаткан экен@@ видно было, как мышь возится, роет нору.</blockquote>
 	</card>
 	<card>
 		<k>дүмөк</k>
