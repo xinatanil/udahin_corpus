@@ -47985,11 +47985,6 @@
 		<look word="далда" index="1"/>
 	</card>
 	<card>
-		<k>далдаа</k>
-		<pos>n</pos>
-		<look word="далда" index="1"/>
-	</card>
-	<card>
 		<k>далдаалан-</k>
 		<pos>v</pos>
 		<look word="далда" index="1"/>
@@ -48278,11 +48273,6 @@
 		<pos>n</pos>
 		<origin>ир.</origin>
 		<trn>передняя, прихожая.</trn>
-	</card>
-	<card>
-		<k>далича</k>
-		<pos>n</pos>
-		<look word="далийча"/>
 	</card>
 	<card>
 		<k>далк</k>
@@ -49129,11 +49119,6 @@
 			<source>данексиз жүзүм</source>
 			<target>бескосточковый виноград.</target>
 		</ex>
-	</card>
-	<card>
-		<k>даңза</k>
-		<pos>n</pos>
-		<look word="даңса" index="1"/>
 	</card>
 	<card>
 		<k>даңк</k>
@@ -54194,26 +54179,23 @@
 		<pos>adj</pos>
 		<homonym>
 			<origin>ир.</origin>
-			<trn>сильно желающий;</trn>
-			<meaning>
-				<trn>энтузиаст;</trn>
-				<ex>
-					<source>эл үчүн кызмат кылууга дилгир</source>
-					<target>он страстно желает служить народу;</target>
-				</ex>
-				<ex>
-					<source>жомок угууга дилгир</source>
-					<target>большой охотник слушать сказки;</target>
-				</ex>
-				<ex>
-					<source>барууга өтө дилгир</source>
-					<target>ему очень хочется пойти;</target>
-				</ex>
-				<ex>
-					<source>окушка дилгир болсо да, тилегине жете албады</source>
-					<target>хотя он и хотел учиться, но осуществить желание не мог.</target>
-				</ex>
-			</meaning>
+			<trn>сильно желающий; энтузиаст;</trn>
+			<ex>
+				<source>эл үчүн кызмат кылууга дилгир</source>
+				<target>он страстно желает служить народу;</target>
+			</ex>
+			<ex>
+				<source>жомок угууга дилгир</source>
+				<target>большой охотник слушать сказки;</target>
+			</ex>
+			<ex>
+				<source>барууга өтө дилгир</source>
+				<target>ему очень хочется пойти;</target>
+			</ex>
+			<ex>
+				<source>окушка дилгир болсо да, тилегине жете албады</source>
+				<target>хотя он и хотел учиться, но осуществить желание не мог.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<pos>v</pos>
@@ -55144,7 +55126,7 @@
 		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
-			<meaning>запугивание, застращивание; грубый окрик;</meaning>
+			<trn>запугивание, застращивание; грубый окрик;</trn>
 			<minicard>
 				<k>док ур- (или догур)</k>
 				<trn>запугивать, застращивать; грубо набрасываться;</trn>
@@ -55156,7 +55138,7 @@
 			<minicard>
 				<k>док урун-(или догурун-)</k>
 				<meaning>
-					<blockquote>то же, что док ур-</blockquote>
+					<anchorRef word="док" index="1" anchor="док ур-" />
 				</meaning>
 				<meaning>
 					<trn>покончить с собой или грозить покончить самоубийством;</trn>
@@ -55398,33 +55380,29 @@
 			</meaning>
 			<meaning>
 				<trn>(в эпосе) положительный эпитет некоторых героинь;</trn>
-				<ex>
-					<source>долу толкун</source>
-					<target>бурные волны.</target>
-				</ex>
 			</meaning>
+			<ex>
+				<source>долу толкун</source>
+				<target>бурные волны.</target>
+			</ex>			
 		</homonym>
 		<homonym>
-			<meaning>
-				<pos>n</pos>
-				<origin>ир.</origin>
-				<trn>град;</trn>
-				<ex>
-					<source>күн күркүрөп, чагылган жаркылдап, долу куюп жиберди</source>
-					<target>гремел гром, сверкала молния, посыпался град;</target>
-				</ex>
-				<ex>
-					<source>долу уруп кетти</source>
-					<target>градом побило.</target>
-				</ex>
-			</meaning>
+			<pos>n</pos>
+			<origin>ир.</origin>
+			<trn>град;</trn>
+			<ex>
+				<source>күн күркүрөп, чагылган жаркылдап, долу куюп жиберди</source>
+				<target>гремел гром, сверкала молния, посыпался град;</target>
+			</ex>
+			<ex>
+				<source>долу уруп кетти</source>
+				<target>градом побило.</target>
+			</ex>
 		</homonym>
 		<homonym>
-			<meaning>
-				<origin>ир.</origin>
-				<meta>южн.</meta>
-				<trn>мельничный ковш.</trn>
-			</meaning>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<trn>мельничный ковш.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -59229,11 +59207,6 @@
 		<k>дыдаар</k>
 		<pos>n</pos>
 		<sameas word="дидар"/>
-	</card>
-	<card>
-		<k>дыдар</k>
-		<pos>n</pos>
-		<look word="дидар"/>
 	</card>
 	<card>
 		<k>дыйдар</k>
