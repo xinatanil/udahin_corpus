@@ -7,7 +7,7 @@
     <xsl:strip-space elements="*"/>
     <xsl:output method="xml" indent="yes" />
     
-    <xsl:variable name="finishedLetters" select="('в', 'г', 'е', 'з', 'и', 'й', 'л', 'н', 'о', 'ө', 'п', 'у', 'ү', 'ф', 'х', 'ц', 'щ', 'ы', 'ю', 'я')" />
+    <xsl:variable name="finishedLetters" select="('в', 'г', 'д', 'е', 'з', 'и', 'й', 'л', 'н', 'о', 'ө', 'п', 'у', 'ү', 'ф', 'х', 'ц', 'щ', 'ы', 'ю', 'я')" />
     <xsl:variable name="root-document" select="/"/>
     
     <xsl:template match="/">
