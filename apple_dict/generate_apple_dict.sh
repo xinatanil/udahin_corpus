@@ -1,4 +1,4 @@
-saxon -xsl:convert_to_apple_dict.xsl -s:../kg_ru_yudahin.xml -o:apple_dict_template/UdahinDictionary.xml
+saxon -xsl:convert_to_apple_dict.xsl -s:../sources/kg_ru_yudahin.xml -o:apple_dict_template/UdahinDictionary.xml
 
 # export XMLLINT_INDENT=$'\t'
 # xmllint --format - < apple_dict_output.xml > after_linting.xml
