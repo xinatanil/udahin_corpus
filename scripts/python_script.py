@@ -8,7 +8,7 @@ outputFilename = sys.argv[2]
 metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.|иссык-кульск\.|анат\.|грам\.|ирон\.|инд\.|геогр\.|ласк\.|эвф\.|груб\.|шутл\.|юр\.'
 originWord = 'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.|ир\.-ар\.|кирг\.-ир\.'
 metaOrOriginWord = metaWord + '|' + originWord
-referencePattern = '(\w+)-? ?([IVX]+)? ?(\d)?[\.|;]?'
+referencePattern = '(\w+)-?,? ?([IVX]+)? ?(\d)?[\.|;]?'
 referenceReplace = 'word="\\1" index="\\2" subindex="\\3"'
 with open(inputFilename, 'r' ) as f:
     content = f.read()
@@ -112,7 +112,7 @@ with open(inputFilename, 'r' ) as f:
 # <meta>(ср. зер V)</meta>
     content_new = re.sub('<blockquote>\(ср\. (.+)\).?</blockquote>', r'<meta>(ср. \1)</meta>', content_new, flags = re.M)
     
-    content_new = re.sub('<blockquote>\(или (.+)\)</blockquote>', r'<meta>(или \1)</meta>', content_new, flags = re.M)
+    content_new = re.sub('<blockquote>\(или (.+)\)</blockquote>', r'<alter>(или \1)</alter>', content_new, flags = re.M)
 
 
 
