@@ -2230,7 +2230,8 @@
 		<k>шапы</k>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
-		<blockquote>ист. юр.</blockquote>
+		<meta>ист.</meta>
+		<meta>юр.</meta>
 		<blockquote>сосед, который по мусульманскому праву имел преимущество при покупке недвижимости своего соседа.</blockquote>
 	</card>
 	<card>
@@ -5181,7 +5182,7 @@
 	</card>
 	<card>
 		<k>штурм</k>
-		<blockquote>штурм;</blockquote>
+		<trn>штурм</trn>
 		<blockquote>штурм менен штурмом;</blockquote>
 		<blockquote>космоско штурм жасоо штурм космоса.</blockquote>
 	</card>
