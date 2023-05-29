@@ -12,7 +12,7 @@
       <xsl:text>&#xa;</xsl:text>
       <xsl:for-each select="card">
         <xsl:variable name="word" select="k"/>
-        <xsl:if test="starts-with($word, 'д')">
+        <xsl:if test="starts-with($word, 'ш')">
           <xsl:copy-of select="."/>
           <xsl:text>&#xa;</xsl:text>
         </xsl:if>

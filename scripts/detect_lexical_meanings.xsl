@@ -16,7 +16,7 @@
             <xsl:choose>
                 <xsl:when test="name() = 'k'">
                 </xsl:when>
-                <xsl:when test='matches(., "\d\. .+") and position() = last()' >
+                <xsl:when test='matches(., "\d\.:? .+") and position() = last()' >
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>closingMeaning</xsl:text>
                     <xsl:text>&#xa;</xsl:text>
@@ -26,7 +26,7 @@
                     <xsl:text>closingMeaning</xsl:text>
                     <xsl:text>&#xa;</xsl:text>
                 </xsl:when>
-                <xsl:when test='matches(., "1\. .+")' >
+                <xsl:when test='matches(., "1\.:? .+")' >
                     <xsl:text>&#xa;</xsl:text>
                     <xsl:text>meaning</xsl:text>
                     <xsl:text>&#xa;</xsl:text>
@@ -66,7 +66,7 @@
                 <xsl:choose>
                     <xsl:when test="count(homonym) = 0">
                         <xsl:choose>
-                            <xsl:when test="blockquote[matches(., '\d\. .+')]">
+                            <xsl:when test="blockquote[matches(., '\d\.:? .+')]">
                                 <card>
                                     <xsl:copy-of select="k" />
                                     <xsl:copy-of select="foo:separateMeanings(.)" />
@@ -90,7 +90,7 @@
                             <xsl:copy-of select="k" />
                             <xsl:for-each select="homonym">
                                 <xsl:choose>
-                                    <xsl:when test="blockquote[matches(., '\d\. .+')]">
+                                    <xsl:when test="blockquote[matches(., '\d\.:? .+')]">
                                         <homonym>
                                             <xsl:copy-of select="foo:separateMeanings(.)" />
                                         </homonym>
