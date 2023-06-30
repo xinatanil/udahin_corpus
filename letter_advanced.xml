@@ -2626,8 +2626,8 @@
 					<meta>перен.</meta>
 					<trn>(о человеке) надёжная защита;</trn>
 				</meaning>
-			<blockquote>эмил чокмор болот деп, белиңе мени чала жүр фольк.@@ считай меня крепкой булавой и носи с собой на поясе.</blockquote>
-		   </minicard>
+				<blockquote>эмил чокмор болот деп, белиңе мени чала жүр фольк.@@ считай меня крепкой булавой и носи с собой на поясе.</blockquote>
+			</minicard>
 		</homonym>
 		<homonym>
 			<pass word="эм" index="4"/>
@@ -2787,19 +2787,19 @@
 		<meaning>
 			<meta>перен.</meta>
 			<trn>шип (подковы);</trn>
-		</meaning>	
-		<minicard>	
-			<k>бээмчек</k> 
+		</meaning>
+		<minicard>
+			<k>бээмчек</k>
 			<alter>(бээ эмчек)</alter>
 			<meaning>
-			    <trn>название болотного луковичного растения;</trn>
-			<blockquote>бээмчек казып жедик@@ мы копали и ели бээмчек;</blockquote>
+				<trn>название болотного луковичного растения;</trn>
+				<blockquote>бээмчек казып жедик@@ мы копали и ели бээмчек;</blockquote>
 			</meaning>
 			<meaning>
-			    <trn>дикая малина</trn>
+				<trn>дикая малина</trn>
 			</meaning>
 		</minicard>
-		</card>
+	</card>
 	<card>
 		<k>эмчектеш</k>
 		<pos>adj</pos>
@@ -2882,8 +2882,8 @@
 		</homonym>
 		<homonym>
 			<blockquote>кыргыз эн</blockquote>
-			 <meta>иссык-кульск. уст.</meta> 
-			 <trn>название материи.</trn>
+			<meta>иссык-кульск. уст.</meta>
+			<trn>название материи.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -3212,7 +3212,7 @@
 			<blockquote>энеликтен кечем@@ я прокляну материнской клятвой, ты мне будешь не дочь или не сын (букв. я откажусь от материнства).</blockquote>
 		</homonym>
 		<homonym>
-		<pos>adj</pos>
+			<pos>adj</pos>
 			<trn>материнский;</trn>
 			<blockquote>энелик мээрим@@ материнская любовь.</blockquote>
 		</homonym>
