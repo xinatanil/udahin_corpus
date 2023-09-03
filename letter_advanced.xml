@@ -12946,6 +12946,8 @@
 		    	   <blockquote>кымызга бата айтышып, олтургандар эшик тартышты@@ поблагодарив за кумыс, сидевшие ушли;</blockquote>
 			        <blockquote>эшик тарткыла@@ выходите, уходите;</blockquote>
 		</meaning>
+		</minicard>
+		</meaning>
 		<meaning>
 			<trn>дверь (общее название);</trn>
 			<blockquote>эшик ач@@ открой дверь;</blockquote>
@@ -13063,7 +13065,7 @@
 	</card>
 	<card>
 		<k>эшилт-</k>
-		<<pos>v</pos>
+		<pos>v</pos>
 		<caus word="эшил"/>
 		<meaning>
 			<blockquote>көк шиберди эшилте басып, сууга келди@@ притаптывая зелёную траву, он подошёл к воде;</blockquote>
