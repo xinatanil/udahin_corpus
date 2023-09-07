@@ -1,28 +1,31 @@
-python3 remove_weird_formatting.py ../letter_wip.xml ../sources/letter_after.xml
+letterFolder=$1
+letter_wip=$letterFolder/letter_wip.xml
+letter_after=$letterFolder/letter_after.xml
+after_linting=$letterFolder/after_linting.xml
 
-saxon -xsl:detect_homonyms.xsl -s:../sources/letter_after.xml -o:../sources/letter_after.xml
-sed -i '' 's/homonym/<homonym>/g' ../sources/letter_after.xml
-sed -i '' 's/closingHomonym/<\/homonym>/g' ../sources/letter_after.xml
+lint () {
+    export XMLLINT_INDENT=$'\t'
+    xmllint --format - < $letter_after > $after_linting
+    rm $letter_after
+    mv $after_linting $letter_after
+}
 
-export XMLLINT_INDENT=$'\t'
-xmllint --format - < ../sources/letter_after.xml > ../sources/after_linting.xml
-rm ../sources/letter_after.xml
-mv ../sources/after_linting.xml ../sources/letter_after.xml
+python3 remove_weird_formatting.py $letter_wip $letter_after
 
-saxon -xsl:detect_lexical_meanings.xsl -s:../sources/letter_after.xml -o:../sources/letter_after.xml
-sed -i '' 's/meaning/<meaning>/g' ../sources/letter_after.xml
-sed -i '' 's/closingMeaning/<\/meaning>/g' ../sources/letter_after.xml
+saxon -xsl:detect_homonyms.xsl -s:$letter_after -o:$letter_after
+sed -i '' 's/homonym/<homonym>/g' $letter_after
+sed -i '' 's/closingHomonym/<\/homonym>/g' $letter_after
 
-export XMLLINT_INDENT=$'\t'
-xmllint --format - < ../sources/letter_after.xml > ../sources/after_linting.xml
-rm ../sources/letter_after.xml
-mv ../sources/after_linting.xml ../sources/letter_after.xml
+lint
 
-python3 python_script.py ../sources/letter_after.xml ../sources/letter_after.xml
+saxon -xsl:detect_lexical_meanings.xsl -s:$letter_after -o:$letter_after
+sed -i '' 's/meaning/<meaning>/g' $letter_after
+sed -i '' 's/closingMeaning/<\/meaning>/g' $letter_after
 
-export XMLLINT_INDENT=$'\t'
-xmllint --format - < ../sources/letter_after.xml > ../sources/after_linting.xml
-rm ../sources/letter_after.xml
-mv ../sources/after_linting.xml ../sources/letter_after.xml
+# lint
 
-ksdiff ../letter_wip.xml ../sources/letter_after.xml
+# python3 python_script.py $letter_after $letter_after
+
+# lint
+
+# ksdiff $letter_wip $letter_after
