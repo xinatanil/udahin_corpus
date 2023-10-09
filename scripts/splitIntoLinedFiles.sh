@@ -1,6 +1,7 @@
 LETTER_FOLDER=../letters/ш
 WIP_FILE=$LETTER_FOLDER/letter_wip.xml
 
+saxon -xsl:extractSimple_0.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/simple_0.xml
 saxon -xsl:extractSimple_1.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/simple_1.xml
 saxon -xsl:extractSimple_2.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/simple_2.xml
 saxon -xsl:extractSimple_3.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/simple_3.xml
