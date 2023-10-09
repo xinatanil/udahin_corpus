@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever"
+       xmlns:saxon="http://saxon.sf.net/"
+       xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <card>
+      <k>шаа</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meaning>
+            <blockquote>шах;</blockquote>
+         </meaning>
+         <meaning>
+            <sameas word="найза" subindex="2"/>
+            <blockquote>дөө-шаалар ист. знатные; знать;</blockquote>
+            <blockquote>дөөдөй, шаадай сакалдуулар почтенные бородачи;</blockquote>
+            <minicard>
+               <k>шаа мүйүз</k>
+               <meaning>
+                  <trn>большие рога;</trn>
+               </meaning>
+               <meaning>
+                  <trn>с большими рогами;</trn>
+                  <blockquote>шаа мүйүз өгүз бык с большими рогами;</blockquote>
+               </meaning>
+               <meaning>
+                  <meta>перен.</meta>
+                  <trn>знатный, важный; большой начальник;</trn>
+                  <blockquote>жалаң шаа мүйүздөр келди пришли одни только большие люди;</blockquote>
+                  <blockquote>шаа мүйүз аракечтер заправские выпивалы;</blockquote>
+                  <blockquote>шаа мурут эркектер усатые (с большими усами) мужчины.</blockquote>
+               </meaning>
+            </minicard>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>шаа II:</blockquote>
+         <blockquote>шаабыз жетет мы управимся; у нас силы хватит, возможности есть;</blockquote>
+         <blockquote>шаасы келбей калды или шаасы жетпей калды он не управился; у него не хватило времени (или сил);</blockquote>
+         <blockquote>эгин көп болуп, шаам жетпей калды посевов было много, и я не управился;</blockquote>
+         <blockquote>ачылган пахталарды жыйноого шаасы жетпей, мектептин балдары жардамда жүрөт они не успевают собирать раскрывшийся хлопок, (им) помогают школьники;</blockquote>
+         <blockquote>чарбаны тейлөөгө үй-бүлөнүн шаасы жетпей калды семья не смогла управиться с хозяйством.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шабыр</k>
+      <homonym>
+         <meaning>
+            <blockquote>шуршание, шелест;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>мелкий камыш, растущий на болотистых местах;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>женск.</meta>
+            <blockquote>камыш.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>шабыр II:</blockquote>
+         <blockquote>абыр-шабыр см. абыр.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шак</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meaning>
+            <blockquote>ветвь, ветка;</blockquote>
+            <blockquote>чырпыктан жаа, ок кылып, чымчыкты аттың шактардан фольк. сделав из веток лук и стрелы, ты сбивал пташек с ветвей;</blockquote>
+            <blockquote>бак-шак или карагай-шак деревья;</blockquote>
+            <blockquote>кыштак ортосундагы мейкинге бак-шак тиккен на свободном месте посредине кишлака он посадил деревья;</blockquote>
+            <blockquote>бакта-шакта болом я буду в саду;</blockquote>
+            <blockquote>кара шак южн. ветви, оголённые от плодов;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>южн.</meta>
+            <blockquote>хворост, которым покрывают обрешетины плоской крыши;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>(точнее шак арык) мелкие оросительные каналы, по которым вода проводится непосредственно на посевы;</blockquote>
+            <blockquote>шак сал- или шак тарт- проводить оросительные каналы по посевам;</blockquote>
+            <blockquote>шак ийилген көп санаа многое множество забот (букв. так много, что ветвь гнётся);</blockquote>
+            <blockquote>шагы сынды он унижен, посрамлён;</blockquote>
+            <blockquote>душмандын шагы сынды враг посрамлён;</blockquote>
+            <blockquote>шагын сындыр- нанести кому-л. обиду, унизить, посрамить кого-л.;</blockquote>
+            <blockquote>эл алдында шагын сындырат он его унизит в глазах народа;</blockquote>
+            <blockquote>баланын шагын сындырып койдуң ты обидел ребёнка (напр. грубо крикнул на него);</blockquote>
+            <blockquote>кырк шак название вышивного узора.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>(точнее таруу шак) толчёное просо, просяная крупа, употребляемая для приготовления бузы;</blockquote>
+         <blockquote>шак кайнат- варить бузу;</blockquote>
+         <blockquote>базарда шактын каны жерге тийбейт на базаре просяная крупа нарасхват;</blockquote>
+         <blockquote>ак шак то же, что акшак.</blockquote>
+      </homonym>
+      <homonym>
+         <meaning>
+            <blockquote>действие, произведённое вдруг или неожиданно;</blockquote>
+            <blockquote>аялдын бетинен шак өөп алып, анан чыгып кетти он вдруг поцеловал женщину в щёку и вышел;</blockquote>
+            <blockquote>оюма шак этти мне вдруг пришло в голову (букв. на мысль);</blockquote>
+            <blockquote>Шаршенин үнү шак дей түштү вдруг раздался голос Шарше;</blockquote>
+            <blockquote>башына шак дей түшту (что-то) неожиданно шлёпнулось ему на голову;</blockquote>
+            <blockquote>эшикти шак жаап койду он захлопнул дверь;</blockquote>
+            <blockquote>дубалга чекеси шак дей түштү он лбом стук об стенку;</blockquote>
+            <blockquote>шак кайрылып вдруг (или резко) повернувшись;</blockquote>
+            <blockquote>алаканын шак койду он всплеснул руками (в знак удивления, сожаления, горя);</blockquote>
+            <blockquote>ал кымызды шак жутуп жиберди он кумыс залпом выпил;</blockquote>
+            <blockquote>айткан сөзү кулагыма шак угудду его слова мне очень отчётливо послышались;</blockquote>
+            <blockquote>кыйкырган үнү кулакка шак эле дей түштү ясно послышался крик;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>подражание резкому и отрывистому звуку;</blockquote>
+            <blockquote>шак эткен үнү жок жоош келин тихая скромная молодуха (которая не повышает голоса и не говорит грубых слов);</blockquote>
+            <blockquote>шак дедире бир салды он трахнул, хлопнул (ударил);</blockquote>
+            <blockquote>жаакка шак эттире бир чапты он закатил звонкую пощёчину;</blockquote>
+            <blockquote>анча болбогондо Бообектин таягы Сасыкбайдын башына шак эте түшмөк если бы не это, то палка Бообека трахнула бы по голове Сасыкбая;</blockquote>
+            <blockquote>шак-шак или шак-шук звукоподражание повторному щёлканью, шлёпанью;</blockquote>
+            <blockquote>шак-шак эт- то же, что шакылда-;</blockquote>
+            <blockquote>шак-шак эткен катынды үй чечкенде көрөрмүн погов. то же, что шакылдаган катынды үй чечкенде көрөрмүн (см. шакылда-);</blockquote>
+            <blockquote>мылтык замогу шак-шак затвор ружья (винтовки) щёлк-щёлк.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <meta>южн.</meta>
+         <sameas word="шүүдүрүм"/>
+         <blockquote>шак түшүптүр пала роса.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шак V:</blockquote>
+         <blockquote>ала шак или агала шак см. ала, шакшак II.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шал</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meaning>
+            <blockquote>паралич; паралитик;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>перен.</meta>
+            <blockquote>немощный, слабый;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>перен.</meta>
+            <blockquote>импотент.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <origin>ир.</origin>
+         <compare word="шалы" index="2"/>
+         <blockquote>грубая шерстяная ткань кустарного производства;</blockquote>
+         <blockquote>иштегени жакшы болсо, жибектен шал өйдө погов. если грубая шерстяная ткань хорошо сделана, она лучше шёлка (т.е. о человеке судить надо не по его происхождению, а по его делам).</blockquote>
+      </homonym>
+      <homonym>
+         <meta>синьцз.</meta>
+         <meta>ист.</meta>
+         <blockquote>деревянная колодка на шею преступника (может быть и двойная, т.е. сразу на двух наказуемых);</blockquote>
+         <blockquote>мойнунда тегерек шал, колу-бутунда зоолу на шее у него круглая колодка, на руках и ногах оковы;</blockquote>
+         <blockquote>өгүзгө моюнтурук салгансып, экөөнү бириктирип, моюндарына узун шал салынган на шеи обоих, будто ярмо на волов, наложена длинная колодка, соединившая их.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шал IV:</blockquote>
+         <blockquote>көл-шал түшүп (или болуп) тердеди он обливался потом;</blockquote>
+         <blockquote>атты көл-шал түшүрүп доведя лошадь до обильного пота;</blockquote>
+         <blockquote>шал төгүн чистейшая ложь; совершеннейшая небылица.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шалда-</k>
+      <homonym>
+         <blockquote>шалда- I:</blockquote>
+         <blockquote>көл шалдап терде- обливаться потом.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шалда- II:</blockquote>
+         <blockquote>көк шалдап украшая зелёными кожаными вставочками задники ичигов (см. маасы) или кожаных галош (см. кепич).</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шалка</k>
+      <homonym>
+         <blockquote>шалка I:</blockquote>
+         <blockquote>алка-шалка тердеди он обливался потом.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шалка II:</blockquote>
+         <blockquote>шалка-шалка жорголо- бежать то иноходью, то вприпрыжку, тряся ушами (напр. об осле).</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шалпы</k>
+      <homonym>
+         <blockquote>шалпы I:</blockquote>
+         <blockquote>шалпысы бош или шалпысы бошоп калыптыр он вялый, слабый, неэнергичный.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>говорить несдержанно, употребляя ругательства;</blockquote>
+         <minicard>
+            <k>оозуна келгенди шалпый берет</k>
+            <meaning>
+               <trn>он мелет всякий вздор;</trn>
+            </meaning>
+            <meaning>
+               <trn>он сквернословит;</trn>
+            </meaning>
+         </minicard>
+         <blockquote>шалпыган сөздөр непотребные слова;</blockquote>
+         <blockquote>шалпып ич- лакать;</blockquote>
+         <blockquote>чакадагы сууну колу менен шалпыды он шлёпал рукой по воде, что была в ведре.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шалы</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meaning>
+            <blockquote>растение риса и рис в шелухе (в южной Киргизии различают сорта риса: буудай шалы, к рс шалы, кирк с шалы);</blockquote>
+            <blockquote>шалы айда- сеять рис;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>рис-крупа;</blockquote>
+            <blockquote>бакалдар сатат баарыны, байкатып айтам шалыны стих. бакалейщики продают всякое, особо обращаю (ваше) внимание на рис;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>южн.</meta>
+            <sameas word="шалыпая"/>
+         </meaning>
+      </homonym>
+      <homonym>
+         <meta>этн.</meta>
+         <blockquote>вставки из цветной кожи на кожаной обуви (украшение);</blockquote>
+         <blockquote>кепичим шалы булгары фольк. мои галоши (см. кепич) из цветной кожи;</blockquote>
+         <blockquote>көк шалы вставочки из зелёной кожи на ичигах и кожаных галошах;</blockquote>
+         <blockquote>шалы кызыл южн. светло-красный.</blockquote>
+      </homonym>
+      <homonym>
+         <origin>ир.</origin>
+         <blockquote>(или шалы жоолук) шаль;</blockquote>
+         <blockquote>ийнинен түшүп бараткан шалысын оңдой берип поправляя спустившуюся с плеч (свою) шаль;</blockquote>
+         <blockquote>ак шалы белая шаль.</blockquote>
+      </homonym>
+      <homonym>
+         <meta>ист.</meta>
+         <blockquote>(у синьцзянских киргизов и в эпосе)</blockquote>
+         <sameas word="коок"/>
+      </homonym>
+   </card>
+   <card>
+      <k>шам</k>
+      <homonym>
+         <origin>ар.</origin>
+         <meaning>
+            <blockquote>лампа; свеча;</blockquote>
+            <minicard>
+               <k>мом шам</k>
+               <meaning>
+                  <trn>восковая свеча;</trn>
+               </meaning>
+               <meaning>
+                  <trn>стеариновая свеча;</trn>
+               </meaning>
+            </minicard>
+            <blockquote>электр шамы электрическая лампочка;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>южн.</meta>
+            <blockquote>время после захода солнца, вечер;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>(точнее шам намазы или намазы шам) вечерняя молитва мусульман (четвёртая за день);</blockquote>
+            <blockquote>шам кулак (о коне) остроухий;</blockquote>
+            <blockquote>аттын кулагынан шам күйгөн караңгы темно, хоть глаз выколи;</blockquote>
+            <blockquote>эмине шамы калды? он совершенно опозорился;</blockquote>
+            <blockquote>шам жат или шамга жат южн. название игры (дети, 6-8 человек, разделившись на две группы, садятся спиной друг к другу; одну руку сжимают в кулак, а ладонью другой стараются ударить по ладони противника; ударивший первым считается победителем; он вскакивает, бьёт ногой побеждённого и убегает; остальные, сидя, бьют побеждённого ногами в поясницу).</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>шам II:</blockquote>
+         <blockquote>шам-шум эт- немного поесть, перекусить.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шам III:</blockquote>
+         <blockquote>шам өрүк тяньш. название сорной травы.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шана</k>
+      <homonym>
+         <origin>ир.</origin>
+         <blockquote>бутон хлопчатника;</blockquote>
+         <blockquote>шана байла- то же, что шанала-.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>южн.:</blockquote>
+         <blockquote>шана жер ровное место.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шап</k>
+      <homonym>
+         <origin>ир.</origin>
+         <blockquote>сабля, меч;</blockquote>
+         <blockquote>пилдин сөөгүн саптаган канжары бар, шабы бар фольк. у него кинжал, сабля с рукоятками слоновой кости;</blockquote>
+         <blockquote>шаптай канжар огромный кинжал;</blockquote>
+         <blockquote>шаптай мойлоо огромные усы (обычно у эпических богатырей).</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>одна из форм штрафа в играх;</blockquote>
+         <minicard>
+            <k>шап кетти</k>
+            <meaning>
+               <trn>сигнал к началу игры;</trn>
+            </meaning>
+            <meaning>
+               <trn>чур меня (название игры);</trn>
+            </meaning>
+         </minicard>
+         <blockquote>тогуз шап штраф при игре в оромпой (см.);</blockquote>
+         <blockquote>шап ал- бить пальцами по руке (штраф в играх).</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>подражательное слово, выражающее быстроту, моментальность действия;</blockquote>
+         <blockquote>шап этип вдруг, моментально;</blockquote>
+         <blockquote>шап эте түштү он вдруг упал; он шлёпнулся;</blockquote>
+         <blockquote>шап этип өтүп кет- промелькнуть, промчаться;</blockquote>
+         <blockquote>шап илип алды он ловко подцепил; он схватил на лету;</blockquote>
+         <blockquote>шап эткизе, баланы түп этектен алды эле фольк. она вдруг схватила мальчика за полу;</blockquote>
+         <blockquote>алаканын шап койду он всплеснул руками;</blockquote>
+         <blockquote>алаканы менен маасысынын кончун шап эттире койду он шлёпнул ладонью себя по голенищу ичигов (в знак того, что разговор окончен; кончено!).</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шап IV:</blockquote>
+         <blockquote>элге шап-шап болуп кетпесин не следует допускать огласки;</blockquote>
+         <blockquote>элге шап-шап кылып жибербегиле вы не разгласите, не разболтайте.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шапак</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meta>южн.</meta>
+         <blockquote>лёгкая, из тонкой материи тюбетейка, надеваемая под шапку.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шапак II:</blockquote>
+         <blockquote>шапак тартып побледнев;</blockquote>
+         <blockquote>көлөкөдө өскөн чөптөй ак шапак тартып үйдөн чыкпайбыз мы, как трава, выросшая в тени, бледнеем и из дому не выходим.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шапат</k>
+      <homonym>
+         <sameas word="шапкат"/>
+      </homonym>
+      <homonym>
+         <blockquote>шапат II:</blockquote>
+         <blockquote>шайтан шапатына кетти отправился к чёрту на кулички; нелёгкая куда-то его унесла;</blockquote>
+         <blockquote>шайтан шапаты болбосо если какой-либо пакости не случится;</blockquote>
+         <blockquote>шайтан-шапаттар всякие пакости и неприятности.</blockquote>
+      </homonym>
+      <homonym>
+         <meta>южн.</meta>
+         <sameas word="шапалак" subindex="1"/>
+         <blockquote>шапат менен бир коёт! как даст пощёчину!</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шапшап</k>
+      <homonym>
+         <anchorRef word="шап" index="4" anchor="шап-шап"/>
+      </homonym>
+      <homonym>
+         <blockquote>шапшап II:</blockquote>
+         <blockquote>шапшап жар южн. овраг с крутыми склонами, из которого нет выхода.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шатыра</k>
+      <homonym>
+         <meaning>
+            <blockquote>1.: шатыра-шатман весёлый, радостный;</blockquote>
+            <blockquote>шатыра-шатман күл- разразиться весёлым смехом;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>бодро, быстро.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <meaning>
+            <blockquote>трещать, будто дробь рассыпать; барабанить (напр. о дожде);</blockquote>
+            <blockquote>шатырап жааган жаан дождь, льющий крупными каплями;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>шумно веселиться;</blockquote>
+            <blockquote>эл шатырап үйүндө, эртели-кеч базардай стих. люди в доме шумно веселятся, с утра до вечера (так оживлённо), как на базаре.</blockquote>
+         </meaning>
+      </homonym>
+   </card>
+   <card>
+      <k>шер</k>
+      <homonym>
+         <origin>ир.</origin>
+         <blockquote>лев (эпитет богатыря);</blockquote>
+         <blockquote>ары баатыр, ары шер фольк. он и богатырь, и храбрец.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шер II:</blockquote>
+         <blockquote>шер жок выхода нет;</blockquote>
+         <blockquote>мага шер барбы?! где же у меня выход?, выхода у меня нет!;</blockquote>
+         <blockquote>шер байла- уповать, возлагать надежды.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шимир</k>
+      <homonym>
+         <blockquote>шимир I:</blockquote>
+         <blockquote>шимир куурай см. шимүүр.</blockquote>
+      </homonym>
+      <homonym>
+         <meaning>
+            <blockquote>пить, не переводя дыхания;</blockquote>
+            <blockquote>бир аяк кымызды тынбастан шимирип ийди он выпил чашку кумыса, не переводя дыхания;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>перен.</meta>
+            <blockquote>выпить спиртного;</blockquote>
+            <blockquote>ой, шимирген экенбиз да! ох, и здорово же мы выпили!</blockquote>
+         </meaning>
+      </homonym>
+   </card>
+   <card>
+      <k>шире</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meaning>
+            <blockquote>сироп; навар; сладкий сок;</blockquote>
+            <blockquote>гүлдүн ширеси нектар;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>прям.</meta>
+            <meta>перен.</meta>
+            <blockquote>смак, сладость;</blockquote>
+            <blockquote>көрүнбөс ширеси бар сөздөрү анын стих. его слова содержат невидимую сладость;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>перен.</meta>
+            <blockquote>сплав, соединение;</blockquote>
+            <blockquote>алтын менен күмүштүн ширесинен бүткөндөй фольк. будто из сплава серебра и золота он (богатырь) создан.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>шире II:</blockquote>
+         <blockquote>ире-шире см. ире.</blockquote>
+      </homonym>
+      <homonym>
+         <meaning>
+            <blockquote>(о металле) свариваться;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>заполняться (о впадинах); набиваться чем-л.;</blockquote>
+            <blockquote>бутума тикенек ширеп (или ширелип) калды в мою ногу набилось много колючек;</blockquote>
+            <blockquote>койдун жүнүнө кум ширеп калды в шерсть овцы набилось много песку.</blockquote>
+         </meaning>
+      </homonym>
+   </card>
+   <card>
+      <k>шок</k>
+      <homonym>
+         <origin>ир.</origin>
+         <meaning>
+            <blockquote>шаловливый, озорной;</blockquote>
+            <blockquote>эркек бала шок болсун, шок болбосо жок болсун погов. мальчик пусть будет озорным, если не озорной, пусть (его совсем) не будет;</blockquote>
+            <blockquote>оюнкарак, бирок шок эмес шаловливый, но не озорной;</blockquote>
+            <blockquote>курсак ток болсо, колуң (или тилиң) шок болот погов. когда брюхо сыто, то руки (или язык) шаловливы (ими хочется двигать);</blockquote>
+            <blockquote>оозу шок несдержанный на язык, всегда готовый поддеть словом;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>южн.</meta>
+            <blockquote>проливной дождь;</blockquote>
+            <blockquote>жуда шок жаады дождь ливмя лил.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>шок II:</blockquote>
+         <blockquote>бир шок южн. уст. мера длины, равная примерно одному сантиметру.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шуу</k>
+      <homonym>
+         <blockquote>шуу I:</blockquote>
+         <blockquote>жип-шуу или жип-шуулар разного рода нитки и верёвки.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>подражание шипению, сопению, шмыганью носом;</blockquote>
+         <blockquote>мурдун шуу тарт- или мурдун шуу дедирип (или дедиртип) тарт- шмыгать носом;</blockquote>
+         <blockquote>бала мурдун шуу тартты мальчик шмыгал носом;</blockquote>
+         <blockquote>мурдун шуу тартып алды он шмыгнул носом;</blockquote>
+         <blockquote>мурдун шуу-шуу тартып калды он зашмыгал носом;</blockquote>
+         <blockquote>мурунду шуу тартып жүрүп шмыгая носом (делая шумные и длительные втягивания носом);</blockquote>
+         <blockquote>кемпир шуу үшкүрдү старуха тяжело вздохнула (медленно выдохнув);</blockquote>
+         <blockquote>көкүрөгүн кур жыттап, көкүлүн кармап, шуу жыттап фольк. грудь (коня) он громко поцеловал (см. жытта- 2), взяв рукой чёлку, он с шумом поцеловал;</blockquote>
+         <blockquote>жүрөгүм шуу этти или жүрөгүм шуу дей түштү у меня сердце замерло (от страха); я сильно испугался;</blockquote>
+         <blockquote>жүрөгү шуу этип, бүткөн бою дүрүлдөп, өңү кумсара түштү у него сердце замерло, по телу мурашки побежали, и он побледнел.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шыгай</k>
+      <homonym>
+         <meta>южн.</meta>
+         <blockquote>запруда.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шыгай II:</blockquote>
+         <blockquote>кара шыгай, сары шыгай виды торфа;</blockquote>
+         <blockquote>Шыгайбай (от фольклорного имени собственного) богач-скряга: эгей-шыгай (см. эгей).</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шыгыр</k>
+      <homonym>
+         <origin>ар.</origin>
+         <meta>уст.</meta>
+         <meaning>
+            <blockquote>стих, стихи;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>песня;</blockquote>
+            <blockquote>шыгыр айт-петь песни;</blockquote>
+            <blockquote>төрттөн сап түзгөн окуучулар шыгыр айтып турушса, аба жаңырат когда ученики, построившись по четыре в ряд, поют песни, это эхом отдаётся.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>шыгыр II:</blockquote>
+         <blockquote>шыгыр-шугур подражание потрескиванию (напр. когда горит мелкий хворост или шуршит слой мелкого щебня).</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шык</k>
+      <homonym>
+         <meaning>
+            <blockquote>счастье, везение;</blockquote>
+            <blockquote>ага шык ооп турат ему везёт, его шансы возросли;</blockquote>
+            <blockquote>"шык тур" деп, чүкөнү өкчөйт тяньш. биток (в альчиках) бросают, приговаривая: "встань удачно" (см. өкчө- II);</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>склонность; внимание, старание;</blockquote>
+            <blockquote>шык коюп, угуп отурду он сидел и слушал с вниманием;</blockquote>
+            <blockquote>эгин өндүрүү ишине шык коюшкан они приложили много усилий в деле производства зерновых;</blockquote>
+         </meaning>
+         <meaning>
+            <meta>уст.</meta>
+            <blockquote>способность;</blockquote>
+            <blockquote>элдин сатып алуучулук шыгы покупательная способность населения;</blockquote>
+         </meaning>
+         <meaning>
+            <blockquote>воодушевление.</blockquote>
+         </meaning>
+      </homonym>
+      <homonym>
+         <blockquote>подражательное слово;</blockquote>
+         <blockquote>шык-шык звук прищёлкивания языком (кончик языка прижимается к нёбу и с лёгким прищёлкиванием отрывается от него; звук, успокаивающий быка, корову, телёнка, лошадь);</blockquote>
+         <blockquote>тилин шык эттирди он щёлкнул языком;</blockquote>
+         <blockquote>шык-шык стакандар тийишип, эки сыйра ирети менен өттү стаканы, (при чокании) стукаясь со щёлканьем, обошли два раза;</blockquote>
+         <minicard>
+            <k>шык-шыкта-</k>
+            <meaning>
+               <trn>успокаивать (лошадь) прищёлкивающими звуками;</trn>
+            </meaning>
+            <meaning>
+               <meta>перен.</meta>
+               <trn>подходить осторожно, чтобы не раздражать (к человеку строптивому или нервному).</trn>
+            </meaning>
+         </minicard>
+      </homonym>
+      <homonym>
+         <meta>южн.</meta>
+         <blockquote>изгородь из хвороста.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шып</k>
+      <homonym>
+         <blockquote>подражательное слово, выражающее быстрое, проворное действие;</blockquote>
+         <blockquote>колун, шып этип, тартып алды он быстро отдёрнул свою руку;</blockquote>
+         <blockquote>шып коюп, чыгып кетти он моментально вышел;</blockquote>
+         <blockquote>ордунан, шып этип, тура калды он вскочил с места;</blockquote>
+         <blockquote>келгендер аттарынан шып-шып түшө калышты прибывшие проворно слезли с коней;</blockquote>
+         <blockquote>байкалбай күндөр шып-шып өтүп жатты стих. дни проходили быстро и незаметно;</blockquote>
+         <blockquote>шып-шып үйгө кирип келишти они стремительно вошли в комнату;</blockquote>
+         <blockquote>шып бурула круто повернувшись.</blockquote>
+      </homonym>
+      <homonym>
+         <origin>ир.</origin>
+         <meta>южн.</meta>
+         <blockquote>потолок;</blockquote>
+         <blockquote>мейманкананын шыбы потолок гостиной;</blockquote>
+         <blockquote>шып деди, шыпка чыкты загадка быстро (проскочила), к потолку (т.е. кверху) подскочила (отгадка ийне игла, когда при шитье прокалывают снизу).</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шып III:</blockquote>
+         <blockquote>шып карагай тяньш. прямая ель без ветвей;</blockquote>
+         <blockquote>шыл карагай бутаксыз, эгиз козу сөөксүз загадка прямая ель без ветвей, ягнята-двойня без костей (отгадка чачта бутак жок, эмчекте сөөк жок на волосе нет ветвей, у грудей нет костей).</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>подражание шлёпанью, причмокиванью;</blockquote>
+         <blockquote>жумшак эриндерин шып эттирип, шыпшына олтурду (старуха, выражая приятное удивление) сидела, громко причмокивая мягкими губами;</blockquote>
+         <blockquote>темингилеринен шып-шып табыш чыгарып тебеньки издавали шлёпающие звуки.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>подражание лёгкому свисту (напр. рассекаемого воздуха);</blockquote>
+         <blockquote>чыбык менен, шып-шып этип, чапты он стегал прутом так, что свистело.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шыпа</k>
+      <homonym>
+         <sameas word="шып" index="1"/>
+         <blockquote>ордунан шыпа турду он вскочил со своего места.</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шыпа II:</blockquote>
+         <blockquote>шек-шыпа то же, что шек-шыба (см. шек);</blockquote>
+         <blockquote>узакка аңдып жатышып, эч шек-шыпа биле алышпаган они долго подстерегали, но ничего подозрительного не заметили.</blockquote>
+      </homonym>
+   </card>
+   <card>
+      <k>шөк</k>
+      <homonym>
+         <meta>тяньш.</meta>
+         <sameas word="шүк"/>
+         <blockquote>шөк отур! сиди смирно!</blockquote>
+      </homonym>
+      <homonym>
+         <blockquote>шөк II:</blockquote>
+         <blockquote>шөк-шөк южн. возглас понукания яков.</blockquote>
+      </homonym>
+   </card>
+</root>
