@@ -1,85 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:foo="http://whatever"
-       xmlns:saxon="http://saxon.sf.net/"
-       xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <card>
-      <k>шардан</k>
-      <homonym>
-         <sameas word="шар" index="2"/>
-         <blockquote>элдин кур шарданында гана жүрүп калган он двинулся только потому, что хлынули толпы народа; он двинулся, только глядя на других;</blockquote>
-         <blockquote>Кийизбай бай өзүн элдин ушул шарданында жүргөндөй көрсөттү богач Кийизбай делал вид, что он поступает так, только следуя другим.</blockquote>
-      </homonym>
-      <homonym>
-         <meaning>
-            <blockquote>бурлить, бушевать;</blockquote>
-            <blockquote>толкуган көлдөй шарданып фольк. бушуя, будто волнующееся озеро;</blockquote>
-         </meaning>
-         <meaning>
-            <meta>перен.</meta>
-            <blockquote>действовать решительно, смело.</blockquote>
-         </meaning>
-      </homonym>
-   </card>
-   <card>
-      <k>шибер</k>
-      <homonym>
-         <meaning>
-            <blockquote>всякая высокая густая трава;</blockquote>
-         </meaning>
-         <meaning>
-            <blockquote>метлица;</blockquote>
-            <blockquote>кара шибер мятлик луковичный.</blockquote>
-         </meaning>
-      </homonym>
-      <homonym>
-         <origin>р.</origin>
-         <meta>ист.</meta>
-         <meta>разг.</meta>
-         <blockquote>Сибирь (как место каторжных работ и ссылки), каторга;</blockquote>
-         <blockquote>Шиберге айда- сослать на каторгу или в ссылку;</blockquote>
-         <blockquote>Шиберге айдалган сослан на каторгу.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шип</k>
-      <homonym>
-         <blockquote>усиление к словам, начинающимся на ши;</blockquote>
-         <blockquote>шипширин сладкий-сладкий;</blockquote>
-         <blockquote>шипширин сөз приятное слово, приятная речь.</blockquote>
-      </homonym>
-      <homonym>
-         <sameas word="шып" index="2"/>
-      </homonym>
-      <homonym>
-         <blockquote>подражание быстрому движению;</blockquote>
-         <blockquote>шип деп чыгып кетти он шмыгнул наружу; он быстро вышел.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шыйпаң</k>
-      <homonym>
-         <meaning>
-            <blockquote>опахало из конского хвоста для отмахивания от насекомых;</blockquote>
-            <blockquote>шыйпаңы менен чымын коруп отгоняя мух опахалом;</blockquote>
-         </meaning>
-         <meaning>
-            <meta>перен.</meta>
-            <blockquote>хвост (конский);</blockquote>
-         </meaning>
-         <meaning>
-            <meta>перен.</meta>
-            <blockquote>шелудивый (когда короста уже начинает отваливаться).</blockquote>
-         </meaning>
-      </homonym>
-      <homonym>
-         <origin>ир.</origin>
-         <meta>южн.</meta>
-         <meaning>
-            <blockquote>навес в поле для отдыха работающих;</blockquote>
-         </meaning>
-         <meaning>
-            <blockquote>двускатная камышовая крыша, залитая глиной.</blockquote>
-         </meaning>
-      </homonym>
-   </card>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>шардан</k>
+		<homonym>
+			<sameas word="шар" index="2"/>
+			<blockquote>элдин кур шарданында гана жүрүп калган он двинулся только потому, что хлынули толпы народа; он двинулся, только глядя на других;</blockquote>
+			<blockquote>Кийизбай бай өзүн элдин ушул шарданында жүргөндөй көрсөттү богач Кийизбай делал вид, что он поступает так, только следуя другим.</blockquote>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>бурлить, бушевать;</blockquote>
+				<blockquote>толкуган көлдөй шарданып фольк. бушуя, будто волнующееся озеро;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>действовать решительно, смело.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>шибер</k>
+		<homonym>
+			<meaning>
+				<blockquote>всякая высокая густая трава;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>метлица;</blockquote>
+				<blockquote>кара шибер мятлик луковичный.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>р.</origin>
+			<meta>ист.</meta>
+			<meta>разг.</meta>
+			<blockquote>Сибирь (как место каторжных работ и ссылки), каторга;</blockquote>
+			<blockquote>Шиберге айда- сослать на каторгу или в ссылку;</blockquote>
+			<blockquote>Шиберге айдалган сослан на каторгу.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шип</k>
+		<homonym>
+			<blockquote>усиление к словам, начинающимся на ши;</blockquote>
+			<blockquote>шипширин сладкий-сладкий;</blockquote>
+			<blockquote>шипширин сөз приятное слово, приятная речь.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="шып" index="2"/>
+		</homonym>
+		<homonym>
+			<blockquote>подражание быстрому движению;</blockquote>
+			<blockquote>шип деп чыгып кетти он шмыгнул наружу; он быстро вышел.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шыйпаң</k>
+		<homonym>
+			<meaning>
+				<blockquote>опахало из конского хвоста для отмахивания от насекомых;</blockquote>
+				<blockquote>шыйпаңы менен чымын коруп отгоняя мух опахалом;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>хвост (конский);</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>шелудивый (когда короста уже начинает отваливаться).</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meaning>
+				<blockquote>навес в поле для отдыха работающих;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>двускатная камышовая крыша, залитая глиной.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
 </root>
