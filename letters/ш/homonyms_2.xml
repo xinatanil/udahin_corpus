@@ -1,97 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:foo="http://whatever"
-       xmlns:saxon="http://saxon.sf.net/"
-       xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <card>
-      <k>шайыр</k>
-      <homonym>
-         <blockquote>жизнерадостный, весёлый, весельчак; бодрый;</blockquote>
-         <blockquote>шайыр болбой, эр болбойт погов. кто не весел, тот не молодец;</blockquote>
-         <blockquote>шайыр мүнөз весёлый нрав, весёлого нрава (человек).</blockquote>
-      </homonym>
-      <homonym>
-         <origin>ар.</origin>
-         <meta>редко</meta>
-         <blockquote>поэт.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шарп</k>
-      <homonym>
-         <blockquote>ящур (болезнь скота).</blockquote>
-      </homonym>
-      <homonym>
-         <blockquote>подражание сильному, резкому удару;</blockquote>
-         <blockquote>шарп-шарп этип келип, көл толкуну жарга согулат волны озера с силой ударяются о крутой берег.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шериктеш</k>
-      <homonym>
-         <blockquote>соучастник в товариществе или в каком-л. деле;</blockquote>
-         <blockquote>буудайдын өрттөнгөнүнө да, айгырдын жоголгонуна да ошол шериктеш и пшеница сгорела, и жеребец пропал не без его участия.</blockquote>
-      </homonym>
-      <homonym>
-         <blockquote>объединяться в товарищество; делать что-л. на компанейских началах; соучаствовать в каком-л. деле;</blockquote>
-         <blockquote>шериктешип иште- работать на началах товарищества.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шордот-</k>
-      <homonym>
-         <caus word="шордо" index="1"/>
-         <blockquote>мал шордот- пускать скот на солонец;</blockquote>
-         <blockquote>алты күнү жатам деп, мал шордотуп алам деп фольк. мол, шесть дней я (здесь) пробуду, скот, мол, пущу на солонец.</blockquote>
-      </homonym>
-      <homonym>
-         <caus word="шордо" index="2"/>
-         <blockquote>ал-абалын шордотту он довёл его до несчастья.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шоролуу</k>
-      <homonym>
-         <blockquote>(о глазах) гнойный;</blockquote>
-         <blockquote>жашы агып, кызарып турган шоролуу көздөрү его слезящиеся красные гнойные глаза.</blockquote>
-      </homonym>
-      <homonym>
-         <blockquote>поросший лебедой;</blockquote>
-         <blockquote>алабата-шоролуу - төөнүн жери кең Талас фольк. поросший лебедой просторный Талас (Таласская долина) - земля (удобная) для верблюдов.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шпиондук</k>
-      <homonym>
-         <sameas word="шпионаж"/>
-      </homonym>
-      <homonym>
-         <blockquote>шпионский;</blockquote>
-         <blockquote>шпиондук маалыматтар шпионские сведения;</blockquote>
-         <blockquote>шпиондук тапшырмалар шпионские задания.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шүйшүн</k>
-      <homonym>
-         <sameas word="шүүшүн"/>
-      </homonym>
-      <homonym>
-         <blockquote>восхищаться, приятно удивляться; смотреть с восхищением;</blockquote>
-         <blockquote>базарда да, конокто да ар качан шүйшүнгөнүң биздин жаңгак то, чем ты и на базаре и в гостях восхищаешься, - наш грецкий орех;</blockquote>
-         <blockquote>карачы, калың жашыл карагайды, шүйшүнүп ким да болсо карабайбы? смотри-ка, (вот) наши зелёные ели; разве каждый не смотрит (на них) с восхищением?</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шыба</k>
-      <homonym>
-         <origin>ар.</origin>
-         <pair word="шек"/>
-      </homonym>
-      <homonym>
-         <blockquote>мазать, штукатурить, покрывать тонким слоем чего-л.;</blockquote>
-         <blockquote>дубалдарды шыбап койдум я оштукатурил стены;</blockquote>
-         <blockquote>алтын шыба- золотить, покрывать тонким слоем золота;</blockquote>
-         <blockquote>алтын шыбап сабына, ай балта соктуң болоттон стих. ты сковал секиру из стали, позолотив её рукоять.</blockquote>
-      </homonym>
-   </card>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>шайыр</k>
+		<homonym>
+			<blockquote>жизнерадостный, весёлый, весельчак; бодрый;</blockquote>
+			<blockquote>шайыр болбой, эр болбойт погов. кто не весел, тот не молодец;</blockquote>
+			<blockquote>шайыр мүнөз весёлый нрав, весёлого нрава (человек).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>редко</meta>
+			<blockquote>поэт.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шарп</k>
+		<homonym>
+			<blockquote>ящур (болезнь скота).</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>подражание сильному, резкому удару;</blockquote>
+			<blockquote>шарп-шарп этип келип, көл толкуну жарга согулат волны озера с силой ударяются о крутой берег.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шериктеш</k>
+		<homonym>
+			<blockquote>соучастник в товариществе или в каком-л. деле;</blockquote>
+			<blockquote>буудайдын өрттөнгөнүнө да, айгырдын жоголгонуна да ошол шериктеш и пшеница сгорела, и жеребец пропал не без его участия.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>объединяться в товарищество; делать что-л. на компанейских началах; соучаствовать в каком-л. деле;</blockquote>
+			<blockquote>шериктешип иште- работать на началах товарищества.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шордот-</k>
+		<homonym>
+			<caus word="шордо" index="1"/>
+			<blockquote>мал шордот- пускать скот на солонец;</blockquote>
+			<blockquote>алты күнү жатам деп, мал шордотуп алам деп фольк. мол, шесть дней я (здесь) пробуду, скот, мол, пущу на солонец.</blockquote>
+		</homonym>
+		<homonym>
+			<caus word="шордо" index="2"/>
+			<blockquote>ал-абалын шордотту он довёл его до несчастья.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шоролуу</k>
+		<homonym>
+			<blockquote>(о глазах) гнойный;</blockquote>
+			<blockquote>жашы агып, кызарып турган шоролуу көздөрү его слезящиеся красные гнойные глаза.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>поросший лебедой;</blockquote>
+			<blockquote>алабата-шоролуу - төөнүн жери кең Талас фольк. поросший лебедой просторный Талас (Таласская долина) - земля (удобная) для верблюдов.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шпиондук</k>
+		<homonym>
+			<sameas word="шпионаж"/>
+		</homonym>
+		<homonym>
+			<blockquote>шпионский;</blockquote>
+			<blockquote>шпиондук маалыматтар шпионские сведения;</blockquote>
+			<blockquote>шпиондук тапшырмалар шпионские задания.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шүйшүн</k>
+		<homonym>
+			<sameas word="шүүшүн"/>
+		</homonym>
+		<homonym>
+			<blockquote>восхищаться, приятно удивляться; смотреть с восхищением;</blockquote>
+			<blockquote>базарда да, конокто да ар качан шүйшүнгөнүң биздин жаңгак то, чем ты и на базаре и в гостях восхищаешься, - наш грецкий орех;</blockquote>
+			<blockquote>карачы, калың жашыл карагайды, шүйшүнүп ким да болсо карабайбы? смотри-ка, (вот) наши зелёные ели; разве каждый не смотрит (на них) с восхищением?</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шыба</k>
+		<homonym>
+			<origin>ар.</origin>
+			<pair word="шек"/>
+		</homonym>
+		<homonym>
+			<blockquote>мазать, штукатурить, покрывать тонким слоем чего-л.;</blockquote>
+			<blockquote>дубалдарды шыбап койдум я оштукатурил стены;</blockquote>
+			<blockquote>алтын шыба- золотить, покрывать тонким слоем золота;</blockquote>
+			<blockquote>алтын шыбап сабына, ай балта соктуң болоттон стих. ты сковал секиру из стали, позолотив её рукоять.</blockquote>
+		</homonym>
+	</card>
 </root>

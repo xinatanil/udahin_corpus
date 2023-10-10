@@ -1,84 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:foo="http://whatever"
-       xmlns:saxon="http://saxon.sf.net/"
-       xmlns:xs="http://www.w3.org/2001/XMLSchema">
-   <card>
-      <k>шайы</k>
-      <homonym>
-         <origin>ир.</origin>
-         <blockquote>канаус; шёлковая ткань.</blockquote>
-      </homonym>
-      <homonym>
-         <origin>ир.</origin>
-         <meta>чатк.</meta>
-         <blockquote>коромысло весов.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шараат</k>
-      <homonym>
-         <sameas word="шарият"/>
-      </homonym>
-      <homonym>
-         <sameas word="ишарат"/>
-         <blockquote>башын ийкеп, шараат кылып кивая головой и (тем самым) подавая знак.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шордо-</k>
-      <homonym>
-         <blockquote>(о скоте) лизать солонец.</blockquote>
-      </homonym>
-      <homonym>
-         <blockquote>мучиться, испытывать муки.</blockquote>
-      </homonym>
-   </card>
-   <card>
-      <k>шыбоо</k>
-      <homonym>
-         <blockquote>запах пота от ног;</blockquote>
-         <blockquote>бутунун шыбоосу бар у него от ног запах.</blockquote>
-      </homonym>
-      <homonym>
-         <actionNoun word="шыба" index="2"/>
-      </homonym>
-   </card>
-   <card>
-      <k>шыйпыр</k>
-      <homonym>
-         <meta>разг.</meta>
-         <sameas word="шифер"/>
-      </homonym>
-      <homonym>
-         <meta>разг.</meta>
-         <sameas word="сыйпыр"/>
-      </homonym>
-   </card>
-   <card>
-      <k>шыктаныш</k>
-      <homonym>
-         <actionNoun word="шыктан"/>
-      </homonym>
-      <homonym>
-         <recv word="шыктан"/>
-      </homonym>
-   </card>
-   <card>
-      <k>шырык</k>
-      <homonym>
-         <blockquote>строчка, прострачивание (когда материя складывается в два или несколько слоёв).</blockquote>
-      </homonym>
-      <homonym>
-         <sameas word="шыргый"/>
-      </homonym>
-   </card>
-   <card>
-      <k>шырыкта-</k>
-      <homonym>
-         <blockquote>похрустывать, пощёлкивать (напр. суставами пальцев).</blockquote>
-      </homonym>
-      <homonym>
-         <blockquote>окуривать (знахарский способ лечения).</blockquote>
-      </homonym>
-   </card>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>шайы</k>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>канаус; шёлковая ткань.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>чатк.</meta>
+			<blockquote>коромысло весов.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шараат</k>
+		<homonym>
+			<sameas word="шарият"/>
+		</homonym>
+		<homonym>
+			<sameas word="ишарат"/>
+			<blockquote>башын ийкеп, шараат кылып кивая головой и (тем самым) подавая знак.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шордо-</k>
+		<homonym>
+			<blockquote>(о скоте) лизать солонец.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мучиться, испытывать муки.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>шыбоо</k>
+		<homonym>
+			<blockquote>запах пота от ног;</blockquote>
+			<blockquote>бутунун шыбоосу бар у него от ног запах.</blockquote>
+		</homonym>
+		<homonym>
+			<actionNoun word="шыба" index="2"/>
+		</homonym>
+	</card>
+	<card>
+		<k>шыйпыр</k>
+		<homonym>
+			<meta>разг.</meta>
+			<sameas word="шифер"/>
+		</homonym>
+		<homonym>
+			<meta>разг.</meta>
+			<sameas word="сыйпыр"/>
+		</homonym>
+	</card>
+	<card>
+		<k>шыктаныш</k>
+		<homonym>
+			<actionNoun word="шыктан"/>
+		</homonym>
+		<homonym>
+			<recv word="шыктан"/>
+		</homonym>
+	</card>
+	<card>
+		<k>шырык</k>
+		<homonym>
+			<blockquote>строчка, прострачивание (когда материя складывается в два или несколько слоёв).</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="шыргый"/>
+		</homonym>
+	</card>
+	<card>
+		<k>шырыкта-</k>
+		<homonym>
+			<blockquote>похрустывать, пощёлкивать (напр. суставами пальцев).</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>окуривать (знахарский способ лечения).</blockquote>
+		</homonym>
+	</card>
 </root>
