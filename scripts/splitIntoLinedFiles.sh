@@ -19,3 +19,18 @@ saxon -xsl:extractHomonyms_3.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/homonyms_3.xml
 saxon -xsl:extractHomonyms_4.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/homonyms_4.xml
 saxon -xsl:extractHomonyms_5.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/homonyms_5.xml
 saxon -xsl:extractHomonyms_minicards.xsl -s:$WIP_FILE -o:$LETTER_FOLDER/homonyms_minicards.xml
+
+cd $LETTER_FOLDER
+
+files=(*)
+
+for file in "${files[@]}"; do
+    fileExtension="${filename##*.}"
+    filename_no_extension="${filename%.*}"
+    fileAfterLinting="${filename_no_extension}_after_linting.${fileExtension}"
+    
+    export XMLLINT_INDENT=$'\t'
+    xmllint --format - < $file > $fileAfterLinting
+    rm $file
+    mv $fileAfterLinting $file
+done
