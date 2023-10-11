@@ -2,14 +2,16 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шантаж</k>
+		<pos>n</pos>
 		<trn>шантаж</trn>
 	</card>
 	<card>
-		<k>шантажист</k>
+		<pos>n</pos>
 		<trn>шантажист</trn>
 	</card>
 	<card>
 		<k>шаровка</k>
+		<pos>n</pos>
 		<meta>с.-х.</meta>
 		<trn>шаровка</trn>
 	</card>
