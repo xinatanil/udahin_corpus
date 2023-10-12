@@ -6,6 +6,7 @@
 		<trn>шантаж</trn>
 	</card>
 	<card>
+		<k>шантажист</k>
 		<pos>n</pos>
 		<trn>шантажист</trn>
 	</card>
@@ -17,142 +18,176 @@
 	</card>
 	<card>
 		<k>шахматист</k>
+		<pos>n</pos>
 		<trn>шахматист</trn>
 	</card>
 	<card>
 		<k>шахта</k>
+		<pos>n</pos>
 		<trn>шахта</trn>
 	</card>
 	<card>
 		<k>швейцар</k>
+		<pos>n</pos>
 		<trn>швейцар</trn>
 	</card>
 	<card>
 		<k>шедевр</k>
+		<pos>n</pos>
 		<trn>шедевр</trn>
 	</card>
 	<card>
 		<k>шестерня</k>
+		<pos>n</pos>
 		<meta>тех.</meta>
 		<trn>шестерня</trn>
 	</card>
 	<card>
 		<k>шинель</k>
+		<pos>n</pos>
 		<trn>шинель</trn>
 	</card>
 	<card>
 		<k>шифер</k>
+		<pos>n</pos>
 		<trn>шифер</trn>
 	</card>
 	<card>
 		<k>шифр</k>
+		<pos>n</pos>
 		<trn>шифр</trn>
 	</card>
 	<card>
 		<k>шкаф</k>
+		<pos>n</pos>
 		<trn>шкаф</trn>
 	</card>
 	<card>
 		<k>шлагбаум</k>
+		<pos>n</pos>
 		<trn>шлагбаум</trn>
 	</card>
 	<card>
 		<k>шлак</k>
+		<pos>n</pos>
 		<trn>шлак</trn>
 	</card>
 	<card>
 		<k>шлакобетон</k>
+		<pos>n</pos>
 		<trn>шлакобетон</trn>
 	</card>
 	<card>
 		<k>шлифовщик</k>
+		<pos>n</pos>
 		<trn>шлифовщик</trn>
 	</card>
 	<card>
 		<k>шлифовщица</k>
+		<pos>n</pos>
 		<trn>шлифовщица</trn>
 	</card>
 	<card>
 		<k>шлюз</k>
+		<pos>n</pos>
 		<trn>шлюз</trn>
 	</card>
 	<card>
 		<k>шлюпка</k>
+		<pos>n</pos>
 		<trn>шлюпка</trn>
 	</card>
 	<card>
 		<k>шляпа</k>
+		<pos>n</pos>
 		<trn>шляпа</trn>
 	</card>
 	<card>
 		<k>шовинизм</k>
+		<pos>n</pos>
 		<trn>шовинизм</trn>
 	</card>
 	<card>
 		<k>шовинист</k>
+		<pos>n</pos>
 		<trn>шовинист</trn>
 	</card>
 	<card>
 		<k>шоссе</k>
+		<pos>n</pos>
 		<trn>шоссе</trn>
 	</card>
 	<card>
 		<k>шпаргалка</k>
+		<pos>n</pos>
 		<trn>шпаргалка</trn>
 	</card>
 	<card>
 		<k>шпион</k>
+		<pos>n</pos>
 		<trn>шпион</trn>
 	</card>
 	<card>
 		<k>шпионаж</k>
+		<pos>n</pos>
 		<trn>шпионаж</trn>
 	</card>
 	<card>
 		<k>шприц</k>
+		<pos>n</pos>
 		<trn>шприц</trn>
 	</card>
 	<card>
 		<k>шрифт</k>
+		<pos>n</pos>
 		<trn>шрифт</trn>
 	</card>
 	<card>
 		<k>штамп</k>
+		<pos>n</pos>
 		<trn>штамп</trn>
 	</card>
 	<card>
 		<k>штангист</k>
+		<pos>n</pos>
 		<trn>штангист</trn>
 	</card>
 	<card>
 		<k>штемпель</k>
+		<pos>n</pos>
 		<trn>штемпель</trn>
 	</card>
 	<card>
 		<k>штепсель</k>
+		<pos>n</pos>
 		<trn>штепсель</trn>
 	</card>
 	<card>
 		<k>штопор</k>
+		<pos>n</pos>
 		<trn>штопор</trn>
 	</card>
 	<card>
 		<k>штрейкбрехер</k>
+		<pos>n</pos>
 		<trn>штрейкбрехер</trn>
 	</card>
 	<card>
 		<k>штрек</k>
+		<pos>n</pos>
 		<meta>горн.</meta>
 		<trn>штрек</trn>
 	</card>
 	<card>
 		<k>штрих</k>
+		<pos>n</pos>
 		<meta>прям.</meta>
 		<meta>перен.</meta>
 		<trn>штрих</trn>
 	</card>
 	<card>
 		<k>штык</k>
+		<pos>n</pos>
 		<trn>штык</trn>
 	</card>
 </root>
