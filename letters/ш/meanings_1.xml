@@ -1,398 +1,439 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<card>
-		<k>шагалак</k>
-		<meta>южн.</meta>
-		<meaning>
-			<sameas word="малта" index="1"/>
-		</meaning>
-		<meaning>
-			<blockquote>нераспустившиеся в воде и осевшие на дно остатки курта (см. курут I).</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шайке</k>
-		<origin>р.</origin>
-		<meta>разг.</meta>
-		<meaning>
-			<blockquote>шайка (банда);</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>член шайки, бандит.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шайланма</k>
-		<meaning>
-			<blockquote>отборный;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>уст.</meta>
-			<sameas word="шайлануучу"/>
-		</meaning>
-	</card>
-	<card>
-		<k>шайлоочу</k>
-		<meaning>
-			<blockquote>избиратель;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>выборщик.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шайманда-</k>
-		<meaning>
-			<blockquote>оборудовать; снарядить;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>убрать (нарядить, украсить).</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шакелде-</k>
-		<meaning>
-			<blockquote>(о лошади) есть корм, оставляя объедья;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>(о человеке) хватать кусок за куском и, не доев, бросать.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шакмар</k>
-		<meaning>
-			<blockquote>слипшаяся от кала шерсть под курдюком или хвостом у барана, овцы;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>перен.</meta>
-			<blockquote>чумазый.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шалпылдама</k>
-		<meaning>
-			<blockquote>отвислый, болтающийся;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>хлюпкий.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шалча</k>
-		<origin>ир.</origin>
-		<meaning>
-			<blockquote>палас;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>паласная попона (без войлочной подкладки).</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шанаңтай</k>
-		<meta>южн.</meta>
-		<meaning>
-			<sameas word="буйла" index="1" subindex="1"/>
-		</meaning>
-		<meaning>
-			<sameas word="кетирекей"/>
-		</meaning>
-	</card>
-	<card>
-		<k>шапалак</k>
-		<meaning>
-			<meta>южн.</meta>
-			<blockquote>ладонь;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>южн.</meta>
-			<meta>перен.</meta>
-			<blockquote>пощёчина;</blockquote>
-		</meaning>
-		<meaning>
-			<anchorRef word="камчы" anchor="шапалак камчы"/>
-		</meaning>
-	</card>
-	<card>
-		<k>шапшыма</k>
-		<meta>сев.</meta>
-		<meaning>
-			<blockquote>то же, что чыктаган эт (но с большим количеством бульона; см. чыкта- II);</blockquote>
-		</meaning>
-		<meaning>
-			<meta>перен.</meta>
-			<blockquote>пустомеля, болтун.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шарапаттуу</k>
-		<meaning>
-			<blockquote>благородный;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>священный.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шаркырама</k>
-		<meaning>
-			<blockquote>(о воде) бурлящий, бурный;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>женск.</meta>
-			<blockquote>вода.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шатала</k>
-		<meaning>
-			<blockquote>грязнуля, замазуля (гл. обр. о детях);</blockquote>
-		</meaning>
-		<meaning>
-			<sameas word="шатырак"/>
-		</meaning>
-	</card>
-	<card>
-		<k>шаты</k>
-		<meaning>
-			<meta>(ср. тепкич 2) лестница (приставная большая)</meta>
-		</meaning>
-		<meaning>
-			<blockquote>поперечная перекладина на верблюжьем седле;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>оглобли чийне (см.).</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шашкалактык</k>
-		<meaning>
-			<blockquote>поспешность, торопливость;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>растерянность.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шаштыр-</k>
-		<caus word="шаш"/>
-		<meaning>
-			<blockquote>торопить;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>приводить в замешательство.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шибеңде-</k>
-		<meaning>
-			<blockquote>(о животном) быть ловким, проворным;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>(о человеке) быть пронырливым.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шимек</k>
-		<meaning>
-			<blockquote>трубочка для стекания мочи, вставляемая между ног ребёнка, лежащего в колыбели;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>стержень, соединяющий мельничное колесо с шипом; шип, вращающий верхний жёрнов ручной мельницы.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>ширгеле-</k>
-		<meaning>
-			<blockquote>надевать на морду жеребёнка намордник (см. ширге 1);</blockquote>
-		</meaning>
-		<meaning>
-			<meta>тяньш.</meta>
-			<meta>ист.</meta>
-			<sameas word="шириле"/>
-			<blockquote>кара бетин ширгелеп, какшаталы сөөгүн стих. наденем-ка ему на голову ширге (см. ширге 4), помнём-ка ему кости.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>ширенди</k>
-		<meaning>
-			<blockquote>сметённый ветром и сильно затвердевший снег;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>шлак, окалина.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>ширет-</k>
-		<caus word="шире" index="3"/>
-		<meaning>
-			<blockquote>сваривать (железо, сталь);</blockquote>
-		</meaning>
-		<meaning>
-			<meta>прям.</meta>
-			<meta>перен.</meta>
-			<blockquote>закалять.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>ширеш-</k>
-		<recv word="шире" index="3"/>
-		<meaning>
-			<blockquote>слипаться, срастаться;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>(о металле) свариваться.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>ширөө</k>
-		<meaning>
-			<actionNoun word="шире" index="3"/>
-		</meaning>
-		<meaning>
-			<blockquote>металлические опилки;</blockquote>
-			<blockquote>алтын менен күмүштүн ширөөсүнөн бүткөндөй фольк. он создан как бы из золотой и серебряной пыли.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шишек</k>
-		<meaning>
-			<blockquote>двухлетний валух;</blockquote>
-			<blockquote>жаман кой шишегинде карыйт погов. дрянной баран в двухлетнем возрасте стареет;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>южн.</meta>
-			<sameas word="кочкорок"/>
-		</meaning>
-	</card>
-	<card>
-		<k>шоодурак</k>
-		<meaning>
-			<blockquote>жестковатый (напр. о пере птицы);</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>шуршащий.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шорек</k>
-		<origin>ир.</origin>
-		<meta>южн.</meta>
-		<meaning>
-			<sameas word="алабата"/>
-		</meaning>
-		<meaning>
-			<blockquote>горох, варенный в солёной воде.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шуркуялык</k>
-		<meta>уст.</meta>
-		<meaning>
-			<blockquote>положение женщины вольного поведения;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>озорство, отчаянность (женщины).</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шыбырчы</k>
-		<meaning>
-			<blockquote>шептун;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>уст.</meta>
-			<blockquote>суфлёр.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шыйпалакта-</k>
-		<meaning>
-			<blockquote>вилять хвостом;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>перен.</meta>
-			<blockquote>угодничать, лебезить.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шыкыбал</k>
-		<meaning>
-			<blockquote>авторитет, почёт;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>счастье.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шыкыбалдуу</k>
-		<meaning>
-			<blockquote>авторитетный, почётный;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>счастливый.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шылдырама</k>
-		<meaning>
-			<blockquote>журчащий, шуршащий;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>название мелодии, исполняемой на комузе.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шылкылдаш-</k>
-		<meaning>
-			<recv word="шылкылда"/>
-		</meaning>
-		<meaning>
-			<meta>перен.</meta>
-			<blockquote>заигрывать (кокетничать, ухаживать).</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шыпырма</k>
-		<meaning>
-			<meta>тяньш.</meta>
-			<blockquote>сильно разваренное мясо ягнёнка-сосунка;</blockquote>
-		</meaning>
-		<meaning>
-			<meta>южн.</meta>
-			<blockquote>шапка с очень узкой опушкой.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шыргоол</k>
-		<meta>тяньш.</meta>
-		<meaning>
-			<blockquote>вид тала;</blockquote>
-		</meaning>
-		<meaning>
-			<blockquote>обрешетины на крыше.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шырдак</k>
-		<meaning>
-			<blockquote>текимет (шитый в два слоя орнаментированный войлок);</blockquote>
-		</meaning>
-		<meaning>
-			<meta>южн.</meta>
-			<blockquote>потник.</blockquote>
-		</meaning>
-	</card>
-	<card>
-		<k>шырдамал</k>
-		<meaning>
-			<meta>южн.</meta>
-			<sameas word="шырдак" subindex="1"/>
-		</meaning>
-		<meaning>
-			<meta>сев.</meta>
-			<meta>ирон.</meta>
-			<blockquote>весь в заплатах, заплата на заплате;</blockquote>
-			<blockquote>көйнөгү шырдамал болуп кетти у неё всё платье в заплатах.</blockquote>
-		</meaning>
-	</card>
+<root xmlns:foo="http://whatever"
+       xmlns:saxon="http://saxon.sf.net/"
+       xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <card>
+      <k>шагалак</k>
+      <pos>n</pos>
+      <meta>южн.</meta>
+      <meaning>
+         <sameas word="малта" index="1"/>
+      </meaning>
+      <meaning>
+         <trn>нераспустившиеся в воде и осевшие на дно остатки курта (см. курут I).</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шайке</k>
+      <pos>n</pos>
+      <origin>р.</origin>
+      <meta>разг.</meta>
+      <meaning>
+         <trn>шайка (банда);</trn>
+      </meaning>
+      <meaning>
+         <trn>член шайки, бандит.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шайланма</k>
+      <pos>adj</pos>
+      <meaning>
+         <trn>отборный;</trn>
+      </meaning>
+      <meaning>
+         <meta>уст.</meta>
+         <sameas word="шайлануучу"/>
+      </meaning>
+   </card>
+   <card>
+      <k>шайлоочу</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>избиратель;</trn>
+      </meaning>
+      <meaning>
+         <trn>выборщик.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шайманда</k>
+      <pos>v</pos>
+      <meaning>
+         <trn>оборудовать; снарядить;</trn>
+      </meaning>
+      <meaning>
+         <trn>убрать (нарядить, украсить).</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шакелде</k>
+      <pos>v</pos>
+      <meaning>
+         <trn>(о лошади) есть корм, оставляя объедья;</trn>
+      </meaning>
+      <meaning>
+         <trn>(о человеке) хватать кусок за куском и, не доев, бросать.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шакмар</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>слипшаяся от кала шерсть под курдюком или хвостом у барана, овцы;</trn>
+      </meaning>
+      <meaning>
+         <meta>перен.</meta>
+         <trn>чумазый.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шалпылдама</k>
+      <pos>adj</pos>
+      <meaning>
+         <trn>отвислый, болтающийся;</trn>
+      </meaning>
+      <meaning>
+         <trn>хлюпкий.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шалча</k>
+      <pos>n</pos>
+      <origin>ир.</origin>
+      <meaning>
+         <trn>палас;</trn>
+      </meaning>
+      <meaning>
+         <trn>паласная попона (без войлочной подкладки).</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шанаңтай</k>
+      <pos>adj</pos>
+      <meta>южн.</meta>
+      <meaning>
+         <sameas word="буйла" index="1" subindex="1"/>
+      </meaning>
+      <meaning>
+         <sameas word="кетирекей"/>
+      </meaning>
+   </card>
+   <card>
+      <k>шапалак</k>
+      <pos>n</pos>
+      <meaning>
+         <meta>южн.</meta>
+         <trn>ладонь;</trn>
+      </meaning>
+      <meaning>
+         <meta>южн.</meta>
+         <meta>перен.</meta>
+         <trn>пощёчина;</trn>
+      </meaning>
+      <meaning>
+         <anchorRef word="камчы" anchor="шапалак камчы"/>
+      </meaning>
+   </card>
+   <card>
+      <k>шапшыма</k>
+      <pos>n</pos>
+      <meta>сев.</meta>
+      <meaning>
+         <trn>то же, что чыктаган эт (но с большим количеством бульона; см. чыкта- II);</trn>
+      </meaning>
+      <meaning>
+         <meta>перен.</meta>
+         <trn>пустомеля, болтун.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шарапаттуу</k>
+      <pos>adj</pos>
+      <meaning>
+         <trn>благородный;</trn>
+      </meaning>
+      <meaning>
+         <trn>священный.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шаркырама</k>
+      <pos>adj</pos>
+      <meaning>
+         <trn>(о воде) бурлящий, бурный;</trn>
+      </meaning>
+      <meaning>
+         <meta>женск.</meta>
+         <trn>вода.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шатала</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>грязнуля, замазуля (гл. обр. о детях);</trn>
+      </meaning>
+      <meaning>
+         <sameas word="шатырак"/>
+      </meaning>
+   </card>
+   <card>
+      <k>шаты</k>
+      <pos>n</pos>
+      <meaning>
+         <meta>(ср. тепкич 2) лестница (приставная большая)</meta>
+      </meaning>
+      <meaning>
+         <trn>поперечная перекладина на верблюжьем седле;</trn>
+      </meaning>
+      <meaning>
+         <trn>оглобли чийне (см.).</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шашкалактык</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>поспешность, торопливость;</trn>
+      </meaning>
+      <meaning>
+         <trn>растерянность</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шаштыр</k>
+      <pos>v</pos>
+      <caus word="шаш"/>
+      <meaning>
+         <trn>торопить;</trn>
+      </meaning>
+      <meaning>
+         <trn>приводить в замешательство.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шибеңде</k>
+      <pos>v</pos>
+      <meaning>
+         <trn>(о животном) быть ловким, проворным;</trn>
+      </meaning>
+      <meaning>
+         <trn>(о человеке) быть пронырливым.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шимек</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>трубочка для стекания мочи, вставляемая между ног ребёнка, лежащего в колыбели;</trn>
+      </meaning>
+      <meaning>
+         <trn>стержень, соединяющий мельничное колесо с шипом; шип, вращающий верхний жёрнов ручной мельницы.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>ширгеле</k>
+      <pos>v</pos>
+      <meaning>
+         <trn>надевать на морду жеребёнка намордник (см. ширге 1);</trn>
+      </meaning>
+      <meaning>
+         <meta>тяньш.</meta>
+         <meta>ист.</meta>
+         <sameas word="шириле"/>
+         <blockquote>кара бетин ширгелеп, какшаталы сөөгүн стих.@@ наденем-ка ему на голову ширге (см. ширге 4), помнём-ка ему кости.</blockquote>
+      </meaning>
+   </card>
+   <card>
+      <k>ширенди</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>сметённый ветром и сильно затвердевший снег;</trn>
+      </meaning>
+      <meaning>
+         <trn>шлак, окалина.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>ширет</k>
+      <pos>v</pos>
+      <caus word="шире" index="3"/>
+      <meaning>
+         <trn>сваривать (железо, сталь);</trn>
+      </meaning>
+      <meaning>
+         <meta>прям.</meta>
+         <meta>перен.</meta>
+         <trn>закалять.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>ширеш</k>
+      <pos>v</pos>
+      <recv word="шире" index="3"/>
+      <meaning>
+         <trn>слипаться, срастаться;</trn>
+      </meaning>
+      <meaning>
+         <trn>(о металле) свариваться.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>ширөө</k>
+      <pos>n</pos>
+      <meaning>
+         <actionNoun word="шире" index="3"/>
+      </meaning>
+      <meaning>
+         <trn>металлические опилки;</trn>
+         <blockquote>алтын менен күмүштүн ширөөсүнөн бүткөндөй фольк.@@ он создан как бы из золотой и серебряной пыли.</blockquote>
+      </meaning>
+   </card>
+   <card>
+      <k>шишек</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>двухлетний валух;</trn>
+         <blockquote>жаман кой шишегинде карыйт погов.@@ дрянной баран в двухлетнем возрасте стареет;</blockquote>
+      </meaning>
+      <meaning>
+         <meta>южн.</meta>
+         <sameas word="кочкорок"/>
+      </meaning>
+   </card>
+   <card>
+      <k>шоодурак</k>
+      <pos>adj</pos>
+      <meaning>
+         <trn>жестковатый (напр. о пере птицы);</trn>
+      </meaning>
+      <meaning>
+         <trn>шуршащий.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шорек</k>
+      <pos>n</pos>
+      <origin>ир.</origin>
+      <meta>южн.</meta>
+      <meaning>
+         <sameas word="алабата"/>
+      </meaning>
+      <meaning>
+         <trn>горох, варенный в солёной воде.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шуркуялык</k>
+      <pos>n</pos>
+      <meta>уст.</meta>
+      <meaning>
+         <trn>положение женщины вольного поведения;</trn>
+      </meaning>
+      <meaning>
+         <trn>озорство, отчаянность (женщины).</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шыбырчы</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>шептун;</trn>
+      </meaning>
+      <meaning>
+         <meta>уст.</meta>
+         <trn>суфлёр.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шыйпалакта</k>
+      <pos>v</pos>
+      <meaning>
+         <trn>вилять хвостом;</trn>
+      </meaning>
+      <meaning>
+         <meta>перен.</meta>
+         <trn>угодничать, лебезить.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шыкыбал</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>авторитет, почёт;</trn>
+      </meaning>
+      <meaning>
+         <trn>счастье.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шыкыбалдуу</k>
+      <pos>adj</pos>
+      <meaning>
+         <trn>авторитетный, почётный;</trn>
+      </meaning>
+      <meaning>
+         <trn>счастливый.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шылдырама</k>
+      <pos>n</pos>
+      <meaning>
+         <trn>журчащий, шуршащий;</trn>
+      </meaning>
+      <meaning>
+         <trn>название мелодии, исполняемой на комузе.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шылкылдаш</k>
+      <pos>v</pos>
+      <meaning>
+         <recv word="шылкылда"/>
+      </meaning>
+      <meaning>
+         <meta>перен.</meta>
+         <trn>заигрывать (кокетничать, ухаживать).</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шыпырма</k>
+      <pos>n</pos>
+      <meaning>
+         <meta>тяньш.</meta>
+         <trn>сильно разваренное мясо ягнёнка-сосунка;</trn>
+      </meaning>
+      <meaning>
+         <meta>южн.</meta>
+         <trn>шапка с очень узкой опушкой.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шыргоол</k>
+      <pos>n</pos>
+      <meta>тяньш.</meta>
+      <meaning>
+         <trn>вид тала;</trn>
+      </meaning>
+      <meaning>
+         <trn>обрешетины на крыше.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шырдак<k>
+      <pos>n</pos>
+      <meaning>
+         <trn>текимет (шитый в два слоя орнаментированный войлок);</trn>
+      </meaning>
+      <meaning>
+         <meta>южн.</meta>
+         <trn>потник.</trn>
+      </meaning>
+   </card>
+   <card>
+      <k>шырдамал</k>
+      <pos>n</pos>
+      <meaning>
+         <meta>южн.</meta>
+         <sameas word="шырдак" subindex="1"/>
+      </meaning>
+      <meaning>
+         <meta>сев.</meta>
+         <meta>ирон.</meta>
+         <trn>весь в заплатах, заплата на заплате;</trn>
+         <blockquote>көйнөгү шырдамал болуп кетти@@ у неё всё платье в заплатах.</blockquote>
+      </meaning>
+   </card>
 </root>
