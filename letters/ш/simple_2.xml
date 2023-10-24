@@ -6,7 +6,8 @@
       <k>шаабат</k>
       <pos>adv</pos>
       <origin>ар.</origin>
-       <meta>редко,эвф.</meta>
+       <meta>редко</meta>
+       <meta>эвф.</meta>
       <trn>сперма.</trn>
    </card>
    <card>
@@ -56,9 +57,7 @@
    <card>
       <k>шагом</k>
       <pos>adv</pos>
-      <origin>р.</origin>
-      <blockquote>см.</blockquote>
-      <trn>марш.</trn>
+      <blockquote>см. марш.</blockquote>
    </card>
    <card>
       <k>шайбырла-</k>
@@ -69,7 +68,7 @@
    <card>
       <k>шайбырлан-</k>
       <pos>v</pos>
-      <trn>возвр. от шайбырла-,</trn>
+      <blockquote>возвр. от шайбырла-</blockquote>
       <sameas word="шайбырла"/>
       <blockquote>Камалбек чоочун кишинин көзүнчө бүжүрөп бүкчүйүңкүрөй басканы менен, киши жок жерде шайбырланган аттай кете турган@@ Камалбек при посторонних людях ходил ссутулившись, сгорбившись, а когда никого не было, бежал как резвый иноходец.</blockquote>
    </card>
@@ -156,7 +155,7 @@
    <card>
       <k>шакмарлан-</k>
       <pos>v</pos>
-      <trn>возвр. от шакмарла-,</trn>
+      <blockquote>возвр. от шакмарла-</blockquote>
       <sameas word="шакмарла"/>
       <blockquote>куйругу шакмарланып калганын көрдү@@ он увидел, что хвост (осла) покрылся грязью.</blockquote>
    </card>
@@ -281,7 +280,7 @@
    <card>
       <k>шамалкөй</k>
       <pos>adj</pos>
-      <origin>кирг.- ир.</origin>
+      <origin>кирг.-ир.</origin>
       <meta>тяньш.</meta>
       <trn>(о погоде) ветреный;</trn>
       <blockquote>шамалкөй жыл@@ ветреный год.</blockquote>
@@ -372,7 +371,7 @@
    <card>
       <k>шарта</k>
       <pos>ideo</pos>
-      <trn>подражательное слово</trn>
+      <meta>подражательное слово</meta>
       <minicard>
          <k>шарта-шурта</k>
          <origin>ир.</origin>
@@ -410,7 +409,7 @@
    <card>
       <k>шатыр</k>
       <pos>ideo</pos>
-      <trn>подражательное слово;</trn>
+      <meta>подражательное слово;</meta>
       <blockquote>шатыр-шутур## трескотня, стукотня; сильный топот множества ног.</blockquote>
    </card>
    <card>
@@ -527,7 +526,7 @@
    <card>
       <k>шилтен-</k>
       <pos>v</pos>
-      <trn>возв. от шилте- II;</trn>
+      <blockquote>возвр. от шилте- II;</blockquote>
       <blockquote>бут шилтенбей, тил күрмөлбөй, көчөлөрдө түнөдү стих.@@ (о пьянице) ноги не двигались, язык не ворочался, ночевал он на улице.</blockquote>
    </card>
    <card>
@@ -566,7 +565,7 @@
       <blockquote>үч шиңгил жүзүм@@ три кисточки винограда.</blockquote>
    </card>
    <card>
-      <k>ширеңкана,</k>
+      <k>ширеңкана</k>
       <pos>n</pos>
       <alter>ширеңкана, ширеңкене, шириңкана</alter>
       <origin>ир.</origin>
