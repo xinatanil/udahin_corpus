@@ -4,13 +4,22 @@
 		<k>шардан</k>
 		<homonym>
 			<sameas word="шар" index="2"/>
-			<blockquote>элдин кур шарданында гана жүрүп калган@@ он двинулся только потому, что хлынули толпы народа; он двинулся, только глядя на других;</blockquote>
-			<blockquote>Кийизбай бай өзүн элдин ушул шарданында жүргөндөй көрсөттү@@ богач Кийизбай делал вид, что он поступает так, только следуя другим.</blockquote>
+			<ex>
+				<source>элдин кур шарданында гана жүрүп калган</source>
+				<target>он двинулся только потому, что хлынули толпы народа; он двинулся, только глядя на других;</target>
+			</ex>
+			<ex>
+				<source>Кийизбай бай өзүн элдин ушул шарданында жүргөндөй көрсөттү</source>
+				<target>богач Кийизбай делал вид, что он поступает так, только следуя другим.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<meaning>
 				<trn>бурлить, бушевать;</trn>
-				<blockquote>толкуган көлдөй шарданып фольк.@@ бушуя, будто волнующееся озеро;</blockquote>
+				<ex>
+					<source>толкуган көлдөй шарданып фольк.</source>
+					<target>бушуя, будто волнующееся озеро;</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
@@ -26,7 +35,10 @@
 			</meaning>
 			<meaning>
 				<trn>метлица;</trn>
-				<blockquote>кара шибер@@ мятлик луковичный.</blockquote>
+				<ex>
+					<source>кара шибер</source>
+					<target>мятлик луковичный.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -34,23 +46,38 @@
 			<meta>ист.</meta>
 			<meta>разг.</meta>
 			<trn>Сибирь (как место каторжных работ и ссылки), каторга;</trn>
-			<blockquote>Шиберге айда-## сослать на каторгу или в ссылку;</blockquote>
-			<blockquote>Шиберге айдалган@@1 сослан на каторгу.</blockquote>
+			<minicard>
+				<k>Шиберге айда-</k>
+				<trn>сослать на каторгу или в ссылку;</trn>
+				<ex>
+					<source>Шиберге айдалган</source>
+					<target>сослан на каторгу.</target>
+				</ex>
+			</minicard>
 		</homonym>
 	</card>
 	<card>
 		<k>шип</k>
 		<homonym>
 			<trn>усиление к словам, начинающимся на ши;</trn>
-			<blockquote>шипширин## сладкий-сладкий;</blockquote>
-			<blockquote>шипширин сөз@@1 приятное слово, приятная речь.</blockquote>
+			<minicard>
+				<k>шипширин</k>
+				<trn>сладкий-сладкий;</trn>
+				<ex>
+					<source>шипширин сөз</source>
+					<target>приятное слово, приятная речь.</target>
+				</ex>
+			</minicard>
 		</homonym>
 		<homonym>
 			<sameas word="шып" index="2"/>
 		</homonym>
 		<homonym>
 			<trn>подражание быстрому движению;</trn>
-			<blockquote>шип деп чыгып кетти@@ он шмыгнул наружу; он быстро вышел.</blockquote>
+			<ex>
+				<source>шип деп чыгып кетти</source>
+				<target>он шмыгнул наружу; он быстро вышел.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -58,7 +85,10 @@
 		<homonym>
 			<meaning>
 				<trn>опахало из конского хвоста для отмахивания от насекомых;</trn>
-				<blockquote>шыйпаңы менен чымын коруп@@ отгоняя мух опахалом;</blockquote>
+				<ex>
+					<source>шыйпаңы менен чымын коруп</source>
+					<target>отгоняя мух опахалом;</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<meta>перен.</meta>
