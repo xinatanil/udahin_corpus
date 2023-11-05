@@ -4,12 +4,12 @@
 		<k>шайы</k>
 		<homonym>
 			<origin>ир.</origin>
-			<blockquote>канаус; шёлковая ткань.</blockquote>
+			<trn>канаус; шёлковая ткань.</trn>
 		</homonym>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>чатк.</meta>
-			<blockquote>коромысло весов.</blockquote>
+			<trn>коромысло весов.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -19,23 +19,23 @@
 		</homonym>
 		<homonym>
 			<sameas word="ишарат"/>
-			<blockquote>башын ийкеп, шараат кылып кивая головой и (тем самым) подавая знак.</blockquote>
+			<blockquote>башын ийкеп, шараат кылып@@ кивая головой и (тем самым) подавая знак.</blockquote>
 		</homonym>
 	</card>
 	<card>
 		<k>шордо-</k>
 		<homonym>
-			<blockquote>(о скоте) лизать солонец.</blockquote>
+			<trn>(о скоте) лизать солонец.</trn>
 		</homonym>
 		<homonym>
-			<blockquote>мучиться, испытывать муки.</blockquote>
+			<trn>мучиться, испытывать муки.</trn>
 		</homonym>
 	</card>
 	<card>
 		<k>шыбоо</k>
 		<homonym>
-			<blockquote>запах пота от ног;</blockquote>
-			<blockquote>бутунун шыбоосу бар у него от ног запах.</blockquote>
+			<trn>запах пота от ног;</trn>
+			<blockquote>бутунун шыбоосу бар@@ у него от ног запах.</blockquote>
 		</homonym>
 		<homonym>
 			<actionNoun word="шыба" index="2"/>
@@ -64,7 +64,7 @@
 	<card>
 		<k>шырык</k>
 		<homonym>
-			<blockquote>строчка, прострачивание (когда материя складывается в два или несколько слоёв).</blockquote>
+			<trn>строчка, прострачивание (когда материя складывается в два или несколько слоёв).</trn>
 		</homonym>
 		<homonym>
 			<sameas word="шыргый"/>
@@ -73,10 +73,10 @@
 	<card>
 		<k>шырыкта-</k>
 		<homonym>
-			<blockquote>похрустывать, пощёлкивать (напр. суставами пальцев).</blockquote>
+			<trn>похрустывать, пощёлкивать (напр. суставами пальцев).</trn>
 		</homonym>
 		<homonym>
-			<blockquote>окуривать (знахарский способ лечения).</blockquote>
+			<trn>окуривать (знахарский способ лечения).</trn>
 		</homonym>
 	</card>
 </root>
