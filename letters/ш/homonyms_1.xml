@@ -19,7 +19,10 @@
 		</homonym>
 		<homonym>
 			<sameas word="ишарат"/>
-			<blockquote>башын ийкеп, шараат кылып@@ кивая головой и (тем самым) подавая знак.</blockquote>
+			<ex>
+				<source>башын ийкеп, шараат кылып</source>
+				<target>кивая головой и (тем самым) подавая знак.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -35,7 +38,10 @@
 		<k>шыбоо</k>
 		<homonym>
 			<trn>запах пота от ног;</trn>
-			<blockquote>бутунун шыбоосу бар@@ у него от ног запах.</blockquote>
+			<ex>
+				<source>бутунун шыбоосу бар</source>
+				<target>у него от ног запах.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<actionNoun word="шыба" index="2"/>
