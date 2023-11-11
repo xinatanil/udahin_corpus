@@ -877,7 +877,8 @@
 						<trn>хлопковое масло;</trn>
 					</meaning>
 					<meaning>
-						<trn>сев. сливочное масло;</trn>
+						<meta>сев.</meta>
+						<trn>сливочное масло;</trn>
 					</meaning>
 				</minicard>
 				<blockquote>суу май или өсүмдүк майы растительное масло;</blockquote>
@@ -3406,7 +3407,8 @@
 		</homonym>
 		<homonym>
 			<meaning>
-				<blockquote>в разн. знач. марка;</blockquote>
+				<meta>в разн. знач.</meta>
+				<trn>марка</trn>
 				<blockquote>он тыйындык марка десятикопеечная марка (почтовая, гербовая и др.);</blockquote>
 				<blockquote>эски маркадагы автомашина автомашина старой марки;</blockquote>
 			</meaning>
@@ -4922,7 +4924,8 @@
 		<k>мектеп</k>
 		<origin>ар.</origin>
 		<meaning>
-			<blockquote>в разн. знач. школа;</blockquote>
+			<meta>в разн. знач.</meta>
+			<trn>школа</trn>
 			<blockquote>орто мектеп средняя школа;</blockquote>
 			<blockquote>толук эмес орто мектеп неполная средняя школа;</blockquote>
 			<blockquote>жогорку мектеп высшая школа;</blockquote>
@@ -7002,7 +7005,7 @@
 	</card>
 	<card>
 		<k>мобилизация</k>
-		<blockquote>мобилизация.</blockquote>
+		<trn>мобилизация</trn>
 	</card>
 	<card>
 		<k>мобилизацияла-</k>
