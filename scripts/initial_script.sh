@@ -1,4 +1,4 @@
-letterFolder=$1
+letterFolder=../letters/м
 letter_wip=$letterFolder/letter_wip.xml
 letter_after=$letterFolder/letter_after.xml
 after_linting=$letterFolder/after_linting.xml
@@ -22,10 +22,10 @@ saxon -xsl:detect_lexical_meanings.xsl -s:$letter_after -o:$letter_after
 sed -i '' 's/meaning/<meaning>/g' $letter_after
 sed -i '' 's/closingMeaning/<\/meaning>/g' $letter_after
 
-# lint
+lint
 
-# python3 python_script.py $letter_after $letter_after
+python3 python_script.py $letter_after $letter_after
 
-# lint
+lint
 
-# ksdiff $letter_wip $letter_after
+ksdiff $letter_wip $letter_after
