@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маалим</k>
+		<homonym>
+			<sameas word="маалым"/>
+			<blockquote>анын тарыхы баарыга маалим его история всем известна.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="мугалим"/>
+		</homonym>
+	</card>
+	<card>
+		<k>майыр</k>
+		<homonym>
+			<meta>иссык-кульск.</meta>
+			<meta>уст.</meta>
+			<blockquote>валеные полусапожки, надевавшиеся поверх обуви.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>р.</origin>
+			<meta>сев.</meta>
+			<meta>ист.</meta>
+			<blockquote>русский офицер - представитель царской администрации.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>маки</k>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>перочинный нож.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="мекиян"/>
+		</homonym>
+	</card>
+	<card>
+		<k>малыш</k>
+		<homonym>
+			<meta>южн.</meta>
+			<blockquote>метизованная порода овец.</blockquote>
+		</homonym>
+		<homonym>
+			<recv word="мал" index="2"/>
+		</homonym>
+	</card>
+	<card>
+		<k>маңгилик</k>
+		<homonym>
+			<meta>уст.</meta>
+			<blockquote>вечность.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="маңчылык"/>
+		</homonym>
+	</card>
+	<card>
+		<k>маңке</k>
+		<homonym>
+			<meta>разг.</meta>
+			<sameas word="банка"/>
+		</homonym>
+		<homonym>
+			<meta>разг.</meta>
+			<sameas word="банк"/>
+		</homonym>
+	</card>
+	<card>
+		<k>маске</k>
+		<homonym>
+			<meta>разг.</meta>
+			<sameas word="маска"/>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<blockquote>сливочное масло.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мат</k>
+		<homonym>
+			<pair word="ат"/>
+			<blockquote>ат-маты менен жыгылды он упал вместе со своей лошадью.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<blockquote>шахм.</blockquote>
+			<meta>мат.</meta>
+		</homonym>
+	</card>
+	<card>
+		<k>маташ</k>
+		<homonym>
+			<actionNoun word="мата" index="2"/>
+		</homonym>
+		<homonym>
+			<recv word="мата" index="2"/>
+			<blockquote>чаташып-наташып см. чаташ- II 1.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>медерлеш</k>
+		<homonym>
+			<blockquote>помогающие друг другу.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>взаимно служить опорой, помогать друг другу.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мерес</k>
+		<homonym>
+			<sameas word="мерез"/>
+		</homonym>
+		<homonym>
+			<sameas word="мурас"/>
+		</homonym>
+	</card>
+	<card>
+		<k>метел</k>
+		<homonym>
+			<sameas word="мател"/>
+		</homonym>
+		<homonym>
+			<look word="метер"/>
+		</homonym>
+	</card>
+	<card>
+		<k>метрика</k>
+		<homonym>
+			<blockquote>метрика (выписка о рождении).</blockquote>
+		</homonym>
+		<homonym>
+			<meta>лит.</meta>
+			<trn>метрика</trn>
+		</homonym>
+	</card>
+	<card>
+		<k>мис</k>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>медь;</blockquote>
+			<blockquote>мис кен медный рудник.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="миз" index="1"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мүдүрүлүш</k>
+		<homonym>
+			<actionNoun word="мүдүрүл"/>
+			<blockquote>спотыкание.</blockquote>
+		</homonym>
+		<homonym>
+			<recv word="мүдүрүл"/>
+		</homonym>
+	</card>
+	<card>
+		<k>муңайыш</k>
+		<homonym>
+			<actionNoun word="муңай"/>
+			<blockquote>муңайыш менен көзүн жашылдантты в горе она была готова вот-вот пролить слезу.</blockquote>
+		</homonym>
+		<homonym>
+			<recv word="муңай"/>
+			<blockquote>Алёшанын жолдоштору да тымтырс муңайышты спутники Алёши тоже безмолвно печальны.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>муңдаш</k>
+		<homonym>
+			<blockquote>делящийся своими радостями и горестями (прим. см. айлаш).</blockquote>
+		</homonym>
+		<homonym>
+			<recv word="муңда"/>
+		</homonym>
+	</card>
+</root>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маңдайлаш</k>
+		<homonym>
+			<blockquote>(о двух предметах, людях и т.п.) находящиеся один против другого;</blockquote>
+			<blockquote>маңдайлаш тур- стоять напротив, стоять визави.</blockquote>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>столкнуться, натолкнуться друг на друга;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>схватиться в поединке;</blockquote>
+				<blockquote>маңдайлаша келгенди балта менен сойлотуп фольк. тех, кто сталкивался с ним (в поединке), он секирой порубил;</blockquote>
+				<blockquote>баатырлар маңдайлашып, чечендер тандайлашып погов. богатыри сталкиваются лбами (т.е. познаются в поединке), ораторы - нёбом (т.е. познаются на словопрениях);</blockquote>
+				<blockquote>теке маңдайлаш- быть или находиться друг против друга.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>марка</k>
+		<homonym>
+			<meaning>
+				<sameas word="кенже"/>
+				<blockquote>марка уул младший сын;</blockquote>
+				<blockquote>марка бала младший из детей;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>женск.</meta>
+				<blockquote>ягнёнок.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<meaning>
+				<meta>в разн. знач.</meta>
+				<trn>марка</trn>
+				<blockquote>он тыйындык марка десятикопеечная марка (почтовая, гербовая и др.);</blockquote>
+				<blockquote>эски маркадагы автомашина автомашина старой марки;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>южн.</meta>
+				<meta>уст.</meta>
+				<blockquote>марка (талон на количество трудодней в колхозе);</blockquote>
+			</meaning>
+			<meaning>
+				<meta>южн.</meta>
+				<meta>уст.</meta>
+				<blockquote>трудодень;</blockquote>
+				<blockquote>төрт жүз м рк си бар у него четыреста трудодней.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мелдеш</k>
+		<homonym>
+			<meaning>
+				<blockquote>пари;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>соревнование, состязание;</blockquote>
+				<blockquote>социалисттик мелдеш социалистическое соревнование;</blockquote>
+				<blockquote>спорттук мелдештер спортивные соревнования.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>держать пари;</blockquote>
+				<blockquote>мелдешип уттурдум я держал пари и проиграл;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>соревноваться, состязаться;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>уславливаться, договариваться.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мемире</k>
+		<homonym>
+			<sameas word="небире"/>
+		</homonym>
+		<homonym>
+			<blockquote>быть в состоянии полного покоя, полной безмятежности;</blockquote>
+			<blockquote>желсиз көлдөй мемирейт спокойно, как озеро в безветренную погоду;</blockquote>
+			<blockquote>мемиреген уйку спокойный сон;</blockquote>
+			<blockquote>мемиреген тынчтык абсолютная тишина;</blockquote>
+			<blockquote>күн, мемиреп, улам ысый баштады абсолютно тихая погода становилась всё более знойной;</blockquote>
+			<blockquote>мемиреген түн тихая ночь;</blockquote>
+			<blockquote>мемиреген там-кыштак спокойно красивое селение.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>моюндаш</k>
+		<homonym>
+			<blockquote>сверстник; друг;</blockquote>
+			<blockquote>моюндаш өскөн росший вместе, друг детства.</blockquote>
+		</homonym>
+		<homonym>
+			<recv word="моюнда"/>
+			<meaning>
+				<blockquote>обниматься, обнимать друг друга за шею;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>(о мужчине и женщине) жить в любви и согласии;</blockquote>
+				<blockquote>Манастын уулу Семетей, алган жарым болсо - деп, азгана ойноп-күлсөк - деп, моюндашып жүрсөк - деп фольк. ах, если бы Семетей, сын Манаса, стал моим любимым мужем, если бы мы, потешаясь и забавляясь, жили в любви и согласии;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>взаимно признавать свою вину;</blockquote>
+				<blockquote>экөө тең моюндашпай койду из них двоих никто не признал своей вины (или предъявленной к нему претензии).</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мураз</k>
+		<homonym>
+			<meaning>
+				<sameas word="мурас"/>
+				<blockquote>ата мураз наследственный; передающийся из поколения в поколение;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>опора;</blockquote>
+				<blockquote>энеке, мен кимди мураз кыламын? фольк. кого мне, матушка, сделать своей опорой?</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<sameas word="мурат"/>
+			<blockquote>сен эмне муразга жеттиң? так чего же ты добился?</blockquote>
+			<blockquote>баш байгесин алганда, не муразга жетейин? фольк. а если и получу я первый приз, чего я (этим) добьюсь?</blockquote>
+			<blockquote>мураз-керез или керез-мураз предсмертное слово, последнее пожелание;</blockquote>
+			<blockquote>керез-муразыңды айтып кал скажи своё последнее пожелание (приготовься к смерти).</blockquote>
+		</homonym>
+	</card>
+</root>

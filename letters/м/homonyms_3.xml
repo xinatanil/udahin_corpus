@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маара</k>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<meta>южн.</meta>
+				<blockquote>финиш (гл. обр. при конских скачках);</blockquote>
+			</meaning>
+			<meaning>
+				<meta>талас.</meta>
+				<blockquote>граница, предел.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>блеять;</blockquote>
+			<blockquote>аксак кой түштөн кийин маарайт погов. хромая овца после полудня блеет (хромота ей мешает выйти на пастьбу вместе с отарой, а в одиночестве она начинает блеять позже);</blockquote>
+			<blockquote>маараганга жарагандын бардыгы эле кой болот погов. всё, что может блеять, - овца.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>маңги</k>
+		<homonym>
+			<meta>уст.</meta>
+			<blockquote>вечный.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>одурманенный наркотиками; наркоман;</blockquote>
+				<blockquote>көп сүйлөгөн маңгилер - көзгө кирген тикендей стих. болтливые наркоманы подобны колючке, попавшей в глаз;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>взбалмошный, буйный;</blockquote>
+				<blockquote>манги суу буйная река;</blockquote>
+				<blockquote>кары-жашка карабас тил албаган маңги суу стих. непослушная буйная река, которая не считается ни со старым, ни с малым (уносит всех).</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>март</k>
+		<homonym>
+			<blockquote>март (месяц).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>молодец, смельчак, храбрец;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>щедрый;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>крупный;</blockquote>
+				<blockquote>март-мартынан кырк бир жүгөрүнү иргеп бөлүп алды (ворожей) выбрал и отделил сорок одно из самых крупных зёрен кукурузы.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<pair word="шарт"/>
+			<blockquote>шарт-мартыңдын кереги жок никаких там твоих условий не надо.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>машта-</k>
+		<homonym>
+			<blockquote>упражнять, тренировать; подготавливать; приводить в порядок;</blockquote>
+			<blockquote>согуш ишине машта- подготавливать для военного дела;</blockquote>
+			<blockquote>кылычтын баарын машта - деп, айбалтаң болсо, ашта - деп фольк. мол, мечи все приведи в порядок, мол, если есть секиры, насади на рукоятку;</blockquote>
+			<blockquote>касташкан жоого күчүңдү каар менен маштапсың фольк. силу свою ты яростно готовил на злоумышлявшего врага.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>карт.</meta>
+			<blockquote>умастить, дать под масть;</blockquote>
+			<blockquote>маштап бердим я дал под масть.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мент</k>
+		<homonym>
+			<sameas word="мерт" index="2"/>
+			<blockquote>мент кыл- калечить, уродовать; убивать;</blockquote>
+			<blockquote>алышканды мент кылган фольк. он калечил тех, кто с ним схватывался;</blockquote>
+			<blockquote>"көргө башын тыгар" деп, беттешкенди мент кылып фольк. голову того, мол, кто с ним схватится, он, убив, в могилу ткнёт.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>разг.</meta>
+			<sameas word="винт"/>
+			<blockquote>ментинен тайган он по своему внешнему виду изменился, он очень изменился (к худшему);</blockquote>
+			<minicard>
+				<k>ал арыктап, ментинен абдан тайган</k>
+				<meaning>
+					<trn>он похудел и очень изменился;</trn>
+				</meaning>
+				<meaning>
+					<trn>он потерял свой авторитет, он осрамился;</trn>
+				</meaning>
+			</minicard>
+			<blockquote>ментинен тайып калыптыр он осрамился.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мерт</k>
+		<homonym>
+			<blockquote>вывих.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>смерть, скоропостижная смерть; гибель;</blockquote>
+			<blockquote>мерт бол- или мерт тап- умереть, погибнуть;</blockquote>
+			<blockquote>мерт кыл- или мерт таптыр- убить, умертвить;</blockquote>
+			<blockquote>кежириме тийтенди, чаап алып, мерт кылам фольк. кто обозлит меня, того я разгромлю и умерщвлю;</blockquote>
+			<blockquote>сени дагы кокустан, мерт таптырып коёт дейм фольк. боюсь, что он и тебя вдруг убьёт.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мийзам</k>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>уст.</meta>
+			<blockquote>закон;</blockquote>
+			<blockquote>мийзам дегендин укуругу узун болот погов. у закона укрючина длинная (везде достанет).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<meaning>
+				<blockquote>(точнее мийзам айы) название месяца, примерно соответствующего сентябрю;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>тенётник (паутина, летающая в начале осени);</blockquote>
+				<blockquote>чөп кубарып, күз болуп, мийзам гүлү учканда когда трава пожелтеет, наступит осень и полетит тенётник.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>момун</k>
+		<homonym>
+			<origin>ар.</origin>
+			<meaning>
+				<blockquote>воздержанный, скромный; смирный;</blockquote>
+				<blockquote>кимиси ачка, кими ток, кимиси момун, кими шок фольк. кто из них голоден, кто сыт, кто скромен, кто озорник;</blockquote>
+				<blockquote>кой оозунан чөп албаган момун тише воды, ниже травы (букв. такой смирный, что изо рта овцы травинки не возьмёт);</blockquote>
+				<blockquote>боз койдон момун смирнее серой овечки;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>богобоязненный.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>р.</origin>
+			<meta>карт.</meta>
+			<blockquote>бубны.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мор</k>
+		<homonym>
+			<compare word="кериней" subindex="1"/>
+			<meaning>
+				<blockquote>труба глиняная или кирпичная;</blockquote>
+				<blockquote>мештин мору печная труба;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>вид очага-камина с внутренней стороны стены дома;</blockquote>
+				<blockquote>мор кеме тяньш. (ср. кемеге) глиняный очаг с трубой, сложенный на земле.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>полусгоревший овечий помёт (в нём распаривают палки для поделок);</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>вид тёмно-коричневой краски.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мураа</k>
+		<homonym>
+			<sameas word="мурат"/>
+			<blockquote>"Сейтегим аман болсун" - деп, мураа кылып жүрөмүн фольк. я желаю, чтобы мой Сейтек был цел и невредим.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>(ср. мурас, мурапы)</meta>
+			<meaning>
+				<blockquote>наследник;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>верный, преданный друг; опора;</blockquote>
+				<blockquote>мураага келген балаңды, мурапы кылып алыңыз фольк. сына, который должен стать тебе опорой, ты сделай своим наследником;</blockquote>
+				<blockquote>курдаш туулуп Манаска, буудан Манас шерине укумунан тукуму мураа болгон өзүнө фольк. по рождению он ровесник Манасу, своему льву богатырю Манасу он стал верным другом.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>муунак</k>
+		<homonym>
+			<meaning>
+				<blockquote>сочленение; коленце;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>зарубка вокруг чего-л.;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>ступень (ракеты).</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>сильно ослабеть; не быть в состоянии двигаться;</blockquote>
+			<blockquote>мен кыштата төшөктө жатып, муунагып калсам керек я всю зиму пролежал в постели и, видимо, (от этого) совершенно ослабел (у меня суставы стали неподвижны).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүчүлүш</k>
+		<homonym>
+			<blockquote>недостаточный, в малом количестве;</blockquote>
+			<blockquote>акчам мүчүлүш болуп, пальто алалбадым у меня не хватило денег, и я не купил пальто;</blockquote>
+			<blockquote>эмне мүчүлүшүңөр болсо, тартынбай айтып турсаңар а вы бы говорили без стеснения, если у вас чего-либо недостаёт;</blockquote>
+			<blockquote>запас бөлүктөрү мүчүлүш болуп турат запасных частей недостаточно.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>быть недостаточным;</blockquote>
+			<blockquote>жарым-жартылай мүчүлүшкөн түрдө в половинчатом виде и в неудовлетворительном состоянии.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мушташ</k>
+		<homonym>
+			<actionNoun word="мушта"/>
+			<blockquote>драка, схватка;</blockquote>
+			<blockquote>мушташ сал- учинить драку.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>взаимн. от. мушта-</blockquote>
+			<blockquote>драться;</blockquote>
+			<blockquote>найза менен мушташып, жүрөктүн башын тушташып фольк. схватившись на копьях, целясь прямо в сердце.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүштөк</k>
+		<homonym>
+			<origin>р.</origin>
+			<blockquote>мундштук, трубка (курительная).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meaning>
+				<blockquote>небольшое количество зерна (15-20 кг), предназначенного для помола (ср. амбар I 2);</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>очередь на помол;</blockquote>
+				<blockquote>мүштөк тийбеди (на мельнице) очередь не дошла;</blockquote>
+				<blockquote>мүштөктөй маленький и собранный, подобранный;</blockquote>
+				<blockquote>мүштөктөй болуп түйүлүп келатат (о хищной птице) стремительно падает (нацелясь на добычу), сложив крылья.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мээле-</k>
+		<homonym>
+			<blockquote>примешивать мозг (в мелко нарезанное варёное мясо);</blockquote>
+			<blockquote>мээлеген өт мясо, смешанное с мозгом.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>брать на прицел, прицеливаться;</blockquote>
+			<blockquote>мээлеп туруп, эки гранат ыргытты прицелившись, он бросил две гранаты;</blockquote>
+			<blockquote>мээлеп туруп, так бутага атты прицелившись, он выстрелил (попав) точно в цель.</blockquote>
+		</homonym>
+	</card>
+</root>

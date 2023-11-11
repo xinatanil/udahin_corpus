@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маала</k>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>квартал (города, селения);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>синьцз.</meta>
+			<blockquote>селение.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>маарама</k>
+		<meaning>
+			<blockquote>блеющий;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>женск.</meta>
+			<blockquote>овца.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>магазинчи</k>
+		<meta>разг.</meta>
+		<meaning>
+			<blockquote>заведующий магазином;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>работник прилавка.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>магнитте-</k>
+		<meaning>
+			<blockquote>намагничивать;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>притягивать к себе, как магнит.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мажбурият</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>обязательство;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>обязательные поставки государству.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>майдачыл</k>
+		<meaning>
+			<blockquote>мелочный;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>педант.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>майдачылдык</k>
+		<meaning>
+			<blockquote>мелочность;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>педантизм.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>майканда-</k>
+		<meaning>
+			<blockquote>перемолачивать (вторично после отделения соломы);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>уничтожить, стереть в порошок.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>маймыл</k>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>обезьяна;</blockquote>
+		</meaning>
+		<meaning>
+			<sameas word="мечин"/>
+		</meaning>
+	</card>
+	<card>
+		<k>майса</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>всходы зерновых;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>мурава.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мактоо</k>
+		<actionNoun word="макта"/>
+		<meaning>
+			<blockquote>хвала, восхваление;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>форма народной песни, частично сохранившаяся и теперь, восхваляющая отдельного человека, племя, род.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>малгун</k>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>проклятый;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>Малгун Малгун (имя одноглазого великана, противника Манаса в эпосе "Манас").</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>малчы</k>
+		<meaning>
+			<blockquote>пастух (общее название; ср. койчу, жылкычы)</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>скотовод.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мандили</k>
+		<origin>ар.</origin>
+		<meaning>
+			<blockquote>название женского головного убора;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>название ткани.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>маржан</k>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>коралл;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>ожерелье из кораллов.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мартсын-</k>
+		<similative word="март" index="2"/>
+		<meaning>
+			<blockquote>изображать из себя храбреца;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>изображать из себя щедрого.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мастек</k>
+		<meaning>
+			<sameas word="бостек" index="2"/>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>курица.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мастерлик</k>
+		<meaning>
+			<blockquote>мастерство;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>положение или должность мастера.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>матке</k>
+		<origin>р.</origin>
+		<meta>чуйск.</meta>
+		<meaning>
+			<blockquote>матица;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>труба железной печи.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>машташ-</k>
+		<meaning>
+			<blockquote>научиться;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>тайно сговориться, стакнуться; действовать сообща.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мейманкана</k>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>гостиная, комната для гостей;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>редко</meta>
+			<blockquote>гостиница.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мейнет</k>
+		<meaning>
+			<sameas word="мээнет"/>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>труд.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>меңде-</k>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>приходить в растерянность, теряться;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>изнуряться.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>меңдөв</k>
+		<actionNoun word="меңде"/>
+		<meta>южн.</meta>
+		<meaning>
+			<blockquote>растерянность;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>изнурение, истощение.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>менчикте-</k>
+		<meaning>
+			<blockquote>считать собственностью; делать собственностью, присваивать;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>обладать, владеть.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мешке</k>
+		<origin>ир.</origin>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>сливочное масло;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>сев.</meta>
+			<meta>женск.</meta>
+			<blockquote>топлёное коровье масло.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>милийсе</k>
+		<meta>разг.</meta>
+		<meaning>
+			<sameas word="милиция"/>
+		</meaning>
+		<meaning>
+			<sameas word="милиционер"/>
+		</meaning>
+	</card>
+	<card>
+		<k>мисбек</k>
+		<origin>ар.</origin>
+		<meta>редко</meta>
+		<meaning>
+			<blockquote>зубочистка;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>название растения, из которого делают зубочистки (растение это имеет кисловатый вкус).</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>миске</k>
+		<alter>(или мискей, мискел)</alter>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<meaning>
+			<blockquote>кастрюля;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>тяньш.</meta>
+			<blockquote>большое глубокое блюдо.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мискер</k>
+		<meaning>
+			<blockquote>медник;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>слесарь.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мискердик</k>
+		<meaning>
+			<blockquote>ремесло медника;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>уст.</meta>
+			<blockquote>слесарное ремесло.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мойноок</k>
+		<meaning>
+			<blockquote>(ср. мойно- 1) лошадь, не останавливающаяся при накидывании ей на шею петли;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>строптивый, неслух.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мококтук</k>
+		<meaning>
+			<blockquote>притупленность;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>неумелость.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>молотой</k>
+		<origin>р.</origin>
+		<meta>ист.</meta>
+		<meaning>
+			<blockquote>судья на состязаниях (на скачках, борьбе и т.п.);</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>знаток обычного права (группа таких знатоков из представителей разных родов составляла устный наказ биям с изложением основных норм обычного права).</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>момундук</k>
+		<meaning>
+			<blockquote>воздержанность, скромность;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>богобоязненность.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>моюнтурук</k>
+		<meaning>
+			<blockquote>ярмо;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>хомут.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мунарыңкы</k>
+		<meaning>
+			<blockquote>слегка подёрнутый маревом;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>опечаленный; горестный.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мүңкүрдүк</k>
+		<meaning>
+			<blockquote>отсутствие рук и ног;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>беспомощность, безвыходность.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мурдар</k>
+		<origin>ир.</origin>
+		<meaning>
+			<blockquote>мертвец;</blockquote>
+		</meaning>
+		<meaning>
+			<blockquote>падаль.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мүрдө</k>
+		<origin>ир.</origin>
+		<meaning>
+			<meta>южн.</meta>
+			<blockquote>мёртвый; мертвец;</blockquote>
+		</meaning>
+		<meaning>
+			<sameas word="мүрзө"/>
+		</meaning>
+	</card>
+	<card>
+		<k>мурунтукта-</k>
+		<meaning>
+			<blockquote>привязать мурунтук (см.);</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>обуздать.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мыкаачы</k>
+		<meaning>
+			<blockquote>людоед;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>кровожадный.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мөңгүн</k>
+		<meaning>
+			<meta>тяньш.</meta>
+			<sameas word="мөңгү"/>
+		</meaning>
+		<meaning>
+			<meta>сев.</meta>
+			<meta>женск.</meta>
+			<blockquote>серебро.</blockquote>
+		</meaning>
+	</card>
+	<card>
+		<k>мөнөтай</k>
+		<origin>р.</origin>
+		<meaning>
+			<meta>ист.</meta>
+			<blockquote>понятой;</blockquote>
+		</meaning>
+		<meaning>
+			<sameas word="молотой" subindex="1"/>
+		</meaning>
+	</card>
+	<card>
+		<k>мөшкөө</k>
+		<meaning>
+			<meta>талас.</meta>
+			<blockquote>тонкая лепёшка, печённая в котле;</blockquote>
+		</meaning>
+		<meaning>
+			<meta>перен.</meta>
+			<blockquote>простоватый, недалёкий.</blockquote>
+		</meaning>
+	</card>
+</root>
