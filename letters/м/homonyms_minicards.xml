@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маа</k>
+		<homonym>
+			<blockquote>(неправ. ма)</blockquote>
+			<look word="мен" index="1"/>
+		</homonym>
+		<homonym>
+			<blockquote>маа II:</blockquote>
+			<blockquote>маа-маала возглас, которым призывают верблюда.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мэ-э (подражание блеянию овцы).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мадат</k>
+		<homonym>
+			<origin>ар.</origin>
+			<blockquote>южн.:</blockquote>
+			<blockquote>помощь, споспешествование (гл. обр. в религиозном смысле).</blockquote>
+		</homonym>
+		<homonym>
+			<caus word="мада"/>
+		</homonym>
+	</card>
+	<card>
+		<k>май</k>
+		<homonym>
+			<meaning>
+				<blockquote>жир (общее название);</blockquote>
+				<blockquote>жебесең да, май жакшы погов. жир хорош, (даже) если ты его не ешь;</blockquote>
+				<blockquote>карын май жир, которым обрастает желудок;</blockquote>
+				<blockquote>сары май топлёное масло;</blockquote>
+				<blockquote>иттин ичине сары май жакпайт погов. собачьему нутру топлёное масло не впрок; не в коня корм;</blockquote>
+				<blockquote>жууган май сев., пышкан май южн., каймак май чатк. сливочное масло;</blockquote>
+				<minicard>
+					<k>ак май</k>
+					<meaning>
+						<meta>южн.</meta>
+						<trn>хлопковое масло;</trn>
+					</meaning>
+					<meaning>
+						<meta>сев.</meta>
+						<trn>сливочное масло;</trn>
+					</meaning>
+				</minicard>
+				<blockquote>суу май или өсүмдүк майы растительное масло;</blockquote>
+				<minicard>
+					<k>май түшүр-</k>
+					<meaning>
+						<trn>(или май быш-) сбивать, пахтать масло;</trn>
+					</meaning>
+					<meaning>
+						<meta>перен.</meta>
+						<trn>снимать сливки, снимать пенки;</trn>
+					</meaning>
+				</minicard>
+				<blockquote>орто жерден май түшүрөт он пенки снимает (пользуясь обстановкой, напр. чьей-л. ссорой);</blockquote>
+				<blockquote>кересин май или сев. лампа май, жер май или южн. жел май керосин;</blockquote>
+				<blockquote>жер май жок, лампа күйбөй калды керосина нет, лампа не горит;</blockquote>
+				<blockquote>кара май дёготь; колёсная мазь;</blockquote>
+				<blockquote>күйүүчү майлар тех. горючие масла;</blockquote>
+				<blockquote>ала май с примесью небольшого количества жира; не очень жирный;</blockquote>
+				<blockquote>ала май тууралган эт мясо, нарезанное с салом;</blockquote>
+				<blockquote>бээ ала май чыгып калды (зарезанная) кобылица оказалась не очень жирной;</blockquote>
+				<blockquote>май бол- быть в изобилии;</blockquote>
+				<blockquote>коон бышып, жай болду, жердин баары май болду фольк. когда настало лето и поспели дыни, когда вся земля полна изобилия;</blockquote>
+				<blockquote>кашыгы да, чөмүчү да май болуп калды у него дом - полная чаша (букв. у него и ложка и уполовник жиром покрылись);</blockquote>
+				<minicard>
+					<k>май кыл-</k>
+					<meaning>
+						<trn>намаслить, смазать жиром;</trn>
+					</meaning>
+					<meaning>
+						<meta>перен.</meta>
+						<trn>доставить в изобилии;</trn>
+					</meaning>
+				</minicard>
+				<blockquote>бакырдын баарын май кылып, карыптын көөнүн жай кылып фольк. всем беднякам он принёс достаток, сердца всех бесприютных он успокоил;</blockquote>
+				<blockquote>3) перен. запачкать;</blockquote>
+				<blockquote>алтын тагын май кылып, атасы Азыз канды жай кылып фольк. отца своего Азизхана он успокоил (убил), обагрив (кровью) золотой трон его;</blockquote>
+				<blockquote>майым кетип, сөөк калып, арып кетип баратам фольк. жир мой исчезает, кости остаются, я худею и худею;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>ист.</meta>
+				<blockquote>плата за пользование чем-л.;</blockquote>
+				<blockquote>от май плата за пастбище;</blockquote>
+				<blockquote>аттын майы плата за пользование чужой лошадью;</blockquote>
+				<blockquote>майга батып турат или чылка майдын ичинде болуп турат или чылка майга батып турат или башынан май агып турат он как сыр в масле катается;</blockquote>
+				<blockquote>башыңарга май кайнатып жиберейин! я вас под орех разделаю! (букв. я на ваших головах жир вскипячу!);</blockquote>
+				<blockquote>таманына май төшөп сүйлөшөт он с ним разговаривает очень почтительно;</blockquote>
+				<blockquote>колу май или май кол (о человеке) благодетельный, источник блага для других;</blockquote>
+				<blockquote>оозуңа май! в рот тебе жир! (похвала; соотв. русскому выражению: в рот тебе каши с маслом);</blockquote>
+				<blockquote>көзүн май басты он с жиру бесится, он зазнался (букв. у него глаза жиром заплыли);</blockquote>
+				<blockquote>көзүмдүн майы кетти или көзумдүн майы түгөндү я очень утомился;</blockquote>
+				<blockquote>көз майымды түгөттүм я очень утомился, изнурился;</blockquote>
+				<blockquote>май чачып, мал семирди скот очень потучнел;</blockquote>
+				<blockquote>ал иштин майын чыгарат у него в руках дело горит; уж он сделает, так сделает;</blockquote>
+				<blockquote>майын чыгарып сүйлөйт он складно говорит;</blockquote>
+				<blockquote>сары майдай сакта бережно храни, храни как зеницу ока;</blockquote>
+				<blockquote>сары майдай жагат как маслом по сердцу;</blockquote>
+				<blockquote>жүрөккө майдай тийди или жүрөккө чийки майдай тийди надоела хуже горькой редьки;</blockquote>
+				<blockquote>курсагына май алды он отрастил брюхо;</blockquote>
+				<blockquote>май ичме дизентерия (у детей);</blockquote>
+				<minicard>
+					<k>кызыл май</k>
+					<meaning>
+						<trn>болезненное состояние лошади (выражающееся в том, что у неё слабеют ноги и вылезают шерсть и хвост);</trn>
+					</meaning>
+					<meaning>
+						<trn>сильная утомлённость, разбитость, переутомление;</trn>
+					</meaning>
+				</minicard>
+				<blockquote>тил албагандарга айтып, кызыл май болуп эмне кылам? зачем мне надсаживаться, втолковывая неслухам?</blockquote>
+				<blockquote>май болпоч (или майболпоч) полный и рыхлый (чаще о детях);</blockquote>
+				<blockquote>май билек или майбилек ай то же, что жетинин айы (см. ай I 2);</blockquote>
+				<blockquote>отко май сал- см. от I;</blockquote>
+				<blockquote>май көтөн см. көтөн.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>май (месяц);</blockquote>
+			<blockquote>май майрамы майский праздник.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>май III:</blockquote>
+			<blockquote>май-май южн. коли! (выкрик-вызов вступающих в единоборство на пиках).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мама</k>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>(чаще ак мама) дет. материнская грудь;</blockquote>
+				<blockquote>мамаңды, эне, бергин фольк. дай, мама, свою грудь;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>южн.</meta>
+				<blockquote>бабушка;</blockquote>
+				<blockquote>Мама-и Хава южн. то же, что Аба эне (см. эне I);</blockquote>
+				<blockquote>бул менин дувам эмес, Мама-и Хаванын дувасы этн. (заклинание) это не моя молитва, (а) молитва праматери Евы;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>тяньш.</meta>
+				<blockquote>старая кобылица;</blockquote>
+				<blockquote>мамасын көрсөтөрмүн! я ему покажу кузькину мать!; я ему задам жару!;</blockquote>
+				<blockquote>мама көз южн. название маленькой птички.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>мама II:</blockquote>
+			<blockquote>мама томолок то же, что гүвала.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>маң</k>
+		<homonym>
+			<origin>ир.</origin>
+			<meaning>
+				<blockquote>то же, что наша гашиш;</blockquote>
+				<blockquote>маң тарт- курить гашиш;</blockquote>
+				<blockquote>маң тарткандай кейбиреп, мас болгондой кеңгиреп фольк. он мелет что-то, будто накурившись гашиша; он городит что-то, будто пьяный;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>растерявшийся, опешивший, проявляющий нерешительность;</blockquote>
+				<blockquote>маң бол- растеряться; расстроиться;</blockquote>
+				<blockquote>маң баш непонятливый, бестолковый;</blockquote>
+				<blockquote>башым маң болду я опешил, я растерялся;</blockquote>
+				<blockquote>башын маң кыл- заморочить кому-л. голову, довести кого-л. до растерянности;</blockquote>
+				<blockquote>маны жапыс или маңы бас забитый, запуганный, нерешительный.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>маң II:</blockquote>
+			<blockquote>маң-маң бас- ступать медленно и размеренно (напр. о верблюде).</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>маң III:</blockquote>
+			<blockquote>эки чүкөнүн маңы южн. промежуток между двумя поставленными на кон альчиками (при игре в ордо, см. ордо 3).</blockquote>
+		</homonym>
+		<homonym>
+			<meta>сев.</meta>
+			<meta>редко</meta>
+			<blockquote>идти;</blockquote>
+			<blockquote>кайда маңдың? куда идёшь?</blockquote>
+			<blockquote>маңалы идёмте.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мара</k>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>финиш.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мара II:</blockquote>
+			<blockquote>үч мара чуйск. то же, что можу II.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>(о крупных хищниках: тигре, барсе, льве, но не о волке) впиться взглядом; уставиться на жертву, готовясь к прыжку;</blockquote>
+			<blockquote>кабыландай мараган, каары менен караган фольк. (богатырь) впился взглядом, как леопард, смотрел гневно.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>машык</k>
+		<homonym>
+			<sameas word="маш" index="2"/>
+			<blockquote>теримге машык эмгекчил кыздар, жигиттер менен мелдешке куштар стих. опытные в сборе (хлопка) девушки-труженицы стремятся соревноваться с парнями.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>машык II:</blockquote>
+			<blockquote>ашык-машык ар. южн. шарнир.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>упражняться, приобретатъ навыки; наловчиться;</blockquote>
+			<blockquote>машыккан опытный, квалифицированный;</blockquote>
+			<blockquote>машыккан машинистка квалифицированная машинистка;</blockquote>
+			<blockquote>машыккан жумушчулар квалифицированные рабочие;</blockquote>
+			<blockquote>колу ишке машыккан руки его привычны к работе.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мая</k>
+		<homonym>
+			<origin>ир.</origin>
+			<sameas word="пая"/>
+			<blockquote>аңыздагы маялар стерня на пажити;</blockquote>
+			<blockquote>мая шыпыр- собирать стерню и солому, оставшуюся на полях после жатвы.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мая II:</blockquote>
+			<blockquote>мая төө чатк. старая верблюдица;</blockquote>
+			<blockquote>жел мая то же, что Желмаян;</blockquote>
+			<blockquote>кыл мая см. кыл I.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>меке</k>
+		<homonym>
+			<blockquote>меке I:</blockquote>
+			<blockquote>аттын мекеси или жылкынын мекеси сев. кровь, которая появляется на коже лошадей, когда они засекаются.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<blockquote>кукуруза (см. жүгөрү 2).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<blockquote>(в старом фольклоре) ласк. обращение, гл. обр. к матери (от имени священного города мусульман Меке Мекка); предмет уважения и поклонения;</blockquote>
+			<blockquote>бар болсо таалай - мекемди, көзүмдү ачып, көрөйүн, эмчегинен эмейин фольк. если она жива, то, открыв глаза, я увидел бы своё счастье, свою дорогую маму и пососал бы её грудь;</blockquote>
+			<blockquote>Айчүрөксүң, энемсиң, маңдайымда мекемсиң фольк. ты, Айчурек, моя мать, моё счастье;</blockquote>
+			<blockquote>көрүп койсом, көөнүм ток, энемден башка мекем жок фольк. если увижу, буду доволен, кроме матери, у меня нет счастья;</blockquote>
+			<blockquote>кимди меке кылам? деп, өлүмгө мойнум бурамын кого же, мол, я сделаю предметом своего поклонения? (некого, поэтому лучше) я поверну свою шею к смерти (т.е. лучше умру);</blockquote>
+			<blockquote>Мекени беш айланса, таппайт (такого) он во всём свете не сыщет (букв. не найдёт, если даже вокруг Мекки пять раз обойдёт);</blockquote>
+			<blockquote>Мекеге кетир- отправить к праотцам;</blockquote>
+			<blockquote>келсең бирөөң жекеге, кетиремин Мекеге фольк. если кто-либо из вас выйдет на поединок, я отправлю (его) к праотцам.</blockquote>
+		</homonym>
+		<homonym>
+			<pair word="теке" index="1" subindex="2"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мелтей</k>
+		<homonym>
+			<blockquote>мелтей I:</blockquote>
+			<blockquote>көк мелтей непомерно упрямый.</blockquote>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>быть неподвижным;</blockquote>
+				<blockquote>мөнгүлөр мелтейип эрибей, сугатчынын шайын кетирди ледники не таяли, оставаясь недвижимы, расстраивали поливальщиков (лёд не таял, воды для полива посевов было мало);</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>молчать, сохраняя важный вид, внешне не реагировать;</blockquote>
+				<blockquote>чыйт түкүрүп, мелтейип отуруп алды высокомерно сплюнув сквозь зубы (см. чыйт), он уселся и важно молчал;</blockquote>
+				<blockquote>дайым эле күлбөй, ишмерсинип мелтейип жүрөт он никогда не смеётся, изображая из себя деятеля, сдержанно молчит;</blockquote>
+				<blockquote>мелтейген бет важное неподвижное лицо;</blockquote>
+				<blockquote>мелтейген капыр скрытный нечестивец.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мен</k>
+		<homonym>
+			<blockquote>я (менин род. п., мени вин. п., мага, маа, маган, южн. маңа дат. п.);</blockquote>
+			<blockquote>менмин это я;</blockquote>
+			<blockquote>мени менен со мной;</blockquote>
+			<blockquote>мага да кабар бериптир он и мне прислал весть, он и меня известил;</blockquote>
+			<blockquote>мен жакка в мою сторону, ко мне;</blockquote>
+			<blockquote>акыл берсем, тил албай, мени менен жүрө албай фольк. советовал я, (но) он не послушал, со мной не мог отправиться;</blockquote>
+			<blockquote>мен десең если ты меня уважаешь, если хочешь сделать мне приятное;</blockquote>
+			<blockquote>мен десеңиз, бүгүндөн калбай келиңиз если вы хотите меня уважить, приезжайте сегодня же;</blockquote>
+			<blockquote>маа десең а если ты думаешь (о том), как это мне понравится, так мне наплевать;</blockquote>
+			<blockquote>маа десең, көчүп кет мне наплевать, выселяйся (мне от этого ни жарко ни холодно);</blockquote>
+			<blockquote>менимче по-моему, по моему мнению;</blockquote>
+			<blockquote>мен-менчил то же, что менменчил.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="менен"/>
+			<blockquote>бетинен бедер кеткен соң - кымкап да болсо, бөз мен тең: кадырман болгон зайыбың - картайса да, кыз мен тең фольк. если узор сойдёт, то и парча равна бязи, (но) любимая жена, хоть и состарилась, (для тебя) равна девице (или невесте).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мең</k>
+		<homonym>
+			<blockquote>родинка, родимое пятно.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мең II:</blockquote>
+			<blockquote>башы мең-зең болуп калды у него голова кругом идёт, он совсем растерялся.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>меш</k>
+		<homonym>
+			<origin>р.</origin>
+			<blockquote>печь, печка;</blockquote>
+			<blockquote>темир меш железная печь.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>ср. тадж. меш овца</blockquote>
+			<meaning>
+				<blockquote>шкура козы (козла), снятая чулком (на юге снимают и с крупного рогатого скота, изготовляя бурдюки для переправы через реки);</blockquote>
+				<blockquote>меш сой- снимать шкуру чулком;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>тяньш.</meta>
+				<blockquote>бурдюк для доставки воды;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>южн.</meta>
+				<sameas word="чанач" subindex="1"/>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<meta>южн.</meta>
+				<sameas word="мешкей"/>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>южн.:</blockquote>
+			<blockquote>тухумдун меши носок яйца.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мин</k>
+		<homonym>
+			<blockquote>недостаток, дефект;</blockquote>
+			<blockquote>иштеген ишинен мин табылбайт в работе, которую он выполнил, недостатков не имеется.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мин II:</blockquote>
+			<blockquote>мин этип</blockquote>
+			<anchorRef word="мунет" anchor="минтип"/>
+		</homonym>
+		<homonym>
+			<blockquote>садиться верхом, ездить верхом;</blockquote>
+			<blockquote>ат мин- ездить верхом на лошади;</blockquote>
+			<blockquote>атка мин- садиться верхом на лошадь;</blockquote>
+			<blockquote>өгүз мин- ездить верхом на быке;</blockquote>
+			<blockquote>жөө жүргөнчө, төө минген жакшы погов. чем пешком ходить, лучше на верблюде ездить;</blockquote>
+			<blockquote>кайык мин- или кеме мин- сесть в лодку, сесть на корабль; плыть в лодке, плыть на корабле;</blockquote>
+			<blockquote>биз такси миндик мы сели в такси;</blockquote>
+			<blockquote>машинасына минип, айлына карай жөнөдү сев в машину, он двинулся в свой аул;</blockquote>
+			<blockquote>мин трактор, кара жерди каңтарып стих. сядь на трактор и взрывай (взрыхляй) землю;</blockquote>
+			<blockquote>так мин- или такка мин- воссесть на трон;</blockquote>
+			<blockquote>ким минди алтын тагыңды? ким байлады багыңды? фольк. кто воссел на твой золотой трон? кто лишил тебя счастья?</blockquote>
+			<blockquote>терезеси жерге минип отурган жер үй землянка, окно которой находится над самой землёй;</blockquote>
+			<blockquote>аттын мойнуна мине чап- мчаться на коне, склонившись к (его) шее;</blockquote>
+			<blockquote>итке мин- дойти до крайней степени бедности;</blockquote>
+			<blockquote>итке минип калды он совершенно обеднел;</blockquote>
+			<blockquote>желкесине минип ал- сесть кому-л. на шею;</blockquote>
+			<blockquote>атка минер ист. подручный феодала, разъезжавший верхом и помогавший ему править; захребетник.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>миңде-</k>
+		<homonym>
+			<blockquote>миңде- I:</blockquote>
+			<blockquote>миңдеген жылкы тысячные табуны лошадей;</blockquote>
+			<blockquote>миңдеп тысячами.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="меңде"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мисте</k>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>фисташка;</blockquote>
+			<blockquote>бадам, мисте, жаңгагы - май катары ар бири стих. миндаль, фисташки, грецкие орехи - каждый из них равен жиру (так вкусны и питательны);</blockquote>
+			<blockquote>мисте мурун носик прямой, тонкий и маленький (обычно у красавицы);</blockquote>
+			<blockquote>мурду порум мистедей фольк. носик (красавицы) изящный;</blockquote>
+			<blockquote>мистедей болгон аппак тиш фольк. белые-белые и ровные зубы.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мисте II:</blockquote>
+			<blockquote>мистедей (ср. миздей, см. миз II) крепкий и стройный;</blockquote>
+			<blockquote>устукан-сөөгү мистедей он строен и пышет здоровьем;</blockquote>
+			<blockquote>кең көкүрөк алыбет, устукан-сөөгү мистедей фольк. широкогрудый, могучий, здоровый.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>муда</k>
+		<homonym>
+			<blockquote>муда I:</blockquote>
+			<blockquote>удаа-муда см. удаа.</blockquote>
+		</homonym>
+		<homonym>
+			<pair word="куда"/>
+			<blockquote>куда-мудалар всякие сваты.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүдөө</k>
+		<homonym>
+			<origin>ар.</origin>
+			<blockquote>желание, цель; интерес;</blockquote>
+			<blockquote>эмине мүдөөң бар? чего ты хочешь?</blockquote>
+			<blockquote>совет элинин мүдөөсү - дүйнөлүк жаңы согушту болтурбай коюу желание советского народа - не допустить новой мировой войны;</blockquote>
+			<blockquote>мүдөөгө жет- достигнуть цели, исполнения желаний:</blockquote>
+			<blockquote>жүзгө жет, мүдөөм кет погов. до ста доживи, желание моё уходи (больше желать нечего).</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>то же, что үдөө:</blockquote>
+			<blockquote>аман жүрсө, бир чыны талканыңдын мүдөөсүнө чыкпайбы? если он будет здоров, разве не оправдает он чашку твоего толокна?</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>муң</k>
+		<homonym>
+			<blockquote>печаль, тоска;</blockquote>
+			<blockquote>муң чеч- развеять тоску;</blockquote>
+			<blockquote>муң ичте жүрсө, жүрөк жарылат если печаль внутри останется (не промится), сердце разорвётся;</blockquote>
+			<blockquote>муунуна муң түштү его суставы ослабели;</blockquote>
+			<blockquote>элдин арыз-муңдары жалобы и печали народа.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>муң II:</blockquote>
+			<blockquote>көздөн муң болду он мгновенно скрылся из виду.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>только в отриц. форме:</blockquote>
+			<blockquote>он жылга да муңбайт и в десять лет не кончится (не износится, напр. об одежде);</blockquote>
+			<blockquote>муңбай чап- смело рубить (в бою);</blockquote>
+			<blockquote>муңбай иште- работать энергично, во всю силу;</blockquote>
+			<blockquote>муңдуу адам муңбайбы, дайрадан коркуп кечпесем, абаңды кудай урбайбы! фольк. разве в горести человек не осмелится (на что-л.), разве бог не накажет твоего дядю (т.е. меня), если он побоится (вплавь) переправиться через реку!</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мунар</k>
+		<homonym>
+			<sameas word="мунара"/>
+			<blockquote>мунарга жарык жагылып, добулбас бекем кагылып фольк. на башне огонь зажёгся, в барабан сильно ударили.</blockquote>
+		</homonym>
+		<homonym>
+			<compare word="мунарык"/>
+			<blockquote>лёгкая мгла, мутная белизна воздуха, дымка, белёсое марево;</blockquote>
+			<blockquote>ак булуттун астынан, ак мунардын үстүнөн фольк. ниже белого облака, выше белого марева (соотв. русскому: ниже облака ходячего, выше дерева стоячего);</blockquote>
+			<blockquote>тоо-тоодон мунар уюлуп фольк. над горами сгустилось марево;</blockquote>
+			<blockquote>ай мунарын жем кылып, абдан сыйлап багыпмын фольк. (этого кречета) я кормил лунным светом, лелеял и пестовал;</blockquote>
+			<blockquote>күмүштөн боо тагылган, күн мунарын жем кылган фольк. путлища (кречета) серебряные, пища его - солнечный свет;</blockquote>
+			<blockquote>асмандагы мунарым фольк. ласк. свет ты мой небесный.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>марить, покрываться мутноватой белёсостью, покрываться лёгкой дымкой;</blockquote>
+			<blockquote>коюу түн тынч-тынч, мунарат асман стих. глухая ночь тиха, небо в лёгкой дымке;</blockquote>
+			<blockquote>мунарат тоолор, чүмкөнүп түндү стих. горы, погрузившись в ночь, покрыты дымкой;</blockquote>
+			<blockquote>жер мунарып дуу болуп, дүнүйө жүзү түн болуп фольк. (от ожесточённого боя) земля застлалась дымкой, в мире (как бы) настала ночь.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүңкүр</k>
+		<homonym>
+			<meaning>
+				<blockquote>лишившийся рук и ног;</blockquote>
+				<blockquote>мүнкүр-шордуулар калеки и несчастные;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>перен.</meta>
+				<blockquote>находящийся в беспомощном состоянии, в безвыходном положении.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>Мүңкүр II:</blockquote>
+			<blockquote>Мүңкүр-Наңкүр ар. (в народном произношении часто Үңкүр-Маңкүр) имена двух ангелов, которые якобы являются к покойнику сразу же после того, как его закопают и, как только люди отойдут от могилы, начинают допрос "с пристрастием".</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>муш</k>
+		<homonym>
+			<alter>(или мушт, мушту, муштум)</alter>
+			<origin>ир.</origin>
+			<blockquote>кулак;</blockquote>
+			<blockquote>муш түй- сжать кулак;</blockquote>
+			<blockquote>муш же- быть побитым;</blockquote>
+			<blockquote>жакшынын көөнүн калтырганча, жамандан муш же погов. лучше быть побитым дурным, чем обидеть хорошего;</blockquote>
+			<blockquote>муш жумша- пускать в ход кулаки;</blockquote>
+			<blockquote>муштумдай небольшой, маленький;</blockquote>
+			<blockquote>көк муш или көк муштум сильно посиневший;</blockquote>
+			<blockquote>көк муштум болуп рьяно, упорно, собрав все силы;</blockquote>
+			<blockquote>сууну талашып, көк муш болуп жаткан они сильно повздорили из-за воды;</blockquote>
+			<minicard>
+				<k>кызыл муштум</k>
+				<meaning>
+					<trn>любитель физической расправы, тот, у кого руки чешутся (тот, у кого кулаки всё время в крови);</trn>
+				</meaning>
+				<meaning>
+					<trn>(в стихах для аллитерации иногда) то же, что көк муштум:</trn>
+				</meaning>
+			</minicard>
+			<blockquote>муштум көрсөт- пригрозить, припугнуть:</blockquote>
+			<blockquote>муштум көрсөтпөсө, ал иштебейт если не припугнуть, так он работать не будет;</blockquote>
+			<blockquote>муштум жыттат- поднести к носу кулак; дать кулаком по носу;</blockquote>
+			<blockquote>брондолгон муштум воен. бронированный кулак;</blockquote>
+			<blockquote>ата-бабаңды, жети муштумуңду! бран. дедов-прадедов, семь предков твоих...!;</blockquote>
+			<blockquote>муш кетти название игры (игра состоит в том, что один из играющих, слегка стукнув другого кулаком, просит "передать соседу");</blockquote>
+			<blockquote>чоң муштум то же, что чоң камчы (см. камчы).</blockquote>
+		</homonym>
+		<homonym>
+			<look word="имиш"/>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<blockquote>год мыши (см. жыл I 2).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүшөктө-</k>
+		<homonym>
+			<blockquote>мүшөктө- I:</blockquote>
+			<blockquote>мүшөктөп мешками, много;</blockquote>
+			<blockquote>эмгек күнгө мүшөктөп дан алдык на трудодни мы получили много зерна.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>этн.</meta>
+			<blockquote>устраивать угощение по случаю выпадения молочных зубов (то же делают и в тех редких случах, когда у старых людей появляются зачатки новых зубов);</blockquote>
+			<blockquote>баланын тишин мүшөктөп атабыз у нас идёт угощение по случаю выпадения молочных зубов ребёнка.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мый</k>
+		<homonym>
+			<blockquote>мый I:</blockquote>
+			<blockquote>мый-мый кис-кис.</blockquote>
+		</homonym>
+		<homonym>
+			<pair word="чый" index="1"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мыш</k>
+		<homonym>
+			<blockquote>брысь!</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>мыш II:</blockquote>
+			<blockquote>мыш бол- осрамиться, оскандалиться, потерять авторитет;</blockquote>
+			<blockquote>мыш болдум я оказался в дураках;</blockquote>
+			<blockquote>мыш болуп калды он остался с носом;</blockquote>
+			<blockquote>каным, болдук шерменде, желдеттериң мыш болду стих. хан наш, мы опозорены, телохранители твои осрамились;</blockquote>
+			<blockquote>колуң менен иштеген иш - сакалыңа мыш сам натворил, сам и отвечай (букв. руками твоими сделанное дело - бороде твоей позор);</blockquote>
+			<blockquote>мыш кыл- осрамить, лишить авторитета;</blockquote>
+			<blockquote>жалпы барыңды мыш кылар всех вас он осрамит (напр. победив);</blockquote>
+			<blockquote>эрсингендин баарысын, ит мингизип, мыш кылам фольк. всех, кто важничает, я разорю и посрамлю;</blockquote>
+			<blockquote>мени мыш кылды он меня обдурил;</blockquote>
+			<blockquote>тоок "мыш" (или "быш") деп койбойт (этим даже) курицу не испугаешь.</blockquote>
+		</homonym>
+		<homonym>
+			<look word="имиш"/>
+			<blockquote>айтылуу мыш-мыш чын болсо, чын тозоктун түбүнө баруучу чоро экенсиң если слухи и разговоры верны, если верно то, что люди говорят, то ты, оказывается, такой витязь, которому место на самом дне ада.</blockquote>
+		</homonym>
+	</card>
+</root>

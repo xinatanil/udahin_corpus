@@ -1,0 +1,2530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маалка-</k>
+		<sameas word="маалкат"/>
+		<blockquote>маалкайт бак түбүндө ал жай аттап стих. он важно и тихо ступает под деревьями.</blockquote>
+	</card>
+	<card>
+		<k>маалкатыш-</k>
+		<recv word="маалкат"/>
+		<blockquote>эмне мынча маалкатышат? что это они так тянут? (заставляют себя ждать).</blockquote>
+	</card>
+	<card>
+		<k>маарат-</k>
+		<caus word="маара" index="2"/>
+		<blockquote>коюн айдап мааратып, уюн айдап мөөрөтүп фольк. гонит он своих овец, а они блеют, гонит он своих коров, а они мычат.</blockquote>
+	</card>
+	<card>
+		<k>маасы</k>
+		<alter>(или маасты)</alter>
+		<origin>ар.</origin>
+		<blockquote>ичиги (женские и мужские сапожки без каблука и твёрдого задника, с мягкой подошвой).</blockquote>
+	</card>
+	<card>
+		<k>маашыркан-</k>
+		<refv word="маашырка"/>
+		<sameas word="маашырка"/>
+		<blockquote>өз сөзүнө маашыркана барт-барт күлгөн он отрывисто смеялся, довольный тем, что сам сказал.</blockquote>
+	</card>
+	<card>
+		<k>маашыркат-</k>
+		<caus word="маашырка"/>
+		<blockquote>маашыркаткан назик күү нежная, доставляющая наслаждение мелодия.</blockquote>
+	</card>
+	<card>
+		<k>маашыркаш-</k>
+		<recv word="маашырка"/>
+		<blockquote>биздин айылдагылар ага анчалык деле маашыркашкан жок жители нашего аула этим не очень-то удовлетворились, не очень-то этим были довольны.</blockquote>
+	</card>
+	<card>
+		<k>мавла-</k>
+		<sameas word="мыёоло"/>
+		<blockquote>мавлай бербе мышыкча фольк. не мяукай без конца по-кошачьи.</blockquote>
+	</card>
+	<card>
+		<k>магнат</k>
+		<trn>магнат</trn>
+		<blockquote>финансы капиталынын магнаттары магнаты финансового капитала.</blockquote>
+	</card>
+	<card>
+		<k>магнето</k>
+		<trn>магнето</trn>
+		<blockquote>тутандыруучу магнето пусковое магнето.</blockquote>
+	</card>
+	<card>
+		<k>магнитсиздештир-</k>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<blockquote>размагничивать.</blockquote>
+	</card>
+	<card>
+		<k>маданиятсыз</k>
+		<blockquote>некультурный.</blockquote>
+	</card>
+	<card>
+		<k>маданиятсыздык</k>
+		<blockquote>некультурность, бескультурье.</blockquote>
+	</card>
+	<card>
+		<k>маданиятташ-</k>
+		<blockquote>стать культурным, цивилизованным.</blockquote>
+	</card>
+	<card>
+		<k>маданиятташтыр-</k>
+		<caus word="маданиятташ"/>
+		<blockquote>делать культурным, подвергать действию цивилизации.</blockquote>
+	</card>
+	<card>
+		<k>маданиятташтырыл-</k>
+		<pass word="маданиятташтыр"/>
+		<blockquote>становиться культурным, подвергаться действию цивилизации.</blockquote>
+	</card>
+	<card>
+		<k>маданияттуу</k>
+		<blockquote>культурный, цивилизованный.</blockquote>
+	</card>
+	<card>
+		<k>маданияттуулук</k>
+		<blockquote>культурность, цивилизованность.</blockquote>
+	</card>
+	<card>
+		<k>мадаткер</k>
+		<origin>ар.-ир.</origin>
+		<blockquote>споспешествующий (гл. обр. в религиозном смысле).</blockquote>
+	</card>
+	<card>
+		<k>мадаш-</k>
+		<recv word="мада"/>
+		<blockquote>айбалтадан жадашып, кайраты бар эрендер жүрөккө найза мадашып фольк. секиры им надоели, и богатыри сильные вонзали копья друг другу в сердце.</blockquote>
+	</card>
+	<card>
+		<k>мадыл</k>
+		<blockquote>дикая кошка.</blockquote>
+	</card>
+	<card>
+		<k>мадырайыш-</k>
+		<recv word="мадырай"/>
+		<blockquote>уйлар мурундарын жаланышып, ынтыга дем алып, мадырайышат коровы, облизывая свои носы, тяжело дыша, пялят глаза.</blockquote>
+	</card>
+	<card>
+		<k>маектешүү</k>
+		<actionNoun word="маектеш"/>
+		<blockquote>бир беттешип маектешүүнү эңсейт он очень хочет встретиться лично и побеседовать.</blockquote>
+	</card>
+	<card>
+		<k>мажара</k>
+		<origin>ар.</origin>
+		<meta>редко</meta>
+		<blockquote>пережитое, происшедшее.</blockquote>
+	</card>
+	<card>
+		<k>мажүгүн</k>
+		<meta>чуйск.</meta>
+		<blockquote>некультурный и недалёкий человек.</blockquote>
+	</card>
+	<card>
+		<k>мажүрөө</k>
+		<origin>ар.</origin>
+		<blockquote>слабый, бессильный, вялый.</blockquote>
+	</card>
+	<card>
+		<k>мазакта-</k>
+		<blockquote>насмехаться, высмеивать, издеваться.</blockquote>
+	</card>
+	<card>
+		<k>мазап</k>
+		<origin>ар.</origin>
+		<meta>рел.</meta>
+		<blockquote>секта, толк.</blockquote>
+	</card>
+	<card>
+		<k>мазардуу</k>
+		<blockquote>мазардуу жер то же, что мазардык 1.</blockquote>
+	</card>
+	<card>
+		<k>майдалан-</k>
+		<refv word="майдала"/>
+		<blockquote>размельчаться, дробиться.</blockquote>
+	</card>
+	<card>
+		<k>майдалант-</k>
+		<caus word="майдалан"/>
+		<blockquote>размельчать, подвергать размельчению.</blockquote>
+	</card>
+	<card>
+		<k>майдалат-</k>
+		<caus word="майдала"/>
+		<blockquote>заставить размельчать, заставить дробить.</blockquote>
+	</card>
+	<card>
+		<k>майдалаш-</k>
+		<recv word="майдала"/>
+		<blockquote>совместно размельчать, совместно дробить что-л.</blockquote>
+	</card>
+	<card>
+		<k>майланыш-</k>
+		<recv word="майлан"/>
+		<blockquote>бети майланышып турат у него лицо лоснится.</blockquote>
+	</card>
+	<card>
+		<k>майланышуу</k>
+		<actionNoun word="майланыш"/>
+		<blockquote>кымыз ынак сүттөй кесенин эрдөөнүндө жылт-жылт майланышууда кумыс в наполненной до краёв белой-белой чашке поблёскивал жиринками.</blockquote>
+	</card>
+	<card>
+		<k>майлат-</k>
+		<caus word="майла"/>
+		<blockquote>алты нарга той артып, адамдын оозун майлатып стих. навьючив на шесть верблюдов угощение для пира и (тем) жирно угостив людей.</blockquote>
+	</card>
+	<card>
+		<k>маймакта-</k>
+		<sameas word="баймакта"/>
+		<blockquote>привязывать лошадь к приколу за одну переднюю ногу.</blockquote>
+	</card>
+	<card>
+		<k>маймакташ-</k>
+		<recv word="маймакта"/>
+		<blockquote>обвинять друг друга, подсиживать друг друга.</blockquote>
+	</card>
+	<card>
+		<k>маймактык</k>
+		<blockquote>косолапость; неуклюжесть.</blockquote>
+	</card>
+	<card>
+		<k>маймынжан</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>ежевика.</blockquote>
+	</card>
+	<card>
+		<k>майна</k>
+		<origin>ир.</origin>
+		<blockquote>майна, индийский скворец.</blockquote>
+	</card>
+	<card>
+		<k>майнапсыз</k>
+		<blockquote>без последствий, без результата.</blockquote>
+	</card>
+	<card>
+		<k>майпалаңда-</k>
+		<sameas word="майпаңда"/>
+		<blockquote>Супахан, чоң тойгон каздай майпалаңдап, көчөгө карай жөнөдү Супахан пошла на улицу, переваливаясь, как сытый до отвала гусь.</blockquote>
+	</card>
+	<card>
+		<k>майпык</k>
+		<blockquote>(о копыте коня, лапе медведя) плоский.</blockquote>
+	</card>
+	<card>
+		<k>майрамда-</k>
+		<blockquote>праздновать.</blockquote>
+	</card>
+	<card>
+		<k>майрамдоо</k>
+		<actionNoun word="майрамда"/>
+		<blockquote>празднование.</blockquote>
+	</card>
+	<card>
+		<k>майрыйт-</k>
+		<caus word="майрый"/>
+		<blockquote>искривить, скособочить.</blockquote>
+	</card>
+	<card>
+		<k>майрыңда-</k>
+		<blockquote>двигаться косолапо, скособочившись.</blockquote>
+	</card>
+	<card>
+		<k>майсала-</k>
+		<meta>южн.</meta>
+		<blockquote>(о хлебном поле, о лужайке) начать покрываться зеленью.</blockquote>
+	</card>
+	<card>
+		<k>майтай-</k>
+		<blockquote>(о нижней части ноги человека) быть безобразно толстой.</blockquote>
+	</card>
+	<card>
+		<k>майтарыл-</k>
+		<pass word="майтар"/>
+		<blockquote>бычактын мизи майтарылды остриё ножа загнулось.</blockquote>
+	</card>
+	<card>
+		<k>майышкак</k>
+		<blockquote>гибкий.</blockquote>
+	</card>
+	<card>
+		<k>макаббат</k>
+		<origin>ар.</origin>
+		<blockquote>любовь (между мужчиной и женщиной).</blockquote>
+	</card>
+	<card>
+		<k>макалай</k>
+		<sameas word="малакай"/>
+		<blockquote>макалай топу см. топу.</blockquote>
+	</card>
+	<card>
+		<k>макет</k>
+		<trn>макет</trn>
+		<blockquote>вагондордун макеттери макеты вагонов.</blockquote>
+	</card>
+	<card>
+		<k>макмалда-</k>
+		<blockquote>покрывать или отделывать бархатом, плюшем.</blockquote>
+	</card>
+	<card>
+		<k>макоолук</k>
+		<blockquote>непонятливость, бестолковость.</blockquote>
+	</card>
+	<card>
+		<k>максималдык</k>
+		<sameas word="максималдуу"/>
+		<blockquote>максималдык даража максимальная степень.</blockquote>
+	</card>
+	<card>
+		<k>мактагансы-</k>
+		<similative word="макта"/>
+		<blockquote>делать вид, что хвалишь.</blockquote>
+	</card>
+	<card>
+		<k>мактал-</k>
+		<pass word="макта"/>
+		<blockquote>макталган хвалёный.</blockquote>
+	</card>
+	<card>
+		<k>макталыш</k>
+		<blockquote>и. д. от. мактал-.</blockquote>
+	</card>
+	<card>
+		<k>мактан-</k>
+		<refv word="макта"/>
+		<blockquote>хвастать, хвалиться, похваляться, бахвалиться.</blockquote>
+	</card>
+	<card>
+		<k>мактант-</k>
+		<caus word="мактан"/>
+		<blockquote>балдар, бириң чыккын - деп, мактантпай, муну жыккын - деп фольк. мол, один из вас, ребята, выходи (на поединок), мол (смотрите), не допустите, чтобы (враг) похвалялся.</blockquote>
+	</card>
+	<card>
+		<k>мактанчаак</k>
+		<blockquote>хвастун.</blockquote>
+	</card>
+	<card>
+		<k>мактанчаактык</k>
+		<blockquote>хвастовство.</blockquote>
+	</card>
+	<card>
+		<k>мактанчы</k>
+		<sameas word="мактаныч"/>
+		<blockquote>эрдик кылып салдым, - деп, мактанчы кылып салыптыр фольк. он похвастался, дескать, я проявил храбрость.</blockquote>
+	</card>
+	<card>
+		<k>мактаныч</k>
+		<blockquote>хвастовство, похвальба.</blockquote>
+	</card>
+	<card>
+		<k>мактат-</k>
+		<caus word="макта"/>
+		<blockquote>ырчыларга мактат- велеть певцам воспеть кого-что-л.</blockquote>
+	</card>
+	<card>
+		<k>макташ-</k>
+		<recv word="макта"/>
+		<blockquote>хвалить друг друга, совместно хвалить.</blockquote>
+	</card>
+	<card>
+		<k>макулда-</k>
+		<blockquote>одобрять.</blockquote>
+	</card>
+	<card>
+		<k>макулдант-</k>
+		<blockquote>уговорить, добиться согласия.</blockquote>
+	</card>
+	<card>
+		<k>макулдат-</k>
+		<caus word="макулда"/>
+		<blockquote>склонить на что-л., уговорить, добиться согласия.</blockquote>
+	</card>
+	<card>
+		<k>макулдоо</k>
+		<actionNoun word="макулда"/>
+		<blockquote>одобрение, санкционирование.</blockquote>
+	</card>
+	<card>
+		<k>малаган</k>
+		<origin>р.</origin>
+		<meta>тяньш.</meta>
+		<blockquote>шалаш, балаган.</blockquote>
+	</card>
+	<card>
+		<k>маладож</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>молодёжь (гл. обр. партийный и советский актив).</blockquote>
+	</card>
+	<card>
+		<k>малайчылык</k>
+		<meta>ист.</meta>
+		<blockquote>всё, связанное с положением домашнего работника, батрака; доля батрацкая (см. малай).</blockquote>
+	</card>
+	<card>
+		<k>малакай</k>
+		<blockquote>мужская меховая шапка без полей и без отворотов.</blockquote>
+	</card>
+	<card>
+		<k>малала-</k>
+		<blockquote>боронить, бороновать.</blockquote>
+	</card>
+	<card>
+		<k>малалан-</k>
+		<refv word="малала"/>
+		<blockquote>жүз отуз гектар жер малаланып бүттү забороновано сто тридцать гектаров земли.</blockquote>
+	</card>
+	<card>
+		<k>малалоо</k>
+		<actionNoun word="малала"/>
+		<blockquote>боронование.</blockquote>
+	</card>
+	<card>
+		<k>малачы</k>
+		<blockquote>бороновальщик.</blockquote>
+	</card>
+	<card>
+		<k>малкам</k>
+		<meta>тяньш.</meta>
+		<blockquote>кушанье из кобыльего молока, сахара и мяса (считается изысканным).</blockquote>
+	</card>
+	<card>
+		<k>малкана</k>
+		<origin>кирг.-ир.</origin>
+		<blockquote>хлев, скотный двор.</blockquote>
+	</card>
+	<card>
+		<k>малкыт-</k>
+		<caus word="малкы"/>
+		<blockquote>этти малкыта жутту он глотал мясо с большим аппетитом (из большой и полной чашки, большими кусками).</blockquote>
+	</card>
+	<card>
+		<k>малсыз</k>
+		<blockquote>не имеющий скота.</blockquote>
+	</card>
+	<card>
+		<k>малсыздык</k>
+		<blockquote>неимение скота.</blockquote>
+	</card>
+	<card>
+		<k>малташа</k>
+		<meta>южн.</meta>
+		<blockquote>не распустившиеся в воде комочки курта (см. курут I).</blockquote>
+	</card>
+	<card>
+		<k>малтыктыр-</k>
+		<caus word="малтык"/>
+		<blockquote>калың карга малтыктырып жыгып салды он толкнул (своего противника) в глубокий снег и свалил.</blockquote>
+	</card>
+	<card>
+		<k>малчылык</k>
+		<blockquote>скотоводство.</blockquote>
+	</card>
+	<card>
+		<k>малөк</k>
+		<pair word="алөк"/>
+		<blockquote>алөк-малөк разг. всякого рода налоги и обложения.</blockquote>
+	</card>
+	<card>
+		<k>мамай</k>
+		<meta>талас.</meta>
+		<blockquote>название детской игры.</blockquote>
+	</card>
+	<card>
+		<k>маман</k>
+		<pair word="жаман"/>
+		<blockquote>аялы жаман-маман эмес жена у него не какая-нибудь плохенькая.</blockquote>
+	</card>
+	<card>
+		<k>мамили</k>
+		<origin>р.</origin>
+		<meta>уст.</meta>
+		<alter>(или мамили чай)</alter>
+		<blockquote>фамильный чай.</blockquote>
+	</card>
+	<card>
+		<k>мамлекет</k>
+		<origin>ар.</origin>
+		<blockquote>государство.</blockquote>
+	</card>
+	<card>
+		<k>мамонут</k>
+		<sameas word="мамонт"/>
+		<blockquote>кериги бар, били бар, мамонуттун бири бар фольк. есть у него носорог, есть слон, есть один мамонт.</blockquote>
+	</card>
+	<card>
+		<k>мампази</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>монпасье.</blockquote>
+	</card>
+	<card>
+		<k>мамынаке</k>
+		<blockquote>вот на-ка, вот на тебе.</blockquote>
+	</card>
+	<card>
+		<k>мамырлат-</k>
+		<caus word="мамырла"/>
+		<blockquote>сүйгөн мейманы келсе, мамырлатып тамак берчү когда приходил любимый гость, (его) он ублажал угощением.</blockquote>
+	</card>
+	<card>
+		<k>мамырлаш-</k>
+		<recv word="мамырла"/>
+		<blockquote>бал, шекерин татышып, мамырлашып жатышып фольк. кушая мёд и сахар, они наслаждались.</blockquote>
+	</card>
+	<card>
+		<k>мамырчылык</k>
+		<blockquote>спокойствие; блаженное состояние.</blockquote>
+	</card>
+	<card>
+		<k>маңа</k>
+		<meta>южн.</meta>
+		<blockquote>мне (см. мен I).</blockquote>
+	</card>
+	<card>
+		<k>манак</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>монах.</blockquote>
+	</card>
+	<card>
+		<k>манапсын-</k>
+		<similative word="манап"/>
+		<blockquote>изображать из себя манапа, зазнаваться, без меры важничать.</blockquote>
+	</card>
+	<card>
+		<k>маңарлан-</k>
+		<meta>южн.</meta>
+		<blockquote>(о молочных продуктах) начав портиться, покрыться плесенью.</blockquote>
+	</card>
+	<card>
+		<k>манарсы-</k>
+		<similative word="манар" subindex="2"/>
+		<blockquote>быть подобным красному пламени (напр. о небе во время восхода и захода солнца).</blockquote>
+	</card>
+	<card>
+		<k>манасчы</k>
+		<blockquote>исполнитель эпоса "Манас" (этот термин появился после революции, раньше сказителей "Манаса", как сказителей вообще богатырского эпоса, называли жомокчу, см.).</blockquote>
+	</card>
+	<card>
+		<k>манаттан-</k>
+		<blockquote>стать ярко-красным.</blockquote>
+	</card>
+	<card>
+		<k>маңгилен-</k>
+		<blockquote>одурманиваться наркотиками.</blockquote>
+	</card>
+	<card>
+		<k>маңгыл</k>
+		<blockquote>красноватый.</blockquote>
+	</card>
+	<card>
+		<k>маңдайча</k>
+		<blockquote>верхняя перекладина двери юрты.</blockquote>
+	</card>
+	<card>
+		<k>мандарин</k>
+		<blockquote>мандарин (плод).</blockquote>
+	</card>
+	<card>
+		<k>мандыпалам</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>мадаполам.</blockquote>
+	</card>
+	<card>
+		<k>манёвр</k>
+		<blockquote>манёвр, манёвры.</blockquote>
+	</card>
+	<card>
+		<k>манек</k>
+		<blockquote>полный и полнолицый крепыш (чаще употребляется в форме манектей).</blockquote>
+	</card>
+	<card>
+		<k>манера</k>
+		<blockquote>манера (стиль).</blockquote>
+	</card>
+	<card>
+		<k>манжара</k>
+		<blockquote>гнойные выделения из парши (на голове).</blockquote>
+	</card>
+	<card>
+		<k>манжы</k>
+		<meta>тяньш.</meta>
+		<blockquote>дряхлый валух.</blockquote>
+	</card>
+	<card>
+		<k>манжыр</k>
+		<pair word="анжыр"/>
+		<blockquote>анжыр-манжыр всякие там винные ягоды и тому подобное.</blockquote>
+	</card>
+	<card>
+		<k>манифест</k>
+		<trn>манифест</trn>
+		<blockquote>Коммунисттик партиянын манифести Манифест Коммунистической партии.</blockquote>
+	</card>
+	<card>
+		<k>маңкайт-</k>
+		<caus word="маңкай"/>
+		<blockquote>ак боз атын маңкайтып туура тартып тура калып на своём светло-сивом стройном коне он поехал наперерез и остановился.</blockquote>
+	</card>
+	<card>
+		<k>маңкалан-</k>
+		<blockquote>гнусавить.</blockquote>
+	</card>
+	<card>
+		<k>маңкаңдат-</k>
+		<caus word="маңкаңда"/>
+		<blockquote>көркөм тулпар бууданды маңкаңдата бастырып фольк. (богатырь едет) пустив бодрым шагом красивого боевого коня-бегунца.</blockquote>
+	</card>
+	<card>
+		<k>маңкашка</k>
+		<blockquote>(о животных) с большой лысиной.</blockquote>
+	</card>
+	<card>
+		<k>маңкүш</k>
+		<blockquote>(обычно о здоровяке) наивный, неопытный, простоватый.</blockquote>
+	</card>
+	<card>
+		<k>маңпаң</k>
+		<blockquote>кит., синьцз.</blockquote>
+		<sameas word="шаңыя"/>
+	</card>
+	<card>
+		<k>мансапкор</k>
+		<origin>ар.-ир.</origin>
+		<blockquote>карьерист.</blockquote>
+	</card>
+	<card>
+		<k>мансаптуу</k>
+		<meta>уст.</meta>
+		<blockquote>человек, добившийся высокой должности.</blockquote>
+	</card>
+	<card>
+		<k>мантайт-</k>
+		<caus word="мантай"/>
+		<blockquote>мантайтып бак- холить.</blockquote>
+	</card>
+	<card>
+		<k>мантуу</k>
+		<origin>кит.</origin>
+		<blockquote>манту, паровые пельмени.</blockquote>
+	</card>
+	<card>
+		<k>мантуучу</k>
+		<blockquote>повар, готовящий паровые пельмени; торговец паровыми пельменями.</blockquote>
+	</card>
+	<card>
+		<k>мануфактура</k>
+		<blockquote>эк. ист.</blockquote>
+		<trn>мануфактура</trn>
+	</card>
+	<card>
+		<k>маңчылык</k>
+		<blockquote>пристрастие к наркотикам, наркомания.</blockquote>
+	</card>
+	<card>
+		<k>манчырка-</k>
+		<blockquote>капризничать; чваниться, зазнаваться.</blockquote>
+	</card>
+	<card>
+		<k>манчыркоочулук</k>
+		<blockquote>зазнайство, чванство.</blockquote>
+	</card>
+	<card>
+		<k>манчыстыр</k>
+		<origin>р.</origin>
+		<meta>тяньш.</meta>
+		<blockquote>манчестер (хлопчатобумажный бархат).</blockquote>
+	</card>
+	<card>
+		<k>маңыроо</k>
+		<blockquote>бестолковый, недалёкий; простоватый.</blockquote>
+	</card>
+	<card>
+		<k>маңыроолук</k>
+		<blockquote>бестолковость, недалёкость.</blockquote>
+	</card>
+	<card>
+		<k>маңыш</k>
+		<meta>сев.</meta>
+		<meta>ист.</meta>
+		<blockquote>пользование чужим верховым животным для поездок (хозяину животного это обычно возмещалось).</blockquote>
+	</card>
+	<card>
+		<k>мараз</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<blockquote>дурная болезнь (сифилис).</blockquote>
+	</card>
+	<card>
+		<k>маран-</k>
+		<refv word="мара" index="3"/>
+		<blockquote>осматриваться, оглядываться, озираться.</blockquote>
+	</card>
+	<card>
+		<k>марганец</k>
+		<trn>марганец</trn>
+		<blockquote>марганец кислотасы марганцевая кислота.</blockquote>
+	</card>
+	<card>
+		<k>маргатон</k>
+		<meta>тяньш.</meta>
+		<blockquote>плотина или дамба из прутьев и гальки (русские ирригаторы в Средней Азии называют её "таштугайная").</blockquote>
+	</card>
+	<card>
+		<k>мардек</k>
+		<origin>ир.</origin>
+		<compare word="сото"/>
+		<blockquote>кукурузный початок (без зерна).</blockquote>
+	</card>
+	<card>
+		<k>мардикер</k>
+		<origin>ир.</origin>
+		<meta>ист.</meta>
+		<blockquote>мардикёр, подённый рабочий, подёнщик, чернорабочий.</blockquote>
+	</card>
+	<card>
+		<k>мардикердик</k>
+		<meta>ист.</meta>
+		<blockquote>профессия подённого рабочего, подёнщика, чернорабочего.</blockquote>
+	</card>
+	<card>
+		<k>марек</k>
+		<alter>(или марек бычак)</alter>
+		<meta>тяньш.</meta>
+		<blockquote>маленький ножичек (не перочинный).</blockquote>
+	</card>
+	<card>
+		<k>марий</k>
+		<blockquote>мерлушка с волнистой шерстью (не курчавая).</blockquote>
+	</card>
+	<card>
+		<k>мартабалуу</k>
+		<blockquote>уважаемый, солидный, степенный.</blockquote>
+	</card>
+	<card>
+		<k>мартен</k>
+		<blockquote>мартен, мартеновская печь.</blockquote>
+	</card>
+	<card>
+		<k>мартчылык</k>
+		<blockquote>проявление щедрости; всё характерное для щедрого; щедрость.</blockquote>
+	</card>
+	<card>
+		<k>марубат</k>
+		<sameas word="мербет"/>
+		<blockquote>лагыл, якут, марубат - эки тамда бу да бар фольк. рубины, яхонты, жемчуга - в двух домах это тоже есть.</blockquote>
+	</card>
+	<card>
+		<k>марчагай</k>
+		<blockquote>коротышка (низкого роста и полный).</blockquote>
+	</card>
+	<card>
+		<k>марчай-</k>
+		<blockquote>(о человеке) быть низкого роста и рыхловато полным.</blockquote>
+	</card>
+	<card>
+		<k>марчала-</k>
+		<blockquote>(о диких парнокопытных) лизать солонец.</blockquote>
+	</card>
+	<card>
+		<k>марш</k>
+		<meta>в разн. знач.</meta>
+		<trn>марш</trn>
+		<blockquote>шагом марш! команда шагом марш!</blockquote>
+	</card>
+	<card>
+		<k>марышкыр</k>
+		<pair word="карышкыр"/>
+		<blockquote>карышкыр-марышкыр жеп койбосун как бы волки какие не съели.</blockquote>
+	</card>
+	<card>
+		<k>масайраш-</k>
+		<blockquote>насладиться, удовлетвориться.</blockquote>
+	</card>
+	<card>
+		<k>масеке</k>
+		<blockquote>шутка, насмешка.</blockquote>
+	</card>
+	<card>
+		<k>маселен</k>
+		<origin>ар.</origin>
+		<blockquote>например.</blockquote>
+	</card>
+	<card>
+		<k>маска</k>
+		<meta>в разн. знач.</meta>
+		<trn>маска</trn>
+		<blockquote>маска сыйрылып ташталды маска сорвана.</blockquote>
+	</card>
+	<card>
+		<k>маскарала-</k>
+		<blockquote>высмеивать, позорить, срамить.</blockquote>
+	</card>
+	<card>
+		<k>маскүнем</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>снотворное снадобье.</blockquote>
+	</card>
+	<card>
+		<k>маслаат,</k>
+		<blockquote>маслаат, маслет</blockquote>
+		<sameas word="масилет"/>
+	</card>
+	<card>
+		<k>массалуулук</k>
+		<blockquote>массовость.</blockquote>
+	</card>
+	<card>
+		<k>мастава</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>рисовый суп с мелко нарезанным мясом, заправленный кислым молоком.</blockquote>
+	</card>
+	<card>
+		<k>мастер</k>
+		<trn>мастер</trn>
+		<blockquote>кураштыруучу цехтин мастери мастер сборочного цеха.</blockquote>
+	</card>
+	<card>
+		<k>масчылык</k>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<blockquote>опьянённость, состояние опьянения; всё, свойственное состоянию пьяного или опьянения.</blockquote>
+	</card>
+	<card>
+		<k>масыйкат</k>
+		<origin>ар.</origin>
+		<blockquote>название одной из киргизских мелодий.</blockquote>
+	</card>
+	<card>
+		<k>мател</k>
+		<meta>южн.</meta>
+		<blockquote>поговорка.</blockquote>
+	</card>
+	<card>
+		<k>материалда-</k>
+		<meta>разг.</meta>
+		<blockquote>подавать на кого-л. обличительный материал.</blockquote>
+	</card>
+	<card>
+		<k>материалдаш-</k>
+		<recv word="материалда"/>
+		<blockquote>материалдашып жүрүп, экөө тең жазасын тартты они кляузничали друг на друга, и оба понесли наказание.</blockquote>
+	</card>
+	<card>
+		<k>материалчы</k>
+		<meta>разг.</meta>
+		<blockquote>кляузник.</blockquote>
+	</card>
+	<card>
+		<k>матике</k>
+		<origin>р.</origin>
+		<meta>сев.</meta>
+		<blockquote>дама (в картах); дамка (в шашках).</blockquote>
+	</card>
+	<card>
+		<k>маткел</k>
+		<origin>р.</origin>
+		<meta>чуйск.</meta>
+		<blockquote>миткаль.</blockquote>
+	</card>
+	<card>
+		<k>матрап</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>сачок на длинной ручке (для ловли перепелов).</blockquote>
+	</card>
+	<card>
+		<k>матчы</k>
+		<pair word="катчы"/>
+		<blockquote>катчы-матчы писаришка, всякие там писаришки.</blockquote>
+	</card>
+	<card>
+		<k>матырыялчы</k>
+		<meta>разг.</meta>
+		<blockquote>кляузник, склочник.</blockquote>
+	</card>
+	<card>
+		<k>махаббат</k>
+		<sameas word="макаббат"/>
+		<blockquote>бирок эч ким көргөн жок махаббаттын өлгөнүн стих. но никто не видел, чтоб любовь умерла.</blockquote>
+	</card>
+	<card>
+		<k>машакана</k>
+		<origin>ир.</origin>
+		<blockquote>полог от комаров.</blockquote>
+	</card>
+	<card>
+		<k>машакатсыз</k>
+		<blockquote>без трудностей.</blockquote>
+	</card>
+	<card>
+		<k>машакаттан-</k>
+		<blockquote>испытывать трудности; мучиться.</blockquote>
+	</card>
+	<card>
+		<k>машат</k>
+		<blockquote>родник, ключ (обычно в каменистой почве).</blockquote>
+	</card>
+	<card>
+		<k>машендик</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>мошенник.</blockquote>
+	</card>
+	<card>
+		<k>машинала-</k>
+		<meta>разг.</meta>
+		<blockquote>шить на швейной машине.</blockquote>
+	</card>
+	<card>
+		<k>машиналаштыр-</k>
+		<caus word="машиналаш"/>
+		<blockquote>машинизировать.</blockquote>
+	</card>
+	<card>
+		<k>машиналаштыруу</k>
+		<actionNoun word="машиналаштыр"/>
+		<blockquote>машинизация.</blockquote>
+	</card>
+	<card>
+		<k>машиначы</k>
+		<meta>уст.</meta>
+		<blockquote>портной.</blockquote>
+	</card>
+	<card>
+		<k>машинист</k>
+		<blockquote>ж.-д.</blockquote>
+		<trn>машинист</trn>
+	</card>
+	<card>
+		<k>машинке</k>
+		<origin>р.</origin>
+		<blockquote>машинка (пишущая).</blockquote>
+	</card>
+	<card>
+		<k>машке</k>
+		<blockquote>подружейная собака, лягавая.</blockquote>
+	</card>
+	<card>
+		<k>машкул</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<blockquote>занятый (делом, работой).</blockquote>
+	</card>
+	<card>
+		<k>машрөө</k>
+		<meta>уст.</meta>
+		<blockquote>бельевая ткань, похожая на белую мату.</blockquote>
+	</card>
+	<card>
+		<k>маштык</k>
+		<blockquote>ловкость, умелость.</blockquote>
+	</card>
+	<card>
+		<k>машыгуу</k>
+		<actionNoun word="машык" index="3"/>
+		<blockquote>упражнение, приобретение навыков.</blockquote>
+	</card>
+	<card>
+		<k>машыктуу</k>
+		<blockquote>опытный, квалифицированный.</blockquote>
+	</card>
+	<card>
+		<k>машыктык</k>
+		<blockquote>натренированность, ловкость.</blockquote>
+	</card>
+	<card>
+		<k>машыктыруу</k>
+		<actionNoun word="машыктыр"/>
+		<blockquote>машыктыруусун арттыруу повышение квалификации.</blockquote>
+	</card>
+	<card>
+		<k>машырка-</k>
+		<sameas word="маашырка"/>
+		<blockquote>машыркап, таттуу кыялга батып наслаждаясь, погрузившись в сладостные мечты.</blockquote>
+	</card>
+	<card>
+		<k>машырык</k>
+		<origin>ар.</origin>
+		<meta>редко</meta>
+		<blockquote>восток.</blockquote>
+	</card>
+	<card>
+		<k>маяк</k>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<trn>маяк</trn>
+		<blockquote>эмгектен маяк атанган, эчендер сүйкүм угулду стих. о многих было слышно, о тех, которые названы маяками труда.</blockquote>
+	</card>
+	<card>
+		<k>маял</k>
+		<pair word="аял" index="2"/>
+		<blockquote>аял-маялы менен келди он пришёл со своей женой; он сам пришёл да и жену свою привёл.</blockquote>
+	</card>
+	<card>
+		<k>маяна</k>
+		<origin>ир.</origin>
+		<meta>уст.</meta>
+		<blockquote>заработная плата, жалованье.</blockquote>
+	</card>
+	<card>
+		<k>мебелде-</k>
+		<blockquote>меблировать.</blockquote>
+	</card>
+	<card>
+		<k>мегежин</k>
+		<blockquote>свинья, свиноматка.</blockquote>
+	</card>
+	<card>
+		<k>мегиле</k>
+		<blockquote>нате (обращение ко многим, когда каждому в отделъности говорят "ты"; ср. ме, меңиз).</blockquote>
+	</card>
+	<card>
+		<k>мегин</k>
+		<pair word="эгин"/>
+		<blockquote>эгин-мегин всякого рода посевы.</blockquote>
+	</card>
+	<card>
+		<k>медие</k>
+		<meta>южн.</meta>
+		<blockquote>название травянистого растения.</blockquote>
+	</card>
+	<card>
+		<k>медикамент</k>
+		<blockquote>медикамент (ы).</blockquote>
+	</card>
+	<card>
+		<k>медиресе</k>
+		<origin>ар.</origin>
+		<meta>ист.</meta>
+		<blockquote>медресе (высшая мусульманская духовная школа).</blockquote>
+	</card>
+	<card>
+		<k>меймандос</k>
+		<origin>ир.</origin>
+		<blockquote>гостеприимный, хлебосольный.</blockquote>
+	</card>
+	<card>
+		<k>меймандостук</k>
+		<blockquote>гостеприимство, хлебосольство.</blockquote>
+	</card>
+	<card>
+		<k>мейманчыла-</k>
+		<blockquote>гостить, гостевать (бывать в гостях).</blockquote>
+	</card>
+	<card>
+		<k>мейнеткеш</k>
+		<origin>ар.-ир.</origin>
+		<blockquote>трудящийся.</blockquote>
+	</card>
+	<card>
+		<k>мейримдүүлүк</k>
+		<sameas word="мээримдүүлүк"/>
+		<blockquote>мейримдүүлүк менен очень любезно, выказав большое почтение.</blockquote>
+	</card>
+	<card>
+		<k>мекекээ</k>
+		<blockquote>мэ-э (подражание крику козлёнка).</blockquote>
+	</card>
+	<card>
+		<k>мекеме</k>
+		<origin>ар.</origin>
+		<blockquote>учреждение; канцелярия.</blockquote>
+	</card>
+	<card>
+		<k>мекендеш</k>
+		<blockquote>соотечественник.</blockquote>
+	</card>
+	<card>
+		<k>мекери</k>
+		<blockquote>название травянистого растения (применяется в народной медицине).</blockquote>
+	</card>
+	<card>
+		<k>мекир</k>
+		<blockquote>круто изогнутый; согбенный.</blockquote>
+	</card>
+	<card>
+		<k>мекирей-</k>
+		<blockquote>(о человеке, животном) круто изогнуться, сильно согнуться.</blockquote>
+	</card>
+	<card>
+		<k>мекиян</k>
+		<origin>ир.</origin>
+		<blockquote>самка птиц породы куриных или куропаток.</blockquote>
+	</card>
+	<card>
+		<k>мекчегей</k>
+		<sameas word="мекчигий"/>
+		<blockquote>мекчегей абышка согбенный старец.</blockquote>
+	</card>
+	<card>
+		<k>мекчей-</k>
+		<sameas word="мекчий"/>
+		<blockquote>бели кеткен мекчейип, көзү кеткен чекчейип фольк. спина (букв. стан) у него сгорбилась, глаза выпучились.</blockquote>
+	</card>
+	<card>
+		<k>мекчигий</k>
+		<blockquote>сгорбившийся, согбенный.</blockquote>
+	</card>
+	<card>
+		<k>мелдешкенси-</k>
+		<similative word="мелдеш" index="2"/>
+		<blockquote>делать вид, что соревнуешься.</blockquote>
+	</card>
+	<card>
+		<k>мелек</k>
+		<pair word="белек"/>
+		<blockquote>мен эч кандай белек-мелек камдай алган жокмун я не смог приготовить какого-нибудь подарка.</blockquote>
+	</card>
+	<card>
+		<k>мелжеш-</k>
+		<recv word="мелже"/>
+		<blockquote>биз мелжешип туруп, кызыл кийикти аттык мы прикинули (определили расстояние), а затем выстрелили в серну.</blockquote>
+	</card>
+	<card>
+		<k>мелин</k>
+		<pair word="келин"/>
+		<blockquote>келин-мелин менен келди он пришёл со всеми своими снохами-невестками.</blockquote>
+	</card>
+	<card>
+		<k>мелтилдет-</k>
+		<caus word="мелтилде"/>
+		<blockquote>мелтилдете куй- наливать полно, до краёв.</blockquote>
+	</card>
+	<card>
+		<k>мелчем</k>
+		<sameas word="ыңгай"/>
+		<blockquote>мелчемине келтирип вовремя, к месту, ловко.</blockquote>
+	</card>
+	<card>
+		<k>мемирет-</k>
+		<caus word="мемире" index="2"/>
+		<blockquote>мемиреткен таттуу уйку безмятежный сладкий сон.</blockquote>
+	</card>
+	<card>
+		<k>мемпит</k>
+		<pair word="кемпит"/>
+		<blockquote>биз кемпит-мемпитти билбей эле чоңойгон элек мы выросли, не зная никаких конфет.</blockquote>
+	</card>
+	<card>
+		<k>менде</k>
+		<sameas word="бенде"/>
+		<blockquote>Канчоронун кордугун мендесине бербей кал фольк. не доведись (ни одному) человеку (испытать) издевательства Канчоро.</blockquote>
+	</card>
+	<card>
+		<k>меңдубана</k>
+		<origin>ир.</origin>
+		<blockquote>белена.</blockquote>
+	</card>
+	<card>
+		<k>меңиз</k>
+		<blockquote>нате (вежливо обращаясь к одному лицу; ср. мегиле).</blockquote>
+	</card>
+	<card>
+		<k>менменсин-</k>
+		<refv word="менменси"/>
+		<sameas word="менменси"/>
+		<blockquote>менменсине карап взглянув свысока.</blockquote>
+	</card>
+	<card>
+		<k>менменсинүү</k>
+		<actionNoun word="менменсин"/>
+		<blockquote>самохвальство, бахвальство.</blockquote>
+	</card>
+	<card>
+		<k>менменчил</k>
+		<blockquote>самохвал, бахвал.</blockquote>
+	</card>
+	<card>
+		<k>менменчилик</k>
+		<blockquote>самохвальство, бахвальство.</blockquote>
+	</card>
+	<card>
+		<k>менчиктел-</k>
+		<pass word="менчикте"/>
+		<blockquote>быть присвоенным, присваиваться.</blockquote>
+	</card>
+	<card>
+		<k>менчикчил</k>
+		<blockquote>(о человеке) с собственническими замашками.</blockquote>
+	</card>
+	<card>
+		<k>меншебек</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>меньшевик.</blockquote>
+	</card>
+	<card>
+		<k>меншек</k>
+		<meta>тяньш.</meta>
+		<blockquote>(о беременной женщине) с сильно выпяченным животом.</blockquote>
+	</card>
+	<card>
+		<k>мергенчилик</k>
+		<blockquote>охотничий промысел (ружейного охотника), занятие ружейной охотой.</blockquote>
+	</card>
+	<card>
+		<k>мерестел-</k>
+		<blockquote>быть унаследованным.</blockquote>
+	</card>
+	<card>
+		<k>меринос</k>
+		<trn>меринос</trn>
+		<blockquote>меринос кою мериносовая овца.</blockquote>
+	</card>
+	<card>
+		<k>меркек</k>
+		<pair word="эркек"/>
+		<blockquote>аны мен эркек-меркек дебейм его я даже за мужчинишку не считаю.</blockquote>
+	</card>
+	<card>
+		<k>мерте</k>
+		<sameas word="мертем"/>
+		<blockquote>миң мерте ыраазымын я доволен-предоволен (букв. тысячу раз доволен).</blockquote>
+	</card>
+	<card>
+		<k>мертик-</k>
+		<blockquote>повредить себе что-л., искалечиться (вывихнуть или сломать ногу, руку, надорваться и т.п.).</blockquote>
+	</card>
+	<card>
+		<k>мерттик</k>
+		<blockquote>гибель, смерть.</blockquote>
+	</card>
+	<card>
+		<k>мерчем</k>
+		<sameas word="мерчемдүү"/>
+		<blockquote>келген жоону кетирбес мерт кылар мерчем жери бар фольк. такое благоприятное стечение обстоятельств, когда врага, не выпуская, можно убить.</blockquote>
+	</card>
+	<card>
+		<k>мерчим</k>
+		<sameas word="мерчем"/>
+		<blockquote>мерчими келип калганда когда подошёл удобный момент.</blockquote>
+	</card>
+	<card>
+		<k>меселдет-</k>
+		<blockquote>говорить иносказательно; говорить, уснащая свою речь пословицами, поговорками, афоризмами.</blockquote>
+	</card>
+	<card>
+		<k>местей-</k>
+		<sameas word="мисирей"/>
+		<blockquote>өңү жездей местейип, бети-башынын бырыштары кабатталып турат лицо его выражало гнев, морщины на лице собрались в складки.</blockquote>
+	</card>
+	<card>
+		<k>местком</k>
+		<blockquote>местком (местный комитет).</blockquote>
+	</card>
+	<card>
+		<k>мет</k>
+		<pair word="эт" index="1"/>
+		<blockquote>эт-метиң барбы? есть ли у тебя какое-нибудь мясо? есть ли у тебя что-нибудь мясное?</blockquote>
+	</card>
+	<card>
+		<k>метеорология</k>
+		<trn>метеорология</trn>
+		<blockquote>метеорология шарттары метеорологические условия.</blockquote>
+	</card>
+	<card>
+		<k>метистештир-</k>
+		<blockquote>метизировать.</blockquote>
+	</card>
+	<card>
+		<k>метистештирүү</k>
+		<actionNoun word="метистештир"/>
+		<blockquote>метизация.</blockquote>
+	</card>
+	<card>
+		<k>меткел</k>
+		<sameas word="маткел"/>
+		<blockquote>жөн эле меткелдей ак ну прямо, как миткаль, белый.</blockquote>
+	</card>
+	<card>
+		<k>метод</k>
+		<trn>метод</trn>
+		<blockquote>новатордук методдор новаторские методы.</blockquote>
+	</card>
+	<card>
+		<k>механизацияла-</k>
+		<blockquote>механизировать.</blockquote>
+	</card>
+	<card>
+		<k>механизациялаштыр-</k>
+		<blockquote>механизировать.</blockquote>
+	</card>
+	<card>
+		<k>механизм</k>
+		<trn>механизм</trn>
+		<blockquote>механизмдерди өндүрүмдүү пайдалануу производительное использование механизмов.</blockquote>
+	</card>
+	<card>
+		<k>механикалаштыр-</k>
+		<blockquote>механизировать.</blockquote>
+	</card>
+	<card>
+		<k>мечин</k>
+		<blockquote>год обезьяны</blockquote>
+		<look word="жыл" index="1" subindex="2"/>
+	</card>
+	<card>
+		<k>мечит</k>
+		<origin>ар.</origin>
+		<blockquote>мечеть.</blockquote>
+	</card>
+	<card>
+		<k>мешкей</k>
+		<blockquote>обжора, ненасытный.</blockquote>
+	</card>
+	<card>
+		<k>мещандык</k>
+		<meta>прям.</meta>
+		<meta>перен.</meta>
+		<blockquote>мещанство.</blockquote>
+	</card>
+	<card>
+		<k>миаувла-</k>
+		<blockquote>мяукать.</blockquote>
+	</card>
+	<card>
+		<k>мизде-</k>
+		<blockquote>отделывать, оттачивать лезвие.</blockquote>
+	</card>
+	<card>
+		<k>миздеш-</k>
+		<recv word="мизде"/>
+		<blockquote>ар кимиси тиштенет, албарс кылыч миздешет фольк. все они, стиснув (от гнева) зубы, точат булатные мечи.</blockquote>
+	</card>
+	<card>
+		<k>мизмилдирик</k>
+		<sameas word="миспилдирик"/>
+		<blockquote>Манастын тукуму Алымсарык, Кулансарыктан кийин, мизмилдирик болуп, жок болуп кеткен экен Манасово племя после (его праправнуков) Алымсарыка и Кулансарыка, исчезло бесследно.</blockquote>
+	</card>
+	<card>
+		<k>мийзамдаш-</k>
+		<blockquote>сутяжничать, обращаться к помощи закона, суда, властей (в тяжбе).</blockquote>
+	</card>
+	<card>
+		<k>мийзат</k>
+		<sameas word="бурсат"/>
+		<blockquote>жети күн мийзат бериңиз дайте семь дней срока.</blockquote>
+	</card>
+	<card>
+		<k>мийиз</k>
+		<pair word="кийиз"/>
+		<blockquote>кийиз-мийиз өңдөнгөн гана бир демелерди көтөрө келгенбиз мы принесли так кое-что вроде войлока.</blockquote>
+	</card>
+	<card>
+		<k>микробиологиялык</k>
+		<blockquote>микробиологический.</blockquote>
+	</card>
+	<card>
+		<k>микрофон</k>
+		<trn>микрофон</trn>
+		<blockquote>театр микрофондо радио театр у микрофона.</blockquote>
+	</card>
+	<card>
+		<k>мил</k>
+		<pair word="бил" index="1"/>
+		<blockquote>бил-мили или били-мили всякие там его слоны.</blockquote>
+	</card>
+	<card>
+		<k>милдеттен-</k>
+		<blockquote>обязаться.</blockquote>
+	</card>
+	<card>
+		<k>милдеттендирүү</k>
+		<actionNoun word="милдеттендир"/>
+		<blockquote>возложение обязанностей.</blockquote>
+	</card>
+	<card>
+		<k>милк</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>десна.</blockquote>
+	</card>
+	<card>
+		<k>милтекеч</k>
+		<origin>ир.</origin>
+		<blockquote>фитильное ружьё.</blockquote>
+	</card>
+	<card>
+		<k>мима</k>
+		<origin>р.</origin>
+		<meta>тяньш.</meta>
+		<blockquote>пимы, валенки.</blockquote>
+	</card>
+	<card>
+		<k>мимарек</k>
+		<origin>ар.</origin>
+		<sameas word="маарек"/>
+		<blockquote>токтомго мимарек колдорду коюп жибергиле ирон. приложите к постановлению ваши благословенные руки; соизвольте подписаться под постановлением.</blockquote>
+	</card>
+	<card>
+		<k>мимиш</k>
+		<pair word="имиш"/>
+		<blockquote>"имиш-мимишиңди" койчу, айланайын брось ты, милый мой, всякие "будто бы".</blockquote>
+	</card>
+	<card>
+		<k>миңгек</k>
+		<meta>южн.</meta>
+		<blockquote>название дикорастущего клубненосного растения (в неурожайные годы клубни его употреблялись в пищу; имеет и целебные свойства).</blockquote>
+	</card>
+	<card>
+		<k>мингиздир-</k>
+		<caus word="мингиз"/>
+		<blockquote>атка мингиздир- велеть, чтобы посадили верхом на лошадь.</blockquote>
+	</card>
+	<card>
+		<k>мингиздирт-</k>
+		<caus word="мингиздир"/>
+		<blockquote>Жамалды ат артына мингиздиртип кетмек он обязательно сделает так, чтобы (девушку) Джамал посадили верхом на лошадь позади всадника.</blockquote>
+	</card>
+	<card>
+		<k>мингич</k>
+		<sameas word="миңги"/>
+		<blockquote>мингич болсун үчүн аны бээге алмашканбыз чтобы иметь верховое животное, мы обменяли его (верблюжонка) на кобылу.</blockquote>
+	</card>
+	<card>
+		<k>миндет</k>
+		<sameas word="милдет"/>
+		<blockquote>миндеттен куткар- помочь в трудную минуту (напр. деньгами).</blockquote>
+	</card>
+	<card>
+		<k>миңдет-</k>
+		<caus word="миңде" index="1"/>
+		<blockquote>айдап чыгат кызматка кишендүүдөн миңдетип фольк. (на каторге) выгоняют на работу кандальников тысячами.</blockquote>
+	</card>
+	<card>
+		<k>минимум</k>
+		<trn>минимум</trn>
+		<blockquote>агротехникалык минимум агротехнический минимум.</blockquote>
+	</card>
+	<card>
+		<k>министр</k>
+		<trn>министр</trn>
+		<blockquote>премьер-министр премьер-министр.</blockquote>
+	</card>
+	<card>
+		<k>минус</k>
+		<blockquote>минус (знак).</blockquote>
+	</card>
+	<card>
+		<k>мирок</k>
+		<pair word="бирок"/>
+		<blockquote>бирок-мирогуңду кой брось ты всякие свои "но", оставь ты свои оговорки-отговорки.</blockquote>
+	</card>
+	<card>
+		<k>миссия</k>
+		<trn>миссия</trn>
+		<blockquote>улуу жана асыл миссия великая и благородная миссия.</blockquote>
+	</card>
+	<card>
+		<k>мистон</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>пистон (в оружии).</blockquote>
+	</card>
+	<card>
+		<k>мит</k>
+		<pair word="ит"/>
+		<blockquote>ит-мит каап албасын как бы собака какая не укусила.</blockquote>
+	</card>
+	<card>
+		<k>митаам</k>
+		<origin>ар.</origin>
+		<blockquote>мошенник, жулик, пройдоха.</blockquote>
+	</card>
+	<card>
+		<k>митаамдан-</k>
+		<blockquote>жульничать, притворяясь честным.</blockquote>
+	</card>
+	<card>
+		<k>митаамдык</k>
+		<sameas word="митаамчылык"/>
+		<blockquote>митаамдык менен жульнически.</blockquote>
+	</card>
+	<card>
+		<k>митаамчылык</k>
+		<blockquote>мошенничество, жульничество.</blockquote>
+	</card>
+	<card>
+		<k>мителик</k>
+		<blockquote>паразитизм, паразитическое существование.</blockquote>
+	</card>
+	<card>
+		<k>митеп</k>
+		<pair word="китеп"/>
+		<blockquote>китеп-митеп кое-какие книжонки.</blockquote>
+	</card>
+	<card>
+		<k>митечилик</k>
+		<blockquote>паразитизм.</blockquote>
+	</card>
+	<card>
+		<k>мифологиялык</k>
+		<blockquote>мифологический.</blockquote>
+	</card>
+	<card>
+		<k>михрап</k>
+		<origin>ар.</origin>
+		<blockquote>ниша во внутренней (обращённой к Мекке) стене мечети.</blockquote>
+	</card>
+	<card>
+		<k>мияттык</k>
+		<blockquote>приверженность, переход на чью-л. сторону и защита его интересов.</blockquote>
+	</card>
+	<card>
+		<k>мобилизацияла-</k>
+		<blockquote>мобилизовать.</blockquote>
+	</card>
+	<card>
+		<k>мода</k>
+		<trn>мода</trn>
+		<blockquote>модадан чыгып калды вышло из моды.</blockquote>
+	</card>
+	<card>
+		<k>модель</k>
+		<trn>модель</trn>
+		<blockquote>моделдер үйү дом моделей.</blockquote>
+	</card>
+	<card>
+		<k>можула-</k>
+		<blockquote>завожжать.</blockquote>
+	</card>
+	<card>
+		<k>можур</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<blockquote>переселенец.</blockquote>
+	</card>
+	<card>
+		<k>мойлоо</k>
+		<origin>ир.</origin>
+		<meta>(ср. мурут II, мыйык)</meta>
+		<blockquote>усы.</blockquote>
+	</card>
+	<card>
+		<k>моймолдо-</k>
+		<sameas word="моймолжу"/>
+		<blockquote>кара көзү менен моймолдой карап турат она смотрит своими красивыми чёрными глазами.</blockquote>
+	</card>
+	<card>
+		<k>мойсондо-</k>
+		<sameas word="соймоңдо"/>
+		<blockquote>тили жыландын тилиндей мойсоңдоп язык у него виляет, как язычок змеи.</blockquote>
+	</card>
+	<card>
+		<k>мойтой-</k>
+		<sameas word="молтой"/>
+		<blockquote>мойтойгон келинчек кругленькая низенькая молодуха.</blockquote>
+	</card>
+	<card>
+		<k>мокой</k>
+		<sameas word="мокочо"/>
+		<blockquote>мокой келатат, ыйлаба! бука идёт, не плачь!</blockquote>
+	</card>
+	<card>
+		<k>мокон</k>
+		<sameas word="муун" index="1"/>
+		<blockquote>ортон колум сөөгү бир мокону кесилди стих. один сустав моего среднего пальца был отрезан.</blockquote>
+	</card>
+	<card>
+		<k>мокотуу</k>
+		<actionNoun word="мокот"/>
+		<blockquote>кыраакылык мокотуу притупление бдительности.</blockquote>
+	</card>
+	<card>
+		<k>молдолук</k>
+		<blockquote>занятие или положение муллы (см. молдо).</blockquote>
+	</card>
+	<card>
+		<k>молдук</k>
+		<blockquote>обилие.</blockquote>
+	</card>
+	<card>
+		<k>молойт-</k>
+		<caus word="молой"/>
+		<blockquote>оголить (напр. обрубить ветви дерева, отрезать женщине косу).</blockquote>
+	</card>
+	<card>
+		<k>молор</k>
+		<blockquote>вид беркута.</blockquote>
+	</card>
+	<card>
+		<k>молун</k>
+		<blockquote>дикая кошка, камышовая кошка.</blockquote>
+	</card>
+	<card>
+		<k>момолой</k>
+		<alter>(или момолой чычкан)</alter>
+		<blockquote>крот.</blockquote>
+	</card>
+	<card>
+		<k>момооро-</k>
+		<sameas word="момура"/>
+		<blockquote>момоорогон киши спокойный и бесхитростный человек.</blockquote>
+	</card>
+	<card>
+		<k>момосуй</k>
+		<origin>р.</origin>
+		<meta>сев.</meta>
+		<blockquote>бумазея.</blockquote>
+	</card>
+	<card>
+		<k>момук</k>
+		<meta>южн.</meta>
+		<sameas word="мамы"/>
+		<blockquote>момукка ат б йл йт к момук'у привязывают лошадей.</blockquote>
+	</card>
+	<card>
+		<k>момул</k>
+		<sameas word="мому"/>
+		<blockquote>момул эки бала вот эти два мальчика.</blockquote>
+	</card>
+	<card>
+		<k>момунда</k>
+		<blockquote>вот здесь.</blockquote>
+	</card>
+	<card>
+		<k>момунсун-</k>
+		<similative word="момун"/>
+		<blockquote>прикидываться скромным, праведником.</blockquote>
+	</card>
+	<card>
+		<k>мон</k>
+		<blockquote>нижняя широкая часть сөйкө (см. сөйкө I).</blockquote>
+	</card>
+	<card>
+		<k>монолиттүү</k>
+		<blockquote>монолитный.</blockquote>
+	</card>
+	<card>
+		<k>монолиттүүлүк</k>
+		<blockquote>монолитность.</blockquote>
+	</card>
+	<card>
+		<k>монополия</k>
+		<trn>монополия</trn>
+		<blockquote>сырткы соода монополиясы монополия внешней торговли.</blockquote>
+	</card>
+	<card>
+		<k>монтажда-</k>
+		<blockquote>монтировать.</blockquote>
+	</card>
+	<card>
+		<k>монтаждоо</k>
+		<actionNoun word="монтажда"/>
+		<blockquote>курулуш-монтаждоо башкармасы строительно-монтажное управление.</blockquote>
+	</card>
+	<card>
+		<k>монтёр</k>
+		<trn>монтёр</trn>
+		<blockquote>заводдо монтёр болуп иштеп келе жатат он работает монтёром на заводе.</blockquote>
+	</card>
+	<card>
+		<k>мончоктот-</k>
+		<caus word="мончокто"/>
+		<blockquote>бетинен терин мончоктотуп с лица его катились капли пота.</blockquote>
+	</card>
+	<card>
+		<k>мончочу</k>
+		<blockquote>банщик; ист. содержатель бани.</blockquote>
+	</card>
+	<card>
+		<k>моо</k>
+		<pair word="зоо"/>
+		<blockquote>балакет болуп, зоо-моодон учуп кетпегей эле как бы беды не случилось, и он с какой-нибудь скалы не свалился бы.</blockquote>
+	</card>
+	<card>
+		<k>мооку</k>
+		<sameas word="моок"/>
+		<blockquote>бозо шимирип, моокусуна каналык давайте-ка потянем (попьём) бузы и насладимся ею.</blockquote>
+	</card>
+	<card>
+		<k>моокун</k>
+		<sameas word="моок"/>
+		<blockquote>моокуну канганча до полного удовлетворения, вволю, всласть.</blockquote>
+	</card>
+	<card>
+		<k>моолут</k>
+		<origin>ар.</origin>
+		<meta>рел.</meta>
+		<blockquote>день рождения пророка Мухаммеда.</blockquote>
+	</card>
+	<card>
+		<k>моот</k>
+		<sameas word="нооту"/>
+		<blockquote>көк моот тыштап, кундуз кармаган ичик шуба, крытая синим сукном и опушённая выдровым мехом.</blockquote>
+	</card>
+	<card>
+		<k>моралсыз</k>
+		<blockquote>аморальный.</blockquote>
+	</card>
+	<card>
+		<k>моралсыздан-</k>
+		<blockquote>терять моральный облик, морально разлагаться.</blockquote>
+	</card>
+	<card>
+		<k>моралсыздык</k>
+		<blockquote>аморальность.</blockquote>
+	</card>
+	<card>
+		<k>морожний</k>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote>мороженое.</blockquote>
+	</card>
+	<card>
+		<k>мору</k>
+		<meta>южн.</meta>
+		<blockquote>название вредителя растений, пожирающего листья.</blockquote>
+	</card>
+	<card>
+		<k>мостойт-</k>
+		<caus word="мостой"/>
+		<blockquote>көздөрүн мостойтуп нахмурившись, насупившись.</blockquote>
+	</card>
+	<card>
+		<k>мостоюш-</k>
+		<recv word="мостой"/>
+		<blockquote>Каныбекти карап мостоюшат глядя на Каныбека, они хмурятся.</blockquote>
+	</card>
+	<card>
+		<k>мотив</k>
+		<blockquote>мотив (причина, повод).</blockquote>
+	</card>
+	<card>
+		<k>моюнданыш-</k>
+		<recv word="моюндан"/>
+		<blockquote>алар жагалмай моюнданышып, столго олтурушат они садятся за стол, вытянув шеи, как чеглоки (т.е. жадно тянутся к угощениям).</blockquote>
+	</card>
+	<card>
+		<k>моюндат-</k>
+		<caus word="моюнда"/>
+		<blockquote>аны такыр моюндата албай койдук мы никак не могли заставить его признать свою вину или своё обязательство.</blockquote>
+	</card>
+	<card>
+		<k>моюнчак</k>
+		<meta>южн.</meta>
+		<blockquote>хомут.</blockquote>
+	</card>
+	<card>
+		<k>мубакүлдүү</k>
+		<sameas word="мубакүл"/>
+		<blockquote>мубакүлдүү сыр найза фольк. грозная пика с крашеным древком.</blockquote>
+	</card>
+	<card>
+		<k>мубарек</k>
+		<sameas word="маарек"/>
+		<blockquote>мубарек болсун! поздравляю!</blockquote>
+	</card>
+	<card>
+		<k>муварек</k>
+		<sameas word="маарек"/>
+		<blockquote>айтыңыз муварек болсун! поздравляю вас (многих) с праздником (религиозным) !</blockquote>
+	</card>
+	<card>
+		<k>мугалима</k>
+		<origin>ар.</origin>
+		<meta>редко</meta>
+		<blockquote>учительница, преподавательница.</blockquote>
+	</card>
+	<card>
+		<k>мугалимдик</k>
+		<blockquote>учительствование; должность или положение учителя, преподавателя.</blockquote>
+	</card>
+	<card>
+		<k>мүгдүрө-</k>
+		<sameas word="мөгдө"/>
+		<blockquote>мүгдүрөп тентип жүргөн жетим бала измождённый и бесприютный мальчик.</blockquote>
+	</card>
+	<card>
+		<k>мударис</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<meta>ист.</meta>
+		<blockquote>мударис (преподаватель высшей мусульманской школы).</blockquote>
+	</card>
+	<card>
+		<k>мүдүрүктө-</k>
+		<blockquote>бормотать.</blockquote>
+	</card>
+	<card>
+		<k>мүдүрүлт-</k>
+		<caus word="мүдүрүл"/>
+		<blockquote>жолдош болбо айгакка, мүдүрүлтөт тайгакка погов. не будь спутником доносчику, спихнёт он тебя на скользком месте.</blockquote>
+	</card>
+	<card>
+		<k>мүдөөлөн-</k>
+		<blockquote>проявить интерес, возбудить желание.</blockquote>
+	</card>
+	<card>
+		<k>мужук</k>
+		<origin>р.</origin>
+		<meta>ист.</meta>
+		<blockquote>мужик (русский или украинский крестьянин).</blockquote>
+	</card>
+	<card>
+		<k>музапат</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<blockquote>страна, область.</blockquote>
+	</card>
+	<card>
+		<k>муздаткыч</k>
+		<blockquote>холодильник.</blockquote>
+	</card>
+	<card>
+		<k>муздоо</k>
+		<actionNoun word="музда"/>
+		<blockquote>сильное остывание.</blockquote>
+	</card>
+	<card>
+		<k>музей</k>
+		<trn>музей</trn>
+		<blockquote>В. И. Лениндин музейи музей В. И. Ленина.</blockquote>
+	</card>
+	<card>
+		<k>музоокана</k>
+		<origin>кирг.-ир.</origin>
+		<blockquote>телятник (помещение).</blockquote>
+	</card>
+	<card>
+		<k>музоочу</k>
+		<blockquote>пастух телят.</blockquote>
+	</card>
+	<card>
+		<k>музыка</k>
+		<trn>музыка</trn>
+		<blockquote>жеңил музыка лёгкая музыка.</blockquote>
+	</card>
+	<card>
+		<k>музыкалаштыр-</k>
+		<blockquote>переложить на музыку.</blockquote>
+	</card>
+	<card>
+		<k>музыкалаштырыл-</k>
+		<pass word="музыкалаштыр"/>
+		<blockquote>быть переложенным на музыку.</blockquote>
+	</card>
+	<card>
+		<k>муйруй-</k>
+		<pair word="ийрий"/>
+		<blockquote>куу арчалардын бутактары, жыланчасынан бирине-бири оролуп, ийрийип-муйруят сухие ветви арчи, будто змеи обвив одна другую, изгибаются.</blockquote>
+	</card>
+	<card>
+		<k>муйтук</k>
+		<blockquote>кургузый.</blockquote>
+	</card>
+	<card>
+		<k>мүк</k>
+		<pair word="жүк"/>
+		<blockquote>жүк-мүгү менен он вместе со всем своим вьюком, грузом.</blockquote>
+	</card>
+	<card>
+		<k>мукаба</k>
+		<origin>ир.</origin>
+		<blockquote>переплёт.</blockquote>
+	</card>
+	<card>
+		<k>мукакта-</k>
+		<sameas word="мукактан"/>
+		<blockquote>мукактап жооп бере алганы жок он растерялся и не мог ответить.</blockquote>
+	</card>
+	<card>
+		<k>мукан-</k>
+		<sameas word="кубулт"/>
+		<blockquote>муканып сайрап токсон түр фольк. он поёт, на девяносто ладов переливаясь.</blockquote>
+	</card>
+	<card>
+		<k>муктасар</k>
+		<origin>ар.</origin>
+		<meta>уст.</meta>
+		<blockquote>название книги по мусульманскому законоведению.</blockquote>
+	</card>
+	<card>
+		<k>мукул</k>
+		<sameas word="мукур"/>
+		<blockquote>кулдун башы мукул, аягы - тукул погов. у раба голова низко поставлена (на короткой шее), ноги - култышки (раб голову высоко держать не может и ноги у него небыстрые).</blockquote>
+	</card>
+	<card>
+		<k>мукум</k>
+		<blockquote>совсем, совершенно.</blockquote>
+	</card>
+	<card>
+		<k>мүкөн</k>
+		<pair word="дүкөн"/>
+		<blockquote>дүкөн-мүкөн лавки, лавчонки.</blockquote>
+	</card>
+	<card>
+		<k>мүлгү-</k>
+		<blockquote>быть расслабленным, изнемогать, быть одолеваемым дремотой от утомления.</blockquote>
+	</card>
+	<card>
+		<k>мүлжүңдө-</k>
+		<blockquote>жевать губами.</blockquote>
+	</card>
+	<card>
+		<k>мүлжүңдөт-</k>
+		<caus word="мүлжүңдө"/>
+		<blockquote>ооз мүлжүңдөт- то же, что мүлжүңдө-.</blockquote>
+	</card>
+	<card>
+		<k>мүлтүй-</k>
+		<sameas word="молтой"/>
+		<blockquote>тилегим мүлтүйүп калсын! пусть погибнут все мои желания! чтоб мне добра не видать (если...).</blockquote>
+	</card>
+	<card>
+		<k>мултуйт-</k>
+		<caus word="мултуй"/>
+		<blockquote>мурдун кесип, мултуйтуп отрезав ему нос, обкорнал.</blockquote>
+	</card>
+	<card>
+		<k>мултук</k>
+		<sameas word="мулук" subindex="1"/>
+		<blockquote>мултук куйрук куцый хвост (напр. когда у лошади остаётся только репица).</blockquote>
+	</card>
+	<card>
+		<k>мүлтүлдөш-</k>
+		<recv word="мүлтүлдө"/>
+		<blockquote>шушукаться; вести переговоры тайно от других; совместно обделывать делишки.</blockquote>
+	</card>
+	<card>
+		<k>мүлтүрө-</k>
+		<blockquote>блестеть; поблёскивать.</blockquote>
+	</card>
+	<card>
+		<k>мулуңда-</k>
+		<blockquote>выставлять свой голый (без бороды) подбородок.</blockquote>
+	</card>
+	<card>
+		<k>мүлүшкөрдүк</k>
+		<blockquote>профессия или положение сокольника.</blockquote>
+	</card>
+	<card>
+		<k>мүмкүндүк</k>
+		<sameas word="мүмкүнчүлук"/>
+		<blockquote>мүмкүндүгү жок возможности нет, невозможно.</blockquote>
+	</card>
+	<card>
+		<k>мумулай</k>
+		<meta>южн.</meta>
+		<meta>(ср. мобуя, мумуя)</meta>
+		<blockquote>нарост на камнях в виде смолы (употребляемый в народной медицине при переломах костей).</blockquote>
+	</card>
+	<card>
+		<k>мумуш</k>
+		<pair word="жумуш"/>
+		<blockquote>жумуш-мумуш болуп калса если случится какое-нибудь дело.</blockquote>
+	</card>
+	<card>
+		<k>мумуя</k>
+		<origin>ир.</origin>
+		<meta>(ср. мобуя, мумулай)</meta>
+		<blockquote>мумия, мазь, употребляемая в народной медицине при переломах костей.</blockquote>
+	</card>
+	<card>
+		<k>мун</k>
+		<sameas word="бул" index="1"/>
+		<blockquote>кырк чорого кырк өтүк даярдагам - мунум бар фольк. для сорока витязей сорок (пар) сапог я приготовила - это у меня есть.</blockquote>
+	</card>
+	<card>
+		<k>муназалаш-</k>
+		<blockquote>приходить к согласию, примиряться.</blockquote>
+	</card>
+	<card>
+		<k>муңайт-</k>
+		<caus word="муңай"/>
+		<blockquote>көз муңайт- смотреть печально, смотреть жалобно, с тоской.</blockquote>
+	</card>
+	<card>
+		<k>мунайым</k>
+		<sameas word="мулайым"/>
+		<blockquote>закымдай жүзүң мунайым фольк. лицо твоё нежно, как мираж.</blockquote>
+	</card>
+	<card>
+		<k>муңайыңкыра-</k>
+		<blockquote>слегка опечалиться.</blockquote>
+	</card>
+	<card>
+		<k>муңайыштуу</k>
+		<blockquote>с печалью, печальный.</blockquote>
+	</card>
+	<card>
+		<k>мунарык</k>
+		<sameas word="мунар" index="2"/>
+		<blockquote>көз учунда мунарык, көз жетпеген тунарып фольк. в недосягаемой для глаза дали темнеет лёгкая мгла.</blockquote>
+	</card>
+	<card>
+		<k>мунарыкта-</k>
+		<sameas word="мунардан"/>
+		<blockquote>мунарыктап учтанган (вершина горы) неясно вырисовывалась торчащим ввысь пиком.</blockquote>
+	</card>
+	<card>
+		<k>мунарыктат-</k>
+		<caus word="мунарыкта"/>
+		<blockquote>көзүн мунарыктаткан ысык жашты ирмеп алды она смахнула горячие слёзы, затуманившие ей глаза.</blockquote>
+	</card>
+	<card>
+		<k>мунаса</k>
+		<sameas word="муназа"/>
+		<blockquote>аны менен мунасам келишпеди я с ним ие сошёлся (не договорился, не ужился и т.п.).</blockquote>
+	</card>
+	<card>
+		<k>мунасип</k>
+		<origin>ар.</origin>
+		<meta>южн.</meta>
+		<blockquote>соответствующий, приличествующий.</blockquote>
+	</card>
+	<card>
+		<k>мүндү</k>
+		<blockquote>(в эпосе)</blockquote>
+		<sameas word="мөндү"/>
+	</card>
+	<card>
+		<k>мүндүлөш-</k>
+		<blockquote>(в эпосе)</blockquote>
+		<sameas word="мөндүлөш"/>
+	</card>
+	<card>
+		<k>муңдур-</k>
+		<blockquote>опечалить.</blockquote>
+	</card>
+	<card>
+		<k>муңкура-</k>
+		<meta>южн.</meta>
+		<blockquote>истомляться, изнуряться.</blockquote>
+	</card>
+	<card>
+		<k>муноерде</k>
+		<meta>талас.</meta>
+		<blockquote>вот здесь.</blockquote>
+	</card>
+	<card>
+		<k>муноетте</k>
+		<meta>южн.</meta>
+		<blockquote>тут, в этом месте.</blockquote>
+	</card>
+	<card>
+		<k>мунчалык</k>
+		<meta>южн.</meta>
+		<sameas word="мынчалык"/>
+		<blockquote>мунчалык уста болупсуз, канчага кирди жашыңыз? фольк. вы стали таким (хорошим) мастером, сколько же вам лет?</blockquote>
+	</card>
+	<card>
+		<k>муңчу</k>
+		<meta>ист.</meta>
+		<blockquote>должностное лицо в Бухарском и Кокандском ханствах, на обязанности которого лежало доводить до хана жалобы населения.</blockquote>
+	</card>
+	<card>
+		<k>мүнөздө-</k>
+		<blockquote>характеризовать.</blockquote>
+	</card>
+	<card>
+		<k>мүнөздөл-</k>
+		<pass word="мүнөздө"/>
+		<blockquote>характеризоваться.</blockquote>
+	</card>
+	<card>
+		<k>мүнөздөмө</k>
+		<blockquote>характеристика.</blockquote>
+	</card>
+	<card>
+		<k>мүнөт</k>
+		<meta>разг.</meta>
+		<sameas word="минута"/>
+		<blockquote>мүнөт-мүнөт жерде совсем близко.</blockquote>
+	</card>
+	<card>
+		<k>мурааз</k>
+		<sameas word="мурат"/>
+		<blockquote>мураазыңа жеткин желаю тебе достичь своей цели.</blockquote>
+	</card>
+	<card>
+		<k>мураалык</k>
+		<blockquote>верная, преданная дружба, преданность.</blockquote>
+	</card>
+	<card>
+		<k>мурас</k>
+		<origin>ар.</origin>
+		<blockquote>наследство, наследие.</blockquote>
+	</card>
+	<card>
+		<k>мураскор</k>
+		<origin>ар.-ир.</origin>
+		<blockquote>наследник (имущества).</blockquote>
+	</card>
+	<card>
+		<k>мурдаа</k>
+		<sameas word="мурдаагы"/>
+		<blockquote>мурдаа күнү позавчера, третьего дня.</blockquote>
+	</card>
+	<card>
+		<k>мурза</k>
+		<meta>южн.</meta>
+		<sameas word="мырза"/>
+		<blockquote>мурзайым южн. моя благородная (в фольклоре - обращение к возлюбленной).</blockquote>
+	</card>
+	<card>
+		<k>мурк</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>год курицы (см. жыл I 2).</blockquote>
+	</card>
+	<card>
+		<k>мурсат</k>
+		<sameas word="бурсат"/>
+		<blockquote>мек шашып, мурсатым келбей калды я торопился, и мне не удалось улучить минуту.</blockquote>
+	</card>
+	<card>
+		<k>муру</k>
+		<sameas word="мүрү" index="1"/>
+		<blockquote>далысы шумкар мурудай лопатки у него как плечи кречета.</blockquote>
+	</card>
+	<card>
+		<k>мурунтуктал-</k>
+		<pass word="мурунтукта"/>
+		<blockquote>уй-торпоктор мурунтукталып, жылкыларга окто катылды коровы и телята были привязаны на поводке (см. мурунтук), на лошадей были надеты недоуздки.</blockquote>
+	</card>
+	<card>
+		<k>муруттуу</k>
+		<blockquote>усатый.</blockquote>
+	</card>
+	<card>
+		<k>мурчуйт-</k>
+		<caus word="мурчуй"/>
+		<blockquote>вызывать недовольство.</blockquote>
+	</card>
+	<card>
+		<k>мурчуңда-</k>
+		<sameas word="мурчуй"/>
+		<blockquote>адегенде кичине мурчуңдайын дедим эле, кайра күлкүм келди сначала я хотел было рассердиться, но потом мне стало смешно.</blockquote>
+	</card>
+	<card>
+		<k>муршап</k>
+		<origin>ар.-ир.</origin>
+		<meta>ист.</meta>
+		<blockquote>начальник ночной стражи (в Кокандском ханстве).</blockquote>
+	</card>
+	<card>
+		<k>мүрө</k>
+		<meta>южн.</meta>
+		<sameas word="мүрү" index="1"/>
+		<blockquote>оң мүрөң твоё правое плечо.</blockquote>
+	</card>
+	<card>
+		<k>мусаапырдан-</k>
+		<blockquote>оказаться в положении странствующего, бесприютного, чужестранца.</blockquote>
+	</card>
+	<card>
+		<k>мусаапырчылык</k>
+		<blockquote>положение странника, бесприютного, чужестранца.</blockquote>
+	</card>
+	<card>
+		<k>мусулман</k>
+		<origin>ар.-ир.</origin>
+		<blockquote>мусульманин.</blockquote>
+	</card>
+	<card>
+		<k>мусулмандык</k>
+		<blockquote>мусульманство (обязанности мусульманина).</blockquote>
+	</card>
+	<card>
+		<k>мусулманчылык</k>
+		<blockquote>поступки и поведение, свойственные мусульманину.</blockquote>
+	</card>
+	<card>
+		<k>муузда-</k>
+		<blockquote>перерезать горло.</blockquote>
+	</card>
+	<card>
+		<k>муунактан-</k>
+		<blockquote>состоять из сочленений, колен, быть коленчатым (напр. о некоторых травах).</blockquote>
+	</card>
+	<card>
+		<k>мүүнсүз</k>
+		<blockquote>без недостатков, безупречно.</blockquote>
+	</card>
+	<card>
+		<k>муунчул</k>
+		<meta>грам.</meta>
+		<meta>уст.</meta>
+		<blockquote>слогообразующий.</blockquote>
+	</card>
+	<card>
+		<k>мүчүк</k>
+		<pair word="күчүк"/>
+		<blockquote>күчүк-мүчүгү менен жоготкула уничтожьте со всеми её щенками.</blockquote>
+	</card>
+	<card>
+		<k>мүчөлөт-</k>
+		<caus word="мүчөлө"/>
+		<blockquote>расчленять (напр. тушу на части, не разрубая костей).</blockquote>
+	</card>
+	<card>
+		<k>мүчөлөтүү</k>
+		<actionNoun word="мүчөлөт"/>
+		<blockquote>расчленение.</blockquote>
+	</card>
+	<card>
+		<k>мүшкүлдүк</k>
+		<blockquote>трудность, мучительность.</blockquote>
+	</card>
+	<card>
+		<k>муштагыла-</k>
+		<iter word="мушта"/>
+		<blockquote>үстөлдү муштагылап стуча кулаком по столу.</blockquote>
+	</card>
+	<card>
+		<k>муштар</k>
+		<origin>ир.</origin>
+		<meta>южн.</meta>
+		<blockquote>драчун, любитель кулачной расправы.</blockquote>
+	</card>
+	<card>
+		<k>муштук</k>
+		<blockquote>бросание ловчей птицы из руки на добычу.</blockquote>
+	</card>
+	<card>
+		<k>мүшөк</k>
+		<origin>р.</origin>
+		<blockquote>мешок (русского образца, продолговатый; ср. кап IV).</blockquote>
+	</card>
+	<card>
+		<k>мыдыра-</k>
+		<blockquote>производить медленные, спокойные движения.</blockquote>
+	</card>
+	<card>
+		<k>мыдырсыз</k>
+		<blockquote>без движения, недвижимый, неподвижный.</blockquote>
+	</card>
+	<card>
+		<k>мыёо</k>
+		<blockquote>мяукание.</blockquote>
+	</card>
+	<card>
+		<k>мыёоло-</k>
+		<blockquote>мяукать.</blockquote>
+	</card>
+	<card>
+		<k>мыз</k>
+		<pair word="кыз"/>
+		<blockquote>көң үлүнө толгон кыз-мыз полюбившиеся ему девушки-девицы.</blockquote>
+	</card>
+	<card>
+		<k>мыйзамдаш-</k>
+		<blockquote>заводить друг с другом тяжбу, друг с другом судиться, сутяжничать.</blockquote>
+	</card>
+	<card>
+		<k>мыйзамдуу</k>
+		<meta>уст.</meta>
+		<blockquote>законный.</blockquote>
+	</card>
+	<card>
+		<k>мыйзамсыз</k>
+		<meta>уст.</meta>
+		<blockquote>беззаконный.</blockquote>
+	</card>
+	<card>
+		<k>мыйзамсыздык</k>
+		<meta>уст.</meta>
+		<blockquote>беззаконие.</blockquote>
+	</card>
+	<card>
+		<k>мыйзамчы</k>
+		<meta>уст.</meta>
+		<blockquote>законник.</blockquote>
+	</card>
+	<card>
+		<k>мыйырбан</k>
+		<sameas word="мээрман"/>
+		<blockquote>мыйырбан кыл- оказать милость.</blockquote>
+	</card>
+	<card>
+		<k>мыйырт-</k>
+		<sameas word="мыйрыйт"/>
+		<blockquote>көлөшүнүн апкытын мыйырта басып кийип алды он надел калоши, скривив задник.</blockquote>
+	</card>
+	<card>
+		<k>мыкпаш</k>
+		<origin>ир.-кирг.</origin>
+		<blockquote>приспособление для придания формы шляпке гвоздя.</blockquote>
+	</card>
+	<card>
+		<k>мыкрыз</k>
+		<blockquote>скупой.</blockquote>
+	</card>
+	<card>
+		<k>мыктуу</k>
+		<sameas word="мыкты"/>
+		<blockquote>атка минер ыктууну, азаматтан мыктууну, баарын катар жыйды эле фольк. ловких наездников, лучших молодцев - всех подряд он собрал.</blockquote>
+	</card>
+	<card>
+		<k>мыктылык</k>
+		<blockquote>прочность, сила; умение.</blockquote>
+	</card>
+	<card>
+		<k>мыкчыл-</k>
+		<pass word="мыкчы"/>
+		<blockquote>жүрөгү мыкчылып, эриндери көгөрүп, муштумдары түйүлүп, талып калды сердце у него сдавило, губы его посинели, кулаки сжались, и он упал в обморок.</blockquote>
+	</card>
+	<card>
+		<k>мыкыйт-</k>
+		<caus word="мыкый" index="4"/>
+		<blockquote>поджимать.</blockquote>
+	</card>
+	<card>
+		<k>мыкын</k>
+		<blockquote>бок (сторона туловища).</blockquote>
+	</card>
+	<card>
+		<k>мыкыракай</k>
+		<blockquote>маленький крепыш.</blockquote>
+	</card>
+	<card>
+		<k>мылмыгый</k>
+		<blockquote>(о полном человеке) несмелый, мямля, размазня.</blockquote>
+	</card>
+	<card>
+		<k>мылмыйт-</k>
+		<caus word="мылмый"/>
+		<blockquote>ага ракмат айттырдым, мылмыйтып я его, размазню, вынудил поблагодарить.</blockquote>
+	</card>
+	<card>
+		<k>мылтыкташ-</k>
+		<recv word="мылтыкта"/>
+		<blockquote>перестреливаться из ружей.</blockquote>
+	</card>
+	<card>
+		<k>мылтыкчы</k>
+		<blockquote>ружейный охотник.</blockquote>
+	</card>
+	<card>
+		<k>мынаекте</k>
+		<meta>талас.</meta>
+		<blockquote>вот здесь.</blockquote>
+	</card>
+	<card>
+		<k>мынала-</k>
+		<blockquote>говорить "мына-мына" (см. мына).</blockquote>
+	</card>
+	<card>
+		<k>мынамында</k>
+		<blockquote>то же, что мына мында</blockquote>
+		<look word="мына"/>
+	</card>
+	<card>
+		<k>мынау</k>
+		<meta>талас.</meta>
+		<blockquote>то же, что мына бу</blockquote>
+		<look word="мына"/>
+	</card>
+	<card>
+		<k>мындайлат-</k>
+		<caus word="мындайла"/>
+		<blockquote>коюңду алыс алып барбай, мындайлатып эле айылга жакын жайгын ты овец своих далеко не гоняй, а паси тут вот, поближе к аулу.</blockquote>
+	</card>
+	<card>
+		<k>мындайчылык</k>
+		<abstract word="мындайча"/>
+		<blockquote>бурут кайда, эл кайда мындайчылык кезекте? фольк. где киргизы, где народ в такое вот (тяжёлое) время?</blockquote>
+	</card>
+	<card>
+		<k>мыногу</k>
+		<meta>талас.</meta>
+		<blockquote>то же, что мына бу</blockquote>
+		<look word="мына"/>
+	</card>
+	<card>
+		<k>мынчанчы</k>
+		<blockquote>порядковое от мынча</blockquote>
+		<meta>(ср. русское диалектное столький)</meta>
+	</card>
+	<card>
+		<k>мырылда-</k>
+		<blockquote>мурлыкать.</blockquote>
+	</card>
+	<card>
+		<k>мырыңда-</k>
+		<blockquote>гундосить.</blockquote>
+	</card>
+	<card>
+		<k>мысалы</k>
+		<sameas word="мисалы"/>
+		<blockquote>например (см. мисал 1).</blockquote>
+	</card>
+	<card>
+		<k>мытаам,</k>
+		<blockquote>мытаам, мытайым</blockquote>
+		<sameas word="митаам"/>
+	</card>
+	<card>
+		<k>мыты-</k>
+		<blockquote>ущипнуть, схватив тремя пальцами (большим, указательным и средним).</blockquote>
+	</card>
+	<card>
+		<k>мышакат</k>
+		<sameas word="машакат"/>
+		<blockquote>өтө кыйын мышакат менен зорго көтөрүлүп (больной) с большим трудом, еле-еле поднявшись.</blockquote>
+	</card>
+	<card>
+		<k>мышмылыңда-</k>
+		<sameas word="мышмыңда"/>
+		<blockquote>(но в более сильной степени).</blockquote>
+	</card>
+	<card>
+		<k>мышмыңда-</k>
+		<blockquote>быть вялым, рохлей, беспомощным (в движениях, действиях).</blockquote>
+	</card>
+	<card>
+		<k>мыштый-</k>
+		<blockquote>(о рыжем или русом человеке невысокого роста) иметь сморщенное и улыбающееся лицо.</blockquote>
+	</card>
+	<card>
+		<k>мыштыңда-</k>
+		<blockquote>двигаться, производить действия (о человеке рыжем или русом, узкоглазом, с лицом морщинистым и слегка улыбающимся).</blockquote>
+	</card>
+	<card>
+		<k>мыяттык</k>
+		<sameas word="мияттык"/>
+		<blockquote>аял болсок да, бир кишиче мыяттыкка жарарбыз хотя я (букв. мы) и женщина, но одного мужчины стою.</blockquote>
+	</card>
+	<card>
+		<k>мээлей</k>
+		<blockquote>рукавицы, перчатки.</blockquote>
+	</card>
+	<card>
+		<k>мээлен-</k>
+		<refv word="мээле" index="2"/>
+		<blockquote>балким, бул мээленбей атылган октой анчейин ооздон чыгып кеткен кеп чыгар это, вероятно, слово, случайно вырвавшееся подобно выстрелу без прицела.</blockquote>
+	</card>
+	<card>
+		<k>мээнеткеч</k>
+		<origin>ар.-ир.</origin>
+		<meta>уст.</meta>
+		<blockquote>трудящийся (употреблялось ещё в конце сороковых годов; ср. эмгекчи).</blockquote>
+	</card>
+	<card>
+		<k>мээнеттүү</k>
+		<blockquote>мучительный, трудный.</blockquote>
+	</card>
+	<card>
+		<k>мээримсиз</k>
+		<blockquote>неприятный, нелюбезный, несимпатичный.</blockquote>
+	</card>
+	<card>
+		<k>мээримсиздик</k>
+		<blockquote>нелюбезность, антипатия.</blockquote>
+	</card>
+	<card>
+		<k>мээрман</k>
+		<origin>ир.</origin>
+		<blockquote>милостивый; любезный, ласковый.</blockquote>
+	</card>
+	<card>
+		<k>мээрманчылык</k>
+		<blockquote>милость; любезность, ласковость.</blockquote>
+	</card>
+	<card>
+		<k>мөбөрө</k>
+		<alter>(или мөбүрө, мөмүрө)</alter>
+		<meta>тяньш.</meta>
+		<sameas word="небире"/>
+		<blockquote>мөбүрө-чөбүрө см. чөбүрө I.</blockquote>
+	</card>
+	<card>
+		<k>мөгөжүлө-</k>
+		<blockquote>связать ноги (напр. строгой кобылице при доении).</blockquote>
+	</card>
+	<card>
+		<k>мөлмүлдө-</k>
+		<sameas word="мөлтүрө"/>
+		<blockquote>көздөрүндө кубанычтын жашы мөлмүлдөп турду в их глазах поблёскивали слёзы радости.</blockquote>
+	</card>
+	<card>
+		<k>мөлтүлдөт-</k>
+		<caus word="мөлтүлдө"/>
+		<blockquote>көзүнүн жашын мөлтүлдөтуп жиберди она пролила много слёз (букв. обильные слёзы).</blockquote>
+	</card>
+	<card>
+		<k>мөлүй-</k>
+		<blockquote>смотреть умоляюще, просительно.</blockquote>
+	</card>
+	<card>
+		<k>мөлчөр</k>
+		<blockquote>намеченный пункт, установленный предел.</blockquote>
+	</card>
+	<card>
+		<k>мөмөлөт-</k>
+		<caus word="мөмөлө"/>
+		<blockquote>бир бутагына шабдаалы, бир бутагына өрүк мөмөлөткөн одну ветку он заставил давать персики, а другую - абрикосы (т.е. на одну ветку привил персики, а на другую - абрикосы).</blockquote>
+	</card>
+	<card>
+		<k>мөңгүрө-</k>
+		<pair word="мөөрө"/>
+		<blockquote>мөнгүрөп-мөөрөгөн уйлар коровы, мычащие на разные лады.</blockquote>
+	</card>
+	<card>
+		<k>мөндүлөт-</k>
+		<caus word="мөндүлө"/>
+		<blockquote>бөлүп-бөлүп жүрүптүр, мөндүлөтүп сүрүптүр фольк. разъединяя (ряды врагов), он продвигался, теснил (врагов), (а те) кричали "мөндү" (см.).</blockquote>
+	</card>
+	<card>
+		<k>мөндүр</k>
+		<blockquote>град.</blockquote>
+	</card>
+	<card>
+		<k>мөндүрлө-</k>
+		<blockquote>идти - о граде.</blockquote>
+	</card>
+	<card>
+		<k>мөндүрлөт-</k>
+		<caus word="мөндүрлө"/>
+		<blockquote>мөндүрлөтүп ок ат- пускать град пуль или стрел.</blockquote>
+	</card>
+	<card>
+		<k>мөндөлөй</k>
+		<blockquote>мышонок.</blockquote>
+	</card>
+	<card>
+		<k>мөнтөгөй</k>
+		<blockquote>маленький, крохотный.</blockquote>
+	</card>
+	<card>
+		<k>мөнтөй-</k>
+		<blockquote>иметь вид маленького, крохотного.</blockquote>
+	</card>
+	<card>
+		<k>мөрөйчү</k>
+		<blockquote>соревнующийся; человек, принимающий участие в соревновании на приз.</blockquote>
+	</card>
+	<card>
+		<k>мөч</k>
+		<pair word="көч" index="1"/>
+		<blockquote>көч-мөчү менен (он) со своей кочёвкой и со всем, что к этому относится.</blockquote>
+	</card>
+	<card>
+		<k>мөшкөөлүк</k>
+		<blockquote>простоватость, недалёкость.</blockquote>
+	</card>
+	<card>
+		<k>мөөрө-</k>
+		<blockquote>мычать.</blockquote>
+	</card>
+	<card>
+		<k>мөөрөөк</k>
+		<blockquote>корова или бык, которые часто мычат.</blockquote>
+	</card>
+	<card>
+		<k>мөөтү</k>
+		<meta>южн.</meta>
+		<sameas word="нооту"/>
+		<blockquote>кызыл мөөтү чепкен халат из красного сукна.</blockquote>
+	</card>
+</root>

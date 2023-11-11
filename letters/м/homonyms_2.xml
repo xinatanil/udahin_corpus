@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<card>
+		<k>маана</k>
+		<homonym>
+			<sameas word="маани"/>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>убежище; защита, покровительство;</blockquote>
+			<blockquote>баш маана пристанище (где можно как-то приютиться);</blockquote>
+			<blockquote>баш маана кылып турган үйүм моё пристанище;</blockquote>
+			<blockquote>маанасы жок сайдан без погов. избегай лощины, где нет укрытия.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="маанай"/>
+		</homonym>
+	</card>
+	<card>
+		<k>маашыр</k>
+		<homonym>
+			<blockquote>довольный, удовлетворённый;</blockquote>
+			<blockquote>Темир каткырды, өзүнүн айткандарына өзү аябай маашыр болду Темир захохотал, довольный тем, что сам сказал;</blockquote>
+			<blockquote>баракелде, кырк жигит, маашыр болдум эрдикке фольк. браво (вам), сорок витязей, доволен я (вашей) храбростью;</blockquote>
+			<blockquote>сага маашыр эмесмин ты мне не очень приятен.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="макшар"/>
+		</homonym>
+	</card>
+	<card>
+		<k>максым</k>
+		<homonym>
+			<meaning>
+				<blockquote>кислое питьё, приготовляемое из дроблёного ячменя без солода (не хмельное; по некоторым сведениям, питьё это северные киргизы начали готовить и пить в половине XIX в.);</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>(в некоторых местах) буза.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>южн.</meta>
+			<meta>уст.</meta>
+			<blockquote>сын большого муллы или влиятельного духовного лица.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>малта</k>
+		<homonym>
+			<meaning>
+				<meta>тяньш.</meta>
+				<sameas word="курут" index="1"/>
+			</meaning>
+			<meaning>
+				<meta>талас.</meta>
+				<blockquote>курт, приготовленный из сюзьмы и сушенный крупными колобками;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>тяньш.</meta>
+				<sameas word="шакмар"/>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>грузно двигаться, хлюпая, шлёпая;</blockquote>
+			<blockquote>бала баткакты тизесинен малтай кечип келатат ребёнок идёт по колено в грязи (хлюпая по грязи);</blockquote>
+			<blockquote>көк шиберди малтап келатат он грузно идёт, путаясь в зелёной траве.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мамык</k>
+		<homonym>
+			<blockquote>пух;</blockquote>
+			<blockquote>куш мамык птичий пух;</blockquote>
+			<blockquote>мамык төшөк пуховая постель.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="мамы" subindex="1"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мерек</k>
+		<homonym>
+			<blockquote>южн</blockquote>
+			<blockquote>кинжал.</blockquote>
+		</homonym>
+		<homonym>
+			<pair word="керек"/>
+			<blockquote>керек-мереги жок нет никакой надобности.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>метрикалык</k>
+		<homonym>
+			<blockquote>метрический;</blockquote>
+			<blockquote>метрикалык китеп или разг. метрикалык кинеге или метрикалык дептер метрическая книга.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>лит.</meta>
+			<blockquote>метрический;</blockquote>
+			<blockquote>ырдын метрикалык түзүлүшү метрическое стихосложение.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>министрлик</k>
+		<homonym>
+			<blockquote>министерство (пост, обязанности министра).</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>министерский;</blockquote>
+			<blockquote>министрлик портфель министерский портфель.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>можу</k>
+		<homonym>
+			<sameas word="божу"/>
+		</homonym>
+		<homonym>
+			<meaning>
+				<blockquote>складной треног для кипячения воды в чайнике, в ведре (обычно из трёх деревянных палок, скреплённых вверху);</blockquote>
+				<blockquote>жыгач можуга чоң кара чаканы асып подвесив к деревянному треногу большое простое ведро;</blockquote>
+			</meaning>
+			<meaning>
+				<meta>тяньш.</meta>
+				<blockquote>(точнее можу казан) то же, что чөңке.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<blockquote>чернильный орех (употребляется в народной медицине против простуды и как жаропонижающее).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мом</k>
+		<homonym>
+			<origin>ир.</origin>
+			<blockquote>воск, стеарин, парафин (и всё, что внешне напоминает воск);</blockquote>
+			<blockquote>мом шам свеча (стеариновая, парафиновая, но не сальная).</blockquote>
+		</homonym>
+		<homonym>
+			<alter>(или мом темир)</alter>
+			<look word="лом"/>
+			<blockquote>үстүндөгү кара суу, мом темирлеп буздуруп үңкүрдүн ичи менен жүргүздүм фольк. приказав пустить подпочвенную воду, пробив железным ломом ход в пещере;</blockquote>
+			<blockquote>мом темирден курч берип, болот кетмен мүлк берип фольк. дав самый острый лом, дав булатный дорогой кетмень.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>морт</k>
+		<homonym>
+			<pair word="чорт"/>
+			<blockquote>чорт-морт деп сөк- чертыхаться, посылать ко всем чертям.</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>ломкий, хрупкий;</blockquote>
+			<blockquote>көйнөгүң морт болсун, жаның бек болсун! (пожелание ребёнку, надевшему новую рубаху) пусть рубаха твоя рвётся, а душа (жизнь) пусть будет крепкой!</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>моюл</k>
+		<homonym>
+			<blockquote>черёмуха;</blockquote>
+			<blockquote>шилби, моюл, долоно да болобу? (там) жимолость, черёмуха и боярышник тоже есть?</blockquote>
+		</homonym>
+		<homonym>
+			<blockquote>толстый сук;</blockquote>
+			<blockquote>чыгып жаткан арчанын моюлуна көчүк коюп олтуруп калды он уселся на торчащий сук арчи.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүдүр</k>
+		<homonym>
+			<sameas word="бүдүр" subindex="2"/>
+			<blockquote>мүдүр койбойт всё дотла, до последней крошки (заберёт, уничтожит).</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ар.</origin>
+			<meta>уст.</meta>
+			<blockquote>заведующий, управляющий, директор.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="мүдурүл"/>
+			<blockquote>мүдүрсө, жол болбойт примета если споткнулся, пути не будет.</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүлүк</k>
+		<homonym>
+			<sameas word="мүлк" index="1"/>
+			<blockquote>ээсинин тийсик колуна байге кылган мүлүктөр фольк. пусть достанутся хозяину (коня) поставленные на приз ценности.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="бүлүк"/>
+			<blockquote>огорчение; притеснение;</blockquote>
+			<blockquote>хандын бейли бузулса, калкына мүлук түшөт, башына бүлүк түшөт если хан ожесточится, народу его предстоят притеснения, и для него (народа) настанет время разрухи и разорения (здесь мүлүк и бүлүк - фонетические варианты-синонимы).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мүр</k>
+		<homonym>
+			<blockquote>рамо, плечо (его часть от головки плечевой кости до шеи, а не плечевой выступ);</blockquote>
+			<blockquote>эки ийиндин мүрүнө эки киши конгондой фольк. на два плеча его могут сесть два человека (такой широкоплечий богатырь);</blockquote>
+			<blockquote>чабыттап куштай учарга чалгын канат, мүр берген фольк. чтоб летать за добычей подобно (ловчей) птице, (ты) дал (лётчикам) быстрые крылья и (сильные) плечи;</blockquote>
+			<blockquote>мүрүм тийбеген эшик калбады нет той двери, в которую бы я не толкнулся (обошёл всех).</blockquote>
+		</homonym>
+		<homonym>
+			<pair word="кер" index="2"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мүрү</k>
+		<homonym>
+			<sameas word="мүр" index="1"/>
+			<blockquote>мүрүсү менен уруп кетти он ударил плечом.</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="мири"/>
+			<blockquote>беш мүрүгө пайда жок на четвертак (букв. на пять пятаков) нет пользы;</blockquote>
+			<blockquote>бир мүрү кем эки теңге южн. тридцать пять копеек (букв. без пятака два двугривенных).</blockquote>
+		</homonym>
+	</card>
+	<card>
+		<k>мөгө</k>
+		<homonym>
+			<meta>сев.</meta>
+			<sameas word="мөмө"/>
+			<blockquote>жыгачка мөгө бүткөн сайын салбырайт погов. чем больше на дереве плодов, тем больше оно обвисает;</blockquote>
+			<blockquote>мөгөдөй салбыра- униженно, просительно кланяться;</blockquote>
+			<blockquote>кызыл алмалар мөгөдөй салбырайт красные яблоки соблазнительно (букв. просительно) свисают.</blockquote>
+		</homonym>
+		<homonym>
+			<meta>южн.</meta>
+			<sameas word="мөгдө"/>
+		</homonym>
+	</card>
+	<card>
+		<k>мөкү</k>
+		<homonym>
+			<alter>(или мөкүчө, мөкү чокой)</alter>
+			<blockquote>сапоги из грубой кожи с загнутыми кверху носками, на мягкой подошве и без каблуков.</blockquote>
+		</homonym>
+		<homonym>
+			<origin>ир.</origin>
+			<meta>южн.</meta>
+			<meaning>
+				<blockquote>челнок швейной машины;</blockquote>
+			</meaning>
+			<meaning>
+				<blockquote>челнок ткацкий.</blockquote>
+			</meaning>
+		</homonym>
+	</card>
+	<card>
+		<k>мөөр</k>
+		<homonym>
+			<origin>ир.</origin>
+			<compare word="бечет"/>
+			<blockquote>печать; именная печать;</blockquote>
+			<blockquote>мөөр бас- приложить печать, припечатать;</blockquote>
+			<blockquote>кол кудайдын мөөрү погов. подпись - божья печать (подписал - отвечай).</blockquote>
+		</homonym>
+		<homonym>
+			<sameas word="мээр"/>
+			<blockquote>мөөр чөптүү покоритель (покорительница) сердец.</blockquote>
+		</homonym>
+	</card>
+</root>
