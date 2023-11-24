@@ -2,6 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шайыр</k>
+		<pos>adj</pos>
 		<homonym>
 			<trn>жизнерадостный, весёлый, весельчак; бодрый;</trn>
 			<ex>
@@ -21,10 +22,12 @@
 	</card>
 	<card>
 		<k>шарп</k>
+	    </pos>n</pos>
 		<homonym>
 			<trn>ящур (болезнь скота).</trn>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражание сильному, резкому удару;</trn>
 			<ex>
 				<source>шарп-шарп этип келип, көл толкуну жарга согулат</source>
@@ -34,6 +37,7 @@
 	</card>
 	<card>
 		<k>шериктеш</k>
+		<pos>adv</pos>
 		<homonym>
 			<trn>соучастник в товариществе или в каком-л. деле;</trn>
 			<ex>
@@ -50,7 +54,8 @@
 		</homonym>
 	</card>
 	<card>
-		<k>шордот-</k>
+		<k>шордот</k>
+		<pos>v</pos>
 		<homonym>
 			<caus word="шордо" index="1"/>
 			<minicard>
@@ -72,6 +77,7 @@
 	</card>
 	<card>
 		<k>шоролуу</k>
+		<pos>adj</pos>
 		<homonym>
 			<trn>(о глазах) гнойный;</trn>
 			<ex>
@@ -89,10 +95,12 @@
 	</card>
 	<card>
 		<k>шпиондук</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="шпионаж"/>
 		</homonym>
 		<homonym>
+			<pos>adj</pos>
 			<trn>шпионский;</trn>
 			<ex>
 				<source>шпиондук маалыматтар</source>
@@ -106,6 +114,7 @@
 	</card>
 	<card>
 		<k>шүйшүн</k>
+		<pos>v</pos>
 		<homonym>
 			<sameas word="шүүшүн"/>
 		</homonym>
@@ -123,6 +132,7 @@
 	</card>
 	<card>
 		<k>шыба</k>
+		<pos>v</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<pair word="шек"/>
