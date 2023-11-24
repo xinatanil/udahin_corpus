@@ -2,6 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шайы</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<trn>канаус; шёлковая ткань.</trn>
@@ -14,6 +15,7 @@
 	</card>
 	<card>
 		<k>шараат</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="шарият"/>
 		</homonym>
@@ -26,7 +28,8 @@
 		</homonym>
 	</card>
 	<card>
-		<k>шордо-</k>
+		<k>шордо</k>
+		<pos>v</pos>
 		<homonym>
 			<trn>(о скоте) лизать солонец.</trn>
 		</homonym>
@@ -36,6 +39,7 @@
 	</card>
 	<card>
 		<k>шыбоо</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>запах пота от ног;</trn>
 			<ex>
@@ -49,6 +53,7 @@
 	</card>
 	<card>
 		<k>шыйпыр</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>разг.</meta>
 			<sameas word="шифер"/>
@@ -60,6 +65,7 @@
 	</card>
 	<card>
 		<k>шыктаныш</k>
+		<pos>ger</pos>
 		<homonym>
 			<actionNoun word="шыктан"/>
 		</homonym>
@@ -69,6 +75,7 @@
 	</card>
 	<card>
 		<k>шырык</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>строчка, прострачивание (когда материя складывается в два или несколько слоёв).</trn>
 		</homonym>
@@ -77,7 +84,8 @@
 		</homonym>
 	</card>
 	<card>
-		<k>шырыкта-</k>
+		<k>шырыкта</k>
+		<pos>v</pos>
 		<homonym>
 			<trn>похрустывать, пощёлкивать (напр. суставами пальцев).</trn>
 		</homonym>
