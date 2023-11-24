@@ -2,6 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шаа</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -75,6 +76,7 @@
 	</card>
 	<card>
 		<k>шабыр</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>шуршание, шелест;</trn>
@@ -96,6 +98,7 @@
 	</card>
 	<card>
 		<k>шак</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -181,6 +184,7 @@
 		<homonym>
 			<meaning>
 				<trn>действие, произведённое вдруг или неожиданно;</trn>
+				<pos>adj</pos>
 				<ex>
 					<source>аялдын бетинен шак өөп алып, анан чыгып кетти</source>
 					<target>он вдруг поцеловал женщину в щёку и вышел;</target>
@@ -228,6 +232,7 @@
 			</meaning>
 			<meaning>
 				<trn>подражание резкому и отрывистому звуку;</trn>
+				<pos>ideo</pos>
 				<ex>
 					<source>шак эткен үнү жок жоош келин</source>
 					<target>тихая скромная молодуха (которая не повышает голоса и не говорит грубых слов);</target>
@@ -265,6 +270,7 @@
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="шүүдүрүм"/>
+			<pos>n</pos>
 			<ex>
 				<source>шак түшүптүр</source>
 				<target>пала роса.</target>
@@ -280,6 +286,7 @@
 	</card>
 	<card>
 		<k>шал</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -334,7 +341,8 @@
 		</homonym>
 	</card>
 	<card>
-		<k>шалда-</k>
+		<k>шалда</k>
+		<pos>v</pos>
 		<homonym>
 			<ex>
 				<source>көл шалдап терде-</source>
@@ -350,6 +358,7 @@
 	</card>
 	<card>
 		<k>шалка</k>
+		<pos>adj</pos>
 		<homonym>
 			<ex>
 				<source>алка-шалка тердеди</source>
@@ -365,6 +374,7 @@
 	</card>
 	<card>
 		<k>шалпы</k>
+		<pos>v</pos>
 		<homonym>
 			<ex>
 				<source>шалпысы бош или шалпысы бошоп калыптыр</source>
@@ -398,6 +408,7 @@
 	</card>
 	<card>
 		<k>шалы</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -456,6 +467,7 @@
 	</card>
 	<card>
 		<k>шам</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<meaning>
@@ -502,13 +514,15 @@
 		</homonym>
 		<homonym>
 			<minicard>
-				<k>шам-шум эт-</k>
+				<k>шам-шум эт</k>
+				<pos>v</pos>
 				<trn>немного поесть, перекусить.</trn>
 			</minicard>
 		</homonym>
 		<homonym>
 			<minicard>
 				<k>шам өрүк</k>
+				<pos>n</pos>
 				<meta>тяньш.</meta>
 				<trn>название сорной травы.</trn>
 			</minicard>
@@ -534,6 +548,7 @@
 	</card>
 	<card>
 		<k>шап</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<trn>сабля, меч;</trn>
@@ -551,6 +566,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>s</pos>
 			<trn>одна из форм штрафа в играх;</trn>
 			<minicard>
 				<k>шап кетти</k>
@@ -571,6 +587,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражательное слово, выражающее быстроту, моментальность действия;</trn>
 			<ex>
 				<source>шап этип</source>
@@ -603,6 +620,7 @@
 		</homonym>
 		<homonym>
 			<colon/>
+			<pos>v</pos>
 			<ex>
 				<source>элге шап-шап болуп кетпесин</source>
 				<target>не следует допускать огласки;</target>
@@ -615,6 +633,7 @@
 	</card>
 	<card>
 		<k>шапак</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
@@ -634,6 +653,7 @@
 	</card>
 	<card>
 		<k>шапат</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="шапкат"/>
 		</homonym>
@@ -653,6 +673,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<meta>южн.</meta>
 			<sameas word="шапалак" subindex="1"/>
 			<ex>
@@ -663,6 +684,7 @@
 	</card>
 	<card>
 		<k>шапшап</k>
+		<pos>adj</pos>
 		<homonym>
 			<anchorRef word="шап" index="4" anchor="шап-шап"/>
 		</homonym>
@@ -677,6 +699,7 @@
 	</card>
 	<card>
 		<k>шатыра</k>
+		<pos>adj</pos>
 		<homonym>
 			<meaning>
 				<colon/>
@@ -695,6 +718,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</poS>
 				<trn>трещать, будто дробь рассыпать; барабанить (напр. о дожде);</trn>
 				<ex>
 					<source>шатырап жааган жаан</source>
@@ -712,6 +736,7 @@
 	</card>
 	<card>
 		<k>шер</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<trn>лев (эпитет богатыря);</trn>
@@ -738,6 +763,7 @@
 	</card>
 	<card>
 		<k>шимир</k>
+		<pos>v</pos>
 		<homonym>
 			<colon/>
 			<ex>
@@ -765,6 +791,7 @@
 	</card>
 	<card>
 		<k>шире</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -801,6 +828,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<trn>(о металле) свариваться;</trn>
 			</meaning>
 			<meaning>
@@ -818,6 +846,7 @@
 	</card>
 	<card>
 		<k>шок</k>
+		<pos>adj</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -840,6 +869,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>n</pos>
 				<meta>южн.</meta>
 				<trn>проливной дождь;</trn>
 				<ex>
@@ -858,6 +888,7 @@
 	</card>
 	<card>
 		<k>шуу</k>
+		<pos>n</pos>
 		<homonym>
 			<colon/>
 			<ex>
@@ -866,6 +897,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражание шипению, сопению, шмыганью носом;</trn>
 			<minicard>
 				<k>мурдун шуу тарт- или мурдун шуу дедирип (или дедиртип) тарт-</k>
@@ -907,6 +939,7 @@
 	</card>
 	<card>
 		<k>шыгай</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>южн.</meta>
 			<trn>запруда.</trn>
@@ -931,6 +964,7 @@
 	</card>
 	<card>
 		<k>шыгыр</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<meta>уст.</meta>
@@ -952,6 +986,7 @@
 		<homonym>
 			<colon/>
 			<ex>
+				<pos>ideo</pos>
 				<source>шыгыр-шугур</source>
 				<target>подражание потрескиванию (напр. когда горит мелкий хворост или шуршит слой мелкого щебня).</target>
 			</ex>
@@ -959,6 +994,7 @@
 	</card>
 	<card>
 		<k>шык</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>счастье, везение;</trn>
@@ -998,6 +1034,7 @@
 			<meta>подражательное слово;</meta>
 			<minicard>
 				<k>шык-шык</k>
+				<pos>ideo</pos>
 				<trn>звук прищёлкивания языком (кончик языка прижимается к нёбу и с лёгким прищёлкиванием отрывается от него; звук, успокаивающий быка, корову, телёнка, лошадь);</trn>
 				<ex>
 					<source>тилин шык эттирди</source>
@@ -1009,7 +1046,8 @@
 				<target>стаканы, (при чокании) стукаясь со щёлканьем, обошли два раза;</target>
 			</ex>
 			<minicard>
-				<k>шык-шыкта-</k>
+				<k>шык-шыкта</k>
+				<pos>v</pos>
 				<meaning>
 					<trn>успокаивать (лошадь) прищёлкивающими звуками;</trn>
 				</meaning>
@@ -1026,6 +1064,7 @@
 	</card>
 	<card>
 		<k>шып</k>
+		<pos>ideo</pos>
 		<homonym>
 			<trn>подражательное слово, выражающее быстрое, проворное действие;</trn>
 			<ex>
@@ -1058,6 +1097,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<origin>ир.</origin>
 			<meta>южн.</meta>
 			<trn>потолок;</trn>
@@ -1083,6 +1123,7 @@
 			</minicard>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражание шлёпанью, причмокиванью;</trn>
 			<ex>
 				<source>жумшак эриндерин шып эттирип, шыпшына олтурду</source>
@@ -1103,6 +1144,7 @@
 	</card>
 	<card>
 		<k>шыпа</k>
+		<pos>ideo</pos>
 		<homonym>
 			<sameas word="шып" index="1"/>
 			<ex>
@@ -1114,6 +1156,7 @@
 			<colon/>
 			<minicard>
 				<k>шек-шыпа</k>
+				<pos>n</pos>
 				<anchorRef word="шек" anchor="шек-шыба"/>
 				<ex>
 					<source>узакка аңдып жатышып, эч шек-шыпа биле алышпаган</source>
@@ -1124,6 +1167,7 @@
 	</card>
 	<card>
 		<k>шөк</k>
+		<pos>adj</pos>
 		<homonym>
 			<meta>тяньш.</meta>
 			<sameas word="шүк"/>
