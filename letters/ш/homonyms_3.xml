@@ -2,6 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шардан</k>
+		<pos>n</pos>
 		<homonym>
 			<sameas word="шар" index="2"/>
 			<ex>
@@ -15,6 +16,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<trn>бурлить, бушевать;</trn>
 				<ex>
 					<source>толкуган көлдөй шарданып фольк.</source>
@@ -29,6 +31,7 @@
 	</card>
 	<card>
 		<k>шибер</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>всякая высокая густая трава;</trn>
@@ -73,6 +76,7 @@
 			<sameas word="шып" index="2"/>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражание быстрому движению;</trn>
 			<ex>
 				<source>шип деп чыгып кетти</source>
@@ -82,6 +86,7 @@
 	</card>
 	<card>
 		<k>шыйпаң</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>опахало из конского хвоста для отмахивания от насекомых;</trn>
@@ -95,6 +100,7 @@
 				<trn>хвост (конский);</trn>
 			</meaning>
 			<meaning>
+				<pos>adj</pos>
 				<meta>перен.</meta>
 				<trn>шелудивый (когда короста уже начинает отваливаться).</trn>
 			</meaning>
