@@ -2,6 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шай</k>
+        <pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>находящийся в надлежащем виде, в полном порядке;</trn>
@@ -30,7 +31,7 @@
 					</ex>
 				</minicard>
 				<minicard>
-					<k>шай башкала-</k>
+					<k>шай башкала</k>
 					<trn>приводить в порядок;</trn>
 					<ex>
 						<source>үй сарамжалын эртерээк шай башкалап коюп, той даярдыгына өтөлү</source>
@@ -115,6 +116,7 @@
 	</card>
 	<card>
 		<k>шакшак</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>лубки (накладываемые на место перелома костей или на место перелома пера ловчей птицы);</trn>
@@ -153,6 +155,7 @@
 	</card>
 	<card>
 		<k>шамал</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<trn>сильный ветер (ср. жел I);</trn>
@@ -207,6 +210,7 @@
 	</card>
 	<card>
 		<k>шар</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>шар</trn>
 			<ex>
@@ -220,6 +224,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>adj</pos>
 				<trn>быстрое, бурное течение;</trn>
 				<ex>
 					<source>суу шар агып жатат</source>
@@ -239,7 +244,8 @@
 				</ex>
 			</meaning>
 			<meaning>
-				<trn>быстрина;</trn>
+				<pos>n</pos>
+				<trn>быстрина</trn>
 				<ex>
 					<source>алдастап каалагандай жүрө албастан, балыктар ала салат, шарга чөкпөй стих.</source>
 					<target>мечутся рыбы (в бурной реке), переворачиваются с боку на бок, не погружаясь в быстрину;</target>
@@ -292,8 +298,9 @@
 			</meaning>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<meta>южн.</meta>
-			<meta>подражательное слово;</meta>
+			<meta>подражательное слово</meta>
 			<ex>
 				<source>шар дегизип, жара атты</source>
 				<target>он так выстрелил (из лука), что (то, во что стрелял) с треском раскололось пополам.</target>
@@ -302,6 +309,7 @@
 	</card>
 	<card>
 		<k>шарт</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<trn>условие;</trn>
@@ -343,6 +351,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражательное слово, выражающее решительное дейстие, резкое движение;</trn>
 			<ex>
 				<source>шарт чыгып кетти</source>
@@ -396,6 +405,7 @@
 	</card>
 	<card>
 		<k>шейшеп</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<trn>простыня;</trn>
@@ -438,6 +448,7 @@
 	</card>
 	<card>
 		<k>шилен</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>вид угощения в складчину;</trn>
@@ -501,6 +512,7 @@
 	</card>
 	<card>
 		<k>шилте</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ир.</origin>
 			<meaning>
@@ -517,6 +529,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<trn>махать;</trn>
 				<minicard>
 					<k>кол шилте-</k>
@@ -577,6 +590,7 @@
 	</card>
 	<card>
 		<k>шор</k>
+		<pos>n</pos>
 		<homonym>
 			<meta>(в ряде случаев трудно разграничить шор I и шор II)</meta>
 			<meaning>
@@ -587,6 +601,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>adj</pos>
 				<trn>солёный (в своём естественном виде);</trn>
 				<ex>
 					<source>шор суу</source>
@@ -598,6 +613,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>n</pos>
 				<trn>засохшие на теле (солёные) капли пота; комочки грязи от засохшего пота;</trn>
 				<ex>
 					<source>тер чыккандан шор чыгат</source>
@@ -659,6 +675,7 @@
 			</meaning>
 		</homonym>
 		<homonym>
+			<pos>n</pos>
 			<trn>(см. шор I) несчастье, беда;</trn>
 			<ex>
 				<source>жандарма, төрө, залимдер жаралган менин шорума фольк.</source>
@@ -698,6 +715,7 @@
 			</ex>
 		</homonym>
 		<homonym>
+			<pos>ideo</pos>
 			<trn>подражание швыркающему звуку, шмыганью носом;</trn>
 			<ex>
 				<source>мурундарын шор тартып, көк муштум болуп үшүгөн балдар</source>
@@ -715,6 +733,7 @@
 	</card>
 	<card>
 		<k>шыбыр</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>шёпот, нашёптывание; шелест;</trn>
 			<ex>
@@ -760,6 +779,7 @@
 	</card>
 	<card>
 		<k>шылк</k>
+		<pos>ideo</pos>
 		<homonym>
 			<trn>подражательное слово, выражающее хлябанье, быстрое ослабление;</trn>
 			<ex>
@@ -806,8 +826,9 @@
 	</card>
 	<card>
 		<k>шыпыр</k>
+        <pos>n</pos>
 		<homonym>
-			<trn>враль;</trn>
+			<trn>враль</trn>
 			<ex>
 				<source>барып турган шыпыр</source>
 				<target>враль несусветный.</target>
@@ -815,6 +836,7 @@
 		</homonym>
 		<homonym>
 			<meaning>
+				<pos>v</pos>
 				<trn>мести, подметать;</trn>
 				<minicard>
 					<k>үй шыпыр-</k>
@@ -834,6 +856,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>v</pos>
 				<trn>сгребать (руками);</trn>
 				<ex>
 					<source>колу менен буудайды шыпырат</source>
