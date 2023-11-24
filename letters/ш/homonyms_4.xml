@@ -2,6 +2,7 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шака</k>
+		<pos>adv</pos>
 		<homonym>
 			<alter>(или шака-шак или шака-шук или шака-шука)</alter>
 			<meaning>
@@ -20,6 +21,7 @@
 				</ex>
 			</meaning>
 			<meaning>
+				<pos>ideo</pos>
 				<trn>звукоподражание мерному стуку;</trn>
 				<ex>
 					<source>жүрүп кетти дөңгөлөгү шака-шак стих.</source>
@@ -37,6 +39,7 @@
 	</card>
 	<card>
 		<k>шала</k>
+		<pos>adj</pos>
 		<homonym>
 			<trn>изнурённый;</trn>
 			<ex>
@@ -66,6 +69,7 @@
 	</card>
 	<card>
 		<k>шаңкай</k>
+		<pos>v</pos>
 		<homonym>
 			<meta>южн.</meta>
 			<sameas word="чаңкай" index="1"/>
@@ -106,6 +110,7 @@
 	</card>
 	<card>
 		<k>шоола</k>
+		<pos>n</pos>
 		<homonym>
 			<origin>ар.</origin>
 			<trn>луч;</trn>
@@ -141,8 +146,9 @@
 	</card>
 	<card>
 		<k>шордуу</k>
+		<pos>adj</pos>
 		<homonym>
-			<trn>солёный;</trn>
+			<trn>солёный</trn>
 			<ex>
 				<source>шордуу көл</source>
 				<target>солёное озеро;</target>
@@ -170,6 +176,7 @@
 	</card>
 	<card>
 		<k>шоро</k>
+		<pos>n</pos>
 		<homonym>
 			<meaning>
 				<trn>жидкий гной из глаза (смешанный со слезой);</trn>
@@ -209,6 +216,7 @@
 	</card>
 	<card>
 		<k>шыбак</k>
+		<pos>n</pos>
 		<homonym>
 			<trn>полынь однолетняя;</trn>
 			<ex>
@@ -225,7 +233,7 @@
 			</ex>
 		</homonym>
 		<homonym>
-			<trn>штукатурка;</trn>
+			<trn>штукатурка</trn>
 			<minicard>
 				<k>шыбак шыба-</k>
 				<trn>штукатурить;</trn>
@@ -238,6 +246,7 @@
 	</card>
 	<card>
 		<k>шыр</k>
+		<pos>ideo</pos>
 		<homonym>
 			<trn>подражательное слово, выражающее быстроту, безостановочность движения;</trn>
 			<minicard>
