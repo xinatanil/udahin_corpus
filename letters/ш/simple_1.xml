@@ -2,1320 +2,1599 @@
 <root xmlns:foo="http://whatever" xmlns:saxon="http://saxon.sf.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<card>
 		<k>шаанилен-</k>
-		<blockquote>красоваться, быть красивым.</blockquote>
+		<pos>v</pos>
+		<trn>красоваться, быть красивым.</trn>
 	</card>
 	<card>
 		<k>шаанилент-</k>
+		<pos>v</pos>
 		<caus word="шаанилен"/>
-		<blockquote>украшать, делать красивым.</blockquote>
+		<trn>украшать, делать красивым.</trn>
 	</card>
 	<card>
 		<k>шабдаалы</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>персик (дерево и плод).</blockquote>
+		<trn>персик (дерево и плод).</trn>
 	</card>
 	<card>
 		<k>шаблон</k>
+		<pos>n</pos>
 		<trn>шаблон</trn>
-		<blockquote>ал шаблон боюнча жазат он пишет по шаблону.</blockquote>
+		<blockquote>ал шаблон боюнча жазат@@ он пишет по шаблону.</blockquote>
 	</card>
 	<card>
 		<k>шаблондуу</k>
-		<blockquote>шаблонный.</blockquote>
+		<pos>adj</pos>
+		<trn>шаблонный.</trn>
 	</card>
 	<card>
 		<k>шавоп</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>ночной полив посевов.</blockquote>
+		<trn>ночной полив посевов.</trn>
 	</card>
 	<card>
 		<k>шагылдуу</k>
-		<blockquote>изобилующий щебнем.</blockquote>
+		<pos>adj</pos>
+		<trn>изобилующий щебнем.</trn>
 	</card>
 	<card>
 		<k>шагырак</k>
-		<blockquote>(о металле) звонкий, звенящий.</blockquote>
+		<pos>adj</pos>
+		<trn>(о металле) звонкий, звенящий.</trn>
 	</card>
 	<card>
 		<k>шагырат-</k>
+		<pos>v</pos>
 		<caus word="шагыра"/>
-		<blockquote>тиштерин шагырата кагып громко стуча зубами.</blockquote>
+		<blockquote>тиштерин шагырата кагып@@ громко стуча зубами.</blockquote>
 	</card>
 	<card>
 		<k>шагыраш-</k>
+		<pos>v</pos>
 		<recv word="шагыра"/>
-		<blockquote>бугу, марал, эчки, теке, кулжасы шагырашып чубап өтөт стих. (дикие) олени, важенки, козы, козлы, архары идут гуськом по щебню и (ногами о щебень) производят грохот.</blockquote>
+		<blockquote>бугу, марал, эчки, теке, кулжасы шагырашып чубап өтөт стих.@@ (дикие) олени, важенки, козы, козлы, архары идут гуськом по щебню и (ногами о щебень) производят грохот.</blockquote>
 	</card>
 	<card>
 		<k>шайкелең</k>
-		<blockquote>озорной; озорник, шалун.</blockquote>
+		<pos>adj</pos>
+		<trn>озорник, шалун.</trn>
 	</card>
 	<card>
 		<k>шайкелеңден-</k>
-		<blockquote>озоровать, шалить.</blockquote>
+		<pos>v</pos>
+		<trn>озоровать, шалить.</trn>
 	</card>
 	<card>
 		<k>шайлаш-</k>
+		<pos>v</pos>
 		<recv word="шайла"/>
-		<blockquote>совместно выбирать.</blockquote>
+		<trn>совместно выбирать.</trn>
 	</card>
 	<card>
 		<k>шайлуу</k>
-		<blockquote>тот, кто всем обеспечен; тот, у кого всё в порядке.</blockquote>
+		<pos>adj</pos>
+		<trn>тот, кто всем обеспечен; тот, у кого всё в порядке.</trn>
 	</card>
 	<card>
 		<k>шаймандан-</k>
+		<pos>v</pos>
 		<refv word="шайманда"/>
-		<blockquote>оборудоваться; снарядиться.</blockquote>
+		<trn>оборудоваться; снарядиться.</trn>
 	</card>
 	<card>
 		<k>шаймандоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шайманда"/>
-		<blockquote>оборудование; снабжение оборудованием, предметами убранства.</blockquote>
+		<trn>оборудование; снабжение оборудованием, предметами убранства.</trn>
 	</card>
 	<card>
 		<k>шаймашай</k>
+		<pos>adj</pos>
 		<anchorRef word="шай" index="1" subindex="1" anchor="шайма-шай"/>
-		<blockquote>ат жабдыктары бардык жагынан шаймашай в отношении конской сбруи всё в полном порядке.</blockquote>
+		<blockquote>ат жабдыктары бардык жагынан шаймашай@@ в отношении конской сбруи всё в полном порядке.</blockquote>
 	</card>
 	<card>
 		<k>шайтандан-</k>
-		<blockquote>бесноваться.</blockquote>
+		<pos>v</pos>
+		<trn>бесноваться.</trn>
 	</card>
 	<card>
 		<k>шайырлан-</k>
-		<blockquote>быть жизнерадостным, весёлым, бодрым.</blockquote>
+		<pos>v</pos>
+		<trn>быть жизнерадостным, весёлым, бодрым.</trn>
 	</card>
 	<card>
 		<k>шайырлык</k>
-		<blockquote>жизнерадостность, весёлость; бодрость.</blockquote>
+		<pos>n</pos>
+		<trn>жизнерадостность, весёлость; бодрость.</trn>
 	</card>
 	<card>
 		<k>шайырсын-</k>
+		<pos>v</pos>
 		<similative word="шайыр" index="1"/>
-		<blockquote>быть весёлым, жизнерадостным, бодриться.</blockquote>
+		<trn>быть весёлым, жизнерадостным, бодриться.</trn>
 	</card>
 	<card>
 		<k>шакапча</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>мелкие арыки, проводимые по посевам.</blockquote>
+		<trn>мелкие арыки, проводимые по посевам.</trn>
 	</card>
 	<card>
 		<k>шакеге</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>шутка, насмешка.</blockquote>
+		<trn>шутка, насмешка.</trn>
 	</card>
 	<card>
 		<k>шакектел-</k>
+		<pos>v</pos>
 		<pass word="шакекте"/>
-		<blockquote>кара тамынын алдына он чакты ээрчен ат шакектелип калган экен у его лачуги стояли связанные в ряд с десяток осёдланных лошадей.</blockquote>
+		<blockquote>кара тамынын алдына он чакты ээрчен ат шакектелип калган экен@@ у его лачуги стояли связанные в ряд с десяток осёдланных лошадей.</blockquote>
 	</card>
 	<card>
 		<k>шакектен-</k>
+		<pos>v</pos>
 		<refv word="шакекте"/>
-		<blockquote>оказаться в круге, в кольце (напр. о полной луне в красноватом ореоле).</blockquote>
+		<trn>оказаться в круге, в кольце (напр. о полной луне в красноватом ореоле).</trn>
 	</card>
 	<card>
 		<k>шакектүү</k>
-		<blockquote>скреплённый кольцами, шайбочками.</blockquote>
+		<pos>adj</pos>
+		<trn>скреплённый кольцами, шайбочками.</trn>
 	</card>
 	<card>
 		<k>шакмак</k>
-		<blockquote>лучина (для растопки).</blockquote>
+		<pos>n</pos>
+		<trn>лучина (для растопки).</trn>
 	</card>
 	<card>
 		<k>шакмарла-</k>
-		<blockquote>покрываться кусочками грязи (гл. обр. о животных).</blockquote>
+		<pos>v</pos>
+		<trn>покрываться кусочками грязи (гл. обр. о животных).</trn>
 	</card>
 	<card>
 		<k>шакшапа</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>участки в горах, где среди камней встречаются деревянистые растения (боярышник, карагана и др.).</blockquote>
+		<trn>участки в горах, где среди камней встречаются деревянистые растения (боярышник, карагана и др.).</trn>
 	</card>
 	<card>
 		<k>шакыйна</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<sameas word="шакый"/>
-		<blockquote>шакыйнасы кармап турат у него болит голова.</blockquote>
+		<blockquote>шакыйнасы кармап турат@@ у него болит голова.</blockquote>
 	</card>
 	<card>
 		<k>шалакы</k>
+		<pos>adj</pos>
 		<compare word="шалдакы"/>
-		<blockquote>растяпа, разгильдяй, нерадивый; неряха.</blockquote>
+		<trn>растяпа, разгильдяй, нерадивый; неряха.</trn>
 	</card>
 	<card>
 		<k>шаланбет</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>питьё. приготовленное из жаренной на масле муки и молока.</blockquote>
+		<trn>питьё. приготовленное из жаренной на масле муки и молока.</trn>
 	</card>
 	<card>
 		<k>шалаңда-</k>
-		<blockquote>надевать, подхвостник (быку).</blockquote>
+		<pos>v</pos>
+		<trn>надевать, подхвостник (быку).</trn>
 	</card>
 	<card>
 		<k>шалаңтай</k>
-		<blockquote>сошник (носа).</blockquote>
+		<pos>n</pos>
+		<trn>сошник (носа).</trn>
 	</card>
 	<card>
 		<k>шалгам</k>
-		<blockquote>репа.</blockquote>
+		<pos>n</pos>
+		<trn>репа.</trn>
 	</card>
 	<card>
 		<k>шалдакы</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>(о женщине) неряха, растяпа.</blockquote>
+		<trn>(о женщине) неряха, растяпа.</trn>
 	</card>
 	<card>
 		<k>шалкылдат-</k>
+		<pos>adv</pos>
 		<compare word="шылкылдат"/>
 		<caus word="шалкылда"/>
-		<blockquote>ат менен шалкылдатып катуу жүрдүк мы быстро ехали на лошадях.</blockquote>
+		<blockquote>ат менен шалкылдатып катуу жүрдүк@@ мы быстро ехали на лошадях.</blockquote>
 	</card>
 	<card>
 		<k>шалпак</k>
 		<sameas word="шалпаң"/>
-		<blockquote>шалпак кулак то же, что шалпаң кулак 1 (см. шалпаң).</blockquote>
+		<blockquote>шалпак кулак@@ то же, что шалпаң кулак 1 (см. шалпаң).</blockquote>
 	</card>
 	<card>
 		<k>шалпый-</k>
-		<blockquote>ослабевать, изнуряться.</blockquote>
+		<pos>v</pos>
+		<trn>ослабевать, изнуряться.</trn>
 	</card>
 	<card>
 		<k>шалпылдат-</k>
+		<pos>adv</pos>
 		<caus word="шалпылда"/>
-		<blockquote>шалпылдатып баткак кеч- хлюпать по грязи.</blockquote>
+		<blockquote>шалпылдатып баткак кеч-@@ хлюпать по грязи.</blockquote>
 	</card>
 	<card>
 		<k>шалпын-</k>
+		<pos>v</pos>
 		<refv word="шалпы" index="2"/>
-		<blockquote>ат шалпынып турат лошадь прядает ушами и помахивает головой.</blockquote>
+		<blockquote>ат шалпынып турат@@ лошадь прядает ушами и помахивает головой.</blockquote>
 	</card>
 	<card>
 		<k>шалпыюу</k>
+		<pos>ger</pos>
 		<actionNoun word="шалпый"/>
-		<blockquote>ослабевание.</blockquote>
+		<trn>ослабевание.</trn>
 	</card>
 	<card>
 		<k>шалтак</k>
-		<blockquote>грязь, нечистоты.</blockquote>
+		<pos>n</pos>
+		<trn>грязь, нечистоты.</trn>
 	</card>
 	<card>
 		<k>шалтакта-</k>
-		<blockquote>запачкать, загрязнить.</blockquote>
+		<pos>v</pos>
+		<trn>запачкать, загрязнить.</trn>
 	</card>
 	<card>
 		<k>шалтактоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шалтакта"/>
-		<blockquote>пачканье, загрязнение.</blockquote>
+		<trn>пачканье, загрязнение.</trn>
 	</card>
 	<card>
 		<k>шалтурук</k>
-		<blockquote>простофиля, растяпа, слюнтяй.</blockquote>
+		<pos>n</pos>
+		<trn>простофиля, растяпа, слюнтяй.</trn>
 	</card>
 	<card>
 		<k>шалыкер</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>рисовод, рисосеятель.</blockquote>
+		<trn>рисовод, рисосеятель.</trn>
 	</card>
 	<card>
 		<k>шалыкерчилик</k>
-		<blockquote>рисоводство, рисосеяние.</blockquote>
+		<pos>n</pos>
+		<trn>рисоводство, рисосеяние.</trn>
 	</card>
 	<card>
 		<k>шалыпая</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>рисовое поле, участок под рисовым полем.</blockquote>
+		<trn>рисовое поле, участок под рисовым полем.</trn>
 	</card>
 	<card>
 		<k>шамалда-</k>
-		<blockquote>проветриваться.</blockquote>
+		<pos>v</pos>
+		<trn>проветриваться.</trn>
 	</card>
 	<card>
 		<k>шамана</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
 		<meta>уст.</meta>
-		<blockquote>светильник, факел.</blockquote>
+		<trn>светильник, факел.</trn>
 	</card>
 	<card>
 		<k>шамдал</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>подсвечник.</blockquote>
+		<trn>подсвечник.</trn>
 	</card>
 	<card>
 		<k>шампылда-</k>
-		<blockquote>неуклюже двигаться (о верблюде с облезающей шерстью и в плохенькой сбруе).</blockquote>
+		<pos>v</pos>
+		<trn>неуклюже двигаться (о верблюде с облезающей шерстью и в плохенькой сбруе).</trn>
 	</card>
 	<card>
 		<k>шамшай-</k>
-		<blockquote>иметь вид полуразрушенного, покосившегося.</blockquote>
+		<pos>v</pos>
+		<trn>иметь вид полуразрушенного, покосившегося.</trn>
 	</card>
 	<card>
 		<k>шамшардуу</k>
-		<blockquote>вооружённый мечом или кинжалом.</blockquote>
+		<pos>adj</pos>
+		<trn>вооружённый мечом или кинжалом.</trn>
 	</card>
 	<card>
 		<k>шаңгыра-</k>
-		<blockquote>звенеть (сильно).</blockquote>
+		<pos>v</pos>
+		<trn>звенеть (сильно).</trn>
 	</card>
 	<card>
 		<k>шаңгырла-</k>
+		<pos>v</pos>
 		<sameas word="шаңгыра"/>
-		<blockquote>төөлөрдүн мойнундагы түркүм үн чыгарып шаңгырлаган ар түрдүү коңгуроолор на шеях верблюдов разные колокольчики, которые звенят, издавая разные звуки (в большом караване на шее каждого десятого-двенадцатого верблюда висел колокольчик, часто больших размеров).</blockquote>
+		<blockquote>төөлөрдүн мойнундагы түркүм үн чыгарып шаңгырлаган ар түрдүү коңгуроолор@@ на шеях верблюдов разные колокольчики, которые звенят, издавая разные звуки (в большом караване на шее каждого десятого-двенадцатого верблюда висел колокольчик, часто больших размеров).</blockquote>
 	</card>
 	<card>
 		<k>шаңдант-</k>
+		<pos>v</pos>
 		<caus word="шаңдан"/>
-		<blockquote>кылычтын мизин жалмантып, найзасын көккө шандантып фольк. лезвие меча вращая (будто язычок змеи), пику свою величаво вверх воздев.</blockquote>
+		<blockquote>кылычтын мизин жалмантып, найзасын көккө шандантып фольк.@@ лезвие меча вращая (будто язычок змеи), пику свою величаво вверх воздев.</blockquote>
 	</card>
 	<card>
 		<k>шаңданыш-</k>
+		<pos>v</pos>
 		<recv word="шаңдан"/>
-		<blockquote>жаңы айылдар шаңданышты, бар тармагы өзгөрүп стих. новые селения украсились, в корне преобразовавшись.</blockquote>
+		<blockquote>жаңы айылдар шаңданышты, бар тармагы өзгөрүп стих.@@ новые селения украсились, в корне преобразовавшись.</blockquote>
 	</card>
 	<card>
 		<k>шанкр</k>
+		<pos>n</pos>
 		<trn>шанкр</trn>
-		<blockquote>жумшак шанкр мягкий шанкр.</blockquote>
+		<blockquote>жумшак шанкр@@ мягкий шанкр.</blockquote>
 	</card>
 	<card>
 		<k>шаңыя</k>
+		<pos>n</pos>
 		<origin>кит.</origin>
 		<meta>ист.</meta>
-		<blockquote>старшина (в Синьцзяне в пунктах оседлости с мусульманским населением).</blockquote>
+		<trn>старшина (в Синьцзяне в пунктах оседлости с мусульманским населением).</trn>
 	</card>
 	<card>
 		<k>шаңыялык</k>
+		<pos>n</pos>
 		<meta>ист.</meta>
-		<blockquote>положение или должность шаңыя (см.).</blockquote>
+		<trn>положение или должность шаңыя (см.).</trn>
 	</card>
 	<card>
 		<k>шапаат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>редко</meta>
-		<blockquote>заступничество.</blockquote>
+		<trn>заступничество.</trn>
 	</card>
 	<card>
 		<k>шапайыш</k>
+		<pos>adv</pos>
 		<actionNoun word="шапай"/>
-		<blockquote>анын өнүнүн шапайышы таңкы бүрүлдө байкалбады в предрассветном полумраке не было заметно, что лицо его осунулось.</blockquote>
+		<blockquote>анын өнүнүн шапайышы таңкы бүрүлдө байкалбады@@ в предрассветном полумраке не было заметно, что лицо его осунулось.</blockquote>
 	</card>
 	<card>
 		<k>шапка</k>
+		<pos>n</pos>
 		<meta>полигр.</meta>
-		<blockquote>шапка (заголовок).</blockquote>
+		<trn>шапка (заголовок).</trn>
 	</card>
 	<card>
 		<k>шапкат</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
-		<blockquote>милость, милосердие.</blockquote>
+		<trn>милость, милосердие.</trn>
 	</card>
 	<card>
 		<k>шапке</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>разг.</meta>
-		<blockquote>фуражка.</blockquote>
+		<trn>фуражка.</trn>
 	</card>
 	<card>
 		<k>шапшын-</k>
+		<pos>v</pos>
 		<refv word="шапшы" subindex="1"/>
-		<blockquote>шапшынып сууга түштү он купался, бултыхаясь в воде.</blockquote>
+		<blockquote>шапшынып сууга түштү@@ он купался, бултыхаясь в воде.</blockquote>
 	</card>
 	<card>
 		<k>шапы</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>южн.</meta>
 		<meta>ист.</meta>
 		<meta>юр.</meta>
-		<blockquote>сосед, который по мусульманскому праву имел преимущество при покупке недвижимости своего соседа.</blockquote>
+		<trn>сосед, который по мусульманскому праву имел преимущество при покупке недвижимости своего соседа.</trn>
 	</card>
 	<card>
 		<k>шапылдак</k>
-		<blockquote>тараторка, болтун.</blockquote>
+		<pos>n</pos>
+		<trn>тараторка, болтун.</trn>
 	</card>
 	<card>
 		<k>шарактатуу</k>
+		<pos>ger</pos>
 		<actionNoun word="шарактат"/>
-		<blockquote>вызывание треска, грохота, звяканья, шума.</blockquote>
+		<trn>вызывание треска, грохота, звяканья, шума.</trn>
 	</card>
 	<card>
 		<k>шарактоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шаракта"/>
-		<blockquote>треск, трескание, грохотанье, звяканье.</blockquote>
+		<trn>треск, трескание, грохотанье, звяканье.</trn>
 	</card>
 	<card>
 		<k>шарип</k>
+		<pos>n</pos>
 		<anchorRef word="келем" anchor="келем шарип"/>
-		<blockquote>молдолор барсын селделүү, оозунда шарип келмелүү стих. муллы пусть идут в чалмах со священным словом на устах.</blockquote>
+		<blockquote>молдолор барсын селделүү, оозунда шарип келмелүү стих.@@ муллы пусть идут в чалмах со священным словом на устах.</blockquote>
 	</card>
 	<card>
 		<k>шаркан</k>
+		<pos>adv</pos>
 		<pair word="буркан"/>
-		<blockquote>Умсунай, жашын тыйбай, буркан-шаркан түшүп, жаагын баскан жок Умсунай, не переставая плакать, рвала и метала.</blockquote>
+		<blockquote>Умсунай, жашын тыйбай, буркан-шаркан түшүп, жаагын баскан жок@@ Умсунай, не переставая плакать, рвала и метала.</blockquote>
 	</card>
 	<card>
 		<k>шаркыратма</k>
-		<blockquote>водопад.</blockquote>
+		<pos>n</pos>
+		<trn>водопад.</trn>
 	</card>
 	<card>
 		<k>шаропке</k>
+		<pos>n</pos>
 		<sameas word="шаровка"/>
-		<blockquote>кызылчанын шаропкеси бүтүп калды шаровка свёклы закончена.</blockquote>
+		<blockquote>кызылчанын шаропкеси бүтүп калды@@ шаровка свёклы закончена.</blockquote>
 	</card>
 	<card>
 		<k>шарпы-</k>
+		<pos>v</pos>
 		<sameas word="шарпылда"/>
-		<blockquote>ак кардын суусу кошулса, Айдың-Көл шарпып толбойбу? фольк. разве не зашумит (озеро) Айдын-Куль, если (к нему) прибавится вода белого снега (во время таяния) ?</blockquote>
+		<blockquote>ак кардын суусу кошулса, Айдың-Көл шарпып толбойбу? фольк.@@ разве не зашумит (озеро) Айдын-Куль, если (к нему) прибавится вода белого снега (во время таяния) ?</blockquote>
 	</card>
 	<card>
 		<k>шарпылдоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шарпылда"/>
-		<blockquote>сильные всплески (напр. воды в озере); сильное шуршанье (высокой густой травы).</blockquote>
+		<trn>сильные всплески (напр. воды в озере); сильное шуршанье (высокой густой травы).</trn>
 	</card>
 	<card>
 		<k>шарттал-</k>
-		<blockquote>быть обусловленным.</blockquote>
+		<pos>v</pos>
+		<trn>быть обусловленным.</trn>
 	</card>
 	<card>
 		<k>шарттандыр-</k>
-		<blockquote>обусловить.</blockquote>
+		<pos>v</pos>
+		<trn>обусловить.</trn>
 	</card>
 	<card>
 		<k>шартылдак</k>
-		<blockquote>погремок (растение).</blockquote>
+		<pos>n</pos>
+		<trn>погремок (растение).</trn>
 	</card>
 	<card>
 		<k>шартылдат-</k>
+		<pos>v</pos>
 		<caus word="шартылда"/>
-		<blockquote>ат, шартылдатып, өз тамагы менен алек болуп жатты лошадь, громко похрустывая, была занята своим кормом.</blockquote>
+		<blockquote>ат, шартылдатып, өз тамагы менен алек болуп жатты@@ лошадь, громко похрустывая, была занята своим кормом.</blockquote>
 	</card>
 	<card>
 		<k>шарше</k>
+		<pos>n</pos>
 		<meta>тяньш.</meta>
-		<blockquote>название дикорастущего дерева.</blockquote>
+		<trn>название дикорастущего дерева.</trn>
 	</card>
 	<card>
 		<k>шарык</k>
+		<pos>n</pos>
 		<origin>ар.</origin>
 		<meta>уст.</meta>
-		<blockquote>восток.</blockquote>
+		<trn>восток.</trn>
 	</card>
 	<card>
 		<k>шарылдоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шарылда"/>
-		<blockquote>бурление, быстрое течение.</blockquote>
+		<trn>бурление, быстрое течение.</trn>
 	</card>
 	<card>
 		<k>шатектет-</k>
+		<pos>v</pos>
 		<caus word="шатекте"/>
-		<blockquote>көчө бою өйүз-бүйүз шатектетип, аттарын байлап, өздөрү көлөкөлөй олтурушту связав своих коней и поставив их в ряд вдоль улицы, сами сели в тень.</blockquote>
+		<blockquote>көчө бою өйүз-бүйүз шатектетип, аттарын байлап, өздөрү көлөкөлөй олтурушту@@ связав своих коней и поставив их в ряд вдоль улицы, сами сели в тень.</blockquote>
 	</card>
 	<card>
 		<k>шатмандык</k>
-		<blockquote>радость, веселье.</blockquote>
+		<pos>n</pos>
+		<trn>радость, веселье.</trn>
 	</card>
 	<card>
 		<k>шаттан-</k>
-		<blockquote>радоваться.</blockquote>
+		<pos>v</pos>
+		<trn>радоваться.</trn>
 	</card>
 	<card>
 		<k>шаттандыр-</k>
+		<pos>v</pos>
 		<caus word="шаттан"/>
-		<blockquote>доставлять радость, радовать.</blockquote>
+		<trn>доставлять радость, радовать.</trn>
 	</card>
 	<card>
 		<k>шаттуу</k>
-		<blockquote>радостный, весёлый.</blockquote>
+		<pos>adj</pos>
+		<trn>радостный, весёлый.</trn>
 	</card>
 	<card>
 		<k>шатыбар</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>уст.</meta>
-		<blockquote>мата набивная.</blockquote>
+		<trn>мата набивная.</trn>
 	</card>
 	<card>
 		<k>шатырак</k>
-		<blockquote>жидкий кал; понос.</blockquote>
+		<pos>n</pos>
+		<trn>жидкий кал; понос.</trn>
 	</card>
 	<card>
 		<k>шатыракта-</k>
-		<blockquote>страдать поносом.</blockquote>
+		<pos>v</pos>
+		<trn>страдать поносом.</trn>
 	</card>
 	<card>
-		<k>шатыраш-</k>
+		<k>шатыраш-</k
+		<pos></pos>>
 		<recv word="шатыра" index="2"/>
-		<blockquote>шатырашып күлүп жиберишти они разразились смехом; они громко и весело рассмеялись.</blockquote>
+		<blockquote>шатырашып күлүп жиберишти@@ они разразились смехом; они громко и весело рассмеялись.</blockquote>
 	</card>
 	<card>
 		<k>шахтёр</k>
+		<pos>n</pos>
 		<trn>шахтёр</trn>
-		<blockquote>шатхёрлор шахтёры.</blockquote>
+		<blockquote>шатхёрлор@@ шахтёры.</blockquote>
 	</card>
 	<card>
 		<k>шашкалак</k>
-		<blockquote>торопливый; торопыга.</blockquote>
+		<pos>adj</pos>
+		<trn>торопливый; торопыга.</trn>
 	</card>
 	<card>
 		<k>шашкыла-</k>
+		<pos>v</pos>
 		<iter word="шаш"/>
-		<blockquote>аттанышып шашкылап, "кармай көр" деп, чапкылап фольк. сев на коней и поспешая, с криком "лови", несясь вскачь.</blockquote>
+		<blockquote>аттанышып шашкылап, "кармай көр" деп, чапкылап фольк.@@ сев на коней и поспешая, с криком "лови", несясь вскачь.</blockquote>
 	</card>
 	<card>
 		<k>шашмала-</k>
-		<blockquote>торопиться, суетиться.</blockquote>
+		<pos>v</pos>
+		<trn>торопиться, суетиться.</trn>
 	</card>
 	<card>
 		<k>шашыл-</k>
+		<pos>v</pos>
 		<refpass word="шаш"/>
-		<blockquote>аябай шашылып в большой спешке.</blockquote>
+		<blockquote>аябай шашылып@@ в большой спешке.</blockquote>
 	</card>
 	<card>
 		<k>шашылыштык</k>
-		<blockquote>торопливость, поспешность.</blockquote>
+		<pos>n</pos>
+		<trn>торопливость, поспешность.</trn>
 	</card>
 	<card>
 		<k>шашыр</k>
+		<pos>n</pos>
 		<meta>талас.</meta>
 		<meta>чатк.</meta>
-		<blockquote>название травы с неприятным запахом (её охотно едят овцы).</blockquote>
+		<trn>название травы с неприятным запахом (её охотно едят овцы).</trn>
 	</card>
 	<card>
 		<k>шекерап</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
-		<blockquote>кушанье из кусочков хлебной лепёшки, лука, красного перца и соли (местами и помидоров), залитых кипятком.</blockquote>
+		<trn>кушанье из кусочков хлебной лепёшки, лука, красного перца и соли (местами и помидоров), залитых кипятком.</trn>
 	</card>
 	<card>
 		<k>шекит</k>
+		<pos>n</pos>
 		<sameas word="шакирт"/>
-		<blockquote>өгөөсүнө чыдабай, элүү шекит ноюган фольк. не выдержав точки (богатырского меча), пятьдесят подмастерьев обессилели.</blockquote>
+		<blockquote>өгөөсүнө чыдабай, элүү шекит ноюган фольк.@@ не выдержав точки (богатырского меча), пятьдесят подмастерьев обессилели.</blockquote>
 	</card>
 	<card>
 		<k>шексиз</k>
-		<blockquote>без сомнения, несомненно.</blockquote>
+		<pos>adj</pos>
+		<trn>без сомнения, несомненно.</trn>
 	</card>
 	<card>
 		<k>шектен-</k>
-		<blockquote>сомневаться, иметь подозрение.</blockquote>
+		<pos>v</pos>
+		<trn>сомневаться, иметь подозрение.</trn>
 	</card>
 	<card>
 		<k>шектенүү</k>
+		<pos>ger</pos>
 		<actionNoun word="шектен"/>
-		<blockquote>сомнение, подозрение.</blockquote>
+		<trn>сомнение, подозрение.</trn>
 	</card>
 	<card>
 		<k>шектик</k>
+		<pos>n</pos>
 		<meta>сев.</meta>
 		<meta>этн.</meta>
-		<blockquote>род плова, приготовляемого вечером в канун поста (см. орозо).</blockquote>
+		<trn>род плова, приготовляемого вечером в канун поста (см. орозо).</trn>
 	</card>
 	<card>
 		<k>шеңирейт-</k>
+		<pos>v</pos>
 		<caus word="шеңирей"/>
-		<blockquote>мурдун шеңирейтип выставляя свой большой, с широкими ноздрями нос.</blockquote>
+		<blockquote>мурдун шеңирейтип@@ выставляя свой большой, с широкими ноздрями нос.</blockquote>
 	</card>
 	<card>
 		<k>шердент-</k>
+		<pos>v</pos>
 		<caus word="шерден"/>
-		<blockquote>вдохновить на что-л., вдохнуть отвагу, вызвать прилив энергии.</blockquote>
+		<trn>вдохновить на что-л., вдохнуть отвагу, вызвать прилив энергии.</trn>
 	</card>
 	<card>
 		<k>шердик</k>
-		<blockquote>отвага, храбрость.</blockquote>
+		<pos>n</pos>
+		<trn>отвага, храбрость.</trn>
 	</card>
 	<card>
 		<k>шерине</k>
+		<pos>n</pos>
 		<sameas word="шерне"/>
-		<blockquote>сүт бото менен тайлардан шеринени бергиле фольк. устройте шерне (см.) из (мяса) верблюжат-сосунков и годовалых жеребят.</blockquote>
+		<blockquote>сүт бото менен тайлардан шеринени бергиле фольк.@@ устройте шерне (см.) из (мяса) верблюжат-сосунков и годовалых жеребят.</blockquote>
 	</card>
 	<card>
 		<k>шерлендир-</k>
-		<blockquote>вдохновить, вдохнуть энергию, поднять дух.</blockquote>
+		<pos>v</pos>
+		<trn>вдохновить, вдохнуть энергию, поднять дух.</trn>
 	</card>
 	<card>
 		<k>шертте-</k>
-		<blockquote>обусловить, сделать обязательным.</blockquote>
+		<pos>v</pos>
+		<trn>обусловить, сделать обязательным.</trn>
 	</card>
 	<card>
 		<k>шерттеш-</k>
+		<pos>v</pos>
 		<recv word="шертте"/>
-		<blockquote>условиться, взаимно обязаться.</blockquote>
+		<trn>условиться, взаимно обязаться.</trn>
 	</card>
 	<card>
 		<k>шерттөө</k>
+		<pos>v</pos>
 		<actionNoun word="шертте"/>
-		<blockquote>обусловливание.</blockquote>
+		<trn>обусловливание.</trn>
 	</card>
 	<card>
 		<k>шеф</k>
+		<pos>n</pos>
 		<trn>шеф</trn>
-		<blockquote>шефке ал- взять шефство.</blockquote>
+		<blockquote>шефке ал-@@ взять шефство.</blockquote>
 	</card>
 	<card>
 		<k>шибиш</k>
+		<pos>n</pos>
 		<meta>(ср. шыбыш)</meta>
-		<blockquote>шибишин билдирбей кет- схоронить концы, замести следы; сделать шито-крыто.</blockquote>
+		<blockquote>шибишин билдирбей кет-@@ схоронить концы, замести следы; сделать шито-крыто.</blockquote>
 	</card>
 	<card>
 		<k>шиблет</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>уст.</meta>
-		<blockquote>штиблеты.</blockquote>
+		<trn>штиблеты.</trn>
 	</card>
 	<card>
-		<k>шиктир</k>
-		<blockquote>потаскуха, женщина лёгкого поведения.</blockquote>
+		<k>шиктир</k >
+		<pos>n</pos>
+		<trn>потаскуха, женщина лёгкого поведения.</trn>
 	</card>
 	<card>
 		<k>шилекейле-</k>
-		<blockquote>слюнить, смазывать слюной.</blockquote>
+		<pos>v</pos>
+		<trn>слюнить, смазывать слюной.</trn>
 	</card>
 	<card>
 		<k>шилеле-</k>
+		<pos>v</pos>
 		<sameas word="шиле"/>
-		<blockquote>оттун күлүн шилелеп кой сгреби, сдвинь золу.</blockquote>
+		<blockquote>оттун күлүн шилелеп кой@@ сгреби, сдвинь золу.</blockquote>
 	</card>
 	<card>
 		<k>шилемейле-</k>
+		<pos>v</pos>
 		<sameas word="шилекейле"/>
-		<blockquote>кеберсиген эриндерин тилинин учу менен бир шилемейлеп алды пересохшие губы свои он облизал (смочил) кончиком языка.</blockquote>
+		<blockquote>кеберсиген эриндерин тилинин учу менен бир шилемейлеп алды@@ пересохшие губы свои он облизал (смочил) кончиком языка.</blockquote>
 	</card>
 	<card>
 		<k>шилия</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>сев.</meta>
-		<blockquote>шлея.</blockquote>
+		<trn>шлея.</trn>
 	</card>
 	<card>
 		<k>шилтегиле-</k>
+		<pos>v</pos>
 		<iter word="шилте" index="2"/>
-		<blockquote>буттарын араң шилтегилеп, басып калышты они пошли, едва передвигая ноги.</blockquote>
+		<blockquote>буттарын араң шилтегилеп, басып калышты@@ они пошли, едва передвигая ноги.</blockquote>
 	</card>
 	<card>
 		<k>шилтеле-</k>
-		<blockquote>упрекать, поддевать (словом).</blockquote>
+		<pos>v</pos>
+		<trn>упрекать, поддевать (словом).</trn>
 	</card>
 	<card>
 		<k>шилөөкер</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<meta>уст.</meta>
-		<blockquote>привратник.</blockquote>
+		<trn>привратник.</trn>
 	</card>
 	<card>
 		<k>шимүүр</k>
+		<pos>n</pos>
 		<meta>(или шимир куурай)</meta>
-		<blockquote>зопник клубненосный (растение из семейства губоцветных).</blockquote>
+		<trn>зопник клубненосный (растение из семейства губоцветных).</trn>
 	</card>
 	<card>
 		<k>шимшүү</k>
+		<pos>ger</pos>
 		<actionNoun word="шимши"/>
-		<blockquote>шимшүүлөр перен. происки.</blockquote>
+		<blockquote>шимшүүлөр перен.@@ происки.</blockquote>
 	</card>
 	<card>
 		<k>шина</k>
+		<pos>n</pos>
 		<trn>шина</trn>
-		<blockquote>автомобиль шиналары автомобильные шины.</blockquote>
+		<blockquote>автомобиль шиналары@@ автомобильные шины.</blockquote>
 	</card>
 	<card>
 		<k>шипширге</k>
+		<pos>n</pos>
 		<meta>чатк.</meta>
-		<blockquote>дверные петли для замка.</blockquote>
+		<trn>дверные петли для замка.</trn>
 	</card>
 	<card>
 		<k>ширештир-</k>
+		<pos>v</pos>
 		<caus word="ширеш"/>
-		<blockquote>элдердин ынтымагын ширештирип, душманга согуш салган орус калкы стих. укрепив (букв. спаяв) дружбу народов, с врагом сражался русский народ.</blockquote>
+		<blockquote>элдердин ынтымагын ширештирип, душманга согуш салган орус калкы стих.@@ укрепив (букв. спаяв) дружбу народов, с врагом сражался русский народ.</blockquote>
 	</card>
 	<card>
 		<k>шириле-</k>
+		<pos>v</pos>
 		<meta>ист.</meta>
-		<blockquote>надевать кому-л. на голову шири (см. шири 2).</blockquote>
+		<trn>надевать кому-л. на голову шири (см. шири 2).</trn>
 	</card>
 	<card>
 		<k>шифрла-</k>
-		<blockquote>шифровать.</blockquote>
+		<pos>v</pos>
+		<trn>шифровать.</trn>
 	</card>
 	<card>
 		<k>шифрлоо</k>
+		<pos>ger </pos>
 		<actionNoun word="шифрла"/>
-		<blockquote>шифровка.</blockquote>
+		<trn>шифровка.</trn>
 	</card>
 	<card>
 		<k>шифрлоочу</k>
-		<blockquote>шифровальщик.</blockquote>
+		<pos>n</pos>
+		<trn>шифровальщик.</trn>
 	</card>
 	<card>
 		<k>шишимектүү</k>
-		<blockquote>припухлый, опухший.</blockquote>
+		<poos>adj</poos>
+		<trn>припухлый, опухший.</trn>
 	</card>
 	<card>
 		<k>шишимел</k>
+		<pos>adj</pos>
 		<sameas word="шишиңки"/>
-		<blockquote>шишимел тарт-припухнуть, стать слегка одутловатым.</blockquote>
+		<blockquote>шишимел тарт-@@ припухнуть, стать слегка одутловатым.</blockquote>
 	</card>
 	<card>
 		<k>шишимик</k>
+		<pos>n</pos>
 		<sameas word="шишимек"/>
-		<blockquote>анын көздөрүнүн тегереги бир аз шишимик тартып калган у него вокруг глаз появилась припухлость.</blockquote>
+		<blockquote>анын көздөрүнүн тегереги бир аз шишимик тартып калган@@ у него вокруг глаз появилась припухлость.</blockquote>
 	</card>
 	<card>
 		<k>шишин-</k>
+		<pos>v</pos>
 		<refv word="шиши"/>
-		<blockquote>ыйлап көзү шишинип фольк. она плакала, и её глаза припухли.</blockquote>
+		<blockquote>ыйлап көзү шишинип фольк.@@ она плакала, и её глаза припухли.</blockquote>
 	</card>
 	<card>
 		<k>шишиңки</k>
-		<blockquote>припухлый, слегка одутловатый.</blockquote>
+		<pos>adj</pos>
+		<trn>припухлый, слегка одутловатый.</trn>
 	</card>
 	<card>
 		<k>шишиңкилик</k>
-		<blockquote>припухлость, одутловатость.</blockquote>
+		<pos>n</pos>
+		<trn>припухлость, одутловатость.</trn>
 	</card>
 	<card>
 		<k>шиштик</k>
-		<blockquote>остроконечность.</blockquote>
+		<pos>n</pos>
+		<trn>остроконечность.</trn>
 	</card>
 	<card>
 		<k>шлакоблоктор</k>
-		<blockquote>шлакоблоки.</blockquote>
+		<pos>n</pos>
+		<trn>шлакоблоки.</trn>
 	</card>
 	<card>
 		<k>шлем</k>
-		<blockquote>шлем (головной убор).</blockquote>
+		<pos>n</pos>
+		<trn>шлем (головной убор).</trn>
 	</card>
 	<card>
 		<k>шнур</k>
+		<pos>n</pos>
 		<trn>шнур</trn>
-		<blockquote>бикфорд шнуру бикфордов шнур.</blockquote>
+		<blockquote>бикфорд шнуру@@ бикфордов шнур.</blockquote>
 	</card>
 	<card>
 		<k>шовинисчилдик</k>
-		<blockquote>(шовинисчилик)</blockquote>
+		<pos>n</pos>
+		<alter>(шовинисчилик)</alter>
 		<meta>уст.</meta>
 		<sameas word="шовинизм"/>
 	</card>
 	<card>
 		<k>шого</k>
-		<blockquote>(шогон)</blockquote>
+		<pos>adv</pos>
+		<alter>(шогон)</alter>
 		<look word="шо"/>
 	</card>
 	<card>
 		<k>шойполокто-</k>
-		<blockquote>лебезить, угодливо суетиться.</blockquote>
+		<pos>v</pos>
+		<trn>лебезить, угодливо суетиться.</trn>
 	</card>
 	<card>
 		<k>шоктон-</k>
-		<blockquote>озоровать, шалить.</blockquote>
+		<pos>v</pos>
+		<trn>озоровать, шалить.</trn>
 	</card>
 	<card>
 		<k>шоктук</k>
-		<blockquote>озорство, шаловливость.</blockquote>
+		<pos>n</pos>
+		<trn>озорство, шаловливость.</trn>
 	</card>
 	<card>
 		<k>шолоктоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шолокто"/>
-		<blockquote>всхлипывание.</blockquote>
+		<trn>всхлипывание.</trn>
 	</card>
 	<card>
 		<k>шондо</k>
+		<pos>adv</pos>
 		<sameas word="ошондо"/>
-		<blockquote>кыштоосу шондо болучу зимовка его была там.</blockquote>
+		<blockquote>кыштоосу шондо болучу@@ зимовка его была там.</blockquote>
 	</card>
 	<card>
 		<k>шоңшойт-</k>
+		<pos>v</pos>
 		<caus word="шоңшой"/>
-		<blockquote>текшерүү келип, шоңшойтуп кызматынан бошотот приезжает ревизия, его освобождает от работы и отстраняет (он находится в одиночестве, в то время, как все другие остаются в коллективе).</blockquote>
+		<blockquote>текшерүү келип, шоңшойтуп кызматынан бошотот@@ приезжает ревизия, его освобождает от работы и отстраняет (он находится в одиночестве, в то время, как все другие остаются в коллективе).</blockquote>
 	</card>
 	<card>
 		<k>шоокумда-</k>
-		<blockquote>издавать шум.</blockquote>
+		<pos>v</pos>
+		<trn>издавать шум.</trn>
 	</card>
 	<card>
 		<k>шоокумдат-</k>
+		<pos>v</pos>
 		<caus word="шоокумда"/>
-		<blockquote>вызывать шум производить шум.</blockquote>
+		<trn>вызывать шум производить шум.</trn>
 	</card>
 	<card>
 		<k>шоокумсуз</k>
-		<blockquote>бесшумный, безмолвный.</blockquote>
+		<pos>adj</pos>
+		<trn>бесшумный, безмолвный.</trn>
 	</card>
 	<card>
 		<k>шоолалан-</k>
-		<blockquote>излучать свет; озаряться.</blockquote>
+		<pos>v</pos>
+		<trn>излучать свет; озаряться.</trn>
 	</card>
 	<card>
 		<k>шоолалант-</k>
+		<pos>v</pos>
 		<caus word="шоолалан"/>
-		<blockquote>чыгып калган ай тоо-тоонун башын күңүрт шоолалантты взошедшая луна неясно осветила вершины гор.</blockquote>
+		<blockquote>чыгып калган ай тоо-тоонун башын күңүрт шоолалантты@@ взошедшая луна неясно осветила вершины гор.</blockquote>
 	</card>
 	<card>
 		<k>шоолдо-</k>
+		<pos>v</pos>
 		<sameas word="шуулда"/>
-		<blockquote>миң жашаган карагай, асман тиреп, шоолдойт тысячелетние ели, упираясь в небо, шумят.</blockquote>
+		<blockquote>миң жашаган карагай, асман тиреп, шоолдойт@@ тысячелетние ели, упираясь в небо, шумят.</blockquote>
 	</card>
 	<card>
 		<k>шоолдот-</k>
+		<pos>v</pos>
 		<caus word="шоолдо"/>
-		<blockquote>шоолдотуп от жак- разжигать большой костёр.</blockquote>
+		<blockquote>шоолдотуп от жак-@@ разжигать большой костёр.</blockquote>
 	</card>
 	<card>
 		<k>шоп</k>
+		<pos>adv</pos>
 		<sameas word="шап" index="3"/>
-		<blockquote>Асанкожо бул абалдан, камырдан кыл суурагандай эле, шоп этип чыга келди Асанкоджо из этого (трудного) положения вывернулся легко и просто.</blockquote>
+		<blockquote>Асанкожо бул абалдан, камырдан кыл суурагандай эле, шоп этип чыга келди@@ Асанкоджо из этого (трудного) положения вывернулся легко и просто.</blockquote>
 	</card>
 	<card>
 		<k>шорбокто</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
-		<blockquote>шерсть, прокипячённая в растворе соли (в народной медицине прикладывается к опухоли).</blockquote>
+		<trn>шерсть, прокипячённая в растворе соли (в народной медицине прикладывается к опухоли).</trn>
 	</card>
 	<card>
 		<k>шорголоо</k>
+		<pos>v</pos>
 		<actionNoun word="шорголо"/>
-		<blockquote>вытекание струёй.</blockquote>
+		<trn>вытекание струёй.</trn>
 	</card>
 	<card>
 		<k>шорголот-</k>
+		<pos>v</pos>
 		<caus word="шорголо"/>
-		<blockquote>шорголотуп бал сыгармын тилимден стих. я выдавлю струёй мёд из своего языка.</blockquote>
+		<blockquote>шорголотуп бал сыгармын тилимден стих.@@ я выдавлю струёй мёд из своего языка.</blockquote>
 	</card>
 	<card>
 		<k>шордок</k>
+		<pos>n</pos>
 		<meta>(или шордок жер)</meta>
-		<blockquote>солонцеватая почва.</blockquote>
+		<trn>солонцеватая почва.</trn>
 	</card>
 	<card>
 		<k>шордол-</k>
+		<pos>v</pos>
 		<pass word="шордо" index="2"/>
-		<blockquote>жайы-кышы жабыркап, малай байкуш шордолду стих. летом и зимой бедный батрак страдал и мучился.</blockquote>
+		<blockquote>жайы-кышы жабыркап, малай байкуш шордолду стих.@@ летом и зимой бедный батрак страдал и мучился.</blockquote>
 	</card>
 	<card>
 		<k>шордон-</k>
+		<pos>v</pos>
 		<refv word="шордо" index="2"/>
-		<blockquote>быть постигнутым бедой, несчастьем.</blockquote>
+		<trn>быть постигнутым бедой, несчастьем.</trn>
 	</card>
 	<card>
 		<k>шоркулда-</k>
-		<blockquote>бурчать, урчать (напр. в желудке).</blockquote>
+		<pos>v</pos>
+		<trn>бурчать, урчать (напр. в желудке).</trn>
 	</card>
 	<card>
 		<k>шорлот-</k>
+		<pos>v</pos>
 		<sameas word="шордот" index="2"/>
-		<blockquote>Курткага дарды орнотуп, адамды асып шорлотуп стих. установив виселицу в Куртке, он людей мучил и вешал.</blockquote>
+		<blockquote>Курткага дарды орнотуп, адамды асып шорлотуп стих.@@ установив виселицу в Куртке, он людей мучил и вешал.</blockquote>
 	</card>
 	<card>
 		<k>шороло-</k>
-		<blockquote>источать из глаз жидкий гной (смешанный со слезой).</blockquote>
+		<pos>v</pos>
+		<trn>источать из глаз жидкий гной (смешанный со слезой).</trn>
 	</card>
 	<card>
 		<k>шоролонт-</k>
+		<pos></pos>
 		<caus word="шоролон"/>
-		<blockquote>көзүн шоролонтуп ыйлайт он горько плачет.</blockquote>
+		<blockquote>көзүн шоролонтуп ыйлайт@@ он горько плачет.</blockquote>
 	</card>
 	<card>
 		<k>шорпулда-</k>
-		<blockquote>(о пьющем верблюде) издавать шум, шумно втягивать (напр. воду).</blockquote>
+		<pos>v</pos>
+		<trn>(о пьющем верблюде) издавать шум, шумно втягивать (напр. воду).</trn>
 	</card>
 	<card>
 		<k>шорулда-</k>
-		<blockquote>литься с журчанием, с чирканьем (напр. о молоке - при доении коровы).</blockquote>
+		<pos>v</pos>
+		<trn>литься с журчанием, с чирканьем (напр. о молоке - при доении коровы).</trn>
 	</card>
 	<card>
 		<k>шофёр</k>
+		<pos>n</pos>
 		<trn>шофёр</trn>
-		<blockquote>шофёрлор шофёры.</blockquote>
+		<blockquote>шофёрлор@@ шофёры.</blockquote>
 	</card>
 	<card>
 		<k>шпор</k>
-		<blockquote>шпоры (на сапогах).</blockquote>
+		<pos>n</pos>
+		<trn>шпоры (на сапогах).</trn>
 	</card>
 	<card>
 		<k>шрапнель</k>
+		<pos>n</pos>
 		<trn>шрапнель</trn>
-		<blockquote>шрапнель менен койгулай башташты начали бить шрапнелью.</blockquote>
+		<blockquote>шрапнель менен койгулай башташты@@ начали бить шрапнелью.</blockquote>
 	</card>
 	<card>
 		<k>штанга</k>
-		<blockquote>шганга.</blockquote>
+		<pos>n</pos>
+		<trn>шганга.</trn>
 	</card>
 	<card>
 		<k>штапель</k>
-		<blockquote>штапель (ткань).</blockquote>
+		<pos>n</pos>
+		<trn>штапель (ткань).</trn>
 	</card>
 	<card>
 		<k>штольный</k>
+		<pos>n</pos>
 		<origin>р.</origin>
 		<meta>горн.</meta>
-		<blockquote>штольня.</blockquote>
+		<trn>штольня.</trn>
 	</card>
 	<card>
 		<k>штрейкбрехерчилик</k>
-		<blockquote>штрейкбрехерство.</blockquote>
+		<pos>n</pos>
+		<trn>штрейкбрехерство.</trn>
 	</card>
 	<card>
 		<k>штурмала-</k>
-		<blockquote>штурмовать.</blockquote>
+		<pos>v</pos>
+		<trn>штурмовать.</trn>
 	</card>
 	<card>
 		<k>штурмачы</k>
-		<blockquote>штурмовик.</blockquote>
+		<pos>n</pos>
+		<trn>штурмовик.</trn>
 	</card>
 	<card>
 		<k>штурмовщиктик</k>
-		<blockquote>штурмовщина.</blockquote>
+		<pos>n</pos>
+		<trn>штурмовщина.</trn>
 	</card>
 	<card>
 		<k>шүдүңгүт</k>
-		<blockquote>(о быке) быстроходный; бегунец.</blockquote>
+		<pos>adj</pos>
+		<trn>(о быке) быстроходный; бегунец.</trn>
 	</card>
 	<card>
 		<k>шүдүңдөт-</k>
+		<pos>v</pos>
 		<caus word="шүдүңдө"/>
-		<blockquote>оопазын шүдүңдөтүп жүгүртүп пустив своего быка во весь карьер, несясь на своём быке.</blockquote>
+		<blockquote>оопазын шүдүңдөтүп жүгүртүп@@ пустив своего быка во весь карьер, несясь на своём быке.</blockquote>
 	</card>
 	<card>
 		<k>шүйдүр-</k>
+		<pos>v</pos>
 		<caus word="шүй"/>
-		<blockquote>көкүлүн көккө шүйдүрүп фольк. перевязав чёлку (коня) так, что она торчала кверху.</blockquote>
+		<blockquote>көкүлүн көккө шүйдүрүп фольк.@@ перевязав чёлку (коня) так, что она торчала кверху.</blockquote>
 	</card>
 	<card>
 		<k>шүйүлт-</k>
+		<pos>v</pos>
 		<caus word="шүйүл"/>
-		<blockquote>көкүлдү көккө шүйүлтүп фольк. перевязав чёлку (коня) так, что она торчала.</blockquote>
+		<blockquote>көкүлдү көккө шүйүлтүп фольк.@@ перевязав чёлку (коня) так, что она торчала.</blockquote>
 	</card>
 	<card>
 		<k>шүйүш-</k>
+		<pos>v</pos>
 		<recv word="шүй"/>
-		<blockquote>ат көкүлүн шүйүшүп, ат куйругун түйүшүп фольк. связав пучком чёлки коней, подвязав хвосты коням.</blockquote>
+		<blockquote>ат көкүлүн шүйүшүп, ат куйругун түйүшүп фольк.@@ связав пучком чёлки коней, подвязав хвосты коням.</blockquote>
 	</card>
 	<card>
 		<k>шумгуя</k>
+		<pos>n</pos>
 		<origin>ар.-ир.</origin>
-		<blockquote>заразиха (сорняк).</blockquote>
+		<trn>заразиха (сорняк).</trn>
 	</card>
 	<card>
 		<k>шүмшүйт-</k>
+		<pos>v</pos>
 		<caus word="шүмшүй"/>
-		<blockquote>принизить, представить в плохом, жалком, неприглядном виде.</blockquote>
+		<trn>принизить, представить в плохом, жалком, неприглядном виде.</trn>
 	</card>
 	<card>
 		<k>шуңкуйт-</k>
+		<pos>v</pos>
 		<caus word="шуңкуй"/>
-		<blockquote>атка таңып шуңкуйтуп, аны кошо айдадык фольк. на коня (посадив) так крепко привязали, что он торчмя торчал, (вот так) его прихватив, погнали.</blockquote>
+		<blockquote>атка таңып шуңкуйтуп, аны кошо айдадык фольк.@@ на коня (посадив) так крепко привязали, что он торчмя торчал, (вот так) его прихватив, погнали.</blockquote>
 	</card>
 	<card>
 		<k>шуңшугуй</k>
+		<pos>adj</pos>
 		<sameas word="шоңшогой"/>
-		<blockquote>шуңшугуй тебетей островерхая шапка.</blockquote>
+		<blockquote>шуңшугуй тебетей@@ островерхая шапка.</blockquote>
 	</card>
 	<card>
 		<k>шуркура-</k>
-		<blockquote>издавать пришлёпывающий, хлюпающий звук.</blockquote>
+		<pos>v</pos>
+		<trn>издавать пришлёпывающий, хлюпающий звук.</trn>
 	</card>
 	<card>
 		<k>шуруган</k>
+		<pos>n</pos>
 		<origin>ир.</origin>
 		<meta>южн.</meta>
-		<blockquote>кушанье из горячего молока, топлёного масла, лука и кусочков хлебной лепёшки.</blockquote>
+		<trn>кушанье из горячего молока, топлёного масла, лука и кусочков хлебной лепёшки.</trn>
 	</card>
 	<card>
 		<k>шуудурак</k>
-		<blockquote>шелестящий, шуршащий.</blockquote>
+		<pos>adj</pos>
+		<trn>шелестящий, шуршащий.</trn>
 	</card>
 	<card>
 		<k>шуудураш-</k>
+		<pos>v</pos>
 		<recv word="шуудура"/>
-		<blockquote>жалбырак-жапырактар кыбырашып шыпшынат, шуудурашат, шыбырашат стих. листья, тихо шевелясь, удивлённо шуршат, перешёптываются.</blockquote>
+		<blockquote>жалбырак-жапырактар кыбырашып шыпшынат, шуудурашат, шыбырашат стих.@@ листья, тихо шевелясь, удивлённо шуршат, перешёптываются.</blockquote>
 	</card>
 	<card>
 		<k>шуудурт</k>
+		<pos>v</pos>
 		<sameas word="шуудур"/>
-		<blockquote>шибер шуудурт эте түштү трава вдруг зашуршала.</blockquote>
+		<blockquote>шибер шуудурт эте түштү@@ трава вдруг зашуршала.</blockquote>
 	</card>
 	<card>
 		<k>шуудуртта-</k>
+		<pos>v</pos>
 		<sameas word="шуудура"/>
-		<blockquote>бут алдынан шибер шуудурттап, Күлай, селт этип, чочуп кетти трава под ногами зашуршала, Кюлай испуганно вздрогнула.</blockquote>
+		<blockquote>бут алдынан шибер шуудурттап, Күлай, селт этип, чочуп кетти@@ трава под ногами зашуршала, Кюлай испуганно вздрогнула.</blockquote>
 	</card>
 	<card>
 		<k>шуулдат-</k>
+		<pos>v</pos>
 		<caus word="шуулда"/>
-		<blockquote>вызывать шум; вызывать шуршание.</blockquote>
+		<trn>вызывать шум; вызывать шуршание.</trn>
 	</card>
 	<card>
 		<k>шуулдоо</k>
-		<blockquote>шум (ветра, деревьев); шуршание.</blockquote>
+		<pos>ger</pos>
+		<trn>шум (ветра, деревьев); шуршание.</trn>
 	</card>
 	<card>
 		<k>шуут</k>
-		<blockquote>(о человеке) дряблый.</blockquote>
+		<pos>adj</pos>
+		<trn>(о человеке) дряблый.</trn>
 	</card>
 	<card>
 		<k>шуштугуй</k>
-		<blockquote>клинообразный, остроконечный, островерхий.</blockquote>
+		<pos>adj</pos>
+		<trn>клинообразный, остроконечный, островерхий.</trn>
 	</card>
 	<card>
 		<k>шыбагалуу</k>
-		<blockquote>имеющий часть, долю в чём-л.</blockquote>
+		<pos>adj</pos>
+		<trn>имеющий часть, долю в чём-л.</trn>
 	</card>
 	<card>
 		<k>шыбакчы</k>
-		<blockquote>штукатур.</blockquote>
+		<pos>n</pos>
+		<trn>штукатур.</trn>
 	</card>
 	<card>
 		<k>шыбакчылык</k>
-		<blockquote>занятие или профессия штукатура.</blockquote>
+		<pos>n</pos>
+		<trn>занятие или профессия штукатура.</trn>
 	</card>
 	<card>
 		<k>шыбыраш-</k>
+		<pos>v</pos>
 		<recv word="шыбыра"/>
-		<blockquote>перешёптываться; шелестеть.</blockquote>
+		<trn>перешёптываться; шелестеть.</trn>
 	</card>
 	<card>
 		<k>шыбырга-</k>
+		<pos>v</pos>
 		<sameas word="шыбыра" subindex="1"/>
-		<blockquote>шептать, говорить шёпотом.</blockquote>
+		<trn>шептать, говорить шёпотом.</trn>
 	</card>
 	<card>
 		<k>шыбырсыз</k>
-		<blockquote>без шума, без шороха, беззвучно.</blockquote>
+		<pos>adj</pos>
+		<trn>без шума, без шороха, беззвучно.</trn>
 	</card>
 	<card>
 		<k>шыбыртта-</k>
-		<blockquote>производить шорох, шуршать.</blockquote>
+		<pos>v</pos>
+		<trn>производить шорох, шуршать.</trn>
 	</card>
 	<card>
 		<k>шыгыра-</k>
-		<blockquote>потрескивать (напр. о горящем мелком хворосте, осыпающемся щебне).</blockquote>
+		<pos>v</pos>
+		<trn>потрескивать (напр. о горящем мелком хворосте, осыпающемся щебне).</trn>
 	</card>
 	<card>
 		<k>шыйгарыл-</k>
+		<pos>v</pos>
 		<pass word="шыйгар"/>
-		<blockquote>сөздүн терске шыйгарылган мааниси обратный смысл слова, выражения (нелестного, сказанного с иронией).</blockquote>
+		<blockquote>сөздүн терске шыйгарылган мааниси@@ обратный смысл слова, выражения (нелестного, сказанного с иронией).</blockquote>
 	</card>
 	<card>
 		<k>шыйгарыш-</k>
+		<pos>v</pos>
 		<recv word="шыйгар"/>
-		<blockquote>сиз барыңыз - дешип, бардыгы Чоң-Койчуну шыйгарышты все они определили (на это дело) Чон-Койчу, мол, вы пойдите.</blockquote>
+		<blockquote>сиз барыңыз - дешип, бардыгы Чоң-Койчуну шыйгарышты@@ все они определили (на это дело) Чон-Койчу, мол, вы пойдите.</blockquote>
 	</card>
 	<card>
 		<k>шыйкы</k>
+		<pos>n</pos>
 		<sameas word="шыйк"/>
-		<blockquote>шыйкысы качып калыптыр он выглядит очень плохо.</blockquote>
+		<blockquote>шыйкысы качып калыптыр@@ он выглядит очень плохо.</blockquote>
 	</card>
 	<card>
 		<k>шыйкыр</k>
+		<pos>n</pos>
 		<sameas word="сыйкыр"/>
-		<blockquote>шыйкыры качып калган или шыйкыры учуп калган его песенка спета (напр. лишился власти или славы или богатства).</blockquote>
+		<blockquote>шыйкыры качып калган или шыйкыры учуп калган@@ его песенка спета (напр. лишился власти или славы или богатства).</blockquote>
 	</card>
 	<card>
 		<k>шыйкырлык</k>
+		<pos>n</pos>
 		<sameas word="сыйкырдык"/>
-		<blockquote>шыйкырлыктын кайырмагына илингендей как зачарованный.</blockquote>
+		<blockquote>шыйкырлыктын кайырмагына илингендей@@ как зачарованный.</blockquote>
 	</card>
 	<card>
 		<k>шыйпакта-</k>
+		<pos>adv</pos>
 		<sameas word="шыйпалакта"/>
-		<blockquote>мойнуңдагы кызматыңды билбей, көрүнгөнгө шыйпактап жармашасың не знаешь дела своего, а (только) лебезишь перед каждым.</blockquote>
+		<blockquote>мойнуңдагы кызматыңды билбей, көрүнгөнгө шыйпактап жармашасың@@ не знаешь дела своего, а (только) лебезишь перед каждым.</blockquote>
 	</card>
 	<card>
 		<k>шыйпактат-</k>
+		<pos>v</pos>
 		<sameas word="шыйпалактат"/>
-		<blockquote>Айсарала кайкалактап, кылдары жыдып дүмү калган чычаңын шыйпактатып (кляча) Айсарала (от боли) изгибается, вертя своей голой репицей.</blockquote>
+		<blockquote>Айсарала кайкалактап, кылдары жыдып дүмү калган чычаңын шыйпактатып@@ (кляча) Айсарала (от боли) изгибается, вертя своей голой репицей.</blockquote>
 	</card>
 	<card>
 		<k>шыйпалактат-</k>
+		<pos>v</pos>
 		<caus word="шыйпалакта"/>
-		<blockquote>куйрук шыйпалактат- вилять хвостом.</blockquote>
+		<blockquote>куйрук шыйпалактат-@@ вилять хвостом.</blockquote>
 	</card>
 	<card>
 		<k>шыйпаңдат-</k>
+		<pos>v</pos>
 		<caus word="шыйпаңда"/>
-		<blockquote>Тапкан артына кылчайыл, куйругун жай гана шыйпаңдатат (собака) Тапкан оглядывается назад и тихонько виляет хвостом.</blockquote>
+		<blockquote>Тапкан артына кылчайыл, куйругун жай гана шыйпаңдатат@@ (собака) Тапкан оглядывается назад и тихонько виляет хвостом.</blockquote>
 	</card>
 	<card>
 		<k>шыйпанчаак</k>
-		<blockquote>часто вертящий или обмахивающийся хвостом.</blockquote>
+		<pos>adj</pos>
+		<trn>часто вертящий или обмахивающийся хвостом.</trn>
 	</card>
 	<card>
 		<k>шыкаалоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шыкаала"/>
-		<blockquote>подглядывание, заглядывание.</blockquote>
+		<trn>подглядывание, заглядывание.</trn>
 	</card>
 	<card>
 		<k>шыкоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шыка"/>
-		<blockquote>аны бай-манаптардын шыкоо боюнча кылган он делал это под давлением баев и манапов.</blockquote>
+		<blockquote>аны бай-манаптардын шыкоо боюнча кылган@@ он делал это под давлением баев и манапов.</blockquote>
 	</card>
 	<card>
 		<k>шыктандыр-</k>
+		<pos>v</pos>
 		<caus word="шыктан"/>
-		<blockquote>вдохновлять, воодушевлять.</blockquote>
+		<trn>вдохновлять, воодушевлять.</trn>
 	</card>
 	<card>
 		<k>шыктандыруу</k>
+		<pos>v</pos>
 		<actionNoun word="шыктандыр"/>
-		<blockquote>воодушевление кого-л.</blockquote>
+		<trn>воодушевление кого-л.</trn>
 	</card>
 	<card>
 		<k>шыктандырыл-</k>
+		<pos>v</pos>
 		<pass word="шыктандыр"/>
-		<blockquote>быть вдохновляемым, воодушевляемым; вдохновляться, воодушевляться.</blockquote>
+		<trn>быть вдохновляемым, воодушевляемым; вдохновляться, воодушевляться.</trn>
 	</card>
 	<card>
 		<k>шыкшылоор</k>
-		<blockquote>место соединения скулы с височной костью (около уха).</blockquote>
+		<pos>n</pos>
+		<trn>место соединения скулы с височной костью (около уха).</trn>
 	</card>
 	<card>
 		<k>шыкылдуу</k>
-		<blockquote>(шыкылды)</blockquote>
+		<pos>adj</pos>
+		<alter>(шыкылды)</alter>
 		<sameas word="шекилдүү"/>
 	</card>
 	<card>
 		<k>шыкырайт-</k>
+		<pos>v</pos>
 		<caus word="шыкырай"/>
-		<blockquote>кымызды үйлөп, көзүн шыкырайтып жута баштады подув на кумыс, выпучив глаза, он начал глотать.</blockquote>
+		<blockquote>кымызды үйлөп, көзүн шыкырайтып жута баштады@@ подув на кумыс, выпучив глаза, он начал глотать.</blockquote>
 	</card>
 	<card>
 		<k>шыкырат-</k>
+		<pos>adv</pos>
 		<caus word="шыкыра"/>
-		<blockquote>чыны, чайнектерди шыкырата тизип коюптур она тесными рядами расставила много пиал и чайников.</blockquote>
+		<blockquote>чыны, чайнектерди шыкырата тизип коюптур@@ она тесными рядами расставила много пиал и чайников.</blockquote>
 	</card>
 	<card>
 		<k>шылама</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>человек, который перебивает других, не давая слова сказать.</blockquote>
+		<trn>человек, который перебивает других, не давая слова сказать.</trn>
 	</card>
 	<card>
 		<k>шылдыңда-</k>
-		<blockquote>высмеивать, делать посмешищем.</blockquote>
+		<pos>v</pos>
+		<trn>высмеивать, делать посмешищем.</trn>
 	</card>
 	<card>
 		<k>шылдыңдал-</k>
+		<pos>v</pos>
 		<pass word="шылдыңда"/>
-		<blockquote>элдин баарына шылдыңдалып, абийири кетеби? не станет ли он общим посмешищем, не опозорится ли он?</blockquote>
+		<blockquote>элдин баарына шылдыңдалып, абийири кетеби?@@ не станет ли он общим посмешищем, не опозорится ли он?</blockquote>
 	</card>
 	<card>
 		<k>шылдыңдат-</k>
+		<pos>v</pos>
 		<caus word="шылдыңда"/>
-		<blockquote>силер мени шылдыңдагыңар келет; мен силерге шылдыңдатам?! вы меня хотите сделать посмешищем; (и) я допущу, чтобы вы меня сделали посмешищем?! (нет, этого не будет).</blockquote>
+		<blockquote>силер мени шылдыңдагыңар келет; мен силерге шылдыңдатам?!@@ вы меня хотите сделать посмешищем; (и) я допущу, чтобы вы меня сделали посмешищем?! (нет, этого не будет).</blockquote>
 	</card>
 	<card>
 		<k>шылдыңдоо</k>
+		<pos>ger</pos>
 		<actionNoun word="шылдыңда"/>
-		<blockquote>высмеивание, издёвка.</blockquote>
+		<trn>высмеивание, издёвка.</trn>
 	</card>
 	<card>
 		<k>шылдыңдуу</k>
-		<blockquote>содержащий в себе насмешку, издёвку.</blockquote>
+		<pos>adj</pos>
+		<trn>содержащий в себе насмешку, издёвку.</trn>
 	</card>
 	<card>
 		<k>шылдырак</k>
-		<blockquote>погремушка.</blockquote>
+		<pos>n</pos>
+		<trn>погремушка.</trn>
 	</card>
 	<card>
 		<k>шылдырат-</k>
+		<pos>v</pos>
 		<caus word="шылдыра"/>
-		<blockquote>шылдыратып бутума, чыгарбай кишен салышты фольк. на ноги мне надели оковы, которые глухо позвякивают.</blockquote>
+		<blockquote>шылдыратып бутума, чыгарбай кишен салышты фольк.@@ на ноги мне надели оковы, которые глухо позвякивают.</blockquote>
 	</card>
 	<card>
 		<k>шылдыркан</k>
-		<blockquote>колечко на нижней части табакерки (для открывания нижней затычки).</blockquote>
+		<pos>n</pos>
+		<trn>колечко на нижней части табакерки (для открывания нижней затычки).</trn>
 	</card>
 	<card>
 		<k>шылп</k>
+		<pos>ideo</pos>
 		<sameas word="шалп"/>
-		<blockquote>шылп эт- плюхнуться, шлёпнуться.</blockquote>
+		<blockquote>шылп эт-@@ плюхнуться, шлёпнуться.</blockquote>
 	</card>
 	<card>
 		<k>шылпык</k>
+		<pos>adj</pos>
 		<meta>южн.</meta>
 		<sameas word="жыртак"/>
-		<blockquote>көзү шылпык у него глаза слезятся.</blockquote>
+		<blockquote>көзү шылпык@@ у него глаза слезятся.</blockquote>
 	</card>
 	<card>
 		<k>шылпылда-</k>
-		<blockquote>хлюпать (напр. о воде в сапоге).</blockquote>
+		<pos>v</pos>
+		<trn>хлюпать (напр. о воде в сапоге).</trn>
 	</card>
 	<card>
 		<k>шылпылдак</k>
-		<blockquote>хлюпкий.</blockquote>
+		<pos>adj</pos>
+		<trn>хлюпкий.</trn>
 	</card>
 	<card>
 		<k>шылтоолош-</k>
+		<pos>v</pos>
 		<recv word="шылтооло"/>
-		<blockquote>болор-болбос эмени шылтоолошуп, көздөрүн кысып сүйлөшкөнүн байкайсыңбы? ты замечаешь, как они разговаривают, подмигивая и делая предметом разговора какие-то пустяки?</blockquote>
+		<blockquote>болор-болбос эмени шылтоолошуп, көздөрүн кысып сүйлөшкөнүн байкайсыңбы?@@ ты замечаешь, как они разговаривают, подмигивая и делая предметом разговора какие-то пустяки?</blockquote>
 	</card>
 	<card>
 		<k>шымдактан-</k>
+		<pos>adv</pos>
 		<sameas word="шымдан"/>
-		<blockquote>чапанын шымдактанып алыптыр он заправил чапан в штаны.</blockquote>
+		<blockquote>чапанын шымдактанып алыптыр@@ он заправил чапан в штаны.</blockquote>
 	</card>
 	<card>
 		<k>шын</k>
+		<pos>n</pos>
 		<sameas word="шина"/>
-		<blockquote>арабанын шыны шина (колеса) телеги.</blockquote>
+		<blockquote>арабанын шыны@@ шина (колеса) телеги.</blockquote>
 	</card>
 	<card>
 		<k>шынаала-</k>
-		<blockquote>заклинивать, вбивать клин.</blockquote>
+		<pos>v</pos>
+		<trn>заклинивать, вбивать клин.</trn>
 	</card>
 	<card>
 		<k>шыңгыраш-</k>
+		<pos>v</pos>
 		<recv word="шыңгыра"/>
-		<blockquote>шыңгырашып үзөңгүлөр кагышты стих. (всадники) со звоном стукались стременами.</blockquote>
+		<blockquote>шыңгырашып үзөңгүлөр кагышты стих.@@ (всадники) со звоном стукались стременами.</blockquote>
 	</card>
 	<card>
 		<k>шыңкыйт-</k>
+		<pos>v</pos>
 		<caus word="шыңкый"/>
-		<blockquote>Мааникер атты шыңкыйтып, бадана тонун зымпыйтып, барып калды Бокмурун фольк. на стройном коне Маникере, в туго облегавшей кольчуге подъехал Бокмурун.</blockquote>
+		<blockquote>Мааникер атты шыңкыйтып, бадана тонун зымпыйтып, барып калды Бокмурун фольк.@@ на стройном коне Маникере, в туго облегавшей кольчуге подъехал Бокмурун.</blockquote>
 	</card>
 	<card>
 		<k>шыңкылдаш-</k>
+		<pos>v</pos>
 		<recv word="шыңкылда"/>
-		<blockquote>шыңкылдашкан күбүр-шыбыр пайда болду начался звонкий смех и весёлый разговор.</blockquote>
+		<blockquote>шыңкылдашкан күбүр-шыбыр пайда болду@@ начался звонкий смех и весёлый разговор.</blockquote>
 	</card>
 	<card>
 		<k>шыпшындыр-</k>
+		<pos>v</pos>
 		<caus word="шыпшын"/>
-		<blockquote>үшүнтүп доктор баш чайкап, шыпшындырды таңдайын стих. так вот доктор, покачав головой, (недовольно) прищёлкнул языком по нёбу.</blockquote>
+		<blockquote>үшүнтүп доктор баш чайкап, шыпшындырды таңдайын стих.@@ так вот доктор, покачав головой, (недовольно) прищёлкнул языком по нёбу.</blockquote>
 	</card>
 	<card>
 		<k>шыпшынуу</k>
+		<pos>v</pos>
 		<actionNoun word="шыпшын"/>
-		<blockquote>делдейип олтурган бечара Корголдой тек шыпшынууда опешивший бедняга Корголдой только причмокивал языком.</blockquote>
+		<blockquote>делдейип олтурган бечара Корголдой тек шыпшынууда@@ опешивший бедняга Корголдой только причмокивал языком.</blockquote>
 	</card>
 	<card>
 		<k>шыпшырга</k>
+		<pos>n</pos>
 		<meta>талас.</meta>
-		<blockquote>дверной пробой.</blockquote>
+		<trn>дверной пробой.</trn>
 	</card>
 	<card>
 		<k>шыпыргы</k>
-		<blockquote>веник, метла.</blockquote>
+		<pos>n</pos>
+		<trn>веник, метла.</trn>
 	</card>
 	<card>
 		<k>шыпыргыла-</k>
-		<blockquote>выметать.</blockquote>
+		<pos>v</pos>
+		<trn>выметать.</trn>
 	</card>
 	<card>
 		<k>шыпырылт-</k>
+		<pos>v</pos>
 		<caus word="шыпырыл"/>
-		<blockquote>чың тикеге чуркаса, шыпырылтып салбаган фольк. если (этот конь) скакал даже по крутому склону, он не сдвигал (всадника назад).</blockquote>
+		<blockquote>чың тикеге чуркаса, шыпырылтып салбаган фольк.@@ если (этот конь) скакал даже по крутому склону, он не сдвигал (всадника назад).</blockquote>
 	</card>
 	<card>
 		<k>шыпырынды</k>
-		<blockquote>сор, мусор (сметаемый, выметаемый).</blockquote>
+		<pos>n</pos>
+		<trn>сор, мусор (сметаемый, выметаемый).</trn>
 	</card>
 	<card>
 		<k>шыраалжын</k>
+		<pos>n</pos>
 		<sameas word="эрмен"/>
-		<blockquote>шыраалжын барги южн. название одного из вышивных узоров.</blockquote>
+		<blockquote>шыраалжын барги@@ южн. название одного из вышивных узоров.</blockquote>
 	</card>
 	<card>
 		<k>шырбый-</k>
-		<blockquote>иметь вид тщедушного, сухопарого.</blockquote>
+		<pos>v</pos>
+		<trn>иметь вид тщедушного, сухопарого.</trn>
 	</card>
 	<card>
 		<k>шырбык</k>
-		<blockquote>тщедушный, сухопарый.</blockquote>
+		<pos>adj</pos>
+		<trn>тщедушный, сухопарый.</trn>
 	</card>
 	<card>
 		<k>шырбыңда-</k>
-		<blockquote>(о тщедушном, сухопаром) быть в движении.</blockquote>
+		<pos>v</pos>
+		<trn>(о тщедушном, сухопаром) быть в движении.</trn>
 	</card>
 	<card>
 		<k>шыргырак</k>
+		<pos>n</pos>
 		<meta>южн.</meta>
-		<blockquote>вид лебеды.</blockquote>
+		<trn>вид лебеды.</trn>
 	</card>
 	<card>
 		<k>шырда-</k>
-		<blockquote>складывать ткань или войлок в два или более слоёв и прошивать, прострачивать.</blockquote>
+		<pos>v</pos>
+		<trn>складывать ткань или войлок в два или более слоёв и прошивать, прострачивать.</trn>
 	</card>
 	<card>
 		<k>шыркырат-</k>
+		<pos>v</pos>
 		<caus word="шыркыра"/>
-		<blockquote>кордобогун көмүрдү, шыркыратат темирди погов. не принижай уголь, он заставляет железо разбрасывать искры.</blockquote>
+		<blockquote>кордобогун көмүрдү, шыркыратат темирди погов.@@ не принижай уголь, он заставляет железо разбрасывать искры.</blockquote>
 	</card>
 	<card>
 		<k>шыры-</k>
-		<blockquote>стегать, сшивать что-л., складывая в несколько слоёв.</blockquote>
+		<pos>v</pos>
+		<trn>стегать, сшивать что-л., складывая в несколько слоёв.</trn>
 	</card>
 	<card>
 		<k>шырыкча</k>
-		<blockquote>жёрдочка.</blockquote>
+		<pos>n</pos>
+		<trn>жёрдочка.</trn>
 	</card>
 	<card>
 		<k>шырылда-</k>
-		<blockquote>трещать, шуршать, журчать.</blockquote>
+		<pos>v</pos>
+		<trn>трещать, шуршать, журчать.</trn>
 	</card>
 	<card>
 		<k>шырылдаң</k>
-		<blockquote>песня конских пастухов (пелась обычно зимой, когда пастух приезжал в аул за продуктами).</blockquote>
+		<pos>n</pos>
+		<trn>песня конских пастухов (пелась обычно зимой, когда пастух приезжал в аул за продуктами).</trn>
 	</card>
 	<card>
 		<k>шырыт-</k>
+		<pos>v</pos>
 		<caus word="шыры"/>
-		<blockquote>заставить простегать в несколько слоёв.</blockquote>
+		<trn>заставить простегать в несколько слоёв.</trn>
 	</card>
 	<card>
 		<k>шытыр</k>
-		<blockquote>звукоподражание хрусту, шуршанию.</blockquote>
+		<pos>ideo</pos>
+		<trn>звукоподражание хрусту, шуршанию.</trn>
 	</card>
 	<card>
 		<k>шытыра-</k>
-		<blockquote>хрустеть, шуршать.</blockquote>
+		<pos>v</pos>
+		<trn>хрустеть, шуршать.</trn>
 	</card>
 	<card>
 		<k>шөкүлө</k>
+		<pos>n</pos>
 		<meta>этн.</meta>
-		<blockquote>богато украшенная конусообразная шапка молодой женщины.</blockquote>
+		<trn>богато украшенная конусообразная шапка молодой женщины.</trn>
 	</card>
 	<card>
 		<k>шөкөттөн-</k>
+		<pos>v</pos>
 		<refv word="шөкөттө"/>
-		<blockquote>шаан-шөкөттөнбөчү перестань-ка ты важничать.</blockquote>
+		<blockquote>шаан-шөкөттөнбөчү@@ перестань-ка ты важничать.</blockquote>
 	</card>
 	<card>
 		<k>шөлбүрөт-</k>
+		<pos>v</pos>
 		<caus word="шөлбүрө"/>
-		<blockquote>ичигинин этек-жеңин шөлбүрөтүп коё жиберип распустив полы и рукава своей шубы (так, что они болтались).</blockquote>
+		<blockquote>ичигинин этек-жеңин шөлбүрөтүп коё жиберип@@ распустив полы и рукава своей шубы (так, что они болтались).</blockquote>
 	</card>
 	<card>
 		<k>шөлбүрөш-</k>
+		<pos>v</pos>
 		<recv word="шөлбүрө"/>
-		<blockquote>суу кече качкан иттей шөлбүрөшүп, бегинин артынан жүгүрүп баратышат они бегут за своим беком, промокшие, как перешедшая вброд речку убегающая собака.</blockquote>
+		<blockquote>суу кече качкан иттей шөлбүрөшүп, бегинин артынан жүгүрүп баратышат@@ они бегут за своим беком, промокшие, как перешедшая вброд речку убегающая собака.</blockquote>
 	</card>
 	<card>
 		<k>шөлпүлдөт-</k>
+		<pos>v</pos>
 		<caus word="шөлпүлдө"/>
-		<blockquote>атын бир аз шөлпүлдөтө желдире жүрдү он ехал, пустив коня ленивой рысцой.</blockquote>
+		<blockquote>атын бир аз шөлпүлдөтө желдире жүрдү@@ он ехал, пустив коня ленивой рысцой.</blockquote>
 	</card>
 	<card>
 		<k>шөлпөй-</k>
-		<blockquote>(о длинной и несуразно сидящей одежде) болтаться.</blockquote>
+		<pos>v</pos>
+		<trn>(о длинной и несуразно сидящей одежде) болтаться.</trn>
 	</card>
 	<card>
 		<k>шөлпөйт-</k>
+		<pos>v</pos>
 		<caus word="шөлпөй"/>
-		<blockquote>этегин шөлпөйтүп болтая своими полами.</blockquote>
+		<blockquote>этегин шөлпөйтүп@@ болтая своими полами.</blockquote>
 	</card>
 	<card>
 		<k>шөмтүрөт-</k>
+		<pos>v</pos>
 		<sameas word="шөлбүрөт"/>
-		<blockquote>аты илкигенден илкип олтуруп, ханды шөмтүрөтө суу кылды (из сказки) лошадь едва-едва плелась, и хан (в дождь) промок до нитки.</blockquote>
+		<blockquote>аты илкигенден илкип олтуруп, ханды шөмтүрөтө суу кылды@@ (из сказки) лошадь едва-едва плелась, и хан (в дождь) промок до нитки.</blockquote>
 	</card>
 	<card>
 		<k>шөпөңдө-</k>
+		<pos>v</pos>
 		<sameas word="шөлпүлдө"/>
-		<blockquote>шөпөңдөй желдирип, жолуна түштү ленивой рысцой он двинулся в путь.</blockquote>
+		<blockquote>шөпөңдөй желдирип, жолуна түштү@@ ленивой рысцой он двинулся в путь.</blockquote>
 	</card>
 	<card>
 		<k>шөпөңдөт-</k>
+		<pos>v</pos>
 		<sameas word="шөлпүлдөт"/>
-		<blockquote>шөпөңдөтүп желдирип келе жаткан он ехал (сюда), пуская лошадь ленивой рысцой.</blockquote>
+		<blockquote>шөпөңдөтүп желдирип келе жаткан@@ он ехал (сюда), пуская лошадь ленивой рысцой.</blockquote>
 	</card>
 </root>
