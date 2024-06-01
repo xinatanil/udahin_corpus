@@ -1,5 +1,7 @@
 chatGPT_folder=../chatGPT_exp
 source_dict=$chatGPT_folder/source_dict.xml
+test_dict=$chatGPT_folder/test_dict.xml
+input_dict=$test_dict
 converted_dict=$chatGPT_folder/converted_dict.xml
 
 lint() {
@@ -7,10 +9,12 @@ lint() {
     xmllint --format "$converted_dict" -o "$converted_dict"
 }
 
-saxon -xsl:detect_homonyms.xsl -s:$source_dict -o:$converted_dict
-sed -i '' 's/homonym/<homonym>/g' $converted_dict
-sed -i '' 's/closingHomonym/<\/homonym>/g' $converted_dict
+saxon -xsl:sorting_xsl_template.xsl -s:$input_dict -o:$converted_dict
+
+saxon -xsl:fix_homonyms.xsl -s:$converted_dict -o:$converted_dict
+sed -i '' 's/openingCardTag/<card>/g' $converted_dict
+sed -i '' 's/closingCardTag/<\/card>/g' $converted_dict
 
 lint
 
-# ksdiff $source_dict $converted_dict
+ksdiff $input_dict $converted_dict
