@@ -13,14 +13,16 @@
 	<xsl:template match="/root">
 		<root>
 			<xsl:for-each select="card">
-				<xsl:variable name="trailingSymbolsRegex" select="'(-)? (II|III|IV|V|VI|VII|VIII|IX|X)?:?$'"/>
+				<xsl:variable name="trailingSymbolsRegex" select="'(\w+)(-)?( )?(I|II|III|IV|V|VI|VII|VIII|IX|X)?:?$'"/>
 				<xsl:variable name="entryKey" select="k"/>
-				<xsl:variable name="entryKeyCleaned" select="replace(k, $trailingSymbolsRegex, '')"/>
+				<xsl:variable name="entryKeyCleaned" select="replace($entryKey, $trailingSymbolsRegex, '')"/>
+				<xsl:variable name="firstBlockquote" select="blockquote[1]"/>
+				<xsl:variable name="firstBlockquoteCleaned" select="replace($firstBlockquote, $trailingSymbolsRegex, '')"/>
 				
 				<xsl:choose>
-					<xsl:when test="blockquote[1] = concat($entryKey, ' I')">
+					<xsl:when test="$firstBlockquoteCleaned = $entryKeyCleaned">
 						<xsl:text>openingCardTag</xsl:text>
-						<k><xsl:value-of select="blockquote[1]"/></k>
+						<k><xsl:value-of select="$firstBlockquote"/></k>
 						<xsl:for-each select="blockquote[position() > 1]">
 							<xsl:variable name="blockquoteContent" select="."/>
 							<xsl:variable name="blockquoteContentCleaned" select="replace($blockquoteContent, $trailingSymbolsRegex, '')"/>
