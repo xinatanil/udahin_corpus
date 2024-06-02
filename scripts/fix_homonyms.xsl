@@ -13,7 +13,7 @@
 	<xsl:template match="/root">
 		<root>
 			<xsl:for-each select="card">
-				<xsl:variable name="homonymRegex" select="'(\w+)(-)? (I|II|III|IV|V|VI|VII|VIII|IX|X):?$'"/>
+				<xsl:variable name="homonymRegex" select="'^(\w+)(-)? (I|II|III|IV|V|VI|VII|VIII|IX|X):?$'"/>
 				<xsl:variable name="firstBlockquote" select="blockquote[1]"/>
 				<xsl:choose>
 					<xsl:when test="matches(string($firstBlockquote), $homonymRegex)">
