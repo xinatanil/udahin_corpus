@@ -23,4 +23,8 @@ sed -i '' 's/closingMeaningTag/<\/meaning>/g' $converted_dict
 
 lint
 
+python3 fix_python.py $converted_dict $converted_dict
+
+lint
+
 # ksdiff $input_dict $converted_dict
