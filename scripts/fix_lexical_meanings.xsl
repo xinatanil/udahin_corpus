@@ -26,19 +26,13 @@
 					<xsl:text>closingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
 				</xsl:when>
-				<xsl:when test='matches(., "1\.:? .+")' >
+				<xsl:when test='matches(., "^\s*1\.:? .+")' >
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:text>openingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:copy-of select="." />
 				</xsl:when>
-				<xsl:when test='
-					matches(., "2\. .+") or 
-					matches(., "3\. .+") or
-					matches(., "4\. .+") or
-					matches(., "5\. .+") or
-					matches(., "6\. .+") or
-					matches(., "7\. .+")' >
+				<xsl:when test='matches(., "^\s*(2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\.:? .+")' >
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:text>closingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
