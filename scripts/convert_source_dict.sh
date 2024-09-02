@@ -1,7 +1,8 @@
 chatGPT_folder=../chatGPT_exp
 source_dict=$chatGPT_folder/source_dict.xml
 test_dict=$chatGPT_folder/test_dict.xml
-input_dict=$test_dict
+debug_dict=$chatGPT_folder/debug_dict.xml
+input_dict=$source_dict
 converted_dict=$chatGPT_folder/converted_dict.xml
 
 lint() {
