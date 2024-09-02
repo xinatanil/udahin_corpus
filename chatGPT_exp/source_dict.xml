@@ -7274,7 +7274,7 @@
 	</card>
 	<card>
 		<k>алат</k>
-		<blockquote>то же, что наалат 1.:</blockquote>
+		<blockquote note="Adjusted missing lexical meaning">1. то же, что наалат 1.:</blockquote>
 		<blockquote>алат или алат күн</blockquote>
 		<blockquote>1) несчастье, бедствие;</blockquote>
 		<blockquote>башына алат күн түштү на его голову свалилось большое несчастье;</blockquote>
@@ -9020,7 +9020,7 @@
 	</card>
 	<card>
 		<k>алчактат-</k>
-		<blockquote>понуд. от алчакта- 1.:</blockquote>
+		<blockquote note="Adjusted missing lexical meaning">1. понуд. от алчакта- 1.:</blockquote>
 		<blockquote>атты алчактатып пустив коня бодрым шагом;</blockquote>
 		<blockquote>алчактата бастырып, түптүз келе жатты он ехал прямо (на коне, идущем) твёрдой поступью;</blockquote>
 		<blockquote>алчактатып баары тең, жылкыдан асыл минишкен фольк. все они сели на чистокровных коней с твёрдой поступью;</blockquote>
@@ -18471,7 +18471,7 @@
 	<card>
 		<k>багышта-</k>
 		<blockquote>багышта- I.</blockquote>
-		<blockquote>посвящать; приносить в дар;</blockquote>
+		<blockquote note="Adjusted missing lexical meaning">1. посвящать; приносить в дар;</blockquote>
 		<blockquote>Улуу Октябрге багыштап посвящая Великому Октябрю;</blockquote>
 		<blockquote>2. приносить в жертву;</blockquote>
 		<blockquote>атасына багыштап, мал сойду он зарезал животное на помин души своего отца;</blockquote>
@@ -27715,8 +27715,8 @@
 		<blockquote>танец, пляска (до революции у киргизов своих танцев не было);</blockquote>
 		<blockquote>калмакча бий калмыцкая пляска (единственный танец, который, хотя и очень редко, исполняли киргизы);</blockquote>
 		<blockquote>эл бийлери народные танцы.</blockquote>
-		<blockquote>бий II 1.</blockquote>
-		<blockquote>ист.</blockquote>
+		<blockquote note="Moved meaning one line below">бий II</blockquote>
+		<blockquote>1. ист.</blockquote>
 		<blockquote>бий (киргизский судья, разбиравший тяжбы между киргизами по обычному праву);</blockquote>
 		<blockquote>бийлер көбүнчө ишти пара менен бүтүргөн бии дела вершили большей частью за взятки;</blockquote>
 		<blockquote>бука жокто торпок бий погов. когда нет быка, и бычок - бий; на безрыбье и рак рыба;</blockquote>
@@ -31976,8 +31976,8 @@
 	</card>
 	<card>
 		<k>бузул-</k>
-		<blockquote>возвр.- страд. от буз- 1.</blockquote>
-		<blockquote>нарушаться; разрушаться; портиться;</blockquote>
+		<blockquote note="Moved meaning one line below">возвр.- страд. от буз-</blockquote>
+		<blockquote>1. нарушаться; разрушаться; портиться;</blockquote>
 		<blockquote>ат аягынан, эр тамагынан бузулат погов. коня ноги портят (от быстрой езды по плохой дороге), молодца - глотка (жадность);</blockquote>
 		<blockquote>аба-ырайы бузулду погода испортилась;</blockquote>
 		<blockquote>эл бузулган жылы разг. в год, когда народ пришёл в смятение (о восстании киргизов в 1916 г.);</blockquote>
@@ -37314,7 +37314,8 @@
 		<blockquote>ара бөк то же, что арабөк.</blockquote>
 		<blockquote>бөк II:</blockquote>
 		<blockquote>бөк-бүк-бөк! охот. возглас, которым подзывают беркута.</blockquote>
-		<blockquote>бөк- III I. припасть ничком к земле;</blockquote>
+		<blockquote>бөк- III</blockquote>
+		<blockquote note="Adjusted missing lexical meaning">1. припасть ничком к земле;</blockquote>
 		<blockquote>күйүттөн жарым эс болуп, богүп калды он с горя в полусознательном состоянни пал ниц;</blockquote>
 		<blockquote>2. (о верблюдице) опуститься на колени для случки;</blockquote>
 		<blockquote>3. сев. насытиться (жирной пищей, жиром);</blockquote>
@@ -54198,8 +54199,8 @@
 	</card>
 	<card>
 		<k>жасоо</k>
-		<blockquote>1. и. д. от жаса-</blockquote>
-		<blockquote>1. устраивание, приведение в порядок; украшение;</blockquote>
+		<blockquote note="Moved meaning one line above">1. и. д. от жаса-</blockquote>
+		<blockquote>устраивание, приведение в порядок; украшение;</blockquote>
 		<blockquote>жалган документ жасоо фабрикация фальшивого документа;</blockquote>
 		<blockquote>2. боевой порядок, строй; поход;</blockquote>
 		<blockquote>жасоо жаса- строиться в боевой порядок;</blockquote>
@@ -57209,8 +57210,8 @@
 	</card>
 	<card>
 		<k>жетиш-</k>
-		<blockquote>взаимн. от жет- 1.</blockquote>
-		<blockquote>совместно достигать желаемого;</blockquote>
+		<blockquote>взаимн. от жет-</blockquote>
+		<blockquote note="Moved meaning one line below">1. совместно достигать желаемого;</blockquote>
 		<blockquote>жыйырма беш миң сом үнөмдөөгө жетише алышты они смогли добиться экономии в двадцать пять тысяч рублей;</blockquote>
 		<blockquote>жетишебиз баркына фольк. мы поймём его ценность, мы оценим его;</blockquote>
 		<blockquote>2. быть достаточным, иметься в достатке;</blockquote>
@@ -102166,7 +102167,8 @@
 		<blockquote>1) тонкая изящная талия;</blockquote>
 		<blockquote>2) (о девушке) с тонкой изящной талией;</blockquote>
 		<blockquote>кыйма каш см. каш I 1.</blockquote>
-		<blockquote>кыйма II, кыйыма</blockquote>
+		<blockquote>кыйма II</blockquote>
+		<blockquote note="Moved similar word to its own line">кыйыма</blockquote>
 		<blockquote>1. кайма; окаймление (узкая полоска по краям);</blockquote>
 		<blockquote>кыйма жака воротник с отделкой по краям;</blockquote>
 		<blockquote>кыйма тон тулуп с отделкой по краям воротника и пол;</blockquote>
@@ -113036,7 +113038,7 @@
 		<blockquote>эң көп болгондо или эң көп дегенде самое большее;</blockquote>
 		<blockquote>аздыр-көптүр, азын-көбүн см. аз I;</blockquote>
 		<blockquote>көбүн эсе см. эсе.</blockquote>
-		<blockquote>көп-III</blockquote>
+		<blockquote note="Added missing space">көп- III</blockquote>
 		<blockquote>(деепр. көөп)</blockquote>
 		<blockquote>1. вздуваться, вспухать, вспучиваться;</blockquote>
 		<blockquote>ичим көөп кетти</blockquote>
@@ -145306,8 +145308,7 @@
 	<card>
 		<k>састап</k>
 		<blockquote>р. разг.</blockquote>
-		<blockquote>1.</blockquote>
-		<blockquote>то же, что состав;</blockquote>
+		<blockquote note="Merged two lines">1. то же, что состав;</blockquote>
 		<blockquote>2. руководящий работник (сельсовета, колхоза, района);</blockquote>
 		<blockquote>састаптар руководящие работники.</blockquote>
 	</card>
@@ -148693,7 +148694,7 @@
 	</card>
 	<card>
 		<k>сойло-</k>
-		<blockquote>1 ползти на животе (о человеке); ползти, заползать; забираться внутрь;</blockquote>
+		<blockquote note="Added missing dot">1. ползти на животе (о человеке); ползти, заползать; забираться внутрь;</blockquote>
 		<blockquote>жылан чөптүн арасы менен сойлоду змея ползла в траве;</blockquote>
 		<blockquote>2. перен. распластаться, растянуться замертво;</blockquote>
 		<blockquote>мына ушу жерде сойлойсуң! ты вот на этом самом месте растянешься мёртвым!;</blockquote>
@@ -182301,7 +182302,7 @@
 	<card>
 		<k>упчу</k>
 		<blockquote>1. соска;</blockquote>
-		<blockquote>2; перен. чубук курительной трубки;</blockquote>
+		<blockquote note="Fixed wrong semicolon">2. перен. чубук курительной трубки;</blockquote>
 		<blockquote>упчусуна канжанын, көмкөрө кылып кевхарды, көз-көз кылып салдырган фольк. чубук трубки он велел усыпать жемчугом в виде глазков.</blockquote>
 	</card>
 	<card>
@@ -186636,8 +186637,11 @@
 		<blockquote>чай-чайла- окрикивать овец.</blockquote>
 		<blockquote>чай- III</blockquote>
 		<blockquote>южн.</blockquote>
-		<blockquote>то же, что чал- II</blockquote>
-		<blockquote>1. чайда парное к майда;</blockquote>
+		<blockquote note="Moved card to its own definition">то же, что чал- II 1.</blockquote>
+	</card>
+	<card>
+		<k>чайда</k>
+		<blockquote>парное к майда;</blockquote>
 		<blockquote>майда-чайда мелочь, мелочишка;</blockquote>
 		<blockquote>майда-чайда жумуштар мелкие работы, кое-какие работы.</blockquote>
 	</card>
@@ -189633,7 +189637,8 @@
 	</card>
 	<card>
 		<k>чарпы</k>
-		<blockquote>1.: чала-чарпы то же, что чала-чарпыт (см. чала);</blockquote>
+		<blockquote note="Add homonym">чарпы I:</blockquote>
+		<blockquote>чала-чарпы то же, что чала-чарпыт (см. чала);</blockquote>
 		<blockquote>сөздөрүн чала-чарпы угуп калдым их разговор я слышал только краем уха.</blockquote>
 		<blockquote>чарпы- II</blockquote>
 		<blockquote>ударять, задевать при ударе;</blockquote>
@@ -221759,7 +221764,7 @@
 	<card>
 		<k>өр</k>
 		<blockquote>өр I</blockquote>
-		<blockquote>подъём (пологий, некрутой);</blockquote>
+		<blockquote note="Added missing digit">1. подъём (пологий, некрутой);</blockquote>
 		<blockquote>өргө жүр- двигаться вверх по склону;</blockquote>
 		<blockquote>өр тартып, конуш алдык мы (со своими юртами, палатками) расположились вверх по склону (а не поперёк);</blockquote>
 		<blockquote>улам барган сайын жол өр тартып, аттар энтигип аяңдай басты дорога, чем дальше, тем больше шла вверх, и кони, тяжело дыша, двигались тихим шагом;</blockquote>
