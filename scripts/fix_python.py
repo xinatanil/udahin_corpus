@@ -19,6 +19,8 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub('homonym=""', r'', content_new, flags = re.M)
     content_new = re.sub('meaning=""', r'', content_new, flags = re.M)
     
+    content_new = re.sub(rf'<blockquote>({metaWord})<\/blockquote>', r'<meta>\1</meta>', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>({originWord})<\/blockquote>', r'<origin>\1</origin>', content_new, flags = re.M)
     
 #    <card>
 #        <k>радиола</k>

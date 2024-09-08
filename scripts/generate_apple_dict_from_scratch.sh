@@ -1,3 +1,5 @@
+../scripts/convert_source_dict.sh
+
 saxon -xsl:convert_to_apple_dict.xsl -s:../chatGPT_exp/converted_dict.xml -o:apple_dict_template/UdahinDictionary.xml
 saxon -xsl:replace_refs.xsl -s:apple_dict_template/UdahinDictionary.xml -o:apple_dict_template/UdahinDictionary.xml
 
