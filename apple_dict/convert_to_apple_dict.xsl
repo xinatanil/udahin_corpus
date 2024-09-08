@@ -59,7 +59,7 @@
           <div class="trn"><xsl:copy-of select="." /></div>
         </xsl:when>
         <xsl:when test="name() = 'blockquote'">
-          <div class="blockquote"><xsl:value-of select="."/></div>
+          <div class="blockquote"><xsl:copy-of select="."/></div>
         </xsl:when>
       </xsl:choose>
     </xsl:for-each>
