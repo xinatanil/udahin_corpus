@@ -32,8 +32,6 @@
 							<!-- should never happen, check XML -->
 						</xsl:when>
 						<xsl:when test="count(meaning) > 1">
-							<xsl:copy-of select="udn:processMeaning(., 0)" />
-							
 							<xsl:for-each select="meaning">
 								<div class="meaningIndex">
 									<xsl:number value="position()" />
