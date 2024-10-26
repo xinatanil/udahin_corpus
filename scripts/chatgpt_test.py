@@ -530,6 +530,144 @@ Below are more before/after examples.
 			<target>я не хочу терять надежду.</target>
 		</ex>
 	</card>
+    
+<k>жашоо</k> Before:
+        
+	<card>
+		<k>жашоо</k>
+		<blockquote>и. д. от <wordLink word="жаша-"/></blockquote>
+		<blockquote>житьё, существование;</blockquote>
+		<blockquote>жанаша жашоо сосуществование.</blockquote>
+	</card>
+
+<k>жашоо</k> After:
+    
+	<card>
+		<k>жашоо</k>
+		<blockquote>и. д. от <wordLink word="жаша-"/></blockquote>
+		<trn>житьё, существование;</trn>
+		<ex>
+			<source>жанаша жашоо</source>
+			<targe>сосуществование.</target>
+		</ex>
+	</card>
+    
+<k>сүйүү</k> Before:
+
+	<card>
+		<k>сүйүү</k>
+		<blockquote>любовь;</blockquote>
+		<blockquote>сүйүүнүн көркү теңинде стих. прелести любви во взаимности (букв. в ровне, т.е. если, например, оба молоды);</blockquote>
+		<blockquote>даамын таттык сүйүүнүн стих. мы вкусили сладость любви;</blockquote>
+		<blockquote>родинаны сүйүү любовь к родине;</blockquote>
+		<blockquote>эмгекти сүйүү мамилеси любовное отношение к труду;</blockquote>
+		<blockquote>өзүн өзү сүйүү самовлюблённость.</blockquote>
+	</card>
+
+<k>сүйүү</k> After:
+
+	<card>
+		<k>сүйүү</k>
+		<trn>любовь;</trn>
+		<ex>
+			<source>сүйүүнүн көркү теңинде</source>
+			<target>стих. прелести любви во взаимности (букв. в ровне, т.е. если, например, оба молоды);</target>
+		</ex>
+		<ex>
+			<source>даамын таттык сүйүүнүн</source>
+			<target>стих. мы вкусили сладость любви;</target>
+		</ex>
+		<ex>
+			<source>родинаны сүйүү</source>
+			<target>любовь к родине;</target>
+		</ex>
+		<ex>
+			<source>эмгекти сүйүү мамилеси</source>
+			<target>любовное отношение к труду;</target>
+		</ex>
+		<ex>
+			<source>өзүн өзү сүйүү</source>
+			<target>самовлюблённость.</target>
+		</ex>
+	</card>
+    
+<k>достук</k> Before:
+
+	<card>
+		<k>достук</k>
+		<blockquote>дружба;</blockquote>
+		<blockquote>элдердин достугу дружба народов.</blockquote>
+	</card>
+
+<k>достук</k> After:
+
+	<card>
+		<k>достук</k>
+		<trn>дружба;</trn>
+		<ex>
+			<source>элдердин достугу</source>
+			<target>дружба народов.</target>
+		</ex>
+	</card>
+    
+<k>эркиндик</k> Before:
+
+	<card>
+		<k>эркиндик</k>
+		<blockquote>свобода;</blockquote>
+		<blockquote>сөз эркиндиги свобода слова;</blockquote>
+		<blockquote>басма сөз эркиндиги свобода печати;</blockquote>
+		<blockquote>эркиндикке чык-</blockquote>
+		<blockquote>1) получить свободу, освободиться;</blockquote>
+		<blockquote>2) выйти наружу (напр. из комнаты);</blockquote>
+		<blockquote>эшик тарт, эркиндикке чыгалы отвори дверь, выйдем-ка наружу;</blockquote>
+		<blockquote>эркиндикке чыгар-дать свободу, освободить.</blockquote>
+	</card>
+
+<k>эркиндик</k> After:
+
+	<card>
+		<k>эркиндик</k>
+		<trn>свобода;</trn>
+		<ex>
+			<source>сөз эркиндиги</source>
+			<target>свобода слова;</target>
+		</ex>
+		<ex>
+			<source>басма сөз эркиндиги</source>
+			<target>свобода печати;</target>
+		</ex>
+		<blockquote>эркиндикке чык-</blockquote>
+		<blockquote>1) получить свободу, освободиться;</blockquote>
+		<blockquote>2) выйти наружу (напр. из комнаты);</blockquote>
+		<ex>
+			<source>эшик тарт, эркиндикке чыгалы</source>
+			<target>отвори дверь, выйдем-ка наружу;</target>
+		</ex>
+		<ex>
+			<source>эркиндикке чыгар-</source>
+			<target>дать свободу, освободить.</target>
+		</ex>
+	</card>
+    
+<k>билим</k> Before:
+
+	<card>
+		<k>билим</k>
+		<blockquote>знание, наука;</blockquote>
+		<blockquote>билим - элге, суу - жерге погов. знание - народу, воду - земле.</blockquote>
+	</card>
+
+<k>билим</k> After:
+
+	<card>
+		<k>билим</k>
+		<trn>знание, наука;</trn>
+		<ex>
+			<source>билим - элге, суу - жерге</source>
+			<target>погов. знание - народу, воду - земле.</target>
+		</ex>
+	</card>
 """
 
 with open(inputFilename, 'r', encoding='utf-8') as file:
