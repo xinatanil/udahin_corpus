@@ -165,4 +165,137 @@
 		<k>аарчу</k>
 		<blockquote>см. <wordLink word="аарчы" homonym="I"/></blockquote>
 	</card>
+	<card>
+		<k>аарчуу</k>
+		<blockquote>и. д. от <wordLink word="аарчы-" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>аарчы I</k>
+		<blockquote>аарчу:</blockquote>
+		<ex>
+			<source>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук</source>
+			<target>носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</target>
+		</ex>
+	</card>
+	<card>
+		<k>аарчы- II</k>
+		<trn>чистить, очищать, отчищать.</trn>
+	</card>
+	<card>
+		<k>аарчыл-</k>
+		<blockquote>страд. от <wordLink word="аарчы-" homonym="II"/></blockquote>
+		<trn>быть очищаемым, отчищаемым, чиститься, очищаться, отчищаться.</trn>
+	</card>
+	<card>
+		<k>аарчын-</k>
+		<blockquote>возвр. от <wordLink word="аарчы-" homonym="II"/></blockquote>
+		<trn>вытираться, утираться;</trn>
+		<ex>
+			<source>колун майлыкка аарчынып</source>
+			<target>вытерев свои руки полотенцем.</target>
+		</ex>
+	</card>
+	<card>
+		<k>аарчыт-</k>
+		<blockquote>понуд. от <wordLink word="аарчы-" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>аарчыш-</k>
+		<blockquote>взаимн. от <wordLink word="аарчы-" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>аары I</k>
+		<meaning>
+			<trn>1. оса;</trn>
+		</meaning>
+		<meaning>
+			<trn>2. (точнее орус аары или бал аары) пчела;</trn>
+			<ex>
+				<source>аары бакса, бал берет</source>
+				<target>стих. если водить пчёл, (они) дадут мёд;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<trn>3. шмель.</trn>
+		</meaning>
+	</card>
+	<card>
+		<k>аары- II</k>
+		<meta>южн.</meta>
+		<blockquote>то же, что <wordLink word="аарчы-" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>аарыт-</k>
+		<meta>южн.</meta>
+		<blockquote>то же, что <wordLink word="аарчыт-"/></blockquote>
+	</card>
+	<card>
+		<k>аачы</k>
+		<blockquote>см. <wordLink word="аарчы" homonym="I"/></blockquote>
+	</card>
+	<card>
+		<k>аб</k>
+		<blockquote>усиление к словам, начинающимся на б;</blockquote>
+		<ex>
+			<source>аббали!</source>
+			<target>вот это здорово!; вот это правильно!; вот молодец!</target>
+		</ex>
+	</card>
+	<card>
+		<k>аба I</k>
+		<meaning>
+			<trn>1. дядя (по мужской линии);</trn>
+		</meaning>
+		<meaning>
+			<trn>2. обращение к старшим, гл. обр. того же возраста, что и отец обращающегося;</trn>
+			<ex>
+				<source>улуу-кичүү абалар!</source>
+				<target>фольк. почтенные старики!;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<trn>3. старший брат;</trn>
+			<ex>
+				<source>мен, Кудайназар, абаңмын-атаңдан калган агаңмын</source>
+				<target>фольк. я, Кудайназар, твой старший брат - тебе вроде отца, я твой старшой;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<trn>4. сев. старший из старших братьев.</trn>
+		</meaning>
+	</card>
+	<card>
+		<k>аба II</k>
+		<origin>ар.</origin>
+		<meaning>
+			<trn>1. воздух, атмосфера;</trn>
+			<ex>
+				<source>таза аба</source>
+				<target>чистый воздух;</target>
+			</ex>
+			<ex>
+				<source>аба флоту</source>
+				<target>воздушный флот;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<trn>2. климат;</trn>
+			<ex>
+				<source>аба шарттары</source>
+				<target>климатические условия;</target>
+			</ex>
+			<ex>
+				<source>аба ырайы</source>
+				<target>погода;</target>
+			</ex>
+			<ex>
+				<source>аба ырайы бюросу</source>
+				<target>бюро погоды.</target>
+			</ex>
+		</meaning>
+	</card>
+	<card>
+		<k>аба III:</k>
+		<blockquote>Аба эне см. <wordLink word="эне" homonym="I"/></blockquote>
+	</card>
 </root>
