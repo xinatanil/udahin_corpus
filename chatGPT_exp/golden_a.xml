@@ -442,4 +442,165 @@
 			<target>особо строгая тюрьма (с пытками).</target>
 		</ex>
 	</card>
+	<card>
+		<k>абаке</k>
+		<trn>почтительное обращение к старшему мужчине (см. <wordLink word="аба" homonym="I" meaning="2"/>, аке 3).</trn>
+	</card>
+	<card>
+		<k>абакеле-</k>
+		<trn>почтительно называть старшего мужчину абаке (см.);</trn>
+		<ex>
+			<source>жал-жал карайт абакелеп</source>
+			<target>стих. умильно смотрит, называя (его) абаке.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абаккана</k>
+		<origin>р.-ир.</origin>
+		<blockquote>то же, что <wordLink word="абак"/></blockquote>
+	</card>
+	<card>
+		<k>абакты</k>
+		<blockquote>то же, что <wordLink word="абак"/></blockquote>
+	</card>
+	<card>
+		<k>абал I</k>
+		<origin>ар.</origin>
+		<blockquote>то же, что <wordLink word="обол"/></blockquote>
+		<ex>
+			<source>абалдан или абалтан</source>
+			<target>издавна, испокон веков.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абал II</k>
+		<origin>ар.</origin>
+		<blockquote>(или ал-абал или кал-акыбал) положение, состояние;</blockquote>
+		<ex>
+			<source>эл аралык абал</source>
+			<target>международное положение;</target>
+		</ex>
+		<ex>
+			<source>согуш абалы</source>
+			<target>военное положение;</target>
+		</ex>
+		<ex>
+			<source>кызмат абалы</source>
+			<target>служебное положение;</target>
+		</ex>
+		<ex>
+			<source>кызмат абалынан пайдаланып</source>
+			<target>использовав своё служебное положение;</target>
+		</ex>
+		<ex>
+			<source>абалы жаман</source>
+			<target>он в скверном положении;</target>
+		</ex>
+		<ex>
+			<source>ал-абалы кандай?</source>
+			<target>как он себя чувствует?, как он поживает?</target>
+		</ex>
+	</card>
+	<card>
+		<k>абала- I</k>
+		<trn>набрасываться с лаем;</trn>
+		<ex>
+			<source>абалап чыккан иттер да жок</source>
+			<target>(такая тишина, что) нет даже собаки, которая бы выскочила с лаем.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абала- II:</k>
+		<ex>
+			<source>абалап уч-</source>
+			<target>взлететь ввысь; летать в вышине;</target>
+		</ex>
+		<ex>
+			<source>абалап учкан ак кептер алдыма келип консоңчу</source>
+			<target>фольк. летающий в вышине голубь, опустись-ка ты рядом со мной.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абалай</k>
+		<blockquote>абалай: абалай (или абайымда) алтоо, төбөлөй (или төбөйүмдө) төртөө, сополой жалгыз (загадка: вверху шестеро, надо мной четверо, (и) один-одинёшенек) (отгадка: үзүктүн алты боосу, түндүк жабуунун төрт боосу, эшиктин бир боосу шесть завязок үзүк (см. <wordLink word="үзүк" homonym="I"/>), четыре завязки түндүк жабуу (см. <wordLink word="жабуу" homonym="I" meaning="1"/>) и завязка дверного войлока).</blockquote>
+	</card>
+	<card>
+		<k>абалак</k>
+		<trn>бита при игре в ордо (четырёхугольная плитка из рога коровы или горного барана; см. <wordLink word="ордо" meaning="3"/>);</trn>
+		<ex>
+			<source>абалак мурун</source>
+			<target>с приплюснутым носом;</target>
+		</ex>
+		<ex>
+			<source>абалак саптуу</source>
+			<target>с рукояткой из рога коровы или горного барана.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абалат-</k>
+		<blockquote>понуд. от <wordLink word="абала-" homonym="I"/></blockquote>
+		<trn>науськивать (собаку).</trn>
+	</card>
+	<card>
+		<k>абалаттыр-</k>
+		<trn>понуд. от <wordLink word="абалат-"/></trn>
+	</card>
+	<card>
+		<k>абалатуу</k>
+		<blockquote>и. д. от <wordLink word="абалат-"/></blockquote>
+		<trn>науськивание (собаки).</trn>
+	</card>
+	<card>
+		<k>абалкы</k>
+		<blockquote>то же, что <wordLink word="оболку"/></blockquote>
+		<ex>
+			<source>абалкы заманда</source>
+			<target>в прежние времена;</target>
+		</ex>
+		<ex>
+			<source>абалкыдай оолукпай, арылгандыр балалык</source>
+			<target>фольк. он уже не горячится, как прежде, его детские выходки, думаю, прекратились.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абалтадан,</k>
+		<blockquote>абалтадан, абалтан</blockquote>
+		<trn>с самого начала, с давних времён, издревле, искони;</trn>
+		<ex>
+			<source>абалтадан жердеген ата менен бабалар</source>
+			<target>фольк. (здесь) искони обитали отцы мои и деды.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абалы</k>
+		<blockquote>то же, что <wordLink word="оболу"/></blockquote>
+		<ex>
+			<source>эң абалы</source>
+			<target>прежде всего;</target>
+		</ex>
+		<ex>
+			<source>апам ажыраган киши экен абалы мурун эрден деп</source>
+			<target>фольк. мать моя - женщина, лишившаяся первого мужа.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абан</k>
+		<blockquote>то же, что <wordLink word="обон"/></blockquote>
+	</card>
+	<card>
+		<k>абандат-</k>
+		<blockquote>понуд. от <wordLink word="неупотребительного"/>глагола абанда-;</blockquote>
+		<ex>
+			<source>абандатып сүйлө-</source>
+			<target>говорить нараспев.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абанс,</k>
+		<blockquote>абанс, абанса, абансы</blockquote>
+		<origin>р.</origin>
+		<meta>разг.</meta>
+		<blockquote/>
+		<blockquote>то же, что <wordLink word="аванс"/></blockquote>
+	</card>
 </root>
