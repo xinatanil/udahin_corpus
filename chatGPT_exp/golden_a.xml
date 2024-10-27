@@ -298,4 +298,148 @@
 		<k>аба III:</k>
 		<blockquote>Аба эне см. <wordLink word="эне" homonym="I"/></blockquote>
 	</card>
+	<card>
+		<k>абад</k>
+		<blockquote>то же, что <wordLink word="абат" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>абадан</k>
+		<meta>талас.</meta>
+		<blockquote>то же, что <wordLink word="абдан"/></blockquote>
+	</card>
+	<card>
+		<k>абажаары-</k>
+		<blockquote>(неправ. абажары-, ава жары-)</blockquote>
+		<trn>действовать большой массой, действовать скопом;</trn>
+		<ex>
+			<source>айыл арасында абажаарып турган эл</source>
+			<target>народ, столпившийся среди аула;</target>
+		</ex>
+		<ex>
+			<source>абажаарыган адамдар үчүн бул ишпи!</source>
+			<target>разве это дело (представляет какую-нибудь трудность) для людей, если они берутся (за него) все вместе!;</target>
+		</ex>
+		<ex>
+			<source>айылдын ити абажаарып үрүп чыкты</source>
+			<target>(все) собаки аула залаяли разом.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абажары-</k>
+		<blockquote>см. <wordLink word="абажаары-"/></blockquote>
+	</card>
+	<card>
+		<k>абажур</k>
+		<trn>абажур.</trn>
+	</card>
+	<card>
+		<k>абаз</k>
+		<origin>ир.</origin>
+		<meta>редко</meta>
+		<trn>голос;</trn>
+		<ex>
+			<source>абазыңдын шириндигин угайын мен, жаш жигит</source>
+			<target>фольк. твой приятный голос послушаю-ка я, юный молодец;</target>
+		</ex>
+		<ex>
+			<source>акындардын абазы - домбуранын үнүндөй</source>
+			<target>стих. голос акынов - звуки домбры (одинаково приятны).</target>
+		</ex>
+	</card>
+	<card>
+		<k>абай I</k>
+		<trn>осторожность, осмотрительность;</trn>
+		<ex>
+			<source>абай менен</source>
+			<target>осторожно, осмотрительно;</target>
+		</ex>
+		<blockquote>абай кыл- то же, что <wordLink word="абайла-"/></blockquote>
+		<ex>
+			<source>абай кылып көз салды ошол суунун боюна</source>
+			<target>фольк. он внимательно осмотрел берег той реки.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абай II</k>
+		<blockquote>см. <wordLink word="абайы"/></blockquote>
+	</card>
+	<card>
+		<k>абай III</k>
+		<blockquote>см. <wordLink word="абалай"/></blockquote>
+	</card>
+	<card>
+		<k>абайла-</k>
+		<trn>быть осторожным, осмотрительным; остерегаться;</trn>
+		<ex>
+			<source>абайлап</source>
+			<target>осторожно, осмотрительно;</target>
+		</ex>
+		<ex>
+			<source>көпүрөөдөн абайлап өт</source>
+			<target>через мост переходи осторожно.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абайлагыч</k>
+		<trn>осторожный, осмотрительный.</trn>
+	</card>
+	<card>
+		<k>абайлат-</k>
+		<blockquote>понуд. от <wordLink word="абайла-"/></blockquote>
+		<trn>предостерегать.</trn>
+	</card>
+	<card>
+		<k>абайлаттыр-</k>
+		<blockquote>понуд. от <wordLink word="абайлат-"/></blockquote>
+		<trn>приказать, чтобы предостерегли, заставить быть осмотрительным, осторожным (предупредив через третье лицо).</trn>
+	</card>
+	<card>
+		<k>абайсыз</k>
+		<trn>нечаянно, неосторожно;</trn>
+		<ex>
+			<source>абайсыз карматып салды</source>
+			<target>получилось так, что он дал себя схватить; он не заметил, как его схватили.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абайы,</k>
+		<blockquote>абайы, абай</blockquote>
+		<blockquote>фольк., южн.</blockquote>
+		<meaning>
+			<trn>1. сорт дорогой материи (на одежду не идёт);</trn>
+			<ex>
+				<source>абай менен үпчүлөп</source>
+				<target>сделав завязки из материи абай;</target>
+			</ex>
+			<ex>
+				<source>абайы көпчүк</source>
+				<target>подстилка на седло из материи абайы;</target>
+			</ex>
+		</meaning>
+		<meaning>
+			<trn>2. узорная попона (на лошадь или верблюда);</trn>
+			<ex>
+				<source>абай үртүк жаптырган или абай менен жаптырган</source>
+				<target>он покрыл (коня) дорогой попоной.</target>
+			</ex>
+		</meaning>
+	</card>
+	<card>
+		<k>абак</k>
+		<origin>р.</origin>
+		<meta>ист.</meta>
+		<trn>гауптвахта, место заключения, тюрьма;</trn>
+		<ex>
+			<source>абакка түш-</source>
+			<target>попасть в тюрьму;</target>
+		</ex>
+		<ex>
+			<source>абакка сал- или абакка кама-</source>
+			<target>посадить под арест, посадить в тюрьму;</target>
+		</ex>
+		<ex>
+			<source>шиш абак</source>
+			<target>особо строгая тюрьма (с пытками).</target>
+		</ex>
+	</card>
 </root>
