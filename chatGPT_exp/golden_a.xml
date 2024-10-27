@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<card>
+		<k>а I</k>
+		<meaning>
+			<trn>1. возглас удивления;</trn>
+		</meaning>
+		<meaning>
+			<trn>2. вопрос с оттенком удивления или неудовольствия.</trn>
+		</meaning>
+	</card>
+	<card>
+		<k>а II</k>
+		<blockquote>см. <wordLink word="ал" homonym="II"/></blockquote>
+		<ex>
+			<source>мейли, не болсо, а болсун</source>
+			<target>всё равно, будь, что будет;</target>
+		</ex>
+		<blockquote>а түгүл</blockquote>
+		<blockquote>1) не тот; не он;</blockquote>
+		<blockquote>2) не только тот;</blockquote>
+		<ex>
+			<source>а береги</source>
+			<target>вон тот;</target>
+		</ex>
+		<ex>
+			<source>а болду, бу болду, Эшкаранын он төөсү өлдү</source>
+			<target>погов. то было, (да) это было, десять верблюдов Эшкары пало (что ни говори, а это факт).</target>
+		</ex>
+	</card>
+	<card>
+		<k>а III</k>
+		<blockquote>(неправ. вместо аа)</blockquote>
+		<blockquote>см. <wordLink word="ал" homonym="II"/></blockquote>
+		<ex>
+			<source>а көрө муну сүйлөйлүчү</source>
+			<target>вместо того (лучше) поговорим об этом;</target>
+		</ex>
+		<ex>
+			<source>а эмне дедиңер?</source>
+			<target>вы что ему сказали?</target>
+		</ex>
+		<ex>
+			<source>бирок а Темирдин көзү жетти</source>
+			<target>но Темир понял это;</target>
+		</ex>
+		<ex>
+			<source>адам баласы аа эмне дебес!</source>
+			<target>что (только) человек не скажет об этом!</target>
+		</ex>
+	</card>
+	<card>
+		<k>а IV</k>
+		<origin>р.</origin>
+		<trn>союз а;</trn>
+		<ex>
+			<source>а сен эмне үчүн кетпей отурасың?</source>
+			<target>а ты почему сидишь и не уходишь?</target>
+		</ex>
+		<ex>
+			<source>ах сен болсоң...</source>
+			<target>а что касается тебя...; а ты...;</target>
+		</ex>
+		<ex>
+			<source>а эмичи?</source>
+			<target>ну, а теперь?</target>
+		</ex>
+		<ex>
+			<source>а эми болсо...</source>
+			<target>а вот теперь...</target>
+		</ex>
+	</card>
+	<card>
+		<k>аа</k>
+		<blockquote>см. <wordLink word="ал" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>аалам</k>
+		<origin>ар.</origin>
+		<trn>мир, вселенная;</trn>
+		<ex>
+			<source>ааламды басып шоораты</source>
+			<target>фольк. слава о нём разнеслась по всему миру;</target>
+		</ex>
+		<ex>
+			<source>ааламга белгилүү</source>
+			<target>всемирно известный;</target>
+		</ex>
+		<ex>
+			<source>он сегиз миң аалам</source>
+			<target>фольк. вселенная (земля со всем населяющим её);</target>
+		</ex>
+		<ex>
+			<source>он сегиз миң аалам - көк өгүздүн жонунда</source>
+			<target>стих. вселенная (держится) на хребте сивого быка (по старому народному представлению);</target>
+		</ex>
+		<ex>
+			<source>он сегиз миң ааламды камырдай тепсеп баскаңдай</source>
+			<target>фольк. (у богатыря такой вид) будто всю вселенную может месить, как тесто;</target>
+		</ex>
+		<ex>
+			<source>бул бала ааламга татыйт</source>
+			<target>этот паренёк мировой;</target>
+		</ex>
+		<blockquote>ааламдан ашкан см. <wordLink word="аш-" homonym="II" meaning="2"/></blockquote>
+	</card>
+	<card>
+		<k>ааламдык</k>
+		<trn>несметный (букв. то, что есть во всём мире);</trn>
+		<ex>
+			<source>ааламдык дилде, сансыз мүлк</source>
+			<target>фольк. несметное количество золота, бесчисленные богатства.</target>
+		</ex>
+	</card>
+	<card>
+		<k>аалат</k>
+		<blockquote>то же, что <wordLink word="наалат"/></blockquote>
+		<ex>
+			<source>атаңарга аалат!</source>
+			<target>бран. проклятие вашим предкам!</target>
+		</ex>
+	</card>
+	<card>
+		<k>аалаш-</k>
+		<trn>перекликаться, кричать "а-а!";</trn>
+		<ex>
+			<source>аркы-терки бастырып, аалашып шашышып</source>
+			<target>фольк. то туда, то сюда проезжая и друг с другом опасливо перекликаясь.</target>
+		</ex>
+	</card>
+	<card>
+		<k>аалим</k>
+		<blockquote>то же, что <wordLink word="аалым"/></blockquote>
+	</card>
+	<card>
+		<k>аалы</k>
+		<blockquote>то же, что <wordLink word="наал"/></blockquote>
+		<ex>
+			<source>аалы така, кең өтүк баскан экен Күлчоро</source>
+			<target>фольк. в широких сапогах с медными подковами выступал (богатырь) Кюльчоро.</target>
+		</ex>
+	</card>
+	<card>
+		<k>аалым</k>
+		<origin>ар.</origin>
+		<meta>уст.</meta>
+		<blockquote/>
+		<trn>учёный (сведущий гл. обр. в богословии).</trn>
+	</card>
+	<card>
+		<k>аамыят</k>
+		<origin>ар.</origin>
+		<trn>значимость; важность, значение;</trn>
+		<ex>
+			<source>аамыяты жок</source>
+			<target>не имеет значения, не играет роли.</target>
+		</ex>
+	</card>
+	<card>
+		<k>аар</k>
+		<blockquote>аар I, II</blockquote>
+		<blockquote>то же, что <wordLink word="наар" homonym="I"/>, II.</blockquote>
+	</card>
+	<card>
+		<k>аарчу</k>
+		<blockquote>см. <wordLink word="аарчы" homonym="I"/></blockquote>
+	</card>
+</root>
