@@ -885,4 +885,291 @@
 			</ex>
 		</meaning>
 	</card>
+	<card>
+		<k>абийирдүү</k>
+		<meaning>
+			<trn>1. пользующийся хорошей репутацией;</trn>
+		</meaning>
+		<meaning>
+			<trn>2. скромный; стыдливый;</trn>
+			<blockquote>абийирдүү киши</blockquote>
+			<blockquote>1) человек с хорошей репутацией;</blockquote>
+			<blockquote>2) скромный человек;</blockquote>
+			<ex>
+				<source>абийирдүү жигитке ажалдуу кийик жолугат</source>
+				<target>погов. на ловца и зверь бежит (букв. скромному парню (охотнику) попадается киик, которому суждено умереть).</target>
+			</ex>
+		</meaning>
+	</card>
+	<card>
+		<k>абийирдүүлүк</k>
+		<blockquote>отвл. от <wordLink word="абийирдүү"/></blockquote>
+		<ex>
+			<source>абийирдүүлүк менен</source>
+			<target>с честью, честно, по совести;</target>
+		</ex>
+		<ex>
+			<source>милдеттенмесин абийирдүүлүк менен орундатты</source>
+			<target>он с честью выполнил своё обязательство.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абийирсиз</k>
+		<trn>бесстыдный; беспутный;</trn>
+		<ex>
+			<source>булар да абийирсиз атасынын жолуна түшүшкөнү өкүнүчтүү</source>
+			<target>печально, что они пошли по пути своего бесчестного отца.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абийирсиздик</k>
+		<trn>бесстыдство; беспутство.</trn>
+	</card>
+	<card>
+		<k>абоз</k>
+		<blockquote>р. разг.:</blockquote>
+		<ex>
+			<source>кызыл абоз</source>
+			<target>ист. красный обоз.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абонемент</k>
+		<trn>абонемент.</trn>
+	</card>
+	<card>
+		<k>абонент</k>
+		<trn>абонент.</trn>
+	</card>
+	<card>
+		<k>аборт</k>
+		<trn>аборт.</trn>
+	</card>
+	<card>
+		<k>абра-</k>
+		<meta>южн.</meta>
+		<trn>(о людях) быть во множестве.</trn>
+	</card>
+	<card>
+		<k>аброй</k>
+		<blockquote>то же, что <wordLink word="абийир" meaning="1"/></blockquote>
+	</card>
+	<card>
+		<k>абройлуу</k>
+		<blockquote>то же, что <wordLink word="абийирдүү"/></blockquote>
+	</card>
+	<card>
+		<k>абсолют</k>
+		<trn>абсолют.</trn>
+	</card>
+	<card>
+		<k>абсолютизм</k>
+		<trn>абсолютизм.</trn>
+	</card>
+	<card>
+		<k>абсолюттук</k>
+		<trn>абсолютный;</trn>
+		<ex>
+			<source>абсолюттук чындык или абсолюттук акыйкат</source>
+			<target>абсолютная истина;</target>
+		</ex>
+		<ex>
+			<source>абсолюттук чоңдук</source>
+			<target>абсолютная величина.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абстракттуу</k>
+		<trn>абстрактный;</trn>
+		<ex>
+			<source>абстракттуу түрдө</source>
+			<target>абстрактно.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абторой</k>
+		<trn>весь, все, всё;</trn>
+		<ex>
+			<source>арамдык көрсөң, ачып айт, абторой журтка чачып айт</source>
+			<target>фольк. если ты заметил нечестность, скажи открыто, открой всему народу.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абуйыр</k>
+		<blockquote>то же, что <wordLink word="абийир"/></blockquote>
+	</card>
+	<card>
+		<k>абыгер</k>
+		<origin>ир.</origin>
+		<ex>
+			<source>абыгер чек-</source>
+			<target>испытывать затруднения; испытывать мучения;</target>
+		</ex>
+		<ex>
+			<source>абыгер чектир-</source>
+			<target>понуд. от <wordLink word="абыгер"/>чек- причинять хлопоты, наделать хлопот, утруждать; причинять мучения.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абыгый</k>
+		<trn>(в эпосе) почтенный (обращение к пожилому мужчине);</trn>
+		<ex>
+			<source>куп тыңда менин сөзүмдү, абыгый, көрдүм көзүңдү</source>
+			<target>фольк. я увидел тебя, почтенный, слушай внимательно мои слова.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абыдан</k>
+		<blockquote>то же, что <wordLink word="абдан"/></blockquote>
+		<ex>
+			<source>куп абыдан өбүшүп</source>
+			<target>фольк. крепко расцеловавшись.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абыйыр</k>
+		<blockquote>то же, что <wordLink word="абийир"/></blockquote>
+	</card>
+	<card>
+		<k>абылгазы,</k>
+		<blockquote>абылгазы, абылкасым</blockquote>
+		<trn>название одного из колышков сохи.</trn>
+	</card>
+	<card>
+		<k>абыр</k>
+		<ex>
+			<source>абыр-шабыр или абыр-дабыр или абырдан-шабыр</source>
+			<target>быстро, проворно;</target>
+		</ex>
+		<ex>
+			<source>абыр-шабыр ат минип</source>
+			<target>быстро сев на коня;</target>
+		</ex>
+		<ex>
+			<source>абырдан-шабыр ат токуп, аял кылбай бат токуп</source>
+			<target>фольк. проворно оседлав коня, не медля, быстро оседлав.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абырак I</k>
+		<blockquote>то же, что <wordLink word="арбак"/></blockquote>
+	</card>
+	<card>
+		<k>абырак II</k>
+		<meta>уст.</meta>
+		<trn>вежливость, учтивость.</trn>
+	</card>
+	<card>
+		<k>абырактуу I</k>
+		<blockquote>то же, что <wordLink word="арбактуу"/></blockquote>
+	</card>
+	<card>
+		<k>абырактуу II</k>
+		<meta>уст.</meta>
+		<trn>вежливый, учтивый.</trn>
+	</card>
+	<card>
+		<k>абырой</k>
+		<blockquote>то же, что <wordLink word="абийир" meaning="1"/></blockquote>
+		<ex>
+			<source>абыроюм артык жан элем, чын каныштын өзү элем</source>
+			<target>фольк. я была человеком уважаемым, я была настоящей ханшей.</target>
+		</ex>
+	</card>
+	<card>
+		<k>абысын</k>
+		<trn>сношеница (жена брата или родственника по отношению к жене другого брата или родственника);</trn>
+		<ex>
+			<source>абысын-ажын</source>
+			<target>жёны родственников по отношению друг к другу;</target>
+		</ex>
+		<ex>
+			<source>абысынын болсо, күнүм жок дебе</source>
+			<target>погов. если у тебя есть сношеница, то не говори, что не имеешь соперницы;</target>
+		</ex>
+		<ex>
+			<source>жакшы абысынына баргыча, жаман чабаданыңды аңтар</source>
+			<target>погов. чем идти (с просьбой даже) к хорошей сношенице, лучше поройся в своём плохом мешке (см. <wordLink word="чабадан"/>).</target>
+		</ex>
+	</card>
+	<card>
+		<k>абышка</k>
+		<trn>старик;</trn>
+		<ex>
+			<source>абышка өлсө, ат бошойт; кемпир өлсө, төр бошойт</source>
+			<target>погов. умрёт старик - конь освободится, умрёт старуха - почётное место (см. <wordLink word="төр" meaning="1"/>) освободится (по обычаю старую женщину сажают на почётное место).</target>
+		</ex>
+	</card>
+	<card>
+		<k>ава I</k>
+		<meaning>
+			<blockquote>1. то же, что <wordLink word="аба" homonym="I"/></blockquote>
+		</meaning>
+		<meaning>
+			<trn>2. южн. старший брат;</trn>
+			<ex>
+				<source>ава ям деймиз, ага ям деймиз, әкә йэм деймиз</source>
+				<target>(старшего брата) мы называем и ава, и ага, и әкә.</target>
+			</ex>
+		</meaning>
+	</card>
+	<card>
+		<k>ава II</k>
+		<blockquote>то же, что <wordLink word="аба" homonym="II"/></blockquote>
+	</card>
+	<card>
+		<k>ава III:</k>
+		<blockquote>ава жарып см. <wordLink word="абажаары-"/></blockquote>
+		<ex>
+			<source>үй тегерегиндеги ава жарып турушкан аял, эркек, балдар</source>
+			<target>столпившиеся вокруг юрты женщины, мужчины, дети.</target>
+		</ex>
+	</card>
+	<card>
+		<k>авал I</k>
+		<blockquote>то же, что <wordLink word="абал" homonym="I"/></blockquote>
+		<blockquote>авалынан акыры фольк.</blockquote>
+		<blockquote>1) с начала до конца;</blockquote>
+		<blockquote>2) постоянно, всегда, обычно.</blockquote>
+	</card>
+	<card>
+		<k>авал II</k>
+		<blockquote>то же, что <wordLink word="абал" homonym="II"/></blockquote>
+		<ex>
+			<source>эл аралык авал</source>
+			<target>международное положение;</target>
+		</ex>
+		<ex>
+			<source>ал-авал өзгөрбөстөн дээрлик кала берген</source>
+			<target>положение оставалось почти без изменений.</target>
+		</ex>
+	</card>
+	<card>
+		<k>аван</k>
+		<blockquote>то же, что <wordLink word="обон"/></blockquote>
+		<ex>
+			<source>аван сал-</source>
+			<target>петь.</target>
+		</ex>
+	</card>
+	<card>
+		<k>авангард</k>
+		<trn>авангард.</trn>
+	</card>
+	<card>
+		<k>авангарддык I</k>
+		<trn>авангардный;</trn>
+		<ex>
+			<source>пролетариаттын революцияда авангарддык ролу</source>
+			<target>авангардная роль пролетариата в революции.</target>
+		</ex>
+	</card>
+	<card>
+		<k>авангарддык II</k>
+		<blockquote>отвл. от <wordLink word="аванград"/></blockquote>
+		<ex>
+			<source>коммунисттердин авангарддыгы</source>
+			<target>авангардная роль коммунистов.</target>
+		</ex>
+	</card>
 </root>
