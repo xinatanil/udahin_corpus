@@ -19,9 +19,6 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub('homonym=""', r'', content_new, flags = re.M)
     content_new = re.sub('meaning=""', r'', content_new, flags = re.M)
     
-    content_new = re.sub(rf'<blockquote>({metaWord})<\/blockquote>', r'<meta>\1</meta>', content_new, flags = re.M)
-    content_new = re.sub(rf'<blockquote>({originWord})<\/blockquote>', r'<origin>\1</origin>', content_new, flags = re.M)
-    
 #    <card>
 #        <k>радиола</k>
 #        <blockquote>радиола.</blockquote>
@@ -31,8 +28,15 @@ with open(inputFilename, 'r' ) as f:
 #        <k>радиола</k>
 #        <trn>радиола</trn>
 #    </card>
-    content_new = re.sub('<k>(.+)</k>\n\t\t([\S\s]+)?<blockquote>\\1.</blockquote>', r'<k>\1</k>\n\t\t\2<trn>\1</trn>', content_new, flags = re.M)
+    content_new = re.sub('<card>\n\t\t<k>(.+)</k>\n\t\t<blockquote>\\1\.</blockquote>', r'<card>\n\t\t<k>\1</k>\n\t\t<trn>\1.</trn>', content_new, flags = re.M)
     
+# <blockquote>р. ист. разг.</blockquote>
+# <blockquote>р. сев.</blockquote>
+    content_new = re.sub(rf'<blockquote>({metaOrOriginWord}) ({metaOrOriginWord}) ?({metaOrOriginWord})?</blockquote>', r'<blockquote>\1</blockquote>\n<blockquote>\2</blockquote>\n<blockquote>\3</blockquote>\n', content_new, flags = re.M)
+
+    content_new = re.sub(rf'<blockquote>({metaWord})<\/blockquote>', r'<meta>\1</meta>', content_new, flags = re.M)
+    content_new = re.sub(rf'<blockquote>({originWord})<\/blockquote>', r'<origin>\1</origin>', content_new, flags = re.M)
+
     outputFile = open(outputFilename, "w")
     outputFile.write(content_new)
     outputFile.close()
