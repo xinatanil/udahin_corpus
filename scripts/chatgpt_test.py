@@ -82,7 +82,63 @@ So, an ideally marked version of an example above would look like this:
         </meaning>
     </card>
     
-Your response must not contain markdown, return XML only
+Your response must not contain markdown, return XML only.
+Use tabs for indentation.
+
+Additional rules:
+- If you see a colon at the end of a <k> tag, that means that most likely the next line is an usage example.
+
+- If you see some kyrgyz words in parentheses preceded by `неправ.`, author lists incorrect spellings of a word in <k> tag. Incorrect spellings should be moved into their own <blockquote> tag (to separate them from translation)
+i.e this
+<k>абажаары-</k>
+	<blockquote>(неправ. абажары-, ава жары-) действовать большой массой, действовать скопом;</blockquote>
+must be like this
+<k>абажаары-</k>
+	<blockquote>(неправ. абажары-, ава жары-)</blockquote>
+	<trn>действовать большой массой, действовать скопом;</trn>
+
+- If after <k> tag you a <blockquote> tag with words that are similar to the k word, then that means that they are basically the same words but with some different spellings. Leave them as is.
+i.e something like this must be left as is
+	<k>абанс,</k>
+	<blockquote>абанс, абанса, абансы</blockquote>
+
+- There can't be two <trn> tags in a row. So if you feel like it's just one translation spanned in two <blockquote> tags, just combine them into one line, separated by a space.
+i.e something like this
+	<k>абатта-</k>
+	<blockquote>делать жилым, населённым;</blockquote>
+	<blockquote>благоустраивать (напр. местность);</blockquote>
+can be marked like this
+	<k>абатта-</k>
+	<trn>делать жилым, населённым; благоустраивать (напр. местность);</trn>
+Be careful and don't confuse usage examples with translations
+i.e.
+	<k>авансыла-</k>
+	<blockquote>авансировать;</blockquote>
+	<blockquote>авансылап авансом.</blockquote>
+here <blockquote>авансылап авансом.</blockquote> is a usage example.
+Also, you can't combine translations if they are contained in two different <meaning> tags
+
+- Be careful: below is not a usage example because afte conditional abbreviation "фольк." there's no text in kyrgyz.
+<blockquote>авалынан акыры фольк.</blockquote>
+
+- Be careful: if you see a line that looks like <trn> but it doesn't contain a translation but rather links to other words and conditional abbreviations, then most likely it's a reference to another word and the line must be left as is.
+i.e. these two line below should not be modified
+	<blockquote>1. разг. то же, что <wordLink word="огород"/></blockquote>
+    <blockquote>2. неправ. вместо агалы.</blockquote>
+
+
+
+
+- If the main Kyrgyz word primarily appears in one or several combinations, a colon is placed after it, followed by common phrases with translations.
+i.e. this
+<k>абыр</k>
+<blockquote>абыр: абыр-шабыр или абыр-дабыр или абырдан-шабыр быстро, проворно;</blockquote>
+turns into this
+<k>абыр</k>
+<ex>
+	<source>абыр-шабыр или абыр-дабыр или абырдан-шабыр</source>
+	<target>быстро, проворно;</target>
+</ex>
 
 Below are more before/after examples.
 
@@ -667,6 +723,83 @@ Below are more before/after examples.
 			<source>билим - элге, суу - жерге</source>
 			<target>погов. знание - народу, воду - земле.</target>
 		</ex>
+	</card>
+    
+<k>аарчы I</k> Before:
+
+	<card>
+		<k>аарчы I</k>
+		<blockquote>аарчу:</blockquote>
+		<blockquote>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</blockquote>
+	</card>
+
+<k>аарчы I</k> After:
+
+	<card>
+		<k>аарчы I</k>
+		<blockquote>аарчу:</blockquote>
+		<ex>
+			<source>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук</source>
+			<target>носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</target>
+		</ex>
+	</card>
+
+<k>аба III:</k> Before:
+
+	<card>
+		<k>аба III:</k>
+		<blockquote>Аба эне см. <wordLink word="эне" homonym="I"/></blockquote>
+	</card>
+
+<k>аба III:</k> After:
+
+	<card>
+		<k>аба III:</k>
+		<blockquote>Аба эне см. <wordLink word="эне" homonym="I"/></blockquote>
+	</card>
+
+<k>абажаары-</k> Before:
+
+	<card>
+		<k>абажаары-</k>
+		<blockquote>(неправ. абажары-, ава жары-) действовать большой массой, действовать скопом;</blockquote>
+		<blockquote>айыл арасында абажаарып турган эл народ, столпившийся среди аула;</blockquote>
+		<blockquote>абажаарыган адамдар үчүн бул ишпи! разве это дело (представляет какую-нибудь трудность) для людей, если они берутся (за него) все вместе!;</blockquote>
+		<blockquote>айылдын ити абажаарып үрүп чыкты (все) собаки аула залаяли разом.</blockquote>
+	</card>
+    
+<k>абажаары-</k> After:
+
+	<card>
+		<k>абажаары-</k>
+		<blockquote>(неправ. абажары-, ава жары-)</blockquote>
+		<trn>действовать большой массой, действовать скопом;</trn>
+		<ex>
+			<source>айыл арасында абажаарып турган эл</source>
+			<target>народ, столпившийся среди аула;</target>
+		</ex>
+		<ex>
+			<source>абажаарыган адамдар үчүн бул ишпи!</source>
+			<target>разве это дело (представляет какую-нибудь трудность) для людей, если они берутся (за него) все вместе!;</target>
+		</ex>
+		<ex>
+			<source>айылдын ити абажаарып үрүп чыкты</source>
+			<target>(все) собаки аула залаяли разом.</target>
+		</ex>
+	</card>
+
+<k>абаке</k> Before:
+
+	<card>
+		<k>абаке</k>
+		<blockquote>почтительное обращение к старшему мужчине (см. <wordLink word="аба" homonym="I" meaning="2"/>, аке 3).</blockquote>
+	</card>
+
+<k>абаке</k> After:
+
+	<card>
+		<k>абаке</k>
+		<trn>почтительное обращение к старшему мужчине (см. <wordLink word="аба" homonym="I" meaning="2"/>, аке 3).</trn>
 	</card>
 """
 
