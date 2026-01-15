@@ -1,2 +1,0 @@
-bash convert_source_dict.sh
-bash generate_apple_dict.sh
