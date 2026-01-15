@@ -1,1 +1,0 @@
-saxon -xsl:summaryOfElements.xsl -s:../letter_wip.xml -o:output.txt
