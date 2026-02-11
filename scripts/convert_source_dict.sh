@@ -1,18 +1,18 @@
-chatGPT_folder=../chatGPT_exp
-source_dict=$chatGPT_folder/source_dict.xml
-test_dict=$chatGPT_folder/test_dict.xml
-debug_dict=$chatGPT_folder/debug_dict.xml
-input_dict=$source_dict
-converted_dict=$chatGPT_folder/converted_dict.xml
+input_dict=../sources/corrected_source_dict.xml
+converted_dict=../chatGPT_exp/converted_dict.xml
 
 lint() {
     export XMLLINT_INDENT=$'\t'
-    xmllint --format "$converted_dict" -o "$converted_dict"
+    temp_file=$(mktemp)
+    xmllint --format "$converted_dict" -o "$temp_file"
+    mv "$temp_file" "$converted_dict"
 }
 
 saxon -xsl:sorting_xsl_template.xsl -s:$input_dict -o:$converted_dict
 
-saxon -xsl:fix_homonyms.xsl -s:$converted_dict -o:$converted_dict
+temp_file=$(mktemp)
+saxon -xsl:fix_homonyms.xsl -s:$converted_dict -o:$temp_file
+mv $temp_file $converted_dict
 sed -i '' 's/openingCardTag/<card>/g' $converted_dict
 sed -i '' 's/closingCardTag/<\/card>/g' $converted_dict
 
