@@ -18,7 +18,9 @@ sed -i '' 's/closingCardTag/<\/card>/g' $converted_dict
 
 lint
 
-saxon -xsl:fix_lexical_meanings.xsl -s:$converted_dict -o:$converted_dict
+temp_file=$(mktemp)
+saxon -xsl:fix_lexical_meanings.xsl -s:$converted_dict -o:$temp_file
+mv $temp_file $converted_dict
 sed -i '' 's/openingMeaningTag/<meaning>/g' $converted_dict
 sed -i '' 's/closingMeaningTag/<\/meaning>/g' $converted_dict
 
