@@ -57,7 +57,13 @@
 		<root>
 			<xsl:text>&#xa;</xsl:text>
 			<xsl:for-each select="card">
+				<xsl:variable name="ignoredWords" select="('алат', 'алчактат-', 'бузул-', 'жетиш-', 'өр I')"/>
 				<xsl:choose>
+
+					<xsl:when test="k = $ignoredWords">
+						<xsl:copy-of select="." />
+					</xsl:when>
+
 					<xsl:when test="blockquote[matches(., '\d\.:? .+')]">
 						<card>
 							<xsl:copy-of select="k" />
