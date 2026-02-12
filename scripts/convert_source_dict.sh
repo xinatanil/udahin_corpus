@@ -4,8 +4,13 @@ converted_dict=../chatGPT_exp/converted_dict.xml
 lint() {
     export XMLLINT_INDENT=$'\t'
     temp_file=$(mktemp)
-    xmllint --format "$converted_dict" -o "$temp_file"
-    mv "$temp_file" "$converted_dict"
+    if xmllint --format "$converted_dict" --output "$temp_file"; then
+        mv "$temp_file" "$converted_dict"
+    else
+        rm "$temp_file"
+        echo "Error: xmllint failed for $converted_dict" >&2
+        return 1
+    fi
 }
 
 saxon -xsl:sorting_xsl_template.xsl -s:$input_dict -o:$converted_dict
