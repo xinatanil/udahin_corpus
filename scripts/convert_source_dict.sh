@@ -2,13 +2,14 @@ input_dict=../sources/corrected_source_dict.xml
 converted_dict=../chatGPT_exp/converted_dict.xml
 
 lint() {
+    local file=$1
     export XMLLINT_INDENT=$'\t'
     temp_file=$(mktemp)
-    if xmllint --format "$converted_dict" --output "$temp_file"; then
-        mv "$temp_file" "$converted_dict"
+    if xmllint --format "$file" --output "$temp_file"; then
+        mv "$temp_file" "$file"
     else
         rm "$temp_file"
-        echo "Error: xmllint failed for $converted_dict" >&2
+        echo "Error: xmllint failed for $file" >&2
         return 1
     fi
 }
@@ -21,7 +22,7 @@ mv $temp_file $converted_dict
 sed -i '' 's/openingCardTag/<card>/g' $converted_dict
 sed -i '' 's/closingCardTag/<\/card>/g' $converted_dict
 
-lint
+lint "$converted_dict"
 
 temp_file=$(mktemp)
 saxon -xsl:fix_lexical_meanings.xsl -s:$converted_dict -o:$temp_file
@@ -29,10 +30,18 @@ mv $temp_file $converted_dict
 sed -i '' 's/openingMeaningTag/<meaning>/g' $converted_dict
 sed -i '' 's/closingMeaningTag/<\/meaning>/g' $converted_dict
 
-lint
+lint "$converted_dict"
 
-python3 fix_python.py $converted_dict $converted_dict
+python3 identify_links.py $converted_dict $converted_dict
+python3 identify_meta.py $converted_dict $converted_dict
 
-lint
+lint "$converted_dict"
 
 # ksdiff $input_dict $converted_dict
+
+# Remove empty blockquotes
+sed -i '' 's|<blockquote/>||g' $converted_dict
+sed -i '' 's|<blockquote />||g' $converted_dict
+sed -i '' 's|--------||g' $converted_dict
+
+lint "$converted_dict"
