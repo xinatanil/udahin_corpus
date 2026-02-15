@@ -19,16 +19,7 @@ with open(inputFilename, 'r' ) as f:
     content_new = re.sub('homonym=""', r'', content_new, flags = re.M)
     content_new = re.sub('meaning=""', r'', content_new, flags = re.M)
     
-#    <card>
-#        <k>радиола</k>
-#        <blockquote>радиола.</blockquote>
-#    </card>
-# to
-#    <card>
-#        <k>радиола</k>
-#        <trn>радиола</trn>
-#    </card>
-    content_new = re.sub('<card>\n\t\t<k>(.+)</k>\n\t\t<blockquote>\\1\.</blockquote>', r'<card>\n\t\t<k>\1</k>\n\t\t<trn>\1.</trn>', content_new, flags = re.M)
+
     
 # <blockquote>р. ист. разг.</blockquote>
 # <blockquote>р. сев.</blockquote>
