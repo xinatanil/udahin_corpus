@@ -89,6 +89,10 @@ def process_trn(input_file, output_file):
         # exclude if starts with "(или"
         if target_text.startswith("(или"):
             continue
+
+        # exclude if entirely in parentheses
+        if target_text.startswith("(") and target_text.endswith(")"):
+            continue
             
         # exclude if contains k_text
         # e.g. k="абайы", text="абайы, абай" -> skip
