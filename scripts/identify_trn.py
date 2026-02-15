@@ -17,10 +17,24 @@ def clean_k_word(text):
 
 def process_trn(input_file, output_file):
     try:
-        tree = ET.parse(input_file)
-        root = tree.getroot()
-    except ET.ParseError as e:
-        print(f"Error parsing XML: {e}")
+        with open(input_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        #    <card>
+        #        <k>радиола</k>
+        #        <blockquote>радиола.</blockquote>
+        #    </card>
+        # to
+        #    <card>
+        #        <k>радиола</k>
+        #        <trn>радиола</trn>
+        #    </card>
+        content = re.sub(r'<card>\n\t\t<k>(.+)</k>\n\t\t<blockquote>\1\.</blockquote>', r'<card>\n\t\t<k>\1</k>\n\t\t<trn>\1.</trn>', content, flags=re.M)
+
+        root = ET.fromstring(content)
+        tree = ET.ElementTree(root)
+    except (ET.ParseError, IOError) as e:
+        print(f"Error processing XML: {e}")
         return
 
     count_trn_found = 0
