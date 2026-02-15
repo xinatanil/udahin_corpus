@@ -46,3 +46,36 @@ sed -i '' 's|<blockquote />||g' $converted_dict
 sed -i '' 's|--------||g' $converted_dict
 
 lint "$converted_dict"
+
+
+process_cards() {
+    local input_file="$1"
+    local dir=$(dirname "$input_file")
+    local filename=$(basename "$input_file" .xml)
+
+    # Process cards
+    local processed_file="${dir}/${filename}_processed.xml"
+    python3 identify_trn.py "$input_file" "$processed_file"
+    lint "$processed_file"
+
+    # Extract trn to a separate file
+    local trn_only_file="${dir}/${filename}_trn_only.xml"
+    python3 extract_trn.py "$processed_file" "$trn_only_file"
+    lint "$trn_only_file"
+
+    # Filter cards with trn to a separate file
+    local processed_filtered_file="${dir}/${filename}_processed_filtered.xml"
+    python3 filter_cards_with_trn.py "$processed_file" "$processed_filtered_file"
+    lint "$processed_filtered_file"
+
+    # Filter cards without trn to a separate file
+    local processed_no_trn_file="${dir}/${filename}_processed_no_trn.xml"
+    python3 filter_cards_without_trn.py "$processed_file" "$processed_no_trn_file"
+    lint "$processed_no_trn_file"
+}
+
+# Extract "a" cards
+a_cards_file=../chatGPT_exp/a.xml
+python3 extract_a_cards.py "$converted_dict" "$a_cards_file"
+
+process_cards "$a_cards_file"
