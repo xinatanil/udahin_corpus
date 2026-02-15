@@ -2,6 +2,7 @@
 import sys
 import re
 import xml.etree.ElementTree as ET
+from constants import metaWord, originWord, linkKeyword
 
 
 def clean_k_word(text):
@@ -43,13 +44,8 @@ def process_trn(input_file, output_file):
     # 1. Kyrgyz specific chars
     re_kyrgyz = re.compile(r'[өүңәӨҮҢӘ]')
     
-    # 2. Meta/Origin/Link words
-    meta_words = r'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.|иссык-кульск\.|анат\.|грам\.|ирон\.|инд\.|геогр\.|ласк\.|эвф\.|груб\.|шутл\.|юр\.|только в исх\. п\.'
-    origin_words = r'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.|ир\.-ар\.|кирг\.-ир\.'
-    link_keywords = r'и\. д\. от|понуд\. от|взаимн\. от|страд\. от|возвр\.- ?страд\. от|возвр\. от|уподоб\. от|парное к|многокр\. от|отвл\. от|уменьш\. от|уменьш\.-ласк\. от|деепр\. от|\(ср\.|то же, что|см\.|отриц\. от|неправ\. вместо'
-    
     # Combined pattern
-    full_pattern_str = f"{meta_words}|{origin_words}|{link_keywords}"
+    full_pattern_str = f"{metaWord}|{originWord}|{linkKeyword}"
     re_keywords = re.compile(full_pattern_str, re.IGNORECASE)
 
     # 3. Roman numerals
