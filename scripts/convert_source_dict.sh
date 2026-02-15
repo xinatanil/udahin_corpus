@@ -32,6 +32,7 @@ sed -i '' 's/closingMeaningTag/<\/meaning>/g' $converted_dict
 
 lint "$converted_dict"
 
+python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_links.py $converted_dict $converted_dict
 python3 identify_meta.py $converted_dict $converted_dict
 
