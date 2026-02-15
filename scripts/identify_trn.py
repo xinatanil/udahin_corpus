@@ -25,6 +25,9 @@ class TranslationFilter:
         # 4. Global card content check
         self.re_global_forbidden = re.compile(r'1\)|2\)|3\)|4\)|5\)|:')
 
+        # 5. Ending with "деп" (standalone or suffix)
+        self.re_dep_suffix = re.compile(r'деп\b', re.IGNORECASE)
+
     def is_card_globally_forbidden(self, card_text_full):
         """Checks if the entire card content violates a rule."""
         if self.re_global_forbidden.search(card_text_full):
@@ -45,6 +48,15 @@ class TranslationFilter:
             
         # Rule: Exclude if contains specific keywords
         if self.re_keywords.search(text):
+            return True
+
+        # Rule: Exclude if contains forbidden substrings: "менен", "эмес", "жагы"
+        for forbidden in ["менен", "эмес", "жагы"]:
+            if forbidden in text:
+                return True
+
+        # Rule: Exclude if contains word ending with "деп"
+        if self.re_dep_suffix.search(text):
             return True
             
         # Rule: Exclude Roman numerals
