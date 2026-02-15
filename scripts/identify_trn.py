@@ -84,6 +84,10 @@ def process_trn(input_file, output_file):
         if target_bq is None:
             continue
             
+        # exclude if contains wordLink
+        if target_bq.find('.//wordLink') is not None:
+             continue
+
         # exclude if Kyrgyz chars
         if re_kyrgyz.search(target_text):
             continue
