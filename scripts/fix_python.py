@@ -8,16 +8,11 @@ outputFilename = sys.argv[2]
 metaWord = 'разг\.|уст\.|лингв\.|перен\.|полит\.|спорт\.|полигр\.|с\.-х\.|рел\.|воен\.|дип\.|горн\.|пед\.|этн\.|лит\.|театр\.|филос\.|миф\.|геол\.|хим\.|мед\.|тех\.|ист\.|мат\.|бот\.|сев\.|южн\.|чатк\.|чуйск\.|тяньш\.|талас\.|памир\.|синьцз\.|редко|прям\., перен\.|бран\.|карт\.|женск\.|охот\.|муз\.|иссык-кульск\.|анат\.|грам\.|ирон\.|инд\.|геогр\.|ласк\.|эвф\.|груб\.|шутл\.|юр\.|дет\.|фольк\.|в отриц\. обороте|межд\.'
 originWord = 'кит\.|р\.|ар\.|тиб\.|ир\.|ар\.-ир\.|р\.-ир\.|ир\.-кирг\.|ир\.-ар\.|кирг\.-ир\.'
 metaOrOriginWord = metaWord + '|' + originWord
-linkKeyword = r'и\. д\. от |понуд\. от |взаимн\. от |страд\. от |возвр\.- ?страд\. от |возвр\. от |уподоб\. от |парное к |многокр\. от |отвл\. от |уменьш\. от |уменьш\.-ласк\. от |деепр\. от |\(ср\. |то же, что |см\. '
-referencePattern = '(\w+-?),? ?([IVX]+)? ?(\d)?[\.|;]?'
-referenceReplace = '<wordLink word="\\2" homonym="\\3" meaning="\\4" />'
 with open(inputFilename, 'r' ) as f:
     content = f.read()
     
     #detect links
-    content_new = re.sub(rf'({linkKeyword}){referencePattern}', rf'\1{referenceReplace}', content, flags = re.M)
-    content_new = re.sub('homonym=""', r'', content_new, flags = re.M)
-    content_new = re.sub('meaning=""', r'', content_new, flags = re.M)
+    content_new = content
     
 
     
