@@ -29,6 +29,11 @@ class TranslationFilter:
         # Suffixes: деп, тти, лды, рды, нды
         self.re_forbidden_suffixes = re.compile(r'(деп|тти|лды|рды|нды)\b', re.IGNORECASE)
 
+        # 6. Standalone forbidden words (must be whole words)
+        self.standalone_forbidden_words = ["жок", "ал", "мен", "сен", "бул", "анда", "менен", "эмес"]
+        pattern = r'\b(' + '|'.join(self.standalone_forbidden_words) + r')\b'
+        self.re_standalone_forbidden = re.compile(pattern, re.IGNORECASE)
+
     def is_card_globally_forbidden(self, card_text_full):
         """Checks if the entire card content violates a rule."""
         if self.re_global_forbidden.search(card_text_full):
@@ -68,8 +73,12 @@ class TranslationFilter:
         if k_text and k_text in text.lower():
             return True
 
-        # Rule: Exclude if contains forbidden substrings: "менен", "эмес", "жагы"
-        for forbidden in ["менен", "эмес", "жагы", "болуп", "келди", "кетти", "барды", "калды"]:
+        # Rule: Exclude if contains standalone forbidden word "жок"
+        if self.re_standalone_forbidden.search(text):
+            return True
+
+        # Rule: Exclude if contains forbidden substrings
+        for forbidden in ["жагы", "болуп", "келди", "кетти", "барды", "калды", "ээ", "дагы"]:
             if forbidden in text:
                 return True
 
