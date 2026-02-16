@@ -16,7 +16,7 @@ class TranslationFilter:
         
         # 2. Keywords/Metadata (converted to regex)
         full_pattern_str = f"{metaWord}|{originWord}|{linkKeyword}"
-        self.re_keywords = re.compile(full_pattern_str, re.IGNORECASE)
+        self.re_metaOriginLinkKeywords = re.compile(full_pattern_str, re.IGNORECASE)
 
         # 3. Roman numerals
         roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
@@ -48,23 +48,14 @@ class TranslationFilter:
             return True
             
         # Rule: Exclude if contains specific keywords
-        if self.re_keywords.search(text):
+        if self.re_metaOriginLinkKeywords.search(text):
             return True
 
-        # Rule: Exclude if contains forbidden substrings: "менен", "эмес", "жагы"
-        for forbidden in ["менен", "эмес", "жагы", "болуп", "келди", "кетти", "барды", "калды"]:
-            if forbidden in text:
-                return True
-
-        # Rule: Exclude if contains word ending with forbidden suffixes
-        if self.re_forbidden_suffixes.search(text):
-            return True
-            
-        # Rule: Exclude Roman numerals
+		# Rule: Exclude Roman numerals
         if self.re_roman.search(text):
             return True
-            
-        # Rule: Exclude if starts with "(или"
+
+		# Rule: Exclude if starts with "(или"
         if text.startswith("(или"):
             return True
 
@@ -75,6 +66,15 @@ class TranslationFilter:
         # Rule: Exclude if contains the headword (k_text)
         # e.g. k="абайы", text="абайы, абай" -> skip
         if k_text and k_text in text.lower():
+            return True
+
+        # Rule: Exclude if contains forbidden substrings: "менен", "эмес", "жагы"
+        for forbidden in ["менен", "эмес", "жагы", "болуп", "келди", "кетти", "барды", "калды"]:
+            if forbidden in text:
+                return True
+
+        # Rule: Exclude if contains word ending with forbidden suffixes
+        if self.re_forbidden_suffixes.search(text):
             return True
 
         return False
