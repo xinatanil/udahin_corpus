@@ -35,6 +35,7 @@ lint "$converted_dict"
 python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_links.py $converted_dict $converted_dict
 python3 identify_meta.py $converted_dict $converted_dict
+python3 identify_trn.py $converted_dict $converted_dict
 
 lint "$converted_dict"
 
@@ -54,9 +55,7 @@ process_cards() {
     local filename=$(basename "$input_file" .xml)
 
     # Process cards
-    local processed_file="${dir}/${filename}_processed.xml"
-    python3 identify_trn.py "$input_file" "$processed_file"
-    lint "$processed_file"
+    local processed_file="$input_file"
 
     # Extract trn to a separate file
     local trn_only_file="${dir}/${filename}_trn_only.xml"
@@ -64,12 +63,12 @@ process_cards() {
     lint "$trn_only_file"
 
     # Filter cards with trn to a separate file
-    local processed_filtered_file="${dir}/${filename}_processed_filtered.xml"
+    local processed_filtered_file="${dir}/${filename}_cards_with_trn.xml"
     python3 filter_cards_with_trn.py "$processed_file" "$processed_filtered_file"
     lint "$processed_filtered_file"
 
     # Filter cards without trn to a separate file
-    local processed_no_trn_file="${dir}/${filename}_processed_no_trn.xml"
+    local processed_no_trn_file="${dir}/${filename}_cards_without_trn.xml"
     python3 filter_cards_without_trn.py "$processed_file" "$processed_no_trn_file"
     lint "$processed_no_trn_file"
 }
