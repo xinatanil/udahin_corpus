@@ -27,10 +27,19 @@ class TranslationFilter:
 
         # 5. Ending with forbidden suffixes (standalone or suffix)
         # Suffixes: деп, тти, лды, рды, нды
-        self.re_forbidden_suffixes = re.compile(r'(деп|тти|лды|рды|нды)\b', re.IGNORECASE)
+        self.re_forbidden_suffixes = re.compile(r'(деп|тти|лды|рды|нды|дын|дун|нын)\b', re.IGNORECASE)
 
         # 6. Standalone forbidden words (must be whole words)
-        self.standalone_forbidden_words = ["жок", "ал", "мен", "сен", "бул", "анда", "менен", "эмес"]
+        self.standalone_forbidden_words = {
+            'азыр', 'экен', 'болгон', 'жаткан', 'керек', 'жок', 'бардык', 
+            'ушул', 'кайсы', 'эмне', 'качан', 'кайдан', 'биз', 'силер', 
+            'алар', 'мага', 'сага', 'аны', 'аныки', 'менен', 
+            'тууралуу', 'боюнча', 'сайын', 'аркылуу', 'сыяктуу', 'бекен', 
+            'беле', 'тура', 'деп', 'дейт', 'эл', 'абал', 'акыл', 'айдар',
+            'бала', 'киши', 'адам', 'жер', 'суу', 'тоо', 'кол',
+            'бут', 'баш', 'көз', 'ооз', 'мурун', 'чач', 'тырмак',
+            'ал', 'мен', 'сен', 'бул', 'анда', 'эмес', 'анын'
+        }
         pattern = r'\b(' + '|'.join(self.standalone_forbidden_words) + r')\b'
         self.re_standalone_forbidden = re.compile(pattern, re.IGNORECASE)
 
