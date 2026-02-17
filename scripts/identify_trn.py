@@ -27,7 +27,7 @@ class TranslationFilter:
 
         # 5. Ending with forbidden suffixes (standalone or suffix)
         # Suffixes: деп, тти, лды, рды, нды
-        self.re_forbidden_suffixes = re.compile(r'(деп|тти|лды|рды|нды|дын|дун|нын)\b', re.IGNORECASE)
+        self.re_forbidden_suffixes = re.compile(r'(деп|тти|лды|рды|нды|дын|дун|нын|уу)\b', re.IGNORECASE)
 
         # 6. Standalone forbidden words (must be whole words)
         self.standalone_forbidden_words = {
