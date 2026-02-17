@@ -163,19 +163,29 @@ class TRNProcessor:
         if self.filter.is_card_globally_forbidden(card_text_full):
             return
 
-        # 1.5 Check if card has a <meaning> tag (to be handled later)
-        if card.find('meaning') is not None:
-            return
-		 
-
         # 2. Prepare k_text for checking
         k_elem = card.find('k')
         k_text = ""
         if k_elem is not None and k_elem.text:
              k_text = self.clean_k_word(k_elem.text).lower()
 
-        # 3. Find FIRST NON-EMPTY blockquote
-        blockquotes = card.findall('blockquote')
+        # 1.5 Handle <meaning> tags if present
+        meanings = card.findall('meaning')
+        if meanings:
+            for meaning in meanings:
+                self.check_and_mark_trn(meaning, k_text)
+            return
+
+        # No meaning tags, check the card itself
+        self.check_and_mark_trn(card, k_text)
+
+    def check_and_mark_trn(self, element, k_text):
+        """
+        Checks a candidate element (card or meaning) for a valid blockquote 
+        and marks it as a translation if valid.
+        """
+        # 3. Find FIRST NON-EMPTY blockquote in the element
+        blockquotes = element.findall('blockquote')
         target_bq = None
         target_text = ""
         
