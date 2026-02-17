@@ -32,6 +32,8 @@ sed -i '' 's/closingMeaningTag/<\/meaning>/g' $converted_dict
 
 lint "$converted_dict"
 
+python3 format_numbered_meanings.py "$converted_dict" "$converted_dict"
+
 python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_links.py $converted_dict $converted_dict
 python3 identify_meta.py $converted_dict $converted_dict
@@ -62,6 +64,10 @@ process_cards() {
     python3 extract_trn.py "$processed_file" "$trn_only_file"
     lint "$trn_only_file"
 
+    # Extract suspicious Kyrgyz items from TRN
+    local kyrgyz_items_file="${dir}/${filename}_kyrgyz_in_trn.txt"
+    python3 extract_kyrgyz_items.py "$trn_only_file" "$kyrgyz_items_file"
+
     # Filter cards with trn to a separate file
     local processed_filtered_file="${dir}/${filename}_cards_with_trn.xml"
     python3 filter_cards_with_trn.py "$processed_file" "$processed_filtered_file"
@@ -74,7 +80,8 @@ process_cards() {
 }
 
 # Extract "a" cards
-a_cards_file=../chatGPT_exp/a.xml
-python3 extract_a_cards.py "$converted_dict" "$a_cards_file"
+# a_cards_file=../chatGPT_exp/a.xml
+# python3 extract_a_cards.py "$converted_dict" "$a_cards_file"
 
-process_cards "$a_cards_file"
+# process_cards "$a_cards_file"
+process_cards "$converted_dict"
