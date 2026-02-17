@@ -25,7 +25,7 @@ class TranslationFilter:
         # 4. Global card content check
         self.re_global_forbidden = re.compile(r'1\)|2\)|3\)|4\)|5\)|:')
 
-        # 5. Ending with forbidden suffixes (standalone or suffix)
+        # 5. Ending with forbidden suffixes
         # Suffixes: деп, тти, лды, рды, нды
         self.re_forbidden_suffixes = re.compile(r'(деп|тти|лды|рды|нды|дын|дун|нын|уу)\b', re.IGNORECASE)
 
@@ -42,6 +42,10 @@ class TranslationFilter:
         }
         pattern = r'\b(' + '|'.join(self.standalone_forbidden_words) + r')\b'
         self.re_standalone_forbidden = re.compile(pattern, re.IGNORECASE)
+
+        # 7. Words ending with hyphen (e.g. "алдырыл-", "ойно-")
+        # Matches word characters followed by a hyphen at the end of the word boundary or string
+        self.re_ends_with_hyphen = re.compile(r'\w+-(?!\w)')
 
     def is_card_globally_forbidden(self, card_text_full):
         """Checks if the entire card content violates a rule."""
@@ -93,6 +97,10 @@ class TranslationFilter:
 
         # Rule: Exclude if contains word ending with forbidden suffixes
         if self.re_forbidden_suffixes.search(text):
+            return True
+
+        # Rule: Exclude if contains words ending with hyphen
+        if self.re_ends_with_hyphen.search(text):
             return True
 
         return False
