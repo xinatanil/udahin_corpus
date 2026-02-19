@@ -39,7 +39,7 @@ with open(inputFilename, 'r' ) as f:
         
         # Regex to match 1, 2, or 3 meta/origin words at start
         # Identical to the logic verified in reproduction script
-        full_pattern = f"^({metaOrOriginWord})(\s+({metaOrOriginWord}))?(\s+({metaOrOriginWord}))?(?=\s|$)"
+        full_pattern = rf"^({metaOrOriginWord})(\s+({metaOrOriginWord}))?(\s+({metaOrOriginWord}))?(?=\s|$)"
         re_start_meta = re.compile(full_pattern)
         
         re_meta_only = re.compile(f"^({metaWord})$")
