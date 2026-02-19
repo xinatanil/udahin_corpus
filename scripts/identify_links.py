@@ -5,7 +5,7 @@ inputFilename = sys.argv[1]
 outputFilename = sys.argv[2]
 
 from constants import linkKeyword
-referencePattern = '(\w+-?),? ?([IVX]+)? ?(\d)?[\.|;]?'
+referencePattern = r'(\w+-?),? ?([IVX]+)? ?(\d)?[\.|;]?'
 referenceReplace = '<wordLink word="\\2" homonym="\\3" meaning="\\4" />'
 
 with open(inputFilename, 'r') as f:
