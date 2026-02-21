@@ -51,7 +51,7 @@ def process_synonyms(input_file, output_file):
                             count_synonyms += 1
 
     tree.write(output_file, encoding='UTF-8', xml_declaration=True)
-    print(f"Identified {count_synonyms} synonyms.")
+    # print(f"Identified {count_synonyms} synonyms.")
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:

@@ -53,7 +53,6 @@ def process_element(element):
     element[:] = new_children
 
 def process_file(input_file, output_file):
-    print(f"Reading {input_file}...")
     try:
         tree = ET.parse(input_file)
         root = tree.getroot()
@@ -69,15 +68,11 @@ def process_file(input_file, output_file):
                 process_element(card)
                 elements_processed += 1
                 
-        print(f"Processed {elements_processed} elements (cards/meanings).")
-
         # Format the XML if python 3.9+
         if hasattr(ET, 'indent'):
             ET.indent(tree, space="\t", level=0)
             
-        print(f"Writing to {output_file}...")
         tree.write(output_file, encoding='utf-8', xml_declaration=True)
-        print("Done.")
     except Exception as e:
         print(f"Error processing XML: {e}")
         sys.exit(1)

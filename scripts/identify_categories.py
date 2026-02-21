@@ -2,11 +2,8 @@
 import re
 
 def process_file(input_file, output_file):
-    print(f"Reading {input_file}...")
     with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
-
-    print("Processing with optimized regex...")
 
     # Helper to build the regex for a specific number
     # <blockquote> followed by whitespace, then n), then anything EXCEPT closing blockquote
@@ -52,16 +49,12 @@ def process_file(input_file, output_file):
 
     # Apply 6 first (greedy for more items)
     content, n6 = pat6.subn(replacer, content)
-    print(f"Replaced {n6} sequences of 6.")
 
     # Apply 5 next
     content, n5 = pat5.subn(replacer, content)
-    print(f"Replaced {n5} sequences of 5.")
 
-    print(f"Writing to {output_file}...")
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(content)
-    print("Done.")
 
 if __name__ == '__main__':
     import sys
