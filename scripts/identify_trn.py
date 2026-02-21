@@ -21,9 +21,6 @@ class TranslationFilter:
         # 3. Roman numerals
         roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
         self.re_roman = re.compile(r'\b(' + '|'.join(roman_numerals) + r')\b')
-        
-        # 4. Global card content check
-        self.re_global_forbidden = re.compile(r'1\)|2\)|3\)|4\)|5\)|:')
 
         # 5. Ending with forbidden suffixes
         # Suffixes: деп, тти, лды, рды, нды
@@ -48,18 +45,20 @@ class TranslationFilter:
         # Matches word characters followed by a hyphen at the end of the word boundary or string
         self.re_ends_with_hyphen = re.compile(r'\w+-(?!\w)')
 
-    def is_card_globally_forbidden(self, card_text_full):
-        """Checks if the entire card content violates a rule."""
-        if self.re_global_forbidden.search(card_text_full):
-            return True
-        return False
-
     def should_exclude_candidate(self, text, element, k_text):
         """
         Checks a specific text candidate against exclusion rules.
         Returns True if it matches an exclusion rule (skip it).
         """
         if not text:
+            return True
+
+        # Rule: Exclude if contains wordLink
+        if element is not None and element.find('.//wordLink') is not None:
+            return True
+
+        # Rule: Exclude if contains colon
+        if ":" in text:
             return True
 
         # Rule: Exclude if Kyrgyz chars present
@@ -156,14 +155,8 @@ class TRNProcessor:
             self.process_card(card)
 
         tree.write(self.output_file, encoding='UTF-8', xml_declaration=True)
-        print(f"Tagged {self.count_trn_found} new translations.")
 
     def process_card(self, card):
-        # 1. Get all text in the card to check global forbidden
-        card_text_full = "".join(card.itertext())
-        if self.filter.is_card_globally_forbidden(card_text_full):
-            return
-
         # 2. Prepare k_text for checking
         k_elem = card.find('k')
         k_text = ""
@@ -191,10 +184,25 @@ class TRNProcessor:
         target_text = ""
         
         for bq in blockquotes:
-            # Skip if contains wordLink
-            if bq.find('.//wordLink') is not None:
+            prev_sibling_is_colloc = False
+            for parent in element.iter():
+                children = list(parent)
+                if bq in children:
+                    idx = children.index(bq)
+                    if idx > 0 and children[idx-1].tag == 'collocationIdentifier':
+                        prev_sibling_is_colloc = True
+                    break
+            if prev_sibling_is_colloc:
                 continue
-                
+
+            parent_is_minicard = False
+            for mc in element.iter('miniCard'):
+                if bq in list(mc):
+                    parent_is_minicard = True
+                    break
+            if parent_is_minicard:
+                continue
+
             t = "".join(bq.itertext()).strip()
             if t:
                 target_bq = bq
