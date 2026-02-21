@@ -51,7 +51,6 @@ def process_file(input_file, output_file):
                 count_modified += 1
 
     tree.write(output_file, encoding='UTF-8', xml_declaration=True)
-    print(f"Modified {count_modified} meanings.")
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
