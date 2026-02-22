@@ -62,29 +62,9 @@ process_cards() {
     # Process cards
     local processed_file="$input_file"
 
-    # # Extract trn to a separate file
-    # local trn_only_file="${dir}/${filename}_trn_only.xml"
-    # python3 extract_trn.py "$processed_file" "$trn_only_file"
-    # lint "$trn_only_file"
-
-    # # Extract suspicious Kyrgyz items from TRN
-    # local kyrgyz_items_file="${dir}/${filename}_kyrgyz_in_trn.txt"
-    # python3 extract_kyrgyz_items.py "$trn_only_file" "$kyrgyz_items_file"
-
-    # Filter cards with trn to a separate file
-    # local processed_filtered_file="${dir}/${filename}_cards_with_trn.xml"
-    # python3 filter_cards_with_trn.py "$processed_file" "$processed_filtered_file"
-    # lint "$processed_filtered_file"
-
-    # Filter cards without trn to a separate file
-    # local processed_no_trn_file="${dir}/${filename}_cards_without_trn.xml"
-    # python3 filter_cards_without_trn.py "$processed_file" "$processed_no_trn_file"
-    # lint "$processed_no_trn_file"
+    # local special_file="${dir}/${filename}_special_cards.xml"
+    # python3 extract_special_cards.py "$processed_file" "$special_file"
+    # lint "$special_file"
 }
 
-# Extract "a" cards
-# a_cards_file=../chatGPT_exp/a.xml
-# python3 extract_a_cards.py "$converted_dict" "$a_cards_file"
-
-# process_cards "$a_cards_file"
 process_cards "$converted_dict"
