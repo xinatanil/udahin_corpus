@@ -63,6 +63,13 @@ process_cards() {
     local processed_file="$input_file"
 
 	bash calculate_tag_counts.sh "$processed_file"
+
+	local colon_cards_file="${dir}/${filename}_colon_cards.xml"
+	python3 extract_cards_with_colon.py "$processed_file" "$colon_cards_file"
+
+	if [ -f "$colon_cards_file" ]; then
+		lint "$colon_cards_file"
+	fi
 }
 
 process_cards "$converted_dict"
