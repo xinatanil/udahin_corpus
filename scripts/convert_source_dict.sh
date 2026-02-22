@@ -62,9 +62,7 @@ process_cards() {
     # Process cards
     local processed_file="$input_file"
 
-    # local special_file="${dir}/${filename}_special_cards.xml"
-    # python3 extract_special_cards.py "$processed_file" "$special_file"
-    # lint "$special_file"
+	bash calculate_tag_counts.sh "$processed_file"
 }
 
 process_cards "$converted_dict"
