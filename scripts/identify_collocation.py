@@ -8,17 +8,31 @@ def process_file(input_file, output_file):
 
         elements_processed = 0
         for card in root.iter('card'):
-            # Iterate using index since we are going to modify the list of children
-            for i, child in enumerate(list(card)):
-                if child.tag == 'k' and child.text and child.text.strip().endswith(':'):
-                    # Remove ':' from <k>'s text
-                    child.text = child.text.strip()[:-1].rstrip()
-                    
-                    # Insert <collocationIdentifier>:</collocationIdentifier> after <k>
-                    colloc_id = ET.Element('collocationIdentifier')
-                    colloc_id.text = ':'
-                    card.insert(i + 1, colloc_id)
-                    elements_processed += 1
+            children = list(card)
+            for i, child in enumerate(children):
+                if child.tag == 'k':
+                    if child.text and child.text.strip().endswith(':'):
+                        # Remove ':' from <k>'s text
+                        child.text = child.text.strip()[:-1].rstrip()
+                        
+                        # Insert <collocationIdentifier>:</collocationIdentifier> after <k>
+                        colloc_id = ET.Element('collocationIdentifier')
+                        colloc_id.text = ':'
+                        current_idx = list(card).index(child)
+                        card.insert(current_idx + 1, colloc_id)
+                        elements_processed += 1
+                    elif i + 1 < len(children):
+                        next_child = children[i + 1]
+                        if next_child.tag == 'blockquote' and next_child.text and next_child.text.strip().endswith(':'):
+                            # Remove colon from the <blockquote>
+                            next_child.text = next_child.text.strip()[:-1].rstrip()
+                            
+                            # Insert <collocationIdentifier>:</collocationIdentifier> after <blockquote>
+                            colloc_id = ET.Element('collocationIdentifier')
+                            colloc_id.text = ':'
+                            current_idx = list(card).index(next_child)
+                            card.insert(current_idx + 1, colloc_id)
+                            elements_processed += 1
                         
         if hasattr(ET, 'indent'):
             ET.indent(tree, space="\t", level=0)
