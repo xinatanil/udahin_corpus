@@ -45,11 +45,30 @@ with open(inputFilename, 'r' ) as f:
         re_meta_only = re.compile(f"^({metaWord})$")
         re_origin_only = re.compile(f"^({originWord})$")
         
+        parent_map = {c: p for p in root.iter() for c in p}
+        
         cards = root.findall('.//card')
         for card in cards:
-            meanings = card.findall('.//meaning')
-            for meaning in meanings:
-                blockquotes = meaning.findall('./blockquote')
+            for bq in card.findall('.//blockquote'):
+                if bq.text:
+                    text_stripped = bq.text.strip()
+                    # Match "южн. [" followed by one word (no spaces) followed by "]"
+                    match = re.search(r'(южн\.\s+\[[^\]\s]+\])$', text_stripped)
+                    if match:
+                        matched_text = match.group(1)
+                        bq.text = text_stripped[:match.start()].rstrip()
+                        
+                        meta_el = ET.Element('meta')
+                        meta_el.text = matched_text
+                        meta_el.tail = '\n'
+                        
+                        parent = parent_map[bq]
+                        bq_idx = list(parent).index(bq)
+                        parent.insert(bq_idx + 1, meta_el)
+
+            parents_to_check = [card] + card.findall('.//meaning')
+            for p in parents_to_check:
+                blockquotes = p.findall('./blockquote')
                 if not blockquotes:
                     continue
                 
@@ -89,10 +108,10 @@ with open(inputFilename, 'r' ) as f:
                         el.tail = '\n'
                         new_elements.append(el)
                     
-                    # Insert into meaning before the blockquote
-                    bq_index = list(meaning).index(bq)
+                    # Insert into parent before the blockquote
+                    bq_index = list(p).index(bq)
                     for el in reversed(new_elements):
-                        meaning.insert(bq_index, el)
+                        p.insert(bq_index, el)
                     
                     # Cleanup blockquote text
                     # Use match.end() to cut out the matched part
