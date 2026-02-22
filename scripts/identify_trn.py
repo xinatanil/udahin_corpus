@@ -178,23 +178,15 @@ class TRNProcessor:
         Checks a candidate element (card or meaning) for a valid blockquote 
         and marks it as a translation if valid.
         """
+        if element.tag == 'card' and element.find('.//collocationIdentifier') is not None:
+            return
+
         # 3. Find FIRST NON-EMPTY blockquote in the element
         blockquotes = element.findall('blockquote')
         target_bq = None
         target_text = ""
         
         for bq in blockquotes:
-            prev_sibling_is_colloc = False
-            for parent in element.iter():
-                children = list(parent)
-                if bq in children:
-                    idx = children.index(bq)
-                    if idx > 0 and children[idx-1].tag == 'collocationIdentifier':
-                        prev_sibling_is_colloc = True
-                    break
-            if prev_sibling_is_colloc:
-                continue
-
             parent_is_minicard = False
             for mc in element.iter('miniCard'):
                 if bq in list(mc):
