@@ -40,7 +40,16 @@ def process_file(input_file, output_file):
                                 current_idx = list(card).index(next_child)
                                 card.insert(current_idx + 1, colloc_id)
                                 elements_processed += 1
-                        
+                elif child.tag == 'blockquote' and child.text and child.text.strip().endswith(']:'):
+                    # Remove ':' from the blockquote
+                    child.text = child.text.strip()[:-1].rstrip()
+                    
+                    # Insert <collocationIdentifier>:</collocationIdentifier> after <blockquote>
+                    colloc_id = ET.Element('collocationIdentifier')
+                    colloc_id.text = ':'
+                    current_idx = list(card).index(child)
+                    card.insert(current_idx + 1, colloc_id)
+                    elements_processed += 1
         if hasattr(ET, 'indent'):
             ET.indent(tree, space="\t", level=0)
             
