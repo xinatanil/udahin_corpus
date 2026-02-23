@@ -11,9 +11,16 @@ def process_glued_cards(input_file, output_file):
         print(f"Error parsing XML: {e}")
         return
 
-    # pattern for the second blockquote
-    # It starts with a linkKeyword, then captures the rest (someWord), followed by " I, II."
-    bq2_pattern = re.compile(rf'^({constants.linkKeyword})(.*?)\s+I,\s*II\.?$')
+    def extract_romans(text):
+        match = re.search(r'\s+([IVX]+(?:\s*,\s*[IVX]+)*)(\.?)$', text.strip())
+        if match:
+            base = text[:match.start()]
+            romans = [x.strip() for x in match.group(1).split(',')]
+            dot = match.group(2)
+            return base, romans, dot
+        return text, [], ""
+
+    link_pattern = re.compile(rf'^({constants.linkKeyword})(.*)$')
     
     cards = list(root.findall('card'))
     for card in cards:
@@ -37,38 +44,36 @@ def process_glued_cards(input_file, output_file):
                 optional_bq_text = children[2].text.strip() if children[2].text else ""
                 bq2_text = children[3].text.strip() if children[3].text else ""
                 
-            # Check bq1 matches "keyWord I, II"
-            if bq1_text == f"{k_text} I, II":
-                # Check bq2 matches "linkKeyword someWord I, II."
-                match = bq2_pattern.match(bq2_text)
+            base1, romans1, dot1 = extract_romans(bq1_text)
+            base2, romans2, dot2 = extract_romans(bq2_text)
+            
+            if base1 == k_text and len(romans1) >= 2 and len(romans1) == len(romans2):
+                match = link_pattern.match(base2)
                 if match:
                     link_kw = match.group(1)
                     some_word = match.group(2)
                     
                     idx = list(root).index(card)
                     
-                    card1 = ET.Element('card')
-                    k1 = ET.SubElement(card1, 'k')
-                    k1.text = f"{k_text} I"
-                    if optional_bq_text is not None:
-                        opt_bq1 = ET.SubElement(card1, 'blockquote')
-                        opt_bq1.text = optional_bq_text
-                    bq1_1 = ET.SubElement(card1, 'blockquote')
-                    bq1_1.text = f"{link_kw}{some_word} I."
-                    
-                    card2 = ET.Element('card')
-                    k2 = ET.SubElement(card2, 'k')
-                    k2.text = f"{k_text} II"
-                    if optional_bq_text is not None:
-                        opt_bq2 = ET.SubElement(card2, 'blockquote')
-                        opt_bq2.text = optional_bq_text
-                    bq2_1 = ET.SubElement(card2, 'blockquote')
-                    # If there is trailing whitespace in some_word we'll just keep it? Actually some_word could be just "наар"
-                    bq2_1.text = f"{link_kw}{some_word} II."
-                    
                     root.remove(card)
-                    root.insert(idx, card2)
-                    root.insert(idx, card1)
+                    
+                    # Insert in reverse order to maintain original forward ordering
+                    for i in reversed(range(len(romans1))):
+                        r1 = romans1[i]
+                        r2 = romans2[i]
+                        
+                        new_card = ET.Element('card')
+                        k_new = ET.SubElement(new_card, 'k')
+                        k_new.text = f"{k_text} {r1}"
+                        
+                        if optional_bq_text is not None:
+                            opt_bq = ET.SubElement(new_card, 'blockquote')
+                            opt_bq.text = optional_bq_text
+                            
+                        bq_new = ET.SubElement(new_card, 'blockquote')
+                        bq_new.text = f"{link_kw}{some_word} {r2}{dot2}"
+                        
+                        root.insert(idx, new_card)
 
     tree.write(output_file, encoding='UTF-8', xml_declaration=True)
 
