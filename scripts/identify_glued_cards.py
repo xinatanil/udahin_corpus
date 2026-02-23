@@ -82,3 +82,18 @@ if __name__ == "__main__":
         print("Usage: python3 identify_glued_cards.py <input> <output>")
         sys.exit(1)
     process_glued_cards(sys.argv[1], sys.argv[2])
+
+
+
+
+
+# TODO: Where do examples go in this case? To both cards?
+# <card>
+#     <k>чектир-</k>
+#     <blockquote>чектир- I, II</blockquote>
+#     <blockquote>понуд. от чек- V, VI;</blockquote>
+#     <blockquote>тамеки чектир- дать покурить или позволить покурить;</blockquote>
+#     <blockquote>канаттууга кактырбай, тумшуктууга чектирбей не позволяя причинить малейшую неприятность; ограждая от малейшей обиды (напр. пестовать ребёнка, заботливо относиться к жене и т.п.);</blockquote>
+#     <blockquote>машакат чектир- см. машакат;</blockquote>
+#     <blockquote>убайым чектир- см. убайым I.</blockquote>
+# </card>
