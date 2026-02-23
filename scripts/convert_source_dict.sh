@@ -16,6 +16,8 @@ lint() {
 
 saxon -xsl:sorting_xsl_template.xsl -s:$input_dict -o:$converted_dict
 
+python3 identify_glued_cards.py $converted_dict $converted_dict
+
 temp_file=$(mktemp)
 saxon -xsl:fix_homonyms.xsl -s:$converted_dict -o:$temp_file
 mv $temp_file $converted_dict
@@ -33,8 +35,6 @@ sed -i '' 's/closingMeaningTag/<\/meaning>/g' $converted_dict
 lint "$converted_dict"
 
 python3 format_numbered_meanings.py "$converted_dict" "$converted_dict"
-
-python3 identify_glued_cards.py $converted_dict $converted_dict
 
 python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_categories.py $converted_dict $converted_dict
