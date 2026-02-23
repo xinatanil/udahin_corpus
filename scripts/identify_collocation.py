@@ -20,7 +20,18 @@ def is_special_blockquote(text):
 		text_stripped == '(только в деепр. прош. вр.):' or
 		text_stripped == '(от г. Ирбит, Ирбитская ярмарка):' or
 		text_stripped == 'только с отриц.:' or
-		text_stripped == '(неправ. вместо кун):'
+		text_stripped == '(неправ. вместо кун):' or
+		text_stripped == 'в сочет. с ай, көк, асман, ава:' or
+		text_stripped == '(менен-ки):' or
+		text_stripped == '(только в сочет. с күбө):' or
+		text_stripped == '(только в сочет. с той):' or
+		text_stripped == '(чамек):' or
+		text_stripped == '(в сочет. с орой или арай):' or
+		text_stripped == '(только в форме чечкедей):' or
+		text_stripped == '(неправ. ыпча):' or
+		text_stripped == '(эт-II -ме):' or
+		text_stripped == '(только в сочет. с жети):' or
+		text_stripped == ':'
     )
 
 def insert_colloc_identifier(card, element):
