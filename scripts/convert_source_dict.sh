@@ -34,6 +34,8 @@ lint "$converted_dict"
 
 python3 format_numbered_meanings.py "$converted_dict" "$converted_dict"
 
+python3 identify_glued_cards.py $converted_dict $converted_dict
+
 python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_categories.py $converted_dict $converted_dict
 python3 identify_minicards.py $converted_dict $converted_dict
