@@ -51,17 +51,13 @@ def process_synonyms(input_file, output_file):
                             count_synonyms += 1
 
             if elem.tag == 'blockquote' and elem.text:
-                if elem.text.strip() == ', ири:':
+                if elem.text.strip() == ', ири':
                     idx = list(card).index(elem)
                     card.remove(elem)
                     
                     syn = ET.Element('synonym')
                     syn.text = 'ири'
-                    bq = ET.Element('blockquote')
-                    bq.text = ':'
-                    
                     card.insert(idx, syn)
-                    card.insert(idx + 1, bq)
 
     tree.write(output_file, encoding='UTF-8', xml_declaration=True)
     # print(f"Identified {count_synonyms} synonyms.")
