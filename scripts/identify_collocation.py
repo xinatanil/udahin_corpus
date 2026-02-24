@@ -61,8 +61,17 @@ def process_file(input_file, output_file):
                         next_child = children[i + 1]
                         if next_child.tag == 'blockquote' and next_child.text:
                             text_stripped = next_child.text.strip()
+                            keyword = child.text.strip() if child.text else ''
                             if pattern.match(text_stripped):
                                 insert_colloc_identifier(card, next_child)
+                                elements_processed += 1
+                            elif keyword and text_stripped.startswith(keyword + ': '):
+                                # Strip "keyWord: " prefix from blockquote
+                                next_child.text = text_stripped[len(keyword) + 2:]
+                                # Insert <collocationIdentifier>:</collocationIdentifier> after <k>
+                                colloc_id = ET.Element('collocationIdentifier')
+                                colloc_id.text = ':'
+                                card.insert(i + 1, colloc_id)
                                 elements_processed += 1
                 elif child.tag == 'blockquote' and child.text and is_special_blockquote(child.text):
                     insert_colloc_identifier(card, child)
