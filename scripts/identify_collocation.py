@@ -31,7 +31,8 @@ def is_special_blockquote(text):
 		text_stripped == '(неправ. ыпча):' or
 		text_stripped == '(эт-II -ме):' or
 		text_stripped == '(только в сочет. с жети):' or
-		text_stripped == ':'
+		text_stripped == ':' or
+		text_stripped == ', ири:'
     )
 
 def insert_colloc_identifier(card, element):
@@ -72,6 +73,13 @@ def process_file(input_file, output_file):
                                 colloc_id = ET.Element('collocationIdentifier')
                                 colloc_id.text = ':'
                                 card.insert(i + 1, colloc_id)
+                                elements_processed += 1
+                            elif keyword and text_stripped.startswith(keyword) and text_stripped.endswith(':'):
+                                # Pattern <k>keyWord</k> <blockquote>keyWord, someWord:</blockquote>
+                                next_child.text = next_child.text.rstrip()[:-1].rstrip()
+                                bq = ET.Element('collocationIdentifier')
+                                bq.text = ':'
+                                card.insert(i + 2, bq)
                                 elements_processed += 1
                 elif child.tag == 'blockquote' and child.text and is_special_blockquote(child.text):
                     insert_colloc_identifier(card, child)
