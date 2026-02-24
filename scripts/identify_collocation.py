@@ -32,7 +32,10 @@ def is_special_blockquote(text):
 		text_stripped == '(эт-II -ме):' or
 		text_stripped == '(только в сочет. с жети):' or
 		text_stripped == ':' or
-		text_stripped == ', ири:'
+		text_stripped == ', ири:' or
+		text_stripped == 'ар.:' or
+		text_stripped == 'южн.:' or
+		text_stripped == '(в эпосе):'
     )
 
 def insert_colloc_identifier(card, element):
