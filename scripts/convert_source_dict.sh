@@ -14,6 +14,10 @@ lint() {
     fi
 }
 
+if [ -f "$converted_dict" ]; then
+    cp "$converted_dict" "${converted_dict}.old"
+fi
+
 saxon -xsl:sorting_xsl_template.xsl -s:$input_dict -o:$converted_dict
 
 python3 identify_glued_cards.py $converted_dict $converted_dict
@@ -76,3 +80,9 @@ process_cards() {
 }
 
 process_cards "$converted_dict"
+
+if [ -f "${converted_dict}.old" ]; then
+    echo "Generating diff..."
+    diff -u "${converted_dict}.old" "$converted_dict" > "${converted_dict}.diff" || true
+    echo "Diff saved to ${converted_dict}.diff"
+fi
