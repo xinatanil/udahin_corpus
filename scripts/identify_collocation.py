@@ -1,3 +1,4 @@
+from constants import linkKeyword
 import sys
 import xml.etree.ElementTree as ET
 import re
@@ -5,6 +6,7 @@ from constants import metaWord, originWord
 
 metaOrOriginWord = f"(?:{metaWord}|{originWord})"
 pattern = re.compile(rf"^(?:{metaOrOriginWord}[ \t]*)+:$")
+link_keyword_pattern = re.compile(rf"^\(?{linkKeyword}\s*$")
 
 def is_special_blockquote(text):
     text_stripped = text.strip()
@@ -38,9 +40,10 @@ def is_special_blockquote(text):
 		text_stripped == '(в эпосе):'
     )
 
-def insert_colloc_identifier(card, element):
-    # Remove ':' from the element's text
-    element.text = element.text.strip()[:-1].rstrip()
+def insert_colloc_identifier(card, element, strip_colon=True):
+    if strip_colon:
+        # Remove ':' from the element's text
+        element.text = element.text.strip()[:-1].rstrip()
     
     # Insert <collocationIdentifier>:</collocationIdentifier> after the element
     colloc_id = ET.Element('collocationIdentifier')
@@ -72,21 +75,16 @@ def process_file(input_file, output_file):
                             elif keyword and text_stripped.startswith(keyword + ': '):
                                 # Strip "keyWord: " prefix from blockquote
                                 next_child.text = text_stripped[len(keyword) + 2:]
-                                # Insert <collocationIdentifier>:</collocationIdentifier> after <k>
-                                colloc_id = ET.Element('collocationIdentifier')
-                                colloc_id.text = ':'
-                                card.insert(i + 1, colloc_id)
+                                insert_colloc_identifier(card, child, strip_colon=False)
                                 elements_processed += 1
                             elif keyword and text_stripped.startswith(keyword) and text_stripped.endswith(':'):
                                 # Pattern <k>keyWord</k> <blockquote>keyWord, someWord:</blockquote>
-                                next_child.text = next_child.text.rstrip()[:-1].rstrip()
-                                bq = ET.Element('collocationIdentifier')
-                                bq.text = ':'
-                                card.insert(i + 2, bq)
+                                insert_colloc_identifier(card, next_child)
                                 elements_processed += 1
-                elif child.tag == 'blockquote' and child.text and is_special_blockquote(child.text):
-                    insert_colloc_identifier(card, child)
-                    elements_processed += 1
+                elif child.tag == 'blockquote' and child.text:
+                    if is_special_blockquote(child.text):
+                        insert_colloc_identifier(card, child)
+                        elements_processed += 1
 
         if hasattr(ET, 'indent'):
             ET.indent(tree, space="\t", level=0)
