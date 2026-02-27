@@ -40,6 +40,10 @@ lint "$converted_dict"
 
 python3 format_numbered_meanings.py "$converted_dict" "$converted_dict"
 
+lint "$converted_dict"
+
+python3 extract_colons.py "$converted_dict" "$converted_dict"
+
 python3 identify_collocation.py $converted_dict $converted_dict
 python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_categories.py $converted_dict $converted_dict
@@ -48,6 +52,7 @@ python3 identify_links.py $converted_dict $converted_dict
 python3 identify_cross_references.py $converted_dict $converted_dict
 python3 identify_meta.py $converted_dict $converted_dict
 python3 identify_trn.py $converted_dict $converted_dict
+python3 identify_examples.py $converted_dict $converted_dict
 
 lint "$converted_dict"
 
@@ -72,7 +77,7 @@ process_cards() {
 	bash calculate_tag_counts.sh "$processed_file"
 
 	local colon_cards_file="${dir}/${filename}_colon_cards.xml"
-	python3 extract_cards_with_colon.py "$processed_file" "$colon_cards_file"
+	python3 extract_colon_lines.py "$processed_file" "$colon_cards_file"
 
 	if [ -f "$colon_cards_file" ]; then
 		lint "$colon_cards_file"

@@ -2,43 +2,8 @@ from constants import linkKeyword
 import sys
 import xml.etree.ElementTree as ET
 import re
-from constants import metaWord, originWord
+from extract_colons import COLON_ENDING_EXCEPTIONS, COLON_OTHER_EXCEPTIONS
 
-metaOrOriginWord = f"(?:{metaWord}|{originWord})"
-pattern = re.compile(rf"^(?:{metaOrOriginWord}[ \t]*)+:$")
-link_keyword_pattern = re.compile(rf"^\(?{linkKeyword}\s*$")
-
-def is_special_blockquote(text):
-    text_stripped = text.strip()
-    return (
-        text_stripped.endswith(']:') or
-        (text_stripped.startswith('усиление к словам, начинающимся на ') and text_stripped.endswith(':')) or
-        text_stripped == 'подражательное слово:' or
-		text_stripped == 'бирин (бир-ин):' or
-		text_stripped == 'в отриц. форме:' or
-		text_stripped == '(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. жабуу III):' or
-		text_stripped == '(встречено только в отриц. форме):' or
-		text_stripped == 'в выражениях сожаления, досады:' or
-		text_stripped == '(только в деепр. прош. вр.):' or
-		text_stripped == '(от г. Ирбит, Ирбитская ярмарка):' or
-		text_stripped == 'только с отриц.:' or
-		text_stripped == '(неправ. вместо кун):' or
-		text_stripped == 'в сочет. с ай, көк, асман, ава:' or
-		text_stripped == '(менен-ки):' or
-		text_stripped == '(только в сочет. с күбө):' or
-		text_stripped == '(только в сочет. с той):' or
-		text_stripped == '(чамек):' or
-		text_stripped == '(в сочет. с орой или арай):' or
-		text_stripped == '(только в форме чечкедей):' or
-		text_stripped == '(неправ. ыпча):' or
-		text_stripped == '(эт-II -ме):' or
-		text_stripped == '(только в сочет. с жети):' or
-		text_stripped == ':' or
-		text_stripped == ', ири:' or
-		text_stripped == 'ар.:' or
-		text_stripped == 'южн.:' or
-		text_stripped == '(в эпосе):'
-    )
 
 def insert_colloc_identifier(card, element, strip_colon=True):
     if strip_colon:
@@ -51,40 +16,45 @@ def insert_colloc_identifier(card, element, strip_colon=True):
     current_idx = list(card).index(element)
     card.insert(current_idx + 1, colloc_id)
 
+
+def is_exception(text):
+    """Check if this text is a known exception that should NOT get a collocation identifier."""
+    stripped = text.strip()
+    return stripped in COLON_ENDING_EXCEPTIONS or stripped in COLON_OTHER_EXCEPTIONS
+
+
+def process_card(card, children):
+    """
+    For any element containing ':', if it's not in the exception lists,
+    insert a collocation identifier.
+    
+    Returns: number of elements processed
+    """
+    elements_processed = 0
+    
+    for child in children:
+        if child.text and ':' in child.text:
+            text_stripped = child.text.strip()
+            if is_exception(text_stripped):
+                continue
+            insert_colloc_identifier(card, child)
+            elements_processed += 1
+    
+    return elements_processed
+
+
 def process_file(input_file, output_file):
     try:
         tree = ET.parse(input_file)
         root = tree.getroot()
 
-        elements_processed = 0
+        total_count = 0
+        
         for card in root.iter('card'):
             children = list(card)
-            for i, child in enumerate(children):
-                if child.tag == 'k':
-                    if child.text and child.text.strip().endswith(':'):
-                        insert_colloc_identifier(card, child)
-                        elements_processed += 1
-                    elif i + 1 < len(children):
-                        next_child = children[i + 1]
-                        if next_child.tag == 'blockquote' and next_child.text:
-                            text_stripped = next_child.text.strip()
-                            keyword = child.text.strip() if child.text else ''
-                            if pattern.match(text_stripped):
-                                insert_colloc_identifier(card, next_child)
-                                elements_processed += 1
-                            elif keyword and text_stripped.startswith(keyword + ': '):
-                                # Strip "keyWord: " prefix from blockquote
-                                next_child.text = text_stripped[len(keyword) + 2:]
-                                insert_colloc_identifier(card, child, strip_colon=False)
-                                elements_processed += 1
-                            elif keyword and text_stripped.startswith(keyword) and text_stripped.endswith(':'):
-                                # Pattern <k>keyWord</k> <blockquote>keyWord, someWord:</blockquote>
-                                insert_colloc_identifier(card, next_child)
-                                elements_processed += 1
-                elif child.tag == 'blockquote' and child.text:
-                    if is_special_blockquote(child.text):
-                        insert_colloc_identifier(card, child)
-                        elements_processed += 1
+            total_count += process_card(card, children)
+
+        print(f"Total collocations processed: {total_count}")
 
         if hasattr(ET, 'indent'):
             ET.indent(tree, space="\t", level=0)
