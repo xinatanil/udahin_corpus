@@ -130,11 +130,19 @@ for i, line in enumerate(lines):
                 continue
             rest_by_tag[tag].append(combined_block)
 
+def sort_key(block):
+    """Sort by match line text (first line of block), alphabetically."""
+    first_line = block.split('\n')[0]
+    # Strip XML tags for clean sorting
+    text = re.sub(r'<[^>]+>', '', first_line).strip().lower()
+    return text
+
+
 with open('/Users/xinatanil/Sources/udahin/chatGPT_exp/tags_ending_with_colon.txt', 'w', encoding='utf-8') as f:
-    for block in sorted(ending_with_colon):
-        f.write(block + '\n\n')
+    for block in sorted(ending_with_colon, key=sort_key):
+        f.write(block + '\n\n\n')
 
 for tag, blocks_list in rest_by_tag.items():
     with open(f'/Users/xinatanil/Sources/udahin/chatGPT_exp/tags_rest_{tag}.txt', 'w', encoding='utf-8') as f:
-        for block in sorted(blocks_list):
-            f.write(block + '\n\n')
+        for block in sorted(blocks_list, key=sort_key):
+            f.write(block + '\n\n\n')
