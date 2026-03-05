@@ -12,6 +12,73 @@ COLON_ENDING_EXCEPTIONS = [
 	'(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. жабуу III):',
 ]
 
+# Lines ending with ':' that are confirmed collocations (checked against PDF)
+COLON_ENDING_CHECKED = [
+	'(в сочет. с орой или арай):',
+	'(вместо катыр, хатыр):',
+	'(вместо пороз):',
+	'(встречается только с киргизским аффиксом мн. ч.):',
+	'(встречено только в отриц. форме):',
+	'(деги эле; см. деги, эле I):',
+	'(или ай-ий или айиий или эмфатически ай-и-и-й) возглас удивления или сожаления:',
+	'(или кам тагана, кам такана):',
+	'(обычно в сочет. с түш-):',
+	'(от г. Ирбит, Ирбитская ярмарка):',
+	'(см. кыйгач):',
+	'(см. сөөк 2):',
+	'(ср. акыш I, акуш):',
+	'(ср. каз. куралай горная коза):',
+	'(ср. кемтик):',
+	'(ср. кой- II):',
+	'(ср. кур IV):',
+	'(ср. көйүт-):',
+	'(ср. монг. хурган ягнёнок):',
+	'(ср. олбуш-):',
+	'(ср. олой-):',
+	'(ср. соёчор):',
+	'(ср. тарт-):',
+	'(ср. тат. күкай):',
+	'(ср. таң I, таңда):',
+	'(ср. тогуз 2):',
+	'(ср. тув. оона самец косули, сайги, монг. самец антилопы):',
+	'(ср. тырмак):',
+	'(ср. ыдык):',
+	'(только в деепр. прош. вр.):',
+	'(только в соединении с увакыт или көңүл):',
+	'(только в сочет. с жети):',
+	'(только в сочет. с той):',
+	'(только в сочет. с урун-; ср. тат., башк. бэр):',
+	'(только в форме чечкедей):',
+	'(только с числительным бир):',
+	', ири:',
+	'алагар, алагай:',
+	'арык уйга жоон мүйүздүн кереги жок погов. тощей корове большие рога не нужны (они её не украсят):',
+	'баакы II:',
+	'бирин (бир-ин):',
+	'богоздо-, богузда-:',
+	'бурчактык, буурчактык:',
+	'в выражениях сожаления, досады:',
+]
+
+# Lines ending with ':' that are questionable collocations (not sure if they are collocations)
+COLON_ENDING_QUESTIONABLE = [
+	'2) (в стихах для аллитерации иногда) то же, что көк муштум:',
+	'2) большие и малые (по общественному положению):',
+	'2) выражает побуждение:',
+	'3) при условной форме выражает сожаление:',
+	'ай-ий, уят-ай! ай, какой стыд!:',
+	'актан сыздаган шордуу бедняжка, пострадавшая без вины:',
+	'алма бурак запах яблока, яблочный запах:',
+	'арпа кер жаак болуп калды ячмень вот-вот поспеет:',
+	'бери бак- обычно в отриц. обороте:',
+	'беш убак намаз пять уставных молитв:',
+	'бутунун башы менен на цыпочках:',
+	'в знач. утверждения при отриц. форме:',
+	'в исх. п. и с притяж. аффиксом 3 л.:',
+	'в роли вспомогательного глагола с деепр. наст. вр. выражает:',
+	'в роли вспомогательного глагола:',
+]
+
 # Lines with ':' in the middle that are NOT collocations (skip them)
 COLON_OTHER_EXCEPTIONS = [
 ]
@@ -106,6 +173,12 @@ def is_colon_ending_exception(content):
     return content.strip() in COLON_ENDING_EXCEPTIONS
 
 
+def is_colon_ending_already_reviewed(content):
+    """Check if this line was already manually reviewed (checked or questionable)."""
+    text = content.strip()
+    return text in COLON_ENDING_CHECKED or text in COLON_ENDING_QUESTIONABLE
+
+
 def is_colon_other_exception(content):
     """Check if this mid-colon line is a known exception (not a collocation)."""
     return content.strip() in COLON_OTHER_EXCEPTIONS
@@ -122,7 +195,7 @@ for i, line in enumerate(lines):
         combined_block = line + "\n---\n" + "\n".join(context_lines)
 
         if content.endswith(':'):
-            if is_colon_ending_exception(content) or is_proven_collocation_ending(tag, content):
+            if is_colon_ending_exception(content) or is_proven_collocation_ending(tag, content) or is_colon_ending_already_reviewed(content):
                 continue
             ending_with_colon.append(combined_block)
         else:
@@ -142,7 +215,14 @@ with open('/Users/xinatanil/Sources/udahin/chatGPT_exp/tags_ending_with_colon.tx
     for block in sorted(ending_with_colon, key=sort_key):
         f.write(block + '\n\n\n')
 
+with open('/Users/xinatanil/Sources/udahin/chatGPT_exp/tags_ending_with_colon_lines.txt', 'w', encoding='utf-8') as f:
+    for block in sorted(ending_with_colon, key=sort_key):
+        f.write(block.split('\n', 1)[0] + '\n')
+
 for tag, blocks_list in rest_by_tag.items():
     with open(f'/Users/xinatanil/Sources/udahin/chatGPT_exp/tags_rest_{tag}.txt', 'w', encoding='utf-8') as f:
         for block in sorted(blocks_list, key=sort_key):
             f.write(block + '\n\n\n')
+    with open(f'/Users/xinatanil/Sources/udahin/chatGPT_exp/tags_rest_{tag}_lines.txt', 'w', encoding='utf-8') as f:
+        for block in sorted(blocks_list, key=sort_key):
+            f.write(block.split('\n', 1)[0] + '\n')
