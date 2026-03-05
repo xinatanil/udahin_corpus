@@ -10,6 +10,8 @@ metaOrOriginPattern = re.compile(rf"^(?:{metaOrOriginWord}[ \t]*)+:$")
 COLON_ENDING_EXCEPTIONS = [
 	'(в народе их делили на несколько групп, придавая каждой из них свой эпитет:',
 	'(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. жабуу III):',
+	'ист. батыр (предводитель военной дружины, прославившийся своей храбростью или военным искусством; обычно свою деятельность батыр начинал с угона чужого скота, что считалось молодечеством; батыры в народе делились на шесть категорий:',
+	'ист. сев. манап (представитель верхушки киргизской феодально-родовой знати, который, не имея личной собственности, жил за счёт управляемого им населения и распоряжался его собственностью; одни манапы управляли несколькими родами, племенами, а другие - только частью волости; поэтому по значимости манапы делились на несколько категорий:'
 ]
 
 # Lines ending with ':' that are confirmed collocations (checked against PDF)
@@ -97,7 +99,7 @@ def is_content_line(line):
     return True
 
 
-def gather_context(lines, match_idx, n_before=2, n_after=2):
+def gather_context(lines, match_idx, n_before=3, n_after=3):
     """
     Gather n content lines before and after match_idx, skipping bare tag lines.
     Returns a list of lines including the match line.
