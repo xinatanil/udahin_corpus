@@ -40,7 +40,9 @@ def find_text_in_pages(page_texts, target_text, min_ratio=0.5):
     best_page = -1
     step = max(1, target_len // 4)
 
-    for page_num, page_clean in enumerate(page_texts):
+    start_page = 16
+    for page_num in range(start_page, len(page_texts)):
+        page_clean = page_texts[page_num]
         if len(page_clean) < target_len:
             continue
 
@@ -74,20 +76,23 @@ def get_highlight_rect(doc, page_num, target_text):
     return fitz.Rect(50, h * 0.3, w - 50, h * 0.7)
 
 
-def render_page_with_highlight(page_num, rect, output_path):
-    """Render a PDF page with a yellow semi-transparent highlight and save as PNG."""
+def render_page_with_highlight_data_uri(page_num, rect):
+    """Render a highlighted PDF page and return a PNG data URI for embedding in HTML."""
     # Open a fresh copy so highlights don't accumulate
     doc = fitz.open(PDF_PATH)
     page = doc[page_num]
 
     shape = page.new_shape()
     shape.draw_rect(rect)
-    shape.finish(color=(1, 0.85, 0), fill=(1, 1, 0), fill_opacity=0.3, stroke_opacity=0.3, width=2)
+    yellow = (1, 1, 0)
+    shape.finish(color=yellow, fill=yellow, fill_opacity=0.3, stroke_opacity=0.3, width=2)
     shape.commit()
 
     pix = page.get_pixmap(matrix=fitz.Matrix(2, 2))
-    pix.save(output_path)
+    png_bytes = pix.tobytes("png")
     doc.close()
+    png_b64 = base64.b64encode(png_bytes).decode('ascii')
+    return f"data:image/png;base64,{png_b64}"
 
 
 def parse_blocks(file_path):
@@ -156,6 +161,10 @@ HTML_HEADER = """<!DOCTYPE html>
 <div class="stats" id="stats"></div>
 """
 
+HTML_FOOTER = """
+</body></html>
+"""
+
 
 def result_to_html(r):
     """Convert a single result dict to an HTML block."""
@@ -164,15 +173,25 @@ def result_to_html(r):
     parts.append(f'<div class="{css_class}">')
     parts.append(f'  <div class="idx">#{r["idx"]}</div>')
     parts.append(f'  <div class="target">{escape_html(r["target_line"])}</div>')
+    parts.append(f'  <div class="context">{escape_html(r["context"])}</div>')
     if r['page']:
         parts.append(f'  <div class="info">Page {r["page"]} &mdash; ratio: {r["ratio"]:.3f}</div>')
         if r['png']:
             parts.append(f'  <img src="{r["png"]}" alt="Page {r["page"]}">')
     else:
         parts.append(f'  <div class="info" style="color: #f44;">NOT FOUND</div>')
-    parts.append(f'  <div class="context">{escape_html(r["context"])}</div>')
     parts.append(f'</div>')
     return '\n'.join(parts)
+
+
+def write_single_result_html(output_path, result, found_count=1, total=1):
+    with open(output_path, 'w', encoding='utf-8') as html_file:
+        html_file.write(HTML_HEADER)
+        html_file.write(result_to_html(result) + '\n')
+        html_file.write(
+            f'\n<script>document.getElementById("stats").textContent = "Found: {found_count} / {total}";</script>\n'
+        )
+        html_file.write(HTML_FOOTER)
 
 
 def main():
@@ -194,57 +213,44 @@ def main():
     total = len(blocks)
     print(f"Found {total} target blocks to search for\n")
 
-    # Write HTML header immediately
-    html_path = os.path.join(output_dir, "results.html")
-    html_file = open(html_path, 'w', encoding='utf-8')
-    html_file.write(HTML_HEADER)
-
     found_count = 0
 
-    try:
-        for idx, (target_text, target_line, context) in enumerate(blocks):
-            short_target = target_text[:80] + ('...' if len(target_text) > 80 else '')
-            print(f"[{idx + 1}/{total}] Searching: {short_target}")
+    for idx, (target_text, target_line, context) in enumerate(blocks):
+        short_target = target_text[:80] + ('...' if len(target_text) > 80 else '')
+        print(f"[{idx + 1}/{total}] Searching: {short_target}")
 
-            match = find_text_in_pages(page_texts, target_text)
-            base_name = f"{idx + 1:04d}"
+        match = find_text_in_pages(page_texts, target_text)
+        result = {
+            'idx': idx + 1,
+            'target_line': target_line,
+            'target_text': target_text,
+            'context': context,
+            'page': None,
+            'ratio': 0,
+            'png': None,
+        }
 
-            result = {
-                'idx': idx + 1,
-                'target_line': target_line,
-                'target_text': target_text,
-                'context': context,
-                'page': None,
-                'ratio': 0,
-                'png': None,
-            }
+        if match:
+            page_num, ratio = match
+            rect = get_highlight_rect(doc, page_num, target_text)
+            png_data_uri = render_page_with_highlight_data_uri(page_num, rect)
+            result['page'] = page_num + 1
+            result['ratio'] = ratio
+            result['png'] = png_data_uri
+            print(f"  -> Found on page {page_num + 1} (ratio: {ratio:.3f})")
+            found_count += 1
+            found_in_file = 1
+        else:
+            print(f"  -> No match found")
+            found_in_file = 0
 
-            if match:
-                page_num, ratio = match
-                rect = get_highlight_rect(doc, page_num, target_text)
-                png_name = f"{base_name}.png"
-                png_path = os.path.join(output_dir, png_name)
-                render_page_with_highlight(page_num, rect, png_path)
-                result['page'] = page_num + 1
-                result['ratio'] = ratio
-                result['png'] = png_name
-                print(f"  -> Found on page {page_num + 1} (ratio: {ratio:.3f})")
-                found_count += 1
-            else:
-                print(f"  -> No match found")
-
-            # Write this result to HTML immediately
-            html_file.write(result_to_html(result) + '\n')
-            html_file.flush()
-    finally:
-        # Always close the HTML properly, even on Ctrl+C
-        html_file.write(f'\n<script>document.getElementById("stats").textContent = "Found: {found_count} / {total}";</script>\n')
-        html_file.write('</body></html>\n')
-        html_file.close()
+        html_path = os.path.join(output_dir, f"{idx + 1:04d}.html")
+        write_single_result_html(html_path, result, found_count=found_in_file, total=1)
+        print(f"  -> Wrote {html_path}")
 
     print(f"\n{'=' * 40}")
     print(f"Done! Found {found_count}/{total} targets")
-    print(f"Open: {html_path}")
+    print(f"Open any result file like: {os.path.join(output_dir, '0001.html')}")
 
     doc.close()
 
