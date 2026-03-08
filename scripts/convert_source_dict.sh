@@ -49,6 +49,7 @@ python3 identify_minicards.py $converted_dict $converted_dict
 python3 identify_links.py $converted_dict $converted_dict
 python3 identify_cross_references.py $converted_dict $converted_dict
 python3 identify_meta.py $converted_dict $converted_dict
+python3 identify_cross_references.py $converted_dict $converted_dict
 python3 identify_trn.py $converted_dict $converted_dict
 python3 identify_examples.py $converted_dict $converted_dict
 
