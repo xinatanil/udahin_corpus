@@ -57,6 +57,13 @@ def process_card(card, children):
                 elif metaOrOriginPattern.match(text):
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
+                elif text == ', ири:':
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1
+                elif text.endswith(']:'):
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1
+
     return elements_processed
 
 
