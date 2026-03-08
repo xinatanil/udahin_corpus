@@ -2,8 +2,6 @@ from constants import linkKeyword
 import sys
 import xml.etree.ElementTree as ET
 import re
-from extract_colons import COLON_ENDING_EXCEPTIONS, COLON_OTHER_EXCEPTIONS
-
 
 def insert_colloc_identifier(card, element, strip_colon=True):
     if strip_colon:
@@ -16,29 +14,43 @@ def insert_colloc_identifier(card, element, strip_colon=True):
     current_idx = list(card).index(element)
     card.insert(current_idx + 1, colloc_id)
 
-
-def is_exception(text):
-    """Check if this text is a known exception that should NOT get a collocation identifier."""
-    stripped = text.strip()
-    return stripped in COLON_ENDING_EXCEPTIONS or stripped in COLON_OTHER_EXCEPTIONS
+def get_keyword(card):
+    """Get the keyword text from the card's <k> element."""
+    k = card.find('k')
+    if k is not None and k.text:
+        return k.text.strip()
+    return None
 
 
 def process_card(card, children):
-    """
-    For any element containing ':', if it's not in the exception lists,
-    insert a collocation identifier.
-    
-    Returns: number of elements processed
-    """
     elements_processed = 0
     
     for child in children:
         if child.text and ':' in child.text:
-            text_stripped = child.text.strip()
-            if is_exception(text_stripped):
-                continue
-            insert_colloc_identifier(card, child)
-            elements_processed += 1
+            text = child.text.strip()
+
+            if child.tag == 'k' and text.endswith(':'):
+                # <k> ending with ':' — strip colon, insert collocationIdentifier after <k>
+                insert_colloc_identifier(card, child)
+                elements_processed += 1
+            elif child.tag == 'blockquote':
+                # Only process blockquotes immediately after <k>
+                child_idx = children.index(child)
+                if child_idx == 0 or children[child_idx - 1].tag != 'k':
+                    continue
+                keyword = get_keyword(card)
+                if keyword and text.startswith(keyword + ': '):
+                    # Strip "keyword: " from blockquote text
+                    child.text = text[len(keyword) + 2:]
+                    # Insert collocationIdentifier BEFORE the blockquote
+                    colloc_id = ET.Element('collocationIdentifier')
+                    colloc_id.text = ':'
+                    current_idx = list(card).index(child)
+                    card.insert(current_idx, colloc_id)
+                    elements_processed += 1
+                elif keyword and text.startswith(keyword) and text.endswith(':'):
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1
     
     return elements_processed
 
