@@ -42,9 +42,6 @@ python3 format_numbered_meanings.py "$converted_dict" "$converted_dict"
 
 lint "$converted_dict"
 
-python3 extract_colons.py "$converted_dict"
-python3 search_pdf.py ../chatGPT_exp/tags_ending_with_colon.txt ../chatGPT_exp/tags_ending_with_colon_pdf_results
-
 python3 identify_collocation.py $converted_dict $converted_dict
 python3 identify_synonyms.py $converted_dict $converted_dict
 python3 identify_categories.py $converted_dict $converted_dict
