@@ -129,13 +129,15 @@ class TRNProcessor:
         #        <k>радиола</k>
         #        <blockquote>радиола.</blockquote>
         #    </card>
-        # to
+        # or
         #    <card>
-        #        <k>радиола</k>
-        #        <trn>радиола</trn>
+        #        <k>транспорт</k>
+        #        <blockquote>транспорт;</blockquote>
+        #        <blockquote>...</blockquote>
         #    </card>
-        return re.sub(r'<card>\n\t\t<k>(.+)</k>\n\t\t<blockquote>\1\.</blockquote>', 
-                      r'<card>\n\t\t<k>\1</k>\n\t\t<trn>\1.</trn>', 
+        # converts first blockquote to <trn> when it matches the keyword
+        return re.sub(r'(<card>\n\t\t<k>(.+)</k>\n\t\t)<blockquote>\2([.;])</blockquote>', 
+                      r'\1<trn>\2\3</trn>', 
                       content, flags=re.M)
 
     def process(self):
