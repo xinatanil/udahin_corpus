@@ -1,7 +1,10 @@
-from constants import linkKeyword
+from constants import metaWord, originWord
 import sys
 import xml.etree.ElementTree as ET
 import re
+
+metaOrOriginWord = f"(?:{metaWord}|{originWord})"
+metaOrOriginPattern = re.compile(rf"^(?:{metaOrOriginWord}[ \t]*)+:$")
 
 def insert_colloc_identifier(card, element, strip_colon=True):
     if strip_colon:
@@ -51,7 +54,9 @@ def process_card(card, children):
                 elif keyword and text.startswith(keyword) and text.endswith(':'):
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
-    
+                elif metaOrOriginPattern.match(text):
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1
     return elements_processed
 
 
