@@ -90,3 +90,81 @@ if __name__ == '__main__':
         sys.exit(1)
         
     process_file(input_filename, output_filename)
+
+
+
+# Can these be considered collocations? Not sure about that, let's figure it out later
+
+# """
+# <k>булжут-</k>
+# <blockquote>в отриц. форме:</blockquote>
+
+# <k>бүлк</k>
+# <blockquote>подражательное слово:</blockquote>
+
+# <k>дап I</k>
+# <blockquote>усиление к словам, начинающимся на да:</blockquote>
+
+# <k>жабы II</k>
+# <blockquote>(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. жабуу III):</blockquote>
+
+# <k>жеңде-</k>
+# <blockquote>(только в деепр. прош. вр.):</blockquote>
+
+# <k>булжут-</k>
+# <blockquote>в отриц. форме:</blockquote>
+
+# <k>жою-</k>
+# <blockquote>(встречено только в отриц. форме):</blockquote>
+
+# <k>зың II</k>
+# <blockquote>подражательное слово:</blockquote>
+
+# <k>ир I</k>
+# <blockquote>, ири:</blockquote>
+
+# <k>Ирбит</k>
+# <blockquote>(от г. Ирбит, Ирбитская ярмарка):</blockquote>
+
+# <k>кыйыр I</k>
+# <blockquote>(с притяж. аффиксами: кыйыры или кыйры, кыйырым или кыйрым и. т. д.)</blockquote>
+
+# <k>мелжи-</k>
+# <blockquote>в сочет. с ай, көк, асман, ава:</blockquote>
+
+# <k>мененки</k>
+# <blockquote>(менен-ки):</blockquote>
+
+# <k>мому</k>
+# <blockquote>вот это (только в косвенных падежах: момуну вин. п., момунда местн. п.).</blockquote>
+
+# <k>танык II</k>
+# <blockquote>(только в сочет. с күбө):</blockquote>
+
+# <k>тапа</k>
+# <blockquote>усиление к словам, начинающимся на та:</blockquote>
+
+# <k>топот</k>
+# <blockquote>(только в сочет. с той):</blockquote>
+
+# <k>упай</k>
+# <blockquote>название игры в альчики: играют двое: окчу (см.) и кийикчи (см.).</blockquote>
+
+# <k>чамалек</k>
+# <blockquote>(чамек):</blockquote>
+
+# <k>чарай</k>
+# <blockquote>(в сочет. с орой или арай):</blockquote>
+
+# <k>чечке</k>
+# <blockquote>(только в форме чечкедей):</blockquote>
+
+# <k>эпчи</k>
+# <blockquote>(неправ. ыпча):</blockquote>
+
+# <k>этме</k>
+# <blockquote>(эт-II -ме):</blockquote>
+
+# <k>өмүр II</k>
+# <blockquote>(только в сочет. с жети):</blockquote>
+# """
