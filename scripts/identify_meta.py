@@ -116,6 +116,10 @@ with open(inputFilename, 'r' ) as f:
                     # Cleanup blockquote text
                     # Use match.end() to cut out the matched part
                     new_text = text[match.end():].lstrip()
+                    # Preserve trailing space if blockquote has child elements
+                    # (e.g. <wordLink>) — otherwise the text runs into the tag
+                    if len(bq) > 0 and bq.text and bq.text[-1] == ' ':
+                        new_text = new_text + ' '
                     bq.text = new_text
 
         # Convert back to string
