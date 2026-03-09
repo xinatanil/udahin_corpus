@@ -60,6 +60,12 @@ def process_card(card, children):
                 elif text == ', ири:':
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
+                elif text == '(неправ. ыпча):':
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1
+                elif text == '(неправ. вместо кун):':
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1
                 elif text.endswith(']:'):
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
