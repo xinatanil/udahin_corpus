@@ -14,15 +14,6 @@ content_new = re.sub(
     flags=re.M
 )
 
-content_new = content_new.replace(
-    '<blockquote>(неправ. вместо аа)</blockquote>',
-    '<alternativeForm>(неправ. вместо аа)</alternativeForm>'
-)
-content_new = content_new.replace(
-    '<blockquote>(неправ. вместо кун)</blockquote>',
-    '<alternativeForm>(неправ. вместо кун)</alternativeForm>'
-)
-
 content_new = re.sub(
     r'<blockquote>(\(неправ\.\s+(?!вместо\b)[^)]+\))</blockquote>',
     r'<alternativeForm>\1</alternativeForm>',
@@ -30,7 +21,7 @@ content_new = re.sub(
     flags=re.M
 )
 
-deepr_cases = [
+hardcoded_cases = [
     '(деепр. бүйүрүп и бүйрүп)',
     '(деепр. жаап)',
     '(деепр. прош. вр. жумуп и жуумп)',
@@ -47,13 +38,19 @@ deepr_cases = [
     '(деепр. чаап и редко чабып)',
     '(деепр. чүйрүп и чүйүрүп)',
     '(деепр. прош. вр. үйүрүп или үйрүп)',
-    '(деепр. өөп; см. жытта- 2)'
+    '(деепр. өөп; см. жытта- 2)',
+    '(южн. пада)',
+    '(южн. падачы)',
+    '(южн. палов)',
+    '(южн. прич. прош. вр. богон, отриц. форма наст.-буд. вр. бовойт)',
+    '(неправ. вместо аа)',
+    '(неправ. вместо кун)'
 ]
 
-for dc in deepr_cases:
+for hc in hardcoded_cases:
     content_new = content_new.replace(
-        f'<blockquote>{dc}</blockquote>',
-        f'<alternativeForm>{dc}</alternativeForm>'
+        f'<blockquote>{hc}</blockquote>',
+        f'<alternativeForm>{hc}</alternativeForm>'
     )
 
 count = content_new.count('<alternativeForm>')
