@@ -48,6 +48,7 @@ python3 identify_categories.py $converted_dict $converted_dict
 python3 identify_minicards.py $converted_dict $converted_dict
 python3 identify_links.py $converted_dict $converted_dict
 python3 identify_cross_references.py $converted_dict $converted_dict
+python3 identify_alternative_forms.py $converted_dict $converted_dict
 python3 identify_meta.py $converted_dict $converted_dict
 python3 identify_cross_references.py $converted_dict $converted_dict
 python3 identify_trn.py $converted_dict $converted_dict
@@ -74,9 +75,6 @@ process_cards() {
     local processed_file="$input_file"
 
 	bash calculate_tag_counts.sh "$processed_file"
-
-	local colon_cards_file="${dir}/${filename}_colon_cards.xml"
-	python3 extract_colon_lines.py "$processed_file" "$colon_cards_file"
 
 	if [ -f "$colon_cards_file" ]; then
 		lint "$colon_cards_file"
