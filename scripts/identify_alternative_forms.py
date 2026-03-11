@@ -70,6 +70,15 @@ content_new = re.sub(
     flags=re.M
 )
 
+# (при наращении аффиксов ...) blockquote extraction
+# Rename the entire blockquote to alternativeForm
+content_new = re.sub(
+    r'(\s*)<blockquote>(\(при наращении аффиксов\s+[^)]+\).*?)</blockquote>',
+    r'\1<alternativeForm>\2</alternativeForm>',
+    content_new,
+    flags=re.M
+)
+
 count = content_new.count('<alternativeForm>')
 print(f'Total alternativeForm tags: {count}')
 
