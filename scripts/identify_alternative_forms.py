@@ -53,6 +53,23 @@ for hc in hardcoded_cases:
         f'<alternativeForm>{hc}</alternativeForm>'
     )
 
+# (точнее ...) blockquote extraction
+# 1. Full blockquote replacement: <blockquote>(точнее ...)</blockquote>
+content_new = re.sub(
+    r'(\s*)<blockquote>(\(точнее\s+[^)]+\))</blockquote>',
+    r'\1<alternativeForm>\2</alternativeForm>',
+    content_new,
+    flags=re.M
+)
+
+# 2. Partial blockquote extraction: <blockquote>(точнее ...) ...</blockquote>
+content_new = re.sub(
+    r'(\s*)<blockquote>(\(точнее\s+[^)]+\))\s+(.+?)</blockquote>',
+    r'\1<alternativeForm>\2</alternativeForm>\1<blockquote>\3</blockquote>',
+    content_new,
+    flags=re.M
+)
+
 count = content_new.count('<alternativeForm>')
 print(f'Total alternativeForm tags: {count}')
 
