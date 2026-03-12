@@ -88,6 +88,15 @@ content_new = re.sub(
     flags=re.M
 )
 
+# (в произношении ...) blockquote extraction
+# Rename the entire blockquote to alternativeForm only if it ends with a parenthesis
+content_new = re.sub(
+    r'(\s*)<blockquote>(\(в произношении\s+[^)]+\))</blockquote>',
+    r'\1<alternativeForm>\2</alternativeForm>',
+    content_new,
+    flags=re.M
+)
+
 count = content_new.count('<alternativeForm>')
 print(f'Total alternativeForm tags: {count}')
 
