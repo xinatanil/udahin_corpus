@@ -98,7 +98,38 @@ content_new = re.sub(
 )
 
 count = content_new.count('<alternativeForm>')
-print(f'Total alternativeForm tags: {count}')
+print(f'Total alternativeForm tags (before text match): {count}')
+
+hardcoded_cases_pattern1 = {
+    '<blockquote>айлампаш (айлан баш)</blockquote>': '<alternativeForm>(айлан баш)</alternativeForm>',
+    '<blockquote>апачуу (ап-ачуу)</blockquote>': '<alternativeForm>(ап-ачуу)</alternativeForm>',
+    '<blockquote>апачык (ап-ачык)</blockquote>': '<alternativeForm>(ап-ачык)</alternativeForm>',
+    '<blockquote>апкир- (алып кир-)</blockquote>': '<alternativeForm>(алып кир-)</alternativeForm>',
+    '<blockquote>аппак (ап-ак)</blockquote>': '<alternativeForm>(ап-ак)</alternativeForm>',
+    '<blockquote>бирин (бир-ин)</blockquote>': '<alternativeForm>(бир-ин)</alternativeForm>',
+    '<blockquote>кагелес (как-элес)</blockquote>': '<alternativeForm>(как-элес)</alternativeForm>',
+    '<blockquote>каер (кай йер, кайсы жер)</blockquote>': '<alternativeForm>(кай йер, кайсы жер)</alternativeForm>',
+    '<blockquote>казгатар (каз катар)</blockquote>': '<alternativeForm>(каз катар)</alternativeForm>',
+    '<blockquote>казгаяк (казык аяк)</blockquote>': '<alternativeForm>(казык аяк)</alternativeForm>',
+    '<blockquote>карасана- (кара-сана-)</blockquote>': '<alternativeForm>(кара-сана-)</alternativeForm>',
+    '<blockquote>карындыз (кара ындыз, кара андыз)</blockquote>': '<alternativeForm>(кара ындыз, кара андыз)</alternativeForm>',
+    '<blockquote>кечкир- (кеч кир)</blockquote>': '<alternativeForm>(кеч кир)</alternativeForm>',
+    '<blockquote>кутмаарек (кут-маарек)</blockquote>': '<alternativeForm>(кут-маарек)</alternativeForm>'
+}
+
+for bq, alt in hardcoded_cases_pattern1.items():
+    content_new = content_new.replace(bq, alt)
+
+count_after = content_new.count('<alternativeForm>')
+print(f'Total alternativeForm tags (after text match): {count_after}')
 
 with open(outputFilename, 'w') as f:
     f.write(content_new)
+
+
+#(орфографически следует көзөл)
+# <k>көпөмсү-</k>
+# <blockquote>(вероятно, ошибочно вместо көкөмсү-)</blockquote>
+
+# <k>күлпөт</k>
+# <blockquote>(видимо, вместо үлпөт)</blockquote>
