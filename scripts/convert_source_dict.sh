@@ -65,23 +65,8 @@ sed -i '' 's|--------||g' $converted_dict
 
 lint "$converted_dict"
 
-
-process_cards() {
-    local input_file="$1"
-    local dir=$(dirname "$input_file")
-    local filename=$(basename "$input_file" .xml)
-
-    # Process cards
-    local processed_file="$input_file"
-
-	bash calculate_tag_counts.sh "$processed_file"
-
-	if [ -f "$colon_cards_file" ]; then
-		lint "$colon_cards_file"
-	fi
-}
-
-process_cards "$converted_dict"
+bash calculate_tag_counts.sh "$converted_dict"
+python3 list_keyword_blockquotes.py "$converted_dict" ../chatGPT_exp/keyword_blockquotes_no_colon.txt
 
 if [ -f "${converted_dict}.old" ]; then
     echo "Generating diff..."
