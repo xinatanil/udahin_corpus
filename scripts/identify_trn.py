@@ -121,11 +121,21 @@ class TRNProcessor:
         # Remove trailing punctuation like -, , etc. and homonym numbers I, II...
         return re.sub(r'[,\-:\s]+$', '', text).strip()
 
+    def should_skip_by_meta_prefix(self, text):
+        skip_prefixes = (
+            'усиление к словам, начинающимся на',
+            'подражательное слово'
+        )
+        return any(text.startswith(prefix) for prefix in skip_prefixes)
+
     def should_skip_card(self, card):
-        skip_prefix = 'усиление к словам, начинающимся на'
         for meta in card.findall('.//meta'):
             meta_text = "".join(meta.itertext()).strip()
-            if meta_text.startswith(skip_prefix):
+            if self.should_skip_by_meta_prefix(meta_text):
+                return True
+        for blockquote in card.findall('.//blockquote'):
+            blockquote_text = "".join(blockquote.itertext()).strip()
+            if self.should_skip_by_meta_prefix(blockquote_text):
                 return True
         return False
 
@@ -215,6 +225,9 @@ class TRNProcessor:
                 break
         
         if target_bq is None:
+            return
+
+        if self.should_skip_by_meta_prefix(target_text):
             return
             
         # 4. Check against all exclusion rules

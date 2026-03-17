@@ -73,6 +73,12 @@ with open(inputFilename, 'r' ) as f:
         content_new,
         flags=re.M
     )
+    content_new = re.sub(
+        r'<blockquote>(подражательное слово.*)</blockquote>',
+        r'<meta>\1</meta>',
+        content_new,
+        flags=re.M
+    )
     for exc in manual_exceptions:
         content_new = content_new.replace(f'<blockquote>{exc}</blockquote>', f'<meta>{exc}</meta>')
 
