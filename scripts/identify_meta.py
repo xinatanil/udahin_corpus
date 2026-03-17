@@ -67,6 +67,12 @@ with open(inputFilename, 'r' ) as f:
 
     content_new = re.sub(rf'<blockquote>({metaWord})<\/blockquote>', r'<meta>\1</meta>', content_new, flags = re.M)
     content_new = re.sub(rf'<blockquote>({originWord})<\/blockquote>', r'<origin>\1</origin>', content_new, flags = re.M)
+    content_new = re.sub(
+        r'<blockquote>(усиление к словам, начинающимся на .*?)</blockquote>',
+        r'<meta>\1</meta>',
+        content_new,
+        flags=re.M
+    )
     for exc in manual_exceptions:
         content_new = content_new.replace(f'<blockquote>{exc}</blockquote>', f'<meta>{exc}</meta>')
 
