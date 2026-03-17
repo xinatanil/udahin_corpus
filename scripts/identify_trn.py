@@ -121,6 +121,14 @@ class TRNProcessor:
         # Remove trailing punctuation like -, , etc. and homonym numbers I, II...
         return re.sub(r'[,\-:\s]+$', '', text).strip()
 
+    def should_skip_card(self, card):
+        skip_prefix = 'усиление к словам, начинающимся на'
+        for meta in card.findall('.//meta'):
+            meta_text = "".join(meta.itertext()).strip()
+            if meta_text.startswith(skip_prefix):
+                return True
+        return False
+
     def apply_regex_preprocessing(self, content):
         """
         Applies loose regex replacement to fix simple cases before XML parsing.
@@ -159,6 +167,9 @@ class TRNProcessor:
         tree.write(self.output_file, encoding='UTF-8', xml_declaration=True)
 
     def process_card(self, card):
+        if self.should_skip_card(card):
+            return
+
         # 2. Prepare k_text for checking
         k_elem = card.find('k')
         k_text = ""
