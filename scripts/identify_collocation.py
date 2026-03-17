@@ -66,6 +66,9 @@ def process_card(card, children):
                 elif text == '(неправ. вместо кун):':
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
+                elif text == 'усиление к словам, начинающимся на би:':
+                    insert_colloc_identifier(card, child)
+                    elements_processed += 1					
                 elif text.endswith(']:'):
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
