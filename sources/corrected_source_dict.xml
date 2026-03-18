@@ -74,7 +74,7 @@
 		<blockquote>Жетиген кыям см. кыям.</blockquote>
 	</card>
 	<card>
-		<k>Жоорукер</k>
+    	<k>Жоорукер</k>
 		<blockquote>кличка коня богатыря Джугорю.</blockquote>
 	</card>
 	<card>
@@ -39551,7 +39551,8 @@
 	</card>
 	<card>
 		<k>гүлүстөн</k>
-		<blockquote>ир., күлүстөн</blockquote>
+		<blockquote>ир.</blockquote>
+		<blockquote>(күлүстөн)</blockquote>
 		<blockquote>1. то же, что гүлзар;</blockquote>
 		<blockquote>балалуу үй - гүлүстөн, баласыз үй - көрүстөн погов. дом с детьми - цветник, бездетный дом - кладбище;</blockquote>
 		<blockquote>2. перен. жизнерадостный, оживлённый; цветущий;</blockquote>
@@ -88248,7 +88249,8 @@
 	</card>
 	<card>
 		<k>кетте</k>
-		<blockquote>ир., гл. обр. южн. [кәттә]</blockquote>
+		<blockquote>ир.</blockquote>
+		<blockquote>гл. обр. южн. [кәттә]</blockquote>
 		<blockquote>(и в эпосе) большой, огромный;</blockquote>
 		<blockquote>кэттэ өгүз большой вол;</blockquote>
 		<blockquote>кэттэ мээрэкэ большой пир;</blockquote>
@@ -95734,7 +95736,11 @@
 	</card>
 	<card>
 		<k>коңолу</k>
-		<blockquote>название травянистого растения. коңорчок халимодендрон (вид колючего кустарника);</blockquote>
+		<blockquote>название травянистого растения</blockquote>
+	</card>
+	<card>
+		<k>коңорчок</k>
+		<blockquote>халимодендрон (вид колючего кустарника);</blockquote>
 		<blockquote>боз коңорчок или коңгуроолуу коңорчок селитрянка (вид кустарника).</blockquote>
 	</card>
 	<card>
@@ -111663,7 +111669,7 @@
 		<k>көй</k>
 		<blockquote>көй I</blockquote>
 		<blockquote>только в сочет.</blockquote>
-		<blockquote>1. выдаюшийся, исключительный;</blockquote>
+		<blockquote>1. выдающийся, исключительный;</blockquote>
 		<blockquote>көй күлүк знаменитый, выдающийся скакун;</blockquote>
 		<blockquote>көй кашка (или көйгашка или көйкашка) отличающийся от других своими хорошими качествами; выделяющийся среди многих (напр. силач, хороший оратор);</blockquote>
 		<blockquote>анын баарысы баатыр көйгашка фольк. все они богатыри отменные;</blockquote>
@@ -118793,7 +118799,7 @@
 	</card>
 	<card>
 		<k>мантек</k>
-		<blockquote>(только в одной погов.; ср. төөмантек)</blockquote>
+		<blockquote>(только в одной погов.; ср. төөмантек):</blockquote>
 		<blockquote>жеткенден калтек, жетпегенден мантек жеп погов. получая от того, кто успел, палку, кто не успел, тумак (о человеке забитом и безответном).</blockquote>
 	</card>
 	<card>
@@ -153045,7 +153051,8 @@
 	</card>
 	<card>
 		<k>сыймыктан-</k>
-		<blockquote>с предшеств. дат. п. и с послелогом менен (калька с русского) гордиться;</blockquote>
+		<blockquote>с предшеств. дат. п. и с послелогом менен (калька с русского)</blockquote>
+		<blockquote>гордиться;</blockquote>
 		<blockquote>өлкө сиздер менен сыймыктанат страна гордится вами;</blockquote>
 		<blockquote>биз сүйүнөбүз жана сыймыктанабыз мы радуемся и гордимся.</blockquote>
 	</card>
@@ -154170,7 +154177,8 @@
 	</card>
 	<card>
 		<k>сырка-</k>
-		<blockquote>(обычно в сочет. с оору-) хворать;</blockquote>
+		<blockquote>(обычно в сочет. с оору-)</blockquote>
+		<blockquote>хворать;</blockquote>
 		<blockquote>кандай, оорубай-сыркабай жакшы жүрөсүзбү? как ваше здоровье, не болеете, не хвораете?</blockquote>
 	</card>
 	<card>
@@ -156067,7 +156075,8 @@
 	</card>
 	<card>
 		<k>сөлбөт</k>
-		<blockquote>(обычно в сочет. с сөлөкөт) вид, фигура;</blockquote>
+		<blockquote>(обычно в сочет. с сөлөкөт)</blockquote>
+		<blockquote>вид, фигура;</blockquote>
 		<blockquote>сөлөкөтүң-сөлбөтүң, балам, адамдан артык көрүнөт фольк. вид твой, дитя моё, представляется лучшим, чем у всех людей.</blockquote>
 	</card>
 	<card>
@@ -166300,7 +166309,8 @@
 	</card>
 	<card>
 		<k>теңгелик</k>
-		<blockquote>с предшеств. числительным достоинством, стоимостью в столько-то рублей (сев.), двугривенных (южн.);</blockquote>
+		<blockquote>с предшеств. числительным</blockquote>
+		<blockquote>достоинством, стоимостью в столько-то рублей (сев.), двугривенных (южн.);</blockquote>
 		<blockquote>үч теңгелик на три рубля; на три двугривенных.</blockquote>
 	</card>
 	<card>
@@ -168256,7 +168266,8 @@
 	</card>
 	<card>
 		<k>титин-</k>
-		<blockquote>обычно в отриц. обороте осмелиться, посметь, решиться;</blockquote>
+		<blockquote>обычно в отриц. обороте</blockquote>
+		<blockquote>осмелиться, посметь, решиться;</blockquote>
 		<blockquote>көп кишилер ага титинип кире алышпайт многие (люди) войти к нему не решаются;</blockquote>
 		<blockquote>айтышка көрүп турган адамдын оозу титинбеди видевшие (это) люди не осмелились сказать;</blockquote>
 		<blockquote>эч ким титинбеди никто не осмелился; никто не решился;</blockquote>
@@ -168466,7 +168477,7 @@
 		<blockquote>(о открытое)</blockquote>
 		<blockquote>ир. южн. предлог</blockquote>
 		<blockquote>до (сочетается с аффиксом предела -гача и усиливает его);</blockquote>
-		<blockquote>то (тэ) үйгече до самого дома.</blockquote>
+		<blockquote>то [тэ] үйгече до самого дома.</blockquote>
 	</card>
 	<card>
 		<k>тобо</k>
@@ -191541,7 +191552,8 @@
 	</card>
 	<card>
 		<k>челкей-</k>
-		<blockquote>(о полном человеке; ср. чедирей-) быть толстопузым;</blockquote>
+		<blockquote>(о полном человеке; ср. чедирей-)</blockquote>
+		<blockquote>быть толстопузым;</blockquote>
 		<blockquote>карды челкейип турат у него (у толстяка) брюхо отвисло;</blockquote>
 		<blockquote>челкейип отур- сидеть, выпятив толстенное брюхо;</blockquote>
 		<blockquote>челкее карады он смотрел, важно поворачиваясь толстопузым корпусом.</blockquote>
@@ -196446,7 +196458,7 @@
 	</card>
 	<card>
 		<k>чыдарман</k>
-		<blockquote>кирг. ир.</blockquote>
+		<blockquote>кирг.-ир.</blockquote>
 		<blockquote>выносливый, стойкий;</blockquote>
 		<blockquote>кызылды кийсе - кыналган, кызматка чыкса - чыдарман фольк. когда она наденет красное, ей это идёт; когда выйдет на работу - вынослива.</blockquote>
 	</card>
