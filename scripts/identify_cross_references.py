@@ -12,10 +12,23 @@ outputFilename = sys.argv[2]
 with open(inputFilename, 'r', encoding='utf-8') as f:
     content = f.read()
 
-# Find all <blockquote> that consist solely of a linkKeyword followed by a <wordLink/> tag.
-# Replace the <blockquote> tags with <xr> tags.
-pattern = r'<blockquote>\s*(' + linkKeyword + r'\s*<wordLink[^>]*/>)\s*</blockquote>'
-content_new = re.sub(pattern, r'<xr>\1</xr>', content, flags=re.M)
+# Find all <blockquote> that consist solely of a cross-reference and replace them with <xr>.
+standalone_pattern = (
+    r'<blockquote>\s*('
+    r'\(?\s*' + linkKeyword + r'\s*<wordLink[^>]*/>\s*\)?[.,;]?'
+    r')\s*</blockquote>'
+)
+content_new = re.sub(standalone_pattern, r'<xr>\1</xr>', content, flags=re.M)
+
+# Also catch "то же, что <wordLink...>(см. <wordLink...>)." style blockquotes.
+same_as_pattern = (
+    r'<blockquote>\s*('
+    r'то же,\s*что\s*<wordLink[^>]*/>'
+    r'\s*\(\s*см\.\s*<wordLink[^>]*/>\s*\)[.,;]?'
+    r')\s*</blockquote>'
+)
+content_new = re.sub(same_as_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
+content_new = re.sub(r'(<xr>то же,\s*что\s*<wordLink[^>]*/>)\(', r'\1 (', content_new)
 
 with open(outputFilename, "w", encoding='utf-8') as outputFile:
     outputFile.write(content_new)
