@@ -90,7 +90,7 @@ def process_file(input_file, output_file):
             children = list(card)
             total_count += process_card(card, children)
 
-        print(f"Total collocations processed: {total_count}")
+        # print(f"Total collocations processed: {total_count}")
 
         if hasattr(ET, 'indent'):
             ET.indent(tree, space="\t", level=0)

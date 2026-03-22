@@ -268,7 +268,7 @@ content_new = re.sub(
 )
 
 count = content_new.count('<alternativeForm>')
-print(f'Total alternativeForm tags (before text match): {count}')
+# print(f'Total alternativeForm tags (before text match): {count}')
 
 hardcoded_cases_pattern1 = {
     '<blockquote>айлампаш (айлан баш)</blockquote>': '<alternativeForm>(айлан баш)</alternativeForm>',
@@ -291,7 +291,7 @@ for bq, alt in hardcoded_cases_pattern1.items():
     content_new = content_new.replace(bq, alt)
 
 count_after = content_new.count('<alternativeForm>')
-print(f'Total alternativeForm tags (after text match): {count_after}')
+# print(f'Total alternativeForm tags (after text match): {count_after}')
 
 with open(outputFilename, 'w') as f:
     f.write(content_new)
