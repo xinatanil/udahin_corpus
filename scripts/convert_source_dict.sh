@@ -65,6 +65,9 @@ sed -i '' 's|--------||g' $converted_dict
 
 lint "$converted_dict"
 
+python3 compile_homonyms.py $converted_dict $converted_dict
+lint "$converted_dict"
+
 bash calculate_tag_counts.sh "$converted_dict"
 python3 list_keyword_blockquotes.py "$converted_dict" ../chatGPT_exp/keyword_blockquotes_no_colon.txt
 
