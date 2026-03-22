@@ -1,6 +1,15 @@
 input_dict=../sources/corrected_source_dict.xml
 converted_dict=../chatGPT_exp/converted_dict.xml
 
+notify_done() {
+    local message="$1"
+    if command -v osascript >/dev/null 2>&1; then
+        osascript -e "display notification \"$message\" with title \"convert_source_dict.sh\""
+    else
+        printf '\a'
+    fi
+}
+
 lint() {
     local file=$1
     export XMLLINT_INDENT=$'\t'
@@ -76,3 +85,5 @@ if [ -f "${converted_dict}.old" ]; then
     diff -u "${converted_dict}.old" "$converted_dict" > "${converted_dict}.diff" || true
     echo "Diff saved to ${converted_dict}.diff"
 fi
+
+notify_done "Finished processing converted_dict.xml"
