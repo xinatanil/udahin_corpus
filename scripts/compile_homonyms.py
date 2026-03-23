@@ -19,6 +19,10 @@ def parse_homonym_headword(text):
     return base, numeral
 
 
+def normalize_base_word(text):
+    return text.rstrip("-").strip()
+
+
 def is_compiled_homonym_card(card):
     return card.find("k") is not None and card.find("homonym") is not None
 
@@ -26,7 +30,8 @@ def is_compiled_homonym_card(card):
 def build_homonym_card(group):
     first_k = group[0].findtext("k", default="")
     parsed = parse_homonym_headword(first_k)
-    base_word = parsed[0] if parsed else first_k.strip()
+    raw_base = parsed[0] if parsed else first_k.strip()
+    base_word = normalize_base_word(raw_base)
 
     merged_card = ET.Element("card")
     k_el = ET.SubElement(merged_card, "k")
@@ -41,6 +46,8 @@ def build_homonym_card(group):
         homonym_el = ET.SubElement(merged_card, "homonym")
         for child in list(card):
             if child.tag == "k":
+                homonym_index = ET.SubElement(homonym_el, "homonymIndex")
+                homonym_index.text = (child.text or "").strip()
                 continue
             homonym_el.append(copy.deepcopy(child))
 
@@ -63,6 +70,7 @@ def compile_homonyms(root):
             base_word, _ = parsed
         else:
             base_word = k_text.strip()
+        base_word = normalize_base_word(base_word)
         if base_word not in grouped_cards:
             grouped_cards[base_word] = []
             group_order.append(base_word)
@@ -83,6 +91,7 @@ def compile_homonyms(root):
             base_word, _ = parsed
         else:
             base_word = k_text.strip()
+        base_word = normalize_base_word(base_word)
         group = grouped_cards.get(base_word, [])
 
         if len(group) == 1:
