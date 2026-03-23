@@ -30,5 +30,20 @@ same_as_pattern = (
 content_new = re.sub(same_as_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
 content_new = re.sub(r'(<xr>то же,\s*что\s*<wordLink[^>]*/>)\(', r'\1 (', content_new)
 
+# Also catch pure cross-reference blockquotes with a parenthesized "прим. см." note.
+note_ref_pattern = (
+    r'<blockquote>\s*('
+    + linkKeyword +
+    r'\s*<wordLink[^>]*/>'
+    r'\s*\(\s*прим\.\s*см\.\s*<wordLink[^>]*/>\s*\)[.,;]?'
+    r')\s*</blockquote>'
+)
+content_new = re.sub(note_ref_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
+content_new = re.sub(
+    r'(<xr>' + linkKeyword + r'\s*<wordLink[^>]*/>)\(',
+    r'\1 (',
+    content_new
+)
+
 with open(outputFilename, "w", encoding='utf-8') as outputFile:
     outputFile.write(content_new)
