@@ -30,6 +30,16 @@ same_as_pattern = (
 content_new = re.sub(same_as_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
 content_new = re.sub(r'(<xr>то же,\s*что\s*<wordLink[^>]*/>)\(', r'\1 (', content_new)
 
+# Also catch "то же, что <wordLink...>(ср. <wordLink...>)." style blockquotes.
+same_as_compare_pattern = (
+    r'<blockquote>\s*('
+    r'то же,\s*что\s*<wordLink[^>]*/>'
+    r'\s*\(\s*ср\.\s*<wordLink[^>]*/>\s*\)[.,;]?'
+    r')\s*</blockquote>'
+)
+content_new = re.sub(same_as_compare_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
+content_new = re.sub(r'(<xr>то же,\s*что\s*<wordLink[^>]*/>)\(', r'\1 (', content_new)
+
 # Also catch pure cross-reference blockquotes with a parenthesized "прим. см." note.
 note_ref_pattern = (
     r'<blockquote>\s*('
