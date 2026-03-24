@@ -102,7 +102,7 @@ manual_exceptions = [
 	'(фонетически - два носовых и с паузой, подобной арабской "хамзе", посредине)',
 	'обычно в отриц. обороте',
     'чаще с отриц.',
-    '(о воде)'
+    '(о воде)',
 ]
 
 with open(inputFilename, 'r' ) as f:
@@ -174,7 +174,7 @@ with open(inputFilename, 'r' ) as f:
         
         # Regex to match 1, 2, or 3 meta/origin words at start
         # Identical to the logic verified in reproduction script
-        full_pattern = rf"^({metaOrOriginWord})(\s+({metaOrOriginWord}))?(\s+({metaOrOriginWord}))?(?=\s|$)"
+        full_pattern = rf"^({metaOrOriginWord}),?(\s+({metaOrOriginWord}),?)?(\s+({metaOrOriginWord}),?)?(?=\s|$)"
         re_start_meta = re.compile(full_pattern)
         
         re_meta_only = re.compile(f"^({metaWord})$")
@@ -223,9 +223,9 @@ with open(inputFilename, 'r' ) as f:
                 if match:
                     # Extract words
                     words_found = []
-                    if match.group(1): words_found.append(match.group(1))
-                    if match.group(3): words_found.append(match.group(3))
-                    if match.group(5): words_found.append(match.group(5))
+                    if match.group(1): words_found.append(match.group(1).rstrip(','))
+                    if match.group(3): words_found.append(match.group(3).rstrip(','))
+                    if match.group(5): words_found.append(match.group(5).rstrip(','))
                     
                     if not words_found:
                         continue
