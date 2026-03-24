@@ -34,6 +34,17 @@ def format_word_link(word, homonym=None, meaning=None):
     return f'<wordLink {" ".join(attrs)} />'
 
 
+def parse_word_link(link_text):
+    attrs = dict(re.findall(r'(\w+)="([^"]*)"', link_text))
+    if "word" not in attrs:
+        return None
+    return attrs
+
+
+def render_word_link_from_attrs(attrs):
+    return format_word_link(attrs["word"], attrs.get("homonym"), attrs.get("meaning"))
+
+
 def replace_simple_reference(match):
     return (
         f'{match.group("prefix")}'
@@ -55,6 +66,9 @@ def parse_reference_segment(segment):
         meaning = tokens.pop()
     if tokens and re.fullmatch(ROMAN_PATTERN, tokens[-1]):
         homonym = tokens.pop()
+
+    if not 1 <= len(tokens) <= 3:
+        return None
 
     word = " ".join(tokens).strip()
     if not word:
@@ -110,6 +124,39 @@ def render_reference_list(text):
         format_word_link(ref["word"], ref.get("homonym"), ref.get("meaning"))
         for ref in refs
     )
+
+
+def expand_tail_references(first_link_text, tail_text):
+    first_attrs = parse_word_link(first_link_text)
+    if not first_attrs:
+        return None
+
+    refs = [first_link_text.strip()]
+    for part in [re.sub(r"\s+", " ", p.strip()) for p in tail_text.split(",")]:
+        if not part:
+            continue
+
+        if re.fullmatch(r'\d+', part):
+            cloned = dict(first_attrs)
+            cloned["meaning"] = part
+            refs.append(render_word_link_from_attrs(cloned))
+            continue
+
+        if re.fullmatch(ROMAN_PATTERN, part):
+            cloned = dict(first_attrs)
+            cloned["homonym"] = part
+            cloned.pop("meaning", None)
+            refs.append(render_word_link_from_attrs(cloned))
+            continue
+
+        parsed = parse_reference_segment(part)
+        if not parsed:
+            return None
+        refs.append(format_word_link(parsed["word"], parsed.get("homonym"), parsed.get("meaning")))
+
+    if len(refs) == 1:
+        return None
+    return ", ".join(refs)
 
 
 def convert_plain_multi_refs(content):
@@ -177,6 +224,37 @@ def convert_plain_multi_refs(content):
     return pattern.sub(replacer, content)
 
 
+def expand_existing_wordlink_lists(content):
+    note_pattern = re.compile(
+        r'\((?P<prefix>см\.|ср\.|прим\.\s*см\.|ещё\s+прим\.\s*см\.)\s*'
+        r'(?P<first><wordLink[^>]*/>)'
+        r'(?P<tail>(?:\s*,\s*[^<()]+)+)\)'
+    )
+
+    def note_replacer(match):
+        expanded = expand_tail_references(match.group("first"), match.group("tail"))
+        if not expanded:
+            return match.group(0)
+        prefix = re.sub(r"\s+", " ", match.group("prefix").strip())
+        return f'({prefix} {expanded})'
+
+    content = note_pattern.sub(note_replacer, content)
+
+    repeated_index_pattern = re.compile(
+        r'(?P<first><wordLink[^>]*/>)'
+        r'(?P<tail>(?:\s*,\s*(?:' + ROMAN_PATTERN + r'|\d+))+)' 
+        r'(?P<after>\s*(?=\(|[.;,]))'
+    )
+
+    def repeated_index_replacer(match):
+        expanded = expand_tail_references(match.group("first"), match.group("tail"))
+        if not expanded:
+            return match.group(0)
+        return f'{expanded}{match.group("after")}'
+
+    return repeated_index_pattern.sub(repeated_index_replacer, content)
+
+
 def merge_split_compound_links(content):
     previews = []
 
@@ -239,16 +317,17 @@ with open(inputFilename, 'r', encoding='utf-8') as f:
 
     # detect links
     content_new = generic_reference_pattern.sub(replace_simple_reference, content)
+    content_new = expand_existing_wordlink_lists(content_new)
     content_new, previews = merge_split_compound_links(content_new)
     content_new = re.sub(r'(<wordLink[^>]*/>)\(', r'\1 (', content_new)
     content_new = content_new.replace(f'({LOOK_BELOW_PLACEHOLDER})', '(см. ниже)')
     content_new = content_new.replace(LOOK_BELOW_PLACEHOLDER, 'см. ниже')
 
-    if previews:
-        print(f"Merged split compound links: {len(previews)}")
-        for before, after in previews:
-            print(f"BEFORE: {before}")
-            print(f"AFTER:  {after}")
+    # if previews:
+    #     print(f"Merged split compound links: {len(previews)}")
+    #     for before, after in previews:
+    #         print(f"BEFORE: {before}")
+    #         print(f"AFTER:  {after}")
 
     with open(outputFilename, "w", encoding="utf-8") as outputFile:
         outputFile.write(content_new)
