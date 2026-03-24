@@ -5,6 +5,29 @@ import re
 
 metaOrOriginWord = f"(?:{metaWord}|{originWord})"
 metaOrOriginPattern = re.compile(rf"^(?:{metaOrOriginWord}[ \t]*)+:$")
+HARDCODED_COLLOCATION_BLOCKQUOTES = {
+    ', ири:',
+    '(неправ. ыпча):',
+    '(неправ. вместо кун):',
+    'усиление к словам, начинающимся на би:',
+    '(только в одной погов.; ср. төөмантек):',
+    '(только в сочет. с жети)',
+    '(в сочет. с орой или арай):',
+    '(чамек):',
+    '(только в сочет. с той):',
+    'в исх. п. и с притяж. аффиксом 3 л.:',
+    'в выражениях сожаления, досады:',
+    'в роли вспомогательного глагола:',
+    'в соединении с айыл:',
+    'в отриц. форме:',
+    'в знач. утверждения при отриц. форме:',
+    '(встречается только с киргизским аффиксом мн. ч.):',
+    'преимущественно в отриц. оборотах:',
+    '(только в деепр. прош. вр.):',
+    '(вместо катыр, хатыр):',
+    'с отриц. основного глагола:',
+    '(вместо пороз):'
+}
 
 def insert_colloc_identifier(card, element, strip_colon=True):
     if strip_colon:
@@ -25,6 +48,36 @@ def get_keyword(card):
     return None
 
 
+def insert_colloc_identifier_before(parent, element):
+    colloc_id = ET.Element('collocationIdentifier')
+    colloc_id.text = ':'
+    current_idx = list(parent).index(element)
+    parent.insert(current_idx, colloc_id)
+
+
+def process_meanings(card):
+    elements_processed = 0
+
+    for meaning in card.findall('meaning'):
+        blockquotes = meaning.findall('blockquote')
+        if not blockquotes:
+            continue
+
+        first_blockquote = blockquotes[0]
+        if not first_blockquote.text:
+            continue
+
+        text = first_blockquote.text.strip()
+        if not text.startswith(': '):
+            continue
+
+        first_blockquote.text = text[2:]
+        insert_colloc_identifier_before(meaning, first_blockquote)
+        elements_processed += 1
+
+    return elements_processed
+
+
 def process_card(card, children):
     elements_processed = 0
     
@@ -37,10 +90,17 @@ def process_card(card, children):
                 insert_colloc_identifier(card, child)
                 elements_processed += 1
             elif child.tag == 'blockquote':
-                # Only process blockquotes immediately after <k>
+                if text.startswith(': '):
+                    child.text = text[2:]
+                    insert_colloc_identifier_before(card, child)
+                    elements_processed += 1
+                    continue
+
+                # Remaining rules only apply to blockquotes immediately after <k>
                 child_idx = children.index(child)
                 if child_idx == 0 or children[child_idx - 1].tag != 'k':
                     continue
+
                 keyword = get_keyword(card)
                 if keyword and text.startswith(keyword + ': '):
                     # Strip "keyword: " from blockquote text
@@ -57,21 +117,9 @@ def process_card(card, children):
                 elif metaOrOriginPattern.match(text):
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
-                elif text == ', ири:':
+                elif text in HARDCODED_COLLOCATION_BLOCKQUOTES:
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
-                elif text == '(неправ. ыпча):':
-                    insert_colloc_identifier(card, child)
-                    elements_processed += 1
-                elif text == '(неправ. вместо кун):':
-                    insert_colloc_identifier(card, child)
-                    elements_processed += 1
-                elif text == 'усиление к словам, начинающимся на би:':
-                    insert_colloc_identifier(card, child)
-                    elements_processed += 1
-                elif text == '(только в одной погов.; ср. төөмантек):':
-                    insert_colloc_identifier(card, child)
-                    elements_processed += 1                    
                 elif text.endswith(']:'):
                     insert_colloc_identifier(card, child)
                     elements_processed += 1
@@ -89,6 +137,7 @@ def process_file(input_file, output_file):
         for card in root.iter('card'):
             children = list(card)
             total_count += process_card(card, children)
+            total_count += process_meanings(card)
 
         # print(f"Total collocations processed: {total_count}")
 
@@ -111,79 +160,6 @@ if __name__ == '__main__':
     process_file(input_filename, output_filename)
 
 
-
-# Can these be considered collocations? Not sure about that, let's figure it out later
-
-# """
-# <k>булжут-</k>
-# <blockquote>в отриц. форме:</blockquote>
-
-# <k>бүлк</k>
-# <blockquote>подражательное слово:</blockquote>
-
-# <k>дап I</k>
-# <blockquote>усиление к словам, начинающимся на да:</blockquote>
-
-# <k>жабы II</k>
-# <blockquote>(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. жабуу III):</blockquote>
-
-# <k>жеңде-</k>
-# <blockquote>(только в деепр. прош. вр.):</blockquote>
-
-# <k>булжут-</k>
-# <blockquote>в отриц. форме:</blockquote>
-
-# <k>жою-</k>
-# <blockquote>(встречено только в отриц. форме):</blockquote>
-
-# <k>зың II</k>
-# <blockquote>подражательное слово:</blockquote>
-
-# <k>ир I</k>
-# <blockquote>, ири:</blockquote>
-
-# <k>Ирбит</k>
-# <blockquote>(от г. Ирбит, Ирбитская ярмарка):</blockquote>
-
-# <k>кыйыр I</k>
-# <blockquote>(с притяж. аффиксами: кыйыры или кыйры, кыйырым или кыйрым и. т. д.)</blockquote>
-
-# <k>мелжи-</k>
-# <blockquote>в сочет. с ай, көк, асман, ава:</blockquote>
-
-# <k>мененки</k>
-# <blockquote>(менен-ки):</blockquote>
-
-# <k>мому</k>
-# <blockquote>вот это (только в косвенных падежах: момуну вин. п., момунда местн. п.).</blockquote>
-
-# <k>танык II</k>
-# <blockquote>(только в сочет. с күбө):</blockquote>
-
-# <k>тапа</k>
-# <blockquote>усиление к словам, начинающимся на та:</blockquote>
-
-# <k>топот</k>
-# <blockquote>(только в сочет. с той):</blockquote>
-
-# <k>упай</k>
-# <blockquote>название игры в альчики: играют двое: окчу (см.) и кийикчи (см.).</blockquote>
-
-# <k>чамалек</k>
-# <blockquote>(чамек):</blockquote>
-
-# <k>чарай</k>
-# <blockquote>(в сочет. с орой или арай):</blockquote>
-
-# <k>чечке</k>
-# <blockquote>(только в форме чечкедей):</blockquote>
-
-# <k>эпчи</k>
-# <blockquote>(неправ. ыпча):</blockquote>
-
-# <k>этме</k>
-# <blockquote>(эт-II -ме):</blockquote>
-
-# <k>өмүр II</k>
-# <blockquote>(только в сочет. с жети):</blockquote>
-# """
+# <trn>6.: урсун выражение заклятия;</trn>
+# <trn>1.: шатыра-шатман весёлый, радостный;</trn>
+# <trn>6.: бери карай с предшеств. исх. п. начиная от..., вот уже...как;</trn>

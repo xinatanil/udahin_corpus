@@ -57,10 +57,6 @@ class TranslationFilter:
         if element is not None and element.find('.//wordLink') is not None:
             return True
 
-        # Rule: Exclude if contains colon
-        if ":" in text:
-            return True
-
         # Rule: Exclude if Kyrgyz chars present
         if self.re_kyrgyz.search(text):
             return True
@@ -201,7 +197,7 @@ class TRNProcessor:
         Checks a candidate element (card or meaning) for a valid blockquote 
         and marks it as a translation if valid.
         """
-        if element.tag == 'card' and element.find('.//collocationIdentifier') is not None:
+        if element.find('collocationIdentifier') is not None:
             return
 
         # 3. Find FIRST NON-EMPTY blockquote in the element

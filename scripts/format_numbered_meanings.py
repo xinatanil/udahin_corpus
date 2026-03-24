@@ -11,9 +11,8 @@ def process_file(input_file, output_file):
         return
 
     # Regex for numbered prefixes like "1. ", "2. ", ..., "20. "
-    # We want to match "1. " through "20. " at the start of the string.
-    # The dot must be followed by a space.
-    prefix_pattern = re.compile(r'^([1-9]|1[0-9]|20)\.\s')
+    # and the rarer "1.: ", "2.: " variant.
+    prefix_pattern = re.compile(r'^([1-9]|1[0-9]|20)\.(?P<colon>:)?\s')
 
     count_modified = 0
 
@@ -39,6 +38,8 @@ def process_file(input_file, output_file):
 
                 # Remove prefix from blockquote text
                 new_text = text[len(full_prefix):]
+                if match.group('colon'):
+                    new_text = ': ' + new_text
                 first_blockquote.text = new_text
 
                 # Create <meaningIndex> tag with "1." (no space)
