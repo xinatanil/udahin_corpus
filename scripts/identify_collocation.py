@@ -5,6 +5,7 @@ import re
 
 metaOrOriginWord = f"(?:{metaWord}|{originWord})"
 metaOrOriginPattern = re.compile(rf"^(?:{metaOrOriginWord}[ \t]*)+:$")
+singleMetaOrOriginWithColonPattern = re.compile(rf"^({metaOrOriginWord}):$")
 HARDCODED_COLLOCATION_BLOCKQUOTES = {
     ', ири:',
     '(неправ. ыпча):',
@@ -56,6 +57,30 @@ def insert_colloc_identifier_before(parent, element):
     colloc_id.text = ':'
     current_idx = list(parent).index(element)
     parent.insert(current_idx, colloc_id)
+
+
+def process_direct_coloned_meta_origin(parent):
+    elements_processed = 0
+
+    for child in list(parent):
+        if child.tag != 'blockquote' or not child.text:
+            continue
+
+        text = child.text.strip()
+        match = singleMetaOrOriginWithColonPattern.match(text)
+        if not match:
+            continue
+
+        value = match.group(1)
+        if re.fullmatch(originWord, value):
+            child.tag = 'origin'
+        else:
+            child.tag = 'meta'
+        child.text = value
+        insert_colloc_identifier(parent, child, strip_colon=False)
+        elements_processed += 1
+
+    return elements_processed
 
 
 def process_meanings(card):
@@ -146,6 +171,9 @@ def process_file(input_file, output_file):
         
         for card in root.iter('card'):
             children = list(card)
+            total_count += process_direct_coloned_meta_origin(card)
+            for homonym in card.findall('homonym'):
+                total_count += process_direct_coloned_meta_origin(homonym)
             total_count += process_card(card, children)
             total_count += process_meanings(card)
 
