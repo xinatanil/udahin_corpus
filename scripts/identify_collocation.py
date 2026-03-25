@@ -26,7 +26,10 @@ HARDCODED_COLLOCATION_BLOCKQUOTES = {
     '(только в деепр. прош. вр.):',
     '(вместо катыр, хатыр):',
     'с отриц. основного глагола:',
-    '(вместо пороз):'
+    '(вместо пороз):',
+    '(встречено только в отриц. форме):',
+    'только с отриц.:',
+	'только в отриц. обороте:',
 }
 
 def insert_colloc_identifier(card, element, strip_colon=True):
@@ -68,12 +71,19 @@ def process_meanings(card):
             continue
 
         text = first_blockquote.text.strip()
-        if not text.startswith(': '):
-            continue
-
-        first_blockquote.text = text[2:]
-        insert_colloc_identifier_before(meaning, first_blockquote)
-        elements_processed += 1
+        if text.startswith(': '):
+            first_blockquote.text = text[2:]
+            insert_colloc_identifier_before(meaning, first_blockquote)
+            elements_processed += 1
+        elif metaOrOriginPattern.match(text):
+            insert_colloc_identifier(meaning, first_blockquote)
+            elements_processed += 1
+        elif text in HARDCODED_COLLOCATION_BLOCKQUOTES:
+            insert_colloc_identifier(meaning, first_blockquote)
+            elements_processed += 1
+        elif text.endswith(']:'):
+            insert_colloc_identifier(meaning, first_blockquote)
+            elements_processed += 1
 
     return elements_processed
 
