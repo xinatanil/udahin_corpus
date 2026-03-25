@@ -16,7 +16,7 @@
 			<xsl:choose>
 				<xsl:when test="name() = 'k'">
 				</xsl:when>
-				<xsl:when test='matches(., "\d\.:? .+") and position() = last()' >
+				<xsl:when test='matches(., "^\s*\d\.:?(\s.*)?$") and position() = last()' >
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:text>closingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
@@ -26,13 +26,13 @@
 					<xsl:text>closingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
 				</xsl:when>
-				<xsl:when test='matches(., "^\s*1\.:? .+")' >
+				<xsl:when test='matches(., "^\s*1\.:?(\s.*)?$")' >
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:text>openingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:copy-of select="." />
 				</xsl:when>
-				<xsl:when test='matches(., "^\s*(2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\.:? .+")' >
+				<xsl:when test='matches(., "^\s*(2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19)\.:?(\s.*)?$")' >
 					<xsl:text>&#xa;</xsl:text>
 					<xsl:text>closingMeaningTag</xsl:text>
 					<xsl:text>&#xa;</xsl:text>
@@ -64,7 +64,7 @@
 						<xsl:copy-of select="." />
 					</xsl:when>
 
-					<xsl:when test="blockquote[matches(., '\d\.:? .+')]">
+					<xsl:when test="blockquote[matches(., '^\s*\d\.:?(\s.*)?$')]">
 						<card>
 							<xsl:copy-of select="k" />
 							<xsl:copy-of select="foo:separateMeanings(.)" />
