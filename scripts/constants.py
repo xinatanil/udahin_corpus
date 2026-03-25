@@ -17,10 +17,11 @@ _meta_words = [
     'сев.', 'южн.', 'чатк.', 'чуйск.', 'тяньш.', 'талас.', 'памир.',
     'синьцз.', 'памирск.', 'иссык-кульск.',
     # meaning qualifiers
-    'перен.', 'прям., перен.', 'в разн. знач.',
+    'перен.', 'прям.', 'прям., перен.', 'в разн. знач.',
     # genre / form
     'фольк.', 'стих.', 'погов.', 'межд.', 'звукоподр.', 'вводн. сл.',
-    'ист.', 'союз соед.', 'неодобр.', '(в некоторых местах)', '(в народной медицине)', '(о воде)'
+    'ист.', 'союз соед.', 'неодобр.', '(в некоторых местах)', '(в народной медицине)', '(о воде)',
+	'с исх. п.',
 ]
 
 # These need special regex handling — with word boundary
@@ -61,8 +62,11 @@ _origin_words = [
 	'англ. через уйг.', 'вероятно из уйг.', 'кирг.-ар.',
 	'бенгальское через уйг.', 'ир. из греч.', '(вероятно, из уйг.)'
 ]
-
-originWord = r'\b(?:' + '|'.join(_escape(w) for w in _origin_words) + r')'
+_origin_plain = [_escape(w) for w in _origin_words if not w.startswith('(')]
+_origin_special_no_wb = [_escape(w) for w in _origin_words if w.startswith('(')]
+originWord = (r'(?:\b(?:' + '|'.join(_origin_plain) + r')'
+              + (r'|' + '|'.join(_origin_special_no_wb) if _origin_special_no_wb else '')
+              + r')')
 
 # ──────────────────────────────────────────────
 # Link keywords (cross-reference prefixes)
@@ -123,4 +127,3 @@ linkKeyword = r'(?:\b(?:' + '|'.join(_link_escaped[:-len(_link_special)]) + r')|
 	# 	<meta>разг.</meta>
 	# 	<blockquote>то же, что <wordLink homonym="I" word="жылуу"/>, II.</blockquote>
 	# </card>
-
