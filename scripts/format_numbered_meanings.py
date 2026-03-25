@@ -12,7 +12,8 @@ def process_file(input_file, output_file):
 
     # Regex for numbered prefixes like "1. ", "2. ", ..., "20. "
     # and the rarer "1.: ", "2.: " variant.
-    prefix_pattern = re.compile(r'^([1-9]|1[0-9]|20)\.(?P<colon>:)?\s')
+    # Allow the prefix to be the whole blockquote content.
+    prefix_pattern = re.compile(r'^([1-9]|1[0-9]|20)\.(?P<colon>:)?(?:\s|$)')
 
     count_modified = 0
 
