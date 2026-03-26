@@ -60,10 +60,6 @@ class TranslationFilter:
         # Rule: Exclude if Kyrgyz chars present
         if self.re_kyrgyz.search(text):
             return True
-            
-        # Rule: Exclude if contains specific keywords
-        if self.re_metaOriginLinkKeywords.search(text):
-            return True
 
 		# Rule: Exclude Roman numerals
         if self.re_roman.search(text):
@@ -123,6 +119,34 @@ class TRNProcessor:
             'подражательное слово'
         )
         return any(text.startswith(prefix) for prefix in skip_prefixes)
+
+    def looks_like_long_example_line(self, text):
+        normalized = re.sub(r'\s+', ' ', text).strip()
+        if len(normalized.split()) < 4:
+            return False
+
+        strong_markers = ('фольк.', 'стих.', 'погов.')
+        weak_markers = ('ист.', 'бран.', 'южн.')
+
+        for marker in strong_markers + weak_markers:
+            idx = normalized.find(marker)
+            if idx == -1:
+                continue
+
+            prefix = normalized[:idx].strip()
+            suffix = normalized[idx + len(marker):].strip()
+            if len(prefix.split()) < 2 or len(suffix.split()) < 1:
+                continue
+
+            if marker in weak_markers:
+                prev = normalized[:idx].rstrip()
+                prev_char = prev[-1] if prev else ''
+                if prev_char in '(;':
+                    continue
+
+            return True
+
+        return False
 
     def should_skip_card(self, card):
         for meta in card.findall('.//meta'):
@@ -224,6 +248,8 @@ class TRNProcessor:
             return
 
         if self.should_skip_by_meta_prefix(target_text):
+            return
+        if self.looks_like_long_example_line(target_text):
             return
             
         # 4. Check against all exclusion rules
