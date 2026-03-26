@@ -68,10 +68,6 @@ class TranslationFilter:
 		# Rule: Exclude if starts with "(или"
         if text.startswith("(или"):
             return True
-
-        # Rule: Exclude if entirely in parentheses
-        if text.startswith("(") and text.endswith(")"):
-            return True
             
         # Rule: Exclude if contains the headword (k_text)
         # e.g. k="абайы", text="абайы, абай" -> skip
