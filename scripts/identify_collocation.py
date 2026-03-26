@@ -32,6 +32,7 @@ HARDCODED_COLLOCATION_BLOCKQUOTES = {
     'только с отриц.:',
 	'только в отриц. обороте:',
 }
+NUMBER_ONLY_BLOCKQUOTE_PATTERN = re.compile(r'^\d+\.:?\s*$')
 
 def insert_colloc_identifier(card, element, strip_colon=True):
     if strip_colon:
@@ -91,24 +92,31 @@ def process_meanings(card):
         if not blockquotes:
             continue
 
-        first_blockquote = blockquotes[0]
-        if not first_blockquote.text:
-            continue
+        for blockquote in blockquotes:
+            if not blockquote.text:
+                continue
 
-        text = first_blockquote.text.strip()
-        if text.startswith(': '):
-            first_blockquote.text = text[2:]
-            insert_colloc_identifier_before(meaning, first_blockquote)
-            elements_processed += 1
-        elif metaOrOriginPattern.match(text):
-            insert_colloc_identifier(meaning, first_blockquote)
-            elements_processed += 1
-        elif text in HARDCODED_COLLOCATION_BLOCKQUOTES:
-            insert_colloc_identifier(meaning, first_blockquote)
-            elements_processed += 1
-        elif text.endswith(']:'):
-            insert_colloc_identifier(meaning, first_blockquote)
-            elements_processed += 1
+            text = blockquote.text.strip()
+            if NUMBER_ONLY_BLOCKQUOTE_PATTERN.match(text):
+                continue
+
+            if text.startswith(': '):
+                blockquote.text = text[2:]
+                insert_colloc_identifier_before(meaning, blockquote)
+                elements_processed += 1
+            elif metaOrOriginPattern.match(text):
+                insert_colloc_identifier(meaning, blockquote)
+                elements_processed += 1
+            elif text in HARDCODED_COLLOCATION_BLOCKQUOTES:
+                insert_colloc_identifier(meaning, blockquote)
+                elements_processed += 1
+            elif text.endswith(']:'):
+                insert_colloc_identifier(meaning, blockquote)
+                elements_processed += 1
+            else:
+                continue
+
+            break
 
     return elements_processed
 
