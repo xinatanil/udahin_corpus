@@ -218,6 +218,7 @@ hardcoded_cases = [
 	'(чамек)',
 	'(южн. пул)',
 	'южн. [-гинә, -кинә]',
+	'оногу талас.'
 ]
 
 for hc in hardcoded_cases:
