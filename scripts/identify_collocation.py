@@ -33,6 +33,8 @@ HARDCODED_COLLOCATION_BLOCKQUOTES = {
     'только с отриц.:',
 	'только в отриц. обороте:',
 	'в ласк. обращениях:',
+	'(или кам тагана, кам такана):',
+    
 }
 NUMBER_ONLY_BLOCKQUOTE_PATTERN = re.compile(r'^\d+\.:?\s*$')
 
@@ -81,6 +83,23 @@ def process_direct_coloned_meta_origin(parent):
             child.tag = 'meta'
         child.text = value
         insert_colloc_identifier(parent, child, strip_colon=False)
+        elements_processed += 1
+
+    return elements_processed
+
+
+def process_direct_hardcoded_collocations(parent):
+    elements_processed = 0
+
+    for child in list(parent):
+        if child.tag != 'blockquote' or not child.text:
+            continue
+
+        text = child.text.strip()
+        if text not in HARDCODED_COLLOCATION_BLOCKQUOTES:
+            continue
+
+        insert_colloc_identifier(parent, child)
         elements_processed += 1
 
     return elements_processed
@@ -182,8 +201,10 @@ def process_file(input_file, output_file):
         for card in root.iter('card'):
             children = list(card)
             total_count += process_direct_coloned_meta_origin(card)
+            total_count += process_direct_hardcoded_collocations(card)
             for homonym in card.findall('homonym'):
                 total_count += process_direct_coloned_meta_origin(homonym)
+                total_count += process_direct_hardcoded_collocations(homonym)
             total_count += process_card(card, children)
             total_count += process_meanings(card)
 
