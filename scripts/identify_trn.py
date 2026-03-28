@@ -64,10 +64,6 @@ class TranslationFilter:
 		# Rule: Exclude Roman numerals
         if self.re_roman.search(text):
             return True
-
-		# Rule: Exclude if starts with "(или"
-        if text.startswith("(или"):
-            return True
             
         # Rule: Exclude if contains the headword (k_text)
         # e.g. k="абайы", text="абайы, абай" -> skip
