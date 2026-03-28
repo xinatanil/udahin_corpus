@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dubliazh_kino",
+    "pattern": "(<k>дубляж</k>\\s*)<blockquote>кино</blockquote>",
+    "replacement": "\\1<meta>кино</meta>",
+    "flags": ["MULTILINE"]
+  },
+  {
+    "id": "dublor_kino_teatr",
+    "pattern": "(<k>дублёр</k>\\s*)<blockquote>кино, театр\\.</blockquote>",
+    "replacement": "\\1<meta>кино</meta>\\n\\t\\t<meta>театр.</meta>",
+    "flags": ["MULTILINE"]
+  },
+  {
+    "id": "kadr_kino_foto",
+    "pattern": "(<k>кадр</k>\\s*)<blockquote>кино, фото</blockquote>",
+    "replacement": "\\1<meta>кино</meta>\\n\\t\\t<meta>фото</meta>",
+    "flags": ["MULTILINE"]
+  },
+  {
+    "id": "ir_yuzhn_predlog",
+    "pattern": "<blockquote>ир. южн. предлог</blockquote>",
+    "replacement": "<meta>ир.</meta>\\n\\t\\t<meta>южн.</meta>\\n\\t\\t<meta>предлог</meta>",
+    "flags": ["MULTILINE"]
+  }
+]

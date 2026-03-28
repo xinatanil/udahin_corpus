@@ -1,0 +1,17 @@
+{
+  "split_cards": [
+    {
+      "id": "baaky_bad_scan_split",
+      "match_k": "бааки,",
+      "required_blockquotes": [
+        "бааки, баакы I",
+        "баакы II:"
+      ],
+      "rewrite_first_blockquote_from": "бааки, баакы I",
+      "rewrite_first_blockquote_to": "бааки",
+      "card_k_to": "баакы I",
+      "split_at_blockquote": "баакы II:",
+      "new_card_k": "баакы II:"
+    }
+  ]
+}

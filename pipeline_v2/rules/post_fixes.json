@@ -1,0 +1,16 @@
+{
+  "text_replacements": [
+    {
+      "id": "baaky_first_homonym_alternative_form",
+      "pattern": "(<homonymIndex>баакы I</homonymIndex>\\s*)<trn>бааки</trn>",
+      "replacement": "\\1<alternativeForm>бааки</alternativeForm>",
+      "count": 1
+    },
+    {
+      "id": "baaky_second_homonym_collocation",
+      "pattern": "(<homonymIndex>баакы II</homonymIndex>\\n)([ \\t]*)<trn>(катын баакы баба \\(о мужчине\\);)</trn>",
+      "replacement": "\\1\\2<collocationIdentifier>:</collocationIdentifier>\\n\\2<blockquote>\\3</blockquote>",
+      "count": 1
+    }
+  ]
+}
