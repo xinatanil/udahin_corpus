@@ -3,15 +3,27 @@ import sys
 from pathlib import Path
 
 from constants import linkKeyword
+from rule_loader import load_rule_lines
 from reference_utils import (
     TOKEN_PATTERN,
     ROMAN_PATTERN,
     format_word_link,
     expand_tail_references,
+    parse_word_link,
+    render_word_link_from_attrs,
 )
 
 
 LOOK_BELOW_PLACEHOLDER = "__LOOK_BELOW__"
+SR_COMPARISON_PLACEHOLDER = "__SR_COMPARISON__"
+SR_NONREF_WORDS = load_rule_lines('link_nonrefs_after_sr.txt')
+if SR_NONREF_WORDS:
+    sr_nonref_pattern = re.compile(
+        r'(?P<prefix>\bср\.\s*)(?P<lemma>' + '|'.join(re.escape(w) for w in SR_NONREF_WORDS) + r')\b',
+        flags=re.I,
+    )
+else:
+    sr_nonref_pattern = None
 
 generic_reference_pattern = re.compile(
     rf'(?P<prefix>{linkKeyword})'
@@ -28,6 +40,19 @@ split_compound_pattern = re.compile(
     r'(?P<suffix>\s*\(\s*(?:см\.\s*<wordLink[^>]*/>|' + LOOK_BELOW_PLACEHOLDER + r')\s*\))'
 )
 
+split_compound_multi_ref_pattern = re.compile(
+    r'<wordLink(?P<before>[^>]*)\bword="(?P<word>[^"]+)"(?P<after>[^>]*)\s*/>'
+    r'(?P<trailing>\s*(?:' + TOKEN_PATTERN + r'(?:\s+' + TOKEN_PATTERN + r'){0,2}))'
+    r'(?P<suffix>\s*\(\s*(?:см\.|ср\.)\s*<wordLink[^>]*/>(?:\s*,\s*<wordLink[^>]*/>)*\s*\))'
+)
+
+attached_suffix_pattern = re.compile(
+    r'(?P<link><wordLink[^>]*/>)'
+    r'(?P<space>\s*)'
+    r'(?:(?P<roman>' + ROMAN_PATTERN + r')(?:(?:\s+)(?P<meaning_after_roman>\d+))?|(?P<meaning_only>\d+))'
+    r'(?=[,.;:)])'
+)
+
 
 def protect_look_below(content):
     content = re.sub(r'\(см\.\s+ниже\)', f'({LOOK_BELOW_PLACEHOLDER})', content, flags=re.I)
@@ -41,6 +66,19 @@ def restore_look_below(content):
     return content
 
 
+def protect_sr_nonrefs(content):
+    if not sr_nonref_pattern:
+        return content
+    return sr_nonref_pattern.sub(
+        lambda m: f'{SR_COMPARISON_PLACEHOLDER}{m.group("lemma")}',
+        content,
+    )
+
+
+def restore_sr_nonrefs(content):
+    return content.replace(SR_COMPARISON_PLACEHOLDER, 'ср. ')
+
+
 def replace_simple_reference(match):
     return (
         f'{match.group("prefix")}'
@@ -51,16 +89,21 @@ def replace_simple_reference(match):
 
 def expand_existing_wordlink_lists(content):
     note_pattern = re.compile(
-        r'\((?P<prefix>см\.|ср\.|прим\.\s*см\.|ещё\s+прим\.\s*см\.)\s*'
+        r'\((?P<lead>[^()<>]*?;\s*)?(?P<prefix>см\.|ср\.|прим\.\s*см\.|ещё\s+прим\.\s*см\.)\s*'
         r'(?P<first><wordLink[^>]*/>)'
         r'(?P<tail>(?:\s*,\s*[^<()]+)+)\)'
     )
 
     def note_replacer(match):
+        if match.group("lead") and '.' in match.group("tail"):
+            return match.group(0)
         expanded = expand_tail_references(match.group("first"), match.group("tail"))
         if not expanded:
             return match.group(0)
+        lead = re.sub(r"\s+", " ", (match.group("lead") or "")).strip()
         prefix = re.sub(r"\s+", " ", match.group("prefix").strip())
+        if lead:
+            return f'({lead} {prefix} {expanded})'
         return f'({prefix} {expanded})'
 
     content = note_pattern.sub(note_replacer, content)
@@ -78,6 +121,34 @@ def expand_existing_wordlink_lists(content):
         return f'{expanded}{match.group("after")}'
 
     return repeated_index_pattern.sub(repeated_index_replacer, content)
+
+
+def attach_suffix_indices_to_wordlinks(content):
+    def replacer(match):
+        attrs = parse_word_link(match.group("link"))
+        if not attrs:
+            return match.group(0)
+
+        roman = match.group("roman")
+        meaning = match.group("meaning_after_roman") or match.group("meaning_only")
+        changed = False
+
+        if roman:
+            if attrs.get("homonym"):
+                return match.group(0)
+            attrs["homonym"] = roman
+            changed = True
+
+        if meaning and not attrs.get("meaning"):
+            attrs["meaning"] = meaning
+            changed = True
+
+        if not changed:
+            return match.group(0)
+
+        return render_word_link_from_attrs(attrs)
+
+    return attached_suffix_pattern.sub(replacer, content)
 
 
 def merge_split_compound_links(content):
@@ -126,16 +197,24 @@ def merge_split_compound_links(content):
         previews.append((original, full_updated))
         return full_updated
 
-    updated_content = split_compound_pattern.sub(replacer, content)
+    updated_content = content
+    for pattern in (
+        split_compound_pattern,
+        split_compound_multi_ref_pattern,
+    ):
+        updated_content = pattern.sub(replacer, updated_content)
     return updated_content, previews
 
 
 def transform_content(content, return_previews=False):
     content = protect_look_below(content)
+    content = protect_sr_nonrefs(content)
     content_new = generic_reference_pattern.sub(replace_simple_reference, content)
     content_new = expand_existing_wordlink_lists(content_new)
+    content_new = attach_suffix_indices_to_wordlinks(content_new)
     content_new, previews = merge_split_compound_links(content_new)
     content_new = re.sub(r'(<wordLink[^>]*/>)\(', r'\1 (', content_new)
+    content_new = restore_sr_nonrefs(content_new)
     content_new = restore_look_below(content_new)
 
     if return_previews:

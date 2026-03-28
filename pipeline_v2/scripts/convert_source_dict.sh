@@ -1,7 +1,10 @@
 input_dict=../../sources/corrected_source_dict.xml
 converted_dict=../output/converted_dict.xml
 fixed_source=../output/corrected_source_fixed.xml
-shadow_reference_report=../output/shadow_reference_candidates.txt
+colon_candidates_report=../output/colon_candidates.txt
+colon_candidates_tsv=../output/colon_candidates.tsv
+suspicious_links_report=../output/suspicious_links.txt
+suspicious_links_tsv=../output/suspicious_links.tsv
 
 notify_done() {
     local message="$1"
@@ -59,7 +62,6 @@ python3 format_numbered_meanings.py "$converted_dict" "$converted_dict"
 lint "$converted_dict"
 
 python3 apply_tree_stage.py $converted_dict $converted_dict
-python3 apply_shadow_reference_stage.py "$converted_dict" "$shadow_reference_report"
 python3 apply_pre_links_xr_stage.py $converted_dict $converted_dict
 python3 identify_links.py $converted_dict $converted_dict
 python3 apply_post_links_tree_stage.py $converted_dict $converted_dict
@@ -81,9 +83,13 @@ python3 compile_homonyms.py $converted_dict $converted_dict
 lint "$converted_dict"
 python3 apply_post_fixes.py "$converted_dict" "$converted_dict"
 lint "$converted_dict"
+python3 apply_colon_rules.py "$converted_dict" "$converted_dict"
+lint "$converted_dict"
 
 bash calculate_tag_counts.sh "$converted_dict"
 python3 list_keyword_blockquotes.py "$converted_dict" ../output/keyword_blockquotes_no_colon.txt
+python3 report_colon_candidates.py "$converted_dict" "$colon_candidates_report" "$colon_candidates_tsv"
+python3 report_suspicious_links.py "$converted_dict" "$suspicious_links_report" "$suspicious_links_tsv"
 
 if [ -f "${converted_dict}.old" ]; then
     echo "Generating diff..."

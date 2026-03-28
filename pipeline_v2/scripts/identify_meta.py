@@ -53,7 +53,7 @@ def transform_text(content):
 
 def transform_tree(tree):
     root = tree.getroot()
-    re_link = re.compile(linkKeyword)
+    re_link_start = re.compile(rf'^(?:{linkKeyword})')
     full_pattern = (
         rf'^({metaOrOriginWord}),?'
         rf'(\s+({metaOrOriginWord}),?)?'
@@ -98,7 +98,7 @@ def transform_tree(tree):
                 continue
 
             text = bq.text.strip()
-            if re_link.search(text):
+            if re_link_start.search(text):
                 continue
 
             match = re_start_meta.match(text)

@@ -11,6 +11,110 @@
       "pattern": "(<homonymIndex>баакы II</homonymIndex>\\n)([ \\t]*)<trn>(катын баакы баба \\(о мужчине\\);)</trn>",
       "replacement": "\\1\\2<collocationIdentifier>:</collocationIdentifier>\\n\\2<blockquote>\\3</blockquote>",
       "count": 1
+    },
+    {
+      "id": "degele_split_altform_xr_collocation",
+      "pattern": "(<k>дегеле</k>\\n)([ \\t]*)<blockquote>\\(деги эле; см\\. <wordLink word=\"деги\"/>, <wordLink homonym=\"I\" word=\"эле\"/>\\):</blockquote>",
+      "replacement": "\\1\\2<alternativeForm>(деги эле)</alternativeForm>\\n\\2<xr>(см. <wordLink word=\"деги\"/>, <wordLink homonym=\"I\" word=\"эле\"/>)</xr>\\n\\2<collocationIdentifier>:</collocationIdentifier>",
+      "count": 1
+    },
+    {
+      "id": "nark_homonym_meaning_ocr_fix",
+      "pattern": "<target>уст\\. себестоимость \\(см\\. <wordLink homonym=\"I\" word=\"нарк\"/> I\\);</target>",
+      "replacement": "<target>уст. себестоимость (см. <wordLink homonym=\"I\" meaning=\"1\" word=\"нарк\"/>);</target>",
+      "count": 1
+    },
+    {
+      "id": "biy_homonym_meaning_ocr_fix",
+      "pattern": "<blockquote>табылгысыздай бүтүм исключительно хорошее \\(правильное\\) решение бия \\(см\\. <wordLink homonym=\"II\" word=\"бий\"/> I\\)\\.</blockquote>",
+      "replacement": "<blockquote>табылгысыздай бүтүм исключительно хорошее (правильное) решение бия (см. <wordLink homonym=\"II\" meaning=\"1\" word=\"бий\"/>).</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "tay_ezhe_collocation_ref_fix",
+      "pattern": "<blockquote>\\(ср\\. <wordLink word=\"тай\"/> эже, см\\. <wordLink homonym=\"I\" word=\"тай\"/>\\) тётка \\(по женской линии\\);</blockquote>",
+      "replacement": "<blockquote>(ср. <wordLink word=\"тай эже\"/>, см. <wordLink homonym=\"I\" word=\"тай\"/>) тётка (по женской линии);</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "zhan_sal_collocation_ref_fix",
+      "pattern": "<wordLink word=\"жан\"/> сал-, см\\. <wordLink homonym=\"II\" word=\"жан\"/>",
+      "replacement": "<wordLink word=\"жан сал-\"/>, см. <wordLink homonym=\"II\" word=\"жан\"/>",
+      "count": 1
+    },
+    {
+      "id": "tomoloy_zhetim_collocation_ref_fix",
+      "pattern": "<blockquote>тоголок жетим \\(ср\\. <wordLink word=\"томолой\"/> жетим, см\\. <wordLink word=\"томолой\"/>\\) круглый сирота;</blockquote>",
+      "replacement": "<blockquote>тоголок жетим (ср. <wordLink word=\"томолой жетим\"/>, см. <wordLink word=\"томолой\"/>) круглый сирота;</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "tul_kazan_at_collocation_ref_fix",
+      "pattern": "<blockquote>туу казан ат \\(ср\\. <wordLink word=\"тул\"/> казан ат, см\\. <wordLink word=\"тул\"/>\\) неутомимый и быстрый конь\\.</blockquote>",
+      "replacement": "<blockquote>туу казан ат (ср. <wordLink word=\"тул казан ат\"/>, см. <wordLink word=\"тул\"/>) неутомимый и быстрый конь.</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "ak_eshik_collocation_ref_fix",
+      "pattern": "<blockquote>ак эшикчи \\(ср\\. <wordLink word=\"ак\"/> эшик, см\\. <wordLink word=\"эшик\"/>\\) ист\\. исполнитель поручений должностного лица местной администрации;</blockquote>",
+      "replacement": "<blockquote>ак эшикчи (ср. <wordLink word=\"ак эшик\"/>, см. <wordLink word=\"эшик\"/>) ист. исполнитель поручений должностного лица местной администрации;</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "astyn_ustun_kyl_collocation_fix",
+      "pattern": "<blockquote>астын-үстүнө келтир- то же, что <wordLink word=\"астын-\"/>үстүн кыл-, см\\. <wordLink word=\"астын\"/>\\.</blockquote>",
+      "replacement": "<blockquote>астын-үстүнө келтир- то же, что <wordLink word=\"астын-үстүн кыл-\"/>, см. <wordLink word=\"астын\"/>.</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "tay_tayla_reference_fix",
+      "pattern": "<blockquote>тай-тайла- то же, что <wordLink word=\"тай-\"/>айла-\\.</blockquote>",
+      "replacement": "<blockquote>тай-тайла- то же, что <wordLink word=\"тай-тайла-\"/>.</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "tayla_collocation_anchor_fix",
+      "pattern": "<blockquote>тай-тайла- то же, что <wordLink word=\"тайтайла-\"/>\\.</blockquote>",
+      "replacement": "<blockquote>тай-тайла- то же, что <wordLink word=\"тай-тайла-\"/>.</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "tur_jur_zhat_reference_fix",
+      "pattern": "<blockquote>в роли вспом\\. гл\\. указывает на длительность и непрерывность действия; встречается и в форме отуру \\(ср\\. <wordLink word=\"глаголы\"/> тур-, жүр-, жат-\\);</blockquote>",
+      "replacement": "<blockquote>в роли вспом. гл. указывает на длительность и непрерывность действия; встречается и в форме отуру (ср. <wordLink word=\"тур-\"/>, <wordLink word=\"жүр-\"/>, <wordLink word=\"жат-\"/>);</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "turmush_xr_ocr_fix",
+      "pattern": "<xr>\\(ср\\. <wordLink word=\"өмүр I оокат\"/>, <wordLink meaning=\"5\" word=\"күн\"/>, <wordLink word=\"тиричилик\"/>\\)</xr>",
+      "replacement": "<xr>(ср. <wordLink word=\"тиричилик\"/>, <wordLink word=\"оокат\"/>, турмуш, <wordLink meaning=\"5\" word=\"күн\"/>)</xr>",
+      "count": 1
+    },
+    {
+      "id": "turmush_xr_link_turmush",
+      "pattern": "<xr>\\(ср\\. <wordLink word=\"тиричилик\"/>, <wordLink word=\"оокат\"/>, турмуш, <wordLink meaning=\"5\" word=\"күн\"/>\\)</xr>",
+      "replacement": "<xr>(ср. <wordLink word=\"тиричилик\"/>, <wordLink word=\"оокат\"/>, <wordLink word=\"турмуш\"/>, <wordLink meaning=\"5\" word=\"күн\"/>)</xr>",
+      "count": 1
+    },
+    {
+      "id": "omur_ookat_tirichilik_turmush_links",
+      "pattern": "<blockquote>\\(ср\\. <wordLink homonym=\"I\" word=\"өмүр\"/> оокат, тиричилик, турмуш\\) жизнь;</blockquote>",
+      "replacement": "<blockquote>(ср. <wordLink homonym=\"I\" word=\"өмүр\"/>, <wordLink word=\"оокат\"/>, <wordLink word=\"тиричилик\"/>, <wordLink word=\"турмуш\"/>) жизнь;</blockquote>",
+      "count": 1
+    },
+    {
+      "id": "berin_meta_collocation_fix",
+      "pattern": "(^[ \\t]*)<blockquote>\\(только в сочет\\. с урун-; ср\\. тат\\., башк\\. бэр\\):</blockquote>",
+      "replacement": "\\1<meta>(только в сочет. с <wordLink word=\"урун-\"/>; ср. тат., башк. бэр)</meta>\\n\\1<collocationIdentifier>:</collocationIdentifier>",
+      "count": 1,
+      "flags": ["MULTILINE"]
+    },
+    {
+      "id": "zhaby_meta_collocation_fix",
+      "pattern": "(^[ \\t]*)<blockquote>\\(в эпосе, когда речь ведётся от лица монгола или калмыка; ср\\. жабуу III\\):</blockquote>",
+      "replacement": "\\1<meta>(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. <wordLink homonym=\"III\" word=\"жабуу\"/>)</meta>\\n\\1<collocationIdentifier>:</collocationIdentifier>",
+      "count": 1,
+      "flags": ["MULTILINE"]
     }
   ]
 }

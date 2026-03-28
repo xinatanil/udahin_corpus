@@ -4,6 +4,7 @@ import re
 from io import BytesIO
 import xml.etree.ElementTree as ET
 from constants import metaWord, originWord, linkKeyword
+from rule_loader import load_rule_lines
 
 
 class TranslationFilter:
@@ -46,6 +47,15 @@ class TranslationFilter:
         # Matches word characters followed by a hyphen at the end of the word boundary or string
         self.re_ends_with_hyphen = re.compile(r'\w+-(?!\w)')
 
+        comparison_words = load_rule_lines('link_nonrefs_after_sr.txt')
+        if comparison_words:
+            self.re_comparison_only_note = re.compile(
+                r'^\(\s*ср\.\s*(?:' + '|'.join(re.escape(word) for word in comparison_words) + r')\b.*\)\s*[:.;]?\s*$',
+                re.IGNORECASE,
+            )
+        else:
+            self.re_comparison_only_note = None
+
     def should_exclude_candidate(self, text, element, k_text):
         """
         Checks a specific text candidate against exclusion rules.
@@ -86,6 +96,10 @@ class TranslationFilter:
 
         # Rule: Exclude if contains words ending with hyphen
         if self.re_ends_with_hyphen.search(text):
+            return True
+
+        # Rule: Exclude standalone comparison-only notes like "(ср. монг. ...):"
+        if self.re_comparison_only_note and self.re_comparison_only_note.match(text):
             return True
 
         return False

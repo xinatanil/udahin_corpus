@@ -1,0 +1,3 @@
+blockquote_xml: <blockquote>(ср. <wordLink word="белекей" />):</blockquote>
+blockquote_xml: <blockquote>(деги эле; см. <wordLink word="деги" />, <wordLink homonym="I" word="эле" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink homonym="II" word="кой-" />):</blockquote>
