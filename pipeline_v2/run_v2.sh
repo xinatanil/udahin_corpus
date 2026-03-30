@@ -16,7 +16,6 @@ format_elapsed() {
 
 mkdir -p "$ROOT_DIR/output"
 cd "$SCRIPT_DIR"
-export PIPELINE_V2_NO_NOTIFY=1
 bash ./convert_source_dict.sh
 
 elapsed=$SECONDS

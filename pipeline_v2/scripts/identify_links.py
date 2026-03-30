@@ -27,6 +27,7 @@ else:
 
 generic_reference_pattern = re.compile(
     rf'(?P<prefix>{linkKeyword})'
+    r'(?P<ws>\s*)'
     r'(?P<word>\w+-?)'
     rf'(?:\s+(?P<homonym>{ROMAN_PATTERN}))?'
     r'(?:\s+(?P<meaning>\d+))?'
@@ -82,6 +83,7 @@ def restore_sr_nonrefs(content):
 def replace_simple_reference(match):
     return (
         f'{match.group("prefix")}'
+        f'{match.group("ws")}'
         f'{format_word_link(match.group("word"), match.group("homonym"), match.group("meaning"))}'
         f'{match.group("trailing") or ""}'
     )

@@ -81,7 +81,7 @@ def replace_element_from_xml(parent: ET.Element, element: ET.Element, new_xml: s
     return replacement
 
 
-def transform_tree(tree: ET.ElementTree) -> int:
+def transform_tree(tree: ET.ElementTree, mode: str = 'all') -> int:
     root = tree.getroot()
     parent_map = {child: parent for parent in root.iter() for child in parent}
     applied = 0
@@ -100,12 +100,16 @@ def transform_tree(tree: ET.ElementTree) -> int:
         original_xml = serialize_element_only(blockquote)
 
         if normalized in SEMICOLON_RULES:
+            if mode not in {'all', 'late'}:
+                continue
             new_xml = strip_trailing_colon_from_xml(original_xml, replacement=';')
             replace_element_from_xml(parent, blockquote, new_xml)
             applied += 1
             continue
 
         if normalized in XR_COLLOCATION_RULES:
+            if mode not in {'all', 'semantic'}:
+                continue
             new_xml = strip_trailing_colon_from_xml(original_xml, new_tag='xr')
             replacement = replace_element_from_xml(parent, blockquote, new_xml)
             insert_collocation_identifier(parent, replacement)
@@ -113,6 +117,8 @@ def transform_tree(tree: ET.ElementTree) -> int:
             continue
 
         if normalized in ALTFORM_COLLOCATION_RULES:
+            if mode not in {'all', 'semantic'}:
+                continue
             new_xml = strip_trailing_colon_from_xml(original_xml, new_tag='alternativeForm')
             replacement = replace_element_from_xml(parent, blockquote, new_xml)
             insert_collocation_identifier(parent, replacement)
@@ -120,6 +126,8 @@ def transform_tree(tree: ET.ElementTree) -> int:
             continue
 
         if normalized in META_COLLOCATION_RULES:
+            if mode not in {'all', 'semantic'}:
+                continue
             text = collapse_ws(''.join(blockquote.itertext()))
             stripped = text[:-1].rstrip() if text.endswith(':') else text
             new_tag = None
@@ -132,6 +140,8 @@ def transform_tree(tree: ET.ElementTree) -> int:
             continue
 
         if normalized in COLLOCATION_RULES:
+            if mode not in {'all', 'semantic'}:
+                continue
             new_xml = strip_trailing_colon_from_xml(original_xml)
             replacement = replace_element_from_xml(parent, blockquote, new_xml)
             insert_collocation_identifier(parent, replacement)
@@ -145,17 +155,29 @@ def transform_tree(tree: ET.ElementTree) -> int:
 
 
 def main() -> int:
-    if len(sys.argv) < 3:
-        print('Usage: python3 apply_colon_rules.py <input.xml> <output.xml>')
+    args = sys.argv[1:]
+    mode = 'all'
+    if len(args) >= 2 and args[0] == '--mode':
+        if len(args) < 4:
+            print('Usage: python3 apply_colon_rules.py [--mode all|semantic|late] <input.xml> <output.xml>')
+            return 1
+        mode = args[1]
+        args = args[2:]
+
+    if len(args) < 2:
+        print('Usage: python3 apply_colon_rules.py [--mode all|semantic|late] <input.xml> <output.xml>')
+        return 1
+    if mode not in {'all', 'semantic', 'late'}:
+        print('Mode must be one of: all, semantic, late')
         return 1
 
-    input_path = Path(sys.argv[1])
-    output_path = Path(sys.argv[2])
+    input_path = Path(args[0])
+    output_path = Path(args[1])
 
     tree = ET.parse(input_path)
-    applied = transform_tree(tree)
+    applied = transform_tree(tree, mode=mode)
     tree.write(output_path, encoding='utf-8', xml_declaration=True)
-    print(f'Applied {applied} colon rule(s)')
+    print(f'Applied {applied} colon rule(s) [{mode}]')
     return 0
 
 

@@ -7,6 +7,21 @@ from constants import metaWord, originWord, linkKeyword
 from rule_loader import load_rule_lines
 
 
+def collapse_ws(text):
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def normalize_rule_entry(text):
+    text = text.strip()
+    if text.startswith('blockquote_xml:'):
+        text = text.split(':', 1)[1].strip()
+    return collapse_ws(text)
+
+
+def normalize_element_xml(elem):
+    return normalize_rule_entry(ET.tostring(elem, encoding='unicode'))
+
+
 class TranslationFilter:
     """
     Encapsulates all logic for determining if a block of text 
@@ -114,6 +129,20 @@ class TRNProcessor:
         self.output_file = output_file
         self.filter = TranslationFilter()
         self.count_trn_found = 0
+        self.semantic_colon_rules = self.load_semantic_colon_rules()
+
+    def load_semantic_colon_rules(self):
+        rule_names = (
+            'colon_altform_collocation.txt',
+            'colon_meta_collocation.txt',
+            'colon_xr_collocation.txt',
+            'colon_collocation.txt',
+        )
+        rules = set()
+        for name in rule_names:
+            for line in load_rule_lines(name):
+                rules.add(normalize_rule_entry(line))
+        return frozenset(rules)
 
     def clean_k_word(self, text):
         if not text: return ""
@@ -284,6 +313,11 @@ class TRNProcessor:
                 break
         
         if target_bq is None:
+            return
+
+        # If a blockquote is already explicitly classified by the colon-review
+        # workflow, let that later stage own it instead of turning it into <trn>.
+        if normalize_element_xml(target_bq) in self.semantic_colon_rules:
             return
 
         if self.should_skip_by_meta_prefix(target_text):
