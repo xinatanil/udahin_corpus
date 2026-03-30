@@ -89,6 +89,15 @@ def build_patterns() -> list[tuple[str, re.Pattern[str], str]]:
     return patterns
 
 
+def is_fully_linked_mixed_reference(xml: str) -> bool:
+    return bool(
+        re.search(
+            r'\((?:см\.|ср\.)[^)]*<wordLink[^>]*/>\s*,\s*(?:см\.|ср\.)\s*<wordLink[^>]*/>[^)]*\)',
+            xml,
+        )
+    )
+
+
 def collect_suspicious(tree: ET.ElementTree) -> list[dict[str, str]]:
     root = tree.getroot()
     patterns = build_patterns()
@@ -105,6 +114,8 @@ def collect_suspicious(tree: ET.ElementTree) -> list[dict[str, str]]:
             for category, pattern, reason in patterns:
                 haystack = text if category == 'mixed_altform_ref_colon' else xml
                 if not pattern.search(haystack):
+                    continue
+                if category == 'ref_tail_after_comma' and is_fully_linked_mixed_reference(xml):
                     continue
 
                 parent = parent_map.get(elem, card)

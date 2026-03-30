@@ -8,6 +8,7 @@ from constants import metaWord, originWord, linkKeyword
 metaOrOriginWord = metaWord + '|' + originWord
 manual_exceptions = load_rule_lines('meta_manual_exceptions.txt')
 exact_replacements = load_rule_json('meta_exact_replacements.json')
+comparison_nonref_words = load_rule_lines('link_nonrefs_after_sr.txt')
 
 
 def transform_text(content):
@@ -45,6 +46,16 @@ def transform_text(content):
         content_new,
         flags=re.M,
     )
+
+    if comparison_nonref_words:
+        comparison_note_pattern = re.compile(
+            r'<blockquote>(\(\s*ср\.\s*(?:'
+            + '|'.join(re.escape(word) for word in comparison_nonref_words)
+            + r')\b[^<]*\))</blockquote>',
+            flags=re.I,
+        )
+        content_new = comparison_note_pattern.sub(r'<meta>\1</meta>', content_new)
+
     for exc in manual_exceptions:
         content_new = content_new.replace(f'<blockquote>{exc}</blockquote>', f'<meta>{exc}</meta>')
 
