@@ -3,12 +3,9 @@ set -euo pipefail
 
 input_dict=../sources/corrected_source_dict.xml
 converted_dict=../chatGPT_exp/converted_dict.xml
-fixed_source=../chatGPT_exp/corrected_source_fixed.xml
-colon_candidates_report=../chatGPT_exp/colon_candidates.txt
-colon_candidates_tsv=../chatGPT_exp/colon_candidates.tsv
-suspicious_links_report=../chatGPT_exp/suspicious_links.txt
-suspicious_links_tsv=../chatGPT_exp/suspicious_links.tsv
-v2_scripts=../pipeline_v2/scripts
+v2_scripts=../pipeline_shared/scripts
+
+fixed_source=""
 
 notify_done() {
     local message="$1"
@@ -48,9 +45,19 @@ path.write_text(path.read_text(encoding='utf-8').replace(old, new), encoding='ut
 PY
 }
 
+cleanup() {
+    if [ -n "${fixed_source:-}" ] && [ -f "$fixed_source" ]; then
+        rm -f "$fixed_source"
+    fi
+}
+
+trap cleanup EXIT
+
 if [ -f "$converted_dict" ]; then
     cp "$converted_dict" "${converted_dict}.old"
 fi
+
+fixed_source=$(mktemp ../chatGPT_exp/corrected_source_fixed.XXXXXX.xml)
 
 python3 "$v2_scripts/apply_source_fixes.py" "$input_dict" "$fixed_source"
 
@@ -101,9 +108,6 @@ python3 "$v2_scripts/apply_colon_rules.py" "$converted_dict" "$converted_dict"
 lint "$converted_dict"
 
 bash "$v2_scripts/calculate_tag_counts.sh" "$converted_dict"
-python3 "$v2_scripts/list_keyword_blockquotes.py" "$converted_dict" ../chatGPT_exp/keyword_blockquotes_no_colon.txt
-python3 "$v2_scripts/report_colon_candidates.py" "$converted_dict" "$colon_candidates_report" "$colon_candidates_tsv"
-python3 "$v2_scripts/report_suspicious_links.py" "$converted_dict" "$suspicious_links_report" "$suspicious_links_tsv"
 
 if [ -f "${converted_dict}.old" ]; then
     echo "Generating diff..."
