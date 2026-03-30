@@ -86,10 +86,6 @@ class TranslationFilter:
         # Rule: Exclude if Kyrgyz chars present
         if self.re_kyrgyz.search(text):
             return True
-
-		# Rule: Exclude Roman numerals
-        if self.re_roman.search(text):
-            return True
             
         # Rule: Exclude if contains the headword (k_text)
         # e.g. k="абайы", text="абайы, абай" -> skip
