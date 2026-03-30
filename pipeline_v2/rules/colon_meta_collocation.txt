@@ -1,1 +1,13 @@
-
+blockquote_xml: <blockquote>(ср. монг. хурган ягнёнок):</blockquote>
+blockquote_xml: <blockquote>(ср. каз. куралай горная коза):</blockquote>
+blockquote_xml: <blockquote>(ср. тат. күкәй):</blockquote>
+blockquote_xml: <blockquote>(ср. тув. оона самец косули, сайги, монг. самец антилопы):</blockquote>
+blockquote_xml: <blockquote>(только в форме чечкедей):</blockquote>
+blockquote_xml: <blockquote>(только в соединении с увакыт или көңүл):</blockquote>
+blockquote_xml: <blockquote>(обычно в сочет. с түш-):</blockquote>
+blockquote_xml: <blockquote>в игре в тогуз коргол (см. <wordLink word="коргол" />):</blockquote>
+blockquote_xml: <blockquote>при игре в тогуз коргол (см. <wordLink word="коргол" />):</blockquote>
+blockquote_xml: <blockquote>(только в сочет. с күбө):</blockquote>
+blockquote_xml: <blockquote>(только с числительным бир):</blockquote>
+blockquote_xml: <blockquote>в сочет. с ай, көк, асман, ава:</blockquote>
+blockquote_xml: <blockquote>(от г. Ирбит, Ирбитская ярмарка):</blockquote>

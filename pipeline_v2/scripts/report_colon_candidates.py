@@ -8,9 +8,12 @@ import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from rule_loader import load_rule_lines
+
 
 SUGGESTION_ORDER = [
     'likely_semicolon_scan_error',
+    'likely_altform_collocation',
     'likely_meta_collocation',
     'likely_xr_collocation',
     'likely_collocation',
@@ -47,13 +50,45 @@ META_SNIPPETS = (
     'употребляется в',
 )
 
+ALTFORM_PREFIXES = (
+    '(или ',
+    '(неправ.',
+    '(точнее ',
+    '(в произношении ',
+    '(орф.',
+    '(при наращении аффиксов ',
+)
+
 
 def collapse_ws(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def normalize_rule_entry(text: str) -> str:
+    text = text.strip()
+    if text.startswith('blockquote_xml:'):
+        text = text.split(':', 1)[1].strip()
+    return collapse_ws(text)
+
+
 def inline_xml(elem: ET.Element) -> str:
     return collapse_ws(ET.tostring(elem, encoding='unicode'))
+
+
+def is_empty_context_xml(xml: str) -> bool:
+    return xml in {
+        '',
+        '<blockquote />',
+        '<blockquote/>',
+        '<meta />',
+        '<meta/>',
+        '<origin />',
+        '<origin/>',
+        '<xr />',
+        '<xr/>',
+        '<trn />',
+        '<trn/>',
+    }
 
 
 def parent_scope(card: ET.Element, parent: ET.Element) -> dict[str, str]:
@@ -74,16 +109,24 @@ def parent_scope(card: ET.Element, parent: ET.Element) -> dict[str, str]:
     return scope
 
 
-def sibling_context(parent: ET.Element, idx: int) -> tuple[str, str, str]:
+def sibling_context(parent: ET.Element, idx: int) -> tuple[list[str], list[str]]:
     siblings = list(parent)
 
-    def fmt(i: int) -> str:
-        if i < 0 or i >= len(siblings):
-            return ''
-        sibling = siblings[i]
-        return inline_xml(sibling)
+    def collect(start: int, step: int) -> list[str]:
+        collected: list[str] = []
+        i = start
+        while 0 <= i < len(siblings) and len(collected) < 2:
+            xml = inline_xml(siblings[i])
+            if not is_empty_context_xml(xml):
+                collected.append(xml)
+            i += step
+        if step < 0:
+            collected.reverse()
+        return collected
 
-    return fmt(idx - 1), fmt(idx + 1), fmt(idx + 2)
+    prev_lines = collect(idx - 1, -1)
+    next_lines = collect(idx + 1, 1)
+    return prev_lines, next_lines
 
 
 def suggest_bucket(text: str, blockquote_xml: str) -> tuple[str, str]:
@@ -93,6 +136,9 @@ def suggest_bucket(text: str, blockquote_xml: str) -> tuple[str, str]:
 
     if word_count >= 18 or len(normalized) >= 140:
         return 'likely_reject', 'long explanatory prose'
+
+    if any(lowered.startswith(prefix) for prefix in ALTFORM_PREFIXES):
+        return 'likely_altform_collocation', 'alternative-form note'
 
     if lowered.startswith('('):
         if lowered.startswith('(см.') or lowered.startswith('(ср.') or '<wordlink' in blockquote_xml.lower():
@@ -114,9 +160,26 @@ def suggest_bucket(text: str, blockquote_xml: str) -> tuple[str, str]:
     return 'likely_collocation', 'short collocation-like header'
 
 
-def collect_candidates(tree: ET.ElementTree) -> list[dict[str, str]]:
+def load_classified_rules(rule_dir: Path) -> set[str]:
+    names = [
+        'colon_semicolon_scan_error.txt',
+        'colon_altform_collocation.txt',
+        'colon_meta_collocation.txt',
+        'colon_xr_collocation.txt',
+        'colon_collocation.txt',
+        'colon_reject.txt',
+    ]
+    classified: set[str] = set()
+    for name in names:
+        for line in load_rule_lines(name):
+            classified.add(normalize_rule_entry(line))
+    return classified
+
+
+def collect_candidates(tree: ET.ElementTree, classified_rules: set[str] | None = None) -> list[dict[str, str]]:
     root = tree.getroot()
     candidates: list[dict[str, str]] = []
+    classified_rules = classified_rules or set()
 
     for card_index, card in enumerate(root.findall('card'), 1):
         parents = [card]
@@ -135,8 +198,10 @@ def collect_candidates(tree: ET.ElementTree) -> list[dict[str, str]]:
                     continue
 
                 xml = inline_xml(child)
+                if xml in classified_rules:
+                    continue
                 suggestion, reason = suggest_bucket(text, xml)
-                prev_xml, next_xml, next2_xml = sibling_context(parent, idx)
+                prev_lines, next_lines = sibling_context(parent, idx)
                 scope = parent_scope(card, parent)
 
                 candidates.append({
@@ -149,9 +214,10 @@ def collect_candidates(tree: ET.ElementTree) -> list[dict[str, str]]:
                     'meaningIndex': scope['meaningIndex'],
                     'text': text,
                     'blockquote_xml': xml,
-                    'prev': prev_xml,
-                    'next': next_xml,
-                    'next2': next2_xml,
+                    'prev2': prev_lines[0] if len(prev_lines) > 0 else '',
+                    'prev': prev_lines[1] if len(prev_lines) > 1 else '',
+                    'next': next_lines[0] if len(next_lines) > 0 else '',
+                    'next2': next_lines[1] if len(next_lines) > 1 else '',
                 })
 
     return candidates
@@ -168,6 +234,7 @@ def write_tsv(path: Path, candidates: list[dict[str, str]]) -> None:
         'meaningIndex',
         'text',
         'blockquote_xml',
+        'prev2',
         'prev',
         'next',
         'next2',
@@ -189,6 +256,7 @@ def write_report(path: Path, candidates: list[dict[str, str]], rule_dir: Path) -
         '',
         'Suggested rule files:',
         f'  likely_semicolon_scan_error -> {rule_dir / "colon_semicolon_scan_error.txt"}',
+        f'  likely_altform_collocation -> {rule_dir / "colon_altform_collocation.txt"}',
         f'  likely_meta_collocation -> {rule_dir / "colon_meta_collocation.txt"}',
         f'  likely_xr_collocation -> {rule_dir / "colon_xr_collocation.txt"}',
         f'  likely_collocation -> {rule_dir / "colon_collocation.txt"}',
@@ -213,13 +281,16 @@ def write_report(path: Path, candidates: list[dict[str, str]], rule_dir: Path) -
             lines.append(f'scope: {" | ".join(scope_bits)}')
             lines.append(f'reason: {candidate["reason"]}')
             lines.append(f'text: {candidate["text"]}')
-            lines.append(f'blockquote_xml: {candidate["blockquote_xml"]}')
+            lines.append('context:')
+            if candidate['prev2']:
+                lines.append(f'  -2: {candidate["prev2"]}')
             if candidate['prev']:
-                lines.append(f'prev: {candidate["prev"]}')
+                lines.append(f'  -1: {candidate["prev"]}')
+            lines.append(f'  >>: {candidate["blockquote_xml"]}')
             if candidate['next']:
-                lines.append(f'next: {candidate["next"]}')
+                lines.append(f'  +1: {candidate["next"]}')
             if candidate['next2']:
-                lines.append(f'next2: {candidate["next2"]}')
+                lines.append(f'  +2: {candidate["next2"]}')
             lines.append('')
 
     path.write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
@@ -236,7 +307,8 @@ def main() -> int:
     rule_dir = Path(__file__).resolve().parents[1] / 'rules'
 
     tree = ET.parse(input_path)
-    candidates = collect_candidates(tree)
+    classified_rules = load_classified_rules(rule_dir)
+    candidates = collect_candidates(tree, classified_rules)
     write_report(report_path, candidates, rule_dir)
     write_tsv(tsv_path, candidates)
     print(f'Colon candidates: {len(candidates)}')

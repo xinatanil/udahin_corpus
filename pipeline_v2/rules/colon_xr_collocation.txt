@@ -1,3 +1,22 @@
 blockquote_xml: <blockquote>(ср. <wordLink word="белекей" />):</blockquote>
 blockquote_xml: <blockquote>(деги эле; см. <wordLink word="деги" />, <wordLink homonym="I" word="эле" />):</blockquote>
 blockquote_xml: <blockquote>(ср. <wordLink homonym="II" word="кой-" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink homonym="IV" word="кур" />):</blockquote>
+blockquote_xml: <blockquote>(см. <wordLink word="кыйгач" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="көйүт-" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink homonym="I" word="акыш" />, <wordLink word="акуш" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="олбуш-" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="олой-" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="соёчор" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="кемтик" />):</blockquote>
+blockquote_xml: <blockquote>(см. <wordLink meaning="2" word="сөөк" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink homonym="I" word="таң" />, <wordLink word="таңда" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="тарт-" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink meaning="2" word="тогуз" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="тырмак" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink meaning="1" word="төр" />):</blockquote>
+blockquote_xml: <blockquote>калтар чач см. <wordLink word="калтар" />:</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink homonym="I" word="чык" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="ыдык" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="ыраба" />):</blockquote>
+blockquote_xml: <blockquote>(ср. <wordLink word="эрешен" />):</blockquote>

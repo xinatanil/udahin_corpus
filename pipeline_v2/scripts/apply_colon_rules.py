@@ -14,6 +14,13 @@ def collapse_ws(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+def normalize_rule_entry(text: str) -> str:
+    text = text.strip()
+    if text.startswith('blockquote_xml:'):
+        text = text.split(':', 1)[1].strip()
+    return collapse_ws(text)
+
+
 def normalize_xml(elem: ET.Element) -> str:
     return collapse_ws(ET.tostring(elem, encoding='unicode'))
 
@@ -24,16 +31,18 @@ def serialize_element_only(elem: ET.Element) -> str:
     return ET.tostring(reparsed, encoding='unicode')
 
 
-SEMICOLON_RULES = frozenset(load_rule_lines('colon_semicolon_scan_error.txt'))
-META_COLLOCATION_RULES = frozenset(load_rule_lines('colon_meta_collocation.txt'))
-XR_COLLOCATION_RULES = frozenset(load_rule_lines('colon_xr_collocation.txt'))
-COLLOCATION_RULES = frozenset(load_rule_lines('colon_collocation.txt'))
-REJECT_RULES = frozenset(load_rule_lines('colon_reject.txt'))
+SEMICOLON_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_semicolon_scan_error.txt'))
+META_COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_meta_collocation.txt'))
+XR_COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_xr_collocation.txt'))
+ALTFORM_COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_altform_collocation.txt'))
+COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_collocation.txt'))
+REJECT_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_reject.txt'))
 
 ALL_RULES = (
     SEMICOLON_RULES
     | META_COLLOCATION_RULES
     | XR_COLLOCATION_RULES
+    | ALTFORM_COLLOCATION_RULES
     | COLLOCATION_RULES
     | REJECT_RULES
 )
@@ -98,6 +107,13 @@ def transform_tree(tree: ET.ElementTree) -> int:
 
         if normalized in XR_COLLOCATION_RULES:
             new_xml = strip_trailing_colon_from_xml(original_xml, new_tag='xr')
+            replacement = replace_element_from_xml(parent, blockquote, new_xml)
+            insert_collocation_identifier(parent, replacement)
+            applied += 1
+            continue
+
+        if normalized in ALTFORM_COLLOCATION_RULES:
+            new_xml = strip_trailing_colon_from_xml(original_xml, new_tag='alternativeForm')
             replacement = replace_element_from_xml(parent, blockquote, new_xml)
             insert_collocation_identifier(parent, replacement)
             applied += 1
