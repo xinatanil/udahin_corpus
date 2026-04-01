@@ -184,6 +184,14 @@
       "replacement": "\\1<meta>в роли вспомогательного глагола</meta>\\n\\1<xr>то же, что <wordLink homonym=\"III\" meaning=\"5\" word=\"көр-\"/>;</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
+    },
+    {
+      "id": "balanan_olpogu_meta_then_trn",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(чаще баланын олпогу\\) матрасик в люльке ребёнка \\(набитый овечьей шерстью\\);</blockquote>",
+      "replacement": "\\1<meta>(чаще баланын олпогу)</meta>\\n\\1<blockquote>матрасик в люльке ребёнка (набитый овечьей шерстью);</blockquote>",
+      "count": 1,
+      "flags": ["MULTILINE"]
     }
   ]
 }

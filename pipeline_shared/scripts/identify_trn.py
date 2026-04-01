@@ -71,6 +71,10 @@ class TranslationFilter:
         else:
             self.re_comparison_only_note = None
 
+        self.forbidden_suffix_exceptions = frozenset(
+            collapse_ws(line) for line in load_rule_lines('trn_forbidden_suffix_exceptions.txt')
+        )
+
     def should_exclude_candidate(self, text, element, k_text):
         """
         Checks a specific text candidate against exclusion rules.
@@ -101,8 +105,12 @@ class TranslationFilter:
             if forbidden in text:
                 return True
 
-        # Rule: Exclude if contains word ending with forbidden suffixes
-        if self.re_forbidden_suffixes.search(text):
+        # Rule: Exclude if contains word ending with forbidden suffixes,
+        # unless this exact line is whitelisted as a known good translation.
+        if (
+            self.re_forbidden_suffixes.search(text)
+            and collapse_ws(text) not in self.forbidden_suffix_exceptions
+        ):
             return True
 
         # Rule: Exclude if contains words ending with hyphen
