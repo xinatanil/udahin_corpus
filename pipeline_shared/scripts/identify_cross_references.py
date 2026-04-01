@@ -134,15 +134,41 @@ MIXED_REF_BLOCKQUOTE_RE = re.compile(
     flags=re.S,
 )
 
+MIXED_PREFIX_REF_BLOCKQUOTE_RE = re.compile(
+    r'^<blockquote>\s*'
+    r'(?P<note>'
+    r'(?:'
+    r'и\.\s*д\.\s*от|'
+    r'деепр\.\s*от|'
+    r'понуд\.\s*от|'
+    r'взаимн\.\s*от|'
+    r'страд\.\s*от|'
+    r'возвр\.\s*от|'
+    r'возвр\.-\s*страд\.\s*от'
+    r')\s*<wordLink[^>]*/>'
+    r')'
+    r'\s+'
+    r'(?P<rest>.+)'
+    r'</blockquote>$',
+    flags=re.S,
+)
+
 
 def split_mixed_reference_blockquote_xml(xml: str) -> str | None:
-    match = MIXED_REF_BLOCKQUOTE_RE.match(xml.strip())
+    stripped = xml.strip()
+    match = MIXED_REF_BLOCKQUOTE_RE.match(stripped)
+    if not match:
+        match = MIXED_PREFIX_REF_BLOCKQUOTE_RE.match(stripped)
     if not match:
         return None
 
     note = match.group('note').strip()
     rest = match.group('rest').strip()
     if not rest:
+        return None
+    if rest.startswith('('):
+        return None
+    if not re.match(r'^[а-яё]', rest, flags=re.IGNORECASE):
         return None
 
     return f'<wrapper><xr>{note}</xr><blockquote>{rest}</blockquote></wrapper>'
