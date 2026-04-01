@@ -124,7 +124,7 @@
     {
       "id": "tuuralu_head_meta_tail_xr_split",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>\\(с притяж\\. аффиксами в местн\\. или исх\\. п\\.\\) то же, что <wordLink word=\"тууралу\"/>;</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>\\(с притяж\\. аффиксами в местн\\. или исх\\. п\\.\\) то же, что <wordLink[^>]\\bword=\"тууралу\"[^>]*/>;</blockquote>",
       "replacement": "\\1<meta>(с притяж. аффиксами в местн. или исх. п.)</meta>\\n\\1<xr>то же, что <wordLink word=\"тууралу\"/>;</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -132,7 +132,7 @@
     {
       "id": "chonko_head_meta_tail_xr_split",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>\\(точнее можу казан\\) то же, что <wordLink word=\"чөңке\"/>\\.</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>\\(точнее можу казан\\) то же, что <wordLink[^>]\\bword=\"чөңке\"[^>]*/>\\.</blockquote>",
       "replacement": "\\1<meta>(точнее можу казан)</meta>\\n\\1<xr>то же, что <wordLink word=\"чөңке\"/>.</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -140,7 +140,7 @@
     {
       "id": "akyn_head_meta_tail_xr_split",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>\\(у памирских киргизов\\) то же, что <wordLink word=\"акын\"/>\\.</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>\\(у памирских киргизов\\) то же, что <wordLink[^>]\\bword=\"акын\"[^>]*/>\\.</blockquote>",
       "replacement": "\\1<meta>(у памирских киргизов)</meta>\\n\\1<xr>то же, что <wordLink word=\"акын\"/>.</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -148,7 +148,7 @@
     {
       "id": "sufu_two_meta_then_trn",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>\\(с губо-губным \"ф\"\\) этн\\. заключительный возглас при некоторых заговорах \\(см\\. <wordLink word=\"күф\"/>\\);</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>\\(с губо-губным \"ф\"\\) этн\\. заключительный возглас при некоторых заговорах \\(см\\. <wordLink[^>]\\bword=\"күф\"[^>]*/>\\);</blockquote>",
       "replacement": "\\1<meta>(с губо-губным \"ф\")</meta>\\n\\1<meta>этн.</meta>\\n\\1<trn>заключительный возглас при некоторых заговорах (см. <wordLink word=\"күф\"/>);</trn>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -156,7 +156,7 @@
     {
       "id": "teshik_tap_collocation_ref_fix",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>\\(см\\. <wordLink word=\"тешик\"/> тап при тап-VIII\\)</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>\\(см\\. <wordLink[^>]\\bword=\"тешик\"[^>]*/> тап при тап-VIII\\)</blockquote>",
       "replacement": "\\1<xr>(см. <wordLink word=\"тешик тап\"/> при <wordLink homonym=\"VIII\" word=\"тап\"/>)</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -164,7 +164,7 @@
     {
       "id": "boydon_head_meta_tail_xr_split",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>с предшеств\\. прич\\. прош\\. вр\\. то же, что <wordLink word=\"бойдон\"/> \\(см\\. <wordLink homonym=\"I\" meaning=\"5\" word=\"бой\"/>\\);</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>с предшеств\\. прич\\. прош\\. вр\\. то же, что <wordLink[^>]\\bword=\"бойдон\"[^>]*/> \\(см\\. <wordLink[^>]\\bword=\"бой\"[^>]\\bhomonym=\"I\"[^>]\\bmeaning=\"5\"[^>]*/>\\);</blockquote>",
       "replacement": "\\1<meta>с предшеств. прич. прош. вр.</meta>\\n\\1<xr>то же, что <wordLink word=\"бойдон\"/> (см. <wordLink homonym=\"I\" meaning=\"5\" word=\"бой\"/>);</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -172,7 +172,7 @@
     {
       "id": "tur_deepr_xr_then_blockquote_split",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>деепр\\. от <wordLink homonym=\"II\" word=\"тур-\"/> \\(по значению совпадает с турбайбы \\(см\\. <wordLink homonym=\"II\" word=\"тур-\"/>\\);</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>деепр\\. от <wordLink[^>]\\bword=\"тур-\"[^>]\\bhomonym=\"II\"[^>]*/> \\(по значению совпадает с турбайбы \\(см\\. <wordLink[^>]\\bword=\"тур-\"[^>]\\bhomonym=\"II\"[^>]*/>\\);</blockquote>",
       "replacement": "\\1<xr>деепр. от <wordLink homonym=\"II\" word=\"тур-\"/></xr>\\n\\1<blockquote>(по значению совпадает с турбайбы (см. <wordLink homonym=\"II\" word=\"тур-\"/>);</blockquote>",
       "count": 1,
       "flags": ["MULTILINE"]
@@ -180,7 +180,7 @@
     {
       "id": "aux_role_meta_then_xr_split",
       "stage": "pre_trn",
-      "pattern": "(^[ \\t]*)<blockquote>в роли вспомогательного глагола то же, что <wordLink homonym=\"III\" meaning=\"5\" word=\"көр-\"/>;</blockquote>",
+      "pattern": "(^[ \\t]*)<blockquote>в роли вспомогательного глагола то же, что <wordLink[^>]\\bword=\"көр-\"[^>]\\bhomonym=\"III\"[^>]\\bmeaning=\"5\"[^>]*/>;</blockquote>",
       "replacement": "\\1<meta>в роли вспомогательного глагола</meta>\\n\\1<xr>то же, что <wordLink homonym=\"III\" meaning=\"5\" word=\"көр-\"/>;</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
