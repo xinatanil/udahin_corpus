@@ -268,11 +268,20 @@ class TRNProcessor:
             children = list(card)
             if len(children) < 2:
                 continue
-            if children[0].tag != 'k' or children[1].tag != 'blockquote':
+            if children[0].tag != 'k':
                 continue
 
             k_elem = children[0]
-            bq = children[1]
+            bq = None
+            for child in children[1:]:
+                if child.tag in {'meta', 'origin', 'xr'}:
+                    continue
+                if child.tag == 'blockquote':
+                    bq = child
+                break
+
+            if bq is None:
+                continue
             if len(bq) > 0:
                 continue
 
