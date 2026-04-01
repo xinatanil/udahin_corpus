@@ -128,6 +128,13 @@ def transform_content(content):
         content_new
     )
 
+    broken_look_pattern = (
+        r'<blockquote>\s*('
+        r'отвл\.\s*от\s*<wordLink[^>]*/>\s*\(\s*см\.\s*\)[.;]?'
+        r')\s*</blockquote>'
+    )
+    content_new = re.sub(broken_look_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
+
     paired_xr_pattern = (
         r'<blockquote>\s*('
         r'парное\s*к\s*<wordLink[^>]*/>\s*и\s*к\s*<wordLink[^>]*/>[.;]'
