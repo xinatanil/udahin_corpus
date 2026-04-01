@@ -303,6 +303,8 @@ class TRNProcessor:
         seen_xr = False
 
         for child in list(element):
+            if child.tag == 'trn':
+                return
             if child.tag == 'xr':
                 seen_xr = True
                 continue
