@@ -128,6 +128,20 @@ def transform_content(content):
         content_new
     )
 
+    compare_note_ref_pattern = (
+        r'<blockquote>\s*('
+        + linkKeyword +
+        r'\s*<wordLink[^>]*/>'
+        r'\s*\(\s*ср\.\s*<wordLink[^>]*/>\s*\)[.,;]?'
+        r')\s*</blockquote>'
+    )
+    content_new = re.sub(compare_note_ref_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
+    content_new = re.sub(
+        r'(<xr>' + linkKeyword + r'\s*<wordLink[^>]*/>)\(',
+        r'\1 (',
+        content_new
+    )
+
     broken_look_pattern = (
         r'<blockquote>\s*('
         r'отвл\.\s*от\s*<wordLink[^>]*/>\s*\(\s*см\.\s*\)[.;]?'
