@@ -61,6 +61,23 @@ class TranslationFilter:
         # 7. Words ending with hyphen (e.g. "алдырыл-", "ойно-")
         # Matches word characters followed by a hyphen at the end of the word boundary or string
         self.re_ends_with_hyphen = re.compile(r'\w+-(?!\w)')
+        self.re_russian_tail_hint = re.compile(r'[цщъьёюяЦЩЪЬЁЮЯ]')
+        kyr_word = r'[А-Яа-яЁёӨөҮүҢңӘә]+(?:-[А-Яа-яЁёӨөҮүҢңӘә]+)*'
+        self.re_leading_hyphenated_collocation = re.compile(
+            r'^(?P<left>'
+            r'(?:'
+            rf'(?:{kyr_word}(?:\s+{kyr_word}){{0,3}}\s+[А-Яа-яЁёӨөҮүҢңӘә]+-)'
+            r'|'
+            rf'(?:{kyr_word}-)'
+            r')'
+            r'(?:\s+или\s+'
+            r'(?:'
+            rf'(?:{kyr_word}(?:\s+{kyr_word}){{0,3}}\s+[А-Яа-яЁёӨөҮүҢңӘә]+-)'
+            r'|'
+            rf'(?:{kyr_word}-)'
+            r'))*'
+            r')\s+(?P<right>.+)$'
+        )
 
         comparison_words = load_rule_lines('link_nonrefs_after_sr.txt')
         if comparison_words:
@@ -74,6 +91,21 @@ class TranslationFilter:
         self.forbidden_suffix_exceptions = frozenset(
             collapse_ws(line) for line in load_rule_lines('trn_forbidden_suffix_exceptions.txt')
         )
+
+    def looks_like_kyrgyz_collocation_with_russian_tail(self, text):
+        normalized = collapse_ws(text)
+        if not normalized or normalized.startswith('('):
+            return False
+
+        match = self.re_leading_hyphenated_collocation.match(normalized)
+        if not match:
+            return False
+
+        right = match.group('right').lstrip(' ,;:.')
+        if not right:
+            return False
+
+        return bool(self.re_russian_tail_hint.search(right))
 
     def should_exclude_candidate(self, text, element, k_text):
         """
@@ -114,7 +146,13 @@ class TranslationFilter:
             return True
 
         # Rule: Exclude if contains words ending with hyphen
-        if self.re_ends_with_hyphen.search(text):
+        # if self.re_ends_with_hyphen.search(text):
+        #     return True
+
+        # Rule: Exclude mixed "Kyrgyz collocation + Russian gloss" lines such as
+        # "этибар кыл- обращать внимание;" so they can be handled later as
+        # examples/collocations instead of becoming <trn>.
+        if self.looks_like_kyrgyz_collocation_with_russian_tail(text):
             return True
 
         # Rule: Exclude standalone comparison-only notes like "(ср. монг. ...):"
