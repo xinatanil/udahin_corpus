@@ -292,7 +292,14 @@ class TRNProcessor:
         target_bq = None
         target_text = ""
 
+        seen_xr = False
+
         for child in list(element):
+            if child.tag == 'xr':
+                seen_xr = True
+                continue
+            if child.tag == 'miniCard' and seen_xr:
+                return
             if child.tag != 'blockquote':
                 continue
 

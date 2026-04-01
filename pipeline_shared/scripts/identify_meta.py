@@ -52,7 +52,12 @@ def transform_text(content):
         content_new,
         flags=re.M,
     )
-
+    content_new = re.sub(
+        r'<blockquote>(\(\s*обычно\s+как\s+парное\s+к\s*<wordLink[^>]*/>\s*\))</blockquote>',
+        r'<meta>\1</meta>',
+        content_new,
+        flags=re.I | re.M,
+    )
     if comparison_nonref_words:
         comparison_note_pattern = re.compile(
             r'<blockquote>(\(\s*ср\.\s*(?:'

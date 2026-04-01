@@ -79,6 +79,12 @@ def transform_content(content):
     )
     content = linked_sr_pattern.sub(r'<xr>\1</xr>', content)
 
+    linked_sm_pattern = re.compile(
+        r'<blockquote>\s*(\(\s*см\.\s*(?:<wordLink[^>]*/>\s*(?:,\s*)?)+\s*\)[.;]?)\s*</blockquote>',
+        flags=re.M,
+    )
+    content = linked_sm_pattern.sub(r'<xr>\1</xr>', content)
+
     # Find all <blockquote> that consist solely of a cross-reference and replace them with <xr>.
     standalone_pattern = (
         r'<blockquote>\s*('
@@ -121,6 +127,13 @@ def transform_content(content):
         r'\1 (',
         content_new
     )
+
+    paired_xr_pattern = (
+        r'<blockquote>\s*('
+        r'парное\s*к\s*<wordLink[^>]*/>\s*и\s*к\s*<wordLink[^>]*/>[.;]'
+        r')\s*</blockquote>'
+    )
+    content_new = re.sub(paired_xr_pattern, r'<xr>\1</xr>', content_new, flags=re.M)
 
     return content_new
 

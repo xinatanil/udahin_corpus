@@ -10,6 +10,7 @@ from reference_utils import (
     format_word_link,
     expand_tail_references,
     parse_word_link,
+    render_reference_list,
     render_word_link_from_attrs,
 )
 
@@ -52,6 +53,13 @@ attached_suffix_pattern = re.compile(
     r'(?P<space>\s*)'
     r'(?:(?P<roman>' + ROMAN_PATTERN + r')(?:(?:\s+)(?P<meaning_after_roman>\d+))?|(?P<meaning_only>\d+))'
     r'(?=[,.;:)])'
+)
+
+paired_reference_tail_pattern = re.compile(
+    r'(?P<head>парное\s*к\s*<wordLink[^>]*/>)'
+    r'(?P<join>\s*и\s*к\s*)'
+    r'(?P<tail>[^<()]+?)'
+    r'(?P<punct>[.;])'
 )
 
 
@@ -208,12 +216,23 @@ def merge_split_compound_links(content):
     return updated_content, previews
 
 
+def link_paired_reference_tails(content):
+    def replacer(match):
+        rendered = render_reference_list(match.group("tail").strip())
+        if not rendered:
+            return match.group(0)
+        return f'{match.group("head")}{match.group("join")}{rendered}{match.group("punct")}'
+
+    return paired_reference_tail_pattern.sub(replacer, content)
+
+
 def transform_content(content, return_previews=False):
     content = protect_look_below(content)
     content = protect_sr_nonrefs(content)
     content_new = generic_reference_pattern.sub(replace_simple_reference, content)
     content_new = expand_existing_wordlink_lists(content_new)
     content_new = attach_suffix_indices_to_wordlinks(content_new)
+    content_new = link_paired_reference_tails(content_new)
     content_new, previews = merge_split_compound_links(content_new)
     content_new = re.sub(r'(<wordLink[^>]*/>)\(', r'\1 (', content_new)
     content_new = restore_sr_nonrefs(content_new)
