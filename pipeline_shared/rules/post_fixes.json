@@ -168,6 +168,22 @@
       "replacement": "\\1<meta>с предшеств. прич. прош. вр.</meta>\\n\\1<xr>то же, что <wordLink word=\"бойдон\"/> (см. <wordLink homonym=\"I\" meaning=\"5\" word=\"бой\"/>);</xr>",
       "count": 1,
       "flags": ["MULTILINE"]
+    },
+    {
+      "id": "tur_deepr_xr_then_blockquote_split",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>деепр\\. от <wordLink homonym=\"II\" word=\"тур-\"/> \\(по значению совпадает с турбайбы \\(см\\. <wordLink homonym=\"II\" word=\"тур-\"/>\\);</blockquote>",
+      "replacement": "\\1<xr>деепр. от <wordLink homonym=\"II\" word=\"тур-\"/></xr>\\n\\1<blockquote>(по значению совпадает с турбайбы (см. <wordLink homonym=\"II\" word=\"тур-\"/>);</blockquote>",
+      "count": 1,
+      "flags": ["MULTILINE"]
+    },
+    {
+      "id": "aux_role_meta_then_xr_split",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>в роли вспомогательного глагола то же, что <wordLink homonym=\"III\" meaning=\"5\" word=\"көр-\"/>;</blockquote>",
+      "replacement": "\\1<meta>в роли вспомогательного глагола</meta>\\n\\1<xr>то же, что <wordLink homonym=\"III\" meaning=\"5\" word=\"көр-\"/>;</xr>",
+      "count": 1,
+      "flags": ["MULTILINE"]
     }
   ]
 }
