@@ -119,6 +119,29 @@ def transform_content(content):
     return content_new
 
 
+MIXED_REF_BLOCKQUOTE_RE = re.compile(
+    r'^<blockquote>\s*'
+    r'(?P<note>\((?:ср\.|см\.) .*?<wordLink[^>]*/>.*?\))'
+    r'\s+'
+    r'(?P<rest>.+)'
+    r'</blockquote>$',
+    flags=re.S,
+)
+
+
+def split_mixed_reference_blockquote_xml(xml: str) -> str | None:
+    match = MIXED_REF_BLOCKQUOTE_RE.match(xml.strip())
+    if not match:
+        return None
+
+    note = match.group('note').strip()
+    rest = match.group('rest').strip()
+    if not rest:
+        return None
+
+    return f'<wrapper><xr>{note}</xr><blockquote>{rest}</blockquote></wrapper>'
+
+
 def transform_tree(tree):
     root = tree.getroot()
     parent_map = {child: parent for parent in root.iter() for child in parent}
@@ -129,6 +152,25 @@ def transform_tree(tree):
             continue
 
         original = ET.tostring(blockquote, encoding='unicode')
+        split_xml = split_mixed_reference_blockquote_xml(original)
+        if split_xml is not None:
+            try:
+                wrapper = ET.fromstring(split_xml)
+            except ET.ParseError:
+                wrapper = None
+
+            if wrapper is not None:
+                idx = list(parent).index(blockquote)
+                parent.remove(blockquote)
+                new_children = list(wrapper)
+                for child in new_children[:-1]:
+                    child.tail = '\n'
+                if new_children:
+                    new_children[-1].tail = blockquote.tail
+                for offset, child in enumerate(new_children):
+                    parent.insert(idx + offset, child)
+                continue
+
         transformed = transform_content(original)
         if transformed == original:
             continue
