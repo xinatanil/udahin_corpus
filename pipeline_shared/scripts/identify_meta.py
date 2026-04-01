@@ -46,6 +46,12 @@ def transform_text(content):
         content_new,
         flags=re.M,
     )
+    content_new = re.sub(
+        r'<blockquote>(\(см\.\s*<wordLink[^>]*/>\s*;\s*видимо,[^<]*\))</blockquote>',
+        r'<meta>\1</meta>',
+        content_new,
+        flags=re.M,
+    )
 
     if comparison_nonref_words:
         comparison_note_pattern = re.compile(

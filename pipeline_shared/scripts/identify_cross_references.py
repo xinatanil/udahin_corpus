@@ -73,6 +73,12 @@ def transform_plain_reference_xrs(content):
 def transform_content(content):
     content = transform_plain_reference_xrs(content)
 
+    linked_sr_pattern = re.compile(
+        r'<blockquote>\s*(\(\s*ср\.\s*(?:<wordLink[^>]*/>\s*(?:,\s*)?)+\s*\))\s*</blockquote>',
+        flags=re.M,
+    )
+    content = linked_sr_pattern.sub(r'<xr>\1</xr>', content)
+
     # Find all <blockquote> that consist solely of a cross-reference and replace them with <xr>.
     standalone_pattern = (
         r'<blockquote>\s*('

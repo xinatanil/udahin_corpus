@@ -22,5 +22,11 @@
     "pattern": "<blockquote>ир. южн. предлог</blockquote>",
     "replacement": "<meta>ир.</meta>\\n\\t\\t<meta>южн.</meta>\\n\\t\\t<meta>предлог</meta>",
     "flags": ["MULTILINE"]
+  },
+  {
+    "id": "surapyl_israfil_note",
+    "pattern": "<blockquote>\\(см\\. <wordLink word=\"сурапыл\"/>; видимо, здесь смешение - Исрафил ангел, который должен возвестить о конце мира и исрафин серафим\\)</blockquote>",
+    "replacement": "<meta>(см. <wordLink word=\"сурапыл\"/>; видимо, здесь смешение - Исрафил ангел, который должен возвестить о конце мира и исрафин серафим)</meta>",
+    "flags": ["MULTILINE"]
   }
 ]

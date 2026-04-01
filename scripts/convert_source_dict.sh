@@ -1,11 +1,15 @@
 #!/bin/bash
 set -euo pipefail
 
-input_dict=../sources/corrected_source_dict.xml
-converted_dict=../chatGPT_exp/converted_dict.xml
-v2_scripts=../pipeline_shared/scripts
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+input_dict="$ROOT_DIR/sources/corrected_source_dict.xml"
+converted_dict="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
+v2_scripts="$ROOT_DIR/pipeline_shared/scripts"
 
 fixed_source=""
+previous_output=""
 
 notify_done() {
     local message="$1"
@@ -49,15 +53,19 @@ cleanup() {
     if [ -n "${fixed_source:-}" ] && [ -f "$fixed_source" ]; then
         rm -f "$fixed_source"
     fi
+    if [ -n "${previous_output:-}" ] && [ -f "$previous_output" ]; then
+        rm -f "$previous_output"
+    fi
 }
 
 trap cleanup EXIT
 
 if [ -f "$converted_dict" ]; then
-    cp "$converted_dict" "${converted_dict}.old"
+    previous_output=$(mktemp "$ROOT_DIR/chatGPT_exp/converted_dict_prev_tmp.XXXXXX")
+    cp "$converted_dict" "$previous_output"
 fi
 
-fixed_source=$(mktemp ../chatGPT_exp/corrected_source_fixed_tmp.XXXXXX)
+fixed_source=$(mktemp "$ROOT_DIR/chatGPT_exp/corrected_source_fixed_tmp.XXXXXX")
 
 python3 "$v2_scripts/apply_source_fixes.py" "$input_dict" "$fixed_source"
 
@@ -65,7 +73,7 @@ saxon -xsl:$v2_scripts/sorting_xsl_template.xsl -s:$fixed_source -o:$converted_d
 
 python3 "$v2_scripts/identify_glued_cards.py" "$converted_dict" "$converted_dict"
 
-temp_file=$(mktemp ../chatGPT_exp/fix_homonyms_tmp.XXXXXX)
+temp_file=$(mktemp "$ROOT_DIR/chatGPT_exp/fix_homonyms_tmp.XXXXXX")
 saxon -xsl:$v2_scripts/fix_homonyms.xsl -s:$converted_dict -o:$temp_file
 mv "$temp_file" "$converted_dict"
 replace_in_file "$converted_dict" "openingCardTag" "<card>"
@@ -73,7 +81,7 @@ replace_in_file "$converted_dict" "closingCardTag" "</card>"
 
 lint "$converted_dict"
 
-temp_file=$(mktemp ../chatGPT_exp/fix_lexical_meanings_tmp.XXXXXX)
+temp_file=$(mktemp "$ROOT_DIR/chatGPT_exp/fix_lexical_meanings_tmp.XXXXXX")
 saxon -xsl:$v2_scripts/fix_lexical_meanings.xsl -s:$converted_dict -o:$temp_file
 mv "$temp_file" "$converted_dict"
 replace_in_file "$converted_dict" "openingMeaningTag" "<meaning>"
@@ -111,9 +119,12 @@ lint "$converted_dict"
 
 bash "$v2_scripts/calculate_tag_counts.sh" "$converted_dict"
 
-if [ -f "${converted_dict}.old" ]; then
+if [ -n "${previous_output:-}" ] && [ -f "$previous_output" ]; then
     echo "Generating diff..."
-    diff -u "${converted_dict}.old" "$converted_dict" > "${converted_dict}.diff" || true
+    if [ -f "${converted_dict}.diff" ]; then
+        mv "${converted_dict}.diff" "${converted_dict}.old.diff"
+    fi
+    diff -u "$previous_output" "$converted_dict" > "${converted_dict}.diff" || true
     echo "Diff saved to ${converted_dict}.diff"
 fi
 
