@@ -116,6 +116,7 @@ lint "$converted_dict"
 python3 "$v2_scripts/apply_post_fixes.py" "$converted_dict" "$converted_dict"
 lint "$converted_dict"
 python3 "$v2_scripts/apply_colon_rules.py" "$converted_dict" "$converted_dict"
+python3 "$v2_scripts/normalize_wordlinks.py" "$converted_dict" "$converted_dict"
 lint "$converted_dict"
 
 bash "$v2_scripts/calculate_tag_counts.sh" "$converted_dict"
