@@ -288,32 +288,34 @@ class TRNProcessor:
         if element.find('collocationIdentifier') is not None:
             return
 
-        # 3. Find FIRST NON-EMPTY blockquote in the element
-        blockquotes = element.findall('blockquote')
+        # 3. Find FIRST NON-EMPTY direct blockquote in the element.
         target_bq = None
         target_text = ""
-        
-        for bq in blockquotes:
-            parent_is_minicard = False
-            for mc in element.iter('miniCard'):
-                if bq in list(mc):
-                    parent_is_minicard = True
-                    break
-            if parent_is_minicard:
+
+        for child in list(element):
+            if child.tag != 'blockquote':
                 continue
 
-            t = "".join(bq.itertext()).strip()
+            t = "".join(child.itertext()).strip()
             if t:
-                target_bq = bq
+                target_bq = child
                 target_text = t
                 break
-        
+
         if target_bq is None:
             return
 
         # If a blockquote is already explicitly classified by the colon-review
         # workflow, let that later stage own it instead of turning it into <trn>.
         if normalize_element_xml(target_bq) in self.semantic_colon_rules:
+            return
+        plain_target_text = collapse_ws(''.join(target_bq.itertext()))
+        if plain_target_text.endswith(':') and re.match(r'^\(?\s*(?:ср\.|см\.)', plain_target_text, re.IGNORECASE):
+            return
+        # Even with the broad wordLink exclusion disabled, a colon-final first
+        # blockquote with inline links is still much more likely to be an xr /
+        # collocation header than a translation.
+        if target_text.endswith(':') and target_bq.find('.//wordLink') is not None:
             return
 
         if self.should_skip_by_meta_prefix(target_text):

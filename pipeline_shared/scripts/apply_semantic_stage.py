@@ -8,7 +8,6 @@ import xml.etree.ElementTree as ET
 
 from identify_cross_references import transform_tree as transform_cross_references_tree
 from identify_meta import transform_text as transform_meta_text, transform_tree as transform_meta_tree
-from identify_trn import TRNProcessor
 
 
 def main() -> int:
@@ -25,8 +24,6 @@ def main() -> int:
     tree = ET.ElementTree(root)
     transform_meta_tree(tree)
     transform_cross_references_tree(tree)
-    processor = TRNProcessor()
-    processor.process_tree(tree)
 
     buffer = BytesIO()
     tree.write(buffer, encoding='UTF-8', xml_declaration=True)

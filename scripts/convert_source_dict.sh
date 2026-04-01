@@ -57,7 +57,7 @@ if [ -f "$converted_dict" ]; then
     cp "$converted_dict" "${converted_dict}.old"
 fi
 
-fixed_source=$(mktemp ../chatGPT_exp/corrected_source_fixed.XXXXXX.xml)
+fixed_source=$(mktemp ../chatGPT_exp/corrected_source_fixed_tmp.XXXXXX)
 
 python3 "$v2_scripts/apply_source_fixes.py" "$input_dict" "$fixed_source"
 
@@ -65,7 +65,7 @@ saxon -xsl:$v2_scripts/sorting_xsl_template.xsl -s:$fixed_source -o:$converted_d
 
 python3 "$v2_scripts/identify_glued_cards.py" "$converted_dict" "$converted_dict"
 
-temp_file=$(mktemp ../chatGPT_exp/fix_homonyms.XXXXXX.xml)
+temp_file=$(mktemp ../chatGPT_exp/fix_homonyms_tmp.XXXXXX)
 saxon -xsl:$v2_scripts/fix_homonyms.xsl -s:$converted_dict -o:$temp_file
 mv "$temp_file" "$converted_dict"
 replace_in_file "$converted_dict" "openingCardTag" "<card>"
@@ -73,7 +73,7 @@ replace_in_file "$converted_dict" "closingCardTag" "</card>"
 
 lint "$converted_dict"
 
-temp_file=$(mktemp ../chatGPT_exp/fix_lexical_meanings.XXXXXX.xml)
+temp_file=$(mktemp ../chatGPT_exp/fix_lexical_meanings_tmp.XXXXXX)
 saxon -xsl:$v2_scripts/fix_lexical_meanings.xsl -s:$converted_dict -o:$temp_file
 mv "$temp_file" "$converted_dict"
 replace_in_file "$converted_dict" "openingMeaningTag" "<meaning>"
@@ -90,6 +90,8 @@ python3 "$v2_scripts/apply_pre_links_xr_stage.py" "$converted_dict" "$converted_
 python3 "$v2_scripts/identify_links.py" "$converted_dict" "$converted_dict"
 python3 "$v2_scripts/apply_post_links_tree_stage.py" "$converted_dict" "$converted_dict"
 python3 "$v2_scripts/apply_semantic_stage.py" "$converted_dict" "$converted_dict"
+python3 "$v2_scripts/apply_post_fixes.py" --mode pre_trn "$converted_dict" "$converted_dict"
+python3 "$v2_scripts/identify_trn.py" "$converted_dict" "$converted_dict"
 python3 "$v2_scripts/identify_examples.py" "$converted_dict" "$converted_dict"
 
 lint "$converted_dict"

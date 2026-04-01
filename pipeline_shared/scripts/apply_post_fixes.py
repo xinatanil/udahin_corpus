@@ -15,19 +15,44 @@ def load_post_fix_rules() -> dict:
         return json.load(f)
 
 
+def should_apply_rule(rule: dict, mode: str) -> bool:
+    stage = rule.get('stage', 'late')
+    if mode == 'all':
+        return True
+    if mode == 'pre_trn':
+        return stage == 'pre_trn'
+    if mode == 'post_homonym':
+        return stage == 'post_homonym'
+    raise ValueError(f'Unknown mode: {mode}')
+
+
 def main() -> int:
-    if len(sys.argv) < 3:
-        print('Usage: python3 apply_post_fixes.py <input.xml> <output.xml>')
+    args = sys.argv[1:]
+    mode = 'all'
+    if len(args) >= 2 and args[0] == '--mode':
+        if len(args) < 4:
+            print('Usage: python3 apply_post_fixes.py [--mode all|pre_trn|post_homonym] <input.xml> <output.xml>')
+            return 1
+        mode = args[1]
+        args = args[2:]
+
+    if len(args) < 2:
+        print('Usage: python3 apply_post_fixes.py [--mode all|pre_trn|post_homonym] <input.xml> <output.xml>')
+        return 1
+    if mode not in {'all', 'pre_trn', 'post_homonym'}:
+        print('Mode must be one of: all, pre_trn, post_homonym')
         return 1
 
-    input_path = Path(sys.argv[1])
-    output_path = Path(sys.argv[2])
+    input_path = Path(args[0])
+    output_path = Path(args[1])
 
     content = input_path.read_text(encoding='utf-8')
     fixes_applied = 0
     rules = load_post_fix_rules()
 
     for rule in rules.get('text_replacements', []):
+        if not should_apply_rule(rule, mode):
+            continue
         flags = 0
         for flag_name in rule.get('flags', []):
             flags |= getattr(re, flag_name)
@@ -41,7 +66,7 @@ def main() -> int:
         fixes_applied += count
 
     output_path.write_text(content, encoding='utf-8')
-    print(f'Applied {fixes_applied} post fix(es)')
+    print(f'Applied {fixes_applied} post fix(es) [{mode}]')
     return 0
 
 
