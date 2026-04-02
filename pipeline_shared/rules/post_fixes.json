@@ -284,6 +284,16 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "juuchu_add_kuda_links",
+      "stage": "all",
+      "pattern": "(^[ \\t]*)<(blockquote|trn)>сват, сваха \\(кто сватает; ср\\. куда I, кудагый\\);</(?:blockquote|trn)>",
+      "replacement": "\\1<\\2>сват, сваха (кто сватает; ср. <wordLink word=\"куда\" homonym=\"I\"/>, <wordLink word=\"кудагый\"/>);</\\2>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
