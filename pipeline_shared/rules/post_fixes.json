@@ -111,7 +111,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(только в сочет\\. с урун-; ср\\. тат\\., башк\\. бэр\\):</blockquote>",
       "replacement": "\\1<meta>(только в сочет. с <wordLink word=\"урун-\"/>; ср. тат., башк. бэр)</meta>\\n\\1<collocationIdentifier>:</collocationIdentifier>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "zhaby_meta_collocation_fix",
@@ -119,7 +121,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(в эпосе, когда речь ведётся от лица монгола или калмыка; ср\\. жабуу III\\):</blockquote>",
       "replacement": "\\1<meta>(в эпосе, когда речь ведётся от лица монгола или калмыка; ср. <wordLink homonym=\"III\" word=\"жабуу\"/>)</meta>\\n\\1<collocationIdentifier>:</collocationIdentifier>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "tuuralu_head_meta_tail_xr_split",
@@ -127,7 +131,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(с притяж\\. аффиксами в местн\\. или исх\\. п\\.\\) то же, что <wordLink[^>]\\bword=\"тууралу\"[^>]*/>;</blockquote>",
       "replacement": "\\1<meta>(с притяж. аффиксами в местн. или исх. п.)</meta>\\n\\1<xr>то же, что <wordLink word=\"тууралу\"/>;</xr>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "chonko_head_meta_tail_xr_split",
@@ -135,7 +141,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(точнее можу казан\\) то же, что <wordLink[^>]\\bword=\"чөңке\"[^>]*/>\\.</blockquote>",
       "replacement": "\\1<meta>(точнее можу казан)</meta>\\n\\1<xr>то же, что <wordLink word=\"чөңке\"/>.</xr>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "akyn_head_meta_tail_xr_split",
@@ -143,7 +151,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(у памирских киргизов\\) то же, что <wordLink[^>]\\bword=\"акын\"[^>]*/>\\.</blockquote>",
       "replacement": "\\1<meta>(у памирских киргизов)</meta>\\n\\1<xr>то же, что <wordLink word=\"акын\"/>.</xr>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "sufu_two_meta_then_trn",
@@ -151,7 +161,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(с губо-губным \"ф\"\\) этн\\. заключительный возглас при некоторых заговорах \\(см\\. <wordLink[^>]\\bword=\"күф\"[^>]*/>\\);</blockquote>",
       "replacement": "\\1<meta>(с губо-губным \"ф\")</meta>\\n\\1<meta>этн.</meta>\\n\\1<trn>заключительный возглас при некоторых заговорах (см. <wordLink word=\"күф\"/>);</trn>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "teshik_tap_collocation_ref_fix",
@@ -159,7 +171,9 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(см\\. <wordLink[^>]\\bword=\"тешик\"[^>]*/> тап при тап-VIII\\)</blockquote>",
       "replacement": "\\1<xr>(см. <wordLink word=\"тешик тап\"/> при <wordLink homonym=\"VIII\" word=\"тап\"/>)</xr>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "boydon_head_meta_tail_xr_split",
@@ -167,7 +181,9 @@
       "pattern": "(^[ \\t]*)<blockquote>с предшеств\\. прич\\. прош\\. вр\\. то же, что <wordLink[^>]\\bword=\"бойдон\"[^>]*/> \\(см\\. <wordLink[^>]\\bword=\"бой\"[^>]\\bhomonym=\"I\"[^>]\\bmeaning=\"5\"[^>]*/>\\);</blockquote>",
       "replacement": "\\1<meta>с предшеств. прич. прош. вр.</meta>\\n\\1<xr>то же, что <wordLink word=\"бойдон\"/> (см. <wordLink homonym=\"I\" meaning=\"5\" word=\"бой\"/>);</xr>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "tur_deepr_xr_then_blockquote_split",
@@ -175,7 +191,9 @@
       "pattern": "(^[ \\t]*)<blockquote>деепр\\. от <wordLink[^>]\\bword=\"тур-\"[^>]\\bhomonym=\"II\"[^>]*/> \\(по значению совпадает с турбайбы \\(см\\. <wordLink[^>]\\bword=\"тур-\"[^>]\\bhomonym=\"II\"[^>]*/>\\);</blockquote>",
       "replacement": "\\1<xr>деепр. от <wordLink homonym=\"II\" word=\"тур-\"/></xr>\\n\\1<blockquote>(по значению совпадает с турбайбы (см. <wordLink homonym=\"II\" word=\"тур-\"/>);</blockquote>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "aux_role_meta_then_xr_split",
@@ -183,7 +201,9 @@
       "pattern": "(^[ \\t]*)<blockquote>в роли вспомогательного глагола то же, что <wordLink[^>]\\bword=\"көр-\"[^>]\\bhomonym=\"III\"[^>]\\bmeaning=\"5\"[^>]*/>;</blockquote>",
       "replacement": "\\1<meta>в роли вспомогательного глагола</meta>\\n\\1<xr>то же, что <wordLink homonym=\"III\" meaning=\"5\" word=\"көр-\"/>;</xr>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
     },
     {
       "id": "balanan_olpogu_meta_then_trn",
@@ -191,7 +211,39 @@
       "pattern": "(^[ \\t]*)<blockquote>\\(чаще баланын олпогу\\) матрасик в люльке ребёнка \\(набитый овечьей шерстью\\);</blockquote>",
       "replacement": "\\1<meta>(чаще баланын олпогу)</meta>\\n\\1<blockquote>матрасик в люльке ребёнка (набитый овечьей шерстью);</blockquote>",
       "count": 1,
-      "flags": ["MULTILINE"]
+      "flags": [
+        "MULTILINE"
+      ]
+    },
+    {
+      "id": "aktip_altform_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(в произношении актип\\) активист;</blockquote>",
+      "replacement": "\\1<alternativeForm>(в произношении актип)</alternativeForm>\\n\\1<blockquote>активист;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "ukoz_moldo_altform_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(или укоз молдо\\) писарь-мусульманин у должностного лица \\(у волостного управителя, манапа и т\\.п\\.\\);</blockquote>",
+      "replacement": "\\1<alternativeForm>(или укоз молдо)</alternativeForm>\\n\\1<blockquote>писарь-мусульманин у должностного лица (у волостного управителя, манапа и т.п.);</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "aibaalydai_meta_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(чаще в форме сравнения айбаалыдай как богомол\\) живые мощи, кожа да кости \\(о сильно исхудавшем человеке\\)\\.</blockquote>",
+      "replacement": "\\1<meta>(чаще в форме сравнения айбаалыдай как богомол)</meta>\\n\\1<blockquote>живые мощи, кожа да кости (о сильно исхудавшем человеке).</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
