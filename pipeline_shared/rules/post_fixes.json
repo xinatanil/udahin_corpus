@@ -304,6 +304,36 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "ak_mama_meta_then_trn_exact",
+      "stage": "all",
+      "pattern": "(^[ \\t]*)<blockquote>\\(чаще ак мама\\) дет\\. материнская грудь;</blockquote>",
+      "replacement": "\\1<meta>(чаще ак мама)</meta>\\n\\1<meta>дет.</meta>\\n\\1<trn>материнская грудь;</trn>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "kolunda_bar_meta_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(чаще колунда бар\\) имущий, богатый;</blockquote>",
+      "replacement": "\\1<meta>(чаще колунда бар)</meta>\\n\\1<blockquote>имущий, богатый;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "bir_deme_not_trn_exact",
+      "stage": "all",
+      "pattern": "(^[ \\t]*)<trn>бир деме \\(или бирдеме\\) нечто;</trn>",
+      "replacement": "\\1<blockquote>бир деме (или бирдеме) нечто;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
