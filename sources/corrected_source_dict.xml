@@ -7251,7 +7251,9 @@
 	<card>
 		<k>аласкы-</k>
 		<blockquote>то же, что алаксы-.</blockquote>
-		<blockquote>аласкыт-</blockquote>
+	</card>
+	<card>
+		<k>аласкыт-</k>
 		<blockquote>то же, что алаксыт-;</blockquote>
 		<blockquote>сен мени аласкытпа, жолуман калтырба ты меня не заговаривай, не мешай мне продолжать путь;</blockquote>
 		<blockquote>баласын аласкытат он забавляет, занимает своего ребёнка.</blockquote>
@@ -65970,8 +65972,8 @@
 	</card>
 	<card>
 		<k>записка</k>
-		<blockquote>разг.</blockquote>
-		<blockquote>записке записка;</blockquote>
+		<blockquote>разг. записке</blockquote>
+		<blockquote>записка;</blockquote>
 		<blockquote>актай записке неоформленный текст (без подписи и печати) документа.</blockquote>
 	</card>
 	<card>
