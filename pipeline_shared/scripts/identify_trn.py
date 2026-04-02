@@ -30,6 +30,7 @@ class TranslationFilter:
     def __init__(self):
         # 1. Kyrgyz specific chars
         self.re_kyrgyz = re.compile(r'[өүңәӨҮҢӘ]')
+        self.re_ref_note = re.compile(r'\b(?:см|ср)\.', re.IGNORECASE)
 
         # 5. Ending with forbidden suffixes
         # Suffixes: деп, тти, лды, рды, нды
@@ -118,7 +119,7 @@ class TranslationFilter:
             return True
 
         # Rule: Exclude if Kyrgyz chars present
-        if self.re_kyrgyz.search(text):
+        if self.re_kyrgyz.search(text) and not self.re_ref_note.search(text):
             return True
             
         # Rule: Exclude if contains the headword (k_text)
