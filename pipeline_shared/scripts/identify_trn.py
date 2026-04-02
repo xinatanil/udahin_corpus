@@ -30,14 +30,6 @@ class TranslationFilter:
     def __init__(self):
         # 1. Kyrgyz specific chars
         self.re_kyrgyz = re.compile(r'[өүңәӨҮҢӘ]')
-        
-        # 2. Keywords/Metadata (converted to regex)
-        full_pattern_str = f"{metaWord}|{originWord}|{linkKeyword}"
-        self.re_metaOriginLinkKeywords = re.compile(full_pattern_str, re.IGNORECASE)
-
-        # 3. Roman numerals
-        roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
-        self.re_roman = re.compile(r'\b(' + '|'.join(roman_numerals) + r')\b')
 
         # 5. Ending with forbidden suffixes
         # Suffixes: деп, тти, лды, рды, нды

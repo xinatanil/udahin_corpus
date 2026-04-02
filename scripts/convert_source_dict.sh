@@ -10,7 +10,6 @@ v2_scripts="$ROOT_DIR/pipeline_shared/scripts"
 current_snapshot="$ROOT_DIR/chatGPT_exp/current_snapshot.xml"
 
 fixed_source=""
-previous_output=""
 
 notify_done() {
     local message="$1"
@@ -54,17 +53,9 @@ cleanup() {
     if [ -n "${fixed_source:-}" ] && [ -f "$fixed_source" ]; then
         rm -f "$fixed_source"
     fi
-    if [ -n "${previous_output:-}" ] && [ -f "$previous_output" ]; then
-        rm -f "$previous_output"
-    fi
 }
 
 trap cleanup EXIT
-
-if [ -f "$converted_dict" ]; then
-    previous_output=$(mktemp "$ROOT_DIR/chatGPT_exp/converted_dict_prev_tmp.XXXXXX")
-    cp "$converted_dict" "$previous_output"
-fi
 
 fixed_source=$(mktemp "$ROOT_DIR/chatGPT_exp/corrected_source_fixed_tmp.XXXXXX")
 
@@ -120,12 +111,6 @@ python3 "$v2_scripts/normalize_wordlinks.py" "$converted_dict" "$converted_dict"
 lint "$converted_dict"
 
 bash "$v2_scripts/calculate_tag_counts.sh" "$converted_dict"
-
-if [ -n "${previous_output:-}" ] && [ -f "$previous_output" ]; then
-    echo "Generating diff..."
-    diff -u "$previous_output" "$converted_dict" > "${converted_dict}.diff" || true
-    echo "Diff saved to ${converted_dict}.diff"
-fi
 
 if [ -f "$current_snapshot" ]; then
     echo "Generating snapshot diff..."
