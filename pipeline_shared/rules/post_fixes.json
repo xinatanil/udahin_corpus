@@ -244,6 +244,46 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "kolu_kyska_meta_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(вместо колу кыска\\) тот, у кого руки коротки \\(что-л\\. сделать\\)\\.</blockquote>",
+      "replacement": "\\1<meta>(вместо колу кыска)</meta>\\n\\1<blockquote>тот, у кого руки коротки (что-л. сделать).</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "kara_kurdum_meta_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(точнее кара курдум\\) кровавый понос\\.</blockquote>",
+      "replacement": "\\1<meta>(точнее кара курдум)</meta>\\n\\1<blockquote>кровавый понос.</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "kelbes_sapar_meta_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(точнее келбес сапар\\) невозвратный путь \\(смерть\\)\\.</blockquote>",
+      "replacement": "\\1<meta>(точнее келбес сапар)</meta>\\n\\1<blockquote>невозвратный путь (смерть).</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "molo_tash_meta_then_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(точнее моло таш\\) болван, истукан, балда;</blockquote>",
+      "replacement": "\\1<meta>(точнее моло таш)</meta>\\n\\1<blockquote>болван, истукан, балда;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
