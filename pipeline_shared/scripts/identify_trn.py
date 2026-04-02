@@ -91,6 +91,9 @@ class TranslationFilter:
         self.forbidden_suffix_exceptions = frozenset(
             collapse_ws(line) for line in load_rule_lines('trn_forbidden_suffix_exceptions.txt')
         )
+        self.exact_trn_allowlist = frozenset(
+            collapse_ws(line) for line in load_rule_lines('trn_exact_allowlist.txt')
+        )
 
     def looks_like_kyrgyz_collocation_with_russian_tail(self, text):
         normalized = collapse_ws(text)
@@ -114,6 +117,9 @@ class TranslationFilter:
         """
         if not text:
             return True
+
+        if collapse_ws(text) in self.exact_trn_allowlist:
+            return False
 
         # Rule: Exclude if contains wordLink
         if element is not None and element.find('.//wordLink') is not None:
