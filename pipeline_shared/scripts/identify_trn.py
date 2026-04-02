@@ -145,10 +145,6 @@ class TranslationFilter:
         ):
             return True
 
-        # Rule: Exclude if contains words ending with hyphen
-        # if self.re_ends_with_hyphen.search(text):
-        #     return True
-
         # Rule: Exclude mixed "Kyrgyz collocation + Russian gloss" lines such as
         # "этибар кыл- обращать внимание;" so they can be handled later as
         # examples/collocations instead of becoming <trn>.
@@ -264,6 +260,32 @@ class TRNProcessor:
 
     def preprocess_tree(self, tree):
         root = tree.getroot()
+        def maybe_promote_matching_blockquote(children, k_text):
+            if not children:
+                return False
+
+            bq = None
+            for child in children:
+                if child.tag in {'meta', 'origin', 'xr', 'alternativeForm', 'meaningIndex'}:
+                    continue
+                if child.tag == 'blockquote':
+                    t = "".join(child.itertext()).strip()
+                    if not t:
+                        continue
+                    bq = child
+                break
+
+            if bq is None or len(bq) > 0:
+                return False
+
+            bq_text = bq.text or ''
+            if bq_text not in {f'{k_text}.', f'{k_text};'}:
+                return False
+
+            bq.tag = 'trn'
+            self.count_trn_found += 1
+            return True
+
         for card in root.findall('card'):
             children = list(card)
             if len(children) < 2:
@@ -272,26 +294,11 @@ class TRNProcessor:
                 continue
 
             k_elem = children[0]
-            bq = None
-            for child in children[1:]:
-                if child.tag in {'meta', 'origin', 'xr'}:
-                    continue
-                if child.tag == 'blockquote':
-                    bq = child
-                break
-
-            if bq is None:
-                continue
-            if len(bq) > 0:
-                continue
-
             k_text = k_elem.text or ''
-            bq_text = bq.text or ''
-            if bq_text not in {f'{k_text}.', f'{k_text};'}:
-                continue
+            maybe_promote_matching_blockquote(children[1:], k_text)
 
-            bq.tag = 'trn'
-            self.count_trn_found += 1
+            for meaning in card.findall('meaning'):
+                maybe_promote_matching_blockquote(list(meaning), k_text)
 
     def transform_content(self, content):
         content = self.apply_regex_preprocessing(content)
