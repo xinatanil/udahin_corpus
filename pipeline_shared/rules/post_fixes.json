@@ -294,6 +294,16 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "kachan_adj_xr_link_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>прил\\. к качан</blockquote>",
+      "replacement": "\\1<xr>прил. к <wordLink word=\"качан\"/></xr>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
