@@ -494,6 +494,26 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "opko_meta_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(точнее өпкө как- или өпкө-боор как-\\) ударять больного лёгкими животного, приносимого в качестве искупительной жертвы;</blockquote>",
+      "replacement": "\\1<meta>(точнее өпкө как- или өпкө-боор как-)</meta>\\n\\1<blockquote>ударять больного лёгкими животного, приносимого в качестве искупительной жертвы;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "toroluk_add_toro_link",
+      "stage": "all",
+      "pattern": "(^[ \\t]*)<trn>положение төрө I 1;</trn>",
+      "replacement": "\\1<trn>положение <wordLink word=\"төрө\" homonym=\"I\" meaning=\"1\"/>;</trn>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
