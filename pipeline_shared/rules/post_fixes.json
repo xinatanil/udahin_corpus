@@ -374,6 +374,66 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "jagenale_south_altform_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<blockquote>\\[жәгәнәлә\\] с\\.-х\\.</blockquote>",
+      "replacement": "<alternativeForm>южн. [жәгәнәлә]</alternativeForm>\\n<meta>с.-х.</meta>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "anjym_south_altform_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<blockquote>\\[анжим, әнжим\\]</blockquote>",
+      "replacement": "<alternativeForm>южн. [анжим, әнжим]</alternativeForm>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "bitta_south_altform_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<blockquote>\\[биттә\\] одна штука\\.</blockquote>",
+      "replacement": "<alternativeForm>южн. [биттә]</alternativeForm>\\n<blockquote>одна штука.</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "tak_south_altform_exact_v2",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<blockquote>\\[тәк\\] низ, под;</blockquote>",
+      "replacement": "<alternativeForm>южн. [тәк]</alternativeForm>\\n<blockquote>низ, под;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "apt_south_altform_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<meta>южн\\.</meta>\\s*<blockquote>\\[әпт\\] лицо, облик;</blockquote>",
+      "replacement": "\\1<alternativeForm>южн. [әпт]</alternativeForm>\\n\\1<blockquote>лицо, облик;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "apt_south_altform_exact_fallback",
+      "stage": "all",
+      "pattern": "(^[ \\t]*)<meta>южн\\.</meta>\\s*<trn>лицо, облик;</trn>",
+      "replacement": "\\1<alternativeForm>южн. [әпт]</alternativeForm>\\n\\1<trn>лицо, облик;</trn>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
