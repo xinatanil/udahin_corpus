@@ -334,6 +334,46 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "beihonor_altform_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<blockquote>\\(бейhөнөр\\)</blockquote>",
+      "replacement": "<alternativeForm>южн. (бейhөнөр)</alternativeForm>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "gilers_altform_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<blockquote>\\[гиләрс, гиләс\\]</blockquote>",
+      "replacement": "<alternativeForm>южн. [гиләрс, гиләс]</alternativeForm>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "jagenale_altform_meta_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<alternativeForm>\\[жәгәнәлә\\]</alternativeForm>",
+      "replacement": "<alternativeForm>южн. [жәгәнәлә]</alternativeForm>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "tak_altform_trn_exact",
+      "stage": "all",
+      "pattern": "<meta>южн\\.</meta>\\s*<alternativeForm>\\[тәк\\]</alternativeForm>",
+      "replacement": "<alternativeForm>южн. [тәк]</alternativeForm>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
