@@ -434,6 +434,66 @@
       "flags": [
         "M"
       ]
+    },
+    {
+      "id": "kalyng_meta_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(часто в сочетании с калың I\\) множество, масса;</blockquote>",
+      "replacement": "\\1<meta>(часто в сочетании с калың I)</meta>\\n\\1<blockquote>множество, масса;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "sol_tushtuk_meta_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(часто сол түштүк жак\\) север; северный;</blockquote>",
+      "replacement": "\\1<meta>(часто сол түштүк жак)</meta>\\n\\1<blockquote>север; северный;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "ui_zhai_meta_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(чаще үй-жай\\) дом, жилище, жильё;</blockquote>",
+      "replacement": "\\1<meta>(чаще үй-жай)</meta>\\n\\1<blockquote>дом, жилище, жильё;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "konul_meta_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(обычно с көңүл\\) разместиться; прийти в норму; успокоиться;</blockquote>",
+      "replacement": "\\1<meta>(обычно с көңүл)</meta>\\n\\1<blockquote>разместиться; прийти в норму; успокоиться;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "kun_meta_trn_exact",
+      "stage": "pre_trn",
+      "pattern": "(^[ \\t]*)<blockquote>\\(в сочет\\. с күн\\) греться на солнце;</blockquote>",
+      "replacement": "\\1<meta>(в сочет. с күн)</meta>\\n\\1<blockquote>греться на солнце;</blockquote>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
+    },
+    {
+      "id": "kelish_south_altform_exact",
+      "stage": "all",
+      "pattern": "(^[ \\t]*)<blockquote>\\(к мягкое\\) \\[кәлиш\\]</blockquote>",
+      "replacement": "\\1<alternativeForm>южн. (к мягкое) [кәлиш]</alternativeForm>",
+      "count": 1,
+      "flags": [
+        "M"
+      ]
     }
   ]
 }
