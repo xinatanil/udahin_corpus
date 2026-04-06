@@ -1,0 +1,76 @@
+{
+  "card_headword": "дайын",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_dayyn.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бизге дайын нам известно; для нас это не подлежит сомнению;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бизге дайын</source>\n\t<target>нам известно; для нас это не подлежит сомнению;</target>\n</ex>",
+      "reason": "Clear Kyrgyz expression followed by Russian translation/explanation.",
+      "confidence": 0.99
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дайыны угулду о нём прослышали; о нём стало известно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дайыны угулду</source>\n\t<target>о нём прослышали; о нём стало известно;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left with Russian translation on the right.",
+      "confidence": 0.99
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дайыны жок неизвестный, неведомый; неизвестно, неопределённо; то, о чём нет никаких достоверных сведений;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дайыны жок</source>\n\t<target>неизвестный, неведомый; неизвестно, неопределённо; то, о чём нет никаких достоверных сведений;</target>\n</ex>",
+      "reason": "Headword-derived Kyrgyz expression followed by Russian gloss/translation.",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эч нерсенин дайыны жок ничего не известно, ничего определённого сказать нельзя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эч нерсенин дайыны жок</source>\n\t<target>ничего не известно, ничего определённого сказать нельзя;</target>\n</ex>",
+      "reason": "Clear bilingual split: Kyrgyz expression then Russian translation.",
+      "confidence": 0.99
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дайынын таптырбай кетти о нём ни слуху ни духу, он пропал без вести;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дайынын таптырбай кетти</source>\n\t<target>о нём ни слуху ни духу, он пропал без вести;</target>\n</ex>",
+      "reason": "Full Kyrgyz clause with Russian equivalent after it.",
+      "confidence": 0.99
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өлсөң да, дайның чыгарба душмандын алдоо тилине фольк. умри, но не выдавай своей тайны льстивому языку врага;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өлсөң да, дайның чыгарба душмандын алдоо тилине</source>\n\t<target>фольк. умри, но не выдавай своей тайны льстивому языку врага;</target>\n</ex>",
+      "reason": "Complete Kyrgyz proverb/example followed by Russian translation; style label belongs with the right-side translation block here.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аң-таң болду Кудаке Акбердинин дайнына фольк. Кудаке изумился вести об Акберди;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аң-таң болду Кудаке Акбердинин дайнына</source>\n\t<target>фольк. Кудаке изумился вести об Акберди;</target>\n</ex>",
+      "reason": "Kyrgyz sentence followed by Russian translation with folklore label.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>балам, урааның ким, дайның ким? фольк. как твой ураан (см.), сын мой, кто ты по происхождению?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>балам, урааның ким, дайның ким?</source>\n\t<target>фольк. как твой ураан (см.), сын мой, кто ты по происхождению?</target>\n</ex>",
+      "reason": "Direct Kyrgyz question followed by Russian translation; folklore label attached to translation segment.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ата-бабаң, айлыңды, айтып берчи, кулунум, ары түбү дайныңды фольк. расскажи-ка, мой милый (см. <wordLink word=\"кулун\" meaning=\"2\"/>), кто твои предки, люди твоего аула и кто ты по происхождению;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ата-бабаң, айлыңды, айтып берчи, кулунум, ары түбү дайныңды</source>\n\t<target>фольк. расскажи-ка, мой милый (см. <wordLink word=\"кулун\" meaning=\"2\"/>), кто твои предки, люди твоего аула и кто ты по происхождению;</target>\n</ex>",
+      "reason": "Long Kyrgyz example clause followed by Russian translation; embedded wordLink is part of the original right-hand text.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ким деген карыя болосуз, дайыныңызды айта кетиңиз! что вы за старец будете, расскажите о себе (кто вы и что вы) !</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ким деген карыя болосуз, дайыныңызды айта кетиңиз!</source>\n\t<target>что вы за старец будете, расскажите о себе (кто вы и что вы) !</target>\n</ex>",
+      "reason": "Clear Kyrgyz sentence with Russian translation after the split.",
+      "confidence": 0.99
+    }
+  ]
+}

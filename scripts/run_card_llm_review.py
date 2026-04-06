@@ -29,13 +29,12 @@ SCHEMA = {
                     'properties': {
                         'blockquote_xml': {'type': 'string'},
                         'is_example': {'type': 'boolean'},
-                        'leading_meta': {'type': ['string', 'null']},
                         'source': {'type': ['string', 'null']},
                         'target': {'type': ['string', 'null']},
                         'reason': {'type': 'string'},
                         'confidence': {'type': 'number'}
                     },
-                    'required': ['blockquote_xml', 'is_example', 'leading_meta', 'source', 'target', 'reason', 'confidence'],
+                    'required': ['blockquote_xml', 'is_example', 'source', 'target', 'reason', 'confidence'],
                     'additionalProperties': False
                 }
             }
@@ -70,11 +69,11 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         'Important guidance:\n'
         '- Look for a split between Kyrgyz on the left and Russian on the right.\n'
         '- Many examples contain Kyrgyz function words, verb forms ending in "-", or full Kyrgyz clauses before the Russian gloss.\n'
-        '- If a blockquote begins with a short Russian-style label such as "разг.", "фольк.", "полит.", "перен." and the rest is still an example, put that label into leading_meta instead of source or target.\n'
         '- Do not leave Kyrgyz text in target if it belongs on the left side of the split.\n'
         '- Do not classify pure definitions, meta notes, xr lines, or glosses without a left/right bilingual split as examples.\n'
-        '- If a line is an example, fill source and target exactly, and set leading_meta if needed.\n'
-        '- If it is not an example, set leading_meta, source and target to null.\n'
+        '- Do not create or infer any new tags other than ex/source/target in your decision-making.\n'
+        '- If a line is an example, fill source and target exactly.\n'
+        '- If it is not an example, set source and target to null.\n'
         '- Evaluate every direct blockquote you see in the card.\n\n'
         f'{card_xml}'
     )

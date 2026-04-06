@@ -15,13 +15,6 @@ def ex_xml(source: str, target: str) -> str:
     )
 
 
-def meta_ex_xml(meta: str | None, source: str, target: str) -> str:
-    ex = ex_xml(source, target)
-    if not meta:
-        return ex
-    return f'<meta>{meta}</meta>\n{ex}'
-
-
 def main() -> int:
     if len(sys.argv) != 3:
         print('Usage: convert_card_review_to_fixes.py <review.json> <approved_fixes.json>', file=sys.stderr)
@@ -39,11 +32,10 @@ def main() -> int:
         target = decision.get('target')
         if not source or not target:
             continue
-        leading_meta = decision.get('leading_meta')
         fixes.append({
             'action': 'replace_exact_xml',
             'find_xml': decision['blockquote_xml'],
-            'replace_with_xml': meta_ex_xml(leading_meta, source, target),
+            'replace_with_xml': ex_xml(source, target),
             'reason': decision.get('reason', ''),
             'confidence': decision.get('confidence', 0),
         })
