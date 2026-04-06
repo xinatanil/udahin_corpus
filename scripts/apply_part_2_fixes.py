@@ -179,6 +179,50 @@ BLOCKQUOTE_TO_ALTFORM_META_META_TRN = [
     ),
 ]
 
+BLOCK_REWRITES = [
+    (
+        '''<card>
+\t\t<k>ардык I</k>
+\t\t<trn>неудовольствие, неудовлетворённость; обида;</trn>
+\t\t<blockquote>самаганым колума тийди, эми ардыгым чыкты я успокоился, достигнув желаемого; я удовлетворён;</blockquote>
+\t\t<blockquote>ардыгы бар у него заботы и неприятности; он не достиг желаемого;</blockquote>
+\t\t<blockquote>Акбалтанын Чубагы, ардыгына чыдабай, ачууланган убагы фольк. (это был) момент, когда (богатырь) Чубак (сын) Акбалты, не стерпев обиды, разгневался;</blockquote>
+\t\t<blockquote>кайраттанып жолго түш, калбасын ичте ардыгың фольк. иди твёрдо по (избранному) пути, чтоб не было у тебя неудовлетворённости;</blockquote>
+\t\t<blockquote>ардык айт- выразить неудовольствие, жалобу;</blockquote>
+\t\t<blockquote>ардык-кордук неприятности и позор.</blockquote>
+\t\t<blockquote>ардык- II стыдиться;</blockquote>
+\t\t<blockquote>чувствовать неловкость; сожалеть;</blockquote>
+\t\t<blockquote>окуудан чыгып калып, ардыгып жүрөт он отстал в учёбе и теперь сожалеет (об этом);</blockquote>
+\t\t<ex>
+\t\t\t<source>көрүп алып тардыкты, көп бек кейип ардыкты</source>
+\t\t\t<target>фольк. он увидел и обиделся, очень огорчился и устыдился.</target>
+\t\t</ex>
+\t</card>''',
+        '''<card>
+\t\t<k>ардык</k>
+\t\t<homonym>
+\t\t\t<homonymIndex>ардык I</homonymIndex>
+\t\t\t<trn>неудовольствие, неудовлетворённость; обида;</trn>
+\t\t\t<blockquote>самаганым колума тийди, эми ардыгым чыкты я успокоился, достигнув желаемого; я удовлетворён;</blockquote>
+\t\t\t<blockquote>ардыгы бар у него заботы и неприятности; он не достиг желаемого;</blockquote>
+\t\t\t<blockquote>Акбалтанын Чубагы, ардыгына чыдабай, ачууланган убагы фольк. (это был) момент, когда (богатырь) Чубак (сын) Акбалты, не стерпев обиды, разгневался;</blockquote>
+\t\t\t<blockquote>кайраттанып жолго түш, калбасын ичте ардыгың фольк. иди твёрдо по (избранному) пути, чтоб не было у тебя неудовлетворённости;</blockquote>
+\t\t\t<blockquote>ардык айт- выразить неудовольствие, жалобу;</blockquote>
+\t\t\t<blockquote>ардык-кордук неприятности и позор.</blockquote>
+\t\t</homonym>
+\t\t<homonym>
+\t\t\t<homonymIndex>ардык II</homonymIndex>
+\t\t\t<trn>стыдиться; чувствовать неловкость; сожалеть;</trn>
+\t\t\t<blockquote>окуудан чыгып калып, ардыгып жүрөт он отстал в учёбе и теперь сожалеет (об этом);</blockquote>
+\t\t\t<ex>
+\t\t\t\t<source>көрүп алып тардыкты, көп бек кейип ардыкты</source>
+\t\t\t\t<target>фольк. он увидел и обиделся, очень огорчился и устыдился.</target>
+\t\t\t</ex>
+\t\t</homonym>
+\t</card>''',
+    ),
+]
+
 
 def convert_tail_to_meta(text: str, tail_xml: str) -> str:
     if tail_xml.startswith('<trn>'):
@@ -206,6 +250,11 @@ def split_trn_to_meta_and_trn(trn_xml: str) -> tuple[str, str]:
 
 def apply_fixes(text: str) -> tuple[str, int]:
     applied = 0
+    for old_block, new_block in BLOCK_REWRITES:
+        if old_block in text:
+            text = text.replace(old_block, new_block, 1)
+            applied += 1
+
     for xr_xml, tail_xml in FIXES:
         pattern = re.compile(
             rf'(^[ \t]*){re.escape(xr_xml)}\s*\n([ \t]*){re.escape(tail_xml)}',

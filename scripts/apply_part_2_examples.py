@@ -35,6 +35,14 @@ EXCLUDED_TEXTS = {
     'кароолго жеткир- или кароол келтир взять на прицел, взять на мушку;',
 }
 
+APPROVED_EXTRA_COUNTS: Counter[tuple[str, str]] = Counter({
+    ('сөз алыш-', 'взять друг с друга слово:'): 1,
+    ('үнүн бас-', 'заставить его замолчать:'): 1,
+    ('муштум көрсөт-', 'пригрозить, припугнуть:'): 1,
+    ('талоон кой-', 'разграбить: напасть;'): 1,
+    ('тамеки чектир-', 'дать покурить или позволить покурить;'): 1,
+})
+
 
 def norm_xml_text(text: str) -> str:
     return text.strip()
@@ -119,6 +127,7 @@ def build_approved_pairs() -> set[tuple[str, str]]:
     reviewed_new_pairs = load_reviewed_new_pairs(SNAPSHOT_XML) - snapshot_pairs
     pairs = set(snapshot_pairs)
     pairs.update(reviewed_new_pairs)
+    pairs.update(APPROVED_EXTRA_COUNTS)
     return pairs
 
 
@@ -133,6 +142,7 @@ def build_allowed_counts() -> Counter[tuple[str, str]]:
     counts: Counter[tuple[str, str]] = Counter(load_snapshot_ex_pairs(SNAPSHOT_XML))
     for pair in (load_reviewed_new_pairs(SNAPSHOT_XML) - snapshot_pairs):
         counts[pair] += 1
+    counts.update(APPROVED_EXTRA_COUNTS)
     return counts
 
 
