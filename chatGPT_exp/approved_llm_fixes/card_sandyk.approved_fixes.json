@@ -1,0 +1,27 @@
+{
+  "card_headword": "сандык",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_sandyk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кол сандык маленький сундучок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кол сандык</source>\n\t<target>маленький сундучок;</target>\n</ex>",
+      "reason": "Clear bilingual line: Kyrgyz phrase on the left ('кол сандык') and Russian gloss on the right ('маленький сундучок;').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көңүл - сөздүн сандыгы погов. сердце - сокровищница (букв. сундук) слова;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көңүл - сөздүн сандыгы</source>\n\t<target>погов. сердце - сокровищница (букв. сундук) слова;</target>\n</ex>",
+      "reason": "Contains Kyrgyz expression on the left and a Russian proverb/explanation on the right; parenthetical note is Russian-side explanation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ай талаада ак сандык жаркырайт загадка в широкой степи белый сундук сверкает (отгадка күзгү зеркало).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ай талаада ак сандык жаркырайт</source>\n\t<target>загадка в широкой степи белый сундук сверкает (отгадка күзгү зеркало).</target>\n</ex>",
+      "reason": "Full Kyrgyz sentence on the left and Russian translation/explanation on the right; parenthetical contains an explanatory note (including a Kyrgyz word) that belongs to the Russian side.",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "card_headword": "жамгыр",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_zhamgyr.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жамгыр кылып, жаа тартып пуская из луков град (букв. дождь) стрел;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жамгыр кылып, жаа тартып</source>\n\t<target>пуская из луков град (букв. дождь) стрел;</target>\n</ex>",
+      "reason": "Contains Kyrgyz phrase on the left and a Russian gloss/translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чаба жааган жамгыр косой дождь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чаба жааган жамгыр</source>\n\t<target>косой дождь;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz expression and right side is Russian translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара жамгыр проливной дождь, ливень;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара жамгыр</source>\n\t<target>проливной дождь, ливень;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz expression and right side gives the Russian equivalent.",
+      "confidence": 0.95
+    }
+  ]
+}

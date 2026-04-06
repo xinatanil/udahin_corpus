@@ -1,0 +1,13 @@
+{
+  "card_headword": "кудук",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_kuduk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ээй кудай! кудуктай кулкун бергенче, томуктай топук берсеңчи! о боже! чем давать глотку с колодец, лучше с коленную чашечку воздержания дай!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ээй кудай! кудуктай кулкун бергенче, томуктай топук берсеңчи!</source>\n\t<target>о боже! чем давать глотку с колодец, лучше с коленную чашечку воздержания дай!;</target>\n</ex>",
+      "reason": "Blockquote contains Kyrgyz material first and a Russian rendering immediately after ('о боже! ...'), so it is a bilingual example sentence (Kyrgyz left, Russian right).",
+      "confidence": 0.94
+    }
+  ]
+}
