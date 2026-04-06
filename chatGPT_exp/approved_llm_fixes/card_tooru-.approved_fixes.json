@@ -1,0 +1,62 @@
+{
+  "card_headword": "тоору-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_tooru-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тундө айылды ууру тооруду ночью вор выслеживал аул;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тундө айылды ууру тооруду</source>\n\t<target>ночью вор выслеживал аул;</target>\n</ex>",
+      "reason": "Contains Kyrgyz text on the left ('тундө айылды ууру тооруду') followed by a Russian translation ('ночью вор выслеживал аул;').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыштан бери биздин уйду тооруду да калды он с зимы неотступно следил за нашим домом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыштан бери биздин уйду тооруду да калды</source>\n\t<target>он с зимы неотступно следил за нашим домом;</target>\n</ex>",
+      "reason": "Left portion is Kyrgyz ('кыштан бери ... тооруду да калды') with a Russian gloss starting at 'он с зимы...'.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бөдөнөнү тооруп чаап алдым я убил (палкой, плетью) перепёлку, обойдя её несколько раз;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бөдөнөнү тооруп чаап алдым</source>\n\t<target>я убил (палкой, плетью) перепёлку, обойдя её несколько раз;</target>\n</ex>",
+      "reason": "Kyrgyz clause ('бөдөнөнү тооруп чаап алдым') followed by Russian translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир бөдөнө көрүп, ошону тоорудум я заметил перепёлку и ходил вокруг (чтобы поймать её);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир бөдөнө көрүп, ошону тоорудум</source>\n\t<target>я заметил перепёлку и ходил вокруг (чтобы поймать её);</target>\n</ex>",
+      "reason": "Contains a Kyrgyz source clause before a Russian explanatory translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кулаалы, чөжөлөрдүн үстүндө айылып, тооруп жүрөт коршун выслеживает цыплят, кружась над ними;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кулаалы, чөжөлөрдүн үстүндө айланып, тооруп жүрөт</source>\n\t<target>коршун выслеживает цыплят, кружась над ними;</target>\n</ex>",
+      "reason": "Kyrgyz description followed by a Russian gloss ('коршун выслеживает...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бөдөнөдөй тооруп турат он всё ходит вокруг, чтобы, улучив момент, наброситься;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бөдөнөдөй тооруп турат</source>\n\t<target>он всё ходит вокруг, чтобы, улучив момент, наброситься;</target>\n</ex>",
+      "reason": "Left-side Kyrgyz phrase with a Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тооруган бука көздөнүп повернув голову и дико глядя исподлобья (букв. глазами уподобившись быку, готовому к схватке);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тооруган бука көздөнүп</source>\n\t<target>повернув голову и дико глядя исподлобья (букв. глазами уподобившись быку, готовому к схватке);</target>\n</ex>",
+      "reason": "Kyrgyz fragment at start with a Russian explanatory translation following.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сен мени көп тооруба не морочь мне голову; не заговаривай мне зубы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сен мени көп тооруба</source>\n\t<target>не морочь мне голову; не заговаривай мне зубы;</target>\n</ex>",
+      "reason": "Clear Kyrgyz source phrase followed by Russian equivalents/explanations.",
+      "confidence": 0.95
+    }
+  ]
+}

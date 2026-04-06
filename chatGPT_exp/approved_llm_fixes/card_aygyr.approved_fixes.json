@@ -1,0 +1,48 @@
+{
+  "card_headword": "айгыр",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_aygyr.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат качырбас боз айгыр смирный жеребец (в своём косяке);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат качырбас боз айгыр</source>\n\t<target>смирный жеребец (в своём косяке);</target>\n</ex>",
+      "reason": "Clear Kyrgyz phrase on the left with Russian translation/explanation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бээ көрбөгөн айгыр жеребец, не имевший случки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бээ көрбөгөн айгыр</source>\n\t<target>жеребец, не имевший случки;</target>\n</ex>",
+      "reason": "Kyrgyz left side and Russian gloss on right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айгыр карады жеребец покрыл, оплодотворил (кобылицу);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айгыр карады</source>\n\t<target>жеребец покрыл, оплодотворил (кобылицу);</target>\n</ex>",
+      "reason": "Verb phrase in Kyrgyz followed by Russian explanation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айгыр бээлерди карап жүрөт жеребец находится в ярости (бегает за кобылицами);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айгыр бээлерди карап жүрөт</source>\n\t<target>жеребец находится в ярости (бегает за кобылицами);</target>\n</ex>",
+      "reason": "Full Kyrgyz clause on left with Russian translation on right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айгыр сал- см. <wordLink word=\"сал-\" homonym=\"VI\" meaning=\"6\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айгыр сал-</source>\n\t<target>см. <wordLink word=\"сал-\" homonym=\"VI\" meaning=\"6\"/>;</target>\n</ex>",
+      "reason": "Left is Kyrgyz expression; right begins with 'см.' and a cross-reference — treated as an example per guidance.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары айгыр овсянка желочная (птица);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары айгыр</source>\n\t<target>овсянка желочная (птица);</target>\n</ex>",
+      "reason": "Kyrgyz lexical item on left with Russian definition on right.",
+      "confidence": 0.9
+    }
+  ]
+}
