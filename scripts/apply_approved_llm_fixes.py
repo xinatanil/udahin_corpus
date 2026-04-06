@@ -6,6 +6,20 @@ import re
 import sys
 from pathlib import Path
 
+EX_BLOCK_RE = re.compile(r'<ex>\s*<source>(.*?)</source>\s*<target>(.*?)</target>\s*</ex>', re.S)
+
+
+def already_has_equivalent_example(xml_text: str, replace_with_xml: str) -> bool:
+    m = EX_BLOCK_RE.search(replace_with_xml)
+    if not m:
+        return replace_with_xml in xml_text
+    source = m.group(1)
+    target = m.group(2)
+    for src, tgt in EX_BLOCK_RE.findall(xml_text):
+        if src == source and tgt == target:
+            return True
+    return False
+
 
 def apply_fix_set(xml_text: str, fixes: list[dict], source_name: str) -> tuple[str, int]:
     applied = 0
@@ -14,6 +28,10 @@ def apply_fix_set(xml_text: str, fixes: list[dict], source_name: str) -> tuple[s
             continue
         find_xml = fix['find_xml']
         replace_with_xml = fix['replace_with_xml']
+
+        if already_has_equivalent_example(xml_text, replace_with_xml):
+            continue
+
         pattern = re.compile(rf'(^[ \t]*){re.escape(find_xml)}', flags=re.M)
 
         def repl(match: re.Match[str]) -> str:

@@ -1,0 +1,69 @@
+{
+  "card_headword": "асман",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_asman.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ай-асман небесная высь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ай-асман</source>\n\t<target>небесная высь;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression on the left and a Russian translation on the right separated by a space.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асман мейкиндиги воздушное пространство;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асман мейкиндиги</source>\n\t<target>воздушное пространство;</target>\n</ex>",
+      "reason": "Clear Kyrgyz phrase followed by Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асман менен жердей как небо. и земля, как небо от земли;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асман менен жердей</source>\n\t<target>как небо. и земля, как небо от земли;</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left with Russian translation/explanation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ачык асмандын астында под открытым небом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ачык асмандын астында</source>\n\t<target>под открытым небом;</target>\n</ex>",
+      "reason": "Phrase in Kyrgyz followed by Russian rendering.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асмандан айткан баа бешеная цена;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асмандан айткан баа</source>\n\t<target>бешеная цена;</target>\n</ex>",
+      "reason": "Kyrgyz left side with a Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асманды аңтарып или асманды аңтарып, көктү көңтөрүп жатасың ты уж очень перегибаешь (выдумываешь всякие небылицы и т.п.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асманды аңтарып или асманды аңтарып, көктү көңтөрүп жатасың</source>\n\t<target>ты уж очень перегибаешь (выдумываешь всякие небылицы и т.п.);</target>\n</ex>",
+      "reason": "Kyrgyz clause(s) on the left with Russian explanatory translation on the right.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асманга чыгара макта- см. <wordLink word=\"макта-\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асманга чыгара макта-</source>\n\t<target>см. <wordLink word=\"макта-\"/>;</target>\n</ex>",
+      "reason": "Left contains Kyrgyz expression; right begins with 'см.' and a linked reference — treat as an example per guidance.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асманың болсо, таштап жибер! можешь делать любую пакость! (посмотрим!);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асманың болсо, таштап жибер!</source>\n\t<target>можешь делать любую пакость! (посмотрим!);</target>\n</ex>",
+      "reason": "Kyrgyz imperative on left with Russian explanatory/commentary on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бизге деген асманын таштап жиберсин если он против нас задумал пакость, пусть делает (пусть попробует!).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бизге деген асманын таштап жиберсин</source>\n\t<target>если он против нас задумал пакость, пусть делает (пусть попробует!).</target>\n</ex>",
+      "reason": "Kyrgyz expression on left followed by Russian translation on the right.",
+      "confidence": 0.95
+    }
+  ]
+}
