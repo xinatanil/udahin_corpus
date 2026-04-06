@@ -12,11 +12,21 @@ fixed_source=""
 
 lint() {
     local file=$1
-    export XMLLINT_INDENT=$'\t'
     local temp_file
     temp_file=$(mktemp)
     if xmllint --format "$file" --output "$temp_file"; then
-        mv "$temp_file" "$file"
+        python3 - "$temp_file" "$file" <<'PY'
+from pathlib import Path
+import re
+import sys
+
+src = Path(sys.argv[1])
+dst = Path(sys.argv[2])
+text = src.read_text(encoding='utf-8')
+text = re.sub(r'^( +)', lambda m: '\t' * (len(m.group(1)) // 2), text, flags=re.M)
+dst.write_text(text, encoding='utf-8')
+PY
+        rm -f "$temp_file"
     else
         rm -f "$temp_file"
         echo "Error: xmllint failed for $file" >&2
