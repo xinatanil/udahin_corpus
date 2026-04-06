@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import difflib
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.error
 import urllib.request
-import re
 from pathlib import Path
 
 ROOT = Path('/Users/xinatanil/Sources/udahin')
@@ -58,25 +59,30 @@ def extract_card(text: str, headword: str) -> str:
     return m.group(0)
 
 
-def build_preview(review_path: Path) -> tuple[Path, Path]:
+def build_preview(review_path: Path) -> tuple[Path, Path, Path]:
     stem = review_path.name.removesuffix('.review.json')
     fixes_path = review_path.parent / f'{stem}.approved_fixes.json'
     patched_card_path = review_path.parent / f'{stem}.patched_card.xml'
+    diff_path = review_path.parent / f'diff_{stem}.review.diff'
     tmp_xml = review_path.parent / f'{stem}.tmp.xml'
 
-    subprocess.run(
-        ['python3', str(CONVERT), str(review_path), str(fixes_path)],
-        check=True,
-    )
-    subprocess.run(
-        ['python3', str(APPLY), str(XML), str(fixes_path), str(tmp_xml)],
-        check=True,
-    )
+    subprocess.run(['python3', str(CONVERT), str(review_path), str(fixes_path)], check=True)
+    subprocess.run(['python3', str(APPLY), str(XML), str(fixes_path), str(tmp_xml)], check=True)
+
     headword = extract_headword(review_path)
+    original_card = extract_card(XML.read_text(encoding='utf-8'), headword)
     patched_card = extract_card(tmp_xml.read_text(encoding='utf-8'), headword)
     patched_card_path.write_text(patched_card + '\n', encoding='utf-8')
+
+    diff_text = ''.join(difflib.unified_diff(
+        (original_card + '\n').splitlines(keepends=True),
+        (patched_card + '\n').splitlines(keepends=True),
+        fromfile=f'{stem}.card.xml',
+        tofile=f'{stem}.patched_card.xml',
+    ))
+    diff_path.write_text(diff_text, encoding='utf-8')
     tmp_xml.unlink()
-    return fixes_path, patched_card_path
+    return fixes_path, patched_card_path, diff_path
 
 
 def main() -> int:
@@ -94,11 +100,7 @@ def main() -> int:
 
     response_path = Path(job['response_path'])
     review_path = Path(job['review_path'])
-    ascii_response_path = Path(job['ascii_response_path'])
-    ascii_review_path = Path(job['ascii_review_path'])
-
     response_path.write_text(json.dumps(response, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    ascii_response_path.write_text(json.dumps(response, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
     review = extract_output_json(response)
     if review is None:
@@ -106,14 +108,12 @@ def main() -> int:
         return 0
 
     review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    ascii_review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    fixes_path, patched_card_path = build_preview(review_path)
+    fixes_path, patched_card_path, diff_path = build_preview(review_path)
     print(f'Response JSON: {response_path}')
     print(f'Review JSON: {review_path}')
-    print(f'ASCII response JSON: {ascii_response_path}')
-    print(f'ASCII review JSON: {ascii_review_path}')
     print(f'Approved fixes preview JSON: {fixes_path}')
     print(f'Patched card preview XML: {patched_card_path}')
+    print(f'Review diff: {diff_path}')
     return 0
 
 
