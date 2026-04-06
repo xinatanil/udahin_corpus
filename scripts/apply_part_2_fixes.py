@@ -169,6 +169,16 @@ BLOCKQUOTE_TO_XR_AND_TRN = [
     ),
 ]
 
+BLOCKQUOTE_TO_ALTFORM_META_META_TRN = [
+    (
+        '<blockquote>(иначе чач алуу) южн. этн. свадебный обычай: перед свадьбой жениху бреют голову, грудь покрывают платком, во время бритья друзья бросают в платок деньги.</blockquote>',
+        '<alternativeForm>(иначе чач алуу)</alternativeForm>',
+        '<meta>южн.</meta>',
+        '<meta>этн.</meta>',
+        '<trn>свадебный обычай: перед свадьбой жениху бреют голову, грудь покрывают платком, во время бритья друзья бросают в платок деньги.</trn>',
+    ),
+]
+
 
 def convert_tail_to_meta(text: str, tail_xml: str) -> str:
     if tail_xml.startswith('<trn>'):
@@ -372,6 +382,22 @@ def apply_fixes(text: str) -> tuple[str, int]:
             return f'{indent}{xr_xml}\n{indent}{trn_xml}'
 
         text = pattern.sub(repl_bq_xr_trn, text, count=1)
+
+    for blockquote_xml, alt_xml, meta1_xml, meta2_xml, trn_xml in BLOCKQUOTE_TO_ALTFORM_META_META_TRN:
+        pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
+
+        def repl_bq_alt_meta_meta_trn(match: re.Match[str]) -> str:
+            nonlocal applied
+            applied += 1
+            indent = match.group(1)
+            return (
+                f'{indent}{alt_xml}\n'
+                f'{indent}{meta1_xml}\n'
+                f'{indent}{meta2_xml}\n'
+                f'{indent}{trn_xml}'
+            )
+
+        text = pattern.sub(repl_bq_alt_meta_meta_trn, text, count=1)
 
     return text, applied
 
