@@ -18,6 +18,10 @@ TOKEN_RE = re.compile(r"\S+")
 NON_TARGET_RUSSIAN_TOKENS = {"или"}
 HYPHEN_FORM_RE = re.compile(r"\b[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]+-")
 LEFT_RE = re.compile(rf"^(?P<left>{KYR_TOK}(?:\s+{KYR_TOK}){{0,5}})\s+(?P<right>.+)$")
+SOURCE_CHUNK_RE = rf"(?:{KYR_TOK}\s+){{0,5}}{KYR_TOK}-"
+SOURCE_CHAIN_RE = re.compile(
+    rf"^(?P<source>{SOURCE_CHUNK_RE}(?:\s+или\s+{SOURCE_CHUNK_RE})*)\s+(?P<target>.+)$"
+)
 RUS_START_RE = re.compile(r"^[а-яё\"«„(]", re.I)
 ROMAN_RE = re.compile(r"\b[IVXLCM]+\b")
 BLOCKQUOTE_RE = re.compile(r'^(?P<indent>[ \t]*)<blockquote>(?P<text>[^<]+)</blockquote>$', re.M)
@@ -79,11 +83,9 @@ def looks_like_reviewed_new_example(text: str) -> bool:
 
 
 def split_example(text: str) -> tuple[str, str]:
-    if "или" in text:
-        hyphen_forms = list(HYPHEN_FORM_RE.finditer(text))
-        if hyphen_forms:
-            last = hyphen_forms[-1]
-            return text[:last.end()].strip(), text[last.end():].strip()
+    chain_match = SOURCE_CHAIN_RE.match(text)
+    if chain_match:
+        return chain_match.group('source').strip(), chain_match.group('target').strip()
 
     split_at = None
     for m in TOKEN_RE.finditer(text):
