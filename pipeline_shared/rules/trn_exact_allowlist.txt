@@ -290,3 +290,96 @@
 <blockquote>начальный (то, что было в начале; см. <wordLink word="де-" />);</blockquote>
 <blockquote>материальная помощь родственников во время похорон (ср. <wordLink word="адие" />).</blockquote>
 <blockquote>без азана (см. <wordLink word="азан" homonym="I" />);</blockquote>
+<blockquote>чистый (разрешённый шариатом; противоп. <wordLink word="арам" homonym="I" meaning="1" />);</blockquote>
+<blockquote>определение (см. <wordLink word="айкындооч" />).</blockquote>
+<blockquote>поэтическое состязание акынов в импровизации или народных мудрецов (см. <wordLink word="чечен" homonym="I" />) в словопрении;</blockquote>
+<blockquote>состязаться в импровизации (об акынах), вступать в словопрения (о народных мудрецах; см. <wordLink word="абтыш" homonym="I" meaning="3" />).</blockquote>
+<blockquote>состязание акынов в импровизации (см. <wordLink word="айтыш" homonym="I" meaning="3" />);</blockquote>
+<blockquote>кольцо катаура (см. <wordLink word="басмайыл" />, <wordLink word="артайыл" />).</blockquote>
+<blockquote>налагать материальное взыскание (см. <wordLink word="айып" meaning="3" />);</blockquote>
+<blockquote>время вечерней молитвы (см. <wordLink word="шам" homonym="I" meaning="3" />).</blockquote>
+<blockquote>оказывать друг другу помощь при сельскохозяйственных работах (см. <wordLink word="алгоо" />).</blockquote>
+<blockquote>обманщик (см. <wordLink word="көсөө" homonym="II" />).</blockquote>
+<blockquote>особый вид сөйкө (см. <wordLink word="сөйкө" homonym="I" />).</blockquote>
+<blockquote>приносить добрые пожелания молодой, когда она с поклоном впервые входит в юрту свёкра (см. <wordLink word="жүгүн" />);</blockquote>
+<blockquote>двигаться по предгорью (см. <wordLink word="алкым" meaning="2" />);</blockquote>
+<blockquote>груша (более крупная, чем нәшпәт; см. <wordLink word="нашпурт" />).</blockquote>
+<blockquote>название полушёлковой материи (ср. <wordLink word="алчын" homonym="II" />);</blockquote>
+<blockquote>сторона альчика, противоположная таа (считается самой выигрышной; см. <wordLink word="таа" homonym="I" />);</blockquote>
+<blockquote>изъятие (противоп. <wordLink word="кошумча" />);</blockquote>
+<blockquote>рабочий, работающий на прорытии отводных каналов (см. <wordLink word="алыш" homonym="I" />).</blockquote>
+<blockquote>количество зерна, предназначенного для помола (ср. <wordLink word="мүштөк" homonym="I" />).</blockquote>
+<blockquote>интимно-почтительная форма обращения от апа (см. <wordLink word="апа" homonym="I" />);</blockquote>
+<blockquote>угощение, устраиваемое в канун поста (см. <wordLink word="орозо" />) и в канун рамазана.</blockquote>
+<blockquote>та сторона (см. <wordLink word="ары" homonym="I" />);</blockquote>
+<blockquote>год лошади (см. <wordLink word="жыл" homonym="I" meaning="2" />).</blockquote>
+<blockquote>считать по асый'ям (см. <wordLink word="асый" />);</blockquote>
+<blockquote>усечённая форма вспомогательного глагола жат- (см. <wordLink word="жат" homonym="III" />);</blockquote>
+<blockquote>батюшка, тятенька (см. <wordLink word="аке" meaning="3" />).</blockquote>
+<blockquote>называть батюшкой, тятенькой (см. <wordLink word="атаке" />).</blockquote>
+<blockquote>произносить слово ата (см. <wordLink word="ата" homonym="I" />);</blockquote>
+<blockquote>годный, посильный для верблюда (см. <wordLink word="атан" homonym="I" />);</blockquote>
+<blockquote>конаться, подкидывая альчик (при игре в альчики (см. <wordLink word="чүкө" />); начинает игру тот, чей альчик ляжет на "жох", хребтиком вверх).</blockquote>
+<blockquote>промывать желудок беркута (ср. <wordLink word="аткы" homonym="I" />).</blockquote>
+<blockquote>мастер игры в ордо (см. <wordLink word="ордо" meaning="3" />);</blockquote>
+<blockquote>участник хашара (см. <wordLink word="ашар" />).</blockquote>
+<blockquote>женская половина юрты (место в юрте с правой стороны от входа, огороженное чием, см. <wordLink word="чий" homonym="I" />);</blockquote>
+<blockquote>(о всаднике, участвующем в козлодранье; см. <wordLink word="улак" />) вырвать козлёнка у противника и положить к себе на седло или перебросить своему стороннику;</blockquote>
+<blockquote>женатый (ср. <wordLink word="катындуу" />; см. <wordLink word="аял" homonym="II" />).</blockquote>
+<blockquote>ценный, дорогой (ср. <wordLink word="кымбаттуу" />);</blockquote>
+<blockquote>название ловчей птицы - помесь балабана (см. <wordLink word="ителги" />) с сапсаном (см. <wordLink word="ылаачын" />);</blockquote>
+<blockquote>положение батыра (см. <wordLink word="баатыр" meaning="2" />).</blockquote>
+<blockquote>короткая верёвка для привязывания коня за ногу (см. <wordLink word="баймак" />).</blockquote>
+<blockquote>год коровы (см. <wordLink word="жыл" homonym="I" meaning="2" />).</blockquote>
+<blockquote>состоящий из глинобитных слоёв (см. <wordLink word="бакса" />);</blockquote>
+<blockquote>кулан-жеребец (см. <wordLink word="кулан" homonym="I" meaning="1" />).</blockquote>
+<blockquote>исполнитель телесного наказания (см. <wordLink word="балак" homonym="I" />).</blockquote>
+<blockquote>имеющий сына, сыновей (см. <wordLink word="бала" meaning="1" />);</blockquote>
+<blockquote>борец (он же состязается на коне; см. <wordLink word="оодарыш" homonym="I" meaning="2" />, <wordLink word="сайыш" meaning="3" />, <wordLink word="эңиш" homonym="III" meaning="2" />);</blockquote>
+<blockquote>поросший водорослями (см. <wordLink word="балыр" />);</blockquote>
+<blockquote>с украшениями (см. <wordLink word="баргек" />), украшенный;</blockquote>
+<blockquote>год барса (см. <wordLink word="жыл" homonym="I" meaning="2" />).</blockquote>
+<blockquote>барантовать (захватывать чужой скот; см. <wordLink word="барымта" />);</blockquote>
+<blockquote>люди, находящиеся в таких отношениях, которые допускают или требуют совершения баранты (см. <wordLink word="барымта" />) друг у друга;</blockquote>
+<blockquote>барантач (делающий набег с целью захвата чужого скота; см. <wordLink word="барымта" />).</blockquote>
+<blockquote>лекарь, лечащий болезнь горла (см. <wordLink word="басма" meaning="5" />).</blockquote>
+<blockquote>скреплённый молитвенным напутствием (см. <wordLink word="бата" meaning="2" />);</blockquote>
+<blockquote>толкование шариата, дававшееся муфтием (см. <wordLink word="мупту" />) в затруднительных случаях;</blockquote>
+<blockquote>незадачливый, несчастливый, несчастный (прим. см. <wordLink word="бейжай" />).</blockquote>
+<blockquote>предводитель басмачей (см. <wordLink word="басмачы" meaning="1" />).</blockquote>
+<blockquote>название женской песни, распеваемой летом при окарауливании овечьего стада ночью (см. <wordLink word="саксакай" />);</blockquote>
+<blockquote>рождённый от бека (см. <wordLink word="бек" homonym="II" />);</blockquote>
+<blockquote>одетая в белдемчи (см. <wordLink word="белдемчи" meaning="1" />);</blockquote>
+<blockquote>дающий (см. <wordLink word="бер-" homonym="III" />);</blockquote>
+<blockquote>склон горы (прим. см. <wordLink word="бетеге" />);</blockquote>
+<blockquote>формой или выражением лица иметь сходство с кем-чем-л.; походить лицом на кого-л. (ср. <wordLink word="баштан-" meaning="2" />, <wordLink word="көздөн-" />, <wordLink word="ооздон-" />);</blockquote>
+<blockquote>пятеро, пять штук (прим. см. <wordLink word="аларман" />).</blockquote>
+<blockquote>главный распорядитель на жоро (см. <wordLink word="жоро" homonym="I" meaning="1" />);</blockquote>
+<blockquote>положение или должность бия (см. <wordLink word="бий" homonym="II" meaning="1" />);</blockquote>
+<blockquote>внутренний приполок женской күрмө (см. <wordLink word="күрмө" homonym="I" />).</blockquote>
+<blockquote>идущий в счёт за единицу (см. <wordLink word="экилтик" />), равный одному чүкө (см.);</blockquote>
+<blockquote>со вторым подбородком (прим. см. <wordLink word="бозлан" />).</blockquote>
+<blockquote>изобилующий бессмертником (см. <wordLink word="бозмош" />);</blockquote>
+<blockquote>бузоварение, изготовление бузы и торговля ею (см. <wordLink word="бозо" />).</blockquote>
+<blockquote>набрасывать на шею лошади боолук (см. <wordLink word="боолук" meaning="3" />);</blockquote>
+<blockquote>игра в ордо (см. <wordLink word="ордо" meaning="3" />) без ставки.</blockquote>
+<blockquote>центр окружности при игре в ордо (см. <wordLink word="ордо" meaning="3" />), куда закапывается "хан" и ставятся альчики;</blockquote>
+<blockquote>покрываться опокой (см. <wordLink word="бубак" />);</blockquote>
+<blockquote>май (см. <wordLink word="ай" homonym="I" meaning="2" />);</blockquote>
+<blockquote>продевать в носовой хрящ буйла (см. <wordLink word="буйла" homonym="I" meaning="1" />);</blockquote>
+<blockquote>имеющий в носу буйла (см. <wordLink word="буйла" homonym="I" meaning="1" />).</blockquote>
+<blockquote>шёлк (см. <wordLink word="пула" />);</blockquote>
+<blockquote>болтушка (похлёбка; прим. см. <wordLink word="кыламык" />).</blockquote>
+<blockquote>приходить в расстройство (напр. о хозяйстве; прим. см. <wordLink word="бүлдүргө" />).</blockquote>
+<blockquote>родство (см. <wordLink word="бүлө" homonym="I" />).</blockquote>
+<blockquote>киргиз (под этим названием киргизы известны у калмыков; сами себя киргизы так называют только тогда, когда речь ведут от лица калмыков; прим. см. <wordLink word="абжор" />).</blockquote>
+<blockquote>киргизское происхождение (см. <wordLink word="бурут" />);</blockquote>
+<blockquote>завязывать буум (см. <wordLink word="буум" meaning="2" />).</blockquote>
+<blockquote>хватать за ноги (напр. козла при козлодрании; см. <wordLink word="бөрү" />);</blockquote>
+<blockquote>почка (ср. <wordLink word="күчүк" meaning="2" />);</blockquote>
+<blockquote>слово, встречающееся в заговоре (прим. см. <wordLink word="быжы" homonym="III" />).</blockquote>
+<blockquote>ткач, ткавший мату (см. <wordLink word="бөз" />).</blockquote>
+<blockquote>ставить альчик на бөгө (см. <wordLink word="бөгө" homonym="I" />);</blockquote>
+<blockquote>комочки в жарма (см. <wordLink word="жарма" homonym="I" meaning="3" />);</blockquote>
+<blockquote>завёртывать только что пойманную крупную ловчую птицу (напр. беркута) в войлок или во что-либо другое, оставляя снаружи только голову (при этом. изогнутость клюва особенно заметна; прим. см. <wordLink word="кажыр" homonym="II" />);</blockquote>
+<blockquote>пухнуть, вздуваться, толстеть (прим. см. <wordLink word="саргар" />);</blockquote>
