@@ -383,3 +383,104 @@
 <blockquote>комочки в жарма (см. <wordLink word="жарма" homonym="I" meaning="3" />);</blockquote>
 <blockquote>завёртывать только что пойманную крупную ловчую птицу (напр. беркута) в войлок или во что-либо другое, оставляя снаружи только голову (при этом. изогнутость клюва особенно заметна; прим. см. <wordLink word="кажыр" homonym="II" />);</blockquote>
 <blockquote>пухнуть, вздуваться, толстеть (прим. см. <wordLink word="саргар" />);</blockquote>
+<blockquote>ослёнок (ср. <wordLink word="тайкар" />).</blockquote>
+<blockquote>завтра (ср. <wordLink word="таңды" />).</blockquote>
+<blockquote>уговариваться, разговаривать (прим. см. <wordLink word="маңдайлаш-" />);</blockquote>
+<blockquote>пустословие, болтовня (прим. см. <wordLink word="чалчык" />);</blockquote>
+<blockquote>альчик, у которого сглажены алчы (см.) и таа (см. <wordLink word="таа" homonym="I" />) и который постоянно становится то на алчы, то на таа;</blockquote>
+<blockquote>с гребнем (см. <wordLink word="тараша" meaning="3" />);</blockquote>
+<blockquote>теснота (прим. см. <wordLink word="алачык" />);</blockquote>
+<blockquote>прочищать шомполом (прим. см. <wordLink word="тарткы" />).</blockquote>
+<blockquote>полоски материи, служащие для закрепления женского тюрбана (см. <wordLink word="элечек" />) сверху (их бывает от одной до четырёх);</blockquote>
+<blockquote>имеющий выдвижной ящик (см. <wordLink word="тартма" homonym="I" />);</blockquote>
+<blockquote>подносить в виде подарка (см. <wordLink word="тартуу" meaning="3" />);</blockquote>
+<blockquote>заставить кричать (см. <wordLink word="татай" />); наводить страх, ужас.</blockquote>
+<blockquote>китайский или калмыцкий чиновник, вельможа с шариком на шапке (см. <wordLink word="таш" homonym="I" meaning="5" />).</blockquote>
+<blockquote>фаза в скачках с козлёнком (см. <wordLink word="улак" meaning="2" />), когда схвативший козлёнка должен бросить его, обскакав вокруг финиша.</blockquote>
+<blockquote>(о самке животного) принять, подпустить к себе чужого детёныша (см. <wordLink word="телин-" meaning="1" />);</blockquote>
+<blockquote>заболеть (болезнью) тели (см. <wordLink word="тели" homonym="I" meaning="1" />);</blockquote>
+<blockquote>животные, предназначенные для молотьбы (см. <wordLink word="темин" homonym="I" />);</blockquote>
+<blockquote>тяпка с длинной рукоятью (для прополки опийного мака; см. <wordLink word="чанжы" />).</blockquote>
+<blockquote>верхний брус в люльке, связывающий дуги (см. <wordLink word="бешик" />).</blockquote>
+<blockquote>собирать в жмины, класть жминами (см. <wordLink word="тесте" meaning="1" />).</blockquote>
+<blockquote>быть собираемым в жмины (см. <wordLink word="тесте" meaning="1" />).</blockquote>
+<blockquote>название третьей лунки при игре в тогуз кумалак (см. <wordLink word="кумалак" />).</blockquote>
+<blockquote>положение младшей жены (см. <wordLink word="токол" meaning="4" />);</blockquote>
+<blockquote>надеть наглазник (см. <wordLink word="томого" />);</blockquote>
+<blockquote>год курицы (см. <wordLink word="жыл" homonym="I" meaning="2" />).</blockquote>
+<blockquote>качества туйгун'а (см. <wordLink word="туйгун" homonym="I" meaning="1" />);</blockquote>
+<blockquote>поросший ковылём (см. <wordLink word="тулаң" />).</blockquote>
+<blockquote>придать форму треугольннка (см. <wordLink word="тумар" />);</blockquote>
+<blockquote>верхний деревянный круг остова юрты, держащийся на верхних концах уук'ов (см. <wordLink word="уук" homonym="I" />);</blockquote>
+<blockquote>мастер, изготовляющий түндүк (см. <wordLink word="түндүк" meaning="4" />).</blockquote>
+<blockquote>мерить тутам'ами см. <wordLink word="тутам" meaning="2" />.</blockquote>
+<blockquote>ноготь (ср. <wordLink word="тырнак" meaning="2" />);</blockquote>
+<blockquote>снаружи; поверх (прим. см. <wordLink word="ичкисин" />).</blockquote>
+<blockquote>палочка, при помощи которой застёгивается чыкта (см. <wordLink word="чыкта" homonym="I" meaning="1" />) на шее жеребёнка;</blockquote>
+<blockquote>полученный в результате гадания (см. <wordLink word="төлгө" />), пророческий;</blockquote>
+<blockquote>гадальщик (см. <wordLink word="төлгө" />).</blockquote>
+<blockquote>умение гадать, занятие гаданием (см. <wordLink word="төлгө" />).</blockquote>
+<blockquote>пасти скот на төр'е (см. <wordLink word="төр" meaning="2" />) или пребывать на нём или двигаться по нему.</blockquote>
+<blockquote>стремящийся к почётному месту (см. <wordLink word="төр" meaning="1" />);</blockquote>
+<blockquote>называть господином (см. <wordLink word="төрө" homonym="I" meaning="1" />, <wordLink word="төрө" homonym="I" meaning="2" />);</blockquote>
+<blockquote>украшение в виде полосы, сшитой из кусков красной и белой кошмы, проходящей вокруг юрты с наружной стороны, выше соединения туурдук'а (см. <wordLink word="туурдук" />) и үзүк'а (см. <wordLink word="үзүк" homonym="I" />);</blockquote>
+<blockquote>потолок, сделанный из брусочков (см. <wordLink word="уваса" />).</blockquote>
+<blockquote>год коровы (см. <wordLink word="жыл" homonym="I" meaning="2" />);</blockquote>
+<blockquote>верхом на быке (см. <wordLink word="уй" homonym="I" meaning="2" />).</blockquote>
+<blockquote>участник козлодрания (см. <wordLink word="улак" meaning="2" />).</blockquote>
+<blockquote>лёгкое металлическое украшение на конце сөйкө (см. <wordLink word="сөйкө" homonym="I" />).</blockquote>
+<blockquote>год дракона (см. <wordLink word="жыл" homonym="I" meaning="2" />).</blockquote>
+<blockquote>завязывать одежду завязками (см. <wordLink word="үпчү" homonym="I" />);</blockquote>
+<blockquote>происходящий из страны Урум (см. <wordLink word="урум" homonym="III" meaning="1" />);</blockquote>
+<blockquote>лечение паром (см. <wordLink word="учукта-" homonym="I" />);</blockquote>
+<blockquote>сверло, пёрка; шило для прокалывания дыр в уук'е (см. <wordLink word="уук" homonym="I" />);</blockquote>
+<blockquote>школа (см. <wordLink word="мектеп" />).</blockquote>
+<blockquote>любитель и мастер козлодранья (см. <wordLink word="улак" meaning="2" />).</blockquote>
+<blockquote>мастерство в козлодранье (см. <wordLink word="улак" meaning="2" />).</blockquote>
+<blockquote>смычок для кыл кыяк'а (см. <wordLink word="кыяк" homonym="II" />).</blockquote>
+<blockquote>кричать "чага, чага" (см. <wordLink word="чага" homonym="II" />).</blockquote>
+<blockquote>свежая (только что вытекшая) еловая смола (ср. <wordLink word="дабыркай" />), древесный клей;</blockquote>
+<blockquote>металлическое ведро (ср. <wordLink word="челек" homonym="I" />);</blockquote>
+<blockquote>род сюзьмы или курта (см. <wordLink word="курут" homonym="I" />).</blockquote>
+<blockquote>издавать звук "чак-чак" (см. <wordLink word="чак" homonym="III" />);</blockquote>
+<blockquote>сотрудник журнала "Чалкан" (см. <wordLink word="чалкан" meaning="2" />);</blockquote>
+<blockquote>гнутые палочки, вставляемые крест-накрест в түндүк (см. <wordLink word="түндүк" meaning="4" />) и завершающие деревянный остов юрты;</blockquote>
+<blockquote>пошлёпать ладонями, чтобы приплюснуть (см. <wordLink word="чампа" />);</blockquote>
+<blockquote>две ямки в центре доски при игре в тогуз коргол (см. <wordLink word="коргол" />).</blockquote>
+<blockquote>действовать с помощью чигиря (см. <wordLink word="чаркпалек" />);</blockquote>
+<blockquote>обутый в чарыки (см. <wordLink word="чарык" homonym="II" />);</blockquote>
+<blockquote>половик, покрывало и т.п. вещи, сшитые из таар'а (см. <wordLink word="таар" meaning="2" />).</blockquote>
+<blockquote>промежуток между верхними частями задних ног лошади (см. <wordLink word="чаткал" homonym="I" />).</blockquote>
+<blockquote>нить, соединяющая два сөйкө (см. <wordLink word="сөйкө" homonym="I" />).</blockquote>
+<blockquote>деревянное ведро; бочка (ср. <wordLink word="чака" homonym="II" />, <wordLink word="бакыр" homonym="II" meaning="2" />);</blockquote>
+<blockquote>фаза игры в ордо (см. <wordLink word="ордо" meaning="3" />): игрок входит в круг и выбивает альчики, поднося биту близко к альчику;</blockquote>
+<blockquote>плетённый из прутьев кузов на волокушу (см. <wordLink word="чийне" />) или на телегу.</blockquote>
+<blockquote>принимающий участие в чеч (см. <wordLink word="чеч" homonym="II" meaning="2" />) в качестве приглашённого;</blockquote>
+<blockquote>поросший чием (см. <wordLink word="чий" homonym="I" meaning="1" />).</blockquote>
+<blockquote>особый вид баурсаков (см. <wordLink word="боорсок" />).</blockquote>
+<blockquote>тот, кто носит чокой (см. <wordLink word="чокой" homonym="I" />);</blockquote>
+<blockquote>право дополнительного удара, предоставляемое проигравшему в ордо (см. <wordLink word="ордо" meaning="3" />);</blockquote>
+<blockquote>вид торфа (см. <wordLink word="чым" homonym="I" />).</blockquote>
+<blockquote>продеть в носовую перегородку чүлүк (см. <wordLink word="чүлүк" homonym="I" />);</blockquote>
+<blockquote>заставить продеть в носовую перегородку чүлүк (см. <wordLink word="чүлүк" meaning="1" />);</blockquote>
+<blockquote>пельмени, варённые в бульоне (ср. <wordLink word="мантуу" />).</blockquote>
+<blockquote>загородка из чия (см. <wordLink word="чий" homonym="I" />) в женской (правой от входа) половине юрты, за которой хранятся кухонные принадлежности и продовольственные запасы;</blockquote>
+<blockquote>альчик козла; альчик малого размера (ср. <wordLink word="чүкө" />).</blockquote>
+<blockquote>короткая верёвка, служащая для привязывания жеребят к желе (см. <wordLink word="желе" meaning="1" />);</blockquote>
+<blockquote>платить штраф при игре в чабалекей (см. <wordLink word="чабалекей" meaning="2" />).</blockquote>
+<blockquote>душа (см. <wordLink word="жан" homonym="II" />);</blockquote>
+<blockquote>год мыши (см. <wordLink word="жыл" homonym="I" meaning="2" />);</blockquote>
+<blockquote>нераспустившиеся в воде и осевшие на дно остатки курта (см. <wordLink word="курут" homonym="I" />).</blockquote>
+<blockquote>сильный ветер (ср. <wordLink word="жел" homonym="I" />);</blockquote>
+<blockquote>род плова, приготовляемого вечером в канун поста (см. <wordLink word="орозо" />).</blockquote>
+<blockquote>надевать на морду жеребёнка намордник (см. <wordLink word="ширге" meaning="1" />);</blockquote>
+<blockquote>сыромятная копчёная кожа крупного скота (идёт на изготовление посуды, гл. обр. саба, см. <wordLink word="саба" homonym="I" />);</blockquote>
+<blockquote>надевать кому-л. на голову шири (см. <wordLink word="шири" meaning="2" />).</blockquote>
+<blockquote>палка, поддерживающая тез (см. <wordLink word="тез" homonym="I" />; она зажимается между согнутой в локте левой рукой и боком мастера);</blockquote>
+<blockquote>приятно разомлеть, слегка отяжелеть (от пищи, питья; см. <wordLink word="нымтыра-" />);</blockquote>
+<blockquote>помирить, привести к взаимному согласию (прим. см. <wordLink word="ыркыраштыр-" />).</blockquote>
+<blockquote>дервиш (прим. см. <wordLink word="уу" homonym="IV" />).</blockquote>
+<blockquote>слизистый налёт на внутренних стенках сабы (см. <wordLink word="саба" homonym="I" />);</blockquote>
+<blockquote>угощать вновь прикочевавших в аул, приглашая к себе или принося угощение (см. <wordLink word="өрүлүк" />);</blockquote>
+<blockquote>вышитый туш кийиз (см. <wordLink word="кийиз" />).</blockquote>
+<blockquote>спутанный (когда передняя нога связана с задней; см. <wordLink word="өрөө" />).</blockquote>
