@@ -7,6 +7,7 @@ ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 input_xml="$ROOT_DIR/sources/pipeline_part1_result.xml"
 output_xml="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
 diff_xml="$ROOT_DIR/chatGPT_exp/converted_dict.part2.diff"
+snapshot_xml="$ROOT_DIR/chatGPT_exp/converted_dict.snapshot.xml"
 
 lint() {
     local file=$1
@@ -37,4 +38,9 @@ python3 "$SCRIPT_DIR/apply_part_2_fixes.py" "$output_xml" "$output_xml"
 lint "$output_xml"
 
 diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
-echo "Part 2 diff saved to $diff_xml"
+if [ -f "$snapshot_xml" ]; then
+	diff -u "$snapshot_xml" "$output_xml" > "$diff_xml" || true
+	echo "Part 2 diff saved to $diff_xml"
+else
+	echo "No snapshot found at $snapshot_xml; skipping diff generation"
+fi
