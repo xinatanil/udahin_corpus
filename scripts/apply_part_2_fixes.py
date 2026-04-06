@@ -223,6 +223,19 @@ BLOCK_REWRITES = [
     ),
 ]
 
+EXACT_XML_REWRITES = [
+    (
+        '''<ex>
+\t\t\t\t<source>мен партиядамын или</source>
+\t\t\t\t<target>разг. мен партиямын я партийный;</target>
+\t\t\t</ex>''',
+        '''<ex>
+\t\t\t\t<source>мен партиядамын или мен партиямын</source>
+\t\t\t\t<target>я партийный;</target>
+\t\t\t</ex>''',
+    ),
+]
+
 
 def convert_tail_to_meta(text: str, tail_xml: str) -> str:
     if tail_xml.startswith('<trn>'):
@@ -250,6 +263,11 @@ def split_trn_to_meta_and_trn(trn_xml: str) -> tuple[str, str]:
 
 def apply_fixes(text: str) -> tuple[str, int]:
     applied = 0
+    for old_xml, new_xml in EXACT_XML_REWRITES:
+        if old_xml in text:
+            text = text.replace(old_xml, new_xml, 1)
+            applied += 1
+
     for old_block, new_block in BLOCK_REWRITES:
         if old_block in text:
             text = text.replace(old_block, new_block, 1)
