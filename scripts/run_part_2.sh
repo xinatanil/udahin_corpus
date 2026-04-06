@@ -35,6 +35,7 @@ PY
 
 cp "$input_xml" "$output_xml"
 python3 "$SCRIPT_DIR/apply_part_2_fixes.py" "$output_xml" "$output_xml"
+python3 "$SCRIPT_DIR/apply_part_2_examples.py" "$output_xml" "$output_xml"
 lint "$output_xml"
 
 diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
