@@ -31,7 +31,6 @@ def serialize_element_only(elem: ET.Element) -> str:
     return ET.tostring(reparsed, encoding='unicode')
 
 
-SEMICOLON_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_semicolon_scan_error.txt'))
 META_COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_meta_collocation.txt'))
 XR_COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_xr_collocation.txt'))
 ALTFORM_COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_altform_collocation.txt'))
@@ -39,8 +38,7 @@ COLLOCATION_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_l
 REJECT_RULES = frozenset(normalize_rule_entry(line) for line in load_rule_lines('colon_reject.txt'))
 
 ALL_RULES = (
-    SEMICOLON_RULES
-    | META_COLLOCATION_RULES
+    META_COLLOCATION_RULES
     | XR_COLLOCATION_RULES
     | ALTFORM_COLLOCATION_RULES
     | COLLOCATION_RULES
@@ -98,14 +96,6 @@ def transform_tree(tree: ET.ElementTree, mode: str = 'all') -> int:
         if parent is None:
             continue
         original_xml = serialize_element_only(blockquote)
-
-        if normalized in SEMICOLON_RULES:
-            if mode not in {'all', 'late'}:
-                continue
-            new_xml = strip_trailing_colon_from_xml(original_xml, replacement=';')
-            replace_element_from_xml(parent, blockquote, new_xml)
-            applied += 1
-            continue
 
         if normalized in XR_COLLOCATION_RULES:
             if mode not in {'all', 'semantic'}:

@@ -7,20 +7,8 @@ ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 input_dict="$ROOT_DIR/sources/corrected_source_dict.xml"
 converted_dict="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
 v2_scripts="$ROOT_DIR/pipeline_shared/scripts"
-current_snapshot="$ROOT_DIR/chatGPT_exp/current_snapshot.xml"
-snapshot_diff_path="${converted_dict}.snapshot.diff"
-review_snapshot_diff="$ROOT_DIR/chatGPT_exp/converted_dict.xml.snapshot.review.diff"
 
 fixed_source=""
-
-notify_done() {
-    local message="$1"
-    if command -v osascript >/dev/null 2>&1; then
-        osascript -e "display notification \"$message\" with title \"convert_source_dict.sh\"" || true
-    else
-        printf '\a'
-    fi
-}
 
 lint() {
     local file=$1
@@ -111,15 +99,3 @@ lint "$converted_dict"
 python3 "$v2_scripts/apply_colon_rules.py" "$converted_dict" "$converted_dict"
 python3 "$v2_scripts/normalize_wordlinks.py" "$converted_dict" "$converted_dict"
 lint "$converted_dict"
-
-bash "$v2_scripts/calculate_tag_counts.sh" "$converted_dict"
-
-if [ -f "$current_snapshot" ]; then
-    echo "Generating snapshot diff..."
-    diff -u "$current_snapshot" "$converted_dict" > "$snapshot_diff_path" || true
-    echo "Snapshot diff saved to $snapshot_diff_path"
-    cp "$snapshot_diff_path" "$review_snapshot_diff"
-    echo "Review diff saved to $review_snapshot_diff"
-fi
-
-notify_done "Finished processing converted_dict.xml"
