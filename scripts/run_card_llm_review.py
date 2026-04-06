@@ -156,7 +156,9 @@ def ascii_slug(headword: str) -> str:
 
 def main() -> int:
     headword = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_CARD
-    background = '--background' in sys.argv[2:] or '--background' in sys.argv[1:]
+    background = True
+    if '--no-background' in sys.argv[1:]:
+        background = False
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     card_xml = extract_card_xml(headword)
@@ -165,13 +167,35 @@ def main() -> int:
     card_path = OUT_DIR / f'{safe}.card.xml'
     response_path = OUT_DIR / f'{safe}.response.json'
     review_path = OUT_DIR / f'{safe}.review.json'
+    job_path = OUT_DIR / f'{safe}.job.json'
     ascii_card_path = OUT_DIR / f'{ascii_safe}.card.xml'
     ascii_response_path = OUT_DIR / f'{ascii_safe}.response.json'
     ascii_review_path = OUT_DIR / f'{ascii_safe}.review.json'
+    ascii_job_path = OUT_DIR / f'{ascii_safe}.job.json'
 
     card_path.write_text(card_xml + '\n', encoding='utf-8')
     ascii_card_path.write_text(card_xml + '\n', encoding='utf-8')
     response = call_responses_api(build_prompt(card_xml, headword), background=background)
+    if background:
+        job = {
+            'card_headword': headword,
+            'response_id': response.get('id'),
+            'card_path': str(card_path),
+            'response_path': str(response_path),
+            'review_path': str(review_path),
+            'ascii_card_path': str(ascii_card_path),
+            'ascii_response_path': str(ascii_response_path),
+            'ascii_review_path': str(ascii_review_path),
+        }
+        job_path.write_text(json.dumps(job, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        ascii_job_path.write_text(json.dumps(job, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        print(f'Card XML: {card_path}')
+        print(f'ASCII card XML: {ascii_card_path}')
+        print(f'Background job file: {job_path}')
+        print(f'ASCII background job file: {ascii_job_path}')
+        print(f"Background response queued: {response.get('id')}")
+        return 0
+
     response_path.write_text(json.dumps(response, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     ascii_response_path.write_text(json.dumps(response, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     review = extract_output_json(response)
@@ -184,8 +208,6 @@ def main() -> int:
     print(f'ASCII card XML: {ascii_card_path}')
     print(f'ASCII API response: {ascii_response_path}')
     print(f'ASCII review JSON: {ascii_review_path}')
-    if isinstance(review, dict) and review.get('status') == 'queued':
-        print(f"Background response queued: {review.get('id')}")
     return 0
 
 

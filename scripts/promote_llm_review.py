@@ -43,28 +43,17 @@ def main() -> int:
 
     stem = review_path.name.removesuffix('.review.json')
     fixes_path = EXPERIMENT_DIR / f'{stem}.approved_fixes.json'
-    patched_card_path = EXPERIMENT_DIR / f'{stem}.patched_card.xml'
     APPROVED_DIR.mkdir(parents=True, exist_ok=True)
 
-    subprocess.run(
-        ['python3', str(CONVERT), str(review_path), str(fixes_path)],
-        check=True,
-    )
-    subprocess.run(
-        ['python3', str(APPLY), str(XML), str(fixes_path), str(EXPERIMENT_DIR / f'{stem}.tmp.xml')],
-        check=True,
-    )
-
-    headword = extract_headword(review_path)
-    tmp_xml = (EXPERIMENT_DIR / f'{stem}.tmp.xml')
-    patched_card = extract_card(tmp_xml.read_text(encoding='utf-8'), headword)
-    patched_card_path.write_text(patched_card + '\n', encoding='utf-8')
-    tmp_xml.unlink()
+    if not fixes_path.exists():
+        subprocess.run(
+            ['python3', str(CONVERT), str(review_path), str(fixes_path)],
+            check=True,
+        )
 
     dest = APPROVED_DIR / fixes_path.name
     shutil.copy2(fixes_path, dest)
     print(f'Promoted fixes to {dest}')
-    print(f'Patched card preview written to {patched_card_path}')
     return 0
 
 
