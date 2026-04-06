@@ -281,3 +281,12 @@
 холостяцкая жизнь (мужчины), одиночество (незамужңей женщины);
 название буквы ң.
 положение төрө I 1;
+
+<blockquote>почтительное обращение к старшему мужчине (см. <wordLink word="аба" homonym="I" meaning="2" />, <wordLink word="аке" meaning="3" />).</blockquote>
+<blockquote>бита при игре в ордо (четырёхугольная плитка из рога коровы или горного барана; см. <wordLink word="ордо" meaning="3" />);</blockquote>
+<blockquote>почтительно называть ага (см. <wordLink word="ага" homonym="I" />); оказывать почёт, уважение (мужчине);</blockquote>
+<blockquote>называть агатай (старшего с почтением; см. <wordLink word="агатай" />).</blockquote>
+<blockquote>почтительное обращение к незнакомому мужчине (гл. обр. вблизи границы с Синьцзяном; см. <wordLink word="аяш" homonym="I" />).</blockquote>
+<blockquote>начальный (то, что было в начале; см. <wordLink word="де-" />);</blockquote>
+<blockquote>материальная помощь родственников во время похорон (ср. <wordLink word="адие" />).</blockquote>
+<blockquote>без азана (см. <wordLink word="азан" homonym="I" />);</blockquote>
