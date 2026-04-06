@@ -8,6 +8,8 @@ input_dict="$ROOT_DIR/sources/corrected_source_dict.xml"
 converted_dict="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
 v2_scripts="$ROOT_DIR/pipeline_shared/scripts"
 current_snapshot="$ROOT_DIR/chatGPT_exp/current_snapshot.xml"
+snapshot_diff_path="${converted_dict}.snapshot.diff"
+review_snapshot_diff="$ROOT_DIR/chatGPT_exp/converted_dict.xml.snapshot.review.diff"
 
 fixed_source=""
 
@@ -114,8 +116,10 @@ bash "$v2_scripts/calculate_tag_counts.sh" "$converted_dict"
 
 if [ -f "$current_snapshot" ]; then
     echo "Generating snapshot diff..."
-    diff -u "$current_snapshot" "$converted_dict" > "${converted_dict}.snapshot.diff" || true
-    echo "Snapshot diff saved to ${converted_dict}.snapshot.diff"
+    diff -u "$current_snapshot" "$converted_dict" > "$snapshot_diff_path" || true
+    echo "Snapshot diff saved to $snapshot_diff_path"
+    cp "$snapshot_diff_path" "$review_snapshot_diff"
+    echo "Review diff saved to $review_snapshot_diff"
 fi
 
 notify_done "Finished processing converted_dict.xml"

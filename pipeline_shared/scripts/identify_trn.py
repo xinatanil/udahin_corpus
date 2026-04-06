@@ -87,6 +87,9 @@ class TranslationFilter:
         self.exact_trn_allowlist = frozenset(
             collapse_ws(line) for line in load_rule_lines('trn_exact_allowlist.txt')
         )
+        self.exact_trn_rejectlist = frozenset(
+            collapse_ws(line) for line in load_rule_lines('trn_exact_reject.txt')
+        )
 
     def looks_like_kyrgyz_collocation_with_russian_tail(self, text):
         normalized = collapse_ws(text)
@@ -111,7 +114,13 @@ class TranslationFilter:
         if not text:
             return True
 
-        if collapse_ws(text) in self.exact_trn_allowlist:
+        plain_text = collapse_ws(text)
+        element_xml = normalize_element_xml(element) if element is not None else ''
+
+        if plain_text in self.exact_trn_rejectlist or element_xml in self.exact_trn_rejectlist:
+            return True
+
+        if plain_text in self.exact_trn_allowlist or element_xml in self.exact_trn_allowlist:
             return False
 
         # Rule: Exclude if contains wordLink
