@@ -1,0 +1,48 @@
+{
+  "card_headword": "адал",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_adal.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кой адал өлдү овца прирезана чистой (т.е. по ритуалу - до того, как успела испустить дух);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кой адал өлдү</source>\n\t<target>овца прирезана чистой (т.е. по ритуалу - до того, как успела испустить дух);</target>\n</ex>",
+      "reason": "Clear Kyrgyz phrase on the left and Russian gloss on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адал малым мой честно нажитый скот;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адал малым</source>\n\t<target>мой честно нажитый скот;</target>\n</ex>",
+      "reason": "Kyrgyz term followed by Russian translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адал эмгек честный труд;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адал эмгек</source>\n\t<target>честный труд;</target>\n</ex>",
+      "reason": "Kyrgyz expression with Russian equivalent after it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колумда бир уй, бир торпоктон башка адалдан түгүм жок у меня, кроме коровы и телёнка, нет никакого скота;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колумда бир уй, бир торпоктон башка адалдан түгүм жок</source>\n\t<target>у меня, кроме коровы и телёнка, нет никакого скота;</target>\n</ex>",
+      "reason": "Full Kyrgyz clause on the left with Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адалдан түгү жок кедей бедняк, не имеющий скота;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адалдан түгү жок кедей</source>\n\t<target>бедняк, не имеющий скота;</target>\n</ex>",
+      "reason": "Kyrgyz phrase (including Kyrgyz 'кедей') followed by Russian gloss.",
+      "confidence": 0.88
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адал кан см. <wordLink word=\"кан\" homonym=\"I\" meaning=\"1\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адал кан</source>\n\t<target>см. <wordLink word=\"кан\" homonym=\"I\" meaning=\"1\"/>.</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left; right side is a Russian cross-reference beginning with 'см.' and a wordLink (treated as target).",
+      "confidence": 0.9
+    }
+  ]
+}

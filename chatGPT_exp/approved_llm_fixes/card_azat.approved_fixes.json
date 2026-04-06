@@ -1,0 +1,48 @@
+{
+  "card_headword": "азат",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_azat.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>башы азатка чыкты он освобождён (напр. из рабства).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>башы азатка чыкты</source>\n\t<target>он освобождён (напр. из рабства).</target>\n</ex>",
+      "reason": "Clear bilingual line: Kyrgyz clause on the left and Russian translation on the right (includes parenthetical Russian note).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>акыл, азаты азыр Сабырдын кайратын курчутту его советы, наставления возбудили теперь в Сабыре энергию.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>акыл, азаты азыр Сабырдын кайратын курчутту</source>\n\t<target>его советы, наставления возбудили теперь в Сабыре энергию.</target>\n</ex>",
+      "reason": "Contains Kyrgyz source phrase followed by Russian translation; split between Kyrgyz and Russian is clear.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азат бою всё его тело;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азат бою</source>\n\t<target>всё его тело;</target>\n</ex>",
+      "reason": "Short expression with Kyrgyz left and Russian gloss on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азат бою дүркүрөп или азат бою калтылдап фольк. всё тело его (от страха) трепещет (дрожит, содрогается);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азат бою дүркүрөп или азат бою калтылдап</source>\n\t<target>фольк. всё тело его (от страха) трепещет (дрожит, содрогается);</target>\n</ex>",
+      "reason": "Contains Kyrgyz variant(s) on the left and Russian 'фольк.' gloss and translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>буура төөдөй күркүрөп, муну көргөн менденин азат бою дүркүрөп фольк. он ревёт, как верблюжий жеребец, у человека, который видит его, всё тело содрогается;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>буура төөдөй күркүрөп, муну көргөн менденин азат бою дүркүрөп</source>\n\t<target>фольк. он ревёт, как верблюжий жеребец, у человека, который видит его, всё тело содрогается;</target>\n</ex>",
+      "reason": "Longer Kyrgyz clause followed by Russian 'фольк.' gloss and translation; clear bilingual example.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айбатын көргөн адамдын азат бою калтылдап фольк. у человека, который видел его ярость, всё тело трепетало.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айбатын көргөн адамдын азат бою калтылдап</source>\n\t<target>фольк. у человека, который видел его ярость, всё тело трепетало.</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian 'фольк.' gloss and translation on the right; fits example pattern.",
+      "confidence": 0.9
+    }
+  ]
+}
