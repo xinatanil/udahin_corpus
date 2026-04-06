@@ -1,0 +1,62 @@
+{
+  "card_headword": "зар",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_zar.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алтын менен зар, деди - барымды менден ал, деди фольк. \"золото и злато - всё, что у меня есть, - возьми\", - сказал он.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алтын менен зар, деди - барымды менден ал, деди</source>\n\t<target>фольк. \"золото и злато - всё, что у меня есть, - возьми\", - сказал он.</target>\n</ex>",
+      "reason": "Folklore label belongs on the Russian side here; Kyrgyz source ends before фольк.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыйынга зармын я очень нуждаюсь в деньгах;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыйынга зармын</source>\n\t<target>я очень нуждаюсь в деньгах;</target>\n</ex>",
+      "reason": "Left side Kyrgyz phrase followed by Russian translation; typical example sentence structure.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>акчанын зары үчүн гана только из-за денег, только ради наживы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>акчанын зары үчүн гана</source>\n\t<target>только из-за денег, только ради наживы;</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left with Russian equivalent on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аны көрүүгө зармын я жажду ёго видеть;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аны көрүүгө зармын</source>\n\t<target>я жажду ёго видеть;</target>\n</ex>",
+      "reason": "Left contains Kyrgyz clause and right contains Russian translation; clear example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кедейликтин зарын тартып испытав муки бедности;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кедейликтин зарын тартып</source>\n\t<target>испытав муки бедности;</target>\n</ex>",
+      "reason": "Kyrgyz phrase followed by Russian gloss; bilingual example structure.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>зар заман см. <wordLink word=\"заман\" meaning=\"4\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>зар заман</source>\n\t<target>см. <wordLink word=\"заман\" meaning=\"4\"/>;</target>\n</ex>",
+      "reason": "Left is Kyrgyz expression and right begins with 'см.' plus a linked reference — per guidance this is still an example.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>зар кагып подтверждая; поддерживая; оправдывая;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>зар кагып</source>\n\t<target>подтверждая; поддерживая; оправдывая;</target>\n</ex>",
+      "reason": "Kyrgyz verb phrase on the left with Russian participial glosses on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыз, келиндердин бардыгы зар кагып отурат все девушки и молодухи сидят и подтверждают (что было именно так).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыз, келиндердин бардыгы зар кагып отурат</source>\n\t<target>все девушки и молодухи сидят и подтверждают (что было именно так).</target>\n</ex>",
+      "reason": "Full Kyrgyz clause on the left with Russian translation on the right; clear example sentence.",
+      "confidence": 0.95
+    }
+  ]
+}

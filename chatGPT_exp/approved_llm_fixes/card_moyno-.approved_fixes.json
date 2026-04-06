@@ -1,0 +1,48 @@
+{
+  "card_headword": "мойно-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_moyno-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>коштоодогу ат жигиттин колунан мойноп чыгып кетип, жоого түшүп кеткен запасная лошадь, что была в поводу, вырвавшись из рук джигита, попала к врагу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>коштоодогу ат жигиттин колунан мойноп чыгып кетип, жоого түшүп кеткен</source>\n\t<target>запасная лошадь, что была в поводу, вырвавшись из рук джигита, попала к врагу;</target>\n</ex>",
+      "reason": "Contains Kyrgyz clause on the left followed by Russian translation/explanation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат мойноп кетти лошадь не даётся на привязь (будучи захвачена, не останавливается, вырывается);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат мойноп кетти</source>\n\t<target>лошадь не даётся на привязь (будучи захвачена, не останавливается, вырывается);</target>\n</ex>",
+      "reason": "Clear Kyrgyz phrase followed by Russian gloss; parenthetical notes belong to Russian target.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мойноп көнбөй калды он заартачился и не соглашается;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мойноп көнбөй калды</source>\n\t<target>он заартачился и не соглашается;</target>\n</ex>",
+      "reason": "Kyrgyz expression left, Russian translation right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мойноп-мойноп жүрүп, көндү он согласился после долгого сопротивления;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мойноп-мойноп жүрүп, көндү</source>\n\t<target>он согласился после долгого сопротивления;</target>\n</ex>",
+      "reason": "Left side Kyrgyz phrase and right side Russian rendering; clear bilingual example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алган акчасын \"бербеймин\" деп, мойноп жатат он упорствует, не желая отдать взятые деньги;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алган акчасын \"бербеймин\" деп, мойноп жатат</source>\n\t<target>он упорствует, не желая отдать взятые деньги;</target>\n</ex>",
+      "reason": "Kyrgyz clause including quoted speech on left, Russian explanation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тил албай, мойногондордун жазасын бериш керек тех, кто не слушается и отбрыкивается, нужно наказать.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тил албай, мойногондордун жазасын бериш керек</source>\n\t<target>тех, кто не слушается и отбрыкивается, нужно наказать.</target>\n</ex>",
+      "reason": "Kyrgyz instruction/clause on the left with Russian paraphrase/translation on the right.",
+      "confidence": 0.95
+    }
+  ]
+}

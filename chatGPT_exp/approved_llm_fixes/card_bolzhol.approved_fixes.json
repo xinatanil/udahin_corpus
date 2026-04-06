@@ -1,0 +1,62 @@
+{
+  "card_headword": "болжол",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_bolzhol.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>келер болжолу болду ему уже время прийти, время, когда он должен прийти, настало;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>келер болжолу болду</source>\n\t<target>ему уже время прийти, время, когда он должен прийти, настало;</target>\n</ex>",
+      "reason": "Contains Kyrgyz phrase on the left and a Russian translation/explanation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>али канча том жазыларына болжолум жетпейт я пока не могу определить, сколько томов будет написано;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>али канча том жазыларына болжолум жетпейт</source>\n\t<target>я пока не могу определить, сколько томов будет написано;</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with a corresponding Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>болжол менен предположительно, приблизительно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>болжол менен</source>\n\t<target>предположительно, приблизительно;</target>\n</ex>",
+      "reason": "Kyrgyz expression ('болжол менен') followed by Russian equivalents.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>болжолу жок несметный, неисчислимый, несоизмеримый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>болжолу жок</source>\n\t<target>несметный, неисчислимый, несоизмеримый;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left with Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>болжолу жок чоң громадный, огромный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>болжолу жок чоң</source>\n\t<target>громадный, огромный;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz expression, right side provides Russian equivalents.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>болжолдо жок исключительный, выдающийся, большой;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>болжолдо жок</source>\n\t<target>исключительный, выдающийся, большой;</target>\n</ex>",
+      "reason": "Kyrgyz lemma on the left with Russian glosses on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>болжолдо жок ишкер выдающийся деятель;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>болжолдо жок ишкер</source>\n\t<target>выдающийся деятель;</target>\n</ex>",
+      "reason": "Phrase in Kyrgyz followed by Russian translation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>болжолдо жок жигит исключительный парень.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>болжолдо жок жигит</source>\n\t<target>исключительный парень.</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left with Russian equivalent on the right.",
+      "confidence": 0.9
+    }
+  ]
+}
