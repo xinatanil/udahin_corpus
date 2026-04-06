@@ -39,6 +39,28 @@ path.write_text(path.read_text(encoding='utf-8').replace(old, new), encoding='ut
 PY
 }
 
+compact_simple_xr_lines() {
+    local file=$1
+    python3 - "$file" <<'PY'
+from pathlib import Path
+import re
+import sys
+
+path = Path(sys.argv[1])
+text = path.read_text(encoding='utf-8')
+
+# xmllint sometimes formats simple xr tags with a single inline wordLink over
+# two lines. Keep these compact for easier review.
+text = re.sub(
+    r'<xr>([^<\n]*?<wordLink\b[^>]*/>)\s*\n\s*</xr>',
+    r'<xr>\1</xr>',
+    text,
+)
+
+path.write_text(text, encoding='utf-8')
+PY
+}
+
 cleanup() {
     if [ -n "${fixed_source:-}" ] && [ -f "$fixed_source" ]; then
         rm -f "$fixed_source"
@@ -99,3 +121,4 @@ lint "$converted_dict"
 python3 "$v2_scripts/apply_colon_rules.py" "$converted_dict" "$converted_dict"
 python3 "$v2_scripts/normalize_wordlinks.py" "$converted_dict" "$converted_dict"
 lint "$converted_dict"
+compact_simple_xr_lines "$converted_dict"
