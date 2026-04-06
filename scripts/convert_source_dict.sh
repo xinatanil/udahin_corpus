@@ -6,7 +6,7 @@ ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 input_dict="$ROOT_DIR/sources/corrected_source_dict.xml"
 converted_dict="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
-v2_scripts="$ROOT_DIR/pipeline_shared/scripts"
+v2_scripts="$ROOT_DIR/pipeline_part1/scripts"
 
 fixed_source=""
 
