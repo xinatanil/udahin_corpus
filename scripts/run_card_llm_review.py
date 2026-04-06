@@ -13,7 +13,7 @@ ROOT = Path('/Users/xinatanil/Sources/udahin')
 INPUT_XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
 OUT_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
 DEFAULT_CARD = 'партия'
-MODEL = 'gpt-5.4'
+MODEL = 'gpt-5-mini'
 
 SCHEMA = {
     'name': 'dictionary_card_example_review',
@@ -69,6 +69,8 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         'Important guidance:\n'
         '- Look for a split between Kyrgyz on the left and Russian on the right.\n'
         '- Many examples contain Kyrgyz function words, verb forms ending in "-", or full Kyrgyz clauses before the Russian gloss.\n'
+        '- Parenthetical Russian notes such as "(о больном)", "(о человеке)", "(о животном)" belong to the Russian target side, not to the Kyrgyz source side.\n'
+        '- If there is a clear Kyrgyz expression on the left and the right side begins with "см." plus a linked or referenced item, still treat it as an example and split it.\n'
         '- Do not leave Kyrgyz text in target if it belongs on the left side of the split.\n'
         '- Do not classify pure definitions, meta notes, xr lines, or glosses without a left/right bilingual split as examples.\n'
         '- Do not create or infer any new tags other than ex/source/target in your decision-making.\n'

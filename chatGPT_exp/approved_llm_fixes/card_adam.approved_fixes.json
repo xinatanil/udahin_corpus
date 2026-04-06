@@ -1,0 +1,69 @@
+{
+  "card_headword": "адам",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_adam.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адам адамга жолдош, дос жана бир тууган человек человеку товарищ, друг и брат;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адам адамга жолдош, дос жана бир тууган</source>\n\t<target>человек человеку товарищ, друг и брат;</target>\n</ex>",
+      "reason": "Clear bilingual split: Kyrgyz phrase(s) on the left, Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адам баласы человечество; человек;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адам баласы</source>\n\t<target>человечество; человек;</target>\n</ex>",
+      "reason": "Kyrgyz term on the left with Russian equivalents on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адамдан башка см. <wordLink word=\"башка\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адамдан башка</source>\n\t<target>см. <wordLink word=\"башка\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "Left is Kyrgyz phrase; right begins with Russian 'см.' and a reference link — a bilingual example/see-also construction.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адам бол- стать человеком (с присущими ему хорошими качествами);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адам бол-</source>\n\t<target>стать человеком (с присущими ему хорошими качествами);</target>\n</ex>",
+      "reason": "Kyrgyz lemma with Russian gloss/definition to the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мындай кылсаң, адам болбойсуң если ты так будешь поступать, то из тебя человека не выйдет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мындай кылсаң, адам болбойсуң</source>\n\t<target>если ты так будешь поступать, то из тебя человека не выйдет;</target>\n</ex>",
+      "reason": "Full Kyrgyz clause on the left with a Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал адам болбойт (о больном) он не поправится;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал адам болбойт</source>\n\t<target>(о больном) он не поправится;</target>\n</ex>",
+      "reason": "Kyrgyz clause left; parenthetical Russian note and Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адам, бизче сүйлөп олтурбайбы! ой, да он ведь по-нашему говорит!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адам, бизче сүйлөп олтурбайбы!</source>\n\t<target>ой, да он ведь по-нашему говорит!;</target>\n</ex>",
+      "reason": "Kyrgyz utterance on the left with Russian exclamation/translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адам, коюңузчу! да что вы (этого быть не может) !; вот как!, вон как!; смотри-ка ты!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адам, коюңузчу!</source>\n\t<target>да что вы (этого быть не может) !; вот как!, вон как!; смотри-ка ты!;</target>\n</ex>",
+      "reason": "Kyrgyz interjection left and multiple Russian equivalents/exclamations on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адам-эй, сени да көрөт экемин! наконец-то тебя вижу!; кого я вижу!</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адам-эй, сени да көрөт экемин!</source>\n\t<target>наконец-то тебя вижу!; кого я вижу!</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left with Russian translations on the right.",
+      "confidence": 0.9
+    }
+  ]
+}
