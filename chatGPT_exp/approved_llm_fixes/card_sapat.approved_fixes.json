@@ -1,0 +1,55 @@
+{
+  "card_headword": "сапат",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_sapat.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жогорку сапат высокое качество;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жогорку сапат</source>\n\t<target>высокое качество;</target>\n</ex>",
+      "reason": "Clear Kyrgyz phrase on the left and Russian translation on the right in the same blockquote.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сапаты начар плохого качества;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сапаты начар</source>\n\t<target>плохого качества;</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian gloss on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сапаты төмөн низкого качества;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сапаты төмөн</source>\n\t<target>низкого качества;</target>\n</ex>",
+      "reason": "Kyrgyz phrase followed by Russian translation; bilingual example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жогорку сапаттагы высокого качества;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жогорку сапаттагы</source>\n\t<target>высокого качества;</target>\n</ex>",
+      "reason": "Kyrgyz adjectival form on the left and Russian equivalent on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жогорку сапаттагы кийимдер одежда высокого качества;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жогорку сапаттагы кийимдер</source>\n\t<target>одежда высокого качества;</target>\n</ex>",
+      "reason": "Kyrgyz noun phrase on the left with Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жогорку сапаттагы көчөттөр саженцы высокого качества;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жогорку сапаттагы көчөттөр</source>\n\t<target>саженцы высокого качества;</target>\n</ex>",
+      "reason": "Kyrgyz phrase left / Russian gloss right — clear example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>адамгерчиликтин сапаты жок у него и признаков человечности (или добропорядочности) нет.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>адамгерчиликтин сапаты жок</source>\n\t<target>у него и признаков человечности (или добропорядочности) нет.</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian translation (including parenthetical note) on the right.",
+      "confidence": 0.95
+    }
+  ]
+}

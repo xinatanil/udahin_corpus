@@ -1,0 +1,41 @@
+{
+  "card_headword": "салтанаттуу",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_saltanattuu.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>салтанаттуу заседание торжественное заседание;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>салтанаттуу заседание</source>\n\t<target>торжественное заседание;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz/Kirghiz phrase on the left and a Russian translation on the right (clear left/right bilingual split).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>салтанаттуу убада торжественное обещание;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>салтанаттуу убада</source>\n\t<target>торжественное обещание;</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left and Russian gloss on the right separated by a space.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чогулуштун салтанаттуу бөлүмү торжественная часть собрания;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чогулуштун салтанаттуу бөлүмү</source>\n\t<target>торжественная часть собрания;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz clause, right side is Russian translation — clear bilingual example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>салтанаттуу-аза күтүү чогулушу торжественно-траурное собрание;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>салтанаттуу-аза күтүү чогулушу</source>\n\t<target>торжественно-траурное собрание;</target>\n</ex>",
+      "reason": "Compound Kyrgyz expression on the left with Russian rendering on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>үй ичи жасалгалуу, салтанаттуу дом внутри обставлен, (обстановка) отличается пышностью.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>үй ичи жасалгалуу, салтанаттуу</source>\n\t<target>дом внутри обставлен, (обстановка) отличается пышностью.</target>\n</ex>",
+      "reason": "Kyrgyz clause appears on the left, followed by its Russian translation (including parenthetical Russian note) on the right.",
+      "confidence": 0.95
+    }
+  ]
+}

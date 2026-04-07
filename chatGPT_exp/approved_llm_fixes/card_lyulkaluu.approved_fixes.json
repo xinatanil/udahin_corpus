@@ -1,0 +1,13 @@
+{
+  "card_headword": "люлькалуу",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_lyulkaluu.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>люлькалуу мотоцикл мотоцикл с люлькой.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>люлькалуу мотоцикл</source>\n\t<target>мотоцикл с люлькой.</target>\n</ex>",
+      "reason": "Blockquote contains a Kyrgyz expression on the left ('люлькалуу мотоцикл') and a Russian translation on the right ('мотоцикл с люлькой.'), so it is an example sentence/phrase with source and target.",
+      "confidence": 0.95
+    }
+  ]
+}

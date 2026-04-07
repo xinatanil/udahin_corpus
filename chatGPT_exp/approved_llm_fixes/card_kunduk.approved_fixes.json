@@ -1,0 +1,83 @@
+{
+  "card_headword": "күндүк",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_kunduk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндүк кызмат подённая работа;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндүк кызмат</source>\n\t<target>подённая работа;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right separated by a space.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндүк кызмат кылып, күнүмдүк тамагын таап турган работая подённо, он добывал себе дневное пропитание;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндүк кызмат кылып, күнүмдүк тамагын таап турган</source>\n\t<target>работая подённо, он добывал себе дневное пропитание;</target>\n</ex>",
+      "reason": "Kyrgyz clause (left) followed by Russian gloss/translation (right).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир күндүк однодневный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир күндүк</source>\n\t<target>однодневный;</target>\n</ex>",
+      "reason": "Short Kyrgyz expression on left with Russian equivalent on right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алты күндүк шестидневный; шестидневка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алты күндүк</source>\n\t<target>шестидневный; шестидневка;</target>\n</ex>",
+      "reason": "Kyrgyz numeral+adjective on left and Russian translations on right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>он күндүк десятидневный; десятидневка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>он күндүк</source>\n\t<target>десятидневный; десятидневка;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian equivalents on right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эки күндүк жол двухдневный путь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эки күндүк жол</source>\n\t<target>двухдневный путь;</target>\n</ex>",
+      "reason": "Kyrgyz compound on left and Russian translation on right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>беш күндүк өмүр пятидневная жизнь (обычный эпитет жизни человека, указывающий на её краткость);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>беш күндүк өмүр</source>\n\t<target>пятидневная жизнь (обычный эпитет жизни человека, указывающий на её краткость);</target>\n</ex>",
+      "reason": "Kyrgyz expression followed by Russian translation plus parenthetical explanatory note (belongs to Russian side).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дүнүйөгө беш күндүк конок болуп келген адам человек, который появился на свет пятидневным гостем;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дүнүйөгө беш күндүк конок болуп келген адам</source>\n\t<target>человек, который появился на свет пятидневным гостем;</target>\n</ex>",
+      "reason": "Full Kyrgyz clause on the left with corresponding Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндүк жумуш или күндүк иш повседневная работа; обычное дело;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндүк жумуш или күндүк иш</source>\n\t<target>повседневная работа; обычное дело;</target>\n</ex>",
+      "reason": "Kyrgyz variants on the left and Russian glosses on the right (split before Russian adjective).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндүк айкын жолбашчылык повседневное конкретное руководство;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндүк айкын жолбашчылык</source>\n\t<target>повседневное конкретное руководство;</target>\n</ex>",
+      "reason": "Kyrgyz compound followed by Russian translation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндүк муң повседневные житейские заботы.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндүк муң</source>\n\t<target>повседневные житейские заботы.</target>\n</ex>",
+      "reason": "Kyrgyz two-word phrase on the left with Russian translation on the right.",
+      "confidence": 0.9
+    }
+  ]
+}

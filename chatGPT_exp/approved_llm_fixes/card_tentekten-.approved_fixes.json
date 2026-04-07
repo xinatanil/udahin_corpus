@@ -1,0 +1,20 @@
+{
+  "card_headword": "тентектен-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_tentekten-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тентектенген баладан бетер хуже озорного ребёнка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тентектенген баладан бетер</source>\n\t<target>хуже озорного ребёнка;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz phrase ('тентектенген баладан бетер') followed by Russian translation ('хуже озорного ребёнка;').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тентектенип, муштум көрсөттү он с озорством показал кулак.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тентектенип, муштум көрсөттү</source>\n\t<target>он с озорством показал кулак.</target>\n</ex>",
+      "reason": "Contains Kyrgyz clause on the left ('тентектенип, муштум көрсөттү') and a corresponding Russian translation on the right ('он с озорством показал кулак.').",
+      "confidence": 0.95
+    }
+  ]
+}

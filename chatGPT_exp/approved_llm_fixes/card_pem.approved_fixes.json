@@ -1,0 +1,20 @@
+{
+  "card_headword": "пем",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_pem.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жем-пем кое-какой зерновой корм;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жем-пем</source>\n\t<target>кое-какой зерновой корм;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz lexical item on the left (жем-пем) followed by a Russian gloss/translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эптеп жем-пем жыттатып турабыз мы (скот) кое-как, кое-чем немного подкармливаем (букв. кое-какого зерна даём понюхать).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эптеп жем-пем жыттатып турабыз</source>\n\t<target>мы (скот) кое-как, кое-чем немного подкармливаем (букв. кое-какого зерна даём понюхать).</target>\n</ex>",
+      "reason": "Kyrgyz example clause appears at the start, followed by Russian explanatory translation; parenthetical note '(скот)' is Russian and belongs to the target.",
+      "confidence": 0.88
+    }
+  ]
+}

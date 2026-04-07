@@ -1,0 +1,48 @@
+{
+  "card_headword": "кыңк",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_kyngk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ичке тээп жиберсе, кыңк эте түштү как ударил (его) по животу, он \"гыкнул\";</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ичке тээп жиберсе, кыңк эте түштү</source>\n\t<target>как ударил (его) по животу, он \"гыкнул\";</target>\n</ex>",
+      "reason": "Contains Kyrgyz clause on the left and a Russian translation on the right (split before 'как').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыңк этпестен не издавая ни звука, ни слова не говоря;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыңк этпестен</source>\n\t<target>не издавая ни звука, ни слова не говоря;</target>\n</ex>",
+      "reason": "Kyrgyz expression 'кыңк этпестен' appears on the left with a Russian gloss/explanation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мен аны кыңк эткис кылам я сделаю так, что он и пикнуть не посмеет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мен аны кыңк эткис кылам</source>\n\t<target>я сделаю так, что он и пикнуть не посмеет;</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эмне эле кыңк-кыңк эте бересиң? что ты всё нюнишь?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эмне эле кыңк-кыңк эте бересиң?</source>\n\t<target>что ты всё нюнишь?</target>\n</ex>",
+      "reason": "Clear Kyrgyz question on the left and Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>душмандын бетин ачыштын ордуна кыңк-мыңк этесиң вместо того, чтобы разоблачать врага, ты выискиваешь отговорки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>душмандын бетин ачыштын ордуна кыңк-мыңк этесиң</source>\n\t<target>вместо того, чтобы разоблачать врага, ты выискиваешь отговорки;</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left followed by a Russian translation/explanation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыңк-мыңксыз без возражений.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыңк-мыңксыз</source>\n\t<target>без возражений.</target>\n</ex>",
+      "reason": "Single Kyrgyz word/phrase on the left with Russian equivalent on the right.",
+      "confidence": 0.95
+    }
+  ]
+}

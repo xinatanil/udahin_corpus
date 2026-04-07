@@ -1,0 +1,41 @@
+{
+  "card_headword": "бермет",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_bermet.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жасалма бермет искусственный жемчуг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жасалма бермет</source>\n\t<target>искусственный жемчуг;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right in the same blockquote.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>суу бермет поддельный жёмчуг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>суу бермет</source>\n\t<target>поддельный жёмчуг;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right in the same blockquote.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чыныгы бермет мелкий жемчуг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чыныгы бермет</source>\n\t<target>мелкий жемчуг;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right in the same blockquote.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уй бермет крупный жемчуг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уй бермет</source>\n\t<target>крупный жемчуг;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right in the same blockquote.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>төө бермет самый крупный жемчуг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>төө бермет</source>\n\t<target>самый крупный жемчуг;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right in the same blockquote.",
+      "confidence": 0.9
+    }
+  ]
+}

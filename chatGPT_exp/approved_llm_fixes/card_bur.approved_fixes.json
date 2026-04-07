@@ -1,0 +1,55 @@
+{
+  "card_headword": "бур",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_bur.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бур дегизип выпуская клубами, густо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бур дегизип</source>\n\t<target>выпуская клубами, густо;</target>\n</ex>",
+      "reason": "Contains Kyrgyz phrase 'бур дегизип' on the left and Russian explanation 'выпуская клубами, густо;' on the right — a bilingual example.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оозунан көк түтүндү бур дегизип пустив изо рта клубы дыма;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оозунан көк түтүндү бур дегизип</source>\n\t<target>пустив изо рта клубы дыма;</target>\n</ex>",
+      "reason": "Clear Kyrgyz clause at the start followed by Russian translation — typical example sentence.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бур-бур эткен мылтыктын түтүнү густой дым ружья;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бур-бур эткен мылтыктын түтүнү</source>\n\t<target>густой дым ружья;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left with Russian gloss on the right (phrase-level example).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тамактын жыты бур эте түштү запах (вкусной) пищи ударил в нос;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тамактын жыты бур эте түштү</source>\n\t<target>запах (вкусной) пищи ударил в нос;</target>\n</ex>",
+      "reason": "Kyrgyz clause followed by Russian explanation — bilingual example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бура бастырбайт шагу не даёт ступить;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бура бастырбайт</source>\n\t<target>шагу не даёт ступить;</target>\n</ex>",
+      "reason": "Short Kyrgyz expression with Russian translation — example.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бура сүйлөгөн сөз или буруп айткан сөз двусмысленность, каламбур (с нескромным намёком);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бура сүйлөгөн сөз или буруп айткан сөз</source>\n\t<target>двусмысленность, каламбур (с нескромным намёком);</target>\n</ex>",
+      "reason": "Kyrgyz expression(s) on the left with Russian gloss/definition on the right — treated as an example/expression with translation.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көңүл бур- см. <wordLink word=\"көңүл\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көңүл бур-</source>\n\t<target>см. <wordLink word=\"көңүл\"/>.</target>\n</ex>",
+      "reason": "Left side is Kyrgyz lemma form and right side is a Russian cross-reference beginning with 'см.'; guidance says to treat such lines as examples and split.",
+      "confidence": 0.8
+    }
+  ]
+}

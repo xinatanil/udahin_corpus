@@ -1,0 +1,48 @@
+{
+  "card_headword": "учкай",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_uchkay.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>учкай чаап легко ударив (напр. не в грудь, не по голове, а по низу);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>учкай чаап</source>\n\t<target>легко ударив (напр. не в грудь, не по голове, а по низу);</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'учкай чаап' on the left followed by Russian gloss/translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>учкай-учкай кагып койду он отряхнул края (напр. встряхнул не всю вещь, а рукой похлопал по краям);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>учкай-учкай кагып койду</source>\n\t<target>он отряхнул края (напр. встряхнул не всю вещь, а рукой похлопал по краям);</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left with Russian translation/explanation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чепкенин жакасьшан учкай кармап, силкип-силкип жиберди взяв халат за край воротника, он несколько раз встряхнул;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чепкенин жакасьшан учкай кармап, силкип-силкип жиберди</source>\n\t<target>взяв халат за край воротника, он несколько раз встряхнул;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz clause on the left and a Russian paraphrase/translation starting with 'взяв' on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>үзөңгүнү учкай теминип опершись носком (не ступнёй) о стремя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>үзөңгүнү учкай теминип</source>\n\t<target>опершись носком (не ступнёй) о стремя;</target>\n</ex>",
+      "reason": "Kyrgyz segment precedes a Russian participial translation 'опершись ...' — left/right bilingual split.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>учкай сөз несколько слов (не подробно);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>учкай сөз</source>\n\t<target>несколько слов (не подробно);</target>\n</ex>",
+      "reason": "Short Kyrgyz expression on the left with Russian equivalent on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бул авторлор, учкай болсо да, спектаклди алкоого алып өтүштү эти авторы, хотя и мимоходом, (но) хвалили спектакль.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бул авторлор, учкай болсо да, спектаклди алкоого алып өтүштү</source>\n\t<target>эти авторы, хотя и мимоходом, (но) хвалили спектакль.</target>\n</ex>",
+      "reason": "Full Kyrgyz clause on the left followed by Russian translation on the right.",
+      "confidence": 0.95
+    }
+  ]
+}

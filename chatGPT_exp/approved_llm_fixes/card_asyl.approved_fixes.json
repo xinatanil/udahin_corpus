@@ -1,0 +1,104 @@
+{
+  "card_headword": "асыл",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_asyl.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл чором мой благородный друг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл чором</source>\n\t<target>мой благородный друг;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл эмгек благородный труд;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл эмгек</source>\n\t<target>благородный труд;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл тукумдуу чистопородный, породистый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл тукумдуу</source>\n\t<target>чистопородный, породистый;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл тукумдуу жылкы породистые кони;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл тукумдуу жылкы</source>\n\t<target>породистые кони;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл таш драгоценный камень, самоцвет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл таш</source>\n\t<target>драгоценный камень, самоцвет;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл буюм драгоценности;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл буюм</source>\n\t<target>драгоценности;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жалындап сүйгөн асылым моя дорогая, горячо любимая;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жалындап сүйгөн асылым</source>\n\t<target>моя дорогая, горячо любимая;</target>\n</ex>",
+      "reason": "Kyrgyz clause on left with Russian rendering on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл кайран то же, что <wordLink word=\"эсил кайран\"/> (см. <wordLink word=\"эсил\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл кайран</source>\n\t<target>то же, что <wordLink word=\"эсил кайран\"/> (см. <wordLink word=\"эсил\"/>);</target>\n</ex>",
+      "reason": "Left-side Kyrgyz expression followed by Russian gloss (includes inline wordLink tags in the target).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл башыңыз саламат журөбү? как ваше драгоценное здоровье?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл башыңыз саламат журөбү?</source>\n\t<target>как ваше драгоценное здоровье?</target>\n</ex>",
+      "reason": "Kyrgyz question on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өмүрдүн асылы лучшая пора жизни;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өмүрдүн асылы</source>\n\t<target>лучшая пора жизни;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эгинди жакшы баккан жана жерден асыл алуу жумушуна машыккан киши человек, который хорошо ухаживает за посевами и который научился получать от земли урожай;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эгинди жакшы баккан жана жерден асыл алуу жумушуна машыккан киши</source>\n\t<target>человек, который хорошо ухаживает за посевами и который научился получать от земли урожай;</target>\n</ex>",
+      "reason": "Kyrgyz descriptive phrase on left with Russian equivalent on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аракет арбып, асыл аз старался много, а результат малый.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аракет арбып, асыл аз</source>\n\t<target>старался много, а результат малый.</target>\n</ex>",
+      "reason": "Left-side Kyrgyz clause followed by Russian translation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мага асылба не приставай ко мне;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мага асылба</source>\n\t<target>не приставай ко мне;</target>\n</ex>",
+      "reason": "Kyrgyz imperative phrase on left with Russian translation on right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>...абада асылып калды ...повис в воздухе.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>...абада асылып калды</source>\n\t<target>...повис в воздухе.</target>\n</ex>",
+      "reason": "Kyrgyz fragment on left with Russian rendering on right (ellipses retained).",
+      "confidence": 0.95
+    }
+  ]
+}

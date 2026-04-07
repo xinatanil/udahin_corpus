@@ -1,0 +1,41 @@
+{
+  "card_headword": "бузул-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_buzul-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аба-ырайы бузулду погода испортилась;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аба-ырайы бузулду</source>\n\t<target>погода испортилась;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left and a Russian translation on the right separated by a space; typical example sentence/phrase.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир ат үчүн эки эл бузулуп, канчалык кан төгүлгөнүн көргөнбүз мы видели, как из-за одной лошади два племени ссорились (букв. испортились) и сколько проливалось крови;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир ат үчүн эки эл бузулуп, канчалык кан төгүлгөнүн көргөнбүз</source>\n\t<target>мы видели, как из-за одной лошади два племени ссорились (букв. испортились) и сколько проливалось крови;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz clause ending with a Kyrgyz verb form; right side begins with Russian 'мы видели...' — clear bilingual example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ичим бузулду у меня желудок расстроился;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ичим бузулду</source>\n\t<target>у меня желудок расстроился;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left with Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өңү бузула түштү он резко изменился в лице (от злости, страха, стыда);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өңү бузула түштү</source>\n\t<target>он резко изменился в лице (от злости, страха, стыда);</target>\n</ex>",
+      "reason": "Kyrgyz clause left, Russian explanatory translation right; clear example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бузулбас достук нерушимая дружба.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бузулбас достук</source>\n\t<target>нерушимая дружба.</target>\n</ex>",
+      "reason": "Phrase in Kyrgyz on the left with Russian equivalent on the right; functions as an example/collocation.",
+      "confidence": 0.9
+    }
+  ]
+}

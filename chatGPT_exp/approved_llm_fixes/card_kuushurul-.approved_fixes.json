@@ -1,0 +1,20 @@
+{
+  "card_headword": "куушурул-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_kuushurul-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бүркүттөй куушурулуп сжавшись, как беркут (когда он с высоты бросается на добычу, подобрав крылья);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бүркүттөй куушурулуп</source>\n\t<target>сжавшись, как беркут (когда он с высоты бросается на добычу, подобрав крылья);</target>\n</ex>",
+      "reason": "Contains a Kyrgyz phrase on the left ('бүркүттөй куушурулуп') followed by a Russian gloss/translation on the right starting with 'сжавшись...'. Parenthetical Russian note belongs to the target.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бийиктен куушурулган кыраандай, үзөңгүнү тең тээп тура калды упершись в стремена, он приподнялся и сжался, будто беркут, ринувшийся с высоты.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бийиктен куушурулган кыраандай, үзөңгүнү тең тээп тура калды</source>\n\t<target>упершись в стремена, он приподнялся и сжался, будто беркут, ринувшийся с высоты.</target>\n</ex>",
+      "reason": "Starts with Kyrgyz sequence ('бийиктен куушурулган кыраандай, үзөңгүнү тең тээп тура калды') and continues with a Russian translation/explanation ('упершись...'). Split before the Russian clause.",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "card_headword": "тартуу",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_tartuu.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпчүлүктү өзүнө тартуу привлечение масс на свою сторону;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпчүлүктү өзүнө тартуу</source>\n\t<target>привлечение масс на свою сторону;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression on the left and a Russian translation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>резервдерди жакын тартуу воен. подтягивание резервов;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>резервдерди жакын тартуу</source>\n\t<target>воен. подтягивание резервов;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression on the left and a Russian translation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>душмандын күчүн өзүнүн фронтуна тартуу воен. отвлечение сил врага к своему фронту;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>душмандын күчүн өзүнүн фронтуна тартуу</source>\n\t<target>воен. отвлечение сил врага к своему фронту;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression on the left and a Russian translation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жоопко тартуу привлечение к ответу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жоопко тартуу</source>\n\t<target>привлечение к ответу;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression on the left and a Russian translation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кулакка тартуу ист. раскулачивание;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кулакка тартуу</source>\n\t<target>ист. раскулачивание;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression on the left and a Russian translation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдыңызга атым тартуу, чапаным жабылуу мой конь - вам подношение, мой халат на вас надет (прошу вас принять за мою провинность или в знак моего к вам уважения);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдыңызга атым тартуу, чапаным жабылуу</source>\n\t<target>мой конь - вам подношение, мой халат на вас надет (прошу вас принять за мою провинность или в знак моего к вам уважения);</target>\n</ex>",
+      "reason": "Kyrgyz phrase(s) on the left followed by Russian explanatory translation on the right (including parenthetical note).",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаныбыз да, башыбыз да силерге тартуу наши жизни в ваших руках, вы вольны нас казнить или миловать (букв. наши души и наши головы - вам подношение);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаныбыз да, башыбыз да силерге тартуу</source>\n\t<target>наши жизни в ваших руках, вы вольны нас казнить или миловать (букв. наши души и наши головы - вам подношение);</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian translation/explanation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>башым сага тартуу винюсь перед тобой своей головой;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>башым сага тартуу</source>\n\t<target>винюсь перед тобой своей головой;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left and Russian translation on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тамеки тартуу курение табака;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тамеки тартуу</source>\n\t<target>курение табака;</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left and Russian equivalent on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чылым тартуу курение кальяна;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чылым тартуу</source>\n\t<target>курение кальяна;</target>\n</ex>",
+      "reason": "Kyrgyz expression on the left and Russian equivalent on the right.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>насыбай тартуу закладывание насвая в рот (за нижнюю губу, под язык).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>насыбай тартуу</source>\n\t<target>закладывание насвая в рот (за нижнюю губу, под язык).</target>\n</ex>",
+      "reason": "Kyrgyz term on the left with Russian description on the right (including parenthetical clarification).",
+      "confidence": 0.92
+    }
+  ]
+}

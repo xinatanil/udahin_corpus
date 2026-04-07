@@ -1,0 +1,62 @@
+{
+  "card_headword": "тыз",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_tyz.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сол көзүм тыз дей туштү у меня кольнуло в левом глазу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сол көзүм тыз дей туштү</source>\n\t<target>у меня кольнуло в левом глазу;</target>\n</ex>",
+      "reason": "Clear Kyrgyz sentence on the left with a Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир жерим тыз деп койгон жок мне ничуть не было больно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир жерим тыз деп койгон жок</source>\n\t<target>мне ничуть не было больно;</target>\n</ex>",
+      "reason": "Kyrgyz clause followed by Russian equivalent.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ысык жарма ээрдин тыз күйгүзгөн горячая похлёбка сильно обожгла ему губы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ысык жарма ээрдин тыз күйгүзгөн</source>\n\t<target>горячая похлёбка сильно обожгла ему губы;</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left with Russian translation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жүрөгү тикенек сайгандай тыз-тыз этти сердце у неё так кольнуло, будто заноза вонзилась;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жүрөгү тикенек сайгандай тыз-тыз этти</source>\n\t<target>сердце у неё так кольнуло, будто заноза вонзилась;</target>\n</ex>",
+      "reason": "Left-side Kyrgyz expression and right-side Russian gloss/translation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тикендей тыз эттире сөз келтирет стих. он приводит колкие, как колючки, слова;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тикендей тыз эттире сөз келтирет</source>\n\t<target>стих. он приводит колкие, как колючки, слова;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz expression followed by Russian commentary/translation; 'стих.' is Russian and belongs to the target side.",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ичи тыз дей түштү горе ему вдруг грудь сдавило (напр. от неожиданной тяжёлой вести);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ичи тыз дей түштү</source>\n\t<target>горе ему вдруг грудь сдавило (напр. от неожиданной тяжёлой вести);</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian explanation on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаагы тыз дей түшкөн ему скулу вдруг заломило (как будто его кто-то по скуле ударил);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаагы тыз дей түшкөн</source>\n\t<target>ему скулу вдруг заломило (как будто его кто-то по скуле ударил);</target>\n</ex>",
+      "reason": "Left-side Kyrgyz expression and right-side Russian translation/explanation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыз коюп, түштү жолуна он помчался своей дорогой (т.е. туда, куда ему следует ехать).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыз коюп, түштү жолуна</source>\n\t<target>он помчался своей дорогой (т.е. туда, куда ему следует ехать).</target>\n</ex>",
+      "reason": "Kyrgyz phrase followed by a Russian translation/explanation.",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "card_headword": "туткаптуу",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_tutkaptuu.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колу туткаптуу он на руку нечист.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колу туткаптуу</source>\n\t<target>он на руку нечист.</target>\n</ex>",
+      "reason": "Contains Kyrgyz phrase on the left and a Russian translation on the right in the same blockquote.",
+      "confidence": 0.9
+    }
+  ]
+}

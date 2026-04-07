@@ -1,0 +1,13 @@
+{
+  "card_headword": "шагырат-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_shagyrat-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тиштерин шагырата кагып громко стуча зубами.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тиштерин шагырата кагып</source>\n\t<target>громко стуча зубами.</target>\n</ex>",
+      "reason": "Contains Kyrgyz clause on the left ('тиштерин шагырата кагып') followed by a Russian explanation/translation on the right ('громко стуча зубами.').",
+      "confidence": 0.87
+    }
+  ]
+}

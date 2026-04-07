@@ -1,0 +1,41 @@
+{
+  "card_headword": "окшо-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_oksho-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>саа окшойт на тебя похож;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>саа окшойт</source>\n\t<target>на тебя похож;</target>\n</ex>",
+      "reason": "Contains Kyrgyz phrase on the left and Russian translation on the right (clear bilingual example).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бул окшогон или ушул окшогон подобный (подобно) этому;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бул окшогон или ушул окшогон</source>\n\t<target>подобный (подобно) этому;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz expression(s), right side is Russian gloss/translation (parenthetical note belongs to Russian).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>келген окшойт он как будто пришёл;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>келген окшойт</source>\n\t<target>он как будто пришёл;</target>\n</ex>",
+      "reason": "Kyrgyz clause on the left with Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал келбейт окшойт он, похоже, не придёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал келбейт окшойт</source>\n\t<target>он, похоже, не придёт;</target>\n</ex>",
+      "reason": "Contains Kyrgyz material before a Russian explanatory translation; clearly an example.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жана ошого окшогон и тому подобное.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жана ошого окшогон</source>\n\t<target>и тому подобное.</target>\n</ex>",
+      "reason": "Kyrgyz phrase on the left and Russian equivalent on the right (formulaic example).",
+      "confidence": 0.95
+    }
+  ]
+}

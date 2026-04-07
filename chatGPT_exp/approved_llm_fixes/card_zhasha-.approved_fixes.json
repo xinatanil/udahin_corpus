@@ -1,0 +1,62 @@
+{
+  "card_headword": "жаша-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_zhasha-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жыйырма жашты жашаган проживший двадцать лет, в возрасте двадцати лет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жыйырма жашты жашаган</source>\n\t<target>проживший двадцать лет, в возрасте двадцати лет;</target>\n</ex>",
+      "reason": "Contains Kyrgyz phrase on the left and Russian translation on the right ('проживший' begins the Russian text).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал жашарын жашап, ичерин ичти он отжил свой век; он свой век прожил, своё от жизни взял;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал жашарын жашап, ичерин ичти</source>\n\t<target>он отжил свой век; он свой век прожил, своё от жизни взял;</target>\n</ex>",
+      "reason": "Kyrgyz clause followed by Russian translation(s) beginning with 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жашабагыр! чтоб тебе (ему) не жить!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жашабагыр!</source>\n\t<target>чтоб тебе (ему) не жить!;</target>\n</ex>",
+      "reason": "Kyrgyz interjection/expression followed by Russian translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жашасын! да здравствует!</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жашасын!</source>\n\t<target>да здравствует!</target>\n</ex>",
+      "reason": "Kyrgyz exclamation on the left with Russian equivalent on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жашамал пожилой.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жашамал</source>\n\t<target>пожилой.</target>\n</ex>",
+      "reason": "Single Kyrgyz lemma followed by Russian gloss/translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жашаң зелёный, молодой (о траве); зелёная трава; зелень;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жашаң</source>\n\t<target>зелёный, молодой (о траве); зелёная трава; зелень;</target>\n</ex>",
+      "reason": "Kyrgyz form 'жашаң' with Russian definitions/translations on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тизеден чыккан жашаңды жиреп, аркы-терки басат он ходит туда-сюда, рассекая зелёную траву высотою по колено;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тизеден чыккан жашаңды жиреп, аркы-терки басат</source>\n\t<target>он ходит туда-сюда, рассекая зелёную траву высотою по колено;</target>\n</ex>",
+      "reason": "Kyrgyz sentence/clause followed by Russian translation beginning with 'он ходит'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ачыккан уйлар жашаң бедеге качырып сала беришти голодные коровы набросились на зелёный клевер.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ачыккан уйлар жашаң бедеге качырып сала беришти</source>\n\t<target>голодные коровы набросились на зелёный клевер.</target>\n</ex>",
+      "reason": "Kyrgyz clause followed by Russian translation ('голодные коровы ...').",
+      "confidence": 0.95
+    }
+  ]
+}
