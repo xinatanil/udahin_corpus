@@ -31,6 +31,10 @@ SOURCE_ENDS_COMMA_RE = re.compile(r',\s*$')
 SOURCE_BAD_HYPHEN_PAREN_RE = re.compile(r'\s-\(')
 SOURCE_BAD_HYPHEN_ILI_RE = re.compile(r'-или\b', re.I)
 SOURCE_BAD_HYPHEN_CLOSE_RE = re.compile(r'\s-\)')
+SOURCE_RUSSIAN_CLUE_RE = re.compile(r'\b(?:глядя|горюя|конь|мясо)\b', re.I)
+SOURCE_RUSSIAN_HYPHEN_END_RE = re.compile(r'\b[А-Яа-яЁё]+(?:ь|й)-\s*$', re.I)
+TARGET_AMBIGUOUS_ILI_RE = re.compile(r'^\s*или\s+(кара|как|бери)\b', re.I)
+SOURCE_ENDS_AMBIGUOUS_RE = re.compile(r'\b(кара|как|бери)\s*$', re.I)
 
 
 def fetch_response(response_id: str) -> dict:
@@ -123,14 +127,14 @@ def write_remaining_blockquote_report(patched_card_path: Path, stem: str) -> Pat
     for item in iter_blockquotes(patched_card):
         reason = suspicious_remaining_reason(item['inner_xml'])
         if reason:
-            items.append((item['blockquote_id'], reason, item['blockquote_xml']))
+            items.append((reason, item['blockquote_xml']))
     if not items:
         if warn_path.exists():
             warn_path.unlink()
         return None
     lines = ['Potentially suspicious remaining blockquotes:\n']
-    for bq_id, reason, blockquote_xml in items:
-        lines.append(f'- {bq_id}: {reason}')
+    for idx, (reason, blockquote_xml) in enumerate(items, 1):
+        lines.append(f'- remaining_{idx}: {reason}')
         lines.append(f'  {blockquote_xml}')
         lines.append('')
     warn_path.write_text('\n'.join(lines).rstrip() + '\n', encoding='utf-8')
@@ -143,6 +147,12 @@ def suspicious_source_reason(source_text: str) -> str | None:
         return None
     if SOURCE_ENDS_COMMA_RE.search(source):
         return 'source ends with comma'
+    if SOURCE_ENDS_AMBIGUOUS_RE.search(source):
+        return 'source ends with ambiguous token'
+    if SOURCE_RUSSIAN_HYPHEN_END_RE.search(source):
+        return 'source ends with Russian-looking hyphen form'
+    if SOURCE_RUSSIAN_CLUE_RE.search(source):
+        return 'source contains obvious Russian lexical clue'
     if SOURCE_BAD_HYPHEN_PAREN_RE.search(source):
         return 'source has malformed "-(" spacing'
     if SOURCE_BAD_HYPHEN_ILI_RE.search(source):
@@ -157,10 +167,13 @@ def write_suspicious_fix_report(fixes_payload: dict, stem: str) -> Path | None:
     items = []
     for idx, fix in enumerate(fixes_payload.get('fixes', []), 1):
         replace_xml = fix.get('replace_with_xml', '')
-        m = re.search(r'<source>(.*?)</source>', replace_xml, re.S)
-        if not m:
+        m_source = re.search(r'<source>(.*?)</source>', replace_xml, re.S)
+        m_target = re.search(r'<target>(.*?)</target>', replace_xml, re.S)
+        if not m_source:
             continue
-        reason = suspicious_source_reason(m.group(1))
+        reason = suspicious_source_reason(m_source.group(1))
+        if reason is None and m_target and TARGET_AMBIGUOUS_ILI_RE.search(strip_tags(m_target.group(1)).strip()):
+            reason = 'target starts with "или" plus ambiguous token'
         if reason:
             items.append((idx, reason, replace_xml))
     if not items:

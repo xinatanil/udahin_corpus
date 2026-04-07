@@ -43,10 +43,6 @@ LEADING_GLUE_HYPHEN_FORM_RE = re.compile(
 LEADING_KYRGYZ_TO_RUSSIAN_RE = re.compile(
     rf'^(?P<cont>(?:{KYR_WORD_RE}\s+){{1,5}}(?:калды|болду|экен|дейт|деди|турган|болсо|болбосо|таппай))\s+(?P<rest>[А-ЯЁа-яё].*)$'
 )
-EXACT_SPLIT_OVERRIDES = {
-    'шак түшүптүр пала роса.': ('шак түшүптүр', 'пала роса.'),
-    'түндөгү түшүң туш келген сон, что ты видел ночью, исполнился;': ('түндөгү түшүң туш келген', 'сон, что ты видел ночью, исполнился;'),
-}
 DANGLING_SOURCE_END_RE = re.compile(r',\s*$')
 TRAILING_RUSSIAN_WORD_RE = re.compile(
     r'^(?P<body>.+?)\s+(?P<tail>(?:он|она|они|оно|мы|вы|я|ты|как|будто|словно|точно))$',
@@ -223,17 +219,6 @@ def main() -> int:
             source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
             target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
         else:
-            exact_override = EXACT_SPLIT_OVERRIDES.get(item['plain_text'])
-            if exact_override is not None:
-                source, target = exact_override
-                fixes.append({
-                    'action': 'replace_exact_xml',
-                    'find_xml': item['blockquote_xml'],
-                    'replace_with_xml': ex_xml(source, target),
-                    'reason': decision.get('reason', ''),
-                    'confidence': decision.get('confidence', 0),
-                })
-                continue
             source_atom_count = decision.get('source_atom_count')
             if source_atom_count is None:
                 source_token_count = decision.get('source_token_count')
