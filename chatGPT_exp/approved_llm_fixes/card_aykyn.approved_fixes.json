@@ -1,0 +1,41 @@
+{
+  "card_headword": "айкын",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_aykyn.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айкын жолбашчылык конкретное руководство;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айкын жолбашчылык</source>\n\t<target>конкретное руководство;</target>\n</ex>",
+      "reason": "Atoms 1–2 form the Kyrgyz phrase 'айкын жолбашчылык'; atom 3 is the first Russian gloss word.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айкын көрүнүп турат ясно видно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айкын көрүнүп турат</source>\n\t<target>ясно видно;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz 'айкын көрүнүп турат'; atom 4 'ясно' is the start of the Russian gloss.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айкын зоо отчётливо выступающая скала;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айкын зоо</source>\n\t<target>отчётливо выступающая скала;</target>\n</ex>",
+      "reason": "Atoms 1–2 appear to be Kyrgyz ('айкын зоо'); atom 3 'отчётливо' begins the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айкын-ачык или ачык-айкын ясный, чёткий, определённый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айкын-ачык или ачык-айкын</source>\n\t<target>ясный, чёткий, определённый;</target>\n</ex>",
+      "reason": "Atoms 1–7 form Kyrgyz variants 'айкын-ачык или ачык-айкын'; atom 8 'ясный' is the Russian gloss start.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айкын-ачык чаралар белгиленди намечены чёткие мероприятия.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айкын-ачык чаралар белгиленди</source>\n\t<target>намечены чёткие мероприятия.</target>\n</ex>",
+      "reason": "Atoms 1–5 are Kyrgyz 'айкын-ачык чаралар белгиленди'; atom 6 'намечены' is the Russian gloss.",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "card_headword": "айыл",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_ayyl.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айылы или айлы его аул;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айылы или айлы</source>\n\t<target>его аул;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz variant forms ('айылы или айлы'); the Russian gloss begins with 'его' at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир айыл эл население одного аула;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир айыл эл</source>\n\t<target>население одного аула;</target>\n</ex>",
+      "reason": "Atoms 1–3 ('бир айыл эл') are Kyrgyz; the Russian gloss starts at atom 4 'население'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сен деле кичине айыл эмес белең? а ты же ведь тоже человек малого аула?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сен деле кичине айыл эмес белең?</source>\n\t<target>а ты же ведь тоже человек малого аула?</target>\n</ex>",
+      "reason": "Atoms 1–7 form the Kyrgyz sentence (ending with '?'); the Russian translation begins immediately after with 'а' at atom 8.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айыл-апа см. <wordLink word=\"апа\" homonym=\"I\" meaning=\"5\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айыл-апа</source>\n\t<target>см. <wordLink word=\"апа\" homonym=\"I\" meaning=\"5\"/>;</target>\n</ex>",
+      "reason": "Atoms 1–3 ('айыл-апа') are the Kyrgyz compound; the reference marker 'см' (Russian) begins the right side at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айыл чарбасы см. <wordLink word=\"чарба\" meaning=\"1\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айыл чарбасы</source>\n\t<target>см. <wordLink word=\"чарба\" meaning=\"1\"/>.</target>\n</ex>",
+      "reason": "Atoms 1–2 ('айыл чарбасы') are Kyrgyz; the Russian 'см.' reference starts at atom 3.",
+      "confidence": 0.95
+    }
+  ]
+}

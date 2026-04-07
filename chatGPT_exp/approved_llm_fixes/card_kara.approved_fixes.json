@@ -1,0 +1,608 @@
+{
+  "card_headword": "кара",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kara.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара ат вороной конь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара ат</source>\n\t<target>вороной конь;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара ат'); the Russian gloss begins at atom 3 'вороной'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара кой чёрная овца;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара кой</source>\n\t<target>чёрная овца;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'кара кой' occupies atoms 1–2; Russian 'чёрная' starts at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара буура бурый верблюд (жеребец);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара буура</source>\n\t<target>бурый верблюд (жеребец);</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара буура'); Russian translation begins at atom 3 'бурый'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара ала чёрно-пегий, чёрно-пёстрый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара ала</source>\n\t<target>чёрно-пегий, чёрно-пёстрый;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара ала'); Russian hyphenated adjective begins at atom 3 'чёрно'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара чаар чёрно-пёстрый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара чаар</source>\n\t<target>чёрно-пёстрый;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz ('кара чаар'); Russian descriptor starts at atom 3 'чёрно'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара боз см. <wordLink word=\"боз\" homonym=\"I\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара боз</source>\n\t<target>см. <wordLink word=\"боз\" homonym=\"I\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара боз'); Russian cross-reference marker 'см' begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара тору тёмно-гнедой (о масти); смуглый (о лице);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара тору</source>\n\t<target>тёмно-гнедой (о масти); смуглый (о лице);</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара тору'); Russian description begins at atom 3 'тёмно'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара көз чёрный глаз; черноглазый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара көз</source>\n\t<target>чёрный глаз; черноглазый;</target>\n</ex>",
+      "reason": "Kyrgyz 'кара көз' occupies atoms 1–2; Russian 'чёрный глаз' begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көздүн карасы см. <wordLink word=\"көз\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көздүн карасы</source>\n\t<target>см. <wordLink word=\"көз\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "'көздүн карасы' is Kyrgyz (atoms 1–2); Russian cross-ref marker 'см' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алыстан бир кара көрүндү вдали (неясно) показался какой-то предмет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алыстан бир кара көрүндү</source>\n\t<target>вдали (неясно) показался какой-то предмет;</target>\n</ex>",
+      "reason": "Kyrgyz sentence ends at atom 4 ('көрүндү'); the Russian gloss begins at atom 5 'вдали'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара кесек или кара мясо (без жира, хотя бы и от жирного животного);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара кесек или кара</source>\n\t<target>мясо (без жира, хотя бы и от жирного животного);</target>\n</ex>",
+      "reason": "Kyrgyz alternatives occupy atoms 1–4; Russian gloss begins with lexical 'мясо' at atom 5 (see provided example).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кесерге карасы жок (о скоте, мясе) сплошной жир, очень жирный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кесерге карасы жок</source>\n\t<target>(о скоте, мясе) сплошной жир, очень жирный;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at atom 3; the right side begins with a parenthetical Russian note, so include the opening '(' at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара шамал ветер без осадков;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара шамал</source>\n\t<target>ветер без осадков;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара шамал'); Russian translation begins at atom 3 'ветер'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара суук сухой мороз;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара суук</source>\n\t<target>сухой мороз;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz ('кара суук' atoms 1–2); Russian gloss starts at atom 3 'сухой'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара токоч сухой хлеб (без масла, молока);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара токоч</source>\n\t<target>сухой хлеб (без масла, молока);</target>\n</ex>",
+      "reason": "Kyrgyz 'кара токоч' occupies atoms 1–2; Russian 'сухой' begins at atom 3, followed by 'хлеб'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара бороң см. <wordLink word=\"бороң\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара бороң</source>\n\t<target>см. <wordLink word=\"бороң\"/>;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара бороң'); Russian cross‑reference 'см.' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара жарыш см. <wordLink word=\"жарыш\" homonym=\"I\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара жарыш</source>\n\t<target>см. <wordLink word=\"жарыш\" homonym=\"I\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "'кара жарыш' is the Kyrgyz part (atoms 1–2); Russian 'см.' begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара кылып отурган жалгыз уулум мой единственный сын, на которого я возлагаю надежды;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара кылып отурган жалгыз уулум</source>\n\t<target>мой единственный сын, на которого я возлагаю надежды;</target>\n</ex>",
+      "reason": "Kyrgyz phrase finishes at atom 5 ('уулум'); Russian translation begins at atom 6 'мой'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>как талаада калып, көзүмдөн кара учуп отурат остался я (один) в дикой степи и остро почувствовал отсутствие помощника, спутника;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>как талаада калып, көзүмдөн кара учуп отурат</source>\n\t<target>остался я (один) в дикой степи и остро почувствовал отсутствие помощника, спутника;</target>\n</ex>",
+      "reason": "Following the example in the brief, Kyrgyz runs through atom 8; Russian gloss begins at atom 9 'остался'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара тааныбайт неграмотный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара тааныбайт</source>\n\t<target>неграмотный;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара тааныбайт'); Russian gloss 'неграмотный' starts at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара жоо коварный враг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара жоо</source>\n\t<target>коварный враг;</target>\n</ex>",
+      "reason": "Kyrgyz 'кара жоо' occupies atoms 1–2; Russian 'коварный' begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара оозуңа кан толгур! чтоб твой пакостный рот кровью наполнился!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара оозуңа кан толгур!</source>\n\t<target>чтоб твой пакостный рот кровью наполнился!;</target>\n</ex>",
+      "reason": "Kyrgyz exclamation ends at atom 5 (incl. '!'); Russian clause starts at atom 6 'чтоб'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара балакет беда неизбывная;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара балакет</source>\n\t<target>беда неизбывная;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz ('кара балакет' atoms 1–2); Russian 'беда' begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара мүртөз безжалостный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара мүртөз</source>\n\t<target>безжалостный;</target>\n</ex>",
+      "reason": "Kyrgyz 'кара мүртөз' (atoms 1–2); Russian gloss begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара тут-быть в трауре, соблюдать траур;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара тут-</source>\n\t<target>быть в трауре, соблюдать траур;</target>\n</ex>",
+      "reason": "'кара тут' is Kyrgyz; the Russian verb 'быть' starts at atom 4 (hyphen at 3 belongs to source-side morphology).",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара болбо не горюй, не печалься;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара болбо</source>\n\t<target>не горюй, не печалься;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара болбо'); the Russian negative 'не' begins the gloss at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара бастыбы сени? нечистый тебя задавил, что ли? (где ты запропастился?);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара бастыбы сени?</source>\n\t<target>нечистый тебя задавил, что ли? (где ты запропастился?);</target>\n</ex>",
+      "reason": "Kyrgyz question ends at atom 4 ('?'); Russian gloss begins at atom 5 'нечистый' (punctuation stays with left).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара баскыр! или кара бас! чтоб тебя (его) нечистый задавил!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара баскыр! или кара бас!</source>\n\t<target>чтоб тебя (его) нечистый задавил!;</target>\n</ex>",
+      "reason": "After Kyrgyz exclamations (atoms 1–7), the Russian clause starts with 'чтоб' at atom 8.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ак жерден кара болду он оказался без вины виноватым;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ак жерден кара болду</source>\n\t<target>он оказался без вины виноватым;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at atom 4; Russian translation begins at atom 5 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ак карасын текшерип разобравшись в том, прав он или виноват;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ак карасын текшерип</source>\n\t<target>разобравшись в том, прав он или виноват;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz ('ак карасын текшерип'); Russian paraphrase begins at atom 4 'разобравшись'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>иши акпы, карабы - текшербеген он не разбирал, справедливо дело или несправедливо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>иши акпы, карабы - текшербеген</source>\n\t<target>он не разбирал, справедливо дело или несправедливо;</target>\n</ex>",
+      "reason": "Tokens 1–6 are Kyrgyz (including the inline dash token); the Russian sentence starts at atom 7 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир карасы бар у него есть корова;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир карасы бар</source>\n\t<target>у него есть корова;</target>\n</ex>",
+      "reason": "Kyrgyz 'бир карасы бар' occupies atoms 1–3; Russian gloss 'у него есть корова' begins at atom 4 'у'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>калың берип, кара чачып алган катыны эле это была его жена, за которую он дал калым и щедро расходовал скот (на угощение);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>калың берип, кара чачып алган катыны эле</source>\n\t<target>это была его жена, за которую он дал калым и щедро расходовал скот (на угощение);</target>\n</ex>",
+      "reason": "Kyrgyz clause runs through atom 8 ('эле'); Russian explanatory sentence begins at atom 9 'это'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара калык простой народ, простонародье;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара калык</source>\n\t<target>простой народ, простонародье;</target>\n</ex>",
+      "reason": "'кара калык' is Kyrgyz (atoms 1–2); Russian 'простой' starts at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карадан тууган рождённый от простолюдина, простого происхождения;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карадан тууган</source>\n\t<target>рождённый от простолюдина, простого происхождения;</target>\n</ex>",
+      "reason": "Atoms 1–2 ('карадан тууган') are Kyrgyz; Russian gloss begins at atom 3 'рождённый'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара сөз проза, прозаическая речь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара сөз</source>\n\t<target>проза, прозаическая речь;</target>\n</ex>",
+      "reason": "Kyrgyz 'кара сөз' (atoms 1–2); Russian 'проза' begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара алачык бедная юрта (см. <wordLink word=\"алачык\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара алачык</source>\n\t<target>бедная юрта (см. <wordLink word=\"алачык\"/>);</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара алачык'); Russian 'бедная' starts at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тогуз кара кул, тогуз кара күң менен мал башынан миңдеп-миңдеп байге берилген устраивались скачки с призом в два раба, две рабыни и тысячи голов скота;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тогуз кара кул, тогуз кара күң менен мал башынан миңдеп-миңдеп байге берилген</source>\n\t<target>устраивались скачки с призом в два раба, две рабыни и тысячи голов скота;</target>\n</ex>",
+      "reason": "Kyrgyz sequence appears to run through atom 15 ('берилген'); the Russian translation begins at atom 16 'устраивались'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>орчун кара кол большое, многочисленное войско;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>орчун кара кол</source>\n\t<target>большое, многочисленное войско;</target>\n</ex>",
+      "reason": "'орчун кара кол' is Kyrgyz (atoms 1–3); Russian 'большое' starts at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара аламан, кара журт простой народ, народная масса;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара аламан, кара журт</source>\n\t<target>простой народ, народная масса;</target>\n</ex>",
+      "reason": "Kyrgyz variants occupy atoms 1–5; Russian description 'простой' begins at atom 6.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара тартып в поисках не покрытого снегом места (напр. о горной. куропатке зимой);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара тартып</source>\n\t<target>в поисках не покрытого снегом места (напр. о горной. куропатке зимой);</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('кара тартып'); Russian gloss starts at atom 3 'в' (beginning 'в поисках').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>атасы Садырдын жүрөгүнүн башында эки эли жери кара, баласы Доскулунун жүрөгүндө кара жок, баары да май экен фольк. у отца, у Садыра, на тупом конце сердца \"чернинка\" в два пальца (см. <wordLink word=\"эли\"/>), а у сына его, Доскулу, \"чернинки\" нет, сплошь жир (т.е. сын превосходит отца в богатырских качествах);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>атасы Садырдын жүрөгүнүн башында эки эли жери кара, баласы Доскулунун жүрөгүндө кара жок, баары да май экен</source>\n\t<target>фольк. у отца, у Садыра, на тупом конце сердца \"чернинка\" в два пальца (см. <wordLink word=\"эли\"/>), а у сына его, Доскулу, \"чернинки\" нет, сплошь жир (т. е. сын превосходит отца в богатырских качествах);</target>\n</ex>",
+      "reason": "Long Kyrgyz narrative runs through atom 19; Russian meta label 'фольк.' at atom 20 indicates the start of the gloss/explanation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туягында тура жок, жүрөгүндө кара жок фольк. (о коне) в копыте у него нет (излишне отросшей) стрелки, на сердце у него нет \"чернинки\";</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туягында тура жок, жүрөгүндө кара жок</source>\n\t<target>фольк. (о коне) в копыте у него нет (излишне отросшей) стрелки, на сердце у него нет \"чернинки\";</target>\n</ex>",
+      "reason": "Kyrgyz clause occupies atoms 1–7; Russian meta 'фольк.' starts at atom 8 and begins the gloss (parenthetical follows).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эртеден кара кечке с утра до поздней ночи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эртеден кара кечке</source>\n\t<target>с утра до поздней ночи;</target>\n</ex>",
+      "reason": "'эртеден кара кечке' is Kyrgyz (atoms 1–3); Russian 'с утра...' begins at atom 4 'с'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара шрифт жирный шрифт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара шрифт</source>\n\t<target>жирный шрифт;</target>\n</ex>",
+      "reason": "Kyrgyz 'кара шрифт' occupies atoms 1–2; Russian 'жирный' begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара башыл киши человек, живой человек;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара башыл киши</source>\n\t<target>человек, живой человек;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz ('кара башыл киши'); Russian 'человек' translation begins at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара таман см. <wordLink word=\"таман\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара таман</source>\n\t<target>см. <wordLink word=\"таман\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "'кара таман' is Kyrgyz (atoms 1–2); Russian cross-ref 'см.' begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара күчкө см. <wordLink word=\"күч\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара күчкө</source>\n\t<target>см. <wordLink word=\"күч\"/>;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz ('кара күчкө'); Russian 'см.' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара кашка кедей см. <wordLink word=\"кедей\" homonym=\"I\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара кашка кедей</source>\n\t<target>см. <wordLink word=\"кедей\" homonym=\"I\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz ('кара кашка кедей'); Russian cross-ref 'см.' begins at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара желин см. <wordLink word=\"желин\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара желин</source>\n\t<target>см. <wordLink word=\"желин\"/>;</target>\n</ex>",
+      "reason": "'кара желин' atoms 1–2 are Kyrgyz; Russian 'см.' begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара борчо см. <wordLink word=\"борчо\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара борчо</source>\n\t<target>см. <wordLink word=\"борчо\"/>.</target>\n</ex>",
+      "reason": "'кара борчо' is Kyrgyz (atoms 1–2); Russian 'см.' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асманды карады он посмотрел на небо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асманды карады</source>\n\t<target>он посмотрел на небо;</target>\n</ex>",
+      "reason": "Kyrgyz 'асманды карады' covers atoms 1–2; Russian 'он посмотрел...' begins at atom 3 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бала чоңоюп, ата-энесине карабай кетпейт ребёнок, став взрослым, не может не заботиться о родителях;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бала чоңоюп, ата-энесине карабай кетпейт</source>\n\t<target>ребёнок, став взрослым, не может не заботиться о родителях;</target>\n</ex>",
+      "reason": "Kyrgyz clause runs through atom 8; Russian gloss begins at atom 9 'ребёнок'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катын эрди карайт, ар жерди карайт погов. если жена на мужа взглянет (намекая на нехватки. в доме), муж голову опустит;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катын эрди карайт, ар жерди карайт</source>\n\t<target>погов. если жена на мужа взглянет (намекая на нехватки. в доме), муж голову опустит;</target>\n</ex>",
+      "reason": "Two Kyrgyz clauses occupy atoms 1–7; Russian meta 'погов.' at atom 8 begins the gloss (followed by Russian sentence).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жер карабай, ачык-айрым жүрөт он голову не вешает, ведёт себя бодро;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жер карабай, ачык-айрым жүрөт</source>\n\t<target>он голову не вешает, ведёт себя бодро;</target>\n</ex>",
+      "reason": "Kyrgyz portion ends at atom 7; Russian clause starts at atom 8 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жер карабасаңар эле болду хорошо, если вам не придётся краснеть;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жер карабасаңар эле болду</source>\n\t<target>хорошо, если вам не придётся краснеть;</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz; Russian 'хорошо' begins the gloss at atom 5.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>абаны карай вверх, в воздух;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>абаны карай</source>\n\t<target>вверх, в воздух;</target>\n</ex>",
+      "reason": "'абаны карай' is Kyrgyz (1–2); Russian gloss 'вверх' begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>абаны карай атты он выстрелил вверх, в воздух;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>абаны карай атты</source>\n\t<target>он выстрелил вверх, в воздух;</target>\n</ex>",
+      "reason": "Kyrgyz clause covers atoms 1–3; Russian translation commences at atom 4 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик жакты карады он посмотрел в сторону двери (обратив внимание);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик жакты карады</source>\n\t<target>он посмотрел в сторону двери (обратив внимание);</target>\n</ex>",
+      "reason": "'эшик жакты карады' is Kyrgyz (atoms 1–3); Russian gloss begins at atom 4 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик жакка карады он повернулся лицом к двери;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик жакка карады</source>\n\t<target>он повернулся лицом к двери;</target>\n</ex>",
+      "reason": "Kyrgyz part is atoms 1–3; Russian 'он повернулся...' starts at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мени карап глядя (именно) на меня;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мени карап</source>\n\t<target>глядя (именно) на меня;</target>\n</ex>",
+      "reason": "'мени карап' (atoms 1–2) is Kyrgyz; Russian participle 'глядя' at atom 3 begins the gloss (per example).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базарга карай или базарга карап в направлении базара;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базарга карай или базарга карап</source>\n\t<target>в направлении базара;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives fill atoms 1–5; Russian gloss 'в направлении' begins at atom 6 'в'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>төрт дөңгөлөгү асманды караган машина (авто) машина, перевернувшаяся вверх колёсами;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>төрт дөңгөлөгү асманды караган машина</source>\n\t<target>(авто) машина, перевернувшаяся вверх колёсами;</target>\n</ex>",
+      "reason": "Following the provided example, the Russian side begins with the parenthetical '(авто)'; include the opening '(' at atom 6 as the start of the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаңы ийгиликтерге карай к новым успехам;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаңы ийгиликтерге карай</source>\n\t<target>к новым успехам;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz; Russian 'к новым успехам' starts at atom 4 'к'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жер кимге карайт? кому принадлежит земля?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жер кимге карайт?</source>\n\t<target>кому принадлежит земля?</target>\n</ex>",
+      "reason": "Kyrgyz question ends with '?' at atom 4; Russian question 'кому принадлежит земля?' starts at atom 5 'кому'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айгыр бээни карады жеребец покрыл кобылицу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айгыр бээни карады</source>\n\t<target>жеребец покрыл кобылицу;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz; Russian gloss begins at atom 4 'жеребец'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал да карап турган жок он тоже не остался безучастным, не сидел сложа руки; он тоже принял свои меры, не бездействовал;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал да карап турган жок</source>\n\t<target>он тоже не остался безучастным, не сидел сложа руки; он тоже принял свои меры, не бездействовал;</target>\n</ex>",
+      "reason": "Kyrgyz runs through atom 5; Russian translation begins at atom 6 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал сени жамандап жатканда сен карап турасыңбы? он тебя будет хаять, а ты останешься к этому безучастным?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал сени жамандап жатканда сен карап турасыңбы?</source>\n\t<target>он тебя будет хаять, а ты останешься к этому безучастным?</target>\n</ex>",
+      "reason": "Kyrgyz question ends at atom 8 ('?'); Russian continuation begins at atom 9 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал иштеп жатканда сен карап турасыңбы? он работает, а ты будешь сложа руки сидеть?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал иштеп жатканда сен карап турасыңбы?</source>\n\t<target>он работает, а ты будешь сложа руки сидеть?</target>\n</ex>",
+      "reason": "Kyrgyz part ends at atom 7 ('?'); Russian gloss begins at atom 8 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бери карай с предшеств. исх. п. начиная от..., вот уже...как;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бери карай</source>\n\t<target>с предшеств. исх. п. начиная от..., вот уже... как;</target>\n</ex>",
+      "reason": "'бери карай' is Kyrgyz (atoms 1–2); Russian/explanatory sequence begins with 'с' at atom 3 ('с предшеств. ...').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жүз жылдардан бери карай вот уже сотни лет как...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жүз жылдардан бери карай</source>\n\t<target>вот уже сотни лет как...;</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz; Russian 'вот уже...' begins at atom 5 'вот'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>буга карабастан несмотря на это;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>буга карабастан</source>\n\t<target>несмотря на это;</target>\n</ex>",
+      "reason": "'буга карабастан' (atoms 1–2) is Kyrgyz; Russian 'несмотря на это' starts at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тамакка карагыла прошу кушать (обращаясь к гостям);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тамакка карагыла</source>\n\t<target>прошу кушать (обращаясь к гостям);</target>\n</ex>",
+      "reason": "'тамакка карагыла' is Kyrgyz (1–2); Russian 'прошу кушать' begins at atom 3 'прошу'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>караган түнү или караган түндө с предшеств. дат. п. в ночь на...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>караган түнү или караган түндө</source>\n\t<target>с предшеств. дат. п. в ночь на...;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives occupy atoms 1–5; Russian metadata/phrase begins at atom 6 'с' ('с предшеств. дат. п.').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>үчүнчү мартка караган түнү в ночь на третье марта;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>үчүнчү мартка караган түнү</source>\n\t<target>в ночь на третье марта;</target>\n</ex>",
+      "reason": "Kyrgyz 'үчүнчү мартка караган түнү' is atoms 1–4; Russian 'в ночь...' starts at atom 5 'в'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жашы он алтыга карады ему пошёл шестнадцатый год;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жашы он алтыга карады</source>\n\t<target>ему пошёл шестнадцатый год;</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz; Russian gloss starts at atom 5 'ему'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>караганда по сравнению с..., сравнительнос...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>караганда</source>\n\t<target>по сравнению с..., сравнительнос...;</target>\n</ex>",
+      "reason": "'караганда' is source-side; the Russian gloss begins at atom 2 'по' ('по сравнению с...').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мага караганда сен жакшы билесиң ты знаешь лучше меня;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мага караганда сен жакшы билесиң</source>\n\t<target>ты знаешь лучше меня;</target>\n</ex>",
+      "reason": "Kyrgyz runs through atom 5; Russian translation begins at atom 6 'ты'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жашка карай в зависимости от возраста;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жашка карай</source>\n\t<target>в зависимости от возраста;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; Russian gloss begins at atom 3 'в зависимости...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мындан ары карай впредь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мындан ары карай</source>\n\t<target>впредь;</target>\n</ex>",
+      "reason": "'мындан ары карай' occupies atoms 1–3; Russian 'впредь' begins at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карап гана турарлык прямо загляденье;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карап гана турарлык</source>\n\t<target>прямо загляденье;</target>\n</ex>",
+      "reason": "Kyrgyz side is atoms 1–3; Russian 'прямо загляденье' starts at atom 4 'прямо'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карап ганатурарлык ат конь - прямо загляденье;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карап ганатурарлык ат</source>\n\t<target>конь - прямо загляденье;</target>\n</ex>",
+      "reason": "Based on the analogous example, the Russian side begins at the lexical Russian 'конь' (atom 4) forming 'конь - прямо загляденье'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бери карачы послушай-ка (обращение);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бери карачы</source>\n\t<target>послушай-ка (обращение);</target>\n</ex>",
+      "reason": "'бери карачы' is Kyrgyz (atoms 1–2); Russian 'послушай-ка' begins at atom 3 'послушай'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>муну карасаң! или муну кара! подумаешь!, вот ещё что выдумал!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>муну карасаң! или муну кара!</source>\n\t<target>подумаешь!, вот ещё что выдумал!;</target>\n</ex>",
+      "reason": "Initial exclamations (atoms 1–7) are Kyrgyz; the Russian remark begins at atom 8 'подумаешь'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>муну карасаңыз! скажите, пожалуйста!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>муну карасаңыз!</source>\n\t<target>скажите, пожалуйста!;</target>\n</ex>",
+      "reason": "'муну карасаңыз!' is Kyrgyz (atoms 1–3); Russian 'скажите, пожалуйста!' starts at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карап эле отуруп калдым я прямо опешил.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карап эле отуруп калдым</source>\n\t<target>я прямо опешил.</target>\n</ex>",
+      "reason": "Kyrgyz clause 'карап эле отуруп калдым' occupies atoms 1–4; Russian gloss 'я прямо опешил' begins at atom 5 'я'.",
+      "confidence": 0.95
+    }
+  ]
+}
