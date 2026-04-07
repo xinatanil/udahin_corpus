@@ -1,0 +1,83 @@
+{
+  "card_headword": "терек",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_terek.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мырза терек тополь пирамидальный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мырза терек</source>\n\t<target>тополь пирамидальный;</target>\n</ex>",
+      "reason": "First two tokens form the Kyrgyz adjective+noun phrase; remaining tokens are the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ак терек тополь серебристый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ак терек</source>\n\t<target>тополь серебристый;</target>\n</ex>",
+      "reason": "Initial adjective+noun in Kyrgyz (two tokens); the rest is Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бака терек вид тополя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бака терек</source>\n\t<target>вид тополя;</target>\n</ex>",
+      "reason": "Initial Kyrgyz compound (two tokens) vs Russian gloss that follows.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тенирим бир жааса, терегим аки жаайт погов. небо моё (или бог мой) дождит раз, дерево моё дождит дважды (напр. о не в меру ретивом администраторе);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тенирим бир жааса, терегим аки жаайт</source>\n\t<target>погов. небо моё (или бог мой) дождит раз, дерево моё дождит дважды (напр. о не в меру ретивом администраторе);</target>\n</ex>",
+      "reason": "The Kyrgyz proverb runs through the abbreviation marking the saying; tokens up to that marker are the source, the remainder is the Russian translation/explanatory gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара терек осокорь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара терек</source>\n\t<target>осокорь;</target>\n</ex>",
+      "reason": "First two tokens are the Kyrgyz descriptive noun phrase; the final token is the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бай терек (или байтерек) осина;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бай терек (или байтерек)</source>\n\t<target>осина;</target>\n</ex>",
+      "reason": "Includes the Kyrgyz variant in parentheses as part of the source (first four tokens); the last token is the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кучак жеткис жоон байтеректер осины толще, чем в обхват;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кучак жеткис жоон байтеректер</source>\n\t<target>осины толще, чем в обхват;</target>\n</ex>",
+      "reason": "Initial four tokens form the Kyrgyz descriptive phrase; the following tokens are the Russian comparative gloss ('толще, чем ...').",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чынар терек (дерево) чинар;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чынар терек</source>\n\t<target>(дерево) чинар;</target>\n</ex>",
+      "reason": "First two tokens are Kyrgyz ('... чынар терек'); the parenthetical Russian note and final token belong to the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жөнөкөй терек эмес, абдан чоң чынар терек (это) не простое дерево, а большой чинар;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жөнөкөй терек эмес, абдан чоң чынар терек</source>\n\t<target>(это) не простое дерево, а большой чинар;</target>\n</ex>",
+      "reason": "Kyrgyz clause runs through the second occurrence of the noun (first seven tokens); the parenthetical and subsequent tokens are the Russian explanatory gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чук терек дерево, растущее, по народным представлениям, за Аягузом, вокруг могилы Баян-Сулу и Козу-Корпеша;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чук терек</source>\n\t<target>дерево, растущее, по народным представлениям, за Аягузом, вокруг могилы Баян-Сулу и Козу-Корпеша;</target>\n</ex>",
+      "reason": "The initial two tokens are the Kyrgyz term; the rest is a Russian explanatory description.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ак терек-көк терек - бизден сизге ким керек? серебристый тополь, синий тополь - от нас вам кого нужно? (говорит одна сторона, вторая - называет; названный должен бежать и разорвать противоположную сторону).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ак терек-көк терек - бизден сизге ким керек?</source>\n\t<target>серебристый тополь, синий тополь - от нас вам кого нужно? (говорит одна сторона, вторая - называет; названный должен бежать и разорвать противоположную сторону).</target>\n</ex>",
+      "reason": "First eight tokens form the Kyrgyz exchange/question; tokens after that are the Russian rendering and the parenthetical explanatory note.",
+      "confidence": 0.95
+    }
+  ]
+}

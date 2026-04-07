@@ -15,6 +15,10 @@ from llm_split_utils import (
 HYPHEN_INSIDE_WORD_RE = re.compile(r'(?<=\w)\s+-(?=\w)')
 HYPHEN_AT_END_RE = re.compile(r'(?<=\w)\s+-$')
 TRAILING_RUSSIAN_PAREN_RE = re.compile(r'^(?P<body>.*?)(?:\s+)?(?P<paren>\((?:о|об|букв\.?|перен\.?|разг\.?|фольк\.?|погов\.?|собир\.?|этн\.?|поэт\.?|прост\.?).*?\))$')
+TRAILING_META_MARKERS_RE = re.compile(
+    r'^(?P<body>.*?)(?:\s+)?(?P<meta>(?:погов|фольк|разг|собир|этн|уст|поэт|прост|книжн|обл|редк|шутл|ирон)\.)$',
+    re.I,
+)
 
 
 def normalize_hyphen_spacing(text: str) -> str:
@@ -32,6 +36,17 @@ def normalize_parenthetical_note(source: str, target: str) -> tuple[str, str]:
     if not body:
         return source, target
     return body, f'{paren} {target}'.strip()
+
+
+def normalize_trailing_meta_marker(source: str, target: str) -> tuple[str, str]:
+    m = TRAILING_META_MARKERS_RE.match(source.strip())
+    if not m:
+        return source, target
+    body = m.group('body').strip()
+    meta = m.group('meta').strip()
+    if not body:
+        return source, target
+    return body, f'{meta} {target}'.strip()
 
 
 def ex_xml(source: str, target: str) -> str:
@@ -91,6 +106,7 @@ def main() -> int:
             source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
             target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
         source, target = normalize_parenthetical_note(source, target)
+        source, target = normalize_trailing_meta_marker(source, target)
         if not source or not target:
             continue
         fixes.append({
