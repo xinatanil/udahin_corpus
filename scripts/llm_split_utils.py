@@ -7,6 +7,7 @@ from typing import Iterable
 BLOCKQUOTE_RE = re.compile(r'<blockquote>(.*?)</blockquote>', re.S)
 TAG_RE = re.compile(r'<[^>]+>')
 WORDLINK_WORD_RE = re.compile(r'\bword="([^"]+)"')
+SPACED_DASH_RE = re.compile(r'\s([\-–—])\s')
 ATOM_RE = re.compile(r'\[\[[^\]]+\]\]|\w+|[^\w\s]', re.UNICODE)
 TRAILING_TARGET_WORDS = {
     'горюя', 'как', 'будто', 'словно', 'точно', 'погов', 'фольк', 'собир',
@@ -47,7 +48,19 @@ def annotate_inner_xml(inner_xml: str) -> tuple[str, dict[str, str]]:
         parts.append(placeholder)
         last = m.end()
     parts.append(inner_xml[last:])
-    return ''.join(parts).strip(), placeholders
+    text = ''.join(parts).strip()
+    dash_idx = 1
+
+    def repl_dash(m: re.Match[str]) -> str:
+        nonlocal dash_idx
+        dash = m.group(1)
+        placeholder = f'[[SPD{dash_idx}|{dash}]]'
+        dash_idx += 1
+        placeholders[placeholder] = f' {dash} '
+        return placeholder
+
+    text = SPACED_DASH_RE.sub(repl_dash, text)
+    return text, placeholders
 
 
 def deannotate(text: str, placeholders: dict[str, str]) -> str:
@@ -70,9 +83,18 @@ def join_atoms(atoms: Iterable[str]) -> str:
     for prev, atom in zip(atoms, atoms[1:]):
         prev_is_open_ascii_quote = prev == '"' and ascii_quote_open
         atom_is_closing_ascii_quote = atom == '"' and ascii_quote_open
+        atom_is_spaced_dash = atom.startswith('[[SPD')
+        prev_is_spaced_dash = prev.startswith('[[SPD')
         if atom == '"':
             ascii_quote_open = not ascii_quote_open
-        if atom_is_closing_ascii_quote or atom in NO_SPACE_BEFORE or prev_is_open_ascii_quote or prev in NO_SPACE_AFTER:
+        if (
+            atom_is_closing_ascii_quote
+            or atom_is_spaced_dash
+            or prev_is_spaced_dash
+            or atom in NO_SPACE_BEFORE
+            or prev_is_open_ascii_quote
+            or prev in NO_SPACE_AFTER
+        ):
             out.append(atom)
         else:
             out.append(' ' + atom)
