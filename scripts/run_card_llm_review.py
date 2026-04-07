@@ -31,11 +31,20 @@ SCHEMA = {
                     'type': 'object',
                     'properties': {
                         'blockquote_id': {'type': 'string'},
-                        'source_atom_count': {'type': ['integer', 'null']},
+                        'target_starts_at_atom': {'type': ['integer', 'null']},
+                        'source_last_atom': {'type': ['string', 'null']},
+                        'target_first_atom': {'type': ['string', 'null']},
                         'reason': {'type': 'string'},
                         'confidence': {'type': 'number'}
                     },
-                    'required': ['blockquote_id', 'source_atom_count', 'reason', 'confidence'],
+                    'required': [
+                        'blockquote_id',
+                        'target_starts_at_atom',
+                        'source_last_atom',
+                        'target_first_atom',
+                        'reason',
+                        'confidence',
+                    ],
                     'additionalProperties': False
                 }
             }
@@ -63,15 +72,16 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         enumerated.append({
             'blockquote_id': item['blockquote_id'],
             'annotated_text': item['annotated_text'],
-            'atoms': item['atoms'],
+            'atoms': [{'i': idx, 'atom': atom} for idx, atom in enumerate(item['atoms'], 1)],
             'atom_count': len(item['atoms']),
         })
 
     system = (
         'You review one XML dictionary card and split each blockquote into left side and right side. '
         'You are not allowed to copy XML or rewrite the original line. '
-        'Your only job is to decide how many initial atoms belong to the left side. '
-        'Be conservative: the left side should be the Kyrgyz expression only, and the right side should start as soon as Russian glossing begins. '
+        'Your only job is to decide the exact first atom that belongs to the right side. '
+        'Be conservative: the left side should be the Kyrgyz expression only, and the right side should start as soon as Russian glossing, Russian meta, or Russian reference text begins. '
+        'There is no downstream semantic correction. Your chosen boundary must already be correct. '
         'When in doubt, split earlier, not later.'
     )
     user = (
@@ -79,30 +89,42 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         'Task: for every listed blockquote, decide the split point between the left side and the right side.\n\n'
         'Return one decision for every blockquote_id.\n\n'
         'Rules:\n'
-        '- Set source_atom_count to the number of initial atoms that belong to the left side.\n'
-        '- source_atom_count must be at least 1 and less than atom_count if a split exists.\n'
-        '- If you truly cannot identify any sensible split, set source_atom_count to null.\n'
+        '- Set target_starts_at_atom to the 1-based index of the first atom that belongs to the right side.\n'
+        '- target_starts_at_atom must be at least 2 and at most atom_count if a split exists.\n'
+        '- If you truly cannot identify any sensible split, set target_starts_at_atom to null.\n'
+        '- Also return source_last_atom and target_first_atom exactly as they appear in the atom list. If target_starts_at_atom is null, both must be null.\n'
         '- Atoms preserve punctuation and hyphens as separate items, so you may split before or after commas, periods, and hyphens when needed.\n'
         '- Placeholders like [[WL1|төр]] represent inline tags. Keep them on the semantically correct side of the split.\n'
-        '- The left side must stay Kyrgyz. If a Russian word, Russian gloss label, or Russian explanatory fragment remains in the left side, your split is too far to the right.\n'
+        '- The left side must stay Kyrgyz. If a Russian word, Russian gloss label, or Russian explanatory fragment remains in the left side, your split is too late.\n'
+        '- The right side must start with Russian gloss, Russian meta, or Russian reference text. If a Kyrgyz continuation remains at the start of the right side, your split is too early.\n'
         '- In general, the first clearly Russian atom begins the right side.\n'
+        '- target_starts_at_atom must point to the first lexical atom of the right side, not to delimiter punctuation such as a comma, semicolon, or dash.\n'
+        '- A split directly before a comma or semicolon is highly suspicious. Do not make the first atom of the right side punctuation unless the punctuation itself is genuinely the start of the gloss, which is rare.\n'
+        '- If the right side already contains Russian glossing, do not delay the split to a later Russian paraphrase after another comma or semicolon. The right side must start at the first Russian gloss, not the second one.\n'
+        '- Some tokens are homographs and can look valid in both Kyrgyz and Russian, for example "бери". Resolve such cases from context. If the ambiguous token is followed by clearly Russian continuation such as "не", "он", "как", "говори", it usually belongs to the right side.\n'
+        '- Be careful with names and capitalized words. A capital letter by itself does not decide the split. Proper names can appear on either side.\n'
+        '- If a Russian gloss begins with a proper name or contains a capitalized Russian personal name, that capitalized name still belongs to the right side.\n'
+        '- If the left side starts with a capitalized Kyrgyz word only because it begins the sentence, that does not mean the split should start there.\n'
         '- Never leave any part of a Russian gloss on the left side, even if it is attached with a hyphen or looks short.\n'
         '- Parenthetical Russian notes such as "(о больном)", "(о человеке)", "(дерево)", "(тираж)" belong to the right side.\n'
         '- Russian words and gloss markers like "горюя", "как", "мы", "он", "кошма", "собир.", "погов.", "фольк.", "стих.", "южн." do not belong in the left side.\n'
         '- If a line contains a Kyrgyz term, then meta like "собир.", then a Russian gloss, still produce the split; do not drop it.\n'
         '- If OCR collapsed a space, for example a source ending with a hyphen followed immediately by Russian gloss, split at the semantic boundary anyway.\n'
-        '- If the Russian gloss begins with a hyphenated Russian expression such as "уходи-ка", "гляди-ка", "смотри-ка", the entire expression belongs to the right side. Do not split inside that Russian expression.\n'
+        '- If the Russian gloss begins with a hyphenated Russian expression such as "уходи-ка", "гляди-ка", "смотри-ка", the entire expression belongs to the right side. target_starts_at_atom must point to the first Russian word of that expression, not to the hyphen and not to the particle.\n'
         '- If the line has Kyrgyz alternatives joined by "или", keep the whole Kyrgyz alternative chain on the left until the Russian gloss begins.\n'
         '- If "или" is followed by more Kyrgyz words, keep them on the left. If "или" is followed by Russian gloss, keep "или" on the left only if it is clearly joining Kyrgyz alternatives.\n'
-        '- For patterns like "см. [[WL1|...]]" or "то же, что [[WL1|...]]", that reference phrase belongs to the right side, not the left.\n'
+        '- For patterns like "см. [[WL1|...]]" or "то же, что [[WL1|...]]", that reference phrase belongs to the right side, not the left. target_starts_at_atom must point to "см" or "то".\n'
         '- Meta labels like "погов.", "фольк.", "стих.", "разг.", "южн." belong to the right side, never to the left.\n'
         '- For one-line bilingual examples, the left side is usually a complete Kyrgyz phrase or chain of Kyrgyz alternatives, and the right side is the complete Russian gloss.\n'
         '- Prefer an earlier split over an overgeneralized later split.\n'
-        '- Bad split example: "батың барда кете бер уходи-" | "ка, ..." ; correct is "батың барда кете бер" | "уходи-ка, ..."\n'
-        '- Bad split example: "депкири качып калды или депкирин таппай калды он" | "испугался..." ; correct is "депкири качып калды или депкирин таппай калды" | "он испугался..."\n'
-        '- Bad split example: "алал дөөлөт-малыңды булгабагын арамга стих." | "..." ; correct is "алал дөөлөт-малыңды булгабагын арамга" | "стих. ..."\n'
-        '- Bad split example: "чот" | "как- щёлкать ..." ; correct is "чот как-" | "щёлкать ..."\n'
-        '- Bad split example: "шак-шак или шак-шук звукоподражание" | "..." ; correct is "шак-шак или шак-шук" | "звукоподражание ..."\n'
+        '- Example: atoms ["батың","барда","кете","бер","уходи","-","ка",",",...] => target_starts_at_atom = 5, source_last_atom = "бер", target_first_atom = "уходи".\n'
+        '- Example: atoms ["депкири","качып","калды","или","депкирин","таппай","калды","он","испугался",...] => target_starts_at_atom = 8, source_last_atom = "калды", target_first_atom = "он".\n'
+        '- Example: atoms ["алал","дөөлөт","-","малыңды","булгабагын","арамга","стих",".",...] => target_starts_at_atom = 7, source_last_atom = "арамга", target_first_atom = "стих".\n'
+        '- Example: atoms ["чот","как","-","щёлкать",...] => target_starts_at_atom = 4, source_last_atom = "-", target_first_atom = "щёлкать".\n'
+        '- Example: atoms ["шак","-","шак","или","шак","-","шук","звукоподражание",...] => target_starts_at_atom = 8, source_last_atom = "шук", target_first_atom = "звукоподражание".\n'
+        '- Example: atoms ["ала","бер","бери",",","не","обращая","внимания",";"] => target_starts_at_atom = 3, source_last_atom = "бер", target_first_atom = "бери".\n'
+        '- Example: atoms ["айта","бер","говори",",","говори",";","продолжай","говорить",";"] => target_starts_at_atom = 3, source_last_atom = "бер", target_first_atom = "говори". The Russian gloss begins at the first "говори", not later at "продолжай".\n'
+        '- Example: if a line contains a Kyrgyz phrase followed by a Russian gloss mentioning a person such as "Медетбек родился в Таласе", the capitalized name "Медетбек" may belong to the right side if it is part of the Russian gloss.\n'
         '- Do not omit any blockquote_id.\n\n'
         'Card context:\n'
         f'{card_xml}\n\n'

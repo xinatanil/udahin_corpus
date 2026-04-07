@@ -66,8 +66,13 @@ def join_atoms(atoms: Iterable[str]) -> str:
     if not atoms:
         return ''
     out = [atoms[0]]
+    ascii_quote_open = atoms[0] == '"'
     for prev, atom in zip(atoms, atoms[1:]):
-        if atom in NO_SPACE_BEFORE or prev in NO_SPACE_AFTER:
+        prev_is_open_ascii_quote = prev == '"' and ascii_quote_open
+        atom_is_closing_ascii_quote = atom == '"' and ascii_quote_open
+        if atom == '"':
+            ascii_quote_open = not ascii_quote_open
+        if atom_is_closing_ascii_quote or atom in NO_SPACE_BEFORE or prev_is_open_ascii_quote or prev in NO_SPACE_AFTER:
             out.append(atom)
         else:
             out.append(' ' + atom)

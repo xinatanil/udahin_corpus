@@ -194,50 +194,73 @@ def main() -> int:
         item = blockquotes.get(bq_id)
         if not item:
             continue
-        exact_override = EXACT_SPLIT_OVERRIDES.get(item['plain_text'])
-        if exact_override is not None:
-            source, target = exact_override
-            fixes.append({
-                'action': 'replace_exact_xml',
-                'find_xml': item['blockquote_xml'],
-                'replace_with_xml': ex_xml(source, target),
-                'reason': decision.get('reason', ''),
-                'confidence': decision.get('confidence', 0),
-            })
-            continue
-        source_atom_count = decision.get('source_atom_count')
         atoms = item['atoms']
         placeholders = item['placeholders']
-        if source_atom_count is None:
-            source_token_count = decision.get('source_token_count')
-            tokens = item['plain_tokens']
-            if not isinstance(source_token_count, int):
+        target_starts_at_atom = decision.get('target_starts_at_atom')
+        if target_starts_at_atom is not None:
+            if not isinstance(target_starts_at_atom, int):
                 continue
-            if source_token_count <= 0 or source_token_count >= len(tokens):
+            if target_starts_at_atom <= 1 or target_starts_at_atom > len(atoms):
                 continue
-            source = ' '.join(tokens[:source_token_count]).strip()
-            target = ' '.join(tokens[source_token_count:]).strip()
-        else:
-            if not isinstance(source_atom_count, int):
+            source_atoms = atoms[:target_starts_at_atom - 1]
+            target_atoms = atoms[target_starts_at_atom - 1:]
+            expected_source_last = atoms[target_starts_at_atom - 2]
+            expected_target_first = atoms[target_starts_at_atom - 1]
+            declared_source_last = decision.get('source_last_atom')
+            declared_target_first = decision.get('target_first_atom')
+            if declared_source_last != expected_source_last or declared_target_first != expected_target_first:
+                print(
+                    f"Warning: boundary atom mismatch for {bq_id}: "
+                    f"expected ({expected_source_last!r}, {expected_target_first!r}) "
+                    f"got ({declared_source_last!r}, {declared_target_first!r})",
+                    file=sys.stderr,
+                )
                 continue
-            if source_atom_count <= 0 or source_atom_count >= len(atoms):
-                continue
-            source_atoms = atoms[:source_atom_count]
-            target_atoms = atoms[source_atom_count:]
-            source_atoms, target_atoms = normalize_split_atoms(source_atoms, target_atoms)
             source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
             target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
-        source, target = normalize_parenthetical_note(source, target)
-        source, target = normalize_trailing_meta_marker(source, target)
-        source, target = normalize_leading_ili_chain(source, target)
-        source, target = normalize_trailing_russian_gloss(source, target)
-        source, target = normalize_leading_kyrgyz_continuation(source, target)
-        source, target = normalize_leading_hyphen_form(source, target)
-        source, target = normalize_leading_glued_hyphen_form(source, target)
-        source, target = normalize_leading_kyrgyz_before_russian(source, target)
-        source, target = normalize_trailing_russian_word(source, target)
-        if DANGLING_SOURCE_END_RE.search(source):
-            continue
+        else:
+            exact_override = EXACT_SPLIT_OVERRIDES.get(item['plain_text'])
+            if exact_override is not None:
+                source, target = exact_override
+                fixes.append({
+                    'action': 'replace_exact_xml',
+                    'find_xml': item['blockquote_xml'],
+                    'replace_with_xml': ex_xml(source, target),
+                    'reason': decision.get('reason', ''),
+                    'confidence': decision.get('confidence', 0),
+                })
+                continue
+            source_atom_count = decision.get('source_atom_count')
+            if source_atom_count is None:
+                source_token_count = decision.get('source_token_count')
+                tokens = item['plain_tokens']
+                if not isinstance(source_token_count, int):
+                    continue
+                if source_token_count <= 0 or source_token_count >= len(tokens):
+                    continue
+                source = ' '.join(tokens[:source_token_count]).strip()
+                target = ' '.join(tokens[source_token_count:]).strip()
+            else:
+                if not isinstance(source_atom_count, int):
+                    continue
+                if source_atom_count <= 0 or source_atom_count >= len(atoms):
+                    continue
+                source_atoms = atoms[:source_atom_count]
+                target_atoms = atoms[source_atom_count:]
+                source_atoms, target_atoms = normalize_split_atoms(source_atoms, target_atoms)
+                source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
+                target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
+            source, target = normalize_parenthetical_note(source, target)
+            source, target = normalize_trailing_meta_marker(source, target)
+            source, target = normalize_leading_ili_chain(source, target)
+            source, target = normalize_trailing_russian_gloss(source, target)
+            source, target = normalize_leading_kyrgyz_continuation(source, target)
+            source, target = normalize_leading_hyphen_form(source, target)
+            source, target = normalize_leading_glued_hyphen_form(source, target)
+            source, target = normalize_leading_kyrgyz_before_russian(source, target)
+            source, target = normalize_trailing_russian_word(source, target)
+            if DANGLING_SOURCE_END_RE.search(source):
+                continue
         if not source or not target:
             continue
         fixes.append({
