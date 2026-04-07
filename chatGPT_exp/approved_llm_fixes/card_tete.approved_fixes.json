@@ -1,0 +1,48 @@
+{
+  "card_headword": "тете",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_tete.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күчү мага тете он по силе равен мне;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күчү мага тете</source>\n\t<target>он по силе равен мне;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'күчү мага тете'. Russian gloss begins at 'он', so split before that.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Манаска тете уулум мой сын, равный Манасу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Манаска тете уулум</source>\n\t<target>мой сын, равный Манасу;</target>\n</ex>",
+      "reason": "Left side contains Kyrgyz 'Манаска тете уулум'. Russian gloss 'мой сын...' starts after that.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>биринчи сүйгөнүмө тетеңер жок нет равного среди вас тому, кого я первого полюбила;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>биринчи сүйгөнүмө тетеңер жок</source>\n\t<target>нет равного среди вас тому, кого я первого полюбила;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'биринчи сүйгөнүмө тетеңер жок'. Russian continuation begins at 'нет'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>макулдашканга тете (это) равносильно взаимному согласию;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>макулдашканга тете</source>\n\t<target>(это) равносильно взаимному согласию;</target>\n</ex>",
+      "reason": "Left side is 'макулдашканга тете'. Parenthetical '(это)' and the Russian gloss belong to the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жанга тете (он ведь тоже) человек, живое существо; человек ведь.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жанга тете</source>\n\t<target>(он ведь тоже) человек, живое существо; человек ведь.</target>\n</ex>",
+      "reason": "Left side is 'жанга тете'. Parenthetical Russian note '(он ведь тоже)' and the following Russian gloss go to the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тете береги (см. <wordLink word=\"тетиги\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тете береги</source>\n\t<target>(см. <wordLink word=\"тетиги\"/>).</target>\n</ex>",
+      "reason": "Left side is 'тете береги'. Parenthetical ' (см. [[WL1|тетиги]])' is a reference and belongs to the right side.",
+      "confidence": 0.95
+    }
+  ]
+}

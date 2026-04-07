@@ -1,0 +1,41 @@
+{
+  "card_headword": "отун",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_otun.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>отун-потун дровишки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>отун-потун</source>\n\t<target>дровишки;</target>\n</ex>",
+      "reason": "Left = 'отун - потун' (Kyrgyz compound). Right begins with Russian gloss 'дровишки'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>отун-суу все необходимые на зиму запасы (топливо, мясо, мука и т.п.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>отун-суу</source>\n\t<target>все необходимые на зиму запасы (топливо, мясо, мука и т. п.);</target>\n</ex>",
+      "reason": "Left = 'отун - суу' (Kyrgyz compound). Right begins with Russian gloss 'все необходимые...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыш күрөөдө чапкылап жүрбөй, отун-сууңарды даярдап алгыла чтобы в зимнее время не бегатъ (в поисках), сделайте запасы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыш күрөөдө чапкылап жүрбөй, отун-сууңарды даярдап алгыла</source>\n\t<target>чтобы в зимнее время не бегатъ (в поисках), сделайте запасы;</target>\n</ex>",
+      "reason": "Left = entire Kyrgyz clause up through 'алгыла' (instruction). Right begins with Russian 'чтобы ...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>отун-суу, чөп-чар необходимые на зиму запасы для людей и для скота;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>отун-суу, чөп-чар</source>\n\t<target>необходимые на зиму запасы для людей и для скота;</target>\n</ex>",
+      "reason": "Left = 'отун - суу , чөп - чар' (Kyrgyz items list). Right begins with Russian 'необходимые...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>отун-сууну, чөп-чарды даярдап алдык мы сделали запасы на зиму для себя и для скота.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>отун-сууну, чөп-чарды даярдап алдык</source>\n\t<target>мы сделали запасы на зиму для себя и для скота.</target>\n</ex>",
+      "reason": "Left = Kyrgyz clause 'отун - сууну , чөп - чарды даярдап алдык'. Right begins with Russian gloss 'мы сделали...'.",
+      "confidence": 0.9
+    }
+  ]
+}

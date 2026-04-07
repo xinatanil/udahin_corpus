@@ -1,0 +1,41 @@
+{
+  "card_headword": "оргу",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_orgu.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оргу-баргы (о человеке) неуравновешенный, невоздержанный, непостоянный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оргу-баргы</source>\n\t<target>(о человеке) неуравновешенный, невоздержанный, непостоянный;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz lemma 'оргу-баргы' (оргу - баргы); the parenthetical '(о человеке)' and the Russian gloss belong to the right side.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жерден оргуп чыккан булак бьющий из земли родник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жерден оргуп чыккан булак</source>\n\t<target>бьющий из земли родник;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'жерден оргуп чыккан булак' (atoms 1–4); the Russian gloss 'бьющий из земли родник' starts at atom 5.",
+      "confidence": 0.97
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оргуп чыккан шор вздыбившийся буграми солончак;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оргуп чыккан шор</source>\n\t<target>вздыбившийся буграми солончак;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'оргуп чыккан шор' (atoms 1–3); the Russian gloss begins at atom 4.",
+      "confidence": 0.97
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оргуп-оргуп чаң чыгат пыль клубами вздымается;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оргуп-оргуп чаң чыгат</source>\n\t<target>пыль клубами вздымается;</target>\n</ex>",
+      "reason": "Left side contains the Kyrgyz clause 'оргуп-оргуп чаң чыгат' (atoms 1–5); the Russian gloss 'пыль клубами вздымается' starts at atom 6.",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ойноп-оргуп играя и прыгая.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ойноп-оргуп</source>\n\t<target>играя и прыгая.</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz form 'ойноп-оргуп' (atoms 1–3); the Russian gerund phrase 'играя и прыгая.' is the gloss on the right.",
+      "confidence": 0.98
+    }
+  ]
+}
