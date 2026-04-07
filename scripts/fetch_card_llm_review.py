@@ -59,6 +59,10 @@ def extract_card(text: str, headword: str) -> str:
     return m.group(0)
 
 
+def count_blockquotes(card_xml: str) -> int:
+    return len(re.findall(r'<blockquote>.*?</blockquote>', card_xml, re.S))
+
+
 def build_preview(review_path: Path) -> tuple[Path, Path, Path]:
     stem = review_path.name.removesuffix('.review.json')
     fixes_path = review_path.parent / f'{stem}.approved_fixes.json'
@@ -108,6 +112,11 @@ def main() -> int:
         return 0
 
     review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    card_xml = Path(job['card_path']).read_text(encoding='utf-8')
+    blockquote_count = count_blockquotes(card_xml)
+    decision_count = len(review.get('decisions', []))
+    if decision_count != blockquote_count:
+        print(f"Warning: blockquote/decision count mismatch for {job['card_headword']}: {blockquote_count} blockquotes vs {decision_count} decisions")
     fixes_path, patched_card_path, diff_path = build_preview(review_path)
     print(f'Response JSON: {response_path}')
     print(f'Review JSON: {review_path}')

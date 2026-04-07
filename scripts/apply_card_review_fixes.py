@@ -7,6 +7,13 @@ import sys
 from pathlib import Path
 
 
+def extract_card(text: str, headword: str) -> tuple[str, re.Match[str]]:
+    m = re.search(rf'<card>\s*<k>{re.escape(headword)}</k>.*?</card>', text, re.S)
+    if not m:
+        raise SystemExit(f'Card not found in XML: {headword}')
+    return m.group(0), m
+
+
 def apply_fixes(xml_text: str, fixes: list[dict]) -> tuple[str, int]:
     applied = 0
     for fix in fixes:
@@ -38,7 +45,13 @@ def main() -> int:
 
     xml_text = input_xml.read_text(encoding='utf-8')
     payload = json.loads(fixes_json.read_text(encoding='utf-8'))
-    new_text, applied = apply_fixes(xml_text, payload.get('fixes', []))
+    headword = payload.get('card_headword')
+    if not headword:
+        raise SystemExit(f'card_headword missing in {fixes_json}')
+
+    card_xml, match = extract_card(xml_text, headword)
+    new_card_xml, applied = apply_fixes(card_xml, payload.get('fixes', []))
+    new_text = xml_text[:match.start()] + new_card_xml + xml_text[match.end():]
     output_xml.write_text(new_text, encoding='utf-8')
     print(f'Applied {applied} reviewed fix(es) to {output_xml}')
     return 0

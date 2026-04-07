@@ -14,9 +14,11 @@ INPUT_XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
 OUT_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
 DEFAULT_CARD = 'партия'
 MODEL = 'gpt-5-mini'
+TOKEN_RE = re.compile(r'\S+')
+BLOCKQUOTE_RE = re.compile(r'<blockquote>(.*?)</blockquote>', re.S)
 
 SCHEMA = {
-    'name': 'dictionary_card_example_review',
+    'name': 'dictionary_card_split_review',
     'schema': {
         'type': 'object',
         'properties': {
@@ -27,14 +29,12 @@ SCHEMA = {
                 'items': {
                     'type': 'object',
                     'properties': {
-                        'blockquote_xml': {'type': 'string'},
-                        'is_example': {'type': 'boolean'},
-                        'source': {'type': ['string', 'null']},
-                        'target': {'type': ['string', 'null']},
+                        'blockquote_id': {'type': 'string'},
+                        'source_token_count': {'type': ['integer', 'null']},
                         'reason': {'type': 'string'},
                         'confidence': {'type': 'number'}
                     },
-                    'required': ['blockquote_xml', 'is_example', 'source', 'target', 'reason', 'confidence'],
+                    'required': ['blockquote_id', 'source_token_count', 'reason', 'confidence'],
                     'additionalProperties': False
                 }
             }
@@ -51,33 +51,60 @@ def extract_card_xml(headword: str) -> str:
     m = re.search(rf'<card>\s*<k>{re.escape(headword)}</k>.*?</card>', text, re.S)
     if not m:
         raise SystemExit(f'Card not found: {headword}')
-    return m.group(0)
+    card_xml = m.group(0)
+    if card_xml.count('<blockquote>') < 5:
+        raise SystemExit(f'Card has fewer than 5 blockquotes: {headword}')
+    return card_xml
+
+
+def iter_blockquotes(card_xml: str) -> list[dict[str, object]]:
+    items: list[dict[str, object]] = []
+    for idx, m in enumerate(BLOCKQUOTE_RE.finditer(card_xml), 1):
+        inner = m.group(1).strip()
+        xml = m.group(0)
+        text = re.sub(r'<[^>]+>', '', inner)
+        tokens = TOKEN_RE.findall(text)
+        items.append({
+            'blockquote_id': f'bq_{idx}',
+            'blockquote_xml': xml,
+            'text': text,
+            'tokens': tokens,
+        })
+    return items
 
 
 def build_prompt(card_xml: str, headword: str) -> list[dict]:
+    items = iter_blockquotes(card_xml)
+    enumerated = []
+    for item in items:
+        enumerated.append({
+            'blockquote_id': item['blockquote_id'],
+            'text': item['text'],
+            'tokens': item['tokens'],
+            'token_count': len(item['tokens']),
+        })
+
     system = (
-        'You review one XML dictionary card and classify each direct <blockquote> in that card as either an example '
-        'or not an example. Be conservative, but do not miss clear example lines. '
-        'An example usually has Kyrgyz text on the left and Russian text on the right in the same blockquote. '
-        'If it is an example, split it into source and target. Do not invent text. Copy the original blockquote XML exactly.'
+        'You review one XML dictionary card and split each blockquote into left side and right side. '
+        'You are not allowed to copy XML or rewrite the original line. '
+        'Your only job is to decide how many initial tokens belong to the left side.'
     )
     user = (
         f'Headword: {headword}\n\n'
-        'Task: inspect this one card and evaluate each direct <blockquote> inside it.\n\n'
-        'Mark is_example=true only when the blockquote is best understood as an example sentence or expression with '
-        'Kyrgyz material on the left and Russian translation/explanation on the right.\n\n'
-        'Important guidance:\n'
-        '- Look for a split between Kyrgyz on the left and Russian on the right.\n'
-        '- Many examples contain Kyrgyz function words, verb forms ending in "-", or full Kyrgyz clauses before the Russian gloss.\n'
-        '- Parenthetical Russian notes such as "(о больном)", "(о человеке)", "(о животном)" belong to the Russian target side, not to the Kyrgyz source side.\n'
-        '- If there is a clear Kyrgyz expression on the left and the right side begins with "см." plus a linked or referenced item, still treat it as an example and split it.\n'
-        '- Do not leave Kyrgyz text in target if it belongs on the left side of the split.\n'
-        '- Do not classify pure definitions, meta notes, xr lines, or glosses without a left/right bilingual split as examples.\n'
-        '- Do not create or infer any new tags other than ex/source/target in your decision-making.\n'
-        '- If a line is an example, fill source and target exactly.\n'
-        '- If it is not an example, set source and target to null.\n'
-        '- Evaluate every direct blockquote you see in the card.\n\n'
-        f'{card_xml}'
+        'Task: for every listed blockquote, decide the split point between the left side and the right side.\n\n'
+        'Return one decision for every blockquote_id.\n\n'
+        'Rules:\n'
+        '- Set source_token_count to the number of initial tokens that belong to the left side.\n'
+        '- source_token_count must be at least 1 and less than token_count if a split exists.\n'
+        '- If you truly cannot identify any sensible split, set source_token_count to null.\n'
+        '- Parenthetical Russian notes such as "(о больном)", "(о человеке)", "(дерево)", "(тираж)" belong to the right side.\n'
+        '- Russian words like "горюя", "как", "мы", "он" do not belong in the left side.\n'
+        '- If a line contains a Kyrgyz term, then meta like "собир.", then a Russian gloss, still produce the split; do not drop it.\n'
+        '- Do not omit any blockquote_id.\n\n'
+        'Card context:\n'
+        f'{card_xml}\n\n'
+        'Blockquotes to evaluate:\n'
+        f'{json.dumps(enumerated, ensure_ascii=False, indent=2)}'
     )
     return [
         {'role': 'system', 'content': system},
@@ -124,7 +151,6 @@ def call_responses_api(messages: list[dict], background: bool) -> dict:
 def extract_output_json(response: dict) -> dict:
     if response.get('status') == 'queued':
         return {'status': 'queued', 'id': response.get('id')}
-
     for item in response.get('output', []):
         for content in item.get('content', []):
             if content.get('type') == 'output_text':
