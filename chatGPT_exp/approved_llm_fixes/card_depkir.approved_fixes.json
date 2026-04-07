@@ -1,0 +1,62 @@
+{
+  "card_headword": "депкир",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_depkir.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>депкири качып калды или депкирин таппай калды он испугался, он растерялся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>депкири качып калды или депкирин таппай калды</source>\n\t<target>он испугался, он растерялся;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz clause 'депкири качып калды'. Split before Russian 'или'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>депкирин таппай калдастап растерянно суетясь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>депкирин таппай калдастап</source>\n\t<target>растерянно суетясь;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'депкирин таппай калдастап'. Russian gloss 'растерянно суетясь' begins after atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>депкири качкан жок он не растерялся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>депкири качкан жок</source>\n\t<target>он не растерялся;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'депкири качкан жок'. Russian gloss 'он не растерялся' begins at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>депкирин таптырбады он его поставил в безвыходное положение;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>депкирин таптырбады</source>\n\t<target>он его поставил в безвыходное положение;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'депкирин таптырбады'. Russian gloss starts with 'он' at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>депкирин алды его испугало (что-л.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>депкирин алды</source>\n\t<target>его испугало (что-л.);</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'депкирин алды'. Russian 'его испугало' and the parenthetical '(что-л.)' are on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>депкир таппагыр! чтоб тебе покоя не знать!</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>депкир таппагыр!</source>\n\t<target>чтоб тебе покоя не знать!</target>\n</ex>",
+      "reason": "Include the exclamatory Kyrgyz phrase 'депкир таппагыр !' (atoms 1–3); Russian translation begins with 'чтоб'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бала депкирден түшкөн эки боорсокту ала коюп ребёнок, схватил два баурсака (см. <wordLink word=\"боорсок\"/>), упавшие из шумовки.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бала депкирден түшкөн эки боорсокту ала коюп</source>\n\t<target>ребёнок, схватил два баурсака (см. <wordLink word=\"боорсок\"/>), упавшие из шумовки.</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz clause 'бала депкирден түшкөн эки боорсокту ала коюп' (atoms 1–7). Russian gloss 'ребёнок, схватил...' begins at atom 8; parenthetical with [[WL1|боорсок]] is on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>атым депкирип калыптыр моя лошадь кашляет.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>атым депкирип калыптыр</source>\n\t<target>моя лошадь кашляет.</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'атым депкирип калыптыр' (atoms 1–3). Russian gloss 'моя лошадь кашляет.' follows.",
+      "confidence": 0.95
+    }
+  ]
+}

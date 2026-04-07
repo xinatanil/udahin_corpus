@@ -1,0 +1,111 @@
+{
+  "card_headword": "бат",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_bat.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>баты бар кездеме накрахмаленная, лощёная материя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>баты бар кездеме</source>\n\t<target>накрахмаленная, лощёная материя;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'баты бар кездеме' occupies first three atoms; Russian gloss 'накрахмаленная' begins at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>батың барда кете бер уходи-ка, пока ещё не осрамился, пока ещё имеешь доброе имя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>батың барда кете бер</source>\n\t<target>уходи-ка, пока ещё не осрамился, пока ещё имеешь доброе имя;</target>\n</ex>",
+      "reason": "Kyrgyz clause 'батың барда кете бер' is atoms 1–4; Russian gloss 'уходи-ка' starts at atom 5 (do not split inside the Russian 'уходи-ка').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>батыңан тайбай, жакшы жүр веди себя хорошо, не роняй своего достоинства;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>батыңан тайбай, жакшы жүр</source>\n\t<target>веди себя хорошо, не роняй своего достоинства;</target>\n</ex>",
+      "reason": "Kyrgyz 'батыңан тайбай, жакшы жүр' ends at atom 5; Russian gloss 'веди себя...' begins at atom 6.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>батың менен бер добром отдавай (не доводи до скандала).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>батың менен бер</source>\n\t<target>добром отдавай (не доводи до скандала).</target>\n</ex>",
+      "reason": "Kyrgyz 'батың менен бер' is atoms 1–3; Russian gloss 'добром отдавай...' starts at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тырмагың колума батып кетти твои ногти вонзились мне в руку;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тырмагың колума батып кетти</source>\n\t<target>твои ногти вонзились мне в руку;</target>\n</ex>",
+      "reason": "Kyrgyz 'тырмагың колума батып кетти' is atoms 1–4; Russian gloss 'твои ногти...' begins at atom 5.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бул машинага канча киши батат? сколько человек вмещается в эту машину?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бул машинага канча киши батат?</source>\n\t<target>сколько человек вмещается в эту машину?</target>\n</ex>",
+      "reason": "Kyrgyz question 'бул машинага канча киши батат ?' occupies atoms 1–6; Russian 'сколько человек...' begins at atom 7.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күн батты солнце зашло;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күн батты</source>\n\t<target>солнце зашло;</target>\n</ex>",
+      "reason": "Kyrgyz 'күн батты' is atoms 1–2; Russian 'солнце зашло' begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кун батар-батпаста когда солнце только-только садилось;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кун батар-батпаста</source>\n\t<target>когда солнце только-только садилось;</target>\n</ex>",
+      "reason": "Kyrgyz compound 'кун батар-батпаста' spans atoms 1–4 (including hyphen); Russian 'когда...' starts at atom 5.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кантип бетиң батты ошончо жоого? как у тебя хватило смелости против стольких врагов?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кантип бетиң батты ошончо жоого?</source>\n\t<target>как у тебя хватило смелости против стольких врагов?</target>\n</ex>",
+      "reason": "Kyrgyz clause 'кантип бетиң батты ошончо жоого ?' is atoms 1–6; Russian 'как у тебя...' begins at atom 7.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оозум батып айта албадым или айтууга батпай турдум я не имел смелости сказать; я не решился сказать;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оозум батып айта албадым или айтууга батпай турдум</source>\n\t<target>я не имел смелости сказать; я не решился сказать;</target>\n</ex>",
+      "reason": "Kyrgyz 'оозум батып айта албадым или айтууга батпай турдум' covers atoms 1–8; Russian gloss 'я не имел...' starts at atom 9.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сөз айтышка бата албай калчу он не осмеливался слово сказать;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сөз айтышка бата албай калчу</source>\n\t<target>он не осмеливался слово сказать;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'сөз айтышка бата албай калчу' is atoms 1–5; Russian 'он не осмеливался...' begins at atom 6.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>баарыбыз бир ооздуу болсок, бизге эч ким бата албайт! если мы все будем (жить) в согласии, против нас никто не дерзнёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>баарыбыз бир ооздуу болсок, бизге эч ким бата албайт!</source>\n\t<target>если мы все будем (жить) в согласии, против нас никто не дерзнёт;</target>\n</ex>",
+      "reason": "Kyrgyz sentence up to the exclamation 'баарыбыз ... бата албайт !' occupies atoms 1–11; Russian 'если мы все будем...' starts at atom 12.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кирип баруудан батпадык мы не осмелились войти;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кирип баруудан батпадык</source>\n\t<target>мы не осмелились войти;</target>\n</ex>",
+      "reason": "Kyrgyz 'кирип баруудан батпадык' is atoms 1–3; Russian 'мы не осмелились...' begins at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бизге жаман батты или жанга жаман батты на нас (это) очень подействовало (напр. грубое обращение, обида и т.п.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бизге жаман батты или жанга жаман батты</source>\n\t<target>на нас (это) очень подействовало (напр. грубое обращение, обида и т. п.);</target>\n</ex>",
+      "reason": "Kyrgyz alternatives 'бизге жаман батты или жанга жаман батты' occupy atoms 1–7; Russian gloss 'на нас (это)...' begins at atom 8.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ай баткандай кыл- см. <wordLink word=\"ай\" homonym=\"I\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ай баткандай кыл-</source>\n\t<target>см. <wordLink word=\"ай\" homonym=\"I\"/>.</target>\n</ex>",
+      "reason": "Kyrgyz 'ай баткандай кыл-' is atoms 1–4 (hyphen stays with Kyrgyz); reference 'см. [[WL1|ай]]' begins at atom 5 and belongs to the right side.",
+      "confidence": 0.95
+    }
+  ]
+}

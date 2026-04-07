@@ -1,0 +1,62 @@
+{
+  "card_headword": "чып",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_chyp.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чыпчыргасын коротпой см. <wordLink word=\"чырга\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чыпчыргасын коротпой</source>\n\t<target>см. <wordLink word=\"чырга\"/>.</target>\n</ex>",
+      "reason": "Russian gloss begins at atom 3 (‘см.’), so left side is the initial Kyrgyz phrase (atoms 1–2).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тер чып-чып этет пот выступает каплями;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тер чып-чып этет</source>\n\t<target>пот выступает каплями;</target>\n</ex>",
+      "reason": "Kyrgyz phrase ends at atom 5; Russian gloss starts at atom 6 (‘пот’).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маңдайы чып-чып тердеди на лбу его выступили капли пота;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маңдайы чып-чып тердеди</source>\n\t<target>на лбу его выступили капли пота;</target>\n</ex>",
+      "reason": "Kyrgyz portion ends at atom 5; Russian gloss begins at atom 6 (‘на’).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чып-чып этип тийген камчынын табышы келет доносятся звуки хлестанья плетью;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чып-чып этип тийген камчынын табышы келет</source>\n\t<target>доносятся звуки хлестанья плетью;</target>\n</ex>",
+      "reason": "Kyrgyz clause runs through atom 8; Russian translation starts at atom 9 (‘доносятся’).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чып этип ууртар суусу жок фольк. нет (там) воды, чтобы глотнуть;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чып этип ууртар суусу жок</source>\n\t<target>фольк. нет (там) воды, чтобы глотнуть;</target>\n</ex>",
+      "reason": "Kyrgyz text ends at atom 5; the meta label ‘фольк.’ at atom 6 begins the right-side gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чып этим жерде суусу жок фольк. нет (там) на земле ни глотка воды;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чып этим жерде суусу жок</source>\n\t<target>фольк. нет (там) на земле ни глотка воды;</target>\n</ex>",
+      "reason": "Kyrgyz text ends at atom 5; meta label ‘фольк.’ at atom 6 starts the right-side material.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чып-чуп, дың-дуң тамган тамчылар капли, капающие то звонко, то глухо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чып-чуп, дың-дуң тамган тамчылар</source>\n\t<target>капли, капающие то звонко, то глухо;</target>\n</ex>",
+      "reason": "Kyrgyz sequence ends at atom 9; Russian gloss begins at atom 10 (‘капли’).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чып этме разг. мелкокалиберная винтовка.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чып этме</source>\n\t<target>разг. мелкокалиберная винтовка.</target>\n</ex>",
+      "reason": "Kyrgyz term is atoms 1–2; the label ‘разг.’ at atom 3 (meta) and the Russian gloss follow on the right.",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "card_headword": "көл",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kol.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көл бака лягушка водяная;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көл бака</source>\n\t<target>лягушка водяная;</target>\n</ex>",
+      "reason": "First Russian atom is «лягушка», so left side is Kyrgyz phrase «көл бака» (atoms 1–2).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көз жашын көл кылып проливая слёзы в три ручья;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көз жашын көл кылып</source>\n\t<target>проливая слёзы в три ручья;</target>\n</ex>",
+      "reason": "Russian gloss begins with «проливая», so left side ends at Kyrgyz «кылып» (atoms 1–4: 'көз жашын көл кылып').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Көл сев. обычно разумеется озеро Иссык-Куль и Иссык-Кульская котловина;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Көл</source>\n\t<target>сев. обычно разумеется озеро Иссык-Куль и Иссык-Кульская котловина;</target>\n</ex>",
+      "reason": "«сев.» is a Russian/meta abbreviation; only the Kyrgyz headword «Көл» belongs on the left (atom 1).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көл буу род примитивной тёплой ванны для больного;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көл буу</source>\n\t<target>род примитивной тёплой ванны для больного;</target>\n</ex>",
+      "reason": "Russian gloss starts at «род»; keep Kyrgyz compound «көл буу» on the left (atoms 1–2).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир жагы май көл, бир жагы сүт көл молочные реки и кисельные берега (букв. с одной стороны масляное озеро, с другой стороны молочное озеро);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир жагы май көл, бир жагы сүт көл</source>\n\t<target>молочные реки и кисельные берега (букв. с одной стороны масляное озеро, с другой стороны молочное озеро);</target>\n</ex>",
+      "reason": "Russian gloss begins at «молочные», so keep the full Kyrgyz phrase up through «сүт көл» (atoms 1–9).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көлгө түшмөй или көл кечиш название детской игры: группа детей стоит в кругу, ограниченном верёвкой; участники, стоящие вне круга, бьют находящихся в кругу, а те стараются схватить противника, чтобы поставить его вместо себя в круг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көлгө түшмөй или көл кечиш</source>\n\t<target>название детской игры: группа детей стоит в кругу, ограниченном верёвкой; участники, стоящие вне круга, бьют находящихся в кругу, а те стараются схватить противника, чтобы поставить его вместо себя в круг;</target>\n</ex>",
+      "reason": "This lists Kyrgyz alternatives «көлгө түшмөй или көл кечиш» — Russian explanation starts at «название», so keep atoms 1–5 on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көл-шал см. <wordLink word=\"шал\" homonym=\"IV\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көл-шал</source>\n\t<target>см. <wordLink word=\"шал\" homonym=\"IV\"/>.</target>\n</ex>",
+      "reason": "Compound «көл-шал» is Kyrgyz (atoms 1–3 including the hyphen); «см.» and the reference are Russian/meta and belong to the right.",
+      "confidence": 0.95
+    }
+  ]
+}

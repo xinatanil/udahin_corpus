@@ -1,0 +1,48 @@
+{
+  "card_headword": "чот",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_chot.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чот как- щёлкать на счётах (отсчитывать);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чот как-</source>\n\t<target>щёлкать на счётах (отсчитывать);</target>\n</ex>",
+      "reason": "Russian gloss marker 'как' begins the Russian explanation; left side is just the Kyrgyz headword 'чот'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чот кагып олтурат он сидит и щёлкает на счётах;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чот кагып олтурат</source>\n\t<target>он сидит и щёлкает на счётах;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'чот кагып олтурат' forms the left side; split before the Russian 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күз айларына аман-эсен жетүүнүн чотун салышып, өздөрүнчө эсеп жүргүзө башташты высчитывая, как дотянуть благополучно до осени, они по-своему начали производить учёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күз айларына аман-эсен жетүүнүн чотун салышып, өздөрүнчө эсеп жүргүзө башташ</source>\n\t<target>ты высчитывая, как дотянуть благополучно до осени, они по-своему начали производить учёт;</target>\n</ex>",
+      "reason": "Left side ends with Kyrgyz verb 'башташты'; the following token 'высчитывая' begins the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чот эмес не в счёт; в расчёт не принимается; в счёт не идёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чот эмес</source>\n\t<target>не в счёт; в расчёт не принимается; в счёт не идёт;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'чот эмес'; the next token 'не' is Russian, starting the gloss/variants.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эсеп-чот счёты-расчёты;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эсеп-чот счёты-</source>\n\t<target>расчёты;</target>\n</ex>",
+      "reason": "Compound Kyrgyz term 'эсеп-чот' spans atoms 1–3; right side begins with Russian 'счёты'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чот байпак южн. валенки или толстые шерстяные чулки.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чот байпак</source>\n\t<target>южн. валенки или толстые шерстяные чулки.</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz term 'чот байпак'; the regional note 'южн.' (Russian) starts the right side.",
+      "confidence": 0.95
+    }
+  ]
+}

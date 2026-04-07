@@ -1,0 +1,48 @@
+{
+  "card_headword": "аба",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_aba.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таза аба чистый воздух;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таза аба</source>\n\t<target>чистый воздух;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'таза аба' (clean air); remaining atoms are the Russian gloss 'чистый воздух' and punctuation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аба флоту воздушный флот;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аба флоту</source>\n\t<target>воздушный флот;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz collocation 'аба флоту' (air fleet); remaining atoms are the Russian gloss 'воздушный флот' and punctuation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аба шарттары климатические условия;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аба шарттары</source>\n\t<target>климатические условия;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'аба шарттары' (climatic conditions); remaining atoms are the Russian gloss 'климатические условия' and punctuation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аба ырайы погода;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аба ырайы</source>\n\t<target>погода;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'аба ырайы' (weather); remaining atoms are the Russian gloss 'погода' and punctuation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аба ырайы бюросу бюро погоды.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аба ырайы бюросу</source>\n\t<target>бюро погоды.</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'аба ырайы бюросу' (weather bureau); remaining atoms are the Russian gloss 'бюро погоды' and final punctuation.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Аба эне см. <wordLink word=\"эне\" homonym=\"I\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Аба эне</source>\n\t<target>см. <wordLink word=\"эне\" homonym=\"I\"/>.</target>\n</ex>",
+      "reason": "Left side is the lemma pair 'Аба эне'; 'см.' (see) and the linked lemma '[[WL1|эне]]' belong to the right-side gloss/reference.",
+      "confidence": 0.85
+    }
+  ]
+}

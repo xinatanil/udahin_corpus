@@ -1,0 +1,125 @@
+{
+  "card_headword": "арам",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_aram.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>молдо (или койчу) көп болсо, кой арам өлөт погов. у семи нянек дитя без глазу (букв. когда мулл (или пастухов) много, овца поганой дохнет);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>молдо (или койчу) көп болсо, кой арам өлөт</source>\n\t<target>погов. у семи нянек дитя без глазу (букв. когда мулл (или пастухов) много, овца поганой дохнет);</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz proverb up through 'кой арам өлөт' (atoms 0–10); split before Russian gloss marker 'погов.'",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыздарды көргөндө \"аялым болсо, арам өлөйүн\" деп төшүн кагат когда он видит девушек, то говорит: \"подохнуть мне, если у меня есть жена\";</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыздарды көргөндө \" аялым болсо, арам өлөйүн \" деп төшүн кагат</source>\n\t<target>когда он видит девушек, то говорит: \" подохнуть мне, если у меня есть жена \";</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz sentence up to 'төшүн кагат' (atoms 0–11); split before the Russian translation beginning with 'когда'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алал дөөлөт-малыңды булгабагын арамга стих. своё честно нажитое добро не пакости нечистью (т.е. нечестно нажитое кладёт пятно на всё хорошее);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алал дөөлөт-малыңды булгабагын арамга</source>\n\t<target>стих. своё честно нажитое добро не пакости нечистью (т. е. нечестно нажитое кладёт пятно на всё хорошее);</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz line including the verse marker up through the period (atoms 0–7); split before the Russian gloss starting at 'своё'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам айтып, максатка жетпейт погов. у лжи ноги коротки (букв. говоря ложь, цели не достигнет);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам айтып, максатка жетпейт</source>\n\t<target>погов. у лжи ноги коротки (букв. говоря ложь, цели не достигнет);</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz proverb up through the abbreviation and period ('погов. .') (atoms 0–6); split before Russian gloss 'у лжи...'.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам заада то же, что <wordLink word=\"арамзаада\"/> (см. <wordLink word=\"арамза\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам заада</source>\n\t<target>то же, что <wordLink word=\"арамзаада\"/> (см. <wordLink word=\"арамза\"/>);</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz variant 'арам заада' (atoms 0–1); the rest ('то же, что ...') is Russian explanatory material and references.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ичи арам скрытный, таящий в себе скверные мысли н намерения;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ичи арам</source>\n\t<target>скрытный, таящий в себе скверные мысли н намерения;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz lemma 'ичи арам' (atoms 0–1); remaining atoms form the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам ой злой умысел, преступный замысел;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам ой</source>\n\t<target>злой умысел, преступный замысел;</target>\n</ex>",
+      "reason": "Left side contains the Kyrgyz compound 'арам ой' (atoms 0–1); split before Russian adjective 'злой'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам тамак дармоед, тунеядец;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам тамак</source>\n\t<target>дармоед, тунеядец;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz collocation 'арам тамак' (atoms 0–1); right side begins with Russian 'дармоед...'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам пейил зложелатель;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам пейил</source>\n\t<target>зложелатель;</target>\n</ex>",
+      "reason": "Left side is 'арам пейил' (atoms 0–1); 'зложелатель' is Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам пейилдик злонамеренность, злоумышление;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам пейилдик</source>\n\t<target>злонамеренность, злоумышление;</target>\n</ex>",
+      "reason": "Left side is 'арам пейилдик' (atoms 0–1); split before Russian 'злонамеренность'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам тер или арам тердик напрасное, бесполезное старание; потуги;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам тер или арам тердик</source>\n\t<target>напрасное, бесполезное старание; потуги;</target>\n</ex>",
+      "reason": "Left side includes the Kyrgyz variants 'арам тер или арам тердик' (atoms 0–4); split before the Russian gloss 'напрасное...'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам терибиз бар экен напрасно мы старались, впустую пошёл наш труд;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам терибиз бар экен</source>\n\t<target>напрасно мы старались, впустую пошёл наш труд;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz clause 'арам терибиз бар экен' (atoms 0–3); split before Russian 'напрасно...'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам санаа или арам ойлуу злонамеренный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам санаа или арам ойлуу</source>\n\t<target>злонамеренный;</target>\n</ex>",
+      "reason": "Left side contains the Kyrgyz alternatives 'арам санаа или арам ойлуу' (atoms 0–4); split before Russian 'злонамеренный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам эт дикое мясо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам эт</source>\n\t<target>дикое мясо;</target>\n</ex>",
+      "reason": "Left side is 'арам эт' (atoms 0–1); 'дикое мясо' is the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам түк см. <wordLink word=\"түк\" homonym=\"I\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам түк</source>\n\t<target>см. <wordLink word=\"түк\" homonym=\"I\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "Left side is 'арам түк' (atoms 0–1); split before the Russian abbreviation 'см.' and the reference link.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам пөөш то же, что <wordLink word=\"арампөөш\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам пөөш</source>\n\t<target>то же, что <wordLink word=\"арампөөш\"/>.</target>\n</ex>",
+      "reason": "Left side is 'арам пөөш' (atoms 0–1); the remainder is Russian explanatory phrasing and a link.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>арам албай без отдыха;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>арам албай</source>\n\t<target>без отдыха;</target>\n</ex>",
+      "reason": "Left side is 'арам албай' (atoms 0–1); split before Russian 'без отдыха'.",
+      "confidence": 0.95
+    }
+  ]
+}

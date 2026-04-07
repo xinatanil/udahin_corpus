@@ -1,0 +1,167 @@
+{
+  "card_headword": "туш",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_tush.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тушумдагы находящийся против меня;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тушумдагы</source>\n\t<target>находящийся против меня;</target>\n</ex>",
+      "reason": "Left is the Kyrgyz word 'тушумдагы'; the remaining atoms are the Russian gloss 'находящийся против меня;'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айылдын туш тарабында на противоположной от аула стороне;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айылдын туш тарабында</source>\n\t<target>на противоположной от аула стороне;</target>\n</ex>",
+      "reason": "Left is the Kyrgyz phrase 'айылдын туш тарабында' (atoms 1–3); Russian gloss begins at 'на'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш келген встречный; всякий встречный и поперечный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш келген</source>\n\t<target>встречный; всякий встречный и поперечный;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш келген' (atoms 1–2); Russian gloss 'встречный; ...' starts after that.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кайсы тушта? в каком направлении?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кайсы тушта?</source>\n\t<target>в каком направлении?</target>\n</ex>",
+      "reason": "Left is the Kyrgyz question 'кайсы тушта ?' (atoms 1–3, include punctuation); Russian translation begins at 'в'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш-туш жакка в разные стороны; вразброд;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш-туш жакка</source>\n\t<target>в разные стороны; вразброд;</target>\n</ex>",
+      "reason": "Left is Kyrgyz reduplicated phrase 'туш - туш жакка' (atoms 1–4); Russian gloss 'в разные стороны...' starts at atom 5.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш-тушка кабар салды он послал известие во все стороны;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш-тушка кабар салды</source>\n\t<target>он послал известие во все стороны;</target>\n</ex>",
+      "reason": "Left is Kyrgyz clause 'туш - тушка кабар салды' (atoms 1–5); Russian explanatory pronoun and gloss ('он послал ...') start at atom 6.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш-тушунан душман менен курчалып калган он окружён врагами со всех сторон;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш-тушунан душман менен курчалып калган</source>\n\t<target>он окружён врагами со всех сторон;</target>\n</ex>",
+      "reason": "Left is Kyrgyz clause 'туш - тушунан душман менен курчалып калган' (atoms 1–7); Russian gloss 'он окружён...' begins at atom 8.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш-тарапка по сторонам; в разные стороны;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш-тарапка</source>\n\t<target>по сторонам; в разные стороны;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш - тарапка' (atoms 1–3); Russian 'по сторонам; в разные стороны;' follows starting with 'по'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш келди жакка куда придётся; куда вздумается; куда глаза глядят;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш келди жакка</source>\n\t<target>куда придётся; куда вздумается; куда глаза глядят;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш келди жакка' (atoms 1–3); Russian paraphrases ('куда придётся; ...') begin at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш түрүлдү кошма внизу юрты приподнята (чтобы в юрту проникал ветерок);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш түрүлдү</source>\n\t<target>кошма внизу юрты приподнята (чтобы в юрту проникал ветерок);</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш түрүлдү кошма' (atoms 1–3); the Russian gloss and parenthetical '(чтобы ...)' belong to the right side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>биздин тушубузда в наше время;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>биздин тушубузда</source>\n\t<target>в наше время;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'биздин тушубузда' (atoms 1–2); Russian 'в наше время;' starts at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>так ошо тушта как раз в то время; как раз в тот момент;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>так ошо тушта</source>\n\t<target>как раз в то время; как раз в тот момент;</target>\n</ex>",
+      "reason": "Left is the Kyrgyz expression 'так ошо тушта' (atoms 1–3); Russian gloss 'как раз в то время...' begins at atom 4.",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тушма-туш точно совпадает по времени;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тушма-туш</source>\n\t<target>точно совпадает по времени;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'тушма - туш' (atoms 1–3); Russian 'точно совпадает по времени;' begins at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>отпускабыздын тушма-туш келгени ырас экен очень хорошо, что наш отпуск совпадает;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>отпускабыздын тушма-туш келгени ырас экен</source>\n\t<target>очень хорошо, что наш отпуск совпадает;</target>\n</ex>",
+      "reason": "Left is Kyrgyz clause 'отпускабыздын тушма - туш келгени ырас экен' (atoms 1–7); Russian comment 'очень хорошо, что...'; starts at atom 8.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Обол кандын тушунда в древние времена, при царе Горохе;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Обол кандын тушунда</source>\n\t<target>в древние времена, при царе Горохе;</target>\n</ex>",
+      "reason": "Left is Kyrgyz toponym phrase 'Обол кандын тушунда' (atoms 1–3); Russian 'в древние времена, при царе Горохе;' begins at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тең-туш ровня; сверстник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тең-туш</source>\n\t<target>ровня; сверстник;</target>\n</ex>",
+      "reason": "Left is Kyrgyz compound 'тең - туш' (atoms 1–3); Russian equivalents 'ровня; сверстник;' follow.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш келди бир киши первый встречный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш келди бир киши</source>\n\t<target>первый встречный;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш келди бир киши' (atoms 1–4); Russian gloss 'первый встречный;' starts at atom 5.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бүгүн мага жаман жерден туш келди сегодня мне не везёт; сегодня меня преследует неудача;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бүгүн мага жаман жерден туш келди</source>\n\t<target>сегодня мне не везёт; сегодня меня преследует неудача;</target>\n</ex>",
+      "reason": "Left is Kyrgyz sentence 'бүгүн мага жаман жерден туш келди' (atoms 1–6); Russian gloss begins at atom 7.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш келдикей эле как попало, как придётся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш келдикей эле</source>\n\t<target>как попало, как придётся;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш келдикей эле' (atoms 1–3); Russian 'как попало, как придётся;' starts at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тушүң туш келсин! сон в руку!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тушүң туш келсин!</source>\n\t<target>сон в руку!;</target>\n</ex>",
+      "reason": "Left is Kyrgyz exclamation 'тушүң туш келсин !' (atoms 1–4 include the exclamation); Russian exclamation 'сон в руку !' follows.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>түндөгү түшүң туш келген сон, что ты видел ночью, исполнился;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>түндөгү түшүң туш келген</source>\n\t<target>сон, что ты видел ночью, исполнился;</target>\n</ex>",
+      "reason": "Left is Kyrgyz clause 'түндөгү түшүң туш келген сон ,' (atoms 1–6 include the comma); Russian continuation 'что ты видел ночью, исполнился;' begins at atom 7.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш кийиз (см. <wordLink word=\"кийиз\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш кийиз</source>\n\t<target>(см. <wordLink word=\"кийиз\"/>).</target>\n</ex>",
+      "reason": "Left is the Kyrgyz compound 'туш кийиз' (atoms 1–2); parenthetical reference '(см. [[WL1|кийиз]]).' belongs to the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>туш тоту (см. <wordLink word=\"тоту\" homonym=\"II\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>туш тоту</source>\n\t<target>(см. <wordLink word=\"тоту\" homonym=\"II\"/>).</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'туш тоту' (atoms 1–2); parenthetical reference '(см. [[WL1|тоту]]).' goes to the right.",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "card_headword": "кепе",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kepe.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>там кепе или жер кепе землянка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>там кепе или жер кепе</source>\n\t<target>землянка;</target>\n</ex>",
+      "reason": "Left side contains the Kyrgyz phrases 'там кепе' and 'жер кепе' (atoms 0–4); the Russian gloss 'землянка' starts at atom 5.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чөп кепе шалаш из травы, из сена;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чөп кепе</source>\n\t<target>шалаш из травы, из сена;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz term 'чөп кепе' (atoms 0–1); the Russian gloss 'шалаш' begins at atom 2.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат кепе конюшня;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат кепе</source>\n\t<target>конюшня;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz term 'ат кепе' (atoms 0–1); the Russian gloss 'конюшня' starts at atom 2.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уй кепе хлев, коровник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уй кепе</source>\n\t<target>хлев, коровник;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz term 'уй кепе' (atoms 0–1); the Russian gloss 'хлев' begins at atom 2.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тоок кепе курятник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тоок кепе</source>\n\t<target>курятник;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz term 'тоок кепе' (atoms 0–1); the Russian gloss 'курятник' starts at atom 2.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кепе-сепе шалашик; избёнка.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кепе-сепе</source>\n\t<target>шалашик; избёнка.</target>\n</ex>",
+      "reason": "Left side includes the hyphenated Kyrgyz compound 'кепе-сепе' (atoms 0–2); the Russian gloss 'шалашик' begins at atom 3.",
+      "confidence": 0.9
+    }
+  ]
+}
