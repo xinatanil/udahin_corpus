@@ -9,13 +9,13 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+from llm_split_utils import iter_blockquotes
+
 ROOT = Path('/Users/xinatanil/Sources/udahin')
 INPUT_XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
 OUT_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
 DEFAULT_CARD = 'партия'
-MODEL = 'gpt-5-mini'
-TOKEN_RE = re.compile(r'\S+')
-BLOCKQUOTE_RE = re.compile(r'<blockquote>(.*?)</blockquote>', re.S)
+DEFAULT_MODEL = 'gpt-5-mini'
 
 SCHEMA = {
     'name': 'dictionary_card_split_review',
@@ -30,11 +30,11 @@ SCHEMA = {
                     'type': 'object',
                     'properties': {
                         'blockquote_id': {'type': 'string'},
-                        'source_token_count': {'type': ['integer', 'null']},
+                        'source_atom_count': {'type': ['integer', 'null']},
                         'reason': {'type': 'string'},
                         'confidence': {'type': 'number'}
                     },
-                    'required': ['blockquote_id', 'source_token_count', 'reason', 'confidence'],
+                    'required': ['blockquote_id', 'source_atom_count', 'reason', 'confidence'],
                     'additionalProperties': False
                 }
             }
@@ -55,33 +55,15 @@ def extract_card_xml(headword: str) -> str:
     if card_xml.count('<blockquote>') < 5:
         raise SystemExit(f'Card has fewer than 5 blockquotes: {headword}')
     return card_xml
-
-
-def iter_blockquotes(card_xml: str) -> list[dict[str, object]]:
-    items: list[dict[str, object]] = []
-    for idx, m in enumerate(BLOCKQUOTE_RE.finditer(card_xml), 1):
-        inner = m.group(1).strip()
-        xml = m.group(0)
-        text = re.sub(r'<[^>]+>', '', inner)
-        tokens = TOKEN_RE.findall(text)
-        items.append({
-            'blockquote_id': f'bq_{idx}',
-            'blockquote_xml': xml,
-            'text': text,
-            'tokens': tokens,
-        })
-    return items
-
-
 def build_prompt(card_xml: str, headword: str) -> list[dict]:
     items = iter_blockquotes(card_xml)
     enumerated = []
     for item in items:
         enumerated.append({
             'blockquote_id': item['blockquote_id'],
-            'text': item['text'],
-            'tokens': item['tokens'],
-            'token_count': len(item['tokens']),
+            'annotated_text': item['annotated_text'],
+            'atoms': item['atoms'],
+            'atom_count': len(item['atoms']),
         })
 
     system = (
@@ -94,12 +76,15 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         'Task: for every listed blockquote, decide the split point between the left side and the right side.\n\n'
         'Return one decision for every blockquote_id.\n\n'
         'Rules:\n'
-        '- Set source_token_count to the number of initial tokens that belong to the left side.\n'
-        '- source_token_count must be at least 1 and less than token_count if a split exists.\n'
-        '- If you truly cannot identify any sensible split, set source_token_count to null.\n'
+        '- Set source_atom_count to the number of initial atoms that belong to the left side.\n'
+        '- source_atom_count must be at least 1 and less than atom_count if a split exists.\n'
+        '- If you truly cannot identify any sensible split, set source_atom_count to null.\n'
+        '- Atoms preserve punctuation and hyphens as separate items, so you may split before or after commas, periods, and hyphens when needed.\n'
+        '- Placeholders like [[WL1|төр]] represent inline tags. Keep them on the semantically correct side of the split.\n'
         '- Parenthetical Russian notes such as "(о больном)", "(о человеке)", "(дерево)", "(тираж)" belong to the right side.\n'
-        '- Russian words like "горюя", "как", "мы", "он" do not belong in the left side.\n'
+        '- Russian words and gloss markers like "горюя", "как", "мы", "он", "кошма", "собир." do not belong in the left side.\n'
         '- If a line contains a Kyrgyz term, then meta like "собир.", then a Russian gloss, still produce the split; do not drop it.\n'
+        '- If OCR collapsed a space, for example a source ending with a hyphen followed immediately by Russian gloss, split at the semantic boundary anyway.\n'
         '- Do not omit any blockquote_id.\n\n'
         'Card context:\n'
         f'{card_xml}\n\n'
@@ -112,13 +97,13 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
     ]
 
 
-def call_responses_api(messages: list[dict], background: bool) -> dict:
+def call_responses_api(messages: list[dict], background: bool, model: str) -> dict:
     api_key = os.environ.get('OPENAI_API_KEY')
     if not api_key:
         raise SystemExit('OPENAI_API_KEY is not set')
 
     payload = {
-        'model': MODEL,
+        'model': model,
         'input': messages,
         'background': background,
         'text': {
@@ -181,9 +166,27 @@ def ascii_slug(headword: str) -> str:
 
 
 def main() -> int:
-    args = [a for a in sys.argv[1:] if a != '--no-background']
+    raw_args = sys.argv[1:]
+    background = True
+    model = os.environ.get('OPENAI_LLM_REVIEW_MODEL', DEFAULT_MODEL)
+    args: list[str] = []
+    i = 0
+    while i < len(raw_args):
+        arg = raw_args[i]
+        if arg == '--no-background':
+            background = False
+            i += 1
+            continue
+        if arg == '--model':
+            if i + 1 >= len(raw_args):
+                raise SystemExit('--model requires a value')
+            model = raw_args[i + 1]
+            i += 2
+            continue
+        args.append(arg)
+        i += 1
+
     headword = args[0] if args else DEFAULT_CARD
-    background = '--no-background' not in sys.argv[1:]
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     card_xml = extract_card_xml(headword)
@@ -194,10 +197,11 @@ def main() -> int:
     job_path = OUT_DIR / f'{stem}.job.json'
 
     card_path.write_text(card_xml + '\n', encoding='utf-8')
-    response = call_responses_api(build_prompt(card_xml, headword), background=background)
+    response = call_responses_api(build_prompt(card_xml, headword), background=background, model=model)
     if background:
         job = {
             'card_headword': headword,
+            'model': model,
             'response_id': response.get('id'),
             'card_path': str(card_path),
             'response_path': str(response_path),
@@ -206,6 +210,7 @@ def main() -> int:
         job_path.write_text(json.dumps(job, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
         print(f'Card XML: {card_path}')
         print(f'Background job file: {job_path}')
+        print(f'Model: {model}')
         print(f"Background response queued: {response.get('id')}")
         return 0
 
@@ -213,6 +218,7 @@ def main() -> int:
     review = extract_output_json(response)
     review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Card XML: {card_path}')
+    print(f'Model: {model}')
     print(f'API response: {response_path}')
     print(f'Review JSON: {review_path}')
     return 0
