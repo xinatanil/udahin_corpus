@@ -1,0 +1,69 @@
+{
+  "card_headword": "кабыл",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kabyl.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мен шартыңа кабылмын я на твоё условие согласен; я прянимаю твоё условие;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мен шартыңа кабылмын</source>\n\t<target>я на твоё условие согласен; я прянимаю твоё условие;</target>\n</ex>",
+      "reason": "First Russian word 'я' at atom 4 begins the Russian gloss; left side ends with Kyrgyz clause 'кабылмын'.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал жан-дили менен кабыл алды он с радостью согласился;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал жан-дили менен кабыл алды</source>\n\t<target>он с радостью согласился;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'он' at atom 8; preceding atoms are Kyrgyz.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мени кабыл албай койду он меня не принял;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мени кабыл албай койду</source>\n\t<target>он меня не принял;</target>\n</ex>",
+      "reason": "Russian translation begins with 'он' at atom 5; keep the Kyrgyz verb form on the left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>биз кабыл алган милдеттенмелер принятые нами обязательства;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>биз кабыл алган милдеттенмелер</source>\n\t<target>принятые нами обязательства;</target>\n</ex>",
+      "reason": "Atom 5 'принятые' is Russian; the preceding atoms are Kyrgyz phrase.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кабыл эмес неисполнимый (т. к. не соответствует существующим установлениям);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кабыл эмес</source>\n\t<target>неисполнимый (т. к. не соответствует существующим установлениям);</target>\n</ex>",
+      "reason": "Russian gloss starts at atom 3 'неисполнимый' (parenthetical follows); keep Kyrgyz 'кабыл эмес' on the left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кабыл болбоду (что-л.) не оказалось удачным, не увенчалось успехом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кабыл болбоду</source>\n\t<target>(что-л.) не оказалось удачным, не увенчалось успехом;</target>\n</ex>",
+      "reason": "Right side begins with a parenthetical Russian note '(что-л.)'; include opening parenthesis as start of the Russian part.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кишиге кабылган жоксуңарбы? вы ни с кем не встретились? вам никто не повстречался?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кишиге кабылган жоксуңарбы?</source>\n\t<target>вы ни с кем не встретились? вам никто не повстречался?</target>\n</ex>",
+      "reason": "After the Kyrgyz question (ending with '?'), the Russian render begins at atom 5 'вы'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чытырманга кабылдым я попал в чащу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чытырманга кабылдым</source>\n\t<target>я попал в чащу;</target>\n</ex>",
+      "reason": "Russian translation starts at atom 3 'я'; keep the Kyrgyz example on the left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мен балакетке кабылдым со мной случилось несчастье; я попал в беду.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мен балакетке кабылдым</source>\n\t<target>со мной случилось несчастье; я попал в беду.</target>\n</ex>",
+      "reason": "First Russian gloss begins at atom 4 'со' (there is a later Russian clause after ';' but splitting must start at the first Russian segment).",
+      "confidence": 0.92
+    }
+  ]
+}

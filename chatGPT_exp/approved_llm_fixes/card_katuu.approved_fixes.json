@@ -1,0 +1,132 @@
+{
+  "card_headword": "катуу",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_katuu.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндүн ысыгынан башыңы катууга көлөкө таппай не находя тени, чтобы спрятать голову от солнечной жары.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндүн ысыгынан башыңы катууга көлөкө таппай</source>\n\t<target>не находя тени, чтобы спрятать голову от солнечной жары.</target>\n</ex>",
+      "reason": "First Russian word 'не' begins the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу тоют грубый (жёсткий) корм;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу тоют</source>\n\t<target>грубый (жёсткий) корм;</target>\n</ex>",
+      "reason": "Russian gloss starts at 'грубый'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуудан казан, жумшактан күлүн койбой (разграбив) всё дотла (букв. из твёрдого не оставив котла, из мягкого - пепла);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуудан казан, жумшактан күлүн койбой</source>\n\t<target>(разграбив) всё дотла (букв. из твёрдого не оставив котла, из мягкого - пепла);</target>\n</ex>",
+      "reason": "Parenthetical Russian note '('разграбив')' begins the Russian gloss; include opening parenthesis on right side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу уруш ожесточённая драка, схватка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу уруш</source>\n\t<target>ожесточённая драка, схватка;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'ожесточённая'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу сын суровая критика;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу сын</source>\n\t<target>суровая критика;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'суровая'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>быйыл кыш катуу болду в этом году зима была суровая;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>быйыл кыш катуу болду</source>\n\t<target>в этом году зима была суровая;</target>\n</ex>",
+      "reason": "Bilingual sentence: Russian clause begins at 'в'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу шамал сильный, резкий ветер;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу шамал</source>\n\t<target>сильный, резкий ветер;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'сильный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу суук сильный холод;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу суук</source>\n\t<target>сильный холод;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'сильный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>агыны катуу суу быстрая река;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>агыны катуу суу</source>\n\t<target>быстрая река;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'быстрая'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу кыйкырык громкий крик;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу кыйкырык</source>\n\t<target>громкий крик;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'громкий'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаасы катуу требовательный, неподатливый (человек);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаасы катуу</source>\n\t<target>требовательный, неподатливый (человек);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'требовательный'; parenthetical classifier follows but does not affect split.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу баа твёрдая цена;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу баа</source>\n\t<target>твёрдая цена;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'твёрдая'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу сүйлөшүү или катуу айтышуу крупный разговор;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу сүйлөшүү или катуу айтышуу</source>\n\t<target>крупный разговор;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives kept on left; Russian gloss begins at 'крупный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көп катуу кетпейлик не будем перехватывать через край;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көп катуу кетпейлик</source>\n\t<target>не будем перехватывать через край;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'не' (negation starting Russian clause).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу баш скупой;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу баш</source>\n\t<target>скупой;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'скупой'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жолу катуу киши решительный и крутой человек;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жолу катуу киши</source>\n\t<target>решительный и крутой человек;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'решительный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>иш катуу кетти дело приняло крутой оборот;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>иш катуу кетти</source>\n\t<target>дело приняло крутой оборот;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'дело'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катуу бүркөр см. <wordLink word=\"шумкар\" meaning=\"1\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катуу бүркөр</source>\n\t<target>см. <wordLink word=\"шумкар\" meaning=\"1\"/>.</target>\n</ex>",
+      "reason": "Reference/meta 'см.' belongs to the Russian side; split at 'см'.",
+      "confidence": 0.95
+    }
+  ]
+}

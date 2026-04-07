@@ -1,0 +1,272 @@
+{
+  "card_headword": "май",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_may.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карын май жир, которым обрастает желудок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карын май</source>\n\t<target>жир, которым обрастает желудок;</target>\n</ex>",
+      "reason": "First Russian gloss word 'жир' begins at atom 3; keep Kyrgyz 'карын май' on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары май топлёное масло;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары май</source>\n\t<target>топлёное масло;</target>\n</ex>",
+      "reason": "Russian gloss 'топлёное масло' begins at atom 3; left is Kyrgyz 'сары май'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жууган май сев., пышкан май южн., каймак май чатк. сливочное масло;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жууган май сев., пышкан май южн., каймак май чатк.</source>\n\t<target>сливочное масло;</target>\n</ex>",
+      "reason": "Multiple Kyrgyz variants and regional labels stay on the left; Russian gloss 'сливочное масло' starts at atom 15.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>суу май или өсүмдүк майы растительное масло;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>суу май или өсүмдүк майы</source>\n\t<target>растительное масло;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives end at atom 5; Russian gloss 'растительное масло' begins at atom 6.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>орто жерден май түшүрөт он пенки снимает (пользуясь обстановкой, напр. чьей-л. ссорой);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>орто жерден май түшүрөт</source>\n\t<target>он пенки снимает (пользуясь обстановкой, напр. чьей-л. ссорой);</target>\n</ex>",
+      "reason": "Russian gloss begins with 'он' at atom 5; keep Kyrgyz clause on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кересин май или сев. лампа май, жер май или южн. жел май керосин;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кересин май или сев. лампа май, жер май или южн. жел май</source>\n\t<target>керосин;</target>\n</ex>",
+      "reason": "Kyrgyz forms and regional labels occupy atoms 1–15; Russian gloss 'керосин' starts at atom 16.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жер май жок, лампа күйбөй калды керосина нет, лампа не горит;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жер май жок, лампа күйбөй калды</source>\n\t<target>керосина нет, лампа не горит;</target>\n</ex>",
+      "reason": "Russian gloss 'керосина нет, лампа не горит' begins at atom 8; left remains Kyrgyz.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кара май дёготь; колёсная мазь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кара май</source>\n\t<target>дёготь; колёсная мазь;</target>\n</ex>",
+      "reason": "Russian gloss 'дёготь' begins at atom 3; keep Kyrgyz 'кара май' on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ала май с примесью небольшого количества жира; не очень жирный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ала май</source>\n\t<target>с примесью небольшого количества жира; не очень жирный;</target>\n</ex>",
+      "reason": "Russian explanatory phrase starts at atom 3 ('с примесью...'); left is Kyrgyz 'ала май'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ала май тууралган эт мясо, нарезанное с салом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ала май тууралган эт</source>\n\t<target>мясо, нарезанное с салом;</target>\n</ex>",
+      "reason": "Russian gloss 'мясо, нарезанное...' begins at atom 5; Kyrgyz 'ала май тууралган эт' stays on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бээ ала май чыгып калды (зарезанная) кобылица оказалась не очень жирной;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бээ ала май чыгып калды</source>\n\t<target>(зарезанная) кобылица оказалась не очень жирной;</target>\n</ex>",
+      "reason": "A parenthetical Russian note begins at atom 6; include the opening '(' on the right side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кашыгы да, чөмүчү да май болуп калды у него дом - полная чаша (букв. у него и ложка и уполовник жиром покрылись);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кашыгы да, чөмүчү да май болуп калды</source>\n\t<target>у него дом - полная чаша (букв. у него и ложка и уполовник жиром покрылись);</target>\n</ex>",
+      "reason": "Russian gloss 'у него дом...' starts at atom 9; keep the Kyrgyz proverb part on the left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бакырдын баарын май кылып, карыптын көөнүн жай кылып фольк. всем беднякам он принёс достаток, сердца всех бесприютных он успокоил;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бакырдын баарын май кылып, карыптын көөнүн жай кылып</source>\n\t<target>фольк. всем беднякам он принёс достаток, сердца всех бесприютных он успокоил;</target>\n</ex>",
+      "reason": "Meta label 'фольк.' (Russian) at atom 10 marks start of right side gloss; left remains Kyrgyz clauses.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>от май плата за пастбище;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>от май</source>\n\t<target>плата за пастбище;</target>\n</ex>",
+      "reason": "Russian gloss 'плата за пастбище' begins at atom 3; 'от май' on the left is Kyrgyz.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аттын майы плата за пользование чужой лошадью;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аттын майы</source>\n\t<target>плата за пользование чужой лошадью;</target>\n</ex>",
+      "reason": "Russian gloss 'плата за пользование...' starts at atom 3; keep Kyrgyz 'аттын майы' on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>майга батып турат или чылка майдын ичинде болуп турат или чылка майга батып турат или башынан май агып турат он как сыр в масле катается;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>майга батып турат или чылка майдын ичинде болуп турат или чылка майга батып турат или башынан май агып турат</source>\n\t<target>он как сыр в масле катается;</target>\n</ex>",
+      "reason": "Russian gloss starts at atom 20 with 'он как сыр в масле катается'; left contains Kyrgyz variant chain.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>башыңарга май кайнатып жиберейин! я вас под орех разделаю! (букв. я на ваших головах жир вскипячу!);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>башыңарга май кайнатып жиберейин!</source>\n\t<target>я вас под орех разделаю! (букв. я на ваших головах жир вскипячу!);</target>\n</ex>",
+      "reason": "Sentence punctuation '!' belongs to the Kyrgyz sentence; Russian paraphrase begins at atom 6 'я'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таманына май төшөп сүйлөшөт он с ним разговаривает очень почтительно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таманына май төшөп сүйлөшөт</source>\n\t<target>он с ним разговаривает очень почтительно;</target>\n</ex>",
+      "reason": "Russian gloss 'он с ним разговаривает...' begins at atom 5; keep Kyrgyz clause on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колу май или май кол (о человеке) благодетельный, источник блага для других;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колу май или май кол</source>\n\t<target>(о человеке) благодетельный, источник блага для других;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о человеке)' starts at atom 6; include '(' on the right side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оозуңа май! в рот тебе жир! (похвала; соотв. русскому выражению: в рот тебе каши с маслом);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оозуңа май!</source>\n\t<target>в рот тебе жир! (похвала; соотв. русскому выражению: в рот тебе каши с маслом);</target>\n</ex>",
+      "reason": "Exclamation '!' ends the Kyrgyz phrase; Russian gloss 'в рот тебе жир!' begins at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көзүн май басты он с жиру бесится, он зазнался (букв. у него глаза жиром заплыли);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көзүн май басты</source>\n\t<target>он с жиру бесится, он зазнался (букв. у него глаза жиром заплыли);</target>\n</ex>",
+      "reason": "Russian gloss 'он с жиру бесится...' begins at atom 4; left remains Kyrgyz.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көзүмдүн майы кетти или көзумдүн майы түгөндү я очень утомился;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көзүмдүн майы кетти или көзумдүн майы түгөндү</source>\n\t<target>я очень утомился;</target>\n</ex>",
+      "reason": "Russian gloss 'я очень утомился' starts at atom 8; two Kyrgyz variants precede it.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көз майымды түгөттүм я очень утомился, изнурился;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көз майымды түгөттүм</source>\n\t<target>я очень утомился, изнурился;</target>\n</ex>",
+      "reason": "Russian gloss 'я очень утомился...' begins at atom 4; left is Kyrgyz clause.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май чачып, мал семирди скот очень потучнел;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май чачып, мал семирди</source>\n\t<target>скот очень потучнел;</target>\n</ex>",
+      "reason": "Russian gloss 'скот очень потучнел' starts at atom 6; earlier words are Kyrgyz.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал иштин майын чыгарат у него в руках дело горит; уж он сделает, так сделает;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал иштин майын чыгарат</source>\n\t<target>у него в руках дело горит; уж он сделает, так сделает;</target>\n</ex>",
+      "reason": "Russian gloss 'у него в руках дело горит' begins at atom 5; keep Kyrgyz on left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>майын чыгарып сүйлөйт он складно говорит;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>майын чыгарып сүйлөйт</source>\n\t<target>он складно говорит;</target>\n</ex>",
+      "reason": "Russian gloss 'он складно говорит' starts at atom 4; left is Kyrgyz verb phrase.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары майдай сакта бережно храни, храни как зеницу ока;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары майдай сакта</source>\n\t<target>бережно храни, храни как зеницу ока;</target>\n</ex>",
+      "reason": "Russian adverb 'бережно' (and following Russian 'храни') begins at atom 4; keep Kyrgyz 'сары майдай сакта' left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары майдай жагат как маслом по сердцу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары майдай жагат</source>\n\t<target>как маслом по сердцу;</target>\n</ex>",
+      "reason": "Russian comparative phrase 'как маслом по сердцу' begins at atom 4; left is Kyrgyz clause.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жүрөккө майдай тийди или жүрөккө чийки майдай тийди надоела хуже горькой редьки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жүрөккө майдай тийди или жүрөккө чийки майдай тийди</source>\n\t<target>надоела хуже горькой редьки;</target>\n</ex>",
+      "reason": "Russian gloss 'надоела хуже горькой редьки' begins at atom 9; earlier atoms are Kyrgyz variants.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>курсагына май алды он отрастил брюхо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>курсагына май алды</source>\n\t<target>он отрастил брюхо;</target>\n</ex>",
+      "reason": "Russian gloss 'он отрастил брюхо' starts at atom 4; keep Kyrgyz on the left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май ичме дизентерия (у детей);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май ичме</source>\n\t<target>дизентерия (у детей);</target>\n</ex>",
+      "reason": "Russian medical term 'дизентерия' begins at atom 3; parenthetical '(у детей)' follows.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тил албагандарга айтып, кызыл май болуп эмне кылам? зачем мне надсаживаться, втолковывая неслухам?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тил албагандарга айтып, кызыл май болуп эмне кылам?</source>\n\t<target>зачем мне надсаживаться, втолковывая неслухам?</target>\n</ex>",
+      "reason": "Kyrgyz sentence ends with '?' at atom 10; Russian gloss 'зачем мне...' begins at atom 11.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май болпоч (или майболпоч) полный и рыхлый (чаще о детях);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май болпоч (или майболпоч)</source>\n\t<target>полный и рыхлый (чаще о детях);</target>\n</ex>",
+      "reason": "Kyrgyz form with parenthetical alternative ends at atom 6; Russian description 'полный и рыхлый' starts at atom 7.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май билек или майбилек ай то же, что <wordLink word=\"жетинин айы\"/> (см. <wordLink word=\"ай\" homonym=\"I\" meaning=\"2\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май билек или майбилек ай</source>\n\t<target>то же, что <wordLink word=\"жетинин айы\"/> (см. <wordLink word=\"ай\" homonym=\"I\" meaning=\"2\"/>);</target>\n</ex>",
+      "reason": "Reference phrase 'то же, что ...' belongs to the right side; split at atom 6.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>отко май сал- см. <wordLink word=\"от\" homonym=\"I\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>отко май сал-</source>\n\t<target>см. <wordLink word=\"от\" homonym=\"I\"/>;</target>\n</ex>",
+      "reason": "Reference marker 'см.' begins at atom 5 and belongs to the Russian/right side; keep the Kyrgyz verb with hyphen on the left.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май көтөн см. <wordLink word=\"көтөн\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май көтөн</source>\n\t<target>см. <wordLink word=\"көтөн\"/>.</target>\n</ex>",
+      "reason": "Reference 'см.' at atom 3 starts the Russian/right side; left is Kyrgyz 'май көтөн'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май майрамы майский праздник.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май майрамы</source>\n\t<target>майский праздник.</target>\n</ex>",
+      "reason": "Russian gloss 'майский праздник' begins at atom 3; 'май майрамы' on left is Kyrgyz.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>май-май южн. коли! (выкрик-вызов вступающих в единоборство на пиках).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>май-май</source>\n\t<target>южн. коли! (выкрик-вызов вступающих в единоборство на пиках).</target>\n</ex>",
+      "reason": "Per example pattern, regional label 'южн.' at atom 4 begins the right-side gloss; keep the Kyrgyz 'май-май' on left.",
+      "confidence": 0.9
+    }
+  ]
+}

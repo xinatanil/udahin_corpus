@@ -1,0 +1,90 @@
+{
+  "card_headword": "керек",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kerek.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>керек эмес не нужно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>керек эмес</source>\n\t<target>не нужно;</target>\n</ex>",
+      "reason": "Kyrgyz phrase ends at 'эмес'; Russian gloss begins with 'не'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таптакыр керегиң жок в тебе нет абсолютно никакой надобности, ты совершенно не нужен;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таптакыр керегиң жок</source>\n\t<target>в тебе нет абсолютно никакой надобности, ты совершенно не нужен;</target>\n</ex>",
+      "reason": "Kyrgyz chain 'таптакыр керегиң жок' ends at 'жок'; Russian gloss begins with preposition 'в'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>керегим кеткен жан болдум фольк. я стал уже никчёмным существом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>керегим кеткен жан болдум</source>\n\t<target>фольк. я стал уже никчёмным существом;</target>\n</ex>",
+      "reason": "Meta label 'фольк.' (Russian) marks start of right side; Kyrgyz ends at 'болдум'.",
+      "confidence": 0.93
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маданий керектер культурные потребности;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маданий керектер</source>\n\t<target>культурные потребности;</target>\n</ex>",
+      "reason": "Kyrgyz 'маданий керектер' ends at 'керектер'; Russian gloss begins at 'культурные'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>элдин керек кылуусу өскөндөн өсүп бара жатат потребности населения растут и растут;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>элдин керек кылуусу өскөндөн өсүп бара жатат</source>\n\t<target>потребности населения растут и растут;</target>\n</ex>",
+      "reason": "Full Kyrgyz clause ends at 'жатат'; Russian gloss starts with 'потребности'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өз керектери үчүн на (его, их) собственные нужды;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өз керектери үчүн</source>\n\t<target>на (его, их) собственные нужды;</target>\n</ex>",
+      "reason": "Kyrgyz 'өз керектери үчүн' ends at 'үчүн'; Russian gloss begins with preposition 'на'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кең түрдө керек кылынуучу буюмдар предметы широкого потребления;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кең түрдө керек кылынуучу буюмдар</source>\n\t<target>предметы широкого потребления;</target>\n</ex>",
+      "reason": "Kyrgyz noun phrase ends at 'буюмдар'; Russian gloss begins with 'предметы'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>келсе керек он, надо полагать, придёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>келсе керек</source>\n\t<target>он, надо полагать, придёт;</target>\n</ex>",
+      "reason": "Kyrgyz 'келсе керек' ends at 'керек'; Russian gloss begins with 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>келиши керек он должен прийти; он обязательно придёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>келиши керек</source>\n\t<target>он должен прийти; он обязательно придёт;</target>\n</ex>",
+      "reason": "Kyrgyz 'келиши керек' ends at 'керек'; Russian gloss begins at 'он' ('он должен...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>келген болсо керек он, нужно полагать, пришёл;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>келген болсо керек</source>\n\t<target>он, нужно полагать, пришёл;</target>\n</ex>",
+      "reason": "Kyrgyz 'келген болсо керек' ends at 'керек'; Russian gloss begins with 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айтып кереги жок нет надобности говорить;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айтып кереги жок</source>\n\t<target>нет надобности говорить;</target>\n</ex>",
+      "reason": "Kyrgyz 'айтып кереги жок' ends at 'жок'; Russian gloss begins with 'нет'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>керек-жарак см. <wordLink word=\"жарак\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>керек-жарак</source>\n\t<target>см. <wordLink word=\"жарак\"/>.</target>\n</ex>",
+      "reason": "Compound 'керек-жарак' is Kyrgyz and stays left; reference phrase 'см.' begins the Russian side at 'см'.",
+      "confidence": 0.95
+    }
+  ]
+}

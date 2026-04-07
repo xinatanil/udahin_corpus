@@ -1,0 +1,76 @@
+{
+  "card_headword": "базар",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_bazar.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат базар конский базар;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат базар</source>\n\t<target>конский базар;</target>\n</ex>",
+      "reason": "First Russian word is 'конский' (atom 3). Left side ends with Kyrgyz 'базар'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жармаңке базар ярмарка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жармаңке базар</source>\n\t<target>ярмарка;</target>\n</ex>",
+      "reason": "First Russian atom is 'ярмарка' (atom 3); keep Kyrgyz 'жармаңке базар' on left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базарга сал- поставлять что-л. на рынок (для продажи);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базарга сал-</source>\n\t<target>поставлять что-л. на рынок (для продажи);</target>\n</ex>",
+      "reason": "Kyrgyz infinitive 'базарга сал-' ends with hyphen (atom 3); first Russian gloss word is 'поставлять' (atom 4).",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базар көтөрбөгөн мал неходовой (по цене) товар;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базар көтөрбөгөн мал</source>\n\t<target>неходовой (по цене) товар;</target>\n</ex>",
+      "reason": "'неходовой' (atom 4) is Russian gloss; keep Kyrgyz 'базар көтербөгөн мал' on left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базары ачылды там началось оживление, там началась оживлённая деятельность;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базары ачылды</source>\n\t<target>там началось оживление, там началась оживлённая деятельность;</target>\n</ex>",
+      "reason": "Atom 3 'там' is Russian ('there'); left side is Kyrgyz 'базары ачылды'.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Токмокко барып, базар кылып келдим я съездил в Токмак и поразвлёкся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Токмокко барып, базар кылып келдим</source>\n\t<target>я съездил в Токмак и поразвлёкся;</target>\n</ex>",
+      "reason": "Russian gloss begins with pronoun 'я' (atom 7); preceding tokens are Kyrgyz ('Токмокко барып, базар кылып келдим').",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базар киши человек с достатком и хлебосольный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базар киши</source>\n\t<target>человек с достатком и хлебосольный;</target>\n</ex>",
+      "reason": "First Russian gloss word is 'человек' (atom 3); left side is Kyrgyz 'базар киши'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базары түштү дела его очень плохи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базары түштү</source>\n\t<target>дела его очень плохи;</target>\n</ex>",
+      "reason": "Russian gloss starts at 'дела' (atom 3); keep Kyrgyz 'базары түштү' on left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>менин энем барса - базар, келсе - кербен эмес беле? а разве дом моей матушки не (был) полная чаша и она не славилась хлебосольством?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>менин энем барса-базар, келсе-кербен эмес беле?</source>\n\t<target>а разве дом моей матушки не (был) полная чаша и она не славилась хлебосольством?</target>\n</ex>",
+      "reason": "Kyrgyz clause ends with question mark (atom 12); Russian gloss begins at atom 13 'а разве...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базар үйүн көрбөй кал! проклятие чтоб тебе не видать благодатных родных мест!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базар үйүн көрбөй кал!</source>\n\t<target>проклятие чтоб тебе не видать благодатных родных мест!;</target>\n</ex>",
+      "reason": "Kyrgyz curse ends with '!' (atom 5); Russian gloss starts at atom 6 'проклятие...'.",
+      "confidence": 0.95
+    }
+  ]
+}

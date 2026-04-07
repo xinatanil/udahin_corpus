@@ -1,0 +1,90 @@
+{
+  "card_headword": "кокуй",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kokuy.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуюңду кой перестань охать;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуюңду кой</source>\n\t<target>перестань охать;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz phrase; Russian gloss begins at atom 3 'перестань'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй иш несчастье, беда;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй иш</source>\n\t<target>несчастье, беда;</target>\n</ex>",
+      "reason": "Kyrgyz words end with 'иш'; the Russian gloss 'несчастье' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>\"бир кокуй иш болуп кеткен экен\" деп, чочубадым беле! а разве я не напугался, полагая, что случилась какая-то беда!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>\"бир кокуй иш болуп кеткен экен\" деп, чочубадым беле!</source>\n\t<target>а разве я не напугался, полагая, что случилась какая-то беда!;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at atom 13; the Russian translation begins at atom 14 'а'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй киши экенсиң! да с тобой беды наживёшь!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй киши экенсиң!</source>\n\t<target>да с тобой беды наживёшь!;</target>\n</ex>",
+      "reason": "Kyrgyz exclamation ends at atom 4; Russian gloss starts at atom 5 'да'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>атаны кокуй! или ата кокуй! эх, жаль!, эх, как это скверно!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>атаны кокуй! или ата кокуй!</source>\n\t<target>эх, жаль!, эх, как это скверно!;</target>\n</ex>",
+      "reason": "Keep Kyrgyz alternatives (atoms 1–7) on the left; Russian exclamations begin at atom 8.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй күн (или кокуйгүн) горе нам!, ой, беда!, ой, что же нам делать!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй күн (или кокуйгүн)</source>\n\t<target>горе нам!, ой, беда!, ой, что же нам делать!;</target>\n</ex>",
+      "reason": "Parenthetical Kyrgyz alternative ends at atom 6; Russian gloss starts at atom 7 'горе'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй алат! ой, горе мне! (так восклицают женщины при большом несчастье);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй алат!</source>\n\t<target>ой, горе мне! (так восклицают женщины при большом несчастье);</target>\n</ex>",
+      "reason": "Kyrgyz phrase ends at atom 3; Russian gloss/exclamation begins at atom 4 'ой'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кеп билбеген кокуй (о человеке) бестолковый и мямля;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кеп билбеген кокуй</source>\n\t<target>(о человеке) бестолковый и мямля;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о человеке)' begins at atom 4 and belongs to the right side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй котормочу горе-переводчик;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй котормочу</source>\n\t<target>горе-переводчик;</target>\n</ex>",
+      "reason": "Kyrgyz words occupy atoms 1–2; Russian gloss 'горе-переводчик' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй акын горе-поэт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй акын</source>\n\t<target>горе-поэт;</target>\n</ex>",
+      "reason": "Kyrgyz left side ends at atom 2; Russian gloss 'горе-поэт' begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй кыргыз так южные киргизы в шутку называют северных за частое употребление ими междометия кокуй;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй</source>\n\t<target>кыргыз так южные киргизы в шутку называют северных за частое употребление ими междометия кокуй;</target>\n</ex>",
+      "reason": "Only the Kyrgyz headword 'кокуй' should remain on the left; the explanatory Russian sentence begins at atom 2.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кокуй бай то же, что <wordLink word=\"сасык бай\"/> ( см. <wordLink word=\"бай\" homonym=\"I\" meaning=\"1\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кокуй бай</source>\n\t<target>то же, что <wordLink word=\"сасык бай\"/> (см. <wordLink word=\"бай\" homonym=\"I\" meaning=\"1\"/>).</target>\n</ex>",
+      "reason": "Phrase 'то же, что' is Russian meta and starts at atom 3; keep the Kyrgyz collocation on the left (atoms 1–2).",
+      "confidence": 0.95
+    }
+  ]
+}

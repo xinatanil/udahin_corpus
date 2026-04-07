@@ -1,0 +1,62 @@
+{
+  "card_headword": "чүкө",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_chuko.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чүкө атыш игра в альчики;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чүкө атыш</source>\n\t<target>игра в альчики;</target>\n</ex>",
+      "reason": "First two atoms are Kyrgyz phrase 'чүкө атыш'; the Russian gloss begins at atom 3 'игра'.",
+      "confidence": 0.99
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чүкө табыл, маа табыл! сев. дет. альчик, найдись, мне найдись! (говорят мальчики, ища утерянный альчик);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чүкө табыл, маа табыл!</source>\n\t<target>сев. дет. альчик, найдись, мне найдись! (говорят мальчики, ища утерянный альчик);</target>\n</ex>",
+      "reason": "Kyrgyz exclamation ends at atom 6 '!'; Russian metadata/label 'сев.' starts at atom 7 and marks beginning of the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>беттин чүкөсү скула; көзү чуңкуруна кирип, эки беттин чүкөсү казыктай оркоюп турат глаза у него ввалились, скулы торчат, будто колья;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>беттин чүкөсү</source>\n\t<target>скула; көзү чуңкуруна кирип, эки беттин чүкөсү казыктай оркоюп турат глаза у него ввалились, скулы торчат, будто колья;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('беттин чүкөсү'); the Russian gloss begins immediately at atom 3 'скула'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чүкөдөй (о человеке) маленький и худенький;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чүкөдөй</source>\n\t<target>(о человеке) маленький и худенький;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о человеке)' begins at atom 2 '('; per rule the opening parenthesis belongs to the Russian side.",
+      "confidence": 0.99
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чүкөдөй сары абышка маленький и худенький рыжий старикашка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чүкөдөй сары абышка</source>\n\t<target>маленький и худенький рыжий старикашка;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz ('чүкөдөй сары абышка'); the Russian gloss starts at atom 4 'маленький'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чүкөдөй кара кемпир маленькая и худенькая чернявая старушка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чүкөдөй кара кемпир</source>\n\t<target>маленькая и худенькая чернявая старушка;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz ('чүкөдөй кара кемпир'); Russian translation begins at atom 4 'маленькая'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эчкинин чүкөсүндөй болгон чымыр кыз крепкая девушка небольшого роста;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эчкинин чүкөсүндөй болгон чымыр кыз</source>\n\t<target>крепкая девушка небольшого роста;</target>\n</ex>",
+      "reason": "Atoms 1–5 form the Kyrgyz phrase ('эчкинин чүкөсүндөй болгон чымыр кыз'); the Russian gloss begins at atom 6 'крепкая'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>иттин чүкөсүндөй болгон (о человеке) невзрачный; кривобокий, замухрышка (букв. как альчик собаки);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>иттин чүкөсүндөй болгон</source>\n\t<target>(о человеке) невзрачный; кривобокий, замухрышка (букв. как альчик собаки);</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz ('иттин чүкөсүндөй болгон'); a parenthetical Russian note '(о человеке)' starts at atom 4 '(', so the Russian side begins there.",
+      "confidence": 0.98
+    }
+  ]
+}
