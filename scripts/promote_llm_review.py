@@ -13,6 +13,7 @@ CONVERT = ROOT / 'scripts' / 'convert_card_review_to_fixes.py'
 APPLY = ROOT / 'scripts' / 'apply_card_review_fixes.py'
 XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
 EXPERIMENT_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
+ARTIFACTS_DIR = EXPERIMENT_DIR / 'artifacts'
 
 
 def extract_headword(review_path: Path) -> str:
@@ -42,8 +43,9 @@ def main() -> int:
         return 1
 
     stem = review_path.name.removesuffix('.review.json')
-    fixes_path = EXPERIMENT_DIR / f'{stem}.approved_fixes.json'
+    fixes_path = review_path.parent / f'{stem}.approved_fixes.json'
     APPROVED_DIR.mkdir(parents=True, exist_ok=True)
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
     if not fixes_path.exists():
         subprocess.run(

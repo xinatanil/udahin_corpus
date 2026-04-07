@@ -14,6 +14,7 @@ from llm_split_utils import iter_blockquotes
 ROOT = Path('/Users/xinatanil/Sources/udahin')
 INPUT_XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
 OUT_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
+ARTIFACTS_DIR = OUT_DIR / 'artifacts'
 DEFAULT_CARD = 'партия'
 DEFAULT_MODEL = 'gpt-5-mini'
 
@@ -188,13 +189,14 @@ def main() -> int:
 
     headword = args[0] if args else DEFAULT_CARD
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
     card_xml = extract_card_xml(headword)
     stem = f'card_{ascii_slug(headword)}'
-    card_path = OUT_DIR / f'{stem}.card.xml'
-    response_path = OUT_DIR / f'{stem}.response.json'
-    review_path = OUT_DIR / f'{stem}.review.json'
-    job_path = OUT_DIR / f'{stem}.job.json'
+    card_path = ARTIFACTS_DIR / f'{stem}.card.xml'
+    response_path = ARTIFACTS_DIR / f'{stem}.response.json'
+    review_path = ARTIFACTS_DIR / f'{stem}.review.json'
+    job_path = ARTIFACTS_DIR / f'{stem}.job.json'
 
     card_path.write_text(card_xml + '\n', encoding='utf-8')
     response = call_responses_api(build_prompt(card_xml, headword), background=background, model=model)

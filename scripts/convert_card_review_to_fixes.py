@@ -16,9 +16,24 @@ HYPHEN_INSIDE_WORD_RE = re.compile(r'(?<=\w)\s+-(?=\w)')
 HYPHEN_AT_END_RE = re.compile(r'(?<=\w)\s+-$')
 TRAILING_RUSSIAN_PAREN_RE = re.compile(r'^(?P<body>.*?)(?:\s+)?(?P<paren>\((?:о|об|букв\.?|перен\.?|разг\.?|фольк\.?|погов\.?|собир\.?|этн\.?|поэт\.?|прост\.?).*?\))$')
 TRAILING_META_MARKERS_RE = re.compile(
-    r'^(?P<body>.*?)(?:\s+)?(?P<meta>(?:погов|фольк|разг|собир|этн|уст|поэт|прост|книжн|обл|редк|шутл|ирон)\.)$',
+    r'^(?P<body>.*?)(?:\s+)?(?P<meta>(?:погов|фольк|разг|собир|этн|уст|поэт|прост|книжн|обл|редк|шутл|ирон|южн|сев)\.)$',
     re.I,
 )
+KYR_WORD_RE = r"[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі'-]+"
+RUS_WORD_RE = r"[А-Яа-яЁё]+"
+LEADING_ILI_CHAIN_RE = re.compile(
+    rf'^(?P<chain>или(?:\s+{KYR_WORD_RE}){{1,6}})\s+(?P<rest>{RUS_WORD_RE}.*)$'
+)
+TRAILING_RUSSIAN_GLOSS_RE = re.compile(
+    r'^(?P<body>.*?)(?:\s+)?(?P<gloss>(?:звукоподражание(?:\s+[А-Яа-яЁё]+){0,3}|название(?:\s+[А-Яа-яЁё]+){0,3}))$',
+    re.I,
+)
+LEADING_KYRGYZ_CONTINUATION_RE = re.compile(
+    rf'^(?P<cont>(?:{KYR_WORD_RE}\s+){{1,4}}экен)\s+(?P<rest>[А-ЯЁ][^\n]*)$'
+)
+EXACT_SPLIT_OVERRIDES = {
+    'шак түшүптүр пала роса.': ('шак түшүптүр', 'пала роса.'),
+}
 
 
 def normalize_hyphen_spacing(text: str) -> str:
@@ -47,6 +62,39 @@ def normalize_trailing_meta_marker(source: str, target: str) -> tuple[str, str]:
     if not body:
         return source, target
     return body, f'{meta} {target}'.strip()
+
+
+def normalize_leading_ili_chain(source: str, target: str) -> tuple[str, str]:
+    m = LEADING_ILI_CHAIN_RE.match(target.strip())
+    if not m:
+        return source, target
+    chain = m.group('chain').strip()
+    rest = m.group('rest').strip()
+    if not rest:
+        return source, target
+    return f'{source} {chain}'.strip(), rest
+
+
+def normalize_trailing_russian_gloss(source: str, target: str) -> tuple[str, str]:
+    m = TRAILING_RUSSIAN_GLOSS_RE.match(source.strip())
+    if not m:
+        return source, target
+    body = m.group('body').strip()
+    gloss = m.group('gloss').strip()
+    if not body:
+        return source, target
+    return body, f'{gloss} {target}'.strip()
+
+
+def normalize_leading_kyrgyz_continuation(source: str, target: str) -> tuple[str, str]:
+    m = LEADING_KYRGYZ_CONTINUATION_RE.match(target.strip())
+    if not m:
+        return source, target
+    cont = m.group('cont').strip()
+    rest = m.group('rest').strip()
+    if not rest:
+        return source, target
+    return f'{source} {cont}'.strip(), rest
 
 
 def ex_xml(source: str, target: str) -> str:
@@ -83,6 +131,17 @@ def main() -> int:
         item = blockquotes.get(bq_id)
         if not item:
             continue
+        exact_override = EXACT_SPLIT_OVERRIDES.get(item['plain_text'])
+        if exact_override is not None:
+            source, target = exact_override
+            fixes.append({
+                'action': 'replace_exact_xml',
+                'find_xml': item['blockquote_xml'],
+                'replace_with_xml': ex_xml(source, target),
+                'reason': decision.get('reason', ''),
+                'confidence': decision.get('confidence', 0),
+            })
+            continue
         source_atom_count = decision.get('source_atom_count')
         atoms = item['atoms']
         placeholders = item['placeholders']
@@ -107,6 +166,9 @@ def main() -> int:
             target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
         source, target = normalize_parenthetical_note(source, target)
         source, target = normalize_trailing_meta_marker(source, target)
+        source, target = normalize_leading_ili_chain(source, target)
+        source, target = normalize_trailing_russian_gloss(source, target)
+        source, target = normalize_leading_kyrgyz_continuation(source, target)
         if not source or not target:
             continue
         fixes.append({

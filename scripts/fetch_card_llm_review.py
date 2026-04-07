@@ -15,6 +15,8 @@ ROOT = Path('/Users/xinatanil/Sources/udahin')
 CONVERT = ROOT / 'scripts' / 'convert_card_review_to_fixes.py'
 APPLY = ROOT / 'scripts' / 'apply_card_review_fixes.py'
 XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
+REVIEW_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
+ARTIFACTS_DIR = REVIEW_DIR / 'artifacts'
 
 
 def fetch_response(response_id: str) -> dict:
@@ -67,7 +69,7 @@ def build_preview(review_path: Path) -> tuple[Path, Path, Path]:
     stem = review_path.name.removesuffix('.review.json')
     fixes_path = review_path.parent / f'{stem}.approved_fixes.json'
     patched_card_path = review_path.parent / f'{stem}.patched_card.xml'
-    diff_path = review_path.parent / f'diff_{stem}.review.diff'
+    diff_path = REVIEW_DIR / f'diff_{stem}.review.diff'
     tmp_xml = review_path.parent / f'{stem}.tmp.xml'
 
     subprocess.run(['python3', str(CONVERT), str(review_path), str(fixes_path)], check=True)
@@ -100,6 +102,7 @@ def main() -> int:
         return 1
 
     job = json.loads(job_path.read_text(encoding='utf-8'))
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
     response = fetch_response(job['response_id'])
 
     response_path = Path(job['response_path'])
