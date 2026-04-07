@@ -1,0 +1,202 @@
+{
+  "card_headword": "эшик",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_eshik.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик чий дверное полотнище из чия (см. <wordLink word=\"чий\" homonym=\"I\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик чий</source>\n\t<target>дверное полотнище из чия (см. <wordLink word=\"чий\" homonym=\"I\"/>);</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'эшик чий' is first two atoms; the Russian gloss begins at 'дверное'.",
+      "confidence": 0.86
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик тыш кошма, с наружной стороны покрывающая эшик чий;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик тыш</source>\n\t<target>кошма, с наружной стороны покрывающая эшик чий;</target>\n</ex>",
+      "reason": "Kyrgyz form 'эшик тыш кошма' occupies first three atoms; Russian explanation starts at the comma.",
+      "confidence": 0.86
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшиктин моюну верхняя узкая часть дверного полотнища (начало его верхней узкой части);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшиктин моюну</source>\n\t<target>верхняя узкая часть дверного полотнища (начало его верхней узкой части);</target>\n</ex>",
+      "reason": "Kyrgyz head 'эшиктин моюну' is two atoms; Russian gloss 'верхняя...' follows.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>энесин көрүп, кызын ал, эшигин көрүп, төрүнө өт погов. посмотри на мать, (а потом) бери (в жёны) её дочь, посмотри на дверь, (а потом) занимай төр (см.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>энесин көрүп, кызын ал, эшигин көрүп, төрүнө өт</source>\n\t<target>погов. посмотри на мать, (а потом) бери (в жёны) её дочь, посмотри на дверь, (а потом) занимай төр (см.);</target>\n</ex>",
+      "reason": "Proverb Kyrgyz text ends at 'өт' (atom 11); the Russian marker 'погов.' and translation follow.",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик түр- свернуть дверь юрты рулоном, подтянув к верху косяка (когда нужно держать дверь открытой);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик түр-</source>\n\t<target>свернуть дверь юрты рулоном, подтянув к верху косяка (когда нужно держать дверь открытой);</target>\n</ex>",
+      "reason": "Lemma 'эшик түр-' is atoms 1–3 (including hyphen); Russian verb 'свернуть' begins the gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эликтей болуп түйүлүп, эшик тартты баатырга фольк. сжавшись, будто косуля, (жена) открыла дверь богатырю;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эликтей болуп түйүлүп, эшик тартты баатырга</source>\n\t<target>фольк. сжавшись, будто косуля, (жена) открыла дверь богатырю;</target>\n</ex>",
+      "reason": "Kyrgyz example up through 'баатырга' (atom 7); 'фольк.' is a Russian label and translation follows.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаманга эшик тартканча жаакка беш тарт погов. чем открыть дверь дурному, лучше дать ему пять оплеух;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаманга эшик тартканча жаакка беш тарт</source>\n\t<target>погов. чем открыть дверь дурному, лучше дать ему пять оплеух;</target>\n</ex>",
+      "reason": "Proverb Kyrgyz phrase occupies first six atoms; 'погов.' and the Russian paraphrase come after.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кымызга бата айтышып, олтургандар эшик тартышты поблагодарив за кумыс, сидевшие ушли;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кымызга бата айтышып, олтургандар эшик тартышты</source>\n\t<target>поблагодарив за кумыс, сидевшие ушли;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at 'тартышты' (atom 7); the Russian gloss 'поблагодарив...' starts next.",
+      "confidence": 0.88
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик тарткыла выходите, уходите;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик тарткыла</source>\n\t<target>выходите, уходите;</target>\n</ex>",
+      "reason": "Kyrgyz imperative 'эшик тарткыла' is two atoms; Russian equivalents follow.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик ач открой дверь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик ач</source>\n\t<target>открой дверь;</target>\n</ex>",
+      "reason": "Kyrgyz imperative 'эшик ач' is atoms 1–2; Russian 'открой дверь' follows.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик жап закрой дверь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик жап</source>\n\t<target>закрой дверь;</target>\n</ex>",
+      "reason": "Kyrgyz imperative 'эшик жап' is two atoms; Russian translation begins at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшикте вне, снаружи (дома, юрты, на дворе);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшикте</source>\n\t<target>вне, снаружи (дома, юрты, на дворе);</target>\n</ex>",
+      "reason": "Single Kyrgyz form 'эшикте' is the left-side item; the rest are Russian synonyms/clarifications.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшикке жат-ложиться спать снаружи (не в комнате, не в юрте);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшикке жат-</source>\n\t<target>ложиться спать снаружи (не в комнате, не в юрте);</target>\n</ex>",
+      "reason": "Lemma 'эшикке жат-' is atoms 1–3 (including hyphen); Russian 'ложиться...' begins after.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жайкы коноктун жаманы үйгө жатат деген, эшикке салыңыз сказано, что плохой летний гость ложится в юрте, (а) нам постелите снаружи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жайкы коноктун жаманы үйгө жатат деген, эшикке салыңыз</source>\n\t<target>сказано, что плохой летний гость ложится в юрте, (а) нам постелите снаружи;</target>\n</ex>",
+      "reason": "Kyrgyz sentence up through 'салыңыз' (atom 9); Russian marker 'сказано' and translation follow.",
+      "confidence": 0.83
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшиктен снаружи (со двора и т.п.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшиктен</source>\n\t<target>снаружи (со двора и т. п.);</target>\n</ex>",
+      "reason": "Kyrgyz form 'эшиктен' is atom 1; the remainder are Russian ('снаружи', parenthetical)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшиктен отун кертип келди он нарубил дров снаружи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшиктен отун кертип келди</source>\n\t<target>он нарубил дров снаружи;</target>\n</ex>",
+      "reason": "Kyrgyz clause 'эшиктен отун кертип келди' occupies first four atoms; Russian paraphrase follows.",
+      "confidence": 0.88
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>киши эшигинде в работе по найму; в услужении у кого-л., в людях;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>киши эшигинде</source>\n\t<target>в работе по найму; в услужении у кого-л., в людях;</target>\n</ex>",
+      "reason": "Kyrgyz 'киши эшигинде' (atoms 1–2) is the head; the Russian gloss begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>киши эшигинде күн өткөн кедей бедняк, живущий в услужении;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>киши эшигинде күн өткөн кедей</source>\n\t<target>бедняк, живущий в услужении;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'киши эшигинде күн өткөн' is atoms 1–5; Russian gloss 'бедняк...' starts next.",
+      "confidence": 0.88
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кирбеген эшиги, чыкпаган тешиги жок балакет этот проныра везде во все дырки пролезет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кирбеген эшиги, чыкпаган тешиги жок балакет</source>\n\t<target>этот проныра везде во все дырки пролезет;</target>\n</ex>",
+      "reason": "Kyrgyz idiom spans atoms 1–7 ('кирбеген эшиги, чыкпаган тешиги жок балакет'); Russian commentary begins at atom 8.",
+      "confidence": 0.87
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик жырт- обивать пороги (букв. рвать дверь; см. <wordLink word=\"эшик\" meaning=\"1\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик жырт-</source>\n\t<target>обивать пороги (букв. рвать дверь; см. <wordLink word=\"эшик\" meaning=\"1\"/>);</target>\n</ex>",
+      "reason": "Lemma 'эшик жырт-' is atoms 1–3 (including hyphen); Russian gloss 'обивать пороги...' follows.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик-төр дом, юрта (их внутренняя часть);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик-төр</source>\n\t<target>дом, юрта (их внутренняя часть);</target>\n</ex>",
+      "reason": "Compound 'эшик-төр' spans atoms 1–3; Russian gloss 'дом, юрта...' follows.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик-төрүн көрөлөкмүн я его дома не видел; я у него в доме не был;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик-төрүн көрөлөкмүн</source>\n\t<target>я его дома не видел; я у него в доме не был;</target>\n</ex>",
+      "reason": "Kyrgyz clause 'эшик-төрүн көрөлөкмүн' is first four atoms; Russian sentence begins at 'я'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик-төрүбүздү көрүшөлү, анан ийри отуруп, түз кеңешели давайте пойдём к нам в дом, а потом сядем рядком да поговорим ладком;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик-төрүбүздү көрүшөлү, анан ийри отуруп, түз кеңешели</source>\n\t<target>давайте пойдём к нам в дом, а потом сядем рядком да поговорим ладком;</target>\n</ex>",
+      "reason": "Kyrgyz sentence ends at 'кеңешели' (atom 11); Russian 'давайте пойдём...' starts thereafter.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик-төрдөй см. <wordLink word=\"төр\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик-төрдөй</source>\n\t<target>см. <wordLink word=\"төр\"/>;</target>\n</ex>",
+      "reason": "'эшик-төрдөй' is atoms 1–3; the 'см.' and link are Russian reference material.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдына эшик төрдөй ак боз ат минген он сел на огромного белого коня;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдына эшик төрдөй ак боз ат минген</source>\n\t<target>он сел на огромного белого коня;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'алдына эшик төрдөй ак боз ат минген' is atoms 1–7; Russian translation begins at 'он'.",
+      "confidence": 0.86
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик ачып, бешик түрткөн (о жене) ушедшая от мужа, разведённая (букв. открыв дверь, толкнувшая детскую колыбель);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик ачып, бешик түрткөн</source>\n\t<target>(о жене) ушедшая от мужа, разведённая (букв. открыв дверь, толкнувшая детскую колыбель);</target>\n</ex>",
+      "reason": "Kyrgyz part 'эшик ачып, бешик түрткөн (о жене)' occupies first nine atoms; Russian gloss starts at 'ушедшая'.",
+      "confidence": 0.88
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик басар южн. этн. свадебный обычай: после свадебного пира молодых выводят наружу; родственницы молодой тянут молодого то туда, то сюда через порог; он откупается;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик басар</source>\n\t<target>южн. этн. свадебный обычай: после свадебного пира молодых выводят наружу; родственницы молодой тянут молодого то туда, то сюда через порог; он откупается;</target>\n</ex>",
+      "reason": "Head 'эшик басар' (atoms 1–2) is Kyrgyz; 'южн.' and 'этн.' are Russian metadata and gloss follows.",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик беги то же, что <wordLink word=\"көлбөгү\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик беги</source>\n\t<target>то же, что <wordLink word=\"көлбөгү\"/>.</target>\n</ex>",
+      "reason": "Kyrgyz 'эшик беги' is atoms 1–2; Russian comparative 'то же, что...' begins at atom 3.",
+      "confidence": 0.9
+    }
+  ]
+}
