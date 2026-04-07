@@ -14,7 +14,6 @@ from pathlib import Path
 ROOT = Path('/Users/xinatanil/Sources/udahin')
 CONVERT = ROOT / 'scripts' / 'convert_card_review_to_fixes.py'
 APPLY = ROOT / 'scripts' / 'apply_card_review_fixes.py'
-XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'
 REVIEW_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
 ARTIFACTS_DIR = REVIEW_DIR / 'artifacts'
 
@@ -46,39 +45,22 @@ def extract_output_json(response: dict) -> dict | None:
     raise SystemExit('Could not find structured output in response')
 
 
-def extract_headword(review_path: Path) -> str:
-    data = json.loads(review_path.read_text(encoding='utf-8'))
-    headword = data.get('card_headword')
-    if not headword:
-        raise SystemExit(f'card_headword missing in {review_path}')
-    return headword
-
-
-def extract_card(text: str, headword: str) -> str:
-    m = re.search(rf'<card>\s*<k>{re.escape(headword)}</k>.*?</card>', text, re.S)
-    if not m:
-        raise SystemExit(f'Card not found in XML: {headword}')
-    return m.group(0)
-
-
 def count_blockquotes(card_xml: str) -> int:
     return len(re.findall(r'<blockquote>.*?</blockquote>', card_xml, re.S))
 
 
 def build_preview(review_path: Path) -> tuple[Path, Path, Path]:
     stem = review_path.name.removesuffix('.review.json')
+    card_path = review_path.parent / f'{stem}.card.xml'
     fixes_path = review_path.parent / f'{stem}.approved_fixes.json'
     patched_card_path = review_path.parent / f'{stem}.patched_card.xml'
     diff_path = REVIEW_DIR / f'diff_{stem}.review.diff'
-    tmp_xml = review_path.parent / f'{stem}.tmp.xml'
 
     subprocess.run(['python3', str(CONVERT), str(review_path), str(fixes_path)], check=True)
-    subprocess.run(['python3', str(APPLY), str(XML), str(fixes_path), str(tmp_xml)], check=True)
+    subprocess.run(['python3', str(APPLY), str(card_path), str(fixes_path), str(patched_card_path)], check=True)
 
-    headword = extract_headword(review_path)
-    original_card = extract_card(XML.read_text(encoding='utf-8'), headword)
-    patched_card = extract_card(tmp_xml.read_text(encoding='utf-8'), headword)
-    patched_card_path.write_text(patched_card + '\n', encoding='utf-8')
+    original_card = card_path.read_text(encoding='utf-8').strip()
+    patched_card = patched_card_path.read_text(encoding='utf-8').strip()
 
     diff_text = ''.join(difflib.unified_diff(
         (original_card + '\n').splitlines(keepends=True),
@@ -87,7 +69,6 @@ def build_preview(review_path: Path) -> tuple[Path, Path, Path]:
         tofile=f'{stem}.patched_card.xml',
     ))
     diff_path.write_text(diff_text, encoding='utf-8')
-    tmp_xml.unlink()
     return fixes_path, patched_card_path, diff_path
 
 
