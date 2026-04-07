@@ -32,7 +32,6 @@ SCHEMA = {
                     'properties': {
                         'blockquote_id': {'type': 'string'},
                         'target_starts_at_atom': {'type': ['integer', 'null']},
-                        'source_last_atom': {'type': ['string', 'null']},
                         'target_first_atom': {'type': ['string', 'null']},
                         'reason': {'type': 'string'},
                         'confidence': {'type': 'number'}
@@ -40,7 +39,6 @@ SCHEMA = {
                     'required': [
                         'blockquote_id',
                         'target_starts_at_atom',
-                        'source_last_atom',
                         'target_first_atom',
                         'reason',
                         'confidence',
@@ -92,7 +90,7 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         '- Set target_starts_at_atom to the 1-based index of the first atom that belongs to the right side.\n'
         '- target_starts_at_atom must be at least 2 and at most atom_count if a split exists.\n'
         '- If you truly cannot identify any sensible split, set target_starts_at_atom to null.\n'
-        '- Also return source_last_atom and target_first_atom exactly as they appear in the atom list. If target_starts_at_atom is null, both must be null.\n'
+        '- Also return target_first_atom exactly as it appears in the atom list. If target_starts_at_atom is null, target_first_atom must be null.\n'
         '- Atoms preserve punctuation and hyphens as separate items, so you may split before or after commas, periods, and hyphens when needed.\n'
         '- Placeholders like [[WL1|төр]] represent inline tags. Keep them on the semantically correct side of the split.\n'
         '- The left side must stay Kyrgyz. If a Russian word, Russian gloss label, or Russian explanatory fragment remains in the left side, your split is too late.\n'
@@ -101,8 +99,9 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         '- target_starts_at_atom must point to the first meaningful atom of the right side.\n'
         '- Usually that means the first lexical Russian atom, not delimiter punctuation such as a comma, semicolon, or dash.\n'
         '- Exception: if the right side begins with a parenthetical or quoted Russian note, target_starts_at_atom must point to the opening punctuation, for example "(" or "\\"".\n'
-        '- If the source-side Kyrgyz phrase ends with sentence punctuation such as "!" or "?", and the Russian gloss starts immediately after it, the punctuation still belongs to the left side. In that case target_starts_at_atom must point to the first Russian atom after the punctuation, and source_last_atom must be that punctuation mark.\n'
+        '- If the source-side Kyrgyz phrase ends with sentence punctuation such as "!" or "?", and the Russian gloss starts immediately after it, the punctuation still belongs to the left side. In that case target_starts_at_atom must point to the first Russian atom after the punctuation.\n'
         '- A split directly before a comma or semicolon is highly suspicious. Do not make the first atom of the right side punctuation unless the punctuation itself is genuinely the start of the gloss, which is rare.\n'
+        '- A source ending with a comma is almost always wrong. If your split would leave a trailing comma on the left side, reconsider it very carefully.\n'
         '- A source ending with an opening parenthesis or opening quote is almost always wrong. If the right side begins with "(о ...)", "(букв. ...)" or a quoted Russian note, include the opening punctuation on the right side.\n'
         '- If the only Russian material is a bare short classifier in parentheses, such as "(конь);", "(овца);", "(птица);", and there is no real Russian gloss after it, there is usually no sensible split. In that case set target_starts_at_atom to null.\n'
         '- If the right side already contains Russian glossing, do not delay the split to a later Russian paraphrase after another comma or semicolon. The right side must start at the first Russian gloss, not the second one.\n'
@@ -115,6 +114,7 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         '- Russian words and gloss markers like "горюя", "как", "мы", "он", "кошма", "собир.", "погов.", "фольк.", "стих." do not belong in the left side.\n'
         '- If a line contains a Kyrgyz term, then meta like "собир.", then a Russian gloss, still produce the split; do not drop it.\n'
         '- If OCR collapsed a space, for example a source ending with a hyphen followed immediately by Russian gloss, split at the semantic boundary anyway.\n'
+        '- When a hyphen or spaced dash belongs to the end of the Kyrgyz side, do not treat it as part of the right side. target_starts_at_atom must still point to the first Russian atom after that hyphen or dash.\n'
         '- If the Russian gloss begins with a hyphenated Russian expression such as "уходи-ка", "гляди-ка", "смотри-ка", the entire expression belongs to the right side. target_starts_at_atom must point to the first Russian word of that expression, not to the hyphen and not to the particle.\n'
         '- If the line has Kyrgyz alternatives joined by "или", keep the whole Kyrgyz alternative chain on the left until the Russian gloss begins.\n'
         '- If "или" is followed by more Kyrgyz words, keep them on the left. If "или" is followed by Russian gloss, keep "или" on the left only if it is clearly joining Kyrgyz alternatives.\n'
@@ -124,26 +124,31 @@ def build_prompt(card_xml: str, headword: str) -> list[dict]:
         '- Treat them as source-side variant markers only if there are at least two Kyrgyz variants in the line, or if the label is followed by another Kyrgyz variant before the Russian gloss begins.\n'
         '- A good hint is lexical similarity: regional variants are often very similar forms, differing by only a small change, for example one to three letters, while still clearly remaining Kyrgyz words.\n'
         '- If there is only one Kyrgyz form before the regional label and the label is followed directly by Russian gloss, then the regional label belongs to the right side, not the left.\n'
+        '- Variant-introducing Russian adverbs such as "иногда" can behave like source-side markers if they are immediately followed by another Kyrgyz variant form before the Russian gloss begins. In that case keep "иногда" plus that Kyrgyz variant on the left.\n'
+        '- If "иногда" is followed by a Kyrgyz alternative form and only then by the Russian gloss, do not split before "иногда". Split only when the actual Russian gloss begins.\n'
         '- If a regional label is followed by one short word or exclamation and then a parenthetical Russian explanation, do not treat that short word as a second Kyrgyz variant by default. In that pattern, the gloss usually starts at the regional label.\n'
         '- Do not delay the split to "(" just because a parenthetical explanation follows. If words immediately before "(" already form a Russian gloss introduced by a regional label, the gloss starts at the regional label, not at the parenthesis.\n'
         '- If a line alternates Kyrgyz variant + regional label + Kyrgyz variant + regional label + Kyrgyz variant, keep that whole chain on the left until the actual Russian gloss begins.\n'
         '- If a regional label is immediately followed by Russian gloss and no further Kyrgyz variant, then it belongs to the right side.\n'
         '- For one-line bilingual examples, the left side is usually a complete Kyrgyz phrase or chain of Kyrgyz alternatives, and the right side is the complete Russian gloss.\n'
         '- Prefer an earlier split over an overgeneralized later split.\n'
-        '- Example: atoms ["батың","барда","кете","бер","уходи","-","ка",",",...] => target_starts_at_atom = 5, source_last_atom = "бер", target_first_atom = "уходи".\n'
-        '- Example: atoms ["башыңарга","май","кайнатып","жиберейин","!","я","вас",...] => target_starts_at_atom = 6, source_last_atom = "!", target_first_atom = "я".\n'
-        '- Example: atoms ["депкири","качып","калды","или","депкирин","таппай","калды","он","испугался",...] => target_starts_at_atom = 8, source_last_atom = "калды", target_first_atom = "он".\n'
-        '- Example: atoms ["алал","дөөлөт","-","малыңды","булгабагын","арамга","стих",".",...] => target_starts_at_atom = 7, source_last_atom = "арамга", target_first_atom = "стих".\n'
-        '- Example: atoms ["чот","как","-","щёлкать",...] => target_starts_at_atom = 4, source_last_atom = "-", target_first_atom = "щёлкать".\n'
-        '- Example: atoms ["шак","-","шак","или","шак","-","шук","звукоподражание",...] => target_starts_at_atom = 8, source_last_atom = "шук", target_first_atom = "звукоподражание".\n'
-        '- Example: atoms ["ала","бер","бери",",","не","обращая","внимания",";"] => target_starts_at_atom = 3, source_last_atom = "бер", target_first_atom = "бери".\n'
-        '- Example: atoms ["айта","бер","говори",",","говори",";","продолжай","говорить",";"] => target_starts_at_atom = 3, source_last_atom = "бер", target_first_atom = "говори". The Russian gloss begins at the first "говори", not later at "продолжай".\n'
-        '- Example: atoms ["жууган","май","сев",".",",","пышкан","май","южн",".",",","каймак","май","чатк",".","сливочное","масло",";"] => target_starts_at_atom = 15, source_last_atom = ".", target_first_atom = "сливочное". The regional labels stay on the left because they introduce more Kyrgyz variants.\n'
-        '- Example: atoms ["кересин","май","или","сев",".","лампа","май",",","жер","май","или","южн",".","жел","май","керосин",";"] => target_starts_at_atom = 16, source_last_atom = "май", target_first_atom = "керосин". The regional labels and Kyrgyz variants stay on the left.\n'
-        '- Example: atoms ["май","-","май","южн",".","коли","!","(","выкрик",...] => target_starts_at_atom = 4, source_last_atom = "май", target_first_atom = "южн". Here "южн. коли!" is already the Russian gloss, and the parenthetical only explains it further.\n'
+        '- Example: atoms ["батың","барда","кете","бер","уходи","-","ка",",",...] => target_starts_at_atom = 5, target_first_atom = "уходи".\n'
+        '- Example: atoms ["башыңарга","май","кайнатып","жиберейин","!","я","вас",...] => target_starts_at_atom = 6, target_first_atom = "я".\n'
+        '- Example: atoms ["депкири","качып","калды","или","депкирин","таппай","калды","он","испугался",...] => target_starts_at_atom = 8, target_first_atom = "он".\n'
+        '- Example: atoms ["алал","дөөлөт","-","малыңды","булгабагын","арамга","стих",".",...] => target_starts_at_atom = 7, target_first_atom = "стих".\n'
+        '- Example: atoms ["казан","карма","-","готовить",...] => target_starts_at_atom = 4, target_first_atom = "готовить".\n'
+        '- Example: atoms ["эл","деген","[[SPD1|-]]","казан","народа",...] => target_starts_at_atom = 4, target_first_atom = "казан". The spaced dash still belongs to the Kyrgyz side; do not delay or shift the target boundary because of it.\n'
+        '- Example: atoms ["чот","как","-","щёлкать",...] => target_starts_at_atom = 4, target_first_atom = "щёлкать".\n'
+        '- Example: atoms ["шак","-","шак","или","шак","-","шук","звукоподражание",...] => target_starts_at_atom = 8, target_first_atom = "звукоподражание".\n'
+        '- Example: atoms ["ала","бер","бери",",","не","обращая","внимания",";"] => target_starts_at_atom = 3, target_first_atom = "бери".\n'
+        '- Example: atoms ["айта","бер","говори",",","говори",";","продолжай","говорить",";"] => target_starts_at_atom = 3, target_first_atom = "говори". The Russian gloss begins at the first "говори", not later at "продолжай".\n'
+        '- Example: atoms ["жууган","май","сев",".",",","пышкан","май","южн",".",",","каймак","май","чатк",".","сливочное","масло",";"] => target_starts_at_atom = 15, target_first_atom = "сливочное". The regional labels stay on the left because they introduce more Kyrgyz variants.\n'
+        '- Example: atoms ["кересин","май","или","сев",".","лампа","май",",","жер","май","или","южн",".","жел","май","керосин",";"] => target_starts_at_atom = 16, target_first_atom = "керосин". The regional labels and Kyrgyz variants stay on the left.\n'
+        '- Example: atoms ["жаман","жер",",","иногда","жаман","жай","срамные","части",";"] => target_starts_at_atom = 7, target_first_atom = "срамные". Here "иногда жаман жай" is an alternative-form marker plus Kyrgyz variant, so it stays on the left. A split after "жер" that leaves the comma on the left is wrong.\n'
+        '- Example: atoms ["май","-","май","южн",".","коли","!","(","выкрик",...] => target_starts_at_atom = 4, target_first_atom = "южн". Here "южн. коли!" is already the Russian gloss, and the parenthetical only explains it further.\n'
         '- Bad split example for the same line: target_starts_at_atom = 8 at "(" is wrong, because that would leave "южн. коли!" on the left even though it is already gloss text.\n'
-        '- Example: atoms ["чүкөдөй","(","о","человеке",")","маленький",...] => target_starts_at_atom = 2, source_last_atom = "чүкөдөй", target_first_atom = "(".\n'
-        '- Example: atoms ["оозу","катуу","тугоуздый","(","конь",")",";"] => target_starts_at_atom = null, source_last_atom = null, target_first_atom = null, because "(конь)" is only a bare classifier and there is no real Russian gloss.\n'
+        '- Example: atoms ["чүкөдөй","(","о","человеке",")","маленький",...] => target_starts_at_atom = 2, target_first_atom = "(".\n'
+        '- Example: atoms ["оозу","катуу","тугоуздый","(","конь",")",";"] => target_starts_at_atom = null, target_first_atom = null, because "(конь)" is only a bare classifier and there is no real Russian gloss.\n'
         '- Example: if a line contains a Kyrgyz phrase followed by a Russian gloss mentioning a person such as "Медетбек родился в Таласе", the capitalized name "Медетбек" may belong to the right side if it is part of the Russian gloss.\n'
         '- Do not omit any blockquote_id.\n\n'
         'Card context:\n'

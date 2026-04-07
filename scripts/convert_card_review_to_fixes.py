@@ -14,6 +14,9 @@ from llm_split_utils import (
 
 HYPHEN_INSIDE_WORD_RE = re.compile(r'(?<=\w)\s+-(?=\w)')
 HYPHEN_AT_END_RE = re.compile(r'(?<=\w)\s+-$')
+HYPHEN_BEFORE_OPEN_PAREN_RE = re.compile(r'(?<=\w)\s*-\s*(?=\()')
+HYPHEN_BEFORE_ILI_RE = re.compile(r'(?<=\w)\s*-\s*(?=или\b)', re.I)
+HYPHEN_BEFORE_CLOSE_PAREN_RE = re.compile(r'(?<=\w)\s*-\s*(?=\))')
 TRAILING_RUSSIAN_PAREN_RE = re.compile(r'^(?P<body>.+?)\s+(?P<paren>\((?:о|об|букв\.?|перен\.?|разг\.?|фольк\.?|погов\.?|собир\.?|этн\.?|поэт\.?|прост\.?).*?\))$')
 TRAILING_META_MARKERS_RE = re.compile(
     r'^(?P<body>.+?)\s+(?P<meta>(?:погов|фольк|разг|собир|этн|уст|поэт|прост|книжн|обл|редк|шутл|ирон|южн|сев|стих)\.)$',
@@ -55,6 +58,9 @@ RUSSIAN_ENCLITIC_PARTICLES = {'ка', 'де', 'же', 'бы'}
 def normalize_hyphen_spacing(text: str) -> str:
     text = HYPHEN_INSIDE_WORD_RE.sub('-', text)
     text = HYPHEN_AT_END_RE.sub('-', text)
+    text = HYPHEN_BEFORE_OPEN_PAREN_RE.sub('- ', text)
+    text = HYPHEN_BEFORE_ILI_RE.sub('- ', text)
+    text = HYPHEN_BEFORE_CLOSE_PAREN_RE.sub('-', text)
     return text
 
 
@@ -204,15 +210,13 @@ def main() -> int:
                 continue
             source_atoms = atoms[:target_starts_at_atom - 1]
             target_atoms = atoms[target_starts_at_atom - 1:]
-            expected_source_last = atoms[target_starts_at_atom - 2]
             expected_target_first = atoms[target_starts_at_atom - 1]
-            declared_source_last = decision.get('source_last_atom')
             declared_target_first = decision.get('target_first_atom')
-            if declared_source_last != expected_source_last or declared_target_first != expected_target_first:
+            if declared_target_first != expected_target_first:
                 print(
                     f"Warning: boundary atom mismatch for {bq_id}: "
-                    f"expected ({expected_source_last!r}, {expected_target_first!r}) "
-                    f"got ({declared_source_last!r}, {declared_target_first!r})",
+                    f"expected target_first_atom {expected_target_first!r} "
+                    f"got {declared_target_first!r}",
                     file=sys.stderr,
                 )
                 continue

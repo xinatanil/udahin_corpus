@@ -239,6 +239,23 @@ EXACT_XML_REWRITES = [
 \t\t\t\t<target>я партийный;</target>
 \t\t\t</ex>''',
     ),
+    (
+        '''<homonym>
+\t\t\t<homonymIndex>тал IV</homonymIndex>
+\t\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t\t<blockquote>тал түштө (см. <wordLink word="түш" homonym="I"/>).</blockquote>
+\t\t\t<blockquote>тал- V, талы-</blockquote>
+\t\t\t<meaning>''',
+        '''<homonym>
+\t\t\t<homonymIndex>тал IV</homonymIndex>
+\t\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t\t<blockquote>тал түштө (см. <wordLink word="түш" homonym="I"/>).</blockquote>
+\t\t</homonym>
+\t\t<homonym>
+\t\t\t<homonymIndex>тал- V</homonymIndex>
+\t\t\t<alternativeForm>талы-</alternativeForm>
+\t\t\t<meaning>''',
+    ),
 ]
 
 
