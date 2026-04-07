@@ -1,0 +1,216 @@
+{
+  "card_headword": "казан",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kazan.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жан казан дорожный котёл (небольшой), казанок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жан казан</source>\n\t<target>дорожный котёл (небольшой), казанок;</target>\n</ex>",
+      "reason": "Kyrgyz left side is 'жан казан'; first Russian gloss word is 'дорожный' at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>үстүмдө үйүм, астымда казаным жок - анык бечарамын надо мной нет юрты, передо мной нет котла - я настоящий бедняк;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>үстүмдө үйүм, астымда казаным жок - анык бечарамын</source>\n\t<target>надо мной нет юрты, передо мной нет котла - я настоящий бедняк;</target>\n</ex>",
+      "reason": "Atoms 1–9 are Kyrgyz (including the SPD placeholder); Russian gloss begins at atom 10 'надо'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан карма- готовить пищу, стряпать, выполнять работу по кухне (в старом быту для мужчины это считалось позором);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан карма-</source>\n\t<target>готовить пищу, стряпать, выполнять работу по кухне (в старом быту для мужчины это считалось позором);</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'казан карма' (hyphen belongs to source); Russian gloss starts at atom 4 'готовить'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан кармат-заставить стряпать, заставить выполнять все кухонные дела;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан кармат-</source>\n\t<target>заставить стряпать, заставить выполнять все кухонные дела;</target>\n</ex>",
+      "reason": "Kyrgyz lemma 'казан кармат' ends before the hyphen; Russian gloss begins at 'заставить' (atom 4).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат жалына казан аскан тот, кто на гриве коня пищу готовит (т.е. так занят, что даже, чтобы поесть, с коня не слезает);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат жалына казан аскан</source>\n\t<target>тот, кто на гриве коня пищу готовит (т. е. так занят, что даже, чтобы поесть, с коня не слезает);</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz; Russian explanatory clause begins at atom 5 'тот'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өз алдынча казан асты он начал жить своим домом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өз алдынча казан асты</source>\n\t<target>он начал жить своим домом;</target>\n</ex>",
+      "reason": "Kyrgyz phrase occupies atoms 1–4; Russian gloss starts at atom 5 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-аяк собир. кухонная посуда;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-аяк</source>\n\t<target>собир. кухонная посуда;</target>\n</ex>",
+      "reason": "Meta label 'собир.' should be treated as gloss/meta on the right side; right side begins at atom 4 'собир'.",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-аягы бир или бир казандан аш йчет у них стол общий, они питаются из одного котла;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-аягы бир или бир казандан аш йчет</source>\n\t<target>у них стол общий, они питаются из одного котла;</target>\n</ex>",
+      "reason": "Atoms 1–9 form the Kyrgyz expression; Russian gloss begins at atom 10 'у' ('у них стол общий...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-аякка катташ- (о женщинах) водить хлеб-соль;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-аякка катташ-</source>\n\t<target>(о женщинах) водить хлеб-соль;</target>\n</ex>",
+      "reason": "Parenthetical '(о женщинах)' is a Russian explanatory note and should start the right side; include the opening parenthesis at atom 6.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-очок всё хозяйство, связанное с приготовлением пищи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-очок</source>\n\t<target>всё хозяйство, связанное с приготовлением пищи;</target>\n</ex>",
+      "reason": "Kyrgyz compound 'казан-очок' ends at atom 3; Russian gloss begins at atom 4 'всё'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-очогун артына кеткен бекен? что ж, (его жена) навьючила на себя всю кухню и ушла? (так говорят о человеке, который не угостил прибывших к нему, ссылаясь на то, что жены дома нет);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-очогун артына кеткен бекен?</source>\n\t<target>что ж, (его жена) навьючила на себя всю кухню и ушла? (так говорят о человеке, который не угостил прибывших к нему, ссылаясь на то, что жены дома нет);</target>\n</ex>",
+      "reason": "Kyrgyz question ends at atom 7 ('?'); Russian rendering starts immediately after at atom 8 'что'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кийиктин этин таш казанга бышырып жеген он жарил мясо киика на камнях и ел;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кийиктин этин таш казанга бышырып жеген</source>\n\t<target>он жарил мясо киика на камнях и ел;</target>\n</ex>",
+      "reason": "Kyrgyz portion occupies atoms 1–6; Russian gloss begins at atom 7 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кызыл казан общественное питание на колхозном стане;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кызыл казан</source>\n\t<target>общественное питание на колхозном стане;</target>\n</ex>",
+      "reason": "Left is 'кызыл казан' (Kyrgyz); Russian gloss starts at atom 3 'общественное'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>куу казан бедняк;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>куу казан</source>\n\t<target>бедняк;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('куу казан'); the single-word Russian gloss begins at atom 3 'бедняк'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казанын сууга салып коюптур он положил зубы на полку (букв. свой котёл он положил в воду);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казанын сууга салып коюптур</source>\n\t<target>он положил зубы на полку (букв. свой котёл он положил в воду);</target>\n</ex>",
+      "reason": "Kyrgyz clause occupies atoms 1–4; Russian gloss begins at atom 5 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казаны оттон (или тулгадан) түшүп калды у него материальные дела плохи (букв. у него котёл с огня или с тагана спустился);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казаны оттон (или тулгадан) түшүп калды</source>\n\t<target>у него материальные дела плохи (букв. у него котёл с огня или с тагана спустился);</target>\n</ex>",
+      "reason": "Parenthetical atoms 3–6 are Kyrgyz alternatives; the Russian gloss 'у него ...' starts at atom 9 'у'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эл деген - казан народа великое множество;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эл деген - казан</source>\n\t<target>народа великое множество;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz expression 'эл деген - казан' (including SPD); Russian gloss starts at atom 5 'народа'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казаны майлуу у него постоянное хлебосольство (букв. у него котёл в жире);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казаны майлуу</source>\n\t<target>у него постоянное хлебосольство (букв. у него котёл в жире);</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'казаны майлуу' occupies atoms 1–2; Russian gloss begins at atom 3 'у'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катындан казан талашкан он у жены оспаривает котёл (презрительно о мужчине);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катындан казан талашкан</source>\n\t<target>он у жены оспаривает котёл (презрительно о мужчине);</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz; Russian gloss begins at atom 4 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тол, казан! (из сказки) наполнись, котёл!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тол, казан!</source>\n\t<target>(из сказки) наполнись, котёл!;</target>\n</ex>",
+      "reason": "The parenthetical '(из сказки)' is a Russian meta note that begins the gloss area; include the opening parenthesis at atom 5.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-аштуу (или казан-аштуу) зажиточный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-аштуу (или казан-аштуу)</source>\n\t<target>зажиточный;</target>\n</ex>",
+      "reason": "Parenthetical 'или ...' contains Kyrgyz variant and stays left; Russian gloss starts at atom 10 'зажиточный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан-аштуу кемпир зажиточная старуха;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан-аштуу кемпир</source>\n\t<target>зажиточная старуха;</target>\n</ex>",
+      "reason": "Kyrgyz compound 'казан-аштуу кемпир' ends at atom 4; Russian gloss begins at atom 5 'зажиточная'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан куйрук кой овца с огромным курдюком;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан куйрук кой</source>\n\t<target>овца с огромным курдюком;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz phrase 'казан куйрук кой' (atoms 1–3); Russian gloss begins at atom 4 'овца'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир казан пеликан, баба-птица;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир казан</source>\n\t<target>пеликан, баба-птица;</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz head 'бир казан' (atoms 1–2); Russian gloss/translations begin at atom 3 'пеликан'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азан-казан суматоха;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азан-казан</source>\n\t<target>суматоха;</target>\n</ex>",
+      "reason": "Kyrgyz compound 'азан-казан' occupies atoms 1–3; Russian gloss begins at atom 4 'суматоха'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айыл азан-казан түшүп козголду в ауле начался переполох;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айыл азан-казан түшүп козголду</source>\n\t<target>в ауле начался переполох;</target>\n</ex>",
+      "reason": "Kyrgyz clause occupies atoms 1–6; Russian gloss begins at atom 7 'в' ('в ауле начался переполох').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азан-казан жыйын большое и шумное собрание;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азан-казан жыйын</source>\n\t<target>большое и шумное собрание;</target>\n</ex>",
+      "reason": "Kyrgyz 'азан-казан жыйын' ends at atom 4; Russian gloss starts at atom 5 'большое'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азан-казан айтып келди он рассказал сногсшибательные вещи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азан-казан айтып келди</source>\n\t<target>он рассказал сногсшибательные вещи;</target>\n</ex>",
+      "reason": "Kyrgyz portion occupies atoms 1–5; Russian gloss begins at atom 6 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>даш казан см. <wordLink word=\"даш\" homonym=\"I\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>даш казан</source>\n\t<target>см. <wordLink word=\"даш\" homonym=\"I\"/>.</target>\n</ex>",
+      "reason": "Reference phrase 'см. [[WL1|...]]' belongs to the right side; right side begins at atom 3 'см'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>казан ат см. <wordLink word=\"казанат\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>казан ат</source>\n\t<target>см. <wordLink word=\"казанат\"/>.</target>\n</ex>",
+      "reason": "As above, 'см.' is a reference/meta marker and starts the right side at atom 3.",
+      "confidence": 0.95
+    }
+  ]
+}

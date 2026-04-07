@@ -1,0 +1,167 @@
+{
+  "card_headword": "көп",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kop.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпкөк синий-синий, голубой-голубой; (о растительности) зелёный-зелёный.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпкөк</source>\n\t<target>синий-синий, голубой-голубой; (о растительности) зелёный-зелёный.</target>\n</ex>",
+      "reason": "The first atom after the Kyrgyz headword 'көпкөк' is the Russian gloss 'синий'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көптөн көп многое множество;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көптөн көп</source>\n\t<target>многое множество;</target>\n</ex>",
+      "reason": "Atoms 1-2 are Kyrgyz; atom 3 'многое' is the start of the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көптөн кийин спустя много времени;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көптөн кийин</source>\n\t<target>спустя много времени;</target>\n</ex>",
+      "reason": "Atoms 1-2 are Kyrgyz; atom 3 'спустя' begins the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көптө по прошествии значительного времени;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көптө</source>\n\t<target>по прошествии значительного времени;</target>\n</ex>",
+      "reason": "Atom 1 is Kyrgyz 'көптө'; atom 2 'по' is Russian and starts the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көптө барып уктады он уснул (только) по прошествии значительного времени;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көптө барып уктады</source>\n\t<target>он уснул (только) по прошествии значительного времени;</target>\n</ex>",
+      "reason": "Atoms 1–3 form the Kyrgyz phrase; atom 4 'он' is the Russian gloss start.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сүйлөшүп отурушуп, көптө жатышты они беседовали и поздно легли;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сүйлөшүп отурушуп, көптө жатышты</source>\n\t<target>они беседовали и поздно легли;</target>\n</ex>",
+      "reason": "Atoms 1–5 are Kyrgyz (with comma); atom 6 'они' begins the Russian translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпкө или көпкө чейин долго, долгое время; надолго;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпкө или көпкө чейин</source>\n\t<target>долго, долгое время; надолго;</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz variants; atom 5 'долго' is the first Russian gloss token.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпкө токтоду он надолго остановился; он задержался;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпкө токтоду</source>\n\t<target>он надолго остановился; он задержался;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'он' begins the Russian gloss 'он надолго...'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпкө ойлонуп долго обдумывая;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпкө ойлонуп</source>\n\t<target>долго обдумывая;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'долго' is clearly Russian and starts the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ондон көп күн болду прошло больше десяти дней;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ондон көп күн болду</source>\n\t<target>прошло больше десяти дней;</target>\n</ex>",
+      "reason": "Atoms 1–4 form the Kyrgyz clause; atom 5 'прошло' begins the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көп миңдеген многотысячный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көп миңдеген</source>\n\t<target>многотысячный;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'многотысячный' is the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көп миллиондогон многомиллионный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көп миллиондогон</source>\n\t<target>многомиллионный;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'многомиллионный' is the Russian gloss start.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көбүрөөк побольше; многовато;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көбүрөөк</source>\n\t<target>побольше; многовато;</target>\n</ex>",
+      "reason": "Atom 1 is Kyrgyz 'көбүрөөк'; atom 2 'побольше' is the Russian gloss beginning.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпкө түш- обращаться к массам, к обществу, к коллективу (за советом, за разрешением спора);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпкө түш-</source>\n\t<target>обращаться к массам, к обществу, к коллективу (за советом, за разрешением спора);</target>\n</ex>",
+      "reason": "Atoms 1–3 are the Kyrgyz form (with hyphen); atom 4 'обращаться' starts the Russian explanation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аз болсо, көптөй көрүп, ыраазы бол не обессудь на малом (букв. если мало, приняв за многое, будь доволен);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аз болсо, көптөй көрүп, ыраазы бол</source>\n\t<target>не обессудь на малом (букв. если мало, приняв за многое, будь доволен);</target>\n</ex>",
+      "reason": "Atoms 1–8 are Kyrgyz phrase 'аз болсо...ыраазы бол'; atom 9 'не' begins the Russian gloss 'не обессудь...'.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эң көп болгондо или эң көп дегенде самое большее;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эң көп болгондо или эң көп дегенде</source>\n\t<target>самое большее;</target>\n</ex>",
+      "reason": "Atoms 1–7 are Kyrgyz variants; atom 8 'самое' is the Russian gloss start.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аздыр-көптүр, азын-көбүн см. <wordLink word=\"аз\" homonym=\"I\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аздыр-көптүр, азын-көбүн</source>\n\t<target>см. <wordLink word=\"аз\" homonym=\"I\"/>;</target>\n</ex>",
+      "reason": "The 'см. [[WL1|аз]]' reference belongs to the Russian/meta side; 'см' (atom 8) begins it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көбүн эсе см. <wordLink word=\"эсе\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көбүн эсе</source>\n\t<target>см. <wordLink word=\"эсе\"/>.</target>\n</ex>",
+      "reason": "'см. [[WL1|эсе]]' is a reference/meta and begins at atom 3 'см'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эти көбө баштаган он начал нагуливать тело;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эти көбө баштаган</source>\n\t<target>он начал нагуливать тело;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz; atom 4 'он' starts the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өз башын өөдө баалап, көпкөн жигит возомнивший о себе и зазнавшийся парень;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өз башын өөдө баалап, көпкөн жигит</source>\n\t<target>возомнивший о себе и зазнавшийся парень;</target>\n</ex>",
+      "reason": "Atoms 1–7 are Kyrgyz material; atom 8 'возомнивший' is the Russian gloss start.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көпкөн жигит көп сүйлөйт зазнавшийся парень много говорит;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көпкөн жигит көп сүйлөйт</source>\n\t<target>зазнавшийся парень много говорит;</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz; atom 5 'зазнавшийся' begins the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман уул атасы өлгөндө көбөт погов. дурной сын со смертью отца начинает важничать;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман уул атасы өлгөндө көбөт</source>\n\t<target>погов. дурной сын со смертью отца начинает важничать;</target>\n</ex>",
+      "reason": "The meta label 'погов.' (atom 6) belongs to the Russian/meta side and starts the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мурдунан көпкөн задирающий нос; гордец.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мурдунан көпкөн</source>\n\t<target>задирающий нос; гордец.</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'задирающий' is the Russian gloss start.",
+      "confidence": 0.9
+    }
+  ]
+}

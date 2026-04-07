@@ -1,0 +1,111 @@
+{
+  "card_headword": "тал",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_tal.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>талдын көркү шагында красота тальника в его ветвях;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>талдын көркү шагында</source>\n\t<target>красота тальника в его ветвях;</target>\n</ex>",
+      "reason": "First three atoms are Kyrgyz; atom 4 'красота' is the Russian gloss, so split before it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көк билек тал или самбы тал верба;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көк билек тал или самбы тал</source>\n\t<target>верба;</target>\n</ex>",
+      "reason": "Kyrgyz variants and 'или' occupy atoms 1–6; atom 7 'верба' is Russian gloss, so split at 7.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>турпан тал или кара тал или көк тал или кызыл тал или сары тал или сай тал виды тала;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>турпан тал или кара тал или көк тал или кызыл тал или сары тал или сай тал</source>\n\t<target>виды тала;</target>\n</ex>",
+      "reason": "Atoms 1–17 are Kyrgyz variant chain; atom 18 'виды' is Russian, so right side begins there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кырчын тал или кырчыл тал ива-бредина;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кырчын тал или кырчыл тал</source>\n\t<target>ива-бредина;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives end at atom 5; atom 6 'ива' begins the Russian gloss (compound 'ива-бредина'), so split at 6.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мажрум тал плакучая ива;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мажрум тал</source>\n\t<target>плакучая ива;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'плакучая' is Russian adjective 'weeping', so right side starts there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эчки тал вид ивы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эчки тал</source>\n\t<target>вид ивы;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'вид' begins the Russian gloss 'вид ивы', so split at 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир тал ширеңке одна спичка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир тал ширеңке</source>\n\t<target>одна спичка;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz; atom 4 'одна' is Russian ('one'), so the gloss begins at 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир тал чөп один стебелёк травы, одна травинка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир тал чөп</source>\n\t<target>один стебелёк травы, одна травинка;</target>\n</ex>",
+      "reason": "Atoms 1–3 are Kyrgyz; atom 4 'один' is Russian, beginning the gloss, so split at 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ээгинде беш тал сакалы бар у него на подбородке пять волосков (бороды);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ээгинде беш тал сакалы бар</source>\n\t<target>у него на подбородке пять волосков (бороды);</target>\n</ex>",
+      "reason": "First five atoms form Kyrgyz phrase; atom 6 'у' begins Russian clause ('у него ...'), so split at 6.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көк тал южн. селезёнка.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көк тал</source>\n\t<target>южн. селезёнка.</target>\n</ex>",
+      "reason": "Single Kyrgyz form 'көк тал' is followed by regional label 'южн.' which here begins the Russian gloss, so include 'южн' on the right.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тал төөндөй то же, что <wordLink word=\"талтөөндөй\"/> (см. <wordLink word=\"талтөөн\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тал төөндөй</source>\n\t<target>то же, что <wordLink word=\"талтөөндөй\"/> (см. <wordLink word=\"талтөөн\"/>).</target>\n</ex>",
+      "reason": "'то же, что ...' is Russian explanatory phrase; atoms 1–2 are Kyrgyz, so split at atom 3 'то'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тал түштө (см. <wordLink word=\"түш\" homonym=\"I\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тал түштө</source>\n\t<target>(см. <wordLink word=\"түш\" homonym=\"I\"/>).</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(см. ...)' begins at atom 3; per rules the opening '(' belongs to the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колум талды у меня рука онемела;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колум талды</source>\n\t<target>у меня рука онемела;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 'у' begins Russian clause 'у меня ...', so split at 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көзү талыйт у него глаза утомляются, слабеют;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көзү талыйт</source>\n\t<target>у него глаза утомляются, слабеют;</target>\n</ex>",
+      "reason": "First two atoms are Kyrgyz; atom 3 'у' is Russian ('у него глаза...'), so right side starts there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өлө-тала или өлгөн-талганда или өлдүм-талдым дегенде (см. <wordLink word=\"өл-\" homonym=\"II\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өлө-тала или өлгөн-талганда или өлдүм-талдым дегенде</source>\n\t<target>(см. <wordLink word=\"өл-\" homonym=\"II\"/>).</target>\n</ex>",
+      "reason": "Everything up to atom 12 is Kyrgyz; atom 13 '(' starts a Russian parenthetical ' (см. ...)', so the right side begins at the '('.",
+      "confidence": 0.95
+    }
+  ]
+}

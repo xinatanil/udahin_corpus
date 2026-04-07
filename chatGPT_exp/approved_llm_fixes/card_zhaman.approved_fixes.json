@@ -1,0 +1,111 @@
+{
+  "card_headword": "жаман",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_zhaman.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман ат (или жаманат) дурная репутация; посрамление;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман ат (или жаманат)</source>\n\t<target>дурная репутация; посрамление;</target>\n</ex>",
+      "reason": "Kyrgyz side is 'жаман ат (или жаманат)'; the first Russian gloss word is 'дурная' at atom 7.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман атта- (или жаманатта- или жаманатты кыл-) позорить, порочить;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман атта- (или жаманатта- или жаманатты кыл-)</source>\n\t<target>позорить, порочить;</target>\n</ex>",
+      "reason": "All Kyrgyz variants and parentheses end at atom 12; Russian gloss begins with 'позорить' at 13.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман аттуу (или жаманаттуу или жаманатты) опозоренный, посрамлённый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман аттуу (или жаманаттуу или жаманатты)</source>\n\t<target>опозоренный, посрамлённый;</target>\n</ex>",
+      "reason": "Kyrgyz variant chain ends with ')' at atom 8; Russian translation starts at atom 9 'опозоренный'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаманатты сөз порочащие разговоры;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаманатты сөз</source>\n\t<target>порочащие разговоры;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'жаманатты сөз'; Russian gloss begins with 'порочащие' at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман-жуман или жаман-маман плохенький, кое-какой;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман-жуман или жаман-маман</source>\n\t<target>плохенький, кое-какой;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives occupy atoms 1–7; Russian gloss starts at atom 8 'плохенький'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мингени жаман-жуман тай, кунан ездит он на плохеньких (жеребятах) годовичках или третьячках;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мингени жаман-жуман тай, кунан</source>\n\t<target>ездит он на плохеньких (жеребятах) годовичках или третьячках;</target>\n</ex>",
+      "reason": "Kyrgyz phrase appears in atoms 1–7; the first clearly Russian lexical verb is 'ездит' at atom 8, starting the gloss.",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мени жаман кылды он мне причинил неприятность, он меня осрамил;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мени жаман кылды</source>\n\t<target>он мне причинил неприятность, он меня осрамил;</target>\n</ex>",
+      "reason": "Kyrgyz clause is 'мени жаман кылды' (atoms 1–3); Russian translation begins with 'он' at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман чоң очень большой, непомерно большой;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман чоң</source>\n\t<target>очень большой, непомерно большой;</target>\n</ex>",
+      "reason": "Kyrgyz 'жаман чоң' are atoms 1–2; Russian gloss begins at atom 3 'очень'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман жакшы очень хороший;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман жакшы</source>\n\t<target>очень хороший;</target>\n</ex>",
+      "reason": "Kyrgyz 'жаман жакшы' is atoms 1–2; Russian gloss starts with 'очень' at 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ачуусу жаман очень сердитый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ачуусу жаман</source>\n\t<target>очень сердитый;</target>\n</ex>",
+      "reason": "Kyrgyz 'ачуусу жаман' occupies atoms 1–2; Russian gloss begins at atom 3 'очень'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир жаманым бар у меня есть один ребёнок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир жаманым бар</source>\n\t<target>у меня есть один ребёнок;</target>\n</ex>",
+      "reason": "Kyrgyz text is 'бир жаманым бар' (atoms 1–3); Russian translation begins with 'у' at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман жер, иногда жаман жай срамные части;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман жер, иногда жаман жай</source>\n\t<target>срамные части;</target>\n</ex>",
+      "reason": "Per guidance, 'иногда жаман жай' is an alternative Kyrgyz variant and stays on the left; Russian gloss begins at atom 7 'срамные'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман жай ошибочно вместо жамажай (см.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман жай</source>\n\t<target>ошибочно вместо жамажай (см.);</target>\n</ex>",
+      "reason": "Russian explanatory word 'ошибочно' begins at atom 3, so the gloss starts there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>\"жаман айтпай, жакшы жок\" деген; жаман-жакшы экөөнү тең эске ала жүруш керек всё может случиться; нужно всегда помнить о плохом и хорошем;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>\"жаман айтпай, жакшы жок\" деген; жаман-жакшы экөөнү тең эске ала жүруш керек</source>\n\t<target>всё может случиться; нужно всегда помнить о плохом и хорошем;</target>\n</ex>",
+      "reason": "The quoted Kyrgyz proverb and following Kyrgyz clause occupy atoms 1–18; the Russian explanatory gloss starts at atom 19 'всё'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман жакшы болду, узун кыска болду, этек жең болду присказка плохое хорошим стало, короткое длинным стало, подол рукавом стал.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман жакшы болду, узун кыска болду, этек жең болду</source>\n\t<target>присказка плохое хорошим стало, короткое длинным стало, подол рукавом стал.</target>\n</ex>",
+      "reason": "Kyrgyz proverb occupies atoms 1–11; the Russian meta label 'присказка' at atom 12 begins the right-side gloss/explanation.",
+      "confidence": 0.95
+    }
+  ]
+}

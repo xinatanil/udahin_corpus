@@ -1,0 +1,188 @@
+{
+  "card_headword": "сары",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_sary.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары боёк жёлтая краска;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары боёк</source>\n\t<target>жёлтая краска;</target>\n</ex>",
+      "reason": "Kyrgyz source is 'сары боёк'; Russian gloss 'жёлтая краска' begins at 'жёлтая'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жумуртканын сарысы желток яйца;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жумуртканын сарысы</source>\n\t<target>желток яйца;</target>\n</ex>",
+      "reason": "Left side is Kyrgyz 'жумуртканын сарысы'; Russian gloss begins at 'желток'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары ит рыжая или (в зависимости от густоты окраски) жёлтая собака;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары ит</source>\n\t<target>рыжая или (в зависимости от густоты окраски) жёлтая собака;</target>\n</ex>",
+      "reason": "Kyrgyz 'сары ит' is the source; Russian gloss 'рыжая или (в зависимости...) жёлтая собака' begins at 'рыжая'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кер сары (о лице) бледный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кер сары</source>\n\t<target>(о лице) бледный;</target>\n</ex>",
+      "reason": "The right side begins with a parenthetical Russian note '(о лице)'; per rules include the opening parenthesis as start of the right side.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күрөң сары цвета беж;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күрөң сары</source>\n\t<target>цвета беж;</target>\n</ex>",
+      "reason": "Kyrgyz 'күрөң сары' is the source; Russian gloss 'цвета беж' starts at 'цвета'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кызыл сары рыжий (о масти лошади или о рубашке собаки);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кызыл сары</source>\n\t<target>рыжий (о масти лошади или о рубашке собаки);</target>\n</ex>",
+      "reason": "Kyrgyz 'кызыл сары' is the source; Russian gloss 'рыжий (о масти...)' begins at 'рыжий'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ачык сары светло-рыжий;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ачык сары</source>\n\t<target>светло-рыжий;</target>\n</ex>",
+      "reason": "Russian gloss 'светло-рыжий' begins at 'светло' (hyphenated with 'рыжий').",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары башыл (или сарбашыл) желтоголовый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары башыл (или сарбашыл)</source>\n\t<target>желтоголовый;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives 'сары башыл (или сарбашыл)' are on the left; Russian gloss 'желтоголовый' begins after the closing parenthesis at atom 7.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары журт место, где раньше стоял аул (ровное и без травы);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары журт</source>\n\t<target>место, где раньше стоял аул (ровное и без травы);</target>\n</ex>",
+      "reason": "Kyrgyz 'сары журт' is the head; Russian explanatory gloss 'место, где раньше...' begins at 'место'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары короо место старого овечьего загона (ровное и без травы) в эпосе сары журт и сары короо обычно выбираются для игры в ордо; см. <wordLink word=\"ордо\" meaning=\"3\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары короо</source>\n\t<target>место старого овечьего загона (ровное и без травы) в эпосе сары журт и сары короо обычно выбираются для игры в ордо; см. <wordLink word=\"ордо\" meaning=\"3\"/>);</target>\n</ex>",
+      "reason": "Left is the Kyrgyz head 'сары короо'; the Russian gloss 'место старого овечьего загона...' starts at 'место'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары жол большая вьючная или скотопрогонная дорога (в отличие от кара жол колёсная дорога);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары жол</source>\n\t<target>большая вьючная или скотопрогонная дорога (в отличие от кара жол колёсная дорога);</target>\n</ex>",
+      "reason": "Kyrgyz head 'сары жол' is the source; Russian gloss 'большая вьючная...' begins at 'большая'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аксак сары атыңды ал- (или мин-) или сары атыңды ал- (или мин-) говоря так, один из друзей, поклявшихся ранее во взаимной дружбе, порывает с другой стороной узы дружбы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аксак сары атыңды ал- (или мин-) или сары атыңды ал- (или мин-)</source>\n\t<target>говоря так, один из друзей, поклявшихся ранее во взаимной дружбе, порывает с другой стороной узы дружбы;</target>\n</ex>",
+      "reason": "All preceding tokens are Kyrgyz idiom forms/alternatives; Russian explanatory clause begins with 'говоря так,...' at atom 21.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аксак сары ат мойнуңда у нас с тобой (по твоей вине) всё кончено;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аксак сары ат мойнуңда</source>\n\t<target>у нас с тобой (по твоей вине) всё кончено;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'аксак сары ат мойнуңда' ends before the Russian clause 'у нас с тобой (по твоей вине) всё кончено'; Russian begins at 'у'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кер сары (о лице) болезненно бледный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кер сары</source>\n\t<target>(о лице) болезненно бледный;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о лице)' begins the gloss; include the opening parenthesis as start of the right side.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кер сары аял женщина с бледным лицом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кер сары аял</source>\n\t<target>женщина с бледным лицом;</target>\n</ex>",
+      "reason": "Kyrgyz 'кер сары аял' is the source; Russian gloss 'женщина с бледным лицом' begins at 'женщина'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кер сары кесел желтуха;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кер сары кесел</source>\n\t<target>желтуха;</target>\n</ex>",
+      "reason": "Kyrgyz 'кер сары кесел' is the source phrase (кесел = disease); Russian gloss 'желтуха' begins at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары кыр то же, что <wordLink word=\"сарыгыр\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары кыр</source>\n\t<target>то же, что <wordLink word=\"сарыгыр\"/>;</target>\n</ex>",
+      "reason": "Pattern 'то же, что ...' marks the start of the Russian reference; per rules the right side begins at 'то'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары таман см. <wordLink word=\"таман\" homonym=\"I\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары таман</source>\n\t<target>см. <wordLink word=\"таман\" homonym=\"I\"/>;</target>\n</ex>",
+      "reason": "The bibliographic/reference marker 'см.' belongs to the right side; start at 'см'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары сойгок см. <wordLink word=\"сойгок\" meaning=\"1\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары сойгок</source>\n\t<target>см. <wordLink word=\"сойгок\" meaning=\"1\"/>;</target>\n</ex>",
+      "reason": "Same pattern: 'см.' begins the right-side reference.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары санаа см. <wordLink word=\"санаа\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары санаа</source>\n\t<target>см. <wordLink word=\"санаа\"/>;</target>\n</ex>",
+      "reason": "Same: reference marker 'см.' starts the right side.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары убайым см. <wordLink word=\"убайым\" homonym=\"I\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары убайым</source>\n\t<target>см. <wordLink word=\"убайым\" homonym=\"I\"/>;</target>\n</ex>",
+      "reason": "Same pattern: 'см.' begins the right-side reference.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары изине чөп сал- см. <wordLink word=\"чөп\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары изине чөп сал-</source>\n\t<target>см. <wordLink word=\"чөп\"/>;</target>\n</ex>",
+      "reason": "Kyrgyz verb with hyphen 'чөп сал-' ends the source; Russian reference 'см.' starts at atom 6.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары чийкил см. <wordLink word=\"чийкил\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары чийкил</source>\n\t<target>см. <wordLink word=\"чийкил\"/>.</target>\n</ex>",
+      "reason": "'см.' begins the right-side reference after the Kyrgyz head 'сары чийкил'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаман сары канюк-курганник, сарыч-курганник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаман сары</source>\n\t<target>канюк-курганник, сарыч-курганник;</target>\n</ex>",
+      "reason": "Kyrgyz head is 'жаман сары'; the following Russian lexicalization/start of gloss appears at 'канюк'.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ак сары (или аксары) канюк мохноногий;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ак сары (или аксары)</source>\n\t<target>канюк мохноногий;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives 'ак сары (или аксары)' are on the left; Russian gloss 'канюк мохноногий' begins at 'канюк'.",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кой сары то же, что <wordLink word=\"койсары\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кой сары</source>\n\t<target>то же, что <wordLink word=\"койсары\"/>.</target>\n</ex>",
+      "reason": "Pattern 'то же, что ...' indicates the right side starts at 'то'.",
+      "confidence": 0.98
+    }
+  ]
+}
