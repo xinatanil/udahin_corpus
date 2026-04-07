@@ -1,0 +1,265 @@
+{
+  "card_headword": "бер",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_ber.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бер кызындай мелтиреп фольк. красуясь, как пери.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бер кызындай мелтиреп</source>\n\t<target>фольк. красуясь, как пери.</target>\n</ex>",
+      "reason": "The Russian meta label 'фольк.' begins at atom 4, so the right side starts there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маа бер дай мне;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маа бер</source>\n\t<target>дай мне;</target>\n</ex>",
+      "reason": "Russian gloss 'дай мне' starts at atom 3 ('дай'), so split before it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эч кимге бербе никому не давай;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эч кимге бербе</source>\n\t<target>никому не давай;</target>\n</ex>",
+      "reason": "Russian translation begins at atom 4 ('никому'), left must end with Kyrgyz 'бербе'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тиги китепти маа алып бер подай мне ту книгу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тиги китепти маа алып бер</source>\n\t<target>подай мне ту книгу;</target>\n</ex>",
+      "reason": "Russian gloss 'подай мне...' starts at atom 6; keep Kyrgyz up to 'бер'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уулуңа тон алып бер купи для своего сына шубу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уулуңа тон алып бер</source>\n\t<target>купи для своего сына шубу;</target>\n</ex>",
+      "reason": "Russian imperative 'купи' begins the gloss at atom 5.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мына бу катты окуп бер прочитай-ка (для другого) вот это письмо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мына бу катты окуп бер</source>\n\t<target>прочитай-ка (для другого) вот это письмо;</target>\n</ex>",
+      "reason": "Russian gloss 'прочитай-ка...' begins at atom 6 ('прочитай').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыдып бер- сделать что-л. (для другого);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыдып бер-</source>\n\t<target>сделать что-л. (для другого);</target>\n</ex>",
+      "reason": "Form 'кыдып бер-' (including hyphen) is Kyrgyz; Russian gloss 'сделать' starts at atom 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>утуп бер- выиграть (для другого);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>утуп бер-</source>\n\t<target>выиграть (для другого);</target>\n</ex>",
+      "reason": "Hyphenated lemma ends at atom 3; Russian gloss 'выиграть' begins at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сатып бер- продать что-л. по чьему-л. поручению (и деньги отдать хозяину вещи);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сатып бер-</source>\n\t<target>продать что-л. по чьему-л. поручению (и деньги отдать хозяину вещи);</target>\n</ex>",
+      "reason": "Hyphenated Kyrgyz form 'сатып бер-' occupies atoms 1–3; Russian 'продать' starts at 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>суроосуна түшүнө бербей всё ещё продолжая не понимать вопроса;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>суроосуна түшүнө бербей</source>\n\t<target>всё ещё продолжая не понимать вопроса;</target>\n</ex>",
+      "reason": "Russian gloss begins at atom 4 ('всё ещё...'), so split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мен айткан жакка барып бер фольк. отправляйся туда, куда я сказал;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мен айткан жакка барып бер</source>\n\t<target>фольк. отправляйся туда, куда я сказал;</target>\n</ex>",
+      "reason": "Russian meta label 'фольк.' starts at atom 6; right side begins with that meta.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>деген сөзгө көнүп бер фольк. согласись с тем, что он скажет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>деген сөзгө көнүп бер</source>\n\t<target>фольк. согласись с тем, что он скажет;</target>\n</ex>",
+      "reason": "Russian meta 'фольк.' at atom 5 indicates start of the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>качып жүрүп берди он пустился удирать;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>качып жүрүп берди</source>\n\t<target>он пустился удирать;</target>\n</ex>",
+      "reason": "Russian translation begins at atom 4 ('он пустился...'), so split before it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чалдын сунушуна көнүп берди с предложением старика он полностью согласился;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чалдын сунушуна көнүп берди</source>\n\t<target>с предложением старика он полностью согласился;</target>\n</ex>",
+      "reason": "Russian gloss starts with preposition 'с' at atom 5 ('с предложением...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мына мен да келип бердим вот и я прибыл (сам собственной персоной);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мына мен да келип бердим</source>\n\t<target>вот и я прибыл (сам собственной персоной);</target>\n</ex>",
+      "reason": "Russian gloss begins at atom 6 ('вот и я прибыл...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өзүң калактай саныңды араң алып жүргөн абышка болсоң, басмачы өзү келип берсе да, колуңдан эмне келер эле? что можешь сделать ты, старик, едва таскающий свои сухопарые ляжки, если бы басмачи сами пришли (и сказали бы: \"вот мы, бери нас\") ?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өзүң калактай саныңды араң алып жүргөн абышка болсоң, басмачы өзү келип берсе да, колуңдан эмне келер эле?</source>\n\t<target>что можешь сделать ты, старик, едва таскающий свои сухопарые ляжки, если бы басмачи сами пришли (и сказали бы: \"вот мы, бери нас\")?</target>\n</ex>",
+      "reason": "Kyrgyz question ends at atom 20 ('?'); Russian explanatory clause begins at atom 21 ('что можешь...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>экөө биринен бири ашык же кем чыкса, мен сөзсүз жеңилип берейин если один из двух окажется больше или меньше, я признаю себя полностью побеждённым;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>экөө биринен бири ашык же кем чыкса, мен сөзсүз жеңилип берейин</source>\n\t<target>если один из двух окажется больше или меньше, я признаю себя полностью побеждённым;</target>\n</ex>",
+      "reason": "Russian clause begins at atom 13 ('если...'), so split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тушуп бер слезь, спустись вниз;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тушуп бер</source>\n\t<target>слезь, спустись вниз;</target>\n</ex>",
+      "reason": "Russian imperative 'слезь' starts at atom 3; left ends with Kyrgyz 'бер'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алар \"өлүп бер!\" дейт, - өлүп келдик, \"тирилип бер!\" дейт,- тирилип бердик мы безоговорочно согласились делать всё, что они прикажут (букв. говорят \"умри!\" - вот мы уже умерли, говорят \"воскресни!\" - вот мы уже воскресли);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алар \"өлүп бер!\" дейт, -өлүп келдик, \"тирилип бер!\" дейт, -тирилип бердик</source>\n\t<target>мы безоговорочно согласились делать всё, что они прикажут (букв. говорят \"умри!\" -вот мы уже умерли, говорят \"воскресни!\" -вот мы уже воскресли);</target>\n</ex>",
+      "reason": "Kyrgyz portion ends with 'бердик' (atom 22); Russian translation begins at atom 23 ('мы безоговорочно...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ала бер бери, не обращая внимания;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ала бер</source>\n\t<target>бери, не обращая внимания;</target>\n</ex>",
+      "reason": "Following the provided example, the ambiguous 'бери' (atom 3) is treated as the start of the Russian gloss.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бере берет дейсиңби? ты думаешь, он без конца давать будет?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бере берет дейсиңби?</source>\n\t<target>ты думаешь, он без конца давать будет?</target>\n</ex>",
+      "reason": "Kyrgyz question ends at atom 4 ('?'); Russian gloss begins at atom 5 ('ты думаешь...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айта бер говори, говори; продолжай говорить;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айта бер</source>\n\t<target>говори, говори; продолжай говорить;</target>\n</ex>",
+      "reason": "Russian gloss 'говори, говори' begins at atom 3; split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күндөн күнгө арыктай берди он худел с каждым днём;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күндөн күнгө арыктай берди</source>\n\t<target>он худел с каждым днём;</target>\n</ex>",
+      "reason": "Russian translation begins at atom 5 ('он худел...').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кире бер входи, входи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кире бер</source>\n\t<target>входи, входи;</target>\n</ex>",
+      "reason": "Russian gloss 'входи' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>силер эмес, менин да акылым көп жете бербейт не только вы, но даже и мой ум не всегда постигает (это);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>силер эмес, менин да акылым көп жете бербейт</source>\n\t<target>не только вы, но даже и мой ум не всегда постигает (это);</target>\n</ex>",
+      "reason": "Russian clause begins at atom 10 ('не только вы...'), so split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тигинин бул суроосуна түшүнө бербей продолжая не понимать этот его вопрос;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тигинин бул суроосуна түшүнө бербей</source>\n\t<target>продолжая не понимать этот его вопрос;</target>\n</ex>",
+      "reason": "Russian gerund 'продолжая' begins at atom 6; right side starts there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>короону имериле бергенибизде когда мы объезжали двор (минуя его);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>короону имериле бергенибизде</source>\n\t<target>когда мы объезжали двор (минуя его);</target>\n</ex>",
+      "reason": "Russian gloss 'когда мы объезжали двор...' begins at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>үй айлана бергенче пока обойдёшь вокруг дома;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>үй айлана бергенче</source>\n\t<target>пока обойдёшь вокруг дома;</target>\n</ex>",
+      "reason": "Russian 'пока обойдёшь...' at atom 4 starts the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жайкалат ак сакалы төшүн бербей белая борода лопатой закрыла всю его грудь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жайкалат ак сакалы төшүн бербей</source>\n\t<target>белая борода лопатой закрыла всю его грудь;</target>\n</ex>",
+      "reason": "Russian translation begins at atom 6 ('белая борода...'), so split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сонун гүлдөр тим эле бетти бербей жайнайт роскошные цветы красиво покрыли весь склон горы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сонун гүлдөр тим эле бетти бербей жайнайт</source>\n\t<target>роскошные цветы красиво покрыли весь склон горы;</target>\n</ex>",
+      "reason": "Russian gloss 'роскошные цветы...' starts at atom 8.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Абдылданын үйүнүн ичи-тышын бербеген эл народу полно и внутри дома Абдылды, и снаружи;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Абдылданын үйүнүн ичи-тышын бербеген эл</source>\n\t<target>народу полно и внутри дома Абдылды, и снаружи;</target>\n</ex>",
+      "reason": "Kyrgyz text runs through atom 7 ('эл'); Russian gloss begins at atom 8 ('народу полно...').",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кала берсе и даже хуже; и это бы ещё ничего, но...; и даже больше, а если и этого мало...; и того более (букв. а если будет оставаться);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кала берсе</source>\n\t<target>и даже хуже; и это бы ещё ничего, но...; и даже больше, а если и этого мало...; и того более (букв. а если будет оставаться);</target>\n</ex>",
+      "reason": "Russian sequence begins immediately at atom 3 ('и даже хуже...'), so split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өз билгенин бербеген неуступчивый, упрямый, не поддающийся уговорам;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өз билгенин бербеген</source>\n\t<target>неуступчивый, упрямый, не поддающийся уговорам;</target>\n</ex>",
+      "reason": "Russian gloss 'неуступчивый...' starts at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сенин колуңа өлуп беребейинби см. <wordLink word=\"эл-\" homonym=\"II\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сенин колуңа өлуп беребейинби</source>\n\t<target>см. <wordLink word=\"эл-\" homonym=\"II\"/>;</target>\n</ex>",
+      "reason": "The reference phrase 'см.' (atom 5) belongs to the right side (see rules).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жете бербейт см. <wordLink word=\"жет-\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жете бербейт</source>\n\t<target>см. <wordLink word=\"жет-\"/>;</target>\n</ex>",
+      "reason": "Reference 'см.' at atom 3 marks the start of the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>салам бер- см. <wordLink word=\"салам\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>салам бер-</source>\n\t<target>см. <wordLink word=\"салам\"/>.</target>\n</ex>",
+      "reason": "Pattern '...- см.' indicates the reference belongs to the right side; start at 'см' (atom 4).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>берип-берип калды он стукнул (сильно ударил) раз-два (ср. <wordLink word=\"берин-\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>берип-берип калды</source>\n\t<target>он стукнул (сильно ударил) раз-два (ср. <wordLink word=\"берин-\"/>).</target>\n</ex>",
+      "reason": "Russian gloss 'он стукнул...' begins at atom 5; split after Kyrgyz part.",
+      "confidence": 0.95
+    }
+  ]
+}

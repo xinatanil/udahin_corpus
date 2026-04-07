@@ -1,0 +1,139 @@
+{
+  "card_headword": "ашык",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_ashyk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашыгы менен с излишком, с избытком;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашыгы менен</source>\n\t<target>с излишком, с избытком;</target>\n</ex>",
+      "reason": "Russian gloss 'с излишком' begins at atom 3 ('с').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>планды ашыгы менен бүттү он перевыполнил план;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>планды ашыгы менен бүттү</source>\n\t<target>он перевыполнил план;</target>\n</ex>",
+      "reason": "Russian clause 'он перевыполнил план' begins at atom 5 ('он').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>беш метрден ашык больше пяти метров;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>беш метрден ашык</source>\n\t<target>больше пяти метров;</target>\n</ex>",
+      "reason": "Russian gloss 'больше пяти метров' begins at atom 4 ('больше').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык-кеми жок ни больше ни меньше; ровно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык-кеми жок</source>\n\t<target>ни больше ни меньше; ровно;</target>\n</ex>",
+      "reason": "Russian phrase 'ни больше ни меньше' begins at atom 5 ('ни').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык-кеми жок жүз сом ровно сто рублей;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык-кеми жок жүз сом</source>\n\t<target>ровно сто рублей;</target>\n</ex>",
+      "reason": "Russian gloss 'ровно сто рублей' begins at atom 7 ('ровно').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык-кеми жок жыйырма бнр жыл турду он жил ровно двадцать один год;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык-кеми жок жыйырма бнр жыл турду</source>\n\t<target>он жил ровно двадцать один год;</target>\n</ex>",
+      "reason": "Russian clause 'он жил ровно...' begins at atom 9 ('он').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык баш излишний, лишний;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык баш</source>\n\t<target>излишний, лишний;</target>\n</ex>",
+      "reason": "Russian gloss 'излишний, лишний' begins at atom 3 ('излишний').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык баш түйшүк лишние хлопоты.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык баш түйшүк</source>\n\t<target>лишние хлопоты.</target>\n</ex>",
+      "reason": "Russian gloss 'лишние хлопоты' begins at atom 4 ('лишние').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык жар возлюбленный, возлюбленная;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык жар</source>\n\t<target>возлюбленный, возлюбленная;</target>\n</ex>",
+      "reason": "Russian gloss 'возлюбленный, возлюбленная' begins at atom 3 ('возлюбленный').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашык атып ойногон балдар аман жатабы? фольк. здравствуют ли мальчики, забавляющиеся игрой в альчики?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашык атып ойногон балдар аман жатабы?</source>\n\t<target>фольк. здравствуют ли мальчики, забавляющиеся игрой в альчики?</target>\n</ex>",
+      "reason": "Meta label 'фольк.' marks start of Russian gloss/annotation at atom 8 ('фольк').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кызыл ашык или кызыл ашык томугу лодыжка, щиколотка (её выпуклость с внутренней стороны ноги);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кызыл ашык или кызыл ашык томугу</source>\n\t<target>лодыжка, щиколотка (её выпуклость с внутренней стороны ноги);</target>\n</ex>",
+      "reason": "First clearly Russian word 'лодыжка' begins at atom 7; keep preceding Kyrgyz items on the left.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көк ашык или ак ашык собака по второму году;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көк ашык или ак ашык</source>\n\t<target>собака по второму году;</target>\n</ex>",
+      "reason": "Russian gloss 'собака по второму году' begins at atom 6 ('собака').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кой ашык собака по третьему году;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кой ашык</source>\n\t<target>собака по третьему году;</target>\n</ex>",
+      "reason": "Russian gloss 'собака по третьему году' begins at atom 3 ('собака').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>куу ашык собака по четвёртому году;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>куу ашык</source>\n\t<target>собака по четвёртому году;</target>\n</ex>",
+      "reason": "Russian gloss 'собака по четвёртому году' begins at atom 3 ('собака').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>экинчи (үчүнчү) куу ашык собака по пятому (по шестому) году и т.д.;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>экинчи (үчүнчү) куу ашык</source>\n\t<target>собака по пятому (по шестому) году и т. д.;</target>\n</ex>",
+      "reason": "Russian gloss 'собака по пятому...' begins at atom 7 ('собака').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кумурскасын караса, куу ашык болгон тайгандай фольк. посмотреть на (тамошних) муравьёв, они (величиной) с взрослую борзую;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кумурскасын караса, куу ашык болгон тайгандай</source>\n\t<target>фольк. посмотреть на (тамошних) муравьёв, они (величиной) с взрослую борзую;</target>\n</ex>",
+      "reason": "Meta label 'фольк.' at atom 8 begins the Russian annotation/gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашыктай (о человеке) низкого роста и коренастый, крепыш;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашыктай</source>\n\t<target>(о человеке) низкого роста и коренастый, крепыш;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о человеке)' belongs to the right side; split before the parenthesis at atom 2. ",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алтымыш жаман бергиче, ашыктай жалгыз берсечи фольк. чем давать (мне) шестьдесят никудышных (сыновей), лучше дал бы (бог) одного крепыша.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алтымыш жаман бергиче, ашыктай жалгыз берсечи</source>\n\t<target>фольк. чем давать (мне) шестьдесят никудышных (сыновей), лучше дал бы (бог) одного крепыша.</target>\n</ex>",
+      "reason": "Meta label 'фольк.' at atom 8 starts the Russian gloss/annotation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашыкпа не торопись, не спеши;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашыкпа</source>\n\t<target>не торопись, не спеши;</target>\n</ex>",
+      "reason": "Russian gloss 'не торопись, не спеши' begins at atom 2 ('не').",
+      "confidence": 0.95
+    }
+  ]
+}

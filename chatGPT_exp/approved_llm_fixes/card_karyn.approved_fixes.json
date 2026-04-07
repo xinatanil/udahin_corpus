@@ -1,0 +1,104 @@
+{
+  "card_headword": "карын",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_karyn.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карды (иногда карыны) его живот, его брюхо, его желудок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карды</source>\n\t<target>(иногда карыны) его живот, его брюхо, его желудок;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(иногда ...)' and following Russian gloss start immediately after the Kyrgyz headword; split before the parenthesis.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кардым ток я сыт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кардым ток</source>\n\t<target>я сыт;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'кардым ток' is the left side; Russian gloss 'я сыт' begins at 'я'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кардым ач я голоден;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кардым ач</source>\n\t<target>я голоден;</target>\n</ex>",
+      "reason": "Kyrgyz 'кардым ач' on the left; Russian gloss 'я голоден' starts at 'я'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ач карын на голодный желудок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ач карын</source>\n\t<target>на голодный желудок;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'ач карын'; Russian gloss 'на голодный желудок' begins at 'на'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир карын май кутырь масла;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир карын май</source>\n\t<target>кутырь масла;</target>\n</ex>",
+      "reason": "Kyrgyz quantity phrase 'бир карын май' is left; Russian gloss 'кутырь масла' begins at 'кутырь'.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>козу карын май маленький кутырь масла;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>козу карын май</source>\n\t<target>маленький кутырь масла;</target>\n</ex>",
+      "reason": "Kyrgyz 'козу карын май' stays on the left; Russian gloss 'маленький кутырь масла' begins at 'маленький'.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дени-кардың сообу? как твоё здоровье?, здоров ли ты?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дени-кардың сообу?</source>\n\t<target>как твоё здоровье?, здоров ли ты?</target>\n</ex>",
+      "reason": "Kyrgyz question 'дени-кардың сообу?' is the left side (including the question mark); Russian gloss 'как твоё здоровье?' begins at 'как'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карындан чыккан бала родное (матери) дитя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карындан чыккан бала</source>\n\t<target>родное (матери) дитя;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'карындан чыккан бала' is left; Russian gloss 'родное (матери) дитя' starts at 'родное'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары карын бээ кобылица, имевшая трёх-четырёх жеребят;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары карын бээ</source>\n\t<target>кобылица, имевшая трёх-четырёх жеребят;</target>\n</ex>",
+      "reason": "Keep Kyrgyz 'сары карын бээ' on the left; Russian gloss 'кобылица, имевшая ...' begins at 'кобылица'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сары карын катын женщина, рожавшая два-три раза;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сары карын катын</source>\n\t<target>женщина, рожавшая два-три раза;</target>\n</ex>",
+      "reason": "Kyrgyz 'сары карын катын' is left; Russian gloss 'женщина, рожавшая ...' begins at 'женщина'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>төө карын небольшая впадина на склоне горы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>төө карын</source>\n\t<target>небольшая впадина на склоне горы;</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'төө карын'; Russian gloss 'небольшая впадина ...' starts at 'небольшая'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бите карын то же, что <wordLink word=\"битекарын\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бите карын</source>\n\t<target>то же, что <wordLink word=\"битекарын\"/>;</target>\n</ex>",
+      "reason": "Per rule, the phrase 'то же, что ...' (reference) belongs to the right side; split at 'то'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тогуз карын см. <wordLink word=\"тогуз\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тогуз карын</source>\n\t<target>см. <wordLink word=\"тогуз\"/>.</target>\n</ex>",
+      "reason": "Reference 'см. [[WL1|...]]' belongs to the right side; split at 'см'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир карын оодарылды поколение изменилось (от старого не осталось никого, народилось новое).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир карын оодарылды</source>\n\t<target>поколение изменилось (от старого не осталось никого, народилось новое).</target>\n</ex>",
+      "reason": "Kyrgyz expression 'бир карын оодарылды' is left; Russian gloss 'поколение изменилось ...' begins at 'поколение'.",
+      "confidence": 0.85
+    }
+  ]
+}
