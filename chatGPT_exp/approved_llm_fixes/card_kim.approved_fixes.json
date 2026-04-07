@@ -1,0 +1,174 @@
+{
+  "card_headword": "ким",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/card_kim.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимдер кто;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимдер</source>\n\t<target>кто;</target>\n</ex>",
+      "reason": "Single Kyrgyz word 'кимдер' is the left phrase; Russian gloss begins at token 2 ('кто;').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимиси или кими кто из них;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимиси или кими</source>\n\t<target>кто из них;</target>\n</ex>",
+      "reason": "Left contains the Kyrgyz variant sequence 'кимиси [или] кими' (tokens 1–3); Russian gloss begins at token 4 ('кто').",
+      "confidence": 0.8
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимиси келди: атасы бы, баласы бы? кто из них пришёл: отец или сын?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимиси келди: атасы бы, баласы бы?</source>\n\t<target>кто из них пришёл: отец или сын?</target>\n</ex>",
+      "reason": "Kyrgyz question phrase ends at token 6 ('кимиси келди: атасы бы, баласы бы?'); Russian translation starts at token 7 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимиси менен сүйлөштүң? с кем из них ты разговаривал?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимиси менен сүйлөштүң?</source>\n\t<target>с кем из них ты разговаривал?</target>\n</ex>",
+      "reason": "Kyrgyz clause 'кимиси менен сүйлөштүң?' occupies tokens 1–3; Russian begins at token 4 ('с').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимиси кимисин жеңди? кто из них кого победил?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимиси кимисин жеңди?</source>\n\t<target>кто из них кого победил?</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'кимиси кимисин жеңди?' is tokens 1–3; Russian gloss begins at token 4 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал кимиси болот? кем он ему приходится?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал кимиси болот?</source>\n\t<target>кем он ему приходится?</target>\n</ex>",
+      "reason": "Kyrgyz 'ал кимиси болот?' is tokens 1–3; Russian part starts at token 4 ('кем').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мен иниси эмей, кимиси? если я не его младший брат, так кто же я ему? (конечно же, младший брат);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мен иниси эмей, кимиси?</source>\n\t<target>если я не его младший брат, так кто же я ему? (конечно же, младший брат);</target>\n</ex>",
+      "reason": "Kyrgyz clause 'мен иниси эмей, кимиси?' is tokens 1–4; Russian explanation begins at token 5 ('если').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бул жерде биздин кимибиз бар? кто здесь есть из наших (родственников, сторонников и т.п.) ?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бул жерде биздин кимибиз бар?</source>\n\t<target>кто здесь есть из наших (родственников, сторонников и т.п.) ?</target>\n</ex>",
+      "reason": "Kyrgyz 'бул жерде биздин кимибиз бар?' spans tokens 1–5; Russian gloss begins at token 6 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күнөө кимисинле? на ком из них вина?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күнөө кимисинле?</source>\n\t<target>на ком из них вина?</target>\n</ex>",
+      "reason": "Kyrgyz 'күнөө кимисинле?' is tokens 1–2; Russian translation begins at token 3 ('на').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимиси болсо да кто бы из них ни был;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимиси болсо да</source>\n\t<target>кто бы из них ни был;</target>\n</ex>",
+      "reason": "Kyrgyz 'кимиси болсо да' occupies tokens 1–3; Russian gloss begins at token 4 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ким да болсо кто бы то ни был;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ким да болсо</source>\n\t<target>кто бы то ни был;</target>\n</ex>",
+      "reason": "Kyrgyz 'ким да болсо' is tokens 1–3; Russian translation begins at token 4 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ким да ким (или кимдеким или кимде-ким) всякий кто, кто-либо;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ким да ким (или кимдеким или кимде-ким)</source>\n\t<target>всякий кто, кто-либо;</target>\n</ex>",
+      "reason": "Left includes the Kyrgyz variants and parenthetical variants (tokens 1–7); Russian gloss begins at token 8 ('всякий').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимде-ким... болсо если кто-либо..., а если кто бы он ни был...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимде-ким... болсо</source>\n\t<target>если кто-либо..., а если кто бы он ни был...;</target>\n</ex>",
+      "reason": "Kyrgyz 'кимде-ким... болсо' is tokens 1–2; the Russian gloss begins at token 3 ('если').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимсинер? кто вы?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимсинер?</source>\n\t<target>кто вы?</target>\n</ex>",
+      "reason": "Single Kyrgyz form 'кимсинер?' is token 1; Russian gloss starts at token 2 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимибиздики? кому из нас принадлежит?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимибиздики?</source>\n\t<target>кому из нас принадлежит?</target>\n</ex>",
+      "reason": "Kyrgyz form 'кимибиздики?' is token 1; Russian translation begins at token 2 ('кому').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат кимибиздики? кому из нас принадлежит лошадь?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат кимибиздики?</source>\n\t<target>кому из нас принадлежит лошадь?</target>\n</ex>",
+      "reason": "Kyrgyz question 'ат кимибиздики?' spans tokens 1–2; Russian starts at token 3 ('кому').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ар кимибиз каждый из нас;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ар кимибиз</source>\n\t<target>каждый из нас;</target>\n</ex>",
+      "reason": "Kyrgyz 'ар кимибиз' is tokens 1–2; Russian gloss begins at token 3 ('каждый').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ар кимиңер каждый из вас;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ар кимиңер</source>\n\t<target>каждый из вас;</target>\n</ex>",
+      "reason": "Kyrgyz 'ар кимиңер' occupies tokens 1–2; Russian starts at token 3 ('каждый').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ар кимиси или ар кими каждый из них;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ар кимиси или ар кими</source>\n\t<target>каждый из них;</target>\n</ex>",
+      "reason": "Left contains Kyrgyz variants 'ар кимиси или ар кими' (tokens 1–5); Russian gloss begins at token 6 ('каждый').",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ким болбосун или ким болсо да или ким гана болбосун или ким гана болсо да кто бы ни...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ким болбосун или ким болсо да или ким гана болбосун или ким гана болсо да</source>\n\t<target>кто бы ни...;</target>\n</ex>",
+      "reason": "All Kyrgyz variant forms occupy tokens 1–15; Russian translation begins at token 16 ('кто').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимдир бирөө кто-то, некто;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимдир бирөө</source>\n\t<target>кто-то, некто;</target>\n</ex>",
+      "reason": "Kyrgyz 'кимдир бирөө' is tokens 1–2; Russian gloss begins at token 3 ('кто-то,').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>киндигиң бууган жериң ким? туулуп өскөн элиң ким? как называется то место, где тебе завязали пуповину? как называется тот народ, где ты родился и вырос?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>киндигиң бууган жериң ким? туулуп өскөн элиң ким?</source>\n\t<target>как называется то место, где тебе завязали пуповину? как называется тот народ, где ты родился и вырос?</target>\n</ex>",
+      "reason": "Two Kyrgyz questions occupy tokens 1–8 (ending at the second 'ким?'); Russian explanation starts at token 9 ('как').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кимге кандай кому как, дело вкуса;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кимге кандай</source>\n\t<target>кому как, дело вкуса;</target>\n</ex>",
+      "reason": "Kyrgyz 'кимге кандай' is tokens 1–2; Russian equivalent begins at token 3 ('кому').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ким көрдү кылын сделав шито-крыто; сделав что-л., когда нет свидетелей, чужого глаза.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ким көрдү кылын</source>\n\t<target>сделав шито-крыто; сделав что-л., когда нет свидетелей, чужого глаза.</target>\n</ex>",
+      "reason": "Kyrgyz 'ким көрдү кылын' is tokens 1–3; Russian gloss begins at token 4 ('сделав').",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "card_headword": "сүз-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_suz-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дагы эле мени кара теке сүзүп кетпегей эле как бы мне опять в беду не попасть (букв. как бы меня опять не забодал чёрный козёл);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дагы эле мени кара теке сүзүп кетпегей эле</source>\n\t<target>как бы мне опять в беду не попасть (букв. как бы меня опять не забодал чёрный козёл);</target>\n</ex>",
+      "reason": "Contains a Kyrgyz clause on the left and a Russian translation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ат теппей, бука сүзбөй жүрүп эле ни с того ни с сего (букв. ни лошадь не лягала, ни бык не бодал);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ат теппей, бука сүзбөй жүрүп эле</source>\n\t<target>ни с того ни с сего (букв. ни лошадь не лягала, ни бык не бодал);</target>\n</ex>",
+      "reason": "Kyrgyz phrase followed by a Russian explanatory translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кунажын көзүн сүзсө, бука жибин үзөт погов. тёлка (только) глазами поведёт, а бык (уж) верёвку рвёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кунажын көзүн сүзсө, бука жибин үзөт</source>\n\t<target>погов. тёлка (только) глазами поведёт, а бык (уж) верёвку рвёт;</target>\n</ex>",
+      "reason": "Contains a Kyrgyz proverb-like clause on the left and a Russian gloss/explanation on the right.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тил сүйлөбөй, титиреп, көзүн сүзүп сулк жатат не говорит, дрожит, лежит неподвижно, закатив глаза;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тил сүйлөбөй, титиреп, көзүн сүзүп сулк жатат</source>\n\t<target>не говорит, дрожит, лежит неподвижно, закатив глаза;</target>\n</ex>",
+      "reason": "Kyrgyz descriptive clause with Russian translation following.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бети менен жер сүзүп барып жыгылды он упал прямо лицом на землю;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бети менен жер сүзүп барып жыгылды</source>\n\t<target>он упал прямо лицом на земле;</target>\n</ex>",
+      "reason": "Clear Kyrgyz sentence followed by Russian translation.",
+      "confidence": 0.95
+    }
+  ]
+}

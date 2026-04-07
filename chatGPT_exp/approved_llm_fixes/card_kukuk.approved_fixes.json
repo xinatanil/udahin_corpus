@@ -1,0 +1,55 @@
+{
+  "card_headword": "күкүк",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_kukuk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүгү быякта \"зейнек\" деп, какшаса, зейнеги быякта \"күкүк\" деп, какшанып калган там күкүк горько плачет о зейнек, а тут зейнек горько плачет о күкүк;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүгү быякта \"зейнек\" деп, какшаса, зейнеги быякта \"күкүк\" деп, какшанып калган там күкүк</source>\n\t<target>горько плачет о зейнек, а тут зейнек горько плачет о күкүк;</target>\n</ex>",
+      "reason": "Token 14 ('горько') begins the Russian gloss; tokens 1–13 form the Kyrgyz left side.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүк менен зейнектей күйүттүү болуп горюя, как күкүк и зейнек;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүк менен зейнектей күйүттүү болуп</source>\n\t<target>горюя, как күкүк и зейнек;</target>\n</ex>",
+      "reason": "Token 6 ('горюя,') is Russian and should be right-side; tokens 1–5 are Kyrgyz.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүктүн үнүндөй таңшып турган кооз ырлар красивые песни, подобные мелодичному голосу кукушки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүктүн үнүндөй таңшып турган кооз ырлар</source>\n\t<target>красивые песни, подобные мелодичному голосу кукушки;</target>\n</ex>",
+      "reason": "Token 7 ('красивые') starts the Russian translation; tokens 1–6 are Kyrgyz.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүгүң жалгыз Топчубай күн тийбес сапар жол кеткен твой милый (сын) Толчубай отправился в путь, куда солнце не попадает (т.е. в могилу);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүгүң жалгыз Топчубай күн тийбес сапар жол кеткен</source>\n\t<target>твой милый (сын) Толчубай отправился в путь, куда солнце не попадает (т.е. в могилу);</target>\n</ex>",
+      "reason": "Token 9 ('твой') begins the Russian gloss (including parenthetical note); tokens 1–8 are Kyrgyz.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүк-булбул собир. певчие птицы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүк-булбул</source>\n\t<target>собир. певчие птицы;</target>\n</ex>",
+      "reason": "Tokens 1–2 ('күкүк-булбул собир.') are the Kyrgyz term plus meta; token 3 ('певчие') starts the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүктүн баласындай кылып асырап турат он воспитывает в холе и неге (напр. ребёнка).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүктүн баласындай кылып асырап турат</source>\n\t<target>он воспитывает в холе и неге (напр. ребёнка).</target>\n</ex>",
+      "reason": "Token 6 ('он') is a Russian pronoun and marks the start of the Russian gloss; tokens 1–5 are Kyrgyz.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күкүк болуп суу кирип жатат вода бурно прибывает.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күкүк болуп суу кирип жатат</source>\n\t<target>вода бурно прибывает.</target>\n</ex>",
+      "reason": "Token 6 ('вода') begins the Russian translation; tokens 1–5 are Kyrgyz.",
+      "confidence": 0.95
+    }
+  ]
+}

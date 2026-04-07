@@ -32,7 +32,7 @@
     },
     {
       "action": "replace_exact_xml",
-      "find_xml": "<blockquote>кулаалы, чөжөлөрдүн үстүндө айылып, тооруп жүрөт коршун выслеживает цыплят, кружась над ними;</blockquote>",
+      "find_xml": "<blockquote>кулаалы, чөжөлөрдүн үстүндө айланып, тооруп жүрөт коршун выслеживает цыплят, кружась над ними;</blockquote>",
       "replace_with_xml": "<ex>\n\t<source>кулаалы, чөжөлөрдүн үстүндө айланып, тооруп жүрөт</source>\n\t<target>коршун выслеживает цыплят, кружась над ними;</target>\n</ex>",
       "reason": "Kyrgyz description followed by a Russian gloss ('коршун выслеживает...').",
       "confidence": 0.95

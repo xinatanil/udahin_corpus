@@ -1,0 +1,62 @@
+{
+  "card_headword": "нуска",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/card_nuska.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ай нуска название вышивного орнамента в виде полумесяца;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ай нуска</source>\n\t<target>название вышивного орнамента в виде полумесяца;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'ай нуска' occupies the initial two tokens; Russian gloss starts at 'название'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сөзүндө нуска бар в его словах есть мудрость, в его словах есть то, что установлено ещё не нами;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сөзүндө нуска бар</source>\n\t<target>в его словах есть мудрость, в его словах есть то, что установлено ещё не нами;</target>\n</ex>",
+      "reason": "Kyrgyz clause 'сөзүндө нуска бар' is tokens 1–3; Russian gloss begins at token 4 ('в').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чалдын көркү - нускада красота старика в его мудрых поучениях;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чалдын көркү - нускада</source>\n\t<target>красота старика в его мудрых поучениях;</target>\n</ex>",
+      "reason": "Kyrgyz segment 'чалдын көркү - нускада' is tokens 1–4 (including dash); Russian gloss starts at token 5 ('красота').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>нуска сөз мудрое слово, мудрая речь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>нуска сөз</source>\n\t<target>мудрое слово, мудрая речь;</target>\n</ex>",
+      "reason": "Kyrgyz 'нуска сөз' is tokens 1–2; Russian gloss begins at token 3 ('мудрое').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшик ачылып, коноктор киргенде байбиче нуска көрсөттү: \"келгиле, кагылайындар\" когда открылась дверь и вошли гости, байбиче (см.) степенно пригласила: \"пожалуйте, милые\";</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшик ачылып, коноктор киргенде байбиче нуска көрсөттү: \"келгиле, кагылайындар\"</source>\n\t<target>когда открылась дверь и вошли гости, байбиче (см.) степенно пригласила: \"пожалуйте, милые\";</target>\n</ex>",
+      "reason": "Kyrgyz sentence including the quoted speech runs through token 9; Russian translation begins at token 10 ('когда').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>асыл нуска подлинник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>асыл нуска</source>\n\t<target>подлинник;</target>\n</ex>",
+      "reason": "Kyrgyz 'асыл нуска' is tokens 1–2; Russian gloss 'подлинник' is token 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>16000 нуска (тираж) 16000 экземпляров.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>16000 нуска</source>\n\t<target>(тираж) 16000 экземпляров.</target>\n</ex>",
+      "reason": "Initial '16000 нуска' (tokens 1–2) are the source; the parenthetical '(тираж)' and the Russian continuation belong to the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колу менен Ак-Бууранын капчыгайы тарапты нускады он рукой указал в сторону ущелья (реки) Ак-Буры.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колу менен Ак-Бууранын капчыгайы тарапты нускады</source>\n\t<target>он рукой указал в сторону ущелья (реки) Ак-Буры.</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at 'нускады' (token 6); Russian gloss begins at token 7 ('он'), and parenthetical '(реки)' is on the right.",
+      "confidence": 0.95
+    }
+  ]
+}
