@@ -1,0 +1,62 @@
+{
+  "card_headword": "сок",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_sok.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сок жаңгыз южн. один-одинёшенек, единственный.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сок жаңгыз</source>\n\t<target>южн. один-одинёшенек, единственный.</target>\n</ex>",
+      "reason": "Left side = Kyrgyz headword plus dialect label ('сок жаңгыз южн.'); Russian gloss begins with 'один'. Split before the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тамыры согот у него пульс бьётся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тамыры согот</source>\n\t<target>у него пульс бьётся;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'тамыры согот' occupies the first two atoms; Russian gloss begins with 'у'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ар кимдин ылайын жасап, шыбагын шыбап, тамын согот он у людей глину готовит, штукатурит, (глинобитные) постройки кладёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ар кимдин ылайын жасап, шыбагын шыбап, тамын согот</source>\n\t<target>он у людей глину готовит, штукатурит, (глинобитные) постройки кладёт;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at 'тамын согот' (atom 10); Russian translation starts at 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колго соккон пайпак чулки ручной работы (букв. вязаные на руках);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колго соккон пайпак</source>\n\t<target>чулки ручной работы (букв. вязаные на руках);</target>\n</ex>",
+      "reason": "Kyrgyz form is 'колго соккон пайпак' (first three atoms); the Russian equivalent 'чулки' follows.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колго соккон жүн жоолук шерстяной платок ручной работы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колго соккон жүн жоолук</source>\n\t<target>шерстяной платок ручной работы;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'колго соккон жүн жоолук' is atoms 1–4; Russian gloss begins with 'шерстяной'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мелүүн жел согот ожидается (букв. будет дуть) умеренный ветер;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мелүүн жел согот</source>\n\t<target>ожидается (букв. будет дуть) умеренный ветер;</target>\n</ex>",
+      "reason": "Kyrgyz 'мелүүн жел согот' is atoms 1–3; Russian 'ожидается' starts the gloss (atom 4). Parenthetical literal note belongs to right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кымтып соккондору мындай турсун көрүнө жок кылгандары да толуп жатат уж оставим то, что они урвали тайком, но и того, что они открыто забрали (букв. уничтожили), вполне достаточно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кымтып соккондору мындай турсун көрүнө жок кылгандары да толуп жатат</source>\n\t<target>уж оставим то, что они урвали тайком, но и того, что они открыто забрали (букв. уничтожили), вполне достаточно;</target>\n</ex>",
+      "reason": "Kyrgyz sentence runs through atom 10 ('...толуп жатат'); Russian rendering begins at atom 11 ('уж').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кудай төбөбүздөн сокподубу! ох, и осрамились же мы (букв. разве бог не стукнул нас по макушке) !</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кудай төбөбүздөн сокподубу!</source>\n\t<target>ох, и осрамились же мы (букв. разве бог не стукнул нас по макушке)!</target>\n</ex>",
+      "reason": "Kyrgyz exclamation 'кудай төбөбүздөн сокподубу !' occupies atoms 1–4 (including '!'); the Russian continuation starts at 'ох'.",
+      "confidence": 0.95
+    }
+  ]
+}

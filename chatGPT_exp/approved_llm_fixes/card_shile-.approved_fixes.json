@@ -1,0 +1,48 @@
+{
+  "card_headword": "шиле-",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_shile-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тебетейди чекеге шилеп коюп надвинув шапку на лоб;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тебетейди чекеге шилеп коюп</source>\n\t<target>надвинув шапку на лоб;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at 'коюп' (тебетейди чекеге шилеп коюп); Russian gloss 'надвинув шапку на лоб' begins after that.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ар жакка шилеп таштачы отодвинь-ка (всё это) подальше;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ар жакка шилеп таштачы</source>\n\t<target>отодвинь-ка (всё это) подальше;</target>\n</ex>",
+      "reason": "Kyrgyz imperative ends at 'таштачы' (ар жакка шилеп таштачы); Russian gloss 'отодвинь-ка (всё это) подальше' follows.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Сейит ысылаган көрүнөт, жуурканды шилей тээп, ачылып калган экен Сеиту, видимо, жарко, он ногой откинул одеяло и раскрылся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Сейит ысылаган көрүнөт, жуурканды шилей тээп, ачылып калган экен</source>\n\t<target>Сеиту, видимо, жарко, он ногой откинул одеяло и раскрылся;</target>\n</ex>",
+      "reason": "Likely boundary after 'тээп,' — initial Kyrgyz clause 'Сейит ... жуурканды шилей тээп,'; the remainder appears to be Russian explanatory gloss. Slight ambiguity around 'ачылып калган' so split chosen at the comma.",
+      "confidence": 0.65
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>акчаны шилеп эле алып атат он загребает деньги (много получает);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>акчаны шилеп эле алып атат</source>\n\t<target>он загребает деньги (много получает);</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'акчаны шилеп эле алып атат' ends at atom 5; Russian gloss 'он загребает деньги (много получает)' follows.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>каргап-шилеп разругав на все корки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>каргап-шилеп</source>\n\t<target>разругав на все корки;</target>\n</ex>",
+      "reason": "Compound 'каргап-шилеп' is the Kyrgyz left side and includes the hyphen as atom 2; Russian gloss 'разругав на все корки' follows.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>каргап-шилеп тилдеди он разругал и разбранил.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>каргап-шилеп тилдеди</source>\n\t<target>он разругал и разбранил.</target>\n</ex>",
+      "reason": "Kyrgyz clause 'каргап-шилеп тилдеди' occupies the first four atoms; the rest is Russian 'он разругал и разбранил.'",
+      "confidence": 0.95
+    }
+  ]
+}

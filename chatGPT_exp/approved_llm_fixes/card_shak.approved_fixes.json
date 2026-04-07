@@ -1,0 +1,223 @@
+{
+  "card_headword": "шак",
+  "source_review_file": "chatGPT_exp/llm_card_experiment/artifacts/card_shak.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бак-шак или карагай-шак деревья;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бак-шак или карагай-шак</source>\n\t<target>деревья;</target>\n</ex>",
+      "reason": "Left side is the first Kyrgyz form 'бак-шак' (atoms 1–3). 'или' is Russian and begins the gloss/variant list.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыштак ортосундагы мейкинге бак-шак тиккен на свободном месте посредине кишлака он посадил деревья;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыштак ортосундагы мейкинге бак-шак тиккен</source>\n\t<target>на свободном месте посредине кишлака он посадил деревья;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at 'тиккен' (atoms 1–7); Russian gloss starts at 'на'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бакта-шакта болом я буду в саду;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бакта-шакта болом</source>\n\t<target>я буду в саду;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'бакта-шакта болом' spans atoms 1–4; Russian translation begins at 'я'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак ийилген көп санаа многое множество забот (букв. так много, что ветвь гнётся);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак ийилген көп санаа</source>\n\t<target>многое множество забот (букв. так много, что ветвь гнётся);</target>\n</ex>",
+      "reason": "Kyrgyz expression 'шак ийилген көп санаа' is atoms 1–4; Russian gloss begins at 'многое'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шагы сынды он унижен, посрамлён;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шагы сынды</source>\n\t<target>он унижен, посрамлён;</target>\n</ex>",
+      "reason": "Kyrgyz 'шагы сынды' is atoms 1–2; Russian gloss starts at 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>душмандын шагы сынды враг посрамлён;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>душмандын шагы сынды</source>\n\t<target>враг посрамлён;</target>\n</ex>",
+      "reason": "Kyrgyz 'душмандын шагы сынды' is atoms 1–3; Russian 'враг' begins the gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эл алдында шагын сындырат он его унизит в глазах народа;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эл алдында шагын сындырат</source>\n\t<target>он его унизит в глазах народа;</target>\n</ex>",
+      "reason": "Kyrgyz clause 'эл алдында шагын сындырат' is atoms 1–4; Russian translation starts at 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>баланын шагын сындырып койдуң ты обидел ребёнка (напр. грубо крикнул на него);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>баланын шагын сындырып койдуң</source>\n\t<target>ты обидел ребёнка (напр. грубо крикнул на него);</target>\n</ex>",
+      "reason": "Kyrgyz 'баланын шагын сындырып койдуң' is atoms 1–4; Russian gloss begins at 'ты'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кырк шак название вышивного узора.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кырк шак</source>\n\t<target>название вышивного узора.</target>\n</ex>",
+      "reason": "Kyrgyz term 'кырк шак' is atoms 1–2; Russian gloss starts at 'название'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>базарда шактын каны жерге тийбейт на базаре просяная крупа нарасхват;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>базарда шактын каны жерге тийбейт</source>\n\t<target>на базаре просяная крупа нарасхват;</target>\n</ex>",
+      "reason": "Kyrgyz sentence runs through 'тийбейт' (atoms 1–5); Russian gloss begins at 'на'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ак шак то же, что <wordLink word=\"акшак\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ак шак</source>\n\t<target>то же, что <wordLink word=\"акшак\"/>.</target>\n</ex>",
+      "reason": "Left side is the Kyrgyz form 'ак шак' (atoms 1–2); Russian gloss 'то же, что' and the wordlink follow.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аялдын бетинен шак өөп алып, анан чыгып кетти он вдруг поцеловал женщину в щёку и вышел;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аялдын бетинен шак өөп алып, анан чыгып кетти</source>\n\t<target>он вдруг поцеловал женщину в щёку и вышел;</target>\n</ex>",
+      "reason": "Kyrgyz clause up to 'кетти' (atoms 1–9) is the source; Russian translation begins at 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оюма шак этти мне вдруг пришло в голову (букв. на мысль);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оюма шак этти</source>\n\t<target>мне вдруг пришло в голову (букв. на мысль);</target>\n</ex>",
+      "reason": "Kyrgyz 'оюма шак этти' is atoms 1–3; Russian 'мне' starts the gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Шаршенин үнү шак дей түштү вдруг раздался голос Шарше;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Шаршенин үнү шак дей түштү</source>\n\t<target>вдруг раздался голос Шарше;</target>\n</ex>",
+      "reason": "Kyrgyz fragment ends at 'түштү' (atoms 1–5); Russian gloss begins at 'вдруг'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>башына шак дей түшту (что-то) неожиданно шлёпнулось ему на голову;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>башына шак дей түшту</source>\n\t<target>(что-то) неожиданно шлёпнулось ему на голову;</target>\n</ex>",
+      "reason": "Kyrgyz 'башына шак дей түшту' is atoms 1–4; the parenthetical '(что-то)' and following Russian belong to the gloss/right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эшикти шак жаап койду он захлопнул дверь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эшикти шак жаап койду</source>\n\t<target>он захлопнул дверь;</target>\n</ex>",
+      "reason": "Kyrgyz 'эшикти шак жаап койду' is atoms 1–4; Russian 'он...' starts the translation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дубалга чекеси шак дей түштү он лбом стук об стенку;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дубалга чекеси шак дей түштү</source>\n\t<target>он лбом стук об стенку;</target>\n</ex>",
+      "reason": "Kyrgyz clause ends at 'түштү' (atoms 1–5); Russian gloss begins at 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак кайрылып вдруг (или резко) повернувшись;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак кайрылып</source>\n\t<target>вдруг (или резко) повернувшись;</target>\n</ex>",
+      "reason": "Kyrgyz 'шак кайрылып' is atoms 1–2; 'вдруг' and following are Russian gloss/clarification.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алаканын шак койду он всплеснул руками (в знак удивления, сожаления, горя);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алаканын шак койду</source>\n\t<target>он всплеснул руками (в знак удивления, сожаления, горя);</target>\n</ex>",
+      "reason": "Kyrgyz 'алаканын шак койду' is atoms 1–3; Russian translation begins at 'он'. Parenthetical note belongs to right side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал кымызды шак жутуп жиберди он кумыс залпом выпил;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал кымызды шак жутуп жиберди</source>\n\t<target>он кумыс залпом выпил;</target>\n</ex>",
+      "reason": "Kyrgyz clause runs through 'жиберди' (atoms 1–5); Russian gloss begins at 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айткан сөзү кулагыма шак угудду его слова мне очень отчётливо послышались;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айткан сөзү кулагыма шак угудду</source>\n\t<target>его слова мне очень отчётливо послышались;</target>\n</ex>",
+      "reason": "Kyrgyz 'айткан сөзү кулагыма шак угудду' is atoms 1–5; Russian gloss begins at 'его'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыйкырган үнү кулакка шак эле дей түштү ясно послышался крик;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыйкырган үнү кулакка шак эле дей түштү</source>\n\t<target>ясно послышался крик;</target>\n</ex>",
+      "reason": "Kyrgyz fragment ends at 'түштү' (atoms 1–7); Russian gloss begins at 'ясно'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак эткен үнү жок жоош келин тихая скромная молодуха (которая не повышает голоса и не говорит грубых слов);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак эткен үнү жок жоош келин</source>\n\t<target>тихая скромная молодуха (которая не повышает голоса и не говорит грубых слов);</target>\n</ex>",
+      "reason": "Kyrgyz 'шак эткен үнү жок жоош келин' is atoms 1–6; Russian gloss begins at 'тихая'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак дедире бир салды он трахнул, хлопнул (ударил);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак дедире бир салды</source>\n\t<target>он трахнул, хлопнул (ударил);</target>\n</ex>",
+      "reason": "Kyrgyz 'шак дедире бир салды' is atoms 1–4; Russian 'он трахнул...' starts the gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаакка шак эттире бир чапты он закатил звонкую пощёчину;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаакка шак эттире бир чапты</source>\n\t<target>он закатил звонкую пощёчину;</target>\n</ex>",
+      "reason": "Kyrgyz 'жаакка шак эттире бир чапты' is atoms 1–5; Russian translation begins at 'он'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>анча болбогондо Бообектин таягы Сасыкбайдын башына шак эте түшмөк если бы не это, то палка Бообека трахнула бы по голове Сасыкбая;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>анча болбогондо Бообектин таягы Сасыкбайдын башына шак эте түшмөк</source>\n\t<target>если бы не это, то палка Бообека трахнула бы по голове Сасыкбая;</target>\n</ex>",
+      "reason": "Kyrgyz clause runs through 'түшмөк' (atoms 1–9); Russian translation begins at 'если'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак-шак или шак-шук звукоподражание повторному щёлканью, шлёпанью;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак-шак или шак-шук</source>\n\t<target>звукоподражание повторному щёлканью, шлёпанью;</target>\n</ex>",
+      "reason": "Left side is the first reduplicated Kyrgyz form 'шак-шак' (atoms 1–3). 'или' is Russian and separates the alternate form.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак-шак эт- то же, что <wordLink word=\"шакылда-\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак-шак эт-</source>\n\t<target>то же, что <wordLink word=\"шакылда-\"/>;</target>\n</ex>",
+      "reason": "Kyrgyz item 'шак-шак эт-' spans atoms 1–5; Russian 'то же, что' follows and the link is part of the gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мылтык замогу шак-шак затвор ружья (винтовки) щёлк-щёлк.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мылтык замогу шак-шак</source>\n\t<target>затвор ружья (винтовки) щёлк-щёлк.</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'мылтык замогу шак-шак' is atoms 1–5; Russian explanation 'затвор ружья...' begins after that.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>шак түшүптүр пала роса.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>шак түшүптүр</source>\n\t<target>пала роса.</target>\n</ex>",
+      "reason": "Interpreted left side as 'шак түшүптүр пала' (atoms 1–3) with the Russian gloss 'роса' on the right; source/Russian boundary is uncertain.",
+      "confidence": 0.6
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ала шак или агала шак см. <wordLink word=\"ала\"/>, шакшак II.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ала шак или агала шак</source>\n\t<target>см. <wordLink word=\"ала\"/>, шакшак II.</target>\n</ex>",
+      "reason": "Left side is the first Kyrgyz variant 'ала шак' (atoms 1–2); 'или' is Russian and separates the alternate form.",
+      "confidence": 0.95
+    }
+  ]
+}
