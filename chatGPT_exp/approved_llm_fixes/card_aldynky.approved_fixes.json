@@ -1,0 +1,69 @@
+{
+  "card_headword": "алдынкы",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_aldynky.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдынкы кишилер передовые люди;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдынкы кишилер</source>\n\t<target>передовые люди;</target>\n</ex>",
+      "reason": "First two atoms are Kyrgyz; atom 3 is the Russian gloss start.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдынкы отряд передовой отряд;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдынкы отряд</source>\n\t<target>передовой отряд;</target>\n</ex>",
+      "reason": "Atoms 1–2 form the Kyrgyz expression; atom 3 begins the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдынкы катардагы советтик илим передовая советская наука;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдынкы катардагы советтик илим</source>\n\t<target>передовая советская наука;</target>\n</ex>",
+      "reason": "Atoms 1–4 are Kyrgyz phrase ('алдынкы катардагы советтик илим'); atom 5 begins the Russian gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мелдештин алдынкылары передовики соревнования;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мелдештин алдынкылары</source>\n\t<target>передовики соревнования;</target>\n</ex>",
+      "reason": "First two atoms are Kyrgyz; atom 3 is Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айыл чарбасынын алдынкылары передовики сельского хозяйства;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айыл чарбасынын алдынкылары</source>\n\t<target>передовики сельского хозяйства;</target>\n</ex>",
+      "reason": "Atoms 1–3 form the Kyrgyz noun phrase; atom 4 starts the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдынкылардын тажрыйбалары опыт передовиков;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдынкылардын тажрыйбалары</source>\n\t<target>опыт передовиков;</target>\n</ex>",
+      "reason": "First two atoms are Kyrgyz; atom 3 is the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдынкы сыныптагы балдар ученики старшего класса;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдынкы сыныптагы балдар</source>\n\t<target>ученики старшего класса;</target>\n</ex>",
+      "reason": "Atoms 1–3 are the Kyrgyz phrase; atom 4 begins the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>...шайлоолордун алдынкы күнүндө в день, предшествующий выборам, накануне выборов;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>... шайлоолордун алдынкы күнүндө</source>\n\t<target>в день, предшествующий выборам, накануне выборов;</target>\n</ex>",
+      "reason": "Atoms 1–6 are Kyrgyz (including ellipsis and phrase); atom 7 ('в') starts the Russian explanatory gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдынкы катмар нижний пласт, нижний слой.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдынкы катмар</source>\n\t<target>нижний пласт, нижний слой.</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz; atom 3 begins the Russian gloss.",
+      "confidence": 0.95
+    }
+  ]
+}

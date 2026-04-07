@@ -1,0 +1,62 @@
+{
+  "card_headword": "тыйын",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_tyyyn.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>беш тыйын пять копеек;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>беш тыйын</source>\n\t<target>пять копеек;</target>\n</ex>",
+      "reason": "Left contains Kyrgyz phrase 'беш тыйын'; Russian gloss 'пять' starts at atom 3.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыйын или жез тыйын медная монета; медные деньги;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыйын или жез тыйын</source>\n\t<target>медная монета; медные деньги;</target>\n</ex>",
+      "reason": "Kyrgyz alternatives 'тыйын или жез тыйын' on the left; Russian gloss 'медная' begins at atom 5.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыйының барбы? у тебя деньги есть?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыйының барбы?</source>\n\t<target>у тебя деньги есть?</target>\n</ex>",
+      "reason": "Left is the Kyrgyz question 'тыйының барбы ?'; Russian translation begins with 'у' at atom 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыйын-тыпыр или тыйын-тыбыр или тыйын-теңге деньги, деньжонки, деньжата;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыйын-тыпыр или тыйын-тыбыр или тыйын-теңге</source>\n\t<target>деньги, деньжонки, деньжата;</target>\n</ex>",
+      "reason": "Left contains Kyrgyz alternatives up through 'тыйын-теңге'; Russian gloss 'деньги' starts at atom 12.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыйын-тыпырың барбы? у него деньжонки (сколько-нибудь денег) есть?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыйын-тыпырың барбы?</source>\n\t<target>у него деньжонки (сколько-нибудь денег) есть?</target>\n</ex>",
+      "reason": "Left is Kyrgyz 'тыйын-тыпырың барбы ?'; Russian gloss begins with 'у' at atom 6.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тыйын-теңгеден өксүтпөйм в деньгах я нуждаться не дам;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тыйын-теңгеден өксүтпөйм</source>\n\t<target>в деньгах я нуждаться не дам;</target>\n</ex>",
+      "reason": "Kyrgyz clause 'тыйын-теңгеден өксүтпөйм' ends at atom 4; Russian gloss 'в' starts at atom 5.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сокур тыйынга да кереги жок ломаного гроша за него не дам;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сокур тыйынга да кереги жок</source>\n\t<target>ломаного гроша за него не дам;</target>\n</ex>",
+      "reason": "Kyrgyz part 'сокур тыйынга да кереги жок' ends at atom 5; Russian gloss 'ломаного' begins at atom 6.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сокур тыйынга арзыбайт ломаного гроша не стоит;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сокур тыйынга арзыбайт</source>\n\t<target>ломаного гроша не стоит;</target>\n</ex>",
+      "reason": "Kyrgyz 'сокур тыйынга арзыбайт' ends at atom 3; Russian gloss 'ломаного' starts at atom 4.",
+      "confidence": 0.95
+    }
+  ]
+}

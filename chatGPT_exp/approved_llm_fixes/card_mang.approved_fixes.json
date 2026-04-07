@@ -1,0 +1,62 @@
+{
+  "card_headword": "маң",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_mang.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маң тарткандай кейбиреп, мас болгондой кеңгиреп фольк. он мелет что-то, будто накурившись гашиша; он городит что-то, будто пьяный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маң тарткандай кейбиреп, мас болгондой кеңгиреп</source>\n\t<target>фольк. он мелет что-то, будто накурившись гашиша; он городит что-то, будто пьяный;</target>\n</ex>",
+      "reason": "Atom 8 'фольк' is a Russian meta label; the Kyrgyz phrase ends at atom 7.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маң баш непонятливый, бестолковый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маң баш</source>\n\t<target>непонятливый, бестолковый;</target>\n</ex>",
+      "reason": "Atom 3 is the first Russian gloss word; keep 'маң баш' (Kyrgyz) on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>башым маң болду я опешил, я растерялся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>башым маң болду</source>\n\t<target>я опешил, я растерялся;</target>\n</ex>",
+      "reason": "Atom 4 'я' begins the Russian translation; left side ends with Kyrgyz 'болду'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маны жапыс или маңы бас забитый, запуганный, нерешительный.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маны жапыс или маңы бас</source>\n\t<target>забитый, запуганный, нерешительный.</target>\n</ex>",
+      "reason": "Atom 6 'забитый' is the Russian gloss; keep the Kyrgyz alternatives and 'бас' on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маң-маң бас- ступать медленно и размеренно (напр. о верблюде).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маң-маң бас-</source>\n\t<target>ступать медленно и размеренно (напр. о верблюде).</target>\n</ex>",
+      "reason": "Atom 6 'ступать' is the Russian gloss; include the hyphen (atom 5) with the Kyrgyz left side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эки чүкөнүн маңы южн. промежуток между двумя поставленными на кон альчиками (при игре в ордо, см. <wordLink word=\"ордо\" meaning=\"3\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эки чүкөнүн маңы</source>\n\t<target>южн. промежуток между двумя поставленными на кон альчиками (при игре в ордо, см. <wordLink word=\"ордо\" meaning=\"3\"/>).</target>\n</ex>",
+      "reason": "Atom 4 'южн' is a Russian meta label ('южн.') and therefore starts the right side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кайда маңдың? куда идёшь?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кайда маңдың?</source>\n\t<target>куда идёшь?</target>\n</ex>",
+      "reason": "Atom 4 'куда' is the Russian translation; the Kyrgyz sentence (including '?') stays left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маңалы идёмте.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маңалы</source>\n\t<target>идёмте.</target>\n</ex>",
+      "reason": "Atom 2 'идёмте' is Russian; keep the Kyrgyz word 'маңалы' on the left.",
+      "confidence": 0.95
+    }
+  ]
+}

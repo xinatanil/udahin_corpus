@@ -1,0 +1,62 @@
+{
+  "card_headword": "көгөр",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_kogor.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>нан көгөрүп калды хлеб позеленел (покрылся плесенью);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>нан көгөрүп калды</source>\n\t<target>хлеб позеленел (покрылся плесенью);</target>\n</ex>",
+      "reason": "First Russian word 'хлеб' begins the gloss here.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ок тийген жердин айланасы көгөрүп калган вокруг того места, куда (в тело) попала пуля, посинело;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ок тийген жердин айланасы көгөрүп калган</source>\n\t<target>вокруг того места, куда (в тело) попала пуля, посинело;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'вокруг'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жаан жаап эгин көгөрдү прошёл дождь, и посевы пошли в рост;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жаан жаап эгин көгөрдү</source>\n\t<target>прошёл дождь, и посевы пошли в рост;</target>\n</ex>",
+      "reason": "Russian gloss starts at 'прошёл'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>узарба! көгөрбө, какмар! чтоб тебе не видеть добра, замазуля!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>узарба! көгөрбө, какмар!</source>\n\t<target>чтоб тебе не видеть добра, замазуля!;</target>\n</ex>",
+      "reason": "Russian explanatory phrase begins with 'чтоб'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көгөрө турган жигит парень, из которого выйдет толк;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көгөрө турган жигит</source>\n\t<target>парень, из которого выйдет толк;</target>\n</ex>",
+      "reason": "Right-side Russian gloss begins at 'парень'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>агарып-көгөр- см. <wordLink word=\"агар-\" homonym=\"II\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>агарып-көгөр-</source>\n\t<target>см. <wordLink word=\"агар-\" homonym=\"II\"/>.</target>\n</ex>",
+      "reason": "Reference phrase 'см.' begins the right side (Russian meta).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>о, көгөргөн! или о, көгөргөн көк! ух ты, упрямец!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>о, көгөргөн! или о, көгөргөн көк!</source>\n\t<target>ух ты, упрямец!;</target>\n</ex>",
+      "reason": "Russian gloss/exclamation starts at 'ух' ('ух ты, упрямец').",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көгөрүп-татарып см. <wordLink word=\"татар-\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көгөрүп-татарып</source>\n\t<target>см. <wordLink word=\"татар-\"/>.</target>\n</ex>",
+      "reason": "Reference marker 'см' begins the Russian/right side.",
+      "confidence": 0.95
+    }
+  ]
+}

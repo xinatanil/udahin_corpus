@@ -1,0 +1,69 @@
+{
+  "card_headword": "жылт",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_zhylt.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жылт коюп, жок болду он ускользнул, улизнул, смылся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жылт коюп, жок болду</source>\n\t<target>он ускользнул, улизнул, смылся;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'он' (atom 6); keep Kyrgyz phrase on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күн, жылт коюп, уясына кирди солнце, сверкнув, закатилось;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күн, жылт коюп, уясына кирди</source>\n\t<target>солнце, сверкнув, закатилось;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'солнце' (atom 8); split before the Russian gloss.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>караңгыда от жылт этти в темноте блеснул огонь;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>караңгыда от жылт этти</source>\n\t<target>в темноте блеснул огонь;</target>\n</ex>",
+      "reason": "Russian translation/meta starts with the preposition 'в' (atom 5); left retained Kyrgyz only.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>от жылт эте түштү блеснул, мелькнул огонёк;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>от жылт эте түштү</source>\n\t<target>блеснул, мелькнул огонёк;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'блеснул' (atom 5); split there to keep Kyrgyz on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жылт этип, күлүп койду он вдруг усмехнулся;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жылт этип, күлүп койду</source>\n\t<target>он вдруг усмехнулся;</target>\n</ex>",
+      "reason": "Russian gloss starts at 'он' (atom 6); place boundary before it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>суу бойлой жылт-жылт жанган оттор огни, поблёскивающие по берегу реки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>суу бойлой жылт-жылт жанган оттор</source>\n\t<target>огни, поблёскивающие по берегу реки;</target>\n</ex>",
+      "reason": "Russian glossing begins with 'огни' (atom 8) corresponding to the Kyrgyz noun; split there.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жылдыздай жылт-жулт этет поблёскивает, как звезда;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жылдыздай жылт-жулт этет</source>\n\t<target>поблёскивает, как звезда;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'поблёскивает' (atom 6); keep Kyrgyz phrase left of it.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дагы бир түн кетти, жылт агып ещё одна ночь ушла незаметно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дагы бир түн кетти, жылт агып</source>\n\t<target>ещё одна ночь ушла незаметно;</target>\n</ex>",
+      "reason": "Russian gloss starts with 'ещё' (atom 8); split there so left side remains Kyrgyz.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жылт этме разг. шутл. керосин.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жылт этме</source>\n\t<target>разг. шутл. керосин.</target>\n</ex>",
+      "reason": "Meta label 'разг.' begins the right-side metadata/gloss (atom 3); split before it.",
+      "confidence": 0.95
+    }
+  ]
+}

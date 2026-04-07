@@ -1,0 +1,139 @@
+{
+  "card_headword": "бүт",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_but.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>акчаңды бүт бердим я твои деньги отдал сполна;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>акчаңды бүт бердим</source>\n\t<target>я твои деньги отдал сполна;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'я' (atom 4). Left keeps Kyrgyz phrase 'акчаңды бүт бердим'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бүт бойдон целиком, полностью; совершенно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бүт бойдон</source>\n\t<target>целиком, полностью; совершенно;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'целиком' (atom 3). Left = Kyrgyz 'бүт бойдон'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бүт жана толук бойдон целиком и полностью.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бүт жана толук бойдон</source>\n\t<target>целиком и полностью.</target>\n</ex>",
+      "reason": "Russian gloss begins with 'целиком' (atom 5). Left retains Kyrgyz 'бүт жана толук бойдон'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ишиңди эртерээк бүт кончай своё дело пораньше;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ишиңди эртерээк бүт</source>\n\t<target>кончай своё дело пораньше;</target>\n</ex>",
+      "reason": "Russian imperative 'кончай' (atom 4) starts the gloss. Left = Kyrgyz clause.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мен быйыл онунчу классты бүттүм в этом году я кончил десятый класс;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мен быйыл онунчу классты бүттүм</source>\n\t<target>в этом году я кончил десятый класс;</target>\n</ex>",
+      "reason": "Russian translation begins at 'в' (atom 6). Left = Kyrgyz sentence up to 'бүттүм'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ишим бүттү моя работа закончилась;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ишим бүттү</source>\n\t<target>моя работа закончилась;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'моя' (atom 3). Left = 'ишим бүттү'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>окуу качан бүтөт? когда кончится учёба?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>окуу качан бүтөт?</source>\n\t<target>когда кончится учёба?</target>\n</ex>",
+      "reason": "Russian question 'когда' (atom 5) begins the gloss; the preceding '?' belongs to the Kyrgyz question.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өзү бүтөт самотёк (букв. само закончится);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өзү бүтөт</source>\n\t<target>самотёк (букв. само закончится);</target>\n</ex>",
+      "reason": "Russian gloss word 'самотёк' (atom 3) starts the translation. Left = 'өзү бүтөт'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>атка жал бүттү у коня выросла грива;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>атка жал бүттү</source>\n\t<target>у коня выросла грива;</target>\n</ex>",
+      "reason": "Russian gloss begins with preposition 'у' (atom 4). Left keeps Kyrgyz 'атка жал бүттү'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>боюна бүттү она зачала, забеременела;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>боюна бүттү</source>\n\t<target>она зачала, забеременела;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'она' (atom 3). Left = 'боюна бүттү'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>катасынан бүткөн он зародился от блуда (с таким-то);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>катасынан бүткөн</source>\n\t<target>он зародился от блуда (с таким-то);</target>\n</ex>",
+      "reason": "Russian gloss begins with pronoun 'он' (atom 3). Left retains Kyrgyz 'катасынан бүткөн'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Медетбек Таласка бүткөн Медетбек родился в Таласе;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Медетбек Таласка бүткөн</source>\n\t<target>Медетбек родился в Таласе;</target>\n</ex>",
+      "reason": "Russian gloss begins with the repeated proper name 'Медетбек' (atom 4); treat this capitalized name as start of Russian gloss. Left ends at Kyrgyz 'бүткөн'.",
+      "confidence": 0.85
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жер бүткөндөн с начала мира (вселенной);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жер бүткөндөн</source>\n\t<target>с начала мира (вселенной);</target>\n</ex>",
+      "reason": "Russian preposition 'с' (atom 3) begins the gloss. Left = 'жер бүткөндөн'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жарасы бүтө элек у него рана ещё не зажила;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жарасы бүтө элек</source>\n\t<target>у него рана ещё не зажила;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'у' (atom 4). Left remains Kyrgyz 'жарасы бүтө элек'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ашуулардын баары бүтүп калды все горные перевалы закрылись (завалены снегом);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ашуулардын баары бүтүп калды</source>\n\t<target>все горные перевалы закрылись (завалены снегом);</target>\n</ex>",
+      "reason": "Russian translation begins with 'все' (atom 5). Left = Kyrgyz clause up to 'калды'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бүттү! кончено! (больше не повторится или чтобы больше не повторялось или к этому возвращаться не будем);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бүттү!</source>\n\t<target>кончено! (больше не повторится или чтобы больше не повторялось или к этому возвращаться не будем);</target>\n</ex>",
+      "reason": "After Kyrgyz 'бүттү' and its '!' (atom 2), Russian gloss starts at 'кончено' (atom 3).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сөз бүттү! сказано - сделано!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сөз бүттү!</source>\n\t<target>сказано-сделано!;</target>\n</ex>",
+      "reason": "Kyrgyz proverb 'сөз бүттү' (with '!') ends at atom 3; Russian gloss begins at 'сказано' (atom 4).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бүтөөр-бүткүчө до полного окончания;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бүтөөр-бүткүчө</source>\n\t<target>до полного окончания;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'до' (atom 4). Left keeps the Kyrgyz compound 'бүтөөр-бүткүчө'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>газетаны окуп бүтөөр-бүткүчө (до тех пор) пока (не) кончил читать газету.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>газетаны окуп бүтөөр-бүткүчө</source>\n\t<target>(до тех пор) пока (не) кончил читать газету.</target>\n</ex>",
+      "reason": "Parenthetical Russian gloss begins at the '(' (atom 6); start the right side at this parenthesis which introduces the Russian translation. Left = Kyrgyz phrase up to 'бүткүчө'.",
+      "confidence": 0.85
+    }
+  ]
+}
