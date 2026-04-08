@@ -1,0 +1,312 @@
+{
+  "entries": [
+    {
+      "id": "ili_bad_01",
+      "original_source": "<source>кара балта или</source>",
+      "original_target": "<target>южн. кыргыз балта топор кустарного производства, род колуна;</target>",
+      "fixed_source": "<source>кара балта или южн. кыргыз балта</source>",
+      "fixed_target": "<target>топор кустарного производства, род колуна;</target>"
+    },
+    {
+      "id": "ili_bad_02",
+      "original_source": "<source>баш-аягы или</source>",
+      "original_target": "<target>груб. башы-көтү шиворот-навыворот;</target>",
+      "fixed_source": "<source>баш-аягы или груб. башы-көтү</source>",
+      "fixed_target": "<target>шиворот-навыворот;</target>"
+    },
+    {
+      "id": "ili_bad_03",
+      "original_source": "<source>бешик термет или</source>",
+      "original_target": "<target>южн. бешик тербет (букв. качай люльку) то же, что <wordLink word=\"жаачы\" meaning=\"2\"/>;</target>",
+      "fixed_source": "<source>бешик термет или южн. бешик тербет (букв. качай люльку)</source>",
+      "fixed_target": "<target>то же, что <wordLink word=\"жаачы\" meaning=\"2\"/>;</target>"
+    },
+    {
+      "id": "ili_bad_04",
+      "original_source": "<source>даарат жаңырт- или даарат сындыр- или</source>",
+      "original_target": "<target>южн. даарат ушат- отправлять естественные надобности.</target>",
+      "fixed_source": "<source>даарат жаңырт- или даарат сындыр- или южн. даарат ушат-</source>",
+      "fixed_target": "<target>отправлять естественные надобности.</target>"
+    },
+    {
+      "id": "ili_bad_05",
+      "original_source": "<source>бул дүнүйө или</source>",
+      "original_target": "<target>груб. бок дүнүйө или дүйнө бок (дерьмо мир) или беш күндүк дүнүйө (пятидневный мир) или жалган дүнүйө (ложный мир) этот мир (в отличие от загробного);</target>",
+      "fixed_source": "<source>бул дүнүйө или груб. бок дүнүйө или дүйнө бок (дерьмо мир) или беш күндүк дүнүйө (пятидневный мир) или жалган дүнүйө (ложный мир)</source>",
+      "fixed_target": "<target>этот мир (в отличие от загробного);</target>"
+    },
+    {
+      "id": "ili_bad_06",
+      "original_source": "<source>жады куурай или</source>",
+      "original_target": "<target>южн. жады кайсар название травы.</target>",
+      "fixed_source": "<source>жады куурай или южн. жады кайсар</source>",
+      "fixed_target": "<target>название травы.</target>"
+    },
+    {
+      "id": "ili_bad_07",
+      "original_source": "<source>жашка чык- или</source>",
+      "original_target": "<target>южн. жашка кир- достичь какого-л. возраста;</target>",
+      "fixed_source": "<source>жашка чык- или южн. жашка кир-</source>",
+      "fixed_target": "<target>достичь какого-л. возраста;</target>"
+    },
+    {
+      "id": "ili_bad_08",
+      "original_source": "<source>суу жүрөк или</source>",
+      "original_target": "<target>груб. бок жүрөк трус;</target>",
+      "fixed_source": "<source>суу жүрөк или груб. бок жүрөк</source>",
+      "fixed_target": "<target>трус;</target>"
+    },
+    {
+      "id": "ili_bad_09",
+      "original_source": "<source>ит мурун или</source>",
+      "original_target": "<target>южн. ит мурут шиповник;</target>",
+      "fixed_source": "<source>ит мурун или южн. ит мурут</source>",
+      "fixed_target": "<target>шиповник;</target>"
+    },
+    {
+      "id": "ili_bad_10",
+      "original_source": "<source>жатып ичер или</source>",
+      "original_target": "<target>груб. ичип чычар дармоед;</target>",
+      "fixed_source": "<source>жатып ичер или груб. ичип чычар</source>",
+      "fixed_target": "<target>дармоед;</target>"
+    },
+    {
+      "id": "ili_bad_11",
+      "original_source": "<source>каза бол- или каза тап- или</source>",
+      "original_target": "<target>южн. каза кыл скончаться;</target>",
+      "fixed_source": "<source>каза бол- или каза тап- или южн. каза кыл</source>",
+      "fixed_target": "<target>скончаться;</target>"
+    },
+    {
+      "id": "ili_bad_12",
+      "original_source": "<source>көмөч казан или</source>",
+      "original_target": "<target>южн. табан казан сковорода;</target>",
+      "fixed_source": "<source>көмөч казан или южн. табан казан</source>",
+      "fixed_target": "<target>сковорода;</target>"
+    },
+    {
+      "id": "ili_bad_13",
+      "original_source": "<source>кайсы жер? или</source>",
+      "original_target": "<target>разг. кайсер? какое место?</target>",
+      "fixed_source": "<source>кайсы жер? или разг. кайсер?</source>",
+      "fixed_target": "<target>какое место?</target>"
+    },
+    {
+      "id": "ili_bad_14",
+      "original_source": "<source>кайсы жерде? или</source>",
+      "original_target": "<target>разг. кайсерде? где?, в каком месте?</target>",
+      "fixed_source": "<source>кайсы жерде? или разг. кайсерде?</source>",
+      "fixed_target": "<target>где?, в каком месте?</target>"
+    },
+    {
+      "id": "ili_bad_15",
+      "original_source": "<source>артын качырат или</source>",
+      "original_target": "<target>груб. көтүн качырат он прячется (напр. боится открыто сказать).</target>",
+      "fixed_source": "<source>артын качырат или груб. көтүн качырат</source>",
+      "fixed_target": "<target>он прячется (напр. боится открыто сказать).</target>"
+    },
+    {
+      "id": "ili_bad_16",
+      "original_source": "<source>кимисидир бирөө или</source>",
+      "original_target": "<target>разг. кимсидир бирөө кто-то из них;</target>",
+      "fixed_source": "<source>кимисидир бирөө или разг. кимсидир бирөө</source>",
+      "fixed_target": "<target>кто-то из них;</target>"
+    },
+    {
+      "id": "ili_bad_17",
+      "original_source": "<source>ак конок или</source>",
+      "original_target": "<target>чуйск. белбол конок сорго, джугара;</target>",
+      "fixed_source": "<source>ак конок или чуйск. белбол конок</source>",
+      "fixed_target": "<target>сорго, джугара;</target>"
+    },
+    {
+      "id": "ili_bad_18",
+      "original_source": "<source>которуштуруп айдоо или</source>",
+      "original_target": "<target>уст. которуштуруп себүү севооборот;</target>",
+      "fixed_source": "<source>которуштуруп айдоо или уст. которуштуруп себүү</source>",
+      "fixed_target": "<target>севооборот;</target>"
+    },
+    {
+      "id": "ili_bad_19",
+      "original_source": "<source>күзүндө или күзгүсүн или</source>",
+      "original_target": "<target>южн. күзүндөсү осенью.</target>",
+      "fixed_source": "<source>күзүндө или күзгүсүн или южн. күзүндөсү</source>",
+      "fixed_target": "<target>осенью.</target>"
+    },
+    {
+      "id": "ili_bad_20",
+      "original_source": "<source>күнү-түнү или күнү-түн или күн-түнү или</source>",
+      "original_target": "<target>южн. түн-күн или күндүр-түндүр днём и ночью, днями и ночами, круглые сутки;</target>",
+      "fixed_source": "<source>күнү-түнү или күнү-түн или күн-түнү или южн. түн-күн или күндүр-түндүр</source>",
+      "fixed_target": "<target>днём и ночью, днями и ночами, круглые сутки;</target>"
+    },
+    {
+      "id": "ili_bad_21",
+      "original_source": "<source>калың курсак или</source>",
+      "original_target": "<target>груб. бок курсак толстопузый;</target>",
+      "fixed_source": "<source>калың курсак или груб. бок курсак</source>",
+      "fixed_target": "<target>толстопузый;</target>"
+    },
+    {
+      "id": "ili_bad_22",
+      "original_source": "<source>темир күрөк или</source>",
+      "original_target": "<target>южн. бел күрөк (в произношении белгүрөк) железная лопата;</target>",
+      "fixed_source": "<source>темир күрөк или южн. бел күрөк (в произношении белгүрөк)</source>",
+      "fixed_target": "<target>железная лопата;</target>"
+    },
+    {
+      "id": "ili_bad_23",
+      "original_source": "<source>куут кампаниясы или</source>",
+      "original_target": "<target>уст. куут өнөктүгү случная кампания.</target>",
+      "fixed_source": "<source>куут кампаниясы или уст. куут өнөктүгү</source>",
+      "fixed_target": "<target>случная кампания.</target>"
+    },
+    {
+      "id": "ili_bad_24",
+      "original_source": "<source>кыш бышыр- или</source>",
+      "original_target": "<target>(в эпосе) кыш кайнат- обжигать кирпич;</target>",
+      "fixed_source": "<source>кыш бышыр- или (в эпосе) кыш кайнат-</source>",
+      "fixed_target": "<target>обжигать кирпич;</target>"
+    },
+    {
+      "id": "ili_bad_25",
+      "original_source": "<source>көздүн чанагы или</source>",
+      "original_target": "<target>южн. көздүн к с си глазная впадина, глазная орбита;</target>",
+      "fixed_source": "<source>көздүн чанагы или южн. көздүн к с си</source>",
+      "fixed_target": "<target>глазная впадина, глазная орбита;</target>"
+    },
+    {
+      "id": "ili_bad_26",
+      "original_source": "<source>көз таңмай или</source>",
+      "original_target": "<target>южн. көз байламай жмурки (игра);</target>",
+      "fixed_source": "<source>көз таңмай или южн. көз байламай</source>",
+      "fixed_target": "<target>жмурки (игра);</target>"
+    },
+    {
+      "id": "ili_bad_27",
+      "original_source": "<source>килем көпчүк или</source>",
+      "original_target": "<target>южн. жүл көпчүк ковровая подстилка на седло;</target>",
+      "fixed_source": "<source>килем көпчүк или южн. жүл көпчүк</source>",
+      "fixed_target": "<target>ковровая подстилка на седло;</target>"
+    },
+    {
+      "id": "ili_bad_28",
+      "original_source": "<source>көр-жер или</source>",
+      "original_target": "<target>южн. көр-шор то-сё, всякая мелочишка, всякие вещички;</target>",
+      "fixed_source": "<source>көр-жер или южн. көр-шор</source>",
+      "fixed_target": "<target>то-сё, всякая мелочишка, всякие вещички;</target>"
+    },
+    {
+      "id": "ili_bad_29",
+      "original_source": "<source>түстүү металлдар или</source>",
+      "original_target": "<target>уст. жылтырак металлдар цветные металлы;</target>",
+      "fixed_source": "<source>түстүү металлдар или уст. жылтырак металлдар</source>",
+      "fixed_target": "<target>цветные металлы;</target>"
+    },
+    {
+      "id": "ili_bad_30",
+      "original_source": "<source>метрикалык китеп или</source>",
+      "original_target": "<target>разг. метрикалык кинеге или метрикалык дептер метрическая книга.</target>",
+      "fixed_source": "<source>метрикалык китеп или разг. метрикалык кинеге или метрикалык дептер</source>",
+      "fixed_target": "<target>метрическая книга.</target>"
+    },
+    {
+      "id": "ili_bad_31",
+      "original_source": "<source>пахта катын или</source>",
+      "original_target": "<target>южн. пахта хатын название стелющегося травянистого растения.</target>",
+      "fixed_source": "<source>пахта катын или южн. пахта хатын</source>",
+      "fixed_target": "<target>название стелющегося травянистого растения.</target>"
+    },
+    {
+      "id": "ili_bad_32",
+      "original_source": "<source>айыпкердин скамейкасы или</source>",
+      "original_target": "<target>уст. сот скамейкасы скамья подсудимых.</target>",
+      "fixed_source": "<source>айыпкердин скамейкасы или уст. сот скамейкасы</source>",
+      "fixed_target": "<target>скамья подсудимых.</target>"
+    },
+    {
+      "id": "ili_bad_33",
+      "original_source": "<source>сонун-сорпо или</source>",
+      "original_target": "<target>чуйск. сонун-сорпу приятные вести;</target>",
+      "fixed_source": "<source>сонун-сорпо или чуйск. сонун-сорпу</source>",
+      "fixed_target": "<target>приятные вести;</target>"
+    },
+    {
+      "id": "ili_bad_34",
+      "original_source": "<source>профессионалдык союз или</source>",
+      "original_target": "<target>уст. кесипчилер союзу профессиональный союз.</target>",
+      "fixed_source": "<source>профессионалдык союз или уст. кесипчилер союзу</source>",
+      "fixed_target": "<target>профессиональный союз.</target>"
+    },
+    {
+      "id": "ili_bad_35",
+      "original_source": "<source>кара ташты или</source>",
+      "original_target": "<target>редко кара ташка усиленное отрицание (с последующей вопросительной частицей) ни шиша, чёрта с два, и близко не родня, где уж там и т.п.;</target>",
+      "fixed_source": "<source>кара ташты или редко кара ташка</source>",
+      "fixed_target": "<target>усиленное отрицание (с последующей вопросительной частицей) ни шиша, чёрта с два, и близко не родня, где уж там и т.п.;</target>"
+    },
+    {
+      "id": "ili_bad_36",
+      "original_source": "<source>кой текей или жылкы текей или</source>",
+      "original_target": "<target>тяньш. узун текей виды козельца (во время голода люди им питались);</target>",
+      "fixed_source": "<source>кой текей или жылкы текей или тяньш. узун текей</source>",
+      "fixed_target": "<target>виды козельца (во время голода люди им питались);</target>"
+    },
+    {
+      "id": "ili_bad_37",
+      "original_source": "<source>ак терек-көк терек или</source>",
+      "original_target": "<target>южн. чар терек девичья игра, напоминающая цепи, разрывные;</target>",
+      "fixed_source": "<source>ак терек-көк терек или южн. чар терек</source>",
+      "fixed_target": "<target>девичья игра, напоминающая цепи, разрывные;</target>"
+    },
+    {
+      "id": "ili_bad_38",
+      "original_source": "<source>тилинде сөөлу бар или</source>",
+      "original_target": "<target>южн. тилинде мөөрү бар у него бородавки или печать на языке (по старому поверью, проклятие такого человека обязательно возымеет действие, а потому он должен был воздерживаться от проклятий или брани);</target>",
+      "fixed_source": "<source>тилинде сөөлу бар или южн. тилинде мөөрү бар</source>",
+      "fixed_target": "<target>у него бородавки или печать на языке (по старому поверью, проклятие такого человека обязательно возымеет действие, а потому он должен был воздерживаться от проклятий или брани);</target>"
+    },
+    {
+      "id": "ili_bad_39",
+      "original_source": "<source>үймөк үй- или</source>",
+      "original_target": "<target>чуйск. үймөк ат- скирдовать, складывать в скирды, в стога;</target>",
+      "fixed_source": "<source>үймөк үй- или чуйск. үймөк ат-</source>",
+      "fixed_target": "<target>скирдовать, складывать в скирды, в стога;</target>"
+    },
+    {
+      "id": "ili_bad_40",
+      "original_source": "<source>үстүнө чымын конбойт или</source>",
+      "original_target": "<target>южн. үстүдөн шамал өтпөйт (о важничающем человеке) на него (и) муха не сядет или над ним (и) ветер не пройдёт;</target>",
+      "fixed_source": "<source>үстүнө чымын конбойт или южн. үстүдөн шамал өтпөйт</source>",
+      "fixed_target": "<target>(о важничающем человеке) на него (и) муха не сядет или над ним (и) ветер не пройдёт;</target>"
+    },
+    {
+      "id": "ili_bad_41",
+      "original_source": "<source>кереге чалгыч или</source>",
+      "original_target": "<target>тяньш. баш чалгыч верёвка, которой скрепляются между собой отдельные полотнища кереге;</target>",
+      "fixed_source": "<source>кереге чалгыч или тяньш. баш чалгыч</source>",
+      "fixed_target": "<target>верёвка, которой скрепляются между собой отдельные полотнища кереге;</target>"
+    },
+    {
+      "id": "ili_bad_42",
+      "original_source": "<source>чий баркыт или</source>",
+      "original_target": "<target>южн. чий бахмал вельвет в рубчик, корд;</target>",
+      "fixed_source": "<source>чий баркыт или южн. чий бахмал</source>",
+      "fixed_target": "<target>вельвет в рубчик, корд;</target>"
+    },
+    {
+      "id": "ili_bad_43",
+      "original_source": "<source>эки жүздүү или</source>",
+      "original_target": "<target>редко эки бет двуличный;</target>",
+      "fixed_source": "<source>эки жүздүү или редко эки бет</source>",
+      "fixed_target": "<target>двуличный;</target>"
+    },
+    {
+      "id": "ili_bad_44",
+      "original_source": "<source>эшек секиртмей или эшек секирди или</source>",
+      "original_target": "<target>южн. эшек минди игра, напоминающая чехарду;</target>",
+      "fixed_source": "<source>эшек секиртмей или эшек секирди или южн. эшек минди</source>",
+      "fixed_target": "<target>игра, напоминающая чехарду;</target>"
+    }
+  ]
+}
