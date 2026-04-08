@@ -8,6 +8,7 @@ from pathlib import Path
 
 from llm_split_utils import (
     atoms_to_xml,
+    deannotate,
     iter_blockquotes,
     normalize_split_atoms,
 )
@@ -44,6 +45,9 @@ LEADING_KYRGYZ_TO_RUSSIAN_RE = re.compile(
     rf'^(?P<cont>(?:{KYR_WORD_RE}\s+){{1,5}}(?:калды|болду|экен|дейт|деди|турган|болсо|болбосо|таппай))\s+(?P<rest>[А-ЯЁа-яё].*)$'
 )
 DANGLING_SOURCE_END_RE = re.compile(r',\s*$')
+LEADING_TARGET_COMMA_RE = re.compile(r'^\s*,')
+SOURCE_ENDS_OPEN_PUNCT_RE = re.compile(r'[\(«"“„]\s*$')
+PLACEHOLDER_RE = re.compile(r'\[\[[^\]]+\]\]')
 TRAILING_RUSSIAN_WORD_RE = re.compile(
     r'^(?P<body>.+?)\s+(?P<tail>(?:он|она|они|оно|мы|вы|я|ты|как|будто|словно|точно))$',
     re.I,
@@ -171,6 +175,79 @@ def ex_xml(source: str, target: str) -> str:
     )
 
 
+def char_index_inside_placeholder(text: str, idx: int) -> bool:
+    for match in PLACEHOLDER_RE.finditer(text):
+        if match.start() < idx < match.end():
+            return True
+    return False
+
+
+def has_unbalanced_parentheses(text: str) -> bool:
+    depth = 0
+    for ch in text:
+        if ch == '(':
+            depth += 1
+        elif ch == ')':
+            depth -= 1
+            if depth < 0:
+                return True
+    return depth != 0
+
+
+def common_prefix_len(a: str, b: str) -> int:
+    limit = min(len(a), len(b))
+    idx = 0
+    while idx < limit and a[idx] == b[idx]:
+        idx += 1
+    return idx
+
+
+def align_char_boundary(text: str, idx: int, target_starts_with: str | None) -> int | None:
+    if idx < 0 or idx >= len(text):
+        return None
+    prefix = (target_starts_with or '').strip()
+    if not prefix:
+        return idx if not text[idx].isspace() else None
+    if not text[idx].isspace() and text[idx:idx + len(prefix)] == prefix:
+        return idx
+    best_idx = None
+    best_score = -1
+    for delta in (1, -1, 2, -2, 3, -3):
+        alt = idx + delta
+        if alt < 0 or alt >= len(text):
+            continue
+        if text[alt].isspace():
+            continue
+        if text[alt:alt + len(prefix)] == prefix:
+            return alt
+        score = common_prefix_len(text[alt:], prefix)
+        if score > best_score:
+            best_score = score
+            best_idx = alt
+    if not text[idx].isspace():
+        score = common_prefix_len(text[idx:], prefix)
+        if score > best_score:
+            best_score = score
+            best_idx = idx
+    if best_idx is not None and best_score >= min(len(prefix), 8):
+        return best_idx
+    return None
+
+
+def invalid_simple_boundary(source: str, target: str) -> bool:
+    if DANGLING_SOURCE_END_RE.search(source):
+        return True
+    if SOURCE_ENDS_OPEN_PUNCT_RE.search(source):
+        return True
+    if LEADING_TARGET_COMMA_RE.search(target):
+        return True
+    if has_unbalanced_parentheses(source):
+        return True
+    if has_unbalanced_parentheses(target):
+        return True
+    return False
+
+
 def main() -> int:
     if len(sys.argv) != 3:
         print('Usage: convert_card_review_to_fixes.py <review.json> <approved_fixes.json>', file=sys.stderr)
@@ -196,60 +273,105 @@ def main() -> int:
         item = blockquotes.get(bq_id)
         if not item:
             continue
-        atoms = item['atoms']
         placeholders = item['placeholders']
-        target_starts_at_atom = decision.get('target_starts_at_atom')
-        if target_starts_at_atom is not None:
-            if not isinstance(target_starts_at_atom, int):
+        annotated_text = item['annotated_text']
+        target_starts_at_char = decision.get('target_starts_at_char')
+        if target_starts_at_char is not None:
+            if not isinstance(target_starts_at_char, int):
                 continue
-            if target_starts_at_atom <= 1 or target_starts_at_atom > len(atoms):
+            if target_starts_at_char <= 0 or target_starts_at_char >= len(annotated_text):
                 continue
-            source_atoms = atoms[:target_starts_at_atom - 1]
-            target_atoms = atoms[target_starts_at_atom - 1:]
-            expected_target_first = atoms[target_starts_at_atom - 1]
-            declared_target_first = decision.get('target_first_atom')
-            if declared_target_first != expected_target_first:
+            aligned_idx = align_char_boundary(
+                annotated_text,
+                target_starts_at_char,
+                decision.get('target_starts_with'),
+            )
+            if aligned_idx is None:
                 print(
-                    f"Warning: boundary atom mismatch for {bq_id}: "
-                    f"expected target_first_atom {expected_target_first!r} "
-                    f"got {declared_target_first!r}",
+                    f"Warning: char boundary/prefix mismatch for {bq_id}: "
+                    f"idx={target_starts_at_char} target_starts_with={decision.get('target_starts_with')!r}",
                     file=sys.stderr,
                 )
                 continue
-            source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
-            target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
+            if char_index_inside_placeholder(annotated_text, aligned_idx):
+                print(
+                    f"Warning: char boundary points inside placeholder for {bq_id}: "
+                    f"idx={aligned_idx}",
+                    file=sys.stderr,
+                )
+                continue
+            source_annotated = annotated_text[:aligned_idx].rstrip()
+            target_annotated = annotated_text[aligned_idx:].lstrip()
+            source = deannotate(source_annotated, placeholders).strip()
+            target = deannotate(target_annotated, placeholders).strip()
+            if invalid_simple_boundary(source, target):
+                print(
+                    f"Warning: invalid simple boundary for {bq_id}: "
+                    f"source={source!r} target={target!r}",
+                    file=sys.stderr,
+                )
+                continue
         else:
-            source_atom_count = decision.get('source_atom_count')
-            if source_atom_count is None:
-                source_token_count = decision.get('source_token_count')
-                tokens = item['plain_tokens']
-                if not isinstance(source_token_count, int):
+            atoms = item['atoms']
+            target_starts_at_atom = decision.get('target_starts_at_atom')
+            if target_starts_at_atom is not None:
+                if not isinstance(target_starts_at_atom, int):
                     continue
-                if source_token_count <= 0 or source_token_count >= len(tokens):
+                if target_starts_at_atom <= 1 or target_starts_at_atom > len(atoms):
                     continue
-                source = ' '.join(tokens[:source_token_count]).strip()
-                target = ' '.join(tokens[source_token_count:]).strip()
-            else:
-                if not isinstance(source_atom_count, int):
+                source_atoms = atoms[:target_starts_at_atom - 1]
+                target_atoms = atoms[target_starts_at_atom - 1:]
+                expected_target_first = atoms[target_starts_at_atom - 1]
+                declared_target_first = decision.get('target_first_atom')
+                if declared_target_first != expected_target_first:
+                    print(
+                        f"Warning: boundary atom mismatch for {bq_id}: "
+                        f"expected target_first_atom {expected_target_first!r} "
+                        f"got {declared_target_first!r}",
+                        file=sys.stderr,
+                    )
                     continue
-                if source_atom_count <= 0 or source_atom_count >= len(atoms):
-                    continue
-                source_atoms = atoms[:source_atom_count]
-                target_atoms = atoms[source_atom_count:]
-                source_atoms, target_atoms = normalize_split_atoms(source_atoms, target_atoms)
                 source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
                 target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
-            source, target = normalize_parenthetical_note(source, target)
-            source, target = normalize_trailing_meta_marker(source, target)
-            source, target = normalize_leading_ili_chain(source, target)
-            source, target = normalize_trailing_russian_gloss(source, target)
-            source, target = normalize_leading_kyrgyz_continuation(source, target)
-            source, target = normalize_leading_hyphen_form(source, target)
-            source, target = normalize_leading_glued_hyphen_form(source, target)
-            source, target = normalize_leading_kyrgyz_before_russian(source, target)
-            source, target = normalize_trailing_russian_word(source, target)
-            if DANGLING_SOURCE_END_RE.search(source):
-                continue
+                if invalid_simple_boundary(source, target):
+                    print(
+                        f"Warning: invalid simple boundary for {bq_id}: "
+                        f"source={source!r} target={target!r}",
+                        file=sys.stderr,
+                    )
+                    continue
+            else:
+                source_atom_count = decision.get('source_atom_count')
+                if source_atom_count is None:
+                    source_token_count = decision.get('source_token_count')
+                    tokens = item['plain_tokens']
+                    if not isinstance(source_token_count, int):
+                        continue
+                    if source_token_count <= 0 or source_token_count >= len(tokens):
+                        continue
+                    source = ' '.join(tokens[:source_token_count]).strip()
+                    target = ' '.join(tokens[source_token_count:]).strip()
+                else:
+                    if not isinstance(source_atom_count, int):
+                        continue
+                    if source_atom_count <= 0 or source_atom_count >= len(atoms):
+                        continue
+                    source_atoms = atoms[:source_atom_count]
+                    target_atoms = atoms[source_atom_count:]
+                    source_atoms, target_atoms = normalize_split_atoms(source_atoms, target_atoms)
+                    source = normalize_hyphen_spacing(atoms_to_xml(source_atoms, placeholders).strip())
+                    target = normalize_hyphen_spacing(atoms_to_xml(target_atoms, placeholders).strip())
+                source, target = normalize_parenthetical_note(source, target)
+                source, target = normalize_trailing_meta_marker(source, target)
+                source, target = normalize_leading_ili_chain(source, target)
+                source, target = normalize_trailing_russian_gloss(source, target)
+                source, target = normalize_leading_kyrgyz_continuation(source, target)
+                source, target = normalize_leading_hyphen_form(source, target)
+                source, target = normalize_leading_glued_hyphen_form(source, target)
+                source, target = normalize_leading_kyrgyz_before_russian(source, target)
+                source, target = normalize_trailing_russian_word(source, target)
+                if invalid_simple_boundary(source, target):
+                    continue
         if not source or not target:
             continue
         fixes.append({

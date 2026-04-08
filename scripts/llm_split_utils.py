@@ -8,14 +8,15 @@ BLOCKQUOTE_RE = re.compile(r'<blockquote>(.*?)</blockquote>', re.S)
 TAG_RE = re.compile(r'<[^>]+>')
 WORDLINK_WORD_RE = re.compile(r'\bword="([^"]+)"')
 SPACED_DASH_RE = re.compile(r'\s([\-–—])\s')
-ATOM_RE = re.compile(r'\[\[[^\]]+\]\]|\w+|[^\w\s]', re.UNICODE)
+ABBREV_RE = r'(?:[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]\.){2,}'
+ATOM_RE = re.compile(rf'\[\[[^\]]+\]\]|{ABBREV_RE}|\w+|[^\w\s]', re.UNICODE)
 TRAILING_TARGET_WORDS = {
     'горюя', 'как', 'будто', 'словно', 'точно', 'погов', 'фольк', 'собир',
     'мы', 'он', 'она', 'они', 'оно', 'это', 'этот', 'эта', 'эти',
     'разг', 'кошма', 'лат', 'уст', 'этн',
 }
 NO_SPACE_BEFORE = {'.', ',', ';', ':', '!', '?', ')', ']', '}', '»', '”', '%'}
-NO_SPACE_AFTER = {'(', '[', '{', '«', '„', '“', '-', '—', '–'}
+NO_SPACE_AFTER = {'(', '[', '{', '«', '„', '“', '—', '–'}
 PUNCT_ONLY_RE = re.compile(r'^[.,;:!?]+$')
 TARGET_PHRASE_PATTERNS = [
     ['см', '.'],
@@ -80,14 +81,26 @@ def join_atoms(atoms: Iterable[str]) -> str:
         return ''
     out = [atoms[0]]
     ascii_quote_open = atoms[0] == '"'
-    for prev, atom in zip(atoms, atoms[1:]):
+    for idx, (prev, atom) in enumerate(zip(atoms, atoms[1:]), 1):
+        next_atom = atoms[idx + 1] if idx + 1 < len(atoms) else None
         prev_is_open_ascii_quote = prev == '"' and ascii_quote_open
         atom_is_closing_ascii_quote = atom == '"' and ascii_quote_open
         atom_is_spaced_dash = atom.startswith('[[SPD')
         prev_is_spaced_dash = prev.startswith('[[SPD')
+        atom_is_literal_hyphen = atom == '-'
+        prev_is_literal_hyphen = prev == '-'
         if atom == '"':
             ascii_quote_open = not ascii_quote_open
         if (
+            atom_is_literal_hyphen
+        ):
+            out.append(atom)
+        elif prev_is_literal_hyphen:
+            if atom in {'(', '[', '{'} or (atom.isalpha() and atom.lower() == 'или'):
+                out.append(' ' + atom)
+            else:
+                out.append(atom)
+        elif (
             atom_is_closing_ascii_quote
             or atom_is_spaced_dash
             or prev_is_spaced_dash

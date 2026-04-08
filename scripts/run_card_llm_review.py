@@ -17,41 +17,54 @@ OUT_DIR = ROOT / 'chatGPT_exp' / 'llm_card_experiment'
 ARTIFACTS_DIR = OUT_DIR / 'artifacts'
 DEFAULT_CARD = 'партия'
 DEFAULT_MODEL = 'gpt-5-mini'
+DEFAULT_CHUNK_SIZE = 10
 
 SCHEMA = {
-    'name': 'dictionary_card_split_review',
+    'name': 'dictionary_blockquote_chunk_split_review',
     'schema': {
         'type': 'object',
         'properties': {
             'card_headword': {'type': 'string'},
-            'notes': {'type': 'string'},
             'decisions': {
                 'type': 'array',
                 'items': {
                     'type': 'object',
                     'properties': {
                         'blockquote_id': {'type': 'string'},
-                        'target_starts_at_atom': {'type': ['integer', 'null']},
-                        'target_first_atom': {'type': ['string', 'null']},
+                        'target_starts_at_char': {'type': ['integer', 'null']},
+                        'target_starts_with': {'type': ['string', 'null']},
                         'reason': {'type': 'string'},
-                        'confidence': {'type': 'number'}
+                        'confidence': {'type': 'number'},
                     },
                     'required': [
                         'blockquote_id',
-                        'target_starts_at_atom',
-                        'target_first_atom',
+                        'target_starts_at_char',
+                        'target_starts_with',
                         'reason',
                         'confidence',
                     ],
-                    'additionalProperties': False
-                }
-            }
+                    'additionalProperties': False,
+                },
+            },
         },
-        'required': ['card_headword', 'notes', 'decisions'],
-        'additionalProperties': False
+        'required': [
+            'card_headword',
+            'decisions',
+        ],
+        'additionalProperties': False,
     },
     'strict': True,
 }
+
+
+def make_index_guide(text: str) -> str:
+    tens = ''.join(str((idx // 10) % 10) for idx, _ in enumerate(text))
+    ones = ''.join(str(idx % 10) for idx, _ in enumerate(text))
+    return f'tens: {tens}\nones: {ones}'
+
+
+def chunked(items: list[dict[str, object]], chunk_size: int) -> list[list[dict[str, object]]]:
+    return [items[i:i + chunk_size] for i in range(0, len(items), chunk_size)]
 
 
 def extract_card_xml(headword: str) -> str:
@@ -63,114 +76,73 @@ def extract_card_xml(headword: str) -> str:
     if card_xml.count('<blockquote>') < 5:
         raise SystemExit(f'Card has fewer than 5 blockquotes: {headword}')
     return card_xml
-def build_prompt(card_xml: str, headword: str) -> list[dict]:
-    items = iter_blockquotes(card_xml)
-    enumerated = []
-    for item in items:
-        enumerated.append({
-            'blockquote_id': item['blockquote_id'],
-            'annotated_text': item['annotated_text'],
-            'atoms': [{'i': idx, 'atom': atom} for idx, atom in enumerate(item['atoms'], 1)],
-            'atom_count': len(item['atoms']),
-        })
 
+
+def build_prompt_for_chunk(headword: str, items: list[dict[str, object]]) -> list[dict[str, str]]:
+    sections: list[str] = []
+    for item in items:
+        annotated_text = item['annotated_text']
+        blockquote_id = item['blockquote_id']
+        index_guide = make_index_guide(annotated_text)
+        sections.append(
+            f'blockquote_id: {blockquote_id}\n'
+            'Annotated text:\n'
+            f'{annotated_text}\n'
+            'Character index guide:\n'
+            f'{index_guide}'
+        )
     system = (
-        'You review one XML dictionary card and split each blockquote into left side and right side. '
-        'You are not allowed to copy XML or rewrite the original line. '
-        'Your only job is to decide the exact first atom that belongs to the right side. '
-        'Be conservative: the left side should be the Kyrgyz expression only, and the right side should start as soon as Russian glossing, Russian meta, or Russian reference text begins. '
-        'There is no downstream semantic correction. Your chosen boundary must already be correct. '
-        'When in doubt, split earlier, not later.'
+        'You review a small batch of annotated Kyrgyz-Russian dictionary blockquotes. '
+        'For each blockquote, your only job is to decide the exact 0-based character index where the Russian/right side starts. '
+        'Do not rewrite the text. Do not normalize punctuation. Do not invent text. '
+        'The left side must stay a complete Kyrgyz expression, and the right side must start at the earliest coherent Russian gloss, Russian meta, or Russian reference.'
     )
     user = (
-        f'Headword: {headword}\n\n'
-        'Task: for every listed blockquote, decide the split point between the left side and the right side.\n\n'
-        'Return one decision for every blockquote_id.\n\n'
+        f'Headword: {headword}\n'
+        f'Blockquote count: {len(items)}\n\n'
+        'Decision procedure:\n'
+        '1. Keep the shortest complete Kyrgyz expression on the left.\n'
+        '2. Start the right side at the earliest point where a coherent Russian gloss, Russian meta note, or Russian reference already begins.\n'
+        '3. If Russian material remains on the left, the split is too late.\n'
+        '4. If a Kyrgyz continuation remains at the start of the right side, the split is too early.\n\n'
         'Rules:\n'
-        '- Set target_starts_at_atom to the 1-based index of the first atom that belongs to the right side.\n'
-        '- target_starts_at_atom must be at least 2 and at most atom_count if a split exists.\n'
-        '- If you truly cannot identify any sensible split, set target_starts_at_atom to null.\n'
-        '- Also return target_first_atom exactly as it appears in the atom list. If target_starts_at_atom is null, target_first_atom must be null.\n'
-        '- Atoms preserve punctuation and hyphens as separate items, so you may split before or after commas, periods, and hyphens when needed.\n'
-        '- Placeholders like [[WL1|төр]] represent inline tags. Keep them on the semantically correct side of the split.\n'
-        '- The left side must stay Kyrgyz. If a Russian word, Russian gloss label, or Russian explanatory fragment remains in the left side, your split is too late.\n'
-        '- The right side must start with Russian gloss, Russian meta, or Russian reference text. If a Kyrgyz continuation remains at the start of the right side, your split is too early.\n'
-        '- In general, the first clearly Russian atom begins the right side.\n'
-        '- target_starts_at_atom must point to the first meaningful atom of the right side.\n'
-        '- Usually that means the first lexical Russian atom, not delimiter punctuation such as a comma, semicolon, or dash.\n'
-        '- Exception: if the right side begins with a parenthetical or quoted Russian note, target_starts_at_atom must point to the opening punctuation, for example "(" or "\\"".\n'
-        '- If the source-side Kyrgyz phrase ends with sentence punctuation such as "!" or "?", and the Russian gloss starts immediately after it, the punctuation still belongs to the left side. In that case target_starts_at_atom must point to the first Russian atom after the punctuation.\n'
-        '- A split directly before a comma or semicolon is highly suspicious. Do not make the first atom of the right side punctuation unless the punctuation itself is genuinely the start of the gloss, which is rare.\n'
-        '- A source ending with a comma is almost always wrong. If your split would leave a trailing comma on the left side, reconsider it very carefully.\n'
-        '- Rare exception: if a complete Kyrgyz term or clarified Kyrgyz phrase is followed by a comma and then a clearly Russian participial or descriptive gloss, that comma belongs to the right side, not the left.\n'
-        '- A source ending with an opening parenthesis or opening quote is almost always wrong. If the right side begins with "(о ...)", "(букв. ...)" or a quoted Russian note, include the opening punctuation on the right side.\n'
-        '- If the only Russian material is a bare short classifier in parentheses, such as "(конь);", "(овца);", "(птица);", and there is no real Russian gloss after it, there is usually no sensible split. In that case set target_starts_at_atom to null.\n'
-        '- If the right side already contains Russian glossing, do not delay the split to a later Russian paraphrase after another comma or semicolon. The right side must start at the first Russian gloss, not the second one.\n'
-        '- If the Russian gloss begins with a lexical Russian word and only then continues with a parenthetical clarification or a dash explanation, target_starts_at_atom must point to that first lexical Russian word, not to later punctuation.\n'
-        '- Some tokens are homographs and can look valid in both Kyrgyz and Russian, for example "бери", "как", and sometimes "кара". Never decide from one ambiguous token alone. Decide from the shortest coherent phrase on each side.\n'
-        '- If an ambiguous token appears at the start of the line and is followed by a clearly Kyrgyz sequence before the Russian gloss begins, do not treat that first token as Russian by itself.\n'
-        '- If the ambiguous token is followed by clearly Russian continuation such as "не", "он", "говори", a Russian noun phrase, or another clearly Russian explanatory phrase, it belongs to the right side.\n'
-        '- If moving the boundary one atom earlier turns the right side into a coherent Russian phrase and avoids leaving a dangling ambiguous token or dangling comma on the left, prefer the earlier boundary.\n'
-        '- "или" by itself does not decide the boundary. It can join Kyrgyz alternatives on the left or Russian alternatives on the right.\n'
-        '- If "или" is followed by a single ambiguous token that could still be a Kyrgyz alternative, and the first unambiguously Russian atom appears later, keep "или" plus that ambiguous token on the left and start the right side at the first unambiguously Russian atom.\n'
-        '- Only start the right side at "или" when the phrase from "или" onward is already clearly Russian immediately, without relying on a later atom to disambiguate it.\n'
-        '- Be careful with names and capitalized words. A capital letter by itself does not decide the split. Proper names can appear on either side.\n'
-        '- If a Russian gloss begins with a proper name or contains a capitalized Russian personal name, that capitalized name still belongs to the right side.\n'
-        '- If the left side starts with a capitalized Kyrgyz word only because it begins the sentence, that does not mean the split should start there.\n'
-        '- Never leave any part of a Russian gloss on the left side, even if it is attached with a hyphen or looks short.\n'
-        '- Parenthetical Russian notes such as "(о больном)", "(о человеке)", "(дерево)", "(тираж)" belong to the right side.\n'
-        '- Russian words and gloss markers like "горюя", "мы", "он", "кошма", "собир.", "погов.", "фольк.", "стих." do not belong in the left side.\n'
-        '- Be careful with "как": it may be Russian, but in some Kyrgyz phrases it can appear on the left side. Do not force it to the right without checking the following atoms.\n'
-        '- If a line contains a Kyrgyz term, then meta like "собир.", then a Russian gloss, still produce the split; do not drop it.\n'
-        '- If OCR collapsed a space, for example a source ending with a hyphen followed immediately by Russian gloss, split at the semantic boundary anyway.\n'
-        '- Distinguish two dash patterns carefully. If a hyphen or spaced dash belongs to the end of the Kyrgyz side, target_starts_at_atom must point to the first Russian atom after that hyphen or dash.\n'
-        '- But if a Russian gloss has the form "X - explanation", then the right side begins at X, not after the dash. Never postpone the boundary to the atom after the dash in that pattern.\n'
-        '- If the Russian gloss begins with a hyphenated Russian expression such as "уходи-ка", "гляди-ка", "смотри-ка", the entire expression belongs to the right side. target_starts_at_atom must point to the first Russian word of that expression, not to the hyphen and not to the particle.\n'
-        '- If the line has Kyrgyz alternatives joined by "или", keep the whole Kyrgyz alternative chain on the left until the Russian gloss begins.\n'
-        '- If "или" is followed by more Kyrgyz words, keep them on the left. If "или" is followed by Russian gloss, keep "или" on the left only if it is clearly joining Kyrgyz alternatives.\n'
-        '- For patterns like "см. [[WL1|...]]" or "то же, что [[WL1|...]]", that reference phrase belongs to the right side, not the left. target_starts_at_atom must point to "см" or "то".\n'
-        '- Meta labels like "погов.", "фольк.", "стих.", "разг." usually belong to the right side.\n'
-        '- Regional labels like "сев.", "южн.", "чатк." are special: they belong to the left side only when they clearly mark Kyrgyz variant chains.\n'
-        '- Treat them as source-side variant markers only if there are at least two Kyrgyz variants in the line, or if the label is followed by another Kyrgyz variant before the Russian gloss begins.\n'
-        '- A good hint is lexical similarity: regional variants are often very similar forms, differing by only a small change, for example one to three letters, while still clearly remaining Kyrgyz words.\n'
-        '- If there is only one Kyrgyz form before the regional label and the label is followed directly by Russian gloss, then the regional label belongs to the right side, not the left.\n'
-        '- Variant-introducing Russian adverbs such as "иногда" can behave like source-side markers if they are immediately followed by another Kyrgyz variant form before the Russian gloss begins. In that case keep "иногда" plus that Kyrgyz variant on the left.\n'
-        '- If "иногда" is followed by a Kyrgyz alternative form and only then by the Russian gloss, do not split before "иногда". Split only when the actual Russian gloss begins.\n'
-        '- Parenthetical clarifications such as "(авто)" may belong to the right side if they act as an explanatory gloss or classifier for the Russian translation rather than the Kyrgyz expression.\n'
-        '- If a regional label is followed by one short word or exclamation and then a parenthetical Russian explanation, do not treat that short word as a second Kyrgyz variant by default. In that pattern, the gloss usually starts at the regional label.\n'
-        '- Do not delay the split to "(" just because a parenthetical explanation follows. If words immediately before "(" already form a Russian gloss introduced by a regional label, the gloss starts at the regional label, not at the parenthesis.\n'
-        '- If a line alternates Kyrgyz variant + regional label + Kyrgyz variant + regional label + Kyrgyz variant, keep that whole chain on the left until the actual Russian gloss begins.\n'
-        '- If a regional label is immediately followed by Russian gloss and no further Kyrgyz variant, then it belongs to the right side.\n'
-        '- For one-line bilingual examples, the left side is usually a complete Kyrgyz phrase or chain of Kyrgyz alternatives, and the right side is the complete Russian gloss.\n'
-        '- Prefer an earlier split over an overgeneralized later split.\n'
-        '- Example: atoms ["батың","барда","кете","бер","уходи","-","ка",",",...] => target_starts_at_atom = 5, target_first_atom = "уходи".\n'
-        '- Example: atoms ["башыңарга","май","кайнатып","жиберейин","!","я","вас",...] => target_starts_at_atom = 6, target_first_atom = "я".\n'
-        '- Example: atoms ["депкири","качып","калды","или","депкирин","таппай","калды","он","испугался",...] => target_starts_at_atom = 8, target_first_atom = "он".\n'
-        '- Example: atoms ["алал","дөөлөт","-","малыңды","булгабагын","арамга","стих",".",...] => target_starts_at_atom = 7, target_first_atom = "стих".\n'
-        '- Example: atoms ["казан","карма","-","готовить",...] => target_starts_at_atom = 4, target_first_atom = "готовить".\n'
-        '- Example: atoms ["эл","деген","[[SPD1|-]]","казан","народа",...] => target_starts_at_atom = 4, target_first_atom = "казан". The spaced dash still belongs to the Kyrgyz side; do not delay or shift the target boundary because of it.\n'
-        '- Example: atoms ["чот","как","-","щёлкать",...] => target_starts_at_atom = 4, target_first_atom = "щёлкать".\n'
-        '- Example: atoms ["шак","-","шак","или","шак","-","шук","звукоподражание",...] => target_starts_at_atom = 8, target_first_atom = "звукоподражание".\n'
-        '- Example: atoms ["ала","бер","бери",",","не","обращая","внимания",";"] => target_starts_at_atom = 3, target_first_atom = "бери".\n'
-        '- Example: atoms ["айта","бер","говори",",","говори",";","продолжай","говорить",";"] => target_starts_at_atom = 3, target_first_atom = "говори". The Russian gloss begins at the first "говори", not later at "продолжай".\n'
-        '- Example: atoms ["мени","карап","глядя","(","именно",")","на","меня",";"] => target_starts_at_atom = 3, target_first_atom = "глядя". The Russian gloss starts at the lexical word "глядя", not later at "(".\n'
-        '- Example: atoms ["карап","ганатурарлык","ат","конь","[[SPD1|-]]","прямо","загляденье",";"] => target_starts_at_atom = 4, target_first_atom = "конь". This is a Russian-side dash explanation: "конь - прямо загляденье". Starting later at "прямо" is wrong.\n'
-        '- Example: atoms ["кара","кесек","или","кара","мясо","(","без","жира",...] => target_starts_at_atom = 5, target_first_atom = "мясо". Here "или кара" is still the left-side alternative, and the Russian gloss begins only at the first unambiguously Russian noun "мясо". Starting at "или" is wrong.\n'
-        '- Example: atoms ["как","талаада","калып",",","көзүмдөн","кара","учуп","отурат","остался","я",...] => target_starts_at_atom = 9, target_first_atom = "остался". Here line-initial "как" is part of the Kyrgyz phrase, not the start of the Russian gloss.\n'
-        '- Example: atoms ["төрт","дөңгөлөгү","асманды","караган","машина","(","авто",")","машина",",","перевернувшаяся","вверх","колёсами",";"] => target_starts_at_atom = 6, target_first_atom = "(". Here "(авто) машина, перевернувшаяся вверх колёсами" belongs to the Russian gloss side, and the parenthetical clarification stays with that gloss.\n'
-        '- Example: atoms ["жууган","май","сев",".",",","пышкан","май","южн",".",",","каймак","май","чатк",".","сливочное","масло",";"] => target_starts_at_atom = 15, target_first_atom = "сливочное". The regional labels stay on the left because they introduce more Kyrgyz variants.\n'
-        '- Example: atoms ["кересин","май","или","сев",".","лампа","май",",","жер","май","или","южн",".","жел","май","керосин",";"] => target_starts_at_atom = 16, target_first_atom = "керосин". The regional labels and Kyrgyz variants stay on the left.\n'
-        '- Example: atoms ["жаман","жер",",","иногда","жаман","жай","срамные","части",";"] => target_starts_at_atom = 7, target_first_atom = "срамные". Here "иногда жаман жай" is an alternative-form marker plus Kyrgyz variant, so it stays on the left. A split after "жер" that leaves the comma on the left is wrong.\n'
-        '- Example: atoms ["май","-","май","южн",".","коли","!","(","выкрик",...] => target_starts_at_atom = 4, target_first_atom = "южн". Here "южн. коли!" is already the Russian gloss, and the parenthetical only explains it further.\n'
-        '- Bad split example for the same line: target_starts_at_atom = 8 at "(" is wrong, because that would leave "южн. коли!" on the left even though it is already gloss text.\n'
-        '- Example: atoms ["чүкөдөй","(","о","человеке",")","маленький",...] => target_starts_at_atom = 2, target_first_atom = "(".\n'
-        '- Example: atoms ["оозу","катуу","тугоуздый","(","конь",")",";"] => target_starts_at_atom = null, target_first_atom = null, because "(конь)" is only a bare classifier and there is no real Russian gloss.\n'
-        '- Example: if a line contains a Kyrgyz phrase followed by a Russian gloss mentioning a person such as "Медетбек родился в Таласе", the capitalized name "Медетбек" may belong to the right side if it is part of the Russian gloss.\n'
-        '- Do not omit any blockquote_id.\n\n'
-        'Card context:\n'
-        f'{card_xml}\n\n'
-        'Blockquotes to evaluate:\n'
-        f'{json.dumps(enumerated, ensure_ascii=False, indent=2)}'
+        '- Return one decision for every listed blockquote_id.\n'
+        '- For each blockquote, return target_starts_at_char as a 0-based character index into that blockquote\'s Annotated text.\n'
+        '- Also return target_starts_with: the exact first 8 to 16 characters of the right side as they appear in Annotated text, or the full right side if shorter. If target_starts_at_char is null, target_starts_with must be null.\n'
+        '- If there is no sensible split, return null.\n'
+        '- The index must point to the first non-space character of the right side.\n'
+        '- The index must not point inside a placeholder such as [[WL1|...]] or [[SPD1|-]].\n'
+        '- In most lines the right side begins at the first lexical Russian word.\n'
+        '- If the right side begins with a separate Russian parenthetical or quoted note, point to the opening punctuation.\n'
+        '- If a lexical Russian word already appears before a later parenthetical or dash explanation, the right side begins at that lexical word, not later.\n'
+        '- The source must not end with a comma, opening parenthesis, or opening quote.\n'
+        '- The target must not start with a comma.\n'
+        '- If a Russian parenthetical note like (о человеке), (о раскосом человеке), (там), (даже), or (букв. ...) appears between the Kyrgyz phrase and the rest of the Russian gloss, that parenthetical belongs to the right side.\n'
+        '- But a parenthetical variant marker such as (вместо тай жеңе), where the parenthesis introduces another Kyrgyz form rather than Russian gloss text, belongs to the left side together with the Kyrgyz expression.\n'
+        '- If the only Russian material is a bare classifier like (конь); and there is no real gloss after it, return null.\n'
+        '- Keep Kyrgyz alternative chains on the left, including chains joined by или, иногда, or regional labels, until the Russian gloss really begins.\n'
+        '- If или is followed by a single ambiguous token that could still be Kyrgyz, and the first unambiguously Russian word appears later, start the right side at that later Russian word.\n'
+        '- Some words are ambiguous and can look valid on either side, for example кара, как, бери, рекорд. Do not decide from one ambiguous token alone; decide from the shortest coherent phrase.\n'
+        '- If a repeated bridge noun still belongs naturally to the Kyrgyz side, keep it on the left and start the Russian gloss at the first clearly Russian adjective or explanatory phrase that follows.\n'
+        '- If a Russian gloss has the form X - explanation, the right side begins at X, not after the dash.\n'
+        '- Prefer the earliest boundary that yields a coherent Russian phrase without leaving Russian material on the left.\n\n'
+        'Examples:\n'
+        '- жоого ант жок врагу клятвы нет (...) -> right side starts at "в" in "врагу".\n'
+        '- көзү бар или көзү тирүү (о человеке) живой, здравствующий; -> right side starts at "(".\n'
+        '- бир көзүн аса, бир көзүн баса караган неме (о раскосом человеке) у него один глаз ... -> right side starts at "(".\n'
+        '- көзгө басар жалгыз боз үй жок эле (там) не было ни одной юрты ... -> right side starts at "(".\n'
+        '- тамактан көзү каткан он (так голоден, что) ... -> right side starts at "о" in "он".\n'
+        '- көзү жок баатыр или көзү жок эр бесстрашный или бесшабашный молодец ... -> right side starts at "б" in "бесстрашный".\n'
+        '- көз көрбөгөн рекорд невиданный рекорд; -> right side starts at "н" in "невиданный".\n'
+        '- караңгы түндө көз тапкан (даже) ночью находящий ... -> right side starts at "(".\n'
+        '- Манастын көрөр көзү - Каныкей любимая Манаса - Каныкей; -> right side starts at "л" in "любимая".\n'
+        '- көз байланган кез сумерки, начало вечерней темноты; -> right side starts at "с" in "сумерки".\n'
+        '- кара кесек или кара мясо (...) -> right side starts at "м" in "мясо".\n'
+        '- карап ганатурарлык ат конь - прямо загляденье; -> right side starts at "к" in "конь".\n\n'
+        '- таажеңе (вместо тай жеңе) старшая родственница матери ... -> right side starts at "с" in "старшая"; the parenthetical stays on the left because it names a Kyrgyz alternative form.\n\n'
+        'Blockquotes to review:\n\n'
+        + '\n\n'.join(sections)
+        + '\n\nReturn only the structured result.'
     )
     return [
         {'role': 'system', 'content': system},
@@ -250,6 +222,7 @@ def main() -> int:
     raw_args = sys.argv[1:]
     background = True
     model = os.environ.get('OPENAI_LLM_REVIEW_MODEL', DEFAULT_MODEL)
+    chunk_size = DEFAULT_CHUNK_SIZE
     args: list[str] = []
     i = 0
     while i < len(raw_args):
@@ -264,6 +237,14 @@ def main() -> int:
             model = raw_args[i + 1]
             i += 2
             continue
+        if arg == '--chunk-size':
+            if i + 1 >= len(raw_args):
+                raise SystemExit('--chunk-size requires a value')
+            chunk_size = int(raw_args[i + 1])
+            if chunk_size <= 0:
+                raise SystemExit('--chunk-size must be positive')
+            i += 2
+            continue
         args.append(arg)
         i += 1
 
@@ -272,6 +253,8 @@ def main() -> int:
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
 
     card_xml = extract_card_xml(headword)
+    items = iter_blockquotes(card_xml)
+    chunks = chunked(items, chunk_size)
     stem = f'card_{ascii_slug(headword)}'
     card_path = ARTIFACTS_DIR / f'{stem}.card.xml'
     response_path = ARTIFACTS_DIR / f'{stem}.response.json'
@@ -279,12 +262,22 @@ def main() -> int:
     job_path = ARTIFACTS_DIR / f'{stem}.job.json'
 
     card_path.write_text(card_xml + '\n', encoding='utf-8')
-    response = call_responses_api(build_prompt(card_xml, headword), background=background, model=model)
+
     if background:
+        responses = []
+        for idx, chunk in enumerate(chunks, 1):
+            response = call_responses_api(build_prompt_for_chunk(headword, chunk), background=True, model=model)
+            responses.append({
+                'chunk_index': idx,
+                'blockquote_ids': [item['blockquote_id'] for item in chunk],
+                'response_id': response.get('id'),
+            })
         job = {
+            'schema_version': 'char_split_chunk_v1',
             'card_headword': headword,
             'model': model,
-            'response_id': response.get('id'),
+            'chunk_size': chunk_size,
+            'responses': responses,
             'card_path': str(card_path),
             'response_path': str(response_path),
             'review_path': str(review_path),
@@ -293,11 +286,28 @@ def main() -> int:
         print(f'Card XML: {card_path}')
         print(f'Background job file: {job_path}')
         print(f'Model: {model}')
-        print(f"Background response queued: {response.get('id')}")
+        print(f'Chunk size: {chunk_size}')
+        print(f'Queued {len(responses)} chunk request(s) for {len(items)} blockquotes')
         return 0
 
-    response_path.write_text(json.dumps(response, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    review = extract_output_json(response)
+    raw_responses = []
+    decisions = []
+    for idx, chunk in enumerate(chunks, 1):
+        response = call_responses_api(build_prompt_for_chunk(headword, chunk), background=False, model=model)
+        raw_responses.append({
+            'chunk_index': idx,
+            'blockquote_ids': [item['blockquote_id'] for item in chunk],
+            'response': response,
+        })
+        chunk_review = extract_output_json(response)
+        decisions.extend(chunk_review.get('decisions', []))
+
+    response_path.write_text(json.dumps(raw_responses, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    review = {
+        'card_headword': headword,
+        'notes': f'Char-index review, up to {chunk_size} blockquotes per request.',
+        'decisions': decisions,
+    }
     review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(f'Card XML: {card_path}')
     print(f'Model: {model}')

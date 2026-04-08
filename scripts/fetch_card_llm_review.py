@@ -35,6 +35,8 @@ SOURCE_RUSSIAN_CLUE_RE = re.compile(r'\b(?:глядя|горюя|конь|мяс
 SOURCE_RUSSIAN_HYPHEN_END_RE = re.compile(r'\b[А-Яа-яЁё]+(?:ь|й)-\s*$', re.I)
 TARGET_AMBIGUOUS_ILI_RE = re.compile(r'^\s*или\s+(кара|как|бери)\b', re.I)
 SOURCE_ENDS_AMBIGUOUS_RE = re.compile(r'\b(кара|как|бери)\s*$', re.I)
+SOURCE_ENDS_RUSSIAN_PAREN_RE = re.compile(r'\((?:о|об|там|тут|здесь|букв\.?|т\.е\.)[^)]*\)\s*$', re.I)
+SOURCE_ENDS_RUSSIAN_WORD_RE = re.compile(r'\b(?:он|она|оно|они|ему|ей|его|их|не|молодец|сумерки|любимая)\s*$', re.I)
 
 
 def fetch_response(response_id: str) -> dict:
@@ -149,6 +151,10 @@ def suspicious_source_reason(source_text: str) -> str | None:
         return 'source ends with comma'
     if SOURCE_ENDS_AMBIGUOUS_RE.search(source):
         return 'source ends with ambiguous token'
+    if SOURCE_ENDS_RUSSIAN_PAREN_RE.search(source):
+        return 'source ends with Russian parenthetical note'
+    if SOURCE_ENDS_RUSSIAN_WORD_RE.search(source):
+        return 'source ends with obvious Russian word'
     if SOURCE_RUSSIAN_HYPHEN_END_RE.search(source):
         return 'source ends with Russian-looking hyphen form'
     if SOURCE_RUSSIAN_CLUE_RE.search(source):
@@ -249,24 +255,7 @@ def build_preview(review_path: Path, previous_patched_text: str | None = None) -
     return fixes_path, patched_card_path, diff_path, fix_diff_path, (iter_diff_path if previous_patched_text is not None else None), warn_path, suspicious_fix_warn_path
 
 
-def main() -> int:
-    if len(sys.argv) != 2:
-        print('Usage: fetch_card_llm_review.py <job.json>', file=sys.stderr)
-        return 1
-
-    job_path = Path(sys.argv[1]).resolve()
-    if not job_path.exists():
-        print(f'Job file not found: {job_path}', file=sys.stderr)
-        return 1
-
-    job = json.loads(job_path.read_text(encoding='utf-8'))
-    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
-    response = fetch_response(job['response_id'])
-    review = extract_output_json(response)
-    if review is None:
-        print(f"Still running: {response.get('id')} ({response.get('status')})")
-        return 0
-
+def write_completed_review(job: dict, response_payload: object, review_payload: dict) -> tuple[Path, Path, Path, Path, Path | None, Path | None, Path | None]:
     stem = Path(job['review_path']).name.removesuffix('.review.json')
     response_path = Path(job['response_path'])
     review_path = Path(job['review_path'])
@@ -282,15 +271,121 @@ def main() -> int:
         stem,
         [response_path, review_path, fixes_path, patched_card_path, diff_path, fix_diff_path, iter_diff_path, warn_path, suspicious_fix_warn_path],
     )
-    response_path.write_text(json.dumps(response, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-    review_path.write_text(json.dumps(review, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    response_path.write_text(json.dumps(response_payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    review_path.write_text(json.dumps(review_payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     card_xml = Path(job['card_path']).read_text(encoding='utf-8')
     blockquote_count = count_blockquotes(card_xml)
-    decision_count = len(review.get('decisions', []))
+    decision_count = len(review_payload.get('decisions', []))
     if decision_count != blockquote_count:
         print(f"Warning: blockquote/decision count mismatch for {job['card_headword']}: {blockquote_count} blockquotes vs {decision_count} decisions")
-    fixes_path, patched_card_path, diff_path, fix_diff_path, latest_iter_diff, latest_warn_path, latest_suspicious_fix_warn_path = build_preview(review_path, previous_patched_text=previous_patched_text)
+    return build_preview(review_path, previous_patched_text=previous_patched_text)
+
+
+def normalize_chunk_review(payload: dict, expected_ids: list[str]) -> list[dict]:
+    if 'decisions' in payload:
+        decisions = payload.get('decisions', [])
+    else:
+        decisions = [payload]
+    normalized: list[dict] = []
+    expected = set(expected_ids)
+    seen: set[str] = set()
+    for decision in decisions:
+        bq_id = decision.get('blockquote_id')
+        if bq_id not in expected:
+            print(f"Warning: unexpected blockquote_id in chunk result: {bq_id!r}")
+            continue
+        if bq_id in seen:
+            print(f"Warning: duplicate blockquote_id in chunk result: {bq_id!r}")
+            continue
+        seen.add(bq_id)
+        normalized.append(decision)
+    missing = [bq_id for bq_id in expected_ids if bq_id not in seen]
+    if missing:
+        print(f"Warning: missing decisions in chunk result: {', '.join(missing)}")
+    return normalized
+
+
+def main() -> int:
+    if len(sys.argv) != 2:
+        print('Usage: fetch_card_llm_review.py <job.json>', file=sys.stderr)
+        return 1
+
+    job_path = Path(sys.argv[1]).resolve()
+    if not job_path.exists():
+        print(f'Job file not found: {job_path}', file=sys.stderr)
+        return 1
+
+    job = json.loads(job_path.read_text(encoding='utf-8'))
+    ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
+    if job.get('responses'):
+        raw_responses = []
+        pending = []
+        decisions_by_id: dict[str, dict] = {}
+        completed_chunks = 0
+        for item in job['responses']:
+            response = fetch_response(item['response_id'])
+            raw_responses.append({
+                'chunk_index': item.get('chunk_index'),
+                'blockquote_ids': item.get('blockquote_ids'),
+                'response_id': item['response_id'],
+                'response': response,
+            })
+            payload = extract_output_json(response)
+            if payload is None:
+                pending.append(item)
+                continue
+            completed_chunks += 1
+            expected_ids = item.get('blockquote_ids')
+            if not expected_ids:
+                expected_ids = [item['blockquote_id']]
+            for decision in normalize_chunk_review(payload, expected_ids):
+                decisions_by_id[decision['blockquote_id']] = decision
+        if pending:
+            resolved = sum(len(item.get('blockquote_ids', [item.get('blockquote_id')])) for item in job['responses'] if item not in pending)
+            total = sum(len(item.get('blockquote_ids', [item.get('blockquote_id')])) for item in job['responses'])
+            print(f"Still running: {len(pending)}/{len(job['responses'])} chunk(s) pending, {resolved}/{total} blockquotes ready")
+            if len(pending) <= 10:
+                labels = ', '.join(
+                    f"chunk{item.get('chunk_index', '?')}={item['response_id']}"
+                    for item in pending
+                )
+                print(f'Pending: {labels}')
+            return 0
+        ordered_decisions = []
+        for item in job['responses']:
+            expected_ids = item.get('blockquote_ids')
+            if not expected_ids:
+                expected_ids = [item['blockquote_id']]
+            for bq_id in expected_ids:
+                decision = decisions_by_id.get(bq_id)
+                if decision is not None:
+                    ordered_decisions.append(decision)
+        response_payload = {
+            'card_headword': job['card_headword'],
+            'model': job.get('model'),
+            'chunk_size': job.get('chunk_size'),
+            'responses': raw_responses,
+        }
+        review = {
+            'card_headword': job['card_headword'],
+            'notes': f"Char-index review, up to {job.get('chunk_size', 1)} blockquotes per request.",
+            'decisions': ordered_decisions,
+        }
+    else:
+        response = fetch_response(job['response_id'])
+        review = extract_output_json(response)
+        if review is None:
+            print(f"Still running: {response.get('id')} ({response.get('status')})")
+            return 0
+        response_payload = response
+
+    fixes_path, patched_card_path, diff_path, fix_diff_path, latest_iter_diff, latest_warn_path, latest_suspicious_fix_warn_path = write_completed_review(
+        job,
+        response_payload,
+        review,
+    )
+    response_path = Path(job['response_path'])
+    review_path = Path(job['review_path'])
     print(f'Response JSON: {response_path}')
     print(f'Review JSON: {review_path}')
     print(f'Approved fixes preview JSON: {fixes_path}')
