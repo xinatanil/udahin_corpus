@@ -1,0 +1,111 @@
+{
+  "card_headword": "азык",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_azyk.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бөрү языгы - жолдон погов. волка ноги кормят (букв. волчий провиант в пути);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бөрү языгы - жолдон</source>\n\t<target>погов. волка ноги кормят (букв. волчий провиант в пути);</target>\n</ex>",
+      "reason": "Киргизская часть — «бөрү языгы[[SPD1|-]]жолдон»; русская аббревиатура «погов.» начинается в слове «погов.» (п).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эр азыгы - элден, бөрү азыгы - жолдон погов. пища молодца от народа, пища волка в пути (т.е. ни тот, ни другой путевых запасов не имеют);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эр азыгы - элден, бөрү азыгы - жолдон</source>\n\t<target>погов. пища молодца от народа, пища волка в пути (т.е. ни тот, ни другой путевых запасов не имеют);</target>\n</ex>",
+      "reason": "Несколько киргизских выражений до «жолдон»; русская пометка «погов.» начинается на «п» в «погов.» и далее идёт русский перевод.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жол азык путевое довольствие, путевой провиант;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жол азык</source>\n\t<target>путевое довольствие, путевой провиант;</target>\n</ex>",
+      "reason": "Киргизская часть «жол азык» заканчивается перед пробелом; русская лексика начинается с «путевое».",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күл азык см. <wordLink word=\"күлазык\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күл азык</source>\n\t<target>см. <wordLink word=\"күлазык\"/>;</target>\n</ex>",
+      "reason": "Русская служебная пометка «см.» начинается на «с» и относится к правой стороне.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-кече см. <wordLink word=\"кече\" homonym=\"II\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-кече</source>\n\t<target>см. <wordLink word=\"кече\" homonym=\"II\"/>;</target>\n</ex>",
+      "reason": "Русская пометка «см.» начинается на «с» после киргизского «азык-кече».",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-түлүк продовольствие;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-түлүк</source>\n\t<target>продовольствие;</target>\n</ex>",
+      "reason": "Киргизская словоформа «азык-түлүк» слева; русское «продовольствие» начинается с «п».",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-түлүк магазини продовольственный магазин;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-түлүк магазини</source>\n\t<target>продовольственный магазин;</target>\n</ex>",
+      "reason": "Сохраняю «азык-түлүк магазини» как киргизскую конструкцию; русская лексика начинается с «продовольственный» (п).",
+      "confidence": 0.75
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-түлүк товарлары продовольственные товары;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-түлүк товарлары</source>\n\t<target>продовольственные товары;</target>\n</ex>",
+      "reason": "Киргизская часть «азык-түлүк товарлары» слева; русская фраза начинается с «продовольственные» (п).",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өндүрүш азыктары продукты производства;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өндүрүш азыктары</source>\n\t<target>продукты производства;</target>\n</ex>",
+      "reason": "Киргизская «өндүрүш азыктары» слева; русская «продукты производства» начинается с «п».",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>сүт азыктары молочные продукты;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>сүт азыктары</source>\n\t<target>молочные продукты;</target>\n</ex>",
+      "reason": "Киргизская «сүт азыктары» слева; русская «молочные продукты» начинается с «м».",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-түлүктүү дающий продукцию, продуктивный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-түлүктүү</source>\n\t<target>дающий продукцию, продуктивный;</target>\n</ex>",
+      "reason": "Right side begins at the first Russian lexical word 'дающий'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-түлүктүү уйлар продуктивные коровы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-түлүктүү уйлар</source>\n\t<target>продуктивные коровы;</target>\n</ex>",
+      "reason": "Right side begins at the first Russian lexical word 'продуктивные'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азык-түлүктүүлүк продуктивность;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азык-түлүктүүлүк</source>\n\t<target>продуктивность;</target>\n</ex>",
+      "reason": "Right side begins at the first Russian lexical word 'продуктивность'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>мал-дын азык-түлүктүүлүгүн жогорулатуу повышение продуктивности скота;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>мал-дын азык-түлүктүүлүгүн жогорулатуу</source>\n\t<target>повышение продуктивности скота;</target>\n</ex>",
+      "reason": "Right side begins at the first Russian lexical word 'повышение'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>окуу- билим азыгы, билим - ырыс азыгы погов. учение - источник (букв. пища) знания, знание - источник (букв. пища) счастья.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>окуу- билим азыгы, билим - ырыс азыгы</source>\n\t<target>погов. учение - источник (букв. пища) знания, знание - источник (букв. пища) счастья.</target>\n</ex>",
+      "reason": "Right side begins at the earliest Russian material, the abbreviation 'погов.' (followed by 'учение').",
+      "confidence": 0.9
+    }
+  ]
+}

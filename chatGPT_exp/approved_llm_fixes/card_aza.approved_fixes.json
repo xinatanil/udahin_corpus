@@ -1,0 +1,41 @@
+{
+  "card_headword": "аза",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_aza.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аза маршы похоронный марш;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аза маршы</source>\n\t<target>похоронный марш;</target>\n</ex>",
+      "reason": "Left side 'аза маршы' is a complete Kyrgyz expression; the Russian gloss 'похоронный марш' begins at the 'п' of 'похоронный'.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аза күтүү митинги траурный митинг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аза күтүү митинги</source>\n\t<target>траурный митинг;</target>\n</ex>",
+      "reason": "The earliest coherent Russian gloss begins at 'траурный' (траурный митинг). The left side remains the complete Kyrgyz phrase 'аза күтүү митинги'.",
+      "confidence": 0.93
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>азага бар- (или актыкка бар-) отправиться к семье покойного с выражением соболезнования и с подношением на поминальные расходы;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>азага бар- (или актыкка бар-)</source>\n\t<target>отправиться к семье покойного с выражением соболезнования и с подношением на поминальные расходы;</target>\n</ex>",
+      "reason": "Kept the Kyrgyz expression with its alternative on the left: \"азага бар- (или актыкка бар-)\". The Russian gloss begins at \"отправиться...\", whose first character 'о' is at index 30.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көңүлү аза болуп калды он немного обиделся, огорчился.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көңүлү аза болуп калды</source>\n\t<target>он немного обиделся, огорчился.</target>\n</ex>",
+      "reason": "The Kyrgyz phrase 'көңүлү аза болуп калды' is a complete left-side expression; the first Russian gloss begins at 'он' (index 23), so the right side should start there.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колхоз азалары члены колхоза;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колхоз азалары</source>\n\t<target>члены колхоза;</target>\n</ex>",
+      "reason": "Keeps full Kyrgyz phrase 'колхоз азалары' on the left; the Russian gloss 'члены колхоза' begins at the first Russian word 'ч' (index 15).",
+      "confidence": 0.9
+    }
+  ]
+}

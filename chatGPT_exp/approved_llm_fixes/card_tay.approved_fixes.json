@@ -1,0 +1,216 @@
+{
+  "card_headword": "тай",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_tay.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай ата (или таята) дед по материнской линии;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай ата (или таята)</source>\n\t<target>дед по материнской линии;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'дед' after the Kyrgyz phrase 'тай ата (или таята)'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай эне (или таене) бабушка по материнской линии;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай эне (или таене)</source>\n\t<target>бабушка по материнской линии;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'бабушка' after the Kyrgyz phrase 'тай эне (или таене)'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай эже (или таеже) сестра по материнской линии (старшая и младшая);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай эже (или таеже)</source>\n\t<target>сестра по материнской линии (старшая и младшая);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'сестра' after the Kyrgyz phrase 'тай эже (или таеже)'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай аке (или таяке) старший родственник по материнской линии;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай аке (или таяке)</source>\n\t<target>старший родственник по материнской линии;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'старший' after the Kyrgyz phrase 'тай аке (или таяке)'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таажеңе (вместо тай жеңе) старшая родственница матери или жена старшего родственника матери;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таажеңе (вместо тай жеңе)</source>\n\t<target>старшая родственница матери или жена старшего родственника матери;</target>\n</ex>",
+      "reason": "Parenthetical is a Kyrgyz variant; Russian gloss begins at 'старшая' after 'таажеңе (вместо тай жеңе)'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таажезде (тай жезде) муж сестры матери, дядя;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таажезде (тай жезде)</source>\n\t<target>муж сестры матери, дядя;</target>\n</ex>",
+      "reason": "Parenthetical is a Kyrgyz variant; Russian gloss begins at 'муж' after 'таажезде (тай жезде)'.",
+      "confidence": 0.94
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таякеси чогулуп калды он совсем сморщился; сильно сморщилось;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таякеси чогулуп калды</source>\n\t<target>он совсем сморщился; сильно сморщилось;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'он' after the Kyrgyz clause 'таякеси чогулуп калды'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тайы бас или тайы жаман с плохими задатками;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тайы бас или тайы жаман</source>\n\t<target>с плохими задатками;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'с' in 'с плохими...' after the Kyrgyz alternatives 'тайы бас или тайы жаман'.",
+      "confidence": 0.93
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тайда татыгы жок изодранный, истрёпанный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тайда татыгы жок</source>\n\t<target>изодранный, истрёпанный;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'изодранный' (starting with 'и') after the Kyrgyz 'тайда татыгы жок'.",
+      "confidence": 0.93
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бутунда тайда тамтыгы жок жаман маасы на ногах у него плохие изодранные ичиги (см. <wordLink word=\"маасы\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бутунда тайда тамтыгы жок жаман маасы</source>\n\t<target>на ногах у него плохие изодранные ичиги (см. <wordLink word=\"маасы\"/>);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'на' in 'на ногах...' after the Kyrgyz phrase 'бутунда тайда тамтыгы жок жаман маасы'.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай талаш то же, что <wordLink word=\"тайталаш\" homonym=\"I\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай талаш</source>\n\t<target>то же, что <wordLink word=\"тайталаш\" homonym=\"I\"/>;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'то же, что' — start at 'то' (index 10).",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай талаш- то же, что <wordLink word=\"тайталаш-\" homonym=\"II\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай талаш-</source>\n\t<target>то же, что <wordLink word=\"тайталаш-\" homonym=\"II\"/>.</target>\n</ex>",
+      "reason": "Russian gloss begins at 'то же, что' — start at 'то' (index 11).",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ооз жарма тай (см. <wordLink word=\"жарма\" homonym=\"II\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ооз жарма тай</source>\n\t<target>(см. <wordLink word=\"жарма\" homonym=\"II\"/>);</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(см. ...)' begins the Russian side — start at '(' (index 14).",
+      "confidence": 0.98
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай-туйтлак минип садясь верхом на какого-то жеребёнка (лошади у него не было);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай-туйтлак минип</source>\n\t<target>садясь верхом на какого-то жеребёнка (лошади у него не было);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'садясь' — start at 'с' of 'садясь' (index 18).",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>келте тай южн жеребёнок-cосунок;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>келте тай</source>\n\t<target>южн жеребёнок-cосунок;</target>\n</ex>",
+      "reason": "Russian material begins at 'южн' (южный) — start at 'ю' (index 10).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай-така то же, что <wordLink word=\"тай туяк\"/> (см. <wordLink word=\"туяк\" meaning=\"3\"/>);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай-така</source>\n\t<target>то же, что <wordLink word=\"тай туяк\"/> (см. <wordLink word=\"туяк\" meaning=\"3\"/>);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'то же, что' — start at 'то' (index 9).",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эки тай алдым или эки тай миндим я проиграл две партии;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эки тай алдым или эки тай миндим</source>\n\t<target>я проиграл две партии;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'я проиграл...' — start at 'я' (index 33); keep Kyrgyz alternatives on the left.",
+      "confidence": 0.97
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир тай бердим я выиграл одну партию;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир тай бердим</source>\n\t<target>я выиграл одну партию;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'я выиграл...' — start at 'я' (index 15).",
+      "confidence": 0.97
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жүз тай одна из фаз детской игры в чижика;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жүз тай</source>\n\t<target>одна из фаз детской игры в чижика;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'одна из фаз...' — start at 'о' of 'одна' (index 8).",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>эрке тайым мой миленький;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>эрке тайым</source>\n\t<target>мой миленький;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'мой миленький' — start at 'м' of 'мой' (index 11).",
+      "confidence": 0.96
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аке тай (или акетай) тятенька;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аке тай (или акетай)</source>\n\t<target>тятенька;</target>\n</ex>",
+      "reason": "Russian gloss 'тятенька' begins at index 21 after Kyrgyz alternative '(или акетай)'.",
+      "confidence": 0.93
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай-тай! возглас. подбадривающий начинающего ходить ребёнка;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай-тай!</source>\n\t<target>возглас. подбадривающий начинающего ходить ребёнка;</target>\n</ex>",
+      "reason": "Kyrgyz interjection 'тай-тай!' ends at index 7; Russian meta 'возглас.' starts at index 9.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тай-тайла- то же, что <wordLink word=\"тай-тайла-\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тай-тайла-</source>\n\t<target>то же, что <wordLink word=\"тай-тайла-\"/>.</target>\n</ex>",
+      "reason": "Russian phrase 'то же, что ...' begins at index 11 after the Kyrgyz form 'тай-тайла-'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>поезд рельсадан тайып чыгып кетти поезд сошёл (букв. соскользнул) с рельсов;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>поезд рельсадан тайып чыгып кетти</source>\n\t<target>поезд сошёл (букв. соскользнул) с рельсов;</target>\n</ex>",
+      "reason": "Full Kyrgyz sentence ends before the second 'поезд'; Russian gloss 'поезд сошёл...' begins at index 34.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>андан мал тайды скота у него поубавилось; он лишился богатства;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>андан мал тайды</source>\n\t<target>скота у него поубавилось; он лишился богатства;</target>\n</ex>",
+      "reason": "Kyrgyz 'андан мал тайды' ends at index 14; Russian 'скота у него поубавилось...' begins at index 16.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алдан тай- или каруудан тай-или күч-кубаттан тай- обессилеть, изнуриться;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алдан тай- или каруудан тай-или күч-кубаттан тай-</source>\n\t<target>обессилеть, изнуриться;</target>\n</ex>",
+      "reason": "Kyrgyz alternative chain ends before 'обессилеть'; Russian gloss 'обессилеть, изнуриться' begins at index 50.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өзүң барып сура, өңдү көрсө, жүз таят ты сам пойди и попроси, если он увидит лицо (твое), то устыдится (и не откажет);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өзүң барып сура, өңдү көрсө, жүз таят</source>\n\t<target>ты сам пойди и попроси, если он увидит лицо (твое), то устыдится (и не откажет);</target>\n</ex>",
+      "reason": "Kyrgyz clause 'өзүң барып ... жүз таят' ends at index 36; Russian 'ты сам пойди...' starts at index 38.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бакты баштан тайбаса если не изменит счастье;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бакты баштан тайбаса</source>\n\t<target>если не изменит счастье;</target>\n</ex>",
+      "reason": "Kyrgyz 'бакты баштан тайбаса' ends at index 19; Russian 'если не изменит счастье' begins at index 21.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>көз таят глаза разбегаются;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>көз таят</source>\n\t<target>глаза разбегаются;</target>\n</ex>",
+      "reason": "Kyrgyz 'көз таят' ends at index 7; Russian 'глаза разбегаются' begins at index 9.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жазып-тайып (см. <wordLink word=\"жаз-\" homonym=\"III\" meaning=\"1\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жазып-тайып</source>\n\t<target>(см. <wordLink word=\"жаз-\" homonym=\"III\" meaning=\"1\"/>).</target>\n</ex>",
+      "reason": "Parenthetical Russian meta '(см. [[WL1|жаз-]])' begins at index 12 after the Kyrgyz 'жазып-тайып'.",
+      "confidence": 0.95
+    }
+  ]
+}

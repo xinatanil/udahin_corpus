@@ -1,0 +1,90 @@
+{
+  "card_headword": "чайка-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_chayka-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>баш чайка- качать головой (выражая отрицание, несогласие или удивление);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>баш чайка-</source>\n\t<target>качать головой (выражая отрицание, несогласие или удивление);</target>\n</ex>",
+      "reason": "Right side begins at the Russian verb 'качать' (the Kyrgyz left side is 'баш чайка-').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кымыз чайка- взбалтывать кумыс (чем больше взбалтывать кумыс, тем он становится лучше);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кымыз чайка-</source>\n\t<target>взбалтывать кумыс (чем больше взбалтывать кумыс, тем он становится лучше);</target>\n</ex>",
+      "reason": "Right side begins at the Russian verb 'взбалтывать' (left: 'кымыз чайка-').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чайкаган кымыз хорошо приготовленный кумыс, хороший кумыс;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чайкаган кымыз</source>\n\t<target>хорошо приготовленный кумыс, хороший кумыс;</target>\n</ex>",
+      "reason": "Right side begins at the Russian adjective/adverb 'хорошо' after the Kyrgyz 'чайкаган кымыз'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>чайкаган кымыз таткандай (так приятно) будто попробовал хорошего кумыса;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>чайкаган кымыз таткандай</source>\n\t<target>(так приятно) будто попробовал хорошего кумыса;</target>\n</ex>",
+      "reason": "Right side begins at the Russian parenthetical '(так приятно)', which starts the Russian gloss after Kyrgyz 'чайкаган кымыз таткандай'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уу чайка- подмешать (в питьё) яду;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уу чайка-</source>\n\t<target>подмешать (в питьё) яду;</target>\n</ex>",
+      "reason": "Right side begins at the Russian verb 'подмешать' (left: 'уу чайка-').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бал чайка- подмешать (в питьё) мёду, сдобрить (питьё) мёдом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бал чайка-</source>\n\t<target>подмешать (в питьё) мёду, сдобрить (питьё) мёдом;</target>\n</ex>",
+      "reason": "Right side begins at the Russian gloss 'подмешать' immediately after the Kyrgyz left 'бал чайка-'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бал чайкаган кымыз хороший кумыс, сдобренный мёдом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бал чайкаган кымыз</source>\n\t<target>хороший кумыс, сдобренный мёдом;</target>\n</ex>",
+      "reason": "Right side begins at the Russian adjective 'хороший', after the Kyrgyz phrase 'бал чайкаган кымыз'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бал менен оозун чайкаган (о человеке) мудрый и обаятельный в речах (букв. кто рот свой мёдом полощет);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бал менен оозун чайкаган</source>\n\t<target>(о человеке) мудрый и обаятельный в речах (букв. кто рот свой мёдом полощет);</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о человеке)' starts the Russian side; it belongs to the gloss after the Kyrgyz 'бал менен оозун чайкаган'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кыян арпанын кыйла жерин агызын, кыйла жерине кум чайкап калды паводок значительную часть (посева) ячменя смыл, значительную часть занёс песком;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кыян арпанын кыйла жерин агызын, кыйла жерине кум чайкап калды</source>\n\t<target>паводок значительную часть (посева) ячменя смыл, значительную часть занёс песком;</target>\n</ex>",
+      "reason": "Right side begins at the Russian noun 'паводок', which starts the Russian gloss after the Kyrgyz clause ending in 'калды'.",
+      "confidence": 0.93
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>борошо бороп, жолду ширенди чайкайт метёт метелица, и дорогу покрывает плотный снег;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>борошо бороп, жолду ширенди чайкайт</source>\n\t<target>метёт метелица, и дорогу покрывает плотный снег;</target>\n</ex>",
+      "reason": "Right side begins at the Russian verb 'метёт', which provides the Russian gloss following the Kyrgyz clause ending in 'чайкайт'.",
+      "confidence": 0.92
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>акча чайка- пускать деньги в оборот (гл. обр. занимаясь спекуляцией);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>акча чайка-</source>\n\t<target>пускать деньги в оборот (гл. обр. занимаясь спекуляцией);</target>\n</ex>",
+      "reason": "Right side begins at the first Russian lexical word 'пускать'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алаканда чайка- обращаться с кем-л. как с пешкой; вертеть кем-л.; легко припереть кого-л. к стене (напр. в споре);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алаканда чайка-</source>\n\t<target>обращаться с кем-л. как с пешкой; вертеть кем-л.; легко припереть кого-л. к стене (напр. в споре);</target>\n</ex>",
+      "reason": "Right side begins at the first Russian lexical verb 'обращаться'.",
+      "confidence": 0.9
+    }
+  ]
+}

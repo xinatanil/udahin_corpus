@@ -1,0 +1,209 @@
+{
+  "card_headword": "ур",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_ur.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кайыңдын уру берёзовый наплыв, чага.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кайыңдын уру</source>\n\t<target>берёзовый наплыв, чага.</target>\n</ex>",
+      "reason": "Russian gloss 'берёзовый ...' starts at 'берёзовый'; keep Kyrgyz 'кайыңдын уру' on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>колу жок, уруп турат, буту жок, жүрүп турат загадка без рук, а бьёт, без ног, а идёт (отгадка саат часы);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>колу жок, уруп турат, буту жок, жүрүп турат</source>\n\t<target>загадка без рук, а бьёт, без ног, а идёт (отгадка саат часы);</target>\n</ex>",
+      "reason": "Russian explanatory gloss begins with 'загадка ...' after the Kyrgyz phrase 'жүрүп турат'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>атына камчыны урду он хлестнул своего коня плетью;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>атына камчыны урду</source>\n\t<target>он хлестнул своего коня плетью;</target>\n</ex>",
+      "reason": "Russian translation begins with 'он ...'; keep Kyrgyz 'атына камчыны урду' on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>таш урду он бросил камнем в кого-л., во что-л.;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>таш урду</source>\n\t<target>он бросил камнем в кого-л., во что-л.;</target>\n</ex>",
+      "reason": "Russian gloss starts at 'он бросил ...' following the Kyrgyz 'таш урду'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>урсаң - өлдүм, берсең - жедим я в твоих руках (букв. ударишь - умру, дашь - поем; говорят о человеке, который всё время смотрит из чужих рук);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>урсаң - өлдүм, берсең - жедим</source>\n\t<target>я в твоих руках (букв. ударишь - умру, дашь - поем; говорят о человеке, который всё время смотрит из чужих рук);</target>\n</ex>",
+      "reason": "Russian commentary begins at 'я ...' (the parenthetical 'букв.' also belongs to the Russian side).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уруп-сабап или уруп-согуп избив-исколотив;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уруп-сабап или уруп-согуп</source>\n\t<target>избив-исколотив;</target>\n</ex>",
+      "reason": "Russian gloss 'избив-исколотив' is the translation; keep Kyrgyz alternatives 'уруп-сабап или уруп-согуп' on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ура жүрүп или уруп отуруп двигаясь быстрым ходом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ура жүрүп или уруп отуруп</source>\n\t<target>двигаясь быстрым ходом;</target>\n</ex>",
+      "reason": "Russian phrase 'двигаясь быстрым ходом' begins at 'двигаясь'; keep Kyrgyz alternatives on the left.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уктап, уйку албастан, ура жүрүп, түн катты он ехал быстро, всю ночь не сомкнув глаз;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уктап, уйку албастан, ура жүрүп, түн катты</source>\n\t<target>он ехал быстро, всю ночь не сомкнув глаз;</target>\n</ex>",
+      "reason": "Russian clause begins with 'он ехал быстро ...' after the Kyrgyz sequence; start at 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>уруп отуруп, кырды ашып кетишти быстро убегая, они перевалили хребет;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>уруп отуруп, кырды ашып кетишти</source>\n\t<target>быстро убегая, они перевалили хребет;</target>\n</ex>",
+      "reason": "Russian gloss 'быстро убегая, они перевалили ...' starts at 'быстро'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>коргон ур- строить крепость (встарь обычно строилась из глины);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>коргон ур-</source>\n\t<target>строить крепость (встарь обычно строилась из глины);</target>\n</ex>",
+      "reason": "Russian infinitive 'строить ...' is the translation; it begins at 'строить' after the Kyrgyz form 'коргон ур-'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кудай урган богом убитый, богом наказанный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кудай урган</source>\n\t<target>богом убитый, богом наказанный;</target>\n</ex>",
+      "reason": "Kyrgyz left 'кудай урган' ends at index 11; Russian gloss begins with 'богом...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>урган употребляется в разных неодобрительных значениях: никудышный, негодник, проклятый и т.п.;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>урган</source>\n\t<target>употребляется в разных неодобрительных значениях: никудышный, негодник, проклятый и т.п.;</target>\n</ex>",
+      "reason": "Single-word Kyrgyz 'урган' on the left; Russian gloss begins at 'употребляется'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ал урган, аяганды билеби? разве он, проклятый, знает, что значит жалеть?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ал урган, аяганды билеби?</source>\n\t<target>разве он, проклятый, знает, что значит жалеть?</target>\n</ex>",
+      "reason": "Kyrgyz sentence ends with question mark; Russian sentence begins at 'разве'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жандын урганы (о человеке) самый что ни на есть никудышный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жандын урганы</source>\n\t<target>(о человеке) самый что ни на есть никудышный;</target>\n</ex>",
+      "reason": "Parenthetical Russian note '(о человеке)' follows the Kyrgyz phrase and belongs to the Russian side.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>курсактан урган акмак безнадёжный дурак;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>курсактан урган акмак</source>\n\t<target>безнадёжный дурак;</target>\n</ex>",
+      "reason": "Kyrgyz phrase ends with 'акмак'; Russian gloss starts at 'безнадёжный'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кудай урбадыбы сени! да ты с ума сошёл!, да что ты наделал-то!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кудай урбадыбы сени!</source>\n\t<target>да ты с ума сошёл!, да что ты наделал-то!;</target>\n</ex>",
+      "reason": "Kyrgyz exclamation ends at index 20; Russian exclamation begins at 'да...'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>урсун выражение заклятия;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>урсун</source>\n\t<target>выражение заклятия;</target>\n</ex>",
+      "reason": "Kyrgyz lemma 'урсун' is left; Russian gloss 'выражение заклятия' begins at index 6.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>тузум урсун, тузум, наным урсун! пусть ему (этому неблагодарному) поперёк горла встанет моя хлеб-соль!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>тузум урсун, тузум, наным урсун!</source>\n\t<target>пусть ему (этому неблагодарному) поперёк горла встанет моя хлеб-соль!;</target>\n</ex>",
+      "reason": "Multiple Kyrgyz formulas precede; Russian gloss begins at 'пусть ему', with parenthetical following.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>аянып калсак, зоо урсун! аркайган Ала-Тоо урсун! фольк. если мы побоимся (букв. пожалеем себя), пусть нас скалы накажут, пусть нас вздымающиеся (горы) Ала-Тоо накажут!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>аянып калсак, зоо урсун! аркайган Ала-Тоо урсун!</source>\n\t<target>фольк. если мы побоимся (букв. пожалеем себя), пусть нас скалы накажут, пусть нас вздымающиеся (горы) Ала-Тоо накажут!;</target>\n</ex>",
+      "reason": "The Russian meta marker 'фольк.' marks the start of Russian explanatory material.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ант урсун! пусть клятва (если она нарушена или будет нарушена) покарает!, пусть будет проклят тот, кто нарушит клятву!;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ант урсун!</source>\n\t<target>пусть клятва (если она нарушена или будет нарушена) покарает!, пусть будет проклят тот, кто нарушит клятву!;</target>\n</ex>",
+      "reason": "Kyrgyz exclamation 'ант урсун!' ends at index 9; Russian gloss begins at 'пусть...', including the following parenthetical.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>оозун уруп, сурун уруп, тукумун уруп обругав рот его, душу его и весь род его;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>оозун уруп, сурун уруп, тукумун уруп</source>\n\t<target>обругав рот его, душу его и весь род его;</target>\n</ex>",
+      "reason": "Russian gloss begins at the word 'обругав' after the Kyrgyz phrase 'тукумун уруп'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>малдын башын урдум! к чёрту послал я свой скот! (провалился бы он!);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>малдын башын урдум!</source>\n\t<target>к чёрту послал я свой скот! (провалился бы он!);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'к чёрту послал я свой скот!' following the Kyrgyz exclamation.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ур дедирбей быстро, проворно;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ур дедирбей</source>\n\t<target>быстро, проворно;</target>\n</ex>",
+      "reason": "Russian gloss starts at 'быстро, проворно' after the Kyrgyz 'ур дедирбей'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кана, кеп урбайсыңбы? ну-ка, что же не рассказываешь?</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кана, кеп урбайсыңбы?</source>\n\t<target>ну-ка, что же не рассказываешь?</target>\n</ex>",
+      "reason": "Russian clause begins at 'ну-ка, что же не рассказываешь?' after the Kyrgyz question.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>и, Саке, кеп ура олтур ну, Саке, говори;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>и, Саке, кеп ура олтур</source>\n\t<target>ну, Саке, говори;</target>\n</ex>",
+      "reason": "Russian imperative 'ну, Саке, говори;' begins after the Kyrgyz clause ending with 'олтур'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жалган кептен урбаган тот, кто никогда не врёт;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жалган кептен урбаган</source>\n\t<target>тот, кто никогда не врёт;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'тот, кто никогда не врёт' following the Kyrgyz phrase 'жалган кептен урбаган'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бир ит көрүп үрөт, бир ит көрбөй үрөт погов. одна собака лает, увидев (кого-то), другая собака лает, не видя (о подголосках или о тех, кто подхватывает слухи, сплетни);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бир ит көрүп үрөт, бир ит көрбөй үрөт</source>\n\t<target>погов. одна собака лает, увидев (кого-то), другая собака лает, не видя (о подголосках или о тех, кто подхватывает слухи, сплетни);</target>\n</ex>",
+      "reason": "A Russian meta note/abbreviation 'погов.' (поговорка) appears immediately after the Kyrgyz proverb and marks the start of the Russian material.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ичер ашы жок, үрөр ити жок у него ни кола ни двора (букв. нет пищи, чтоб поесть, нет собаки, которая бы лаяла);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ичер ашы жок, үрөр ити жок</source>\n\t<target>у него ни кола ни двора (букв. нет пищи, чтоб поесть, нет собаки, которая бы лаяла);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'у него ни кола ни двора' following the Kyrgyz clause 'үрөр ити жок'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ит үргөн жерге жолобойт он избегает населённых мест (букв. туда, где лают собаки, он не ходит).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ит үргөн жерге жолобойт</source>\n\t<target>он избегает населённых мест (букв. туда, где лают собаки, он не ходит).</target>\n</ex>",
+      "reason": "Russian gloss begins at 'он избегает населённых мест' after the Kyrgyz phrase 'ит үргөн жерге жолобойт'.",
+      "confidence": 0.95
+    }
+  ]
+}

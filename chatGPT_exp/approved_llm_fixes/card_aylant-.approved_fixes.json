@@ -1,0 +1,62 @@
+{
+  "card_headword": "айлант-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_aylant-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айланта кругом, вокруг;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айланта</source>\n\t<target>кругом, вокруг;</target>\n</ex>",
+      "reason": "Earliest Russian lexical gloss 'кругом' begins at the 'к' of 'кругом'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айланта карап осмотрев, обойдя кругом; осмотрев со всех сторон;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айланта карап</source>\n\t<target>осмотрев, обойдя кругом; осмотрев со всех сторон;</target>\n</ex>",
+      "reason": "First Russian word 'осмотрев' begins at index 14 (after Kyrgyz 'айланта карап').",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кемпир ырым-жырымын кылып, башынан суу айлантып чачып... старуха, совершив магические действия, побрызгав вокруг головы его водой...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кемпир ырым-жырымын кылып, башынан суу айлантып чачып...</source>\n\t<target>старуха, совершив магические действия, побрызгав вокруг головы его водой...;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'старуха' after the Kyrgyz clause; point to 'с' of 'старуха'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айлантпай не дав ещё кончиться, не дав пройти (какому-л. времени);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айлантпай</source>\n\t<target>не дав ещё кончиться, не дав пройти (какому-л. времени);</target>\n</ex>",
+      "reason": "Russian phrase starts with 'не' (не дав ещё кончиться); point to 'н'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күз айлантпай не дав ещё пройти осени; не успела осень пройти (как...);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күз айлантпай</source>\n\t<target>не дав ещё пройти осени; не успела осень пройти (как...);</target>\n</ex>",
+      "reason": "Russian material begins with 'не' (не дав ещё пройти осени); point to the 'н' of 'не'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айлантып дав кончиться, пройти (какому-л. времени);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айлантып</source>\n\t<target>дав кончиться, пройти (какому-л. времени);</target>\n</ex>",
+      "reason": "Russian word 'дав' begins the gloss after Kyrgyz 'айлантып'; point to 'д' of 'дав'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>айларды-айлантып, жылдарды жылдырган он провёл месяцы и годы; по прошествии месяцев и лет он...; так у него прошло много лет; через много лет он...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>айларды-айлантып, жылдарды жылдырган</source>\n\t<target>он провёл месяцы и годы; по прошествии месяцев и лет он...; так у него прошло много лет; через много лет он...;</target>\n</ex>",
+      "reason": "Russian clause begins with 'он' ('он провёл...'); point to the 'о' of 'он'.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жыл айлантпай Букарга куда болуп баралы фольк. не дожидаясь истечения года, отправимся в Бухару для сватовства.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жыл айлантпай Букарга куда болуп баралы</source>\n\t<target>фольк. не дожидаясь истечения года, отправимся в Бухару для сватовства.</target>\n</ex>",
+      "reason": "Earliest Russian material is the meta label 'фольк.'; point to the 'ф' of 'фольк.' (the translation follows at 'не').",
+      "confidence": 0.9
+    }
+  ]
+}

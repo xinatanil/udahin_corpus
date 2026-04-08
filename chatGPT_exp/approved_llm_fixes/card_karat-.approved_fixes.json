@@ -1,0 +1,153 @@
+{
+  "card_headword": "карат-",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_karat-.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>докторго карат покажи врачу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>докторго карат</source>\n\t<target>покажи врачу;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'покажи врачy' (покажи)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бери карат поверни сюда;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бери карат</source>\n\t<target>поверни сюда;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'поверни сюда' (поверни)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>башын жерге каратып олтурат он сидит понурив голову;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>башын жерге каратып олтурат</source>\n\t<target>он сидит понурив голову;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'он сидит...' (он)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>дөңгөлөгүн асманды каратып перевернув вверх колёсами;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>дөңгөлөгүн асманды каратып</source>\n\t<target>перевернув вверх колёсами;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'перевернув вверх...' (перевернув)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карата с предшеств. дат. п. по случаю, по поводу; в зависимости от...; к...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карата</source>\n\t<target>с предшеств. дат. п. по случаю, по поводу; в зависимости от...; к...;</target>\n</ex>",
+      "reason": "Russian/glossing sequence begins at 'с предшеств. дат. п.' (с)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Биринчи майга карата к Первому мая (по случаю Первого мая);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Биринчи майга карата</source>\n\t<target>к Первому мая (по случаю Первого мая);</target>\n</ex>",
+      "reason": "Russian gloss begins at 'к Первому мая' (к)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>маселеге карата к вопросу об...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>маселеге карата</source>\n\t<target>к вопросу об...;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'к вопросу...' (к)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>Кипрдеги абалга карата к положению на Кипре;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>Кипрдеги абалга карата</source>\n\t<target>к положению на Кипре;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'к положению на Кипре' (к)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>иштөө нормаларын кайра кароого карата к пересмотру норм выработки;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>иштөө нормаларын кайра кароого карата</source>\n\t<target>к пересмотру норм выработки;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'к пересмотру...' (к)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жазга карата даярдануу подготовка к весне;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жазга карата даярдануу</source>\n\t<target>подготовка к весне;</target>\n</ex>",
+      "reason": "Russian gloss begins at 'подготовка к весне' (подготовка)",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>күчүнө карата по мере своих сил;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>күчүнө карата</source>\n\t<target>по мере своих сил;</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'күчүнө карата' is complete; Russian gloss begins at 'по' (по мере своих сил).",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алына карата в силу своих возможностей;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алына карата</source>\n\t<target>в силу своих возможностей;</target>\n</ex>",
+      "reason": "Left is 'алына карата'; Russian starts at 'в' of 'в силу своих возможностей'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>кылган жумушка карата акы берилет плата выдаётся в соответствии с выполненной работой;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>кылган жумушка карата акы берилет</source>\n\t<target>плата выдаётся в соответствии с выполненной работой;</target>\n</ex>",
+      "reason": "Kyrgyz 'кылган жумушка карата акы берилет' is complete; Russian gloss begins at 'п' in 'плата выдаётся...'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>бери карата начиная от..., вот уже... как;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>бери карата</source>\n\t<target>начиная от..., вот уже... как;</target>\n</ex>",
+      "reason": "Left is 'бери карата'; Russian explanatory phrase begins at 'н' of 'начиная от...'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>үч айдан бери карата вот уже три месяца, как...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>үч айдан бери карата</source>\n\t<target>вот уже три месяца, как...;</target>\n</ex>",
+      "reason": "Keep 'үч айдан бери карата' on left; Russian starts at 'в' of 'вот уже три месяца...'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ошондон бери карата с тех пор;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ошондон бери карата</source>\n\t<target>с тех пор;</target>\n</ex>",
+      "reason": "Left is 'ошондон бери карата'; Russian gloss begins at 'с' of 'с тех пор'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>элди езүнө каратып алды он подчинил себе людей;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>элди езүнө каратып алды</source>\n\t<target>он подчинил себе людей;</target>\n</ex>",
+      "reason": "Kyrgyz 'элди езүнө каратып алды' is complete; Russian translation begins at 'о' of 'он подчинил себе людей'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>элди өз оозуна караткан феодал феодал, который подчинил себе народ; феодал, который заставил людей делать то, что он говорит;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>элди өз оозуна караткан феодал</source>\n\t<target>феодал, который подчинил себе народ; феодал, который заставил людей делать то, что он говорит;</target>\n</ex>",
+      "reason": "Keep Kyrgyz 'элди өз оозуна караткан феодал' on left; the Russian gloss begins at the repeated 'феодал' followed by the relative clause ('феодал, который...').",
+      "confidence": 0.78
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>каратып туруп в глаза, на глазах (букв. заставив смотреть);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>каратып туруп</source>\n\t<target>в глаза, на глазах (букв. заставив смотреть);</target>\n</ex>",
+      "reason": "Left is 'каратып туруп'; Russian starts at 'в' of 'в глаза, на глазах (букв. заставив смотреть)'.",
+      "confidence": 0.82
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>каратып туруп калп айтат врёт в глаза;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>каратып туруп калп айтат</source>\n\t<target>врёт в глаза;</target>\n</ex>",
+      "reason": "Russian gloss begins with 'врёт' at index 25 — start of the Russian side.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>каратып туруп, атымды уурдатып ийдим лошадь мою у меня на глазах украли.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>каратып туруп, атымды уурдатып ийдим</source>\n\t<target>лошадь мою у меня на глазах украли.</target>\n</ex>",
+      "reason": "Russian gloss begins with 'лошадь' at index 37 — earliest coherent Russian word.",
+      "confidence": 0.95
+    }
+  ]
+}
