@@ -35,6 +35,7 @@ PY
 }
 
 cp "$input_xml" "$output_xml"
+python3 "$SCRIPT_DIR/apply_ili_bad_fixes.py" "$output_xml" "$output_xml"
 python3 "$SCRIPT_DIR/apply_part_2_fixes.py" "$output_xml" "$output_xml"
 python3 "$SCRIPT_DIR/apply_part_2_examples.py" "$output_xml" "$output_xml"
 python3 "$SCRIPT_DIR/apply_approved_llm_fixes.py" "$output_xml" "$approved_llm_dir" "$output_xml"
@@ -50,3 +51,5 @@ if [ -f "$snapshot_xml" ]; then
 else
 	echo "No snapshot found at $snapshot_xml; skipping diff generation"
 fi
+
+osascript -e 'display notification "Part 2 pipeline finished" with title "Udahin" sound name "Glass"'
