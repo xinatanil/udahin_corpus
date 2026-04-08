@@ -1,0 +1,41 @@
+{
+  "card_headword": "алаң",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_alang.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>иш менен алаң болуп жүрүп, унутуп калдым я тут занялся делом и забыл;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>иш менен алаң болуп жүрүп, унутуп калдым</source>\n\t<target>я тут занялся делом и забыл;</target>\n</ex>",
+      "reason": "The Russian gloss begins with the pronoun 'я' ('я тут занялся...'), so the right side starts at atom 9.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алаң көз большеглазый;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алаң көз</source>\n\t<target>большеглазый;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('алаң көз'); atom 3 is the Russian adjective 'большеглазый', which is the gloss start.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>балам кетип алыска, көңүлгө салды алаңды фольк. сын мой уехал далеко, вселил он в моё сердце беспокойство;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>балам кетип алыска, көңүлгө салды алаңды</source>\n\t<target>фольк. сын мой уехал далеко, вселил он в моё сердце беспокойство;</target>\n</ex>",
+      "reason": "Atom 8 is the Russian meta label 'фольк.' marking the start of the Russian gloss/explanation; all preceding atoms are Kyrgyz.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алаң карап окидывая свирепым взглядом;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алаң карап</source>\n\t<target>окидывая свирепым взглядом;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('алаң карап'); atom 3 'окидывая' is a Russian verb form starting the gloss.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алаң ур- то же, что <wordLink word=\"алаңда-\"/>.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алаң ур-</source>\n\t<target>то же, что <wordLink word=\"алаңда-\"/>.</target>\n</ex>",
+      "reason": "The sequence 'то же, что ...' is Russian glossing; the Russian text begins at atom 4 'то'. The hyphen after the Kyrgyz variant stays on the left.",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "card_headword": "ант",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_ant.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>антыңа койдум вспомни свою клятву (букв. призываю на тебя твою клятву);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>антыңа койдум</source>\n\t<target>вспомни свою клятву (букв. призываю на тебя твою клятву);</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('антыңа койдум'); atom 3 is the first clearly Russian lexical gloss ('вспомни'), so the right side begins there.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>жоого ант жок врагу клятвы нет (т.е. клятва, данная врагу, может быть нарушена);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>жоого ант жок</source>\n\t<target>врагу клятвы нет (т.е. клятва, данная врагу, может быть нарушена);</target>\n</ex>",
+      "reason": "Atoms 1–3 form the Kyrgyz phrase ('жоого ант жок'); atom 4 ('врагу') is the first clearly Russian word starting the gloss, so split at 4.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ант бузгуч клятвопреступник;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ант бузгуч</source>\n\t<target>клятвопреступник;</target>\n</ex>",
+      "reason": "Atoms 1–2 are Kyrgyz ('ант бузгуч'); atom 3 is a Russian lexical gloss ('клятвопреступник'), so the right side begins at atom 3.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ант-шерт см. <wordLink word=\"шерт\" meaning=\"2\"/>;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ант-шерт</source>\n\t<target>см. <wordLink word=\"шерт\" meaning=\"2\"/>;</target>\n</ex>",
+      "reason": "Atoms 1–3 form the Kyrgyz compound 'ант-шерт'; atom 4 ('см') is the Russian meta marker introducing the reference, so the split starts at 4.",
+      "confidence": 0.95
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>ант ичкендей кубарган или ант ичкендей саргайган он стал как стена белый (букв. побледнел так, как будто присягу принял);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>ант ичкендей кубарган или ант ичкендей саргайган</source>\n\t<target>он стал как стена белый (букв. побледнел так, как будто присягу принял);</target>\n</ex>",
+      "reason": "Atoms 1–7 are Kyrgyz variants/phrases; atom 8 ('он') followed by 'стал' begins a clearly Russian clause ('он стал...'), so the right side starts at atom 8.",
+      "confidence": 0.85
+    }
+  ]
+}

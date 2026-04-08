@@ -1,0 +1,41 @@
+{
+  "card_headword": "анча",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_ancha.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>анча эмес не так чтобы уж очень (много, большой, хороший и т.п.);</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>анча эмес</source>\n\t<target>не так чтобы уж очень (много, большой, хороший и т. п.);</target>\n</ex>",
+      "reason": "Atoms 1-2 (анча эмес) form the Kyrgyz phrase; atom 3 'не' is the first Russian gloss word, so the right side begins there.",
+      "confidence": 0.91
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>анча-мынча немного;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>анча-мынча</source>\n\t<target>немного;</target>\n</ex>",
+      "reason": "Atoms 1-3 ('анча-мынча') are Kyrgyz; atom 4 'немного' is the Russian gloss start.",
+      "confidence": 0.91
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>анча-мынчалап понемногу;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>анча-мынчалап</source>\n\t<target>понемногу;</target>\n</ex>",
+      "reason": "Atoms 1-3 ('анча-мынчалап') are Kyrgyz; atom 4 'понемногу' is the Russian gloss.",
+      "confidence": 0.91
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>анчадан-мынчага или анчагадан-мынчага уж давно, уж много времени, как...;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>анчадан-мынчага или анчагадан-мынчага</source>\n\t<target>уж давно, уж много времени, как...;</target>\n</ex>",
+      "reason": "Atoms 1-7 are Kyrgyz variant chain; atom 8 'уж' begins the Russian gloss ('уж давно...').",
+      "confidence": 0.91
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>анча болбой то же, что <wordLink word=\"аңгыча болбой\"/> (см. <wordLink word=\"аңгыча\"/>).</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>анча болбой</source>\n\t<target>то же, что <wordLink word=\"аңгыча болбой\"/> (см. <wordLink word=\"аңгыча\"/>).</target>\n</ex>",
+      "reason": "Atoms 1-2 ('анча болбой') are Kyrgyz; atom 3 'то' begins the Russian meta 'то же, что ...', so the right side starts at 'то'.",
+      "confidence": 0.91
+    }
+  ]
+}

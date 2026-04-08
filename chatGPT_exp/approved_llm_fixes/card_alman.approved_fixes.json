@@ -1,0 +1,34 @@
+{
+  "card_headword": "алман",
+  "source_review_file": "/Users/xinatanil/Sources/udahin/chatGPT_exp/llm_card_experiment/artifacts/card_alman.review.json",
+  "fixes": [
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>алман бүркүт көздөнгөн с глазами хваткого беркута;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>алман бүркүт көздөнгөн</source>\n\t<target>с глазами хваткого беркута;</target>\n</ex>",
+      "reason": "The sequence 'глазами хваткого беркута' is Russian; the first Russian token is the preposition 'с' at atom 4, so the right side begins there.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>карчыга куштун алманы ястреб - самая хваткая птица.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>карчыга куштун алманы</source>\n\t<target>ястреб - самая хваткая птица.</target>\n</ex>",
+      "reason": "Kyrgyz variant chain ends with 'алманы'; the Russian gloss begins with 'ястреб' (atom 4).",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өзүнчө бир алман своеобразный;</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өзүнчө бир алман</source>\n\t<target>своеобразный;</target>\n</ex>",
+      "reason": "First clearly Russian word is 'своеобразный' (atom 4); left side is the Kyrgyz phrase 'өзүнчө бир алман'.",
+      "confidence": 0.9
+    },
+    {
+      "action": "replace_exact_xml",
+      "find_xml": "<blockquote>өзүнчө бир алман киши своеобразный человек.</blockquote>",
+      "replace_with_xml": "<ex>\n\t<source>өзүнчө бир алман киши</source>\n\t<target>своеобразный человек.</target>\n</ex>",
+      "reason": "Kyrgyz phrase 'өзүнчө бир алман киши' ends at atom 4; Russian gloss begins with 'своеобразный' (atom 5).",
+      "confidence": 0.9
+    }
+  ]
+}
