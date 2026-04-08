@@ -410,6 +410,88 @@ EXACT_XML_REWRITES = [
 \t\t</homonym>
 \t</card>''',
     ),
+    (
+        '''<card>
+\t\t<k>сонорлош I</k>
+\t\t<trn>товарищ по охоте (см. <wordLink word="сонор" homonym="I" meaning="2"/>).</trn>
+\t\t<blockquote>сонорлош-II</blockquote>
+\t\t<xr>взаимн. от <wordLink word="сонорло-" meaning="2"/>;</xr>
+\t\t<blockquote>ал экөө беш-алты күндөй сонорлошуп кайтты поохотившись пять-шесть дней, они вернулись вдвоём.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>сонорлош</k>
+\t\t<homonym>
+\t\t\t<homonymIndex>сонорлош I</homonymIndex>
+\t\t\t<trn>товарищ по охоте (см. <wordLink word="сонор" homonym="I" meaning="2"/>).</trn>
+\t\t</homonym>
+\t\t<homonym>
+\t\t\t<homonymIndex>сонорлош- II</homonymIndex>
+\t\t\t<xr>взаимн. от <wordLink word="сонорло-" meaning="2"/>;</xr>
+\t\t\t<blockquote>ал экөө беш-алты күндөй сонорлошуп кайтты поохотившись пять-шесть дней, они вернулись вдвоём.</blockquote>
+\t\t</homonym>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>узак I</k>
+\t\t<trn>долгий; долго;</trn>
+\t\t<blockquote>узакка созулуп кетти надолго затянулось;</blockquote>
+\t\t<blockquote>узак сөздөр менен чыгып сүйлөдү он выступил с большой речью;</blockquote>
+\t\t<blockquote>дүркүрөгөн, узакка созулган кол чабуулар бурные, продолжительные аплодисменты;</blockquote>
+\t\t<blockquote>узак жана даңктуу жол басып өттү он прошёл долгий и славный путь;</blockquote>
+\t\t<blockquote>журт атасы Көкөтөй узагыраак карыптыр фольк. отец народа Кокетей очень постарел.</blockquote>
+\t\t<blockquote>узак-II</blockquote>
+\t\t<blockquote>затянуться, долго длиться;</blockquote>
+\t\t<blockquote>оорун узагып кетти твоя болезнь затянулась.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>узак</k>
+\t\t<homonym>
+\t\t\t<homonymIndex>узак I</homonymIndex>
+\t\t\t<trn>долгий; долго;</trn>
+\t\t\t<blockquote>узакка созулуп кетти надолго затянулось;</blockquote>
+\t\t\t<blockquote>узак сөздөр менен чыгып сүйлөдү он выступил с большой речью;</blockquote>
+\t\t\t<blockquote>дүркүрөгөн, узакка созулган кол чабуулар бурные, продолжительные аплодисменты;</blockquote>
+\t\t\t<blockquote>узак жана даңктуу жол басып өттү он прошёл долгий и славный путь;</blockquote>
+\t\t\t<blockquote>журт атасы Көкөтөй узагыраак карыптыр фольк. отец народа Кокетей очень постарел.</blockquote>
+\t\t</homonym>
+\t\t<homonym>
+\t\t\t<homonymIndex>узак- II</homonymIndex>
+\t\t\t<trn>затянуться, долго длиться;</trn>
+\t\t\t<blockquote>оорун узагып кетти твоя болезнь затянулась.</blockquote>
+\t\t</homonym>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>чарпы</k>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t\t<blockquote>чала-чарпы то же, что <wordLink word="чала-чарпыт"/> (см. <wordLink word="чала"/>);</blockquote>
+\t\t\t<blockquote>сөздөрүн чала-чарпы угуп калдым их разговор я слышал только краем уха.</blockquote>
+\t\t\t<blockquote>чарпы- II</blockquote>
+\t\t\t<blockquote>ударять, задевать при ударе;</blockquote>
+\t\t\t<blockquote>ат чарпып басат лошадь идёт, выкидывая ноги вперёд; лошадь идёт твёрдой поступью;</blockquote>
+\t\t\t<blockquote>жалын чарпыгандай как пламенем охватило.</blockquote>
+\t\t</meaning>
+\t</card>''',
+        '''<card>
+\t\t<k>чарпы</k>
+\t\t<homonym>
+\t\t\t<homonymIndex>чарпы I</homonymIndex>
+\t\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t\t<blockquote>чала-чарпы то же, что <wordLink word="чала-чарпыт"/> (см. <wordLink word="чала"/>);</blockquote>
+\t\t\t<blockquote>сөздөрүн чала-чарпы угуп калдым их разговор я слышал только краем уха.</blockquote>
+\t\t</homonym>
+\t\t<homonym>
+\t\t\t<homonymIndex>чарпы- II</homonymIndex>
+\t\t\t<trn>ударять, задевать при ударе;</trn>
+\t\t\t<blockquote>ат чарпып басат лошадь идёт, выкидывая ноги вперёд; лошадь идёт твёрдой поступью;</blockquote>
+\t\t\t<blockquote>жалын чарпыгандай как пламенем охватило.</blockquote>
+\t\t</homonym>
+\t</card>''',
+    ),
 ]
 
 
