@@ -2,84 +2,31 @@
 
 from __future__ import annotations
 
-from pathlib import Path
 from collections import Counter
+import json
+from pathlib import Path
 import re
 import sys
-import xml.etree.ElementTree as ET
 
 ROOT_DIR = Path('/Users/xinatanil/Sources/udahin')
-SNAPSHOT_XML = ROOT_DIR / 'chatGPT_exp' / 'converted_dict.snapshot.xml'
+# Checked-in approvals keep part 2 example conversions deterministic and snapshot-free.
+APPROVED_COUNTS_JSON = ROOT_DIR / 'scripts' / 'data' / 'part_2_examples_approved.json'
 
 KYR_TOK = r"[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі'-]+"
 HYPHEN_WORD_SPACE_RE = re.compile(r"\b[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]+-\s")
-DOUBLE_HYPHEN_WORD_RE = re.compile(r"\b[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]+-[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]+\b")
 TOKEN_RE = re.compile(r"\S+")
 NON_TARGET_RUSSIAN_TOKENS = {"или"}
-HYPHEN_FORM_RE = re.compile(r"\b[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]+-")
-LEFT_RE = re.compile(rf"^(?P<left>{KYR_TOK}(?:\s+{KYR_TOK}){{0,5}})\s+(?P<right>.+)$")
 SOURCE_CHUNK_RE = rf"(?:{KYR_TOK}\s+){{0,5}}{KYR_TOK}-"
 SOURCE_CHAIN_RE = re.compile(
     rf"^(?P<source>{SOURCE_CHUNK_RE}(?:\s+или\s+{SOURCE_CHUNK_RE})*)\s+(?P<target>.+)$"
 )
 RUS_START_RE = re.compile(r"^[а-яё\"«„(]", re.I)
-ROMAN_RE = re.compile(r"\b[IVXLCM]+\b")
 BLOCKQUOTE_RE = re.compile(r'^(?P<indent>[ \t]*)<blockquote>(?P<text>[^<]+)</blockquote>$', re.M)
 EX_BLOCK_RE = re.compile(r'<ex>\s*<source>(.*?)</source>\s*<target>(.*?)</target>\s*</ex>', re.S)
-SKIP_PREFIXES = (
-    "(", "[", "см.", "ср.", "то же, что", "иначе", "обычно", "чаще", "иногда",
-    "перен.", "уст.", "разг.", "неправ.", "точнее",
-)
-EXCLUDED_TEXTS = {
-    'бөрүнүн жегенинен- м - кырды-кырдысы южн. волк уничтожает больше, чем съедает;',
-    'жүгөрү сотолору сүт- камыр болуп жетилгеи початки кукурузы достигли молочно-восковой спелости;',
-    'кетер кетпеси - арсар уедет он или нет- неизвестно;',
-    'бош жүр- или боштон жүр ходить без дела, бездельничать;',
-    'жалаа жап- или жалаа таң клеветать, хулить, возводить ложное обвинение.',
-    'кароолго жеткир- или кароол келтир взять на прицел, взять на мушку;',
-}
-
-APPROVED_EXTRA_COUNTS: Counter[tuple[str, str]] = Counter({
-    ('сөз алыш-', 'взять друг с друга слово:'): 1,
-    ('үнүн бас-', 'заставить его замолчать:'): 1,
-    ('муштум көрсөт-', 'пригрозить, припугнуть:'): 1,
-    ('талоон кой-', 'разграбить: напасть;'): 1,
-    ('тамеки чектир-', 'дать покурить или позволить покурить;'): 1,
-})
 
 
 def norm_xml_text(text: str) -> str:
     return text.strip()
-
-
-def looks_like_reviewed_new_example(text: str) -> bool:
-    if not text:
-        return False
-    lowered = text.lower()
-    if text in EXCLUDED_TEXTS:
-        return False
-    if lowered.startswith(SKIP_PREFIXES):
-        return False
-    if '(' in text or ')' in text:
-        return False
-    if ROMAN_RE.search(text):
-        return False
-    if DOUBLE_HYPHEN_WORD_RE.search(text):
-        return False
-    if ':' in text[:40]:
-        return False
-    m = LEFT_RE.match(text)
-    if not m:
-        return False
-    left = m.group('left')
-    right = m.group('right').strip()
-    if '-' not in left:
-        return False
-    if not HYPHEN_WORD_SPACE_RE.search(text):
-        return False
-    if not RUS_START_RE.match(right):
-        return False
-    return True
 
 
 def split_example(text: str) -> tuple[str, str]:
@@ -102,49 +49,17 @@ def split_example(text: str) -> tuple[str, str]:
     return text[:split_at].strip(), text[split_at:].strip()
 
 
-def load_snapshot_ex_pairs(snapshot_path: Path) -> list[tuple[str, str]]:
-    text = snapshot_path.read_text(encoding='utf-8')
-    return [
-        (norm_xml_text(source), norm_xml_text(target))
-        for source, target in EX_BLOCK_RE.findall(text)
-    ]
-
-
-def load_reviewed_new_pairs(snapshot_path: Path) -> set[tuple[str, str]]:
-    root = ET.parse(snapshot_path).getroot()
-    pairs: set[tuple[str, str]] = set()
-    for elem in root.iter('blockquote'):
-        if elem.find('.//wordLink') is not None:
-            continue
-        text = ''.join(elem.itertext()).strip()
-        if looks_like_reviewed_new_example(text):
-            pairs.add(split_example(text))
-    return pairs
-
-
-def build_approved_pairs() -> set[tuple[str, str]]:
-    if not SNAPSHOT_XML.exists():
-        raise FileNotFoundError(f'Snapshot not found: {SNAPSHOT_XML}')
-    snapshot_pairs = set(load_snapshot_ex_pairs(SNAPSHOT_XML))
-    reviewed_new_pairs = load_reviewed_new_pairs(SNAPSHOT_XML) - snapshot_pairs
-    pairs = set(snapshot_pairs)
-    pairs.update(reviewed_new_pairs)
-    pairs.update(APPROVED_EXTRA_COUNTS)
-    return pairs
-
-
 def build_approved_raw_map(approved_pairs: set[tuple[str, str]]) -> dict[str, tuple[str, str]]:
     return {f'{source} {target}': (source, target) for source, target in approved_pairs}
 
 
-def build_allowed_counts() -> Counter[tuple[str, str]]:
-    if not SNAPSHOT_XML.exists():
-        raise FileNotFoundError(f'Snapshot not found: {SNAPSHOT_XML}')
-    snapshot_pairs = set(load_snapshot_ex_pairs(SNAPSHOT_XML))
-    counts: Counter[tuple[str, str]] = Counter(load_snapshot_ex_pairs(SNAPSHOT_XML))
-    for pair in (load_reviewed_new_pairs(SNAPSHOT_XML) - snapshot_pairs):
-        counts[pair] += 1
-    counts.update(APPROVED_EXTRA_COUNTS)
+def load_allowed_counts(path: Path) -> Counter[tuple[str, str]]:
+    if not path.exists():
+        raise FileNotFoundError(f'Approved examples data not found: {path}')
+    data = json.loads(path.read_text(encoding='utf-8'))
+    counts: Counter[tuple[str, str]] = Counter()
+    for source, target, count in data['entries']:
+        counts[(norm_xml_text(source), norm_xml_text(target))] = count
     return counts
 
 
@@ -195,9 +110,9 @@ def main() -> int:
 
     input_path = Path(sys.argv[1])
     output_path = Path(sys.argv[2])
-    approved_pairs = build_approved_pairs()
+    allowed_counts = load_allowed_counts(APPROVED_COUNTS_JSON)
+    approved_pairs = set(allowed_counts)
     approved_raw_map = build_approved_raw_map(approved_pairs)
-    allowed_counts = build_allowed_counts()
     text = input_path.read_text(encoding='utf-8')
     new_text, applied = apply_examples(text, approved_pairs, approved_raw_map, allowed_counts)
     output_path.write_text(new_text, encoding='utf-8')
