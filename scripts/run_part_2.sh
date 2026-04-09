@@ -24,6 +24,9 @@ src = Path(sys.argv[1])
 dst = Path(sys.argv[2])
 text = src.read_text(encoding='utf-8')
 text = re.sub(r'^( +)', lambda m: '\t' * (len(m.group(1)) // 2), text, flags=re.M)
+# Collapse blockquotes whose content ends with a self-closing inline tag so the
+# closing </blockquote> does not sit alone on its own line.
+text = re.sub(r'(<blockquote>.*?/>)\s*\n[ \t]*(</blockquote>)', r'\1\2', text)
 dst.write_text(text, encoding='utf-8')
 PY
         rm -f "$temp_file"
@@ -35,6 +38,7 @@ PY
 }
 
 cp "$input_xml" "$output_xml"
+lint "$output_xml"
 python3 "$SCRIPT_DIR/apply_ili_bad_fixes.py" "$output_xml" "$output_xml"
 python3 "$SCRIPT_DIR/apply_part_2_fixes.py" "$output_xml" "$output_xml"
 python3 "$SCRIPT_DIR/apply_part_2_examples.py" "$output_xml" "$output_xml"
