@@ -20,7 +20,7 @@ def parse_homonym_headword(text):
 
 
 def normalize_base_word(text):
-    return text.rstrip("-").strip()
+    return text.rstrip("-!").strip()
 
 
 def is_compiled_homonym_card(card):
