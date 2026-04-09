@@ -56,7 +56,28 @@ def build_excluded_labels(divider: str, ignore_case: bool) -> set[str]:
     return labels
 
 
-def find_split(raw_content: str, divider: str, ignore_case: bool) -> tuple[str, str] | None:
+def count_meta_label_occurrences(text: str, ignore_case: bool) -> int:
+    haystack = strip_tags(text)
+    if ignore_case:
+        haystack = haystack.casefold()
+        labels = [label.casefold() for label in META_LABELS]
+    else:
+        labels = META_LABELS
+
+    total = 0
+    for label in labels:
+        pattern = re.compile(rf'(?<!\S){re.escape(label)}(?![,;])')
+        total += len(pattern.findall(haystack))
+    return total
+
+
+def find_split(
+    raw_content: str,
+    divider: str,
+    ignore_case: bool,
+    allow_other_labels: bool,
+    single_meta_instance: bool,
+) -> tuple[str, str] | None:
     plain = strip_tags(raw_content)
     haystack = plain.casefold() if ignore_case else plain
     needle = divider.casefold() if ignore_case else divider
@@ -65,9 +86,13 @@ def find_split(raw_content: str, divider: str, ignore_case: bool) -> tuple[str, 
     if not m:
         return None
 
-    excluded_labels = build_excluded_labels(divider, ignore_case)
-    if any(label in haystack for label in excluded_labels):
-        return None
+    if single_meta_instance:
+        if count_meta_label_occurrences(raw_content, ignore_case) != 1:
+            return None
+    elif not allow_other_labels:
+        excluded_labels = build_excluded_labels(divider, ignore_case)
+        if any(label in haystack for label in excluded_labels):
+            return None
 
     split_at = plain_to_content_index(raw_content, m.start())
     left = raw_content[:split_at].rstrip()
@@ -82,10 +107,22 @@ def find_split(raw_content: str, divider: str, ignore_case: bool) -> tuple[str, 
     return left, right
 
 
-def collect_matches(xml: str, divider: str, ignore_case: bool) -> list[tuple[str, str]]:
+def collect_matches(
+    xml: str,
+    divider: str,
+    ignore_case: bool,
+    allow_other_labels: bool,
+    single_meta_instance: bool,
+) -> list[tuple[str, str]]:
     matches: list[tuple[str, str]] = []
     for match in BLOCKQUOTE_RE.finditer(xml):
-        split = find_split(match.group('content'), divider, ignore_case)
+        split = find_split(
+            match.group('content'),
+            divider,
+            ignore_case,
+            allow_other_labels,
+            single_meta_instance,
+        )
         if split is not None:
             matches.append(split)
     return matches
@@ -97,12 +134,24 @@ def render_matches(matches: list[tuple[str, str]]) -> str:
     return '\n\n'.join(rendered) + ('\n' if rendered else '')
 
 
-def apply_splits(xml: str, divider: str, ignore_case: bool) -> tuple[str, int]:
+def apply_splits(
+    xml: str,
+    divider: str,
+    ignore_case: bool,
+    allow_other_labels: bool,
+    single_meta_instance: bool,
+) -> tuple[str, int]:
     applied = 0
 
     def repl(match: re.Match[str]) -> str:
         nonlocal applied
-        split = find_split(match.group('content'), divider, ignore_case)
+        split = find_split(
+            match.group('content'),
+            divider,
+            ignore_case,
+            allow_other_labels,
+            single_meta_instance,
+        )
         if split is None:
             return match.group(0)
         left, right = split
@@ -125,6 +174,16 @@ def main() -> int:
     parser.add_argument('--output', default='./chatGPT_exp/blockquotes_with_matches.txt', help='Output text file for dump mode')
     parser.add_argument('--apply-output', help='If set, rewrite matching blockquotes to <ex> in this XML output file')
     parser.add_argument('--ignore-case', action='store_true', help='Case-insensitive search')
+    parser.add_argument(
+        '--allow-other-labels',
+        action='store_true',
+        help='Keep matches even if other meta/origin labels occur in the same blockquote',
+    )
+    parser.add_argument(
+        '--single-meta-instance',
+        action='store_true',
+        help='Require the whole blockquote to contain exactly one meta-label occurrence total',
+    )
     args = parser.parse_args()
 
     input_path = Path(args.input)
@@ -132,7 +191,13 @@ def main() -> int:
 
     if args.apply_output:
         out_path = Path(args.apply_output)
-        new_xml, applied = apply_splits(xml, args.word, args.ignore_case)
+        new_xml, applied = apply_splits(
+            xml,
+            args.word,
+            args.ignore_case,
+            args.allow_other_labels,
+            args.single_meta_instance,
+        )
         out_path.write_text(new_xml, encoding='utf-8')
         print(f'Input: {input_path}')
         print(f'Word: {args.word}')
@@ -140,7 +205,13 @@ def main() -> int:
         print(f'Output: {out_path}')
         return 0
 
-    matches = collect_matches(xml, args.word, args.ignore_case)
+    matches = collect_matches(
+        xml,
+        args.word,
+        args.ignore_case,
+        args.allow_other_labels,
+        args.single_meta_instance,
+    )
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(render_matches(matches), encoding='utf-8')
