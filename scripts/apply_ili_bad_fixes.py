@@ -10,6 +10,12 @@ ROOT_DIR = Path('/Users/xinatanil/Sources/udahin')
 ILI_FIXES_JSON = ROOT_DIR / 'scripts' / 'data' / 'ili_bad_fixes.json'
 
 
+def warn_unmatched(label: str, *parts: str) -> None:
+    snippet = '\n'.join(parts)
+    print(f'Warning: {label} not found:', file=sys.stderr)
+    print(snippet, file=sys.stderr)
+
+
 def load_entries(path: Path) -> list[dict[str, str]]:
     data = json.loads(path.read_text(encoding='utf-8'))
     return data['entries']
@@ -44,6 +50,8 @@ def apply_fixes(xml_text: str, entries: list[dict[str, str]]) -> tuple[str, int]
         xml_text, count = pattern.subn(repl, xml_text, count=1)
         if count:
             applied += 1
+        else:
+            warn_unmatched('ili fix', original_source, original_target)
     return xml_text, applied
 
 

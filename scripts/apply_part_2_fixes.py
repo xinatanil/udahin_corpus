@@ -433,37 +433,6 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<card>
-\t\t<k>узак I</k>
-\t\t<trn>долгий; долго;</trn>
-\t\t<blockquote>узакка созулуп кетти надолго затянулось;</blockquote>
-\t\t<blockquote>узак сөздөр менен чыгып сүйлөдү он выступил с большой речью;</blockquote>
-\t\t<blockquote>дүркүрөгөн, узакка созулган кол чабуулар бурные, продолжительные аплодисменты;</blockquote>
-\t\t<blockquote>узак жана даңктуу жол басып өттү он прошёл долгий и славный путь;</blockquote>
-\t\t<blockquote>журт атасы Көкөтөй узагыраак карыптыр фольк. отец народа Кокетей очень постарел.</blockquote>
-\t\t<blockquote>узак-II</blockquote>
-\t\t<blockquote>затянуться, долго длиться;</blockquote>
-\t\t<blockquote>оорун узагып кетти твоя болезнь затянулась.</blockquote>
-\t</card>''',
-        '''<card>
-\t\t<k>узак</k>
-\t\t<homonym>
-\t\t\t<homonymIndex>узак I</homonymIndex>
-\t\t\t<trn>долгий; долго;</trn>
-\t\t\t<blockquote>узакка созулуп кетти надолго затянулось;</blockquote>
-\t\t\t<blockquote>узак сөздөр менен чыгып сүйлөдү он выступил с большой речью;</blockquote>
-\t\t\t<blockquote>дүркүрөгөн, узакка созулган кол чабуулар бурные, продолжительные аплодисменты;</blockquote>
-\t\t\t<blockquote>узак жана даңктуу жол басып өттү он прошёл долгий и славный путь;</blockquote>
-\t\t\t<blockquote>журт атасы Көкөтөй узагыраак карыптыр фольк. отец народа Кокетей очень постарел.</blockquote>
-\t\t</homonym>
-\t\t<homonym>
-\t\t\t<homonymIndex>узак- II</homonymIndex>
-\t\t\t<trn>затянуться, долго длиться;</trn>
-\t\t\t<blockquote>оорун узагып кетти твоя болезнь затянулась.</blockquote>
-\t\t</homonym>
-\t</card>''',
-    ),
-    (
-        '''<card>
 \t\t<k>чарпы</k>
 \t\t<meaning>
 \t\t\t<meaningIndex>1.</meaningIndex>
@@ -493,6 +462,12 @@ EXACT_XML_REWRITES = [
 \t</card>''',
     ),
 ]
+
+
+def warn_unmatched(label: str, *parts: str) -> None:
+    snippet = '\n'.join(parts)
+    print(f'Warning: {label} not found:', file=sys.stderr)
+    print(snippet, file=sys.stderr)
 
 
 def convert_tail_to_meta(text: str, tail_xml: str) -> str:
@@ -525,11 +500,15 @@ def apply_fixes(text: str) -> tuple[str, int]:
         if old_xml in text:
             text = text.replace(old_xml, new_xml, 1)
             applied += 1
+        else:
+            warn_unmatched('exact XML rewrite', old_xml)
 
     for old_block, new_block in BLOCK_REWRITES:
         if old_block in text:
             text = text.replace(old_block, new_block, 1)
             applied += 1
+        else:
+            warn_unmatched('block rewrite', old_block)
 
     for xr_xml, tail_xml in FIXES:
         pattern = re.compile(
@@ -543,7 +522,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{xr_xml}\n{indent}{convert_tail_to_meta(text, tail_xml)}'
 
-        text = pattern.sub(repl, text, count=1)
+        text, count = pattern.subn(repl, text, count=1)
+        if count == 0:
+            warn_unmatched('xr + tail fix', xr_xml, tail_xml)
 
     for trn_xml in TRN_TO_META:
         pattern = re.compile(rf'(^[ \t]*){re.escape(trn_xml)}', flags=re.M)
@@ -554,7 +535,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{convert_tail_to_meta(text, trn_xml)}'
 
-        text = pattern.sub(repl_meta, text, count=1)
+        text, count = pattern.subn(repl_meta, text, count=1)
+        if count == 0:
+            warn_unmatched('trn -> meta', trn_xml)
 
     for trn_xml in TRN_TO_ALTFORM:
         pattern = re.compile(rf'(^[ \t]*){re.escape(trn_xml)}', flags=re.M)
@@ -565,7 +548,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{retag(trn_xml, "alternativeForm")}'
 
-        text = pattern.sub(repl_alt, text, count=1)
+        text, count = pattern.subn(repl_alt, text, count=1)
+        if count == 0:
+            warn_unmatched('trn -> alternativeForm', trn_xml)
 
     for trn_xml in TRN_TO_META_AND_COLLON:
         pattern = re.compile(rf'(^[ \t]*){re.escape(trn_xml)}', flags=re.M)
@@ -581,7 +566,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
                 f'{indent}<collocationIdentifier>:</collocationIdentifier>'
             )
 
-        text = pattern.sub(repl_meta_collon, text, count=1)
+        text, count = pattern.subn(repl_meta_collon, text, count=1)
+        if count == 0:
+            warn_unmatched('trn -> meta + collocationIdentifier', trn_xml)
 
     for trn_xml in TRN_TO_META_AND_TRN:
         pattern = re.compile(rf'(^[ \t]*){re.escape(trn_xml)}', flags=re.M)
@@ -593,7 +580,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             meta_xml, new_trn_xml = split_trn_to_meta_and_trn(trn_xml)
             return f'{indent}{meta_xml}\n{indent}{new_trn_xml}'
 
-        text = pattern.sub(repl_meta_trn, text, count=1)
+        text, count = pattern.subn(repl_meta_trn, text, count=1)
+        if count == 0:
+            warn_unmatched('trn -> meta + trn', trn_xml)
 
     for trn_xml in TRN_TO_BLOCKQUOTE:
         pattern = re.compile(rf'(^[ \t]*){re.escape(trn_xml)}', flags=re.M)
@@ -604,7 +593,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{retag(trn_xml, "blockquote")}'
 
-        text = pattern.sub(repl_blockquote, text, count=1)
+        text, count = pattern.subn(repl_blockquote, text, count=1)
+        if count == 0:
+            warn_unmatched('trn -> blockquote', trn_xml)
 
     for meta_xml, trn_xml, blockquote_xml, origin_xml, new_trn_xml in META_TRN_BLOCKQUOTE_TO_ORIGIN_TRN:
         pattern = re.compile(
@@ -620,7 +611,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{origin_xml}\n{indent}{new_trn_xml}'
 
-        text = pattern.sub(repl_origin_trn, text, count=1)
+        text, count = pattern.subn(repl_origin_trn, text, count=1)
+        if count == 0:
+            warn_unmatched('meta + trn + blockquote -> origin + trn', meta_xml, trn_xml, blockquote_xml)
 
     for trn_xml, blockquote_xml, meta_xml, new_trn_xml in TRN_BLOCKQUOTE_TO_META_TRN:
         pattern = re.compile(
@@ -634,7 +627,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{meta_xml}\n{indent}{new_trn_xml}'
 
-        text = pattern.sub(repl_meta_trn_pair, text, count=1)
+        text, count = pattern.subn(repl_meta_trn_pair, text, count=1)
+        if count == 0:
+            warn_unmatched('trn + blockquote -> meta + trn', trn_xml, blockquote_xml)
 
     for trn_xml, blockquote_xml, xr_xml in TRN_BLOCKQUOTE_TO_XR:
         pattern = re.compile(
@@ -648,7 +643,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{xr_xml}'
 
-        text = pattern.sub(repl_xr_pair, text, count=1)
+        text, count = pattern.subn(repl_xr_pair, text, count=1)
+        if count == 0:
+            warn_unmatched('trn + blockquote -> xr', trn_xml, blockquote_xml)
 
     for old_xr, new_xr in XR_REWRITES:
         pattern = re.compile(rf'(^[ \t]*){re.escape(old_xr)}', flags=re.M)
@@ -659,7 +656,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{new_xr}'
 
-        text = pattern.sub(repl_xr, text, count=1)
+        text, count = pattern.subn(repl_xr, text, count=1)
+        if count == 0:
+            warn_unmatched('xr rewrite', old_xr)
 
     for trn_xml, meta_xml, new_meta_xml, new_trn_xml in TRN_META_TO_META_TRN:
         pattern = re.compile(
@@ -673,7 +672,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{new_meta_xml}\n{indent}{new_trn_xml}'
 
-        text = pattern.sub(repl_swap, text, count=1)
+        text, count = pattern.subn(repl_swap, text, count=1)
+        if count == 0:
+            warn_unmatched('trn + meta -> meta + trn', trn_xml, meta_xml)
 
     for blockquote_xml in BLOCKQUOTE_TO_META:
         pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
@@ -684,7 +685,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{retag(blockquote_xml, "meta")}'
 
-        text = pattern.sub(repl_bq_meta, text, count=1)
+        text, count = pattern.subn(repl_bq_meta, text, count=1)
+        if count == 0:
+            warn_unmatched('blockquote -> meta', blockquote_xml)
 
     for blockquote_xml in BLOCKQUOTE_TO_TRN:
         pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
@@ -695,7 +698,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{retag(blockquote_xml, "trn")}'
 
-        text = pattern.sub(repl_bq_trn, text, count=1)
+        text, count = pattern.subn(repl_bq_trn, text, count=1)
+        if count == 0:
+            warn_unmatched('blockquote -> trn', blockquote_xml)
 
     for blockquote_xml, xr_xml, trn_xml in BLOCKQUOTE_TO_XR_AND_TRN:
         pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
@@ -706,7 +711,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
             indent = match.group(1)
             return f'{indent}{xr_xml}\n{indent}{trn_xml}'
 
-        text = pattern.sub(repl_bq_xr_trn, text, count=1)
+        text, count = pattern.subn(repl_bq_xr_trn, text, count=1)
+        if count == 0:
+            warn_unmatched('blockquote -> xr + trn', blockquote_xml)
 
     for blockquote_xml, alt_xml, meta1_xml, meta2_xml, trn_xml in BLOCKQUOTE_TO_ALTFORM_META_META_TRN:
         pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
@@ -722,7 +729,9 @@ def apply_fixes(text: str) -> tuple[str, int]:
                 f'{indent}{trn_xml}'
             )
 
-        text = pattern.sub(repl_bq_alt_meta_meta_trn, text, count=1)
+        text, count = pattern.subn(repl_bq_alt_meta_meta_trn, text, count=1)
+        if count == 0:
+            warn_unmatched('blockquote -> alternativeForm + meta + meta + trn', blockquote_xml)
 
     return text, applied
 
