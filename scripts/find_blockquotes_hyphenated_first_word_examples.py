@@ -22,8 +22,8 @@ def has_hyphenated_first_word(text: str) -> bool:
     words = re.findall(rf'[{WORD_CHARS}\'-]+', text)
     if not words:
         return False
-    first = words[0]
-    return '-' in first and not first.startswith('-') and not first.endswith('-')
+    first = words[0].rstrip('-')
+    return '-' in first and not first.startswith('-')
 
 
 def matches_rule(blockquote_xml: str) -> bool:
