@@ -42,6 +42,7 @@ python3 "$SCRIPT_DIR/apply_approved_llm_fixes.py" "$output_xml" "$approved_llm_d
 python3 "$SCRIPT_DIR/find_blockquotes_with_word.py" 'фольк.' --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_with_stikh.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_with_pogov.py" --input "$output_xml" --apply-output "$output_xml"
+python3 "$SCRIPT_DIR/find_blockquotes_simple_dash_examples.py" --input "$output_xml" --apply-output "$output_xml"
 lint "$output_xml"
 
 diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
