@@ -44,6 +44,7 @@ python3 "$SCRIPT_DIR/find_blockquotes_with_stikh.py" --input "$output_xml" --app
 python3 "$SCRIPT_DIR/find_blockquotes_with_pogov.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_simple_dash_examples.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_simple_word_examples.py" --input "$output_xml" --apply-output "$output_xml"
+python3 "$SCRIPT_DIR/find_blockquotes_hyphenated_first_word_examples.py" --input "$output_xml" --apply-output "$output_xml"
 lint "$output_xml"
 
 diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
