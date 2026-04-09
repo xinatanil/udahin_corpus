@@ -13709,7 +13709,10 @@
 			<blockquote>саясий аң политическое сознание; политическое развитие;</blockquote>
 			<blockquote>аң-сезим сознание;</blockquote>
 			<blockquote>аң-сезимдүүлүк сознательность.</blockquote>
-			<blockquote>аң IV парное к <wordLink word="таң" homonym="II"/>.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>аң IV</homonymIndex>
+			<xr>парное к <wordLink word="таң" homonym="II"/>.</xr>
 		</homonym>
 	</card>
 	<card>
@@ -16194,8 +16197,11 @@
 				<source>айдап алды малымды, агызды суудай канымды, тугөттү меним арымды</source>
 				<target>фольк. он угнал мой скот, как воду, пролил мою кровь, он унизил меня.</target>
 			</ex>
-			<blockquote>ар IV см. <wordLink word="ары" homonym="I"/>;</blockquote>
-			<blockquote>ар жактан с той стороны.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>ар IV</homonymIndex>
+			<xr>см. <wordLink word="ары" homonym="I"/>;</xr>
+			<trn>ар жактан с той стороны.</trn>
 		</homonym>
 		<homonym>
 			<homonymIndex>ар V</homonymIndex>
@@ -17420,10 +17426,16 @@
 		<xr>см. <wordLink word="аргыч"/>.</xr>
 	</card>
 	<card>
-		<k>аргы I</k>
-		<collocationIdentifier>:</collocationIdentifier>
-		<blockquote>жел аргы см. <wordLink word="жел" homonym="I" meaning="1"/>.</blockquote>
-		<blockquote>аргы- II (о скаковом коне) бежать крупным карьером.</blockquote>
+		<k>аргы</k>
+		<homonym>
+			<homonymIndex>аргы I</homonymIndex>
+			<collocationIdentifier>:</collocationIdentifier>
+			<blockquote>жел аргы см. <wordLink word="жел" homonym="I" meaning="1"/>.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>аргы- II</homonymIndex>
+			<trn>(о скаковом коне) бежать крупным карьером.</trn>
+		</homonym>
 	</card>
 	<card>
 		<k>аргым</k>
@@ -27945,25 +27957,31 @@
 		<trn>считать или воображать себя богатым.</trn>
 	</card>
 	<card>
-		<k>байтак I</k>
-		<meta>сев.</meta>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>далёкий;</trn>
-			<ex>
-				<source>байтак-байтак-байтак жол, байтак жолдон кош келет, байтал минген кыз келет</source>
-				<target>фольк. далёкий-далёкий-далёкий путь, из далёкого пути кочёвка идёт, на кобылице девица едет;</target>
-			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<xr>то же, что <wordLink word="баягы"/>;</xr>
-			<trn>байтак убакыттарда в давние времена.</trn>
-			<blockquote>байтак II, байтакты</blockquote>
+		<k>байтак</k>
+		<homonym>
+			<homonymIndex>байтак I</homonymIndex>
+			<meta>сев.</meta>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>далёкий;</trn>
+				<ex>
+					<source>байтак-байтак-байтак жол, байтак жолдон кош келет, байтал минген кыз келет</source>
+					<target>фольк. далёкий-далёкий-далёкий путь, из далёкого пути кочёвка идёт, на кобылице девица едет;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<xr>то же, что <wordLink word="баягы"/>;</xr>
+				<trn>байтак убакыттарда в давние времена.</trn>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>байтак II</homonymIndex>
+			<alternativeForm>байтакты</alternativeForm>
 			<origin>ир.</origin>
 			<meta>уст.</meta>
-			<blockquote>столица.</blockquote>
-		</meaning>
+			<trn>столица.</trn>
+		</homonym>
 	</card>
 	<card>
 		<k>байтал</k>
@@ -28239,59 +28257,62 @@
 				<blockquote>бир он эки түп жоон багы бар у него есть штук двенадцать толстых деревьев;</blockquote>
 				<blockquote>бак-дарак деревья, древесные насаждения;</blockquote>
 				<blockquote>жалгыз түп бактын көлөкөсүндө олтурдук мы сели в тень одинокого дерева.</blockquote>
-				<blockquote>бак II, бакт, бакты, бакыт</blockquote>
-				<origin>ир.</origin>
-				<blockquote>счастье, удача;</blockquote>
-				<blockquote>жакшы болду, багыбыз (или бактыбыз) бар экен хорошо получилось, нам сопутствует удача;</blockquote>
-				<blockquote>бактың озсун! желаю тебе счастья!;</blockquote>
-				<ex>
-					<source>бактысы үчүн балдардын</source>
-					<target>стих. ради счастья детей;</target>
-				</ex>
-				<blockquote>бак конгон жигит удачливый парень;</blockquote>
-				<blockquote>анын башына бакыт конду ему привалило счастье;</blockquote>
-				<ex>
-					<source>майданда жүргөн жериңде, бак консун сенин башыңа</source>
-					<target>фольк. пусть удача сопутствует тебе там, где ты находишься;</target>
-				</ex>
-				<blockquote>бак ач- или бакыт ач- открыть путь к счастью; дать счастье;</blockquote>
-				<ex>
-					<source>ачылыптыр бактыбыз</source>
-					<target>фольк. нас посетила удача, нам повезло;</target>
-				</ex>
-				<blockquote>багы (или бакты или бактысы) ачык киши удачливый человек; человек, которому сопутствует счастье;</blockquote>
-				<blockquote>багы ачыктын маңдайы жарык погов. у удачливого лицо сияет;</blockquote>
-				<ex>
-					<source>бактыдан колун албаган</source>
-					<target>фольк. всегда сопутствуемый удачей;</target>
-				</ex>
-				<blockquote>багын байла- или бактын байла- или бактысын байла- разбить чьё-л. счастье;</blockquote>
-				<blockquote>багы (или бактысы) байланды (или кетти или качты) его постигла неудача;</blockquote>
-				<blockquote>бакты баштан качыр- или бактыны баштан качыр- лишиться (по своей вине) счастья, лишить себя счастья;</blockquote>
-				<blockquote>бактысын тепкен он сам пренебрёг своим счастьем;</blockquote>
-				<blockquote>бак ал- или бак бас- победить, унизить кого-л.;</blockquote>
-				<blockquote>бак алдыр- дать себя победить, быть побеждённым;</blockquote>
-				<blockquote>менин багыма на моё счастье;</blockquote>
-				<blockquote>багыбызга (или бактыбызга) кайчы (или каршы) к нашему несчастью;</blockquote>
-				<blockquote>бак талаш- добиваться авторитета, оспаривать авторитет;</blockquote>
-				<ex>
-					<source>бак кумар</source>
-					<target>уст. карьерист;</target>
-				</ex>
-				<blockquote>бак-таалай или (в стихах) таалай-бак или бак-дөөлөт (ир. бак, ар. таалай и дөөлөт - синонимы) счастье, счастье-удача;</blockquote>
-				<blockquote>бакты-таалай издеп в поисках счастья, в поисках удачи;</blockquote>
-				<ex>
-					<source>солуган гулдөй саргайгам, башымдан качып таалай-бак</source>
-					<target>фольк. изменило мне счастье-удача и я пожелтел, как увядший цветок;</target>
-				</ex>
-				<ex>
-					<source>айта берсем, абдан көп, бак-дөөлөтүн атаңдын</source>
-					<target>фольк. если рассказывать, много у отца твоего счастья-удач;</target>
-				</ex>
-				<blockquote>бак-таалайы ачылсын желаю ему счастья;</blockquote>
-				<blockquote>бакты-таалайлуу счастливый, удачливый;</blockquote>
-				<blockquote>бактыдан көр принять как свою судьбу, как свою долю.</blockquote>
 			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>бак II</homonymIndex>
+			<alternativeForm>бакт, бакты, бакыт</alternativeForm>
+			<origin>ир.</origin>
+			<trn>счастье, удача;</trn>
+			<blockquote>жакшы болду, багыбыз (или бактыбыз) бар экен хорошо получилось, нам сопутствует удача;</blockquote>
+			<blockquote>бактың озсун! желаю тебе счастья!;</blockquote>
+			<ex>
+				<source>бактысы үчүн балдардын</source>
+				<target>стих. ради счастья детей;</target>
+			</ex>
+			<blockquote>бак конгон жигит удачливый парень;</blockquote>
+			<blockquote>анын башына бакыт конду ему привалило счастье;</blockquote>
+			<ex>
+				<source>майданда жүргөн жериңде, бак консун сенин башыңа</source>
+				<target>фольк. пусть удача сопутствует тебе там, где ты находишься;</target>
+			</ex>
+			<blockquote>бак ач- или бакыт ач- открыть путь к счастью; дать счастье;</blockquote>
+			<ex>
+				<source>ачылыптыр бактыбыз</source>
+				<target>фольк. нас посетила удача, нам повезло;</target>
+			</ex>
+			<blockquote>багы (или бакты или бактысы) ачык киши удачливый человек; человек, которому сопутствует счастье;</blockquote>
+			<blockquote>багы ачыктын маңдайы жарык погов. у удачливого лицо сияет;</blockquote>
+			<ex>
+				<source>бактыдан колун албаган</source>
+				<target>фольк. всегда сопутствуемый удачей;</target>
+			</ex>
+			<blockquote>багын байла- или бактын байла- или бактысын байла- разбить чьё-л. счастье;</blockquote>
+			<blockquote>багы (или бактысы) байланды (или кетти или качты) его постигла неудача;</blockquote>
+			<blockquote>бакты баштан качыр- или бактыны баштан качыр- лишиться (по своей вине) счастья, лишить себя счастья;</blockquote>
+			<blockquote>бактысын тепкен он сам пренебрёг своим счастьем;</blockquote>
+			<blockquote>бак ал- или бак бас- победить, унизить кого-л.;</blockquote>
+			<blockquote>бак алдыр- дать себя победить, быть побеждённым;</blockquote>
+			<blockquote>менин багыма на моё счастье;</blockquote>
+			<blockquote>багыбызга (или бактыбызга) кайчы (или каршы) к нашему несчастью;</blockquote>
+			<blockquote>бак талаш- добиваться авторитета, оспаривать авторитет;</blockquote>
+			<ex>
+				<source>бак кумар</source>
+				<target>уст. карьерист;</target>
+			</ex>
+			<blockquote>бак-таалай или (в стихах) таалай-бак или бак-дөөлөт (ир. бак, ар. таалай и дөөлөт - синонимы) счастье, счастье-удача;</blockquote>
+			<blockquote>бакты-таалай издеп в поисках счастья, в поисках удачи;</blockquote>
+			<ex>
+				<source>солуган гулдөй саргайгам, башымдан качып таалай-бак</source>
+				<target>фольк. изменило мне счастье-удача и я пожелтел, как увядший цветок;</target>
+			</ex>
+			<ex>
+				<source>айта берсем, абдан көп, бак-дөөлөтүн атаңдын</source>
+				<target>фольк. если рассказывать, много у отца твоего счастья-удач;</target>
+			</ex>
+			<blockquote>бак-таалайы ачылсын желаю ему счастья;</blockquote>
+			<blockquote>бакты-таалайлуу счастливый, удачливый;</blockquote>
+			<blockquote>бактыдан көр принять как свою судьбу, как свою долю.</blockquote>
 		</homonym>
 		<homonym>
 			<homonymIndex>бак III</homonymIndex>
@@ -28462,7 +28483,10 @@
 			<homonymIndex>бакал II</homonymIndex>
 			<origin>ир.</origin>
 			<trn>солома (сгребаемая с тока во время молотьбы; ср. саман).</trn>
-			<blockquote>бакал III бокал;</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>бакал III</homonymIndex>
+			<trn>бокал;</trn>
 			<ex>
 				<source>кел, кагыштыр, бакалымды көтөрдүм</source>
 				<target>стих. иди сюда, чокнись, я наполнил свой бокал;</target>
@@ -55456,12 +55480,18 @@
 		<blockquote>граждандар граждане.</blockquote>
 	</card>
 	<card>
-		<k>граждандык I</k>
-		<trn>гражданский;</trn>
-		<blockquote>граждандык укук гражданское право;</blockquote>
-		<blockquote>граждандык согуш гражданская война.</blockquote>
-		<blockquote>граждандык II гражданство;</blockquote>
-		<blockquote>совет граждандыгы советское гражданство.</blockquote>
+		<k>граждандык</k>
+		<homonym>
+			<homonymIndex>граждандык I</homonymIndex>
+			<trn>гражданский;</trn>
+			<blockquote>граждандык укук гражданское право;</blockquote>
+			<blockquote>граждандык согуш гражданская война.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>граждандык II</homonymIndex>
+			<trn>гражданство;</trn>
+			<blockquote>совет граждандыгы советское гражданство.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>гражданин</k>
@@ -61283,25 +61313,31 @@
 		<trn>деталь.</trn>
 	</card>
 	<card>
-		<k>деш I</k>
-		<xr>и. д. от <wordLink word="де-"/></xr>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>сказывание;</trn>
-			<blockquote>андай деш жарабайт так не следует говорить;</blockquote>
-			<blockquote>мындай дешке жарабайт так говорить не годится;</blockquote>
-			<ex>
-				<source>таңданып Эши дал болду, буларга эмне дешине</source>
-				<target>стих. удивился Эши, растерялся, не зная, что им сказать;</target>
-			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>называние.</trn>
-			<blockquote>деш- II, дешиш-</blockquote>
+		<k>деш</k>
+		<homonym>
+			<homonymIndex>деш I</homonymIndex>
+			<xr>и. д. от <wordLink word="де-"/></xr>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>сказывание;</trn>
+				<blockquote>андай деш жарабайт так не следует говорить;</blockquote>
+				<blockquote>мындай дешке жарабайт так говорить не годится;</blockquote>
+				<ex>
+					<source>таңданып Эши дал болду, буларга эмне дешине</source>
+					<target>стих. удивился Эши, растерялся, не зная, что им сказать;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>называние.</trn>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>деш- II</homonymIndex>
+			<alternativeForm>дешиш-</alternativeForm>
 			<xr>взаимн. от <wordLink word="де-"/></xr>
-			<blockquote>совместно говорить; сговариваться, договариваться.</blockquote>
-		</meaning>
+			<trn>совместно говорить; сговариваться, договариваться.</trn>
+		</homonym>
 	</card>
 	<card>
 		<k>диагноз</k>
@@ -65296,17 +65332,22 @@
 		<blockquote>дыңылдатып черткиле- бренчать (напр. на балалайке).</blockquote>
 	</card>
 	<card>
-		<k>дыр I</k>
-		<meta>подражательное слово, выражающее быстроту движения;</meta>
-		<blockquote>дыр берип үрк- или дыр этип үрк- шарахнуться в испуге;</blockquote>
-		<blockquote>дыр бердир- или дыр дедир- пустить быстрым ходом;</blockquote>
-		<blockquote>анда-санда Тайкашканы дыр бердирип коёт временами он пускает быстрым ходом (коня) Тайкашка;</blockquote>
-		<blockquote>атты кичине дыр дедирип алалы давай-ка немного пустим коней карьером;</blockquote>
-		<blockquote>дыр кой- припуститься, пуститься бежать (убегать, нагонять);</blockquote>
-		<blockquote>дыр коюп жөнөдү он пустился наутёк; он удирал так, что только пятки сверкали;</blockquote>
-		<blockquote>түлкү, таштан секирип, дыр койду лиса, спрыгнув с камня, пустилась наутёк.</blockquote>
-		<blockquote>дыр! II</blockquote>
-		<blockquote>тпру!</blockquote>
+		<k>дыр</k>
+		<homonym>
+			<homonymIndex>дыр I</homonymIndex>
+			<meta>подражательное слово, выражающее быстроту движения;</meta>
+			<blockquote>дыр берип үрк- или дыр этип үрк- шарахнуться в испуге;</blockquote>
+			<blockquote>дыр бердир- или дыр дедир- пустить быстрым ходом;</blockquote>
+			<blockquote>анда-санда Тайкашканы дыр бердирип коёт временами он пускает быстрым ходом (коня) Тайкашка;</blockquote>
+			<blockquote>атты кичине дыр дедирип алалы давай-ка немного пустим коней карьером;</blockquote>
+			<blockquote>дыр кой- припуститься, пуститься бежать (убегать, нагонять);</blockquote>
+			<blockquote>дыр коюп жөнөдү он пустился наутёк; он удирал так, что только пятки сверкали;</blockquote>
+			<blockquote>түлкү, таштан секирип, дыр койду лиса, спрыгнув с камня, пустилась наутёк.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>дыр! II</homonymIndex>
+			<trn>тпру!</trn>
+		</homonym>
 	</card>
 	<card>
 		<k>дырама</k>
@@ -67590,9 +67631,12 @@
 			<homonymIndex>жады II</homonymIndex>
 			<xr>то же, что <wordLink word="жат" homonym="II"/>;</xr>
 			<blockquote>айтар сөздөрүнүн баары жадысынан чыгып кетти все слова, которые он хотел сказать, вылетели у него из памяти.</blockquote>
-			<blockquote>жады III, жаду</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>жады III</homonymIndex>
+			<alternativeForm>жаду</alternativeForm>
 			<origin>ир.</origin>
-			<blockquote>магия, волшебство, чародейство.</blockquote>
+			<trn>магия, волшебство, чародейство.</trn>
 		</homonym>
 	</card>
 	<card>
@@ -85383,38 +85427,50 @@
 		</meaning>
 	</card>
 	<card>
-		<k>жуда I</k>
-		<origin>ир.</origin>
-		<blockquote>очень, в сильной степени, совсем, весьма, много;</blockquote>
-		<blockquote>сонун экен бу да - деп, сорпосун ичем жуда - деп это тоже, мол, прекрасно, бульону я попью, мол, вдоволь;</blockquote>
-		<blockquote>кулак уккан, көз көргөн сонундардан жуда бар фольк. много есть диковинок, которые (когда-либо) слыхало ухо и видел глаз;</blockquote>
-		<blockquote>Нарын, Жумгал жактагы жуда келди Кочкорго фольк. нарынский и джумгальский народ во множестве прибыл в Кочкор.</blockquote>
-		<blockquote>жуда II, жудай</blockquote>
-		<origin>ир.</origin>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>отделённый, разлучённый; отдалённый;</trn>
+		<k>жуда</k>
+		<homonym>
+			<homonymIndex>жуда I</homonymIndex>
+			<origin>ир.</origin>
+			<trn>очень, в сильной степени, совсем, весьма, много;</trn>
+			<blockquote>сонун экен бу да - деп, сорпосун ичем жуда - деп это тоже, мол, прекрасно, бульону я попью, мол, вдоволь;</blockquote>
 			<ex>
-				<source>байгамбар кудай эмес кудайдан жуда эмес</source>
-				<target>погов. пророк не бог, (но) от бога недалёк;</target>
+				<source>кулак уккан, көз көргөн сонундардан жуда бар</source>
+				<target>фольк. много есть диковинок, которые (когда-либо) слыхало ухо и видел глаз;</target>
 			</ex>
 			<ex>
-				<source>он жети күндө келбесең, сени менен жудамын</source>
-				<target>фольк. если через семнадцать дней ты не приедешь, (считай, что) я с тобой разлучена;</target>
+				<source>Нарын, Жумгал жактагы жуда келди Кочкорго</source>
+				<target>фольк. нарынский и джумгальский народ во множестве прибыл в Кочкор.</target>
 			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>отборный, самый лучший;</trn>
-			<ex>
-				<source>сүйгөнүңдү алгын жудайын</source>
-				<target>фольк. возьми лучшую возлюбленную;</target>
-			</ex>
-			<ex>
-				<source>кур аттан берем жудайын</source>
-				<target>фольк. из тучных коней я тебе дам отборных.</target>
-			</ex>
-		</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>жуда II</homonymIndex>
+			<alternativeForm>жудай</alternativeForm>
+			<origin>ир.</origin>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>отделённый, разлучённый; отдалённый;</trn>
+				<ex>
+					<source>байгамбар кудай эмес кудайдан жуда эмес</source>
+					<target>погов. пророк не бог, (но) от бога недалёк;</target>
+				</ex>
+				<ex>
+					<source>он жети күндө келбесең, сени менен жудамын</source>
+					<target>фольк. если через семнадцать дней ты не приедешь, (считай, что) я с тобой разлучена;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>отборный, самый лучший;</trn>
+				<ex>
+					<source>сүйгөнүңдү алгын жудайын</source>
+					<target>фольк. возьми лучшую возлюбленную;</target>
+				</ex>
+				<ex>
+					<source>кур аттан берем жудайын</source>
+					<target>фольк. из тучных коней я тебе дам отборных.</target>
+				</ex>
+			</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>жудурук</k>
@@ -86330,12 +86386,22 @@
 		</homonym>
 	</card>
 	<card>
-		<k>жулуу I</k>
-		<xr>и. д. от <wordLink word="жул-"/></xr>
-		<trn>выдёргивание, выщипывание.</trn>
-		<blockquote>жулуу II, III</blockquote>
-		<meta>разг.</meta>
-		<xr>то же, что <wordLink word="жылуу" homonym="I"/>, <wordLink word="жылуу" homonym="II"/>.</xr>
+		<k>жулуу</k>
+		<homonym>
+			<homonymIndex>жулуу I</homonymIndex>
+			<xr>и. д. от <wordLink word="жул-"/></xr>
+			<trn>выдёргивание, выщипывание.</trn>
+		</homonym>
+		<homonym>
+			<homonymIndex>жулуу II</homonymIndex>
+			<meta>разг.</meta>
+			<xr>то же, что <wordLink word="жылуу" homonym="I"/>.</xr>
+		</homonym>
+		<homonym>
+			<homonymIndex>жулуу III</homonymIndex>
+			<meta>разг.</meta>
+			<xr>то же, что <wordLink word="жылуу" homonym="II"/>.</xr>
+		</homonym>
 	</card>
 	<card>
 		<k>жулуулук</k>
@@ -88691,12 +88757,18 @@
 		<trn>компактный.</trn>
 	</card>
 	<card>
-		<k>жыйыр I</k>
-		<trn>часто;</trn>
-		<blockquote>жыйыр учурайт часто (в большом количестве) встречается.</blockquote>
-		<blockquote>жыйыр- II, жыйр-</blockquote>
-		<blockquote>сжимать, морщить;</blockquote>
-		<blockquote>шилисин жыйрып, үнкүйүп втянув шею и насупившись.</blockquote>
+		<k>жыйыр</k>
+		<homonym>
+			<homonymIndex>жыйыр I</homonymIndex>
+			<trn>часто;</trn>
+			<blockquote>жыйыр учурайт часто (в большом количестве) встречается.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>жыйыр- II</homonymIndex>
+			<alternativeForm>жыйр-</alternativeForm>
+			<trn>сжимать, морщить;</trn>
+			<blockquote>шилисин жыйрып, үнкүйүп втянув шею и насупившись.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>жыйырма</k>
@@ -96036,37 +96108,43 @@
 		</meaning>
 	</card>
 	<card>
-		<k>ийин I</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>плечо;</trn>
-			<blockquote>ийини или ийни его плечо;</blockquote>
-			<blockquote>мылтыкты бир ийнинен экинчи ийнине которо койду он переложил ружьё с одного плеча на другое;</blockquote>
-			<blockquote>ийнин куушуруп койду он пожал плечами;</blockquote>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<meta>перен.</meta>
-			<trn>одежда;</trn>
-			<blockquote>ийиниңди тоздурба не доводи свою одежду до износа; не ходи оборванцем;</blockquote>
-			<blockquote>курсак тоюп, ийин бүтөлө баштады только-только стали сытыми и одетыми;</blockquote>
-			<ex>
-				<source>ак ийин или оролмо тоонун ак ийин</source>
-				<target>охот. один из видов беркута;</target>
-			</ex>
-			<blockquote>ийини менен тынып дем алды он испуганно дышал;</blockquote>
-			<blockquote>ийин менен тынып, отуруп калды он растерялся, не мог ничего ответить;</blockquote>
-			<blockquote>ийин ич подоплёка рубахи;</blockquote>
-			<ex>
-				<source>ийин жыгач</source>
-				<target>чуйск. коромысло (для переноски вёдер).</target>
-			</ex>
-			<blockquote>ийин II нора;</blockquote>
+		<k>ийин</k>
+		<homonym>
+			<homonymIndex>ийин I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>плечо;</trn>
+				<blockquote>ийини или ийни его плечо;</blockquote>
+				<blockquote>мылтыкты бир ийнинен экинчи ийнине которо койду он переложил ружьё с одного плеча на другое;</blockquote>
+				<blockquote>ийнин куушуруп койду он пожал плечами;</blockquote>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<meta>перен.</meta>
+				<trn>одежда;</trn>
+				<blockquote>ийиниңди тоздурба не доводи свою одежду до износа; не ходи оборванцем;</blockquote>
+				<blockquote>курсак тоюп, ийин бүтөлө баштады только-только стали сытыми и одетыми;</blockquote>
+				<ex>
+					<source>ак ийин или оролмо тоонун ак ийин</source>
+					<target>охот. один из видов беркута;</target>
+				</ex>
+				<blockquote>ийини менен тынып дем алды он испуганно дышал;</blockquote>
+				<blockquote>ийин менен тынып, отуруп калды он растерялся, не мог ничего ответить;</blockquote>
+				<blockquote>ийин ич подоплёка рубахи;</blockquote>
+				<ex>
+					<source>ийин жыгач</source>
+					<target>чуйск. коромысло (для переноски вёдер).</target>
+				</ex>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>ийин II</homonymIndex>
+			<trn>нора;</trn>
 			<blockquote>ийини или ийни его нора;</blockquote>
 			<blockquote>түлкү ийнин карап үрсө, котур болот погов. если лиса лает, повернувшись к своей норе, она паршивеет (о человеке, который охаивает свой народ, свою родину);</blockquote>
 			<blockquote>ичип-жеп, ийинге кирет загадка попив, поев, в нору входит (отгадка бычак, кын нож с ножнами);</blockquote>
 			<blockquote>барар жерим, батар ийиним жок у меня нет пристанища, нет прибежища (букв. нет места, куда бы я пошёл, нет норы, куда бы я вошёл).</blockquote>
-		</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>ийинде-</k>
@@ -110536,40 +110614,46 @@
 		<blockquote>ак сүтүңдү эмизбей, кансыратпа козуңду фольк. не давая сосать своё белое молоко, не изнуряй своего ягнёнка (своего милого ребёнка).</blockquote>
 	</card>
 	<card>
-		<k>кант I</k>
-		<origin>ар.</origin>
-		<trn>сахар (обычно - рафинад);</trn>
-		<ex>
-			<source>машине кант</source>
-			<target>разг. сахар пилёный;</target>
-		</ex>
-		<blockquote>чакмак кант сахар кусковой или пилёный;</blockquote>
-		<ex>
-			<source>кант токоч</source>
-			<target>разг. печенье кондитерское;</target>
-		</ex>
-		<blockquote>кант кайнатуу сахароварение.</blockquote>
-		<blockquote>кант- II, канет-</blockquote>
-		<blockquote>(т произносится мягко)</blockquote>
-		<blockquote>как поступить, что сделать;</blockquote>
-		<blockquote>атты кантти? как он поступил с лошадью? что он сделал с лошадью? куда он девал лошадь?</blockquote>
-		<blockquote>кантер экен? как-то он поступит? что он будет делать? куда денет?</blockquote>
-		<blockquote>кантем? как мне быть? как мне поступить? куда мне девать? куда мне деваться?</blockquote>
-		<blockquote>канетип или кантип как, каким образом;</blockquote>
-		<blockquote>кантип эле билбейин! а как же мне не знать-то (конечно же, знаю) !;</blockquote>
-		<blockquote>кантип эле ушундай болсун?! да не может быть?! (вопрос с оттенком удивления);</blockquote>
-		<blockquote>кантели эми? что нам делать?, как поступить теперь?</blockquote>
-		<blockquote>канткенде да как бы там ни было; во всяком случае;</blockquote>
-		<blockquote>канткенде жакшы болот? как лучше сделать? как сделать, чтобы было лучше?</blockquote>
-		<ex>
-			<source>капаланып калгамы, кантерин билбей турганы</source>
-			<target>фольк. (вот) он опечалился и не знал, как поступить;</target>
-		</ex>
-		<ex>
-			<source>кантерге айла табалбай, келе жатат ашыгып</source>
-			<target>фольк. не зная, какой найти выход, едет он спешно;</target>
-		</ex>
-		<blockquote>кантиш керек? как нужно поступить? что нужно сделать?</blockquote>
+		<k>кант</k>
+		<homonym>
+			<homonymIndex>кант I</homonymIndex>
+			<origin>ар.</origin>
+			<trn>сахар (обычно - рафинад);</trn>
+			<ex>
+				<source>машине кант</source>
+				<target>разг. сахар пилёный;</target>
+			</ex>
+			<blockquote>чакмак кант сахар кусковой или пилёный;</blockquote>
+			<ex>
+				<source>кант токоч</source>
+				<target>разг. печенье кондитерское;</target>
+			</ex>
+			<blockquote>кант кайнатуу сахароварение.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>кант- II</homonymIndex>
+			<alternativeForm>канет-</alternativeForm>
+			<trn>(т произносится мягко)</trn>
+			<blockquote>как поступить, что сделать;</blockquote>
+			<blockquote>атты кантти? как он поступил с лошадью? что он сделал с лошадью? куда он девал лошадь?</blockquote>
+			<blockquote>кантер экен? как-то он поступит? что он будет делать? куда денет?</blockquote>
+			<blockquote>кантем? как мне быть? как мне поступить? куда мне девать? куда мне деваться?</blockquote>
+			<blockquote>канетип или кантип как, каким образом;</blockquote>
+			<blockquote>кантип эле билбейин! а как же мне не знать-то (конечно же, знаю) !;</blockquote>
+			<blockquote>кантип эле ушундай болсун?! да не может быть?! (вопрос с оттенком удивления);</blockquote>
+			<blockquote>кантели эми? что нам делать?, как поступить теперь?</blockquote>
+			<blockquote>канткенде да как бы там ни было; во всяком случае;</blockquote>
+			<blockquote>канткенде жакшы болот? как лучше сделать? как сделать, чтобы было лучше?</blockquote>
+			<ex>
+				<source>капаланып калгамы, кантерин билбей турганы</source>
+				<target>фольк. (вот) он опечалился и не знал, как поступить;</target>
+			</ex>
+			<ex>
+				<source>кантерге айла табалбай, келе жатат ашыгып</source>
+				<target>фольк. не зная, какой найти выход, едет он спешно;</target>
+			</ex>
+			<blockquote>кантиш керек? как нужно поступить? что нужно сделать?</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>кантала</k>
@@ -118934,42 +119018,51 @@
 		<blockquote>кезеген мерген меткий стрелок.</blockquote>
 	</card>
 	<card>
-		<k>кезек I</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>черёд, очередь;</trn>
-			<blockquote>менин кезегим моя очередь;</blockquote>
-			<blockquote>кезектеги милдет очередная задача;</blockquote>
-			<blockquote>"Бардык бийлик Советтерге!" деген ураан кайтадан кезекте турду лозунг "Вся власть Советам!" опять стоял на очереди;</blockquote>
-			<ex>
-				<source>эрге келет - бир кезек, жерге келет - бир кезек</source>
-				<target>фольк. молодцу приходит свой черёд, земле приходит свой черёд (т.е. каждому своя доля);</target>
-			</ex>
-			<blockquote>кезек-кезек по очереди; то один, то другой;</blockquote>
-			<blockquote>көзме-кезек атышты они перестреливались чередуясь;</blockquote>
-			<blockquote>мага да кезек келээр когда-нибудь настанет и мой черёд; будет и на моей улице праздник;</blockquote>
-			<blockquote>кезекке чык- выйти на поединок;</blockquote>
-			<blockquote>кезек бер- (в поединке) уступить противнику очередь, уступить право первого удара;</blockquote>
-			<blockquote>буруттугуң чын болсо, кезегиңди бер, Манас фольк. если ты, Манас, действительно киргиз, уступи мне очередь;</blockquote>
-			<blockquote>кезегин берип эр Манас, былкылдабай турганы фольк. уступив свою очередь (противнику), богатырь Манас не шелохнулся (получив удар копьём);</blockquote>
-			<blockquote>кезек ал- (в поединке) использовать право первого удара;</blockquote>
-			<blockquote>"кезегиңди алгын!" деп, Каныкей керилип карап турду эми Каныкей, гордо стоя, сказала (своему противнику): "получай свой черёд!";</blockquote>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>время, момент;</trn>
-			<blockquote>кезегинде в своё время (в прошлом);</blockquote>
-			<blockquote>кезегиңде, жамгырлатып жаа тарттың, кыздар, менсингенге мөндүрлөтүп ок аттың, кыздар стих. в своё время (вы), девушки, из лука стреляли, в зазнавшихся град стрел пускали;</blockquote>
-		</meaning>
-		<meaning>
-			<meaningIndex>3.</meaningIndex>
-			<trn>доля в чём-л.;</trn>
-			<blockquote>кезегиңде келип жүр, кезегиңди алып жүр фольк. время от времени ты приезжай и свою долю получай;</blockquote>
-			<blockquote>сөзгө кезек бериңиз дайте и другим говорить (вежливое напоминание говоруну);</blockquote>
-			<blockquote>кезегимди келтирчи дай-ка мне только волю (посмотришь, что я могу сделать).</blockquote>
-			<blockquote>кезек II, III</blockquote>
-			<xr>то же, что <wordLink word="кесек" homonym="I"/>, <wordLink word="кесек" homonym="II"/>.</xr>
-		</meaning>
+		<k>кезек</k>
+		<homonym>
+			<homonymIndex>кезек I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>черёд, очередь;</trn>
+				<blockquote>менин кезегим моя очередь;</blockquote>
+				<blockquote>кезектеги милдет очередная задача;</blockquote>
+				<blockquote>"Бардык бийлик Советтерге!" деген ураан кайтадан кезекте турду лозунг "Вся власть Советам!" опять стоял на очереди;</blockquote>
+				<ex>
+					<source>эрге келет - бир кезек, жерге келет - бир кезек</source>
+					<target>фольк. молодцу приходит свой черёд, земле приходит свой черёд (т.е. каждому своя доля);</target>
+				</ex>
+				<blockquote>кезек-кезек по очереди; то один, то другой;</blockquote>
+				<blockquote>көзме-кезек атышты они перестреливались чередуясь;</blockquote>
+				<blockquote>мага да кезек келээр когда-нибудь настанет и мой черёд; будет и на моей улице праздник;</blockquote>
+				<blockquote>кезекке чык- выйти на поединок;</blockquote>
+				<blockquote>кезек бер- (в поединке) уступить противнику очередь, уступить право первого удара;</blockquote>
+				<blockquote>буруттугуң чын болсо, кезегиңди бер, Манас фольк. если ты, Манас, действительно киргиз, уступи мне очередь;</blockquote>
+				<blockquote>кезегин берип эр Манас, былкылдабай турганы фольк. уступив свою очередь (противнику), богатырь Манас не шелохнулся (получив удар копьём);</blockquote>
+				<blockquote>кезек ал- (в поединке) использовать право первого удара;</blockquote>
+				<blockquote>"кезегиңди алгын!" деп, Каныкей керилип карап турду эми Каныкей, гордо стоя, сказала (своему противнику): "получай свой черёд!";</blockquote>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>время, момент;</trn>
+				<blockquote>кезегинде в своё время (в прошлом);</blockquote>
+				<blockquote>кезегиңде, жамгырлатып жаа тарттың, кыздар, менсингенге мөндүрлөтүп ок аттың, кыздар стих. в своё время (вы), девушки, из лука стреляли, в зазнавшихся град стрел пускали;</blockquote>
+			</meaning>
+			<meaning>
+				<meaningIndex>3.</meaningIndex>
+				<trn>доля в чём-л.;</trn>
+				<blockquote>кезегиңде келип жүр, кезегиңди алып жүр фольк. время от времени ты приезжай и свою долю получай;</blockquote>
+				<blockquote>сөзгө кезек бериңиз дайте и другим говорить (вежливое напоминание говоруну);</blockquote>
+				<blockquote>кезегимди келтирчи дай-ка мне только волю (посмотришь, что я могу сделать).</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>кезек II</homonymIndex>
+			<xr>то же, что <wordLink word="кесек" homonym="I"/>.</xr>
+		</homonym>
+		<homonym>
+			<homonymIndex>кезек III</homonymIndex>
+			<xr>то же, что <wordLink word="кесек" homonym="II"/>.</xr>
+		</homonym>
 	</card>
 	<card>
 		<k>кезексиз</k>
@@ -135880,33 +135973,39 @@
 		<xr>то же, что <wordLink word="куюшкан"/>.</xr>
 	</card>
 	<card>
-		<k>куда I</k>
-		<meta>в разн. знач.</meta>
-		<trn>сват;</trn>
-		<blockquote>куда бол- породниться через брак своих детей или родственников;</blockquote>
-		<ex>
-			<source>ит менен куда болсоң, жегени менен той бересиң</source>
-			<target>погов. если породнишься (станешь сватом) с собакой, то из её пищи (т.е. дерьма) пир устроишь;</target>
-		</ex>
-		<blockquote>куда түш- свататься; сватать;</blockquote>
-		<blockquote>куда түшүр- засылать сватов;</blockquote>
-		<blockquote>куда башы главный сват (их два: один со стороны жениха, другой со стороны невесты);</blockquote>
-		<ex>
-			<source>кайчы куда или кайчылаш куда</source>
-			<target>уст. "перекрёстный" сват (когда две семьи обмениваются дочерьми, выдавая их замуж за сыновей другой стороны);</target>
-		</ex>
-		<ex>
-			<source>бел куда</source>
-			<target>уст. родители (обычно - отцы), просватывающие своих ещё не родившихся детей;</target>
-		</ex>
-		<ex>
-			<source>бешик куда</source>
-			<target>уст. родители (обычно - отцы), просватывающие своих детей с колыбели.</target>
-		</ex>
-		<blockquote>куда II, кудаа</blockquote>
-		<meta>редко,</meta>
-		<xr>то же, что <wordLink word="кудай"/>;</xr>
-		<blockquote>кудаага күнөөкөр грешен богу.</blockquote>
+		<k>куда</k>
+		<homonym>
+			<homonymIndex>куда I</homonymIndex>
+			<meta>в разн. знач.</meta>
+			<trn>сват;</trn>
+			<blockquote>куда бол- породниться через брак своих детей или родственников;</blockquote>
+			<ex>
+				<source>ит менен куда болсоң, жегени менен той бересиң</source>
+				<target>погов. если породнишься (станешь сватом) с собакой, то из её пищи (т.е. дерьма) пир устроишь;</target>
+			</ex>
+			<blockquote>куда түш- свататься; сватать;</blockquote>
+			<blockquote>куда түшүр- засылать сватов;</blockquote>
+			<blockquote>куда башы главный сват (их два: один со стороны жениха, другой со стороны невесты);</blockquote>
+			<ex>
+				<source>кайчы куда или кайчылаш куда</source>
+				<target>уст. "перекрёстный" сват (когда две семьи обмениваются дочерьми, выдавая их замуж за сыновей другой стороны);</target>
+			</ex>
+			<ex>
+				<source>бел куда</source>
+				<target>уст. родители (обычно - отцы), просватывающие своих ещё не родившихся детей;</target>
+			</ex>
+			<ex>
+				<source>бешик куда</source>
+				<target>уст. родители (обычно - отцы), просватывающие своих детей с колыбели.</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<homonymIndex>куда II</homonymIndex>
+			<alternativeForm>кудаа</alternativeForm>
+			<meta>редко,</meta>
+			<xr>то же, что <wordLink word="кудай"/>;</xr>
+			<blockquote>кудаага күнөөкөр грешен богу.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>кудаала-</k>
@@ -145654,9 +145753,11 @@
 				<source>куу алдына таш кармап, оттугун алып бир чакты</source>
 				<target>стих. держа камень у трута, он кресалом с силой ударил.</target>
 			</ex>
-			<blockquote>куу! VI</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>куу! VI</homonymIndex>
 			<alternativeForm>(или куу-куу!)</alternativeForm>
-			<blockquote>возглас, которым подзывают сокола.</blockquote>
+			<trn>возглас, которым подзывают сокола.</trn>
 		</homonym>
 		<homonym>
 			<homonymIndex>куу VII</homonymIndex>
@@ -163913,45 +164014,51 @@
 		<xr>то же, что <wordLink word="чөгөр-"/>.</xr>
 	</card>
 	<card>
-		<k>лөк I</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>одногорбый верблюд-самец;</trn>
-			<ex>
-				<source>нар баласы лөк болот</source>
-				<target>стих. сын одногорбого верблюда будет лөк;</target>
-			</ex>
-			<ex>
-				<source>Кытайдан (или Букардан) келген лөк, кулгө барып чөк</source>
-				<target>южн. загадка из Китая (или из Бухары) пришедший одногорбый верблюд, в золу опустись (отгадка кумган);</target>
-			</ex>
-			<blockquote>Кытайдан келген лөк, эки көзү көк загадка из Китая пришедший одногорбый верблюд, глаза у него серые (отгадка көгөөн слепень);</blockquote>
-			<ex>
-				<source>төөдөн тандап, лөк берем</source>
-				<target>фольк. выбрав из верблюдов, я дам одногорбого;</target>
-			</ex>
-			<blockquote>кара лөк самый сильный верблюд;</blockquote>
-			<ex>
-				<source>аз болгондо, кийгени кара лөктүн жүгү бар</source>
-				<target>фольк. то, что он надел на себя, равняется по меньшей мере вьюку сильного верблюда;</target>
-			</ex>
-			<ex>
-				<source>кара лөк элем, жоорудум</source>
-				<target>фольк. был я сильным верблюдом, (да теперь) покрылся ссадинами;</target>
-			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<meta>перен.</meta>
-			<trn>(о человеке) сильный, могучий;</trn>
-		</meaning>
-		<meaning>
-			<meaningIndex>3.</meaningIndex>
-			<meta>перен.</meta>
-			<trn>(о человеке) важный, высокопоставленный;</trn>
-			<blockquote>лөк куржун см. <wordLink word="куржун"/>.</blockquote>
-			<blockquote>лөк II см. <wordLink word="элек" homonym="III"/>.</blockquote>
-		</meaning>
+		<k>лөк</k>
+		<homonym>
+			<homonymIndex>лөк I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>одногорбый верблюд-самец;</trn>
+				<ex>
+					<source>нар баласы лөк болот</source>
+					<target>стих. сын одногорбого верблюда будет лөк;</target>
+				</ex>
+				<ex>
+					<source>Кытайдан (или Букардан) келген лөк, кулгө барып чөк</source>
+					<target>южн. загадка из Китая (или из Бухары) пришедший одногорбый верблюд, в золу опустись (отгадка кумган);</target>
+				</ex>
+				<blockquote>Кытайдан келген лөк, эки көзү көк загадка из Китая пришедший одногорбый верблюд, глаза у него серые (отгадка көгөөн слепень);</blockquote>
+				<ex>
+					<source>төөдөн тандап, лөк берем</source>
+					<target>фольк. выбрав из верблюдов, я дам одногорбого;</target>
+				</ex>
+				<blockquote>кара лөк самый сильный верблюд;</blockquote>
+				<ex>
+					<source>аз болгондо, кийгени кара лөктүн жүгү бар</source>
+					<target>фольк. то, что он надел на себя, равняется по меньшей мере вьюку сильного верблюда;</target>
+				</ex>
+				<ex>
+					<source>кара лөк элем, жоорудум</source>
+					<target>фольк. был я сильным верблюдом, (да теперь) покрылся ссадинами;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<meta>перен.</meta>
+				<trn>(о человеке) сильный, могучий;</trn>
+			</meaning>
+			<meaning>
+				<meaningIndex>3.</meaningIndex>
+				<meta>перен.</meta>
+				<trn>(о человеке) важный, высокопоставленный;</trn>
+				<blockquote>лөк куржун см. <wordLink word="куржун"/>.</blockquote>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>лөк II</homonymIndex>
+			<xr>см. <wordLink word="элек" homonym="III"/>.</xr>
+		</homonym>
 	</card>
 	<card>
 		<k>лөкүй-</k>
@@ -187349,9 +187456,12 @@
 			<origin>р.</origin>
 			<meta>разг.</meta>
 			<trn>обыск.</trn>
-			<blockquote>опуз III, опуза</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>опуз III</homonymIndex>
+			<alternativeForm>опуза</alternativeForm>
 			<origin>ир.</origin>
-			<blockquote>застращивание, запугивание;</blockquote>
+			<trn>застращивание, запугивание;</trn>
 			<blockquote>Ормон опуза или Ормон опуз показная храбрость, показная воинственность;</blockquote>
 			<blockquote>Ормон опуз кылып, алдады он обманул, взяв на пушку.</blockquote>
 		</homonym>
@@ -200325,22 +200435,25 @@
 					<source>сан тийбеске сан тийди, табак-табак нан тийди</source>
 					<target>погов. кому чести не было, честь досталась, блюдами хлеб достался; давно ли наш Макар огороды копал, а теперь наш Макар в воеводы попал.</target>
 				</ex>
-				<blockquote>сан III почёт, авторитет;</blockquote>
-				<blockquote>санды кетир- опозорить, осрамить;</blockquote>
-				<ex>
-					<source>кейишке салар жаныңды, кетирер минтип саныңды</source>
-					<target>фольк. огорчит он душу твою, опозорит он тебя;</target>
-				</ex>
-				<ex>
-					<source>кейитермин жаныңды, кетирермин саныңды</source>
-					<target>фольк. причиню я неприятность тебе, опозорю я тебя;</target>
-				</ex>
-				<blockquote>санды саа ким берди?! как ты осмелился?! кто тебе дал право?!;</blockquote>
-				<ex>
-					<source>көк аланы бу сурап, санды саа ким берди?!</source>
-					<target>фольк. просить (у меня) серо-пегого (коня) как ты осмелился?!</target>
-				</ex>
 			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>сан III</homonymIndex>
+			<trn>почёт, авторитет;</trn>
+			<blockquote>санды кетир- опозорить, осрамить;</blockquote>
+			<ex>
+				<source>кейишке салар жаныңды, кетирер минтип саныңды</source>
+				<target>фольк. огорчит он душу твою, опозорит он тебя;</target>
+			</ex>
+			<ex>
+				<source>кейитермин жаныңды, кетирермин саныңды</source>
+				<target>фольк. причиню я неприятность тебе, опозорю я тебя;</target>
+			</ex>
+			<blockquote>санды саа ким берди?! как ты осмелился?! кто тебе дал право?!;</blockquote>
+			<ex>
+				<source>көк аланы бу сурап, санды саа ким берди?!</source>
+				<target>фольк. просить (у меня) серо-пегого (коня) как ты осмелился?!</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -214027,17 +214140,17 @@
 					<source>салтанаттуу сый</source>
 					<target>уст. банкет.</target>
 				</ex>
-				<blockquote>сый II, сыя</blockquote>
-				<xr>(ср. <wordLink word="сын" homonym="II"/>)</xr>
-				<blockquote>деепр. наст. вр. от утраченного в киргизском языке глагола сы- ломать; сый чап- или сыя чап- (мечом), сый ат- или сыя ат- (стрелой, пулей), сый кой- (независимо от вида оружия) переломить, повредить;</blockquote>
-				<blockquote>колумду сый чаап таштады он перебил или повредил мне руку;</blockquote>
-				<blockquote>Курманбек, түз мээлеп, оң колун сыя атты стих. Курманбек, точно прицелившись, повредил ему правую руку;</blockquote>
-				<ex>
-					<source>мээлеген жерге тийбестен, бир жакы колун сый койду</source>
-					<target>фольк. не попав в то место, куда целился, он повредил ему руку;</target>
-				</ex>
-				<blockquote>бутун таш менен сый койду он (ударив) камнем повредил ему ногу.</blockquote>
 			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>сый II</homonymIndex>
+			<alternativeForm>сыя</alternativeForm>
+			<xr>(ср. <wordLink word="сын" homonym="II"/>)</xr>
+			<blockquote>деепр. наст. вр. от утраченного в киргизском языке глагола сы- ломать; сый чап- или сыя чап- (мечом), сый ат- или сыя ат- (стрелой, пулей), сый кой- (независимо от вида оружия) переломить, повредить;</blockquote>
+			<blockquote>колумду сый чаап таштады он перебил или повредил мне руку;</blockquote>
+			<blockquote>Курманбек, түз мээлеп, оң колун сыя атты стих. Курманбек, точно прицелившись, повредил ему правую руку;</blockquote>
+			<blockquote>мээлеген жерге тийбестен, бир жакы колун сый койду фольк. не попав в то место, куда целился, он повредил ему руку;</blockquote>
+			<blockquote>бутун таш менен сый койду он (ударив) камнем повредил ему ногу.</blockquote>
 		</homonym>
 		<homonym>
 			<homonymIndex>сый- III</homonymIndex>
@@ -229359,22 +229472,28 @@
 		<blockquote>дейди иттей темтиреп шляясь, как бездомная собака.</blockquote>
 	</card>
 	<card>
-		<k>тен I</k>
-		<origin>ир.</origin>
-		<trn>тело;</trn>
-		<blockquote>тенден башты кетириш керек нужно обезглавить (букв. убрать голову с тела);</blockquote>
-		<blockquote>жан-тен менен кириш- приняться серьёзно, энергично, вплотную.</blockquote>
-		<blockquote>тен II (самостоятельно не употребляется) принадлежащий, относящийся;</blockquote>
-		<blockquote>тен ал- принять на себя, взять на себя; признать;</blockquote>
-		<blockquote>мага тен (это) принадлежит мне;</blockquote>
-		<blockquote>бизге тен к нам относится, нам принадлежит;</blockquote>
-		<blockquote>мойнуна тен албай койду он не признал за собой;</blockquote>
-		<blockquote>өз мойнума тен албайм на себя я (вину за это) не приму;</blockquote>
-		<blockquote>албадым деп, тен албады он отпёрся, говорит, что не брал;</blockquote>
-		<ex>
-			<source>тен бер-</source>
-			<target>южн. признать (превосходство, правильность), подчиниться; преклоняться.</target>
-		</ex>
+		<k>тен</k>
+		<homonym>
+			<homonymIndex>тен I</homonymIndex>
+			<origin>ир.</origin>
+			<trn>тело;</trn>
+			<blockquote>тенден башты кетириш керек нужно обезглавить (букв. убрать голову с тела);</blockquote>
+			<blockquote>жан-тен менен кириш- приняться серьёзно, энергично, вплотную.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>тен II</homonymIndex>
+			<trn>(самостоятельно не употребляется) принадлежащий, относящийся;</trn>
+			<blockquote>тен ал- принять на себя, взять на себя; признать;</blockquote>
+			<blockquote>мага тен (это) принадлежит мне;</blockquote>
+			<blockquote>бизге тен к нам относится, нам принадлежит;</blockquote>
+			<blockquote>мойнуна тен албай койду он не признал за собой;</blockquote>
+			<blockquote>өз мойнума тен албайм на себя я (вину за это) не приму;</blockquote>
+			<blockquote>албадым деп, тен албады он отпёрся, говорит, что не брал;</blockquote>
+			<ex>
+				<source>тен бер-</source>
+				<target>южн. признать (превосходство, правильность), подчиниться; преклоняться.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>тең</k>
@@ -245383,18 +245502,23 @@
 	</card>
 	<card>
 		<k>туурук</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>потрескавшийся, корявый;</trn>
-			<blockquote>туурук таман потрескавшиеся подошвы; человек с потрескавшимися подошвами (гл. обр. от ходьбы босиком);</blockquote>
-			<blockquote>туурук беттүү с потрескавшимся лицом;</blockquote>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>трещина (напр. на коже), корявость.</trn>
-			<blockquote>туурук- II</blockquote>
-			<blockquote>трескаться, шелушиться.</blockquote>
-		</meaning>
+		<homonym>
+			<homonymIndex>туурук I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>потрескавшийся, корявый;</trn>
+				<blockquote>туурук таман потрескавшиеся подошвы; человек с потрескавшимися подошвами (гл. обр. от ходьбы босиком);</blockquote>
+				<blockquote>туурук беттүү с потрескавшимся лицом;</blockquote>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>трещина (напр. на коже), корявость.</trn>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>туурук- II</homonymIndex>
+			<trn>трескаться, шелушиться.</trn>
+		</homonym>
 	</card>
 	<card>
 		<k>тууруктал-</k>
@@ -251550,16 +251674,21 @@
 		</meaning>
 	</card>
 	<card>
-		<k>узак I</k>
-		<trn>долгий; долго;</trn>
-		<blockquote>узакка созулуп кетти надолго затянулось;</blockquote>
-		<blockquote>узак сөздөр менен чыгып сүйлөдү он выступил с большой речью;</blockquote>
-		<blockquote>дүркүрөгөн, узакка созулган кол чабуулар бурные, продолжительные аплодисменты;</blockquote>
-		<blockquote>узак жана даңктуу жол басып өттү он прошёл долгий и славный путь;</blockquote>
-		<blockquote>журт атасы Көкөтөй узагыраак карыптыр фольк. отец народа Кокетей очень постарел.</blockquote>
-		<blockquote>узак-II</blockquote>
-		<blockquote>затянуться, долго длиться;</blockquote>
-		<blockquote>оорун узагып кетти твоя болезнь затянулась.</blockquote>
+		<k>узак</k>
+		<homonym>
+			<homonymIndex>узак I</homonymIndex>
+			<trn>долгий; долго;</trn>
+			<blockquote>узакка созулуп кетти надолго затянулось;</blockquote>
+			<blockquote>узак сөздөр менен чыгып сүйлөдү он выступил с большой речью;</blockquote>
+			<blockquote>дүркүрөгөн, узакка созулган кол чабуулар бурные, продолжительные аплодисменты;</blockquote>
+			<blockquote>узак жана даңктуу жол басып өттү он прошёл долгий и славный путь;</blockquote>
+			<blockquote>журт атасы Көкөтөй узагыраак карыптыр фольк. отец народа Кокетей очень постарел.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>узак- II</homonymIndex>
+			<trn>затянуться, долго длиться;</trn>
+			<blockquote>оорун узагып кетти твоя болезнь затянулась.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>узакта-</k>
@@ -256731,7 +256860,11 @@
 		<homonym>
 			<homonymIndex>урум I</homonymIndex>
 			<trn>удар;</trn>
-			<blockquote>балкасынын урумунан табылган ар бир тыйын каждая копейка, заработанная ударами молота. урум II потомство;</blockquote>
+			<blockquote>балкасынын урумунан табылган ар бир тыйын каждая копейка, заработанная ударами молота.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>урум II</homonymIndex>
+			<trn>потомство;</trn>
 			<blockquote>тим эле урум болуп кетти (о людях, о роде, племени, о народе) очень расплодились, размножились;</blockquote>
 			<ex>
 				<source>уулуң өссө - урумга, кызың өссө - кырымга</source>
@@ -262237,40 +262370,55 @@
 		<blockquote>малдуу, чабыттуу, бөлтүрүктөрү коопсуз чоңоё турган жерлерге тууйт (волчица) щенится в местах, где есть скот где есть добыча, где волчата растут в безопасности.</blockquote>
 	</card>
 	<card>
-		<k>чабыш I</k>
-		<xr>и. д. от <wordLink word="чап-" homonym="IX"/>, <wordLink word="чап-" homonym="X"/>;</xr>
-		<blockquote>ат чабыш скачки, бега, конские ристалища;</blockquote>
-		<blockquote>жылаңач чабыш ист. состязание двух обнажённых до пояса всадников, старающихся ударить друг друга плетью по голому телу;</blockquote>
-		<blockquote>чоң чабыш ист. скачки на поминках;</blockquote>
-		<blockquote>кунан чабыш</blockquote>
-		<blockquote>1) скачки трёхлеток;</blockquote>
-		<blockquote>2) дистанция скачек трёхлеток;</blockquote>
-		<blockquote>кунан чабыш жол калды осталось уже немного пути (букв. пути осталось на расстояние скачек трёхлеток);</blockquote>
-		<blockquote>аламан чабыш общая потасовка, общая свалка;</blockquote>
-		<blockquote>чөп чабыш сенокошение, сенокос;</blockquote>
-		<blockquote>кол чабыш</blockquote>
-		<blockquote>1) аплодисменты;</blockquote>
-		<blockquote>2) отбивание такта ладонями;</blockquote>
-		<blockquote>сөзүн сүйлөп, камчысын чабышкан они были его приспешниками.</blockquote>
-		<blockquote>чабыш - II</blockquote>
-		<xr>взаимн. от <wordLink word="чап-" homonym="IX"/>, <wordLink word="чап-" homonym="X"/>
-		</xr>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>совместно рубить, рубить друг друга;</trn>
+		<k>чабыш</k>
+		<homonym>
+			<homonymIndex>чабыш I</homonymIndex>
+			<xr>и. д. от <wordLink word="чап-" homonym="IX"/>, <wordLink word="чап-" homonym="X"/>;</xr>
+			<trn>ат чабыш скачки, бега, конские ристалища;</trn>
 			<ex>
-				<source>тынчытып койду жайына чабышып каткан элиңди</source>
-				<target>стих. он успокоил междоусобствовавший (букв. рубивший друг друга) твой народ;</target>
+				<source>жылаңач чабыш</source>
+				<target>ист. состязание двух обнажённых до пояса всадников, старающихся ударить друг друга плетью по голому телу;</target>
 			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>состязаться в беге (пешим или всадникам);</trn>
 			<ex>
-				<source>күндө доорон салышып, күндө күлүк чабышып</source>
-				<target>стих. каждый день устраивая развлечения, каждый день устраивая скачки.</target>
+				<source>чоң чабыш</source>
+				<target>ист. скачки на поминках;</target>
 			</ex>
-		</meaning>
+			<miniCard>
+				<miniK>кунан чабыш</miniK>
+				<miniTrn>1) скачки трёхлеток;</miniTrn>
+				<miniTrn>2) дистанция скачек трёхлеток;</miniTrn>
+			</miniCard>
+			<blockquote>кунан чабыш жол калды осталось уже немного пути (букв. пути осталось на расстояние скачек трёхлеток);</blockquote>
+			<blockquote>аламан чабыш общая потасовка, общая свалка;</blockquote>
+			<blockquote>чөп чабыш сенокошение, сенокос;</blockquote>
+			<miniCard>
+				<miniK>кол чабыш</miniK>
+				<miniTrn>1) аплодисменты;</miniTrn>
+				<miniTrn>2) отбивание такта ладонями;</miniTrn>
+			</miniCard>
+			<blockquote>сөзүн сүйлөп, камчысын чабышкан они были его приспешниками.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>чабыш- II</homonymIndex>
+			<xr>взаимн. от <wordLink word="чап-" homonym="IX"/>, <wordLink word="чап-" homonym="X"/>
+			</xr>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>совместно рубить, рубить друг друга;</trn>
+				<ex>
+					<source>тынчытып койду жайына чабышып каткан элиңди</source>
+					<target>стих. он успокоил междоусобствовавший (букв. рубивший друг друга) твой народ;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>состязаться в беге (пешим или всадникам);</trn>
+				<ex>
+					<source>күндө доорон салышып, күндө күлүк чабышып</source>
+					<target>стих. каждый день устраивая развлечения, каждый день устраивая скачки.</target>
+				</ex>
+			</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>чабышмай</k>
@@ -272552,7 +272700,10 @@
 			<homonymIndex>чок IV</homonymIndex>
 			<collocationIdentifier>:</collocationIdentifier>
 			<blockquote>чок ойнор тяньш. то же, что <wordLink word="чогойно"/>.</blockquote>
-			<blockquote>чок V звукоподражание резкому удару (напр. кресала о камень).</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>чок V</homonymIndex>
+			<trn>звукоподражание резкому удару (напр. кресала о камень).</trn>
 		</homonym>
 		<homonym>
 			<homonymIndex>чок VI</homonymIndex>
@@ -272679,11 +272830,17 @@
 		</meaning>
 	</card>
 	<card>
-		<k>чокто- I</k>
-		<trn>украшать кисточками;</trn>
-		<blockquote>тебетейдин төбөсүн үкү менен чоктодук верх шапки мы украсили пером филина.</blockquote>
-		<blockquote>чокто- II лодпалить (напр. фитиль ружья);</blockquote>
-		<blockquote>а да мылтык октоду, милтелерин чоктоду он тоже ружьё своё зарядил, фитиль подпалил.</blockquote>
+		<k>чокто</k>
+		<homonym>
+			<homonymIndex>чокто- I</homonymIndex>
+			<trn>украшать кисточками;</trn>
+			<blockquote>тебетейдин төбөсүн үкү менен чоктодук верх шапки мы украсили пером филина.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>чокто- II</homonymIndex>
+			<trn>подпалить (напр. фитиль ружья);</trn>
+			<blockquote>а да мылтык октоду, милтелерин чоктоду он тоже ружьё своё зарядил, фитиль подпалил.</blockquote>
+		</homonym>
 	</card>
 	<card>
 		<k>чоктолуу I</k>
@@ -278190,11 +278347,16 @@
 		<xr>понуд. от <wordLink word="чыкылда-"/>.</xr>
 	</card>
 	<card>
-		<k>чыкыр I</k>
-		<collocationIdentifier>:</collocationIdentifier>
-		<blockquote>ыкыр-чыкыр см. <wordLink word="ыкыр"/>.</blockquote>
-		<blockquote>чыкыр-II</blockquote>
-		<xr>то же, что <wordLink word="чакыр-" homonym="III"/>.</xr>
+		<k>чыкыр</k>
+		<homonym>
+			<homonymIndex>чыкыр I</homonymIndex>
+			<collocationIdentifier>:</collocationIdentifier>
+			<blockquote>ыкыр-чыкыр см. <wordLink word="ыкыр"/>.</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>чыкыр- II</homonymIndex>
+			<xr>то же, что <wordLink word="чакыр-" homonym="III"/>.</xr>
+		</homonym>
 	</card>
 	<card>
 		<k>чыкыроон</k>
@@ -280949,7 +281111,10 @@
 			<origin>р.</origin>
 			<meta>разг.</meta>
 			<trn>челнок швейной машины.</trn>
-			<blockquote>чөлмөк II глиняный горшочек;</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>чөлмөк II</homonymIndex>
+			<trn>глиняный горшочек;</trn>
 			<ex>
 				<source>чөлмөк миң (или кырк) күнү сынбайт, бир күнү сынат</source>
 				<target>погов. горшочек тысячу (или сорок) дней не ломается, (а) в один день сломается.</target>
@@ -281388,8 +281553,18 @@
 				<miniTrn>1) широко раскинуть петлю;</miniTrn>
 				<miniTrn>2) перен. строить козни с целью подловить кого-л.</miniTrn>
 			</miniCard>
-			<blockquote>чөөлмөк II, III, IV</blockquote>
-			<xr>то же, что <wordLink word="чөлмөк" homonym="I"/>, <wordLink word="чөлмөк" homonym="II"/>, <wordLink word="чөлмөк" homonym="III"/>.</xr>
+		</homonym>
+		<homonym>
+			<homonymIndex>чөөлмөк II</homonymIndex>
+			<xr>то же, что <wordLink word="чөлмөк" homonym="I"/></xr>
+		</homonym>
+		<homonym>
+			<homonymIndex>чөөлмөк III</homonymIndex>
+			<xr>то же, что <wordLink word="чөлмөк" homonym="II"/>.</xr>
+		</homonym>
+		<homonym>
+			<homonymIndex>чөөлмөк IV</homonymIndex>
+			<xr>то же, что <wordLink word="чөлмөк" homonym="III"/>.</xr>
 		</homonym>
 		<homonym>
 			<homonymIndex>чөөлмөк V</homonymIndex>
@@ -297755,7 +297930,10 @@
 			<blockquote>үйдө эле (үйдөле) болом да я буду дома;</blockquote>
 			<blockquote>колун көтөрдү эле (көтөрделе), шалдайып көтңөрүлбөдү он было хотел поднять (букв. поднял) руку, но она беспомощно болталась и не поднималась;</blockquote>
 			<blockquote>кайдан эле! см. <wordLink word="кайдан"/>.</blockquote>
-			<blockquote>эле II (ср. <wordLink word="эде"/>)</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>эле II</homonymIndex>
+			<xr>(ср. <wordLink word="эде"/>)</xr>
 			<blockquote>прошедшее время от неправильного и недостаточного глагола э- быть (см. <wordLink word="э-" homonym="II"/>);</blockquote>
 			<blockquote>кыштын күнү эле была зима; это было зимой;</blockquote>
 			<blockquote>түн эле была ночь;</blockquote>
@@ -298263,7 +298441,10 @@
 				<target>тяньш. загон (при охоте на косуль);</target>
 			</ex>
 			<blockquote>элик сүт берген кормила грудью не родная мать (букв. молоко давала косуля).</blockquote>
-			<blockquote>элик II, эллик</blockquote>
+		</homonym>
+		<homonym>
+			<homonymIndex>элик II</homonymIndex>
+			<alternativeForm>эллик</alternativeForm>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="элүү"/>.</xr>
 		</homonym>
