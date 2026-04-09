@@ -51,6 +51,8 @@ python3 "$SCRIPT_DIR/find_blockquotes_parenthesized_xr_examples.py" --input "$ou
 python3 "$SCRIPT_DIR/find_blockquotes_two_word_source_last_hyphen_strict.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_middle_hyphen_two_words_no_links.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_three_words_second_contains_uu.py" --input "$output_xml" --apply-output "$output_xml"
+python3 "$SCRIPT_DIR/find_blockquotes_two_words_first3_match.py" --input "$output_xml" --apply-output "$output_xml"
+python3 "$SCRIPT_DIR/find_blockquotes_four_words_paired_first2_match.py" --input "$output_xml" --apply-output "$output_xml"
 lint "$output_xml"
 
 diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
