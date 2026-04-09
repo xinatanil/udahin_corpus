@@ -47,6 +47,7 @@ python3 "$SCRIPT_DIR/find_blockquotes_with_word.py" 'фольк.' --input "$outp
 python3 "$SCRIPT_DIR/find_blockquotes_with_stikh.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_with_pogov.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_simple_xr_examples.py" --input "$output_xml" --apply-output "$output_xml"
+python3 "$SCRIPT_DIR/find_blockquotes_parenthesized_xr_examples.py" --input "$output_xml" --apply-output "$output_xml"
 lint "$output_xml"
 
 diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
