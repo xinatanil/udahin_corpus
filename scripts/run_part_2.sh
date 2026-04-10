@@ -48,6 +48,7 @@ python3 "$SCRIPT_DIR/find_blockquotes_with_stikh.py" --input "$output_xml" --app
 python3 "$SCRIPT_DIR/find_blockquotes_with_pogov.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_simple_xr_examples.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_parenthesized_xr_examples.py" --input "$output_xml" --apply-output "$output_xml"
+python3 "$SCRIPT_DIR/find_blockquotes_three_word_sm_wordlink.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_two_word_source_last_hyphen_strict.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_middle_hyphen_two_words_no_links.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_three_words_second_contains_uu.py" --input "$output_xml" --apply-output "$output_xml"
