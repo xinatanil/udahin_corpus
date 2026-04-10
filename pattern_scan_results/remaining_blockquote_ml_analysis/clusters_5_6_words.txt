@@ -1,0 +1,451 @@
+Bucket: 5_6_words
+Items: 7291
+Features: 58598
+SVD components: 64
+min_cluster_size=25, min_samples=8
+Clustered items: 2146
+Noise items: 5145
+
+[cluster 1] label=28 size=108
+prototype=ооздун эни менен во всю глотку;
+median_fuzzy_to_prototype=39.5
+starts=жан-дили менен (3); эртең мененки (3); ата салты (2) | ends=меня опозорил (2); всей душой (2); с этим (2) | shapes=L7-8 L3-4 L5-6 L9+ L5-6+NN (3); L7-8+IH L5-6 L7-8 L9+ L3-4 L5-6 (2); L3-4 L5-6 L5-6 L5-6 L1-2 L3-4 (2)
+wordLink=0/108 | meta=1/108 | origin=0/108 | linkkw=0/108 | ili=9/108
+  <blockquote>ооздун эни менен во всю глотку;</blockquote>
+  <blockquote>өз бийлиги менен своей властью;</blockquote>
+  <blockquote>орок менен балка серп и молот;</blockquote>
+  <blockquote>анткен менен так, но всё же;</blockquote>
+  <blockquote>боор эт менен тең дорогой сердцу;</blockquote>
+  <blockquote>сонор кар менен по пороше;</blockquote>
+
+[cluster 2] label=22 size=102
+prototype=чети чыгып турат наклёвывается; немного выясняется;
+median_fuzzy_to_prototype=37.4
+starts=эл көзүнө (2); айгине көрүнүп (1); алым кетип (1) | ends=погода хмурится (3); подожди немного (2); многоступенчатая ракета (2) | shapes=L3-4 L9++UU L5-6 L9+ L5-6 (2); L3-4 L7-8 L5-6 L5-6 L7-8 (2); L3-4 L3-4 L9++NN L3-4 L5-6 L3-4 (2)
+wordLink=0/102 | meta=1/102 | origin=0/102 | linkkw=0/102 | ili=1/102
+  <blockquote>чети чыгып турат наклёвывается; немного выясняется;</blockquote>
+  <blockquote>күн чаңыттап турат погода немного хмурится;</blockquote>
+  <blockquote>эчен жылы несколько лет; много лет;</blockquote>
+  <blockquote>май кылгырып турат отрыгивается жиром;</blockquote>
+  <blockquote>созулуп турат вытягивается (напр. о резине);</blockquote>
+  <blockquote>айгине көрүнүп турат ясно виднеется;</blockquote>
+
+[cluster 3] label=24 size=99
+prototype=акылы пас недалёкий, ограниченный (умственно);
+median_fuzzy_to_prototype=38.0
+starts=айыл чарба (5); балдар үйү (2); козу уйгак (2) | ends=сельского хозяйства (3); ребёнок приёмыш (2); дом детдом (2) | shapes=L5-6 L3-4 L7-8 L3-4 L5-6 (2); L3-4 L5-6 L9+ L7-8 L9+ (2); L3-4 L5-6 L7-8+NN L9+ L9+ L9+ (2)
+wordLink=0/99 | meta=3/99 | origin=0/99 | linkkw=0/99 | ili=2/99
+  <blockquote>акылы пас недалёкий, ограниченный (умственно);</blockquote>
+  <blockquote>ала тарп обветшалый, истрёпанный; рваньё;</blockquote>
+  <blockquote>кыйыр түрдө косвенно (не непосредственно);</blockquote>
+  <blockquote>үздүксүз чарбалык жогорулаш непрерывный хозяйственный подъём;</blockquote>
+  <blockquote>чыргоо бала плаксивый, капризный ребёнок;</blockquote>
+  <blockquote>алтын кемер пояс, украшенный золотом;</blockquote>
+
+[cluster 4] label=10 size=92
+prototype=кекээрдүү сөз ехидное слово; издёвка.
+median_fuzzy_to_prototype=40.5
+starts=алдоо сөз (1); апсала сөз (1); сөзгө арданып (1) | ends=дельное слово (3); на слова (2); пустые разговоры (2) | shapes=L5-6 L3-4 L5-6+NN L7-8+NN L3-4+NN (1); L5-6 L3-4 L5-6 L5-6 L9+ (1); L5-6 L7-8 L9++NN L1-2 L5-6 (1)
+wordLink=0/92 | meta=5/92 | origin=0/92 | linkkw=0/92 | ili=1/92
+  <blockquote>кекээрдүү сөз ехидное слово; издёвка.</blockquote>
+  <blockquote>кычыткы сөз ехидное слово, язвительность.</blockquote>
+  <blockquote>такмаза сөз ехидное слово, ехидное вышучивание;</blockquote>
+  <blockquote>кермек сөз горький упрёк; ехидное слово;</blockquote>
+  <blockquote>эпкиндүү сөз резкое слово, выражение;</blockquote>
+  <blockquote>эшитимдүү сөз приятное, дельное слово.</blockquote>
+
+[cluster 5] label=32 size=90
+prototype=көзү кириңки у него впалые глаза.
+median_fuzzy_to_prototype=44.8
+starts=көзүңдү адыраңдатпа (1); айнектей көз (1); көзүңдү акыраңдатпа (1) | ends=ничего нет (3); свои глаза (2); таращи глаза (1) | shapes=L7-8 L3-4 L3-4 L3-4 L7-8 L9+ (2); L1-2 L5-6 L3-4 L5-6 L3-4 (2); L7-8 L9+ L1-2 L5-6 L5-6 (1)
+wordLink=0/90 | meta=0/90 | origin=0/90 | linkkw=0/90 | ili=1/90
+  <blockquote>көзү кириңки у него впалые глаза.</blockquote>
+  <blockquote>көзү чөйчөктөй у него большие глаза.</blockquote>
+  <blockquote>көзү кызгылтым у него покрасневшие глаза.</blockquote>
+  <blockquote>көзү кибиң этти он моргнул глазом.</blockquote>
+  <blockquote>көзү шылпык у него глаза слезятся.</blockquote>
+  <blockquote>көзүңдү акыраңдатпа! не пучь глаза!</blockquote>
+
+[cluster 6] label=16 size=89
+prototype=(при игре в ордо, см. )
+median_fuzzy_to_prototype=51.9
+starts=башы батпай (2); этеги бүтөлүп (2); при игре (2) | ends=от см (8); от ур- (2); элекмин см (2) | shapes=L3-4 L3-4 L3-4 L3-4 L1-2 (2); L7-8 L7-8 L9+ L7-8 L7-8 L1-2 (2); L5-6 L5-6+TH L5-6 L1-2 L1-2+TH (2)
+wordLink=89/89 | meta=0/89 | origin=0/89 | linkkw=89/89 | ili=12/89
+  <blockquote>(при игре в ордо, см. <wordLink word="ордо" meaning="3"/>)</blockquote>
+  <blockquote>при игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>
+  <blockquote>в игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>
+  <blockquote>прикрутить с помощью тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>
+  <blockquote>сары изине чөп сал- см. <wordLink word="чөп"/>.</blockquote>
+  <blockquote>(в скачках с козлёнком; см. <wordLink word="улак" meaning="2"/>)</blockquote>
+
+[cluster 7] label=26 size=86
+prototype=укмуштуудай достойно удивления; удивительно, изумительно.
+median_fuzzy_to_prototype=36.8
+starts=паровоз куруу (2); аёосуз сокку (1); айныбастан решительно (1) | ends=исполнительный комитет (4); испортил дело (2); паровозостроительный завод (2) | shapes=L7-8 L5-6+UU L5-6 L9++NN L5-6 (2); L5-6 L1-2 L9++NN L9+ L3-4 (2); L7-8 L7-8 L7-8+NN L5-6 L7-8 (2)
+wordLink=0/86 | meta=4/86 | origin=0/86 | linkkw=0/86 | ili=2/86
+  <blockquote>укмуштуудай достойно удивления; удивительно, изумительно.</blockquote>
+  <blockquote>тузбаалдап сүйлөдү он говорил предположительно, приблизительно.</blockquote>
+  <blockquote>таң калуучу иш удивительное дело;</blockquote>
+  <blockquote>кесе чапкандай как отрублено, решительно, окончательно;</blockquote>
+  <blockquote>ат үстүнөн поверхностно, не тщательно, невнимательно;</blockquote>
+  <blockquote>түндүгү бөлөк он живёт отдельно, самостоятельно;</blockquote>
+
+[cluster 8] label=18 size=81
+prototype=ондон аша свыше, больше десяти;
+median_fuzzy_to_prototype=36.7
+starts=ал эмес (2); коногу жайсыз (2); чоң мааниге (2) | ends=большее максимум (2); неважно угощал (2); не ровня (2) | shapes=L5-6 L5-6 L5-6 L1-2 L7-8 L5-6 (2); L3-4 L3-4 L1-2 L3-4 L1-2 L5-6 (2); L5-6 L3-4 L5-6 L1-2 L9+ (2)
+wordLink=0/81 | meta=0/81 | origin=0/81 | linkkw=0/81 | ili=5/81
+  <blockquote>ондон аша свыше, больше десяти;</blockquote>
+  <blockquote>үлкөн ат чабыш большие конские скачки;</blockquote>
+  <blockquote>эшилген кум сыпучий песок; большие пески;</blockquote>
+  <blockquote>чоң мааниге ээ имеет большое значение;</blockquote>
+  <blockquote>Жети Аркар астр. Большая Медведица;</blockquote>
+  <blockquote>барган сайын чем дальше, тем больше;</blockquote>
+
+[cluster 9] label=21 size=70
+prototype=бугу-марал общее название оленей и маралов;
+median_fuzzy_to_prototype=43.0
+starts=алмаз чөп (1); аркар оту (1); бадыраң темир (1) | ends=народной мелодии (4); вышивного орнамента (3); лекарственной травы (2) | shapes=L5-6 L3-4 L7-8 L9+ L9+ (2); L5-6 L5-6 L7-8 L7-8 L7-8 (2); L5-6 L3-4 L7-8 L9+ L7-8 (2)
+wordLink=0/70 | meta=6/70 | origin=0/70 | linkkw=0/70 | ili=1/70
+  <blockquote>бугу-марал общее название оленей и маралов;</blockquote>
+  <blockquote>сүттүү-сүрөк общее название молочных коров;</blockquote>
+  <blockquote>бөйөн-чаян общее название ядовитых насекомых;</blockquote>
+  <blockquote>ак өпкө название болезни лёгких;</blockquote>
+  <blockquote>бака чөп название болотного растения;</blockquote>
+  <blockquote>сары барпы название певчей птички;</blockquote>
+
+[cluster 10] label=25 size=69
+prototype=тозмо суу вода, запруженная, преграждённая плотиной;
+median_fuzzy_to_prototype=36.8
+starts=ак байбиче (2); айдарым какыр (1); айдың талаа (1) | ends=уважаемая женщина (2); чистая-чистая вода (2); степь пустыня (2) | shapes=L1-2 L7-8 L9+ L1-2 L9+ L7-8 (2); L5-6 L5-6 L3-4 L7-8 L7-8 (2); L7-8 L5-6 L5-6 L9+ L7-8 (1)
+wordLink=0/69 | meta=1/69 | origin=0/69 | linkkw=0/69 | ili=0/69
+  <blockquote>тозмо суу вода, запруженная, преграждённая плотиной;</blockquote>
+  <blockquote>тосмо суу запруженная вода, водоём;</blockquote>
+  <blockquote>жымсалдуу аял аккуратная, опрятная женщина;</blockquote>
+  <blockquote>урма суу быстрая вода, быстрая река;</blockquote>
+  <blockquote>өлү кан дурная, испорченная кровь;</blockquote>
+  <blockquote>житирме бозо выдержанная, крепкая буза.</blockquote>
+
+[cluster 11] label=35 size=69
+prototype=күүдөн тайып калды он совсем одряхлел;
+median_fuzzy_to_prototype=47.2
+starts=советтер союзунун (2); айнектей ачык (1); айыгып калды (1) | ends=советского союза (2); слишком зазнался (2); ясно очевидно (1) | shapes=L3-4 L5-6 L5-6 L1-2 L9+ L7-8 (2); L7-8 L5-6 L5-6 L1-2 L9+ (2); L7-8 L7-8 L5-6 L1-2 L5-6 L7-8 (2)
+wordLink=0/69 | meta=0/69 | origin=0/69 | linkkw=0/69 | ili=2/69
+  <blockquote>күүдөн тайып калды он совсем одряхлел;</blockquote>
+  <blockquote>мурдун көтөрүп калды он нос задрал;</blockquote>
+  <blockquote>итке минип калды он совершенно обеднел;</blockquote>
+  <blockquote>күчүктөр мантыгып калды щенки уже подросли;</blockquote>
+  <blockquote>ал селдейип катып калды он остолбенел;</blockquote>
+  <blockquote>мээси айнып калды он умом тронулся;</blockquote>
+
+[cluster 12] label=27 size=67
+prototype=долу уруп кетти градом побило.
+median_fuzzy_to_prototype=44.8
+starts=ак жеринен (1); акым кетти (1); алыска кетти (1) | ends=дело затянулось (3); стакан треснул (2); солнечный удар (2) | shapes=L5-6 L7-8 L5-6 L3-4 L7-8+NN L9++NN (2); L3-4 L3-4 L5-6 L7-8 L9+ L3-4 (2); L1-2 L7-8 L5-6 L3-4 L9++NN (2)
+wordLink=0/67 | meta=1/67 | origin=0/67 | linkkw=0/67 | ili=3/67
+  <blockquote>долу уруп кетти градом побило.</blockquote>
+  <blockquote>добул кагып кетти побило градом;</blockquote>
+  <blockquote>пиянкеч болуп кетти он спился.</blockquote>
+  <blockquote>ороюм чочуп кетти меня страх обуял.</blockquote>
+  <blockquote>зуулдатып жүрүп кетти он помчался.</blockquote>
+  <blockquote>Эсен отура кетти Эсен разом сел;</blockquote>
+
+[cluster 13] label=15 size=63
+prototype=чач п пик то же, что .
+median_fuzzy_to_prototype=62.5
+starts=то же (20); в эпосе (1); бийт-бийт южн (1) | ends=же что (24); что см (18); с выкриками (1) | shapes=L9++IH L3-4 L1-2 L1-2 L3-4 L1-2 (6); L9+ L1-2 L1-2 L3-4 L1-2 (6); L5-6 L5-6 L3-4 L1-2 L1-2 L3-4 (3)
+wordLink=63/63 | meta=24/63 | origin=0/63 | linkkw=62/63 | ili=0/63
+  <blockquote>чач п пик то же, что <wordLink word="чачпак"/>.</blockquote>
+  <blockquote>үч мара чуйск. то же, что <wordLink word="можу" homonym="II"/>.</blockquote>
+  <blockquote>бел парат южн. то же, что <wordLink word="окчонтой"/>.</blockquote>
+  <blockquote>зайым помош разг. то же, что <wordLink word="заемпомощь"/>.</blockquote>
+  <blockquote>(в эпосе) то же, что <wordLink word="дене"/>;</blockquote>
+  <blockquote>(в языке стариков) то же, что <wordLink word="басмайыл"/>.</blockquote>
+
+[cluster 14] label=4 size=62
+prototype=кең-кесири жигит щедрый, хлебосольный парень; рубаха-парень.
+median_fuzzy_to_prototype=46.2
+starts=аламан жигит (1); алибеттүү жигит (1); ачык жигит (1) | ends=расторопный парень (4); молодцеватый парень (3); парень рубаха-парень (2) | shapes=L7-8 L5-6 L5-6 L9+ L5-6+NN (3); L5-6 L5-6 L5-6 L9+ L5-6+NN (2); L9+ L5-6 L5-6 L9+ L5-6+NN (2)
+wordLink=0/62 | meta=0/62 | origin=0/62 | linkkw=0/62 | ili=0/62
+  <blockquote>кең-кесири жигит щедрый, хлебосольный парень; рубаха-парень.</blockquote>
+  <blockquote>ачык жигит чистосердечный, бесхитростный парень, рубаха-парень;</blockquote>
+  <blockquote>кайсар жигит смелый и сильный парень;</blockquote>
+  <blockquote>күрдөлдүү жигит бравый, сильный парень;</blockquote>
+  <blockquote>кыйын жигит ловкий парень; храбрый парень;</blockquote>
+  <blockquote>урунуп-беринген жигит мечущийся, непостоянный парень;</blockquote>
+
+[cluster 15] label=6 size=60
+prototype=ыманы ысык киши симпатичный человек.
+median_fuzzy_to_prototype=52.6
+starts=абдан маакул (1); аракка алдырган (1); алпейим киши (1) | ends=чистоплотный человек (2); прямой человек (2); человек скандалист (2) | shapes=L7-8 L3-4 L9+ L9+ L7-8 (2); L5-6 L3-4 L9+ L7-8 L7-8 (2); L3-4 L3-4 L9+ L9+ L7-8 (2)
+wordLink=0/60 | meta=0/60 | origin=0/60 | linkkw=0/60 | ili=2/60
+  <blockquote>ыманы ысык киши симпатичный человек.</blockquote>
+  <blockquote>ичимен тап киши скрытный человек;</blockquote>
+  <blockquote>абдан маакул киши весьма достойный человек;</blockquote>
+  <blockquote>быштайган сары киши рыжий человек;</blockquote>
+  <blockquote>каруусу бар киши сильный человек;</blockquote>
+  <blockquote>нускоолуу киши почтенный, примерный человек.</blockquote>
+
+[cluster 16] label=7 size=60
+prototype=чылгообай (о человеке) никудышный, шляпа, тряпка.
+median_fuzzy_to_prototype=47.7
+starts=акылы бутүн (1); албаң-далбаң о (1); алкынан бузулган (1) | ends=о человеке (3); животном малорослый (2); умный разумный (1) | shapes=L3-4 L5-6 L1-2 L7-8 L9+ (3); L9+ L1-2 L7-8 L7-8 L9+ (3); L3-4 L5-6 L1-2 L7-8 L5-6 (2)
+wordLink=0/60 | meta=4/60 | origin=0/60 | linkkw=0/60 | ili=0/60
+  <blockquote>чылгообай (о человеке) никудышный, шляпа, тряпка.</blockquote>
+  <blockquote>байгеге сайылгыр (о человеке) никудышный, ничтожество.</blockquote>
+  <blockquote>наркта жок (о человеке) никудышный;</blockquote>
+  <blockquote>сүйрөлгөн (о человеке) размазня, никудышный;</blockquote>
+  <blockquote>акылы бутүн (о человеке) умный, разумный;</blockquote>
+  <blockquote>кычкыл сөздүү (о человеке) ехидный.</blockquote>
+
+[cluster 17] label=13 size=60
+prototype=кумдуу жер песчаное место, песчаная почва.
+median_fuzzy_to_prototype=39.5
+starts=адыр-чыбыр бугры (1); айдөшү жер (1); ал жерде (1) | ends=возделывания земля (2); зелёной травой (2); холмистая местность (1) | shapes=L9++IH L5-6 L1-2 L7-8 L9+ L9++NN (1); L5-6 L3-4 L7-8 L7-8 L5-6 (1); L1-2 L5-6 L3-4 L1-2 L3-4 L5-6 (1)
+wordLink=0/60 | meta=0/60 | origin=1/60 | linkkw=0/60 | ili=1/60
+  <blockquote>кумдуу жер песчаное место, песчаная почва.</blockquote>
+  <blockquote>сыздуу жер сырое место; сырая местность.</blockquote>
+  <blockquote>суулуу жер место, где есть вода;</blockquote>
+  <blockquote>каадалуу жер видное, заметное место;</blockquote>
+  <blockquote>ышкындуу жер место, поросшее ревенём.</blockquote>
+  <blockquote>конолголуу жер место, удобное для ночлега;</blockquote>
+
+[cluster 18] label=0 size=58
+prototype=кер ооз ат мухортая лошадь;
+median_fuzzy_to_prototype=45.8
+starts=ат кулагын (2); бул ат (2); жылкыны айырып (1) | ends=табуны лошадей (3); непородистая лошадь (2); с запалом (2) | shapes=L3-4 L5-6 L1-2 L5-6 L9+ (2); L7-8 L5-6 L5-6 L1-2 L5-6 L7-8 (1); L5-6 L7-8 L1-2 L3-4 L5-6 L5-6+NN (1)
+wordLink=0/58 | meta=0/58 | origin=0/58 | linkkw=0/58 | ili=0/58
+  <blockquote>кер ооз ат мухортая лошадь;</blockquote>
+  <blockquote>чаңкай боз ат чисто белая лошадь.</blockquote>
+  <blockquote>өрү калган ат старая лошадь.</blockquote>
+  <blockquote>ак сур ат светло-голубая лошадь;</blockquote>
+  <blockquote>кара жылкы простая, непородистая лошадь;</blockquote>
+  <blockquote>сойлоктогон ат стройная и бодрая лошадь;</blockquote>
+
+[cluster 19] label=33 size=58
+prototype=бир чымчым туз щепотка соли;
+median_fuzzy_to_prototype=40.7
+starts=бир туруп (2); бир кесим (2); түн бир (2) | ends=из них (11); кусочек мяса (3); то то (3) | shapes=L3-4 L5-6 L3-4 L5-6 L5-6 (5); L3-4 L3-4 L1-2 L7-8 L3-4 (2); L3-4 L5-6 L3-4 L5-6 L1-2 L1-2 (2)
+wordLink=0/58 | meta=0/58 | origin=0/58 | linkkw=0/58 | ili=4/58
+  <blockquote>бир чымчым туз щепотка соли;</blockquote>
+  <blockquote>бир кучак отун охапка дров;</blockquote>
+  <blockquote>бир көтөрүм отун охапка дров;</blockquote>
+  <blockquote>бир топ нооту штука сукна;</blockquote>
+  <blockquote>бир үзүм эт кусочек мяса;</blockquote>
+  <blockquote>бир томолок эт кусок мяса;</blockquote>
+
+[cluster 20] label=23 size=57
+prototype=күндөгүдөй как всегда, как обычно;
+median_fuzzy_to_prototype=38.2
+starts=кечээ күнү (2); ылайдай семиз (2); алда кандай (1) | ends=будний день (2); капли воды (2); какой какой-то (1) | shapes=L3-4 L5-6 L9+ L5-6 L7-8+IH (1); L3-4 L3-4 L5-6+IH L1-2 L3-4 (1); L7-8 L9+ L3-4 L9++IH L3-4+NN (1)
+wordLink=0/57 | meta=0/57 | origin=0/57 | linkkw=0/57 | ili=1/57
+  <blockquote>күндөгүдөй как всегда, как обычно;</blockquote>
+  <blockquote>күндөн жарык ясно как день;</blockquote>
+  <blockquote>күнү бүгүнкүдөй ну, точно как сегодня;</blockquote>
+  <blockquote>эгиз козудай как две капли воды;</blockquote>
+  <blockquote>коёндон окшош как две капли воды;</blockquote>
+  <blockquote>так күнү бүгүн как раз сегодня;</blockquote>
+
+[cluster 21] label=8 size=56
+prototype=жаңы заман новое время, новые времена;
+median_fuzzy_to_prototype=48.1
+starts=ар качан (2); бул убакка (2); өз убагында (2) | ends=стародавние времена (4); сего времени (3); прежние времена (2) | shapes=L1-2 L5-6 L5-6 L1-2 L5-6 L5-6 (2); L3-4 L5-6 L5-6 L5-6 L5-6 L7-8 (2); L7-8 L7-8 L1-2 L9+ L7-8 (2)
+wordLink=0/56 | meta=1/56 | origin=0/56 | linkkw=0/56 | ili=3/56
+  <blockquote>жаңы заман новое время, новые времена;</blockquote>
+  <blockquote>абалкы заманда в прежние времена;</blockquote>
+  <blockquote>байыркы заманда в стародавние времена;</blockquote>
+  <blockquote>азыркы заман современность, наше время;</blockquote>
+  <blockquote>шумурай шум заман зловещие изменчивые времена;</blockquote>
+  <blockquote>мурунку заманда в прежние времена;</blockquote>
+
+[cluster 22] label=11 size=53
+prototype=ыпыр-тыпыр или ыпыр-сыпыр хлам, рухлядь;
+median_fuzzy_to_prototype=33.7
+starts=ийини или (2); айыпка жык- (1); алакан көрүүчү (1) | ends=буюр-наложить взыскание (1); ачуучу хиромант (1); таким образом (1) | shapes=L9++IH L3-4 L9++IH L5-6 L5-6 (2); L7-8 L3-4 L5-6 L3-4 L3-4 (2); L5-6 L3-4+TH L3-4 L5-6 L9++IH+NN L9+ (1)
+wordLink=0/53 | meta=0/53 | origin=0/53 | linkkw=0/53 | ili=53/53
+  <blockquote>ыпыр-тыпыр или ыпыр-сыпыр хлам, рухлядь;</blockquote>
+  <blockquote>бачыр-бачыр или бачыр-бучур треск, хруст;</blockquote>
+  <blockquote>дагысын или дагынкысын ещё раз, опять;</blockquote>
+  <blockquote>тарс этме или күрс этме ружьё;</blockquote>
+  <blockquote>баарысына или барсына всем им;</blockquote>
+  <blockquote>чаап-жыйноо или чаап-жыюу уборка (урожая);</blockquote>
+
+[cluster 23] label=2 size=48
+prototype=асый тайлак верблюд по пятому году;
+median_fuzzy_to_prototype=49.2
+starts=асый тайлак (2); сүт бото (2); быйылкы жылы (2) | ends=четвёртому году (6); пятому году (5); третьему году (5) | shapes=L7-8 L3-4 L1-2 L3-4 L3-4 (2); L5-6 L3-4 L3-4+NN L1-2 L9++NN L3-4 (2); L9+ L3-4 L1-2 L7-8 L3-4 (2)
+wordLink=0/48 | meta=2/48 | origin=0/48 | linkkw=0/48 | ili=0/48
+  <blockquote>асый тайлак верблюд по пятому году;</blockquote>
+  <blockquote>асый тайлак верблюжонок по пятому году;</blockquote>
+  <blockquote>тай тайлак верблюжонок по второму году;</blockquote>
+  <blockquote>бышты тайлак верблюжонок по четвёртому году;</blockquote>
+  <blockquote>кунан тайлак верблюжонок по третьему году;</blockquote>
+  <blockquote>асый өгүз бык по пятому году;</blockquote>
+
+[cluster 24] label=14 size=48
+prototype=он минута перерыв перерыв десять минут.
+median_fuzzy_to_prototype=36.7
+starts=кой айланайын (1); аны аллейлейт (1); ара конуп (1) | ends=из москвы (2); милый перестань (1); ним угодничает (1) | shapes=L3-4 L9+ L3-4 L9++NN L5-6 L9++NN (1); L3-4 L9+ L1-2 L5-6 L3-4 L9+ (1); L3-4 L5-6 L3-4 L9+ L1-2 L3-4 (1)
+wordLink=0/48 | meta=4/48 | origin=0/48 | linkkw=0/48 | ili=0/48
+  <blockquote>он минута перерыв перерыв десять минут.</blockquote>
+  <blockquote>баш макала передовица, передовая статья.</blockquote>
+  <blockquote>элкүнү ыңкайткан ему перевалило за пятьдесят.</blockquote>
+  <blockquote>жонду эңкейип перевалив через гребень горы;</blockquote>
+  <blockquote>үн кайры петь с переливами;</blockquote>
+  <blockquote>аны аллейлейт он перед ним угодничает.</blockquote>
+
+[cluster 25] label=12 size=43
+prototype=кызгалдактын кызыл гүл красный цветок мака;
+median_fuzzy_to_prototype=42.5
+starts=өтмө кызыл (2); кызыл абоз (1); кызыл армия (1) | ends=красное знамя (2); как рак (2); красный обоз (1) | shapes=L3-4 L5-6 L3-4+UU L9+ L7-8 L5-6 (2); L5-6 L3-4 L3-4 L7-8 L3-4 (1); L5-6 L5-6 L3-4 L7-8 L5-6 (1)
+wordLink=0/43 | meta=4/43 | origin=1/43 | linkkw=0/43 | ili=0/43
+  <blockquote>кызгалдактын кызыл гүл красный цветок мака;</blockquote>
+  <blockquote>кынадай кызыл красный как хна;</blockquote>
+  <blockquote>чыйкандай кызыл красный как рак;</blockquote>
+  <blockquote>манаттай кызыл красный как кумач;</blockquote>
+  <blockquote>өпкө кызыл красноватый, не ярко-красный;</blockquote>
+  <blockquote>чоктой кызарып покраснев как рак;</blockquote>
+
+[cluster 26] label=5 size=42
+prototype=аржактан с той стороны, оттуда;
+median_fuzzy_to_prototype=50.0
+starts=бери алдында (1); аржактан с (1); арсайып-торсоюп торча (1) | ends=разные стороны (2); сторона чего-л (2); входа сторона (2) | shapes=L3-4 L5-6 L5-6 L1-2 L5-6 L7-8 (2); L3-4 L7-8 L1-2 L5-6 L7-8 (2); L3-4 L7-8 L1-2 L3-4 L7-8 (1)
+wordLink=0/42 | meta=1/42 | origin=0/42 | linkkw=0/42 | ili=0/42
+  <blockquote>аржактан с той стороны, оттуда;</blockquote>
+  <blockquote>нар жактан с той стороны;</blockquote>
+  <blockquote>тиги жакта в той стороне, там;</blockquote>
+  <blockquote>чап тараптан с левой стороны;</blockquote>
+  <blockquote>күн жүрүш жактан с южной стороны;</blockquote>
+  <blockquote>чартараптан со всех сторон, отовсюду;</blockquote>
+
+[cluster 27] label=20 size=40
+prototype=жыштан жыш очень и очень.
+median_fuzzy_to_prototype=42.9
+starts=анчалык бийик (1); абдан тыгыз (1); бечен эле (1) | ends=очень обиделся (2); температура организма (2); очень высокий (1) | shapes=L5-6 L5-6 L5-6+NN L7-8 L5-6+NN L7-8 (2); L7-8 L5-6 L3-4 L1-2 L5-6+NN L7-8 (1); L5-6 L5-6 L9++UU L5-6+NN L5-6 L7-8 (1)
+wordLink=0/40 | meta=1/40 | origin=0/40 | linkkw=0/40 | ili=0/40
+  <blockquote>жыштан жыш очень и очень.</blockquote>
+  <blockquote>табылган акыл очень умно; очень дельно;</blockquote>
+  <blockquote>эң жакшы очень хороший; очень хорошо;</blockquote>
+  <blockquote>жепжеңил очень лёгкий; очень легко;</blockquote>
+  <blockquote>эпсиз мыкты очень крепкий; очень прочный;</blockquote>
+  <blockquote>ылжырап бышкан эт очень разварившееся мясо.</blockquote>
+
+[cluster 28] label=1 size=36
+prototype=кыйырлуу журт родной народ, свой народ.
+median_fuzzy_to_prototype=41.6
+starts=эл аралык (7); эл агартуу (1); арият-салт совокупность (1) | ends=международное положение (4); всё население (3); мой народ (2) | shapes=L1-2 L5-6 L3-4 L9+ L9+ (4); L5-6 L3-4 L3-4+NN L5-6 L3-4+NN L9+ (4); L1-2 L5-6 L5-6 L9+ L5-6 (2)
+wordLink=0/36 | meta=1/36 | origin=0/36 | linkkw=0/36 | ili=0/36
+  <blockquote>кыйырлуу журт родной народ, свой народ.</blockquote>
+  <blockquote>кандуу журт народ, который имеет хана.</blockquote>
+  <blockquote>күлен журт весь народ, всё население.</blockquote>
+  <blockquote>күлдү журт весь народ, всё населенне;</blockquote>
+  <blockquote>күрдөлү журтум весь мой народ;</blockquote>
+  <blockquote>ашыркы журт дальняя страна; дальний народ;</blockquote>
+
+[cluster 29] label=29 size=35
+prototype=келер беде? пришёл бы он?
+median_fuzzy_to_prototype=40.7
+starts=азыр келдим (1); акылдап чуркап (1); али келдим (1) | ends=что пришёл (2); пришёл бы (2); удобном случае (2) | shapes=L3-4 L5-6 L1-2 L5-6 L5-6+NN (3); L3-4 L5-6 L1-2 L5-6+NN L3-4 L5-6+NN (2); L7-8 L5-6 L5-6 L1-2 L5-6 L7-8 (1)
+wordLink=0/35 | meta=0/35 | origin=0/35 | linkkw=0/35 | ili=0/35
+  <blockquote>келер беде? пришёл бы он?</blockquote>
+  <blockquote>келет болчу он пришёл бы;</blockquote>
+  <blockquote>келбейт болчу он не пришёл бы;</blockquote>
+  <blockquote>келген бейм он, думаю, пришёл;</blockquote>
+  <blockquote>оюма келди мне пришло в голову;</blockquote>
+  <blockquote>"эмне" деп келдиң? ты зачем пришёл?</blockquote>
+
+[cluster 30] label=34 size=35
+prototype=кара чаар кабылан чёрно-чубарый леопард;
+median_fuzzy_to_prototype=41.6
+starts=кара алтын (1); жаңы бийиктикке (1); илгери карай (1) | ends=чёрное золото (1); новым высотам (1); стремясь вперёд (1) | shapes=L3-4 L5-6 L5-6+NN L3-4 L5-6+NN L5-6 (1); L3-4 L9+ L5-6 L1-2 L5-6 L7-8 (1); L5-6 L5-6 L7-8 L7-8+NN L5-6+NN (1)
+wordLink=0/35 | meta=1/35 | origin=0/35 | linkkw=0/35 | ili=2/35
+  <blockquote>кара чаар кабылан чёрно-чубарый леопард;</blockquote>
+  <blockquote>кара карга какылдак каркающий грач;</blockquote>
+  <blockquote>кара болот кайсар острый булат;</blockquote>
+  <blockquote>кара чакылдак лунь болотный (птица).</blockquote>
+  <blockquote>чыны карагат или карагат чёрная смородина;</blockquote>
+  <blockquote>жылтыр кара көрпө блестящая чёрная курпейка;</blockquote>
+
+[cluster 31] label=36 size=35
+prototype=жарбайып, күлүп койду он радостно улыбнулся;
+median_fuzzy_to_prototype=45.0
+starts=алаканын шап (2); кабагын бүркөдү (1); кабагы бүркөлдү (1) | ends=всплеснул руками (3); нахмурился насупился (2); задрал овцу (1) | shapes=L7-8 L3-4 L5-6 L1-2 L9+ L5-6 (3); L7-8 L7-8 L1-2 L9+ L9+ (2); L5-6 L7-8 L1-2 L9+ L9+ (1)
+wordLink=0/35 | meta=0/35 | origin=0/35 | linkkw=0/35 | ili=0/35
+  <blockquote>жарбайып, күлүп койду он радостно улыбнулся;</blockquote>
+  <blockquote>жылмаң этип койду он улыбнулся.</blockquote>
+  <blockquote>үлдүрөңкү күлдү он вяло улыбнулся.</blockquote>
+  <blockquote>ак бейли кармады он раздобрился;</blockquote>
+  <blockquote>музыканы таштап койду он забросил музыку;</blockquote>
+  <blockquote>алаканын шап койду он всплеснул руками;</blockquote>
+
+[cluster 32] label=3 size=34
+prototype=ал дөөмөт күтүп калыптыр он заважничал.
+median_fuzzy_to_prototype=46.8
+starts=бычак далк (1); аскерче кийинип (1); асеми бүтүп (1) | ends=нож заржавел (1); оделся по-военному (1); кокетливо рисуется (1) | shapes=L5-6 L3-4 L5-6 L7-8 L3-4 L7-8 (1); L7-8 L7-8 L7-8 L1-2 L5-6 L9++IH (1); L5-6 L5-6 L7-8 L1-2 L9+ L7-8 (1)
+wordLink=0/34 | meta=0/34 | origin=0/34 | linkkw=0/34 | ili=0/34
+  <blockquote>ал дөөмөт күтүп калыптыр он заважничал.</blockquote>
+  <blockquote>чыйрыттап калыптыр он заважничал, он возгордился;</blockquote>
+  <blockquote>бычак далк кагып калыптыр нож заржавел;</blockquote>
+  <blockquote>ментинен тайып калыптыр он осрамился.</blockquote>
+  <blockquote>бала окунуп калыптыр он взял приёмыша.</blockquote>
+  <blockquote>семирип, чүйлү алыптыр он разжирел;</blockquote>
+
+[cluster 33] label=31 size=32
+prototype=шылк эте түштү вдруг ослабев, упал;
+median_fuzzy_to_prototype=46.5
+starts=эсине түшүрө (2); бачыр-бучур дей (1); от бүлбүл (1) | ends=вдруг вспомнив (2); где-то затрещало (1); мелькнул огонёк (1) | shapes=L5-6 L5-6 L3-4 L1-2 L5-6 L7-8 (2); L9++IH L3-4 L5-6 L5-6 L5-6+IH L9+ (1); L1-2 L5-6 L3-4 L5-6 L7-8+NN L5-6+NN (1)
+wordLink=0/32 | meta=0/32 | origin=0/32 | linkkw=0/32 | ili=0/32
+  <blockquote>шылк эте түштү вдруг ослабев, упал;</blockquote>
+  <blockquote>олк-солк эте түштү вдруг пошатнулось.</blockquote>
+  <blockquote>суз тарта түштү он вдруг помрачнел;</blockquote>
+  <blockquote>тым боло түштү он вдруг умолк;</blockquote>
+  <blockquote>бачыр-бучур дей түштү вдруг (где-то) затрещало;</blockquote>
+  <blockquote>эсиме келе түштүм я вдруг опомнился;</blockquote>
+
+[cluster 34] label=30 size=30
+prototype=топурак баскыр! чтоб тебе (ему) подохнуть!
+median_fuzzy_to_prototype=45.0
+starts=ушуну көрмөксүң (2); ошону айт (1); балекеттики вот (1) | ends=тебе ослепнуть (4); чтоб тебе (3); чтоб тебя (2) | shapes=L5-6 L9+ L3-4 L3-4 L1-2 L3-4 (2); L5-6 L3-4 L3-4 L3-4 L1-2 (1); L9+ L3-4 L3-4+NN L3-4 L3-4 L3-4 (1)
+wordLink=0/30 | meta=1/30 | origin=0/30 | linkkw=0/30 | ili=0/30
+  <blockquote>топурак баскыр! чтоб тебе (ему) подохнуть!</blockquote>
+  <blockquote>соолгур! чтоб тебе (ему) пропасть!</blockquote>
+  <blockquote>көзүң аккыр! чтоб тебе ослепнуть!;</blockquote>
+  <blockquote>кудай карайлаткыр! чтоб тебе ослепнуть!</blockquote>
+  <blockquote>кырылгыр! бран. чтоб тебе (ему) сгинуть!</blockquote>
+  <blockquote>чунайгыр! чтоб тебе (ему) лишиться всего!</blockquote>
+
+[cluster 35] label=17 size=29
+prototype=төтө жол прямая, ближайшая дорога;
+median_fuzzy_to_prototype=48.6
+starts=темир жол (2); айры жол (1); аспааный килем (1) | ends=укатанная дорога (3); ровная дорога (2); железнодорожный узел (2) | shapes=L5-6 L3-4 L5-6 L1-2 L5-6 L5-6 (2); L5-6 L3-4 L5-6 L9+ L3-4 (2); L3-4 L3-4 L7-8+NN L5-6 L9+ L5-6 (1)
+wordLink=0/29 | meta=2/29 | origin=0/29 | linkkw=0/29 | ili=0/29
+  <blockquote>төтө жол прямая, ближайшая дорога;</blockquote>
+  <blockquote>таамай жол прямая и ровная дорога;</blockquote>
+  <blockquote>шыдыр жол прямая и ровная дорога;</blockquote>
+  <blockquote>кашка жол прямая горная дорога;</blockquote>
+  <blockquote>кан жол большая, главная дорога;</blockquote>
+  <blockquote>жүргүнчүнүн жолу проезжая дорога, большая дорога;</blockquote>
+
+[cluster 36] label=9 size=25
+prototype=карт акын старый акын; старик акын;
+median_fuzzy_to_prototype=43.9
+starts=карылыгы жеткен (2); азынаган алат (1); абаке дядюшка (1) | ends=дряхлый старик (2); крикливый старик (1); к старику (1) | shapes=L7-8 L3-4 L5-6 L9+ L9+ L5-6 (1); L5-6 L7-8 L7-8 L9+ L1-2 L7-8 (1); L9+ L9+ L5-6 L9+ L7-8 (1)
+wordLink=0/25 | meta=0/25 | origin=0/25 | linkkw=0/25 | ili=0/25
+  <blockquote>карт акын старый акын; старик акын;</blockquote>
+  <blockquote>кары чынар старый чинар, старый платан;</blockquote>
+  <blockquote>эски станок старый станок; устаревший станок;</blockquote>
+  <blockquote>эски бөз кур старый матовый кушак;</blockquote>
+  <blockquote>карылыгы жеткен абышка дряхлый старик;</blockquote>
+  <blockquote>ата салты дедовский обычай; старый быт;</blockquote>
+
+[cluster 37] label=19 size=25
+prototype=үч баш пыяз три головки лука;
+median_fuzzy_to_prototype=41.0
+starts=бакытсыз башым-ай (1); үч баш (1); бала жолборс (1) | ends=бедная головушка (2); моя голова (1); головки лука (1) | shapes=L5-6 L5-6 L3-4 L5-6 L9+ (2); L7-8 L7-8+IH L1-2 L9+ L3-4 L5-6 (1); L1-2 L3-4 L3-4 L3-4 L7-8 L3-4 (1)
+wordLink=0/25 | meta=1/25 | origin=0/25 | linkkw=0/25 | ili=0/25
+  <blockquote>үч баш пыяз три головки лука;</blockquote>
+  <blockquote>кайран башым моя бедная головушка;</blockquote>
+  <blockquote>курган башым моя бедная головушка;</blockquote>
+  <blockquote>башым ооруйт у меня болит голова;</blockquote>
+  <blockquote>өгүз баш величиной с бычью голову;</blockquote>
+  <blockquote>чечүүчү добуш решающий голос (при голосовании);</blockquote>

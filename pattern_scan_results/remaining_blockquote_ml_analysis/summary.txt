@@ -1,0 +1,43 @@
+Total remaining blockquotes: 37321
+
+Word-count distribution:
+  words=4: 5052
+  words=6: 3836
+  words=7: 3494
+  words=5: 3455
+  words=8: 3038
+  words=9: 2718
+  words=10: 2360
+  words=11: 1983
+  words=12: 1670
+  words=13: 1467
+  words=3: 1292
+  words=14: 1201
+  words=15: 1030
+  words=16: 854
+  words=17: 717
+  words=18: 546
+  words=19: 469
+  words=20: 376
+  words=21: 320
+  words=22: 239
+
+Broad flags:
+  with wordLink: 895
+  with meta match: 667
+  with origin match: 22
+  with link-keyword match: 902
+  with "или": 3583
+
+Exact abstract sequence groups (2-8 words): 20398 items across 14880 distinct groups
+
+Cluster coverage by bucket:
+  2_words: total=231, clustered=146 (63.2%), clusters=20
+  3_words: total=1292, clustered=464 (35.9%), clusters=20
+  4_words: total=5052, clustered=1630 (32.3%), clusters=34
+  5_6_words: total=7291, clustered=2146 (29.4%), clusters=37
+  7_9_words: total=9250, clustered=6439 (69.6%), clusters=2
+  10_14_words: total=8681, clustered=3512 (40.5%), clusters=4
+  15_plus_words: total=5524, clustered=645 (11.7%), clusters=12
+
+Near-duplicate groups: 27 groups of size >= 4

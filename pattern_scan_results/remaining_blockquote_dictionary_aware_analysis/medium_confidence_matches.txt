@@ -1,0 +1,2251 @@
+Medium-confidence matches
+
+[1] remaining=80 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (80)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>алтын аймак чакмак бөрүк шапка, богато украшенная золотым аймак'ом.</blockquote>
+  <blockquote>айткан сөздү аңдоо керек нужно вникать в то, что говорят.</blockquote>
+  <blockquote>арбак урган (соккон, аткан, баскан) проклятый (букв. наказанный духом предка);</blockquote>
+  <blockquote>ызасы ачынып, сүйлөй албай турду от досады он не мог говорить;</blockquote>
+  <blockquote>аманбы, Шамбет байке! аманбы Зарыл эжеке! здравствуйте, дядя Шамбет! здравствуйте, тётя Зарыл!;</blockquote>
+  <blockquote>карга бийик бакка конду ворона села на высокое дерево;</blockquote>
+
+[2] remaining=70 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (70)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>мал айдоо выгон скота, прогон скота;</blockquote>
+  <blockquote>ушу баланы башыңа баргек кылып ал ты этого ребёнка пестуй, люби, как душу;</blockquote>
+  <blockquote>баш бармак (иногда просто бармак) большой палец (на руке и ноге);</blockquote>
+  <blockquote>баш кошуп, оокат кылалы давай поженимся и будем жить (вместе);</blockquote>
+  <blockquote>эрте бешим время сразу после полудня;</blockquote>
+  <blockquote>орун жетпей калат болчу места не хватило бы;</blockquote>
+
+[3] remaining=60 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (60)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>эчен албан доор болгон бывали разные времена;</blockquote>
+  <blockquote>сага тийсем, мен атама тийип калайын! выйти за тебя равносильно тому, что я выйду за своего отца!;</blockquote>
+  <blockquote>ата, балам, сага жаман болгон экен! ах, дитя мое, плохо тебе!;</blockquote>
+  <blockquote>бир айгыр үйрү байтал косяк молодых кобылиц;</blockquote>
+  <blockquote>бет маңдай друг против друга, лицом к лицу;</blockquote>
+  <blockquote>бет багып, киши карай албайт (на него) смотреть страшно; при виде (его) страх берёт;</blockquote>
+
+[4] remaining=55 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (55)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | ILI | W34 | W56 | TGT_LONG
+  <blockquote>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</blockquote>
+  <blockquote>бир аздан или бир аздан соң или бир аздан кийин через некоторое время, немного времени спустя;</blockquote>
+  <blockquote>кур алакан или куру алакан с пустыми руками; ни с чем;</blockquote>
+  <blockquote>алло акбар или алло акпар аллах велик.</blockquote>
+  <blockquote>алкы бузук или алкы кеткен или алкы жок бессовестный, беззастенчивый;</blockquote>
+  <blockquote>тез арада или тез (жакын) аранын ичинде в ближайшем времени;</blockquote>
+
+[5] remaining=54 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (54)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>көөнүм ачылды мне стало весело, приятно.</blockquote>
+  <blockquote>малдан байге саюу мындай турсун, кара башыл адамдан байге сайышы да ыктымал не говоря уж о призе в виде скота, он может поставить в качестве приза даже человека;</blockquote>
+  <blockquote>менде такыр бет калбай калды го! я ведь вконец опозорен!;</blockquote>
+  <blockquote>бетеге кетет, бет калат погов. южн. типчак сойдёт, склон горы останется.</blockquote>
+  <blockquote>бергим келбей, беш кылып жүрөн мне не хочется давать, а потому я выискиваю отговорки;</blockquote>
+  <blockquote>андай болчу боло турган болчу болсо а если так, в таком случае;</blockquote>
+
+[6] remaining=53 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (53)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>ары карап ыйлап, бери карап күлүп делая хорошую мину при плохой игре (букв. туда смотрит плачет, сюда смотрит - смеётся);</blockquote>
+  <blockquote>жети атасын сурап, кыз бермек - ал кезде расим болгон в то время было в обычае выдавать замуж, справившись о семи восходящих поколениях (брачущихся);</blockquote>
+  <blockquote>бир жерге байыр алып турган жан эмес он не из таких, которые приживаются к месту;</blockquote>
+  <blockquote>бул иштин башын ачыш керек это дело нужно выяснить, уточнить;</blockquote>
+  <blockquote>эгер менин айыбым бар бекен, байлап альп сабагыла раз за мной есть вина, свяжите и накажите.</blockquote>
+  <blockquote>атты камчы менен бир салды он стегнул коня плетью;</blockquote>
+
+[7] remaining=52 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (52)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W78 | W56
+  <blockquote>Кызыл Аскер Красная Армия.</blockquote>
+  <blockquote>кызыл бүрчөк красный уголок.</blockquote>
+  <blockquote>аттын дабышы конский топот;</blockquote>
+  <blockquote>кызыл доске красная доска;</blockquote>
+  <blockquote>жайпак табак плоское блюдо.</blockquote>
+  <blockquote>жетим сүмбө короткий шомпол;</blockquote>
+
+[8] remaining=52 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (52)
+template=SRC_LEN_3 | W56 | W56 | W78 | SPLIT | W56
+  <blockquote>Кызыл Аскер Красная Армия.</blockquote>
+  <blockquote>кызыл бүрчөк красный уголок.</blockquote>
+  <blockquote>аттын дабышы конский топот;</blockquote>
+  <blockquote>кызыл доске красная доска;</blockquote>
+  <blockquote>жайпак табак плоское блюдо.</blockquote>
+  <blockquote>жетим сүмбө короткий шомпол;</blockquote>
+
+[9] remaining=52 | known_exact=0 | best_pattern_support=685 | reasons=prefix_len_1 (52)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W56
+  <blockquote>Кызыл Аскер Красная Армия.</blockquote>
+  <blockquote>кызыл бүрчөк красный уголок.</blockquote>
+  <blockquote>аттын дабышы конский топот;</blockquote>
+  <blockquote>кызыл доске красная доска;</blockquote>
+  <blockquote>жайпак табак плоское блюдо.</blockquote>
+  <blockquote>жетим сүмбө короткий шомпол;</blockquote>
+
+[10] remaining=49 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (49)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>атаа, окусаң жакшы болмок эле! эх, хорошо было бы, если бы ты учился!; как жаль, что ты не учился или не учишься!;</blockquote>
+  <blockquote>сени аябай ашатты, ошого жооп бериш керек эле он тебя облил помоями (неприличной бранью и т.п.), тебе следовало бы ответить ему.</blockquote>
+  <blockquote>анын башына бакыт конду ему привалило счастье;</blockquote>
+  <blockquote>Токо тыңшап багып турду Токо слушал и наблюдал;</blockquote>
+  <blockquote>мен айтар сөзгө кулак сал, бейжайга тийбей тилимди ал! послушай, что я тебе скажу, не связывайся с непутёвым, послушайся меня!;</blockquote>
+  <blockquote>бел салды жумуш болду дело, которое не дало результатов;</blockquote>
+
+[11] remaining=47 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (47)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>аттай арка, тоодой медер кылдым сени ты мне опора; надеюсь на тебя как на каменную гору;</blockquote>
+  <blockquote>казысы эки элиден астам чыкты брюшного жиру (у лошади) вышло больше, чем на два пальца;</blockquote>
+  <blockquote>кырдан кыр ашырып, койду айдап жүрбөйм я не буду перегонять овец перевал за перевалом;</blockquote>
+  <blockquote>күлүп атып, боорум катып калды или боорум каткыча күлдүм я покатывался со смеху, я смеялся до упаду;</blockquote>
+  <blockquote>айлана дым өлгөн сымак вокруг будто вымерло всё;</blockquote>
+  <blockquote>оозун жала аяктай кылып широко открыв рот.</blockquote>
+
+[12] remaining=45 | known_exact=4 | best_pattern_support=553 | reasons=prefix_len_2 (45)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W9P
+  <blockquote>алак көздүү пучеглазый;</blockquote>
+  <blockquote>тил алгыч послушный;</blockquote>
+  <blockquote>прям., перен. пониженный;</blockquote>
+  <blockquote>бел салды неудачник;</blockquote>
+  <blockquote>кош беттүү двуличный;</blockquote>
+  <blockquote>боз келин смуглянка;</blockquote>
+
+[13] remaining=45 | known_exact=0 | best_pattern_support=247 | reasons=prefix_len_1 (45)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W9P
+  <blockquote>алак көздүү пучеглазый;</blockquote>
+  <blockquote>тил алгыч послушный;</blockquote>
+  <blockquote>прям., перен. пониженный;</blockquote>
+  <blockquote>бел салды неудачник;</blockquote>
+  <blockquote>кош беттүү двуличный;</blockquote>
+  <blockquote>боз келин смуглянка;</blockquote>
+
+[14] remaining=44 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (44)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>ашыңды бербесең бербе, ташың менен урба добра можешь не делать, но пакости не делай (букв. не дашь пищи - не давай, камнем не бей);</blockquote>
+  <blockquote>башка айлардан майдын баркы башка из других месяцев май выделяется своими признаками;</blockquote>
+  <blockquote>закон жобосун бетке кармап, жоопко тартканы келдик мы явились, чтобы на основании закона призвать к ответу;</blockquote>
+  <blockquote>Темир болоктоп тердеп алган Темир обливался потом;</blockquote>
+  <blockquote>көзүм, бултуюп, шишип кетти глаза у меня сильно припухли;</blockquote>
+  <blockquote>тамак бышыртып жаткан жерге келген он прибыл туда, где готовилась пища.</blockquote>
+
+[15] remaining=43 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (43)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | ILI | W56 | W56 | TGT_LONG
+  <blockquote>азыркы убакта или азыркы күндө в настоящее время.</blockquote>
+  <blockquote>доңуз айбат или чочко айбат показная храбрость.</blockquote>
+  <blockquote>аягына чейин или аягына чыгара до конца;</blockquote>
+  <blockquote>беркон бакшы или дөөкөр бакшы искусный бахши;</blockquote>
+  <blockquote>боюна болгон или боюна бүткөн она зачала, забеременела;</blockquote>
+  <blockquote>мээси бөксө или акылы бөксө недалёкий (человек);</blockquote>
+
+[16] remaining=43 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (43)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>бул мага аздык кылат этого мне мало, этого мне недостаточно;</blockquote>
+  <blockquote>бат эле кишиге алынып кетет он быстро завоёвывает симпатии, доверие;</blockquote>
+  <blockquote>жети кара койду жылан менен арбаштыр- этн. поверье противопоставить змее семь чёрных овец (как средство от укуса змей).</blockquote>
+  <blockquote>көк чаар балык осман голый (рыба), форель;</blockquote>
+  <blockquote>бичи пул бериң, китеп алайын дайте немного денег, я куплю книгу.</blockquote>
+  <blockquote>онун өңү бозмок тартып каптыр он побледнел (букв. у него цвет лица стал бледным).</blockquote>
+
+[17] remaining=42 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (42)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W56 | RUFUNC | TGT_LONG
+  <blockquote>кичине айбар кылып алайын (это) возьму я себе в качестве маленькой опоры (или защиты, или для острастки);</blockquote>
+  <blockquote>акыйып тамак андып отурат он сидит и жадно ждёт еды.</blockquote>
+  <blockquote>алеки саатта барып келди он быстро пошёл и вернулся.</blockquote>
+  <blockquote>байтал бээнин кымызы кумыс из молока молодой кобылицы (считается особенно вкусным и полезным);</blockquote>
+  <blockquote>балдыр барып, балдыр келген он раньше (других) пошёл и раньше пришёл (воэвратился).</blockquote>
+  <blockquote>барып турган акмак дурак из дураков;</blockquote>
+
+[18] remaining=41 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (41)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>сенин айыңан далай тил уктум из-за тебя я много слышал упрёков;</blockquote>
+  <blockquote>айгине сүйлө говори ясно, говори прямо; говори без обиняков.</blockquote>
+  <blockquote>көөнүм айнып, жаным жер тартып турат я себя плохо чувствую, и мне хочется лечь (я могу упасть).</blockquote>
+  <blockquote>балага боору ачыды ему стало жаль ребёнка;</blockquote>
+  <blockquote>"келип калар" деген үмүт менен биз ошол арада аярладык в надежде, что он придёт, мы там немного задержались.</blockquote>
+  <blockquote>жалын балкып жаткан эле пламя было сильное, но ровное;</blockquote>
+
+[19] remaining=39 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (39)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W34 | W56 | TGT_LONG
+  <blockquote>азар болсо, элүү сом самое большее - пятьдесят рублей.</blockquote>
+  <blockquote>акча барда алып кал получи деньги, пока они есть; купи, пока у тебя есть деньги (пользуйся случаем);</blockquote>
+  <blockquote>ары барып эле, бери келди он был на волосок от смерти (о человеке тяжело болевшем и чудом выздоровевшем);</blockquote>
+  <blockquote>баш териге баш тери каптап койгондой как две капли воды (похожи), вылитый;</blockquote>
+  <blockquote>кой, жылкы, төө бир беткей кетти овцы, лошади и верблюды (все) направились в одну сторону;</blockquote>
+  <blockquote>деги оюңда бир деме барбы? думаешь ли ты хоть о чём-нибудь?</blockquote>
+
+[20] remaining=38 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (38)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W78 | W56 | TGT_LONG
+  <blockquote>байдан байдын кандай ажырымы болчу эле какая уж там разница между одним богачом и другим богачом;</blockquote>
+  <blockquote>кашка аттын ээрин алдыртып таштап, өз ээрин кашка атка токутту он приказал снять с лысого коня седло и оседлать его своим седлом;</blockquote>
+  <blockquote>аттиң, барбай бекер кылгамын! какая досада, напрасно я не пошёл!</blockquote>
+  <blockquote>бабын тапса,- алтын көмүркөй; бабын таппаса,- атаны кокуй жер (эта) земля, если с умением к ней подойти,- золотая шкатулка; если без умения,- унеси ты моё горе;</blockquote>
+  <blockquote>башын ачкыла десем, Аалыбай старчы кызымын башын ачпайт я просил открыть голову моей дочери, но аульный старшина Аалыбай не открывает;</blockquote>
+  <blockquote>аттын башын бурулт поверни голову лошади.</blockquote>
+
+[21] remaining=38 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (38)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>өзүң эле бара койчу, кызыке пойди-ка, доченька, сама;</blockquote>
+  <blockquote>мен бир акыл ойлоп турам я обдумываю одну вещь; мне в голову пришла одна мысль;</blockquote>
+  <blockquote>амин деп кол жайды сказав "аминь", он (молитвенно) распростёр руки.</blockquote>
+  <blockquote>бырп этип учун кетти (птичка) вспорхнула и улетела;</blockquote>
+  <blockquote>жүз сом, бир демге калбай эле, жок болду ста рублей вмиг как не бывало;</blockquote>
+  <blockquote>жан уяда, жака колдо болсо если будем живы-здоровы (букв. если душа будет в гнезде, а воротник - в руке).</blockquote>
+
+[22] remaining=37 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (37)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>байкас кылбай туруп, жаман ишке кириптер болуп калды по неосмотрительности он попал в нехорошее дело;</blockquote>
+  <blockquote>береке толсун! успех вашему делу!, да будет благодать полная! (приветствие работающим);</blockquote>
+  <blockquote>кайсы бетим менен барам! мне стыдно идти!, с какими глазами я пойду!;</blockquote>
+  <blockquote>төрөтү кандай болот болду экен? как-то у неё пройдут роды?</blockquote>
+  <blockquote>жаагын жанып, ырдап жүрдү эле, эми жакын келген Темирден уялып, жаагын басты то он голосисто пел, а теперь, стесняясь подошедшего Темира, умолк;</blockquote>
+  <blockquote>малдын жатыны жакшы болсо, мал анча арыктабайт если место лёжки скота удобно, скот не так худеет;</blockquote>
+
+[23] remaining=37 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (37)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W56 | W78 | TGT_LONG
+  <blockquote>үйдү эртең актап алалы давайте завтра побелим дом;</blockquote>
+  <blockquote>чеп алачык шалаш, крытый соломой или сухой травой;</blockquote>
+  <blockquote>эки бирдей жигит жүрүп, агаротту да айдап койбойсуңар вы, два таких здоровенных парня, и не обрабатываете огород.</blockquote>
+  <blockquote>бала болуп боорун жерден алгандан бери с тех пор, как он перестал ползать (т.е. немного подрос);</blockquote>
+  <blockquote>алма бурак запах яблока, яблочный запах:</blockquote>
+  <blockquote>Акия догун арткан кишиче Элебеске кыналат Акия напирает на Элебеса, будто он ей обязан;</blockquote>
+
+[24] remaining=37 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (37)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>абеттен кийин после обеда; после полудня.</blockquote>
+  <blockquote>миңдеген тонна пахта жыйнап алынып, мамлекетке тапшырылууга тийиш тысячи тонн хлопка должны быть собраны и сданы государству;</blockquote>
+  <blockquote>тынчтык аралап турду стояла тишина, царило безмолвие;</blockquote>
+  <blockquote>артыкбаш эгинди кымтып жаткан кулак кулак, утаивавший излишки хлеба.</blockquote>
+  <blockquote>атасынан калган малдын аягына чыкты он промотал всё состояние (букв. весь скот), оставшееся от отца;</blockquote>
+  <blockquote>бармагы менен своими руками, своим трудом;</blockquote>
+
+[25] remaining=36 | known_exact=6 | best_pattern_support=976 | reasons=prefix_len_2 (36)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W78 | W56
+  <blockquote>акчалай сыйлык денежная премия;</blockquote>
+  <blockquote>атомдук согуш атомная война.</blockquote>
+  <blockquote>согуштук атташе военный атташе.</blockquote>
+  <blockquote>боордош элдер братские народы.</blockquote>
+  <blockquote>бужугур сакал кудрявая борода;</blockquote>
+  <blockquote>чечүүчү добуш решающий голос;</blockquote>
+
+[26] remaining=36 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (36)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W56 | W56 | TGT_LONG
+  <blockquote>сизге жакшы айтканы келсек, жаман алып атпайсызбы! мы пришли к тебе, чтобы добром сказать, а ты (превратно поняв) принял (наше намерение) за дурное;</blockquote>
+  <blockquote>кечээ киного барылбай калды вчера в кино не пришлось пойти.</blockquote>
+  <blockquote>болот, эртең келейин ладно, завтра приду;</blockquote>
+  <blockquote>дайра болсоң - кечиргин, дабан болсоң - өткөргүн заклинание если ты река, позволь переправиться, если перевал, пропусти.</blockquote>
+  <blockquote>жамак деген, жарандар, тоодон үлкөн кен экен;</blockquote>
+  <blockquote>койду жүйүр төлдөтүү более частый окот овец (напр. три раза в два года);</blockquote>
+
+[27] remaining=36 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (36)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W34 | W78 | TGT_LONG
+  <blockquote>таң агарып аткан жок рассвет ещё не забрезжил;</blockquote>
+  <blockquote>ары жыгыл десең, бери жыгылат ему говоришь одно, а он делает другое (букв. если скажешь "упади дальше", он упадёт ближе);</blockquote>
+  <blockquote>бир айттым болду раз навсегда я сказал - значит всё (моё слово твёрдо);</blockquote>
+  <blockquote>кол жалгап, тигини алып берсеңиз будьте добры подать мне вон то;</blockquote>
+  <blockquote>эсиң болсо, эстеп бил: энеңдин сиңдисинин жездеси ким? загадка если у тебя есть ум, подумай и узнай: кто будет у тебя зятем младшей сестры твоей матери? (отгадка атасы её отец).</blockquote>
+  <blockquote>төө жинин бүркүп ийди верблюд плюнул жвачкой;</blockquote>
+
+[28] remaining=36 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (36)
+template=SRC_LEN_3 | W78 | W56 | W78 | SPLIT | W56
+  <blockquote>акчалай сыйлык денежная премия;</blockquote>
+  <blockquote>атомдук согуш атомная война.</blockquote>
+  <blockquote>согуштук атташе военный атташе.</blockquote>
+  <blockquote>боордош элдер братские народы.</blockquote>
+  <blockquote>бужугур сакал кудрявая борода;</blockquote>
+  <blockquote>чечүүчү добуш решающий голос;</blockquote>
+
+[29] remaining=36 | known_exact=0 | best_pattern_support=444 | reasons=prefix_len_1 (36)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W78 | W56
+  <blockquote>акчалай сыйлык денежная премия;</blockquote>
+  <blockquote>атомдук согуш атомная война.</blockquote>
+  <blockquote>согуштук атташе военный атташе.</blockquote>
+  <blockquote>боордош элдер братские народы.</blockquote>
+  <blockquote>бужугур сакал кудрявая борода;</blockquote>
+  <blockquote>чечүүчү добуш решающий голос;</blockquote>
+
+[30] remaining=35 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (35)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W78 | W56 | TGT_LONG
+  <blockquote>менин сөзүмө көнбөйт, андаеки атасы келсинчи, көнбөгөнүн көрөйүн меня он не слушается, а вот пусть придёт отец, тогда я посмотрю, как он не послушается.</blockquote>
+  <blockquote>Күлай, арттап, коктунун башында калды Кюлай, несколько поотстав, осталась у начала ложбины.</blockquote>
+  <blockquote>жаттык жакын иргелеш, жаныбыз болду биргелеш жили мы в близком соседстве, наши души стали единой душой.</blockquote>
+  <blockquote>эртең менен турганда болжоюп, шишип калат утром, когда встаёт, он очень отекает.</blockquote>
+  <blockquote>өзүнүн энелик милдетин көрсөтүп, энелик далаалатын жумшады выполняя свои материнские обязанности, она прибегла к материнскому заступничеству;</blockquote>
+  <blockquote>башына балиш койдуруп, дердейип уктап калды приказав положить себе под голову подушку, он важно разлёгся и уснул.</blockquote>
+
+[31] remaining=35 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (35)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W56 | W34 | TGT_LONG
+  <blockquote>кол арага ким жарайт? кто (из ребят) может помочь?</blockquote>
+  <blockquote>үйдү чечүү ишин жалан гана аялдар аткарышкан работу по разборке юрты выполняли исключительно женщины.</blockquote>
+  <blockquote>азыр кыздын оюн бөлгөн ушул таттуу санаа то, что отвлекло мысли девушки, была вот эта сладкая мечта;</blockquote>
+  <blockquote>атты башка каң дегизе чаап жиберген он так хлестнул коня по голове, что звон раздался.</blockquote>
+  <blockquote>ошол күндөн "Кара жолтой тер" делинет с того дня (это место) называется "Злосчастное высокогорье".</blockquote>
+  <blockquote>атты жайына коюп пустив коня своим ходом (не понукая);</blockquote>
+
+[32] remaining=35 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (35)
+template=SRC_LEN_3 | W9P | W56 | W9P | SPLIT | W56
+  <blockquote>адилеттүү түрдө справедливо; честно.</blockquote>
+  <blockquote>адилеттүүлүк менен справедливо; честно.</blockquote>
+  <blockquote>аккорддук жумуш аккордная работа.</blockquote>
+  <blockquote>антагонисттик таптар антагонистические классы.</blockquote>
+  <blockquote>арсакталган зоолор островерхие скалы.</blockquote>
+  <blockquote>гастрономиялык бөлүм гастрономический отдел.</blockquote>
+
+[33] remaining=35 | known_exact=0 | best_pattern_support=195 | reasons=prefix_len_1 (35)
+template=SRC_LEN_1 | W9P | SPLIT | W56 | W9P | W56
+  <blockquote>адилеттүү түрдө справедливо; честно.</blockquote>
+  <blockquote>адилеттүүлүк менен справедливо; честно.</blockquote>
+  <blockquote>аккорддук жумуш аккордная работа.</blockquote>
+  <blockquote>антагонисттик таптар антагонистические классы.</blockquote>
+  <blockquote>арсакталган зоолор островерхие скалы.</blockquote>
+  <blockquote>гастрономиялык бөлүм гастрономический отдел.</blockquote>
+
+[34] remaining=34 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (34)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>бастек бою бар, аңтара кийген тону бар загадка роста он низкого, шуба на нём навыворот (отгадка кой овца);</blockquote>
+  <blockquote>башка амал жок иного выхода нет;</blockquote>
+  <blockquote>босого таяк все четыре бруса дверного косяка;</blockquote>
+  <blockquote>далысы бир кез келген жигит парень - косая сажень (букв. аршин) в плечах;</blockquote>
+  <blockquote>койдун бир чети, дыргып, үркүп калды часть овец шарахнулась.</blockquote>
+  <blockquote>чындык жарк этип истина вдруг открылась;</blockquote>
+
+[35] remaining=34 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (34)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | RUFUNC | W78 | TGT_LONG
+  <blockquote>аңырып карап калды он тоскливо и растерянно смотрит;</blockquote>
+  <blockquote>кызга бейли түштү он влюбился в девушку;</blockquote>
+  <blockquote>дөрөк болуп калды он остался в дураках.</blockquote>
+  <blockquote>коногу жайсыз болду он неважно угощал.</blockquote>
+  <blockquote>жарымы (иногда жармы) его половина, половина его;</blockquote>
+  <blockquote>ишиме жолто кылды он помешал мне (в моём деле);</blockquote>
+
+[36] remaining=34 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (34)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W34 | W34 | W56 | TGT_LONG
+  <blockquote>атам мага тай алып берди отец купил мне жеребёнка;</blockquote>
+  <blockquote>мен эки кесе бозо ичтим эле, башым алеңгир болуп кетти выпил я две чашки бузы, и у меня помутилось в голове;</blockquote>
+  <blockquote>жээ ары, жээ бери болбой ни туда ни сюда; ни взад ни вперёд;</blockquote>
+  <blockquote>...көп эсе ашып түшө турган ...во много раз превосходящий;</blockquote>
+  <blockquote>бир деме дей отур говори что-нибудь (что же молчишь?);</blockquote>
+  <blockquote>бул - бери жагы, ары жагына барганда... это ещё только цветочки, а вот дальше...;</blockquote>
+
+[37] remaining=34 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (34)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>атын укканда ичкен ашын жерге коё коёт он к нему относится с большим уважением, с большой любовью; он трепещет перед ним (букв. когда слышит его имя, пищу свою на пол ставит, т.е. перестаёт есть);</blockquote>
+  <blockquote>таң атканын ошондо бир билдик мы тогда вдруг поняли, что наступил рассвет;</blockquote>
+  <blockquote>бозо быжылдап ачыйт буза бурно бродит;</blockquote>
+  <blockquote>ишти бышыктоо керек дело нужно сделать как следует (чтобы комар носа не подточил).</blockquote>
+  <blockquote>шек санабай койсо деле болот можно и вовсе не сомневаться.</blockquote>
+  <blockquote>"кара шумкарды жаялы" деп, келдик мы прибыли сюда, чтобы поохотиться с беркутом.</blockquote>
+
+[38] remaining=33 | known_exact=1 | best_pattern_support=298 | reasons=prefix_len_1 (33)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W9P
+  <blockquote>район аралык межрайонный.</blockquote>
+  <blockquote>жалгыз бойлук одиночество;</blockquote>
+  <blockquote>бүткүл элдик всенародный;</blockquote>
+  <blockquote>газга каршы противогаз.</blockquote>
+  <blockquote>жарым тыйын полкопейки;</blockquote>
+  <blockquote>жанаша жашоо сосуществование.</blockquote>
+
+[39] remaining=33 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (33)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W56 | W78 | TGT_LONG
+  <blockquote>алдакы түрүң менен кантип конокко барасың? как ты в таком виде в гости идёшь?</blockquote>
+  <blockquote>балкан тоодой болуп шишип калыптыр он сильно опух;</blockquote>
+  <blockquote>кудай бетин салбай калсын, ичкенин кара! посмотри-ка, как он пьёт, ведь это же прямо поразительно!;</blockquote>
+  <blockquote>үндөрү бирде мындан, бирде тигинден угулат их голоса слышны то отсюда, то оттуда;</blockquote>
+  <blockquote>казак, кыргыз, башка элден талапкер киши чыкпады, далдаланып ыктады ни из казахов, ни из киргизов, ни из другого народа охотника (сразиться с ним) не нашлось, (все) пятились, прячась за других.</blockquote>
+  <blockquote>айтоор, баары делип, баары айтылган одним словом, всё сказано, всё высказано;</blockquote>
+
+[40] remaining=33 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (33)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>мага бир азыткы чыкты меня лукавый попутал;</blockquote>
+  <blockquote>ата, ошо келсе болот эле! ох, как хорошо было бы, если бы он пришёл!;</blockquote>
+  <blockquote>бар бере турган акчам ушул вот это все деньги, которые я могу дать (которые у меня имеются);</blockquote>
+  <blockquote>бар көрө турган күнүм ушул вот моя жизнь (как она есть - не лучше и не хуже);</blockquote>
+  <blockquote>мен аны менен батыша алам я с ним уживусь; мы с ним поладим;</blockquote>
+  <blockquote>бир киши келип кетти один (какой-то) человек приходил;</blockquote>
+
+[41] remaining=33 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (33)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W56 | RUFUNC | TGT_LONG
+  <blockquote>аны менен бирге вместе с ним; вместе с тем; одновременно с тем;</blockquote>
+  <blockquote>кол арага жарап калды уже подрос (подросла) немного, уже может кое в чём помогать (о мальчике, девочке);</blockquote>
+  <blockquote>эки араам болуп урушту они дрались, разделившись на две группы.</blockquote>
+  <blockquote>көз жеткен жерди арытты он осмотрел, насколько глаз видит;</blockquote>
+  <blockquote>кош аяктап двумя ногами; на двух ногах;</blockquote>
+  <blockquote>барк албай олтура берди он продолжал сидеть, не обращая внимания;</blockquote>
+
+[42] remaining=33 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (33)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W78 | W56 | TGT_LONG
+  <blockquote>азар болсо, жүздү жашарсың самое большее проживёшь сто (лет);</blockquote>
+  <blockquote>бир эптүү адамды жиберип, акырын байкатуубуз керек нужно послать расторопного человека, поручив ему тайно проследить.</blockquote>
+  <blockquote>так деңгел тушуна келгенде когда он подошёл и предстал перед ним.</blockquote>
+  <blockquote>бир оңолуп, кайра ылаңдай калып, айтор көп ирденбей жүрө берди то он поправлялся, то заболевал, словом, как следует не оправлялся.</blockquote>
+  <blockquote>тоо арасын кадик тааныган, Өмүкөм кылдат адам Омуке человек аккуратный, горы он знает хорошо;</blockquote>
+  <blockquote>ошол бойдон колдо катылып калды так око и осталось в руках; так оно и "прилипло" к рукам.</blockquote>
+
+[43] remaining=33 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (33)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | RUFUNC | W56 | TGT_LONG
+  <blockquote>жылкыны айырып калды он отбил лошадей;</blockquote>
+  <blockquote>акылдап чуркап келди он быстро прибежал;</blockquote>
+  <blockquote>алдынан чыгып келди он вышел ему навстречу;</blockquote>
+  <blockquote>санаасы менен байыйт он думами богатеет, он строит воздушные замки.</blockquote>
+  <blockquote>бакатай өзүнө тийди он попал как раз туда, куда метил; он попал прямо в точку;</blockquote>
+  <blockquote>балпайып төрдө отурат он важно (грузно) восседает на почётном месте (см. <wordLink word="төр" meaning="1"/>).</blockquote>
+
+[44] remaining=33 | known_exact=0 | best_pattern_support=553 | reasons=prefix_len_2 (33)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W9P
+  <blockquote>район аралык межрайонный.</blockquote>
+  <blockquote>жалгыз бойлук одиночество;</blockquote>
+  <blockquote>бүткүл элдик всенародный;</blockquote>
+  <blockquote>газга каршы противогаз.</blockquote>
+  <blockquote>жарым тыйын полкопейки;</blockquote>
+  <blockquote>жанаша жашоо сосуществование.</blockquote>
+
+[45] remaining=32 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (32)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W56 | W56
+  <blockquote>аптап болуп турат жарко.</blockquote>
+  <blockquote>мындан башка кроме этого;</blockquote>
+  <blockquote>дүйүм тамак разные яства;</blockquote>
+  <blockquote>жайдык кийим летняя одежда.</blockquote>
+  <blockquote>малдан жарды бедный скотом;</blockquote>
+  <blockquote>жаянча жутуп жадно глотая.</blockquote>
+
+[46] remaining=32 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (32)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>айдар кел! айдар кел! повей, ветерок!, повей, ветерок! (призыв ветра на току).</blockquote>
+  <blockquote>менин атым Керим эле, бирок... эл "Чоң Койчу" атыктырып жиберишти моё имя было Керим, но люди меня прозвали "Главным пастухом овец".</blockquote>
+  <blockquote>сөзүн баам кылып отур вникай в его слова;</blockquote>
+  <blockquote>балтам тап найди мой топор (название детской игры);</blockquote>
+  <blockquote>андан боюн жыйып, өзүн оолак кармайт он сторонится его и держится подальше;</blockquote>
+  <blockquote>Кебек, сен дуңчу элең, кимден деп ойлойсуң? Кебек, ведь ты дуңчу, как ты думаешь, кто это сделал (т.е. кого можно подозреватъ) ?</blockquote>
+
+[47] remaining=32 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (32)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W78 | RUFUNC | TGT_LONG
+  <blockquote>баа жеткис эмгек сиңирген он вложил неоценимый труд;</blockquote>
+  <blockquote>сага менин колум барбайт на тебя у меня рука не поднимается;</blockquote>
+  <blockquote>жем баштык торба (кормушка в виде мешочка, в который засыпают зерно и навешивают на голову лошади);</blockquote>
+  <blockquote>ичи сырты бирдей изнанка и лицо одинаковы (напр. у ткани);</blockquote>
+  <blockquote>бай менен молдо - биримдик (в прежнее время) бай и мулла - едины;</blockquote>
+  <blockquote>чала жансар кылыл таштады он избил до полусмерти.</blockquote>
+
+[48] remaining=32 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (32)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W78 | W56 | W56 | TGT_LONG
+  <blockquote>тиши түшүп аңшайып, кемпир болуп калыптыр зубы у неё выпали, и она превратилась в (беззубую) старуху;</blockquote>
+  <blockquote>ошол кезде балтайып алган кезим эле то было время, когда я разжирел.</blockquote>
+  <blockquote>жаак басар бербесең, айтам, берсең, - унчукпайм если не дашь - скажу, дашь - промолчу;</blockquote>
+  <blockquote>мага атлас тешөктөн төшөп, алдыма мамык жаздагыла постелите мне атласную постель, подложите мне под голову пуховую подушку.</blockquote>
+  <blockquote>эки жолку имевший место дважды, повторившийся дважды;</blockquote>
+  <blockquote>бир таштын караанын көрүп, жүрөгү түшүп, кемпирлерге жүрөгүн көтөрттүк (мальчик) увидел силуэт камня и испугался, мы попросили старух полечить его;</blockquote>
+
+[49] remaining=32 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (32)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | RUFUNC | W78 | TGT_LONG
+  <blockquote>энесинин сүтүн актады он проявил заботу о своей матери;</blockquote>
+  <blockquote>болпоюп отура берет он (толстяк) сидит себе (спокойно);</blockquote>
+  <blockquote>бөтөнчө мыкты иштеди он особенно хорошо работал;</blockquote>
+  <blockquote>далысын салып узатты он холодно проводил;</blockquote>
+  <blockquote>дейилда чапан халат из материи дейилда;</blockquote>
+  <blockquote>жарбайып, күлүп койду он радостно улыбнулся;</blockquote>
+
+[50] remaining=32 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (32)
+template=SRC_LEN_3 | W56 | W56 | W56 | SPLIT | W56
+  <blockquote>аптап болуп турат жарко.</blockquote>
+  <blockquote>мындан башка кроме этого;</blockquote>
+  <blockquote>дүйүм тамак разные яства;</blockquote>
+  <blockquote>жайдык кийим летняя одежда.</blockquote>
+  <blockquote>малдан жарды бедный скотом;</blockquote>
+  <blockquote>жаянча жутуп жадно глотая.</blockquote>
+
+[51] remaining=32 | known_exact=0 | best_pattern_support=685 | reasons=prefix_len_1 (32)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W56
+  <blockquote>аптап болуп турат жарко.</blockquote>
+  <blockquote>мындан башка кроме этого;</blockquote>
+  <blockquote>дүйүм тамак разные яства;</blockquote>
+  <blockquote>жайдык кийим летняя одежда.</blockquote>
+  <blockquote>малдан жарды бедный скотом;</blockquote>
+  <blockquote>жаянча жутуп жадно глотая.</blockquote>
+
+[52] remaining=31 | known_exact=1 | best_pattern_support=408 | reasons=prefix_len_2 (31)
+template=SRC_LEN_2 | W34 | W78 | SPLIT | W9P
+  <blockquote>көп бүлөлүү многосемейный.</blockquote>
+  <blockquote>бир добуштан единогласно;</blockquote>
+  <blockquote>оозу дордогой толстогубый.</blockquote>
+  <blockquote>эрди дөрдөгөй толстогубый.</blockquote>
+  <blockquote>баш катырма головоломка.</blockquote>
+  <blockquote>күн кечтеди свечерело;</blockquote>
+
+[53] remaining=31 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (31)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W34 | W56 | TGT_LONG
+  <blockquote>балаң ыйлап, мени алек кылды твой ребёнок своим плачем измучил меня;</blockquote>
+  <blockquote>атадан калган мал жок мында! здесь нет добра, оставшегося от отца! (я сам нажил, сам могу и проживать);</blockquote>
+  <blockquote>жаргак шымына көк ала байрак чапанын шымданган свой полосатый халат он заправил в кожаные штаны.</blockquote>
+  <blockquote>менден башка деле келе бакан, куу союл аз көрүнгөн жок немало было и кроме меня драчунов и забияк;</blockquote>
+  <blockquote>балаң барбы? - Жок, эки кызым бар У тебя дети есть? - Нет, есть две дочери;</blockquote>
+  <blockquote>сизге жалган, мага чын хотите - верьте, хотите - нет (букв. вам - неправда, мне - правда);</blockquote>
+
+[54] remaining=31 | known_exact=0 | best_pattern_support=110 | reasons=prefix_len_1 (31)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W9P
+  <blockquote>көп бүлөлүү многосемейный.</blockquote>
+  <blockquote>бир добуштан единогласно;</blockquote>
+  <blockquote>оозу дордогой толстогубый.</blockquote>
+  <blockquote>эрди дөрдөгөй толстогубый.</blockquote>
+  <blockquote>баш катырма головоломка.</blockquote>
+  <blockquote>күн кечтеди свечерело;</blockquote>
+
+[55] remaining=30 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W34 | W34 | W56 | TGT_LONG
+  <blockquote>иштеп көзү боз ала болгон он доработался до одури;</blockquote>
+  <blockquote>баары төрт баш жан всего их четыре человека;</blockquote>
+  <blockquote>иттер үрүп атат, киши келген бейм собаки лают, видимо, кто-то пришёл;</blockquote>
+  <blockquote>аттан буту түшө элек жатып ещё сидя на коне; ещё не успев слезть с коня;</blockquote>
+  <blockquote>Гүлнар, кеп таап айта албай, делдейип карап калды Гюльнар, ошеломлённая, смотрела, не находя слов.</blockquote>
+  <blockquote>мылтык үнү дүп дей түштү раздался звук ружейного выстрела;</blockquote>
+
+[56] remaining=30 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W34 | W34 | TGT_LONG
+  <blockquote>маасы менен баштан ары бир салды он ичигом стукнул по голове;</blockquote>
+  <blockquote>ичпей, жебей, бакыл бол; бай болбосоң маа кел погов. шутл. не пей, не ешь - будь скупым; если не разбогатеешь, приходи ко мне (я отвечаю);</blockquote>
+  <blockquote>балкан, балкан, балкан тоо - аны да биз көргөн тоо балкан, балкан, балкан-гора - и её мы тоже видели (т.е. не запугаешь, это нам не как снег на голову);</blockquote>
+  <blockquote>сенин тилиң жатык, сен айт ты скажи, ты на слово горазд (можешь говорить дельно и учтиво);</blockquote>
+  <blockquote>сакалы менен муруту желп эте түштү его борода и усы (от ветра) колыхнулись;</blockquote>
+  <blockquote>жолдо калып калат куда ему!, он в подмётки (ему) не годится!;</blockquote>
+
+[57] remaining=30 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W56 | RUFUNC | TGT_LONG
+  <blockquote>бул анасы, бул баласы это мать, а это дитя (в жаргоне маклеров мать - основная цифра, а дитя - более мелкая единица, например: 100 - мать, а 15 - дитя, т.е. 115);</blockquote>
+  <blockquote>анын арымы жок пороха он не выдумает.</blockquote>
+  <blockquote>кара башына ему самому, только ему;</blockquote>
+  <blockquote>эки көзун боз чалды его глаза затуманились, омрачились, стали печальными;</blockquote>
+  <blockquote>кат буйрук этиш глагол во второй степени понуждения;</blockquote>
+  <blockquote>кол жайып, бата берди он вытянул руки и произнёс благословение;</blockquote>
+
+[58] remaining=30 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>мен аңкыйып анын оозун карап калыпмын я удивлённо заглядывал ему в рот;</blockquote>
+  <blockquote>ары кеткенде беш күндүн ичинде самое большее в течение пяти дней;</blockquote>
+  <blockquote>эки бетинен кан таамп турат цветёт, как маков цвет;</blockquote>
+  <blockquote>бек байлабай, бош байлап койду он завязал не крепко, а слабо;</blockquote>
+  <blockquote>өзүм бутумдун башы менен басып журөм сам я хожу на цыпочках;</blockquote>
+  <blockquote>өзүн бирөөгө күң жумшап берем отдам её кому-нибудь в рабыни;</blockquote>
+
+[59] remaining=30 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>артында эки баласы калды после него осталось двое детей (сиротами);</blockquote>
+  <blockquote>манаптар, жеп, элдин аягына чыккан манапы объедали народ и доводили его до изнеможения;</blockquote>
+  <blockquote>кудалары бир байлам жоолук салган жок (ну и) сваты, даже небольшим платком не одарили.</blockquote>
+  <blockquote>мааниси дал ушунда смысл именно в этом;</blockquote>
+  <blockquote>далайып эле, көчөгө басып калды он болтается по улицам (находится не у дел).</blockquote>
+  <blockquote>унчукпай гана, дулуюп, олтура берчү он обычно сидел и мрачно молчал;</blockquote>
+
+[60] remaining=30 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>тамактан башын алып подняв голову от пищи;</blockquote>
+  <blockquote>мундайды бизде апың көрөт такое у нас не поощряется.</blockquote>
+  <blockquote>болбогон жерден жок болуп кетти пропал (погиб) ни за что ни про что;</blockquote>
+  <blockquote>дүркүрөп өскөн төрт түлүк бурно растущий и размножающийся скот;</blockquote>
+  <blockquote>жылкыны жылма алып келем коней я всех до одного приведу;</blockquote>
+  <blockquote>зыпылдап барып кел быстро сбегай; одна нога здесь, другая - там.</blockquote>
+
+[61] remaining=30 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (30)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W78 | W56
+  <blockquote>бачым тур! вставай скорее!</blockquote>
+  <blockquote>кызыл бурч красный уголок.</blockquote>
+  <blockquote>бышык жип прочная нитка;</blockquote>
+  <blockquote>жаргак шым кожаные штаны;</blockquote>
+  <blockquote>темир жол железная дорога;</blockquote>
+  <blockquote>керек имиш говорят, нужно;</blockquote>
+
+[62] remaining=30 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (30)
+template=SRC_LEN_3 | W56 | W34 | W78 | SPLIT | W56
+  <blockquote>бачым тур! вставай скорее!</blockquote>
+  <blockquote>кызыл бурч красный уголок.</blockquote>
+  <blockquote>бышык жип прочная нитка;</blockquote>
+  <blockquote>жаргак шым кожаные штаны;</blockquote>
+  <blockquote>темир жол железная дорога;</blockquote>
+  <blockquote>керек имиш говорят, нужно;</blockquote>
+
+[63] remaining=30 | known_exact=0 | best_pattern_support=624 | reasons=prefix_len_1 (30)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78 | W56
+  <blockquote>бачым тур! вставай скорее!</blockquote>
+  <blockquote>кызыл бурч красный уголок.</blockquote>
+  <blockquote>бышык жип прочная нитка;</blockquote>
+  <blockquote>жаргак шым кожаные штаны;</blockquote>
+  <blockquote>темир жол железная дорога;</blockquote>
+  <blockquote>керек имиш говорят, нужно;</blockquote>
+
+[64] remaining=29 | known_exact=9 | best_pattern_support=976 | reasons=prefix_len_2 (29)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W9P | W56
+  <blockquote>бузулгус достук нерушимая дружба.</blockquote>
+  <blockquote>бөтөлкө челек стеклянная банка;</blockquote>
+  <blockquote>дүмөктүү кабар тревожные вести.</blockquote>
+  <blockquote>жалганма тилдер агглютинативные языки.</blockquote>
+  <blockquote>жаңылыш теория ошибочная теория;</blockquote>
+  <blockquote>жароосуз товар бракованный товар;</blockquote>
+
+[65] remaining=29 | known_exact=1 | best_pattern_support=1698 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | RUFUNC | W56 | TGT_LONG
+  <blockquote>балдак менен жүрөт он ходит на костылях;</blockquote>
+  <blockquote>ыйлап, безер кылды он надоел своим плачем.</blockquote>
+  <blockquote>бардык дитин бөлдү он уделил всё внимание, приложил все усилия;</blockquote>
+  <blockquote>жаагы басыла түштү он притих, сбавил тон;</blockquote>
+  <blockquote>жанын байлап өлүмгө не жалея жизнн своей;</blockquote>
+  <blockquote>жерин карап качкан он бежал на свою родину;</blockquote>
+
+[66] remaining=29 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W56 | RUFUNC | TGT_LONG
+  <blockquote>"алдым кулду" деп, сайды он пронзил (копьём), сказав "я победил" (в поединке);</blockquote>
+  <blockquote>бизди астына сала кетет он нас переживёт;</blockquote>
+  <blockquote>датың өтпөс твоя жалоба не тронет, не будет иметь действия.</blockquote>
+  <blockquote>демин ичине алып турат он стоит, затаив дыхание;</blockquote>
+  <blockquote>доосу бардай жер сабайт он остервенело топает ногами (букв. он хлещет землю, будто имеет иск);</blockquote>
+  <blockquote>жүйөсү менен жеме айтты он упрекал за дело, он упрекал обоснованно (имея основание, причину);</blockquote>
+
+[67] remaining=29 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W56 | RUFUNC | TGT_LONG
+  <blockquote>адаш жол ложная дорога (не та, по которой следует идти);</blockquote>
+  <blockquote>араң эле басып жүрөт он едва ходит;</blockquote>
+  <blockquote>тук бой бербей койду он ни за что не соглашался;</blockquote>
+  <blockquote>эми кеп сизден болсун теперь слово за вами; теперь вас послушаем;</blockquote>
+  <blockquote>муну жин даарып кеткен он взбеленился;</blockquote>
+  <blockquote>дал саат төрттө ровно в четыре часа;</blockquote>
+
+[68] remaining=29 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W56 | W78 | TGT_LONG
+  <blockquote>тери шымын баса кийип напялив свои кожаные штаны;</blockquote>
+  <blockquote>сары каймак бозо самая крепкая, лучшая буза (из проса);</blockquote>
+  <blockquote>эки бутун бир өтүккө тыгамын я воткну обе его ноги в один сапог! (я ему покажу!);</blockquote>
+  <blockquote>зоң отуруш южн. способ сидения на полу, когда ягодицы опущены на пятки.</blockquote>
+  <blockquote>эки абгыр бир бирин кажашып жатат два жеребца грызут друг друга.</blockquote>
+  <blockquote>көк керене кол жоолук носовой платок с синей каймой.</blockquote>
+
+[69] remaining=29 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W34 | W34 | TGT_LONG
+  <blockquote>ким жазды болду экен?! кто бы это мог написать?!;</blockquote>
+  <blockquote>күн жакшы болоюн деп атат погода обещает быть хорошей;</blockquote>
+  <blockquote>кара желин сухое вымя, вымя без молока;</blockquote>
+  <blockquote>кыз быякта турсун, эми өзүн өзү жерий баштады не только девушек, он (даже) сам себя начал чуждаться;</blockquote>
+  <blockquote>бут жеткиз жерде там, куда нога (человека) не ступает.</blockquote>
+  <blockquote>жол катары жалаң гана ошол кыз жөнүндө ойлонду всю дорогу он только и думал, что о той девушке.</blockquote>
+
+[70] remaining=29 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>атты шамалдан агылга жерге байлап кой привяжи лошадь там, куда не доходит ветер;</blockquote>
+  <blockquote>көзү корккон төөдөй алайды глаза его забегали, как у испуганного верблюда;</blockquote>
+  <blockquote>күн алыстап газета келип турат газеты приходят через день.</blockquote>
+  <blockquote>бала атылган бойдон чыгып кетти мальчик выскочил стремглав.</blockquote>
+  <blockquote>сени бүшүркөп, тааный албай турам я как будто тебя немного припоминаю, но узнать не могу;</blockquote>
+  <blockquote>бели бөкчөйүп, жатып уктап кетти он, согбенный, (уставший) лёг и уснул.</blockquote>
+
+[71] remaining=29 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (29)
+template=SRC_LEN_3 | W78 | W56 | W9P | SPLIT | W56
+  <blockquote>бузулгус достук нерушимая дружба.</blockquote>
+  <blockquote>бөтөлкө челек стеклянная банка;</blockquote>
+  <blockquote>дүмөктүү кабар тревожные вести.</blockquote>
+  <blockquote>жалганма тилдер агглютинативные языки.</blockquote>
+  <blockquote>жаңылыш теория ошибочная теория;</blockquote>
+  <blockquote>жароосуз товар бракованный товар;</blockquote>
+
+[72] remaining=29 | known_exact=0 | best_pattern_support=444 | reasons=prefix_len_1 (29)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W9P | W56
+  <blockquote>бузулгус достук нерушимая дружба.</blockquote>
+  <blockquote>бөтөлкө челек стеклянная банка;</blockquote>
+  <blockquote>дүмөктүү кабар тревожные вести.</blockquote>
+  <blockquote>жалганма тилдер агглютинативные языки.</blockquote>
+  <blockquote>жаңылыш теория ошибочная теория;</blockquote>
+  <blockquote>жароосуз товар бракованный товар;</blockquote>
+
+[73] remaining=28 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (28)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W78 | W34
+  <blockquote>темир айры железные вилы;</blockquote>
+  <blockquote>иштин агы правота дела;</blockquote>
+  <blockquote>алтын саат золотые часы;</blockquote>
+  <blockquote>асаба тоо огромная гора.</blockquote>
+  <blockquote>тоонун башы вершина горы;</blockquote>
+  <blockquote>бийик тоо высокая гора;</blockquote>
+
+[74] remaining=28 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (28)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>сизден акча аласа болсом если мне с вас будут причитаться деньги; если я буду вашим кредитором;</blockquote>
+  <blockquote>ачылы жана чүчүлү таттың беле? ты испытал превратности жизни?</blockquote>
+  <blockquote>конок бар жерде береке бар где гость, там и благодать (приглашение случайно прибывшему пожаловать в качестве гостя);</blockquote>
+  <blockquote>музоо муз жалайт, торпок тоз жалайт погов. шутл. телёнок-сосунок лёд лижет, годовичок раструски лижет (т.е. ни тому ни другому питания вволю не достаётся; старики, мол, пусть угощаются, а молодёжь потом);</blockquote>
+  <blockquote>ишибиз бир жаңсыл болду наше дело выяснено, решено, окончено;</blockquote>
+  <blockquote>кайда бара жатат, эмнеге бара жатат? куда идёт, зачем идёт?</blockquote>
+
+[75] remaining=28 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (28)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W34 | W34 | TGT_LONG
+  <blockquote>күн кеч бешим, тоо ичин ала көлөкө баскан время к вечеру, в горах - светотени (ещё прим. см. <wordLink word="саамал"/>);</blockquote>
+  <blockquote>анда ким болот? там кто будет?</blockquote>
+  <blockquote>мени буга болуп, аны дагы бир кызга болуп койгон за меня посватали эту, а за него - другую девушку;</blockquote>
+  <blockquote>мал боо туштү скот пал, погиб;</blockquote>
+  <blockquote>бир чоң табак этти аки табакка бөл мясо, что на большом блюде, раздели на два блюда;</blockquote>
+  <blockquote>жыл кара чыкты зима (букв. год) была бесснежной;</blockquote>
+
+[76] remaining=28 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (28)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>калаада эмине аңгеме бар? какие разговоры в городе? что нового в городе?</blockquote>
+  <blockquote>аңчылык менен күнүгө жаш сорпо ууртап турушат благодаря охоте они ежедневно хлебают свежий бульон.</blockquote>
+  <blockquote>жатындан жарып чыккан бала родное (для матери) дитя;</blockquote>
+  <blockquote>башкалар жолдо калат! куда другим!, другим (до него) далеко!;</blockquote>
+  <blockquote>абышкага зейним кейиди мне стало жаль старика.</blockquote>
+  <blockquote>иштелген иштери жаман эмес работа, которую он исполнил, неплоха.</blockquote>
+
+[77] remaining=28 | known_exact=0 | best_pattern_support=1145 | reasons=prefix_len_1 (28)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | ILI | W34 | W34 | TGT_LONG
+  <blockquote>алты арыш или төрт арыш все страны света;</blockquote>
+  <blockquote>аюу чач или аюу дары см. <wordLink word="чач" homonym="I"/>;</blockquote>
+  <blockquote>миң аяк или кырк аяк сороконожка;</blockquote>
+  <blockquote>алы бет или али бет то же, что <wordLink word="алибет"/>.</blockquote>
+  <blockquote>дал өзү или дал эле өзү именно он; точь-в-точь как он; ни дать ни взять;</blockquote>
+  <blockquote>дар этип или дар деп с треском;</blockquote>
+
+[78] remaining=28 | known_exact=0 | best_pattern_support=604 | reasons=prefix_len_3 (28)
+template=SRC_LEN_3 | W56 | W34 | W78 | SPLIT | W34
+  <blockquote>темир айры железные вилы;</blockquote>
+  <blockquote>иштин агы правота дела;</blockquote>
+  <blockquote>алтын саат золотые часы;</blockquote>
+  <blockquote>асаба тоо огромная гора.</blockquote>
+  <blockquote>тоонун башы вершина горы;</blockquote>
+  <blockquote>бийик тоо высокая гора;</blockquote>
+
+[79] remaining=28 | known_exact=0 | best_pattern_support=553 | reasons=prefix_len_2 (28)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W9P
+  <blockquote>натур акы натуроплата;</blockquote>
+  <blockquote>жарым арал полуостров.</blockquote>
+  <blockquote>батымы жок неуживчивый;</blockquote>
+  <blockquote>башкы сөз предисловие;</blockquote>
+  <blockquote>Кокон беши запугивание;</blockquote>
+  <blockquote>богооз сөз сквернословие.</blockquote>
+
+[80] remaining=28 | known_exact=0 | best_pattern_support=475 | reasons=prefix_len_1 (28)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78 | W34
+  <blockquote>темир айры железные вилы;</blockquote>
+  <blockquote>иштин агы правота дела;</blockquote>
+  <blockquote>алтын саат золотые часы;</blockquote>
+  <blockquote>асаба тоо огромная гора.</blockquote>
+  <blockquote>тоонун башы вершина горы;</blockquote>
+  <blockquote>бийик тоо высокая гора;</blockquote>
+
+[81] remaining=28 | known_exact=0 | best_pattern_support=350 | reasons=prefix_len_1 (28)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W9P
+  <blockquote>натур акы натуроплата;</blockquote>
+  <blockquote>жарым арал полуостров.</blockquote>
+  <blockquote>батымы жок неуживчивый;</blockquote>
+  <blockquote>башкы сөз предисловие;</blockquote>
+  <blockquote>Кокон беши запугивание;</blockquote>
+  <blockquote>богооз сөз сквернословие.</blockquote>
+
+[82] remaining=27 | known_exact=5 | best_pattern_support=976 | reasons=prefix_len_2 (27)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W9P | W56
+  <blockquote>алгыр тайган поимистая борзая.</blockquote>
+  <blockquote>кыраң каткы гомерический хохот;</blockquote>
+  <blockquote>чарчы кашаа квадратные скобки;</blockquote>
+  <blockquote>калай кашык алюминиевая ложка;</blockquote>
+  <blockquote>кереге сакал окладистая борода;</blockquote>
+  <blockquote>киреше налогу подоходный налог;</blockquote>
+
+[83] remaining=27 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W56 | RUFUNC | TGT_LONG
+  <blockquote>баасын алыс айтып койду он заломил высокую цену;</blockquote>
+  <blockquote>бадана шым боевые штаны (с панцирной защитой);</blockquote>
+  <blockquote>даарып эле чыгып кетет он ещё больше начинает бушевать;</blockquote>
+  <blockquote>дээри жок, кантип окуйт? как он будет учиться, ведь у него нет способностей?</blockquote>
+  <blockquote>жакшы эле аракет кылды он основательно потрудился;</blockquote>
+  <blockquote>мурдун кан жалата койду он ему расквасил нос.</blockquote>
+
+[84] remaining=27 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78 | W56 | W34 | TGT_LONG
+  <blockquote>шердин шери Күлчоро - азарым анык салайын;</blockquote>
+  <blockquote>болсоң бол, болбосоң,- бордой тоз быть, так будь (настоящим человеком), а нет, так пропади совсем.</blockquote>
+  <blockquote>ачыла элек сандыкта бычыла элек кундуз бар загадка в нераскрытом пока сундуке есть некроенная пока выдра (отгадка койдун ичиндеги козу ягнёнок в утробе овцы);</blockquote>
+  <blockquote>жакшы эле дебилге кылды эле, болбой калды он как следует постарался, но из этого ничего не вышло.</blockquote>
+  <blockquote>кокус көз жумулуп кетсе если вдруг закроются глаза (т.е. наступит смерть);</blockquote>
+  <blockquote>башын өзүм кайсадым голову ему я сам рассек;</blockquote>
+
+[85] remaining=27 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W34 | W78 | TGT_LONG
+  <blockquote>кагаз айрып, тамеки орой баштады оторвав бумаги, начал закручивать цигарку;</blockquote>
+  <blockquote>жылкы кайда кетер экен, акмалап карап турчу понаблюдай-ка за лошадьми, куда они пойдут;</blockquote>
+  <blockquote>атпай кыргыз баласы все киргизы, весь киргизский народ;</blockquote>
+  <blockquote>саясий баркы терең (тут) глубокий политический смысл (значимость);</blockquote>
+  <blockquote>береке тапкыр! желаю тебе всякого добра!;</blockquote>
+  <blockquote>мылтык аткан эмедей тоо жаңырып даңк эткен в горах грохнуло, как ружейный выстрел;</blockquote>
+
+[86] remaining=27 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W34 | W56 | TGT_LONG
+  <blockquote>конок басып, бытырап эле жатат гостей многое множество, заполнили всё.</blockquote>
+  <blockquote>койго чыккан чечекти гүл дейбиз оспу овец мы называем гүл;</blockquote>
+  <blockquote>түлкү, таштан секирип, дыр койду лиса, спрыгнув с камня, пустилась наутёк.</blockquote>
+  <blockquote>тубар койдон алынган эгиз, жалкы төлдөр приплод овец двойнями и одиночками.</blockquote>
+  <blockquote>жаным көзүмө көрүнүп, араң жүрөм я совершенно измотан, едва хожу;</blockquote>
+  <blockquote>оорусу жеңил тартайын деп калды ему (больному) как будто немного легче;</blockquote>
+
+[87] remaining=27 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W78 | W56 | TGT_LONG
+  <blockquote>арка бериш жер смежная земля, смежный участок земли;</blockquote>
+  <blockquote>үйү дайыма эле бытырап жатат у него в доме всегда беспорядок; у него в доме всегда всё раскидано, разбросано;</blockquote>
+  <blockquote>атты кичине дыр дедирип алалы давай-ка немного пустим коней карьером;</blockquote>
+  <blockquote>эки жакты, жаза кетирбей карайт он внимательно осматривается по сторонам;</blockquote>
+  <blockquote>жол болсо, жок табылган жерден болсун! желаю тебе удачи в поисках пропажи!;</blockquote>
+  <blockquote>эки беттен кан жошултуп, ыйлап отуруп, үйүнө келди она пришла домой с окровавленными щеками (расцарапав их от горя);</blockquote>
+
+[88] remaining=27 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | RUFUNC | W56 | TGT_LONG
+  <blockquote>ата салты менен по обычаю предков;</blockquote>
+  <blockquote>күн ашкан сайын с каждым днём; чем дальше, тем больше;</blockquote>
+  <blockquote>дак кылып келди он явился с претензией, с притязаниями.</blockquote>
+  <blockquote>бою жибип отурат он сидит в состоянии приятной истомы.</blockquote>
+  <blockquote>жолу менен келди он прибыл с подарками;</blockquote>
+  <blockquote>жос менен жапты он покрыл (крышу) тёсом.</blockquote>
+
+[89] remaining=27 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W78 | W56 | RUFUNC | TGT_LONG
+  <blockquote>башы карга жаздалып жатты он лежал, положив голову на снег.</blockquote>
+  <blockquote>таш жалак проигрыш (когда при игре в уюм тууду и др. играющий, ошибаясь в расчётах, получает пустую лунку);</blockquote>
+  <blockquote>кара жарыш конские скачки без приза (устраиваемые для предварительного испытания скакунов);</blockquote>
+  <blockquote>кат жазып жатканда когда он писал письмо;</blockquote>
+  <blockquote>мен барда камаран койбо пока я существую (или пока я здесь), ты ни о чём не беспокойся.</blockquote>
+  <blockquote>өрө кийиз гладкий войлок (без орнамента);</blockquote>
+
+[90] remaining=27 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (27)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W78 | W56
+  <blockquote>атом куралы атомное оружие.</blockquote>
+  <blockquote>бай колхоз богатый колхоз;</blockquote>
+  <blockquote>бою бекене низкого роста.</blockquote>
+  <blockquote>бою кыска низкого роста;</blockquote>
+  <blockquote>куру дүрмөт холостой заряд;</blockquote>
+  <blockquote>жан кечти отпетая голова;</blockquote>
+
+[91] remaining=27 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (27)
+template=SRC_LEN_3 | W56 | W56 | W9P | SPLIT | W56
+  <blockquote>алгыр тайган поимистая борзая.</blockquote>
+  <blockquote>кыраң каткы гомерический хохот;</blockquote>
+  <blockquote>чарчы кашаа квадратные скобки;</blockquote>
+  <blockquote>калай кашык алюминиевая ложка;</blockquote>
+  <blockquote>кереге сакал окладистая борода;</blockquote>
+  <blockquote>киреше налогу подоходный налог;</blockquote>
+
+[92] remaining=27 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (27)
+template=SRC_LEN_3 | W34 | W56 | W78 | SPLIT | W56
+  <blockquote>атом куралы атомное оружие.</blockquote>
+  <blockquote>бай колхоз богатый колхоз;</blockquote>
+  <blockquote>бою бекене низкого роста.</blockquote>
+  <blockquote>бою кыска низкого роста;</blockquote>
+  <blockquote>куру дүрмөт холостой заряд;</blockquote>
+  <blockquote>жан кечти отпетая голова;</blockquote>
+
+[93] remaining=27 | known_exact=0 | best_pattern_support=685 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W9P | W56
+  <blockquote>алгыр тайган поимистая борзая.</blockquote>
+  <blockquote>кыраң каткы гомерический хохот;</blockquote>
+  <blockquote>чарчы кашаа квадратные скобки;</blockquote>
+  <blockquote>калай кашык алюминиевая ложка;</blockquote>
+  <blockquote>кереге сакал окладистая борода;</blockquote>
+  <blockquote>киреше налогу подоходный налог;</blockquote>
+
+[94] remaining=27 | known_exact=0 | best_pattern_support=551 | reasons=prefix_len_1 (27)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W78 | W56
+  <blockquote>атом куралы атомное оружие.</blockquote>
+  <blockquote>бай колхоз богатый колхоз;</blockquote>
+  <blockquote>бою бекене низкого роста.</blockquote>
+  <blockquote>бою кыска низкого роста;</blockquote>
+  <blockquote>куру дүрмөт холостой заряд;</blockquote>
+  <blockquote>жан кечти отпетая голова;</blockquote>
+
+[95] remaining=26 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | ILI | W56 | W34 | TGT_LONG
+  <blockquote>алагар көз или алагай көз соотв. поэт. ясные очи (о красивых, больших глазах);</blockquote>
+  <blockquote>алдын ала или алдын алып заблаговременно; приняв предупредительные меры;</blockquote>
+  <blockquote>жаздык кап или жаздык тыш наволочка на подушку;</blockquote>
+  <blockquote>жүрөгү эки или жүрөгү экөө или кош жүрөк храбрец из храбрецов (букв. у него два сердца);</blockquote>
+  <blockquote>жылаң аяк или жылаң бут то же, что <wordLink word="жыңайлак"/>;</blockquote>
+  <blockquote>керме каш или кыйма каш (часто встречающийся эпитет красавицы) изогнутые брови; с изогнутыми бровями;</blockquote>
+
+[96] remaining=26 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W56 | RUFUNC | TGT_LONG
+  <blockquote>аламан байге гандикап (скачки, в которых участвуют лошади любых возрастов);</blockquote>
+  <blockquote>башына жоолук салдыра койду она (девушка, которую тайно увезли) дала согласие стать женой (букв. она взяла да и позволила повязать себе на голову платок);</blockquote>
+  <blockquote>башыңа зобун келбесин! смотри, как бы с тобой беда не стряслась!;</blockquote>
+  <blockquote>артына карай зымырап жөнөдү он помчался назад;</blockquote>
+  <blockquote>сөзгө кезек бериңиз дайте и другим говорить (вежливое напоминание говоруну);</blockquote>
+  <blockquote>коңур чечен хороший оратор с мягким приятным голосом;</blockquote>
+
+[97] remaining=26 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W78 | W56 | W56 | TGT_LONG
+  <blockquote>кемпирге - чал, келинге - күйөө, кызга - бозой старухе - старик, молодухе - молодой муж, девице - молодец.</blockquote>
+  <blockquote>көңүлүн ачып, маңдайын жарып күлүп засмеявшись весело и тепло.</blockquote>
+  <blockquote>мылтыкты бир ийнинен экинчи ийнине которо койду он переложил ружьё с одного плеча на другое;</blockquote>
+  <blockquote>кайнаса, каны кошулбай калды между ними легла пропасть (букв. если даже кипятить, и то их кровь не соединится).</blockquote>
+  <blockquote>бутумду итке каптырып алдым собака укусила меня за ногу;</blockquote>
+  <blockquote>кезертип эле, эштемке бербей койду он только помучил ожиданием, надеждой, но ничего не дал.</blockquote>
+
+[98] remaining=26 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W56 | RUFUNC | TGT_LONG
+  <blockquote>ойлогон оюнун аягына чыккан он до конца довёл задуманное;</blockquote>
+  <blockquote>былпыгый семиз катын тучная и рыхлая женщина.</blockquote>
+  <blockquote>жолдошун жолго таштап кетти он бросил своего спутника в пути;</blockquote>
+  <blockquote>заматта көздөн кайып болду он вмиг скрылся из виду;</blockquote>
+  <blockquote>жыйылган каймак сливки, снятые с кипячёного молока;</blockquote>
+  <blockquote>карандай шамал сухой ветер (без снега, без дождя);</blockquote>
+
+[99] remaining=26 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W56 | W78 | TGT_LONG
+  <blockquote>Мырзаалы атылып туруп бийлей баштады Мырзаалы, вскочив, начал плясать;</blockquote>
+  <blockquote>узаткан сайын минтип чачып олтурсаң, үч миңиң да буйдамга келбес если ты на каждые проводы будешь так транжирить, то даже твои три тысячи (рублей) в два счёта разойдутся;</blockquote>
+  <blockquote>ийнинде мылтык жүрсө, дүңдүү көрүнөт когда у него на плече ружьё, он выглядит грозным, внушительным.</blockquote>
+  <blockquote>көчөнүн батыш жаккы жээги западная сторона улицы;</blockquote>
+  <blockquote>капшыра кармап койсо, сынып кетчүдөй илмийген билек тоненькая рука, которая, кажется, сломается, как только покрепче возьмёшь её.</blockquote>
+  <blockquote>касийде окуган молдо мулла, который отчитывает бесноватых.</blockquote>
+
+[100] remaining=26 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W78 | W56 | W56 | TGT_LONG
+  <blockquote>камчыны ээрдин актасына сайып койду он заткнул плеть под седло.</blockquote>
+  <blockquote>чыканагы менен алдыртан түртүп калды он исподтишка толкнул локтем.</blockquote>
+  <blockquote>бармакка басып, тырмакка кысып жыйна жить прижимисто, отказывая себе в самом необходимом; копить по крохам;</blockquote>
+  <blockquote>көздөрү бирде жумулуп, бирде ачылар эле глаза его то закрывались, то открывались;</blockquote>
+  <blockquote>быйылкы жылдын жайында летом этого года, в этом году летом;</blockquote>
+  <blockquote>Болотбек деген - башында батрак болуп, жалтак өсүп көнгөн Болотбек раньше был батраком и рос забитым.</blockquote>
+
+[101] remaining=26 | known_exact=0 | best_pattern_support=1145 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W34 | W34 | W34 | TGT_LONG
+  <blockquote>бир нече күн жаан жаап, эгин айдатпай келди несколько дней шёл дождь и не давал производить сев (пахать и сеять).</blockquote>
+  <blockquote>башы кара буту айры неме, ага теңелбей эле кой да он такой заурядный (букв. нечто с чёрной головой и раздвоенными ногами), по нему не равняйся;</blockquote>
+  <blockquote>ага сен эмне үчүн боор тартасың? ты что за него заступаешься, что его жалеешь?</blockquote>
+  <blockquote>бат эле элге "дүңк" дей түштү (это) сразу стало широко известно народу.</blockquote>
+  <blockquote>бир жак жар, бир жак суу между двух огней (букв. с одной стороны - обрыв, а с другой - вода);</blockquote>
+  <blockquote>сага эмне жок?! чего тебе ещё не хватает?!; а тебе-то какое дело?!;</blockquote>
+
+[102] remaining=26 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (26)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W56 | W56
+  <blockquote>көздүн агы белок глаза;</blockquote>
+  <blockquote>аксым сөз грубое слово;</blockquote>
+  <blockquote>алчий көз хитрый, лживый.</blockquote>
+  <blockquote>иттин аты кличка собаки;</blockquote>
+  <blockquote>кийиз аяз слабый мороз.</blockquote>
+  <blockquote>уйдун башы голова коровы;</blockquote>
+
+[103] remaining=26 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (26)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W9P | W56
+  <blockquote>кызмат акы заработная плата;</blockquote>
+  <blockquote>алешем отун полусырые дрова;</blockquote>
+  <blockquote>галтек жип катушечные нитки.</blockquote>
+  <blockquote>дуңгул чал кряжистый старик;</blockquote>
+  <blockquote>жазык сөз неприличное слово;</blockquote>
+  <blockquote>кайрак эгин неполивной посев;</blockquote>
+
+[104] remaining=26 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (26)
+template=SRC_LEN_3 | W56 | W34 | W56 | SPLIT | W56
+  <blockquote>көздүн агы белок глаза;</blockquote>
+  <blockquote>аксым сөз грубое слово;</blockquote>
+  <blockquote>алчий көз хитрый, лживый.</blockquote>
+  <blockquote>иттин аты кличка собаки;</blockquote>
+  <blockquote>кийиз аяз слабый мороз.</blockquote>
+  <blockquote>уйдун башы голова коровы;</blockquote>
+
+[105] remaining=26 | known_exact=0 | best_pattern_support=753 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W9P | SPLIT | W56 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>аңгычакты болбой, жогор жактан каңырт угулду "соба-а, соп!" вдруг сверху послышалось "цоб-цобе!";</blockquote>
+  <blockquote>чогулушта болдум, андан киного бардым я был на собрании, потом пошёл в кино.</blockquote>
+  <blockquote>алачыктарын өрттөп, көмүр менен күлүп артынып, хандын кыздарынын ордосуна барышты (из сказки) спалив свои лачуги, угли и золу навьючив, отправились во дворец ханских дочерей;</blockquote>
+  <blockquote>бармактайдан бирге өскөн росшие вместе с раннего детства;</blockquote>
+  <blockquote>небересин көрүп, боору эзилип кетти увидев своего внука, она расчувствовалась (говоря "мой миленький", "мой хорошенький" и т.п.);</blockquote>
+  <blockquote>желбегейлене басып, үйүнө кирип кетти надев пальто внакидку, он вошёл в комнату.</blockquote>
+
+[106] remaining=26 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (26)
+template=SRC_LEN_3 | W56 | W34 | W9P | SPLIT | W56
+  <blockquote>кызмат акы заработная плата;</blockquote>
+  <blockquote>алешем отун полусырые дрова;</blockquote>
+  <blockquote>галтек жип катушечные нитки.</blockquote>
+  <blockquote>дуңгул чал кряжистый старик;</blockquote>
+  <blockquote>жазык сөз неприличное слово;</blockquote>
+  <blockquote>кайрак эгин неполивной посев;</blockquote>
+
+[107] remaining=26 | known_exact=0 | best_pattern_support=685 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W56
+  <blockquote>көздүн агы белок глаза;</blockquote>
+  <blockquote>аксым сөз грубое слово;</blockquote>
+  <blockquote>алчий көз хитрый, лживый.</blockquote>
+  <blockquote>иттин аты кличка собаки;</blockquote>
+  <blockquote>кийиз аяз слабый мороз.</blockquote>
+  <blockquote>уйдун башы голова коровы;</blockquote>
+
+[108] remaining=26 | known_exact=0 | best_pattern_support=624 | reasons=prefix_len_1 (26)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W9P | W56
+  <blockquote>кызмат акы заработная плата;</blockquote>
+  <blockquote>алешем отун полусырые дрова;</blockquote>
+  <blockquote>галтек жип катушечные нитки.</blockquote>
+  <blockquote>дуңгул чал кряжистый старик;</blockquote>
+  <blockquote>жазык сөз неприличное слово;</blockquote>
+  <blockquote>кайрак эгин неполивной посев;</blockquote>
+
+[109] remaining=25 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (25)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W56 | W56
+  <blockquote>алды менен прежде всего;</blockquote>
+  <blockquote>долу толкун бурные волны.</blockquote>
+  <blockquote>мең дубана белена, дурман.</blockquote>
+  <blockquote>жан алгыч ангел смерти;</blockquote>
+  <blockquote>жука кагаз тонкая бумага;</blockquote>
+  <blockquote>кан ичмей жажда крови;</blockquote>
+
+[110] remaining=25 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W56 | W34 | TGT_LONG
+  <blockquote>бармак басты, көз кысты кыл обделывать делишки (букв. делать: палец прижал, подмигнул);</blockquote>
+  <blockquote>мунун азабын бир тартат ему здорово попадёт за это;</blockquote>
+  <blockquote>энеси оймок бооч салып алды мать ущипнула (её).</blockquote>
+  <blockquote>буйрук менен алып калдым мне посчастливилось заполучить;</blockquote>
+  <blockquote>жалгыз баласы өлүп, кемпир бүк түштү у старухи умер единственный сын, и она согнулась от горя.</blockquote>
+  <blockquote>качан болсо эле, дайыны жок далпылдай бересиң ты всегда болтаешь чепуху;</blockquote>
+
+[111] remaining=25 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W12 | W34 | TGT_LONG
+  <blockquote>абалап чыккан иттер да жок (такая тишина, что) нет даже собаки, которая бы выскочила с лаем.</blockquote>
+  <blockquote>алагды болуп турам у меня мысли раздваиваются; я не могу сосредоточиться;</blockquote>
+  <blockquote>бугум чыкпай калды у меня печаль не прошла;</blockquote>
+  <blockquote>бутуна дулай чыкты у него на ноге появился нарыв;</blockquote>
+  <blockquote>жерге кирсин! глаза бы мои его не видали!; провались он совсем!;</blockquote>
+  <blockquote>үйүмө жолобо! близко к дому моему не подходи!; чтоб ноги твоей у меня не было!;</blockquote>
+
+[112] remaining=25 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W34 | RUFUNC | TGT_LONG
+  <blockquote>атасы башка, аттан түш! с чужого коня среди грязи долой! (букв. чужеродец, слезай с коня!);</blockquote>
+  <blockquote>башын жебей, оңорбу! (если он так поступит, то) ему несдобровать!;</blockquote>
+  <blockquote>бирер минута өткөн соң по прошествии какой-нибудь минуты, через какую-нибудь минуту.</blockquote>
+  <blockquote>кеткен бойдон дайны жок с тех пор, как он уехал, о нём нет вестей;</blockquote>
+  <blockquote>быякта калат далеко ему, не чета ему;</blockquote>
+  <blockquote>жалмаң тилдүү жылан змея с высовывающимся язычком.</blockquote>
+
+[113] remaining=25 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | RUFUNC | W78 | TGT_LONG
+  <blockquote>берен калсын! пропади он пропадом!; стоит ли жалеть!</blockquote>
+  <blockquote>биздик болуп сүйлөдү он говорил в нашу пользу, за нас.</blockquote>
+  <blockquote>боору бүтүн здоровый (не раненый, не больной);</blockquote>
+  <blockquote>дубасы жанды действие его наговора, заклятия прекратилось;</blockquote>
+  <blockquote>жаагы тынбай сүйлөйт он говорит и говорит;</blockquote>
+  <blockquote>жазгы утуру кезекте в весеннее время;</blockquote>
+
+[114] remaining=25 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>айча бел тонкий стан, тонкая талия;</blockquote>
+  <blockquote>бир сом акымды жеп кетти он не отдал мне рубль;</blockquote>
+  <blockquote>акыл кошо турган киши издеди он искал человека, с которым можно было бы посоветоваться;</blockquote>
+  <blockquote>ага ары айттым, бери айттым - болбоду я ему и так и этак толковал, но ничего не вышло;</blockquote>
+  <blockquote>бал сөзу менен ары жайкап, бери жайкап своими медовыми речами то так, то этак улещая;</blockquote>
+  <blockquote>ашка жүк, башка жүк лишний рот, прихлебатель;</blockquote>
+
+[115] remaining=25 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W34 | W34 | TGT_LONG
+  <blockquote>айта берсе, сөзү көп тут много можно сказать; всего не перескажешь;</blockquote>
+  <blockquote>сага окшоп көзү боз ала болгон бир-экөөнү байкелеткеним эсимде я помню, когда кое-кого из таких чванливых, как ты, я обламывал;</blockquote>
+  <blockquote>элүү тогуз баш боз үйү бар есть у него юрта в пятьдесят девять унин;</blockquote>
+  <blockquote>сөз айтса эле "сар!" деп беттен алат ему только слово скажешь, как он уже рычит;</blockquote>
+  <blockquote>"жок болду" дей бер пиши пропало;</blockquote>
+  <blockquote>жооп сураш сев. этн. один из свадебных обрядов: отец жениха приезжает в аул родителей невесты для сговора о размерах калыма.</blockquote>
+
+[116] remaining=25 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (25)
+template=SRC_LEN_3 | W34 | W56 | W56 | SPLIT | W56
+  <blockquote>алды менен прежде всего;</blockquote>
+  <blockquote>долу толкун бурные волны.</blockquote>
+  <blockquote>мең дубана белена, дурман.</blockquote>
+  <blockquote>жан алгыч ангел смерти;</blockquote>
+  <blockquote>жука кагаз тонкая бумага;</blockquote>
+  <blockquote>кан ичмей жажда крови;</blockquote>
+
+[117] remaining=25 | known_exact=0 | best_pattern_support=551 | reasons=prefix_len_1 (25)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W56
+  <blockquote>алды менен прежде всего;</blockquote>
+  <blockquote>долу толкун бурные волны.</blockquote>
+  <blockquote>мең дубана белена, дурман.</blockquote>
+  <blockquote>жан алгыч ангел смерти;</blockquote>
+  <blockquote>жука кагаз тонкая бумага;</blockquote>
+  <blockquote>кан ичмей жажда крови;</blockquote>
+
+[118] remaining=24 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W34 | W78 | W56 | TGT_LONG
+  <blockquote>башка арга жок другого выхода нет;</blockquote>
+  <blockquote>ээрдин араң бүлк эттирип койду он чуть шевельнул губами.</blockquote>
+  <blockquote>дубал урап, чаң буруксуй түштү стена свалилась, и пыль поднялась клубами.</blockquote>
+  <blockquote>жалчы табы уст. трудовой народ, пролетариат;</blockquote>
+  <blockquote>китеп эмне үчүн жарыкка чыкпай калды? почему книга не вышла в свет?</blockquote>
+  <blockquote>жакшы жери - кир көтөрөт, бирок жаман жери - бат оңот хорошо в нём то, что оно не маркое, но плохо то, что быстро линяет;</blockquote>
+
+[119] remaining=24 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78 | W56 | RUFUNC | TGT_LONG
+  <blockquote>ичинен ала чыгарып внеся в их среду разлад;</blockquote>
+  <blockquote>желге жол баштатып кетти он ушёл, сделав предводителем ветер, он пошёл рыскать по белу свету.</blockquote>
+  <blockquote>бармак бооч название одного из видов киргизского орнамента;</blockquote>
+  <blockquote>үйдүн ичи былыгып кетти в доме всё пошло вверх дном;</blockquote>
+  <blockquote>дареги жок жоголду пропал без вести.</blockquote>
+  <blockquote>чарык жип машинные нитки (на катушках);</blockquote>
+
+[120] remaining=24 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78 | W56 | W56 | TGT_LONG
+  <blockquote>кызга сөз айттырып жүргөн жигит парень, ищущий невесту, сватающий себе невесту;</blockquote>
+  <blockquote>алагай көзү жумулуп, акырет көздөй кетерде... фольк. когда большие глаза его закрылись и он направлялся в тот мир...;</blockquote>
+  <blockquote>Атабек чөк түшкөнүн жазып малдаш урунду Атабек вместо того, чтобы опуститься на колени (см. <wordLink word="чөк-" homonym="IV"/>), сел способом мандаш (см.);</blockquote>
+  <blockquote>атына өзү жалпыйып минип турат он сам сидит плотно на коне.</blockquote>
+  <blockquote>минген аты жыгылып, жөөлөп калган конь, на котором он ехал, упал, и он остался пешим;</blockquote>
+  <blockquote>минген аты арыктын жээгин калтыс басып, жыгылып кетти лошадь, на которой он сидел, неудачно ступила на берег канавы и упала;</blockquote>
+
+[121] remaining=24 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W34 | W78 | TGT_LONG
+  <blockquote>кишиге алымы жок неме болуптур он cтал каким-то неуживчивым;</blockquote>
+  <blockquote>күйөө баштык сев., этн. угощение (обычно мясо жирной овцы и спиртные напитки), которое сваты доставляют в дом родителей девушки перед сватовством (явление последних лет);</blockquote>
+  <blockquote>болгон карып экен деп, болжосом боор бурар жок он, мол, стал бесприютным, прикину я, нет ли у него кого-либо, кто бы о нём позаботился;</blockquote>
+  <blockquote>дүйнө менен иши жок мирские дела его не интересуют; он не от мира сего;</blockquote>
+  <blockquote>жакшы көргөн атым моя любимая лошадь;</blockquote>
+  <blockquote>калмак жүрүш ход (коня) быстрый и без передышек;</blockquote>
+
+[122] remaining=24 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W78 | W56 | TGT_LONG
+  <blockquote>өткөн күздөн бери элимдин арасын артып жатып чарчадым я измучился, непрерывно с прошлой осени объезжая свой народ.</blockquote>
+  <blockquote>сенден башка киши болдубу? кроме тебя ещё кто-нибудь был?</blockquote>
+  <blockquote>келин жандап, кыз тандоого жарачу абышка старик, который мог поухаживать за молодухами и мог выбирать девиц.</blockquote>
+  <blockquote>жайдын коңур жели приятный летний ветерок;</blockquote>
+  <blockquote>камчы тийген жер, бүлөөдөй болуп, жондонуп чыккан место, которого коснулась плеть, вспухло наподобие точильного бруска;</blockquote>
+  <blockquote>зеките берип, аны качырып ийдиң ты своими постоянными окриками вынудил его убежать.</blockquote>
+
+[123] remaining=24 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>"Ардак Белгиси" ордени орден "Знак Почёта";</blockquote>
+  <blockquote>шамал арылдап турат ветер воет, свищет, бушует;</blockquote>
+  <blockquote>мунун баардыгы канча болор экен? а сколько тут будет всего?</blockquote>
+  <blockquote>дагай Букарга барып турат экен (из сказки) оказалось, что он постоянно ездит в Бухару.</blockquote>
+  <blockquote>өткөн жылкынын баары бүгүн деле ойдо всё прошлогоднее и сегодня ещё в памяти;</blockquote>
+  <blockquote>сиздин сөзүңүз жерде калбас, дейм думаю, что ваши слова не пропадут зря (т.е. возымеют действие);</blockquote>
+
+[124] remaining=24 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W34 | W56 | W34 | TGT_LONG
+  <blockquote>атам, энем бар болсун, оозу, мурду жок болсун погов. шутл. отец, мать пусть у меня будут, рта и носа пусть у них не будет (так говорят старики, когда их угощают, шутливо намекая на то, что дело стариков - приготовить, а есть должна молодёжь);</blockquote>
+  <blockquote>эгин баш алып калган кез время, когда заколосились посевы;</blockquote>
+  <blockquote>мен азыр кара башыл киши издеп чыктым я вышел искать человека;</blockquote>
+  <blockquote>бала боор этиң менен тең дитя (своё) дорого сердцу;</blockquote>
+  <blockquote>бүлк этип сөз ачканы жок он не проронил ни слова;</blockquote>
+  <blockquote>таяк жеп, башы бышкан киши человек, много претерпевший и притерпевшийся; тёртый калач;</blockquote>
+
+[125] remaining=24 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W78 | W56 | TGT_LONG
+  <blockquote>бир сөз менен айтканда одним словом;</blockquote>
+  <blockquote>алам деп келип, алдырат деген ушул вот это и есть, когда человек, рассчитывая получить, отдаёт (напр. рассчитывая на военную добычу, отдаёт в руки врага свое);</blockquote>
+  <blockquote>бир кара дөбөт ыргыткан ташты барпактап кууп кетет здоровенный чёрный кобель бежит за брошенным камнем;</blockquote>
+  <blockquote>боз баш балдар молодые ребята, зелёная молодёжь;</blockquote>
+  <blockquote>ага бир шырдак жасатып бердим я заказал для него (изготовить) орнаментированный войлок;</blockquote>
+  <blockquote>бир кол жовлук кештелеп, бермек эден, карай көз южн. фольк. ты, черноглазая, обещала вышить носовой платок и подарить.</blockquote>
+
+[126] remaining=24 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W78 | RUFUNC | W56 | TGT_LONG
+  <blockquote>асый тайлак верблюд по пятому году;</blockquote>
+  <blockquote>асый чыкма животное на грани пятого года.</blockquote>
+  <blockquote>чоң атасын тааныйт он узнает кузькину мать;</blockquote>
+  <blockquote>баш багып кирерде при самом входе, у самого входа;</blockquote>
+  <blockquote>ушу баштан начиная с этого момента;</blockquote>
+  <blockquote>дал болгон баштанып как громом поражённый.</blockquote>
+
+[127] remaining=24 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W34 | W34 | TGT_LONG
+  <blockquote>деги ушундай болсо дагы хотя бы это было и так; пусть это будет тысячу раз так, но...;</blockquote>
+  <blockquote>аба дымыгат, асман кара сур воздух душный, небо свинцово-серое;</blockquote>
+  <blockquote>кага сүйлөгөн сөзгө шагы сына түшкөн, көрүнөт он, видимо, подавлен грубым окриком;</blockquote>
+  <blockquote>кай жериңде кемиң бар? чего тебе недостаёт?</blockquote>
+  <blockquote>сак болгула, уйкуну кеч бир түнгө! будьте бдительны, не спите одну ночь!;</blockquote>
+  <blockquote>көп сөздөрдү айтты эле, бир сөзүн да жакшы уга албай койдум он ещё много слов сказал, но я так и не мог ни одного слова расслышать;</blockquote>
+
+[128] remaining=24 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W78 | RUFUNC | W56 | TGT_LONG
+  <blockquote>айгайды бийик салыптыр он громко и тревожно кричал;</blockquote>
+  <blockquote>бороондо буюгуп жоголду во время бурана (от стужи) он замёрз и погиб;</blockquote>
+  <blockquote>быйылтан баштап начиная с этого (текущего) года.</blockquote>
+  <blockquote>жабырап жыргап отурушат они сидят и весело болтают.</blockquote>
+  <blockquote>учкундан жалын тутанат из искры возгорится пламя;</blockquote>
+  <blockquote>жүйөлүү кептен баштады он начал толковую речь;</blockquote>
+
+[129] remaining=24 | known_exact=0 | best_pattern_support=753 | reasons=prefix_len_1 (24)
+template=SRC_LEN_1 | W12 | SPLIT | W34 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>үч күн мурда калың түшкөн кар анча басырыла элек выпавший три дня тому назад глубокий снег ещё не улежался;</blockquote>
+  <blockquote>ал бир туруп жакшы окуйт, бир туруп жалкоолонот он то хорошо учится, то ленится;</blockquote>
+  <blockquote>"аз гана кыргыз элиңди даркан кылам" дейт эдең фольк. южн. ты говаривал, мол, я прикажу сучить верёвки из белого шёлка; ты говаривал, мол, малочисленный киргизский народ сделаю славным;</blockquote>
+  <blockquote>эч бир убайым жебей, барып тынч алгыла вы ничего не бойтесь, идите и успокойтесь;</blockquote>
+  <blockquote>аз эле жерден өлбөй калды или аз жерден кайтты или өлбөгөн жерде калды он чуть было не умер, он был на волосок от смерти;</blockquote>
+  <blockquote>тү, кара курум болуп калган тура! фу, совсем обгорело!</blockquote>
+
+[130] remaining=23 | known_exact=7 | best_pattern_support=0 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W9P | SPLIT | W9P
+  <blockquote>алысындай щетинистый;</blockquote>
+  <blockquote>жазылгандар подписчики;</blockquote>
+  <blockquote>жалгандан притворно;</blockquote>
+  <blockquote>жетишердик достаточный;</blockquote>
+  <blockquote>жолжойгон мордастый.</blockquote>
+  <blockquote>жылмаңдаган вкрадчивый.</blockquote>
+
+[131] remaining=23 | known_exact=1 | best_pattern_support=1698 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W56 | W78 | TGT_LONG
+  <blockquote>артта калып келе жаткан участок отстающий участок;</blockquote>
+  <blockquote>арышы жеткен жер место, которого он может достичь (дойти, доехать).</blockquote>
+  <blockquote>кабың бошпу? твой мешок свободен (или пуст) ?</blockquote>
+  <blockquote>жарым литрди, бык эттире куйрукка бир коюп, ачты он откупорил поллитровку, шлёпнув (ладонью) по тыльной части;</blockquote>
+  <blockquote>кечке кетмен чаап, колум кабарып калды я до вечера работал кетменём и натёр мозоли на руках;</blockquote>
+  <blockquote>иреге жакта тизе кагыша жүйүртө басышып отурушат они тесно сидят у порога, опустившись на одно колено (см. <wordLink word="жүйүрт-"/>);</blockquote>
+
+[132] remaining=23 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | RUFUNC | W78 | TGT_LONG
+  <blockquote>арбап эле отурат он злобится, беззвучно шевеля губами.</blockquote>
+  <blockquote>ардап ичип калды он обеднел (букв. он начал питаться брандахлыстом).</blockquote>
+  <blockquote>жаздын асты менен с началом весны, в начале весны;</blockquote>
+  <blockquote>оймок бооч щипок с вывертом (делают это девушки и женщины неожиданно для объекта и тайком от присутствующих, напр. мать, услышав произнесённое дочкой нехорошее слово; делают это девушки и молодухи в виде забавы);</blockquote>
+  <blockquote>жоктон дама кылды он погнался за тем, чего нет; он погнался за большим;</blockquote>
+  <blockquote>жаздай всю весну; в течение весны;</blockquote>
+
+[133] remaining=23 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W56 | W78 | TGT_LONG
+  <blockquote>үйдүн ичи конок менен, бабырап, толуп кеткен в доме полно гостей, всё идёт кувырком;</blockquote>
+  <blockquote>менин көп жылдан берки байкоомо караганда исходя из моих многолетних наблюдений;</blockquote>
+  <blockquote>койду бет маңдай жайып таштадык мы пустили овец пастись (на склоны гор, находящиеся) друг против друга;</blockquote>
+  <blockquote>кудай бет алган жактан жалгасын см. <wordLink word="жалга" homonym="II" meaning="3"/>;</blockquote>
+  <blockquote>эшиги жок жайдак тамда жаткамын я жил в пустом доме, не имеющем дверей;</blockquote>
+  <blockquote>кудай бет алган жактан жалгасын дай бог удачи в начинании;</blockquote>
+
+[134] remaining=23 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | RUFUNC | W9P | TGT_LONG
+  <blockquote>актык сөзүн айтты он (умирающий) сказал своё последнее слово;</blockquote>
+  <blockquote>атиет менен айтты он осторожно сказал.</blockquote>
+  <blockquote>дедил болуп жүрөт он проявляет большое стремление.</blockquote>
+  <blockquote>дубасы конбой калды его молитвословие не помогло;</blockquote>
+  <blockquote>эгинге зарык болду он нуждается в хлебе (в зерне).</blockquote>
+  <blockquote>кымыз ириди кумыс (не перебродил, а) свернулся;</blockquote>
+
+[135] remaining=23 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>атайы аңдытып коюу керек нужно поручить установить особую слежку;</blockquote>
+  <blockquote>шамал бастайын деди ветер начал затихать;</blockquote>
+  <blockquote>нанды жаптырып, козу карын майды буздуруп, конок кылды приказав испечь лепёшек, вскрыть бурдюк масла, он угостил.</blockquote>
+  <blockquote>шамал бастайын деди ветер хочет утихнуть, ветер начинает утихать;</blockquote>
+  <blockquote>десин кайтара орой айтып койду он грубо сказал, припугнув его;</blockquote>
+  <blockquote>чырак жарытсын деп, айтып келчи пойди-ка скажи, чтобы зажгли свет.</blockquote>
+
+[136] remaining=23 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | RUFUNC | W78 | TGT_LONG
+  <blockquote>алек чапан халат из материи алек.</blockquote>
+  <blockquote>күчү астам келди он оказался сильнее.</blockquote>
+  <blockquote>бабы менен ловко, как следует (сделать что-л.).</blockquote>
+  <blockquote>жер баспай калды он слишком зазнался;</blockquote>
+  <blockquote>күчү басым келди он оказался сильнее;</blockquote>
+  <blockquote>бек жакшы жайлоо очень хорошее летнее пастбище.</blockquote>
+
+[137] remaining=23 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W34 | W78 | TGT_LONG
+  <blockquote>көрө билбеген көздөн көрө, караңгы тамдын тешиги абзел лучше дыра в тёмной стене, чем глаз, который не может видеть.</blockquote>
+  <blockquote>кап отурбачы, балам, дак болосуң ты, дитя моё, (здесь) долго не сиди, заболеешь.</blockquote>
+  <blockquote>Зоя жаркырап күлдү Зоя искристо засмеялась.</blockquote>
+  <blockquote>ошол замандан баштап, бул заманга жете с того времени и вплоть до настоящего времени;</blockquote>
+  <blockquote>элге жетилген тамак еда, которой хватит для (собравшегося) народа;</blockquote>
+  <blockquote>журт алдында минтип жүзү карарып так вот он перед народом осрамился;</blockquote>
+
+[138] remaining=23 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>кыл дыңылдап калды струна туго натянута.</blockquote>
+  <blockquote>оюң жайынан чыкпай калды тебе не удалось то, что ты задумал; не вышло по-твоему;</blockquote>
+  <blockquote>үйү жасалган болуп калды южн. его дом хорошо обставлен.</blockquote>
+  <blockquote>бир экзамен берсем бекен, жок дегенде? а не сдать ли мне (на худой конец) хотя бы один экзамен?</blockquote>
+  <blockquote>эки кошокчу бийдин ашында, таң атканча кайым айтышып, бирин бири жеңе албай коюптур две плакальщицы на поминках бия до рассвета состязались в пении и не могли друг друга победить.</blockquote>
+  <blockquote>тери калдайып катып калды кожа засохла и покоробилась;</blockquote>
+
+[139] remaining=23 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W56 | W12 | TGT_LONG
+  <blockquote>башыман ылдый алтын куйсаң да! или алтынга бөлөсөң да! хоть ты озолоти (не буду) !</blockquote>
+  <blockquote>"кебиңди токтот, Чаргын!" - дешип, ар ким-ар кимдер, ага аярдык менен карашты "замолчи, Чаргын!" - сказали все и с опаской посмотрели на него.</blockquote>
+  <blockquote>секирген бакага жетпей калды у него крылья подрезаны; он лишился. Былой силы (букв. прыгающую лягушку он не в состоянии догнать);</blockquote>
+  <blockquote>буйдалып сүйлөй албай калдым я растерялся и не мог говорить.</blockquote>
+  <blockquote>жүрөгүм оозума тыгыла түштү я сильно перепугался, у меня сердце ёкнуло;</blockquote>
+  <blockquote>зирбага гүрүч салып койдум я положил в зирба рис (варю плов).</blockquote>
+
+[140] remaining=23 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W78 | RUFUNC | W78 | TGT_LONG
+  <blockquote>директор болуп иштеген он работал в качестве директора, директором;</blockquote>
+  <blockquote>болбогон жерден айыптайт он обвиняет просто так, по пустякам;</blockquote>
+  <blockquote>болпоюп келип калыптыр он (толстяк) подошёл;</blockquote>
+  <blockquote>мойнуңа зоолу салдырба не позволяй надеть себе на шею оковы (не становись его рабом).</blockquote>
+  <blockquote>баланын ийрин жандырба не огорчай ребёнка.</blockquote>
+  <blockquote>кабардап мылтык аттырган он приказал стрелять из ружья, как бы давая сигнал;</blockquote>
+
+[141] remaining=23 | known_exact=0 | best_pattern_support=753 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W12 | SPLIT | W56 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>ар иштин адисин билиш керек к каждому делу нужен подход;</blockquote>
+  <blockquote>ай арасы болуп турат погода стоит плохая;</blockquote>
+  <blockquote>бу өгүздү башка байла этого быка привяжи отдельно (от других);</blockquote>
+  <blockquote>ит жатак ранняя весна (когда снег только начинает сходить и образуются проталины площадью с место, на которое может улечься собака);</blockquote>
+  <blockquote>ич кийим нижняя одежда; нижнее бельё;</blockquote>
+  <blockquote>уй менен койду бирге жаябыз коров и овец будем пасти вместе, не разделяя их;</blockquote>
+
+[142] remaining=23 | known_exact=0 | best_pattern_support=747 | reasons=prefix_len_2 (23)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W56
+  <blockquote>тил азар неслух.</blockquote>
+  <blockquote>эки анжы надвое;</blockquote>
+  <blockquote>бел боо кушак;</blockquote>
+  <blockquote>түн жак север;</blockquote>
+  <blockquote>жалп этип вдруг;</blockquote>
+  <blockquote>эси жок глупый;</blockquote>
+
+[143] remaining=23 | known_exact=0 | best_pattern_support=508 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56
+  <blockquote>тил азар неслух.</blockquote>
+  <blockquote>эки анжы надвое;</blockquote>
+  <blockquote>бел боо кушак;</blockquote>
+  <blockquote>түн жак север;</blockquote>
+  <blockquote>жалп этип вдруг;</blockquote>
+  <blockquote>эси жок глупый;</blockquote>
+
+[144] remaining=22 | known_exact=9 | best_pattern_support=300 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W9P | W9P | SPLIT | W9P | W9P
+  <blockquote>астрономиялык байкоолор астрономические наблюдения.</blockquote>
+  <blockquote>жаратылыш байлыктары природные богатства.</blockquote>
+  <blockquote>идеологиялык бурмалоолор идеологические извращения.</blockquote>
+  <blockquote>өндүрүштүк гимнастика производственная гимнастика.</blockquote>
+  <blockquote>мамлекеттик департамент государственный департамент.</blockquote>
+  <blockquote>пролетариат диктатурасы диктатура пролетариата.</blockquote>
+
+[145] remaining=22 | known_exact=2 | best_pattern_support=667 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W78 | W78
+  <blockquote>бакма айбан домашнее животное;</blockquote>
+  <blockquote>кеңеш бергич советник, советчик.</blockquote>
+  <blockquote>кызга жакыя девичий угодник;</blockquote>
+  <blockquote>жарма тааныш шапочный знакомый;</blockquote>
+  <blockquote>жороп тикен липучка (растение).</blockquote>
+  <blockquote>кемпир муштум название растения;</blockquote>
+
+[146] remaining=22 | known_exact=1 | best_pattern_support=747 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W9P | W34 | SPLIT | W9P | W56
+  <blockquote>белжемдүү жер намеченное место.</blockquote>
+  <blockquote>граждандык укук гражданское право;</blockquote>
+  <blockquote>жиберилген ката допущенная ошибка.</blockquote>
+  <blockquote>жумурдагы сыр сокровенная тайна;</blockquote>
+  <blockquote>замбиректин огу орудийный снаряд;</blockquote>
+  <blockquote>казыналык жер государственная земля;</blockquote>
+
+[147] remaining=22 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W34 | W56 | RUFUNC | TGT_LONG
+  <blockquote>алаасы жок шым штаны для мальчика (с прорезом).</blockquote>
+  <blockquote>башына алат күн түштү на его голову свалилось большое несчастье;</blockquote>
+  <blockquote>жаагы жап эле болду он прикусил язык, он притих;</blockquote>
+  <blockquote>жарма дос друг, чтобы только поесть-попитъ;</blockquote>
+  <blockquote>жолду ката всю дорогу, на протяжении всего пути;</blockquote>
+  <blockquote>кэттэ чоң ата прадед; (ещё прим. см. <wordLink word="чоң"/>).</blockquote>
+
+[148] remaining=22 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W34 | W56 | W78 | TGT_LONG
+  <blockquote>кенге бай жер земля, богатая ископаемыми;</blockquote>
+  <blockquote>кандай гана жол менен болбосун какими бы то ни было путями, во что бы то ни стало;</blockquote>
+  <blockquote>эгерде жоо көп болсо, буктурма коюп урушкан когда врагов бывало много, сражались, выставляя засады;</blockquote>
+  <blockquote>курсак тоюп, ийин бүтөлө баштады только-только стали сытыми и одетыми;</blockquote>
+  <blockquote>жатып ичер чал старик, который не может работать (может только пить-есть);</blockquote>
+  <blockquote>кайран акча жок болду! плакали денежки!;</blockquote>
+
+[149] remaining=22 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W78 | W56 | TGT_LONG
+  <blockquote>Темир аркы бетке оогандан кийин дагы көп жерди артты Темир, перевалив на ту сторону, тщательно осмотрел ещё много мест;</blockquote>
+  <blockquote>тузуна кара санап, башынан аттап башкага тийип кетти заплатив ему неблагодарностью, опозорив его, вышла за другого;</blockquote>
+  <blockquote>малга бай колхоз богатый скотом колхоз;</blockquote>
+  <blockquote>башына доо кеткен көрүнөт, башка жери аман ему голову повредило, всё остальное цело;</blockquote>
+  <blockquote>жайкы жана кышкы жайыттар летние и зимние пастбища.</blockquote>
+  <blockquote>жалаң чай тамак болбойт пустой чай не может быть пищей;</blockquote>
+
+[150] remaining=22 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W56 | W9P | TGT_LONG
+  <blockquote>тамбур чертип, аргуч айтып барышаттар они идут, играя на тамбуре и распевая песни.</blockquote>
+  <blockquote>элдин барып турган бетбак душмандары самые гнусные враги народа.</blockquote>
+  <blockquote>эмнени ойлоп отурат болду? (недоуменный вопрос) о чём же это таком он думает?</blockquote>
+  <blockquote>карын майды бузуп вскрыв неначатый бурдюк масла или сала;</blockquote>
+  <blockquote>тогуз амалы, токсон тогуз буктурмасы бар у него есть девять способов и девяносто девять хитростей.</blockquote>
+  <blockquote>амалын жандан ашырды своим искусством (или своей хитростью) он превзошёл всех;</blockquote>
+
+[151] remaining=22 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W9P | W56 | TGT_LONG
+  <blockquote>Бүбүш келип, өзүнүн аксакалдык ордуна олтурду Бюбюш пришла и села на своё место аксакала;</blockquote>
+  <blockquote>байкуш биздин айылда байманчыктап жүрөт он, бедняга, нашёл пристанище в нашем ауле (ходит тут, будто конь на приколе: больше ему податься некуда).</blockquote>
+  <blockquote>ийинге бутун салып, мүдүрулүп кетти он попал ңогой в нору и споткнулся;</blockquote>
+  <blockquote>кыраан Манас жөкөрү - кыргыздан чыккан кырк бөрү витязи кречета Манаса - сорок волков киргизских (см. <wordLink word="бөрү" meaning="2"/>);</blockquote>
+  <blockquote>силер кайсаа ыйлап жатасыңар? почему вы плачете?</blockquote>
+  <blockquote>бышкан эгинди мөндүр каккандай будто спелый посев градом выбило (о безлюдье и тишине после большого оживления);</blockquote>
+
+[152] remaining=22 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W56 | W34 | TGT_LONG
+  <blockquote>хандын кызын түшүндө көрүп, ашык болуп, алп кара кушуна алдырткан экен (из сказки) увидел во сне ханскую дочь, влюбился, (но допустил, что) её унесла птица алп кара куш (см. <wordLink word="куш" homonym="I" meaning="3"/>).</blockquote>
+  <blockquote>карып калган чагымда жалгыз бой болуп кыйналып жатам в старости, оставшись одиноким, я испытываю трудности;</blockquote>
+  <blockquote>кайсы жерде жатышат болду экен? где же это они лежат?</blockquote>
+  <blockquote>болсо болор возможно, ничего нет удивительного, если это и так;</blockquote>
+  <blockquote>бычак менен курсакка бышып алды он всадил в живот нож;</blockquote>
+  <blockquote>мейли, кайда калбаган дүнүйө! где наше не пропадало!;</blockquote>
+
+[153] remaining=22 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W12 | W34 | TGT_LONG
+  <blockquote>бир балаа болгон го дейм думаю, что-то стряслось;</blockquote>
+  <blockquote>сен кайда болдуң? ты где был?</blockquote>
+  <blockquote>буту бултуя түштү у него нога распухла.</blockquote>
+  <blockquote>жүз сомго дейре до ста рублей;</blockquote>
+  <blockquote>үйгө жакын калды до дому уже близко;</blockquote>
+  <blockquote>ичи зилдеп кетти у него кровавый понос.</blockquote>
+
+[154] remaining=22 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W78 | W34 | W56 | TGT_LONG
+  <blockquote>ооз деген дарбаза, чыга берет андаса сев. погов. рот - ворота, из него выходит всё.</blockquote>
+  <blockquote>башы кеткен бапанга, аягы кеткен сапанга рассеялись по разным далёким странам;</blockquote>
+  <blockquote>эки колун бооруна алып, кулдук урду сложив руки на животе, он выразил (этим) почтение;</blockquote>
+  <blockquote>келе жатыр Күлчоро, эки жагын каранып фольк. (сюда) едет Кюльчоро, оглядываясь по сторонам; при деепр. наст. вр. основного глагола может терять начальный ж и сливаться с основным глаголом (см. <wordLink word="ат-" homonym="IV"/>);</blockquote>
+  <blockquote>узун сөздүн кыскасы, жел сөздүн жеткир устасы присказка краткость слова длинного, ловкий мастер пустословия.</blockquote>
+  <blockquote>көп болсо, отуздун жоон жерине баргандырсың тебе самое большее лет тридцать пять - тридцать шесть;</blockquote>
+
+[155] remaining=22 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W78 | W56 | W34 | TGT_LONG
+  <blockquote>алат абышка неладный старик; чтоб тебе, старому!</blockquote>
+  <blockquote>арка мойнуң астыңда калсын! чтоб тебе шею свернуть!;</blockquote>
+  <blockquote>кара төбөл Буланды минди, көл айлана куш салды на Булана с чёрной звёздочкой он сел, вокруг озера с соколом охотился.</blockquote>
+  <blockquote>бир канча кишилер уюшуп, жоро ичкенде, жоро башы аягына чейин тартибин башкарат когда несколько человек, объединившись, устраивают жоро, то главный распорядитель до конца следит за порядком;</blockquote>
+  <blockquote>Чоң казат Великий поход (один из эпизодов эпоса "Манас");</blockquote>
+  <blockquote>"кач, качтын" капшабы жетип, кача беришти услышав (букв. под влиянием) "беги, беги!", они побежали;</blockquote>
+
+[156] remaining=22 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W78 | W56 | TGT_LONG
+  <blockquote>төрт баланын ачына айланып, тогуна толгонуп жүрө бердим я горевал, когда четверо моих детей были голодны, радовался, когда они были сыты;</blockquote>
+  <blockquote>аса карыбайт, алтын чирибейт погов. сев. соболезнование не стареет, золото не гниёт (соболезнование выражается при первом посещении семьи умершего, даже если со дня смерти пройдёт уже много времени).</blockquote>
+  <blockquote>ден соолугу жакшы, кабелтең жигит болот здоровье у него хорошее, он будет здоровяком;</blockquote>
+  <blockquote>бир канчалык убакыт өткөндөн кийин по прошествии значительного времени;</blockquote>
+  <blockquote>эки үзөнгүнү бирдей теминип кортоң этти он, коротышка, приподнялся, опершись на оба стремени;</blockquote>
+  <blockquote>төрт тарабың кыбыла, каалаган жагыңа кете бер на все четыре стороны, скатертью дорога, отправляйся куда хочешь;</blockquote>
+
+[157] remaining=22 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W56 | W34 | W56 | TGT_LONG
+  <blockquote>Сапарбай, аяр басып үйгө кирди Сапарбай неслышными шагами вошёл в дом.</blockquote>
+  <blockquote>бабырап эле конок баса берет гости просто одолели.</blockquote>
+  <blockquote>бержакта (бер жакта, бери жакта) на этой стороне, по эту сторону;</blockquote>
+  <blockquote>датыңды айт изложи свою жалобу, свою претензию;</blockquote>
+  <blockquote>жеңилдин асты, оордун үстү менен оокат кылганкиши человек, который живёт лёгким, но прибыльным трудом.</blockquote>
+  <blockquote>мүрзөлөр жер менен жер болуп калган могилы (могильные насыпи) сровнялись с землёй;</blockquote>
+
+[158] remaining=22 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | ILI | W78 | W56 | TGT_LONG
+  <blockquote>айдарын тигип или айдарын салып злобно, зверем (взглянув);</blockquote>
+  <blockquote>жаандан ашкан или ааламдан ашкан совершенно исключительный; такой, какого в мире нет;</blockquote>
+  <blockquote>бешенеге сызган или бешенеге жазган суждено;</blockquote>
+  <blockquote>иштеген болуп или иштемиш болуп делая вид, что работает;</blockquote>
+  <blockquote>жаандан ашкан или жаандан чыккан выдающийся, знаменитый;</blockquote>
+  <blockquote>жанынан качкан или жанынан кечкен отрешившийся от жизни;</blockquote>
+
+[159] remaining=22 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W34 | W56 | W34 | TGT_LONG
+  <blockquote>алардын бетин ары кылсын! чтоб они сгинули!, пропади они пропадом!;</blockquote>
+  <blockquote>буйдамга келбей, мүрт кетет эле он бы тут же и кончился;</blockquote>
+  <blockquote>бүтүндөп жамап бер почини (так, чтобы стало целым).</blockquote>
+  <blockquote>жаасынды салбай, жөн турчу веди себя тихо, не устраивай скандала.</blockquote>
+  <blockquote>жаркырак айдын нуру сияние луны (букв. свет блестящей луны).</blockquote>
+  <blockquote>аркамды жышып бер потри мне спину.</blockquote>
+
+[160] remaining=22 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W56 | W78 | SPLIT | W78 | W56
+  <blockquote>дубал газетасы стенная газета.</blockquote>
+  <blockquote>дубал газетасы стенная газета.</blockquote>
+  <blockquote>аттын дүбүртү конский топот.</blockquote>
+  <blockquote>жатыш жөндөмө местный падеж;</blockquote>
+  <blockquote>чыгыш жөндөмө исходный падеж.</blockquote>
+  <blockquote>ишкер чөйрөлөр деловые круги;</blockquote>
+
+[161] remaining=22 | known_exact=0 | best_pattern_support=874 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W78 | W34
+  <blockquote>алмас кылыч булатный меч;</blockquote>
+  <blockquote>болот кылыч булатный меч;</blockquote>
+  <blockquote>жеткен митаам завзятый плут;</blockquote>
+  <blockquote>жалпы жыйноо валовой сбор;</blockquote>
+  <blockquote>сырткы кебете внешний вид;</blockquote>
+  <blockquote>болот кестик булатный нож.</blockquote>
+
+[162] remaining=22 | known_exact=0 | best_pattern_support=728 | reasons=prefix_len_3 (22)
+template=SRC_LEN_3 | W56 | W56 | W78 | SPLIT | W34
+  <blockquote>алмас кылыч булатный меч;</blockquote>
+  <blockquote>болот кылыч булатный меч;</blockquote>
+  <blockquote>жеткен митаам завзятый плут;</blockquote>
+  <blockquote>жалпы жыйноо валовой сбор;</blockquote>
+  <blockquote>сырткы кебете внешний вид;</blockquote>
+  <blockquote>болот кестик булатный нож.</blockquote>
+
+[163] remaining=22 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (22)
+template=SRC_LEN_3 | W56 | W78 | W78 | SPLIT | W56
+  <blockquote>дубал газетасы стенная газета.</blockquote>
+  <blockquote>дубал газетасы стенная газета.</blockquote>
+  <blockquote>аттын дүбүртү конский топот.</blockquote>
+  <blockquote>жатыш жөндөмө местный падеж;</blockquote>
+  <blockquote>чыгыш жөндөмө исходный падеж.</blockquote>
+  <blockquote>ишкер чөйрөлөр деловые круги;</blockquote>
+
+[164] remaining=22 | known_exact=0 | best_pattern_support=667 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W78
+  <blockquote>аласа, жар суженая;</blockquote>
+  <blockquote>кысыр аңыз перелог;</blockquote>
+  <blockquote>жалгыз бой одинокий;</blockquote>
+  <blockquote>боруму түз стройный;</blockquote>
+  <blockquote>должун бүлө дармоед.</blockquote>
+  <blockquote>жаагың бас! замолчи!;</blockquote>
+
+[165] remaining=22 | known_exact=0 | best_pattern_support=586 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W34
+  <blockquote>алмас кылыч булатный меч;</blockquote>
+  <blockquote>болот кылыч булатный меч;</blockquote>
+  <blockquote>жеткен митаам завзятый плут;</blockquote>
+  <blockquote>жалпы жыйноо валовой сбор;</blockquote>
+  <blockquote>сырткы кебете внешний вид;</blockquote>
+  <blockquote>болот кестик булатный нож.</blockquote>
+
+[166] remaining=22 | known_exact=0 | best_pattern_support=553 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W56 | W78 | SPLIT | W9P
+  <blockquote>жалгыз бойчулук одиночество.</blockquote>
+  <blockquote>бүткүл союздук всесоюзный.</blockquote>
+  <blockquote>жалпы дүйнөлүк всемирный.</blockquote>
+  <blockquote>жалгыз бойчулук одиночество;</blockquote>
+  <blockquote>жалпы союздук всесоюзный;</blockquote>
+  <blockquote>кызыл жүгүрүк ревматизм.</blockquote>
+
+[167] remaining=22 | known_exact=0 | best_pattern_support=475 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78
+  <blockquote>аласа, жар суженая;</blockquote>
+  <blockquote>кысыр аңыз перелог;</blockquote>
+  <blockquote>жалгыз бой одинокий;</blockquote>
+  <blockquote>боруму түз стройный;</blockquote>
+  <blockquote>должун бүлө дармоед.</blockquote>
+  <blockquote>жаагың бас! замолчи!;</blockquote>
+
+[168] remaining=22 | known_exact=0 | best_pattern_support=474 | reasons=prefix_len_3 (22)
+template=SRC_LEN_3 | W56 | W56 | W78 | SPLIT | W78
+  <blockquote>бакма айбан домашнее животное;</blockquote>
+  <blockquote>кеңеш бергич советник, советчик.</blockquote>
+  <blockquote>кызга жакыя девичий угодник;</blockquote>
+  <blockquote>жарма тааныш шапочный знакомый;</blockquote>
+  <blockquote>жороп тикен липучка (растение).</blockquote>
+  <blockquote>кемпир муштум название растения;</blockquote>
+
+[169] remaining=22 | known_exact=0 | best_pattern_support=467 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W78
+  <blockquote>бакма айбан домашнее животное;</blockquote>
+  <blockquote>кеңеш бергич советник, советчик.</blockquote>
+  <blockquote>кызга жакыя девичий угодник;</blockquote>
+  <blockquote>жарма тааныш шапочный знакомый;</blockquote>
+  <blockquote>жороп тикен липучка (растение).</blockquote>
+  <blockquote>кемпир муштум название растения;</blockquote>
+
+[170] remaining=22 | known_exact=0 | best_pattern_support=455 | reasons=prefix_len_3 (22)
+template=SRC_LEN_3 | W9P | W34 | W9P | SPLIT | W56
+  <blockquote>белжемдүү жер намеченное место.</blockquote>
+  <blockquote>граждандык укук гражданское право;</blockquote>
+  <blockquote>жиберилген ката допущенная ошибка.</blockquote>
+  <blockquote>жумурдагы сыр сокровенная тайна;</blockquote>
+  <blockquote>замбиректин огу орудийный снаряд;</blockquote>
+  <blockquote>казыналык жер государственная земля;</blockquote>
+
+[171] remaining=22 | known_exact=0 | best_pattern_support=408 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W9P
+  <blockquote>ала аяк белоногий;</blockquote>
+  <blockquote>алты атар шестизарядный;</blockquote>
+  <blockquote>аңыр кыял бесхитростный.</blockquote>
+  <blockquote>кыр арка позвоночник;</blockquote>
+  <blockquote>ачык ооз болтливый;</blockquote>
+  <blockquote>бет алыш направление;</blockquote>
+
+[172] remaining=22 | known_exact=0 | best_pattern_support=305 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W78 | W56
+  <blockquote>дубал газетасы стенная газета.</blockquote>
+  <blockquote>дубал газетасы стенная газета.</blockquote>
+  <blockquote>аттын дүбүртү конский топот.</blockquote>
+  <blockquote>жатыш жөндөмө местный падеж;</blockquote>
+  <blockquote>чыгыш жөндөмө исходный падеж.</blockquote>
+  <blockquote>ишкер чөйрөлөр деловые круги;</blockquote>
+
+[173] remaining=22 | known_exact=0 | best_pattern_support=269 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W9P
+  <blockquote>ала аяк белоногий;</blockquote>
+  <blockquote>алты атар шестизарядный;</blockquote>
+  <blockquote>аңыр кыял бесхитростный.</blockquote>
+  <blockquote>кыр арка позвоночник;</blockquote>
+  <blockquote>ачык ооз болтливый;</blockquote>
+  <blockquote>бет алыш направление;</blockquote>
+
+[174] remaining=22 | known_exact=0 | best_pattern_support=186 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W9P | SPLIT | W34 | W9P | W56
+  <blockquote>белжемдүү жер намеченное место.</blockquote>
+  <blockquote>граждандык укук гражданское право;</blockquote>
+  <blockquote>жиберилген ката допущенная ошибка.</blockquote>
+  <blockquote>жумурдагы сыр сокровенная тайна;</blockquote>
+  <blockquote>замбиректин огу орудийный снаряд;</blockquote>
+  <blockquote>казыналык жер государственная земля;</blockquote>
+
+[175] remaining=22 | known_exact=0 | best_pattern_support=154 | reasons=prefix_len_1 (22)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W9P
+  <blockquote>жалгыз бойчулук одиночество.</blockquote>
+  <blockquote>бүткүл союздук всесоюзный.</blockquote>
+  <blockquote>жалпы дүйнөлүк всемирный.</blockquote>
+  <blockquote>жалгыз бойчулук одиночество;</blockquote>
+  <blockquote>жалпы союздук всесоюзный;</blockquote>
+  <blockquote>кызыл жүгүрүк ревматизм.</blockquote>
+
+[176] remaining=22 | known_exact=0 | best_pattern_support=127 | reasons=prefix_len_3 (22)
+template=SRC_LEN_3 | W9P | W9P | W9P | SPLIT | W9P
+  <blockquote>астрономиялык байкоолор астрономические наблюдения.</blockquote>
+  <blockquote>жаратылыш байлыктары природные богатства.</blockquote>
+  <blockquote>идеологиялык бурмалоолор идеологические извращения.</blockquote>
+  <blockquote>өндүрүштүк гимнастика производственная гимнастика.</blockquote>
+  <blockquote>мамлекеттик департамент государственный департамент.</blockquote>
+  <blockquote>пролетариат диктатурасы диктатура пролетариата.</blockquote>
+
+[177] remaining=21 | known_exact=1 | best_pattern_support=976 | reasons=prefix_len_2 (21)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W56 | W56
+  <blockquote>баарыдан мурда прежде всего.</blockquote>
+  <blockquote>байланыш бөлүмү отдел связи;</blockquote>
+  <blockquote>балкыган шибер пышная трава;</blockquote>
+  <blockquote>биримдик билет единый билет;</blockquote>
+  <blockquote>бириндек сакал редкая борода.</blockquote>
+  <blockquote>жогорку мектеп высшая школа;</blockquote>
+
+[178] remaining=21 | known_exact=1 | best_pattern_support=874 | reasons=prefix_len_2 (21)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W9P | W34
+  <blockquote>адабий тил литературный язык.</blockquote>
+  <blockquote>достук азил дружеский шарж.</blockquote>
+  <blockquote>басыр айыл захудалый аул.</blockquote>
+  <blockquote>казык бооч растяжной узел;</blockquote>
+  <blockquote>жолбун мал приблудный скот;</blockquote>
+  <blockquote>толук жыл високосный год;</blockquote>
+
+[179] remaining=21 | known_exact=1 | best_pattern_support=624 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W34
+  <blockquote>агылес орок острый серп.</blockquote>
+  <blockquote>кылыч бияз дикий лук.</blockquote>
+  <blockquote>өздүк дело личное дело;</blockquote>
+  <blockquote>кайран жан милая душа;</blockquote>
+  <blockquote>залалы жок вреда нет;</blockquote>
+  <blockquote>күүгүм түн начало ночи;</blockquote>
+
+[180] remaining=21 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W34 | W34 | TGT_LONG
+  <blockquote>атаны сонун жер бол! вот уж, действительно, прекрасная земля!; уж если быть земле, так пусть она будет такой!;</blockquote>
+  <blockquote>эчтеме менен иши жок ему ни до чего дела нет; он ни во что не вмешивается, он ни о чём не заботится;</blockquote>
+  <blockquote>кайда барсаң, анда бар иди куда хочешь; скатертью дорога;</blockquote>
+  <blockquote>атыңды кыйсаң, маа бер если не жалко, дай мне твою лошадь;</blockquote>
+  <blockquote>Волга кылгып агат, Чүй шар агат Волга течёт спокойно, (горная река) Чуй течёт бурно;</blockquote>
+  <blockquote>кыялы жаман бат эле кырт дей түшөт у него нрав скверный, он ни с того ни с сего раздражается;</blockquote>
+
+[181] remaining=21 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | RUFUNC | W34 | TGT_LONG
+  <blockquote>ажысы кабыл болду его хадж принят (богом); он (паломник) умер в Мекке;</blockquote>
+  <blockquote>арааны жүрүп турат его дела идут хорошо;</blockquote>
+  <blockquote>бөөдө ажалы жетет он зря погибнет;</blockquote>
+  <blockquote>дардай жигит болду он стал здоровенным парнем;</blockquote>
+  <blockquote>башына замана түштү для него настали тяжёлые времена;</blockquote>
+  <blockquote>выпил одним духом на моих глазах;</blockquote>
+
+[182] remaining=21 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W56 | W78 | TGT_LONG
+  <blockquote>мүнөзү аламан, айтканды укпайт характер у него буйный, он не внемлет тому, что (ему) говорят;</blockquote>
+  <blockquote>бирден бирге айтылып отуруп, таралып кетти передаваясь от одного к другому, (весть) распространилась;</blockquote>
+  <blockquote>делдек таноо раздутые ноздри; человек с раздутыми ноздрями (см. <wordLink word="делдең"/>).</blockquote>
+  <blockquote>жылан ордосу змеиное гнездо, змеиное логово;</blockquote>
+  <blockquote>күрөң уйдун музоосун агытып, кийинки ийиндисин эмизип жаткан эле она отпустила телёнка тёмно-рыжей коровы и подпустила, чтобы он досасывал.</blockquote>
+  <blockquote>барган сайын акындыгы артып, жомокко да кадик болот всё больше растёт его поэтическое дарование, и он и в былинах становится мастером.</blockquote>
+
+[183] remaining=21 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W56 | W78 | TGT_LONG
+  <blockquote>алар, бир сөздүн аягына чыкканча, шаарды аралап да калышты пока они успели довести разговор до конца, им пришлось побродить по городу;</blockquote>
+  <blockquote>беш күн күндүн бетин көрбөдүк пять дней мы солнца не видели;</blockquote>
+  <blockquote>бет алды сүйлөй берет говорит, что ему в голову взбредёт;</blockquote>
+  <blockquote>дагы ого бетер мыкты иштейбиз будем работать ещё лучше;</blockquote>
+  <blockquote>мен аны менен кырды бычакмын я с ним на ножах;</blockquote>
+  <blockquote>жарк этип, куткөн бакыт алдынан чыга келсе если вдруг придёт ожидаемое счастье;</blockquote>
+
+[184] remaining=21 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W78 | W34 | TGT_LONG
+  <blockquote>азга турган соң калтырап үшүй башташат немного постоят и начинают зябнуть и дрожать;</blockquote>
+  <blockquote>үйү жакшы экен, атаганат, асты жер экен дом у него хорош, да жаль, пол земляной;</blockquote>
+  <blockquote>бай болгур, тиги китепти алып берчи будь добр, подай вон ту книгу;</blockquote>
+  <blockquote>ким жактап кол көтөрдү? кто голосовал за? (ещё прим. см. <wordLink word="калыс"/>);</blockquote>
+  <blockquote>бир саатча көз илинтип алып вздремнув часок.</blockquote>
+  <blockquote>кай келсин, кай келбесин - өзү билсин придёт он или не придёт - дело его;</blockquote>
+
+[185] remaining=21 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W56 | RUFUNC | TGT_LONG
+  <blockquote>жан алакетке түшүп иштеди он работал изо всех сил;</blockquote>
+  <blockquote>бир балитике кылып турат он что-то хитрит, что-то неладное замышляет.</blockquote>
+  <blockquote>жер чечегин безеп ырдады он пел красиво, увлекательно.</blockquote>
+  <blockquote>жөө декилдеп, газета ташыйт он бегом (быстро, торопливо) разносит газеты.</blockquote>
+  <blockquote>бир дооштон кабыл алышты они приняли единогласно.</blockquote>
+  <blockquote>жур: кийимден журдай болгон он совершенно не имел одежды, он испытывал большую нужду в одежде.</blockquote>
+
+[186] remaining=21 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W78 | W56 | W56 | TGT_LONG
+  <blockquote>баш айрышкан төбөлөш болду такая была драка, что головы трещали.</blockquote>
+  <blockquote>ачка жүргөнчө, айранга талкан чалып (или нан сындырып) ичкен артык чем голодать, лучше в айран толокна замешать (или хлеба накрошить) и пить;</blockquote>
+  <blockquote>тез келбесең, душманың башыңа чыгып баратат если ты скоро не явишься, то враг твой уже берёт верх над тобой;</blockquote>
+  <blockquote>анын артында, топтошуп, калмак жүрүш менен келе жатышты они ехали за ним группой быстрым аллюром;</blockquote>
+  <blockquote>ишти, картынан өткөрбөй, иштөө керек дело нужно делать вовремя (напр. пахать, сеять и т.п.);</blockquote>
+  <blockquote>сен Сыдыкты өлтүрүп, кункор болмок экенбиз ты убьёшь Сыдыка, а на нас падёт вира (см. <wordLink word="кун" meaning="1"/>).</blockquote>
+
+[187] remaining=21 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W78 | W56 | RUFUNC | TGT_LONG
+  <blockquote>ыйлаган бойдон эшиктен чыкты он с плачем вышел из дверей (заплакал и не переставал плакать);</blockquote>
+  <blockquote>бочкедей болуп, семирип алган он разжирел и стал как бочка.</blockquote>
+  <blockquote>колумду кечке бошотпой койду он меня до вечера занял (не оставил свободного времени);</blockquote>
+  <blockquote>дрожкага аттар чегилип калган в дрожки были запряжены лошади.</blockquote>
+  <blockquote>жоргону минсе, жованат сядет он на иноходца и утешится.</blockquote>
+  <blockquote>кызылдын үстүн жоруптап жатат он сметает полову с зерна;</blockquote>
+
+[188] remaining=21 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (21)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W56 | W34
+  <blockquote>агылес орок острый серп.</blockquote>
+  <blockquote>кылыч бияз дикий лук.</blockquote>
+  <blockquote>өздүк дело личное дело;</blockquote>
+  <blockquote>кайран жан милая душа;</blockquote>
+  <blockquote>залалы жок вреда нет;</blockquote>
+  <blockquote>күүгүм түн начало ночи;</blockquote>
+
+[189] remaining=21 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (21)
+template=SRC_LEN_3 | W78 | W56 | W56 | SPLIT | W56
+  <blockquote>баарыдан мурда прежде всего.</blockquote>
+  <blockquote>байланыш бөлүмү отдел связи;</blockquote>
+  <blockquote>балкыган шибер пышная трава;</blockquote>
+  <blockquote>биримдик билет единый билет;</blockquote>
+  <blockquote>бириндек сакал редкая борода.</blockquote>
+  <blockquote>жогорку мектеп высшая школа;</blockquote>
+
+[190] remaining=21 | known_exact=0 | best_pattern_support=728 | reasons=prefix_len_3 (21)
+template=SRC_LEN_3 | W56 | W34 | W56 | SPLIT | W34
+  <blockquote>агылес орок острый серп.</blockquote>
+  <blockquote>кылыч бияз дикий лук.</blockquote>
+  <blockquote>өздүк дело личное дело;</blockquote>
+  <blockquote>кайран жан милая душа;</blockquote>
+  <blockquote>залалы жок вреда нет;</blockquote>
+  <blockquote>күүгүм түн начало ночи;</blockquote>
+
+[191] remaining=21 | known_exact=0 | best_pattern_support=604 | reasons=prefix_len_3 (21)
+template=SRC_LEN_3 | W56 | W34 | W9P | SPLIT | W34
+  <blockquote>адабий тил литературный язык.</blockquote>
+  <blockquote>достук азил дружеский шарж.</blockquote>
+  <blockquote>басыр айыл захудалый аул.</blockquote>
+  <blockquote>казык бооч растяжной узел;</blockquote>
+  <blockquote>жолбун мал приблудный скот;</blockquote>
+  <blockquote>толук жыл високосный год;</blockquote>
+
+[192] remaining=21 | known_exact=0 | best_pattern_support=460 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W9P | W34
+  <blockquote>адабий тил литературный язык.</blockquote>
+  <blockquote>достук азил дружеский шарж.</blockquote>
+  <blockquote>басыр айыл захудалый аул.</blockquote>
+  <blockquote>казык бооч растяжной узел;</blockquote>
+  <blockquote>жолбун мал приблудный скот;</blockquote>
+  <blockquote>толук жыл високосный год;</blockquote>
+
+[193] remaining=21 | known_exact=0 | best_pattern_support=444 | reasons=prefix_len_1 (21)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W56
+  <blockquote>баарыдан мурда прежде всего.</blockquote>
+  <blockquote>байланыш бөлүмү отдел связи;</blockquote>
+  <blockquote>балкыган шибер пышная трава;</blockquote>
+  <blockquote>биримдик билет единый билет;</blockquote>
+  <blockquote>бириндек сакал редкая борода.</blockquote>
+  <blockquote>жогорку мектеп высшая школа;</blockquote>
+
+[194] remaining=20 | known_exact=2 | best_pattern_support=747 | reasons=prefix_len_2 (20)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W56 | W56
+  <blockquote>арпа баш колос ячменя;</blockquote>
+  <blockquote>жел баш пустой колос;</blockquote>
+  <blockquote>кара чаар жылан гадюка;</blockquote>
+  <blockquote>ичи кең добрый, щедрый;</blockquote>
+  <blockquote>күн ачык погода ясная;</blockquote>
+  <blockquote>кур бука жирный бугай;</blockquote>
+
+[195] remaining=20 | known_exact=1 | best_pattern_support=834 | reasons=prefix_len_2 (20)
+template=SRC_LEN_2 | W78 | W34 | SPLIT | W9P | W34
+  <blockquote>айрылгыс дос неразлучный друг.</blockquote>
+  <blockquote>араанын бети полотнище пилы;</blockquote>
+  <blockquote>демейки түр затрапезный вид.</blockquote>
+  <blockquote>жеткилең ичик прекрасная шуба;</blockquote>
+  <blockquote>Жогорку Сот Верховный Суд;</blockquote>
+  <blockquote>кызылча жому свекловичный жом.</blockquote>
+
+[196] remaining=20 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W56 | W34 | W34 | TGT_LONG
+  <blockquote>оюнчу деп, ошону айт! вот так игрок!;</blockquote>
+  <blockquote>жүгүн атка артты груз свой он навьючил на лошадь;</blockquote>
+  <blockquote>барар жер, басар тоо жок (или калбады) податься некуда;</blockquote>
+  <blockquote>чайды баш ылдый сун чай подавай по нисходящей линии (начиная с более почётного гостя);</blockquote>
+  <blockquote>кылар ишти кылып коюп, кыл жип менен бууп коюп всё было сделано шито-крыто (букв. сделав дело, которое намерен был сделать и волосяной верёвкой завязав);</blockquote>
+  <blockquote>эшикте үрүп чыккан ити жок никакой животины нет у него (букв. во дворе у него нет лающей собаки);</blockquote>
+
+[197] remaining=20 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W78 | W34 | W56 | TGT_LONG
+  <blockquote>бараң эмес, милтелүү кара мылтык не пистонное, а простое фитильное ружьё;</blockquote>
+  <blockquote>элдин аягы басылбай, бири кирип, бири чыгып один входит, другой выходит (всё время кто-то есть);</blockquote>
+  <blockquote>көчөүн тиги башынан бул башына с одного конца улицы до другого;</blockquote>
+  <blockquote>сенин ооз кесириң ала кетти ты накликал несчастьс своим бахвальством;</blockquote>
+  <blockquote>алдын кор, аркасын жар тороп турган спереди его подстерегала горячая зола, сзади - обрыв; он был как между молотом и наковальней.</blockquote>
+  <blockquote>куйкум иңир вечерняя заря (время, когда день догорает);</blockquote>
+
+[198] remaining=20 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W78 | W78 | TGT_LONG
+  <blockquote>барып турган душман заклятый, злейший враг;</blockquote>
+  <blockquote>энеси, кичине кызды бөжөйтүп, койнуна алып жатып, уктап кеткен мать, взяв себе на грудь свернувшуюся в комочек маленькую девочку, уснула.</blockquote>
+  <blockquote>самоор дымып калды самовар перестал шуметь;</blockquote>
+  <blockquote>малдын жайыты болбой баратат пастбищ для скота не хватает; с пастбищами для скота туго;</blockquote>
+  <blockquote>журтту бузган жуйкур интриган, который вносит разлад в народ.</blockquote>
+  <blockquote>күлүк таптап чапкан заяпкер берейтор, скачущий на скакуне, тренируя его.</blockquote>
+
+[199] remaining=20 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W34 | W34 | TGT_LONG
+  <blockquote>аракты атасы өлгөндөй ичип алып, оозуна келгенди айтып напившись вдрызг и болтая всякий вздор;</blockquote>
+  <blockquote>тапсаң - аткез, таппасаң - бир тай найдёшь - освободишься, не найдёшь (с тебя) жеребёнок (так говорят, задавая загадку).</blockquote>
+  <blockquote>аксак кемпир бапалак сев. один из видов штрафа в детской игре каркыра чертмей, когда штрафуемый изображает старуху, потерявшую ребёнка.</blockquote>
+  <blockquote>сөзүм көркөм чыкпаса, мага капа болбоңуздар - деп, жупунуланып кечирим сурады он, скромничая, просил извинения, если, мол, речь моя не будет красивой, не обижайтесь;</blockquote>
+  <blockquote>искене менен, бургана жок үчүн, тешебиз отверстие делаем буравом из-за отсутствия долота.</blockquote>
+  <blockquote>киндик каным төгүлгөн жер моя родная земля (букв. место, где пролилась кровь моей пуповины);</blockquote>
+
+[200] remaining=20 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W56 | SPLIT | W9P | W56 | W56 | W56 | TGT_LONG
+  <blockquote>жорго, алабармандап, жакшы салбай койду иноходец бежал неровно, срывая.</blockquote>
+  <blockquote>көлдүн айланасына өскөн камыш, балгын, жекендер растущий вокруг озера камыш, балгын, куга;</blockquote>
+  <blockquote>таштын жаракасында жаткан кызыл түлкү булак дей түштү вдруг мелькнула лежавшая в расщелине скалы (пушистая) лиса.</blockquote>
+  <blockquote>машина бөлүктөрү части машины, детали машины;</blockquote>
+  <blockquote>менин ишенчилигим сизге качан кетти эле? с каких пор вы перестали мне доверять?</blockquote>
+  <blockquote>аттын чылбырынын учунан кармай албай, мүчүп калдым я не мог схватить конец поводка коня;</blockquote>
+
+[201] remaining=20 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W56 | W56 | W12 | TGT_LONG
+  <blockquote>бет маңдай кезиге түштүк мы столкнулись (сошлись, встретились) лицом к лицу;</blockquote>
+  <blockquote>бети бултук, мурду чолок у него лицо толстое, нос коротенький.</blockquote>
+  <blockquote>ичим бурап ооруп турат у меня в желудке крутит и болит;</blockquote>
+  <blockquote>аны менен быгыша албайм я с ним не уживусь.</blockquote>
+  <blockquote>мээм гелава болуп капты у меня голова кругом идёт.</blockquote>
+  <blockquote>икки! белим ооруй түштү! ой, у меня поясница заболела!;</blockquote>
+
+[202] remaining=20 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | RUFUNC | W9P | TGT_LONG
+  <blockquote>алапайын таппай калды он растерялся, он опешил;</blockquote>
+  <blockquote>акылдан артык шашты он невероятно спешил;</blockquote>
+  <blockquote>бурсатка келбей үзүлдү он безвременно скончался.</blockquote>
+  <blockquote>доорону жүрүп турат он властвует, наслаждается властью или благами жизни;</blockquote>
+  <blockquote>ирегеден майды агызды он устраивал у себя постоянные обильные угощения.</blockquote>
+  <blockquote>кайышып болбой калды он заупрямился, и с ним ничего нельзя поделать.</blockquote>
+
+[203] remaining=20 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W34 | RUFUNC | TGT_LONG
+  <blockquote>кишинин баары бирдей эмес не все люди одинаковы;</blockquote>
+  <blockquote>убагында доорон сүрүп алды он в своё время повластвовал, насладился властью;</blockquote>
+  <blockquote>жашарын жашап, ичерин ичти он своё от жизни взял, он достаточно пожил (букв. что положено пожать - пожил, что положено съесть - съел);</blockquote>
+  <blockquote>эгиндин калыбы жакшы виды на урожай хорошие;</blockquote>
+  <blockquote>курсагым ооруп турат мне (его, тебя и т.д.) жалко, болею душой;</blockquote>
+  <blockquote>куюшканы жалаң кабат эмес он не бедный; он не бедняк;</blockquote>
+
+[204] remaining=20 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W78 | SPLIT | W78 | W56 | RUFUNC | W56 | TGT_LONG
+  <blockquote>камакка алынган взятый под стражу, арестованный;</blockquote>
+  <blockquote>аттансал! аттансал! держи его! держи! (крик при преследовании воров, грабителей).</blockquote>
+  <blockquote>аярдабай аттанып кетти не медля, он сел на коня и уехал;</blockquote>
+  <blockquote>түрмөдө жатканда когда он сидел в тюрьме;</blockquote>
+  <blockquote>карааны көрүнбөй кетти он исчез бесследно;</blockquote>
+  <blockquote>аркасын кашынып отурат он сидит, почёсывая себе спину.</blockquote>
+
+[205] remaining=20 | known_exact=0 | best_pattern_support=753 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W9P | SPLIT | W34 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>айландыра эки жакты карап туруп оглядываясь вокруг, посматривая то туда, то сюда;</blockquote>
+  <blockquote>сүйлөгөндө алыс айтып койдум окшойт когда я говорил, то, видимо, переборщил;</blockquote>
+  <blockquote>биттейинен бир өскөн, көйнөк чечип көпөлөк куушкан они с детства росли вместе, сняв рубашки, за бабочками гонялись вместе.</blockquote>
+  <blockquote>демеленип бозо ичилүү менен бирге, түрдүү сөздөр күчөдү когда было выпито бузы ещё и ещё, разных разговоров стало ещё больше.</blockquote>
+  <blockquote>жаралганда жок такой, какого среди людей и не встретишь, самый лучший.</blockquote>
+  <blockquote>кошколдоп (кош колдоп) двумя руками, обеими руками;</blockquote>
+
+[206] remaining=20 | known_exact=0 | best_pattern_support=712 | reasons=prefix_len_3 (20)
+template=SRC_LEN_3 | W34 | W34 | W56 | SPLIT | W56
+  <blockquote>арпа баш колос ячменя;</blockquote>
+  <blockquote>жел баш пустой колос;</blockquote>
+  <blockquote>кара чаар жылан гадюка;</blockquote>
+  <blockquote>ичи кең добрый, щедрый;</blockquote>
+  <blockquote>күн ачык погода ясная;</blockquote>
+  <blockquote>кур бука жирный бугай;</blockquote>
+
+[207] remaining=20 | known_exact=0 | best_pattern_support=636 | reasons=prefix_len_3 (20)
+template=SRC_LEN_3 | W78 | W56 | W9P | SPLIT | W56_NN
+  <blockquote>бакыйган жигит здоровенный парень.</blockquote>
+  <blockquote>үздүксүз бөлчөк непрерывная дробь;</blockquote>
+  <blockquote>жондомо макала поверхностная статья.</blockquote>
+  <blockquote>калыбет жигит степенный парень.</blockquote>
+  <blockquote>келишпес күрөш непримиримая борьба.</blockquote>
+  <blockquote>күмүрөй турмуш беспросветная жизнь;</blockquote>
+
+[208] remaining=20 | known_exact=0 | best_pattern_support=553 | reasons=prefix_len_2 (20)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W9P | W56_NN
+  <blockquote>бакыйган жигит здоровенный парень.</blockquote>
+  <blockquote>үздүксүз бөлчөк непрерывная дробь;</blockquote>
+  <blockquote>жондомо макала поверхностная статья.</blockquote>
+  <blockquote>калыбет жигит степенный парень.</blockquote>
+  <blockquote>келишпес күрөш непримиримая борьба.</blockquote>
+  <blockquote>күмүрөй турмуш беспросветная жизнь;</blockquote>
+
+[209] remaining=20 | known_exact=0 | best_pattern_support=551 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W56
+  <blockquote>арпа баш колос ячменя;</blockquote>
+  <blockquote>жел баш пустой колос;</blockquote>
+  <blockquote>кара чаар жылан гадюка;</blockquote>
+  <blockquote>ичи кең добрый, щедрый;</blockquote>
+  <blockquote>күн ачык погода ясная;</blockquote>
+  <blockquote>кур бука жирный бугай;</blockquote>
+
+[210] remaining=20 | known_exact=0 | best_pattern_support=525 | reasons=prefix_len_3 (20)
+template=SRC_LEN_3 | W78 | W34 | W9P | SPLIT | W34
+  <blockquote>айрылгыс дос неразлучный друг.</blockquote>
+  <blockquote>араанын бети полотнище пилы;</blockquote>
+  <blockquote>демейки түр затрапезный вид.</blockquote>
+  <blockquote>жеткилең ичик прекрасная шуба;</blockquote>
+  <blockquote>Жогорку Сот Верховный Суд;</blockquote>
+  <blockquote>кызылча жому свекловичный жом.</blockquote>
+
+[211] remaining=20 | known_exact=0 | best_pattern_support=279 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W9P | W34
+  <blockquote>айрылгыс дос неразлучный друг.</blockquote>
+  <blockquote>араанын бети полотнище пилы;</blockquote>
+  <blockquote>демейки түр затрапезный вид.</blockquote>
+  <blockquote>жеткилең ичик прекрасная шуба;</blockquote>
+  <blockquote>Жогорку Сот Верховный Суд;</blockquote>
+  <blockquote>кызылча жому свекловичный жом.</blockquote>
+
+[212] remaining=20 | known_exact=0 | best_pattern_support=220 | reasons=prefix_len_1 (20)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W9P | W56_NN
+  <blockquote>бакыйган жигит здоровенный парень.</blockquote>
+  <blockquote>үздүксүз бөлчөк непрерывная дробь;</blockquote>
+  <blockquote>жондомо макала поверхностная статья.</blockquote>
+  <blockquote>калыбет жигит степенный парень.</blockquote>
+  <blockquote>келишпес күрөш непримиримая борьба.</blockquote>
+  <blockquote>күмүрөй турмуш беспросветная жизнь;</blockquote>
+
+[213] remaining=19 | known_exact=14 | best_pattern_support=834 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W9P | W34 | SPLIT | W9P | W34
+  <blockquote>академиялык саат академический час.</blockquote>
+  <blockquote>бюджеттик жыл бюджетный год.</blockquote>
+  <blockquote>Мамлекеттик дума Государственная дума.</blockquote>
+  <blockquote>күлжүйгөн бука здоровенный бык.</blockquote>
+  <blockquote>күрпүлдөк кар бугристый снег.</blockquote>
+  <blockquote>кырылышкан жоо непримиримый враг.</blockquote>
+
+[214] remaining=19 | known_exact=1 | best_pattern_support=872 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W9P_NN
+  <blockquote>апта сайын еженедельно;</blockquote>
+  <blockquote>ачык ооздук болтливость;</blockquote>
+  <blockquote>бели боштук слабохарактерность.</blockquote>
+  <blockquote>бул жойгуч расточитель.</blockquote>
+  <blockquote>прям., перен. раскалывать;</blockquote>
+  <blockquote>зона аралык межзональный.</blockquote>
+
+[215] remaining=19 | known_exact=1 | best_pattern_support=553 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W9P | W9P
+  <blockquote>тил алчаак послушный, сговорчивый.</blockquote>
+  <blockquote>беш жылдык пятилетие, пятилетка;</blockquote>
+  <blockquote>жай табар пристроившийся, примазавшийся;</blockquote>
+  <blockquote>алды жайык удачливый, счастливый;</blockquote>
+  <blockquote>атыш жарышы стрелковые соревнования;</blockquote>
+  <blockquote>беш жылдык пятилетие, пятилетка;</blockquote>
+
+[216] remaining=19 | known_exact=1 | best_pattern_support=332 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W78 | W9P | SPLIT | W9P | W9P
+  <blockquote>жемиштүү чыгармачылык плодотворное творчество;</blockquote>
+  <blockquote>жемиштүү кызматташтык плодотворное сотрудничество.</blockquote>
+  <blockquote>жетекчи кызматчылар руководящие работники;</blockquote>
+  <blockquote>жыпжылас сгинувший, пропавший бесследно;</blockquote>
+  <blockquote>иргелген чыгармалар избранные произведения.</blockquote>
+  <blockquote>күнөстүү Түркменстан солнечная Туркмения.</blockquote>
+
+[217] remaining=19 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W56 | SPLIT | W34 | W34 | W56 | W34 | TGT_LONG
+  <blockquote>балтыр сыяр жер место, где можно найти прибежище;</blockquote>
+  <blockquote>чайды баса куй налей чаю полнее;</blockquote>
+  <blockquote>мойну жоон, бели бүкүш шея у него толстая, поясница слегка согнута;</blockquote>
+  <blockquote>уккан адам жаки көргөн адам человек, слышавший или видевший что-л.</blockquote>
+  <blockquote>жарымы жок көз слабый глаз; глаз, от которого толку мало.</blockquote>
+  <blockquote>олжого алып, күң кылып, таап келген болчумун;</blockquote>
+
+[218] remaining=19 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W34 | RUFUNC | TGT_LONG
+  <blockquote>андай болсо если так в таком случае;</blockquote>
+  <blockquote>акылы жетик жан эле он был умным человеком;</blockquote>
+  <blockquote>калың берип, кыз алды он женился на девушке, уплатив калым (т.е. с соблюдением всех обычаев).</blockquote>
+  <blockquote>сенден коркчу мен эмес не на такого напал (букв. я не тот, кто тебя боится).</blockquote>
+  <blockquote>боору такыр кул раб по происхождению (так презрительно называли сына рабыни или младшей жены; ср. төшкө жатар, см. <wordLink word="төш"/>);</blockquote>
+  <blockquote>көрөр күнүң ушул вот это твоя участь (на другую не надейся);</blockquote>
+
+[219] remaining=19 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W56 | W34 | W12 | TGT_LONG
+  <blockquote>таштын үстүнө конуп алып (о птице) сев на камень;</blockquote>
+  <blockquote>сизге бересе болсом если я вам задолжаю;</blockquote>
+  <blockquote>боору эзилип кетти (чаще о женщине) она расчувствовалась;</blockquote>
+  <blockquote>мунун эмине кереги бар? к чему это?</blockquote>
+  <blockquote>сенин эминең кетип атат? а тебе-то что? а тебе-то какая печаль?</blockquote>
+  <blockquote>купуя, кытмыр эсеби бар у него есть скрытый плутовской расчёт;</blockquote>
+
+[220] remaining=19 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W78 | W78 | W34 | TGT_LONG
+  <blockquote>тилин сунуп акактап высунув язык и учащённо дыша;</blockquote>
+  <blockquote>убакыт эртең мененки сегизден аша элек болчу было ещё не более восьми (часов) утра;</blockquote>
+  <blockquote>жакшы көрүп жолдошун жамандык ишке бардырбайт любя мужа (букв. спутника) своего, (жена) не допускает его до плохих дел;</blockquote>
+  <blockquote>бирин (вместо биринин) артынан бири один за другим;</blockquote>
+  <blockquote>жаман жороо баштабай олтурчу! сиди и не каркай! (не предвещай несчастья);</blockquote>
+  <blockquote>жылас болгон Канчоро! Канчоро - чтоб ему неладно было!;</blockquote>
+
+[221] remaining=19 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W56 | W12 | W34 | TGT_LONG
+  <blockquote>жарасы бүлтүйүп турат у него ранка слегка припухла.</blockquote>
+  <blockquote>кулагы делдейип турат у него уши оттопырились;</blockquote>
+  <blockquote>мурду дердейип турат у него ноздри раздуваются;</blockquote>
+  <blockquote>башым зыркырап ооруйт у меня голова трещит, у меня голова разламывается от боли;</blockquote>
+  <blockquote>нанга кеңилген хлеба у него в изобилии.</blockquote>
+  <blockquote>белим кокустап калды у меня что-то в пояснице поламывает;</blockquote>
+
+[222] remaining=19 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W56 | W56 | W56 | TGT_LONG
+  <blockquote>эчен албан доор болгон бывали разные времена;</blockquote>
+  <blockquote>сары майдын жыты келип турат пахнет топлёным коровьим маслом;</blockquote>
+  <blockquote>чака "калдыр" этип, жерге түштү ведро с грохотом упало на землю;</blockquote>
+  <blockquote>тири карак, кичи пейил, алпек келин жизнерадостная, учтивая, приветливая молодуха;</blockquote>
+  <blockquote>кара дөбөт үстү түшкөн көрдүн оозуна барып комдонду чёрный кобель лежал у провалившейся могилы;</blockquote>
+  <blockquote>аягы менен тик туруп, кызмат кылды он очень радушно принимал (напр. гостей).</blockquote>
+
+[223] remaining=19 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W34 | W78 | W56 | TGT_LONG
+  <blockquote>уйга далп этип секирип минип алды он подпрыгнул и грузно сел верхом на корову.</blockquote>
+  <blockquote>жан адам жок кашында возле него нет ни души;</blockquote>
+  <blockquote>бир жолу муну сүйлөгүс кылдым я его раз и навсегда заставил замолчать;</blockquote>
+  <blockquote>"ихи" дей коюп, кыйлага карап турду "ну-ну" сказал он и долго-долго смотрел;</blockquote>
+  <blockquote>бир күнү бул дүйнөдөн кайым болосуң да! в один из дней ты же исчезнешь из этого мира!;</blockquote>
+  <blockquote>бир кур айыл адамдары группа жителей аула;</blockquote>
+
+[224] remaining=19 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W34 | W78 | TGT_LONG
+  <blockquote>олоң арпа, жырым арпа названия сортов ячменя;</blockquote>
+  <blockquote>бул коюм быйыл эрте бувазыды эта моя овца в этом году рано стала суягной.</blockquote>
+  <blockquote>быжы, быян, быямын, мен быжынын кенимин, алабата күлүмүн, ажыдаардын өзүмүн заговор я - быжы, быян, быя, я - клад быжы, я - зола лебеды, я - сам дракон.</blockquote>
+  <blockquote>даам ооз тийип кет отведай пищи, закуси немного;</blockquote>
+  <blockquote>сен, деги, качан даяр болосуң! когда же ты (наконец) будешь готов!;</blockquote>
+  <blockquote>биз дагы сиздин бир ишиңизге жарап каларбыз мы тоже можем когда-нибудь вам пригодиться;</blockquote>
+
+[225] remaining=19 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W34 | W56 | W56 | W12 | TGT_LONG
+  <blockquote>тең ата болуп калдык мы поравнялись (по положению);</blockquote>
+  <blockquote>мен аял башым менен... я вот женщина и то...; даже вот я, женщина,...;</blockquote>
+  <blockquote>бир бээ саамда келем я приду часа через два (промежуток времени между двумя дойками кобылиц);</blockquote>
+  <blockquote>мени даам айдап келди я пришёл сюда потому, что мне как будто суждено было здесь поесть;</blockquote>
+  <blockquote>сага дем байлап келдим я явился в надежде на твою поддержку;</blockquote>
+  <blockquote>мен дүн ичинде келдим я прибыл ночью.</blockquote>
+
+[226] remaining=19 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W34 | W34 | W78 | TGT_LONG
+  <blockquote>кара байыр киши эмес человек как человек (ничего в нём особенного нет).</blockquote>
+  <blockquote>бош жүргөн киши бар дейсиңби? ты думаешь есть люди, которым делать нечего? тоже, нашёл бездельников!;</blockquote>
+  <blockquote>"кол салса, мен аны жаздана жатайын" деди если он посягнёт (на меня), я лягу мёртвой вместе с ним (убив его).</blockquote>
+  <blockquote>жээ эшиги жок, жээ терезеси жок там дом, в котором нет ни окон, ни дверей;</blockquote>
+  <blockquote>мага звонит этип кой позвони мне.</blockquote>
+  <blockquote>жаш кагыла элек кыз молодая, неопытная девушка;</blockquote>
+
+[227] remaining=19 | known_exact=0 | best_pattern_support=1302 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W78 | W56 | W56 | W78 | TGT_LONG
+  <blockquote>терс кайыктап сайган жоолук головной платок, вышитый особым узором.</blockquote>
+  <blockquote>атты жаратып минип алышып, колоктоп бастырып жүрүшкөн (бездельники) вытренировав коней, с развязным видом разъезжали;</blockquote>
+  <blockquote>үнү коңурдоо чыккан келин молодуха с приятным грудным голосом.</blockquote>
+  <blockquote>ара кончулук жерге сапар тартпады он не отъезжал даже на расстояние одного дня пути;</blockquote>
+  <blockquote>төрт кыбыласы түгөл жетим круглый сирота;</blockquote>
+  <blockquote>жер көчүрүп акырып заорав громким голосом.</blockquote>
+
+[228] remaining=19 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W34 | W34 | W56 | TGT_LONG
+  <blockquote>акчаамай эти бар бээ кобыла ниже средней упитанности;</blockquote>
+  <blockquote>Музооке ары ырчы, ары ашкан комузчу эле Музооке был и ырчы (см.) и выдающимся комузчи;</blockquote>
+  <blockquote>келиңиз, аяш ата! деп үйдөгү аял изаат менен тосуп алды женщина, что была в доме, почтительно встретила его словами: "пожалуйте, папаша!";</blockquote>
+  <blockquote>бешиктен бели чыга элек жатып у него ещё молоко на губах не обсохло; такой молокосос (а туда же!);</blockquote>
+  <blockquote>бешиктен бели чыга элек жатып см. <wordLink word="бел"/>.</blockquote>
+  <blockquote>козунун эти бат эле калжа болуп кетет мясо барашка быстро разваривается;</blockquote>
+
+[229] remaining=19 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>андаалап кар түшүп турат снег падает редкими хлопьями.</blockquote>
+  <blockquote>бейлиңди айт скажи, каковы твои желания;</blockquote>
+  <blockquote>сөзүңүз сөз бойдон калды ваши слова (так и) остались (только) словами;</blockquote>
+  <blockquote>бычакка тие албай турат (ему) хоть в петлю лезь.</blockquote>
+  <blockquote>базарга алып барган малдын бир даары сатылды, бир даары сатылбай калды часть выведенного на базар скота продана, а часть осталась непроданной;</blockquote>
+  <blockquote>сыдырым жел болуп турат дует прохладный ветерок;</blockquote>
+
+[230] remaining=19 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W56 | W78 | RUFUNC | TGT_LONG
+  <blockquote>атымдын бутуна акбаш чыгыптыр на ногах моей лошади появился мокрец.</blockquote>
+  <blockquote>ботодой боздоп ыйлап олтурат он сидит и горько плачет;</blockquote>
+  <blockquote>балдарды өзүнчө бөлүп жиберди он выделил детей; он отделил от себя детей;</blockquote>
+  <blockquote>кадоодой болгон жигит стройный и бодрый парень.</blockquote>
+  <blockquote>колостой болгон балтыр здоровые и ровные икры;</blockquote>
+  <blockquote>күкүктөп жаткан дарыя бурлящая (в полую воду) река;</blockquote>
+
+[231] remaining=19 | known_exact=0 | best_pattern_support=1215 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W78 | W78 | W56 | TGT_LONG
+  <blockquote>жүрөгүм чочуп айрылып, жүдөдүм жаман кайгырып фольк. южн. от испуга сердце моё разрывается, я весь истомился в печали;</blockquote>
+  <blockquote>арадагы акмак человек, который своим глупым вмешательством портит дело;</blockquote>
+  <blockquote>тээтиги тоонун тумшугу бозомтук тартып турат вон вдали сереет выступ горы.</blockquote>
+  <blockquote>алдынкы эрдин бөлтөйтө выпятив нижнюю губу.</blockquote>
+  <blockquote>жадалын салса Семетей, көрбөгөн кордук көрөсүң фольк. если разбушуется (богатырь) Семетей, то испытаешь невиданный позор.</blockquote>
+  <blockquote>кесибине жедеп машыгып, тыныккан ишмер киши человек, полностью постигший своё ремесло, знаток своего дела;</blockquote>
+
+[232] remaining=19 | known_exact=0 | best_pattern_support=976 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W56 | W78 | SPLIT | W56 | W56
+  <blockquote>алкымы ачылган жадный, хапуга;</blockquote>
+  <blockquote>эмгек биржасы биржа труда.</blockquote>
+  <blockquote>борпоң топурак рыхлая земля.</blockquote>
+  <blockquote>дүйнө жактары страны света;</blockquote>
+  <blockquote>жайкы жумуштар летние работы;</blockquote>
+  <blockquote>камыр жетилди тесто дошло.</blockquote>
+
+[233] remaining=19 | known_exact=0 | best_pattern_support=916 | reasons=prefix_len_3 (19)
+template=SRC_LEN_3 | W56 | W78 | W56 | SPLIT | W56
+  <blockquote>алкымы ачылган жадный, хапуга;</blockquote>
+  <blockquote>эмгек биржасы биржа труда.</blockquote>
+  <blockquote>борпоң топурак рыхлая земля.</blockquote>
+  <blockquote>дүйнө жактары страны света;</blockquote>
+  <blockquote>жайкы жумуштар летние работы;</blockquote>
+  <blockquote>камыр жетилди тесто дошло.</blockquote>
+
+[234] remaining=19 | known_exact=0 | best_pattern_support=747 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W78 | W34 | SPLIT | W9P | W56
+  <blockquote>айдалган жер вспаханная земля.</blockquote>
+  <blockquote>амыркен өтүк лакированные сапоги.</blockquote>
+  <blockquote>жайнаган кол многочисленное войско;</blockquote>
+  <blockquote>жыйылган журт собравшийся народ;</blockquote>
+  <blockquote>жыйылган журт собравшийся народ;</blockquote>
+  <blockquote>зардеси бар энергичный, бодрый;</blockquote>
+
+[235] remaining=19 | known_exact=0 | best_pattern_support=685 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W56 | SPLIT | W78 | W56 | W56
+  <blockquote>алкымы ачылган жадный, хапуга;</blockquote>
+  <blockquote>эмгек биржасы биржа труда.</blockquote>
+  <blockquote>борпоң топурак рыхлая земля.</blockquote>
+  <blockquote>дүйнө жактары страны света;</blockquote>
+  <blockquote>жайкы жумуштар летние работы;</blockquote>
+  <blockquote>камыр жетилди тесто дошло.</blockquote>
+
+[236] remaining=19 | known_exact=0 | best_pattern_support=667 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W9P | W78
+  <blockquote>адамзат коому человеческое общество;</blockquote>
+  <blockquote>ашынган митаам отъявленный негодяй;</blockquote>
+  <blockquote>мүнөздүү белги характерный признак;</blockquote>
+  <blockquote>данексиз жүзүм бескосточковый виноград.</blockquote>
+  <blockquote>диеталык тамак диетическое питание.</blockquote>
+  <blockquote>жеңиштүү жүрүш победоносное шествие;</blockquote>
+
+[237] remaining=19 | known_exact=0 | best_pattern_support=565 | reasons=prefix_len_3 (19)
+template=SRC_LEN_3 | W78 | W34 | W9P | SPLIT | W56
+  <blockquote>айдалган жер вспаханная земля.</blockquote>
+  <blockquote>амыркен өтүк лакированные сапоги.</blockquote>
+  <blockquote>жайнаган кол многочисленное войско;</blockquote>
+  <blockquote>жыйылган журт собравшийся народ;</blockquote>
+  <blockquote>жыйылган журт собравшийся народ;</blockquote>
+  <blockquote>зардеси бар энергичный, бодрый;</blockquote>
+
+[238] remaining=19 | known_exact=0 | best_pattern_support=459 | reasons=prefix_len_3 (19)
+template=SRC_LEN_3 | W78 | W56 | W9P | SPLIT | W78
+  <blockquote>адамзат коому человеческое общество;</blockquote>
+  <blockquote>ашынган митаам отъявленный негодяй;</blockquote>
+  <blockquote>мүнөздүү белги характерный признак;</blockquote>
+  <blockquote>данексиз жүзүм бескосточковый виноград.</blockquote>
+  <blockquote>диеталык тамак диетическое питание.</blockquote>
+  <blockquote>жеңиштүү жүрүш победоносное шествие;</blockquote>
+
+[239] remaining=19 | known_exact=0 | best_pattern_support=412 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W78 | SPLIT | W34 | W9P | W56
+  <blockquote>айдалган жер вспаханная земля.</blockquote>
+  <blockquote>амыркен өтүк лакированные сапоги.</blockquote>
+  <blockquote>жайнаган кол многочисленное войско;</blockquote>
+  <blockquote>жыйылган журт собравшийся народ;</blockquote>
+  <blockquote>жыйылган журт собравшийся народ;</blockquote>
+  <blockquote>зардеси бар энергичный, бодрый;</blockquote>
+
+[240] remaining=19 | known_exact=0 | best_pattern_support=391 | reasons=prefix_len_3 (19)
+template=SRC_LEN_3 | W9P | W34 | W9P | SPLIT | W34
+  <blockquote>академиялык саат академический час.</blockquote>
+  <blockquote>бюджеттик жыл бюджетный год.</blockquote>
+  <blockquote>Мамлекеттик дума Государственная дума.</blockquote>
+  <blockquote>күлжүйгөн бука здоровенный бык.</blockquote>
+  <blockquote>күрпүлдөк кар бугристый снег.</blockquote>
+  <blockquote>кырылышкан жоо непримиримый враг.</blockquote>
+
+[241] remaining=19 | known_exact=0 | best_pattern_support=334 | reasons=prefix_len_3 (19)
+template=SRC_LEN_3 | W34 | W56 | W9P | SPLIT | W9P
+  <blockquote>тил алчаак послушный, сговорчивый.</blockquote>
+  <blockquote>беш жылдык пятилетие, пятилетка;</blockquote>
+  <blockquote>жай табар пристроившийся, примазавшийся;</blockquote>
+  <blockquote>алды жайык удачливый, счастливый;</blockquote>
+  <blockquote>атыш жарышы стрелковые соревнования;</blockquote>
+  <blockquote>беш жылдык пятилетие, пятилетка;</blockquote>
+
+[242] remaining=19 | known_exact=0 | best_pattern_support=318 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W78 | SPLIT | W56 | W9P | W78
+  <blockquote>адамзат коому человеческое общество;</blockquote>
+  <blockquote>ашынган митаам отъявленный негодяй;</blockquote>
+  <blockquote>мүнөздүү белги характерный признак;</blockquote>
+  <blockquote>данексиз жүзүм бескосточковый виноград.</blockquote>
+  <blockquote>диеталык тамак диетическое питание.</blockquote>
+  <blockquote>жеңиштүү жүрүш победоносное шествие;</blockquote>
+
+[243] remaining=19 | known_exact=0 | best_pattern_support=255 | reasons=prefix_len_3 (19)
+template=SRC_LEN_3 | W78 | W9P | W9P | SPLIT | W9P
+  <blockquote>жемиштүү чыгармачылык плодотворное творчество;</blockquote>
+  <blockquote>жемиштүү кызматташтык плодотворное сотрудничество.</blockquote>
+  <blockquote>жетекчи кызматчылар руководящие работники;</blockquote>
+  <blockquote>жыпжылас сгинувший, пропавший бесследно;</blockquote>
+  <blockquote>иргелген чыгармалар избранные произведения.</blockquote>
+  <blockquote>күнөстүү Түркменстан солнечная Туркмения.</blockquote>
+
+[244] remaining=19 | known_exact=0 | best_pattern_support=247 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W9P | W9P
+  <blockquote>тил алчаак послушный, сговорчивый.</blockquote>
+  <blockquote>беш жылдык пятилетие, пятилетка;</blockquote>
+  <blockquote>жай табар пристроившийся, примазавшийся;</blockquote>
+  <blockquote>алды жайык удачливый, счастливый;</blockquote>
+  <blockquote>атыш жарышы стрелковые соревнования;</blockquote>
+  <blockquote>беш жылдык пятилетие, пятилетка;</blockquote>
+
+[245] remaining=19 | known_exact=0 | best_pattern_support=176 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W34 | SPLIT | W56 | W9P_NN
+  <blockquote>апта сайын еженедельно;</blockquote>
+  <blockquote>ачык ооздук болтливость;</blockquote>
+  <blockquote>бели боштук слабохарактерность.</blockquote>
+  <blockquote>бул жойгуч расточитель.</blockquote>
+  <blockquote>прям., перен. раскалывать;</blockquote>
+  <blockquote>зона аралык межзональный.</blockquote>
+
+[246] remaining=19 | known_exact=0 | best_pattern_support=128 | reasons=prefix_len_1 (19)
+template=SRC_LEN_1 | W9P | SPLIT | W34 | W9P | W34
+  <blockquote>академиялык саат академический час.</blockquote>
+  <blockquote>бюджеттик жыл бюджетный год.</blockquote>
+  <blockquote>Мамлекеттик дума Государственная дума.</blockquote>
+  <blockquote>күлжүйгөн бука здоровенный бык.</blockquote>
+  <blockquote>күрпүлдөк кар бугристый снег.</blockquote>
+  <blockquote>кырылышкан жоо непримиримый враг.</blockquote>
+
+[247] remaining=18 | known_exact=1 | best_pattern_support=976 | reasons=prefix_len_2 (18)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W56
+  <blockquote>жөө аскер пехота;</blockquote>
+  <blockquote>келе бакан драчун;</blockquote>
+  <blockquote>дан жебес висок;</blockquote>
+  <blockquote>көк жөтөл коклюш.</blockquote>
+  <blockquote>узун канат стриж;</blockquote>
+  <blockquote>айры куйрук коршун;</blockquote>
+
+[248] remaining=18 | known_exact=1 | best_pattern_support=747 | reasons=prefix_len_2 (18)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W78 | W56
+  <blockquote>бою узун высокого роста;</blockquote>
+  <blockquote>бугу дары йодистый калий;</blockquote>
+  <blockquote>долу чал вздорный старик;</blockquote>
+  <blockquote>кара доо затяжная тяжба;</blockquote>
+  <blockquote>жону жука неимущий, бедный;</blockquote>
+  <blockquote>жан кеп душевное слово;</blockquote>
+
+[249] remaining=18 | known_exact=1 | best_pattern_support=513 | reasons=prefix_len_2 (18)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W78
+  <blockquote>таш бака черепаха;</blockquote>
+  <blockquote>кой гөшү баранина.</blockquote>
+  <blockquote>жым дебе! замолчи!;</blockquote>
+  <blockquote>тил кат расписка;</blockquote>
+  <blockquote>керт этип хрустнув;</blockquote>
+  <blockquote>терс кыял грубиян;</blockquote>
+
+[250] remaining=18 | known_exact=0 | best_pattern_support=1698 | reasons=prefix_len_1 (18)
+template=SRC_LEN_1 | W56 | SPLIT | W56 | W34 | W34 | W12 | TGT_LONG
+  <blockquote>сенин азабың мага өттү ты меня измучил;</blockquote>
+  <blockquote>салам айтсам, алик жок я тебя приветствую, а ты не отвечаешь;</blockquote>
+  <blockquote>бокту берем! так вот я и дам! (ишь, что выдумал!);</blockquote>
+  <blockquote>"бүгүн келет" дей көр ты скажи, что сегодня придёт (с оттенком настойчивости);</blockquote>
+  <blockquote>ыйлай турган жайы жок у него нет основания плакать;</blockquote>
+  <blockquote>короо толгон коюм бар у меня есть полный загон овец;</blockquote>

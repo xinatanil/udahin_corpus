@@ -1,0 +1,37 @@
+Input: chatGPT_exp/converted_dict.xml
+Total remaining blockquotes: 37321
+
+Top word counts:
+  words=4: 5052
+  words=6: 3836
+  words=7: 3494
+  words=5: 3455
+  words=8: 3038
+  words=9: 2718
+  words=10: 2360
+  words=11: 1983
+  words=12: 1670
+  words=13: 1467
+  words=3: 1292
+  words=14: 1201
+  words=15: 1030
+  words=16: 854
+  words=17: 717
+  words=18: 546
+  words=19: 469
+  words=20: 376
+  words=21: 320
+  words=22: 239
+
+Top remainder starts across tested split positions:
+  rus_lower: 120678
+  other: 16241
+  paren_or_quote: 2971
+  meta: 477
+  sm: 158
+  paren_sm: 94
+  tozhe: 55
+  linkkw: 32
+  digit: 21
+  origin: 17
+  paren_sr: 7

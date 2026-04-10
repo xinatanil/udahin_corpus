@@ -1,0 +1,889 @@
+Relaxed exact-template matches
+
+[1] remaining=45 | known_exact=4 | best_pattern_support=553 | reasons=prefix_len_2 (45)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W9P
+  <blockquote>алак көздүү пучеглазый;</blockquote>
+  <blockquote>тил алгыч послушный;</blockquote>
+  <blockquote>прям., перен. пониженный;</blockquote>
+  <blockquote>бел салды неудачник;</blockquote>
+  <blockquote>кош беттүү двуличный;</blockquote>
+  <blockquote>боз келин смуглянка;</blockquote>
+
+[2] remaining=36 | known_exact=6 | best_pattern_support=976 | reasons=prefix_len_2 (36)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W78 | W56
+  <blockquote>акчалай сыйлык денежная премия;</blockquote>
+  <blockquote>атомдук согуш атомная война.</blockquote>
+  <blockquote>согуштук атташе военный атташе.</blockquote>
+  <blockquote>боордош элдер братские народы.</blockquote>
+  <blockquote>бужугур сакал кудрявая борода;</blockquote>
+  <blockquote>чечүүчү добуш решающий голос;</blockquote>
+
+[3] remaining=35 | known_exact=28 | best_pattern_support=976 | reasons=prefix_len_2 (35)
+template=SRC_LEN_2 | W9P | W56 | SPLIT | W9P | W56
+  <blockquote>адилеттүү түрдө справедливо; честно.</blockquote>
+  <blockquote>адилеттүүлүк менен справедливо; честно.</blockquote>
+  <blockquote>аккорддук жумуш аккордная работа.</blockquote>
+  <blockquote>антагонисттик таптар антагонистические классы.</blockquote>
+  <blockquote>арсакталган зоолор островерхие скалы.</blockquote>
+  <blockquote>гастрономиялык бөлүм гастрономический отдел.</blockquote>
+
+[4] remaining=32 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (32)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W56 | W56
+  <blockquote>аптап болуп турат жарко.</blockquote>
+  <blockquote>мындан башка кроме этого;</blockquote>
+  <blockquote>дүйүм тамак разные яства;</blockquote>
+  <blockquote>жайдык кийим летняя одежда.</blockquote>
+  <blockquote>малдан жарды бедный скотом;</blockquote>
+  <blockquote>жаянча жутуп жадно глотая.</blockquote>
+
+[5] remaining=29 | known_exact=9 | best_pattern_support=976 | reasons=prefix_len_2 (29)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W9P | W56
+  <blockquote>бузулгус достук нерушимая дружба.</blockquote>
+  <blockquote>бөтөлкө челек стеклянная банка;</blockquote>
+  <blockquote>дүмөктүү кабар тревожные вести.</blockquote>
+  <blockquote>жалганма тилдер агглютинативные языки.</blockquote>
+  <blockquote>жаңылыш теория ошибочная теория;</blockquote>
+  <blockquote>жароосуз товар бракованный товар;</blockquote>
+
+[6] remaining=28 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (28)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W78 | W34
+  <blockquote>темир айры железные вилы;</blockquote>
+  <blockquote>иштин агы правота дела;</blockquote>
+  <blockquote>алтын саат золотые часы;</blockquote>
+  <blockquote>асаба тоо огромная гора.</blockquote>
+  <blockquote>тоонун башы вершина горы;</blockquote>
+  <blockquote>бийик тоо высокая гора;</blockquote>
+
+[7] remaining=27 | known_exact=5 | best_pattern_support=976 | reasons=prefix_len_2 (27)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W9P | W56
+  <blockquote>алгыр тайган поимистая борзая.</blockquote>
+  <blockquote>кыраң каткы гомерический хохот;</blockquote>
+  <blockquote>чарчы кашаа квадратные скобки;</blockquote>
+  <blockquote>калай кашык алюминиевая ложка;</blockquote>
+  <blockquote>кереге сакал окладистая борода;</blockquote>
+  <blockquote>киреше налогу подоходный налог;</blockquote>
+
+[8] remaining=25 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (25)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W56 | W56
+  <blockquote>алды менен прежде всего;</blockquote>
+  <blockquote>долу толкун бурные волны.</blockquote>
+  <blockquote>мең дубана белена, дурман.</blockquote>
+  <blockquote>жан алгыч ангел смерти;</blockquote>
+  <blockquote>жука кагаз тонкая бумага;</blockquote>
+  <blockquote>кан ичмей жажда крови;</blockquote>
+
+[9] remaining=23 | known_exact=7 | best_pattern_support=0 | reasons=prefix_len_1 (23)
+template=SRC_LEN_1 | W9P | SPLIT | W9P
+  <blockquote>алысындай щетинистый;</blockquote>
+  <blockquote>жазылгандар подписчики;</blockquote>
+  <blockquote>жалгандан притворно;</blockquote>
+  <blockquote>жетишердик достаточный;</blockquote>
+  <blockquote>жолжойгон мордастый.</blockquote>
+  <blockquote>жылмаңдаган вкрадчивый.</blockquote>
+
+[10] remaining=22 | known_exact=9 | best_pattern_support=300 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W9P | W9P | SPLIT | W9P | W9P
+  <blockquote>астрономиялык байкоолор астрономические наблюдения.</blockquote>
+  <blockquote>жаратылыш байлыктары природные богатства.</blockquote>
+  <blockquote>идеологиялык бурмалоолор идеологические извращения.</blockquote>
+  <blockquote>өндүрүштүк гимнастика производственная гимнастика.</blockquote>
+  <blockquote>мамлекеттик департамент государственный департамент.</blockquote>
+  <blockquote>пролетариат диктатурасы диктатура пролетариата.</blockquote>
+
+[11] remaining=22 | known_exact=2 | best_pattern_support=667 | reasons=prefix_len_2 (22)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W78 | W78
+  <blockquote>бакма айбан домашнее животное;</blockquote>
+  <blockquote>кеңеш бергич советник, советчик.</blockquote>
+  <blockquote>кызга жакыя девичий угодник;</blockquote>
+  <blockquote>жарма тааныш шапочный знакомый;</blockquote>
+  <blockquote>жороп тикен липучка (растение).</blockquote>
+  <blockquote>кемпир муштум название растения;</blockquote>
+
+[12] remaining=20 | known_exact=2 | best_pattern_support=747 | reasons=prefix_len_2 (20)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W56 | W56
+  <blockquote>арпа баш колос ячменя;</blockquote>
+  <blockquote>жел баш пустой колос;</blockquote>
+  <blockquote>кара чаар жылан гадюка;</blockquote>
+  <blockquote>ичи кең добрый, щедрый;</blockquote>
+  <blockquote>күн ачык погода ясная;</blockquote>
+  <blockquote>кур бука жирный бугай;</blockquote>
+
+[13] remaining=19 | known_exact=14 | best_pattern_support=834 | reasons=prefix_len_2 (19)
+template=SRC_LEN_2 | W9P | W34 | SPLIT | W9P | W34
+  <blockquote>академиялык саат академический час.</blockquote>
+  <blockquote>бюджеттик жыл бюджетный год.</blockquote>
+  <blockquote>Мамлекеттик дума Государственная дума.</blockquote>
+  <blockquote>күлжүйгөн бука здоровенный бык.</blockquote>
+  <blockquote>күрпүлдөк кар бугристый снег.</blockquote>
+  <blockquote>кырылышкан жоо непримиримый враг.</blockquote>
+
+[14] remaining=17 | known_exact=5 | best_pattern_support=458 | reasons=prefix_len_2 (17)
+template=SRC_LEN_2 | W9P | W78 | SPLIT | W9P | W56
+  <blockquote>автогендик ширетүү автогенная сварка.</blockquote>
+  <blockquote>бөйрөктөн сезгенүү воспаление почек;</blockquote>
+  <blockquote>кереметтүү жомоктор волшебные сказки.</blockquote>
+  <blockquote>бухгалтер кинегеси бухгалтерская книга;</blockquote>
+  <blockquote>мамлекеттик түзүлүш государственный строй.</blockquote>
+  <blockquote>мелиоративдик жумуштар мелиоративные работы.</blockquote>
+
+[15] remaining=17 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (17)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W78 | W34
+  <blockquote>тоют базасы кормовая база;</blockquote>
+  <blockquote>кара булут грозовая туча;</blockquote>
+  <blockquote>таш доору каменный век;</blockquote>
+  <blockquote>жазы маңдай высокий лоб;</blockquote>
+  <blockquote>дүң жыйым валовой сбор;</blockquote>
+  <blockquote>баш кийим головной убор.</blockquote>
+
+[16] remaining=15 | known_exact=6 | best_pattern_support=398 | reasons=prefix_len_2 (15)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | W9P | W78
+  <blockquote>алаткак название демонического существа;</blockquote>
+  <blockquote>желкенин чуңкуру затылочная впадина;</blockquote>
+  <blockquote>кагыйдай кургаган совершенно высохло.</blockquote>
+  <blockquote>кезектүү жыйналыш очередное собрание;</blockquote>
+  <blockquote>колбаса азыктары колбасные изделия.</blockquote>
+  <blockquote>көрсөтмө куралдар наглядные пособия;</blockquote>
+
+[17] remaining=15 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (15)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W9P | W34
+  <blockquote>кара айдоо свежевспаханное поле;</blockquote>
+  <blockquote>коло доору бронзовый век;</blockquote>
+  <blockquote>жан жолдош задушевный друг;</blockquote>
+  <blockquote>жаш кайыш сыромятная кожа;</blockquote>
+  <blockquote>күн какты солнечный удар;</blockquote>
+  <blockquote>коло доору бронзовый век.</blockquote>
+
+[18] remaining=15 | known_exact=2 | best_pattern_support=398 | reasons=prefix_len_2 (15)
+template=SRC_LEN_2 | W78 | W9P | SPLIT | W78 | W78
+  <blockquote>жетилүү аттестаты аттестат зрелости.</blockquote>
+  <blockquote>шилекейн балжыраган слюнтяй, размазня;</blockquote>
+  <blockquote>идеялык бытырандылык идейный разброд.</blockquote>
+  <blockquote>жетилүү аттестаты аттестат зрелости.</blockquote>
+  <blockquote>согуштук кораблдер военные корабли;</blockquote>
+  <blockquote>бөлмөнүн кубатурасы кубатура комнаты.</blockquote>
+
+[19] remaining=14 | known_exact=21 | best_pattern_support=398 | reasons=prefix_len_2 (14)
+template=SRC_LEN_2 | W9P | W78 | SPLIT | W9P | W78
+  <blockquote>агротехникалык эрежелер агротехнические правила.</blockquote>
+  <blockquote>аныккандан каныккан неисправимый, завзятый;</blockquote>
+  <blockquote>карылыктын запкысы трудности старости.</blockquote>
+  <blockquote>кежигенин чуңкуру затылочная впадина;</blockquote>
+  <blockquote>кондитердик азыктар кондитерские изделия;</blockquote>
+  <blockquote>метеорология шарттары метеорологические условия.</blockquote>
+
+[20] remaining=14 | known_exact=2 | best_pattern_support=784 | reasons=prefix_len_2 (14)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W9P_NN
+  <blockquote>чоң баш большеголовый;</blockquote>
+  <blockquote>көк боор селезёнка;</blockquote>
+  <blockquote>беш бурч пятиугольник;</blockquote>
+  <blockquote>кан ичер кровопийца;</blockquote>
+  <blockquote>куш кат каллиграфия;</blockquote>
+  <blockquote>култ этип моментально;</blockquote>
+
+[21] remaining=13 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (13)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W9P | W34
+  <blockquote>аңчылык турмуш охотничий быт;</blockquote>
+  <blockquote>бакытсыз күндөр безрадостные дни.</blockquote>
+  <blockquote>кароосуз балдар безнадзорные дети;</blockquote>
+  <blockquote>күбүлбөс күйүт неизбывное горе.</blockquote>
+  <blockquote>маскара иштер постыдные дела.</blockquote>
+  <blockquote>опаасыз душман вероломный враг;</blockquote>
+
+[22] remaining=12 | known_exact=8 | best_pattern_support=976 | reasons=prefix_len_2 (12)
+template=SRC_LEN_2 | W9P | W56 | SPLIT | W9P_NN | W56
+  <blockquote>алагүүнүн зикири воркованье вяхиря.</blockquote>
+  <blockquote>колониялык согуш колониальная война.</blockquote>
+  <blockquote>коомдошулган жылкы обобществлённые лошади.</blockquote>
+  <blockquote>материалдык негиз материальная основа;</blockquote>
+  <blockquote>салыштырма метод сравнительный метод;</blockquote>
+  <blockquote>талоончул согуш грабительская война.</blockquote>
+
+[23] remaining=12 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (12)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W9P_NN | W56
+  <blockquote>уктаган болуп прикинувшись спящим;</blockquote>
+  <blockquote>далилдүү мисал убедительный пример.</blockquote>
+  <blockquote>жазалоо отряды карательный отряд;</blockquote>
+  <blockquote>жасалма билет поддельный билет;</blockquote>
+  <blockquote>дүйнөгө кароо стяжатель; скупой</blockquote>
+  <blockquote>көңүлдүү отряд добровольный отряд;</blockquote>
+
+[24] remaining=11 | known_exact=3 | best_pattern_support=834 | reasons=prefix_len_2 (11)
+template=SRC_LEN_2 | W78 | W34 | SPLIT | W78 | W34
+  <blockquote>ашыктык оту любовный пыл.</blockquote>
+  <blockquote>согуштук база военная база;</blockquote>
+  <blockquote>бойдогу бала утробное дитя;</blockquote>
+  <blockquote>болочок акын будущий акын.</blockquote>
+  <blockquote>жумушчу күч рабочая сила;</blockquote>
+  <blockquote>ортоңку мүчө средний член;</blockquote>
+
+[25] remaining=11 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (11)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W78 | W34
+  <blockquote>ала тоо снеговая гора;</blockquote>
+  <blockquote>кем жыл простой год;</blockquote>
+  <blockquote>жер кене земляной клещ;</blockquote>
+  <blockquote>кир кол грязные руки;</blockquote>
+  <blockquote>кара коюн название игры.</blockquote>
+  <blockquote>жазы кур широкий пояс;</blockquote>
+
+[26] remaining=10 | known_exact=5 | best_pattern_support=0 | reasons=prefix_len_1 (10)
+template=SRC_LEN_1 | W9P | SPLIT | W78
+  <blockquote>жашаңкыраган пожилой.</blockquote>
+  <blockquote>желбегейленип внакидку;</blockquote>
+  <blockquote>каражаттар средства;</blockquote>
+  <blockquote>келберсиген дородный;</blockquote>
+  <blockquote>керисинче наоборот;</blockquote>
+  <blockquote>кирбийген заморыш.</blockquote>
+
+[27] remaining=10 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (10)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W56
+  <blockquote>акын Пушкин поэт Пушкин;</blockquote>
+  <blockquote>бир бүдүр чай чаинка;</blockquote>
+  <blockquote>кире бериш вход (место);</blockquote>
+  <blockquote>мына мындан вот отсюда;</blockquote>
+  <blockquote>эки сотке двое суток.</blockquote>
+  <blockquote>таң эртең рано утром;</blockquote>
+
+[28] remaining=10 | known_exact=2 | best_pattern_support=458 | reasons=prefix_len_2 (10)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | W78 | W56
+  <blockquote>запастык бөлүктөр запасные части;</blockquote>
+  <blockquote>эмгектик демилге трудовой порыв;</blockquote>
+  <blockquote>дүйнөнүн жарашыгы прелести жизни.</blockquote>
+  <blockquote>жыныстык мүчөлөр половые органы.</blockquote>
+  <blockquote>иштиктүү кагаздар деловые бумаги;</blockquote>
+  <blockquote>көкүрөк клеткасы грудная клетка.</blockquote>
+
+[29] remaining=10 | known_exact=2 | best_pattern_support=408 | reasons=prefix_len_2 (10)
+template=SRC_LEN_2 | W34 | W9P | SPLIT | W9P
+  <blockquote>айы жетпегенбала недоносок;</blockquote>
+  <blockquote>бети баржайган толстомордый.</blockquote>
+  <blockquote>тоо жумушчусу горнорабочий;</blockquote>
+  <blockquote>оозу келпийген криворотый;</blockquote>
+  <blockquote>кен башкармасы рудоуправление;</blockquote>
+  <blockquote>башы кылжырайган кривошеий.</blockquote>
+
+[30] remaining=9 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (9)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78
+  <blockquote>жүз грамм сто граммов.</blockquote>
+  <blockquote>кан такта трон, престол;</blockquote>
+  <blockquote>жору куйрук вид беркута;</blockquote>
+  <blockquote>күнү бүгүн вот сегодня;</blockquote>
+  <blockquote>күч кайтты силы оставили;</blockquote>
+  <blockquote>көз көрүнө явно, открыто;</blockquote>
+
+[31] remaining=9 | known_exact=3 | best_pattern_support=553 | reasons=prefix_len_2 (9)
+template=SRC_LEN_2 | W56 | W9P | SPLIT | W9P | W9P
+  <blockquote>ашкан превосходящий; превосходный, выдающийся;</blockquote>
+  <blockquote>мыйзам бузгандык правонарушение, беззаконие.</blockquote>
+  <blockquote>күмүш кооздонмолор серебряные украшения.</blockquote>
+  <blockquote>салат көрсөткүчтөрү качественные показатели;</blockquote>
+  <blockquote>сапат көрсөтмөлөрү качественные показатели.</blockquote>
+  <blockquote>көчмө мастерскаялар передвижные мастерские.</blockquote>
+
+[32] remaining=9 | known_exact=3 | best_pattern_support=0 | reasons=prefix_len_1 (9)
+template=SRC_LEN_1 | W78 | SPLIT | W78
+  <blockquote>абакебай дедушка;</blockquote>
+  <blockquote>бандалар басмачи.</blockquote>
+  <blockquote>бүкшүгөн затхлый.</blockquote>
+  <blockquote>былыктар пакости;</blockquote>
+  <blockquote>жүзүктөй стройный;</blockquote>
+  <blockquote>кадимден издревле;</blockquote>
+
+[33] remaining=8 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (8)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W34 | W56
+  <blockquote>жаштоо бала дитя малое.</blockquote>
+  <blockquote>жалгыз аяк жол тропа;</blockquote>
+  <blockquote>кашка паша вид комара.</blockquote>
+  <blockquote>сыңар өтүк один сапог;</blockquote>
+  <blockquote>билим тили язык науки;</blockquote>
+  <blockquote>тыпын жүн пух (птичий).</blockquote>
+
+[34] remaining=8 | known_exact=3 | best_pattern_support=513 | reasons=prefix_len_2 (8)
+template=SRC_LEN_2 | W34 | W78 | SPLIT | W78 | W78
+  <blockquote>аял оорулары женские болезни;</blockquote>
+  <blockquote>жеке капитал частный капитал;</blockquote>
+  <blockquote>жол каражат путевые расходы;</blockquote>
+  <blockquote>кол сомкеси дамская сумочка.</blockquote>
+  <blockquote>таза организм здоровый организм;</blockquote>
+  <blockquote>кыл тамырчы искусный тамырчы.</blockquote>
+
+[35] remaining=8 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (8)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W78
+  <blockquote>атпай калмак все калмыки;</blockquote>
+  <blockquote>бойдон түшкөн бала выкидыш;</blockquote>
+  <blockquote>жанына батты ему надоело;</blockquote>
+  <blockquote>кетмен куйрук вид беркута;</blockquote>
+  <blockquote>күлдү кыргыз все киргизы.</blockquote>
+  <blockquote>көмбө конок сев. кукуруза.</blockquote>
+
+[36] remaining=8 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (8)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W34
+  <blockquote>бери бас! иди сюда!;</blockquote>
+  <blockquote>бери кел иди сюда;</blockquote>
+  <blockquote>эки ирет два раза;</blockquote>
+  <blockquote>эки күн два дня;</blockquote>
+  <blockquote>тым отур сиди тихо;</blockquote>
+  <blockquote>мен үчүн ради меня;</blockquote>
+
+[37] remaining=7 | known_exact=5 | best_pattern_support=398 | reasons=prefix_len_2 (7)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | W78 | W78
+  <blockquote>духовный тазалык духовная чистота;</blockquote>
+  <blockquote>духовный кулчулук духовное рабство.</blockquote>
+  <blockquote>күйүүчү материал горючий материал;</blockquote>
+  <blockquote>үйөздүк комитет уездный комитет.</blockquote>
+  <blockquote>чечүүчү участок решающий участок.</blockquote>
+  <blockquote>жумушчу шаарчасы рабочий городок.</blockquote>
+
+[38] remaining=7 | known_exact=3 | best_pattern_support=667 | reasons=prefix_len_2 (7)
+template=SRC_LEN_2 | W56 | W9P | SPLIT | W9P | W78
+  <blockquote>көркөм каражаттар художественные средства;</blockquote>
+  <blockquote>коргоо министерствосу министерство обороны;</blockquote>
+  <blockquote>колхоз правлениеси правление колхоза.</blockquote>
+  <blockquote>чөнтөк төмпөйтүү набивание кармана.</blockquote>
+  <blockquote>үстөмө расходдор накладные расходы.</blockquote>
+  <blockquote>үйдүн чалдыбары развалины строения;</blockquote>
+
+[39] remaining=7 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (7)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W56
+  <blockquote>аттын басыгы ход лошади;</blockquote>
+  <blockquote>биздин китеп наша книга.</blockquote>
+  <blockquote>элдин каабы гнев народа;</blockquote>
+  <blockquote>ырдын ритми ритм стиха.</blockquote>
+  <blockquote>балык кулак таш огниво;</blockquote>
+  <blockquote>пакта терими сбор хлопка;</blockquote>
+
+[40] remaining=7 | known_exact=2 | best_pattern_support=300 | reasons=prefix_len_2 (7)
+template=SRC_LEN_2 | W9P_NN | W9P | SPLIT | W9P_NN | W9P
+  <blockquote>социалдык камсыздоо социальное обеспечение.</blockquote>
+  <blockquote>медициналык корутунду медицинское заключение.</blockquote>
+  <blockquote>муниципалдык мекемелер муниципальные учреждения.</blockquote>
+  <blockquote>феодалдык калдыктар феодальные пережитки.</blockquote>
+  <blockquote>профессионалдык чеберчилик профессиональное мастерство.</blockquote>
+  <blockquote>экспедициялык жабдыктар экспедиционное оборудование.</blockquote>
+
+[41] remaining=6 | known_exact=7 | best_pattern_support=398 | reasons=prefix_len_2 (6)
+template=SRC_LEN_2 | W78 | W9P | SPLIT | W78 | W9P
+  <blockquote>азоттук семирткичтер азотные удобрения.</blockquote>
+  <blockquote>согуштук группировка военная группировка.</blockquote>
+  <blockquote>кажыбас коммунист стойкий коммунист;</blockquote>
+  <blockquote>согуштук кылмышкерлер военные преступники.</blockquote>
+  <blockquote>кыскача билдирүүлөр краткие сообщения.</blockquote>
+  <blockquote>жогорку көрсөтүштөр высокие показатели.</blockquote>
+
+[42] remaining=6 | known_exact=3 | best_pattern_support=0 | reasons=prefix_len_1 (6)
+template=SRC_LEN_1 | W78 | SPLIT | W56
+  <blockquote>...атындагы имени...;</blockquote>
+  <blockquote>жазында весной;</blockquote>
+  <blockquote>жымырып тайком;</blockquote>
+  <blockquote>кышында зимой;</blockquote>
+  <blockquote>нечендер многие;</blockquote>
+  <blockquote>сердымак жадный.</blockquote>
+
+[43] remaining=6 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (6)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W56 | W56
+  <blockquote>бир бурда нан кусок хлеба.</blockquote>
+  <blockquote>бир ийрим жип клубок ниток;</blockquote>
+  <blockquote>бир кесим нан кусок хлеба;</blockquote>
+  <blockquote>бир стопка арак стопка водки.</blockquote>
+  <blockquote>тири карак жооп бойкий ответ;</blockquote>
+  <blockquote>бир тутам чөп клочок травы;</blockquote>
+
+[44] remaining=6 | known_exact=2 | best_pattern_support=398 | reasons=prefix_len_2 (6)
+template=SRC_LEN_2 | W9P | W78 | SPLIT | W78 | W78
+  <blockquote>жумушчулар кыймылы рабочее движение.</blockquote>
+  <blockquote>жакшылыктын жышааны хороший признак.</blockquote>
+  <blockquote>кечиресиз! извините!, простите!, виноват!;</blockquote>
+  <blockquote>поезддердин куланышы крушение поездов.</blockquote>
+  <blockquote>жумушчулар кыймылы рабочее движение;</blockquote>
+  <blockquote>мөлтүрөгөн келинчек красивая молодуха;</blockquote>
+
+[45] remaining=5 | known_exact=5 | best_pattern_support=874 | reasons=prefix_len_2 (5)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W9P_NN
+  <blockquote>зат атооч имя существительное;</blockquote>
+  <blockquote>сын атооч имя прилагательное;</blockquote>
+  <blockquote>сан атооч имя числительное;</blockquote>
+  <blockquote>ала дөңгүл мас пьяненький.</blockquote>
+  <blockquote>гүл сабагы бот. цветоножка;</blockquote>
+
+[46] remaining=5 | known_exact=5 | best_pattern_support=874 | reasons=prefix_len_2 (5)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W34 | W78
+  <blockquote>анткор сөз хула, клевета;</blockquote>
+  <blockquote>чечек атты оспа высыпала;</blockquote>
+  <blockquote>каамыт аяк ноги колесом.</blockquote>
+  <blockquote>төртөө тең все четверо;</blockquote>
+  <blockquote>(точнее жер төлө) землянка;</blockquote>
+
+[47] remaining=5 | known_exact=4 | best_pattern_support=513 | reasons=prefix_len_2 (5)
+template=SRC_LEN_2 | W34 | W9P | SPLIT | W78 | W78
+  <blockquote>аюу балтыркан борщевик (растение);</blockquote>
+  <blockquote>чоң муштумдук насилие, расправа.</blockquote>
+  <blockquote>акча системасы денежная система;</blockquote>
+  <blockquote>саат стрелкасы часовая стрелка.</blockquote>
+  <blockquote>таң каракчысы утренние сумерки;</blockquote>
+
+[48] remaining=5 | known_exact=1 | best_pattern_support=474 | reasons=prefix_len_3 (5)
+template=SRC_LEN_3 | W34 | W56 | W56 | SPLIT | SM | WORDLINK
+  <blockquote>кара жиндүү бакшы см. <wordLink word="бакшы"/>.</blockquote>
+  <blockquote>кара кашка кедей см. <wordLink word="кедей" homonym="I" meaning="1"/>.</blockquote>
+  <blockquote>кара кулак жамбы см. <wordLink word="жамбы"/>;</blockquote>
+  <blockquote>коо бузган күлүк см. <wordLink word="коо"/>.</blockquote>
+  <blockquote>чаба жааган жамгыр см. <wordLink word="жамгыр"/>.</blockquote>
+
+[49] remaining=4 | known_exact=17 | best_pattern_support=976 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W9P_NN | W56 | SPLIT | W9P_NN | W56
+  <blockquote>географиялык чөйрө географическая среда;</blockquote>
+  <blockquote>провокациялык суроо провокационный вопрос.</blockquote>
+  <blockquote>фотографиялык сүрөт фотографический снимок.</blockquote>
+  <blockquote>географиялык чөйрө географическая среда;</blockquote>
+
+[50] remaining=4 | known_exact=4 | best_pattern_support=976 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W9P | W56
+  <blockquote>казысы кучак бай толстопузый богач;</blockquote>
+  <blockquote>кирес жүрүшү ист. крестовый поход;</blockquote>
+  <blockquote>аздык кылат мало, недостаточно будет;</blockquote>
+  <blockquote>мукур кулак бээ короткоухая кобыла;</blockquote>
+
+[51] remaining=4 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W56 | W56 | W78
+  <blockquote>дубал кулап калды стена рухнула;</blockquote>
+  <blockquote>катын күндүү бабник; бабий угодник;</blockquote>
+  <blockquote>кыйык аткан мерген меткий стрелок;</blockquote>
+  <blockquote>кыргын болду много (людей) погибло;</blockquote>
+
+[52] remaining=4 | known_exact=3 | best_pattern_support=834 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W56
+  <blockquote>жөн отур сиди смирно;</blockquote>
+  <blockquote>бел орок коса (орудие);</blockquote>
+  <blockquote>шүк отур! сиди смирно!;</blockquote>
+  <blockquote>шөк отур! сиди смирно!</blockquote>
+
+[53] remaining=4 | known_exact=3 | best_pattern_support=448 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W9P | W78 | SPLIT | W9P_NN | W78
+  <blockquote>борбордук комитет центральный комитет;</blockquote>
+  <blockquote>карылыкка карматып поддавшясь старости;</blockquote>
+  <blockquote>райкомдун катчысы секретарь райкома.</blockquote>
+  <blockquote>салыштырма анатомия сравнительная анатомия.</blockquote>
+
+[54] remaining=4 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W56 | RUFUNC | W78 | TGT_LONG
+  <blockquote>"алдым кулду" деп, сайды он пронзил (копьём), сказав "я победил" (в поединке);</blockquote>
+  <blockquote>жүйөсү менен жеме айтты он упрекал за дело, он упрекал обоснованно (имея основание, причину);</blockquote>
+  <blockquote>камчы менен бир салды он здорово хлестнул плетью;</blockquote>
+  <blockquote>ичинен сызып, тим болду он остался недоволен, но промолчал; он проглотил пилюлю без протеста;</blockquote>
+
+[55] remaining=4 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W78 | W34 | SPLIT | W34 | W9P | W56
+  <blockquote>кезектүү дем алыш очередной отпуск;</blockquote>
+  <blockquote>жекелик сан грам. единственное число.</blockquote>
+  <blockquote>жүрөктүн кабы анат. сердечная сумка;</blockquote>
+  <blockquote>магдыры жок жер неплодородная земля;</blockquote>
+
+[56] remaining=4 | known_exact=2 | best_pattern_support=478 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W12 | W78 | SPLIT | W56 | RUFUNC | W34
+  <blockquote>эч бирөөнө никому из них;</blockquote>
+  <blockquote>ат жалында верхом на коне;</blockquote>
+  <blockquote>үй түйшүгү работы по дому;</blockquote>
+  <blockquote>эч кимиңер никто из вас;</blockquote>
+
+[57] remaining=4 | known_exact=2 | best_pattern_support=408 | reasons=prefix_len_2 (4)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W9P | W9P
+  <blockquote>ары жок бессовестный, бесстыдник;</blockquote>
+  <blockquote>бети жок бессовестный, бесстыдный;</blockquote>
+  <blockquote>өнөр жай промышленное предприятие;</blockquote>
+  <blockquote>адал кан послеродовое кровотечение;</blockquote>
+
+[58] remaining=3 | known_exact=158 | best_pattern_support=757 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | SM | WORDLINK
+  <blockquote>көзү аксын! см. <wordLink word="көз" meaning="1"/>.</blockquote>
+  <blockquote>апей көтөк! см. <wordLink word="көтөк" homonym="I"/>.</blockquote>
+  <blockquote>орто толсун! см. <wordLink word="тол-"/>;</blockquote>
+
+[59] remaining=3 | known_exact=5 | best_pattern_support=976 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W78 | W56
+  <blockquote>Кызыл Армия ист. Красная Армия;</blockquote>
+  <blockquote>кургап калган жер высохшая земля;</blockquote>
+  <blockquote>чолок чопкут тон короткий чопкут;</blockquote>
+
+[60] remaining=3 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78 | W34
+  <blockquote>бир жылдык срок годичный срок.</blockquote>
+  <blockquote>коко тамак чар зобатый грач;</blockquote>
+  <blockquote>бир чымчым туз щепотка соли;</blockquote>
+
+[61] remaining=3 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | TOZHE | WORDLINK
+  <blockquote>жерен тилчек сев. то же, что <wordLink word="жөргөмүш" meaning="2"/>.</blockquote>
+  <blockquote>көтөн короз груб. то же, что <wordLink word="сылаңкороз"/>;</blockquote>
+  <blockquote>зайым помош разг. то же, что <wordLink word="заемпомощь"/>.</blockquote>
+
+[62] remaining=3 | known_exact=3 | best_pattern_support=834 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W56_NN
+  <blockquote>бир сом один рубль;</blockquote>
+  <blockquote>өмүр бою всю жизнь;</blockquote>
+  <blockquote>кээр сөз хула, брань;</blockquote>
+
+[63] remaining=3 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W56 | W78 | W78 | TGT_LONG
+  <blockquote>иреге жакта тизе кагыша жүйүртө басышып отурушат они тесно сидят у порога, опустившись на одно колено (см. <wordLink word="жүйүрт-"/>);</blockquote>
+  <blockquote>"ойдак, ойдак!" деп түндү жаңыртты криками "ату, ату!" он оглашал ночь.</blockquote>
+  <blockquote>көтөн чучук жебе, конуш чалалбай каласың толстую кишку не ешь, а то (при перекочёвке) стоянку не сможешь выбрать (говорили мальчику);</blockquote>
+
+[64] remaining=3 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_3 (3)
+template=SRC_LEN_3 | W56 | W56 | W56 | SPLIT | W56 | W56 | W56 | W34 | TGT_LONG
+  <blockquote>тамак ичилип, желүү менен катар арадан бир катар сөздөр сүйлөнүп өттү во время питья и еды многое говорилось.</blockquote>
+  <blockquote>Эржан экенин билер замат, бычак кенен жара тартып, канын үч ууртап алып, жолдошторуна кошулган как только он узнал, что это Эрджан, распорол его ножом, трижды хлебнул его крови и присоединился к своим спутникам;</blockquote>
+  <blockquote>кыздар данды күрөк менен сузуп алышып, аны асманга ыргытышат девушки, подцепив зерно лопатой, подбрасывают его кверху (веют).</blockquote>
+
+[65] remaining=3 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_3 (3)
+template=SRC_LEN_3 | W78 | W56 | W78 | SPLIT | W34 | W34 | W56 | W56 | TGT_LONG
+  <blockquote>Шаршени көрүп, Өскөнбай селт этти увидев Шарше, Оскенбай вздрогнул;</blockquote>
+  <blockquote>бүгүнкү күндүн узундугу бир нече күнгө татыды сегодняшний день (букв. долгота сегодняшнего дня) стоит (по значению, по трудности и т.п.) нескольких дней;</blockquote>
+  <blockquote>керимсел жүрүп, аштыкты ысы уруп кетти подул горячий ветер и суховей засушил посевы (наливающиеся зерном).</blockquote>
+
+[66] remaining=3 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W9P_IH_NN | W56 | SPLIT | W9P_IH_NN | W56
+  <blockquote>профессионалдык-техникалык мектеп профессионально-техническая школа.</blockquote>
+  <blockquote>профессиялык-техникалык билим профессионально-технические знания.</blockquote>
+  <blockquote>учёт-отчёт иштери учётно-отчётная работа;</blockquote>
+
+[67] remaining=3 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78 | W78
+  <blockquote>кой жеген бөрү коңулда, койчусу</blockquote>
+  <blockquote>саал токтой тур подожди немного;</blockquote>
+  <blockquote>сом баштык туго набитый мешочек;</blockquote>
+
+[68] remaining=3 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W9P | W9P
+  <blockquote>омуроо какты сөз запугивание, застращивание;</blockquote>
+  <blockquote>колдоп жүргөн пир споспешествующий наставник;</blockquote>
+  <blockquote>түлкү шимшир неме ничтожное количество.</blockquote>
+
+[69] remaining=3 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W78 | W56
+  <blockquote>бир үзүм нан кусочек хлеба.</blockquote>
+  <blockquote>сары баш чөп лапчатка (трава);</blockquote>
+  <blockquote>шум кара жер мрачная могила;</blockquote>
+
+[70] remaining=3 | known_exact=2 | best_pattern_support=300 | reasons=prefix_len_2 (3)
+template=SRC_LEN_2 | W9P | W9P | SPLIT | W9P | W56
+  <blockquote>жетишилген ийгиликтер достигнутые успехи.</blockquote>
+  <blockquote>романдагы кейипкерлер персонажи романа;</blockquote>
+  <blockquote>парламенттик шайлоолор парламентские выборы;</blockquote>
+
+[71] remaining=2 | known_exact=82 | best_pattern_support=757 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | SM | WORDLINK
+  <blockquote>ыкылас - калас см. <wordLink word="ыклас"/>.</blockquote>
+  <blockquote>дидары курсун! см. <wordLink word="дидар"/>.</blockquote>
+
+[72] remaining=2 | known_exact=73 | best_pattern_support=757 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | SM | WORDLINK
+  <blockquote>кайдан эле! см. <wordLink word="кайдан"/>.</blockquote>
+  <blockquote>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</blockquote>
+
+[73] remaining=2 | known_exact=7 | best_pattern_support=448 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W9P_NN | W78 | SPLIT | W9P_NN | W78
+  <blockquote>географиялык атамалар географические названия.</blockquote>
+  <blockquote>физиологиялык эритинди физиологический раствор.</blockquote>
+
+[74] remaining=2 | known_exact=6 | best_pattern_support=874 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W9P
+  <blockquote>акыл жеткис уму непостижимый;</blockquote>
+  <blockquote>кош пүтөв южн. пригоршня;</blockquote>
+
+[75] remaining=2 | known_exact=4 | best_pattern_support=300 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W9P_UU | W9P | SPLIT | W9P | W9P
+  <blockquote>уюштуруучулук жөндөмдүүлүгү организаторские способности.</blockquote>
+  <blockquote>жазуучулардын чыгармалары произведения писателей;</blockquote>
+
+[76] remaining=2 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W34 | W9P | W56
+  <blockquote>булгаары зооту разг. кожевенный завод;</blockquote>
+  <blockquote>кишинин дабышы звук человеческого голоса;</blockquote>
+
+[77] remaining=2 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W34 | W9P_NN | W56
+  <blockquote>колсобой боштоо ист. кольцевая почта.</blockquote>
+  <blockquote>курсакта калган кек затаённая злоба;</blockquote>
+
+[78] remaining=2 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W9P
+  <blockquote>кирүү акысыз вход бесплатный;</blockquote>
+  <blockquote>ыгыма келди мне сподручно;</blockquote>
+
+[79] remaining=2 | known_exact=3 | best_pattern_support=366 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W78 | W56_UU | SPLIT | W34 | W9P
+  <blockquote>закүнгө туура эмес незаконно;</blockquote>
+  <blockquote>каканак суусу воды (околоплодные);</blockquote>
+
+[80] remaining=2 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78 | RUFUNC | W56 | TGT_LONG
+  <blockquote>идиш шакшак кир болуптур на посуде кусочками насохла грязь;</blockquote>
+  <blockquote>кеп угушуп, шүк олтурат они, слушая разговор, сидят смирно;</blockquote>
+
+[81] remaining=2 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_4 (2)
+template=SRC_LEN_4 | W34 | W56 | W56 | W34 | SPLIT | W56 | W56 | W34 | W34 | TGT_LONG
+  <blockquote>кың эткен көгөөн, чың эткен чымын жок нет слепня жужжащего, нет мухи бунчащей (т.е. никакого гнуса);</blockquote>
+  <blockquote>кың эткен чиркей, чың эткен чымын жок нет комара пискнувшего, нет мухи прожужжавшей (т.е. нет никакого гнуса).</blockquote>
+
+[82] remaining=2 | known_exact=2 | best_pattern_support=1470 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W78 | RUFUNC | W34 | TGT_LONG
+  <blockquote>мынча акчаны эмне кыласың? для чего тебе столько денег?</blockquote>
+  <blockquote>ошончо акчаны эмне кыласың? для чего тебе столько денег?</blockquote>
+
+[83] remaining=2 | known_exact=2 | best_pattern_support=1470 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W78 | W9P | W78 | TGT_LONG
+  <blockquote>тоорук болгон киши человек, имущество которого конфисковано;</blockquote>
+  <blockquote>береги тайдын жаш баладай туйтуңдап турганын көргүлө вы посмотрите на этого вот жеребёнка, который взбрыкивает, как ребёнок.</blockquote>
+
+[84] remaining=2 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W12 | W56 | SPLIT | W78 | W56
+  <blockquote>ак кызмат честная служба;</blockquote>
+  <blockquote>ит караш бегающий взгляд.</blockquote>
+
+[85] remaining=2 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W56 | RUFUNC | W56
+  <blockquote>кара кокочо слой грязи на посуде;</blockquote>
+  <blockquote>оюма келди мне пришло в голову;</blockquote>
+
+[86] remaining=2 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78 | W56
+  <blockquote>бир чайнам нан кусочек хлеба;</blockquote>
+  <blockquote>ызаң ачынат злит; вызывает досаду;</blockquote>
+
+[87] remaining=2 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | RUFUNC | W56 | W9P
+  <blockquote>кайсы жөндө? в каком отношении?</blockquote>
+  <blockquote>аркасы тийди он оказал поддержку;</blockquote>
+
+[88] remaining=2 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W78 | SPLIT | W34 | W78 | W56
+  <blockquote>жатыш жөндөмө грам. местный падеж;</blockquote>
+  <blockquote>көлдү кылаалап идя берегом озера.</blockquote>
+
+[89] remaining=2 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W56_NN
+  <blockquote>кызыл калтар вид лисицы;</blockquote>
+  <blockquote>күндүн чубагы луч солнца;</blockquote>
+
+[90] remaining=2 | known_exact=2 | best_pattern_support=757 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W9P_IH | W9P_IH | SPLIT | SM | WORDLINK
+  <blockquote>алдым-жуттум, алдым-бердим см. <wordLink word="ал-" homonym="IV"/>.</blockquote>
+  <blockquote>узунду-кыска, узунду-кечке см. <wordLink word="узун"/>.</blockquote>
+
+[91] remaining=2 | known_exact=2 | best_pattern_support=448 | reasons=prefix_len_2 (2)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | W9P_NN | W78
+  <blockquote>чырылдап бакырып пронзительно закричав.</blockquote>
+  <blockquote>куйругун шыйпанып обмахиваясь хвостом;</blockquote>
+
+[92] remaining=2 | known_exact=2 | best_pattern_support=0 | reasons=prefix_len_1 (2)
+template=SRC_LEN_1 | W56 | SPLIT | W34
+  <blockquote>(иногда бейл)</blockquote>
+  <blockquote>жокпу? нет?</blockquote>
+
+[93] remaining=2 | known_exact=1 | best_pattern_support=458 | reasons=prefix_len_3 (2)
+template=SRC_LEN_3 | W78 | W56 | W56_TH | SPLIT | SM | WORDLINK
+  <blockquote>кылычтын мизин жалаш- см. <wordLink word="миз" homonym="I"/>.</blockquote>
+  <blockquote>кылычтын мизин аттат- см. <wordLink word="аттат-"/>.</blockquote>
+
+[94] remaining=1 | known_exact=77 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | SM | WORDLINK
+  <blockquote>тап, көй см. <wordLink word="тапкөй"/>.</blockquote>
+
+[95] remaining=1 | known_exact=27 | best_pattern_support=321 | reasons=prefix_len_1 (1)
+template=SRC_LEN_1 | W9P_IH | SPLIT | PAREN_SM | WORDLINK
+  <blockquote>талаш-тартыш ( см. <wordLink word="талаш" homonym="I"/>);</blockquote>
+
+[96] remaining=1 | known_exact=23 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W78 | SPLIT | SM | WORDLINK
+  <blockquote>сага кылбасам! см. <wordLink word="сен" homonym="I"/>.</blockquote>
+
+[97] remaining=1 | known_exact=18 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W12 | W56 | SPLIT | SM | WORDLINK
+  <blockquote>иш илгери! см. <wordLink word="илгери" meaning="1"/>;</blockquote>
+
+[98] remaining=1 | known_exact=16 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W78 | SPLIT | SM | WORDLINK
+  <blockquote>тапкан экенсиң! см. <wordLink word="тап-" homonym="VIII"/>.</blockquote>
+
+[99] remaining=1 | known_exact=16 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W34 | SPLIT | SM | WORDLINK
+  <blockquote>жаагыңды жап! см. <wordLink word="жаак"/>.</blockquote>
+
+[100] remaining=1 | known_exact=10 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | SM | WORDLINK
+  <blockquote>кызылга береке! см. <wordLink word="кызыл" meaning="6"/>.</blockquote>
+
+[101] remaining=1 | known_exact=10 | best_pattern_support=705 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | PAREN_SM | WORDLINK
+  <blockquote>тээрде, тээрге (см. <wordLink word="тээ"/>).</blockquote>
+
+[102] remaining=1 | known_exact=10 | best_pattern_support=301 | reasons=prefix_len_1 (1)
+template=SRC_LEN_1 | W9P_IH_TH | SPLIT | SM | WORDLINK
+  <blockquote>(кыжы-кыймалан-; см. <wordLink word="кыжы"/>)</blockquote>
+
+[103] remaining=1 | known_exact=7 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W12 | W78 | SPLIT | SM | WORDLINK
+  <blockquote>ак жалгасын! см. <wordLink word="жалга-" homonym="II"/>;</blockquote>
+
+[104] remaining=1 | known_exact=5 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W34 | W78 | W34
+  <blockquote>кызыл абоз ист. красный обоз.</blockquote>
+
+[105] remaining=1 | known_exact=5 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W56 | W34
+  <blockquote>ишиң эмне? тебе какое дело?</blockquote>
+
+[106] remaining=1 | known_exact=4 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W9P_NN | W34 | SPLIT | W9P_NN | W34
+  <blockquote>бильярддын ташы бильярдный шар;</blockquote>
+
+[107] remaining=1 | known_exact=3 | best_pattern_support=1302 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W56 | W9P_NN | RUFUNC | TGT_LONG
+  <blockquote>кара өзөк маал время бескормицы и голодовки;</blockquote>
+
+[108] remaining=1 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W9P_NN | W56
+  <blockquote>таңы чыккан өтүк истрёпанные сапоги;</blockquote>
+
+[109] remaining=1 | known_exact=3 | best_pattern_support=976 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W56 | SPLIT | W34 | W56 | W34
+  <blockquote>чөптү таарып кой сгреби сено;</blockquote>
+
+[110] remaining=1 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | TOZHE | WORDLINK
+  <blockquote>бел парат южн. то же, что <wordLink word="окчонтой"/>.</blockquote>
+
+[111] remaining=1 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W9P | SPLIT | W34 | W9P | W9P
+  <blockquote>карыз шериктиги ист. кредитное товарищество;</blockquote>
+
+[112] remaining=1 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W9P | SPLIT | W34 | W9P_NN | W78
+  <blockquote>уятты жыйнаштырып коюп бесцеремонно, развязно;</blockquote>
+
+[113] remaining=1 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W34 | TOZHE | WORDLINK
+  <blockquote>каркырак турна южн. то же, что <wordLink word="каркыра" meaning="1"/>.</blockquote>
+
+[114] remaining=1 | known_exact=3 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W56 | SPLIT | W34 | W9P | W78
+  <blockquote>өнөрлүү балдар дети, владеющие ремеслом;</blockquote>
+
+[115] remaining=1 | known_exact=3 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W78
+  <blockquote>арка чач коса (женская);</blockquote>
+
+[116] remaining=1 | known_exact=3 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W9P | W78
+  <blockquote>май тер пот, выступающий каплями;</blockquote>
+
+[117] remaining=1 | known_exact=3 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W78 | SPLIT | W34 | W78
+  <blockquote>кар кычырайт снег скрипит.</blockquote>
+
+[118] remaining=1 | known_exact=3 | best_pattern_support=757 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W12 | W34_TH | SPLIT | SM | WORDLINK
+  <blockquote>(чу кой-; см. <wordLink word="чү" homonym="II"/>)</blockquote>
+
+[119] remaining=1 | known_exact=3 | best_pattern_support=527 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | W34 | W78 | W56
+  <blockquote>өтүктүн беттиги южн. головка сапога.</blockquote>
+
+[120] remaining=1 | known_exact=3 | best_pattern_support=216 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | PAREN_SM | WORDLINK
+  <blockquote>айтпаса, төгүнбү (см. <wordLink word="айтпаса"/>);</blockquote>
+
+[121] remaining=1 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W34 | W56 | W9P_NN | RUFUNC | TGT_LONG
+  <blockquote>ылжаң этип бир койду осклабившись, он хихикнул.</blockquote>
+
+[122] remaining=1 | known_exact=2 | best_pattern_support=1698 | reasons=prefix_len_4 (1)
+template=SRC_LEN_4 | W56 | W56 | W34 | W34 | SPLIT | W56 | W34 | W12 | W34 | TGT_LONG
+  <blockquote>балаң барбы? - Жок, эки кызым бар У тебя дети есть? - Нет, есть две дочери;</blockquote>
+
+[123] remaining=1 | known_exact=2 | best_pattern_support=1470 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78 | RUFUNC | W9P | TGT_LONG
+  <blockquote>көзү жаштан өксү болбоду она непрерывно плакала (букв в слезах её глазам недостатка не было).</blockquote>
+
+[124] remaining=1 | known_exact=2 | best_pattern_support=1470 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W78 | W9P | W9P | TGT_LONG
+  <blockquote>жаз болду, сөөк жукарды - ачарчылык наступила весна, похудел-голод;</blockquote>
+
+[125] remaining=1 | known_exact=2 | best_pattern_support=1470 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W34 | SPLIT | W34 | W78 | W34 | RUFUNC | TGT_LONG
+  <blockquote>"кокуй!..." деп бири бакырды один из них громко закричал кокуй! (см.);</blockquote>
+
+[126] remaining=1 | known_exact=2 | best_pattern_support=1302 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W78 | SPLIT | W34 | RUFUNC | W56 | RUFUNC | TGT_LONG
+  <blockquote>жыл айланбай эле не прошло и года (как...);</blockquote>
+
+[127] remaining=1 | known_exact=2 | best_pattern_support=1145 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W78 | RUFUNC | W78 | TGT_LONG
+  <blockquote>шек жок нет сомнения, без сомнения, несомненно;</blockquote>
+
+[128] remaining=1 | known_exact=2 | best_pattern_support=990 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W34_TH | SPLIT | W78_NN | RUFUNC | W78
+  <blockquote>"отлично" оку- учиться на "отлично";</blockquote>
+
+[129] remaining=1 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W56_TH | SPLIT | W9P_NN | W34 | W56
+  <blockquote>тилин толго- выкручивать язык (пытка);</blockquote>
+
+[130] remaining=1 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78_UU | W56 | SPLIT | W9P_NN | W56
+  <blockquote>олуттуу маселе серьёзный вопрос;</blockquote>
+
+[131] remaining=1 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W9P | W56 | SPLIT | W34 | W9P | W56
+  <blockquote>дүгдүйгөн калың кол несметное войско;</blockquote>
+
+[132] remaining=1 | known_exact=2 | best_pattern_support=976 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W9P_IH | W56 | SPLIT | W9P_IH | W56
+  <blockquote>жайыт-сугат трести пастбищно-мелиоративный трест;</blockquote>
+
+[133] remaining=1 | known_exact=2 | best_pattern_support=874 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W56 | SPLIT | W34 | W34 | W9P_NN
+  <blockquote>амир лашкер южн. ист. военачальник.</blockquote>
+
+[134] remaining=1 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W34 | SPLIT | W34 | W78 | W9P
+  <blockquote>так ошол жол үстүндө майкандашам;</blockquote>
+
+[135] remaining=1 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W34 | W78 | SPLIT | W34 | W9P_NN | W56
+  <blockquote>куш тилиндей жооп коротенький ответ;</blockquote>
+
+[136] remaining=1 | known_exact=2 | best_pattern_support=834 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W9P | W34 | SPLIT | W34 | W9P
+  <blockquote>кирпичечен огу иглы дикобраза.</blockquote>
+
+[137] remaining=1 | known_exact=2 | best_pattern_support=782 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W56 | W9P_NN | SPLIT | W78 | W78_NN
+  <blockquote>тигүү фабрикасы швейная фабрика.</blockquote>
+
+[138] remaining=1 | known_exact=2 | best_pattern_support=448 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W9P_UU | W78 | SPLIT | W9P_NN | W78
+  <blockquote>уюмдаштыруу жыйылышы организационное собрание;</blockquote>
+
+[139] remaining=1 | known_exact=2 | best_pattern_support=398 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78 | W78 | SPLIT | W34 | W9P | W78
+  <blockquote>Дүрдана Дюрдана (имя собственное женское).</blockquote>
+
+[140] remaining=1 | known_exact=2 | best_pattern_support=366 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W12 | W78 | SPLIT | W34 | W9P
+  <blockquote>ар даамдын башы разносолы;</blockquote>
+
+[141] remaining=1 | known_exact=2 | best_pattern_support=300 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78_NN | W9P | SPLIT | W9P_NN | W9P
+  <blockquote>телеграф кабарлары телеграфные сообщения.</blockquote>
+
+[142] remaining=1 | known_exact=2 | best_pattern_support=300 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W9P | W34_NN | SPLIT | W9P | W34_NN
+  <blockquote>өндүрүштүк цикл производственный цикл;</blockquote>
+
+[143] remaining=1 | known_exact=1 | best_pattern_support=705 | reasons=prefix_len_2 (1)
+template=SRC_LEN_2 | W78_IH | W56 | SPLIT | TOZHE | WORDLINK | PAREN_SM | WORDLINK
+  <blockquote>ат-ылооң аманбы? то же, что <wordLink word="ат-көлүк аманбы?"/> (см. <wordLink word="көлүк"/>);</blockquote>
+
+[144] remaining=1 | known_exact=1 | best_pattern_support=627 | reasons=prefix_len_4 (1)
+template=SRC_LEN_4 | W34 | W56 | W34 | W34_TH | SPLIT | SM | WORDLINK
+  <blockquote>сары изине чөп сал- см. <wordLink word="чөп"/>.</blockquote>

@@ -1,0 +1,240 @@
+Bucket: 2_words
+Items: 231
+Features: 1456
+SVD components: 64
+min_cluster_size=5, min_samples=2
+Clustered items: 146
+Noise items: 85
+
+[cluster 1] label=12 size=18
+prototype=самсаңдаган растрёпа.
+median_fuzzy_to_prototype=38.6
+starts=адбыраган растрёпа (1); аныктап всерьёз (1); апыраңдаган бахвал (1) | ends=адбыраган растрёпа (1); аныктап всерьёз (1); апыраңдаган бахвал (1) | shapes=L9+ L9+ (4); L9+ L7-8+NN (3); L9+ L7-8 (3)
+wordLink=0/18 | meta=0/18 | origin=0/18 | linkkw=0/18 | ili=0/18
+  <blockquote>самсаңдаган растрёпа.</blockquote>
+  <blockquote>адбыраган растрёпа.</blockquote>
+  <blockquote>салпайган растрёпа;</blockquote>
+  <blockquote>салпыйган растяпа.</blockquote>
+  <blockquote>апыраңдаган бахвал.</blockquote>
+  <blockquote>жылмаңдаган вкрадчивый.</blockquote>
+
+[cluster 2] label=17 size=14
+prototype=чилжийген худенький.
+median_fuzzy_to_prototype=39.0
+starts=жүздөп сотнями (1); жылмыктай чистенький (1); кирбийген заморыш (1) | ends=жүздөп сотнями (1); жылмыктай чистенький (1); кирбийген заморыш (1) | shapes=L9+ L9++NN (3); L5-6 L7-8 (2); L9+ L9+ (2)
+wordLink=0/14 | meta=0/14 | origin=0/14 | linkkw=0/14 | ili=0/14
+  <blockquote>чилжийген худенький.</blockquote>
+  <blockquote>жылмыктай чистенький.</blockquote>
+  <blockquote>чебектеген юркий.</blockquote>
+  <blockquote>сиркедей малюсенький;</blockquote>
+  <blockquote>темпийген замухрышка.</blockquote>
+  <blockquote>чымчыктай малюсенький;</blockquote>
+
+[cluster 3] label=10 size=9
+prototype=бакт см. .
+median_fuzzy_to_prototype=75.0
+starts=алынып см (1); бакт см (1); жайрагыр см (1) | ends=алынып см (1); бакт см (1); жайрагыр см (1) | shapes=L9+ L1-2 (3); L7-8 L1-2 (2); L5-6 L1-2 (1)
+wordLink=9/9 | meta=0/9 | origin=0/9 | linkkw=9/9 | ili=0/9
+  <blockquote>бакт см. <wordLink word="бак" homonym="II"/>.</blockquote>
+  <blockquote>Кертелки см. <wordLink word="телки" homonym="I"/>.</blockquote>
+  <blockquote>жайрагыр см. <wordLink word="жайра-" homonym="II"/>.</blockquote>
+  <blockquote>жыпжылмакай см. <wordLink word="жылмакай"/>.</blockquote>
+  <blockquote>алынып см. <wordLink word="келин-" homonym="II"/>;</blockquote>
+  <blockquote>чалагайым см. <wordLink word="чала"/>.</blockquote>
+
+[cluster 4] label=16 size=9
+prototype=калам шилте-писать;
+median_fuzzy_to_prototype=39.1
+starts=алчын байыр (1); байдалангыч использующий (1); бандалар басмачи (1) | ends=алчын байыр (1); байдалангыч использующий (1); бандалар басмачи (1) | shapes=L5-6 L5-6 (1); L9+ L9++NN (1); L7-8 L7-8 (1)
+wordLink=0/9 | meta=0/9 | origin=0/9 | linkkw=0/9 | ili=0/9
+  <blockquote>калам шилте-писать;</blockquote>
+  <blockquote>понукать, пришпоривать;</blockquote>
+  <blockquote>калаба скандал;</blockquote>
+  <blockquote>ый ыйла-плакать;</blockquote>
+  <blockquote>эсептеп чыгар-подсчитывать;</blockquote>
+  <blockquote>байдалангыч использующий;</blockquote>
+
+[cluster 5] label=4 size=8
+prototype=жымырып тайком;
+median_fuzzy_to_prototype=31.5
+starts=атындагы имени (1); жымырып тайком (1); кечинде вечером (1) | ends=атындагы имени (1); жымырып тайком (1); кечинде вечером (1) | shapes=L7-8 L5-6 (2); L7-8 L7-8 (1); L9+ L9++IH+NN (1)
+wordLink=0/8 | meta=0/8 | origin=0/8 | linkkw=0/8 | ili=0/8
+  <blockquote>жымырып тайком;</blockquote>
+  <blockquote>оёкто там;</blockquote>
+  <blockquote>мении кыртышым</blockquote>
+  <blockquote>тегининен даром;</blockquote>
+  <blockquote>такым аңды-</blockquote>
+  <blockquote>...атындагы имени...;</blockquote>
+
+[cluster 6] label=13 size=8
+prototype=түшкү полдневный;
+median_fuzzy_to_prototype=45.4
+starts=айгышкан ожесточённый (1); жапжашыл ярко-зелёный (1); жетишердик достаточный (1) | ends=айгышкан ожесточённый (1); жапжашыл ярко-зелёный (1); жетишердик достаточный (1) | shapes=L7-8 L9+ (2); L7-8 L9++NN (1); L7-8 L9++IH+NN (1)
+wordLink=0/8 | meta=0/8 | origin=0/8 | linkkw=0/8 | ili=0/8
+  <blockquote>түшкү полдневный;</blockquote>
+  <blockquote>түшүмдүү урожайный;</blockquote>
+  <blockquote>айгышкан ожесточённый;</blockquote>
+  <blockquote>жүзүктөй стройный;</blockquote>
+  <blockquote>жетишердик достаточный;</blockquote>
+  <blockquote>келберсиген дородный;</blockquote>
+
+[cluster 7] label=15 size=8
+prototype=прям., перен.;
+median_fuzzy_to_prototype=37.8
+starts=перен жестикулировать (1); перен сумасбродство (1); перен рискнуть (1) | ends=перен жестикулировать (1); перен сумасбродство (1); перен рискнуть (1) | shapes=L9+ L9+ (3); L5-6 L9++NN (1); L5-6 L9+ (1)
+wordLink=0/8 | meta=5/8 | origin=0/8 | linkkw=0/8 | ili=0/8
+  <blockquote>прям., перен.;</blockquote>
+  <blockquote>перен. тесный;</blockquote>
+  <blockquote>перен. рискнуть;</blockquote>
+  <blockquote>перен. жестикулировать;</blockquote>
+  <blockquote>сүйлөшүүлөр переговоры;</blockquote>
+  <blockquote>перен. сумасбродство.</blockquote>
+
+[cluster 8] label=5 size=7
+prototype=энеке матушка;
+median_fuzzy_to_prototype=51.6
+starts=энеке матушка (1); атаке батюшка (1); кызыке доченька (1) | ends=энеке матушка (1); атаке батюшка (1); кызыке доченька (1) | shapes=L5-6 L7-8 (2); L5-6 L7-8+NN (1); L3-4 L9++NN (1)
+wordLink=0/7 | meta=0/7 | origin=0/7 | linkkw=0/7 | ili=0/7
+  <blockquote>энеке матушка;</blockquote>
+  <blockquote>энекебай маменька;</blockquote>
+  <blockquote>атаке батюшка;</blockquote>
+  <blockquote>абакебай дедушка;</blockquote>
+  <blockquote>чүңкүйгөн малышка;</blockquote>
+  <blockquote>Түкө Тюгёльбаюшка;</blockquote>
+
+[cluster 9] label=3 size=6
+prototype=жазында весной;
+median_fuzzy_to_prototype=55.4
+starts=алысындай щетинистый (1); жазында весной (1); жазылгандар подписчики (1) | ends=алысындай щетинистый (1); жазында весной (1); жазылгандар подписчики (1) | shapes=L9+ L9+ (3); L7-8 L5-6 (2); L5-6 L5-6+NN (1)
+wordLink=0/6 | meta=1/6 | origin=0/6 | linkkw=0/6 | ili=0/6
+  <blockquote>жазында весной;</blockquote>
+  <blockquote>жалгандан притворно;</blockquote>
+  <blockquote>алысындай щетинистый;</blockquote>
+  <blockquote>кышында зимой;</blockquote>
+  <blockquote>жазылгандар подписчики;</blockquote>
+  <blockquote>ноода тяньш.</blockquote>
+
+[cluster 10] label=6 size=6
+prototype=жунжумшак мягкий-мягкий;
+median_fuzzy_to_prototype=43.3
+starts=айландыра вокруг (1); жупжука тонкий-тонкий (1); жунжумшак мягкий-мягкий (1) | ends=айландыра вокруг (1); жупжука тонкий-тонкий (1); жунжумшак мягкий-мягкий (1) | shapes=L7-8 L9++IH (2); L9+ L9++IH (2); L9+ L5-6 (1)
+wordLink=0/6 | meta=0/6 | origin=0/6 | linkkw=0/6 | ili=0/6
+  <blockquote>жунжумшак мягкий-мягкий;</blockquote>
+  <blockquote>жупжука тонкий-тонкий;</blockquote>
+  <blockquote>жупжумуру круглый-круглый.</blockquote>
+  <blockquote>кепкең широкий-широкий;</blockquote>
+  <blockquote>шипширин сладкий-сладкий;</blockquote>
+  <blockquote>айландыра вокруг;</blockquote>
+
+[cluster 11] label=7 size=6
+prototype=көпөмсүгөн заносчивый.
+median_fuzzy_to_prototype=60.0
+starts=бүкшүгөн затхлый (1); керейген заносчивый (1); көпөмсүгөн заносчивый (1) | ends=бүкшүгөн затхлый (1); керейген заносчивый (1); көпөмсүгөн заносчивый (1) | shapes=L9+ L9+ (2); L7-8 L7-8 (1); L7-8 L9+ (1)
+wordLink=0/6 | meta=0/6 | origin=0/6 | linkkw=0/6 | ili=0/6
+  <blockquote>көпөмсүгөн заносчивый.</blockquote>
+  <blockquote>керейген заносчивый.</blockquote>
+  <blockquote>чочоңдогон заносчивый.</blockquote>
+  <blockquote>бүкшүгөн затхлый.</blockquote>
+  <blockquote>үңүрөңдөгөн грубиян.</blockquote>
+  <blockquote>үлдүрөгөн рохля;</blockquote>
+
+[cluster 12] label=9 size=6
+prototype=түптүгөл (см. ).
+median_fuzzy_to_prototype=77.3
+starts=жың см (1); топтолтура см (1); түптүгөл см (1) | ends=жың см (1); топтолтура см (1); түптүгөл см (1) | shapes=L9+ L1-2 (3); L3-4 L1-2 (2); L7-8 L1-2 (1)
+wordLink=6/6 | meta=0/6 | origin=0/6 | linkkw=6/6 | ili=0/6
+  <blockquote>түптүгөл (см. <wordLink word="түгөл"/>).</blockquote>
+  <blockquote>тыптыйпыл (см. <wordLink word="тыйпыл"/>).</blockquote>
+  <blockquote>топтолтура (см. <wordLink word="толтур-"/>).</blockquote>
+  <blockquote>туру (см. <wordLink word="тур-" homonym="II" meaning="1"/>);</blockquote>
+  <blockquote>тыптырмактай (см. <wordLink word="тырмак"/>);</blockquote>
+  <blockquote>1/16 жың (см. <wordLink word="жың" homonym="I"/>);</blockquote>
+
+[cluster 13] label=18 size=6
+prototype=теңсибеген высокомерный.
+median_fuzzy_to_prototype=47.8
+starts=капкара чёрный-чёрный (1); керенеленген окаймлённый (1); номерделген нумерованный (1) | ends=капкара чёрный-чёрный (1); керенеленген окаймлённый (1); номерделген нумерованный (1) | shapes=L9+ L9+ (2); L7-8 L9++IH+NN (1); L9+ L9++NN (1)
+wordLink=0/6 | meta=0/6 | origin=0/6 | linkkw=0/6 | ili=0/6
+  <blockquote>теңсибеген высокомерный.</blockquote>
+  <blockquote>керенеленген окаймлённый.</blockquote>
+  <blockquote>номерделген нумерованный.</blockquote>
+  <blockquote>сепсемиз жирный-жирный.</blockquote>
+  <blockquote>сердымак жадный.</blockquote>
+  <blockquote>капкара чёрный-чёрный;</blockquote>
+
+[cluster 14] label=0 size=5
+prototype=уст. пауза;
+median_fuzzy_to_prototype=42.9
+starts=уст физкультура (1); уст обвинение (1); уст обвинитель (1) | ends=уст физкультура (1); уст обвинение (1); уст обвинитель (1) | shapes=L3-4 L9++NN (2); L3-4 L9+ (2); L3-4 L5-6 (1)
+wordLink=0/5 | meta=5/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>уст. пауза;</blockquote>
+  <blockquote>уст. физкультура;</blockquote>
+  <blockquote>уст. комментатор.</blockquote>
+  <blockquote>уст. обвинение.</blockquote>
+  <blockquote>уст. обвинитель.</blockquote>
+
+[cluster 15] label=1 size=5
+prototype=жокпу? нет?
+median_fuzzy_to_prototype=33.3
+starts=жокпу нет (1); бөлүнбөс неделимый (1); жоюбас неутомимый (1) | ends=жокпу нет (1); бөлүнбөс неделимый (1); жоюбас неутомимый (1) | shapes=L5-6 L3-4 (1); L7-8 L9+ (1); L5-6 L9+ (1)
+wordLink=0/5 | meta=0/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>жокпу? нет?</blockquote>
+  <blockquote>жоюбас неутомимый;</blockquote>
+  <blockquote>көңүлсүнбөй нехотя.</blockquote>
+  <blockquote>нечендер многие;</blockquote>
+  <blockquote>бөлүнбөс неделимый;</blockquote>
+
+[cluster 16] label=2 size=5
+prototype=кодойгон коротышка.
+median_fuzzy_to_prototype=61.5
+starts=жолжойгон мордастый (1); кодойгон коротышка (1); колойгон громадина (1) | ends=жолжойгон мордастый (1); кодойгон коротышка (1); колойгон громадина (1) | shapes=L7-8 L9+ (3); L9+ L9+ (1); L5-6 L5-6 (1)
+wordLink=0/5 | meta=0/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>кодойгон коротышка.</blockquote>
+  <blockquote>колойгон громадина.</blockquote>
+  <blockquote>жолжойгон мордастый.</blockquote>
+  <blockquote>кудайга койгондон</blockquote>
+  <blockquote>тышка наружу;</blockquote>
+
+[cluster 17] label=8 size=5
+prototype=өтпү? жёлчь?
+median_fuzzy_to_prototype=44.4
+starts=атсыздык безлошадность (1); атпы лошадь (1); төөбү верблюд (1) | ends=атсыздык безлошадность (1); атпы лошадь (1); төөбү верблюд (1) | shapes=L3-4 L5-6+NN (2); L7-8 L9++NN (1); L5-6 L7-8 (1)
+wordLink=0/5 | meta=0/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>өтпү? жёлчь?</blockquote>
+  <blockquote>атпы? лошадь?</blockquote>
+  <blockquote>төөбү? верблюд?</blockquote>
+  <blockquote>атсыздык безлошадность.</blockquote>
+  <blockquote>наблюдательный пункт.</blockquote>
+
+[cluster 18] label=11 size=5
+prototype=аялдабай немедленно;
+median_fuzzy_to_prototype=61.5
+starts=айныбай неуклонно (1); аялдабай немедленно (1); курдан деланно (1) | ends=айныбай неуклонно (1); аялдабай немедленно (1); курдан деланно (1) | shapes=L7-8 L9+ (3); L5-6 L7-8 (1); L7-8 L7-8 (1)
+wordLink=0/5 | meta=0/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>аялдабай немедленно;</blockquote>
+  <blockquote>айныбай неуклонно;</blockquote>
+  <blockquote>тезинен немедленно;</blockquote>
+  <blockquote>убагынча временно;</blockquote>
+  <blockquote>курдан деланно;</blockquote>
+
+[cluster 19] label=14 size=5
+prototype=ыракмат айт-благодарить;
+median_fuzzy_to_prototype=43.9
+starts=разг бинокль (1); болтать пустословить (1); кек ал-отомстить (1) | ends=разг бинокль (1); болтать пустословить (1); кек ал-отомстить (1) | shapes=L3-4 L7-8+NN (1); L7-8+NN L9++NN (1); L3-4 L9++IH+NN (1)
+wordLink=0/5 | meta=1/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>ыракмат айт-благодарить;</blockquote>
+  <blockquote>ыраакка вдаль;</blockquote>
+  <blockquote>кек ал-отомстить;</blockquote>
+  <blockquote>болтать, пустословить;</blockquote>
+  <blockquote>разг. бинокль;</blockquote>
+
+[cluster 20] label=19 size=5
+prototype=камсыз кыл-обеспечить.
+median_fuzzy_to_prototype=42.9
+starts=камсыз кыл-обеспечить (1); суукка каптыр-простудить (1); кепкенен просторный-просторный (1) | ends=камсыз кыл-обеспечить (1); суукка каптыр-простудить (1); кепкенен просторный-просторный (1) | shapes=L5-6 L9++IH+NN (2); L5-6+UU L9++IH+NN (1); L7-8 L9++IH (1)
+wordLink=0/5 | meta=0/5 | origin=0/5 | linkkw=0/5 | ili=0/5
+  <blockquote>камсыз кыл-обеспечить.</blockquote>
+  <blockquote>суукка каптыр-простудить.</blockquote>
+  <blockquote>эмгек кыл-трудиться;</blockquote>
+  <blockquote>контролдук кыл-контролировать.</blockquote>
+  <blockquote>кепкенен просторный-просторный;</blockquote>

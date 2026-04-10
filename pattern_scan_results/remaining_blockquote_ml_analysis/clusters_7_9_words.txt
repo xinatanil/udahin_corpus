@@ -1,0 +1,31 @@
+Bucket: 7_9_words
+Items: 9250
+Features: 76744
+SVD components: 64
+min_cluster_size=25, min_samples=8
+Clustered items: 6439
+Noise items: 2811
+
+[cluster 1] label=0 size=6230
+prototype=Кайназар аттууларды утурулай басты Кайназар пошёл навстречу верховым;
+median_fuzzy_to_prototype=33.9
+starts=ошол эле (9); бир аз (7); сен эмне (6) | ends=без дела (7); с треском (7); не видать (7) | shapes=L5-6 L9+ L9+ L9+ L9+ L3-4 L5-6 L9++NN (3); L7-8 L5-6 L5-6 L1-2 L7-8 L1-2 L7-8 (3); L5-6 L5-6 L5-6 L1-2 L7-8 L1-2 L5-6 (3)
+wordLink=1/6230 | meta=92/6230 | origin=3/6230 | linkkw=1/6230 | ili=692/6230
+  <blockquote>Кайназар аттууларды утурулай басты Кайназар пошёл навстречу верховым;</blockquote>
+  <blockquote>баатырлардын колдорунда ай балта в руках у богатырей бердыши;</blockquote>
+  <blockquote>бардык айла-амалдарына карабастан несмотря на все его плутни;</blockquote>
+  <blockquote>арышты катуу уруп алыптыр он сильно пошёл в гору;</blockquote>
+  <blockquote>корулдап ырдай баштады он запел густым басом;</blockquote>
+  <blockquote>ураандар жазылган кызыл туулар красные знамёна с лозунгами;</blockquote>
+
+[cluster 2] label=1 size=209
+prototype=сасык күшөн чатк. то же, что (см. ).
+median_fuzzy_to_prototype=49.2
+starts=то же (19); а эми (1); ай талаа (1) | ends=что см (44); же что (23); прим см (7) | shapes=L3-4 L3-4 L3-4 L3-4 L3-4 L1-2 L1-2 L3-4 (3); L3-4 L5-6 L3-4 L3-4 L5-6 L1-2 L1-2 L3-4 (3); L9+ L5-6 L3-4 L1-2 L1-2 L3-4 L1-2 (2)
+wordLink=208/209 | meta=18/209 | origin=0/209 | linkkw=208/209 | ili=50/209
+  <blockquote>сасык күшөн чатк. то же, что <wordLink word="сасык күзөн"/> (см. <wordLink word="күзөн"/>).</blockquote>
+  <blockquote>ак чүсте южн. то же, что <wordLink word="ак чүштө"/> (см. <wordLink word="чүштө" homonym="I"/>).</blockquote>
+  <blockquote>кан татакай южн. то же, что <wordLink word="кан таламай"/> (см. <wordLink word="таламай"/>).</blockquote>
+  <blockquote>кунары жок бай то же, что <wordLink word="куну жок бай"/> (см. <wordLink word="кун"/>).</blockquote>
+  <blockquote>май билек ай то же, что <wordLink word="майбилек ай"/> (см. <wordLink word="ай" homonym="I" meaning="2"/>).</blockquote>
+  <blockquote>көзүн таза кыл- то же, что <wordLink word="көзүн тазала-"/> (см. <wordLink word="тазала-"/>).</blockquote>

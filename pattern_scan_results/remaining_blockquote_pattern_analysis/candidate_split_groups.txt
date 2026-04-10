@@ -1,0 +1,2401 @@
+Top candidate split groups
+
+[1] count=8337
+source_len=1 | shapes=5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бычак далк кагып калыптыр нож заржавел;</blockquote>
+  <blockquote>бирок а Темирдин көзү жетти но Темир понял это;</blockquote>
+  <blockquote>колун майлыкка аарчынып вытерев свои руки полотенцем.</blockquote>
+  <blockquote>абайы көпчүк подстилка на седло из материи абайы;</blockquote>
+  <blockquote>согуш абалы военное положение;</blockquote>
+
+[2] count=7555
+source_len=1 | shapes=3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адам баласы аа эмне дебес! что (только) человек не скажет об этом!</blockquote>
+  <blockquote>бул бала ааламга татыйт этот паренёк мировой;</blockquote>
+  <blockquote>айыл арасында абажаарып турган эл народ, столпившийся среди аула;</blockquote>
+  <blockquote>абай менен осторожно, осмотрительно;</blockquote>
+  <blockquote>абай менен үпчүлөп сделав завязки из материи абай;</blockquote>
+
+[3] count=5864
+source_len=1 | shapes=7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>темирдин далкысы ржавчина на железе;</blockquote>
+  <blockquote>ааламга белгилүү всемирно известный;</blockquote>
+  <blockquote>аамыяты жок не имеет значения, не играет роли.</blockquote>
+  <blockquote>айылдын ити абажаарып үрүп чыкты (все) собаки аула залаяли разом.</blockquote>
+  <blockquote>абайлап осторожно, осмотрительно;</blockquote>
+
+[4] count=3660
+source_len=1 | shapes=9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абажаарыган адамдар үчүн бул ишпи! разве это дело (представляет какую-нибудь трудность) для людей, если они берутся (за него) все вместе!;</blockquote>
+  <blockquote>көпүрөөдөн абайлап өт через мост переходи осторожно.</blockquote>
+  <blockquote>абийиримди кетирди он меня опозорил;</blockquote>
+  <blockquote>абийиримди ачтың ты меня опозорил;</blockquote>
+  <blockquote>абийириңди жап опусти подол; прикрой срам.</blockquote>
+
+[5] count=2936
+source_len=2 | shapes=5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абайы көпчүк подстилка на седло из материи абайы;</blockquote>
+  <blockquote>согуш абалы военное положение;</blockquote>
+  <blockquote>кызмат абалы служебное положение;</blockquote>
+  <blockquote>абалы жаман он в скверном положении;</blockquote>
+  <blockquote>абалап чыккан иттер да жок (такая тишина, что) нет даже собаки, которая бы выскочила с лаем.</blockquote>
+
+[6] count=2699
+source_len=2 | shapes=3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адам баласы аа эмне дебес! что (только) человек не скажет об этом!</blockquote>
+  <blockquote>абай менен осторожно, осмотрительно;</blockquote>
+  <blockquote>абет убагы время обеда; полдень;</blockquote>
+  <blockquote>бек абзел иш болду получилось превосходно;</blockquote>
+  <blockquote>аган кандай дейсиздер? что вы на это скажете?</blockquote>
+
+[7] count=2130
+source_len=2 | shapes=5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бычак далк кагып калыптыр нож заржавел;</blockquote>
+  <blockquote>аббали! вот это здорово!; вот это правильно!; вот молодец!</blockquote>
+  <blockquote>агылес орок острый серп.</blockquote>
+  <blockquote>адабий тил литературный язык.</blockquote>
+  <blockquote>энеке, бул кылганың адамчылык, жүрөгүң акак, бермет таштан тунук то, что ты, маменька, сделала, это гуманность, твоё сердце чище сердолика и жемчуга.</blockquote>
+
+[8] count=2099
+source_len=2 | shapes=7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абеттен кийин после обеда; после полудня.</blockquote>
+  <blockquote>абийири күлдөй чачылды он вконец опозорен;</blockquote>
+  <blockquote>напсиңди агыта бербе не зарься на всё, не очень уж жадничай;</blockquote>
+  <blockquote>адамзат коому человеческое общество;</blockquote>
+  <blockquote>акылынан адашты он сбился с толку;</blockquote>
+
+[9] count=1830
+source_len=2 | shapes=3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бул бала ааламга татыйт этот паренёк мировой;</blockquote>
+  <blockquote>шиш абак особо строгая тюрьма (с пытками).</blockquote>
+  <blockquote>абат жер заселённое, благоустроенное место (напр. о пункте оседлости, об орошаемом и засаженном садами месте и т.п.).</blockquote>
+  <blockquote>аган сөз бербей не давая ему говорить.</blockquote>
+  <blockquote>адаш жол ложная дорога (не та, по которой следует идти);</blockquote>
+
+[10] count=1518
+source_len=1 | shapes=1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>а береги вон тот;</blockquote>
+  <blockquote>а көрө муну сүйлөйлүчү вместо того (лучше) поговорим об этом;</blockquote>
+  <blockquote>а эмне дедиңер? вы что ему сказали?</blockquote>
+  <blockquote>а сен эмне үчүн кетпей отурасың? а ты почему сидишь и не уходишь?</blockquote>
+  <blockquote>ах сен болсоң... а что касается тебя...; а ты...;</blockquote>
+
+[11] count=1457
+source_len=1 | shapes=9++IH | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>далк-далк эткен жаман кыз неуклюжая дурная (непослушная, неряшливая) девушка.</blockquote>
+  <blockquote>абыр-шабыр ат минип быстро сев на коня;</blockquote>
+  <blockquote>абысын-ажын жёны родственников по отношению друг к другу;</blockquote>
+  <blockquote>агалы-ини братья (старший и младший).</blockquote>
+  <blockquote>бала-чака менен агарып көгөр желаю благоденствия тебе и твоему семейству;</blockquote>
+
+[12] count=1414
+source_len=2 | shapes=3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айыл арасында абажаарып турган эл народ, столпившийся среди аула;</blockquote>
+  <blockquote>көрө билбеген көздөн көрө, караңгы тамдын тешиги абзел лучше дыра в тёмной стене, чем глаз, который не может видеть.</blockquote>
+  <blockquote>атты шамалдан агылга жерге байлап кой привяжи лошадь там, куда не доходит ветер;</blockquote>
+  <blockquote>адил тынчтык справедливый мир.</blockquote>
+  <blockquote>сен айдактын ити эмей, ким айдактын ити? если не ты, так кто же собака загонщика?</blockquote>
+
+[13] count=1377
+source_len=2 | shapes=7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аамыяты жок не имеет значения, не играет роли.</blockquote>
+  <blockquote>айылдын ити абажаарып үрүп чыкты (все) собаки аула залаяли разом.</blockquote>
+  <blockquote>абалдан или абалтан издавна, испокон веков.</blockquote>
+  <blockquote>абийири жок бесстыдный; бесстыдник;</blockquote>
+  <blockquote>агрардык өлкө аграрная страна.</blockquote>
+
+[14] count=1335
+source_len=2 | shapes=5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>колун майлыкка аарчынып вытерев свои руки полотенцем.</blockquote>
+  <blockquote>кызмат абалынан пайдаланып использовав своё служебное положение;</blockquote>
+  <blockquote>абалкы заманда в прежние времена;</blockquote>
+  <blockquote>элдин бардыгы агылып, төрт баатырдын артынан басышты весь народ повалил следом за четырьмя храбрецами.</blockquote>
+  <blockquote>саясий агымдар политические течения;</blockquote>
+
+[15] count=1136
+source_len=2 | shapes=9+ / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийиримди ачтың ты меня опозорил;</blockquote>
+  <blockquote>абийирдүүлүк менен с честью, честно, по совести;</blockquote>
+  <blockquote>абсолюттук чоңдук абсолютная величина.</blockquote>
+  <blockquote>агайындар (часто как обращение) друзья; люди, состоящие в близких отношениях;</blockquote>
+  <blockquote>агитатордук милдет обязанность агитатора.</blockquote>
+
+[16] count=944
+source_len=2 | shapes=7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>темирдин далкысы ржавчина на железе;</blockquote>
+  <blockquote>ааламга белгилүү всемирно известный;</blockquote>
+  <blockquote>Дунайдын агымынын орто чениндеги жерлер земли по среднему течению Дуная;</blockquote>
+  <blockquote>напсиси агытылды его обуяла жадность.</blockquote>
+  <blockquote>ажыналап калыптыр он одержим злым духом, в него вселился злой дух;</blockquote>
+
+[17] count=851
+source_len=2 | shapes=9+ / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийириңди жап опусти подол; прикрой срам.</blockquote>
+  <blockquote>автоматча как автомат; автоматически.</blockquote>
+  <blockquote>адабиятта жаңы агым новое течение в литературе;</blockquote>
+  <blockquote>адатындай или адатынча (он) по своему обыкновению, по своей привычке;</blockquote>
+  <blockquote>адырайган көз выпученные глаза; глаза навыкате; пучеглазый;</blockquote>
+
+[18] count=831
+source_len=3 | shapes=5-6 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абалап чыккан иттер да жок (такая тишина, что) нет даже собаки, которая бы выскочила с лаем.</blockquote>
+  <blockquote>андан абийир кеткен он совесть потерял, он обнаглел;</blockquote>
+  <blockquote>агылга жерге туралы встанем-ка в сторонке (не в толпе);</blockquote>
+  <blockquote>азыркы агымга карата сообразно с духом времени.</blockquote>
+  <blockquote>кедей дыйкан адетте болор-болбос кичине гана жерге эгин айдачу бедный крестьянин, как правило, сеял на маленьком участке земли.</blockquote>
+
+[19] count=821
+source_len=1 | shapes=3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</blockquote>
+  <blockquote>алар аёосуз сокку жегенден кийин после того, как они получили решительный отпор.</blockquote>
+  <blockquote>азга или бир азга некоторое время, через некоторое время;</blockquote>
+  <blockquote>бир аздан или бир аздан соң или бир аздан кийин через некоторое время, немного времени спустя;</blockquote>
+  <blockquote>азар мактансаң да, эки кишилик алың бардыр сколько ни хвались, а силы у тебя (самое большее) хватит (только) на двоих;</blockquote>
+
+[20] count=790
+source_len=1 | shapes=5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абалак саптуу с рукояткой из рога коровы или горного барана.</blockquote>
+  <blockquote>жерди айдап бүткөндөн кийин агет тартып (или салып) коёт после того, как кончат пахать землю, копают грядки.</blockquote>
+  <blockquote>элден агылгалап туруп, сүйлөшүп көр попробуй поговорить, когда не будет посторонних (с глазу на глаз или в тесном кругу).</blockquote>
+  <blockquote>ажары жакшы или бет ажары жакшы у него здоровый цвет лица;</blockquote>
+  <blockquote>менден эч ким азайбайт буду я или не буду - от этого никому ни жарко ни холодно (букв. от меня никто не уменьшится).</blockquote>
+
+[21] count=766
+source_len=3 | shapes=3-4 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абет убагы время обеда; полдень;</blockquote>
+  <blockquote>таң агарып аткан жок рассвет ещё не забрезжил;</blockquote>
+  <blockquote>түш агылга болот полдень - свободное время.</blockquote>
+  <blockquote>адис мерген ловкий стрелок; хороший стрелок;</blockquote>
+  <blockquote>ажы бедел замена хаджа каким-л. другим богоугодным делом (человек, сделавший это, тоже становится хаджи).</blockquote>
+
+[22] count=740
+source_len=2 | shapes=5-6 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>заман агымындагы сөз разговор о текущих событиях;</blockquote>
+  <blockquote>мурду адырайган у него ноздри (крылья носа) раздуваются.</blockquote>
+  <blockquote>түпкү көбөйтүүчүлөргө ажыратуу разложение на первоначальные множители.</blockquote>
+  <blockquote>Асанда азыноолак жумушум бар у меня есть небольшое дело к Асану.</blockquote>
+  <blockquote>айдайт! тайгандарды коё бергиле! айдайт! ату! спускайте борзых! ату!</blockquote>
+
+[23] count=668
+source_len=3 | shapes=3-4 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ада болсо если исполнится (свершится).</blockquote>
+  <blockquote>азга турган соң калтырап үшүй башташат немного постоят и начинают зябнуть и дрожать;</blockquote>
+  <blockquote>азар болсо, элүү сом самое большее - пятьдесят рублей.</blockquote>
+  <blockquote>уңгу менен мүчө айкашканда при сочетании основы с аффиксом;</blockquote>
+  <blockquote>айла канча! что ж поделаешь!; ничего не поделаешь!;</blockquote>
+
+[24] count=633
+source_len=2 | shapes=9+ / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийиримди кетирди он меня опозорил;</blockquote>
+  <blockquote>автогендик ширетүү автогенная сварка.</blockquote>
+  <blockquote>агротехникалык эрежелер агротехнические правила.</blockquote>
+  <blockquote>адыраңдап сүйүнүп радуясь всем существом своим;</blockquote>
+  <blockquote>көпчүлүктөн ажыраган оторвавшийся от масс;</blockquote>
+
+[25] count=626
+source_len=2 | shapes=3-4 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>анын көрүнүшүндө адамдык сүрөт жок он потерял облик человеческий (он похудел, у него жалкий вид);</blockquote>
+  <blockquote>мен жыгылганы аз калдым я чуть было не упал;</blockquote>
+  <blockquote>айы жетпегенбала недоносок;</blockquote>
+  <blockquote>эми айкынданып отурат теперь становится ясным, теперь выясняется.</blockquote>
+  <blockquote>эмне айкырасың мага? что ты на меня орёшь?</blockquote>
+
+[26] count=608
+source_len=3 | shapes=7-8 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абеттен кийин после обеда; после полудня.</blockquote>
+  <blockquote>напсиңди агыта бербе не зарься на всё, не очень уж жадничай;</blockquote>
+  <blockquote>баласын азалап бардык мы пошли выразить соболезнование по случаю смерти его сына.</blockquote>
+  <blockquote>айдарым какыр талаа безжизненная пустыня.</blockquote>
+  <blockquote>айдыңга салып кырман сапырдым я веял хлеб при лунном свете;</blockquote>
+
+[27] count=605
+source_len=2 | shapes=7-8 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>балаңды адамсынтып кой- заставить своего ребёнка привести себя в порядок (букв. в человеческий вид).</blockquote>
+  <blockquote>көзүңдү адыраңдатпа не таращи глаза.</blockquote>
+  <blockquote>эркинен ажыратылган лишённый свободы;</blockquote>
+  <blockquote>кишинин азгырыгына кирбе не слушайся чужих наущений.</blockquote>
+  <blockquote>азоттук семирткичтер азотные удобрения.</blockquote>
+
+[28] count=604
+source_len=3 | shapes=5-6 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абдан маакул киши весьма достойный человек;</blockquote>
+  <blockquote>ажалы жетти его смертный час пробил;</blockquote>
+  <blockquote>ажалы жетип өлдү он умер естественной смертью;</blockquote>
+  <blockquote>ажары жакшы или бет ажары жакшы у него здоровый цвет лица;</blockquote>
+  <blockquote>ажытын айырып бер разбери-ка, в чём тут суть;</blockquote>
+
+[29] count=567
+source_len=3 | shapes=5-6 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>согуш абалы военное положение;</blockquote>
+  <blockquote>катыны менен ажырашты он развёлся с женой.</blockquote>
+  <blockquote>азабын колго бергиле проучите его хорошенько.</blockquote>
+  <blockquote>айнек парда оконная занавеска;</blockquote>
+  <blockquote>тилин сунуп акактап высунув язык и учащённо дыша;</blockquote>
+
+[30] count=551
+source_len=3 | shapes=3-4 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>шиш абак особо строгая тюрьма (с пытками).</blockquote>
+  <blockquote>аган сөз бербей не давая ему говорить.</blockquote>
+  <blockquote>адаш жол ложная дорога (не та, по которой следует идти);</blockquote>
+  <blockquote>бул мага аздык кылат этого мне мало, этого мне недостаточно;</blockquote>
+  <blockquote>мага бир азыткы чыкты меня лукавый попутал;</blockquote>
+
+[31] count=532
+source_len=3 | shapes=5-6 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бычак далк кагып калыптыр нож заржавел;</blockquote>
+  <blockquote>агылес орок острый серп.</blockquote>
+  <blockquote>көркөм сөз адиси мастер художественного слова;</blockquote>
+  <blockquote>азанда или азаны менен рано утром;</blockquote>
+  <blockquote>эртең азыр болсун пусть он будет завтра готов;</blockquote>
+
+[32] count=520
+source_len=1 | shapes=5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аббали! вот это здорово!; вот это правильно!; вот молодец!</blockquote>
+  <blockquote>абдан өкүнүп каласыздар вы будете очень сожалеть.</blockquote>
+  <blockquote>энеке, бул кылганың адамчылык, жүрөгүң акак, бермет таштан тунук то, что ты, маменька, сделала, это гуманность, твоё сердце чище сердолика и жемчуга.</blockquote>
+  <blockquote>айдайт! тайгандарды коё бергиле! айдайт! ату! спускайте борзых! ату!</blockquote>
+  <blockquote>жогол! элден айлан! прочь! тебе не место среди народа!;</blockquote>
+
+[33] count=502
+source_len=2 | shapes=1-2 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>а береги вон тот;</blockquote>
+  <blockquote>эл аралык абал международное положение;</blockquote>
+  <blockquote>эң абалы прежде всего;</blockquote>
+  <blockquote>эл аралык авал международное положение;</blockquote>
+  <blockquote>ай арасы болуп турат погода стоит плохая;</blockquote>
+
+[34] count=484
+source_len=1 | shapes=3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айий, бетим курусун! эх, чтоб мне неладно было!</blockquote>
+  <blockquote>кой, айланайын, кой перестань, милый, перестань;</blockquote>
+  <blockquote>"айт!" десе, "ойт!" деген тот, кто на "айканье" отвечает "ойканьем" (паникёр);</blockquote>
+  <blockquote>биз өзүбүз бечара адамбыз..., а сиз айтылуу Жээренче чечен мы сами - бедные люди..., а вы - прославленный Джеренче-мудрец;</blockquote>
+  <blockquote>өзүн өзү актоо самооправдание;</blockquote>
+
+[35] count=468
+source_len=1 | shapes=7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абайсыз карматып салды получилось так, что он дал себя схватить; он не заметил, как его схватили.</blockquote>
+  <blockquote>абалдан или абалтан издавна, испокон веков.</blockquote>
+  <blockquote>абийири ачылды или абийири чачылды или абийири төгүлдү он посрамлён, он опозорен;</blockquote>
+  <blockquote>агарышып достошкондон кийин биротоло ажырашкыс бололу раз уж мы простили друг другу и подружились, будем же неразлучны.</blockquote>
+  <blockquote>айдарын тигип или айдарын салып злобно, зверем (взглянув);</blockquote>
+
+[36] count=446
+source_len=3 | shapes=3-4 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>көрө билбеген көздөн көрө, караңгы тамдын тешиги абзел лучше дыра в тёмной стене, чем глаз, который не может видеть.</blockquote>
+  <blockquote>атты шамалдан агылга жерге байлап кой привяжи лошадь там, куда не доходит ветер;</blockquote>
+  <blockquote>маа айдарын тигип турбайбы! да он на меня зверем смотрит!;</blockquote>
+  <blockquote>төрт баланын ачына айланып, тогуна толгонуп жүрө бердим я горевал, когда четверо моих детей были голодны, радовался, когда они были сыты;</blockquote>
+  <blockquote>үйдү актатып алалы давайте произведём побелку дома (напр. наняв кого-л.);</blockquote>
+
+[37] count=437
+source_len=3 | shapes=3-4 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абай менен үпчүлөп сделав завязки из материи абай;</blockquote>
+  <blockquote>таң агарып келатат наступает рассвет, светает.</blockquote>
+  <blockquote>айыл чарба адистери специалисты сельского хозяйства;</blockquote>
+  <blockquote>азиз конок дорогой гость;</blockquote>
+  <blockquote>сен, айбан, тилимди албадың ты, скотина, меня не послушался.</blockquote>
+
+[38] count=433
+source_len=2 | shapes=9+ / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>милдеттенмесин абийирдүүлүк менен орундатты он с честью выполнил своё обязательство.</blockquote>
+  <blockquote>макүрөөлүктөн адалдантып очистив от скверны;</blockquote>
+  <blockquote>өндүрүштөн ажыратпастан без отрыва от производства;</blockquote>
+  <blockquote>газетанын айрындысы обрывок газеты;</blockquote>
+  <blockquote>жоолуктун айрындылары лоскутки платка.</blockquote>
+
+[39] count=424
+source_len=3 | shapes=5-6 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>энеке, бул кылганың адамчылык, жүрөгүң акак, бермет таштан тунук то, что ты, маменька, сделала, это гуманность, твоё сердце чище сердолика и жемчуга.</blockquote>
+  <blockquote>айлык азык провизия на один месяц;</blockquote>
+  <blockquote>темир айры железные вилы;</blockquote>
+  <blockquote>"жакшы" деп айтарлык эмес нельзя сказать, чтобы было хорошо;</blockquote>
+  <blockquote>сөздү эки айттырып көрбөгөн Бермет ошол замат үйдөн чыкты Бермет, которая не привыкла, чтобы ей повторяли дважды, вышла из дому;</blockquote>
+
+[40] count=415
+source_len=3 | shapes=5-6 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аббали! вот это здорово!; вот это правильно!; вот молодец!</blockquote>
+  <blockquote>ажаты жок нет необходимости.</blockquote>
+  <blockquote>өзүңө азир бол следи за собой (а не за другими); на себя погляди.</blockquote>
+  <blockquote>ошону айт! вот это да!;</blockquote>
+  <blockquote>Саадат ага сөз айттырды. Айна көп ойлонгон жок, маакулдугун билгизди Саадат ей сделал предложение. Айна долго не раздумывала, дала своё согласие.</blockquote>
+
+[41] count=410
+source_len=3 | shapes=5-6 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>иштин агымына карата по ходу дела; в зависимости от хода дела;</blockquote>
+  <blockquote>койду адалдап келди он прирезал овцу чистой (т.е. по ритуалу).</blockquote>
+  <blockquote>айгине көрүнүп турат ясно виднеется;</blockquote>
+  <blockquote>ошону жаңылбай билип алганын айтсаң вот ведь удивление, как это он так точно запомнил!;</blockquote>
+  <blockquote>соттон акталып чыкты по суду оправдан.</blockquote>
+
+[42] count=408
+source_len=3 | shapes=7-8 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийири күлдөй чачылды он вконец опозорен;</blockquote>
+  <blockquote>азчылык добуш алгандар получившие меньшинство голосов;</blockquote>
+  <blockquote>акмалал жүрүп өлтүрдү выследив (подкравшись), он убил.</blockquote>
+  <blockquote>камчыны ээрдин актасына сайып койду он заткнул плеть под седло.</blockquote>
+  <blockquote>активдүү катнаш активное участие.</blockquote>
+
+[43] count=406
+source_len=3 | shapes=3-4 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азга или бир азга некоторое время, через некоторое время;</blockquote>
+  <blockquote>бир нече күн жаан жаап, эгин айдатпай келди несколько дней шёл дождь и не давал производить сев (пахать и сеять).</blockquote>
+  <blockquote>башы кара буту айры неме, ага теңелбей эле кой да он такой заурядный (букв. нечто с чёрной головой и раздвоенными ногами), по нему не равняйся;</blockquote>
+  <blockquote>айып этпе или айып көрбө не обессудь; извини; не вмени в вину;</blockquote>
+  <blockquote>өзүң эле бара койчу, кызыке пойди-ка, доченька, сама;</blockquote>
+
+[44] count=400
+source_len=2 | shapes=9++IH / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>далк-далк эткен жаман кыз неуклюжая дурная (непослушная, неряшливая) девушка.</blockquote>
+  <blockquote>бала-чака менен агарып көгөр желаю благоденствия тебе и твоему семейству;</blockquote>
+  <blockquote>адыр-чыбыр бугры и холмики; холмистая местность;</blockquote>
+  <blockquote>аздыр-көптүр много ли, мало ли (но всё же)...;</blockquote>
+  <blockquote>таң-азандан кайда барасың? куда ты идёшь в такую рань?</blockquote>
+
+[45] count=399
+source_len=2 | shapes=5-6 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажалы жетип өлдү он умер естественной смертью;</blockquote>
+  <blockquote>көөнүм айнып, жаным жер тартып турат я себя плохо чувствую, и мне хочется лечь (я могу упасть).</blockquote>
+  <blockquote>кагаз айрып, тамеки орой баштады оторвав бумаги, начал закручивать цигарку;</blockquote>
+  <blockquote>Түкөң, Каскең; кыкең (интимно-шутливое) киргизы;</blockquote>
+  <blockquote>Бүбүш келип, өзүнүн аксакалдык ордуна олтурду Бюбюш пришла и села на своё место аксакала;</blockquote>
+
+[46] count=394
+source_len=1 | shapes=7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>агрардык өлкө аграрная страна.</blockquote>
+  <blockquote>талаалар өз убагында айдалууга тийиш поля должны быть вспаханы своевременно.</blockquote>
+  <blockquote>айланып өтмө жол кружный путь, обходная дорога;</blockquote>
+  <blockquote>...айланып... толгонуп все радости и горести...;</blockquote>
+  <blockquote>айтпаса, төгүнбү? а разве неправда? а ведь именно так; как хочешь, но это так.</blockquote>
+
+[47] count=378
+source_len=1 | shapes=9++UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абстракттуу түрдө абстрактно.</blockquote>
+  <blockquote>адалдуудан түгү жок у него нет никакого скота;</blockquote>
+  <blockquote>адалдуудан түгү жоктун аялы да болбойт (в старом быту) у кого нет никакого скота, у того и жены не бывает.</blockquote>
+  <blockquote>ачуулангандан беш бетер Чаргынга аж этти разозлившись, он ещё сильнее гаркнул на Чаргына.</blockquote>
+  <blockquote>азгырылмалуу тот, кто поддаётся соблазну, совращению;</blockquote>
+
+[48] count=378
+source_len=3 | shapes=7-8 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажалсыз бенде жок все люди смертны.</blockquote>
+  <blockquote>сакалын сылап, бир азга кулак салып турду он некоторое время слушал, поглаживая бороду;</blockquote>
+  <blockquote>азырынча барбай тур ты пока не ходи;</blockquote>
+  <blockquote>айдарын тигип или айдарын салып злобно, зверем (взглянув);</blockquote>
+  <blockquote>тамактан башын алып подняв голову от пищи;</blockquote>
+
+[49] count=377
+source_len=3 | shapes=7-8 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азандагы аты Самтыр эмес, Сарыкул экен оказывается, его первоначальное имя не Самтыр, а Сарыкул (Самтыром его прозвали потом).</blockquote>
+  <blockquote>азоолок акча берип тур дай немного денег.</blockquote>
+  <blockquote>азынаган алат абышка несносный крикливый старик.</blockquote>
+  <blockquote>айнымай жок слово твёрдо, нельзя идти на попятный.</blockquote>
+  <blockquote>катынына акыл салды он посоветовался со своей женой;</blockquote>
+
+[50] count=370
+source_len=2 | shapes=1-2 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ит ажаалайт собака злобно рычит;</blockquote>
+  <blockquote>ал оозуңдан айлансын он не стоит того, чтобы ты тратил на него слова;</blockquote>
+  <blockquote>ал көрүнгөн кызга сөз айттыра бербейт он к первой встречной девушке свататься не станет;</blockquote>
+  <blockquote>ак жеринен кетти он невинно пострадал;</blockquote>
+  <blockquote>ак чачынын акиси действие его седин (к которым следует относиться с уважением);</blockquote>
+
+[51] count=365
+source_len=1 | shapes=7-8+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажалдуу каргадай болуп нежданно-негаданно;</blockquote>
+  <blockquote>ажалдуу каргадай болуп, мага жолугуп калдың вот как удачно ты мне встретился (я тебя не искал, но ты мне очень нужен).</blockquote>
+  <blockquote>ажырашуу жөнүндө иш козгойт он возбуждает дело о разводе.</blockquote>
+  <blockquote>азуулуу аска искала с остриями.</blockquote>
+  <blockquote>айдалуу малыбыз наш скот (скот, который мы гоним);</blockquote>
+
+[52] count=355
+source_len=2 | shapes=1-2 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>а көрө муну сүйлөйлүчү вместо того (лучше) поговорим об этом;</blockquote>
+  <blockquote>а эмне дедиңер? вы что ему сказали?</blockquote>
+  <blockquote>а сен эмне үчүн кетпей отурасың? а ты почему сидишь и не уходишь?</blockquote>
+  <blockquote>ах сен болсоң... а что касается тебя...; а ты...;</blockquote>
+  <blockquote>эр Агыш богатырь Агыш (имя склонного к любовным похождениям эпического богатыря, который ростом был очень мал);</blockquote>
+
+[53] count=342
+source_len=3 | shapes=5-6 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абалы жаман он в скверном положении;</blockquote>
+  <blockquote>абалак мурун с приплюснутым носом;</blockquote>
+  <blockquote>башым адашты у меня голова кругом пошла, я растерялся.</blockquote>
+  <blockquote>адепки убакта в первое время.</blockquote>
+  <blockquote>айласы куруду у него нет никакого выхода; он совершенно растерялся; он совершенно обессилел;</blockquote>
+
+[54] count=339
+source_len=3 | shapes=9+ / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адамгерчиликке салып ойлоп көрчү обдумай-ка ты по-человечески.</blockquote>
+  <blockquote>ажылдаган жорго резвый иноходец.</blockquote>
+  <blockquote>көзүбүздүн карасы менен тең айланып турат он делает всё, чего мы ни пожелаем; он находится целиком под нашим влиянием;</blockquote>
+  <blockquote>айланчыктап басып турду он ходил вокруг;</blockquote>
+  <blockquote>киричмесин айнек аягына куюп, алдыма коёт наливает он своей браги в стеклянную посуду и ставит предо мной;</blockquote>
+
+[55] count=322
+source_len=2 | shapes=3-4 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абай менен үпчүлөп сделав завязки из материи абай;</blockquote>
+  <blockquote>азар болсо, жүздү жашарсың самое большее проживёшь сто (лет);</blockquote>
+  <blockquote>азар болсо, элүү сом самое большее - пятьдесят рублей.</blockquote>
+  <blockquote>айла канча! что ж поделаешь!; ничего не поделаешь!;</blockquote>
+  <blockquote>кап берсем, айрышып салыптыр дал я им мешок, а они его разодрали;</blockquote>
+
+[56] count=319
+source_len=3 | shapes=3-4 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>сен айдактын ити эмей, ким айдактын ити? если не ты, так кто же собака загонщика?</blockquote>
+  <blockquote>жыл айланбай эле не прошло и года (как...);</blockquote>
+  <blockquote>мен иштеймин сен айнытпа я буду работать, ты не отвлекай.</blockquote>
+  <blockquote>бир айтканын миң айтып зарядив одно и то же, без конца повторяя одно и то же;</blockquote>
+  <blockquote>алда качандан бери сага айтпадым беле? а разве я тебе давным-давно не говорил?</blockquote>
+
+[57] count=316
+source_len=1 | shapes=5-6+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>суунун агымына карай вниз по течению;</blockquote>
+  <blockquote>суунун агынын көздөй вниз по течению;</blockquote>
+  <blockquote>сууга кеткен агындыдай толкундан толкунга урунуп алас уруп он отчаянно барахтается, попадая то в одну волну, то в другую, подобно уносимому водой;</blockquote>
+  <blockquote>буудай айдалынды пшеница посеяна.</blockquote>
+  <blockquote>айлуу түн лунная ночь;</blockquote>
+
+[58] count=308
+source_len=2 | shapes=9++IH / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажары-абийири бар киши авторитетный, уважаемый человек; обаятельный человек.</blockquote>
+  <blockquote>азын-көбүн или көбүн-азын немного, до некоторой степени; сколько полагается;</blockquote>
+  <blockquote>азып-тозуп жок болду разлетелось в пух и в прах; разбрелись по миру;</blockquote>
+  <blockquote>азап-тозок мука мученская;</blockquote>
+  <blockquote>аздырып-тоздуруп, жок кылды он разогнал (всех) во все стороны; он разбил (всех) в пух и в прах и разогнал.</blockquote>
+
+[59] count=289
+source_len=3 | shapes=7-8 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айдоодо жүргөндө когда он был в изгнании, когда он был в ссылке;</blockquote>
+  <blockquote>короодон айкырып чыкты он с криком вышел со двора;</blockquote>
+  <blockquote>алкыштан айлансын! какая там ему благодарность!;</blockquote>
+  <blockquote>атасынын акисине калды он понёс возмездие за своего отца (о неблагодарном сыне, неблагодарной дочери);</blockquote>
+  <blockquote>алактап жүгүрүп чыкты он выбежал, пугливо озираясь.</blockquote>
+
+[60] count=279
+source_len=3 | shapes=3-4 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бул бала ааламга татыйт этот паренёк мировой;</blockquote>
+  <blockquote>ада бол! пропади ты!;</blockquote>
+  <blockquote>жел анын беттерин аймалап, чачтарын сеңселтет ветер, овевая его лицо, треплет волосы.</blockquote>
+  <blockquote>"бали" деп айтарлык иш аткарбады он не выполнил дело так, чтобы можно было сказать "хорошо";</blockquote>
+  <blockquote>экис адам упрямый человек.</blockquote>
+
+[61] count=279
+source_len=3 | shapes=5-6 / 5-6 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абайы көпчүк подстилка на седло из материи абайы;</blockquote>
+  <blockquote>кызмат абалы служебное положение;</blockquote>
+  <blockquote>абдан өкүнүп каласыздар вы будете очень сожалеть.</blockquote>
+  <blockquote>айдың талаа безлюдная ровная степь.</blockquote>
+  <blockquote>ээрдин актасы свободное пространство между нижней частью седла и спиной коня;</blockquote>
+
+[62] count=267
+source_len=3 | shapes=7-8 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абалдан или абалтан издавна, испокон веков.</blockquote>
+  <blockquote>агрардык өлкө аграрная страна.</blockquote>
+  <blockquote>адымдап алга жөнөйлү двинемся быстрым шагом вперёд.</blockquote>
+  <blockquote>айланабы или айлансын далеко не...; куда ему;</blockquote>
+  <blockquote>айланма жол кружный путь;</blockquote>
+
+[63] count=267
+source_len=1 | shapes=9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абийирибиз жабылды мы не уронили своего достоинства; мы избежали позора;</blockquote>
+  <blockquote>абсолюттук чындык или абсолюттук акыйкат абсолютная истина;</blockquote>
+  <blockquote>адатындай или адатынча (он) по своему обыкновению, по своей привычке;</blockquote>
+  <blockquote>ажылдашып жакын келтиришпеди они с руганью набросились и даже близко (к себе) не подпустили.</blockquote>
+  <blockquote>айтпаганды айт- ругать всякими неприличными словами (букв. говорить то, чего не говорят);</blockquote>
+
+[64] count=259
+source_len=1 | shapes=9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>тынчтангыла, агайиндер! успокойтесь (потише, не шумите), друзья!</blockquote>
+  <blockquote>айдалаган үн чыкты послышался крик "айда!" (видимо, кто-то окрикивает стадо).</blockquote>
+  <blockquote>айланганы... бы? за каким чёртом? чёрт дёрнул!;</blockquote>
+  <blockquote>айнектелген үй дом с застеклёнными окнами.</blockquote>
+  <blockquote>акчыланып, күн мурун келиптир он пришёл заблаговременно и начал уверять в своей правоте;</blockquote>
+
+[65] count=258
+source_len=2 | shapes=3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</blockquote>
+  <blockquote>абай үртүк жаптырган или абай менен жаптырган он покрыл (коня) дорогой попоной.</blockquote>
+  <blockquote>бир аздан или бир аздан соң или бир аздан кийин через некоторое время, немного времени спустя;</blockquote>
+  <blockquote>азар болсо самое большее, в лучшем или в худшем случае;</blockquote>
+  <blockquote>мени акмак кылды или (менин) акмагымды чыгарды он меня одурачил;</blockquote>
+
+[66] count=257
+source_len=3 | shapes=3-4 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адам баласы аа эмне дебес! что (только) человек не скажет об этом!</blockquote>
+  <blockquote>бек абзел иш болду получилось превосходно;</blockquote>
+  <blockquote>азыр келдим я только что пришёл;</blockquote>
+  <blockquote>сөз менен иш айкалышкан жерде там, где слово не расходится (букв. сочетается) с делом.</blockquote>
+  <blockquote>акым кетти я упустил своё;</blockquote>
+
+[67] count=257
+source_len=3 | shapes=7-8 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>акылынан адашты он сбился с толку;</blockquote>
+  <blockquote>ажылдай берет он болтает без умолку;</blockquote>
+  <blockquote>мүрзөдөн айлан ты не стоишь могилы (твой труп нужно выбросить и т.п.);</blockquote>
+  <blockquote>алаксып калдым я не обратил внимания; моё внимание было отвлечено другим;</blockquote>
+  <blockquote>алдындап келген ат лошадь, пришедшая первой (на скачках).</blockquote>
+
+[68] count=253
+source_len=2 | shapes=9++IH / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адыр-күдүр покрытый буграми и ямами;</blockquote>
+  <blockquote>азын-көбүн ызаттап оказав некоторый почёт;</blockquote>
+  <blockquote>азган-тозгон голодный и холодный, вконец изнемогший;</blockquote>
+  <blockquote>ай-ааламды кыдырды он исколесил весь мир;</blockquote>
+  <blockquote>айсал-буйсал кылгыча келип калдың мы не успели повернуться, а ты уж пришёл;</blockquote>
+
+[69] count=245
+source_len=3 | shapes=5-6 / 7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>колун майлыкка аарчынып вытерев свои руки полотенцем.</blockquote>
+  <blockquote>сенден ажырагым келбейт я не хочу разлучаться с тобой;</blockquote>
+  <blockquote>өңүнөн аздырып жиберген он его довёл до истощения;</blockquote>
+  <blockquote>айдоо аянттары посевные площади;</blockquote>
+  <blockquote>тилдеп айласын кетирди он его разругал в пух и в прах (поставил его в безвыходное положение);</blockquote>
+
+[70] count=244
+source_len=1 | shapes=3-4+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>суу мекен аласта- обдавать (голову больного) паром;</blockquote>
+  <blockquote>аруу кыз миловидная девушка;</blockquote>
+  <blockquote>аруу буюм ценные вещи (одежда, украшения, утварь и т.п.);</blockquote>
+  <blockquote>аруу буюмдары көп у него много драгоценностей;</blockquote>
+  <blockquote>аруу чапан кийгизиптир он одарил дорогим халатом.</blockquote>
+
+[71] count=239
+source_len=3 | shapes=7-8 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айланып өтмө жол кружный путь, обходная дорога;</blockquote>
+  <blockquote>айнектүү там дом с застеклёнными окнами.</blockquote>
+  <blockquote>акчаамай эти бар бээ кобыла ниже средней упитанности;</blockquote>
+  <blockquote>акылыңа түшө көр постарайся одуматься;</blockquote>
+  <blockquote>аламанды көп алып захватив много добычи;</blockquote>
+
+[72] count=236
+source_len=3 | shapes=7-8 / 5-6 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адамзат коому человеческое общество;</blockquote>
+  <blockquote>айлампаш болуп калгансың у тебя голова заморочена;</blockquote>
+  <blockquote>акыйкат бүтүм справедливое решение (судебное).</blockquote>
+  <blockquote>алпейим заман благодатные времена (когда народ живёт в мире и полном достатке).</blockquote>
+  <blockquote>аңчылык турмуш охотничий быт;</blockquote>
+
+[73] count=236
+source_len=3 | shapes=3-4 / 7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мен Нарынга барайын десем, ал мени айнытып койду хотел я поехать в Нарын, (но) он меня отговорил;</blockquote>
+  <blockquote>баш айрышкан төбөлөш болду такая была драка, что головы трещали.</blockquote>
+  <blockquote>аман алдыңбы? получил ли ты в целости и невредимости?</blockquote>
+  <blockquote>арка кыргызы северные киргизы (название осталось от времён ойратского нашествия, когда киргизы массой двинулись на юг);</blockquote>
+  <blockquote>аты аталган шаарлар поименованные города.</blockquote>
+
+[74] count=234
+source_len=2 | shapes=5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>жерди айдап бүткөндөн кийин агет тартып (или салып) коёт после того, как кончат пахать землю, копают грядки.</blockquote>
+  <blockquote>ажары жакшы или бет ажары жакшы у него здоровый цвет лица;</blockquote>
+  <blockquote>азыркы убакта или азыркы күндө в настоящее время.</blockquote>
+  <blockquote>кичине айбар кылып алайын (это) возьму я себе в качестве маленькой опоры (или защиты, или для острастки);</blockquote>
+  <blockquote>доңуз айбат или чочко айбат показная храбрость.</blockquote>
+
+[75] count=232
+source_len=3 | shapes=5-6 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айына жыйырма беш сомдон по двадцать пять рублей в месяц;</blockquote>
+  <blockquote>быйыл айныкса күн ысык в этом году погода особенно жаркая.</blockquote>
+  <blockquote>капты айрышып кой возьмись за край мешка и помоги держать его открытым (чтобы можно было в него сыпать что-л.);</blockquote>
+  <blockquote>алакан көрүүчү или алакан ачуучу хиромант;</blockquote>
+  <blockquote>аракка алдырган киши спившийся человек;</blockquote>
+
+[76] count=228
+source_len=3 | shapes=3-4 / 5-6 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>эрте туруп адаттандым я привык вставать рано.</blockquote>
+  <blockquote>азар түмөн несметное число;</blockquote>
+  <blockquote>кара айдоо свежевспаханное поле;</blockquote>
+  <blockquote>сөз кайсы маселенин айланасында болду? вокруг какого вопроса были разговоры?</blockquote>
+  <blockquote>ооз айыбы взыскание за оскорбление словом;</blockquote>
+
+[77] count=225
+source_len=2 | shapes=5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бирок а Темирдин көзү жетти но Темир понял это;</blockquote>
+  <blockquote>булар да абийирсиз атасынын жолуна түшүшкөнү өкүнүчтүү печально, что они пошли по пути своего бесчестного отца.</blockquote>
+  <blockquote>жаман да болсо айбары бар у него всё-таки кое-какая опора есть;</blockquote>
+  <blockquote>убада иш менен айкалышты обешание сочеталось с делом;</blockquote>
+  <blockquote>көөну ак бесхитростный, честный;</blockquote>
+
+[78] count=223
+source_len=1 | shapes=9++IH | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абыр-шабыр или абыр-дабыр или абырдан-шабыр быстро, проворно;</blockquote>
+  <blockquote>азын-көбүн или көбүн-азын немного, до некоторой степени; сколько полагается;</blockquote>
+  <blockquote>айыл-айыл жылда жайлачу айрыктардан конуш алышкан расположились аулами по горным ложбинам, где обычно летовали каждый год.</blockquote>
+  <blockquote>айсал-буйсал кылгыча или айсал-буйсал кылбастан вмиг; не успеешь оглянуться, как...;</blockquote>
+  <blockquote>айтып-айтпай не пайда или айтып-айтпай не керек или айтып-айтпай пайда жок словами не поможешь; говори не говори, а уж...;</blockquote>
+
+[79] count=223
+source_len=2 | shapes=7-8 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>сакалын сылап, бир азга кулак салып турду он некоторое время слушал, поглаживая бороду;</blockquote>
+  <blockquote>акмалал жүрүп өлтүрдү выследив (подкравшись), он убил.</blockquote>
+  <blockquote>кыпкызыл болуп, ушундай бир акшыңдады... он так покраснел и рассвирепел...;</blockquote>
+  <blockquote>бирөөнүн үйүндө өз үйүндөй алчаңдайт в чужом доме он ведёт себя так же вольно, как в своём.</blockquote>
+  <blockquote>анткениң анткен... так-то ты так (но...);</blockquote>
+
+[80] count=220
+source_len=3 | shapes=5-6 / 3-4 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адабий тил литературный язык.</blockquote>
+  <blockquote>достук азил дружеский шарж.</blockquote>
+  <blockquote>айсыз түн безлунная ночь.</blockquote>
+  <blockquote>сенин чоң айылдыгың калган твоя власть кончилась.</blockquote>
+  <blockquote>жүрүшү өзүн башкалардан айырмалап турат походка отличает его от других.</blockquote>
+
+[81] count=209
+source_len=3 | shapes=5-6 / 9+ / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айрым бригадалар боюнча по отдельным бригадам;</blockquote>
+  <blockquote>айтып түгөткүсүз түрдө кубанышты они несказанно обрадовались;</blockquote>
+  <blockquote>экөөн айтыштырып койдуң ты их двоих стравил, посеял между ними вражду;</blockquote>
+  <blockquote>экөөн акылаштырып, акысын алып бер помоги им произвести взаимные расчёты.</blockquote>
+  <blockquote>жорго, алабармандап, жакшы салбай койду иноходец бежал неровно, срывая.</blockquote>
+
+[82] count=207
+source_len=3 | shapes=9+ / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийириңди жап опусти подол; прикрой срам.</blockquote>
+  <blockquote>адыраңдап чаап жүрөт он весело скачет (на коне).</blockquote>
+  <blockquote>айландыра эки жакты карап туруп оглядываясь вокруг, посматривая то туда, то сюда;</blockquote>
+  <blockquote>жумуртканын агы белок яйца;</blockquote>
+  <blockquote>акчыланып, күн мурун келиптир он пришёл заблаговременно и начал уверять в своей правоте;</blockquote>
+
+[83] count=205
+source_len=2 | shapes=7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адетинче по своему обычаю; по своей привычке; по своему обыкновению;</blockquote>
+  <blockquote>адетинче аң уулап чыгып кетти по своему обыкновению он отправился на охоту.</blockquote>
+  <blockquote>арасына от жагып ажырата албайсың их водой не разольёшь (букв. их не сможешь разлучить, если даже между ними огонь разведёшь);</blockquote>
+  <blockquote>өлөрүнө аз калды он близок к смерти;</blockquote>
+  <blockquote>азандагы ат первое, первоначально данное (мальчику) имя (наречение имени мальчику сопровождалось возглашением азана);</blockquote>
+
+[84] count=204
+source_len=2 | shapes=9+ / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жайлоодогу эл жапырылып жакага карай агылды всё бывшее на летовке население двинулось вниз к предгорьям;</blockquote>
+  <blockquote>айдалаган үн чыкты послышался крик "айда!" (видимо, кто-то окрикивает стадо).</blockquote>
+  <blockquote>айласыздан в силу необходимости, поневоле;</blockquote>
+  <blockquote>айнектелген үй дом с застеклёнными окнами.</blockquote>
+  <blockquote>акылаштык мы рассчитались (каждый из нас взял с другого то, что ему причиталось);</blockquote>
+
+[85] count=204
+source_len=4 | shapes=5-6 / 5-6 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>алтын аймак чакмак бөрүк шапка, богато украшенная золотым аймак'ом.</blockquote>
+  <blockquote>ээрдин арткы актасы задняя часть свободного пространства между нижней частью седла и спиной коня;</blockquote>
+  <blockquote>акыйып тамак андып отурат он сидит и жадно ждёт еды.</blockquote>
+  <blockquote>алдакы түрүң менен кантип конокко барасың? как ты в таком виде в гости идёшь?</blockquote>
+  <blockquote>алеки саатта барып келди он быстро пошёл и вернулся.</blockquote>
+
+[86] count=202
+source_len=1 | shapes=7-8+IH | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ал-абалы кандай? как он себя чувствует?, как он поживает?</blockquote>
+  <blockquote>аз-аздап понемногу, постепенно;</blockquote>
+  <blockquote>ай-буйга көнсүнбү! да разве он послушается увещеваний (где там) !;</blockquote>
+  <blockquote>ай-аалам весь мир, вселенная;</blockquote>
+  <blockquote>ай-аалам мүлктүн баары все богатства мира;</blockquote>
+
+[87] count=198
+source_len=2 | shapes=5-6 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айдар кел! айдар кел! повей, ветерок!, повей, ветерок! (призыв ветра на току).</blockquote>
+  <blockquote>ошону айт! вот это да!;</blockquote>
+  <blockquote>оюнчу деп, ошону айт! вот так игрок!;</blockquote>
+  <blockquote>ахыры южн. наконец; в конце концов;</blockquote>
+  <blockquote>алдакы эмне? что это такое?</blockquote>
+
+[88] count=193
+source_len=2 | shapes=3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ава ям деймиз, ага ям деймиз, әкә йэм деймиз (старшего брата) мы называем и ава, и ага, и әкә.</blockquote>
+  <blockquote>ишиң ак дело твоё правое;</blockquote>
+  <blockquote>мени ак жерден өлтүрсөң, өлтүр если хочешь убить меня, убей, но я прав;</blockquote>
+  <blockquote>коке (от коён) заинька;</blockquote>
+  <blockquote>бөкө (от бөрү) волчонок;</blockquote>
+
+[89] count=193
+source_len=4 | shapes=5-6 / 5-6 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азыркы убакта или азыркы күндө в настоящее время.</blockquote>
+  <blockquote>доңуз айбат или чочко айбат показная храбрость.</blockquote>
+  <blockquote>"алдым кулду" деп, сайды он пронзил (копьём), сказав "я победил" (в поединке);</blockquote>
+  <blockquote>алеки саатта или алеки заматта быстро, моментально;</blockquote>
+  <blockquote>бүгүн кечке бала менен арпалыштым я сегодня до вечера (целый день) возился с ребёнком;</blockquote>
+
+[90] count=188
+source_len=2 | shapes=3-4 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аны асынатып, кишинетип жүрөмбү? (что ж) я и буду возиться (с жеребцами), когда они ржут?</blockquote>
+  <blockquote>өңүн албыртып, бат-бат дем алып жатат (больной) лежит с раскрасневшимся лицом и учащённо дышит.</blockquote>
+  <blockquote>аман алдыңбы? получил ли ты в целости и невредимости?</blockquote>
+  <blockquote>анан кантейин! ну, а то!;</blockquote>
+  <blockquote>апат айдагыр! проклятие по адресу крупного рогатого скота.</blockquote>
+
+[91] count=185
+source_len=2 | shapes=3-4 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ада бол! пропади ты!;</blockquote>
+  <blockquote>айи сени! я ж вот тебя!, ух ты!;</blockquote>
+  <blockquote>"айт!" десе, "ойт!" деген тот, кто на "айканье" отвечает "ойканьем" (паникёр);</blockquote>
+  <blockquote>арак ичип, албууттанган он выпил водки и разбушевался;</blockquote>
+  <blockquote>аман бол! будь здоров!;</blockquote>
+
+[92] count=183
+source_len=3 | shapes=9+ / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>колхоздун бүтүн аймагын кайтарган киши человек, охраняющий всю территорию колхоза;</blockquote>
+  <blockquote>тебетейин аңтара кийгизип салган он показал что-л. в извращённом виде (букв. он надел кому-л. шапку навыворот).</blockquote>
+  <blockquote>аскердикке чейин мугалим элем до военной службы я был учителем;</blockquote>
+  <blockquote>...катарында сөзсүз баалоого мүмкүн (это) можно оценить наравне с...</blockquote>
+  <blockquote>бабаларынын жолун жолдойт он идёт по стопам своих предков;</blockquote>
+
+[93] count=182
+source_len=4 | shapes=3-4 / 5-6 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажы бедел замена хаджа каким-л. другим богоугодным делом (человек, сделавший это, тоже становится хаджи).</blockquote>
+  <blockquote>үйдү эртең актап алалы давайте завтра побелим дом;</blockquote>
+  <blockquote>аны менен бирге вместе с ним; вместе с тем; одновременно с тем;</blockquote>
+  <blockquote>кол арага жарап калды уже подрос (подросла) немного, уже может кое в чём помогать (о мальчике, девочке);</blockquote>
+  <blockquote>эки араам болуп урушту они дрались, разделившись на две группы.</blockquote>
+
+[94] count=181
+source_len=4 | shapes=5-6 / 5-6 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абалап чыккан иттер да жок (такая тишина, что) нет даже собаки, которая бы выскочила с лаем.</blockquote>
+  <blockquote>андан абийир кеткен он совесть потерял, он обнаглел;</blockquote>
+  <blockquote>алагды болуп турам у меня мысли раздваиваются; я не могу сосредоточиться;</blockquote>
+  <blockquote>аманат байлап койгон он кое-как (не крепко) привязал;</blockquote>
+  <blockquote>аңырып карап калды он тоскливо и растерянно смотрит;</blockquote>
+
+[95] count=180
+source_len=1 | shapes=5-6 | remainder_start=rus_lower | has_wordLink=1 | rem_meta=0 | rem_origin=0 | rem_linkkw=1 | rem_ili=0
+  <blockquote>абыгер чектир- понуд. от <wordLink word="абыгер"/> чек- причинять хлопоты, наделать хлопот, утруждать; причинять мучения.</blockquote>
+  <blockquote>жылкы асыйында азуу саят у коня на пятом году вырастает клык (см. <wordLink word="асый"/>);</blockquote>
+  <blockquote>бирдин айындай чоюл- см. <wordLink word="чоюл-"/>;</blockquote>
+  <blockquote>аксак сары ат см. <wordLink word="сары" homonym="I"/>.</blockquote>
+  <blockquote>алдына түш-, алды үстүнө түш- см. <wordLink word="түш-" homonym="III"/>;</blockquote>
+
+[96] count=179
+source_len=4 | shapes=3-4 / 5-6 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азар болсо, элүү сом самое большее - пятьдесят рублей.</blockquote>
+  <blockquote>мына балит сөз..., мына айникейлик! вот гнусные слова..., вот отступничество!</blockquote>
+  <blockquote>айта берсе, сөзү көп тут много можно сказать; всего не перескажешь;</blockquote>
+  <blockquote>акча барда алып кал получи деньги, пока они есть; купи, пока у тебя есть деньги (пользуйся случаем);</blockquote>
+  <blockquote>кур алакан или куру алакан с пустыми руками; ни с чем;</blockquote>
+
+[97] count=179
+source_len=3 | shapes=3-4 / 9+ / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>эми айкынданып отурат теперь становится ясным, теперь выясняется.</blockquote>
+  <blockquote>жер айлангансыйт будто земля кругом идёт (при головокружении, опьянении и т.п.).</blockquote>
+  <blockquote>мени айландырып турат он что-то (подозрительно) ходит вокруг меня (с каким-то нехорошим намерением);</blockquote>
+  <blockquote>баш айландыргыч нерсе головоломка;</blockquote>
+  <blockquote>атты алчактатып пустив коня бодрым шагом;</blockquote>
+
+[98] count=177
+source_len=1 | shapes=1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>ар иштин адисин билиш керек к каждому делу нужен подход;</blockquote>
+  <blockquote>ал да аз келгенсип или мунусу да аз келгенсип или анысы да аз келгенсип мало того, что..., но ещё и...; считая, что даже и этого как будто мало;</blockquote>
+  <blockquote>ай жамал или ай жамалдуу или толгон айдай луноподобная;</blockquote>
+  <blockquote>ай тийгендей сарала или ай сарала (о масти коня) булано-пегий с большими белыми пятнами;</blockquote>
+  <blockquote>ит айгышып калды собаки сцепились так, что их не разнять;</blockquote>
+
+[99] count=176
+source_len=4 | shapes=3-4 / 5-6 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>сүт ичимди алып кетти у меня от молока расстроился желудок (букв. молоко расстроило мне желудок);</blockquote>
+  <blockquote>ала койдой союп избив до полусмерти;</blockquote>
+  <blockquote>эчен албан доор болгон бывали разные времена;</blockquote>
+  <blockquote>сары алтын или кызыл алтын чистое золото;</blockquote>
+  <blockquote>бул анасы, бул баласы это мать, а это дитя (в жаргоне маклеров мать - основная цифра, а дитя - более мелкая единица, например: 100 - мать, а 15 - дитя, т.е. 115);</blockquote>
+
+[100] count=175
+source_len=3 | shapes=9+ / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абсолюттук чындык или абсолюттук акыйкат абсолютная истина;</blockquote>
+  <blockquote>агайындар (часто как обращение) друзья; люди, состоящие в близких отношениях;</blockquote>
+  <blockquote>актанганы менен иши кара он оправдывается, а всё же виновен.</blockquote>
+  <blockquote>албарстынын амалы кырк түйүнчөктө түйүлүү болот дечү эле рассказывали, что проделки албарсты завязаны в сорока узелочках.</blockquote>
+  <blockquote>алымсынарлык абалда эмес в неудовлетворительном состоянии.</blockquote>
+
+[101] count=175
+source_len=2 | shapes=3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>айга колу жеткендей (он ведёт или чувствует себя так) будто он превыше всех и всего (букв. будто рука его луны достигла);</blockquote>
+  <blockquote>айып этпе или айып көрбө не обессудь; извини; не вмени в вину;</blockquote>
+  <blockquote>көк ала сакал или ак ала (или агала) сакал борода с проседью;</blockquote>
+  <blockquote>­ден ары кой- или -ден ары сал- дать по... (ударить);</blockquote>
+  <blockquote>алты арыш или төрт арыш все страны света;</blockquote>
+
+[102] count=173
+source_len=3 | shapes=7-8 / 7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>темирдин далкысы ржавчина на железе;</blockquote>
+  <blockquote>ааламга белгилүү всемирно известный;</blockquote>
+  <blockquote>айбандар дүйнөсү животный мир;</blockquote>
+  <blockquote>кызылча айдоочу райондор свеклосеющие районы.</blockquote>
+  <blockquote>абийири айрандай төгүлдү он вконец опозорен, он обесчещен.</blockquote>
+
+[103] count=173
+source_len=3 | shapes=5-6 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абалкы заманда в прежние времена;</blockquote>
+  <blockquote>жолдон адаштым я сбился с пути;</blockquote>
+  <blockquote>адепки жылдарда в первые годы;</blockquote>
+  <blockquote>уруша кетүүгө аз эле жерден калдым я чуть было не подрался;</blockquote>
+  <blockquote>азабым тарттың ты мучился из-за меня;</blockquote>
+
+[104] count=173
+source_len=2 | shapes=5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>акиси урат сени ты будешь за это (за то, за него) наказан (богом - за оскорбление святыни, великого или просто уважаемого человека и т.д.);</blockquote>
+  <blockquote>анысы аны менен бүтсүн или анысы ал болсун или ал - ал болсун допустим, что это так (но...); ладно, пусть это будет так (но-...);</blockquote>
+  <blockquote>тилине алы жетпейт или оозуна алы жетпейт он невоздержан на язык;</blockquote>
+  <blockquote>төшүнө бир карап алып взглянув на его (или на свою) грудь;</blockquote>
+  <blockquote>алагар көз или алагай көз соотв. поэт. ясные очи (о красивых, больших глазах);</blockquote>
+
+[105] count=170
+source_len=3 | shapes=7-8 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>Дунайдын агымынын орто чениндеги жерлер земли по среднему течению Дуная;</blockquote>
+  <blockquote>напсиси агытылды его обуяла жадность.</blockquote>
+  <blockquote>ордунан жылмагы - азап он на подъём тяжёл;</blockquote>
+  <blockquote>колуңан келбеген ишке айланганы бардыңбы? чёрт тебя дёрнул пойти на работу, с которой ты справиться не можешь!;</blockquote>
+  <blockquote>Күмүштүн көзүнүн агы менен тең айланган жигиттер парни, готовые на всё для (девушки) Кюмюш;</blockquote>
+
+[106] count=170
+source_len=4 | shapes=5-6 / 5-6 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажысы кабыл болду его хадж принят (богом); он (паломник) умер в Мекке;</blockquote>
+  <blockquote>сенин айыңан далай тил уктум из-за тебя я много слышал упрёков;</blockquote>
+  <blockquote>көөнүм айнып, жаным жер тартып турат я себя плохо чувствую, и мне хочется лечь (я могу упасть).</blockquote>
+  <blockquote>кагаз айрып, тамеки орой баштады оторвав бумаги, начал закручивать цигарку;</blockquote>
+  <blockquote>кымыз ичкин, андан ичиң бузулбайт пей кумыс, от этого желудок не расстроится;</blockquote>
+
+[107] count=169
+source_len=4 | shapes=7-8 / 5-6 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>напсиңди агыта бербе не зарься на всё, не очень уж жадничай;</blockquote>
+  <blockquote>баласын азалап бардык мы пошли выразить соболезнование по случаю смерти его сына.</blockquote>
+  <blockquote>жылкыны айырып калды он отбил лошадей;</blockquote>
+  <blockquote>энесинин сүтүн актады он проявил заботу о своей матери;</blockquote>
+  <blockquote>акылдап шашып жүрөт он что-то растерянно мечется;</blockquote>
+
+[108] count=169
+source_len=1 | shapes=1-2 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ай, таң ой, не знаю;</blockquote>
+  <blockquote>ай, Айша! эй, Айша!;</blockquote>
+  <blockquote>ай! кимсиң-ай? эй! кто ты? эй! кто там?</blockquote>
+  <blockquote>а, айрөк! кандай ишиң? (злорадный вопрос) ну, как твои дела? что, делишки-то у тебя не ахти?</blockquote>
+  <blockquote>чу, айт! ну, пошёл!, но! (возглас, которым понукают коня);</blockquote>
+
+[109] count=167
+source_len=3 | shapes=3-4 / 3-4 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бир ишке алагдыланып задержавшись по какому-то делу.</blockquote>
+  <blockquote>алда эмне неизвестно что, невесть что;</blockquote>
+  <blockquote>беш анжы разделившийся на пять, идущий в пять разных сторон;</blockquote>
+  <blockquote>аска таш вздымающаяся скала.</blockquote>
+  <blockquote>асма жол подвесная дорога;</blockquote>
+
+[110] count=165
+source_len=3 | shapes=1-2 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>эң абалы прежде всего;</blockquote>
+  <blockquote>ай арасы болуп турат погода стоит плохая;</blockquote>
+  <blockquote>ай тийген жердин баарысы подлунная (весь мир);</blockquote>
+  <blockquote>а, айрөк! кандай ишиң? (злорадный вопрос) ну, как твои дела? что, делишки-то у тебя не ахти?</blockquote>
+  <blockquote>ак дөбөт белый кобель;</blockquote>
+
+[111] count=161
+source_len=4 | shapes=3-4 / 5-6 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>таң агарып аткан жок рассвет ещё не забрезжил;</blockquote>
+  <blockquote>ишим акпай калды мне не удалось; мне не повезло;</blockquote>
+  <blockquote>ара конуп барчу жер двухдневное расстояние (расстояние, которое можно покрыть, переночевав раз в пути);</blockquote>
+  <blockquote>как эткен карга, арс эткен ит жок ни единого живого существа (букв. нет ни каркающей вороны, ни лающей собаки).</blockquote>
+  <blockquote>ары жыгыл десең, бери жыгылат ему говоришь одно, а он делает другое (букв. если скажешь "упади дальше", он упадёт ближе);</blockquote>
+
+[112] count=160
+source_len=3 | shapes=5-6 / 9+ / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>заман агымындагы сөз разговор о текущих событиях;</blockquote>
+  <blockquote>жүрөк айландыргыч жыт тошнотворный запах.</blockquote>
+  <blockquote>айтору, билгениңди кыла бер одним словом, делай как хочешь.</blockquote>
+  <blockquote>баланы айылчылатып кел свези парнишку в чужой аул (в гости).</blockquote>
+  <blockquote>койду акырындатып жай паси овец, давая им возможность медленно передвигаться.</blockquote>
+
+[113] count=156
+source_len=3 | shapes=3-4 / 7-8 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айыл арасында абажаарып турган эл народ, столпившийся среди аула;</blockquote>
+  <blockquote>адил тынчтык справедливый мир.</blockquote>
+  <blockquote>аны асынатып, кишинетип жүрөмбү? (что ж) я и буду возиться (с жеребцами), когда они ржут?</blockquote>
+  <blockquote>бир жумушка айланышып кечигип калдым я опоздал, занявшись одним делом.</blockquote>
+  <blockquote>апат айдагыр! проклятие по адресу крупного рогатого скота.</blockquote>
+
+[114] count=155
+source_len=3 | shapes=9+ / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азармандан безермен болуп он руками и ногами отмахивался.</blockquote>
+  <blockquote>турмуштун айдоосу менен под давлением жизненных обстоятельств.</blockquote>
+  <blockquote>партиянын ишеничин актай алган он смог оправдать доверие партии;</blockquote>
+  <blockquote>омуроодон алдырып войдя по грудь (в воду - о животном);</blockquote>
+  <blockquote>алчактата бастырып, түптүз келе жатты он ехал прямо (на коне, идущем) твёрдой поступью;</blockquote>
+
+[115] count=155
+source_len=3 | shapes=7-8 / 3-4 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айдалган жер вспаханная земля.</blockquote>
+  <blockquote>айнектей ачык совершенно ясно, очевидно.</blockquote>
+  <blockquote>айрылгыс дос неразлучный друг.</blockquote>
+  <blockquote>айчылык жер расстояние в один месяц пути (в прежнее время - для верхового);</blockquote>
+  <blockquote>алкынган аял взбалмошная женщина.</blockquote>
+
+[116] count=155
+source_len=3 | shapes=3-4 / 9+ / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жан айласынан или жан айласы үчүн ради спасения своей жизни;</blockquote>
+  <blockquote>кой, айланайын, кой перестань, милый, перестань;</blockquote>
+  <blockquote>бул суроолору аны аптыктырды эти их вопросы привели его в полное замешательство.</blockquote>
+  <blockquote>маа аркалатып кой взвали мне на спину.</blockquote>
+  <blockquote>жаш аялметтүү адам отец малолетних детей.</blockquote>
+
+[117] count=155
+source_len=2 | shapes=5-6 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абаке дядюшка, дедушка (обращение к старику);</blockquote>
+  <blockquote>аябай нещадно, не жалея; вовсю; здорово; очень; много;</blockquote>
+  <blockquote>дабыш чыгарбай, аярлап басып, терезеге жетти бесшумно, осторожно ступая, он подошёл к окну;</blockquote>
+  <blockquote>баасы келишсе, сатам если дадут подходящую цену, продам;</blockquote>
+  <blockquote>кайсы багытта? в каком направлении?</blockquote>
+
+[118] count=154
+source_len=3 | shapes=9+ / 5-6 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абсолюттук чоңдук абсолютная величина.</blockquote>
+  <blockquote>адамкерчиликсиз аракет бесчеловечные поступки.</blockquote>
+  <blockquote>административдик кызмат административная работа; административная должность.</blockquote>
+  <blockquote>аккорддук жумуш аккордная работа.</blockquote>
+  <blockquote>антагонисттик таптар антагонистические классы.</blockquote>
+
+[119] count=153
+source_len=3 | shapes=7-8 / 9+ / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кишинин азгырыгына кирбе не слушайся чужих наущений.</blockquote>
+  <blockquote>айтканы айткандай болуп чыкты вышло так, как он сказал;</blockquote>
+  <blockquote>алгачкы натыйжалар первые результаты;</blockquote>
+  <blockquote>тыйынга арзыбаган сөздү айтат он говорит ерунду;</blockquote>
+  <blockquote>адамзат жаралгандан берки арманыңарга жеткиребиз мы приведём вас к тем заветным целям, к которым всегда стремилось человечество;</blockquote>
+
+[120] count=153
+source_len=4 | shapes=3-4 / 3-4 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бул мага аздык кылат этого мне мало, этого мне недостаточно;</blockquote>
+  <blockquote>мага бир азыткы чыкты меня лукавый попутал;</blockquote>
+  <blockquote>бат эле кишиге алынып кетет он быстро завоёвывает симпатии, доверие;</blockquote>
+  <blockquote>алар, бир сөздүн аягына чыкканча, шаарды аралап да калышты пока они успели довести разговор до конца, им пришлось побродить по городу;</blockquote>
+  <blockquote>араң эле басып жүрөт он едва ходит;</blockquote>
+
+[121] count=153
+source_len=3 | shapes=3-4 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айың көрбөйт он в вину не ставит.</blockquote>
+  <blockquote>окуй албадым я не мог прочитать;</blockquote>
+  <blockquote>бара албайсың ты не сможешь пойти;</blockquote>
+  <blockquote>ала албадың ты не смог взять;</blockquote>
+  <blockquote>бир алаатта в момент, сразу же.</blockquote>
+
+[122] count=150
+source_len=3 | shapes=9+ / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адабиятта жаңы агым новое течение в литературе;</blockquote>
+  <blockquote>тайгандарын "айт!" деп жиберди он крикнул своим борзым "ату!";</blockquote>
+  <blockquote>акчыланбай эле кой брось оправдываться;</blockquote>
+  <blockquote>акылашпай жөн эле алыңыз! что за счёты, берите так (безвозмездно) !</blockquote>
+  <blockquote>акыреттик дос друг до гроба;</blockquote>
+
+[123] count=149
+source_len=3 | shapes=7-8 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажыналап калыптыр он одержим злым духом, в него вселился злой дух;</blockquote>
+  <blockquote>акылынан ажыраган он лишился рассудка.</blockquote>
+  <blockquote>малынан айрылды он лишился своего скота;</blockquote>
+  <blockquote>айтпаса, төгүнбү? а разве неправда? а ведь именно так; как хочешь, но это так.</blockquote>
+  <blockquote>акактап жыгылды он упал, выбившись из сил.</blockquote>
+
+[124] count=149
+source_len=3 | shapes=5-6 / 9+ / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>Асанда азыноолак жумушум бар у меня есть небольшое дело к Асану.</blockquote>
+  <blockquote>алача (полосатая бумажная материя кустарного, а позднее и фабричного производства).</blockquote>
+  <blockquote>колун сандыктын калайына алдырып алды он оцарапал себе руку о металлическую обивку сундука;</blockquote>
+  <blockquote>согуш аракеттери военные действия;</blockquote>
+  <blockquote>кесме аралаштыртып заставив перемешать (варёную) лапшу (напр. с мелко нарезанным мясом).</blockquote>
+
+[125] count=145
+source_len=3 | shapes=5-6 / 3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>өңүнөн азды он побледнел, он похудел;</blockquote>
+  <blockquote>адамга өлүм ак смерть человека неизбежна; человек смертен;</blockquote>
+  <blockquote>акысын алды он получил причитавшееся ему;</blockquote>
+  <blockquote>кебиң акыл ты умно говоришь; ты дело говоришь;</blockquote>
+  <blockquote>аныңар ырас в этом вы правы;</blockquote>
+
+[126] count=144
+source_len=3 | shapes=9+ / 3-4 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адырайган көз выпученные глаза; глаза навыкате; пучеглазый;</blockquote>
+  <blockquote>академиялык саат академический час.</blockquote>
+  <blockquote>апкаарыган или апкаарган растерявшийся, опешивший.</blockquote>
+  <blockquote>Октябрдин кырк жылдыгына арналат посвящается сорокалетию Октября.</blockquote>
+  <blockquote>аскаланган тоо вздымающаяся скалистая гора.</blockquote>
+
+[127] count=143
+source_len=3 | shapes=5-6 / 7-8 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кызмат абалынан пайдаланып использовав своё служебное положение;</blockquote>
+  <blockquote>саясий агымдар политические течения;</blockquote>
+  <blockquote>шайлоо укугунан ажыратылган лишённый избирательных прав.</blockquote>
+  <blockquote>пахта айдоочу республикалар хлопкосеющие республики;</blockquote>
+  <blockquote>колдон айлансын (следовало бы побить, да) не стоит руки о него марать;</blockquote>
+
+[128] count=142
+source_len=3 | shapes=1-2 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>а береги вон тот;</blockquote>
+  <blockquote>эл аралык абал международное положение;</blockquote>
+  <blockquote>эл аралык авал международное положение;</blockquote>
+  <blockquote>ак малым мой собственный честно нажитый скот;</blockquote>
+  <blockquote>эт алешем экен мясо, оказывается, полусырое, недоваренное.</blockquote>
+
+[129] count=140
+source_len=4 | shapes=5-6 / 3-4 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>көркөм сөз адиси мастер художественного слова;</blockquote>
+  <blockquote>азанда или азаны менен рано утром;</blockquote>
+  <blockquote>сизден акча аласа болсом если мне с вас будут причитаться деньги; если я буду вашим кредитором;</blockquote>
+  <blockquote>алдагы боло турган иштер предстоящие дела.</blockquote>
+  <blockquote>баасын алыс айтып койду он заломил высокую цену;</blockquote>
+
+[130] count=140
+source_len=4 | shapes=3-4 / 5-6 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>эки ажырым болдук мы разошлись во мнениях, наши мнения разошлись.</blockquote>
+  <blockquote>алым кетип турат я чувствую слабость;</blockquote>
+  <blockquote>кур алакан келдим я пришёл ни с чем, я ничего не принёс; мне ничего не досталось;</blockquote>
+  <blockquote>алек чапан халат из материи алек.</blockquote>
+  <blockquote>амал барбы! ничего не поделаешь!; что же тут можно поделать!;</blockquote>
+
+[131] count=139
+source_len=2 | shapes=9++IH / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ак-караны ылгабастан не разбираясь, где правда и где ложь;</blockquote>
+  <blockquote>акылдап-такылдап торопливо и растерянно;</blockquote>
+  <blockquote>алар-албас нестоящая вещь, барахло;</blockquote>
+  <blockquote>алап-шалап состояние полного довольства;</blockquote>
+  <blockquote>алас-алас - балакеттен калас заклинание алас-алас - от беды избавление;</blockquote>
+
+[132] count=139
+source_len=1 | shapes=9++NN | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>акционердик коом акционерное общество.</blockquote>
+  <blockquote>секретарь болуп алды он стал секретарём;</blockquote>
+  <blockquote>апелляциялык арыз апелляционная жалоба.</blockquote>
+  <blockquote>асфальтталган көчө асфальтированная улица.</blockquote>
+  <blockquote>географиялык атамалар географические названия.</blockquote>
+
+[133] count=138
+source_len=2 | shapes=9++UU / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абстракттуу түрдө абстрактно.</blockquote>
+  <blockquote>азуулуудан айбан кутулбайт дейт коёт говорят, от хищника животное (не хищное) не спасётся;</blockquote>
+  <blockquote>айдалуучу жерлер земли, подлежащие вспашке, обработке; пахотные земли.</blockquote>
+  <blockquote>айдарымдуу дөңсө возвышенность, где постоянно веет лёгкий ветерок.</blockquote>
+  <blockquote>аксакалдуу карыя белобородый старец.</blockquote>
+
+[134] count=138
+source_len=1 | shapes=3-4 | remainder_start=rus_lower | has_wordLink=1 | rem_meta=0 | rem_origin=0 | rem_linkkw=1 | rem_ili=0
+  <blockquote>башы азоолук отвл. от <wordLink word="башы азоо"/> (см. <wordLink word="азоо"/>).</blockquote>
+  <blockquote>көзү аксын! см. <wordLink word="көз" meaning="1"/>.</blockquote>
+  <blockquote>кара аламан чабуул общая свалка (ср. <wordLink word="кара" homonym="I" meaning="15"/>);</blockquote>
+  <blockquote>алп кара куш см. <wordLink word="куш" homonym="I" meaning="3"/>;</blockquote>
+  <blockquote>апей көтөк! см. <wordLink word="көтөк" homonym="I"/>.</blockquote>
+
+[135] count=137
+source_len=2 | shapes=7-8+UU / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айтылуу Бакай келиптир прибыл славный Бакай;</blockquote>
+  <blockquote>айчыктуу күлүк скакун с тавром в форме полумесяца;</blockquote>
+  <blockquote>айыштуу түзөң покатая равнина.</blockquote>
+  <blockquote>акыштуу катын жеманная женщина.</blockquote>
+  <blockquote>окуудан чыгып калып, ардыгып жүрөт он отстал в учёбе и теперь сожалеет (об этом);</blockquote>
+
+[136] count=137
+source_len=2 | shapes=7-8 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>эркегиң эмес, катының, чоңуң эмес, балаң союл көтөрбөсөн, атанын арбагына коём! если вы, не только мужчины, но и женщины, не только взрослые, но и дети, не выступите с дубьём, я обращусь к духу предков (пусть он вас покарает);</blockquote>
+  <blockquote>"атаганат!" - деп, бармагын тиштеди он очень раскаивался, очень сожалел;</blockquote>
+  <blockquote>кымызды аяк өйдө сун подавай кумыс, начиная с последнего;</blockquote>
+  <blockquote>аттарын алып, сарайдын төрүнө байлаттырды приняв коней, он распорядился, чтобы их привязали внутри сарая (у задней стены).</blockquote>
+  <blockquote>балыкка тил, дөңгөчкө жан киргизе турган адам человек красноречивый и мудрый (букв. человек, дающий рыбе язык, чурбану - душу);</blockquote>
+
+[137] count=133
+source_len=3 | shapes=9+ / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>канааттандырарлык деп айтарлык эмес нельзя считать удовлетворительным.</blockquote>
+  <blockquote>акыштанбан эле аныгыңды айт не ломайся, говори правду.</blockquote>
+  <blockquote>Бүркүттүүнүн бери алдында под (местностью) Бюркюттю (по эту сторону, сюда ближе);</blockquote>
+  <blockquote>анеткенде или анткенде если так (поступать); в таком случае;</blockquote>
+  <blockquote>Көкөтөйдүн ашы поминки по Кокетею (эпическому богатырю);</blockquote>
+
+[138] count=131
+source_len=3 | shapes=1-2 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аз эле жерден чуть было не...;</blockquote>
+  <blockquote>ал жок, абдан айыга элекмин сил нет, я ещё не совсем поправился;</blockquote>
+  <blockquote>эч ким менен алакасы болбойт у него ни с кем нет связи.</blockquote>
+  <blockquote>өз ара между собой;</blockquote>
+  <blockquote>өз ара жардам взаимопомощь;</blockquote>
+
+[139] count=130
+source_len=4 | shapes=5-6 / 3-4 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>өзүңө азир бол следи за собой (а не за другими); на себя погляди.</blockquote>
+  <blockquote>ахыры бир күн келем как-нибудь (когда-нибудь) приду, да уж приду как-нибудь;</blockquote>
+  <blockquote>алаасы жок шым штаны для мальчика (с прорезом).</blockquote>
+  <blockquote>алагар көз или алагай көз соотв. поэт. ясные очи (о красивых, больших глазах);</blockquote>
+  <blockquote>башына алат күн түштү на его голову свалилось большое несчастье;</blockquote>
+
+[140] count=130
+source_len=4 | shapes=7-8 / 5-6 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>булардын сөзүн акылга салып обмозговав их слова;</blockquote>
+  <blockquote>миңдеген тонна пахта жыйнап алынып, мамлекетке тапшырылууга тийиш тысячи тонн хлопка должны быть собраны и сданы государству;</blockquote>
+  <blockquote>тынчтык аралап турду стояла тишина, царило безмолвие;</blockquote>
+  <blockquote>артыкбаш эгинди кымтып жаткан кулак кулак, утаивавший излишки хлеба.</blockquote>
+  <blockquote>атаганат, жакшы тамак болгон экен! вот ведь какая хорошая пища оказалась!;</blockquote>
+
+[141] count=129
+source_len=4 | shapes=5-6 / 5-6 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажары жакшы или бет ажары жакшы у него здоровый цвет лица;</blockquote>
+  <blockquote>сенин азабың мага өттү ты меня измучил;</blockquote>
+  <blockquote>балаң ыйлап, мени алек кылды твой ребёнок своим плачем измучил меня;</blockquote>
+  <blockquote>салам айтсам, алик жок я тебя приветствую, а ты не отвечаешь;</blockquote>
+  <blockquote>кишиге алымы жок неме болуптур он cтал каким-то неуживчивым;</blockquote>
+
+[142] count=129
+source_len=3 | shapes=7-8 / 9+ / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азоттук семирткичтер азотные удобрения.</blockquote>
+  <blockquote>акчадан аксабаткан жериңиз жокпу? вы не очень нуждаетесь в деньгах?</blockquote>
+  <blockquote>башкага алаксыбай, сөздүктү иштей бер другим не отвлекайся, работай над словарём;</blockquote>
+  <blockquote>чарбасын андаалатып жиберген он разбазарил своё хозяйство.</blockquote>
+  <blockquote>...анчалык ийгиликтүү болбосо да ...хотя и не столь успешно.</blockquote>
+
+[143] count=127
+source_len=2 | shapes=1-2 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>үй тегерегиндеги ава жарып турушкан аял, эркек, балдар столпившиеся вокруг юрты женщины, мужчины, дети.</blockquote>
+  <blockquote>ай караңгысы безлунная ночь;</blockquote>
+  <blockquote>ай баткандай бол- быть в большом горе (напр. потеряв близкого);</blockquote>
+  <blockquote>уй айдаттырып приказав гнать коров.</blockquote>
+  <blockquote>ал таланттан айланабы он далеко не талантлив, никакой он не талант;</blockquote>
+
+[144] count=127
+source_len=2 | shapes=7-8+UU / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азуулуу аска искала с остриями.</blockquote>
+  <blockquote>аймактуу жер населённое место.</blockquote>
+  <blockquote>айтылуу кеп не новое слово, избитые разговоры.</blockquote>
+  <blockquote>айчыктуу түн лунная ночь.</blockquote>
+  <blockquote>аллеялуу бак сад с аллеями.</blockquote>
+
+[145] count=127
+source_len=2 | shapes=7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>айдарым жел жүрүп (или согуп) турат дует лёгкий ветерок;</blockquote>
+  <blockquote>айрыкча күч менен с особой силой; с исключительными усилиями.</blockquote>
+  <blockquote>алаканын шап коюп (или уруп), көтүн жерге так коюп (или уруп) отуруп калган экен (с ним случилась такая неприятность, что) он всплеснул руками, плюхнулся на землю и сидит;</blockquote>
+  <blockquote>андаалап чаап кетти (всадники) бросились врассыпную;</blockquote>
+  <blockquote>анеткени или анткени или анткен себеби а это потому; так как;</blockquote>
+
+[146] count=125
+source_len=1 | shapes=5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=1 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кызыл абоз ист. красный обоз.</blockquote>
+  <blockquote>актай записке разг. частная записка (с подписью, но без печати).</blockquote>
+  <blockquote>алагай көзү жумулуп, акырет көздөй кетерде... фольк. когда большие глаза его закрылись и он направлялся в тот мир...;</blockquote>
+  <blockquote>алмаз чөп южн. название лекарственной травы.</blockquote>
+  <blockquote>аңкак курт груб. о женщине в возрасте от сорока до пятидесяти лет, когда она якобы обладает особой половой возбудимостью.</blockquote>
+
+[147] count=125
+source_len=2 | shapes=5-6 / 5-6+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>агыны катуу суу быстрая вода, быстрая река.</blockquote>
+  <blockquote>басып алуучу захватчик, агрессор.</blockquote>
+  <blockquote>бикир алышуу обмен мнений;</blockquote>
+  <blockquote>аркасы сууган он почувствовал облегчение (от тягот); он вздохнул свободно (освободившись от чего-либо);</blockquote>
+  <blockquote>арышты катуу уруп алыптыр он сильно пошёл в гору;</blockquote>
+
+[148] count=125
+source_len=2 | shapes=7-8 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ордунан жылмагы - азап он на подъём тяжёл;</blockquote>
+  <blockquote>алкыштан айлансын! какая там ему благодарность!;</blockquote>
+  <blockquote>башыман айлансын! (пропало) ну и чёрт с ним!;</blockquote>
+  <blockquote>айтпаса, төгүнбү? а разве неправда? а ведь именно так; как хочешь, но это так.</blockquote>
+  <blockquote>албаган алигиңиз үчүн бизге салам айтаарсыз! когда-нибудь вспомните и нас!; и на нашей улице будет праздник!</blockquote>
+
+[149] count=124
+source_len=3 | shapes=9+ / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>көпүрөөдөн абайлап өт через мост переходи осторожно.</blockquote>
+  <blockquote>абийиримди кетирди он меня опозорил;</blockquote>
+  <blockquote>өндүрүштөн ажыратып (об учёбе) с отрывом от производства;</blockquote>
+  <blockquote>айникейим кармады я раздумал, я отказался от своего намерения, я пошёл на попятный.</blockquote>
+  <blockquote>айттырбай иштебейт он по своему почину (без понуканья) не работает;</blockquote>
+
+[150] count=124
+source_len=3 | shapes=9+ / 7-8 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>автогендик ширетүү автогенная сварка.</blockquote>
+  <blockquote>агротехникалык эрежелер агротехнические правила.</blockquote>
+  <blockquote>көпчүлүктөн ажыраган оторвавшийся от масс;</blockquote>
+  <blockquote>айрымдардын пикирине караганда судя по мнению отдельных лиц;</blockquote>
+  <blockquote>газетанын айтышына караганда по сообщениям газеты;</blockquote>
+
+[151] count=124
+source_len=2 | shapes=9+ / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аңгычакты болбой, жогор жактан каңырт угулду "соба-а, соп!" вдруг сверху послышалось "цоб-цобе!";</blockquote>
+  <blockquote>чогулушта болдум, андан киного бардым я был на собрании, потом пошёл в кино.</blockquote>
+  <blockquote>атравында окрест, в (его) окрестностях.</blockquote>
+  <blockquote>айланайын абаке, мага ашырып бергин! милый дядя, перебрось мне (козлёнка) !;</blockquote>
+  <blockquote>бабырашып отуруп, аркы-беркини айтышып, чери жазылып калчу когда они сидели, толковали о том о сем, тоска развеивалась;</blockquote>
+
+[152] count=123
+source_len=2 | shapes=9++UU / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адалдуудан түгү жок у него нет никакого скота;</blockquote>
+  <blockquote>адалдуудан түгү жоктун аялы да болбойт (в старом быту) у кого нет никакого скота, у того и жены не бывает.</blockquote>
+  <blockquote>ачуулангандан беш бетер Чаргынга аж этти разозлившись, он ещё сильнее гаркнул на Чаргына.</blockquote>
+  <blockquote>айрылуунун ысык жашы горькие слёзы расставания.</blockquote>
+  <blockquote>айырмачтуу тай жеребёнок под детским седлом.</blockquote>
+
+[153] count=123
+source_len=1 | shapes=3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=1 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кой айдатуу ист. гуртовая торговля овцами.</blockquote>
+  <blockquote>эки аягыбыздан тең аксайбыз прям., перен. мы хромаем на обе ноги;</blockquote>
+  <blockquote>кыз алышуу этн. вступление во взаимные браки (такие отношения в смысле родства, религии, которые допускают взаимные браки).</blockquote>
+  <blockquote>амир лашкер южн. ист. военачальник.</blockquote>
+  <blockquote>ооз деген дарбаза, чыга берет андаса сев. погов. рот - ворота, из него выходит всё.</blockquote>
+
+[154] count=121
+source_len=3 | shapes=1-2 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ит ажаалайт собака злобно рычит;</blockquote>
+  <blockquote>ал көрүнгөн кызга сөз айттыра бербейт он к первой встречной девушке свататься не станет;</blockquote>
+  <blockquote>ак жеринен кетти он невинно пострадал;</blockquote>
+  <blockquote>ак чачынын акиси действие его седин (к которым следует относиться с уважением);</blockquote>
+  <blockquote>ал сөзүңдү өзүнө алды он принял твои слова на свой счёт;</blockquote>
+
+[155] count=121
+source_len=3 | shapes=3-4 / 3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айи сени! я ж вот тебя!, ух ты!;</blockquote>
+  <blockquote>окуй алат он сможет прочитать;</blockquote>
+  <blockquote>көк ала с синими пятнами; серо-пегий;</blockquote>
+  <blockquote>ары алды та сторона;</blockquote>
+  <blockquote>анан ким! а то кто же! (конечно, ты, он, я и т.д.);</blockquote>
+
+[156] count=119
+source_len=3 | shapes=9+ / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийиримди ачтың ты меня опозорил;</blockquote>
+  <blockquote>абийирдүүлүк менен с честью, честно, по совести;</blockquote>
+  <blockquote>урувдардын тарашы шу менен адактады родословная родов (племён) этим закончилась.</blockquote>
+  <blockquote>азирейилиндей көрөт он его боится как огня.</blockquote>
+  <blockquote>карылыктын айынан по старости, причиной тому старость;</blockquote>
+
+[157] count=119
+source_len=2 | shapes=7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абийири ачылды или абийири чачылды или абийири төгүлдү он посрамлён, он опозорен;</blockquote>
+  <blockquote>айдарын тигип или айдарын салып злобно, зверем (взглянув);</blockquote>
+  <blockquote>актыгыңа көзүм жетти я убедился в твоей невиновности или в твоей правоте;</blockquote>
+  <blockquote>актыкка барып келдик мы ходили выразить соболезнование.</blockquote>
+  <blockquote>алдыртан карап кой- взглянуть исподлобья (кокетливо или выжидающе);</blockquote>
+
+[158] count=117
+source_len=4 | shapes=3-4 / 3-4 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азга или бир азга некоторое время, через некоторое время;</blockquote>
+  <blockquote>бир нече күн жаан жаап, эгин айдатпай келди несколько дней шёл дождь и не давал производить сев (пахать и сеять).</blockquote>
+  <blockquote>башы кара буту айры неме, ага теңелбей эле кой да он такой заурядный (букв. нечто с чёрной головой и раздвоенными ногами), по нему не равняйся;</blockquote>
+  <blockquote>айып этпе или айып көрбө не обессудь; извини; не вмени в вину;</blockquote>
+  <blockquote>атам мага тай алып берди отец купил мне жеребёнка;</blockquote>
+
+[159] count=116
+source_len=3 | shapes=5-6 / 5-6 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жогол! элден айлан! прочь! тебе не место среди народа!;</blockquote>
+  <blockquote>аламан жигит буйный, несдержанный парень;</blockquote>
+  <blockquote>арбак урган (соккон, аткан, баскан) проклятый (букв. наказанный духом предка);</blockquote>
+  <blockquote>сайдан сайды артып, буларды издебеген жерим калган жок переходя от одного русла реки к другому, я не оставил ни одного неосмотренного места.</blockquote>
+  <blockquote>айлына душман келсе, ал аскар тоодой бел болгон когда приходил враг в его аул, он был перевалом снеговой горы (надёжной опорой);</blockquote>
+
+[160] count=116
+source_len=4 | shapes=5-6 / 3-4 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бетин айра чапты он так хлестнул, что разбил ему лицо;</blockquote>
+  <blockquote>жаман алга түштүм я попал в скверное положение;</blockquote>
+  <blockquote>аланын изин баспа на след прокажённого не ступай (заразишься);</blockquote>
+  <blockquote>арбап эле отурат он злобится, беззвучно шевеля губами.</blockquote>
+  <blockquote>ардап ичип калды он обеднел (букв. он начал питаться брандахлыстом).</blockquote>
+
+[161] count=116
+source_len=3 | shapes=3-4 / 5-6 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мен күчтүү болсом, мышыкка алдырат белем? - деди чычкан (из сказки) мышь сказала: "Если бы я была сильна, разве поддалась бы я кошке?";</blockquote>
+  <blockquote>кол араба тачка, ручная тележка;</blockquote>
+  <blockquote>как эткен карга, арс эткен ит жок ни единого живого существа (букв. нет ни каркающей вороны, ни лающей собаки).</blockquote>
+  <blockquote>ары жыгыл десең, бери жыгылат ему говоришь одно, а он делает другое (букв. если скажешь "упади дальше", он упадёт ближе);</blockquote>
+  <blockquote>ары карап ыйлап, бери карап күлүп делая хорошую мину при плохой игре (букв. туда смотрит плачет, сюда смотрит - смеётся);</blockquote>
+
+[162] count=115
+source_len=4 | shapes=5-6 / 5-6 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абжип болгон немедей (о человеке) кожа да кости;</blockquote>
+  <blockquote>катыны менен ажырашты он развёлся с женой.</blockquote>
+  <blockquote>амалым жаман түгөндү я в очень затруднительном, безвыходном положении;</blockquote>
+  <blockquote>апсана сөзгө кирдиңби? ты поверил сплетне?</blockquote>
+  <blockquote>асеми бүтүп калыптыр он кокетливо рисуется;</blockquote>
+
+[163] count=114
+source_len=4 | shapes=5-6 / 7-8 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жарма токочко аралжы болот похлёбка жарма (см.) до известной степени заменяет хлеб;</blockquote>
+  <blockquote>шамал арылдап турат ветер воет, свищет, бушует;</blockquote>
+  <blockquote>ашыңды бербесең бербе, ташың менен урба добра можешь не делать, но пакости не делай (букв. не дашь пищи - не давай, камнем не бей);</blockquote>
+  <blockquote>мунун баардыгы канча болор экен? а сколько тут будет всего?</blockquote>
+  <blockquote>экинчи баарчын беркут после седьмой линьки (и т.д.);</blockquote>
+
+[164] count=113
+source_len=2 | shapes=7-8 / 9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абайлап осторожно, осмотрительно;</blockquote>
+  <blockquote>ажыналап калгансыңбы?! ты с ума сошёл?!</blockquote>
+  <blockquote>Шаршеге караганда - айылдуу по сравнению с Шарше у него одноаульцев больше.</blockquote>
+  <blockquote>көзүңдү акыраңдатпа! не пучь глаза!</blockquote>
+  <blockquote>башкага алаксыбай, сөздүктү иштей бер другим не отвлекайся, работай над словарём;</blockquote>
+
+[165] count=113
+source_len=3 | shapes=7-8 / 9+ / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>чарбасы айрандады его хозяйство пришло в упадок.</blockquote>
+  <blockquote>силерге айтпаганда, анан кимге айтат элек? если не вам, так кому же мы стали бы говорить?</blockquote>
+  <blockquote>анетүүгө мүмкүнчүлүк жок сделать так нет возможности.</blockquote>
+  <blockquote>Илимдер Академиясынын анык мүчөсү действительный член Академии наук.</blockquote>
+  <blockquote>апаппак жумурткадай как белое-белое яйцо;</blockquote>
+
+[166] count=111
+source_len=4 | shapes=7-8 / 5-6 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абийири күлдөй чачылды он вконец опозорен;</blockquote>
+  <blockquote>аммабыз бирге барабыз мы все пойдём вместе;</blockquote>
+  <blockquote>аштыгың чийки ордукпу? мы тебе пакость какую сделали, что ли? (букв. мы твой хлеб незрелым сжали, что ли?).</blockquote>
+  <blockquote>дубалдан ашыра ыргыттым я перебросил через забор;</blockquote>
+  <blockquote>банкыга (неправ, банкага) в банк;</blockquote>
+
+[167] count=111
+source_len=3 | shapes=3-4 / 9+ / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>анын көрүнүшүндө адамдык сүрөт жок он потерял облик человеческий (он похудел, у него жалкий вид);</blockquote>
+  <blockquote>эски аксакалдыктын калдыгы остатки былой патриархальности.</blockquote>
+  <blockquote>алты машинанын акырына чыкты он угробил шесть машин;</blockquote>
+  <blockquote>көзү алачакмактап калыптыр глаза у него пьяненькие.</blockquote>
+  <blockquote>бети алоолонуп кызарып чыкты его лицо раскраснелось;</blockquote>
+
+[168] count=111
+source_len=3 | shapes=3-4 / 3-4 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>алам деп келип, алдырат деген ушул вот это и есть, когда человек, рассчитывая получить, отдаёт (напр. рассчитывая на военную добычу, отдаёт в руки врага свое);</blockquote>
+  <blockquote>анын суюк сакалы, кат-кат болуп бырышкан бетине аралжы болмок түгүл, бырыштарын жашырып кайра жарашкансыйт его реденькая борода не только не портила его покрытого морщинами лица, но даже, наоборот, прикрывала морщины и шла ему.</blockquote>
+  <blockquote>араң жан слабый, немощный, полуживой;</blockquote>
+  <blockquote>ага ары айттым, бери айттым - болбоду я ему и так и этак толковал, но ничего не вышло;</blockquote>
+  <blockquote>эмне окуп атасың? что ты читаешь (в данный момент) ?</blockquote>
+
+[169] count=110
+source_len=2 | shapes=5-6+UU / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>суунун агынын көздөй вниз по течению;</blockquote>
+  <blockquote>сууга кеткен агындыдай толкундан толкунга урунуп алас уруп он отчаянно барахтается, попадая то в одну волну, то в другую, подобно уносимому водой;</blockquote>
+  <blockquote>ачуусу таркап акыл токтоткон соң когда гнев его прошёл и он одумался;</blockquote>
+  <blockquote>албуут катын вспыльчивая женщина; задорная женщина;</blockquote>
+  <blockquote>албуут жүрөк пылкое сердце.</blockquote>
+
+[170] count=110
+source_len=2 | shapes=5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>ырасын айтканда или чынын айтканда или туурасын айтканда по правде говоря;</blockquote>
+  <blockquote>ошону жаңылбай билип алганын айтсаң вот ведь удивление, как это он так точно запомнил!;</blockquote>
+  <blockquote>алакан көрүүчү или алакан ачуучу хиромант;</blockquote>
+  <blockquote>мылтык асынтып ал скажи, чтобы на тебя повесили ружьё.</blockquote>
+  <blockquote>ашыра өндүрүү или ашыра өндүрүш перепроизводство;</blockquote>
+
+[171] count=110
+source_len=4 | shapes=3-4 / 7-8 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>атың алчаңдап басат твой конь идёт важной поступью (высоко поднимая передние ноги);</blockquote>
+  <blockquote>ишим арбыбай калды мне не удалось сделать столько и так, как хотелось бы;</blockquote>
+  <blockquote>атын укканда ичкен ашын жерге коё коёт он к нему относится с большим уважением, с большой любовью; он трепещет перед ним (букв. когда слышит его имя, пищу свою на пол ставит, т.е. перестаёт есть);</blockquote>
+  <blockquote>аягы асмандан келди или аягы асманга чыкты он окончательно разгромлен, ему крышка (букв. его ноги к небу пошли);</blockquote>
+  <blockquote>мен уктабай, ойгоо эле бадырайып карап отурдум (все спали, а) я не спал, сидел, тараща глаза.</blockquote>
+
+[172] count=109
+source_len=4 | shapes=3-4 / 7-8 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>атты шамалдан агылга жерге байлап кой привяжи лошадь там, куда не доходит ветер;</blockquote>
+  <blockquote>сен бутумду басып алдың ты мне наступил на ногу;</blockquote>
+  <blockquote>көзү корккон төөдөй алайды глаза его забегали, как у испуганного верблюда;</blockquote>
+  <blockquote>жан алакетке түшүп иштеди он работал изо всех сил;</blockquote>
+  <blockquote>күн алыстап газета келип турат газеты приходят через день.</blockquote>
+
+[173] count=109
+source_len=4 | shapes=3-4 / 3-4 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бир сом акымды жеп кетти он не отдал мне рубль;</blockquote>
+  <blockquote>акыл кошо турган киши издеди он искал человека, с которым можно было бы посоветоваться;</blockquote>
+  <blockquote>олоң арпа, жырым арпа названия сортов ячменя;</blockquote>
+  <blockquote>ага ары айттым, бери айттым - болбоду я ему и так и этак толковал, но ничего не вышло;</blockquote>
+  <blockquote>кырк бир арыбы бар у него сорок одна хитрость (букв. у него сорок один арип; имеются в виду шарики, числом 41, употребляемые при гадании).</blockquote>
+
+[174] count=108
+source_len=2 | shapes=3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>эки жааттын арасы айыгышып кырчылдаша баштады две группировки остервенились друг против друга, и началась потасовка.</blockquote>
+  <blockquote>чоң айылдык положение главенствующего аула или представителя такого аула;</blockquote>
+  <blockquote>этти бакандын айырмачына илип кой повесь мясо на сучок бакан'а.</blockquote>
+  <blockquote>мени өлүмдөн алып калды или жанымды алып калды он меня спас от смерти (напр. о враче);</blockquote>
+  <blockquote>ала отурган жерди кетмендеп салыш керек место, где сидел (или жил) прокажённый, нужно перекопать;</blockquote>
+
+[175] count=107
+source_len=3 | shapes=7-8 / 9+ / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>акчаамай булчуңдар напруженные мускулы (без признакое жира).</blockquote>
+  <blockquote>кийиктин шыйрагына алакандалып сапталган камчы плеть с рукояткой из ножки газели.</blockquote>
+  <blockquote>байланыш миинстерствосу министерство связи;</blockquote>
+  <blockquote>жанымдын бардыгынча кармашайын я буду сражаться до последнего;</blockquote>
+  <blockquote>мурунку сословиялык артыкчылык барксызданып жок болду прежние сословные привилегии, утратив своё значение, исчезли.</blockquote>
+
+[176] count=107
+source_len=4 | shapes=5-6 / 5-6 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мүнөзү аламан, айтканды укпайт характер у него буйный, он не внемлет тому, что (ему) говорят;</blockquote>
+  <blockquote>кечээ киного барылбай калды вчера в кино не пришлось пойти.</blockquote>
+  <blockquote>кетпей калчу баштанып турам я начинаю подумывать о том, чтобы мне не уезжать;</blockquote>
+  <blockquote>карып калган чагымда жалгыз бой болуп кыйналып жатам в старости, оставшись одиноким, я испытываю трудности;</blockquote>
+  <blockquote>кайсы жерде жатышат болду экен? где же это они лежат?</blockquote>
+
+[177] count=107
+source_len=3 | shapes=5-6 / 3-4 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>элдик алды болуп, баласына көрүшүүнү, кучактап өбүүнү самаган она желала первой поздороваться с сыном, обнять и поцеловать его;</blockquote>
+  <blockquote>алдыр жагы перед, передняя сторона чего-л.</blockquote>
+  <blockquote>алчий көз хитрый, лживый.</blockquote>
+  <blockquote>амалы көп хитрый, ловкий, находчивый, изворотливый;</blockquote>
+  <blockquote>аркан (мера длины, равная 4-5 метрам);</blockquote>
+
+[178] count=106
+source_len=2 | shapes=3-4 / 5-6+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бир тууган агасы его (родной) старший брат;</blockquote>
+  <blockquote>боз алалуу туу пёстрое знамя.</blockquote>
+  <blockquote>кат алышуу переписка (взаимная);</blockquote>
+  <blockquote>эки суунун аралы остров между двумя рукавами реки;</blockquote>
+  <blockquote>бозо салуу жагынан... астына оңой менен киши чыкпайт по части приготовления бузы не легко кому-нибудь превзойти (её);</blockquote>
+
+[179] count=106
+source_len=3 | shapes=7-8 / 7-8 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кайырды чайырга айландырды он за добро отплатил злом.</blockquote>
+  <blockquote>алаткак название демонического существа;</blockquote>
+  <blockquote>...миңдеген километр алыстыкта турат... отстоит за тысячи километров.</blockquote>
+  <blockquote>аңкыйып бирөөгө айдаткандай мал эмесмин я не простодушное животное, которое позволит себя гнать.</blockquote>
+  <blockquote>мамлекет басмасы государственное издательство;</blockquote>
+
+[180] count=105
+source_len=2 | shapes=3-4+UU / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>суу мекен аласта- обдавать (голову больного) паром;</blockquote>
+  <blockquote>аруу чапан кийгизиптир он одарил дорогим халатом.</blockquote>
+  <blockquote>атуу жазасы расстрел.</blockquote>
+  <blockquote>суу терең экен, ат аяктабай калды вода глубока, лошадь не достаёт ногами до дна;</blockquote>
+  <blockquote>суу байыды вода спала; уровень воды понизился.</blockquote>
+
+[181] count=104
+source_len=2 | shapes=5-6 / 9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>акеңди таанытармын! я тебе припомню!; ты у меня будешь знать!;</blockquote>
+  <blockquote>экөөн акылаштырып, акысын алып бер помоги им произвести взаимные расчёты.</blockquote>
+  <blockquote>жорго, алабармандап, жакшы салбай койду иноходец бежал неровно, срывая.</blockquote>
+  <blockquote>кимге арызданасың? кому пожалуешься? кому принесёшь жалобу?</blockquote>
+  <blockquote>атасын өлтүрүптүрмүнбу? я ему пакость большую сделал, что ли? (букв. разве я его отца убил?);</blockquote>
+
+[182] count=103
+source_len=2 | shapes=9+ / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абажаарыган адамдар үчүн бул ишпи! разве это дело (представляет какую-нибудь трудность) для людей, если они берутся (за него) все вместе!;</blockquote>
+  <blockquote>көпүрөөдөн абайлап өт через мост переходи осторожно.</blockquote>
+  <blockquote>арданганына чыдабай өлүп алыптыр он не перенёс обиды и умер;</blockquote>
+  <blockquote>алчактата бастырып, түптүз келе жатты он ехал прямо (на коне, идущем) твёрдой поступью;</blockquote>
+  <blockquote>чапаныңды жаңыртып, мага артыңды салдың го ты надел новый чапан и предо мной важничаешь;</blockquote>
+
+[183] count=103
+source_len=3 | shapes=5-6 / 9+ / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мурду адырайган у него ноздри (крылья носа) раздуваются.</blockquote>
+  <blockquote>акеңди таанытармын! я тебе припомню!; ты у меня будешь знать!;</blockquote>
+  <blockquote>акысын жедирбейт он не позволит себя обсчитать; он своего не упустит;</blockquote>
+  <blockquote>(обычно употребляется с притяж. аффиксами, без притяж. аффиксов иногда теряет конечный "д")</blockquote>
+  <blockquote>бошко аракеттенбеңиз не старайтесь попусту.</blockquote>
+
+[184] count=103
+source_len=4 | shapes=3-4 / 5-6 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азар болсо, жүздү жашарсың самое большее проживёшь сто (лет);</blockquote>
+  <blockquote>жер кургай электе айдоомду бүтүрүп алайын я хочу закончить пахоту, пока не засохла земля;</blockquote>
+  <blockquote>алгы деген чөптүн талканы толокно из корольковии.</blockquote>
+  <blockquote>мен күчтүү болсом, мышыкка алдырат белем? - деди чычкан (из сказки) мышь сказала: "Если бы я была сильна, разве поддалась бы я кошке?";</blockquote>
+  <blockquote>мен күчтүү болсом, мергенге аттырат белем? - деди карышкыр (из сказки) если бы я был силён, разве позволил бы охотнику стрелять в меня? - сказал волк;</blockquote>
+
+[185] count=101
+source_len=3 | shapes=9+ / 7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ананыраак немного времени спустя, немного погодя, попозже;</blockquote>
+  <blockquote>резервдер - аракетте резервы в действии.</blockquote>
+  <blockquote>Каныбектен ажырасаң, арманың арылбайт если ты лишишься Каныбека, сожалению твоему не будет конца.</blockquote>
+  <blockquote>мектептин курулушу аяктаган строительство школы закончено;</blockquote>
+  <blockquote>бактыяман көрөйүн попытаю счастья;</blockquote>
+
+[186] count=100
+source_len=2 | shapes=3-4 / 7-8+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жан багуунун айынан ради пропитания.</blockquote>
+  <blockquote>(айыл аткаруу комитети) сельский исполнительный комитет;</blockquote>
+  <blockquote>алып баруучу ведущий (программу радиопередач).</blockquote>
+  <blockquote>кол чабуулар алдында под аплодисменты;</blockquote>
+  <blockquote>кат алмашуу обмен письмами.</blockquote>
+
+[187] count=99
+source_len=3 | shapes=9+ / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абажаарыган адамдар үчүн бул ишпи! разве это дело (представляет какую-нибудь трудность) для людей, если они берутся (за него) все вместе!;</blockquote>
+  <blockquote>мурутунан жылмайып алды он усмехнулся себе в ус;</blockquote>
+  <blockquote>арданганына чыдабай өлүп алыптыр он не перенёс обиды и умер;</blockquote>
+  <blockquote>алмустактан келаткан ата наркы стародавний обычай предков.</blockquote>
+  <blockquote>чапаныңды жаңыртып, мага артыңды салдың го ты надел новый чапан и предо мной важничаешь;</blockquote>
+
+[188] count=98
+source_len=3 | shapes=9+ / 9+ / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>колхоздун активдери колхозные активисты; колхозный актив.</blockquote>
+  <blockquote>арсаркайын родственник предполагаемого мужа.</blockquote>
+  <blockquote>астрономиялык байкоолор астрономические наблюдения.</blockquote>
+  <blockquote>Маманазар Асылханга байланыштырып дагы далай сөздөрдү айтып өттү Маманазар ещё многое говорил, связывая это с Асылхан.</blockquote>
+  <blockquote>жаратылыш байлыктары природные богатства.</blockquote>
+
+[189] count=97
+source_len=4 | shapes=3-4 / 5-6 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абай менен үпчүлөп сделав завязки из материи абай;</blockquote>
+  <blockquote>тиши түшүп аңшайып, кемпир болуп калыптыр зубы у неё выпали, и она превратилась в (беззубую) старуху;</blockquote>
+  <blockquote>мен, таңды атырбай, изимди жашырайын я скроюсь, не дожидаясь рассвета;</blockquote>
+  <blockquote>ошол кезде балтайып алган кезим эле то было время, когда я разжирел.</blockquote>
+  <blockquote>сары барпы название певчей птички;</blockquote>
+
+[190] count=97
+source_len=4 | shapes=5-6 / 3-4 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ошону айт! вот это да!;</blockquote>
+  <blockquote>сизге бир ооз сөз айтууга болор бекен? можно вам сказать несколько слов?</blockquote>
+  <blockquote>айыбы или айбы его вина, его провинность;</blockquote>
+  <blockquote>ансыз без него, без того;</blockquote>
+  <blockquote>иштеп көзү боз ала болгон он доработался до одури;</blockquote>
+
+[191] count=96
+source_len=3 | shapes=9++IH / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адыр-чыбыр бугры и холмики; холмистая местность;</blockquote>
+  <blockquote>акыл-айла уловки и хитрости; способ выйти из положения;</blockquote>
+  <blockquote>акыл-айла издеп в поисках выхода (из положения);</blockquote>
+  <blockquote>акыр-аягына чейин до конца;</blockquote>
+  <blockquote>алап-шалап тойдук мы здорово наелись;</blockquote>
+
+[192] count=96
+source_len=2 | shapes=3-4 / 9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кой, айланайын, кой перестань, милый, перестань;</blockquote>
+  <blockquote>аны урматташат, алпейлешет его почитают, перед ним угодничают.</blockquote>
+  <blockquote>сени байкелетпесемби! не я буду, если тебя не проучу!</blockquote>
+  <blockquote>бас бакжыйбай! убирайся! убери свою широкую морду!</blockquote>
+  <blockquote>аны баласынтып, өзүнүн сырын Каныбекке айтпай жүргөн считая Каныбека (ещё) мальчиком, своего секрета ему не открывал;</blockquote>
+
+[193] count=96
+source_len=4 | shapes=3-4 / 3-4 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>"айт!" десе, "ойт!" деген тот, кто на "айканье" отвечает "ойканьем" (паникёр);</blockquote>
+  <blockquote>мен бир акыл ойлоп турам я обдумываю одну вещь; мне в голову пришла одна мысль;</blockquote>
+  <blockquote>ала шак (или агала шак) варёное мелко нарезанное мясо, обильно смешанное с кусочками жира (кушанье);</blockquote>
+  <blockquote>амин деп кол жайды сказав "аминь", он (молитвенно) распростёр руки.</blockquote>
+  <blockquote>аяш бала сын друга отца;</blockquote>
+
+[194] count=95
+source_len=3 | shapes=1-2 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ал абдырап, эмне кыларын билбей, шалдая түшкөн он растерялся, не знал, что делать, и совершенно ослабел.</blockquote>
+  <blockquote>ай айланып, жыл тегеренбей эле не успели оглянуться, как...; прошло немного времени, и...; не прошло и нескольких месяцев, как...;</blockquote>
+  <blockquote>о, аксакал жеңе келип калдыңызбы? о тётушка-аксакал, вы прибыли?</blockquote>
+  <blockquote>өз алдынча күн көрөт он живёт своим хозяйством; он сам добывает себе пропитание;</blockquote>
+  <blockquote>ит аңкылдап үрөт собака жалобно тявкает;</blockquote>
+
+[195] count=95
+source_len=3 | shapes=9+ / 9+ / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>макүрөөлүктөн адалдантып очистив от скверны;</blockquote>
+  <blockquote>газетанын айрындысы обрывок газеты;</blockquote>
+  <blockquote>жоолуктун айрындылары лоскутки платка.</blockquote>
+  <blockquote>арттагылар алдыңкыларга теңелүү керек отстающие должны равняться на передовиков;</blockquote>
+  <blockquote>мектептерднн материалдык базалары материальная база школ;</blockquote>
+
+[196] count=94
+source_len=3 | shapes=5-6 / 5-6 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажаан душман злейший, заклятый враг;</blockquote>
+  <blockquote>менин сөзүмө көнбөйт, андаеки атасы келсинчи, көнбөгөнүн көрөйүн меня он не слушается, а вот пусть придёт отец, тогда я посмотрю, как он не послушается.</blockquote>
+  <blockquote>апсана сөзгө кирдиңби? ты поверил сплетне?</blockquote>
+  <blockquote>атама тийип калайын! чтоб я вышла за своего отца! (самая страшная клятва для женщины);</blockquote>
+  <blockquote>тапсаң - аткез, таппасаң - бир тай найдёшь - освободишься, не найдёшь (с тебя) жеребёнок (так говорят, задавая загадку).</blockquote>
+
+[197] count=94
+source_len=4 | shapes=5-6 / 5-6 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аскер душман тарапка бет алдырылды войско было направлено против (букв. в сторону) врага.</blockquote>
+  <blockquote>аракты атасы өлгөндөй ичип алып, оозуна келгенди айтып напившись вдрызг и болтая всякий вздор;</blockquote>
+  <blockquote>атама тийип калайын! чтоб я вышла за своего отца! (самая страшная клятва для женщины);</blockquote>
+  <blockquote>тапсаң - аткез, таппасаң - бир тай найдёшь - освободишься, не найдёшь (с тебя) жеребёнок (так говорят, задавая загадку).</blockquote>
+  <blockquote>ашепке жолдо жүрүшөт они идут ложным путём.</blockquote>
+
+[198] count=94
+source_len=4 | shapes=7-8 / 3-4 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>андаалап кар түшүп турат снег падает редкими хлопьями.</blockquote>
+  <blockquote>аркайган аска менен зоолор вздымающиеся горы и дикие скалы;</blockquote>
+  <blockquote>артында эки баласы калды после него осталось двое детей (сиротами);</blockquote>
+  <blockquote>экөөнүн сөзү аякташ чыкты показания обоих сходятся.</blockquote>
+  <blockquote>бабырап эле жатып калды он лежит и блаженствует;</blockquote>
+
+[199] count=93
+source_len=3 | shapes=7-8 / 3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аамыяты жок не имеет значения, не играет роли.</blockquote>
+  <blockquote>алеңгир жаа (в эпосе) губительный лук (оружие);</blockquote>
+  <blockquote>антпейт эле он бы так не поступил;</blockquote>
+  <blockquote>антмейин если не сделать так;</blockquote>
+  <blockquote>анчалык эмес не очень;</blockquote>
+
+[200] count=93
+source_len=4 | shapes=5-6 / 3-4 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жүгүн атка артты груз свой он навьючил на лошадь;</blockquote>
+  <blockquote>арысы эки, бериси бир ай максимум два, минимум один месяц;</blockquote>
+  <blockquote>сөзүн баам кылып отур вникай в его слова;</blockquote>
+  <blockquote>колго бага турган мал домашний схот;</blockquote>
+  <blockquote>балтам тап найди мой топор (название детской игры);</blockquote>
+
+[201] count=92
+source_len=3 | shapes=9++IH / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>далк-далк эткен жаман кыз неуклюжая дурная (непослушная, неряшливая) девушка.</blockquote>
+  <blockquote>бала-чака менен агарып көгөр желаю благоденствия тебе и твоему семейству;</blockquote>
+  <blockquote>акты-карасы ачылар правда выплывет наружу;</blockquote>
+  <blockquote>акты-көктү айтып смешав правду и ложь;</blockquote>
+  <blockquote>алап-желеп болуп турам у меня что-то на душе тяжело; мне что-то не по себе.</blockquote>
+
+[202] count=91
+source_len=4 | shapes=5-6 / 3-4 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>шердин шери Күлчоро - азарым анык салайын;</blockquote>
+  <blockquote>кызга сөз айттырып жүргөн жигит парень, ищущий невесту, сватающий себе невесту;</blockquote>
+  <blockquote>ичинен ала чыгарып внеся в их среду разлад;</blockquote>
+  <blockquote>бүткөн боюм алдырап турат я совершенно ослабел.</blockquote>
+  <blockquote>мештин оту бажылдап күйөт огонь в печи жарко горит.</blockquote>
+
+[203] count=91
+source_len=4 | shapes=5-6 / 3-4 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айлык азык провизия на один месяц;</blockquote>
+  <blockquote>эчтеме эмес, ананайын не беда, мой миленький.</blockquote>
+  <blockquote>сенден кара башымды да аябаймын для тебя я и головы своей не пожалею;</blockquote>
+  <blockquote>мунуң адам болбойт из него толку не выйдет;</blockquote>
+  <blockquote>кечке бош отурдум я до вечера (т.е. весь день) сидел без дела;</blockquote>
+
+[204] count=90
+source_len=4 | shapes=5-6 / 7-8 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>иштин агымына карата по ходу дела; в зависимости от хода дела;</blockquote>
+  <blockquote>койду адалдап келди он прирезал овцу чистой (т.е. по ритуалу).</blockquote>
+  <blockquote>соттон акталып чыкты по суду оправдан.</blockquote>
+  <blockquote>алкымы аңырдай ачылды он ещё больше начал жадничать, у него ещё больше глаза разгорелись (от жадности);</blockquote>
+  <blockquote>сөзгэ алынбай калды с ним не считаются; он потерял всякий вес.</blockquote>
+
+[205] count=90
+source_len=2 | shapes=5-6+UU / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айлуу түн лунная ночь;</blockquote>
+  <blockquote>актуу кой стадо овец, среди которых преобладают белые овцы.</blockquote>
+  <blockquote>алдуу киши зажиточный человек.</blockquote>
+  <blockquote>даттуу арыз апелляционная жалоба;</blockquote>
+  <blockquote>бактуу узун аллей длинная аллея, обсаженная деревьями;</blockquote>
+
+[206] count=90
+source_len=2 | shapes=9++IH / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айта-буйта дегиче, ачып көздү жумгуча (стереотипное выражение в фольклоре) не успели оглянуться, в мгновение ока.</blockquote>
+  <blockquote>алдым-жуттум хапуга; мошенник;</blockquote>
+  <blockquote>алдырман-жылдырман талас. детская игра: волки, которых изображает одна группа детей, нападают на овец, которых изображает другая группа детей; пастух же (ребёнок) бьёт волков.</blockquote>
+  <blockquote>анда-санда иногда, по временам, изредка;</blockquote>
+  <blockquote>аттап-буттап легко, без затруднений (перепрыгнуть, перейти);</blockquote>
+
+[207] count=90
+source_len=1 | shapes=7-8 | remainder_start=rus_lower | has_wordLink=1 | rem_meta=0 | rem_origin=0 | rem_linkkw=1 | rem_ili=0
+  <blockquote>асыйлык ценностью равный асый'ю (см. <wordLink word="асый"/>);</blockquote>
+  <blockquote>атпайлап ураан сал- кричать атпай (см. <wordLink word="атпай" meaning="2"/>) в качестве боевого клича.</blockquote>
+  <blockquote>жарманы атырылтып кайнатып жатты он так кипятил жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>), что она брызгала;</blockquote>
+  <blockquote>балпайып төрдө отурат он важно (грузно) восседает на почётном месте (см. <wordLink word="төр" meaning="1"/>).</blockquote>
+  <blockquote>эсендик сураганың бар болсун! спасибо тебе за пожелание здоровья! (ещё прим. см. <wordLink word="ары-" homonym="III"/>);</blockquote>
+
+[208] count=89
+source_len=4 | shapes=3-4 / 5-6 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>өлүп кимди азайтам? а кого моя смерть опечалит (букв. умерев, кого я уменьшу) ?</blockquote>
+  <blockquote>оозу аппак болбойбу он ведь и пикнуть в ответ не посмеет.</blockquote>
+  <blockquote>асый тайлак верблюд по пятому году;</blockquote>
+  <blockquote>асый чыкма животное на грани пятого года.</blockquote>
+  <blockquote>төө чечип атканда в то время, когда он отвязывал верблюда;</blockquote>
+
+[209] count=89
+source_len=4 | shapes=7-8 / 5-6 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аңчылык менен күнүгө жаш сорпо ууртап турушат благодаря охоте они ежедневно хлебают свежий бульон.</blockquote>
+  <blockquote>көгөрүп жаткан кысыр аңыз зеленеющий (покрытый зелёной травой) перелог;</blockquote>
+  <blockquote>конокко арнап койгон козу ягнёнок, предназначенный для гостей.</blockquote>
+  <blockquote>аскалап турган кызыл таш торчащие красные скалы.</blockquote>
+  <blockquote>ичиктин сеңсең жакасы бай кайрылды мерлушковый воротник широко отвёрнут;</blockquote>
+
+[210] count=88
+source_len=4 | shapes=5-6 / 5-6 / 7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажаан душман злейший, заклятый враг;</blockquote>
+  <blockquote>азабын колго бергиле проучите его хорошенько.</blockquote>
+  <blockquote>тилин сунуп акактап высунув язык и учащённо дыша;</blockquote>
+  <blockquote>менин сөзүмө көнбөйт, андаеки атасы келсинчи, көнбөгөнүн көрөйүн меня он не слушается, а вот пусть придёт отец, тогда я посмотрю, как он не послушается.</blockquote>
+  <blockquote>Күлай, арттап, коктунун башында калды Кюлай, несколько поотстав, осталась у начала ложбины.</blockquote>
+
+[211] count=88
+source_len=4 | shapes=5-6 / 5-6 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>байдан байдын кандай ажырымы болчу эле какая уж там разница между одним богачом и другим богачом;</blockquote>
+  <blockquote>жүрөк сырын алагар көзүнүн жалооруган карашы менен гана билдирет тайну сердца выдаёт только просительный взгляд его больших глаз.</blockquote>
+  <blockquote>кашка аттын ээрин алдыртып таштап, өз ээрин кашка атка токутту он приказал снять с лысого коня седло и оседлать его своим седлом;</blockquote>
+  <blockquote>сайдан сайды артып, буларды издебеген жерим калган жок переходя от одного русла реки к другому, я не оставил ни одного неосмотренного места.</blockquote>
+  <blockquote>малды тоодан ашырт прикажи перегнать скот через гору.</blockquote>
+
+[212] count=88
+source_len=3 | shapes=5-6 / 9+ / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жылкы айкалышып кашынышат кони чешутся, положив голову один на спину другого;</blockquote>
+  <blockquote>айылды айылчылап разъезжая по чужим аулам (по гостям).</blockquote>
+  <blockquote>бардык айырмаларына карабастан несмотря на все их различия.</blockquote>
+  <blockquote>аскер кызматындагы находящийся на военнои службе, военнослужащий;</blockquote>
+  <blockquote>алган милдеттенме аткарылды взятое обязательство выполнено;</blockquote>
+
+[213] count=87
+source_len=3 | shapes=5-6 / 5-6 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>сенин азабың мага өттү ты меня измучил;</blockquote>
+  <blockquote>"алдым кулду" деп, сайды он пронзил (копьём), сказав "я победил" (в поединке);</blockquote>
+  <blockquote>сөзгө алгыс тот, с чьим мнением не считаются;</blockquote>
+  <blockquote>жакшы көрбөй, анан! а то не люблю, да! (тоже выдумал!);</blockquote>
+  <blockquote>анткен менен так, но всё же;</blockquote>
+
+[214] count=87
+source_len=3 | shapes=3-4 / 5-6 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мына балит сөз..., мына айникейлик! вот гнусные слова..., вот отступничество!</blockquote>
+  <blockquote>Алты Аркар астр. Малая Медведица;</blockquote>
+  <blockquote>Жети Аркар астр. Большая Медведица;</blockquote>
+  <blockquote>ары барып эле, бери келди он был на волосок от смерти (о человеке тяжело болевшем и чудом выздоровевшем);</blockquote>
+  <blockquote>үйү жакшы экен, атаганат, асты жер экен дом у него хорош, да жаль, пол земляной;</blockquote>
+
+[215] count=87
+source_len=4 | shapes=7-8 / 5-6 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>тамактан башын алып подняв голову от пищи;</blockquote>
+  <blockquote>мундайды бизде апың көрөт такое у нас не поощряется.</blockquote>
+  <blockquote>баркынан кетти или баркы кетти он лишился авторитета, почёта;</blockquote>
+  <blockquote>болбогон жерден жок болуп кетти пропал (погиб) ни за что ни про что;</blockquote>
+  <blockquote>буйдамга келбей, мүрт кетет эле он бы тут же и кончился;</blockquote>
+
+[216] count=86
+source_len=3 | shapes=7-8 / 9+ / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>көзүңдү адыраңдатпа не таращи глаза.</blockquote>
+  <blockquote>ажыналап калгансыңбы?! ты с ума сошёл?!</blockquote>
+  <blockquote>шаардын айланасында в окрестностях города;</blockquote>
+  <blockquote>сөзүңдү айттырбайт он не даёт тебе слова сказать; он не позволит говорить;</blockquote>
+  <blockquote>невинный, невиновный (в этом значении трудно отличить от ак II 1);</blockquote>
+
+[217] count=86
+source_len=4 | shapes=5-6 / 5-6 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажалы жетти его смертный час пробил;</blockquote>
+  <blockquote>көөнүм айныды или жүрөгүм айныды меня тошнит;</blockquote>
+  <blockquote>апийим аңызы поле опийного мака (после уборки).</blockquote>
+  <blockquote>Кызыл Армия ист. Красная Армия;</blockquote>
+  <blockquote>өткөн күздөн бери элимдин арасын артып жатып чарчадым я измучился, непрерывно с прошлой осени объезжая свой народ.</blockquote>
+
+[218] count=85
+source_len=3 | shapes=9+ / 9+ / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>милдеттенмесин абийирдүүлүк менен орундатты он с честью выполнил своё обязательство.</blockquote>
+  <blockquote>сунушуңузду алымсынгандык менен кабыл алдык ваше предложение мы приняли с удовлетворением.</blockquote>
+  <blockquote>башкаларды аралатпаган другим не позволял ходить (напр. по саду, лесу);</blockquote>
+  <blockquote>экөөңөрдүн ортоңорго аралжы болуп, менин жүрүшүм жакшы эмес нехорошо мне быть посредником между вами обоими;</blockquote>
+  <blockquote>балдактарын такылдатып кирип келди он вошёл, стуча костылями;</blockquote>
+
+[219] count=85
+source_len=3 | shapes=3-4 / 9+ / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мен жыгылганы аз калдым я чуть было не упал;</blockquote>
+  <blockquote>кеп айттырбай не давая слова сказать;</blockquote>
+  <blockquote>мени алаксытпа не отвлекай меня.</blockquote>
+  <blockquote>аны аллейлейт он перед ним угодничает.</blockquote>
+  <blockquote>сен андабайсың ты не замечаешь, ты не разумеешь.</blockquote>
+
+[220] count=85
+source_len=3 | shapes=3-4 / 5-6 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>өлүп кимди азайтам? а кого моя смерть опечалит (букв. умерев, кого я уменьшу) ?</blockquote>
+  <blockquote>айий, бетим курусун! эх, чтоб мне неладно было!</blockquote>
+  <blockquote>ана күнкү недавний; тот, который был как-то на днях;</blockquote>
+  <blockquote>тиши түшүп аңшайып, кемпир болуп калыптыр зубы у неё выпали, и она превратилась в (беззубую) старуху;</blockquote>
+  <blockquote>мен, таңды атырбай, изимди жашырайын я скроюсь, не дожидаясь рассвета;</blockquote>
+
+[221] count=85
+source_len=4 | shapes=3-4 / 7-8 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бир айтканын миң айтып зарядив одно и то же, без конца повторяя одно и то же;</blockquote>
+  <blockquote>мен аңкыйып анын оозун карап калыпмын я удивлённо заглядывал ему в рот;</blockquote>
+  <blockquote>ары кеткенде беш күндүн ичинде самое большее в течение пяти дней;</blockquote>
+  <blockquote>куш асманга атып чыкты птица взмыла кверху;</blockquote>
+  <blockquote>кар бабактап, жаап турган снег шёл хлопьями.</blockquote>
+
+[222] count=84
+source_len=3 | shapes=1-2 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>а көрө муну сүйлөйлүчү вместо того (лучше) поговорим об этом;</blockquote>
+  <blockquote>ай жур, аман жур! желаю тебе счастливого пути (сколько бы ты ни ездил) !;</blockquote>
+  <blockquote>аз айып, көп күнөөбүз болсо, кечир много ли мы виноваты, мало ли- прости;</blockquote>
+  <blockquote>ан үчүн или анын үчүн для него, для того; потому, по той причине;</blockquote>
+  <blockquote>ак ала (или агала) с белыми пятнами;</blockquote>
+
+[223] count=84
+source_len=4 | shapes=3-4 / 3-4 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аган сөз бербей не давая ему говорить.</blockquote>
+  <blockquote>анан мен келдим а потом я пришёл;</blockquote>
+  <blockquote>ары бол отойди в сторону, отойди подальше;</blockquote>
+  <blockquote>атын атап назвав по имени, назвав собственным именем;</blockquote>
+  <blockquote>очок башы место у очага;</blockquote>
+
+[224] count=84
+source_len=4 | shapes=9+ / 5-6 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айланчыктап басып турду он ходил вокруг;</blockquote>
+  <blockquote>айтышыңарга түшүнө албайм я не могу понять, что вы говорите;</blockquote>
+  <blockquote>алабайрак чапан халат из материи алабайрак.</blockquote>
+  <blockquote>алдыргандай болуп жүрөт он ходит как в воду опущенный;</blockquote>
+  <blockquote>амалсыздан көнүп отурам я вынужден согласиться.</blockquote>
+
+[225] count=84
+source_len=4 | shapes=3-4 / 7-8 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>алда качандан бери сага айтпадым беле? а разве я тебе давным-давно не говорил?</blockquote>
+  <blockquote>түн жамынып, кыр ашып бараткан аткезчи эмесмин я не контрабандист, который под покровом ночи переезжает хребет.</blockquote>
+  <blockquote>кең багалак тот, кто удержу в чём-л. не знает; безудержный в чём-л.;</blockquote>
+  <blockquote>жан багышка бул жер ылайык для жизни (для обеспечения пропитанием) это место подходящее;</blockquote>
+  <blockquote>бали, ушундай эле дейм да, вот это я понимаю!; вот это здорово!;</blockquote>
+
+[226] count=84
+source_len=2 | shapes=5-6 / 7-8+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>сөзгө аралашуу вмешиваться в разговор; принимать участие в разговоре.</blockquote>
+  <blockquote>почта аркылуу алдым я получил по почте;</blockquote>
+  <blockquote>эркек аттуулар все, кто зовётся мужчиной; все мужчины;</blockquote>
+  <blockquote>курман болууга багышталган байкуштар бедняги, обречённые на смерть.</blockquote>
+  <blockquote>колум байлануу у меня руки связаны;</blockquote>
+
+[227] count=83
+source_len=3 | shapes=7-8 / 3-4 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айтылышы чын болсо... если сказанное правда...</blockquote>
+  <blockquote>саргарып акча жүрөбү? он исхудал и побледнел?</blockquote>
+  <blockquote>Сапарбай, аяр басып үйгө кирди Сапарбай неслышными шагами вошёл в дом.</blockquote>
+  <blockquote>Кусейин баш болуп, беш киши келди пришло пять человек во главе с Хусеином;</blockquote>
+  <blockquote>бейлиңди айт скажи, каковы твои желания;</blockquote>
+
+[228] count=81
+source_len=2 | shapes=1-2 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>а эмичи? ну, а теперь?</blockquote>
+  <blockquote>а, айрөк! кандай ишиң? (злорадный вопрос) ну, как твои дела? что, делишки-то у тебя не ахти?</blockquote>
+  <blockquote>ал, эмесе, баштадым ну, коли так, я начал;</blockquote>
+  <blockquote>ал, бизчи? ну, а мы?</blockquote>
+  <blockquote>эл аралап, алыш-беришти жакшы көргөн адам он человек, который любит бродить среди народа, получать подарки и отдаривать;</blockquote>
+
+[229] count=81
+source_len=4 | shapes=7-8 / 5-6 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айдарын тигип или айдарын салып злобно, зверем (взглянув);</blockquote>
+  <blockquote>каштары жокко эсе, кирпиги акчылдоо бровей у него почти нет, ресницы белёсые.</blockquote>
+  <blockquote>алдында перед ним; впереди него;</blockquote>
+  <blockquote>апыртып айтты или апыртып суйлөдү он преувеличивал; он рассказывал небылицы;</blockquote>
+  <blockquote>артыкча сенин өзүң болгонуң жакшы эле было бы гораздо лучше, если бы ты сам был.</blockquote>
+
+[230] count=81
+source_len=4 | shapes=7-8 / 5-6 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>камчыны ээрдин актасына сайып койду он заткнул плеть под седло.</blockquote>
+  <blockquote>чыканагы менен алдыртан түртүп калды он исподтишка толкнул локтем.</blockquote>
+  <blockquote>багымдат маалы болгондо когда наступило время рассвета;</blockquote>
+  <blockquote>сакалын жулуп, бакырып ыйлады дёргая свою бороду, он ревмя ревел;</blockquote>
+  <blockquote>бармакка басып, тырмакка кысып жыйна жить прижимисто, отказывая себе в самом необходимом; копить по крохам;</blockquote>
+
+[231] count=80
+source_len=3 | shapes=5-6 / 3-4 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кызыл абоз ист. красный обоз.</blockquote>
+  <blockquote>ансыз без него, без того;</blockquote>
+  <blockquote>алмаз чөп южн. название лекарственной травы.</blockquote>
+  <blockquote>аңкак курт груб. о женщине в возрасте от сорока до пятидесяти лет, когда она якобы обладает особой половой возбудимостью.</blockquote>
+  <blockquote>анткор сөз хула, клевета;</blockquote>
+
+[232] count=80
+source_len=4 | shapes=7-8 / 3-4 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азоолок акча берип тур дай немного денег.</blockquote>
+  <blockquote>айдарым жел жүрүп (или согуп) турат дует лёгкий ветерок;</blockquote>
+  <blockquote>айтылышы чын болсо... если сказанное правда...</blockquote>
+  <blockquote>анетсең или антсең если ты поступишь так;</blockquote>
+  <blockquote>коктунун ичин арытып кел тщательно обыщи ложбину;</blockquote>
+
+[233] count=79
+source_len=3 | shapes=3-4 / 5-6 / 9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>абай менен осторожно, осмотрительно;</blockquote>
+  <blockquote>аган кандай дейсиздер? что вы на это скажете?</blockquote>
+  <blockquote>эмне адырая тиктейсиң? ты что выпучил глаза и (злобно) уставился?</blockquote>
+  <blockquote>тил алчаак послушный, сговорчивый.</blockquote>
+  <blockquote>уйку аралаш полусонный; в полусне.</blockquote>
+
+[234] count=79
+source_len=2 | shapes=9+ / 9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>тынчтангыла, агайиндер! успокойтесь (потише, не шумите), друзья!</blockquote>
+  <blockquote>алакандай немножечко, чуточку;</blockquote>
+  <blockquote>алжаңдаган болтливый; развязный;</blockquote>
+  <blockquote>балбандар оодарышат, күрөшөт, аркан сүйрөшөт силачи состязаются в стаскивании друг друга с коней, борются, перетягивают аркан;</blockquote>
+  <blockquote>"Эмгектеги артыкчылыгы үчүн" медаль медаль "За трудовое отличие".</blockquote>
+
+[235] count=79
+source_len=4 | shapes=3-4 / 5-6 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>арка бериш жер смежная земля, смежный участок земли;</blockquote>
+  <blockquote>бай болгур, тиги китепти алып берчи будь добр, подай вон ту книгу;</blockquote>
+  <blockquote>мен болсом... что касается меня...;</blockquote>
+  <blockquote>бул алтын эмес, алтындын буусу это не золото, а позолота;</blockquote>
+  <blockquote>ырың өзүңө эле буюрсун ну тебя с твоей песней! (слушай её сам, никому она не нужна);</blockquote>
+
+[236] count=78
+source_len=4 | shapes=9+ / 5-6 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адамгерчиликке салып ойлоп көрчү обдумай-ка ты по-человечески.</blockquote>
+  <blockquote>аңгычакты болбой, жогор жактан каңырт угулду "соба-а, соп!" вдруг сверху послышалось "цоб-цобе!";</blockquote>
+  <blockquote>чогулушта болдум, андан киного бардым я был на собрании, потом пошёл в кино.</blockquote>
+  <blockquote>балдактарын таянып, жөнөп калды он пошёл, опираясь на костыли;</blockquote>
+  <blockquote>балканактай болгон аппак эркек бала пухленький, беленький мальчик;</blockquote>
+
+[237] count=78
+source_len=4 | shapes=5-6 / 7-8 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айына жыйырма беш сомдон по двадцать пять рублей в месяц;</blockquote>
+  <blockquote>алакан көрүүчү или алакан ачуучу хиромант;</blockquote>
+  <blockquote>сөзүн аңгарып кара вникни в его слова;</blockquote>
+  <blockquote>атайы аңдытып коюу керек нужно поручить установить особую слежку;</blockquote>
+  <blockquote>сенин арпаңды ким чийки орду? что ты так взбеленился? (букв. кто твой ячмень незрелым сжал?).</blockquote>
+
+[238] count=78
+source_len=4 | shapes=7-8 / 3-4 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>саргарып акча жүрөбү? он исхудал и побледнел?</blockquote>
+  <blockquote>катынына акыл салды он посоветовался со своей женой;</blockquote>
+  <blockquote>алаканын шап койду он всплеснул руками;</blockquote>
+  <blockquote>саламына алик албай не ответив на приветствие;</blockquote>
+  <blockquote>алчайып атка минди он сел на лошадь, раскорячив ноги;</blockquote>
+
+[239] count=77
+source_len=4 | shapes=7-8 / 5-6 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айдыңга салып кырман сапырдым я веял хлеб при лунном свете;</blockquote>
+  <blockquote>атымдын бутуна акбаш чыгыптыр на ногах моей лошади появился мокрец.</blockquote>
+  <blockquote>колунун сырты менен сакалын астыртан өйдө экчеп поглаживая бороду тылом ладони снизу вверх;</blockquote>
+  <blockquote>берекеси балкып жаткан бактарым мои сады, разливающие благодать;</blockquote>
+  <blockquote>бетимен бедер кетти пропала красота моего лица (гл. обр. румянец);</blockquote>
+
+[240] count=77
+source_len=4 | shapes=3-4 / 5-6 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>арка бериш сидение или стояние спиной друг к другу;</blockquote>
+  <blockquote>акча атасын өлтүргөн или атасын акча өлтүргөн скряга;</blockquote>
+  <blockquote>баш багып кирерде при самом входе, у самого входа;</blockquote>
+  <blockquote>башы кеткен бапанга, аягы кеткен сапанга рассеялись по разным далёким странам;</blockquote>
+  <blockquote>дал болгон баштанып как громом поражённый.</blockquote>
+
+[241] count=76
+source_len=2 | shapes=7-8 / 5-6+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>шайлоого акылуу имеющий избирательные права;</blockquote>
+  <blockquote>аттарды, суусун деп, байлаштыра баштадык мы начали связывать коней одного с другим, чтобы они выстоялись.</blockquote>
+  <blockquote>булгаары жыттуу с приятным запахом, благовонный;</blockquote>
+  <blockquote>буралган сулуу жеманная красавица.</blockquote>
+  <blockquote>буркурак жыттуу издающий сильный и приятный запах, очень ароматичный.</blockquote>
+
+[242] count=75
+source_len=3 | shapes=5-6 / 3-4 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>шердин шери Күлчоро - азарым анык салайын;</blockquote>
+  <blockquote>айдама киши человек, который ничего не делает сам, а ждёт, чтоб его подтолкнули.</blockquote>
+  <blockquote>айдөшү жер отлогое, покатое место.</blockquote>
+  <blockquote>элдин аягы басылбай, бири кирип, бири чыгып один входит, другой выходит (всё время кто-то есть);</blockquote>
+  <blockquote>чөптүн башы верхушка, головка растения;</blockquote>
+
+[243] count=73
+source_len=2 | shapes=9+ / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абсолюттук чындык или абсолюттук акыйкат абсолютная истина;</blockquote>
+  <blockquote>ажылдашып жакын келтиришпеди они с руганью набросились и даже близко (к себе) не подпустили.</blockquote>
+  <blockquote>барарыңды аныкта скажи определённо, пойдёшь или нет;</blockquote>
+  <blockquote>көздөрүнүн чарасы бөксөрүп, акыреги аркайган глаза у него ввалились, ключицы торчат;</blockquote>
+  <blockquote>балпаңдап бастым я шёл, тяжело ступая (напр. по глубокому снегу или в тяжёлой неуклюжей одежде);</blockquote>
+
+[244] count=73
+source_len=1 | shapes=9++IH | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аздырып-тоздуруп, жок кылды он разогнал (всех) во все стороны; он разбил (всех) в пух и в прах и разогнал.</blockquote>
+  <blockquote>айрөк-айрөк! срам, срам!; что, выкусил?</blockquote>
+  <blockquote>эсеп-кысабы, алды-бердиси абдан так болгону жакшы хорошо, когда учёт и взаимные расчёты точны;</blockquote>
+  <blockquote>алас-алас - балакеттен калас заклинание алас-алас - от беды избавление;</blockquote>
+  <blockquote>апан-тапан, жаман чапан, ийри комуз, Чолпон жылдыз загадка неуклюжий, плохое пальто, кривой комуз, звезда Венера (отгадка төө верблюд);</blockquote>
+
+[245] count=73
+source_len=2 | shapes=9++IH / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ачык-айрым открыто, явно; откровенно; ясно;</blockquote>
+  <blockquote>ушак-айың сплетни, пересуды;</blockquote>
+  <blockquote>агы-көгүн көргөнбү? разобрался ли он в нём?, видел ли он в нём хорошее и дурное?</blockquote>
+  <blockquote>алмаш-өркөш девушка, выданная замуж в далёкие края.</blockquote>
+  <blockquote>аңды-дөңдү карабай, артынан чуркады не обращая внимания на ямы и бугры, он погнался за ним;</blockquote>
+
+[246] count=72
+source_len=4 | shapes=3-4 / 3-4 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>шиш абак особо строгая тюрьма (с пытками).</blockquote>
+  <blockquote>бир сөз менен айтканда одним словом;</blockquote>
+  <blockquote>жан алы калбай кубанды он очень обрадовался; он был вне себя от радости;</blockquote>
+  <blockquote>жан алы калбай жалынат он усиленно просит, он умоляет.</blockquote>
+  <blockquote>алам деп келип, алдырат деген ушул вот это и есть, когда человек, рассчитывая получить, отдаёт (напр. рассчитывая на военную добычу, отдаёт в руки врага свое);</blockquote>
+
+[247] count=72
+source_len=4 | shapes=5-6 / 7-8 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>элдин бардыгы агылып, төрт баатырдын артынан басышты весь народ повалил следом за четырьмя храбрецами.</blockquote>
+  <blockquote>айгине көрүнүп турат ясно виднеется;</blockquote>
+  <blockquote>иштери анчалык жакшы эмес их дела не особенно хороши;</blockquote>
+  <blockquote>кыштын аракетин кылып атам я готовлюсь к зиме, я делаю приготовления к зиме;</blockquote>
+  <blockquote>жылан торгойду арбады змея загипнотизировала жаворонка;</blockquote>
+
+[248] count=72
+source_len=3 | shapes=1-2 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>он айлык тапшырма десятимесячное задание;</blockquote>
+  <blockquote>ак чалган саамайы волосы на висках у неё с проседью;</blockquote>
+  <blockquote>ак кызмат честная служба;</blockquote>
+  <blockquote>ак эмгек честный труд;</blockquote>
+  <blockquote>эл акыны народный акын (официально присваемое звание);</blockquote>
+
+[249] count=72
+source_len=3 | shapes=3-4 / 3-4 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>"айт!" десе, "ойт!" деген тот, кто на "айканье" отвечает "ойканьем" (паникёр);</blockquote>
+  <blockquote>аным тот мой, то моё;</blockquote>
+  <blockquote>аның тот твой, то твоё;</blockquote>
+  <blockquote>баак, баак! - деди өрдөктөрдүн бирөө "кря-кря!" крякнула одна из уток.</blockquote>
+  <blockquote>аты бар беде? была ли у него лошадь?</blockquote>
+
+[250] count=72
+source_len=3 | shapes=3-4 / 9+ / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аны урматташат, алпейлешет его почитают, перед ним угодничают.</blockquote>
+  <blockquote>арак заводдору винокуренные заводы;</blockquote>
+  <blockquote>көзү бажырайган, балпайган чоң кара байбиче большеглазая, грузная, чёрная женщина;</blockquote>
+  <blockquote>бир бейлиңден жанбайсың ты (упрямо) стоишь на своём;</blockquote>
+  <blockquote>унаа чалдырарлык берекелүү жер место, удобное для того, чтобы попасти коней.</blockquote>
+
+[251] count=71
+source_len=1 | shapes=7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=1 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>атаңарга аалат! бран. проклятие вашим предкам!</blockquote>
+  <blockquote>чочконун тумшугу тийгенди арак адалдантат деген молдокем шутл. мулла сказал, что водка делает чистым (даже) то, чего коснулось свиное рыло.</blockquote>
+  <blockquote>жүрөгүм чочуп айрылып, жүдөдүм жаман кайгырып фольк. южн. от испуга сердце моё разрывается, я весь истомился в печали;</blockquote>
+  <blockquote>алеңгир жаа (в эпосе) губительный лук (оружие);</blockquote>
+  <blockquote>айтканын бала угуптур, аңкаарып карап туруптур фольк. слушал паренёк его речь и удивлённо смотрел.</blockquote>
+
+[252] count=71
+source_len=4 | shapes=7-8 / 7-8 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айдоодо жүргөндө когда он был в изгнании, когда он был в ссылке;</blockquote>
+  <blockquote>короодон айкырып чыкты он с криком вышел со двора;</blockquote>
+  <blockquote>атасынын акисине калды он понёс возмездие за своего отца (о неблагодарном сыне, неблагодарной дочери);</blockquote>
+  <blockquote>алактап жүгүрүп чыкты он выбежал, пугливо озираясь.</blockquote>
+  <blockquote>арбашпай отургула сидите и не ссорьтесь.</blockquote>
+
+[253] count=71
+source_len=2 | shapes=5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=1 | rem_meta=0 | rem_origin=0 | rem_linkkw=1 | rem_ili=0
+  <blockquote>айкөл - чалкар көл сыяктуу кең киши широкий (великодушный, благородный), как огромное озеро, человек (см. <wordLink word="чалкар" meaning="2"/>);</blockquote>
+  <blockquote>хандын кызын түшүндө көрүп, ашык болуп, алп кара кушуна алдырткан экен (из сказки) увидел во сне ханскую дочь, влюбился, (но допустил, что) её унесла птица алп кара куш (см. <wordLink word="куш" homonym="I" meaning="3"/>).</blockquote>
+  <blockquote>аңгеме дүкөн сал- см. <wordLink word="дүкөн"/>.</blockquote>
+  <blockquote>энчиге басып ал- см. <wordLink word="энчи" meaning="1"/>.</blockquote>
+  <blockquote>бетке басып айт- см. <wordLink word="бас-" homonym="IV"/>;</blockquote>
+
+[254] count=71
+source_len=3 | shapes=9++IH / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айта-буйта дегиче или айт-буйт дегиче вмиг, в мгновение ока;</blockquote>
+  <blockquote>айта-буйта дегиче, ачып көздү жумгуча (стереотипное выражение в фольклоре) не успели оглянуться, в мгновение ока.</blockquote>
+  <blockquote>алек-далек болуп или алек-челек болуп торопливо, суетливо, растерянно.</blockquote>
+  <blockquote>алчы-таасын жеген или алчы-таасын кемирген хитрый, пронырливый.</blockquote>
+  <blockquote>ичеги-кардын артып атат он моет и вычищает кишки и желудок.</blockquote>
+
+[255] count=69
+source_len=4 | shapes=5-6 / 5-6 / 1-2 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адепки убакта в первое время.</blockquote>
+  <blockquote>аябай жедим я много съел;</blockquote>
+  <blockquote>быйыл Күлай он алтыга аяк басты в этом году Кюлай исполнилось шестнадцать лет;</blockquote>
+  <blockquote>сөздүн бабасы к месту и умно сказанное слово;</blockquote>
+  <blockquote>барып турган в высшей степени; наи...;</blockquote>
+
+[256] count=69
+source_len=2 | shapes=9++IH / 9+ | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аки-чүкүңдү билбеймин, эртең келесиң меня это (то, что ты говоришь) не интересует, а ты завтра должен прийти;</blockquote>
+  <blockquote>аки-чүкүңдү билбеймин, карызга алган акчамды бер ты эти разговоры и отговорки оставь, а плати-ка мне долг;</blockquote>
+  <blockquote>алма-жулма вырванный, выхваченный, нахватанный (из разных мест).</blockquote>
+  <blockquote>алыш-бериш взаимообмен; обмен подарками (как знак дружбы);</blockquote>
+  <blockquote>айла-амалдарына карабастан... несмотря на все его хитрости и уловки;</blockquote>
+
+[257] count=68
+source_len=4 | shapes=3-4 / 5-6 / 1-2 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>адам баласы аа эмне дебес! что (только) человек не скажет об этом!</blockquote>
+  <blockquote>ала табак не для всех одинаковое угощение;</blockquote>
+  <blockquote>асты тактай үй или асты тактайлуу үй дом с деревянным полом;</blockquote>
+  <blockquote>ичи ачышып у него всё внутри кипит (напр. от обиды).</blockquote>
+  <blockquote>сени аябайт он тебя не пожалеет;</blockquote>
+
+[258] count=68
+source_len=3 | shapes=7-8 / 5-6 / 5-6 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кудайдын ардагы белең? а ты-то баловень божий, что ли? (тебя и тронуть нельзя?);</blockquote>
+  <blockquote>акылдан артык вовсю; очень;</blockquote>
+  <blockquote>камчыны бүктөп туруп, тебетейлерин ары-бери кагып сложив нагайки и немного постучав ими по шапкам (стряхивая пыль);</blockquote>
+  <blockquote>"кебиңди токтот, Чаргын!" - дешип, ар ким-ар кимдер, ага аярдык менен карашты "замолчи, Чаргын!" - сказали все и с опаской посмотрели на него.</blockquote>
+  <blockquote>Кусейин кетип калды, болбосо, бир аз бабыратат элек (жаль, что) Хусаин уехал, а то бы он нам кое-что порассказал (мы бы вызвали его на всякие разговоры).</blockquote>
+
+[259] count=67
+source_len=4 | shapes=7-8 / 5-6 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажалсыз бенде жок все люди смертны.</blockquote>
+  <blockquote>сакалын сылап, бир азга кулак салып турду он некоторое время слушал, поглаживая бороду;</blockquote>
+  <blockquote>кечээки күндүн аркы күнү позавчера;</blockquote>
+  <blockquote>мурдаагы күндүн аркы күнү четвёртого дня; три дня тому назад;</blockquote>
+  <blockquote>артыңды байкап жүр веди себя скромно; следи за своими поступками; смотри, как бы не было худых последствий от твоего поведения (букв. ходи, оглядываясь назад);</blockquote>
+
+[260] count=67
+source_len=3 | shapes=9++IH / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айсал-буйсал кылгыча или айсал-буйсал кылбастан вмиг; не успеешь оглянуться, как...;</blockquote>
+  <blockquote>алык-алмандар всякого рода дань и повинности;</blockquote>
+  <blockquote>атаң-анаң дедимби? или я тебя как-нибудь похабно обругал?</blockquote>
+  <blockquote>сылап-сыйпап багылган бала выпестованный ребёнок.</blockquote>
+  <blockquote>баскан-тургандын баарынан өөн табасың ты придираешься ко всем без разбора;</blockquote>
+
+[261] count=67
+source_len=4 | shapes=3-4 / 7-8 / 5-6 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>мады артында калсын! (о скряге) чтоб ему подохнуть, не воспользовавшись своим скотом! (букв. пусть скот его остаётся позади него!);</blockquote>
+  <blockquote>арты жакшылык көрбөс он плохо кончит, для него это кончится плохо;</blockquote>
+  <blockquote>атам замандан берки с незапамятных времен;</blockquote>
+  <blockquote>ишке ашырышы тийиш он должен провести в жизнь, применить на практике.</blockquote>
+  <blockquote>кара башыңды жегир! ух ты, негодник!;</blockquote>
+
+[262] count=67
+source_len=4 | shapes=3-4 / 3-4 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>узун аяк мал крупный скот;</blockquote>
+  <blockquote>бир аяк ашка айтпаган ни в грош нё ставит;</blockquote>
+  <blockquote>"баа" атип, бир бакырдым я заорал "баа"!;</blockquote>
+  <blockquote>бул оюң бир эсептен туура, муну байкаштырып көрүш керек с одной стороны, эта ваша мысль правильна, нужно будет подумать и разобраться.</blockquote>
+  <blockquote>эки буту бир өтүгүнө кийилген находящийся в крайне стеснённых обстоятельствах;</blockquote>
+
+[263] count=66
+source_len=4 | shapes=5-6 / 3-4 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бычак далк кагып калыптыр нож заржавел;</blockquote>
+  <blockquote>элдик алды болуп, баласына көрүшүүнү, кучактап өбүүнү самаган она желала первой поздороваться с сыном, обнять и поцеловать его;</blockquote>
+  <blockquote>алдыр жагы перед, передняя сторона чего-л.</blockquote>
+  <blockquote>Темир аркы бетке оогандан кийин дагы көп жерди артты Темир, перевалив на ту сторону, тщательно осмотрел ещё много мест;</blockquote>
+  <blockquote>тузуна кара санап, башынан аттап башкага тийип кетти заплатив ему неблагодарностью, опозорив его, вышла за другого;</blockquote>
+
+[264] count=66
+source_len=2 | shapes=7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>абайсыз карматып салды получилось так, что он дал себя схватить; он не заметил, как его схватили.</blockquote>
+  <blockquote>оозунан алдырган бөрүдөй или алдындагы ашын алдыргансып с глупо растерянным видом;</blockquote>
+  <blockquote>тийиштүү жазасын алышты они получили должное возмездие;</blockquote>
+  <blockquote>ачендик милийсе начальник милиции;</blockquote>
+  <blockquote>күңгөйдү жердеген сары барпылар на солнечной стороне водились сары барпы;</blockquote>
+
+[265] count=66
+source_len=4 | shapes=5-6 / 3-4 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>"жакшы" деп айтарлык эмес нельзя сказать, чтобы было хорошо;</blockquote>
+  <blockquote>тилине алы жетпейт или оозуна алы жетпейт он невоздержан на язык;</blockquote>
+  <blockquote>андан аркы жаштарын бир асый, эки асыйлап... санай берет... а дальнейший возраст считают по асый'ям: один асый, два асый'я...</blockquote>
+  <blockquote>жемиш багы, жүзүмдөр жана гүл бакчалар плодовый сад, виноградних и цветник;</blockquote>
+  <blockquote>бараң эмес, милтелүү кара мылтык не пистонное, а простое фитильное ружьё;</blockquote>
+
+[266] count=65
+source_len=4 | shapes=5-6 / 5-6 / 3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ажалы жетип өлдү он умер естественной смертью;</blockquote>
+  <blockquote>башын айырып алды он разбил себе голову;</blockquote>
+  <blockquote>жүзүн аарчып алды он вытер своё лицо;</blockquote>
+  <blockquote>сөзгө алгыс тот, с чьим мнением не считаются;</blockquote>
+  <blockquote>жакшы көрбөй, анан! а то не люблю, да! (тоже выдумал!);</blockquote>
+
+[267] count=65
+source_len=2 | shapes=9+ / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>тайгандарын "айт!" деп жиберди он крикнул своим борзым "ату!";</blockquote>
+  <blockquote>акырындап тихо; медленно; постепенно, мало-помалу;</blockquote>
+  <blockquote>орундабай, анан! конечно, выполнил!; а то как же!;</blockquote>
+  <blockquote>аңгычакты сиз үйгө кирип чай-пай иче турбайсызбы? а тем временем вы, может быть, войдёте в юрту и чайку попьёте?</blockquote>
+  <blockquote>Сансыздын башы үч жүз боо чөп оруп берүүгө байланды на Сансызе лежала обязанность накосить триста снопов сена;</blockquote>
+
+[268] count=65
+source_len=2 | shapes=3-4 / 5-6 | remainder_start=paren_or_quote | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>баш бармак (иногда просто бармак) большой палец (на руке и ноге);</blockquote>
+  <blockquote>көз баштык (в сказке) мешок из роговицы глаза (волшебное свойство его заключается в том, что его якобы нельзя наполнить);</blockquote>
+  <blockquote>"бир боорум" деп, өкүрө турган киши жок у него нет ни одного кровного родственника (букв. у него нет человека, который бы, оплакивая, называл его бир боорум);</blockquote>
+  <blockquote>буту бүдөө (о коне) медлительный в движении, в беге; двигающийся с ленцой.</blockquote>
+  <blockquote>бук кылат (меня что-то) гнетёт;</blockquote>
+
+[269] count=64
+source_len=3 | shapes=7-8 / 5-6 / 3-4 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>атаңарга аалат! бран. проклятие вашим предкам!</blockquote>
+  <blockquote>каштары жокко эсе, кирпиги акчылдоо бровей у него почти нет, ресницы белёсые.</blockquote>
+  <blockquote>алдында перед ним; впереди него;</blockquote>
+  <blockquote>булгаары зооту разг. кожевенный завод;</blockquote>
+  <blockquote>бултуйта чулгоо ороп, булгары өтүктөрдү кийишет намотав (на ноги) много (букв. толсто) портянок, они надевают кожаные сапоги.</blockquote>
+
+[270] count=64
+source_len=3 | shapes=9++IH / 3-4 / 9++IH | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азын-көбүн или көбүн-азын немного, до некоторой степени; сколько полагается;</blockquote>
+  <blockquote>акты-кара или акты-каралы правый и неправый, правда и ложь (букв. белое и чёрное);</blockquote>
+  <blockquote>аксак-токсок или аксак-тексек всякие хромые и с больными ногами;</blockquote>
+  <blockquote>акыры-аягында или акыры-аягы в конце концов;</blockquote>
+  <blockquote>албырак-салбырак или адбырактан-салбырак болтающийся, треплющийся (напр. о лохмотьях рваной одежды).</blockquote>
+
+[271] count=64
+source_len=3 | shapes=1-2 / 7-8 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ал оозуңдан айлансын он не стоит того, чтобы ты тратил на него слова;</blockquote>
+  <blockquote>ат аягынан басынды лошадь охромела;</blockquote>
+  <blockquote>эл бийлери народные танцы.</blockquote>
+  <blockquote>ат буттугу название части седла;</blockquote>
+  <blockquote>ак сакалын жайкаган он потряхивал своей (густой и длинной) седой бородой;</blockquote>
+
+[272] count=64
+source_len=4 | shapes=7-8 / 3-4 / 3-4 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>акчаамай эти бар бээ кобыла ниже средней упитанности;</blockquote>
+  <blockquote>артында сөзү көп или арты чуулуу пресловутый, пользующийся дурной славой;</blockquote>
+  <blockquote>Музооке ары ырчы, ары ашкан комузчу эле Музооке был и ырчы (см.) и выдающимся комузчи;</blockquote>
+  <blockquote>кымызды аяк өйдө сун подавай кумыс, начиная с последнего;</blockquote>
+  <blockquote>азыраак аял кыла тур подожди немного;</blockquote>
+
+[273] count=64
+source_len=1 | shapes=9++IH+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>ата-уулунун баарысы люди всех племён, всех родов;</blockquote>
+  <blockquote>аттуу-жөө болушуп, арттан самсып ээрчип алышкан они плелись сзади, кто верхом, кто пешком.</blockquote>
+  <blockquote>аш-суудан калды он лишился аппетита;</blockquote>
+  <blockquote>бакты-таалайлуу счастливый, удачливый;</blockquote>
+  <blockquote>катын-балалуу киши человек, имеющий жену и детей; семейный человек;</blockquote>
+
+[274] count=63
+source_len=4 | shapes=5-6 / 3-4 / 3-4 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кызыл абоз ист. красный обоз.</blockquote>
+  <blockquote>алмаз чөп южн. название лекарственной травы.</blockquote>
+  <blockquote>башка арга жок другого выхода нет;</blockquote>
+  <blockquote>арыста бала или арыстакы жаш бала невинное дитя.</blockquote>
+  <blockquote>"кокуй!..." деп бири бакырды один из них громко закричал кокуй! (см.);</blockquote>
+
+[275] count=63
+source_len=3 | shapes=9++IH / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азган-тозгон голодный и холодный, вконец изнемогший;</blockquote>
+  <blockquote>ай-ааламды кыдырды он исколесил весь мир;</blockquote>
+  <blockquote>алчы-таасын аңтарды он разобрался детально в их качествах и особенностях; он точно выяснил, кто и на что годен; он детально разобрался в деле;</blockquote>
+  <blockquote>айла-амал хитрости и уловки;</blockquote>
+  <blockquote>аңгыр-туңгур корявый (о предметах); неровный (напр. о дороге).</blockquote>
+
+[276] count=63
+source_len=4 | shapes=9+ / 3-4 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айландыра эки жакты карап туруп оглядываясь вокруг, посматривая то туда, то сюда;</blockquote>
+  <blockquote>сүйлөгөндө алыс айтып койдум окшойт когда я говорил, то, видимо, переборщил;</blockquote>
+  <blockquote>антпегенде или антпей турган болсо а если не так; в противном случае;</blockquote>
+  <blockquote>адабияттагы жаңы багыт новое направление в литературе;</blockquote>
+  <blockquote>байкатпастан өтүп кетмек болот он решил пройти незамеченным.</blockquote>
+
+[277] count=63
+source_len=4 | shapes=7-8 / 5-6 / 7-8 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кыпкызыл болуп, ушундай бир акшыңдады... он так покраснел и рассвирепел...;</blockquote>
+  <blockquote>башынан түтүн арылтпай, атып турган он давал выстрел за выстрелом, так что над головой его не успевал рассеяться дым.</blockquote>
+  <blockquote>ашыналык бекем достукка өттү приятельские отношения перешли в тесную дружбу.</blockquote>
+  <blockquote>байманаң ташып баратабы? что у тебя, излишки богатства, что ли? (обычно говорят человеку, который, надев шапку на палец, вертит её, что считалась предосудительным).</blockquote>
+  <blockquote>жарааты шишип балаалап рана его воспаляется (букв. пухнет), становясь (всё) мучительнее.</blockquote>
+
+[278] count=63
+source_len=3 | shapes=9+ / 9+ / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>Күлүмкандын очогундагы от алоолоп,... куймак нандар кара табакка түшүп жатты огонь в очаге Кулюмкан пылал,... и оладьи непрерывно падали на деревянное блюдо;</blockquote>
+  <blockquote>баатырлардын колдорунда ай балта в руках у богатырей бердыши;</blockquote>
+  <blockquote>тракторду баркыратты он с грохотом повёл трактор.</blockquote>
+  <blockquote>алдыбызга, булоолонтуп, эт койду он поставил перед нами дымящееся мясо;</blockquote>
+  <blockquote>бултактатып карматпайт он не даёт себя поймать.</blockquote>
+
+[279] count=63
+source_len=2 | shapes=5-6 / 3-4+UU | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>көзүн аруу басты он ослеп.</blockquote>
+  <blockquote>айыбын ачуу выявление вины, разоблачение кого-л.</blockquote>
+  <blockquote>бакма уул приёмный сын;</blockquote>
+  <blockquote>балчык суу грязная (болотная) вода;</blockquote>
+  <blockquote>калың дуу сильный гул;</blockquote>
+
+[280] count=62
+source_len=4 | shapes=3-4 / 3-4 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бул бала ааламга татыйт этот паренёк мировой;</blockquote>
+  <blockquote>калп эле акчылана берет оправдываясь, он заведомо врёт.</blockquote>
+  <blockquote>апай бет плоский склон горы.</blockquote>
+  <blockquote>аны атка аткарып койдум я посадил его на лошадь;</blockquote>
+  <blockquote>"баң, баң" эттирип удаасы менен эки атты он два раза бабахнул (выстрелил).</blockquote>
+
+[281] count=62
+source_len=3 | shapes=9++IH / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азып-тозуп жок болду разлетелось в пух и в прах; разбрелись по миру;</blockquote>
+  <blockquote>аздырып-тоздуруп, жок кылды он разогнал (всех) во все стороны; он разбил (всех) в пух и в прах и разогнал.</blockquote>
+  <blockquote>аки-чүкүңдү бала тергеп отурчу беле где ж ребёнку разобраться в том, что ты говоришь (это не детского ума дело).</blockquote>
+  <blockquote>алды-бердиге так жүргөн достордун арасынан нааразылык чыккан эмес между друзьями, которые были точны во взаимных расчётах, недовольства не было;</blockquote>
+  <blockquote>аркы-беркини көзү көргөн Темирди да айраң-таң калтырды (это) удивило даже Темира, который кое в чём разбирался;</blockquote>
+
+[282] count=62
+source_len=3 | shapes=5-6 / 1-2 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жаман да болсо айбары бар у него всё-таки кое-какая опора есть;</blockquote>
+  <blockquote>убада иш менен айкалышты обешание сочеталось с делом;</blockquote>
+  <blockquote>көзүнө ак түштү у него появилось бельмо на глазу;</blockquote>
+  <blockquote>ансыз да берем я и без того дам; я и так дам;</blockquote>
+  <blockquote>анысы да эчтеме эмес и это бы (у него) ещё ничего, ещё туда-сюда;</blockquote>
+
+[283] count=62
+source_len=2 | shapes=9+ / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>айланайын (или айнанайын или айлайын или айланып кетейиним) мой миленький (я готов стать искупительной жертвой за тебя);</blockquote>
+  <blockquote>неисполненное или неудовлетворённоё желание; сожаление о неисполненном или неудовлетворённом желании;</blockquote>
+  <blockquote>аттансалдап, айыл кншилеринин дүрбөгөнү билинди по крикам аттансал было видно, что среди людей аула поднялся переполох.</blockquote>
+  <blockquote>багалектен алыш или багалектен тутуш хватать друг друга за штанины (один из приёмов борьбы);</blockquote>
+  <blockquote>багыбызга (или бактыбызга) кайчы (или каршы) к нашему несчастью;</blockquote>
+
+[284] count=62
+source_len=4 | shapes=3-4 / 7-8 / 5-6 / 7-8 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>үйдү актатып алалы давайте произведём побелку дома (напр. наняв кого-л.);</blockquote>
+  <blockquote>жан алакетке түшүп напрягая все силы, изо всех сил;</blockquote>
+  <blockquote>түн ортосуна чейин бабыраша берелиби? что же мы так и будем до полуночи болтать?</blockquote>
+  <blockquote>күн батышкы тарабы западная сторона чего-л.</blockquote>
+  <blockquote>алды жактагы борчук тумшукка жакындап келишти эле они подъехали к скалистому выступу, что был перед ними;</blockquote>
+
+[285] count=62
+source_len=4 | shapes=7-8 / 3-4 / 7-8 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>аптыгып айта албадым я не мог слова вымолвить (от страха).</blockquote>
+  <blockquote>аржагын өзүң билесиң а там уж сам суди; а уж дальше дело твоё.</blockquote>
+  <blockquote>барбаган жери калбады не осталось такого места, куда бы он не ходил; он исходил всё;</blockquote>
+  <blockquote>душманга бел алдырба не выказывай перед врагом своей слабости; перед лицом врага держи себя молодцом;</blockquote>
+  <blockquote>бүчүлөмө жака воротник на завязках.</blockquote>
+
+[286] count=62
+source_len=3 | shapes=7-8 / 5-6 / 7-8 | remainder_start=other | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>арадагы акмак человек, который своим глупым вмешательством портит дело;</blockquote>
+  <blockquote>башынан түтүн арылтпай, атып турган он давал выстрел за выстрелом, так что над головой его не успевал рассеяться дым.</blockquote>
+  <blockquote>аштыгың чийки ордукпу? мы тебе пакость какую сделали, что ли? (букв. мы твой хлеб незрелым сжали, что ли?).</blockquote>
+  <blockquote>ашыналык бекем достукка өттү приятельские отношения перешли в тесную дружбу.</blockquote>
+  <blockquote>байманаң ташып баратабы? что у тебя, излишки богатства, что ли? (обычно говорят человеку, который, надев шапку на палец, вертит её, что считалась предосудительным).</blockquote>
+
+[287] count=61
+source_len=4 | shapes=7-8 / 5-6 / 3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азырынча барбай тур ты пока не ходи;</blockquote>
+  <blockquote>көзүңдө алалык бар в твоих глазах есть что-то неладное (ты что-то замышляешь).</blockquote>
+  <blockquote>анчалык бийик эмес не очень высокий;</blockquote>
+  <blockquote>кишинин кишиси бар не все люди одинаковы, человек человеку - рознь;</blockquote>
+  <blockquote>баралына келбей өлдү он умер преждевременно;</blockquote>
+
+[288] count=61
+source_len=3 | shapes=3-4 / 1-2 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>өзү да чочуп алды он и сам (собственного действия) испугался;</blockquote>
+  <blockquote>апек! ал эмнеси экен? ой, что это такое?</blockquote>
+  <blockquote>эми да Темир арына келип, сөзүн кызып айтып жатты и теперь Темир, задетый за живое, продолжал горячо говорить;</blockquote>
+  <blockquote>ага эч кандай пайда артпайт ему нет никакой выгоды;</blockquote>
+  <blockquote>бир аз аярдай калып несколько помешкав, подождав;</blockquote>
+
+[289] count=60
+source_len=3 | shapes=9+ / 9+ / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>өндүрүштөн ажыратпастан без отрыва от производства;</blockquote>
+  <blockquote>антпесеңиз кыянатчысыз если не сделаете так, вы - преступник;</blockquote>
+  <blockquote>жалгыздыкка басмырлансам, мага кол сунду когда я был подавлен одиночеством, он мне руку протянул.</blockquote>
+  <blockquote>балдардын оюнчуктарынан бери алып кетиптир он унёс всё, вплоть до детских игрушек;</blockquote>
+  <blockquote>бүлүнгөндүн сүйөнгөнө узак эмес да от расстройства до радости ведь недалеко (сегодня горе - завтра радость и т.п.);</blockquote>
+
+[290] count=60
+source_len=3 | shapes=9++IH / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>азын-көбүн ызаттап оказав некоторый почёт;</blockquote>
+  <blockquote>айсал-буйсал кылгыча келип калдың мы не успели повернуться, а ты уж пришёл;</blockquote>
+  <blockquote>этек-жеңи албырайт рукава и полы (его рваной одежды) болтаются;</blockquote>
+  <blockquote>алды-артын карабай качты он бежал без оглядки;</blockquote>
+  <blockquote>кокту-коктуларды артышып - убара мучаются, тщательно обыскивая овраги и ложбины.</blockquote>
+
+[291] count=60
+source_len=4 | shapes=3-4 / 5-6 / 5-6 / 9+ | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>кош айдоо планы арбытылган посевной план увеличен.</blockquote>
+  <blockquote>өзү апийим сатып, аткезчилик да кылган он и контрабандой занимался, продавая опиум.</blockquote>
+  <blockquote>бир аттык араба одноконная телега.</blockquote>
+  <blockquote>бак конгон жигит удачливый парень;</blockquote>
+  <blockquote>жер босого нижняя перекладина дверного косяка, порог;</blockquote>
+
+[292] count=59
+source_len=1 | shapes=1-2 | remainder_start=rus_lower | has_wordLink=1 | rem_meta=0 | rem_origin=0 | rem_linkkw=1 | rem_ili=0
+  <blockquote>а эми болсо... а вот теперь... аа см. <wordLink word="ал" homonym="II"/>.</blockquote>
+  <blockquote>ай талаа необитаемое пустынное место ай далы см. <wordLink word="далы" meaning="2"/>.</blockquote>
+  <blockquote>ак жалгасын! см. <wordLink word="жалга-" homonym="II"/>;</blockquote>
+  <blockquote>ак эткенде так этет см. <wordLink word="так" homonym="VI"/>.</blockquote>
+  <blockquote>үч байың талак кылдым то же, что <wordLink word="үч талак"/> (см. <wordLink word="талак" meaning="1"/>).</blockquote>
+
+[293] count=59
+source_len=4 | shapes=7-8 / 7-8 / 5-6 / 3-4 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>алкыштан айлансын! какая там ему благодарность!;</blockquote>
+  <blockquote>чапандын алгылыгы калган эмес чапан весь истрепался.</blockquote>
+  <blockquote>камакка алынган взятый под стражу, арестованный;</blockquote>
+  <blockquote>"Жамалды Кайназар акеме алып берем" деп, Азимбай старшы мурункудан да көтөрүлө бажаңдады старшина Азимбай ещё самодовольнее сказал, мол, я женю Кайназар аке на Джамал.</blockquote>
+  <blockquote>маалынан өткөндөн кийин эки жыл бечел калыптыр он сиднем сидел два года после того, как прошёл срок начать ходить;</blockquote>
+
+[294] count=59
+source_len=4 | shapes=7-8 / 3-4 / 3-4 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айнектей көз поэт. ясные очи;</blockquote>
+  <blockquote>көңүлүм эки анжы болуп турат я в нерешительности;</blockquote>
+  <blockquote>баткакка "балч" дей түштү он плюхнулся в грязь.</blockquote>
+  <blockquote>быктырып эле кой сделай так, чтобы только чуть кипело.</blockquote>
+  <blockquote>олтуруп, даам жеп кетсең боло ты бы посидел да поел;</blockquote>
+
+[295] count=59
+source_len=2 | shapes=7-8 / 9++IH | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>жалынып асты-үстүнө түшүп упрашивая и умоляя (его);</blockquote>
+  <blockquote>багалеги балак-балак этет его широкие штанины болтаются.</blockquote>
+  <blockquote>казанда бүлк-бүлк май кайнап турган в котле, тихо булькая, кипел жир;</blockquote>
+  <blockquote>эгинибиз мөртөй-шөртөй чыгып калды наши посевы взошли плохо, недружно.</blockquote>
+  <blockquote>алардын этек-жеңин далбырттатып, шамал аларды сууга карай зордуктап сүрүп жаткандай болот ветер, трепля их полы и рукава, как бы с силой толкал их к воде.</blockquote>
+
+[296] count=58
+source_len=3 | shapes=5-6 / 5-6 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=1
+  <blockquote>кичине айбар кылып алайын (это) возьму я себе в качестве маленькой опоры (или защиты, или для острастки);</blockquote>
+  <blockquote>байтал бээнин баласы или байтал бээнин кулуну жеребёнок-первенец;</blockquote>
+  <blockquote>жылкы сүтүн кымыз кылып, кээде бал кайнатып ичкен (киргизы) из конского молока делали кумыс, иногда варили мёд и пили;</blockquote>
+  <blockquote>карын майды бузуп вскрыв неначатый бурдюк масла или сала;</blockquote>
+  <blockquote>бугун жазып алсын или бугун чыгарсын пусть он разгонит свою тоску;</blockquote>
+
+[297] count=58
+source_len=2 | shapes=5-6 / 9++IH | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>бардык айла-амалдарына карабастан несмотря на все его плутни;</blockquote>
+  <blockquote>улакты аркы-терки байлайт козлят привязывают крест-накрест (так, чтобы они стояли друг против друга и чтобы голова одного заходила за голову другого);</blockquote>
+  <blockquote>андан ашып-түшкөн бай жок богача большего, чем он, нет;</blockquote>
+  <blockquote>баштын балжа-булжасын чыгарды он размозжил (ему) голову;</blockquote>
+  <blockquote>мурду бел-баскак у него нос слегка вдавлен;</blockquote>
+
+[298] count=58
+source_len=4 | shapes=3-4 / 7-8 / 7-8 / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>баш айрышкан төбөлөш болду такая была драка, что головы трещали.</blockquote>
+  <blockquote>көз байланып караңгы болуп калганда когда свечерело и наступила темнота;</blockquote>
+  <blockquote>тез келбесең, душманың башыңа чыгып баратат если ты скоро не явишься, то враг твой уже берёт верх над тобой;</blockquote>
+  <blockquote>итке бурдатын натравив собак так, чтобы они рвали.</blockquote>
+  <blockquote>ачык көкүрөк, жагжагай басып келе жаткан с открытой грудью он важно шагал сюда.</blockquote>
+
+[299] count=58
+source_len=2 | shapes=7-8+IH / 5-6 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>акыл-эси жетиле элек он пока ещё недостаточно сознателен;</blockquote>
+  <blockquote>ала-сала карай салганда с первого взгляда, на первый взгляд;</blockquote>
+  <blockquote>бак-бак эткен теке горластый козёл;</blockquote>
+  <blockquote>бас-бас болуп кал- утихнуть, улечься (напр. о скандале, шуме и т.п.);</blockquote>
+  <blockquote>мал-башы менен качкан бежали со всеми своими людьми и скотом;</blockquote>
+
+[300] count=57
+source_len=4 | shapes=3-4 / 5-6 / 3-4 / 1-2 | remainder_start=rus_lower | has_wordLink=0 | rem_meta=0 | rem_origin=0 | rem_linkkw=0 | rem_ili=0
+  <blockquote>айла канча! что ж поделаешь!; ничего не поделаешь!;</blockquote>
+  <blockquote>али келген жок он всё ещё не пришёл;</blockquote>
+  <blockquote>арга кайда? где же выход?, что же делать? ничего не поделаешь;</blockquote>
+  <blockquote>эки падасы бар у него две коровы.</blockquote>
+  <blockquote>эгер эмдиги жылы да тааныбасаң - балаң баш-оту менен меники (из сказки) если ты и на будущий год не узнаешь (его), то сын твой будет моим собственным;</blockquote>

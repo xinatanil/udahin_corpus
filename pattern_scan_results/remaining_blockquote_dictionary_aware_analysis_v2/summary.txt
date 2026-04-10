@@ -1,0 +1,24 @@
+Known script-friendly example templates extracted from existing <ex>: 11376
+Distinct exact templates: 8170
+Frequent PrefixSpan patterns kept: 6721
+
+Remaining blockquote candidates that matched known patterns: 139368
+Exact-template matches (all): 2647
+Exact-template matches (relaxed): 872
+Exact-template matches (strict): 316
+Pattern-only loose matches: 132049
+Distinct exact-template groups (all): 707
+Distinct exact-template groups (strict): 38
+
+Interpretation:
+  Exact-template matches are the useful part: the remaining blockquote candidate has exactly the same symbolic split template as an existing <ex> family.
+  Strict exact matches are the best script-friendly subset.
+  Pattern-only matches are left on disk too, but they remain noisy and should be treated as exploratory only.
+
+This report intentionally preserves the earlier blind-clustering outputs and writes to a new folder.
+
+Best next files to inspect:
+  known_patterns.txt
+  exact_matches_strict.txt
+  exact_matches_relaxed.txt
+  exact_matches_all.txt
