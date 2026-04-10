@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 ROOT = Path('/Users/xinatanil/Sources/udahin')
-APPROVED_DIR = ROOT / 'chatGPT_exp' / 'approved_llm_fixes'
+APPROVED_DIR = ROOT / 'scripts' / 'data' / 'approved_llm_fixes'
 CONVERT = ROOT / 'scripts' / 'convert_card_review_to_fixes.py'
 APPLY = ROOT / 'scripts' / 'apply_card_review_fixes.py'
 XML = ROOT / 'chatGPT_exp' / 'converted_dict.xml'

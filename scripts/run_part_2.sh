@@ -8,7 +8,7 @@ input_xml="$ROOT_DIR/sources/pipeline_part1_result.xml"
 output_xml="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
 diff_xml="$ROOT_DIR/chatGPT_exp/converted_dict.part2.diff"
 snapshot_xml="$ROOT_DIR/chatGPT_exp/converted_dict.snapshot.xml"
-approved_llm_dir="$ROOT_DIR/chatGPT_exp/approved_llm_fixes"
+approved_llm_dir="$ROOT_DIR/scripts/data/approved_llm_fixes"
 
 lint() {
     local file=$1
