@@ -129,6 +129,14 @@ XR_REWRITES = [
         '<xr>см. марш.</xr>',
         '<xr>см. <wordLink word="марш"/>.</xr>',
     ),
+    (
+        '<xr>то же, что <wordLink word="наалат 1.:"/></xr>',
+        '<xr>то же, что <wordLink word="наалат" meaning="1"/></xr>',
+    ),
+    (
+        '<xr>понуд. от <wordLink word="алчакта- 1.:"/></xr>',
+        '<xr>понуд. от <wordLink word="алчакта-" meaning="1"/></xr>',
+    ),
 ]
 
 TRN_META_TO_META_TRN = [
@@ -229,6 +237,133 @@ BLOCK_REWRITES = [
 ]
 
 EXACT_XML_REWRITES = [
+    (
+        '''<blockquote>абыгер чектир- понуд. от <wordLink word="абыгер"/> чек- причинять хлопоты, наделать хлопот, утруждать; причинять мучения.</blockquote>''',
+        '''<blockquote>абыгер чектир- понуд. от <wordLink word="абыгер чек-"/> причинять хлопоты, наделать хлопот, утруждать; причинять мучения.</blockquote>''',
+    ),
+    (
+        '''<card>
+\t\t<k>алат</k>
+\t\t<xr>то же, что <wordLink word="наалат 1.:"/></xr>
+\t\t<miniCard>
+\t\t\t<miniK>алат или алат күн</miniK>
+\t\t\t<miniTrn>1) несчастье, бедствие;</miniTrn>
+\t\t\t<blockquote>башына алат күн түштү на его голову свалилось большое несчастье;</blockquote>
+\t\t\t<miniTrn>2) ой, горе мне!; ах, почему это! (восклицание, выражающее удивление, сожаление, страх);</miniTrn>
+\t\t</miniCard>
+\t\t<blockquote>эми эмне дейт Тоотору ат? алат күн, Чүрөк, тура тур! адам айтпайт мындай кеп фольк. что говорит конь Тоотору? - ой, Чурек, подожди! (ведь) я человек не говорит таких слов;</blockquote>
+\t\t<blockquote>2. неладный, непутёвый; чтоб тебе неладно было!;</blockquote>
+\t\t<blockquote>ой, чуркураган кандай алат эл болгонсуңар! ой, какой же вы непутёвый народ, так кричите!;</blockquote>
+\t\t<blockquote>алат абышка неладный старик; чтоб тебе, старому!</blockquote>
+\t\t<blockquote>алаткак название демонического существа;</blockquote>
+\t\t<blockquote>жин менен бар алаткак фольк. есть (там) бес и алаткак;</blockquote>
+\t\t<blockquote>алаткак жезит дагы бар, тумшугу жез киши бар фольк. есть (там) поганые алаткак'и, есть люди с медными мордами.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>алат</k>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<xr>то же, что <wordLink word="наалат" meaning="1"/></xr>
+\t\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t\t<miniCard>
+\t\t\t\t<miniK>алат или алат күн</miniK>
+\t\t\t\t<miniTrn>1) несчастье, бедствие;</miniTrn>
+\t\t\t\t<blockquote>башына алат күн түштү на его голову свалилось большое несчастье;</blockquote>
+\t\t\t\t<miniTrn>2) ой, горе мне!; ах, почему это! (восклицание, выражающее удивление, сожаление, страх);</miniTrn>
+\t\t\t</miniCard>
+\t\t\t<blockquote>эми эмне дейт Тоотору ат? алат күн, Чүрөк, тура тур! адам айтпайт мындай кеп фольк. что говорит конь Тоотору? - ой, Чурек, подожди! (ведь) я человек не говорит таких слов;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>неладный, непутёвый; чтоб тебе неладно было!;</trn>
+\t\t\t<blockquote>ой, чуркураган кандай алат эл болгонсуңар! ой, какой же вы непутёвый народ, так кричите!;</blockquote>
+\t\t\t<blockquote>алат абышка неладный старик; чтоб тебе, старому!</blockquote>
+\t\t\t<blockquote>алаткак название демонического существа;</blockquote>
+\t\t\t<blockquote>жин менен бар алаткак фольк. есть (там) бес и алаткак;</blockquote>
+\t\t\t<blockquote>алаткак жезит дагы бар, тумшугу жез киши бар фольк. есть (там) поганые алаткак'и, есть люди с медными мордами.</blockquote>
+\t\t</meaning>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>алаш</k>
+\t\t<meta>фольк.</meta>
+\t\t<meta>уст.</meta>
+\t\t<trn>кричать алаш (см.).</trn>
+\t\t<blockquote>алаюу</blockquote>
+\t\t<xr>и. д. от <wordLink word="алай-" homonym="III"/>.</xr>
+\t</card>''',
+        '''<card>
+\t\t<k>алаш</k>
+\t\t<meta>фольк.</meta>
+\t\t<meta>уст.</meta>
+\t\t<trn>кричать алаш (см.).</trn>
+\t</card>
+\t<card>
+\t\t<k>алаюу</k>
+\t\t<xr>и. д. от <wordLink word="алай-" homonym="III"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>алчактат-</k>
+\t\t<xr>понуд. от <wordLink word="алчакта- 1.:"/></xr>
+\t\t<blockquote>атты алчактатып пустив коня бодрым шагом;</blockquote>
+\t\t<blockquote>алчактата бастырып, түптүз келе жатты он ехал прямо (на коне, идущем) твёрдой поступью;</blockquote>
+\t\t<blockquote>алчактатып баары тең, жылкыдан асыл минишкен фольк. все они сели на чистокровных коней с твёрдой поступью;</blockquote>
+\t\t<blockquote>2. перен. давать возможность держать себя непринуждённо, свободно.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>алчактат-</k>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<xr>понуд. от <wordLink word="алчакта-" meaning="1"/></xr>
+\t\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t\t<blockquote>атты алчактатып пустив коня бодрым шагом;</blockquote>
+\t\t\t<blockquote>алчактата бастырып, түптүз келе жатты он ехал прямо (на коне, идущем) твёрдой поступью;</blockquote>
+\t\t\t<blockquote>алчактатып баары тең, жылкыдан асыл минишкен фольк. все они сели на чистокровных коней с твёрдой поступью;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<meta>перен.</meta>
+\t\t\t<blockquote>давать возможность держать себя непринуждённо, свободно.</blockquote>
+\t\t</meaning>
+\t</card>''',
+    ),
+    (
+        '''<blockquote>алчын байыр</blockquote>
+\t\t\t<blockquote>сев. уст. (ср. <wordLink word="алчимбар"/>)</blockquote>
+\t\t\t<blockquote>название кустарной ткани, которая привозилась в северную Киргизию из Ферганы;</blockquote>''',
+        '''<blockquote>алчын байыр сев. уст. (ср. <wordLink word="алчимбар"/>) название кустарной ткани, которая привозилась в северную Киргизию из Ферганы;</blockquote>''',
+    ),
+    (
+        '''<alternativeForm>(точнее алым эсеп)</alternativeForm>
+\t\t\t<trn>чёт;</trn>
+\t\t\t<blockquote>чётное число (что являетя выигрышным при игре в тогуз коргол; см. <wordLink word="коргол"/>);</blockquote>''',
+        '''<alternativeForm>(точнее алым эсеп)</alternativeForm>
+\t\t\t<trn>чёт; чётное число (что являетя выигрышным при игре в тогуз коргол; см. <wordLink word="коргол"/>);</trn>''',
+    ),
+    (
+        '''<meta>синьцз.</meta>
+\t\t<meta>ист.</meta>
+\t\t<blockquote>то же, что (у уйгуров) шаңыя.</blockquote>''',
+        '''<meta>синьцз.</meta>
+\t\t<meta>ист.</meta>
+\t\t<trn>то же, что (у уйгуров) шаңыя.</trn>''',
+    ),
+    (
+        '''<origin>ир.</origin>
+\t\t<blockquote>(по диалектам встречается ещё в форме акун и ахун)</blockquote>''',
+        '''<origin>ир.</origin>
+\t\t<alternativeForm>(по диалектам встречается ещё в форме акун и ахун)</alternativeForm>''',
+    ),
+    (
+        '''<homonymIndex>ал II</homonymIndex>
+\t\t\t<trn>он, тот (конечный "л" иногда сохраняется только в им. п., в остальных падежах выпадает или</trn>
+\t\t\t<blockquote>переходит в "н"; анын род. п., ага, аа, аган дат. п., аны вин. п., анда местн. п., андан исх. п.);</blockquote>''',
+        '''<homonymIndex>ал II</homonymIndex>
+\t\t\t<trn>он, тот (конечный "л" иногда сохраняется только в им. п., в остальных падежах выпадает или переходит в "н"; анын род. п., ага, аа, аган дат. п., аны вин. п., анда местн. п., андан исх. п.);</trn>''',
+    ),
     (
         '''<blockquote>шердин шери Күлчоро - азарым анык салайын;</blockquote>
 \t\t\t<blockquote>айлам жетсе, кургурду айыктырып алайын фольк. лев из львов (богатырь) Кюльчоро - отнесусь к нему со всем вниманием; если хватит у меня умения, я его вылечу;</blockquote>''',
