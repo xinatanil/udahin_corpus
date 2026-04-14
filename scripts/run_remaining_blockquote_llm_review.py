@@ -10,6 +10,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from itertools import zip_longest
 from pathlib import Path
 from typing import Any
 
@@ -31,24 +32,19 @@ SCHEMA = {
     "schema": {
         "type": "object",
         "properties": {
-            "batch_name": {"type": "string"},
             "decisions": {
                 "type": "array",
                 "items": {
                     "type": "object",
                     "properties": {
-                        "blockquote_id": {"type": "string"},
                         "decision": {"type": "string", "enum": ["SPLIT", "NO_SPLIT"]},
                         "split_index": {"type": ["integer", "null"]},
-                        "target_starts_with": {"type": ["string", "null"]},
                         "reason": {"type": "string"},
                         "confidence": {"type": "number"},
                     },
                     "required": [
-                        "blockquote_id",
                         "decision",
                         "split_index",
-                        "target_starts_with",
                         "reason",
                         "confidence",
                     ],
@@ -56,7 +52,7 @@ SCHEMA = {
                 },
             },
         },
-        "required": ["batch_name", "decisions"],
+        "required": ["decisions"],
         "additionalProperties": False,
     },
 }
@@ -130,31 +126,24 @@ def build_prompt_for_chunk(batch_name: str, items: list[dict[str, Any]]) -> list
         example_lines.append(f"Annotated text: {annotated}")
         if decision == "SPLIT":
             split_index = answer.index("##")  # type: ignore[union-attr]
-            target_prefix = answer.replace("##", "", 1)[split_index:split_index + 16]  # type: ignore[union-attr]
             example_lines.append(f"Decision: SPLIT")
             example_lines.append(f"split_index: {split_index}")
-            example_lines.append(f"target_starts_with: {target_prefix}")
             example_lines.append(f"Rendered suggestion: {answer}")
         else:
             example_lines.append("Decision: NO_SPLIT")
             example_lines.append("split_index: null")
-            example_lines.append("target_starts_with: null")
             example_lines.append("Rendered suggestion: NO_SPLIT")
         example_lines.append("")
 
     sections: list[str] = []
-    for item in items:
-        sections.append(
-            f"blockquote_id: {item['blockquote_id']}\n"
-            "Annotated text:\n"
-            f"{item['annotated_text']}"
-        )
+    for idx, item in enumerate(items, 1):
+        sections.append(f"{idx}. {item['annotated_text']}")
 
     user = (
         prompt_config["user_instructions"]
         + "\n\nExamples:\n"
         + "\n".join(example_lines)
-        + "\nBlockquotes to review:\n\n"
+        + "\nBlockquotes to review in order:\n\n"
         + "\n\n".join(sections)
         + "\n\nReturn only the structured result."
     )
@@ -230,18 +219,26 @@ def build_raw_approved_line(item: dict[str, Any], split_index: int) -> tuple[str
 
 
 def normalize_decisions(payload: dict[str, Any], items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    by_id = {item["blockquote_id"]: item for item in items}
     output: list[dict[str, Any]] = []
-    seen: set[str] = set()
-    for decision in payload.get("decisions", []):
-        blockquote_id = decision["blockquote_id"]
-        if blockquote_id not in by_id or blockquote_id in seen:
+    for item, decision in zip_longest(items, payload.get("decisions", []), fillvalue=None):
+        if item is None:
+            break
+        if decision is None:
+            output.append(
+                {
+                    "index": item["source_index"],
+                    "blockquote_id": item["blockquote_id"],
+                    "input": item["raw_line"],
+                    "annotated_text": item["annotated_text"],
+                    "prediction": "NO_SPLIT",
+                    "reason": "missing_decision",
+                    "confidence": 0.0,
+                }
+            )
             continue
-        seen.add(blockquote_id)
-        item = by_id[blockquote_id]
+        blockquote_id = item["blockquote_id"]
         action = decision["decision"]
         split_index = decision["split_index"]
-        target_starts_with = decision["target_starts_with"]
         reason = decision["reason"]
         confidence = float(decision["confidence"])
         if action == "NO_SPLIT":
@@ -284,14 +281,6 @@ def normalize_decisions(payload: dict[str, Any], items: list[dict[str, Any]]) ->
             )
             continue
 
-        annotated = item["annotated_text"]
-        if target_starts_with:
-            actual_prefix = annotated[split_index: split_index + len(target_starts_with)]
-            if actual_prefix != target_starts_with:
-                found = annotated.find(target_starts_with)
-                if found != -1:
-                    split_index = found
-
         try:
             approved_annotated, approved_line, raw_start_char = build_raw_approved_line(item, split_index)
         except Exception as exc:  # noqa: BLE001
@@ -300,7 +289,7 @@ def normalize_decisions(payload: dict[str, Any], items: list[dict[str, Any]]) ->
                     "index": item["source_index"],
                     "blockquote_id": blockquote_id,
                     "input": item["raw_line"],
-                    "annotated_text": annotated,
+                    "annotated_text": item["annotated_text"],
                     "prediction": "NO_SPLIT",
                     "reason": f"render_failure: {reason} ({exc})",
                     "confidence": confidence,
@@ -313,29 +302,14 @@ def normalize_decisions(payload: dict[str, Any], items: list[dict[str, Any]]) ->
                 "index": item["source_index"],
                 "blockquote_id": blockquote_id,
                 "input": item["raw_line"],
-                "annotated_text": annotated,
+                "annotated_text": item["annotated_text"],
                 "prediction": "SPLIT",
                 "start_char": raw_start_char,
                 "split_index": split_index,
                 "approved_annotated_text": approved_annotated,
                 "approved_line": approved_line,
-                "target_starts_with": target_starts_with,
                 "reason": reason,
                 "confidence": confidence,
-            }
-        )
-
-    missing = [item for item in items if item["blockquote_id"] not in seen]
-    for item in missing:
-        output.append(
-            {
-                "index": item["source_index"],
-                "blockquote_id": item["blockquote_id"],
-                "input": item["raw_line"],
-                "annotated_text": item["annotated_text"],
-                "prediction": "NO_SPLIT",
-                "reason": "missing_decision",
-                "confidence": 0.0,
             }
         )
     output.sort(key=lambda rec: int(rec["index"]))
