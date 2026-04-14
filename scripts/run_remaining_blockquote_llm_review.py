@@ -206,8 +206,8 @@ def extract_output_json(response: dict[str, Any]) -> dict[str, Any]:
 
 def build_raw_approved_line(item: dict[str, Any], split_index: int) -> tuple[str, str, int]:
     annotated = item["annotated_text"]
-    while 0 <= split_index < len(annotated) and annotated[split_index].isspace():
-        split_index += 1
+    while 0 < split_index <= len(annotated) and annotated[split_index - 1].isspace():
+        split_index -= 1
     approved_annotated = annotated[:split_index] + "##" + annotated[split_index:]
     raw_approved_inner = deannotate(approved_annotated, item["placeholders"])
     raw_approved_line = f"{item['open_tag']}{raw_approved_inner}{item['close_tag']}"
