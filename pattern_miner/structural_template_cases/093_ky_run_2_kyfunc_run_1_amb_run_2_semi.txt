@@ -1,0 +1,13 @@
+Structural template cases
+
+rank: 93
+support: 6
+pattern: KY_RUN_2 KYFUNC_RUN_1 AMB_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 кыргызских связочных токена, затем 2 неоднозначных токена, затем точка с запятой
+
+[10014] <blockquote>жүрөгүм айланып турат меня тошнит;</blockquote>
+[13292] <blockquote>кекээрдеген үн менен ехидным тоном;</blockquote>
+[17123] <blockquote>күн бүркөлүп турат погода хмурится;</blockquote>
+[25107] <blockquote>сүт ташып кетти молоко сбежало;</blockquote>
+[29327] <blockquote>үймөк өрттөнүп кетти стог загорелся;</blockquote>
+[30679] <blockquote>чөп ыгып калды трава полегла;</blockquote>

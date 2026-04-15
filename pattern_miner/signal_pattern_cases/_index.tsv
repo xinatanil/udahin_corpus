@@ -1,0 +1,164 @@
+rank	support	file	pattern
+1	838	001_kyfunc_l56_ruf_l12.txt	KYFUNC_L56 RUF_L12
+2	563	002_xref_dot_wl.txt	XREF=см DOT WL
+3	558	003_kyfunc_l34_ruf_l12.txt	KYFUNC_L34 RUF_L12
+4	454	004_xref_dot_wl_rparen.txt	XREF=см DOT WL RPAREN
+5	386	005_lparen_xref_dot_wl.txt	LPAREN XREF=см DOT WL
+6	218	006_ruf_l12_tozhe.txt	RUF_L12 TOZHE=же
+7	215	007_kyfunc_l34_ruf_l34.txt	KYFUNC_L34 RUF_L34
+8	195	008_tozhe_comma_ruf.txt	TOZHE=же COMMA RUF=что
+9	194	009_ruf_l12_tozhe_comma.txt	RUF_L12 TOZHE=же COMMA
+10	191	010_ruf_l12_tozhe_comma_ruf_wl.txt	RUF_L12 TOZHE=же COMMA RUF=что WL
+11	180	011_kyfunc_l56_ruf_l34.txt	KYFUNC_L56 RUF_L34
+12	165	012_amb_l56_kyfunc_l56_ruf_l12.txt	AMB_L56 KYFUNC_L56 RUF_L12
+13	152	013_hyph_alt.txt	HYPH ALT=или
+14	145	014_kyfunc_l56_ruf_l12_amb_l56.txt	KYFUNC_L56 RUF_L12 AMB_L56
+15	141	015_ky_l56_kyfunc_l34.txt	KY_L56 KYFUNC_L34
+16	137	016_ky_l56_kyfunc_l56.txt	KY_L56 KYFUNC_L56
+17	135	017_kyfunc_l56_ruf_l12_amb_l34.txt	KYFUNC_L56 RUF_L12 AMB_L34
+18	135	018_ky_l56_sfx_kyfunc_l56.txt	KY_L56_SFX=ып KYFUNC_L56
+19	134	019_ky_l34_kyfunc_l34.txt	KY_L34 KYFUNC_L34
+20	128	020_alt_ky_l56.txt	ALT=или KY_L56
+21	126	021_ky_l34_kyfunc_l56.txt	KY_L34 KYFUNC_L56
+22	118	022_amb_l34_kyfunc_l34_ruf_l12.txt	AMB_L34 KYFUNC_L34 RUF_L12
+23	117	023_kyfunc_l34_ruf_l12_ruf_l34.txt	KYFUNC_L34 RUF_L12 RUF_L34
+24	117	024_amb_l56_kyfunc_l34_ruf_l12.txt	AMB_L56 KYFUNC_L34 RUF_L12
+25	115	025_kyfunc_l56_ruf_l12_amb_l78.txt	KYFUNC_L56 RUF_L12 AMB_L78
+26	109	026_kyfunc_l56_ruf_l12_ruf_l34.txt	KYFUNC_L56 RUF_L12 RUF_L34
+27	107	027_kyfunc_l34_ruf_l12_amb_l34.txt	KYFUNC_L34 RUF_L12 AMB_L34
+28	106	028_alt_ky_l34.txt	ALT=или KY_L34
+29	105	029_kyfunc_l34_ruf_l12_ruf_l12.txt	KYFUNC_L34 RUF_L12 RUF_L12
+30	101	030_alt_ruf_l12.txt	ALT=или RUF_L12
+31	97	031_ruf_l12_tozhe_comma_ruf_wl_lparen.txt	RUF_L12 TOZHE=же COMMA RUF=что WL LPAREN
+32	98	032_ky_l78_kyfunc_l34.txt	KY_L78 KYFUNC_L34
+33	90	033_alt_amb_l34_hyph.txt	ALT=или AMB_L34 HYPH
+34	87	034_ky_l78_kyfunc_l56.txt	KY_L78 KYFUNC_L56
+35	86	035_amb_l34_kyfunc_l56_ruf_l12.txt	AMB_L34 KYFUNC_L56 RUF_L12
+36	83	036_kyfunc_l56_sfx_kyfunc_l56.txt	KYFUNC_L56_SFX=уп KYFUNC_L56
+37	83	037_ky_l78_sfx_kyfunc_l56.txt	KY_L78_SFX=ып KYFUNC_L56
+38	79	038_amb_l34_hyph_alt.txt	AMB_L34 HYPH ALT=или
+39	79	039_spdash_ruf_l12.txt	SPDASH RUF_L12
+40	78	040_kyfunc_l56_ruf_l12_amb_l9p.txt	KYFUNC_L56 RUF_L12 AMB_L9P
+41	78	041_ky_l56_sfx_kyfunc_l56.txt	KY_L56_SFX=ип KYFUNC_L56
+42	74	042_wl_lparen_xref_dot_wl.txt	WL LPAREN XREF=см DOT WL
+43	75	043_wl_lparen_xref_dot.txt	WL LPAREN XREF=см DOT
+44	72	044_wl_lparen_xref_dot_wl_rparen.txt	WL LPAREN XREF=см DOT WL RPAREN
+45	73	045_kyfunc_l56_sfx_ruf_l12.txt	KYFUNC_L56_SFX=ган RUF_L12
+46	72	046_amb_l78_kyfunc_l56_ruf_l12.txt	AMB_L78 KYFUNC_L56 RUF_L12
+47	71	047_kyfunc_l34_kyfunc_l34.txt	KYFUNC_L34 KYFUNC_L34
+48	70	048_ky_l56_sfx_kyfunc_l56_ruf_l12.txt	KY_L56_SFX=ып KYFUNC_L56 RUF_L12
+49	67	049_tozhe_comma_ruf_wl_lparen_xref.txt	TOZHE=же COMMA RUF=что WL LPAREN XREF=см
+50	69	050_kyfunc_l34_ruf_l12_amb_l56.txt	KYFUNC_L34 RUF_L12 AMB_L56
+51	69	051_ky_l56_alt.txt	KY_L56 ALT=или
+52	66	052_ruf_wl_lparen_xref_dot_wl.txt	RUF=что WL LPAREN XREF=см DOT WL
+53	67	053_comma_ruf_wl_lparen_xref_dot.txt	COMMA RUF=что WL LPAREN XREF=см DOT
+54	68	054_kyfunc_l12_ruf_l12.txt	KYFUNC_L12 RUF_L12
+55	66	055_kyfunc_l56_ru_l56.txt	KYFUNC_L56 RU_L56
+56	64	056_alt_amb_l56_hyph.txt	ALT=или AMB_L56 HYPH
+57	64	057_amb_l78_kyfunc_l34_ruf_l12.txt	AMB_L78 KYFUNC_L34 RUF_L12
+58	60	058_ruf_l34_tozhe.txt	RUF_L34 TOZHE=же
+59	59	059_xref_dot_wl_dot.txt	XREF=см DOT WL DOT
+60	57	060_kyfunc_l34_ruf_l34_ruf_l12.txt	KYFUNC_L34 RUF_L34 RUF_L12
+61	56	061_kyfunc_l34_ky_l34.txt	KYFUNC_L34 KY_L34
+62	54	062_hyph_alt_amb_l34.txt	HYPH ALT=или AMB_L34
+63	53	063_kyfunc_l56_amb_l56_ruf_l12.txt	KYFUNC_L56 AMB_L56 RUF_L12
+64	53	064_alt_ky_l78.txt	ALT=или KY_L78
+65	53	065_ky_l34_alt.txt	KY_L34 ALT=или
+66	51	066_spdash_ruf_l34.txt	SPDASH RUF_L34
+67	50	067_ky_l56_sfx_kyfunc_l56_sfx.txt	KY_L56_SFX=ып KYFUNC_L56_SFX=ган
+68	48	068_kyfunc_l34_ruf_l12_ruf_l34_ruf_l34.txt	KYFUNC_L34 RUF_L12 RUF_L34 RUF_L34
+69	48	069_kyfunc_l34_amb_l56_ruf_l12.txt	KYFUNC_L34 AMB_L56 RUF_L12
+70	48	070_kyfunc_l34_ky_l56.txt	KYFUNC_L34 KY_L56
+71	48	071_ky_l56_sfx_kyfunc_l56.txt	KY_L56_SFX=үп KYFUNC_L56
+72	47	072_kyfunc_l12_ru_l34.txt	KYFUNC_L12 RU_L34
+73	47	073_ky_l56_sfx_kyfunc_l56.txt	KY_L56_SFX=уп KYFUNC_L56
+74	46	074_kyfunc_l56_kyfunc_l34.txt	KYFUNC_L56 KYFUNC_L34
+75	46	075_ky_l78_sfx_kyfunc_l56_ruf_l12.txt	KY_L78_SFX=ып KYFUNC_L56 RUF_L12
+76	46	076_hyph_amb_l56_alt.txt	HYPH AMB_L56 ALT=или
+77	45	077_spdash_kyfunc_l34.txt	SPDASH KYFUNC_L34
+78	44	078_kyfunc_l56_ruf_l12_ruf_l12.txt	KYFUNC_L56 RUF_L12 RUF_L12
+79	43	079_amb_l56_kyfunc_l34_ruf_l34.txt	AMB_L56 KYFUNC_L34 RUF_L34
+80	43	080_kyfunc_l34_amb_l34_ruf_l12.txt	KYFUNC_L34 AMB_L34 RUF_L12
+81	42	081_ky_l9p_kyfunc_l56.txt	KY_L9P KYFUNC_L56
+82	41	082_kyfunc_l56_alt.txt	KYFUNC_L56 ALT=или
+83	40	083_ky_l56_kyfunc_l34_ruf_l12.txt	KY_L56 KYFUNC_L34 RUF_L12
+84	40	084_kyfunc_l56_ky_l78.txt	KYFUNC_L56 KY_L78
+85	40	085_ky_l56_kyfunc_l12.txt	KY_L56 KYFUNC_L12
+86	38	086_ruf_l12_tozhe_comma_ruf_wl_dot.txt	RUF_L12 TOZHE=же COMMA RUF=что WL DOT
+87	39	087_ky_l9p_kyfunc_l34.txt	KY_L9P KYFUNC_L34
+88	38	088_kyfunc_l34_ruf_l12_amb_l34_ruf_l34.txt	KYFUNC_L34 RUF_L12 AMB_L34 RUF_L34
+89	38	089_kyfunc_l56_ruf_l12_ru_l56.txt	KYFUNC_L56 RUF_L12 RU_L56
+90	36	090_dot_ruf_l12_tozhe_comma_ruf_wl.txt	DOT RUF_L12 TOZHE=же COMMA RUF=что WL
+91	37	091_amb_l56_hyph_alt.txt	AMB_L56 HYPH ALT=или
+92	37	092_hyph_alt_amb_l56.txt	HYPH ALT=или AMB_L56
+93	37	093_alt_ruf_l34.txt	ALT=или RUF_L34
+94	37	094_ruf_l12_wl.txt	RUF_L12 WL
+95	36	095_amb_l34_kyfunc_l34_ruf_l34.txt	AMB_L34 KYFUNC_L34 RUF_L34
+96	36	096_kyfunc_l34_ru_l56.txt	KYFUNC_L34 RU_L56
+97	35	097_xref_dot_wl_semi.txt	XREF=см DOT WL SEMI
+98	35	098_kyfunc_l34_ruf_l12_amb_l78.txt	KYFUNC_L34 RUF_L12 AMB_L78
+99	35	099_kyfunc_l56_ky_l34.txt	KYFUNC_L56 KY_L34
+100	34	100_ky_l56_sfx_kyfunc_l56_ruf_l12.txt	KY_L56_SFX=ип KYFUNC_L56 RUF_L12
+101	34	101_alt_amb_l56_hyph_amb_l56.txt	ALT=или AMB_L56 HYPH AMB_L56
+102	34	102_kyfunc_l56_ky_l56.txt	KYFUNC_L56 KY_L56
+103	34	103_kyfunc_l56_ru_l78.txt	KYFUNC_L56 RU_L78
+104	34	104_ky_l78_alt.txt	KY_L78 ALT=или
+105	32	105_kyfunc_l56_sfx_kyfunc_l56_ruf_l12.txt	KYFUNC_L56_SFX=уп KYFUNC_L56 RUF_L12
+106	33	106_amb_l56_ky_l56_sfx_kyfunc_l56.txt	AMB_L56 KY_L56_SFX=ып KYFUNC_L56
+107	33	107_dot_ruf_l12_wl.txt	DOT RUF_L12 WL
+108	33	108_kyfunc_l56_amb_l78_ruf_l12.txt	KYFUNC_L56 AMB_L78 RUF_L12
+109	33	109_ky_l34_kyfunc_l12.txt	KY_L34 KYFUNC_L12
+110	33	110_ky_l78_sfx_kyfunc_l56.txt	KY_L78_SFX=үп KYFUNC_L56
+111	32	111_semi_xref_dot_wl.txt	SEMI XREF=см DOT WL
+112	32	112_kyfunc_l56_ru_l9p.txt	KYFUNC_L56 RU_L9P
+113	32	113_ky_l56_kyfunc_l56_sfx.txt	KY_L56 KYFUNC_L56_SFX=ган
+114	31	114_amb_l34_kyfunc_l34_ruf_l12_ruf_l34.txt	AMB_L34 KYFUNC_L34 RUF_L12 RUF_L34
+115	30	115_dot_xref_dot_wl.txt	DOT XREF=см DOT WL
+116	30	116_kyfunc_l34_kyfunc_l56.txt	KYFUNC_L34 KYFUNC_L56
+117	30	117_amb_l56_alt_amb_l56_hyph.txt	AMB_L56 ALT=или AMB_L56 HYPH
+118	30	118_amb_l56_alt_ky_l34.txt	AMB_L56 ALT=или KY_L34
+119	30	119_ruf_l12_amb_l34_tozhe.txt	RUF_L12 AMB_L34 TOZHE=же
+120	30	120_ky_l78_sfx_kyfunc_l56.txt	KY_L78_SFX=уп KYFUNC_L56
+121	29	121_kyfunc_l12_kyfunc_l34.txt	KYFUNC_L12 KYFUNC_L34
+122	29	122_kyfunc_l34_comma_ky_l56.txt	KYFUNC_L34 COMMA KY_L56
+123	29	123_kyfunc_l56_ruf_l34_amb_l56.txt	KYFUNC_L56 RUF_L34 AMB_L56
+124	29	124_ky_l56_sfx_kyfunc_l34.txt	KY_L56_SFX=ган KYFUNC_L34
+125	29	125_ky_l78_kyfunc_l12.txt	KY_L78 KYFUNC_L12
+126	28	126_kyfunc_l34_alt.txt	KYFUNC_L34 ALT=или
+127	28	127_alt_amb_l34_hyph_amb_l34.txt	ALT=или AMB_L34 HYPH AMB_L34
+128	28	128_alt_amb_l34_hyph_amb_l56.txt	ALT=или AMB_L34 HYPH AMB_L56
+129	28	129_ky_l56_amb_l56_kyfunc_l56.txt	KY_L56 AMB_L56 KYFUNC_L56
+130	28	130_kyfunc_l12_ruf_l56.txt	KYFUNC_L12 RUF_L56
+131	28	131_kyfunc_l34_ky_l78.txt	KYFUNC_L34 KY_L78
+132	28	132_kyfunc_l34_ru_l9p_sfx.txt	KYFUNC_L34 RU_L9P_SFX=ый
+133	26	133_ruf_l12_tozhe_comma_ruf_wl_semi.txt	RUF_L12 TOZHE=же COMMA RUF=что WL SEMI
+134	27	134_kyfunc_l56_ruf_l12_amb_l56_ruf_l12.txt	KYFUNC_L56 RUF_L12 AMB_L56 RUF_L12
+135	27	135_kyfunc_l56_ruf_l12_amb_l78_ruf_l12.txt	KYFUNC_L56 RUF_L12 AMB_L78 RUF_L12
+136	27	136_amb_l34_amb_l56_kyfunc_l56_ruf_l12.txt	AMB_L34 AMB_L56 KYFUNC_L56 RUF_L12
+137	27	137_amb_l56_kyfunc_l34_ruf_l12_amb_l34.txt	AMB_L56 KYFUNC_L34 RUF_L12 AMB_L34
+138	27	138_amb_l56_kyfunc_l56_ruf_l34.txt	AMB_L56 KYFUNC_L56 RUF_L34
+139	27	139_kyfunc_l34_ruf_l34_amb_l34.txt	KYFUNC_L34 RUF_L34 AMB_L34
+140	27	140_kyfunc_l34_ruf_l56.txt	KYFUNC_L34 RUF_L56
+141	27	141_ky_l78_sfx_kyfunc_l34.txt	KY_L78_SFX=ган KYFUNC_L34
+142	27	142_ru_l56_spdash.txt	RU_L56 SPDASH
+143	26	143_ky_l56_sfx_kyfunc_l56_ruf_l12.txt	KY_L56_SFX=уп KYFUNC_L56 RUF_L12
+144	26	144_hyph_amb_l56_alt_amb_l56.txt	HYPH AMB_L56 ALT=или AMB_L56
+145	26	145_kyfunc_l56_ruf_l12_amb_l34_amb_l56.txt	KYFUNC_L56 RUF_L12 AMB_L34 AMB_L56
+146	26	146_alt_ky_l34_amb_l56.txt	ALT=или KY_L34 AMB_L56
+147	26	147_amb_l34_ky_l34_kyfunc_l56.txt	AMB_L34 KY_L34 KYFUNC_L56
+148	26	148_hyph_amb_l34_alt.txt	HYPH AMB_L34 ALT=или
+149	26	149_hyph_amb_l56_kyfunc_l56_sfx.txt	HYPH AMB_L56 KYFUNC_L56_SFX=уп
+150	26	150_ruf_l12_amb_l56_alt.txt	RUF_L12 AMB_L56 ALT=или
+151	26	151_ruf_l34_spdash.txt	RUF_L34 SPDASH
+152	25	152_amb_l56_kyfunc_l34_ruf_l12_ruf_l34.txt	AMB_L56 KYFUNC_L34 RUF_L12 RUF_L34
+153	25	153_ky_l78_kyfunc_l56_ruf_l12.txt	KY_L78 KYFUNC_L56 RUF_L12
+154	25	154_amb_l34_hyph_alt_amb_l34.txt	AMB_L34 HYPH ALT=или AMB_L34
+155	25	155_amb_l56_kyfunc_l56_ruf_l12_amb_l78.txt	AMB_L56 KYFUNC_L56 RUF_L12 AMB_L78
+156	25	156_kyfunc_l56_ruf_l12_amb_l56_amb_l56.txt	KYFUNC_L56 RUF_L12 AMB_L56 AMB_L56
+157	25	157_kyfunc_l56_amb_l34_ruf_l12.txt	KYFUNC_L56 AMB_L34 RUF_L12
+158	25	158_alt_ky_l9p.txt	ALT=или KY_L9P
+159	25	159_alt_ru_l78.txt	ALT=или RU_L78
+160	25	160_kyfunc_l56_ky_l56_sfx.txt	KYFUNC_L56 KY_L56_SFX=ып
+161	25	161_kyfunc_l56_ru_l34.txt	KYFUNC_L56 RU_L34
+162	25	162_ky_l34_sfx_kyfunc_l56.txt	KY_L34_SFX=үп KYFUNC_L56
+163	25	163_ky_l9p_sfx_kyfunc_l56.txt	KY_L9P_SFX=ып KYFUNC_L56

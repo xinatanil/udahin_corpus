@@ -1,0 +1,82 @@
+Signal-heavy pattern cases
+
+rank: 43
+support: 75
+pattern: WL LPAREN XREF=см DOT
+explanation: ссылочный паттерн: конструкция со 'см.' и ссылкой на словарную статью
+
+[253] <blockquote>(в местах соседства с казахами): олай болсун! то же, что <wordLink word="андай болсун"/> (см. <wordLink word="андай"/>).</blockquote>
+[284] <blockquote>(иногда) то же, что <wordLink word="да"/> (см. <wordLink word="да" homonym="I" meaning="1"/>);</blockquote>
+[289] <blockquote>(местами) то же, что <wordLink word="боорсок"/> (см.).</blockquote>
+[293] <blockquote>(о пище) то же, что <wordLink word="суук"/> (см. <wordLink word="ысылык" meaning="2"/>).</blockquote>
+[304] <blockquote>(при определении толщиңы конского жира) то же, что <wordLink word="төрт эли"/> (см. <wordLink word="эли"/>);</blockquote>
+[518] <blockquote>адам диткис редко. то же, что <wordLink word="адамдын дити чыдагыс"/> (см. <wordLink word="дит"/>).</blockquote>
+[965] <blockquote>ак кулжа (в эпосе "Манас") то же, что <wordLink word="куу кулжа"/> (см. <wordLink word="куу" homonym="I"/>).</blockquote>
+[1047] <blockquote>ак чүсте южн. то же, что <wordLink word="ак чүштө"/> (см. <wordLink word="чүштө" homonym="I"/>).</blockquote>
+[1059] <blockquote>ак эркеч болуп то же, что <wordLink word="эркечтенип"/> (см. <wordLink word="эркечтен-"/>).</blockquote>
+[1557] <blockquote>ала-буйла южн. то же, что <wordLink word="ала-була"/> (см. <wordLink word="ала" meaning="1"/>).</blockquote>
+[2328] <blockquote>аракеттин берекети бар то же, что <wordLink word="аракет кылсаң, береке"/> (см. <wordLink word="береке"/>).</blockquote>
+[2584] <blockquote>ат жыктыр- понуд. от <wordLink word="ат жык-"/> (см. <wordLink word="жык-" homonym="II"/>);</blockquote>
+[2609] <blockquote>ат менен койдуруп кетти то же, что <wordLink word="ат менен коюп кетти"/> (см. <wordLink word="кой-" homonym="II" meaning="5"/>);</blockquote>
+[2669] <blockquote>ат-ылооң аманбы? то же, что <wordLink word="ат-көлүк аманбы?"/> (см. <wordLink word="көлүк"/>);</blockquote>
+[2793] <blockquote>атка өбөктө- или таш өбөктө- или ээрдин кашына өбөктө- то же, что <wordLink word="таш өбөк сал-"/> (см. <wordLink word="өбөк"/>).</blockquote>
+[7088] <blockquote>дам ур- или дам кой- то же, что <wordLink word="дем ур-"/> (см. <wordLink word="дем"/>);</blockquote>
+[7300] <blockquote>дениңди багыштадыңбы? то же, что <wordLink word="кабыл туттуңбу?"/> (см. <wordLink word="кабыл" homonym="I"/>).</blockquote>
+[7512] <blockquote>дүгдүгүй тарткан калың токой то же, что <wordLink word="дүгдүйгөн калың токой"/> (см. <wordLink word="дүгдүй-"/>).</blockquote>
+[7589] <blockquote>дүрвөн-даркан южн. то же, что <wordLink word="дабыр-дубур"/> (см. <wordLink word="дабыр"/>);</blockquote>
+[7775] <blockquote>жазга турук тяньш. то же, что <wordLink word="жазга турум"/> (см. <wordLink word="турум" homonym="II"/>).</blockquote>
+[8198] <blockquote>жамансары то же, что <wordLink word="жаман сары"/> (см. <wordLink word="сары" homonym="II"/>);</blockquote>
+[8317] <blockquote>жанчы жолдош или күйөө жанчы то же, что <wordLink word="күйөө жолдош"/> (см. <wordLink word="жолдош" homonym="I" meaning="2"/>).</blockquote>
+[8481] <blockquote>жар көрүштүр- понуд. от <wordLink word="жар көрүш-"/> (см. <wordLink word="жар" homonym="I"/>);</blockquote>
+[8821] <blockquote>жез кемпирдин көгөнү то же, что <wordLink word="көк желе"/> (см. <wordLink word="көк" homonym="II" meaning="2"/>).</blockquote>
+[8829] <blockquote>жез тырмак (букв. медные ногти) то же, что <wordLink word="жез тумшук"/> (см. <wordLink word="тумшук"/>);</blockquote>
+[9473] <blockquote>жолду катар или жол катары то же, что <wordLink word="жолду ката"/> (см. <wordLink word="ката" homonym="II"/>);</blockquote>
+[9718] <blockquote>жудуруктай то же, что <wordLink word="муштумдай"/> (см. <wordLink word="муш" homonym="I"/>).</blockquote>
+[9881] <blockquote>жүз карамачы или бет карамачы то же, что <wordLink word="жүз карама"/> (см. <wordLink word="карама"/>).</blockquote>
+[10110] <blockquote>жүүртө басып олтур- то же, что <wordLink word="жүйүртө басып отур-"/> (см. <wordLink word="жүйүрт-"/>).</blockquote>
+[11438] <blockquote>кагылайын то же, что <wordLink word="айланайын"/> (см. <wordLink word="айлан-" meaning="3"/>);</blockquote>
+[12113] <blockquote>кан татакай южн. то же, что <wordLink word="кан таламай"/> (см. <wordLink word="таламай"/>).</blockquote>
+[14152] <blockquote>кожого кол бер- или кожосанга кол бер- то же, что <wordLink word="эшенге кол бер-"/> (см. <wordLink word="эшен"/>);</blockquote>
+[14563] <blockquote>колу-коңшу южн. то же, что <wordLink word="коңшу-колоң"/> (см. <wordLink word="коңшу"/>).</blockquote>
+[14565] <blockquote>колукту кубалат- понуд. от <wordLink word="колукту кубала-"/> (см. <wordLink word="кыз" meaning="2"/>).</blockquote>
+[14609] <blockquote>колун маңдайына сере тутуп то же, что <wordLink word="серепчилеп"/> (см. <wordLink word="серепчиле-"/>).</blockquote>
+[15107] <blockquote>көз жаздымында или көздүн жаздымында то же, что <wordLink word="көздүн жаздыгында"/> (см. <wordLink word="жаздык" homonym="I"/>).</blockquote>
+[15376] <blockquote>көзүн таза кыл- то же, что <wordLink word="көзүн тазала-"/> (см. <wordLink word="тазала-"/>).</blockquote>
+[15443] <blockquote>көзүнүн сурмасы бар то же, что <wordLink word="көзү сурмалуу"/> (см. <wordLink word="сурмалуу" meaning="2"/>).</blockquote>
+[15691] <blockquote>көмкөрмөлүү кундуз бөрк то же, что <wordLink word="көмкөрө кундуз бөрк"/> (см. <wordLink word="көмкөрө"/>).</blockquote>
+[16538] <blockquote>кунары жок бай то же, что <wordLink word="куну жок бай"/> (см. <wordLink word="кун"/>).</blockquote>
+[16717] <blockquote>куруганда то же, что <wordLink word="куру дегенде"/> (см. <wordLink word="куру" homonym="I" meaning="2"/>);</blockquote>
+[16764] <blockquote>курчу кете элек жигит то же, что <wordLink word="кылоосу түшө элек жигит"/> (см. <wordLink word="кылоо" homonym="II"/>).</blockquote>
+[17532] <blockquote>Кыдыр жылоолоп турат то же, что <wordLink word="жылоосунда Кыдыр бар"/> (см. <wordLink word="жылоо"/>).</blockquote>
+[18497] <blockquote>кэл журтчу южн. то же, что <wordLink word="таз жору"/> (см. <wordLink word="жору" meaning="1"/>).</blockquote>
+[18607] <blockquote>маанайы пас или паанайы пас то же, что <wordLink word="маанайы бас"/> (см. <wordLink word="маанай"/>).</blockquote>
+[18719] <blockquote>май билек ай то же, что <wordLink word="майбилек ай"/> (см. <wordLink word="ай" homonym="I" meaning="2"/>).</blockquote>
+[18982] <blockquote>Мама-и Хава южн. то же, что <wordLink word="Аба эне"/> (см. <wordLink word="эне" homonym="I"/>);</blockquote>
+[20486] <blockquote>название болезни верблюдов, то же, что <wordLink word="чымын тийди"/> (см. <wordLink word="чымын" meaning="2"/>).</blockquote>
+[20556] <blockquote>нарктуу кептен сүйлө- то же, что <wordLink word="нарк сүйлө-"/> (см. <wordLink word="нарк" homonym="I" meaning="3"/>).</blockquote>
+[21035] <blockquote>омогу бар ат то же, что <wordLink word="омоктуу ат"/> (см. <wordLink word="омоктуу" meaning="1"/>).</blockquote>
+[22551] <blockquote>өпкө чабуу и. д. от <wordLink word="өпкө чап-"/> (см. <wordLink word="өпкө"/>).</blockquote>
+[22553] <blockquote>өпкө чаптыр- понуд. от <wordLink word="өпкө чап-"/> (см. <wordLink word="өпкө"/>);</blockquote>
+[22734] <blockquote>өтүүчү Кызыл Туу то же, что <wordLink word="өтмө Кызыл Туу"/> (см. <wordLink word="өтмө"/>);</blockquote>
+[22744] <blockquote>өчөшкөнсүп то же, что <wordLink word="өчөшкөндөй"/> (см. <wordLink word="өчөш-" homonym="II"/>).</blockquote>
+[22813] <blockquote>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</blockquote>
+[23289] <blockquote>садага чаптыр- понуд. от <wordLink word="садага чап-"/> (см. <wordLink word="садага" meaning="1"/>);</blockquote>
+[23623] <blockquote>сасык күшөн чатк. то же, что <wordLink word="сасык күзөн"/> (см. <wordLink word="күзөн"/>).</blockquote>
+[24149] <blockquote>согулайын то же, что <wordLink word="айланайын"/> (см. <wordLink word="айлан-" meaning="3"/>), то же, что <wordLink word="кагылайын"/> (см. <wordLink word="кагыл-"/>);</blockquote>
+[25607] <blockquote>талоо или кан талоосу то же, что <wordLink word="кан талоон"/> (см. <wordLink word="талоон" homonym="I"/>);</blockquote>
+[26815] <blockquote>то же, что <wordLink word="беле"/> (см. <wordLink word="эле" homonym="II"/> и эде);</blockquote>
+[26839] <blockquote>то же, что <wordLink word="сөөк чыгар-"/> (см. <wordLink word="сөөк" meaning="3"/>) выносить тело, хоронить;</blockquote>
+[26854] <blockquote>то же, что <wordLink word="Шаймерден"/> (см. <wordLink word="мерден"/>; уже не осознаётся как имя собственное)</blockquote>
+[27462] <blockquote>төрт жагы кыбыла то же, что <wordLink word="телегейи тегиз"/> (см. <wordLink word="телегей" homonym="I"/>).</blockquote>
+[27558] <blockquote>тудый-судый сев. то же, что <wordLink word="туда-суда"/> (см. <wordLink word="туда"/>);</blockquote>
+[27842] <blockquote>туш туурдук тяньш., туурдук баш южн. то же, что <wordLink word="туш кийиз"/> (см. <wordLink word="кийиз"/>);</blockquote>
+[28645] <blockquote>улак таштат- понуд. от <wordLink word="улак ташта-"/> (см. <wordLink word="ташта-" homonym="I" meaning="3"/>).</blockquote>
+[29333] <blockquote>үйрүлөйүн то же, что <wordLink word="айланайын"/> (см. <wordLink word="айлан-"/>).</blockquote>
+[29388] <blockquote>үкөн бара иссык-кульск. то же, что <wordLink word="бүкөн бара"/> (см. <wordLink word="бүкөн"/>).</blockquote>
+[30634] <blockquote>чөк түшүп отур- то же, что <wordLink word="чөгөөлөп отур-"/> (см. <wordLink word="чөгөөлө-"/>);</blockquote>
+[30890] <blockquote>чылбыр чайноо кыл- то же, что <wordLink word="чылбыр чайна-"/> (см. <wordLink word="чылбыр"/>).</blockquote>
+[30910] <blockquote>чым бер- сев. то же, что <wordLink word="зуу бер-"/> (см. <wordLink word="зуу" meaning="2"/>).</blockquote>
+[31486] <blockquote>шорпо-шолоң южн. то же, что <wordLink word="сорпо-шилен"/> (см. <wordLink word="шилен" homonym="I" meaning="2"/>);</blockquote>
+[32219] <blockquote>экен-токон редко, то же, что <wordLink word="эке-токо"/> (см. <wordLink word="эке" homonym="III"/>).</blockquote>
+[32576] <blockquote>эл үрккөн жылы то же, что <wordLink word="үркүн жылы"/> (см. <wordLink word="үркүн" homonym="I" meaning="1"/>).</blockquote>
+[32710] <blockquote>элек-жалак южн. то же, что <wordLink word="үрүң-бараң"/> (см. <wordLink word="үрүч"/>).</blockquote>

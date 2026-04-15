@@ -1,0 +1,19 @@
+Structural template cases
+
+rank: 34
+support: 12
+pattern: AMB_RUN_2 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+
+[6832] <blockquote>бышты кунажын тёлка по четвёртому году;</blockquote>
+[8021] <blockquote>жалама зоо высокая и гладкая скала;</blockquote>
+[16531] <blockquote>кунан кой овца по четвёртому году;</blockquote>
+[16532] <blockquote>кунан кунажын тёлка по третьему году;</blockquote>
+[18155] <blockquote>кыр таш камень с острыми гранями;</blockquote>
+[18264] <blockquote>кыркма тал тальник со срезанными верхушками;</blockquote>
+[24199] <blockquote>сойлоктогон келин стройная и расторопная молодуха;</blockquote>
+[25177] <blockquote>сыйда жал гладкая и аккуратная грива;</blockquote>
+[25343] <blockquote>таамай жол прямая и ровная дорога;</blockquote>
+[25444] <blockquote>тай кунажын тёлка по второму году;</blockquote>
+[31055] <blockquote>чырылдак бала визгливый и капризный ребенок;</blockquote>
+[31565] <blockquote>шыдыр жол прямая и ровная дорога;</blockquote>

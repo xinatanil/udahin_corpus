@@ -1,0 +1,12 @@
+Structural template cases
+
+rank: 135
+support: 5
+pattern: KY_RUN_1 AMB_RUN_34 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 3-4 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+
+[10088] <blockquote>жүрөктүн толтосу место соединения аорты с сердцем;</blockquote>
+[15502] <blockquote>көк ала сакал борода с проседью;</blockquote>
+[17288] <blockquote>күндүн орою жаман погода будет скверная;</blockquote>
+[23988] <blockquote>сең мени тескебе ты меня не порицай;</blockquote>
+[24498] <blockquote>сөздү соктура бер говори не переставая;</blockquote>

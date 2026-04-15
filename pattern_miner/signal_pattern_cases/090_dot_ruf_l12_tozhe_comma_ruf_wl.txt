@@ -1,0 +1,43 @@
+Signal-heavy pattern cases
+
+rank: 90
+support: 36
+pattern: DOT RUF_L12 TOZHE=же COMMA RUF=что WL
+explanation: ссылочно-объяснительный паттерн: оборот 'то же, что ...'
+
+[518] <blockquote>адам диткис редко. то же, что <wordLink word="адамдын дити чыдагыс"/> (см. <wordLink word="дит"/>).</blockquote>
+[1047] <blockquote>ак чүсте южн. то же, что <wordLink word="ак чүштө"/> (см. <wordLink word="чүштө" homonym="I"/>).</blockquote>
+[1557] <blockquote>ала-буйла южн. то же, что <wordLink word="ала-була"/> (см. <wordLink word="ала" meaning="1"/>).</blockquote>
+[3194] <blockquote>аш жайгыч тяньш. то же, что <wordLink word="үбөлүк"/>.</blockquote>
+[4640] <blockquote>бел парат южн. то же, что <wordLink word="окчонтой"/>.</blockquote>
+[5079] <blockquote>бийт-бийт южн. то же, что <wordLink word="кытыгы"/>.</blockquote>
+[7589] <blockquote>дүрвөн-даркан южн. то же, что <wordLink word="дабыр-дубур"/> (см. <wordLink word="дабыр"/>);</blockquote>
+[7717] <blockquote>жабай жалгыз тяньш. то же, что <wordLink word="тастар"/>.</blockquote>
+[7775] <blockquote>жазга турук тяньш. то же, что <wordLink word="жазга турум"/> (см. <wordLink word="турум" homonym="II"/>).</blockquote>
+[8471] <blockquote>жапма тебетей тяньш., тоголок тебетей южн. то же, что <wordLink word="малакай"/>;</blockquote>
+[9157] <blockquote>жерен тилчек сев. то же, что <wordLink word="жөргөмүш" meaning="2"/>.</blockquote>
+[10165] <blockquote>жыл көжө или чоң көжө чатк. или нооруз көжө чуйск. то же, что <wordLink word="оруздама"/>;</blockquote>
+[10409] <blockquote>зайым помош разг. то же, что <wordLink word="заемпомощь"/>.</blockquote>
+[12113] <blockquote>кан татакай южн. то же, что <wordLink word="кан таламай"/> (см. <wordLink word="таламай"/>).</blockquote>
+[12829] <blockquote>каркырак турна южн. то же, что <wordLink word="каркыра" meaning="1"/>.</blockquote>
+[14522] <blockquote>колу бала рел. то же, что <wordLink word="калу"/> бала.</blockquote>
+[14563] <blockquote>колу-коңшу южн. то же, что <wordLink word="коңшу-колоң"/> (см. <wordLink word="коңшу"/>).</blockquote>
+[14748] <blockquote>коногоч чүкө южн. то же, что <wordLink word="тапан" homonym="III" meaning="1"/>.</blockquote>
+[16055] <blockquote>көтөн короз груб. то же, что <wordLink word="сылаңкороз"/>;</blockquote>
+[17895] <blockquote>кыл моор (или кылмоор) южн. то же, что <wordLink word="салмоор"/>;</blockquote>
+[18497] <blockquote>кэл журтчу южн. то же, что <wordLink word="таз жору"/> (см. <wordLink word="жору" meaning="1"/>).</blockquote>
+[18540] <blockquote>лакшыгер тяньш. то же, что <wordLink word="кычкач"/></blockquote>
+[18982] <blockquote>Мама-и Хава южн. то же, что <wordLink word="Аба эне"/> (см. <wordLink word="эне" homonym="I"/>);</blockquote>
+[22549] <blockquote>өпкө кап южн., тяньш. или өпкө тон тяньш. то же, что <wordLink word="чыптама"/>;</blockquote>
+[23623] <blockquote>сасык күшөн чатк. то же, что <wordLink word="сасык күзөн"/> (см. <wordLink word="күзөн"/>).</blockquote>
+[27558] <blockquote>тудый-судый сев. то же, что <wordLink word="туда-суда"/> (см. <wordLink word="туда"/>);</blockquote>
+[27842] <blockquote>туш туурдук тяньш., туурдук баш южн. то же, что <wordLink word="туш кийиз"/> (см. <wordLink word="кийиз"/>);</blockquote>
+[27923] <blockquote>түймөчтөгөн аш южн. то же, что <wordLink word="түймөч" meaning="2"/>.</blockquote>
+[29388] <blockquote>үкөн бара иссык-кульск. то же, что <wordLink word="бүкөн бара"/> (см. <wordLink word="бүкөн"/>).</blockquote>
+[29635] <blockquote>үч мара чуйск. то же, что <wordLink word="можу" homonym="II"/>.</blockquote>
+[30470] <blockquote>чок ойнор тяньш. то же, что <wordLink word="чогойно"/>.</blockquote>
+[30910] <blockquote>чым бер- сев. то же, что <wordLink word="зуу бер-"/> (см. <wordLink word="зуу" meaning="2"/>).</blockquote>
+[31261] <blockquote>шалп этме иссык-кульск. то же, что <wordLink word="экчеме"/>.</blockquote>
+[31486] <blockquote>шорпо-шолоң южн. то же, что <wordLink word="сорпо-шилен"/> (см. <wordLink word="шилен" homonym="I" meaning="2"/>);</blockquote>
+[32710] <blockquote>элек-жалак южн. то же, что <wordLink word="үрүң-бараң"/> (см. <wordLink word="үрүч"/>).</blockquote>
+[33186] <blockquote>эргин эшик тяньш. то же, что <wordLink word="эргилчек"/>.</blockquote>

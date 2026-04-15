@@ -1,0 +1,33 @@
+Signal-heavy pattern cases
+
+rank: 133
+support: 26
+pattern: RUF_L12 TOZHE=же COMMA RUF=что WL SEMI
+explanation: ссылочно-объяснительный паттерн: оборот 'то же, что ...'
+
+[256] <blockquote>(в некоторых местах) то же, что <wordLink word="алыш" homonym="I"/>;</blockquote>
+[264] <blockquote>(в эпосе) то же, что <wordLink word="дене"/>;</blockquote>
+[283] <blockquote>(иногда) то же, что <wordLink word="бозо"/>;</blockquote>
+[290] <blockquote>(местами) то же, что <wordLink word="ком"/>;</blockquote>
+[294] <blockquote>(о человеке высокого роста) то же, что <wordLink word="кулкулда-"/>;</blockquote>
+[322] <blockquote>(точнее кулак сырга) то же, что <wordLink word="иймек"/>;</blockquote>
+[2905] <blockquote>атты капталга тепкиле то же, что <wordLink word="темин-" homonym="II" meaning="1"/>;</blockquote>
+[3184] <blockquote>ачыткан (или ачымал или ачкыл или ачыма) жарма то же, что <wordLink word="максым" homonym="I"/>;</blockquote>
+[6347] <blockquote>булак ат- или булак-булак эт- то же, что <wordLink word="булакта-" homonym="I"/>;</blockquote>
+[7388] <blockquote>долдураган то же, что <wordLink word="долдурак"/>;</blockquote>
+[8471] <blockquote>жапма тебетей тяньш., тоголок тебетей южн. то же, что <wordLink word="малакай"/>;</blockquote>
+[8934] <blockquote>жемеге ал- или жеменин алдына ал- то же, что <wordLink word="жемеле-"/>;</blockquote>
+[10165] <blockquote>жыл көжө или чоң көжө чатк. или нооруз көжө чуйск. то же, что <wordLink word="оруздама"/>;</blockquote>
+[10197] <blockquote>жылаң аяк или жылаң бут то же, что <wordLink word="жыңайлак"/>;</blockquote>
+[11788] <blockquote>кайып эрен или кайып то же, что <wordLink word="кайберен"/>;</blockquote>
+[12022] <blockquote>кам суп или хам суп то же, что <wordLink word="камсуруп"/>;</blockquote>
+[15929] <blockquote>көптүргөн таруу или бөртмө таруу то же, что <wordLink word="бөртмө" meaning="2"/>;</blockquote>
+[16055] <blockquote>көтөн короз груб. то же, что <wordLink word="сылаңкороз"/>;</blockquote>
+[17895] <blockquote>кыл моор (или кылмоор) южн. то же, что <wordLink word="салмоор"/>;</blockquote>
+[18980] <blockquote>мама тоголок (или мама томолок) то же, что <wordLink word="күбала" meaning="1"/>;</blockquote>
+[22549] <blockquote>өпкө кап южн., тяньш. или өпкө тон тяньш. то же, что <wordLink word="чыптама"/>;</blockquote>
+[25104] <blockquote>сүт өпкө или куйган өпкө то же, что <wordLink word="олобо"/>;</blockquote>
+[25466] <blockquote>тайыбас то же, что <wordLink word="тайбас"/>;</blockquote>
+[26878] <blockquote>товдун тәги то же, что <wordLink word="төш" meaning="3"/>;</blockquote>
+[29174] <blockquote>үзөңгү боолош или үзөңгү жолдош то же, что <wordLink word="үзөңгүлөш"/>;</blockquote>
+[30045] <blockquote>чап тартма или олоң тартма то же, что <wordLink word="олоң" homonym="I"/>;</blockquote>

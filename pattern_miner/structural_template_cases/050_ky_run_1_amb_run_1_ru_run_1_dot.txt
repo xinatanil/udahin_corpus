@@ -1,0 +1,17 @@
+Structural template cases
+
+rank: 50
+support: 10
+pattern: KY_RUN_1 AMB_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка
+
+[14129] <blockquote>кодоо жара геморрой.</blockquote>
+[16076] <blockquote>көтөрүлүш чыгаргандар повстанцы.</blockquote>
+[17070] <blockquote>күлүмчү жыт зловоние.</blockquote>
+[22644] <blockquote>өткөн жылкы прошлогодний.</blockquote>
+[25063] <blockquote>сүйрү жаак длиннолицый.</blockquote>
+[25375] <blockquote>табалуу кубаныч злорадство.</blockquote>
+[25744] <blockquote>тамтайган совершенно бедный.</blockquote>
+[26400] <blockquote>тептең совершенно равный.</blockquote>
+[28764] <blockquote>унутулуп кетилди забылось.</blockquote>
+[30271] <blockquote>чектен ашык чрезмерный.</blockquote>

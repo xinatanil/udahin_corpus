@@ -1,0 +1,15 @@
+Structural template cases
+
+rank: 67
+support: 8
+pattern: KY_RUN_1 AMB_RUN_2 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+
+[24054] <blockquote>сизден ыйбаа кылам я вас стесняюсь;</blockquote>
+[24509] <blockquote>сөздүн кырдалы келди к слову пришлось;</blockquote>
+[25082] <blockquote>сүннөт тою пир по случаю обрезания;</blockquote>
+[25453] <blockquote>тайдын чучугу колбаса из мяса жеребёнка;</blockquote>
+[25994] <blockquote>тартмалуу стол стол с выдвижным ящиком;</blockquote>
+[26660] <blockquote>тилегиңе жет желаю тебе исполнения желаний;</blockquote>
+[27390] <blockquote>төө кымыз кумыс из молока верблюдицы;</blockquote>
+[27938] <blockquote>түк иштеп жарытпайт он плохо работает;</blockquote>

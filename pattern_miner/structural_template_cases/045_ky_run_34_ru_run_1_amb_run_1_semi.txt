@@ -1,0 +1,18 @@
+Structural template cases
+
+rank: 45
+support: 11
+pattern: KY_RUN_34 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+
+[7151] <blockquote>дарданган чоң үй огромный дом;</blockquote>
+[13482] <blockquote>кең көкүрөк дардаң широкогрудый здоровяк;</blockquote>
+[15893] <blockquote>көп маанилүү сөз многозначное слово;</blockquote>
+[15910] <blockquote>көп этаждуу үй многоэтажный дом;</blockquote>
+[21118] <blockquote>оң айткан сөз дельное слово;</blockquote>
+[25870] <blockquote>таңы чыккан өтүк истрёпанные сапоги;</blockquote>
+[26073] <blockquote>татыктуу тосуп алуу достойная встреча;</blockquote>
+[26587] <blockquote>тийип өтмө сынчы поверхностный критик;</blockquote>
+[27477] <blockquote>төрт күндүк мөөнөт четырёхдневный срок;</blockquote>
+[29955] <blockquote>чалкайган кең түз обширная равнина;</blockquote>
+[30633] <blockquote>чөк түшүп олтуруп почтительно сев;</blockquote>

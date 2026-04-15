@@ -1,0 +1,66 @@
+Signal-heavy pattern cases
+
+rank: 59
+support: 59
+pattern: XREF=см DOT WL DOT
+explanation: ссылочный паттерн: конструкция со 'см.' и ссылкой на словарную статью
+
+[45] <blockquote>"айт" десе "ойт" деген см. <wordLink word="айт" homonym="I"/>.</blockquote>
+[152] <blockquote>"күр" дегизе бир ууртап, "күп" дегизе бир бүркүп см. <wordLink word="күп" homonym="IV"/>.</blockquote>
+[255] <blockquote>(в народной медицине) см. <wordLink word="ысылык" meaning="2"/>.</blockquote>
+[3569] <blockquote>бакт см. <wordLink word="бак" homonym="II"/>.</blockquote>
+[3756] <blockquote>балапан (или чырымтал) жүнүн бата элек см. <wordLink word="бат-" homonym="IV"/>.</blockquote>
+[4382] <blockquote>башы батпай, багалчагы сыйбай см. <wordLink word="багалчак"/>.</blockquote>
+[4447] <blockquote>башымды батырып, багалчагымды сыйгыза элекмин см. <wordLink word="багалчак"/>.</blockquote>
+[4448] <blockquote>башымды батырыр, багалчагымды сыйгыза элекмин см. <wordLink word="багалчак"/>.</blockquote>
+[4939] <blockquote>бешиктен бели чыга элек жатып см. <wordLink word="бел"/>.</blockquote>
+[6385] <blockquote>булут минип, муз бүркүп см. <wordLink word="булут"/>.</blockquote>
+[7324] <blockquote>дидары курсун! см. <wordLink word="дидар"/>.</blockquote>
+[7647] <blockquote>жаа бербей или ээ жаа бербей см. <wordLink word="ээ" homonym="II"/>.</blockquote>
+[7669] <blockquote>жаагыңды жап! см. <wordLink word="жаак"/>.</blockquote>
+[7897] <blockquote>жайрагыр см. <wordLink word="жайра-" homonym="II"/>.</blockquote>
+[8025] <blockquote>жалаң аттуу, жайдак тон см. <wordLink word="жалаң"/>.</blockquote>
+[8307] <blockquote>жанжак (жан-жак) см. <wordLink word="жан" homonym="I"/>.</blockquote>
+[9327] <blockquote>жоголгон койдун (или аттын или эски малдын) көзүндөй см. <wordLink word="көз"/>.</blockquote>
+[9748] <blockquote>жумурдун уузу, жумурунда уузу жок см. <wordLink word="ууз"/>.</blockquote>
+[10070] <blockquote>жүрөк мончок или жүрөк таш см. <wordLink word="мончок"/>.</blockquote>
+[10342] <blockquote>жыпжылмакай см. <wordLink word="жылмакай"/>.</blockquote>
+[11018] <blockquote>ичим ичиме жабышып калды см. <wordLink word="ич" homonym="I"/>.</blockquote>
+[11640] <blockquote>кайдан эле! см. <wordLink word="кайдан"/>.</blockquote>
+[12588] <blockquote>кара кылды как жарган см. <wordLink word="кыл" homonym="I"/>.</blockquote>
+[12589] <blockquote>кара кылды как жарган см. <wordLink word="кыл" homonym="I"/>.</blockquote>
+[13337] <blockquote>келем шарып или келеме шарып см. <wordLink word="келем"/>.</blockquote>
+[13666] <blockquote>Кертелки см. <wordLink word="телки" homonym="I"/>.</blockquote>
+[14320] <blockquote>койну (койнуң и т.д.) см. <wordLink word="коюн" homonym="I"/>.</blockquote>
+[15572] <blockquote>көк чычкандуу (или көк чычканы бар) см. <wordLink word="чычкан"/>.</blockquote>
+[15639] <blockquote>көкүрөгүн көк талкан баскан см. <wordLink word="талкан"/>.</blockquote>
+[16349] <blockquote>куйругунун чыпкасы бар или куйругу малынып калган см. <wordLink word="чыпка"/>.</blockquote>
+[16634] <blockquote>курган жан, курган баш см. <wordLink word="кур-" homonym="VIII"/>.</blockquote>
+[16969] <blockquote>күйбөгөн жери күл болду см. <wordLink word="күй-" homonym="IV"/>.</blockquote>
+[17013] <blockquote>күйүп-быш, күйдүм-быштым, күйөр-бышар и др. см. <wordLink word="күй-" homonym="IV"/>.</blockquote>
+[17024] <blockquote>күкүк менен зейнектей күйүттүү болуп см. <wordLink word="күкүк" homonym="I" meaning="1"/>.</blockquote>
+[17623] <blockquote>кызуу иштин аягы сууганча см. <wordLink word="суу-" homonym="III"/>.</blockquote>
+[17727] <blockquote>кызылга береке! см. <wordLink word="кызыл" meaning="6"/>.</blockquote>
+[18320] <blockquote>кыса (или кысас) кыяматка кетпейт см. <wordLink word="кыса" homonym="I" meaning="2"/>.</blockquote>
+[21306] <blockquote>оозун куу чөп менен арчы см. <wordLink word="чөп"/>.</blockquote>
+[21368] <blockquote>оозуңа шайтан түкүрүп кеткенби? см. <wordLink word="түкүр-"/>.</blockquote>
+[23273] <blockquote>сага кылбасам! см. <wordLink word="сен" homonym="I"/>.</blockquote>
+[23586] <blockquote>сары изине чөп сал- см. <wordLink word="чөп"/>.</blockquote>
+[23791] <blockquote>сен кайсы текеге сүздүрдүң? см. <wordLink word="теке" homonym="I"/>.</blockquote>
+[24764] <blockquote>супсак жарма пресная, невкусная жарма (см. <wordLink word="жарма" homonym="I"/>. 3);</blockquote>
+[25807] <blockquote>таң аттыруу или таң атыруу см. <wordLink word="таң" homonym="I"/>.</blockquote>
+[25892] <blockquote>тап, көй см. <wordLink word="тапкөй"/>.</blockquote>
+[25902] <blockquote>тапкан экенсиң! см. <wordLink word="тап-" homonym="VIII"/>.</blockquote>
+[28512] <blockquote>узунду-кыска, узунду-кечке см. <wordLink word="узун"/>.</blockquote>
+[28977] <blockquote>учку элдин учуна, кырка элдин кыйрына кетти см. <wordLink word="учку"/>.</blockquote>
+[29926] <blockquote>чалагайым см. <wordLink word="чала"/>.</blockquote>
+[30075] <blockquote>чапма нике или чапма ике см. <wordLink word="нике"/>.</blockquote>
+[30525] <blockquote>чоң жарыктык, баягы жарыктык см. <wordLink word="чечек" meaning="1"/>.</blockquote>
+[30742] <blockquote>чупчуңкурчак см. <wordLink word="чуңкурчак"/>.</blockquote>
+[31610] <blockquote>шылтоого шынаа или шылтоого шыноо см. <wordLink word="шыноо"/>.</blockquote>
+[31781] <blockquote>ыкылас - калас см. <wordLink word="ыклас"/>.</blockquote>
+[31803] <blockquote>ылам-мим дебей или ыламмим дебестен см. <wordLink word="ылам"/>.</blockquote>
+[32259] <blockquote>эки бутун бир кончко сыйдырып см. <wordLink word="конч"/>.</blockquote>
+[32364] <blockquote>эки тизгин, бир чылбыр см. <wordLink word="тизгин" meaning="4"/>.</blockquote>
+[33459] <blockquote>эски малдын көзүндөй болгон см. <wordLink word="көз"/>.</blockquote>
+[33543] <blockquote>этеги бүтөлүп, жеңи узарды см. <wordLink word="бүтөл-"/>.</blockquote>

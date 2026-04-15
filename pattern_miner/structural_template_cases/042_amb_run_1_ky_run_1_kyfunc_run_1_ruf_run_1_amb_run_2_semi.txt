@@ -1,0 +1,17 @@
+Structural template cases
+
+rank: 42
+support: 10
+pattern: AMB_RUN_1 KY_RUN_1 KYFUNC_RUN_1 RUF_RUN_1 AMB_RUN_2 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+
+[10928] <blockquote>итке минип калды он совершенно обеднел;</blockquote>
+[12677] <blockquote>карааны көрүнбөй кетти он исчез бесследно;</blockquote>
+[16486] <blockquote>култуюп таарынып калды он затаил обиду;</blockquote>
+[19529] <blockquote>мени такалап кетти он меня надул;</blockquote>
+[20079] <blockquote>мурдун көтөрүп калды он нос задрал;</blockquote>
+[20453] <blockquote>мээси айнып калды он умом тронулся;</blockquote>
+[24817] <blockquote>сурун салып турат он смотрит недружелюбно;</blockquote>
+[25495] <blockquote>такай жетип калды он приблизился вплотную;</blockquote>
+[28305] <blockquote>тыптыйпыл талап кетти он ограбил начисто;</blockquote>
+[30254] <blockquote>чекеси тырышып кетти он нахмурил лоб;</blockquote>

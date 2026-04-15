@@ -1,0 +1,12 @@
+Structural template cases
+
+rank: 137
+support: 5
+pattern: KY_RUN_2 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+
+[10006] <blockquote>жүрөгү түштү он сильно испугался;</blockquote>
+[16112] <blockquote>көчө чаң на улице пыльно;</blockquote>
+[22548] <blockquote>өпкө кагып он горько плачет;</blockquote>
+[27881] <blockquote>түбөлүккө пайдалануу на вечное пользование;</blockquote>
+[28394] <blockquote>убадалуу күнүндө в условленный день;</blockquote>

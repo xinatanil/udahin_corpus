@@ -1,0 +1,570 @@
+Signal-heavy pattern cases
+
+rank: 2
+support: 563
+pattern: XREF=см DOT WL
+explanation: ссылочный паттерн: конструкция со 'см.' и ссылкой на словарную статью
+
+[45] <blockquote>"айт" десе "ойт" деген см. <wordLink word="айт" homonym="I"/>.</blockquote>
+[152] <blockquote>"күр" дегизе бир ууртап, "күп" дегизе бир бүркүп см. <wordLink word="күп" homonym="IV"/>.</blockquote>
+[197] <blockquote>"сиздин жолдугуңуз" деп, алдына бир тай туяк жамбыны койду "а это вам подарок", - сказав, положила перед ним слиток серебра (см. <wordLink word="жамбы"/>);</blockquote>
+[220] <blockquote>"үф" десе, үлп этип, ыга бергендей үкүнүн саңоор жүнү белең? разве ты перо филина (см. <wordLink word="үкү" meaning="2"/>), чтобы, колыхнувшись, гнуться от лёгкого дуновения?</blockquote>
+[246] <blockquote>"эт" дегенде бет барбы см. <wordLink word="бет" meaning="5"/>;</blockquote>
+[251] <blockquote>(би-дейм; см. <wordLink word="бы"/> и де-)</blockquote>
+[253] <blockquote>(в местах соседства с казахами): олай болсун! то же, что <wordLink word="андай болсун"/> (см. <wordLink word="андай"/>).</blockquote>
+[255] <blockquote>(в народной медицине) см. <wordLink word="ысылык" meaning="2"/>.</blockquote>
+[259] <blockquote>(в скачках с козлёнком; см. <wordLink word="улак" meaning="2"/>)</blockquote>
+[260] <blockquote>(в эпосе "Манас") Түлкү Тюлкю (один из чутких стражей богатыря Конгурбая; см. <wordLink word="ещё"/> кулжа, өрдөк);</blockquote>
+[268] <blockquote>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</blockquote>
+[277] <blockquote>(или чопкут тон) чопкут (в эпосе - род боевого одеяния, видимо, близкого к олпок; см. <wordLink word="олпок" meaning="3"/>);</blockquote>
+[281] <blockquote>(иногда теке какшык) июль (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[284] <blockquote>(иногда) то же, что <wordLink word="да"/> (см. <wordLink word="да" homonym="I" meaning="1"/>);</blockquote>
+[286] <blockquote>(көр-ө-кел; воспринимается не как глагол, а как имя) беззаботный, нерадивый (прим. см. <wordLink word="айдайкел" meaning="1"/>).</blockquote>
+[288] <blockquote>(кыжы-кыймалан-; см. <wordLink word="кыжы"/>)</blockquote>
+[293] <blockquote>(о пище) то же, что <wordLink word="суук"/> (см. <wordLink word="ысылык" meaning="2"/>).</blockquote>
+[299] <blockquote>(по значению совпадает с турбайбы (см. <wordLink word="тур-" homonym="II"/>);</blockquote>
+[300] <blockquote>(по ценности на втором месте после туйгун'а, см. <wordLink word="туйгун" homonym="I" meaning="1"/>);</blockquote>
+[302] <blockquote>(при игре в ордо, см. <wordLink word="ордо" meaning="3"/>)</blockquote>
+[303] <blockquote>(при игре в тогуз коргол; см. <wordLink word="коргол"/>) нечётное число шариков свыше девяти, которые являются выигрышем противника;</blockquote>
+[304] <blockquote>(при определении толщиңы конского жира) то же, что <wordLink word="төрт эли"/> (см. <wordLink word="эли"/>);</blockquote>
+[335] <blockquote>(чу кой-; см. <wordLink word="чү" homonym="II"/>)</blockquote>
+[340] <blockquote>1/16 жың (см. <wordLink word="жың" homonym="I"/>);</blockquote>
+[518] <blockquote>адам диткис редко. то же, что <wordLink word="адамдын дити чыдагыс"/> (см. <wordLink word="дит"/>).</blockquote>
+[606] <blockquote>азын-көбүн или көбүн-азын (см. <wordLink word="аз" homonym="I"/>).</blockquote>
+[619] <blockquote>азыраак жутка чарпылдык мы немного пострадали от джута (см. <wordLink word="жут" homonym="I"/>);</blockquote>
+[679] <blockquote>айгырлар азынап, күл челиген букалар өкүрөт одинокие жеребцы беспрестанно ржут (см. <wordLink word="азына-"/>), разъярённые быки ревут;</blockquote>
+[786] <blockquote>айтпаса, төгүнбү (см. <wordLink word="айтпаса"/>);</blockquote>
+[819] <blockquote>айтышка беленденди он приготовился к состязанию в пении (см. <wordLink word="айтыш" homonym="I" meaning="3"/>);</blockquote>
+[893] <blockquote>ак бата, кызыл кан см. <wordLink word="бата" meaning="2"/>;</blockquote>
+[948] <blockquote>ак колтук (при игре в тогуз коргол; см. <wordLink word="коргол"/>) третья лунка с левой стороны.</blockquote>
+[965] <blockquote>ак кулжа (в эпосе "Манас") то же, что <wordLink word="куу кулжа"/> (см. <wordLink word="куу" homonym="I"/>).</blockquote>
+[1010] <blockquote>ак тамагын кылайтып выставив своё белое горло (см. <wordLink word="тамак" meaning="2"/>);</blockquote>
+[1047] <blockquote>ак чүсте южн. то же, что <wordLink word="ак чүштө"/> (см. <wordLink word="чүштө" homonym="I"/>).</blockquote>
+[1059] <blockquote>ак эркеч болуп то же, что <wordLink word="эркечтенип"/> (см. <wordLink word="эркечтен-"/>).</blockquote>
+[1147] <blockquote>акчанын жытын ат чабым жерден искеген такой, который запах денег чует издали (см. <wordLink word="чабым"/>).</blockquote>
+[1213] <blockquote>акыр-такыр заман (см. <wordLink word="заман" meaning="3"/>);</blockquote>
+[1255] <blockquote>ал бир бөдөнө, мекемеси жок он - перепёлка, своей канцелярии у него нет (ещё прим. см. <wordLink word="бытпылдык"/>);</blockquote>
+[1389] <blockquote>ал оодарышуудан түк алдыра элек он ещё никогда не был побеждён в состязании оодарыш (см. <wordLink word="оодарыш" homonym="I" meaning="2"/>).</blockquote>
+[1432] <blockquote>ал тастарлуу эмес, такыячан она не замужняя, а девица (см. <wordLink word="такыя"/>).</blockquote>
+[1557] <blockquote>ала-буйла южн. то же, что <wordLink word="ала-була"/> (см. <wordLink word="ала" meaning="1"/>).</blockquote>
+[1619] <blockquote>алар сыйы менен кетет, кетпесе, жигиттериңе айдатып чыгар они подобру-поздорову уйдут, а если не уйдут, прикажи своим джигитам (см. <wordLink word="жигит" meaning="3"/>) прогнать (их);</blockquote>
+[1697] <blockquote>алда качан тозугу жетип, кепичтин тарпы жатат лежат ошмётки давно изношенных кожаных галош (см. <wordLink word="кепич"/>).</blockquote>
+[1711] <blockquote>Алдар Көсө кедейлерге жан тартчу эле Алдар Косе (см. <wordLink word="көсө" homonym="II"/>) держал сторону (защищал) бедняков;</blockquote>
+[1737] <blockquote>алдына килкилдеген жаш козунун эти, кымыз, боорсок дебей, жайнап келди перед ним соблазнительно предстали мясо молодого барашка, кумыс и баурсаки (см. <wordLink word="боорсок"/>);</blockquote>
+[1876] <blockquote>алынып см. <wordLink word="келин-" homonym="II"/>;</blockquote>
+[2000] <blockquote>аны бир ой бийлеп кетти им овладела одна мысль (ещё прим. см. <wordLink word="бийлет-" homonym="II"/>).</blockquote>
+[2222] <blockquote>аппетитти дүүлүктүрүп беш бармактын даамдуу жыты аңкый баштады начал распространяться приятный запах беш бармака (см. <wordLink word="бармак"/>), раззадоривающий аппетит.</blockquote>
+[2328] <blockquote>аракеттин берекети бар то же, что <wordLink word="аракет кылсаң, береке"/> (см. <wordLink word="береке"/>).</blockquote>
+[2418] <blockquote>артык кылам деп, тыртык кылды (см. <wordLink word="артык"/>);</blockquote>
+[2449] <blockquote>ары кой- с предшеств. исх. п. ударить по... (прим. см. <wordLink word="ары" homonym="I"/>);</blockquote>
+[2584] <blockquote>ат жыктыр- понуд. от <wordLink word="ат жык-"/> (см. <wordLink word="жык-" homonym="II"/>);</blockquote>
+[2590] <blockquote>ат келишпесе, оодарыштан көп окус болот когда лошадь не годится, то на (состязаниях) оодарыш (см. <wordLink word="оодарыш" homonym="I" meaning="2"/>) бывает много несчастных случаев.</blockquote>
+[2609] <blockquote>ат менен койдуруп кетти то же, что <wordLink word="ат менен коюп кетти"/> (см. <wordLink word="кой-" homonym="II" meaning="5"/>);</blockquote>
+[2636] <blockquote>ат тезегин кургатпай (см. <wordLink word="кургат-"/>).</blockquote>
+[2651] <blockquote>ат чабым эмес, тай чабым түз жок (здесь) нет ровного места не только на расстояние скачек коней, но даже и одногодков (см. <wordLink word="чабым"/>);</blockquote>
+[2669] <blockquote>ат-ылооң аманбы? то же, что <wordLink word="ат-көлүк аманбы?"/> (см. <wordLink word="көлүк"/>);</blockquote>
+[2718] <blockquote>Атабек чөк түшкөнүн жазып малдаш урунду Атабек вместо того, чтобы опуститься на колени (см. <wordLink word="чөк-" homonym="IV"/>), сел способом мандаш (см.);</blockquote>
+[2726] <blockquote>Атай, кыягынын кылын чабырдай олтуруп, сөз баштады Атай, наканифоливая струны своего кияка (см. <wordLink word="кыяк" homonym="II"/>), начал говорить.</blockquote>
+[2783] <blockquote>атек боо верёвки, идущие от төркү үзүк (см. <wordLink word="үзүк" homonym="I"/>) к переду юрты;</blockquote>
+[2793] <blockquote>атка өбөктө- или таш өбөктө- или ээрдин кашына өбөктө- то же, что <wordLink word="таш өбөк сал-"/> (см. <wordLink word="өбөк"/>).</blockquote>
+[2817] <blockquote>атпайлап ураан сал- кричать атпай (см. <wordLink word="атпай" meaning="2"/>) в качестве боевого клича.</blockquote>
+[2884] <blockquote>аттарын тартылган кермеге байлашып привязав коней своих к протянутой верёвочной коновязи (см. <wordLink word="керме"/>);</blockquote>
+[3088] <blockquote>аульный старшина (то же, что <wordLink word="жүз"/> башы, см. <wordLink word="баш" meaning="8"/>);</blockquote>
+[3187] <blockquote>аш болбосун, таш болсун! (см. <wordLink word="аш" homonym="I"/>);</blockquote>
+[3259] <blockquote>аюу чач или аюу дары см. <wordLink word="чач" homonym="I"/>;</blockquote>
+[3304] <blockquote>аяк оона сентябрь (см. <wordLink word="ай" homonym="I" meaning="2"/>).</blockquote>
+[3306] <blockquote>аяк өйдө (противоп. <wordLink word="баш"/> ылдый; см. <wordLink word="баш" meaning="10"/>) начиная с того, кто ниже (сидит, т.е. с того, кто сидит ближе к выходу, на менее почётном месте);</blockquote>
+[3360] <blockquote>баабединге көтөр- предназначить (животное) в качестве искупительной или благодарственной жертвы (ещё прим. см. <wordLink word="сетер" meaning="1"/>, <wordLink word="ыйык" meaning="2"/>);</blockquote>
+[3444] <blockquote>багын (бакытын, бактысын) байла- см. <wordLink word="бак" homonym="II"/>;</blockquote>
+[3496] <blockquote>байбиче чач мончогун шарактата туруп встала байбиче (см.), звякнув своими металлическими подвесками на косах (см. <wordLink word="мончок"/>);</blockquote>
+[3499] <blockquote>байбичелер тымыган казандай тымтырс олтуруп калышты женщины (см. <wordLink word="байбиче"/>) сидели в полном безмолвии, как переставший бурлить котёл;</blockquote>
+[3544] <blockquote>бака жалбырак подорожник, ср. жөргөмүш чөп (см. <wordLink word="жөргөмүш"/>);</blockquote>
+[3569] <blockquote>бакт см. <wordLink word="бак" homonym="II"/>.</blockquote>
+[3707] <blockquote>балан-түкөн или палан-түкөн такой вот да этакий вот; то вот да сё вот (см. <wordLink word="түкүн"/>, <wordLink word="түкүнчө"/>, <wordLink word="түкүндөй"/>).</blockquote>
+[3737] <blockquote>баланын алагай чоң көзү жез чарага жаймаланган боорсокко түшө калды большие на выкате глаза мальчика увидели чашку, до краёв наполненную баурсаками (см. <wordLink word="боорсок"/>);</blockquote>
+[3756] <blockquote>балапан (или чырымтал) жүнүн бата элек см. <wordLink word="бат-" homonym="IV"/>.</blockquote>
+[3874] <blockquote>балпайып төрдө отурат он важно (грузно) восседает на почётном месте (см. <wordLink word="төр" meaning="1"/>).</blockquote>
+[3934] <blockquote>баптап жыйылган жүк аккуратно уложенные одеяла, подушки (см. <wordLink word="жүк" meaning="2"/>);</blockquote>
+[3977] <blockquote>барар жери, басар тоосу жок (или калбады) (см. <wordLink word="бас-" homonym="IV"/>);</blockquote>
+[4020] <blockquote>бардык (см. <wordLink word="бар" homonym="I"/>) болгону это всё, что есть (больше нет);</blockquote>
+[4042] <blockquote>бардык улакчыларды чакырып, аттарын мыктады он созвал всех участников скачек с козлом (см. <wordLink word="улакчы"/>) и отобрал (для скачек) лучших коней;</blockquote>
+[4224] <blockquote>бача ойнот- уст. устраивать пляски бачей (см. <wordLink word="бача"/>);</blockquote>
+[4233] <blockquote>баш (ын, -ыңды и т.д.) же- см. <wordLink word="баш"/>;</blockquote>
+[4239] <blockquote>баш боо (четыре) верёвки, которыми үзүк прикрепляется к түндүк'у, кереге и кырчоо (см. <wordLink word="кырчоо" meaning="1"/>);</blockquote>
+[4268] <blockquote>баш оона август (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[4275] <blockquote>баш таң-, баш таңуу см. <wordLink word="таң-" homonym="VI"/>;</blockquote>
+[4381] <blockquote>башы батпай, багалчагы сыйбай см. <wordLink word="багалчак"/>;</blockquote>
+[4382] <blockquote>башы батпай, багалчагы сыйбай см. <wordLink word="багалчак"/>.</blockquote>
+[4447] <blockquote>башымды батырып, багалчагымды сыйгыза элекмин см. <wordLink word="багалчак"/>.</blockquote>
+[4448] <blockquote>башымды батырыр, багалчагымды сыйгыза элекмин см. <wordLink word="багалчак"/>.</blockquote>
+[4449] <blockquote>башымды бөйөн-чаян (см. <wordLink word="бөйөн"/>) уялап, мээмди жылан жалмап кеткен бейм мне в голову всякая чепуха полезла, меня совсем сбили с толку;</blockquote>
+[4502] <blockquote>башында кара саксак менен көбөөлөткөн малакай на голове у него малахай, отороченный чёрным мехом саксака (см. <wordLink word="саңсаң"/>);</blockquote>
+[4601] <blockquote>бейли ток или ток бейил или ток пейил (см. <wordLink word="пейил"/>).</blockquote>
+[4613] <blockquote>бек заада сын или потомок бека (см. <wordLink word="бек" homonym="II" meaning="1"/>);</blockquote>
+[4621] <blockquote>бекер эмес неспроста, не без оснований, не зря (ещё прим. см. <wordLink word="бейкүнөө"/>);</blockquote>
+[4659] <blockquote>белдик козу ягнёнок, родившийся от непредусмотренной случки (зачатый тогда, когда производитель уже подвязан белдик'ом см. <wordLink word="белдик" meaning="2"/>);</blockquote>
+[4725] <blockquote>беренсинип, бексинип, турчу белең, Сарыбай? (ведь было же, что) ты, Сарыбай, воображал себя богатырём и беком? (см. <wordLink word="бек" homonym="II"/>).</blockquote>
+[4870] <blockquote>бечел сымал будто сидень (см. <wordLink word="бечел" meaning="1"/>);</blockquote>
+[4939] <blockquote>бешиктен бели чыга элек жатып см. <wordLink word="бел"/>.</blockquote>
+[4949] <blockquote>бештин айы декабрь (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[5028] <blockquote>биздикинде у нас, у нас в доме, у нас дома (ещё прим. см. <wordLink word="бар-" homonym="IV"/>).</blockquote>
+[5454] <blockquote>бир түрдүү боло түштү (см. <wordLink word="түш-" homonym="III" meaning="9"/>).</blockquote>
+[5547] <blockquote>бирдин айы февраль (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[5658] <blockquote>бирөөнүн аты чужая лошадь (ещё прим. см. <wordLink word="көрүн-"/>);</blockquote>
+[5679] <blockquote>богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</blockquote>
+[5683] <blockquote>бодур-бодур то. же, что будур-будур (см. <wordLink word="будур"/>).</blockquote>
+[5687] <blockquote>боёолуу жер место, где растёт боёо (см. <wordLink word="боёо" homonym="I"/>).</blockquote>
+[5725] <blockquote>бозо ичкен үйдө, жоро ичкен үйдө эки ортолоп бастырып жүрүшкөн они ездили по домам (посещая их), где пьют бузу, справляют жоро (см. <wordLink word="жоро" homonym="I"/>);</blockquote>
+[5899] <blockquote>боору такыр кул раб по происхождению (так презрительно называли сына рабыни или младшей жены; ср. төшкө жатар, см. <wordLink word="төш"/>);</blockquote>
+[5911] <blockquote>бор кайнат- кипятить или варить так, чтобы бурно кипело (прим. см. <wordLink word="баглан"/>);</blockquote>
+[6013] <blockquote>бөдөнөдөн көтөн (или куйрук) чыгар- см. <wordLink word="көтөн"/>;</blockquote>
+[6255] <blockquote>бул көрө, андан көрө см. <wordLink word="көрө" homonym="II"/>;</blockquote>
+[6385] <blockquote>булут минип, муз бүркүп см. <wordLink word="булут"/>.</blockquote>
+[6647] <blockquote>бүргөнөктөй түйүлүп быстро помчавшись (см. <wordLink word="түйүл-" homonym="II" meaning="3"/>).</blockquote>
+[6656] <blockquote>бүркүт чын куранда үйүгүшөт, бугунун аягында зоого же чөлгө тууйт беркуты спариваются в месяце чын куран (см. <wordLink word="куран" homonym="II" meaning="2"/>), а в конце месяца бугу (см.) кладут яйца на скалах или в степи;</blockquote>
+[6700] <blockquote>бүтүн дүнүйө пролетарлары, бириккиле! пролетарии всех стран (букв. всего мира), соединяйтесь! (см. <wordLink word="бардык" homonym="I" meaning="2"/>);</blockquote>
+[6747] <blockquote>былжыган жарма не укисшая, расквасившаяся жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>).</blockquote>
+[6776] <blockquote>быртыйган эттүү колдору менен маасынын кончун черткилеп пощёлкивая своими короткими толстыми пальцами по голенищам своих ичигов (см. <wordLink word="маасы"/>);</blockquote>
+[6831] <blockquote>быштак жеп, оозун чултуйткандар у тех, кто ел сыр (см. <wordLink word="быштак"/>), щёки округлились (они ожирели).</blockquote>
+[6866] <blockquote>в игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>
+[6872] <blockquote>в соединении с эле (см. <wordLink word="эле" homonym="II"/>) и экен (см. <wordLink word="экен" homonym="I"/>) гласный частицы выпадает: келди бекен (би экен) он прибыл, а?</blockquote>
+[7016] <blockquote>даек карма- держать приз (если он мал) или ведать призом (если он велик, напр. много голов скота) на скачках (см. <wordLink word="даекчи"/>).</blockquote>
+[7053] <blockquote>Далбай жооп бергиче болбой, суроолорду жаадырып жиберди не успел ещё Далбай ответить, как его засыпали вопросами (ещё прим. см. <wordLink word="аңгыча"/>);</blockquote>
+[7088] <blockquote>дам ур- или дам кой- то же, что <wordLink word="дем ур-"/> (см. <wordLink word="дем"/>);</blockquote>
+[7245] <blockquote>делдек таноо раздутые ноздри; человек с раздутыми ноздрями (см. <wordLink word="делдең"/>).</blockquote>
+[7300] <blockquote>дениңди багыштадыңбы? то же, что <wordLink word="кабыл туттуңбу?"/> (см. <wordLink word="кабыл" homonym="I"/>).</blockquote>
+[7324] <blockquote>дидары курсун! см. <wordLink word="дидар"/>.</blockquote>
+[7466] <blockquote>дубан-дубандын эли жер сойдуруп, баатырдын ашына келишет на поминки батыра всадники валом валят из разных уездов (см. <wordLink word="дубан" meaning="1"/>).</blockquote>
+[7512] <blockquote>дүгдүгүй тарткан калың токой то же, что <wordLink word="дүгдүйгөн калың токой"/> (см. <wordLink word="дүгдүй-"/>).</blockquote>
+[7567] <blockquote>дүнүйөлөрүнүн кымбаты - жылан терисинен жасалган туш кийиз самое дорогое из их имущества - туш кийиз (см. <wordLink word="кийиз"/>) из змеиной кожи;</blockquote>
+[7585] <blockquote>дүр-дүйнө тамакты жайнатып салды он поставил всевозможные яства (см. <wordLink word="дүрдана"/>).</blockquote>
+[7589] <blockquote>дүрвөн-даркан южн. то же, что <wordLink word="дабыр-дубур"/> (см. <wordLink word="дабыр"/>);</blockquote>
+[7647] <blockquote>жаа бербей или ээ жаа бербей см. <wordLink word="ээ" homonym="II"/>.</blockquote>
+[7662] <blockquote>жаагын түлөтө чапты (см. <wordLink word="жаак" meaning="1"/>).</blockquote>
+[7669] <blockquote>жаагыңды жап! см. <wordLink word="жаак"/>.</blockquote>
+[7775] <blockquote>жазга турук тяньш. то же, что <wordLink word="жазга турум"/> (см. <wordLink word="турум" homonym="II"/>).</blockquote>
+[7785] <blockquote>жазгы конгон коноктой или жазгы келген коноктой см. <wordLink word="жазгы"/>;</blockquote>
+[7895] <blockquote>жайнамазын жая салып, эки ирекет багымдатын окуп алды разостлав молитвенный коврик (см. <wordLink word="намаз"/>), он совершил двупоклонный утренний намаз.</blockquote>
+[7897] <blockquote>жайрагыр см. <wordLink word="жайра-" homonym="II"/>.</blockquote>
+[7937] <blockquote>жакасын капшыра кармап, "тобо" келтирди он схватил себя рукой за воротник и покаялся (см. <wordLink word="жака"/>);</blockquote>
+[7939] <blockquote>жакасын карманып табынат (молитвенно) взяв себя за воротник (см. <wordLink word="жака"/>, <wordLink word="карман-"/>), он взмолился;</blockquote>
+[8022] <blockquote>жалама зоонун боорунда жаңгыз куурай кыштамыш загадка на склоне одинокой гладкой скалы одинокая камышинка зазимовала (отгадка төөнүн буйласы колышек в носу верблюда; см. <wordLink word="буйла" homonym="I"/>).</blockquote>
+[8025] <blockquote>жалаң аттуу, жайдак тон см. <wordLink word="жалаң"/>.</blockquote>
+[8026] <blockquote>жалаң жарма жалацтык кылат одной жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>) не насытишься;</blockquote>
+[8048] <blockquote>жалган куран или тяньш. абал куран март (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[8146] <blockquote>жалт! южн. (при игре в топу катмай, см. <wordLink word="топу"/>) сигнал, дающий знать, что тюбетейка спрятана.</blockquote>
+[8198] <blockquote>жамансары то же, что <wordLink word="жаман сары"/> (см. <wordLink word="сары" homonym="II"/>);</blockquote>
+[8203] <blockquote>жамбы атмай или жамбы атышмай вид спорта: стрелки из лука, а позднее из ружья, состязались в сбивании слитка серебра, подвязанного на высоте на тонкой нитке (попасть нужно было в нитку; см. <wordLink word="ещё"/> кыйык I 5).</blockquote>
+[8227] <blockquote>жан аякка суу алып, сүзмөдөн чаңыт эзишти взяв в чашку воды, намяли они сюзьмы и сделали кислое питьё (см. <wordLink word="чаңыт" homonym="I"/>).</blockquote>
+[8299] <blockquote>жанды оозго тиштеп (см. <wordLink word="жан" homonym="II"/>).</blockquote>
+[8306] <blockquote>жандырмактуу кеп намёк; слово, сказанное обиняком (ещё прим. см. <wordLink word="жаныктат-"/>).</blockquote>
+[8307] <blockquote>жанжак (жан-жак) см. <wordLink word="жан" homonym="I"/>.</blockquote>
+[8317] <blockquote>жанчы жолдош или күйөө жанчы то же, что <wordLink word="күйөө жолдош"/> (см. <wordLink word="жолдош" homonym="I" meaning="2"/>).</blockquote>
+[8352] <blockquote>жанымды үрөп жүрүп, күнүнө эки бөз токуп бүтүрөм работая изо всех сил, я в день тку два куска бязи (см. <wordLink word="бөз"/>);</blockquote>
+[8440] <blockquote>жапа же- или жапаа же- см. <wordLink word="жапаа" meaning="1"/>;</blockquote>
+[8481] <blockquote>жар көрүштүр- понуд. от <wordLink word="жар көрүш-"/> (см. <wordLink word="жар" homonym="I"/>);</blockquote>
+[8482] <blockquote>жар көрүшүү название игры, которой развлекается молодёжь обоего пола на кыа оюну (см. <wordLink word="оюн"/>; букв. здорованье с возлюбленной, с возлюбленным);</blockquote>
+[8549] <blockquote>жарма бышым время (около одного часа), нужное для того, чтобы сварилась жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>).</blockquote>
+[8551] <blockquote>жарма опкок келет (похлёбка) жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>) малопитательна.</blockquote>
+[8555] <blockquote>жармага көөлөгөн талкан (см. <wordLink word="көөлө" homonym="II" meaning="3"/>);</blockquote>
+[8556] <blockquote>жармага көөлөгөн талкан смесь жарма (см. <wordLink word="жарма" homonym="I" meaning="2"/>) и толокна;</blockquote>
+[8557] <blockquote>жарманы атырылтып кайнатып жатты он так кипятил жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>), что она брызгала;</blockquote>
+[8558] <blockquote>жарманы коюулап куй налей похлёбки (см. <wordLink word="жарма" homonym="I" meaning="3"/>) погуще.</blockquote>
+[8821] <blockquote>жез кемпирдин көгөнү то же, что <wordLink word="көк желе"/> (см. <wordLink word="көк" homonym="II" meaning="2"/>).</blockquote>
+[8829] <blockquote>жез тырмак (букв. медные ногти) то же, что <wordLink word="жез тумшук"/> (см. <wordLink word="тумшук"/>);</blockquote>
+[8873] <blockquote>жел боо (две) верёвки, идущие от түндүк'а (см. <wordLink word="түндүк" meaning="3"/>) вниз и служащие для укрепления юрты во время ветра;</blockquote>
+[8956] <blockquote>жең учу менен суйлөш- (о маклерах на базаре) договариваться о цене, держа другого за руку в рукаве и отсчитывая по пальцам (см. <wordLink word="уучташ-"/>, <wordLink word="жең" homonym="I"/>);</blockquote>
+[8993] <blockquote>жепен (или жепен чүкө) альчик со стёртыми алчы (см.) и таа (см. <wordLink word="таа" meaning="1"/>), употребляемый при игре в жедирмек (см.).</blockquote>
+[9060] <blockquote>жер союлтуп эл өкүрүп келди явилась масса (конного) народа с оплакиванием (см. <wordLink word="өкүр-"/>).</blockquote>
+[9090] <blockquote>Жер-Суу тайы- приносить жертву божеству Земли-Воды (см. <wordLink word="жер" meaning="1"/>);</blockquote>
+[9125] <blockquote>жергиликтүү шарттарга жараша применительно к местным условиям (ещё прим. см. <wordLink word="жарамдуулук"/>).</blockquote>
+[9188] <blockquote>Жети Аркар или Жети Каракчы см. <wordLink word="аркар"/>, Жетиген;</blockquote>
+[9225] <blockquote>жетинин айы ноябрь (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[9327] <blockquote>жоголгон койдун (или аттын или эски малдын) көзүндөй см. <wordLink word="көз"/>.</blockquote>
+[9432] <blockquote>жолборс комдонгон тейинче күрүлдөп-шарылдап жатты тигр, как лёг вытянувшись (см. <wordLink word="комдон-" meaning="2"/>), так и лежал (не меняя позы), рыча.</blockquote>
+[9473] <blockquote>жолду катар или жол катары то же, что <wordLink word="жолду ката"/> (см. <wordLink word="ката" homonym="II"/>);</blockquote>
+[9500] <blockquote>жолу катып, жолу каткан см. <wordLink word="кат-" homonym="IV"/>;</blockquote>
+[9718] <blockquote>жудуруктай то же, что <wordLink word="муштумдай"/> (см. <wordLink word="муш" homonym="I"/>).</blockquote>
+[9748] <blockquote>жумурдун уузу, жумурунда уузу жок см. <wordLink word="ууз"/>.</blockquote>
+[9835] <blockquote>жутка учура- пострадать от джута (см. <wordLink word="жут" homonym="I"/>);</blockquote>
+[9846] <blockquote>жуурат ичкендей ыксырады он разомлел так, как будто напился жуурат'а (см. <wordLink word="жуурат" homonym="I"/>).</blockquote>
+[9881] <blockquote>жүз карамачы или бет карамачы то же, что <wordLink word="жүз карама"/> (см. <wordLink word="карама"/>).</blockquote>
+[9897] <blockquote>жүздөй киши, Акжалды сүрөөндөп кубалап, мааракеден өткөрүп кетишти около сотни людей, с криками погнав (коня) Акджал от сүрөө (см. <wordLink word="сүрөө" meaning="3"/>), провели его за финиш;</blockquote>
+[10052] <blockquote>жүрөгүнө (жүрөгүмө) эт барбайт см. <wordLink word="жүрөк"/>;</blockquote>
+[10070] <blockquote>жүрөк мончок или жүрөк таш см. <wordLink word="мончок"/>.</blockquote>
+[10110] <blockquote>жүүртө басып олтур- то же, что <wordLink word="жүйүртө басып отур-"/> (см. <wordLink word="жүйүрт-"/>).</blockquote>
+[10115] <blockquote>жыбыр-жыбыр ачыган жарма образующиеся при брожении пузырьки жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>);</blockquote>
+[10143] <blockquote>жыйса - жеңдей, жайса - көлдөй загадка соберёшь - как рукав, расстелешь - как озеро (отгадка чий; см. <wordLink word="чий" homonym="I" meaning="1"/>);</blockquote>
+[10186] <blockquote>жылан чакпай, жылкы теппей (см. <wordLink word="жылкы" homonym="I"/>).</blockquote>
+[10200] <blockquote>жылаңач этке чепкен кийгизип оодарыштырат когда устраивают состязание оодарыш (см. <wordLink word="оодарыш" homonym="I" meaning="2"/>), то (участников) заставляют надевать чапан на голое тело.</blockquote>
+[10240] <blockquote>жылдырмасын жылдырып коёт да, "ак койдон аңкоо, боз койдон момун" болуп, жүрө берет он потихоньку сделает этакую пакость, а потом ходит себе смиренником (см. <wordLink word="аңкоо"/>);</blockquote>
+[10249] <blockquote>жылкы тайы- обводить лошадь, больную мышками (см. <wordLink word="жаталак"/>), вокруг надгробия.</blockquote>
+[10342] <blockquote>жыпжылмакай см. <wordLink word="жылмакай"/>.</blockquote>
+[10355] <blockquote>жырык өгуз бык с рваным носом (от чүлүк, см. <wordLink word="чүлүк" meaning="1"/>);</blockquote>
+[10356] <blockquote>жырык төө верблюд с разодранными ноздрями (от буйла, см. <wordLink word="буйла" homonym="I"/>);</blockquote>
+[10364] <blockquote>жыты эле тууган киши (см. <wordLink word="жыт"/>);</blockquote>
+[10405] <blockquote>зайпана маасы женские ичиги (см. <wordLink word="маасы"/>);</blockquote>
+[10458] <blockquote>зампарлап жаап турат тяньш. идёт небольшой снег (см. <wordLink word="зампар" homonym="I"/>).</blockquote>
+[10504] <blockquote>зембилдеп ташы- носить или переносить на носилках (см. <wordLink word="зембил"/>).</blockquote>
+[10634] <blockquote>ийди керки тесла (см. <wordLink word="керки"/>) с лезвием в виде желобка.</blockquote>
+[10706] <blockquote>илгери малга тамга басчу эмес, лекин эни болчу раньше на скот тавро (см. <wordLink word="тамга" meaning="1"/>) не клали, но резаная метка (см. <wordLink word="эн" homonym="II"/>) была.</blockquote>
+[10819] <blockquote>иреге жакта тизе кагыша жүйүртө басышып отурушат они тесно сидят у порога, опустившись на одно колено (см. <wordLink word="жүйүрт-"/>);</blockquote>
+[10881] <blockquote>ит кемирген куу чыймыл кандай болсо, эшен дал ошондой адам ишан (см. <wordLink word="эшен"/>) - ни дать ни взять изгрызанный собакой сухой альчик.</blockquote>
+[10892] <blockquote>ит тамандап сделав (узор) "ит таман" (см. <wordLink word="таман" homonym="I"/>).</blockquote>
+[10948] <blockquote>иттин терисин кийгизип (или башына каптап) (см. <wordLink word="жегиз-"/>);</blockquote>
+[11018] <blockquote>ичим ичиме жабышып калды см. <wordLink word="ич" homonym="I"/>.</blockquote>
+[11113] <blockquote>иш илгери! см. <wordLink word="илгери" meaning="1"/>;</blockquote>
+[11314] <blockquote>каалаган жерден теңдик алсын пусть он требует кого угодно, чтобы тот поклялся в верности (моих) показаний или в (моей) невиновности (ср. <wordLink word="жан сал-"/>, см. <wordLink word="жан" homonym="II"/>);</blockquote>
+[11331] <blockquote>каарланса жер сабап, Карагул чыгат шокшоктоп если разгневается Карагул, он выходит (на врага) яростно подпрыгивая (см. <wordLink word="саба-" homonym="II"/>);</blockquote>
+[11438] <blockquote>кагылайын то же, что <wordLink word="айланайын"/> (см. <wordLink word="айлан-" meaning="3"/>);</blockquote>
+[11520] <blockquote>каз айланбас кара зоо см. <wordLink word="зоо"/>;</blockquote>
+[11540] <blockquote>казанга төрт эли бөксө суу куюлган эле в котёл была налита вода на четыре пальца (см. <wordLink word="эли"/>) ниже краёв;</blockquote>
+[11575] <blockquote>казыкка кердиртип алып сабатат он приказывает распялить (см. <wordLink word="кер-" homonym="VI" meaning="2"/>) его в бить.</blockquote>
+[11640] <blockquote>кайдан эле! см. <wordLink word="кайдан"/>.</blockquote>
+[11808] <blockquote>кайыш курунун жазылыгы кеминде үч эли ширина его ремённого пояса самое меньшее три пальца (см. <wordLink word="эли"/>).</blockquote>
+[11926] <blockquote>калканыч болгон кара алачык бедная юрта (см. <wordLink word="алачык"/>), служившая укрытием;</blockquote>
+[12113] <blockquote>кан татакай южн. то же, что <wordLink word="кан таламай"/> (см. <wordLink word="таламай"/>).</blockquote>
+[12297] <blockquote>Каныбек, кара өгүздүн мурдун чүйрүйтө тартып, тура калды Каныбек дёрнул чёрного быка (на котором сидел) так, что у него нос задрался (см. <wordLink word="чүлүк" meaning="1"/>), и остановился.</blockquote>
+[12317] <blockquote>каңгы баш или башы каңгы ополоумевший, полупомешанный; растерявшийся (прим. см. <wordLink word="айры" homonym="I" meaning="1"/>).</blockquote>
+[12588] <blockquote>кара кылды как жарган см. <wordLink word="кыл" homonym="I"/>.</blockquote>
+[12589] <blockquote>кара кылды как жарган см. <wordLink word="кыл" homonym="I"/>.</blockquote>
+[12617] <blockquote>кара өзгөйлүү бийлер наглые бии (см. <wordLink word="бий" homonym="II"/>).</blockquote>
+[12946] <blockquote>карып элине камсырай ырдаган он пел, сочувствуя своему обездоленному народу (ещё прим. см. <wordLink word="камсык"/>).</blockquote>
+[12949] <blockquote>карысы казык, башы токмок болуп см. <wordLink word="каруу" meaning="1"/>;</blockquote>
+[13328] <blockquote>келе жатыр Күлчоро, эки жагын каранып фольк. (сюда) едет Кюльчоро, оглядываясь по сторонам; при деепр. наст. вр. основного глагола может терять начальный ж и сливаться с основным глаголом (см. <wordLink word="ат-" homonym="IV"/>);</blockquote>
+[13337] <blockquote>келем шарып или келеме шарып см. <wordLink word="келем"/>.</blockquote>
+[13374] <blockquote>келин жүгүндүрүү этн. впервые вводить молодуху в дом свёкра (см. <wordLink word="жүгүн-" meaning="1"/>).</blockquote>
+[13533] <blockquote>кеп топу или кеп такыя см. <wordLink word="топу"/>, такыя;</blockquote>
+[13551] <blockquote>кепичи майрык у него галоши (см. <wordLink word="кепич"/>) стоптаны;</blockquote>
+[13573] <blockquote>кептүү тартылып чоң оролгон элечек аккуратно стянутый большой тюрбан (см. <wordLink word="элечек"/>);</blockquote>
+[13590] <blockquote>кербеним (при оплакивании родственника) мой щедрый (см. <wordLink word="базар"/>).</blockquote>
+[13646] <blockquote>керки ашта- насадить тесло на рукоятку (см. <wordLink word="керки"/>).</blockquote>
+[13650] <blockquote>керме тарттыр- заставить протянуть верёвочную коновязь (см. <wordLink word="керме"/>);</blockquote>
+[13666] <blockquote>Кертелки см. <wordLink word="телки" homonym="I"/>.</blockquote>
+[13670] <blockquote>керчөө менен мууздоо сага артпайт кирзеня и горла (см. <wordLink word="керчөө"/>) тебе не достанется.</blockquote>
+[13686] <blockquote>кеселеп ич- пить по целой чаше (см. <wordLink word="кесе" homonym="I"/>).</blockquote>
+[13737] <blockquote>кеч кечир- или кеч кечтир- см. <wordLink word="кечир-" homonym="II"/>;</blockquote>
+[13884] <blockquote>ким жактап кол көтөрдү? кто голосовал за? (ещё прим. см. <wordLink word="калыс"/>);</blockquote>
+[13901] <blockquote>кимди ким көрдү кылып см. <wordLink word="ким"/>;</blockquote>
+[14051] <blockquote>кичинекей бечел, сүңгүп барып, суу ичер загадка маленький сидень (см. <wordLink word="бечел"/>), ныряя, воду пьёт (отгадка кашык ложка);</blockquote>
+[14142] <blockquote>коён-колтук неправ. вместо коюн-колтук (см. <wordLink word="колтук"/>).</blockquote>
+[14150] <blockquote>кожаный нагрудник, надевавшийся на состязаниях эр сайышуу (см. <wordLink word="сайышуу"/>).</blockquote>
+[14152] <blockquote>кожого кол бер- или кожосанга кол бер- то же, что <wordLink word="эшенге кол бер-"/> (см. <wordLink word="эшен"/>);</blockquote>
+[14320] <blockquote>койну (койнуң и т.д.) см. <wordLink word="коюн" homonym="I"/>.</blockquote>
+[14331] <blockquote>койчу-колоң собир. овчары-пастухи (употребляется в значении коңшу-колоң; см. <wordLink word="коңшу" meaning="2"/>);</blockquote>
+[14506] <blockquote>коломтосу жайнаган кызыл жаян чок турат фольк. очаг (см. <wordLink word="коломто"/>) его красуется, горит (в нём) кроваво-красный жар.</blockquote>
+[14563] <blockquote>колу-коңшу южн. то же, что <wordLink word="коңшу-колоң"/> (см. <wordLink word="коңшу"/>).</blockquote>
+[14565] <blockquote>колукту кубалат- понуд. от <wordLink word="колукту кубала-"/> (см. <wordLink word="кыз" meaning="2"/>).</blockquote>
+[14609] <blockquote>колун маңдайына сере тутуп то же, что <wordLink word="серепчилеп"/> (см. <wordLink word="серепчиле-"/>).</blockquote>
+[14623] <blockquote>колуна тийген кесени алдына орунтуктатып коюп, Бердыбай сүйлөй отурду чашку (см. <wordLink word="кесе" homonym="I"/>), которую ему подали, Бердыбай поставил перед собой и продолжал говорить.</blockquote>
+[14655] <blockquote>колуң ороо шыпыргандай куудурап калыптыр руки у тебя загрубели; будто ты в яме (см. <wordLink word="ороо" homonym="II"/>) зерно руками сгребал;</blockquote>
+[14758] <blockquote>конок конду сел чирей (см. <wordLink word="чыйкан"/>);</blockquote>
+[14881] <blockquote>коргол токтот- класть овечий катышек на верхнюю сторону альчика, когда он стоит в положении жантык (см.), на алчы (см.) или таа (см. <wordLink word="таа" homonym="I"/>);</blockquote>
+[14976] <blockquote>кочкор сал- или редко кочкор агыт- (см. <wordLink word="сал-" homonym="VI" meaning="6"/>);</blockquote>
+[14999] <blockquote>кош колдоп двумя руками, обеими руками (ещё прим. см. <wordLink word="кошок" homonym="I" meaning="1"/>);</blockquote>
+[15107] <blockquote>көз жаздымында или көздүн жаздымында то же, что <wordLink word="көздүн жаздыгында"/> (см. <wordLink word="жаздык" homonym="I"/>).</blockquote>
+[15108] <blockquote>көз жара экзема (знахари рекомендуют при этой болезни у детей привязывать им на запястье или щиколотку көз мончок; см. <wordLink word="мончок"/>).</blockquote>
+[15376] <blockquote>көзүн таза кыл- то же, что <wordLink word="көзүн тазала-"/> (см. <wordLink word="тазала-"/>).</blockquote>
+[15443] <blockquote>көзүнүн сурмасы бар то же, что <wordLink word="көзү сурмалуу"/> (см. <wordLink word="сурмалуу" meaning="2"/>).</blockquote>
+[15509] <blockquote>көк башылар ушул кезде ызгып кетишкендир мирабы (см. <wordLink word="мурап"/>) сейчас, видимо, скачут во все стороны (следя за оросительными каналами).</blockquote>
+[15572] <blockquote>көк чычкандуу (или көк чычканы бар) см. <wordLink word="чычкан"/>.</blockquote>
+[15575] <blockquote>көк шалдап украшая зелёными кожаными вставочками задники ичигов (см. <wordLink word="маасы"/>) или кожаных галош (см. <wordLink word="кепич"/>).</blockquote>
+[15639] <blockquote>көкүрөгүн көк талкан баскан см. <wordLink word="талкан"/>.</blockquote>
+[15650] <blockquote>көкчүл уй вторая лунка слева в игре в тогуз коргол (см. <wordLink word="коргол"/>).</blockquote>
+[15691] <blockquote>көмкөрмөлүү кундуз бөрк то же, что <wordLink word="көмкөрө кундуз бөрк"/> (см. <wordLink word="көмкөрө"/>).</blockquote>
+[15728] <blockquote>көнөктөп ведёрками, как ведёрко; как из ведра (см. <wordLink word="көнөк" homonym="I"/>);</blockquote>
+[15787] <blockquote>көңүлү ток или көөнү ток (см. <wordLink word="көңүл"/>);</blockquote>
+[15821] <blockquote>көө тарткандай бетиме тамга салды он меня опозорил (букв. он мне на лицо наложил знак, будто сажей провёл; см. <wordLink word="бет"/>);</blockquote>
+[15868] <blockquote>көөр чегеле- (в произношении көөр чөгөлө) чуйск. уст. украшать медными гвоздиками задники кожаных галош (см. <wordLink word="кепич"/>).</blockquote>
+[15998] <blockquote>көрөйүн деген көзү жок см. <wordLink word="көз"/>;</blockquote>
+[16031] <blockquote>көрүндө өкүрчү киши человек, который будет орать в могиле (о том, кто причиняет большое зло людям; см. <wordLink word="Мүңкүр" homonym="II"/>);</blockquote>
+[16099] <blockquote>көч байсалдуу болсун, көнуш жайлуу болсун! (пожелание перекочёвывающим) да будет перекочёвка спокойной, остановка (см. <wordLink word="конуш" homonym="I" meaning="2"/>) удобной!;</blockquote>
+[16166] <blockquote>кричать жабуу-жабуу (см. <wordLink word="жабуу" homonym="III"/>);</blockquote>
+[16179] <blockquote>куба курут белый курт (см. <wordLink word="курут" homonym="I"/>);</blockquote>
+[16222] <blockquote>кудай бет алган жактан жалгасын см. <wordLink word="жалга" homonym="II" meaning="3"/>;</blockquote>
+[16286] <blockquote>кудасынан жакшы кийит кийишти от свата своего они получили хорошие подарки одеждой (см. <wordLink word="кийит" meaning="2"/>);</blockquote>
+[16349] <blockquote>куйругунун чыпкасы бар или куйругу малынып калган см. <wordLink word="чыпка"/>.</blockquote>
+[16538] <blockquote>кунары жок бай то же, что <wordLink word="куну жок бай"/> (см. <wordLink word="кун"/>).</blockquote>
+[16554] <blockquote>кунун, жарасынын айбын үрөн кылган он не взял (с него, простил ему) виру и штраф (см. <wordLink word="айып"/>) за нанесённую рану.</blockquote>
+[16634] <blockquote>курган жан, курган баш см. <wordLink word="кур-" homonym="VIII"/>.</blockquote>
+[16646] <blockquote>куржун сөгүү южн. этн. распарывание перемётных сум (один из свадебных обрядов, следующий за кеңешме (см. <wordLink word="кеңешме" meaning="2"/>): родственники жениха привозят в дом невесты мясо овцы, зашитое в перемётные сумы, мать или родственница распарывают их);</blockquote>
+[16661] <blockquote>курмандыкка камын- готовиться к закланию жертвенного животного (об этом заранее другим не говорят; см. <wordLink word="шыбыш"/>);</blockquote>
+[16662] <blockquote>курмандыкка камынгандай баары шыбышсыз ыйык бүтсүн пусть всё будет бесшумно, будто готовится к закланию жертвенного животного (см. <wordLink word="курмандык"/>);</blockquote>
+[16717] <blockquote>куруганда то же, что <wordLink word="куру дегенде"/> (см. <wordLink word="куру" homonym="I" meaning="2"/>);</blockquote>
+[16764] <blockquote>курчу кете элек жигит то же, что <wordLink word="кылоосу түшө элек жигит"/> (см. <wordLink word="кылоо" homonym="II"/>).</blockquote>
+[16801] <blockquote>куу ердөк или жез канаттуу өрдөк (в эпосе "Манас") меднокрылая утка (один из чутких стражей богатыря Конгурбая; см. <wordLink word="ещё"/> кулжа, түлкү);</blockquote>
+[16969] <blockquote>күйбөгөн жери күл болду см. <wordLink word="күй-" homonym="IV"/>.</blockquote>
+[17013] <blockquote>күйүп-быш, күйдүм-быштым, күйөр-бышар и др. см. <wordLink word="күй-" homonym="IV"/>.</blockquote>
+[17024] <blockquote>күкүк менен зейнектей күйүттүү болуп см. <wordLink word="күкүк" homonym="I" meaning="1"/>.</blockquote>
+[17154] <blockquote>күн кеч бешим, тоо ичин ала көлөкө баскан время к вечеру, в горах - светотени (ещё прим. см. <wordLink word="саамал"/>);</blockquote>
+[17228] <blockquote>күн эки жагынан кулактаса, жаайт примета если светлый круг вокруг солнца (см. <wordLink word="корооло-" homonym="I"/>) разделён надвое, будут осадки.</blockquote>
+[17532] <blockquote>Кыдыр жылоолоп турат то же, что <wordLink word="жылоосунда Кыдыр бар"/> (см. <wordLink word="жылоо"/>).</blockquote>
+[17568] <blockquote>кыз ойнот- устраивать кыз оюн (см. <wordLink word="оюн"/>);</blockquote>
+[17577] <blockquote>кыз-кыркындуу имеющий много дочерей (прим. см. <wordLink word="журуктуу"/>).</blockquote>
+[17592] <blockquote>кызга кол сал- фольк: тронуть рукой лежащую в постели девушку (выражая просьбу лечь с ней; прим. см. <wordLink word="кайсала-" homonym="I" meaning="2"/>);</blockquote>
+[17605] <blockquote>кыздын жылаажын үндүү жумшак күлкүсү жигиттин жазыксыз жүрөгүн ансайын элжиретет нежный смех девушки, подобный колокольчику (см. <wordLink word="жылаажын"/>), чистое сердце парня умиляет ещё больше.</blockquote>
+[17623] <blockquote>кызуу иштин аягы сууганча см. <wordLink word="суу-" homonym="III"/>.</blockquote>
+[17727] <blockquote>кызылга береке! см. <wordLink word="кызыл" meaning="6"/>.</blockquote>
+[17763] <blockquote>кыйгактуу найза пика с ножами (см. <wordLink word="кыйгак" meaning="3"/>).</blockquote>
+[17797] <blockquote>кыйма боорсок баурсак (см. <wordLink word="боорсок"/>) в форме ромбика;</blockquote>
+[17884] <blockquote>кыл башында- или кылды башында см. <wordLink word="кылды"/>;</blockquote>
+[17890] <blockquote>кыл кыйма (пишется обычно кылгыйма) матёрый дикий кабан (который клыками волосинку пересекает; ср. ноктолуу каман, см. <wordLink word="каман"/>);</blockquote>
+[17896] <blockquote>кыл тагылткан кыяк кияк (см. <wordLink word="кыяк" homonym="II"/>) с натянутыми (букв. прицепленными) струнами.</blockquote>
+[17898] <blockquote>кыл тамырчы отличный, знающий лекарь (см. <wordLink word="тамырчы"/>);</blockquote>
+[17908] <blockquote>кылаан боорсок баурсаки (см. <wordLink word="боорсок"/>), варенные в молоке.</blockquote>
+[17940] <blockquote>кылдап кылган ак үзүк сделанный из чистой шерсти үзүк (см. <wordLink word="үзүк" homonym="I"/>).</blockquote>
+[18068] <blockquote>кымыз, ынак сүттөй, кесенин эрдөөнүндө жылт-жылт майланышууда кумыс, будто чистое молоко, у краёв (полной) чашки (см. <wordLink word="кесе" homonym="I"/>) поблёскивает, подёргиваясь жиром.</blockquote>
+[18077] <blockquote>кымыздуу үй дом, в котором есть кумыс (прим. см. <wordLink word="кыякчы"/>);</blockquote>
+[18161] <blockquote>кыраан Манас жөкөрү - кыргыздан чыккан кырк бөрү витязи кречета Манаса - сорок волков киргизских (см. <wordLink word="бөрү" meaning="2"/>);</blockquote>
+[18174] <blockquote>кыргыз айылды көздөй чаппайт, ал өкүрүп келгенде гана болот киргизы (подъезжая) к аулу не пускают коней вскачь, это бывает, когда подъезжают с оплакиванием (см. <wordLink word="өкүр-"/>);</blockquote>
+[18247] <blockquote>кырк чакчыгай, жер чукчугай загадка сорок каменок-плясуний (см. <wordLink word="чакчыгай"/>) землю ковыряют (отгадка кереге, уук кереге и унины).</blockquote>
+[18320] <blockquote>кыса (или кысас) кыяматка кетпейт см. <wordLink word="кыса" homonym="I" meaning="2"/>.</blockquote>
+[18346] <blockquote>кысыр эмди кур тай жирный, холеный жеребёнок (см. <wordLink word="кысыр"/>);</blockquote>
+[18372] <blockquote>кытырак боорсок мелкие и сильно поджаренные баурсаки (см. <wordLink word="боорсок"/>).</blockquote>
+[18451] <blockquote>кыягынын кош кулагын толгой, чый-чый күүгө келтирип подкручивая колки своего кияка (см. <wordLink word="кыяк" homonym="II"/>), он настраивал (его), пиликая.</blockquote>
+[18456] <blockquote>кыяк тартып берсең, саратан коңузу ыңылдап учкандай угат (ему всё не нравится) если сыграешь на кияке (см. <wordLink word="кыяк" homonym="II"/>), он воспринимает, как жужжание майского жука;</blockquote>
+[18457] <blockquote>кыяк тартып берсең, сары атан коңузу ыңылдап учкандай угат если (непонимающему в музыке) сыграешь на кияке (см. <wordLink word="кыяк" homonym="II"/>), он (на слух) воспринимает как гудение летящего</blockquote>
+[18497] <blockquote>кэл журтчу южн. то же, что <wordLink word="таз жору"/> (см. <wordLink word="жору" meaning="1"/>).</blockquote>
+[18501] <blockquote>кэттэ чоң ата прадед; (ещё прим. см. <wordLink word="чоң"/>).</blockquote>
+[18607] <blockquote>маанайы пас или паанайы пас то же, что <wordLink word="маанайы бас"/> (см. <wordLink word="маанай"/>).</blockquote>
+[18719] <blockquote>май билек ай то же, что <wordLink word="майбилек ай"/> (см. <wordLink word="ай" homonym="I" meaning="2"/>).</blockquote>
+[18768] <blockquote>майдан томуруп, куруттан салып берчи отхвати большой кусок жиру и положи курт (см. <wordLink word="курут" homonym="I"/>);</blockquote>
+[18942] <blockquote>малды оторлотуп, Казахстанга кетти он погнал скот на зимнее пастбище (см. <wordLink word="отор" meaning="1"/>) в Казахстан.</blockquote>
+[18982] <blockquote>Мама-и Хава южн. то же, что <wordLink word="Аба эне"/> (см. <wordLink word="эне" homonym="I"/>);</blockquote>
+[19021] <blockquote>манаптын бири же жигити ууру болгон болсо, айып буюрбаган если манап или его джигит (см. <wordLink word="жигит" meaning="3"/>) оказывался вором, на них штраф не налагался;</blockquote>
+[19036] <blockquote>мандаш урунуп отурган оң бутун саал сунуп, чалкалаңкы тартып калды сидевший (на полу) с поджатыми под себя ногами (см. <wordLink word="мандаш"/>) слегка откинулся корпусом назад.</blockquote>
+[19238] <blockquote>мекиренип жытташ- целоваться, тихо и радостно покрякивая (см. <wordLink word="мекирен-" meaning="1"/>);</blockquote>
+[19381] <blockquote>мен өзүмдүн адабий кейипкерлеримди бийлебестен (см. <wordLink word="бийле-" homonym="II"/>), аларга бийлетип жибериптирмин не я управлял своими литературными героями, а они управляли мной.</blockquote>
+[19600] <blockquote>менин чүкөм бөк жатты, сеники таа турду мой альчик лёг спинкой вверх, твой встал на таа (см. <wordLink word="таа" homonym="I"/>);</blockquote>
+[19650] <blockquote>мештин үстүндө эрденинен эки эличе бөксө сары каймак бозо куюлган ак чака турат на печке стояло белое ведро, наполненное на два пальца (см. <wordLink word="эли"/>) ниже краёв просяной бузой (считается самой лучшей бузой).</blockquote>
+[19668] <blockquote>милдетке чакыр- пригласить в качестве "обязательного" гостя (который может предъявить хозяину претензии, заявить недовольство угощением и т.п.;см. <wordLink word="конок" homonym="I" meaning="1"/>);</blockquote>
+[19710] <blockquote>миң кара кою тескейде ыңкыйт у него тысяча овец на терскее (см. <wordLink word="тескей"/>) кишат;</blockquote>
+[19718] <blockquote>миң сан кишиге улакты бербей, мааракеге таштап кеткен множеству людей не дав (вырвать) козлёнка (см. <wordLink word="улак" homonym="I" meaning="2"/>), он бросил его на финише;</blockquote>
+[19734] <blockquote>мистедей (ср. <wordLink word="миздей"/>, см. <wordLink word="миз" homonym="II"/>) крепкий и стройный;</blockquote>
+[19775] <blockquote>мойнунан жытташып (о родственниках или близких друзьях-мужчинах после долгой разлуки) целовать друг друга в шею (см. <wordLink word="жытта-" meaning="2"/>);</blockquote>
+[19796] <blockquote>молдого көчөт көчүрттүр- этн. просить муллу переселить болезнь или несчастье из человека в другое существо (см. <wordLink word="көчөт" meaning="3"/>);</blockquote>
+[19808] <blockquote>моминтип вот так, вот таким образом (прим. см. <wordLink word="маминт-"/>).</blockquote>
+[19880] <blockquote>мөлтүрөтүп показав, представив во всей нежной красоте и изяществе (прим. см. <wordLink word="бөтөлкө"/>);</blockquote>
+[19920] <blockquote>мужчина, сопровождающий парня или девушку при игре в кыз куудуруу (см. <wordLink word="кыз" meaning="2"/>).</blockquote>
+[19935] <blockquote>музоо эмиз- подпустить телёнка к корове, дать телёнку сосать корову (прим. см. <wordLink word="таяк"/>);</blockquote>
+[20083] <blockquote>мурдун тешкен өгүз бык с проткнутой носовой перегородкой (см. <wordLink word="чүлүк" meaning="1"/>);</blockquote>
+[20205] <blockquote>мүнөз тамак пища "нейтральная" (см. <wordLink word="ысылык"/>);</blockquote>
+[20418] <blockquote>мытан жарма незаквасившаяся и неиспортившаяся жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>) или буза;</blockquote>
+[20424] <blockquote>мышык-чычкан кошки-мышки (название детской игры; калька с русского, своё название ала күчүк; см. <wordLink word="күчүк"/>);</blockquote>
+[20486] <blockquote>название болезни верблюдов, то же, что <wordLink word="чымын тийди"/> (см. <wordLink word="чымын" meaning="2"/>).</blockquote>
+[20540] <blockquote>нандын бетин түрдүүчө кылып чаардап жатат она наносит на лепёшки разные узоры (перед посадкой их в тандыр; см. <wordLink word="тандыр" homonym="I"/>).</blockquote>
+[20556] <blockquote>нарктуу кептен сүйлө- то же, что <wordLink word="нарк сүйлө-"/> (см. <wordLink word="нарк" homonym="I" meaning="3"/>).</blockquote>
+[20614] <blockquote>не бир жалгыз эр какой единственный в своём роде славный молодец! (ещё см. <wordLink word="непир"/>);</blockquote>
+[20646] <blockquote>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</blockquote>
+[20684] <blockquote>ноктолуу каман старый кабан, у которого клыки уже слабы (ср. <wordLink word="кылгыйма"/>, см. <wordLink word="кыйма"/>);</blockquote>
+[20765] <blockquote>обуң менен иш кыл думай о том, что ты делаешь (ещё прим. см. <wordLink word="оорсок" meaning="1"/>).</blockquote>
+[20783] <blockquote>один из видов чач учтук (см. <wordLink word="учтук"/>);</blockquote>
+[20808] <blockquote>ой, жарбаңдаган жарбакем! ой ты, мой весёлый хохотунчик! (см. <wordLink word="жарбаке"/>);</blockquote>
+[20833] <blockquote>ойду-тоону айта бер- (см. <wordLink word="ой" homonym="II"/>).</blockquote>
+[20859] <blockquote>оймок бооч сал- ущипнуть с вывертом, больно ущипнуть (см. <wordLink word="бооч"/>);</blockquote>
+[20862] <blockquote>оймок ооз, бото көз (красавица) с маленьким ротиком и томными глазами (см. <wordLink word="бото" homonym="I"/>);</blockquote>
+[20974] <blockquote>олбуй-солбуй теминип пришпоривая (коня) то справа, то слева (см. <wordLink word="темин-" homonym="II"/>).</blockquote>
+[21035] <blockquote>омогу бар ат то же, что <wordLink word="омоктуу ат"/> (см. <wordLink word="омоктуу" meaning="1"/>).</blockquote>
+[21095] <blockquote>он экиден бири жок, уй байларга жиби жок у него абсолютно ничего нет, у него хоть шаром покати (букв. из двенадцати нет ни одного (см. <wordLink word="үзүк"/>), нет верёвки, чтобы привязать корову).</blockquote>
+[21144] <blockquote>оң көзү болушкан эки жигити два джигита (см. <wordLink word="жигит" meaning="3"/>) - его правая рука;</blockquote>
+[21170] <blockquote>оңдуу-солдуу неправ. вместо оңду-солду (см. <wordLink word="оң" homonym="I" meaning="1"/>).</blockquote>
+[21300] <blockquote>оозун бүлкүлдөтуп, бата кылды шевеля губами, он произнёс доброе пожелание (см. <wordLink word="бата"/>);</blockquote>
+[21306] <blockquote>оозун куу чөп менен арчы см. <wordLink word="чөп"/>.</blockquote>
+[21327] <blockquote>оозуна тарууну толтуруп чулчуйтат наполнив рот жареным просом (см. <wordLink word="таруу"/>), он надувает щёки;</blockquote>
+[21368] <blockquote>оозуңа шайтан түкүрүп кеткенби? см. <wordLink word="түкүр-"/>.</blockquote>
+[21370] <blockquote>оозуңа эки күрүшкө пыйба! разг. шутл. в рот тебе две кружки пива! (похвала; ср. оозуңа май, см. <wordLink word="май" homonym="I"/>).</blockquote>
+[21415] <blockquote>оопазынын мурдун эдирейте тартты он так потянул своего быка, что у того ноздри вывернулись (см. <wordLink word="чүлүк"/>);</blockquote>
+[21514] <blockquote>ор ийрегим, оргун жни мой ийрек (см. <wordLink word="ийрек" meaning="2"/>), жни (так в сказках кричит жез тумшук, нападая на свою жертву).</blockquote>
+[21611] <blockquote>орто толсун! см. <wordLink word="тол-"/>;</blockquote>
+[21706] <blockquote>отоор көбөйүп, чанжыңыз мокосун! (доброе пожелание работающим на прополке мака) успех делу! (букв. да увеличится площадь посева, да притупятся лопаточки; см. <wordLink word="чанжы"/>).</blockquote>
+[21925] <blockquote>өгөй-татай сөз (см. <wordLink word="өгөй"/>).</blockquote>
+[21927] <blockquote>өгөй-татоо сөз (см. <wordLink word="өгөй"/>).</blockquote>
+[21932] <blockquote>өгүз окко өл-, өгүз окко өлтүрүп кет- см. <wordLink word="өгүз"/>;</blockquote>
+[21980] <blockquote>өз башын ала кач- см. <wordLink word="кач-"/>;</blockquote>
+[22143] <blockquote>өзүн өзү билип, өтүгүн төргө илип непомерно чванясь и возомнив о себе (букв. сам себя зная, сапоги свои на почётное место повесив; см. <wordLink word="төр" meaning="1"/>).</blockquote>
+[22194] <blockquote>өзүнүн чучтуйган учтуу жез тумшугу менен дөңгөчтү жара чокуйт (жез тумшук см. <wordLink word="тумшук"/>) своим длинным острым медным клювом клюнет и расколет чурбак.</blockquote>
+[22252] <blockquote>өкүрүшкө тете оолжуган он раскачивался, будто оплакивая (см. <wordLink word="өкүр-" meaning="2"/>, <wordLink word="өкүрүш" homonym="I"/>);</blockquote>
+[22317] <blockquote>өлсөк, бир чуңкурда, тирүү болсок, бир дөбөдө болобу? умрём - в одной яме будем, живы будем - на одном холме (см. <wordLink word="дөбө"/>) будем;</blockquote>
+[22319] <blockquote>өлук-тиригинди көрөйүн (см. <wordLink word="өлүк"/>).</blockquote>
+[22551] <blockquote>өпкө чабуу и. д. от <wordLink word="өпкө чап-"/> (см. <wordLink word="өпкө"/>).</blockquote>
+[22552] <blockquote>өпкө чапсаң да, эми табылбайт (на его болезнь) хоть лёгкими стукай (см. <wordLink word="өпкө"/>), средства не найдёшь;</blockquote>
+[22553] <blockquote>өпкө чаптыр- понуд. от <wordLink word="өпкө чап-"/> (см. <wordLink word="өпкө"/>);</blockquote>
+[22734] <blockquote>өтүүчү Кызыл Туу то же, что <wordLink word="өтмө Кызыл Туу"/> (см. <wordLink word="өтмө"/>);</blockquote>
+[22744] <blockquote>өчөшкөнсүп то же, что <wordLink word="өчөшкөндөй"/> (см. <wordLink word="өчөш-" homonym="II"/>).</blockquote>
+[22813] <blockquote>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</blockquote>
+[22910] <blockquote>петля в нижней части недоуздка жеребёнка, на которой держится тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>
+[22945] <blockquote>платок на элечек (см.), наматываемый выше кеп чач (см. <wordLink word="кеп" homonym="II" meaning="1"/>);</blockquote>
+[22990] <blockquote>при звукоподражаниях сочетается с глаголом түш- (см. <wordLink word="түш-" homonym="III"/>);</blockquote>
+[22991] <blockquote>при игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>
+[22997] <blockquote>прикрутить с помощью тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>
+[23028] <blockquote>прошедшее время от неправильного и недостаточного глагола э- быть (см. <wordLink word="э-" homonym="II"/>);</blockquote>
+[23051] <blockquote>радио (неправ. см. <wordLink word="берүү" meaning="2"/>) передача;</blockquote>
+[23215] <blockquote>саба быш- готовя кумыс, взбалтывать его в сабе (см. <wordLink word="саба" homonym="I"/>);</blockquote>
+[23227] <blockquote>сабанын булуңу нижние углы сабы (см. <wordLink word="саба" homonym="I"/>);</blockquote>
+[23273] <blockquote>сага кылбасам! см. <wordLink word="сен" homonym="I"/>.</blockquote>
+[23289] <blockquote>садага чаптыр- понуд. от <wordLink word="садага чап-"/> (см. <wordLink word="садага" meaning="1"/>);</blockquote>
+[23581] <blockquote>сары жыгач барбарис (растение; ср. бөрү карагат, см. <wordLink word="карагат"/>);</blockquote>
+[23582] <blockquote>сары жыгачтын ашы то же, что <wordLink word="бөрү"/> карагат (см. <wordLink word="кара"/> гат);</blockquote>
+[23586] <blockquote>сары изине чөп сал- см. <wordLink word="чөп"/>.</blockquote>
+[23623] <blockquote>сасык күшөн чатк. то же, что <wordLink word="сасык күзөн"/> (см. <wordLink word="күзөн"/>).</blockquote>
+[23791] <blockquote>сен кайсы текеге сүздүрдүң? см. <wordLink word="теке" homonym="I"/>.</blockquote>
+[23834] <blockquote>сен Сыдыкты өлтүрүп, кункор болмок экенбиз ты убьёшь Сыдыка, а на нас падёт вира (см. <wordLink word="кун" meaning="1"/>).</blockquote>
+[23978] <blockquote>сенин чокой, тонуң бар, эшикке турбай, топос сыяктуу, туу жонго түнөсөң да болот у тебя есть чокой (см. <wordLink word="чокой" homonym="I"/>), шуба, ты не только наружи, но даже, подобно яку, можешь ночевать на самом хребте;</blockquote>
+[24010] <blockquote>серпимиш бол- делать вид, будто машешь, производишь порывистые движения (см. <wordLink word="серп-" homonym="II"/>);</blockquote>
+[24149] <blockquote>согулайын то же, что <wordLink word="айланайын"/> (см. <wordLink word="айлан-" meaning="3"/>), то же, что <wordLink word="кагылайын"/> (см. <wordLink word="кагыл-"/>);</blockquote>
+[24220] <blockquote>сокунун чамдоосу обруч из конского шейного сухожилия на деревянную ступу (см. <wordLink word="соку"/>).</blockquote>
+[24616] <blockquote>сөйкөнүн желбирчеги побрякушки на конце сөйкө (см. <wordLink word="сөйкө" homonym="I"/>).</blockquote>
+[24717] <blockquote>Сузак чайканасы демейдегидей кыжы-кыйма, чайчылар чарпаяларга шыкалып калган сузакская чайхана как всегда шумна, нары (см. <wordLink word="чарпая"/>) до отказа набиты пьющими чай;</blockquote>
+[24722] <blockquote>суйдаңыраак жарма жиденькая жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>).</blockquote>
+[24764] <blockquote>супсак жарма пресная, невкусная жарма (см. <wordLink word="жарма" homonym="I"/>. 3);</blockquote>
+[25304] <blockquote>сырттан заада храбрец, неустрашимый (см. <wordLink word="сырттан"/>);</blockquote>
+[25311] <blockquote>сыртына күмүш чапкан кисе отделанный снаружи серебром кисе (см. <wordLink word="кисе" meaning="2"/>);</blockquote>
+[25389] <blockquote>табылгысыздай бүтүм исключительно хорошее (правильное) решение бия (см. <wordLink word="бий" homonym="II" meaning="1"/>).</blockquote>
+[25426] <blockquote>таз сүзүштүр- устраивать состязание паршивцев (см. <wordLink word="сүзүш-"/>).</blockquote>
+[25458] <blockquote>тайп гай жылга широкая впадина (см. <wordLink word="жылга"/>).</blockquote>
+[25568] <blockquote>таламалуу тал түштө (см. <wordLink word="түш" homonym="I"/>).</blockquote>
+[25569] <blockquote>таламандын тал түшүндө (см. <wordLink word="түш" homonym="I"/>).</blockquote>
+[25589] <blockquote>талаш-тартыш ( см. <wordLink word="талаш" homonym="I"/>);</blockquote>
+[25593] <blockquote>талдан уук копшоткон из тала он приказал вытесать уук'и (см. <wordLink word="уук" homonym="I"/>);</blockquote>
+[25599] <blockquote>талкан кылып, айранга чайып приготовив толокно, заболтав в айране (см. <wordLink word="айран" homonym="II"/>);</blockquote>
+[25607] <blockquote>талоо или кан талоосу то же, что <wordLink word="кан талоон"/> (см. <wordLink word="талоон" homonym="I"/>);</blockquote>
+[25807] <blockquote>таң аттыруу или таң атыруу см. <wordLink word="таң" homonym="I"/>.</blockquote>
+[25873] <blockquote>таңырайта серптирген мурут усы (по нижнему краю) высоко подстрижены (см. <wordLink word="серп-"/>, <wordLink word="серптир-"/>).</blockquote>
+[25892] <blockquote>тап, көй см. <wordLink word="тапкөй"/>.</blockquote>
+[25902] <blockquote>тапкан экенсиң! см. <wordLink word="тап-" homonym="VIII"/>.</blockquote>
+[26003] <blockquote>тартынганың чокой болсун, аралаганың токой болсун! проклятие чтоб тебе (вечно) ходить в поршнях (см. <wordLink word="чокой" homonym="I"/>), чтоб тебе вечно бродить в лесу!;</blockquote>
+[26039] <blockquote>тасторкон насипке бай: боорсок, кант, өрүк төгүлдү стол (см. <wordLink word="тасторкон"/>) богат яствами: баурсаки (см. <wordLink word="боорсок"/>), сахар, урюк насыпаны;</blockquote>
+[26096] <blockquote>таш өбөк сал- (см. <wordLink word="өбөк"/>);</blockquote>
+[26273] <blockquote>тел дайра два озера, расположенные рядом; в другом толковании: бурная, бешеная река (см. <wordLink word="тели" homonym="I" meaning="1"/>);</blockquote>
+[26459] <blockquote>териси тарып кеткен (см. <wordLink word="тары-" homonym="I"/>);</blockquote>
+[26471] <blockquote>терс бата пожелание зла, проклятие (при произнесении его ладони обращены вниз; см. <wordLink word="бата"/>);</blockquote>
+[26482] <blockquote>тескейи бийик аска, күнгөйү калың арчалуу кокту северный склон там - высокие скалы, южный - поросшая арчой (см. <wordLink word="арча"/>) впадина;</blockquote>
+[26567] <blockquote>тизгини менен алыш- (см. <wordLink word="алыш-" homonym="IV"/>).</blockquote>
+[26750] <blockquote>тиринин тозогу или тирүүнүн тозогу (см. <wordLink word="тозок"/>).</blockquote>
+[26814] <blockquote>то же, что <wordLink word="баш"/> оона (см. <wordLink word="оона" homonym="I"/> и ай I 2).</blockquote>
+[26815] <blockquote>то же, что <wordLink word="беле"/> (см. <wordLink word="эле" homonym="II"/> и эде);</blockquote>
+[26831] <blockquote>то же, что <wordLink word="оңкосунан"/> кет- или оңко ат- (см. <wordLink word="оңко"/>);</blockquote>
+[26839] <blockquote>то же, что <wordLink word="сөөк чыгар-"/> (см. <wordLink word="сөөк" meaning="3"/>) выносить тело, хоронить;</blockquote>
+[26849] <blockquote>то же, что <wordLink word="чач"/> учтук, но состоит из бус (см. <wordLink word="учтук"/>);</blockquote>
+[26853] <blockquote>то же, что <wordLink word="чыктаган"/> эт (но с большим количеством бульона; см. <wordLink word="чыкта-" homonym="II"/>);</blockquote>
+[26854] <blockquote>то же, что <wordLink word="Шаймерден"/> (см. <wordLink word="мерден"/>; уже не осознаётся как имя собственное)</blockquote>
+[26898] <blockquote>тогуз ором элечек тюрбан (см. <wordLink word="элечек"/>) в девять слоёв (накрученных один на другой).</blockquote>
+[26899] <blockquote>тогуз токоч баабедин (см. <wordLink word="баабедин"/>);</blockquote>
+[26900] <blockquote>тогуз токоч баабедин (см. <wordLink word="баабедин"/>).</blockquote>
+[26907] <blockquote>тогуздун айы октябрь (см. <wordLink word="ай" homonym="I" meaning="2"/>);</blockquote>
+[26930] <blockquote>тойдо кой берет у, уй берет у, күрүч берет на пирах (см. <wordLink word="той" homonym="I"/>) выделяют (для гостей) и овцу, и корову, и рис;</blockquote>
+[26933] <blockquote>Тойчу датканын комузчусу менен Жуманы комуз черттириштирген он приказал, чтобы велели комузисту Тойчи датха (см. <wordLink word="датка"/>) и Джуме состязаться в игре на комузе.</blockquote>
+[26965] <blockquote>токочтой кызарды он покраснел как кумач (букв. как хлеб; см. <wordLink word="токоч"/>);</blockquote>
+[27031] <blockquote>Толубайдай сынчы бол, Токтогулдай ырчы бол см. <wordLink word="сынчы" meaning="1"/>;</blockquote>
+[27052] <blockquote>только в сочет. с ич (см. <wordLink word="ич" homonym="I"/>).</blockquote>
+[27201] <blockquote>топтолтура (см. <wordLink word="толтур-"/>).</blockquote>
+[27392] <blockquote>төө мата- связать верблюда (чтобы он не мог встать при навьючивании на него; заставив верблюда опуститься на колени (см. <wordLink word="чөгөр-" meaning="1"/>), связать передние ноги на сгибе, пропустив верёвку через шею);</blockquote>
+[27415] <blockquote>төөнүн куйругу жерге тийгенде см. <wordLink word="төө"/>;</blockquote>
+[27430] <blockquote>төр жактагы тахманга катарлата коюлган бир нече сандык несколько сундуков, поставленных в ряд в нише передней стены (см. <wordLink word="төр" meaning="1"/>).</blockquote>
+[27436] <blockquote>төркү такта доска в противоположной от входа стороне юрты (ныне-комнаты), на которой сложен жүк (см. <wordLink word="жүк" meaning="2"/>);</blockquote>
+[27461] <blockquote>төрт буту араң шилтелип, ичи кулдурап, көк бышты да кете берди серый жеребёнок (см. <wordLink word="бышты"/>) тоже пошёл, ноги его едва передвигались, в животе урчало;</blockquote>
+[27462] <blockquote>төрт жагы кыбыла то же, что <wordLink word="телегейи тегиз"/> (см. <wordLink word="телегей" homonym="I"/>).</blockquote>
+[27505] <blockquote>төтөгө баштык украшение в виде мешочков, сшитых из белых и красных кусков кошмы, подвешивавшихся в юрте на концы уук (см. <wordLink word="уук" homonym="I"/>).</blockquote>
+[27558] <blockquote>тудый-судый сев. то же, что <wordLink word="туда-суда"/> (см. <wordLink word="туда"/>);</blockquote>
+[27714] <blockquote>туру (см. <wordLink word="тур-" homonym="II" meaning="1"/>);</blockquote>
+[27737] <blockquote>тутам тутпай калды (см. <wordLink word="тутам"/>).</blockquote>
+[27763] <blockquote>туу казан ат (ср. <wordLink word="тул казан ат"/>, см. <wordLink word="тул"/>) неутомимый и быстрый конь.</blockquote>
+[27838] <blockquote>туш кийиздин капкалдырыгы тяньш. мешочек в виде клапана на туш кийиз'е (см. <wordLink word="кийиз"/>).</blockquote>
+[27842] <blockquote>туш туурдук тяньш., туурдук баш южн. то же, что <wordLink word="туш кийиз"/> (см. <wordLink word="кийиз"/>);</blockquote>
+[27986] <blockquote>түмөнү жерден түрүлгөн бай (см. <wordLink word="түмөн"/>).</blockquote>
+[28033] <blockquote>түндүк чүмкөт- задёрнуть верх юрты (см. <wordLink word="түндүк" meaning="3"/>);</blockquote>
+[28077] <blockquote>түптүгөл (см. <wordLink word="түгөл"/>).</blockquote>
+[28189] <blockquote>түшүнө эшек кириптир ему приснился осёл (см. <wordLink word="түшө-" homonym="II"/>).</blockquote>
+[28225] <blockquote>тыкан жыйылган чакан жүк аккуратно собранная маленькой горкой постель (см. <wordLink word="жүк" meaning="2"/>);</blockquote>
+[28295] <blockquote>тыңгылыгы жок иш безнадёжное дело; дело, от которого трудно ждать хороших результатов; учкулук-тыңгылык (см. <wordLink word="учкулук"/>).</blockquote>
+[28304] <blockquote>тыптыйпыл (см. <wordLink word="тыйпыл"/>).</blockquote>
+[28306] <blockquote>тыптырмактай (см. <wordLink word="тырмак"/>);</blockquote>
+[28311] <blockquote>тыр жылаңач или тырдай жылаңач см. <wordLink word="тыр"/>;</blockquote>
+[28383] <blockquote>тээрде, тээрге (см. <wordLink word="тээ"/>).</blockquote>
+[28512] <blockquote>узунду-кыска, узунду-кечке см. <wordLink word="узун"/>.</blockquote>
+[28526] <blockquote>уй куймулчак, катик жанбаш волохвостый (см. <wordLink word="куймулчак"/>), сухобёдрый (конь).</blockquote>
+[28547] <blockquote>уй-торпоктор мурунтукталып, жылкыларга окто катылды коровы и телята были привязаны на поводке (см. <wordLink word="мурунтук"/>), на лошадей были надеты недоуздки.</blockquote>
+[28644] <blockquote>улак тарткыз- заставить участвовать в козлодранье (см. <wordLink word="улак" meaning="2"/>).</blockquote>
+[28645] <blockquote>улак таштат- понуд. от <wordLink word="улак ташта-"/> (см. <wordLink word="ташта-" homonym="I" meaning="3"/>).</blockquote>
+[28648] <blockquote>улакка чабылган бээлердин бир канчасы жиникти, бир канчасы борукту, кызыл май болду многие из кобылиц, скакавших на козлодранье (см. <wordLink word="улак" meaning="2"/>), сели на ноги (см. <wordLink word="жиник-"/>), некоторые запалились;</blockquote>
+[28741] <blockquote>ун шыкаган сумбалдай дыңкыйган бир киши человек стройный, плотный, как мешок (см. <wordLink word="сумбал"/>), туго набитый мукой;</blockquote>
+[28797] <blockquote>урма кулак суу большая единица проточной воды для орошения (см. <wordLink word="кулак" homonym="II" meaning="2"/>);</blockquote>
+[28889] <blockquote>уугуна сай салып на унинах (см. <wordLink word="уук" homonym="I"/>) он сделал бороздки;</blockquote>
+[28902] <blockquote>уук мата- гнуть нижнюю часть уук'а (см. <wordLink word="уук" homonym="I"/>);</blockquote>
+[28903] <blockquote>уук тизгич узкая тесьма, проходящая выше изгиба уук (см. <wordLink word="уук" homonym="I"/>);</blockquote>
+[28904] <blockquote>уук тиздет- скреплять один уук (см. <wordLink word="уук" homonym="I"/>) с другим при помощи тизгич жип (см. <wordLink word="тизгич"/>).</blockquote>
+[28906] <blockquote>уукту чатыганда билегинен чатыйт унины (см. <wordLink word="уук" homonym="I"/>) заматывают в изгибе;</blockquote>
+[28909] <blockquote>ууктун матоосу гнутая (нижняя) часть унины (см. <wordLink word="уук" homonym="I"/>);</blockquote>
+[28912] <blockquote>уул табар кончик сычуга (жумур см. <wordLink word="III"/>) у овцы (по старому поверью, съевшая это женщина родит сына).</blockquote>
+[28925] <blockquote>уулум Төлөмырза - мырза да болбойт, тукум-туяк да болбойт сын мой Толемырза ни мирзой (см. <wordLink word="мырза"/>) не будет, ни достойным потомком;</blockquote>
+[28977] <blockquote>учку элдин учуна, кырка элдин кыйрына кетти см. <wordLink word="учку"/>.</blockquote>
+[29249] <blockquote>үйдө туума кул (см. <wordLink word="кул"/>);</blockquote>
+[29306] <blockquote>үйдүн түндүгүн чүмкөп таштады он закрыл верх юрты (см. <wordLink word="түндүк" meaning="3"/>).</blockquote>
+[29333] <blockquote>үйрүлөйүн то же, что <wordLink word="айланайын"/> (см. <wordLink word="айлан-"/>).</blockquote>
+[29360] <blockquote>үйүнөн жылан чыккандай кишиден түңүлүш керек нельзя возлагать надежд на человека, от которого все шарахаются (см. <wordLink word="жылан"/>).</blockquote>
+[29388] <blockquote>үкөн бара иссык-кульск. то же, что <wordLink word="бүкөн бара"/> (см. <wordLink word="бүкөн"/>).</blockquote>
+[29493] <blockquote>Үркөр кулжа айынын биринде кулпуга кирет; текенин онунда чыгат Плеяды в первый день месяца кулжа (см. <wordLink word="кулжа" meaning="2"/>) скрываются, на десятый день месяца теке (см. <wordLink word="теке" homonym="I" meaning="3"/>) появляются;</blockquote>
+[29769] <blockquote>чабендес кебетеленген атка жеңил, тайга чак кичине киши он - маленький человек, по фигуре похож на наездника (см. <wordLink word="чабандоз" meaning="1"/>), для коня лёгок, для жеребёнка впору;</blockquote>
+[29901] <blockquote>чал жыгар сев. этн. свадебный обычай: пожилые родственницы невесты не выпускают её из дома родителей, требуя с отца жениха подарки (ср. <wordLink word="айгыржыгар"/>, см. <wordLink word="айгыр"/>).</blockquote>
+[29926] <blockquote>чалагайым см. <wordLink word="чала"/>.</blockquote>
+[30008] <blockquote>чанжыны лепилдете, Бүбүш апийим отошту быстро и легко орудуя пропольной лопаточкой (см. <wordLink word="чанжы"/>), Бюбюш помогала полоть опийный мак.</blockquote>
+[30068] <blockquote>чапкы балка (инструмент седельника) молоточек для насечки түрпү (см. <wordLink word="түрпү" meaning="1"/>);</blockquote>
+[30075] <blockquote>чапма нике или чапма ике см. <wordLink word="нике"/>.</blockquote>
+[30357] <blockquote>чечекейи чеч, чеч табак менен бир см. <wordLink word="чеч" homonym="II"/>;</blockquote>
+[30401] <blockquote>чий чырма- обвёртывать цветными нитками чий (отдельные стебельки чия для изготовления циновки; см. <wordLink word="чий" homonym="I"/>);</blockquote>
+[30525] <blockquote>чоң жарыктык, баягы жарыктык см. <wordLink word="чечек" meaning="1"/>.</blockquote>
+[30532] <blockquote>чоң камчылык ист. положение чоң камчы (см. <wordLink word="камчы"/>).</blockquote>
+[30634] <blockquote>чөк түшүп отур- то же, что <wordLink word="чөгөөлөп отур-"/> (см. <wordLink word="чөгөөлө-"/>);</blockquote>
+[30699] <blockquote>Чубактын чуусундай чуу такой же громкий шум, как вокруг Чубака (см. <wordLink word="кун"/>);</blockquote>
+[30709] <blockquote>чук терек название дерева (см. <wordLink word="терек"/>).</blockquote>
+[30742] <blockquote>чупчуңкурчак см. <wordLink word="чуңкурчак"/>.</blockquote>
+[30749] <blockquote>чуудалары селкилдеген ак буура белый верблюд-жеребец, у которого болтается шерсть на коленях и на шее (см. <wordLink word="чууда" meaning="1"/>).</blockquote>
+[30767] <blockquote>чүкөнүн ыдырын буз- (при игре в ордо, см. <wordLink word="ордо" meaning="3"/>) разбить кон так, чтобы альчики рассыпались.</blockquote>
+[30822] <blockquote>чыгым төлөй албагандарды жигиттерине сабаттырган он приказывал своим джигитам бить тех, кто не мог платить подати (см. <wordLink word="чыгым" meaning="2"/>).</blockquote>
+[30854] <blockquote>чыйт түкүрүп, мелтейип отуруп алды высокомерно сплюнув сквозь зубы (см. <wordLink word="чыйт"/>), он уселся и важно молчал;</blockquote>
+[30890] <blockquote>чылбыр чайноо кыл- то же, что <wordLink word="чылбыр чайна-"/> (см. <wordLink word="чылбыр"/>).</blockquote>
+[30910] <blockquote>чым бер- сев. то же, что <wordLink word="зуу бер-"/> (см. <wordLink word="зуу" meaning="2"/>).</blockquote>
+[30950] <blockquote>чын куран апрель (см. <wordLink word="ай" homonym="I" meaning="2"/>).</blockquote>
+[31195] <blockquote>шайтан мойну сынсын, шайтан мойнун сындыр- см. <wordLink word="моюн"/>;</blockquote>
+[31214] <blockquote>шайы кеткен малды токсону тоголото тартып жата берет зимние холода (см. <wordLink word="токсон" meaning="2"/>) будут валить ослабевший скот;</blockquote>
+[31288] <blockquote>Шамырбек датка тирүүсүндө элди бөйдөй куурду эле когда был жив Шамырбек датка (см. <wordLink word="датка"/>), он вконец разорил народ;</blockquote>
+[31486] <blockquote>шорпо-шолоң южн. то же, что <wordLink word="сорпо-шилен"/> (см. <wordLink word="шилен" homonym="I" meaning="2"/>);</blockquote>
+[31507] <blockquote>штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</blockquote>
+[31552] <blockquote>шыбак менен күйрөктөн кырс этер бөлөк чөбү жок там, кроме полыни и чилиги (см. <wordLink word="күйрөк"/>), нет другой травы, чтобы щипнуть;</blockquote>
+[31561] <blockquote>Шыгайбай (от фольклорного имени собственного) богач-скряга: эгей-шыгай (см. <wordLink word="эгей"/>).</blockquote>
+[31592] <blockquote>шыкытым көөнүмчө мой шыкыт упадёт так, как я задумал (фраза, произносимая при игре в төрдөн атмай, см. <wordLink word="төр"/>);</blockquote>
+[31610] <blockquote>шылтоого шынаа или шылтоого шыноо см. <wordLink word="шыноо"/>.</blockquote>
+[31657] <blockquote>шырдагымдын чаңын күбүтпөй эле, учуруп кетүүчү сонун шамалы бар (там) такой ветер, что уносит пыль из войлока (см. <wordLink word="шырдак" meaning="1"/>), делая ненужным выколачивание.</blockquote>
+[31659] <blockquote>шырдактын оюму орнаментировка шырдак'а (см. <wordLink word="шырдак" meaning="1"/>).</blockquote>
+[31781] <blockquote>ыкылас - калас см. <wordLink word="ыклас"/>.</blockquote>
+[31803] <blockquote>ылам-мим дебей или ыламмим дебестен см. <wordLink word="ылам"/>.</blockquote>
+[32060] <blockquote>ысык эле жаны бар см. <wordLink word="ысык"/>;</blockquote>
+[32135] <blockquote>эгер муну иштебесем, катынымдын дамбалын башыма чарынайын! если я этого не сделаю, то пусть я панталоны своей жены намотаю (как чалму) на свою голову! (см. <wordLink word="дамбал"/>).</blockquote>
+[32152] <blockquote>эгиздеп жый жүгүңдү южн. фольк. складывай жүк (см. <wordLink word="жүк" meaning="2"/>) повыше (т.е. накапливай);</blockquote>
+[32219] <blockquote>экен-токон редко, то же, что <wordLink word="эке-токо"/> (см. <wordLink word="эке" homonym="III"/>).</blockquote>
+[32259] <blockquote>эки бутун бир кончко сыйдырып см. <wordLink word="конч"/>.</blockquote>
+[32364] <blockquote>эки тизгин, бир чылбыр см. <wordLink word="тизгин" meaning="4"/>.</blockquote>
+[32393] <blockquote>эки шыргый орнотулуп тартылган кермеде байланып аттар турат лошади стоят, привязанные к верёвочной коновязи (см. <wordLink word="керме"/>), протянутой между двумя поставленными жердями;</blockquote>
+[32540] <blockquote>эл көп, ат чабылып, улак тартылып, кыжы-кужу, ызычуу түшүп жатат народу много, идут скачки, скачки с козлом (см. <wordLink word="улак" meaning="2"/>), шум, гвалт, гомон;</blockquote>
+[32576] <blockquote>эл үрккөн жылы то же, что <wordLink word="үркүн жылы"/> (см. <wordLink word="үркүн" homonym="I" meaning="1"/>).</blockquote>
+[32603] <blockquote>элге берген куруттан мени кандай куруттуң? как же ты обошёл меня куртом (см. <wordLink word="курут" homonym="I"/>), который даёшь всем? (говорят, когда хотят упрекнуть в том, что обошли угощением);</blockquote>
+[32710] <blockquote>элек-жалак южн. то же, что <wordLink word="үрүң-бараң"/> (см. <wordLink word="үрүч"/>).</blockquote>
+[32736] <blockquote>элечек орон- намотать (себе на голову) тюрбан (см. <wordLink word="элечек"/>);</blockquote>
+[33027] <blockquote>энелүү жетим сирота, имеющий мать (прим. см. <wordLink word="аталуу"/>).</blockquote>
+[33034] <blockquote>энемди берейин я буду век обязан (букв. отдам в жёны свою мать; прим. см. <wordLink word="өт-" homonym="II"/>);</blockquote>
+[33036] <blockquote>энемдин кан салыгы бар эмеспи, ошого барып бир кап курут, бир карын май, сүзмө алып кел ведь у моей матери припрятаны запасы, ты отправься туда и привези мешок курта (см. <wordLink word="курут" homonym="I"/>), кутырь масла и сюзьмы (см. <wordLink word="сүзмө" homonym="II"/>);</blockquote>
+[33152] <blockquote>эптүү кыз бесприданница (невеста, которую легко получить; см. <wordLink word="калың" homonym="II"/>);</blockquote>
+[33197] <blockquote>эрди-катын муж и жена, супружеская чета (в этом значении часто неправ. эрдүү-катын; см. <wordLink word="эрдүү"/>);</blockquote>
+[33317] <blockquote>эртекиси эсине түшүп, улак тартчу болду вспомнив свою молодость, он (опять) стал участвовать в скачках с козлёнком (см. <wordLink word="улак" meaning="2"/>);</blockquote>
+[33329] <blockquote>эртең менен кетет илегилек, кечинде келет илегилек загадка утром уходит аист, вечером приходит аист (отгадка түндүк жабуу войлок для закрывания түндүк'а; см. <wordLink word="түндүк" meaning="3"/>).</blockquote>
+[33349] <blockquote>эртеңги учук кечке жетпе, кечки учук эртеңге жетпе утреннего отрезка (нитки) до вечера не хвати, вечернего отрезка до утра не хвати (заклинание при көчөт, см. <wordLink word="көчөт" meaning="3"/>);</blockquote>
+[33383] <blockquote>эсендик сураганың бар болсун! спасибо тебе за пожелание здоровья! (ещё прим. см. <wordLink word="ары-" homonym="III"/>);</blockquote>
+[33459] <blockquote>эски малдын көзүндөй болгон см. <wordLink word="көз"/>.</blockquote>
+[33531] <blockquote>эт-бетинен жат- (или жыгыл- или кет-) см. <wordLink word="эт" homonym="I"/>;</blockquote>
+[33542] <blockquote>этеги бүтөлүп, жеңи узарды см. <wordLink word="бүтөл-"/>;</blockquote>
+[33543] <blockquote>этеги бүтөлүп, жеңи узарды см. <wordLink word="бүтөл-"/>.</blockquote>
+[33647] <blockquote>этти үрүмдөп жейли поедим-ка чистого мяса (т.е. без теста, см. <wordLink word="үрүм"/>).</blockquote>
+[33801] <blockquote>эшигинин алдына кокойтуп мамы орноткон перед юртой он поставил торчком коновязь (см. <wordLink word="мамы" meaning="1"/>);</blockquote>
+[33806] <blockquote>эшик ачып, бешик түрткөн (см. <wordLink word="эшик"/>).</blockquote>
+[33832] <blockquote>эшиктин мойногу этн. узенькая полоска из чия (см. <wordLink word="чий" meaning="1"/>) между верхом двери юрты и узүк'ом (см.);</blockquote>
+[33833] <blockquote>эшиктин тешигинен бозоюн караган селкинин көзүндөй болуп, чыгыштан Чолпон жаркырайт на востоке сверкает (звезда) Венера, будто глаз девушки, смотрящей на парня через щель в двери (см. <wordLink word="эшик" homonym="I"/>).</blockquote>

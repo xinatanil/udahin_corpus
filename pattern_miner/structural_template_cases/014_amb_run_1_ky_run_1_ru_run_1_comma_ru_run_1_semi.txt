@@ -1,0 +1,30 @@
+Structural template cases
+
+rank: 14
+support: 23
+pattern: AMB_RUN_1 KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка с запятой
+
+[985] <blockquote>ак ниеттүүлүк честность, добросовестность;</blockquote>
+[2420] <blockquote>артык тууган высокородный, благородный;</blockquote>
+[2545] <blockquote>асыл тукумдуу породистый, чистопородный;</blockquote>
+[3105] <blockquote>ач көз жадный, завистливый;</blockquote>
+[3611] <blockquote>бал сөздүү медоточивый, сладкоречивый;</blockquote>
+[4253] <blockquote>баш кошкондук сплочённость, единодушие;</blockquote>
+[4378] <blockquote>башы байланган зависимый, закабалённый;</blockquote>
+[4933] <blockquote>беши кеткен обессилевший, изнурённый;</blockquote>
+[5748] <blockquote>бой көтөрүү важничанье, зазнайство;</blockquote>
+[8751] <blockquote>жашык жүрөк сердобольный, слезливый;</blockquote>
+[10338] <blockquote>жыпар жыттуу благоухающий, благовонный;</blockquote>
+[10996] <blockquote>ичи кең добрый, щедрый;</blockquote>
+[12426] <blockquote>капчыгы чыккан разъевшийся, толстопузый;</blockquote>
+[13807] <blockquote>кешигин жеген несчастный, обездоленный;</blockquote>
+[17531] <blockquote>кыдыр даарыган счастливый, удачливый;</blockquote>
+[20666] <blockquote>нечен түрдүү многообразный, разнообразный;</blockquote>
+[21423] <blockquote>оор мүнөз степенный, выдержанный;</blockquote>
+[24847] <blockquote>суу жүрөк боязливый, трусливый;</blockquote>
+[27593] <blockquote>тукум кууган врождённый, наследственный;</blockquote>
+[29161] <blockquote>уяты качкан бесцеремонный, развязный;</blockquote>
+[30311] <blockquote>чет өлкөлүк зарубежный, заграничный;</blockquote>
+[30946] <blockquote>чын бүт верить, поверить;</blockquote>
+[31977] <blockquote>ыркка көнбөгөн несговорчивый, неподатливый;</blockquote>

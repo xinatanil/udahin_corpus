@@ -1,0 +1,22 @@
+Structural template cases
+
+rank: 27
+support: 15
+pattern: KY_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем точка с запятой
+
+[6053] <blockquote>бөлүнбөс неделимый;</blockquote>
+[9912] <blockquote>жүзүктөй стройный;</blockquote>
+[13302] <blockquote>келберсиген дородный;</blockquote>
+[17811] <blockquote>кыйпычыктаган вертлявый;</blockquote>
+[23424] <blockquote>салпайган растрёпа;</blockquote>
+[24104] <blockquote>сиркедей малюсенький;</blockquote>
+[27356] <blockquote>төмөндөгүлөр нижеупомянутые;</blockquote>
+[27364] <blockquote>төмөнкүлөр нижеследующие;</blockquote>
+[28018] <blockquote>түндөгү вчерашний;</blockquote>
+[28020] <blockquote>түндөп ночью;</blockquote>
+[28161] <blockquote>түшкү полдневный;</blockquote>
+[28179] <blockquote>түшүмдүү урожайный;</blockquote>
+[28180] <blockquote>түшүмдүүлүк урожайность;</blockquote>
+[29662] <blockquote>үчөөлөп втроём;</blockquote>
+[30249] <blockquote>чекенелеп помаленьку;</blockquote>

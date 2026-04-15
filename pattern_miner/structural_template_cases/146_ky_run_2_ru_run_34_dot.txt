@@ -1,0 +1,12 @@
+Structural template cases
+
+rank: 146
+support: 5
+pattern: KY_RUN_2 RU_RUN_34 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 3-4 русских токена, затем точка
+
+[7123] <blockquote>даңкаңдаган катын крупная статная женщина.</blockquote>
+[15858] <blockquote>көөнүм жаңырат моё сердце радуется.</blockquote>
+[23406] <blockquote>саламаттын начарлыгы плохое состояние здоровья.</blockquote>
+[28112] <blockquote>түстүү көркөм фильм цветной художественный фильм.</blockquote>
+[29853] <blockquote>чакаланып төгүлүп выливаясь целыми вёдрами.</blockquote>

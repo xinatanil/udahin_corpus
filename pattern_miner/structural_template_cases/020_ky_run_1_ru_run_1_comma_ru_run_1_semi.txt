@@ -1,0 +1,26 @@
+Structural template cases
+
+rank: 20
+support: 19
+pattern: KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка с запятой
+
+[3591] <blockquote>бакылдаган горластый, крикливый;</blockquote>
+[4144] <blockquote>басалгалуу степенный, спокойный;</blockquote>
+[6623] <blockquote>бүкмөлүү скрытый, тайный;</blockquote>
+[7183] <blockquote>дасыбаган неопытный, неискушённый;</blockquote>
+[9940] <blockquote>жүлүндөй тоненький, стройный;</blockquote>
+[11835] <blockquote>кактыккан закалённый, крепкий;</blockquote>
+[15206] <blockquote>көздөй настоящий, действительный;</blockquote>
+[17954] <blockquote>кылкандай стройный, подтянутый;</blockquote>
+[18229] <blockquote>кырдуусунган зазнающийся, кичливый;</blockquote>
+[19038] <blockquote>мандырдай ядрёный, крупнозернистый;</blockquote>
+[19185] <blockquote>машыккан опытный, квалифицированный;</blockquote>
+[19818] <blockquote>момураган смирненький, тихонький;</blockquote>
+[20174] <blockquote>муштумдай небольшой, маленький;</blockquote>
+[21159] <blockquote>оңбогондой очень, весьма;</blockquote>
+[24728] <blockquote>суксурдай стройный, грациозный;</blockquote>
+[25534] <blockquote>такыядай маленький, крохотный;</blockquote>
+[30565] <blockquote>чоңдор начальники, начальство;</blockquote>
+[31902] <blockquote>ыңырчактай худой, тощий;</blockquote>
+[33101] <blockquote>эңгезердей огромный, громадный;</blockquote>

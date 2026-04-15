@@ -1,0 +1,35 @@
+Signal-heavy pattern cases
+
+rank: 132
+support: 28
+pattern: KYFUNC_L34 RU_L9P_SFX=ый
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+
+[3191] <blockquote>аш болуму жок непитательный;</blockquote>
+[4216] <blockquote>батымы жок неуживчивый;</blockquote>
+[4793] <blockquote>бети жок бессовестный, бесстыдный;</blockquote>
+[6981] <blockquote>даамы жок невкусный;</blockquote>
+[7103] <blockquote>данеги жок бессодержательный, неинтересный;</blockquote>
+[10481] <blockquote>зардеси бар энергичный, бодрый;</blockquote>
+[11712] <blockquote>кайрымы жок безжалостный, бессердечный, неотзывчивый.</blockquote>
+[11807] <blockquote>кайырымы жок неотзывчивый, невнимательный к нуждам других.</blockquote>
+[11910] <blockquote>калети жок безошибочный, правильный;</blockquote>
+[13546] <blockquote>кеп-келечте жок захудалый, никудышный.</blockquote>
+[15187] <blockquote>көзгө сүртөргө жок остродефицитный;</blockquote>
+[16004] <blockquote>көрөңгөсү бар состоятельный, зажиточный;</blockquote>
+[17062] <blockquote>күлтүгү жок бесстыдный.</blockquote>
+[18288] <blockquote>кырсыгы бар несговорчивый, упрямый, капризный;</blockquote>
+[18685] <blockquote>магдыры жок бессильный (в половом отношении), импотент (в старости);</blockquote>
+[20723] <blockquote>нысабы жок бессовестный, безжалостный;</blockquote>
+[21025] <blockquote>олуту жок бестактный, невыдержанный, невоспитанный;</blockquote>
+[21909] <blockquote>оюнкарак, бирок шок эмес шаловливый, но не озорной;</blockquote>
+[24457] <blockquote>сөзгө жок неречистый;</blockquote>
+[25233] <blockquote>сын-сыпаты жок некрасивый, непривлекательной внешности, захудалый;</blockquote>
+[26994] <blockquote>токтоосу жок несдержанный;</blockquote>
+[30838] <blockquote>чыдамы жок невыносливый;</blockquote>
+[30841] <blockquote>чыдоосу жок невыносливый, слабый.</blockquote>
+[31720] <blockquote>ыйбаасы жок бесстыдный;</blockquote>
+[31836] <blockquote>ыманы жок бессовестный; нечестный;</blockquote>
+[32017] <blockquote>ырысы бар счастливый;</blockquote>
+[32034] <blockquote>ысабы жок нечестный, бессовестный;</blockquote>
+[33060] <blockquote>эни-чени жок непомерный, неизмеримый, громадный;</blockquote>

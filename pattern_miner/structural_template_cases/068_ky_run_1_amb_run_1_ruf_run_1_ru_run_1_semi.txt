@@ -1,0 +1,15 @@
+Structural template cases
+
+rank: 68
+support: 8
+pattern: KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+
+[7840] <blockquote>жазып отуру он пишет;</blockquote>
+[15851] <blockquote>көөнү пас он удручён;</blockquote>
+[20397] <blockquote>мындан кийин после этого;</blockquote>
+[21965] <blockquote>өз ара между собой;</blockquote>
+[27529] <blockquote>төштүн кайкысында под ложечкой;</blockquote>
+[28152] <blockquote>түш ченде в полдень;</blockquote>
+[28181] <blockquote>түшүмө кирди мне приснилось;</blockquote>
+[28765] <blockquote>унутуп коюшат они забывают;</blockquote>

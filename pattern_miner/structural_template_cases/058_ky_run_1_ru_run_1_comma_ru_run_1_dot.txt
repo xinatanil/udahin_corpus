@@ -1,0 +1,16 @@
+Structural template cases
+
+rank: 58
+support: 9
+pattern: KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка
+
+[6740] <blockquote>быкыган многочисленный, кишащий.</blockquote>
+[11895] <blockquote>калдактаган суетливый, суматошный.</blockquote>
+[15829] <blockquote>көөкөрдөй маленький, крохотный.</blockquote>
+[16983] <blockquote>күйкөлөктөнбөс невозмутимый, бесстрастный.</blockquote>
+[18336] <blockquote>кыскачалап коротенько, вкратце.</blockquote>
+[18563] <blockquote>лимиттелген лимитированный, лимитный.</blockquote>
+[26618] <blockquote>тикилдеген шустрый, проворный.</blockquote>
+[29795] <blockquote>чадырайган толстый, жирный.</blockquote>
+[33269] <blockquote>эркимсиген чванливый, заносчивый.</blockquote>

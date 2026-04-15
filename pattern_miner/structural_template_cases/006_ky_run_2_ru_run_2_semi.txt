@@ -1,0 +1,80 @@
+Structural template cases
+
+rank: 6
+support: 73
+pattern: KY_RUN_2 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 2 русских токена, затем точка с запятой
+
+[3449] <blockquote>багыныңкы суйлөм придаточное предложение;</blockquote>
+[3791] <blockquote>балбылдаган таң яркий рассвет;</blockquote>
+[4187] <blockquote>басындуу көпчүлүк подавляющее большинство;</blockquote>
+[6059] <blockquote>бөөдө өлүм напрасная смерть;</blockquote>
+[6345] <blockquote>буладай жүн мягкая шерсть;</blockquote>
+[6406] <blockquote>буржуазиялык улутчулдук буржуазный национализм;</blockquote>
+[7195] <blockquote>даярдоо уюмдары заготовительные организации;</blockquote>
+[7536] <blockquote>дүйнөлүк үстөмдүк мировое господство;</blockquote>
+[7603] <blockquote>дүрүйө көйнөк шёлковое платье;</blockquote>
+[8945] <blockquote>жемиштүү чыгармачылык плодотворное творчество;</blockquote>
+[8988] <blockquote>жеңиштүү жүрүш победоносное шествие;</blockquote>
+[9674] <blockquote>жөнөкөй сүйлөм простое предложение;</blockquote>
+[9934] <blockquote>жүктүү катын беременная женщина;</blockquote>
+[10230] <blockquote>жылдыздуу жүз миловидное лицо;</blockquote>
+[11404] <blockquote>кабыргадан сезгенүү воспаление лёгких;</blockquote>
+[11842] <blockquote>какшыган чөл сухая степь;</blockquote>
+[13487] <blockquote>кең үндүү широкий гласный;</blockquote>
+[13503] <blockquote>кеңири кеңешме расширенное совещание;</blockquote>
+[14802] <blockquote>коңторулбаган дың нетронутая целина;</blockquote>
+[14846] <blockquote>коомдук камсыздандыруу социальное обеспечение;</blockquote>
+[14850] <blockquote>коомдук мүлк общественная собственность;</blockquote>
+[14854] <blockquote>коомдук өндүрүш общественное производство;</blockquote>
+[14857] <blockquote>коомдук өсүш общественное развитие;</blockquote>
+[14864] <blockquote>коомчулук уюмдары общественные организации;</blockquote>
+[15980] <blockquote>көркөм чеберчилик художественное мастерство;</blockquote>
+[15982] <blockquote>көркөм чыгармачылык художественная самодеятельность;</blockquote>
+[15990] <blockquote>көрмөмүшкө салып притворившись невидящим;</blockquote>
+[16131] <blockquote>көчөттөп тиккен посаженный саженцем;</blockquote>
+[16189] <blockquote>кубангысыз күн безрадостная жизнь;</blockquote>
+[16985] <blockquote>күйкүл дөбөт маленький кобелёк;</blockquote>
+[17051] <blockquote>күлдүү көмүр зольный уголь;</blockquote>
+[17730] <blockquote>кызылдай зордук неслыханное насилие;</blockquote>
+[17785] <blockquote>кыйкайган катын сухопарая женщина;</blockquote>
+[17951] <blockquote>кылкан чөп дикий ячмень;</blockquote>
+[19278] <blockquote>мелтиреген сулуу писаная красавица;</blockquote>
+[19286] <blockquote>мемиреген түн тихая ночь;</blockquote>
+[19881] <blockquote>мөмө жыгачтары плодовые деревья;</blockquote>
+[20030] <blockquote>муңдуу көңүл скорбное сердце;</blockquote>
+[20242] <blockquote>мүшкүл күн тяжёлая жизнь;</blockquote>
+[21023] <blockquote>олуттуу тоскоолдук серьёзное препятствие;</blockquote>
+[21147] <blockquote>оң көрүнүш положительное явление;</blockquote>
+[22275] <blockquote>өлбөстүн күнү жалкое существование;</blockquote>
+[22424] <blockquote>өндүрүштүк кеңешме производственное совещание;</blockquote>
+[22425] <blockquote>өндүрүштүк кеңешме производственное совещание;</blockquote>
+[22452] <blockquote>өнөрү ашкан очень искусный;</blockquote>
+[22680] <blockquote>өтө баалуу очень ценный;</blockquote>
+[22831] <blockquote>партиялык жетекчилик партийное руководство;</blockquote>
+[23008] <blockquote>проектилик кубаттуулук проектная мощность;</blockquote>
+[23217] <blockquote>сабаган жүн битая шерсть;</blockquote>
+[24741] <blockquote>сулуу катын красивая женщина;</blockquote>
+[25237] <blockquote>сыналган жолбашчылык испытанное руководство;</blockquote>
+[25572] <blockquote>таланттуу жетекчи талантливый руководитель;</blockquote>
+[25862] <blockquote>таңды күнү каждый день;</blockquote>
+[26366] <blockquote>теңге чөп люцерна хмелевидная;</blockquote>
+[26498] <blockquote>техникалык өсүмдүктөр технические культуры;</blockquote>
+[26499] <blockquote>техникалык өсүмдүктөр технические культуры;</blockquote>
+[27028] <blockquote>толтолуу жүрөк эпитет сердца;</blockquote>
+[27696] <blockquote>турмуштан бузулуу бытовое разложение;</blockquote>
+[28073] <blockquote>түпсүз туңгуюк бездонная пропасть;</blockquote>
+[28173] <blockquote>түшүм көтөрүү повышение урожайности;</blockquote>
+[28186] <blockquote>түшүндүрмөлүү сөздүк толковый словарь;</blockquote>
+[28835] <blockquote>уруучулук күрөшү родовая борьба;</blockquote>
+[29148] <blockquote>уяң жүн тонкая шерсть;</blockquote>
+[29171] <blockquote>үздүксүз бөлчөк непрерывная дробь;</blockquote>
+[29397] <blockquote>үлбүрөк гүл нежный цветок;</blockquote>
+[29473] <blockquote>үнүройгөн үңкүр зияющая пещера;</blockquote>
+[29513] <blockquote>үрөндүк буудай семенная пшеница;</blockquote>
+[29984] <blockquote>чамалап эсептөө приблизительное вычисление;</blockquote>
+[30172] <blockquote>чачтан көп несметное количество;</blockquote>
+[30266] <blockquote>чексиз бөлчөк бесконечная дробь;</blockquote>
+[31351] <blockquote>шарттуу сүйлөм условное предложение;</blockquote>
+[33143] <blockquote>эпсиз чоң очень большой;</blockquote>
+[33477] <blockquote>эскилөө көйнөк старенькое платье;</blockquote>

@@ -1,0 +1,42 @@
+Signal-heavy pattern cases
+
+rank: 97
+support: 35
+pattern: XREF=см DOT WL SEMI
+explanation: ссылочный паттерн: конструкция со 'см.' и ссылкой на словарную статью
+
+[246] <blockquote>"эт" дегенде бет барбы см. <wordLink word="бет" meaning="5"/>;</blockquote>
+[893] <blockquote>ак бата, кызыл кан см. <wordLink word="бата" meaning="2"/>;</blockquote>
+[1876] <blockquote>алынып см. <wordLink word="келин-" homonym="II"/>;</blockquote>
+[3259] <blockquote>аюу чач или аюу дары см. <wordLink word="чач" homonym="I"/>;</blockquote>
+[3444] <blockquote>багын (бакытын, бактысын) байла- см. <wordLink word="бак" homonym="II"/>;</blockquote>
+[4233] <blockquote>баш (ын, -ыңды и т.д.) же- см. <wordLink word="баш"/>;</blockquote>
+[4275] <blockquote>баш таң-, баш таңуу см. <wordLink word="таң-" homonym="VI"/>;</blockquote>
+[4381] <blockquote>башы батпай, багалчагы сыйбай см. <wordLink word="багалчак"/>;</blockquote>
+[6013] <blockquote>бөдөнөдөн көтөн (или куйрук) чыгар- см. <wordLink word="көтөн"/>;</blockquote>
+[6255] <blockquote>бул көрө, андан көрө см. <wordLink word="көрө" homonym="II"/>;</blockquote>
+[7785] <blockquote>жазгы конгон коноктой или жазгы келген коноктой см. <wordLink word="жазгы"/>;</blockquote>
+[8440] <blockquote>жапа же- или жапаа же- см. <wordLink word="жапаа" meaning="1"/>;</blockquote>
+[8482] <blockquote>жар көрүшүү название игры, которой развлекается молодёжь обоего пола на кыа оюну (см. <wordLink word="оюн"/>; букв. здорованье с возлюбленной, с возлюбленным);</blockquote>
+[9500] <blockquote>жолу катып, жолу каткан см. <wordLink word="кат-" homonym="IV"/>;</blockquote>
+[10052] <blockquote>жүрөгүнө (жүрөгүмө) эт барбайт см. <wordLink word="жүрөк"/>;</blockquote>
+[11113] <blockquote>иш илгери! см. <wordLink word="илгери" meaning="1"/>;</blockquote>
+[11520] <blockquote>каз айланбас кара зоо см. <wordLink word="зоо"/>;</blockquote>
+[12949] <blockquote>карысы казык, башы токмок болуп см. <wordLink word="каруу" meaning="1"/>;</blockquote>
+[13737] <blockquote>кеч кечир- или кеч кечтир- см. <wordLink word="кечир-" homonym="II"/>;</blockquote>
+[13901] <blockquote>кимди ким көрдү кылып см. <wordLink word="ким"/>;</blockquote>
+[15998] <blockquote>көрөйүн деген көзү жок см. <wordLink word="көз"/>;</blockquote>
+[16222] <blockquote>кудай бет алган жактан жалгасын см. <wordLink word="жалга" homonym="II" meaning="3"/>;</blockquote>
+[17884] <blockquote>кыл башында- или кылды башында см. <wordLink word="кылды"/>;</blockquote>
+[21611] <blockquote>орто толсун! см. <wordLink word="тол-"/>;</blockquote>
+[21932] <blockquote>өгүз окко өл-, өгүз окко өлтүрүп кет- см. <wordLink word="өгүз"/>;</blockquote>
+[21980] <blockquote>өз башын ала кач- см. <wordLink word="кач-"/>;</blockquote>
+[26854] <blockquote>то же, что <wordLink word="Шаймерден"/> (см. <wordLink word="мерден"/>; уже не осознаётся как имя собственное)</blockquote>
+[27031] <blockquote>Толубайдай сынчы бол, Токтогулдай ырчы бол см. <wordLink word="сынчы" meaning="1"/>;</blockquote>
+[27415] <blockquote>төөнүн куйругу жерге тийгенде см. <wordLink word="төө"/>;</blockquote>
+[28311] <blockquote>тыр жылаңач или тырдай жылаңач см. <wordLink word="тыр"/>;</blockquote>
+[30357] <blockquote>чечекейи чеч, чеч табак менен бир см. <wordLink word="чеч" homonym="II"/>;</blockquote>
+[31195] <blockquote>шайтан мойну сынсын, шайтан мойнун сындыр- см. <wordLink word="моюн"/>;</blockquote>
+[32060] <blockquote>ысык эле жаны бар см. <wordLink word="ысык"/>;</blockquote>
+[33531] <blockquote>эт-бетинен жат- (или жыгыл- или кет-) см. <wordLink word="эт" homonym="I"/>;</blockquote>
+[33542] <blockquote>этеги бүтөлүп, жеңи узарды см. <wordLink word="бүтөл-"/>;</blockquote>

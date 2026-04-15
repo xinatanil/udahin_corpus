@@ -1,0 +1,13 @@
+Structural template cases
+
+rank: 97
+support: 6
+pattern: AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+
+[14443] <blockquote>колго түшкөн коёндой как загнанный зверь;</blockquote>
+[16504] <blockquote>кум түлөк беркут после третьей линьки;</blockquote>
+[18283] <blockquote>кырмызы көйнөк платье из красного шёлка;</blockquote>
+[26109] <blockquote>таш түлөк беркут после второй линьки;</blockquote>
+[31786] <blockquote>ыл түлөк беркут после пятой линьки;</blockquote>
+[31830] <blockquote>ым түлөк беркут после четвёртой линьки;</blockquote>

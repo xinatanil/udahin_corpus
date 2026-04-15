@@ -1,0 +1,20 @@
+Structural template cases
+
+rank: 30
+support: 13
+pattern: KY_RUN_2 RU_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем точка
+
+[6689] <blockquote>бүткүл союздук всесоюзный.</blockquote>
+[10086] <blockquote>жүрөктүн дүлөйү предсердие.</blockquote>
+[10461] <blockquote>заң баскан заржавевший.</blockquote>
+[12203] <blockquote>кандуу тиштүү кровожадный.</blockquote>
+[15149] <blockquote>көз мелжиткен необозримый.</blockquote>
+[15880] <blockquote>көп бүлөлүү многосемейный.</blockquote>
+[18823] <blockquote>максималдуу түрдө максимально.</blockquote>
+[22151] <blockquote>өзүн сүйгөндүк самовлюблённость.</blockquote>
+[23092] <blockquote>реалдуу түрдө реально.</blockquote>
+[27493] <blockquote>төрт түлүктүү зажиточный.</blockquote>
+[29887] <blockquote>чакыраң көз пучеглазый.</blockquote>
+[30858] <blockquote>чыйырдан чыккан развратный.</blockquote>
+[31775] <blockquote>ыкшоо тартып ленясь.</blockquote>

@@ -1,0 +1,16 @@
+Structural template cases
+
+rank: 60
+support: 9
+pattern: AMB_RUN_2 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+
+[1665] <blockquote>албай койбойт он обязательно возьмёт;</blockquote>
+[3270] <blockquote>аябай жедим я много съел;</blockquote>
+[3271] <blockquote>аябай кургагыча до полного высыхания;</blockquote>
+[7777] <blockquote>жазганы отурам я собираюсь писать;</blockquote>
+[9842] <blockquote>жуук арада в недалёком будущем;</blockquote>
+[13298] <blockquote>келбей койбойт он обязательно придёт;</blockquote>
+[16767] <blockquote>кускусу келди его тянет рвать;</blockquote>
+[21382] <blockquote>оокат жайы его материальное положение;</blockquote>
+[31483] <blockquote>шоркурата ууртайт он глотает швыркая;</blockquote>

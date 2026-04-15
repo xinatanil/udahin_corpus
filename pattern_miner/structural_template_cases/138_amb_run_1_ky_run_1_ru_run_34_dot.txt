@@ -1,0 +1,12 @@
+Structural template cases
+
+rank: 138
+support: 5
+pattern: AMB_RUN_1 KY_RUN_1 RU_RUN_34 DOT
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 3-4 русских токена, затем точка
+
+[3584] <blockquote>бактыясынан көрсүн пусть попытает счастья.</blockquote>
+[9251] <blockquote>жибек ийирүү фабрикасы шёлкомотальная фабрика.</blockquote>
+[9257] <blockquote>жибек түрүүчү фабрика шёлкомотальная фабрика.</blockquote>
+[18331] <blockquote>кыска толкундуу радиостанция коротковолновая радиостанция.</blockquote>
+[27672] <blockquote>турак үй фондусу жилищный фонд.</blockquote>

@@ -1,0 +1,67 @@
+Structural template cases
+
+rank: 7
+support: 60
+pattern: AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем точка с запятой
+
+[521] <blockquote>адам күнү человекодень;</blockquote>
+[983] <blockquote>ак ниеттүү честный;</blockquote>
+[2337] <blockquote>арам өлүк падаль;</blockquote>
+[3171] <blockquote>ачык ооздук болтливость;</blockquote>
+[3248] <blockquote>ашыра өндүрүү перепроизводство;</blockquote>
+[3613] <blockquote>бал тилдүү сладкоречивый;</blockquote>
+[4343] <blockquote>башкы сөз предисловие;</blockquote>
+[4883] <blockquote>беш жүз пятьсот;</blockquote>
+[4918] <blockquote>беш тонналык пятитонный;</blockquote>
+[5766] <blockquote>бойдун кыскалыгы низкорослость;</blockquote>
+[5778] <blockquote>боконосу катпаган неокрепший;</blockquote>
+[5952] <blockquote>боруму түз стройный;</blockquote>
+[7043] <blockquote>далайды көргөн бывалый;</blockquote>
+[7082] <blockquote>далысы эңиш сутулый;</blockquote>
+[7335] <blockquote>дин тутпаган неверующий;</blockquote>
+[8071] <blockquote>жалгыз бойчулук одиночество;</blockquote>
+[8124] <blockquote>жалпы союздук всесоюзный;</blockquote>
+[9255] <blockquote>жибек түрүү шёлкомотание;</blockquote>
+[9498] <blockquote>жолу каткан незадачливый;</blockquote>
+[9571] <blockquote>жоон өпкө важничающий;</blockquote>
+[9763] <blockquote>жумушка кабелтең трудолюбивый;</blockquote>
+[11972] <blockquote>калчап алган отборный;</blockquote>
+[12789] <blockquote>каргыш тийген проклятый;</blockquote>
+[13228] <blockquote>кежир тартып заупрямившись;</blockquote>
+[13796] <blockquote>кечээ күнкү вчерашний;</blockquote>
+[14989] <blockquote>кош беттүү двуличный;</blockquote>
+[14990] <blockquote>кош бийлик двоевластие;</blockquote>
+[15003] <blockquote>кош көңүлдүк благодушие;</blockquote>
+[16157] <blockquote>крайды үйрөнүү краеведение;</blockquote>
+[16365] <blockquote>кул ээлөөчү рабовладелец;</blockquote>
+[16484] <blockquote>култ этип моментально;</blockquote>
+[18008] <blockquote>кылчык жүндүү грубошёрстный;</blockquote>
+[19945] <blockquote>мукам сөздүү сладкоречивый;</blockquote>
+[19946] <blockquote>мукам үндүү сладкозвучный;</blockquote>
+[20063] <blockquote>мурду салаңдаган длинноносый;</blockquote>
+[21277] <blockquote>оозу келпийген криворотый;</blockquote>
+[23559] <blockquote>сарай төрөлөрү придворные;</blockquote>
+[23671] <blockquote>сегиз көчүк крестец;</blockquote>
+[23672] <blockquote>сегиз көчүк крестец;</blockquote>
+[23744] <blockquote>семиз көкүрөк самонадеянный;</blockquote>
+[24019] <blockquote>сес көрсөтүү запугивание;</blockquote>
+[24366] <blockquote>сот түзүлүшү судоустройство;</blockquote>
+[24367] <blockquote>сот түзүлүшү судоустройство;</blockquote>
+[26751] <blockquote>тиричиликке жөндөмдүүлүк жизнеспособность;</blockquote>
+[27154] <blockquote>тооктун чөбүрөлөрү цыплятки;</blockquote>
+[27155] <blockquote>тооктун чөжөсү цыплёнок;</blockquote>
+[27273] <blockquote>тосток көз пучеглазый;</blockquote>
+[27554] <blockquote>тубу күчтүү родовитый;</blockquote>
+[28462] <blockquote>узак мөөнөттүү долгосрочный;</blockquote>
+[29915] <blockquote>чала өлүк полумертвый;</blockquote>
+[30226] <blockquote>чек аралык пограничный;</blockquote>
+[31475] <blockquote>шор маңдай несчастный;</blockquote>
+[31489] <blockquote>шору каткан несчастный;</blockquote>
+[31980] <blockquote>ыркы келишпеген неуживчивый;</blockquote>
+[32337] <blockquote>эки миздүү обоюдоострый;</blockquote>
+[32792] <blockquote>эмгек көй трудолюбивый;</blockquote>
+[32795] <blockquote>эмгек күнү трудодень;</blockquote>
+[33168] <blockquote>эр көкүрөк храбрый;</blockquote>
+[33447] <blockquote>эске түшүрүү напоминание;</blockquote>
+[33681] <blockquote>эч кандай никакой;</blockquote>

@@ -1,0 +1,148 @@
+rank	support	file	pattern
+1	172	001_ky_run_1_amb_run_1_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_2 SEMI
+2	104	002_ky_run_1_amb_run_1_ru_run_2_dot.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_2 DOT
+3	92	003_ky_run_2_ru_run_1_amb_run_1_semi.txt	KY_RUN_2 RU_RUN_1 AMB_RUN_1 SEMI
+4	87	004_amb_run_1_ky_run_1_ru_run_2_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_2 SEMI
+5	86	005_ky_run_2_ru_run_1_amb_run_1_dot.txt	KY_RUN_2 RU_RUN_1 AMB_RUN_1 DOT
+6	73	006_ky_run_2_ru_run_2_semi.txt	KY_RUN_2 RU_RUN_2 SEMI
+7	60	007_amb_run_1_ky_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI
+8	49	008_amb_run_1_ky_run_1_ru_run_2_dot.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_2 DOT
+9	45	009_ky_run_1_amb_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+10	43	010_amb_run_1_ky_run_1_ru_run_1_dot.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 DOT
+11	39	011_ky_run_2_ru_run_2_dot.txt	KY_RUN_2 RU_RUN_2 DOT
+12	31	012_ky_run_1_amb_run_2_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_2 RU_RUN_1 SEMI
+13	26	013_ru_run_1_amb_run_1_ru_run_2_semi.txt	RU_RUN_1 AMB_RUN_1 RU_RUN_2 SEMI
+14	23	014_amb_run_1_ky_run_1_ru_run_1_comma_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+15	22	015_ru_run_1_ky_run_1_ru_run_2_dot.txt	RU_RUN_1 KY_RUN_1 RU_RUN_2 DOT
+16	22	016_ru_run_1_amb_run_1_ru_run_2_dot.txt	RU_RUN_1 AMB_RUN_1 RU_RUN_2 DOT
+17	21	017_ky_run_1_ru_run_34_semi.txt	KY_RUN_1 RU_RUN_34 SEMI
+18	20	018_ky_run_2_amb_run_1_ru_run_1_semi.txt	KY_RUN_2 AMB_RUN_1 RU_RUN_1 SEMI
+19	19	019_ky_run_1_amb_run_1_ru_run_1_comma_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_2 SEMI
+20	19	020_ky_run_1_ru_run_1_comma_ru_run_1_semi.txt	KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+21	18	021_ky_run_1_amb_run_2_ru_run_1_dot.txt	KY_RUN_1 AMB_RUN_2 RU_RUN_1 DOT
+22	17	022_amb_run_1_ky_run_1_ru_run_1_ruf_run_1_amb_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+23	17	023_amb_run_2_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_2 RUF_RUN_1 RU_RUN_1 SEMI
+24	17	024_ky_run_1_ru_run_34_dot.txt	KY_RUN_1 RU_RUN_34 DOT
+25	16	025_ky_run_2_amb_run_1_ru_run_2_semi.txt	KY_RUN_2 AMB_RUN_1 RU_RUN_2 SEMI
+26	16	026_ky_run_2_ru_run_1_semi.txt	KY_RUN_2 RU_RUN_1 SEMI
+27	15	027_ky_run_1_ru_run_1_semi.txt	KY_RUN_1 RU_RUN_1 SEMI
+28	14	028_ky_run_1_amb_run_2_ruf_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_2 RUF_RUN_1 RU_RUN_1 SEMI
+29	14	029_ky_run_1_ru_run_1_dot.txt	KY_RUN_1 RU_RUN_1 DOT
+30	13	030_ky_run_2_ru_run_1_dot.txt	KY_RUN_2 RU_RUN_1 DOT
+31	12	031_amb_run_1_kyfunc_run_1_ru_run_1_semi.txt	AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 SEMI
+32	12	032_amb_run_1_hyph_amb_run_1_ru_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 HYPH AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+33	12	033_amb_run_1_ky_run_1_ru_run_1_comma_ru_run_1_dot.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+34	12	034_amb_run_2_ru_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	AMB_RUN_2 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+35	12	035_ky_run_1_amb_run_1_ruf_run_1_amb_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+36	12	036_ky_run_1_amb_run_2_ruf_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_2 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+37	12	037_amb_run_2_ky_run_1_ru_run_2_semi.txt	AMB_RUN_2 KY_RUN_1 RU_RUN_2 SEMI
+38	12	038_ky_run_1_amb_run_1_ru_run_34_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_34 SEMI
+39	9	039_ky_run_1_ruf_run_1_tozhe_comma_ruf_run_1_wl_dot.txt	KY_RUN_1 RUF_RUN_1 TOZHE=же COMMA RUF_RUN_1 WL DOT
+40	11	040_ky_run_2_ru_run_1_ruf_run_1_amb_run_1_semi.txt	KY_RUN_2 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+41	10	041_amb_run_1_kyfunc_run_1_ru_run_1_comma_ru_run_1_semi.txt	AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+42	10	042_amb_run_1_ky_run_1_kyfunc_run_1_ruf_run_1_amb_run_2_semi.txt	AMB_RUN_1 KY_RUN_1 KYFUNC_RUN_1 RUF_RUN_1 AMB_RUN_2 SEMI
+43	11	043_ky_run_2_amb_run_1_ru_run_1_dot.txt	KY_RUN_2 AMB_RUN_1 RU_RUN_1 DOT
+44	11	044_ky_run_2_ruf_run_1_amb_run_1_semi.txt	KY_RUN_2 RUF_RUN_1 AMB_RUN_1 SEMI
+45	11	045_ky_run_34_ru_run_1_amb_run_1_semi.txt	KY_RUN_34 RU_RUN_1 AMB_RUN_1 SEMI
+46	10	046_ky_run_1_amb_run_1_ru_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+47	10	047_ky_run_2_ru_run_1_comma_ru_run_1_semi.txt	KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 SEMI
+48	10	048_ru_run_1_ky_run_1_ru_run_1_amb_run_1_semi.txt	RU_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+49	10	049_amb_run_34_ruf_run_1_ru_run_2_semi.txt	AMB_RUN_34 RUF_RUN_1 RU_RUN_2 SEMI
+50	10	050_ky_run_1_amb_run_1_ru_run_1_dot.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 DOT
+51	10	051_ky_run_1_amb_run_2_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_2 RU_RUN_2 SEMI
+52	10	052_ky_run_2_ruf_run_1_amb_run_2_semi.txt	KY_RUN_2 RUF_RUN_1 AMB_RUN_2 SEMI
+53	9	053_amb_run_1_ky_run_1_ru_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+54	9	054_ky_run_1_amb_run_1_ky_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+55	9	055_ky_run_1_amb_run_1_ky_run_1_ru_run_1_amb_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_2 SEMI
+56	9	056_ky_run_1_amb_run_1_ru_run_1_comma_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+57	9	057_ky_run_1_amb_run_1_ru_run_1_ruf_run_1_amb_run_1_dot.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 DOT
+58	9	058_ky_run_1_ru_run_1_comma_ru_run_1_dot.txt	KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+59	8	059_ky_run_1_kyfunc_run_1_amb_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+60	9	060_amb_run_2_ruf_run_1_ru_run_2_semi.txt	AMB_RUN_2 RUF_RUN_1 RU_RUN_2 SEMI
+61	9	061_ky_run_1_ru_run_2_amb_run_1_semi.txt	KY_RUN_1 RU_RUN_2 AMB_RUN_1 SEMI
+62	8	062_ky_run_1_amb_run_1_ru_run_1_ruf_run_1_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+63	8	063_ky_run_1_amb_run_1_ky_run_1_ru_run_2_amb_run_1_dot.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_2 AMB_RUN_1 DOT
+64	8	064_ky_run_1_amb_run_1_ky_run_1_ru_run_2_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_2 AMB_RUN_1 SEMI
+65	8	065_ky_run_1_amb_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+66	8	066_ky_run_1_amb_run_1_ru_run_1_comma_ru_run_2_dot.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_2 DOT
+67	8	067_ky_run_1_amb_run_2_ruf_run_1_amb_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_2 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+68	8	068_ky_run_1_amb_run_1_ruf_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+69	8	069_ky_run_1_amb_run_1_ruf_run_1_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+70	8	070_ru_run_1_ky_run_1_ru_run_1_amb_run_1_dot.txt	RU_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 DOT
+71	8	071_ky_run_1_ruf_run_1_ru_run_1_semi.txt	KY_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+72	8	072_ru_run_1_ky_run_1_ru_run_2_semi.txt	RU_RUN_1 KY_RUN_1 RU_RUN_2 SEMI
+73	8	073_amb_run_34_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_34 RUF_RUN_1 RU_RUN_1 SEMI
+74	8	074_ky_run_1_amb_run_2_ru_run_2_dot.txt	KY_RUN_1 AMB_RUN_2 RU_RUN_2 DOT
+75	8	075_ru_run_1_amb_run_2_ru_run_1_dot.txt	RU_RUN_1 AMB_RUN_2 RU_RUN_1 DOT
+76	7	076_amb_run_34_ruf_run_1_amb_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_34 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+77	7	077_ky_run_1_amb_run_1_ru_run_1_ruf_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+78	7	078_ky_run_2_amb_run_1_ruf_run_1_amb_run_1_ru_run_1_semi.txt	KY_RUN_2 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+79	7	079_ky_run_2_amb_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_2 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+80	7	080_ky_run_2_ru_run_1_comma_ru_run_1_amb_run_1_dot.txt	KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 AMB_RUN_1 DOT
+81	7	081_ky_run_2_ru_run_1_comma_ru_run_1_amb_run_1_semi.txt	KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 AMB_RUN_1 SEMI
+82	7	082_amb_run_1_ru_run_1_hyph_ru_run_1_semi.txt	AMB_RUN_1 RU_RUN_1 HYPH RU_RUN_1 SEMI
+83	7	083_amb_run_34_ru_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_34 RU_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+84	7	084_ky_run_1_amb_run_1_ky_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI
+85	6	085_amb_run_1_ky_run_1_kyfunc_run_1_amb_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+86	7	086_amb_run_2_hyph_ru_run_1_semi.txt	AMB_RUN_2 HYPH RU_RUN_1 SEMI
+87	7	087_amb_run_34_hyph_ru_run_1_semi.txt	AMB_RUN_34 HYPH RU_RUN_1 SEMI
+88	7	088_ky_run_1_amb_run_2_ru_run_34_semi.txt	KY_RUN_1 AMB_RUN_2 RU_RUN_34 SEMI
+89	7	089_ky_run_1_amb_run_34_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_34 RU_RUN_1 SEMI
+90	7	090_ky_run_2_amb_run_1_ru_run_34_semi.txt	KY_RUN_2 AMB_RUN_1 RU_RUN_34 SEMI
+91	7	091_ky_run_34_ru_run_2_semi.txt	KY_RUN_34 RU_RUN_2 SEMI
+92	6	092_ky_run_1_kyfunc_run_1_amb_run_1_dot.txt	KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 DOT
+93	6	093_ky_run_2_kyfunc_run_1_amb_run_2_semi.txt	KY_RUN_2 KYFUNC_RUN_1 AMB_RUN_2 SEMI
+94	6	094_amb_run_1_ky_run_1_amb_run_1_ruf_run_1_amb_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+95	6	095_ky_run_1_amb_run_1_ruf_run_1_amb_run_1_ruf_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+96	6	096_ky_run_1_amb_run_2_ruf_run_1_amb_run_1_ruf_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_2 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+97	6	097_amb_run_1_ky_run_1_ru_run_1_ruf_run_1_ru_run_2_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+98	6	098_ky_run_2_ru_run_1_ruf_run_1_ru_run_1_amb_run_1_dot.txt	KY_RUN_2 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 DOT
+99	5	099_ky_run_1_amb_run_1_alt_ky_run_1_amb_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 ALT=или KY_RUN_1 AMB_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+100	6	100_amb_run_1_ky_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+101	6	101_ky_run_1_amb_run_1_ky_run_1_ruf_run_1_amb_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RUF_RUN_1 AMB_RUN_2 SEMI
+102	6	102_ky_run_1_amb_run_1_ky_run_1_ru_run_1_amb_run_2_dot.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_2 DOT
+103	6	103_ky_run_1_amb_run_1_ru_run_1_comma_ru_run_1_dot.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+104	6	104_ky_run_2_ru_run_1_amb_run_1_comma_ru_run_2_semi.txt	KY_RUN_2 RU_RUN_1 AMB_RUN_1 COMMA RU_RUN_2 SEMI
+105	5	105_amb_run_1_kyfunc_run_1_ru_run_1_comma_ru_run_1_dot.txt	AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+106	5	106_amb_run_1_kyfunc_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 KYFUNC_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+107	6	107_amb_run_1_ky_run_1_ru_run_34_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_34 SEMI
+108	6	108_amb_run_1_ky_run_2_ru_run_2_semi.txt	AMB_RUN_1 KY_RUN_2 RU_RUN_2 SEMI
+109	6	109_amb_run_34_ruf_run_1_ru_run_1_dot.txt	AMB_RUN_34 RUF_RUN_1 RU_RUN_1 DOT
+110	6	110_amb_run_5p_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_5P RUF_RUN_1 RU_RUN_1 SEMI
+111	6	111_ky_run_1_amb_run_34_ru_run_1_dot.txt	KY_RUN_1 AMB_RUN_34 RU_RUN_1 DOT
+112	6	112_ky_run_2_amb_run_1_ru_run_2_dot.txt	KY_RUN_2 AMB_RUN_1 RU_RUN_2 DOT
+113	6	113_ky_run_2_amb_run_2_ru_run_2_semi.txt	KY_RUN_2 AMB_RUN_2 RU_RUN_2 SEMI
+114	6	114_ky_run_2_ruf_run_1_amb_run_1_dot.txt	KY_RUN_2 RUF_RUN_1 AMB_RUN_1 DOT
+115	5	115_ky_run_1_hyph_ky_run_1_ru_run_1_ruf_run_1_ru_run_1_dot.txt	KY_RUN_1 HYPH KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 DOT
+116	5	116_amb_run_1_ky_run_1_amb_run_1_ru_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+117	5	117_ky_run_1_amb_run_1_ky_run_1_ruf_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+118	5	118_ky_run_1_hyph_amb_run_1_ky_run_1_ru_run_1_amb_run_1_semi.txt	KY_RUN_1 HYPH AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+119	5	119_ky_run_1_amb_run_1_ru_run_1_ruf_run_1_ru_run_2_dot.txt	KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 DOT
+120	5	120_amb_run_1_hyph_amb_run_2_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 HYPH AMB_RUN_2 RUF_RUN_1 RU_RUN_1 SEMI
+121	5	121_amb_run_1_ky_run_1_amb_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+122	5	122_amb_run_1_ky_run_1_ru_run_1_amb_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+123	5	123_amb_run_1_ky_run_1_ru_run_1_ruf_run_1_amb_run_1_dot.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 DOT
+124	5	124_amb_run_1_ky_run_1_ru_run_1_semi_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI RU_RUN_1 SEMI
+125	5	125_amb_run_2_ky_run_1_ruf_run_1_amb_run_1_ru_run_1_dot.txt	AMB_RUN_2 KY_RUN_1 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 DOT
+126	5	126_amb_run_34_ru_run_1_ruf_run_1_ru_run_1_amb_run_1_dot.txt	AMB_RUN_34 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 DOT
+127	5	127_ky_run_1_amb_run_1_ruf_run_1_ru_run_1_amb_run_1_dot.txt	KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 DOT
+128	5	128_ky_run_1_amb_run_2_ruf_run_1_ru_run_1_amb_run_2_semi.txt	KY_RUN_1 AMB_RUN_2 RUF_RUN_1 RU_RUN_1 AMB_RUN_2 SEMI
+129	5	129_ky_run_1_amb_run_2_ru_run_1_comma_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_2 RU_RUN_1 COMMA RU_RUN_2 SEMI
+130	5	130_ky_run_1_amb_run_34_ruf_run_1_amb_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_34 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+131	5	131_amb_run_1_ky_run_1_ruf_run_1_ru_run_1_semi.txt	AMB_RUN_1 KY_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+132	5	132_amb_run_2_ru_run_1_ruf_run_1_ru_run_2_semi.txt	AMB_RUN_2 RU_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+133	5	133_ky_run_1_amb_run_1_ky_run_1_ru_run_2_dot.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_2 DOT
+134	5	134_ky_run_1_amb_run_1_ky_run_1_ru_run_2_semi.txt	KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_2 SEMI
+135	5	135_ky_run_1_amb_run_34_ruf_run_1_ru_run_1_semi.txt	KY_RUN_1 AMB_RUN_34 RUF_RUN_1 RU_RUN_1 SEMI
+136	5	136_ky_run_2_amb_run_1_ruf_run_1_ru_run_1_semi.txt	KY_RUN_2 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+137	5	137_ky_run_2_ruf_run_1_ru_run_2_semi.txt	KY_RUN_2 RUF_RUN_1 RU_RUN_2 SEMI
+138	5	138_amb_run_1_ky_run_1_ru_run_34_dot.txt	AMB_RUN_1 KY_RUN_1 RU_RUN_34 DOT
+139	5	139_amb_run_1_ky_run_2_ru_run_2_dot.txt	AMB_RUN_1 KY_RUN_2 RU_RUN_2 DOT
+140	5	140_amb_run_2_ky_run_1_ru_run_34_dot.txt	AMB_RUN_2 KY_RUN_1 RU_RUN_34 DOT
+141	5	141_amb_run_2_ky_run_1_ru_run_34_semi.txt	AMB_RUN_2 KY_RUN_1 RU_RUN_34 SEMI
+142	5	142_amb_run_34_ruf_run_1_ru_run_2_dot.txt	AMB_RUN_34 RUF_RUN_1 RU_RUN_2 DOT
+143	5	143_ky_run_2_amb_run_1_ru_run_34_dot.txt	KY_RUN_2 AMB_RUN_1 RU_RUN_34 DOT
+144	5	144_ky_run_2_amb_run_34_ru_run_1_semi.txt	KY_RUN_2 AMB_RUN_34 RU_RUN_1 SEMI
+145	5	145_ky_run_34_ru_run_2_amb_run_1_semi.txt	KY_RUN_34 RU_RUN_2 AMB_RUN_1 SEMI
+146	5	146_ky_run_2_ru_run_34_dot.txt	KY_RUN_2 RU_RUN_34 DOT
+147	5	147_ky_run_34_ru_run_34_dot.txt	KY_RUN_34 RU_RUN_34 DOT

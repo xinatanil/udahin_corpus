@@ -1,0 +1,1081 @@
+Top structural templates
+
+[1] support=172 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка с запятой
+  [687] <blockquote>айдоо аянты посевная площадь;</blockquote>
+  [2811] <blockquote>атомдук курал атомное оружие;</blockquote>
+  [3363] <blockquote>баалап иште работать сдельно;</blockquote>
+  [3580] <blockquote>бактылуу турмуш счастливая жизнь;</blockquote>
+  [3963] <blockquote>барабандын дыбыраганы барабанная дробь;</blockquote>
+
+[2] support=104 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка
+  [887] <blockquote>айыптоо корутундусу обвинительное заключение.</blockquote>
+  [888] <blockquote>айыптоо тыянагы обвинительное заключение.</blockquote>
+  [3590] <blockquote>бакыйган жигит здоровенный парень.</blockquote>
+  [4213] <blockquote>баттуу чыт лощёный ситец.</blockquote>
+  [4720] <blockquote>берекесиз тамак непитательная пища.</blockquote>
+
+[3] support=92 | tokens=4 | informative=2
+KY_RUN_2 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [1840] <blockquote>алтын кендери золотые прииски;</blockquote>
+  [2971] <blockquote>аттын түрсүлү конский топот;</blockquote>
+  [2972] <blockquote>аттын түсү масть лошади;</blockquote>
+  [3344] <blockquote>аянычтуу үн жалобный голос;</blockquote>
+  [3416] <blockquote>баатырлык иштери геройские дела;</blockquote>
+
+[4] support=87 | tokens=4 | informative=2
+AMB_RUN_1 KY_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 2 русских токена, затем точка с запятой
+  [697] <blockquote>айза сүңгүдү копьё вонзилось;</blockquote>
+  [838] <blockquote>айыл кадырмандары аульная знать;</blockquote>
+  [839] <blockquote>айыл кеңеши сельский совет;</blockquote>
+  [860] <blockquote>айыл чарбачылыгы сельское хозяйство;</blockquote>
+  [1015] <blockquote>ак таңдай белое нёбо;</blockquote>
+
+[5] support=86 | tokens=4 | informative=2
+KY_RUN_2 RU_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка
+  [1568] <blockquote>алагүү үн пьяненький голос.</blockquote>
+  [2810] <blockquote>атомдук жардыруу атомный взрыв.</blockquote>
+  [2931] <blockquote>аттын дүбүртү конский топот.</blockquote>
+  [3605] <blockquote>бакытсыз күндөр безрадостные дни.</blockquote>
+  [3825] <blockquote>балдардын кужулдагы детский гомон.</blockquote>
+
+[6] support=73 | tokens=3 | informative=2
+KY_RUN_2 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 2 русских токена, затем точка с запятой
+  [3449] <blockquote>багыныңкы суйлөм придаточное предложение;</blockquote>
+  [3791] <blockquote>балбылдаган таң яркий рассвет;</blockquote>
+  [4187] <blockquote>басындуу көпчүлүк подавляющее большинство;</blockquote>
+  [6059] <blockquote>бөөдө өлүм напрасная смерть;</blockquote>
+  [6345] <blockquote>буладай жүн мягкая шерсть;</blockquote>
+
+[7] support=60 | tokens=4 | informative=2
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем точка с запятой
+  [521] <blockquote>адам күнү человекодень;</blockquote>
+  [983] <blockquote>ак ниеттүү честный;</blockquote>
+  [2337] <blockquote>арам өлүк падаль;</blockquote>
+  [3171] <blockquote>ачык ооздук болтливость;</blockquote>
+  [3248] <blockquote>ашыра өндүрүү перепроизводство;</blockquote>
+
+[8] support=49 | tokens=4 | informative=2
+AMB_RUN_1 KY_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 2 русских токена, затем точка
+  [972] <blockquote>ак кытан белая цапля.</blockquote>
+  [1130] <blockquote>акчага кызыгуу соблазняться деньгами.</blockquote>
+  [3089] <blockquote>ахвал чүрүк положение нехорошее.</blockquote>
+  [3854] <blockquote>балка чукулдук название насекомого.</blockquote>
+  [5867] <blockquote>болууга мүмкүн может статься.</blockquote>
+
+[9] support=45 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [418] <blockquote>абдан майда мельчайший;</blockquote>
+  [3139] <blockquote>ачуу таш квасцы;</blockquote>
+  [3889] <blockquote>балтанын сабы топорище;</blockquote>
+  [6046] <blockquote>бөлө качма неуживчивый;</blockquote>
+  [6692] <blockquote>бүткүл элдик всенародный;</blockquote>
+
+[10] support=43 | tokens=4 | informative=2
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем точка
+  [507] <blockquote>адал диндүү правоверный.</blockquote>
+  [1208] <blockquote>акын сөрөй стихоплёт.</blockquote>
+  [3249] <blockquote>ашыра өндүрүш перепроизводство.</blockquote>
+  [4340] <blockquote>башкы командачы главнокомандующий.</blockquote>
+  [4398] <blockquote>башы кылжырайган кривошеий.</blockquote>
+
+[11] support=39 | tokens=3 | informative=2
+KY_RUN_2 RU_RUN_2 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 2 русских токена, затем точка
+  [5513] <blockquote>биргелешкен билдирүү совместное заявление.</blockquote>
+  [6396] <blockquote>буралган сулуу жеманная красавица.</blockquote>
+  [7739] <blockquote>жагымсыз эстелик неприятные воспоминания.</blockquote>
+  [7766] <blockquote>жазайылдуу мүшкүл мучительная трудность.</blockquote>
+  [8296] <blockquote>жандуу жетекчилик живое руководство.</blockquote>
+
+[12] support=31 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_2 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [4751] <blockquote>берүү тийиш необходимо дать;</blockquote>
+  [7808] <blockquote>жазуу сабагы урок письма;</blockquote>
+  [10659] <blockquote>иймараттын проектиси проект здания;</blockquote>
+  [11162] <blockquote>ишенүү кыйын трудно поверить;</blockquote>
+  [11670] <blockquote>кайнатылуу шор беда неминучая;</blockquote>
+
+[13] support=26 | tokens=4 | informative=2
+RU_RUN_1 AMB_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 русских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка с запятой
+  [10746] <blockquote>илимий даража учёная степень;</blockquote>
+  [10800] <blockquote>инфекциялык оорулар инфекционные заболевания;</blockquote>
+  [14786] <blockquote>конференциянын ачылышы открытие конференции;</blockquote>
+  [18691] <blockquote>маданий коом культурное общество;</blockquote>
+  [18693] <blockquote>маданий курулуш культурное строительство;</blockquote>
+
+[14] support=23 | tokens=6 | informative=3
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка с запятой
+  [985] <blockquote>ак ниеттүүлүк честность, добросовестность;</blockquote>
+  [2420] <blockquote>артык тууган высокородный, благородный;</blockquote>
+  [2545] <blockquote>асыл тукумдуу породистый, чистопородный;</blockquote>
+  [3105] <blockquote>ач көз жадный, завистливый;</blockquote>
+  [3611] <blockquote>бал сөздүү медоточивый, сладкоречивый;</blockquote>
+
+[15] support=22 | tokens=4 | informative=3
+RU_RUN_1 KY_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 русских токена, затем 1 кыргызских токена, затем 2 русских токена, затем точка
+  [6946] <blockquote>графиктен озуп опережая график.</blockquote>
+  [7485] <blockquote>духовный кулчулук духовное рабство.</blockquote>
+  [10801] <blockquote>информациялык билдирүү информационное сообщение.</blockquote>
+  [14120] <blockquote>коалициялык өкмөт коалиционное правительство.</blockquote>
+  [16162] <blockquote>крепостной дыйкан крепостной крестьянин.</blockquote>
+
+[16] support=22 | tokens=4 | informative=2
+RU_RUN_1 AMB_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 русских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка
+  [9647] <blockquote>жошодой кызыл очень красный.</blockquote>
+  [10412] <blockquote>заказной кат заказное письмо.</blockquote>
+  [10750] <blockquote>илимий наам учёное звание.</blockquote>
+  [10799] <blockquote>инфекциялык оорукана инфекционная больница.</blockquote>
+  [10850] <blockquote>ирригациялык курулуш ирригационное сооружение.</blockquote>
+
+[17] support=21 | tokens=3 | informative=2
+KY_RUN_1 RU_RUN_34 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 3-4 русских токена, затем точка с запятой
+  [5915] <blockquote>борбордук комитет центральный комитет;</blockquote>
+  [7306] <blockquote>деңиз флоту морской флот;</blockquote>
+  [7575] <blockquote>дүң продукция валовая продукция;</blockquote>
+  [9601] <blockquote>жооптуулук сезими чувство ответственности;</blockquote>
+  [9714] <blockquote>жугуштуу илдет заразная болезнь;</blockquote>
+
+[18] support=20 | tokens=4 | informative=2
+KY_RUN_2 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [6523] <blockquote>буудайдын түшүмү урожай пшеницы;</blockquote>
+  [6618] <blockquote>бүйрө кумтуланып плотно запахнувшись;</blockquote>
+  [6637] <blockquote>бүлкүлдөтө жүргүлө поезжайте трусцой;</blockquote>
+  [11095] <blockquote>ичтен тынып внутренне переживая;</blockquote>
+  [12755] <blockquote>караргандай түнөрүп замыслив коварство;</blockquote>
+
+[19] support=19 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем запятая, затем 2 русских токена, затем точка с запятой
+  [3467] <blockquote>бажактаган жигит живой, жизнерадостный парень;</blockquote>
+  [6039] <blockquote>бөкөн желиш размеренная, спокойная рысь;</blockquote>
+  [9126] <blockquote>жергиликтүү эл местное, коренное население;</blockquote>
+  [10228] <blockquote>жылдыздуу бала приятный, славный ребёнок;</blockquote>
+  [10326] <blockquote>жымсалдуу аял аккуратная, опрятная женщина;</blockquote>
+
+[20] support=19 | tokens=5 | informative=3
+KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка с запятой
+  [3591] <blockquote>бакылдаган горластый, крикливый;</blockquote>
+  [4144] <blockquote>басалгалуу степенный, спокойный;</blockquote>
+  [6623] <blockquote>бүкмөлүү скрытый, тайный;</blockquote>
+  [7183] <blockquote>дасыбаган неопытный, неискушённый;</blockquote>
+  [9940] <blockquote>жүлүндөй тоненький, стройный;</blockquote>
+
+[21] support=18 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_2 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских токена, затем точка
+  [5976] <blockquote>бошонуунун жолу способ освободиться.</blockquote>
+  [6768] <blockquote>былчыйып отур неуклюже сидеть.</blockquote>
+  [7424] <blockquote>дөбөлөнгөн кызылча груды свёклы.</blockquote>
+  [8727] <blockquote>жаштоо бала дитя малое.</blockquote>
+  [9209] <blockquote>жетилүү аттестаты аттестат зрелости.</blockquote>
+
+[22] support=17 | tokens=6 | informative=3
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка с запятой
+  [2233] <blockquote>ар бирөө каждый из них;</blockquote>
+  [11233] <blockquote>иштеги оперативдүүлүк оперативность в работе;</blockquote>
+  [11562] <blockquote>казатка аттанып отправившись на войну;</blockquote>
+  [11585] <blockquote>кай бирлери некоторые из них;</blockquote>
+  [11726] <blockquote>кайсы бирлери некоторые из них;</blockquote>
+
+[23] support=17 | tokens=4 | informative=2
+AMB_RUN_2 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [2990] <blockquote>аты уйкашым мой тёзка;</blockquote>
+  [4572] <blockquote>бей ата без отца;</blockquote>
+  [4683] <blockquote>белин курчады он опоясался;</blockquote>
+  [4786] <blockquote>бети ачылды он разоблачён;</blockquote>
+  [4895] <blockquote>беш кокон один рубль;</blockquote>
+
+[24] support=17 | tokens=3 | informative=2
+KY_RUN_1 RU_RUN_34 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 3-4 русских токена, затем точка
+  [2731] <blockquote>атактуу звеновой знатный звеньевой.</blockquote>
+  [8726] <blockquote>жаштардын форуму форум молодёжи.</blockquote>
+  [15931] <blockquote>көптүрүлгөн цифралар дутые цифры.</blockquote>
+  [18803] <blockquote>майрыйган керебет колченогая кровать.</blockquote>
+  [22225] <blockquote>өкмөттүк делегация правительственная делегация.</blockquote>
+
+[25] support=16 | tokens=4 | informative=2
+KY_RUN_2 AMB_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка с запятой
+  [1766] <blockquote>алдыңкы катардагы жумушчу передовой рабочий;</blockquote>
+  [1875] <blockquote>алынып келинген кой приведённая овца;</blockquote>
+  [1883] <blockquote>алып учкан кыял пылкое воображение;</blockquote>
+  [8972] <blockquote>жеңил өнөр жай лёгкая промышленность;</blockquote>
+  [15125] <blockquote>көз кайкыткан талаа необъятная степь;</blockquote>
+
+[26] support=16 | tokens=3 | informative=2
+KY_RUN_2 RU_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем точка с запятой
+  [1882] <blockquote>алып таштоо снятие;</blockquote>
+  [3913] <blockquote>балык көз блёстка;</blockquote>
+  [6015] <blockquote>бөдөнөнүн чөжөсү перепелёнок;</blockquote>
+  [7399] <blockquote>доңуздун түгү щетина;</blockquote>
+  [13659] <blockquote>керстендей керилген важничающий;</blockquote>
+
+[27] support=15 | tokens=3 | informative=2
+KY_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем точка с запятой
+  [6053] <blockquote>бөлүнбөс неделимый;</blockquote>
+  [9912] <blockquote>жүзүктөй стройный;</blockquote>
+  [13302] <blockquote>келберсиген дородный;</blockquote>
+  [17811] <blockquote>кыйпычыктаган вертлявый;</blockquote>
+  [23424] <blockquote>салпайган растрёпа;</blockquote>
+
+[28] support=14 | tokens=5 | informative=3
+KY_RUN_1 AMB_RUN_2 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [5112] <blockquote>билүүңчө кыл делай как знаешь;</blockquote>
+  [5534] <blockquote>бирден киргиле входите по одному;</blockquote>
+  [6389] <blockquote>булчуңдары бултулдады мускулы его двигались;</blockquote>
+  [6619] <blockquote>бүйүрмө баштык мешочек на вдёржке;</blockquote>
+  [8388] <blockquote>жаныңды койбойт покоя нет никакого;</blockquote>
+
+[29] support=14 | tokens=3 | informative=2
+KY_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем точка
+  [6632] <blockquote>бүкшүгөн затхлый.</blockquote>
+  [8712] <blockquote>жашаңкыраган пожилой.</blockquote>
+  [10289] <blockquote>жылмаңдаган вкрадчивый.</blockquote>
+  [13619] <blockquote>керейген заносчивый.</blockquote>
+  [13630] <blockquote>керенеленген окаймлённый.</blockquote>
+
+[30] support=13 | tokens=3 | informative=2
+KY_RUN_2 RU_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем точка
+  [6689] <blockquote>бүткүл союздук всесоюзный.</blockquote>
+  [10086] <blockquote>жүрөктүн дүлөйү предсердие.</blockquote>
+  [10461] <blockquote>заң баскан заржавевший.</blockquote>
+  [12203] <blockquote>кандуу тиштүү кровожадный.</blockquote>
+  [15149] <blockquote>көз мелжиткен необозримый.</blockquote>
+
+[31] support=12 | tokens=4 | informative=2
+AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [4216] <blockquote>батымы жок неуживчивый;</blockquote>
+  [6981] <blockquote>даамы жок невкусный;</blockquote>
+  [14410] <blockquote>кол менен рукой;</blockquote>
+  [21843] <blockquote>ошон үчүн потому;</blockquote>
+  [26994] <blockquote>токтоосу жок несдержанный;</blockquote>
+
+[32] support=12 | tokens=7 | informative=4
+AMB_RUN_1 HYPH AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем дефис, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [4860] <blockquote>бетме-бет лицом к лицу;</blockquote>
+  [7035] <blockquote>дал-дал изодранный в клочья;</blockquote>
+  [8932] <blockquote>жеме-жука упрёки и попрёки;</blockquote>
+  [11826] <blockquote>какап-чакап давясь и задыхаясь;</blockquote>
+  [11827] <blockquote>какап-чачап подавившись и поперхнувшись;</blockquote>
+
+[33] support=12 | tokens=6 | informative=3
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка
+  [897] <blockquote>ак бейилдүү добрый, отзывчивый.</blockquote>
+  [2336] <blockquote>арам ойлуу злонамеренный, коварный.</blockquote>
+  [3076] <blockquote>атыр жыттуу благовонный, ароматичный.</blockquote>
+  [3609] <blockquote>бал кептүү медоточивый, сладкоречивый.</blockquote>
+  [5358] <blockquote>бир өңкөй одинаковый, однообразный.</blockquote>
+
+[34] support=12 | tokens=6 | informative=3
+AMB_RUN_2 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [6832] <blockquote>бышты кунажын тёлка по четвёртому году;</blockquote>
+  [8021] <blockquote>жалама зоо высокая и гладкая скала;</blockquote>
+  [16531] <blockquote>кунан кой овца по четвёртому году;</blockquote>
+  [16532] <blockquote>кунан кунажын тёлка по третьему году;</blockquote>
+  [18155] <blockquote>кыр таш камень с острыми гранями;</blockquote>
+
+[35] support=12 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [2373] <blockquote>аркан кердим я растянул верёвку;</blockquote>
+  [9262] <blockquote>жигердүү иштейт он самоотверженно работает;</blockquote>
+  [14908] <blockquote>коркуп кеттим я вдруг испугался;</blockquote>
+  [15363] <blockquote>көзүн жаштады он проливал слёзы;</blockquote>
+  [16074] <blockquote>көтөрүлүп койду он проявил самонадеянность;</blockquote>
+
+[36] support=12 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_2 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [3185] <blockquote>ачыткан боорсок баурсаки из кислого теста;</blockquote>
+  [8617] <blockquote>жарытымдуу тамак ичпейт он питается недостаточно;</blockquote>
+  [9120] <blockquote>жергиликтүү убакыт боюнча по местному времени;</blockquote>
+  [11386] <blockquote>кабарып ачуусу келди он очень обозлился;</blockquote>
+  [15812] <blockquote>көңүлүн чайыттай ачты он очень повеселел;</blockquote>
+
+[37] support=12 | tokens=4 | informative=2
+AMB_RUN_2 KY_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем 1 кыргызских токена, затем 2 русских токена, затем точка с запятой
+  [1672] <blockquote>алга кадам шилтөө продвижение вперёд;</blockquote>
+  [3165] <blockquote>ачык добуш берүү открытое голосование;</blockquote>
+  [5698] <blockquote>боз баш катын разбитная бабёнка;</blockquote>
+  [8130] <blockquote>жалпы эл каттоо всенародная перепись;</blockquote>
+  [8779] <blockquote>жашырын добуш берүү тайное голосование;</blockquote>
+
+[38] support=12 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_1 RU_RUN_34 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 3-4 русских токена, затем точка с запятой
+  [8469] <blockquote>жапкан токоч небольшая толстая лепёшка;</blockquote>
+  [10335] <blockquote>жыңайлак катташ тайная любовная связь;</blockquote>
+  [11897] <blockquote>калдаңдаган каз неуклюжий грузный гусь;</blockquote>
+  [15690] <blockquote>көмкөрмөлүү казан особый дорожный котёл;</blockquote>
+  [16961] <blockquote>күзгүдөй муз зеркально гладкий лёд;</blockquote>
+
+[39] support=9 | tokens=7 | informative=5
+KY_RUN_1 RUF_RUN_1 TOZHE=же COMMA RUF_RUN_1 WL DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских служебных токена, затем маркер 'же', затем запятая, затем 1 русских служебных токена, затем ссылка на слово, затем точка
+  [3846] <blockquote>балжайган то же, что <wordLink word="балжагай"/>.</blockquote>
+  [7613] <blockquote>дылдыраган то же, что <wordLink word="дылдырак"/>.</blockquote>
+  [14800] <blockquote>коңкойгон то же, что <wordLink word="коңкогой"/>.</blockquote>
+  [16645] <blockquote>куржуйган то же, что <wordLink word="куржук"/>.</blockquote>
+  [20273] <blockquote>мыкырайган то же, что <wordLink word="мыкыракай"/>.</blockquote>
+
+[40] support=11 | tokens=5 | informative=3
+KY_RUN_2 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка с запятой
+  [8803] <blockquote>жебедей созулуп вытянувшись как стрела;</blockquote>
+  [12680] <blockquote>караанын үзүп скрывшись из виду;</blockquote>
+  [13011] <blockquote>катарыңарды түзөгүлө встаньте в ряды;</blockquote>
+  [13258] <blockquote>кейигенден күйүнүп огорчаясь и досадуя;</blockquote>
+  [22504] <blockquote>өңү сумсайыңкы лицо его мрачновато;</blockquote>
+
+[41] support=10 | tokens=6 | informative=3
+AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [4793] <blockquote>бети жок бессовестный, бесстыдный;</blockquote>
+  [7103] <blockquote>данеги жок бессодержательный, неинтересный;</blockquote>
+  [8611] <blockquote>жарымы жок неспорый, малорезультативный;</blockquote>
+  [10481] <blockquote>зардеси бар энергичный, бодрый;</blockquote>
+  [11910] <blockquote>калети жок безошибочный, правильный;</blockquote>
+
+[42] support=10 | tokens=6 | informative=3
+AMB_RUN_1 KY_RUN_1 KYFUNC_RUN_1 RUF_RUN_1 AMB_RUN_2 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [10928] <blockquote>итке минип калды он совершенно обеднел;</blockquote>
+  [12677] <blockquote>карааны көрүнбөй кетти он исчез бесследно;</blockquote>
+  [16486] <blockquote>култуюп таарынып калды он затаил обиду;</blockquote>
+  [19529] <blockquote>мени такалап кетти он меня надул;</blockquote>
+  [20079] <blockquote>мурдун көтөрүп калды он нос задрал;</blockquote>
+
+[43] support=11 | tokens=4 | informative=2
+KY_RUN_2 AMB_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка
+  [5101] <blockquote>билимдин тереңдиги глубина знаний.</blockquote>
+  [8937] <blockquote>жемелүү сөз слова упрёка.</blockquote>
+  [10627] <blockquote>ийгилик чыңдалууда успех закрепляется.</blockquote>
+  [10803] <blockquote>иңген кайытуу случка верблюдицы.</blockquote>
+  [11101] <blockquote>ичтүүлүк өлчөөсү мера ёмкости.</blockquote>
+
+[44] support=11 | tokens=4 | informative=2
+KY_RUN_2 RUF_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка с запятой
+  [7580] <blockquote>дүңү чыккан он прославился;</blockquote>
+  [17142] <blockquote>күн жүрүштө на юге;</blockquote>
+  [17308] <blockquote>күнөөсүз жерден без вины;</blockquote>
+  [17313] <blockquote>күнү бүгүн вот сегодня;</blockquote>
+  [19058] <blockquote>маңдайга түшсө если суждено;</blockquote>
+
+[45] support=11 | tokens=4 | informative=2
+KY_RUN_34 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [7151] <blockquote>дарданган чоң үй огромный дом;</blockquote>
+  [13482] <blockquote>кең көкүрөк дардаң широкогрудый здоровяк;</blockquote>
+  [15893] <blockquote>көп маанилүү сөз многозначное слово;</blockquote>
+  [15910] <blockquote>көп этаждуу үй многоэтажный дом;</blockquote>
+  [21118] <blockquote>оң айткан сөз дельное слово;</blockquote>
+
+[46] support=10 | tokens=7 | informative=4
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [5550] <blockquote>бирдин бири единственный в своём роде;</blockquote>
+  [6401] <blockquote>бураң бел тонкая и гибкая талия;</blockquote>
+  [7426] <blockquote>дөнөн кой овца по пятому году;</blockquote>
+  [12414] <blockquote>каптын буугучу верёвочка для завязывания мешка;</blockquote>
+  [14815] <blockquote>коңур салкын лёгкая и приятная прохлада;</blockquote>
+
+[47] support=10 | tokens=5 | informative=3
+KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка с запятой
+  [6688] <blockquote>бүткүл дүйнөлүк всемирный, мировой;</blockquote>
+  [14028] <blockquote>кичи пейилдүүлүк вежливость, учтивость;</blockquote>
+  [15756] <blockquote>көңүл коштук равнодушие, безразличие;</blockquote>
+  [16008] <blockquote>көрөр көз ненаглядный, любимый;</blockquote>
+  [20217] <blockquote>мүнөзү тоң упрямый, несговорчивый;</blockquote>
+
+[48] support=10 | tokens=5 | informative=3
+RU_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 русских токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [6928] <blockquote>географиялык чөйрө географическая среда;</blockquote>
+  [6929] <blockquote>географиялык чөйрө географическая среда;</blockquote>
+  [7486] <blockquote>духовный тазалык духовная чистота;</blockquote>
+  [18212] <blockquote>кыргый үкү ястребиная сова;</blockquote>
+  [18213] <blockquote>кыргый үкү ястребиная сова;</blockquote>
+
+[49] support=10 | tokens=4 | informative=2
+AMB_RUN_34 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+  [1304] <blockquote>ал кабар чындыкка чыкты это сообщение подтвердилось;</blockquote>
+  [3155] <blockquote>ачуусу мурдунун учунда он очень вспыльчив;</blockquote>
+  [7484] <blockquote>дуулдап мас болушту они сильно опьянели;</blockquote>
+  [9160] <blockquote>жери сугат райондор районы с орошаемой землёй;</blockquote>
+  [17936] <blockquote>кылгысы келбейт ему не хочется делать;</blockquote>
+
+[50] support=10 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка
+  [14129] <blockquote>кодоо жара геморрой.</blockquote>
+  [16076] <blockquote>көтөрүлүш чыгаргандар повстанцы.</blockquote>
+  [17070] <blockquote>күлүмчү жыт зловоние.</blockquote>
+  [22644] <blockquote>өткөн жылкы прошлогодний.</blockquote>
+  [25063] <blockquote>сүйрү жаак длиннолицый.</blockquote>
+
+[51] support=10 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_2 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 2 русских токена, затем точка с запятой
+  [7601] <blockquote>дүрт этме заттар взрывчатые вещества;</blockquote>
+  [17183] <blockquote>күн сергиди погода немного прояснилась;</blockquote>
+  [17952] <blockquote>кылкандай жаш балдар стройные пареньки;</blockquote>
+  [19831] <blockquote>моокуңду кандыр утоли своё желание;</blockquote>
+  [20412] <blockquote>мырзалык жаш годы цветущей молодости;</blockquote>
+
+[52] support=10 | tokens=4 | informative=2
+KY_RUN_2 RUF_RUN_1 AMB_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских служебных токена, затем 2 неоднозначных токена, затем точка с запятой
+  [7305] <blockquote>деңиз деңгелинен над уровнем моря;</blockquote>
+  [7635] <blockquote>дыңылдап калыптырмын я стал бодрым;</blockquote>
+  [10804] <blockquote>иңир жамынып под прикрытием сумерек;</blockquote>
+  [13486] <blockquote>кең түрдө в широких размерах;</blockquote>
+  [13734] <blockquote>кетүүгө ыңгайланды он приготовился уйти;</blockquote>
+
+[53] support=9 | tokens=6 | informative=4
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [4173] <blockquote>басмырт капалуу подавленный и печальный;</blockquote>
+  [8287] <blockquote>жанга көрүнбөй никому не показываясь;</blockquote>
+  [11509] <blockquote>кадырын салып использовав свой авторитет;</blockquote>
+  [13877] <blockquote>килемге олтуруңуз садитесь на ковёр;</blockquote>
+  [20480] <blockquote>назарга алып принимая во внимание;</blockquote>
+
+[54] support=9 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [13484] <blockquote>кең пейилдик сөздөр великодушные слова;</blockquote>
+  [15131] <blockquote>көз каранды өлкөлөр зависимые страны;</blockquote>
+  [15132] <blockquote>көз каранды өлкөлөр зависимые страны;</blockquote>
+  [18559] <blockquote>лепилдеген эрке мүнөз легкомысленный характер;</blockquote>
+  [22446] <blockquote>өнөр жай товарлары промышленные товары;</blockquote>
+
+[55] support=9 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 2 неоднозначных токена, затем точка с запятой
+  [9127] <blockquote>жергилнктүү башкарма органдары местные органы управления;</blockquote>
+  [9863] <blockquote>жүгөрүнүн гибриддик уруктары гибридные семена кукурузы;</blockquote>
+  [19254] <blockquote>мектептин курулушу аяктаган строительство школы закончено;</blockquote>
+  [22162] <blockquote>өзүнө таандык белгилери присущие ему признаки;</blockquote>
+  [25049] <blockquote>сүйлөмдүн айкындооч мүчөлөрү второстепенные члены предложения;</blockquote>
+
+[56] support=9 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка с запятой
+  [6645] <blockquote>бүпбүтүн совершенно целый, целёхонький;</blockquote>
+  [11439] <blockquote>кагылбаган мало испытавший, неопытный;</blockquote>
+  [11469] <blockquote>кадимден берки давний, древний;</blockquote>
+  [13513] <blockquote>кеңүлдүн кири печаль, огорчение;</blockquote>
+  [14024] <blockquote>кичи бейилдик вежливость, любезность;</blockquote>
+
+[57] support=9 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка
+  [7379] <blockquote>дойбучулардын мелдеши соревнование по шашкам.</blockquote>
+  [8983] <blockquote>жеңилчек сал качаться на качелях.</blockquote>
+  [9702] <blockquote>жөргөлөто кой поставить в ряд.</blockquote>
+  [9852] <blockquote>жүгөндөлүү ат лошадь в узде.</blockquote>
+  [20136] <blockquote>мурунтуктуу торпок телёнок на поводке.</blockquote>
+
+[58] support=9 | tokens=5 | informative=3
+KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка
+  [6740] <blockquote>быкыган многочисленный, кишащий.</blockquote>
+  [11895] <blockquote>калдактаган суетливый, суматошный.</blockquote>
+  [15829] <blockquote>көөкөрдөй маленький, крохотный.</blockquote>
+  [16983] <blockquote>күйкөлөктөнбөс невозмутимый, бесстрастный.</blockquote>
+  [18336] <blockquote>кыскачалап коротенько, вкратце.</blockquote>
+
+[59] support=8 | tokens=6 | informative=3
+KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [4116] <blockquote>барып турган акмак круглый дурак;</blockquote>
+  [10105] <blockquote>жүрүп турган закондор действующие законы;</blockquote>
+  [13656] <blockquote>керстендей болгон киши полный человек;</blockquote>
+  [21517] <blockquote>орден менен сыйлангандар награждённые орденами;</blockquote>
+  [27718] <blockquote>туруктуу окуу китеби стабильный учебник;</blockquote>
+
+[60] support=9 | tokens=4 | informative=2
+AMB_RUN_2 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+  [1665] <blockquote>албай койбойт он обязательно возьмёт;</blockquote>
+  [3270] <blockquote>аябай жедим я много съел;</blockquote>
+  [3271] <blockquote>аябай кургагыча до полного высыхания;</blockquote>
+  [7777] <blockquote>жазганы отурам я собираюсь писать;</blockquote>
+  [9842] <blockquote>жуук арада в недалёком будущем;</blockquote>
+
+[61] support=9 | tokens=4 | informative=2
+KY_RUN_1 RU_RUN_2 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [4334] <blockquote>башкаруу формасы форма правления;</blockquote>
+  [9598] <blockquote>жооптуу милдет ответственная задача;</blockquote>
+  [12000] <blockquote>калың токой густой лес;</blockquote>
+  [24012] <blockquote>серптирген мурут подстриженные усы;</blockquote>
+  [24125] <blockquote>Советтердин съезди съезд Советов;</blockquote>
+
+[62] support=8 | tokens=6 | informative=4
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+  [6515] <blockquote>буудай кызылда обмолачивать и отвеивать пшеницу;</blockquote>
+  [7098] <blockquote>дандуу жоогазын тюльпан с крупной луковицей;</blockquote>
+  [9939] <blockquote>жүлүндөй ат поджарый и стройный конь;</blockquote>
+  [10438] <blockquote>залкайган жигит здоровый и стройный парень;</blockquote>
+  [15170] <blockquote>көз чеге гвоздь с выпуклой шляпкой;</blockquote>
+
+[63] support=8 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_2 AMB_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 2 русских токена, затем 1 неоднозначных токена, затем точка
+  [17942] <blockquote>кылдуу музыка аспаптары струнные музыкальные инструменты.</blockquote>
+  [18961] <blockquote>малдын продуктуулугун жогорулатуу повышение продуктивности скота.</blockquote>
+  [22302] <blockquote>өлкөнү туташ электрлештирүү сплошная электрификация страны.</blockquote>
+  [28239] <blockquote>тылдагы аскер бөлүктөрү тыловые воинские части.</blockquote>
+  [28596] <blockquote>уйлардын саандуулугун көтөрүү повышение удойности коров.</blockquote>
+
+[64] support=8 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_2 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 2 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [5632] <blockquote>Биринчи майга энчилеп посвящается Первому мая;</blockquote>
+  [8045] <blockquote>жалган документ жасоо фабрикация фальшивого документа;</blockquote>
+  [8476] <blockquote>жапырайган жаман үй плохонькая низенькая юрта;</blockquote>
+  [10657] <blockquote>ийкемдүү чараларды көрүү принятие надлежащих мер;</blockquote>
+  [12856] <blockquote>карсылдаган салыш башталган началась жестокая потасовка;</blockquote>
+
+[65] support=8 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [3959] <blockquote>бараандуу бою его огромное тело;</blockquote>
+  [10805] <blockquote>иңир киргенде когда спустились сумерки;</blockquote>
+  [22314] <blockquote>өлөсөлүү кемпир чуть живая старуха;</blockquote>
+  [26594] <blockquote>тийиштүү даражада в надлежащей степени;</blockquote>
+  [27875] <blockquote>түбөлүгү туз его будущее обеспечено;</blockquote>
+
+[66] support=8 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_2 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем запятая, затем 2 русских токена, затем точка
+  [7184] <blockquote>дасыган жорго наезженный, несбивающийся иноходец.</blockquote>
+  [8502] <blockquote>жарамдуу ат статная, красивая лошадь.</blockquote>
+  [11863] <blockquote>калаалуу коргон крепость, обнесённая стеной.</blockquote>
+  [13958] <blockquote>кирешелүү чарба доходное, прибыльное хозяйство.</blockquote>
+  [16863] <blockquote>кууралдуу турмуш тяжёлая, безрадостная жизнь.</blockquote>
+
+[67] support=8 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_2 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [24054] <blockquote>сизден ыйбаа кылам я вас стесняюсь;</blockquote>
+  [24509] <blockquote>сөздүн кырдалы келди к слову пришлось;</blockquote>
+  [25082] <blockquote>сүннөт тою пир по случаю обрезания;</blockquote>
+  [25453] <blockquote>тайдын чучугу колбаса из мяса жеребёнка;</blockquote>
+  [25994] <blockquote>тартмалуу стол стол с выдвижным ящиком;</blockquote>
+
+[68] support=8 | tokens=5 | informative=3
+KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [7840] <blockquote>жазып отуру он пишет;</blockquote>
+  [15851] <blockquote>көөнү пас он удручён;</blockquote>
+  [20397] <blockquote>мындан кийин после этого;</blockquote>
+  [21965] <blockquote>өз ара между собой;</blockquote>
+  [27529] <blockquote>төштүн кайкысында под ложечкой;</blockquote>
+
+[69] support=8 | tokens=5 | informative=3
+KY_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+  [691] <blockquote>айдын аягында в конце месяца;</blockquote>
+  [15732] <blockquote>көнүлдүн борборунда в центре внимания;</blockquote>
+  [19603] <blockquote>менин шорума к моему несчастью;</blockquote>
+  [20033] <blockquote>муңканып ыйлайт он горько плачет;</blockquote>
+  [21971] <blockquote>өз атам мой родной отец;</blockquote>
+
+[70] support=8 | tokens=5 | informative=3
+RU_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 1 русских токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка
+  [13637] <blockquote>керзовый өтүк кирзовые сапоги.</blockquote>
+  [14787] <blockquote>концентрат тоюттары концентрированные корма.</blockquote>
+  [23004] <blockquote>провокациялык суроо провокационный вопрос.</blockquote>
+  [23142] <blockquote>руль дөңгөлөгү рулевое колесо.</blockquote>
+  [27295] <blockquote>тоют силостоо силосование корма.</blockquote>
+
+[71] support=8 | tokens=4 | informative=3
+KY_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [5535] <blockquote>бирден по одному;</blockquote>
+  [16192] <blockquote>кубанчы его радость;</blockquote>
+  [20046] <blockquote>мурдаагыдай как раньше;</blockquote>
+  [20049] <blockquote>мурдалап уже заранее;</blockquote>
+  [22135] <blockquote>өзүмдүкү мой собственный;</blockquote>
+
+[72] support=8 | tokens=4 | informative=3
+RU_RUN_1 KY_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 русских токена, затем 1 кыргызских токена, затем 2 русских токена, затем точка с запятой
+  [18690] <blockquote>маданий деңгел культурный уровень;</blockquote>
+  [21777] <blockquote>официалдуу өкүл официальный представитель;</blockquote>
+  [23015] <blockquote>пропорциялуу бөлүнүү пропорциональное деление;</blockquote>
+  [23095] <blockquote>революциялык күрөш революционная борьба;</blockquote>
+  [23098] <blockquote>революциялык кыраакылык революционная бдительность;</blockquote>
+
+[73] support=8 | tokens=4 | informative=2
+AMB_RUN_34 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [4010] <blockquote>бардыгы жыйылды все они собрались;</blockquote>
+  [4742] <blockquote>беришпеске тырыш старайся не поддаваться;</blockquote>
+  [8546] <blockquote>жарконун сорпосу подливка к жаркому;</blockquote>
+  [12625] <blockquote>кара сугат полив земли перед вспашкой;</blockquote>
+  [20288] <blockquote>мылтык атылды выстрелили из ружья;</blockquote>
+
+[74] support=8 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_2 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 2 русских токена, затем точка
+  [1829] <blockquote>алтыдан бир телки шестая часть.</blockquote>
+  [3234] <blockquote>ашыклык ыр песня любовного содержания.</blockquote>
+  [10272] <blockquote>жылкынын метокою особо крепкий конь.</blockquote>
+  [15766] <blockquote>көңүлдөн чыккыс ой неотвязная мысль.</blockquote>
+  [27066] <blockquote>томпоңдогон тоодак грузно двигающаяся дрофа.</blockquote>
+
+[75] support=8 | tokens=4 | informative=2
+RU_RUN_1 AMB_RUN_2 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 русских токена, затем 2 неоднозначных токена, затем 1 русских токена, затем точка
+  [3681] <blockquote>балакет жармашты беда навязалась.</blockquote>
+  [6914] <blockquote>галифе шым брюки галифе.</blockquote>
+  [20604] <blockquote>нафталиндин жыты запах нафталина.</blockquote>
+  [20770] <blockquote>общиналар палатасы палата общин.</blockquote>
+  [23048] <blockquote>пьесанын персонажы персонаж пьесы.</blockquote>
+
+[76] support=7 | tokens=6 | informative=3
+AMB_RUN_34 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [18663] <blockquote>мага тил албай койду он меня не послушался;</blockquote>
+  [19539] <blockquote>мени шорго салба не принеси мне несчастья;</blockquote>
+  [20025] <blockquote>мунусу калыстыкка жатат в этом его беспристрастность;</blockquote>
+  [23158] <blockquote>саа эчтеме тийбейт тебе ничего не достанется;</blockquote>
+  [25277] <blockquote>сыра иш кылбайт он ничего не делает;</blockquote>
+
+[77] support=7 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка с запятой
+  [3412] <blockquote>баатырлардын сарасы лучший из богатырей;</blockquote>
+  [3594] <blockquote>бакынын баары всё и вся;</blockquote>
+  [15615] <blockquote>көктөй тунук чистый как небо;</blockquote>
+  [18099] <blockquote>кымындай окшобойт ничуть не похож;</blockquote>
+  [18106] <blockquote>кынадай кызыл красный как хна;</blockquote>
+
+[78] support=7 | tokens=6 | informative=3
+KY_RUN_2 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [17109] <blockquote>күн баткандан кийин после захода солнца;</blockquote>
+  [17212] <blockquote>күн чыгардын алдында перед восходом солнца;</blockquote>
+  [17389] <blockquote>күрдөлү малдын баарысы весь скот целиком;</blockquote>
+  [25830] <blockquote>таң кылайып атканда когда забрезжит рассвет;</blockquote>
+  [26732] <blockquote>тинтүүнү талап кылышты они потребовали расследования;</blockquote>
+
+[79] support=7 | tokens=6 | informative=3
+KY_RUN_2 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [9945] <blockquote>жүн чулгоо портянки из шерстяной материи;</blockquote>
+  [15369] <blockquote>көзүн кылгыртып карайт он умильно смотрит;</blockquote>
+  [17088] <blockquote>күмүш жүгөн уздечка с серебряными украшениями;</blockquote>
+  [21001] <blockquote>олимпиаданын республикалык кароосунда на республиканской олимпиаде;</blockquote>
+  [25864] <blockquote>таңды таң аткыча до самого рассвета;</blockquote>
+
+[80] support=7 | tokens=6 | informative=3
+KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем 1 неоднозначных токена, затем точка
+  [3231] <blockquote>ашыгычтуу күн беспокойное, напряжённое время.</blockquote>
+  [9646] <blockquote>жотолуу өгүз сильный, кряжистый бык.</blockquote>
+  [11846] <blockquote>какшыктуу сөздөр ехидные, язвительные слова.</blockquote>
+  [12324] <blockquote>каңкыйган үй пустой, необитаемый дом.</blockquote>
+  [15499] <blockquote>көйүткөн сөздөр успокаивающие, усыпляющие слова.</blockquote>
+
+[81] support=7 | tokens=6 | informative=3
+KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [7898] <blockquote>жайсалдуу сөз дельное, толковое слово;</blockquote>
+  [15469] <blockquote>көй күлүк знаменитый, выдающийся скакун;</blockquote>
+  [19089] <blockquote>маңыздуу сөз дельное, толковое слово;</blockquote>
+  [19949] <blockquote>мукамдуу күү приятная, ритмичная мелодия;</blockquote>
+  [25035] <blockquote>сүйкүм көз приятные, милые глаза;</blockquote>
+
+[82] support=7 | tokens=5 | informative=3
+AMB_RUN_1 RU_RUN_1 HYPH RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 русских токена, затем дефис, затем 1 русских токена, затем точка с запятой
+  [9805] <blockquote>жунжумшак мягкий-мягкий;</blockquote>
+  [9811] <blockquote>жупжука тонкий-тонкий;</blockquote>
+  [12397] <blockquote>капкара чёрный-чёрный;</blockquote>
+  [13559] <blockquote>кепкенен просторный-просторный;</blockquote>
+  [16563] <blockquote>купкургак сухой-сухой;</blockquote>
+
+[83] support=7 | tokens=5 | informative=3
+AMB_RUN_34 RU_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [9792] <blockquote>жумушчулар жана жумушчу аялдар рабочие и работницы;</blockquote>
+  [10980] <blockquote>ичер суум куруптур пришёл мне конец;</blockquote>
+  [13072] <blockquote>катынга касап жестоко обращающийся с женой;</blockquote>
+  [23610] <blockquote>сары чийкил жигит парень с румянцем;</blockquote>
+  [24789] <blockquote>сурап алма кат письмо до востребования;</blockquote>
+
+[84] support=7 | tokens=5 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем точка с запятой
+  [1850] <blockquote>алтындын буусуна кармаган позолоченный;</blockquote>
+  [17286] <blockquote>күндүн нуру лучи солнца;</blockquote>
+  [21966] <blockquote>өз ара салык самообложение;</blockquote>
+  [21969] <blockquote>өз ара түшүнүү взаимопонимание;</blockquote>
+  [22579] <blockquote>өрдөк баш балык щука;</blockquote>
+
+[85] support=6 | tokens=6 | informative=3
+AMB_RUN_1 KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [11118] <blockquote>иш карылап кетти дело затянулось;</blockquote>
+  [11141] <blockquote>иш создугуп кетти дело затянулось;</blockquote>
+  [20847] <blockquote>ойлоп көрүү керек нужно подумать;</blockquote>
+  [23189] <blockquote>саат жатып калды часы остановились;</blockquote>
+  [24902] <blockquote>суу тунуп калды вода отстоялась;</blockquote>
+
+[86] support=7 | tokens=4 | informative=2
+AMB_RUN_2 HYPH RU_RUN_1 SEMI
+explanation: структурный шаблон: 2 неоднозначных токена, затем дефис, затем 1 русских токена, затем точка с запятой
+  [8466] <blockquote>жапжашыл ярко-зелёный;</blockquote>
+  [11875] <blockquote>калам шилте-писать;</blockquote>
+  [13268] <blockquote>кек ал-отомстить;</blockquote>
+  [31718] <blockquote>ый ыйла-плакать;</blockquote>
+  [31932] <blockquote>ыракмат айт-благодарить;</blockquote>
+
+[87] support=7 | tokens=4 | informative=2
+AMB_RUN_34 HYPH RU_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем дефис, затем 1 русских токена, затем точка с запятой
+  [971] <blockquote>ак кызыл светло-сивый;</blockquote>
+  [3109] <blockquote>ач кызыл светло-красный;</blockquote>
+  [3168] <blockquote>ачык кызыл ярко-красный;</blockquote>
+  [13651] <blockquote>кермек даам кисло-горький;</blockquote>
+  [17697] <blockquote>кызыл тору светло-гнедой;</blockquote>
+
+[88] support=7 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_2 RU_RUN_34 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 3-4 русских токена, затем точка с запятой
+  [11454] <blockquote>кагыраган тезек совершенно сухой конский помёт;</blockquote>
+  [13087] <blockquote>катыңкы кара жигит худощавый смуглый парень;</blockquote>
+  [22827] <blockquote>партиялык баштапкы уюм первичная партийная организация;</blockquote>
+  [28342] <blockquote>тыртайган арык ат тощая костлявая лошадь;</blockquote>
+  [29195] <blockquote>үй бейпилин жогот нарушать домашний покой;</blockquote>
+
+[89] support=7 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_34 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 3-4 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+  [7441] <blockquote>дөөлөт кушу конду ему привалило счастье;</blockquote>
+  [12011] <blockquote>калыстыгыңызга баракелди хвала вашей беспристрастности;</blockquote>
+  [12926] <blockquote>карылык каршы келди наступила старость;</blockquote>
+  [14805] <blockquote>коңулдагы кара жылан змея подколодная;</blockquote>
+  [16116] <blockquote>көчөлөрду суу каптады вода затопила улицы;</blockquote>
+
+[90] support=7 | tokens=4 | informative=2
+KY_RUN_2 AMB_RUN_1 RU_RUN_34 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 3-4 русских токена, затем точка с запятой
+  [12422] <blockquote>капчыгайдын каңгыраган ээндиги безжизненное пространство ущелья;</blockquote>
+  [16930] <blockquote>күбүккөн жүрөк басылды опечаленное сердце успокоилось;</blockquote>
+  [19573] <blockquote>менин көңүлүм толкуду моё сердце взволновалось;</blockquote>
+  [20133] <blockquote>мурунтан ойлонулган пикир заранее продуманная мысль;</blockquote>
+  [23073] <blockquote>райондук аткаруу комитети районный исполнительный комитет;</blockquote>
+
+[91] support=7 | tokens=3 | informative=2
+KY_RUN_34 RU_RUN_2 SEMI
+explanation: структурный шаблон: 3-4 кыргызских токена, затем 2 русских токена, затем точка с запятой
+  [6695] <blockquote>бүтүк жактан жетиштүү полностью обеспеченный;</blockquote>
+  [13116] <blockquote>качып кеткен бүркүт улетевший беркут;</blockquote>
+  [15714] <blockquote>көмүр көөсүндөй караңгылык тьма непроглядная;</blockquote>
+  [15875] <blockquote>көп балалуу бүлө многодетная семья;</blockquote>
+  [22077] <blockquote>өздүк көркөм чыгармачылык художественная самодеятельность;</blockquote>
+
+[92] support=6 | tokens=4 | informative=2
+KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 кыргызских связочных токена, затем 1 неоднозначных токена, затем точка
+  [12041] <blockquote>камкордук менен заботливо.</blockquote>
+  [22852] <blockquote>пассивдүүлүк менен пассивно.</blockquote>
+  [25575] <blockquote>таланттуулук менен талантливо.</blockquote>
+  [27817] <blockquote>тууралык менен честно.</blockquote>
+  [28859] <blockquote>усталык менен мастерски.</blockquote>
+
+[93] support=6 | tokens=4 | informative=2
+KY_RUN_2 KYFUNC_RUN_1 AMB_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 кыргызских связочных токена, затем 2 неоднозначных токена, затем точка с запятой
+  [10014] <blockquote>жүрөгүм айланып турат меня тошнит;</blockquote>
+  [13292] <blockquote>кекээрдеген үн менен ехидным тоном;</blockquote>
+  [17123] <blockquote>күн бүркөлүп турат погода хмурится;</blockquote>
+  [25107] <blockquote>сүт ташып кетти молоко сбежало;</blockquote>
+  [29327] <blockquote>үймөк өрттөнүп кетти стог загорелся;</blockquote>
+
+[94] support=6 | tokens=8 | informative=4
+AMB_RUN_1 KY_RUN_1 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [1476] <blockquote>ал эбиңден чыкпайт он тебя не ослушается;</blockquote>
+  [2796] <blockquote>атка ыргып минди он вскочил на лошадь;</blockquote>
+  [4324] <blockquote>башка чапкандай уктады он спал как убитый;</blockquote>
+  [4680] <blockquote>белимди ычкынтып алдым я надсадил себе поясницу;</blockquote>
+  [7989] <blockquote>жакшылыкка алып келбейт к добру не приведёт;</blockquote>
+
+[95] support=6 | tokens=7 | informative=4
+KY_RUN_1 AMB_RUN_1 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [2802] <blockquote>аткарып ийди он посадил на лошадь;</blockquote>
+  [15366] <blockquote>көзүн ирмебейт он глазом не моргнёт;</blockquote>
+  [17068] <blockquote>күлүмсүрөй карады он посмотрел с улыбкой;</blockquote>
+  [20445] <blockquote>мээнип уктум я слушал с наслаждением;</blockquote>
+  [22482] <blockquote>өңү бузулду он изменился в лице;</blockquote>
+
+[96] support=6 | tokens=7 | informative=4
+KY_RUN_1 AMB_RUN_2 RUF_RUN_1 AMB_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [11324] <blockquote>каалгып уктап отурат он сидит и дремлет;</blockquote>
+  [16136] <blockquote>көчүгүн ташка койду он сел на камень;</blockquote>
+  [16518] <blockquote>кумсарып ачуусу келди он побледнел от злости;</blockquote>
+  [18351] <blockquote>Кытайдын кыям жагында на юг от Китая;</blockquote>
+  [24729] <blockquote>суктанып карап отурдум я смотрел и восхищался;</blockquote>
+
+[97] support=6 | tokens=6 | informative=4
+AMB_RUN_1 KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка с запятой
+  [14443] <blockquote>колго түшкөн коёндой как загнанный зверь;</blockquote>
+  [16504] <blockquote>кум түлөк беркут после третьей линьки;</blockquote>
+  [18283] <blockquote>кырмызы көйнөк платье из красного шёлка;</blockquote>
+  [26109] <blockquote>таш түлөк беркут после второй линьки;</blockquote>
+  [31786] <blockquote>ыл түлөк беркут после пятой линьки;</blockquote>
+
+[98] support=6 | tokens=6 | informative=4
+KY_RUN_2 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка
+  [3462] <blockquote>бадыраң көз большие и приятные глаза.</blockquote>
+  [11414] <blockquote>кабырганын сүймүлчөгү хрящ на конце ребра.</blockquote>
+  [23648] <blockquote>саяңдоо чөптөр низкорослые и реденькие травы.</blockquote>
+  [25756] <blockquote>тамырдуу көчөт саженец с большим корнем.</blockquote>
+  [28449] <blockquote>угуттуу сөз твёрдое и предупреждающее слово.</blockquote>
+
+[99] support=5 | tokens=8 | informative=4
+KY_RUN_1 AMB_RUN_1 ALT=или KY_RUN_1 AMB_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем альтернатива 'или', затем 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [8293] <blockquote>жандан мурун или жандан мурда раньше всех;</blockquote>
+  [20230] <blockquote>мүрөктүн суусу или мүрөктүн дарысы живая вода;</blockquote>
+  [29173] <blockquote>үзөңгү боо или үзөңгу боолук путлища стремян;</blockquote>
+  [31194] <blockquote>шайтан кысты или шайтан кыстады чёрт подзадорил;</blockquote>
+  [33395] <blockquote>эсептүү доклад или эсептүү баяндама отчётный доклад;</blockquote>
+
+[100] support=6 | tokens=6 | informative=3
+AMB_RUN_1 KY_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [9390] <blockquote>жокту сүйлөйт он мелет чепуху;</blockquote>
+  [19148] <blockquote>материалдык жактан в материальном отношении;</blockquote>
+  [20598] <blockquote>натуралдык чоңдукта в натуральную величину;</blockquote>
+  [23578] <blockquote>сары желимдей как банный лист;</blockquote>
+  [29945] <blockquote>чалгысын чыңайт он отбивает косу;</blockquote>
+
+[101] support=6 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RUF_RUN_1 AMB_RUN_2 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских служебных токена, затем 2 неоднозначных токена, затем точка с запятой
+  [435] <blockquote>абышканын назарын сындырган он обидел старика;</blockquote>
+  [1941] <blockquote>андай болбогон күндө в противном случае;</blockquote>
+  [5060] <blockquote>биздин ыкка көнөт он нам подчинится;</blockquote>
+  [15786] <blockquote>көңүлү сууй түштү он сразу охладел;</blockquote>
+  [19601] <blockquote>менин шегим сенден я подозреваю тебя;</blockquote>
+
+[102] support=6 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_2 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 2 неоднозначных токена, затем точка
+  [8196] <blockquote>жамандын баары серсөвлөт дурные все чванливы.</blockquote>
+  [9864] <blockquote>жүгөрүнүн гибриддик уруктары гибридные семена кукурузы.</blockquote>
+  [12216] <blockquote>канжыгалуу кара сеңсел название породы беркута.</blockquote>
+  [18971] <blockquote>малчылардын составын толуктоо пополнение состава животноводов.</blockquote>
+  [19179] <blockquote>машинанын запас бөлүктөрү запасные части машин.</blockquote>
+
+[103] support=6 | tokens=6 | informative=3
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка
+  [7304] <blockquote>деңиз баш самонадеянный, самоуверенный.</blockquote>
+  [7526] <blockquote>дүйнөгө кароолук стяжательство, скупость.</blockquote>
+  [10304] <blockquote>жылуу чырай симпатичный, миловидный.</blockquote>
+  [15093] <blockquote>көз ачыктык прозорливость, ясновидение.</blockquote>
+  [17032] <blockquote>күл каман своенравный, властный.</blockquote>
+
+[104] support=6 | tokens=6 | informative=3
+KY_RUN_2 RU_RUN_1 AMB_RUN_1 COMMA RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем запятая, затем 2 русских токена, затем точка с запятой
+  [7738] <blockquote>жагымдуу сөз приятное слово, приятная речь;</blockquote>
+  [19255] <blockquote>мектептин үйү здание школы, школьное здание;</blockquote>
+  [21505] <blockquote>опуртмалуу жагдай опасная обстановка, опасное положение;</blockquote>
+  [22571] <blockquote>өр сөз надменные слова, заносчивая речь;</blockquote>
+  [23390] <blockquote>салабаттуу сөз серьёзное слово, степенная речь;</blockquote>
+
+[105] support=5 | tokens=6 | informative=3
+AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [701] <blockquote>айлалуулук кылып изловчившись, ухитрившись.</blockquote>
+  [10482] <blockquote>зардеси жок вялый, слабый.</blockquote>
+  [10589] <blockquote>идиреги бар сообразительный, понятливый.</blockquote>
+  [18171] <blockquote>кыргактай болгон худенький, тоненький.</blockquote>
+  [30841] <blockquote>чыдоосу жок невыносливый, слабый.</blockquote>
+
+[106] support=5 | tokens=5 | informative=3
+AMB_RUN_1 KYFUNC_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+  [4212] <blockquote>батпай калды не вместилось;</blockquote>
+  [10431] <blockquote>закымдап кетти он помчался;</blockquote>
+  [19514] <blockquote>мени менен со мной;</blockquote>
+  [19515] <blockquote>мени менен со мной;</blockquote>
+  [30186] <blockquote>чачым менен по развёрстке;</blockquote>
+
+[107] support=6 | tokens=4 | informative=2
+AMB_RUN_1 KY_RUN_1 RU_RUN_34 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 3-4 русских токена, затем точка с запятой
+  [16793] <blockquote>кутурма тийген заболевший буйной формой помешательства;</blockquote>
+  [25280] <blockquote>сырга көк строго хранящий секрет;</blockquote>
+  [28389] <blockquote>убадага көк твёрдо держащий обещание;</blockquote>
+  [28505] <blockquote>узун шылкылдаган керебет длинная расшатанная кровать;</blockquote>
+  [28893] <blockquote>ууз кайың молодая стройная берёза;</blockquote>
+
+[108] support=6 | tokens=4 | informative=2
+AMB_RUN_1 KY_RUN_2 RU_RUN_2 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 2 кыргызских токена, затем 2 русских токена, затем точка с запятой
+  [982] <blockquote>ак ниеттүү кызматташуу честное сотрудничество;</blockquote>
+  [11601] <blockquote>кайгы чалган жүрөк горестное сердце;</blockquote>
+  [16366] <blockquote>кул ээлөөчүлүк түзүлүш рабовладельческий строй;</blockquote>
+  [16771] <blockquote>кут күткөн күн счастливый день;</blockquote>
+  [27040] <blockquote>толук укуктуу өкүл полномочный представитель;</blockquote>
+
+[109] support=6 | tokens=4 | informative=2
+AMB_RUN_34 RUF_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка
+  [4778] <blockquote>бет чукуру ямочки на щеках.</blockquote>
+  [13748] <blockquote>кечикпей кел приходи без опоздания.</blockquote>
+  [22781] <blockquote>пайдаланууга берилди сдано в эксплуатацию.</blockquote>
+  [23231] <blockquote>сабатма тил язык как пулемёт.</blockquote>
+  [24100] <blockquote>сире жакпады совсем не понравилось.</blockquote>
+
+[110] support=6 | tokens=4 | informative=2
+AMB_RUN_5P RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 5+ неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [836] <blockquote>айыл бу жерде эде аул был здесь;</blockquote>
+  [3046] <blockquote>атына мине сала быстро сев на лошадь;</blockquote>
+  [6450] <blockquote>бута коюп аттык мы стреляли в цель;</blockquote>
+  [8804] <blockquote>жебей тура тургун ты пока не ешь;</blockquote>
+  [21451] <blockquote>оорумдун эмин эч ким таппады против моей болезни никто средства не нашёл;</blockquote>
+
+[111] support=6 | tokens=4 | informative=2
+KY_RUN_1 AMB_RUN_34 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 3-4 неоднозначных токена, затем 1 русских токена, затем точка
+  [9318] <blockquote>жиптин чыйырыгы жанды нитка раскрутилась.</blockquote>
+  [10625] <blockquote>ийгилигиңер кубандырат ваши успехи радуют.</blockquote>
+  [18828] <blockquote>мактанганың бепбекер ты совершенно зря хвалишься.</blockquote>
+  [20671] <blockquote>ниетибиз дурус наши намерения правильные.</blockquote>
+  [24604] <blockquote>сөзүңдү аяктат заканчивай свою речь.</blockquote>
+
+[112] support=6 | tokens=4 | informative=2
+KY_RUN_2 AMB_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка
+  [7705] <blockquote>жаандан чыккан жорго знаменитый иноходец.</blockquote>
+  [9118] <blockquote>жергиликтүү өнөр жай местная промышленность.</blockquote>
+  [9953] <blockquote>жүнү тирүү жигит бодрый парень.</blockquote>
+  [15729] <blockquote>көнөктөп куйган жамгыр проливной дождь.</blockquote>
+  [15896] <blockquote>көп пландуу чыгарма многоплановое произведение.</blockquote>
+
+[113] support=6 | tokens=4 | informative=2
+KY_RUN_2 AMB_RUN_2 RU_RUN_2 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 2 неоднозначных токена, затем 2 русских токена, затем точка с запятой
+  [3577] <blockquote>бактылуу биздин жаштар наша счастливая молодёжь;</blockquote>
+  [8973] <blockquote>жеңил өнөр жайлар предприятия лёгкой промышленности;</blockquote>
+  [9941] <blockquote>жүлүндөй түтүн созулат дым поднимается ленточкой;</blockquote>
+  [19057] <blockquote>маңдайга бүткөн чолпонум ты моё счастье;</blockquote>
+  [22624] <blockquote>өрүшү өскөн чарба бурно развивающееся хозяйство;</blockquote>
+
+[114] support=6 | tokens=4 | informative=2
+KY_RUN_2 RUF_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка
+  [6028] <blockquote>бөйрөгү таялуу он подбоченился.</blockquote>
+  [11370] <blockquote>кабактары түйүлгөн он нахмурился.</blockquote>
+  [21441] <blockquote>ооруган себептүү по болезни.</blockquote>
+  [25017] <blockquote>сүбөөңдү көтөрбө не задавайся.</blockquote>
+  [25835] <blockquote>таң супалап на рассвете.</blockquote>
+
+[115] support=5 | tokens=7 | informative=6
+KY_RUN_1 HYPH KY_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем дефис, затем 1 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка
+  [8637] <blockquote>жасанып-түзөнүп наряжаясь и приосаниваясь.</blockquote>
+  [11857] <blockquote>какырынып-түкүрүнүп отхаркиваясь и отплёвываясь.</blockquote>
+  [20182] <blockquote>мүдүрүлүп-сүдүрүлүп спотыкаясь и запинаясь.</blockquote>
+  [20183] <blockquote>мүдүрүлүп-сүдүрүлүп спотыкаясь и запинаясь.</blockquote>
+  [31749] <blockquote>ыйынып-ычкынып тужась и пыжась.</blockquote>
+
+[116] support=5 | tokens=8 | informative=4
+AMB_RUN_1 KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [1014] <blockquote>ак таңдай акын искусный и мудрый акын;</blockquote>
+  [25464] <blockquote>тайтак мүйүз серке козёл с растопыренными рогами;</blockquote>
+  [29053] <blockquote>ушул күндөн баштап начиная с этого дня;</blockquote>
+  [32012] <blockquote>ырыс күткөн адам счастливый и богатый человек;</blockquote>
+  [33157] <blockquote>эпчил сүйлөөк чечен ловкий и мудрый говорун;</blockquote>
+
+[117] support=5 | tokens=7 | informative=4
+KY_RUN_1 AMB_RUN_1 KY_RUN_1 RUF_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских служебных токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [4827] <blockquote>бетин нур чалган его лицо посветлело;</blockquote>
+  [12057] <blockquote>камчы салым жерден с близкого расстояния;</blockquote>
+  [22479] <blockquote>өңөргөн кочкор көздөнгөн с выпученными глазами;</blockquote>
+  [22497] <blockquote>өңү саал азыңкы он немного осунулся;</blockquote>
+  [31615] <blockquote>шымаланып иштеп жатышкан они старательно работали;</blockquote>
+
+[118] support=5 | tokens=7 | informative=4
+KY_RUN_1 HYPH AMB_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем дефис, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+  [13494] <blockquote>кең-мол түшүм обильный урожай;</blockquote>
+  [22450] <blockquote>өнөр-жай товарлары промышленные товары;</blockquote>
+  [29232] <blockquote>үй-жай шарттары жилищные условия;</blockquote>
+  [29233] <blockquote>үй-жай шарттары жилищные условия;</blockquote>
+  [30454] <blockquote>чогуу-чаран өскөн выросшие вместе;</blockquote>
+
+[119] support=5 | tokens=6 | informative=4
+KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 2 русских токена, затем точка
+  [8099] <blockquote>жалкындуу кетмен кетмень с широкой лопастью.</blockquote>
+  [10548] <blockquote>зыкылдаган жигит энергичный и аккуратный парень.</blockquote>
+  [12788] <blockquote>каргылуу эр сильный и храбрый молодец.</blockquote>
+  [23502] <blockquote>сандуу жигит степенный и честный парень.</blockquote>
+  [29896] <blockquote>чакыруу кагаз приглашение в письменной форме.</blockquote>
+
+[120] support=5 | tokens=6 | informative=3
+AMB_RUN_1 HYPH AMB_RUN_2 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 неоднозначных токена, затем дефис, затем 2 неоднозначных токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+  [3658] <blockquote>балаа-каза бедствия и несчастья;</blockquote>
+  [13190] <blockquote>кебете-кешпир вид и форма;</blockquote>
+  [21707] <blockquote>отоп-бутап грабя и обдирая;</blockquote>
+  [23508] <blockquote>сандык-кече сундуки и прочее;</blockquote>
+  [29948] <blockquote>чалды-кемпир старик со старухой;</blockquote>

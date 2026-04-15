@@ -1,0 +1,12 @@
+Structural template cases
+
+rank: 105
+support: 5
+pattern: AMB_RUN_1 KYFUNC_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: переходный билингвальный паттерн: кыргызский связочный фрагмент рядом с началом русской глоссы
+
+[701] <blockquote>айлалуулук кылып изловчившись, ухитрившись.</blockquote>
+[10482] <blockquote>зардеси жок вялый, слабый.</blockquote>
+[10589] <blockquote>идиреги бар сообразительный, понятливый.</blockquote>
+[18171] <blockquote>кыргактай болгон худенький, тоненький.</blockquote>
+[30841] <blockquote>чыдоосу жок невыносливый, слабый.</blockquote>

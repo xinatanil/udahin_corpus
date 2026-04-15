@@ -1,0 +1,16 @@
+Structural template cases
+
+rank: 61
+support: 9
+pattern: KY_RUN_1 RU_RUN_2 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+
+[4334] <blockquote>башкаруу формасы форма правления;</blockquote>
+[9598] <blockquote>жооптуу милдет ответственная задача;</blockquote>
+[12000] <blockquote>калың токой густой лес;</blockquote>
+[24012] <blockquote>серптирген мурут подстриженные усы;</blockquote>
+[24125] <blockquote>Советтердин съезди съезд Советов;</blockquote>
+[28708] <blockquote>улуу мамлекет великая держава;</blockquote>
+[30103] <blockquote>чарбанын формасы форма хозяйства;</blockquote>
+[30540] <blockquote>чоң милдет огромная задача;</blockquote>
+[31974] <blockquote>ырдын формасы форма стиха;</blockquote>

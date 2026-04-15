@@ -1,0 +1,16 @@
+Structural template cases
+
+rank: 57
+support: 9
+pattern: KY_RUN_1 AMB_RUN_1 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка
+
+[7379] <blockquote>дойбучулардын мелдеши соревнование по шашкам.</blockquote>
+[8983] <blockquote>жеңилчек сал качаться на качелях.</blockquote>
+[9702] <blockquote>жөргөлөто кой поставить в ряд.</blockquote>
+[9852] <blockquote>жүгөндөлүү ат лошадь в узде.</blockquote>
+[20136] <blockquote>мурунтуктуу торпок телёнок на поводке.</blockquote>
+[20268] <blockquote>мыктылардын мыктысы лучший из лучших.</blockquote>
+[23074] <blockquote>райондук жигит парень из района.</blockquote>
+[24434] <blockquote>сөз жарыштыруучу выступающий в прениях.</blockquote>
+[28766] <blockquote>унутуу жарабайт забывать не годится.</blockquote>

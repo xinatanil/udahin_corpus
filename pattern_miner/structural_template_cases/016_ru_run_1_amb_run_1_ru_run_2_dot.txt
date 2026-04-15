@@ -1,0 +1,29 @@
+Structural template cases
+
+rank: 16
+support: 22
+pattern: RU_RUN_1 AMB_RUN_1 RU_RUN_2 DOT
+explanation: структурный шаблон: 1 русских токена, затем 1 неоднозначных токена, затем 2 русских токена, затем точка
+
+[9647] <blockquote>жошодой кызыл очень красный.</blockquote>
+[10412] <blockquote>заказной кат заказное письмо.</blockquote>
+[10750] <blockquote>илимий наам учёное звание.</blockquote>
+[10799] <blockquote>инфекциялык оорукана инфекционная больница.</blockquote>
+[10850] <blockquote>ирригациялык курулуш ирригационное сооружение.</blockquote>
+[11977] <blockquote>калыбет жигит степенный парень.</blockquote>
+[18696] <blockquote>маданий тегиздик культурный уровень.</blockquote>
+[19204] <blockquote>медициналык корутунду медицинское заключение.</blockquote>
+[19737] <blockquote>мифтик баатыр мифический герой.</blockquote>
+[21774] <blockquote>офицердик наам офицерское звание.</blockquote>
+[22958] <blockquote>подъёмный акча подъёмные деньги.</blockquote>
+[23007] <blockquote>продукциянын сапаты качество продукции.</blockquote>
+[23021] <blockquote>профессордук наам профессорское звание.</blockquote>
+[23037] <blockquote>пулемёттор татырайт пулемёты трещат.</blockquote>
+[23655] <blockquote>саясий кенебестик политическая беспечность.</blockquote>
+[24292] <blockquote>сомодой жигит здоровенный парень.</blockquote>
+[24375] <blockquote>социалдык жарыш социалистическое соревнование.</blockquote>
+[29722] <blockquote>фронттук жолдош фронтовой товарищ.</blockquote>
+[29747] <blockquote>цехтик чогулуш цеховое собрание.</blockquote>
+[29748] <blockquote>цилиндрдик бет цилиндрическая поверхность.</blockquote>
+[29749] <blockquote>цифралык маалыматтар цифровые данные.</blockquote>
+[32485] <blockquote>экспедициялык жабдыктар экспедиционное оборудование.</blockquote>

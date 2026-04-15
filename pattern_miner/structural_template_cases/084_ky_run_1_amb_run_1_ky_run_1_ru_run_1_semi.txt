@@ -1,0 +1,14 @@
+Structural template cases
+
+rank: 84
+support: 7
+pattern: KY_RUN_1 AMB_RUN_1 KY_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем точка с запятой
+
+[1850] <blockquote>алтындын буусуна кармаган позолоченный;</blockquote>
+[17286] <blockquote>күндүн нуру лучи солнца;</blockquote>
+[21966] <blockquote>өз ара салык самообложение;</blockquote>
+[21969] <blockquote>өз ара түшүнүү взаимопонимание;</blockquote>
+[22579] <blockquote>өрдөк баш балык щука;</blockquote>
+[27353] <blockquote>төмөндө аты айтылган нижепоименованный;</blockquote>
+[33790] <blockquote>эшектин мээсин жеген глупый;</blockquote>

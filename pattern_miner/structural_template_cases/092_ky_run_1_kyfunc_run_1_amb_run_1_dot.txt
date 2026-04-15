@@ -1,0 +1,13 @@
+Structural template cases
+
+rank: 92
+support: 6
+pattern: KY_RUN_1 KYFUNC_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 кыргызских связочных токена, затем 1 неоднозначных токена, затем точка
+
+[12041] <blockquote>камкордук менен заботливо.</blockquote>
+[22852] <blockquote>пассивдүүлүк менен пассивно.</blockquote>
+[25575] <blockquote>таланттуулук менен талантливо.</blockquote>
+[27817] <blockquote>тууралык менен честно.</blockquote>
+[28859] <blockquote>усталык менен мастерски.</blockquote>
+[29450] <blockquote>үнөмдүк менен экономно.</blockquote>

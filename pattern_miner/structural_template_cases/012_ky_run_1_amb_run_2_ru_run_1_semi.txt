@@ -1,0 +1,38 @@
+Structural template cases
+
+rank: 12
+support: 31
+pattern: KY_RUN_1 AMB_RUN_2 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 2 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+
+[4751] <blockquote>берүү тийиш необходимо дать;</blockquote>
+[7808] <blockquote>жазуу сабагы урок письма;</blockquote>
+[10659] <blockquote>иймараттын проектиси проект здания;</blockquote>
+[11162] <blockquote>ишенүү кыйын трудно поверить;</blockquote>
+[11670] <blockquote>кайнатылуу шор беда неминучая;</blockquote>
+[12014] <blockquote>калыстыктын туну искренняя беспристрастность;</blockquote>
+[14873] <blockquote>коопсуздук техникасы техника безопасности;</blockquote>
+[15839] <blockquote>көөнө коргон древняя крепость;</blockquote>
+[17105] <blockquote>күн ачык погода ясная;</blockquote>
+[17185] <blockquote>күн суук погода холодная;</blockquote>
+[17225] <blockquote>күн ысык погода жаркая;</blockquote>
+[17269] <blockquote>күндүн бети лик солнца;</blockquote>
+[17292] <blockquote>күндүн чубагы луч солнца;</blockquote>
+[17293] <blockquote>күндүн чыгышы восход солнца;</blockquote>
+[17295] <blockquote>күндүн шооласы луч солнца;</blockquote>
+[19229] <blockquote>мейманкананын шыбы потолок гостиной;</blockquote>
+[19568] <blockquote>менин кезегим моя очередь;</blockquote>
+[19587] <blockquote>менин ролум моя роль;</blockquote>
+[20309] <blockquote>мылтыктын оозу дуло ружья;</blockquote>
+[20390] <blockquote>мындан башка кроме этого;</blockquote>
+[20400] <blockquote>мындан сырткары кроме этого;</blockquote>
+[22228] <blockquote>өкмөттүн составы состав правительства;</blockquote>
+[22373] <blockquote>өмүр бою всю жизнь;</blockquote>
+[27369] <blockquote>төңкөрүш музейи музей революции;</blockquote>
+[28052] <blockquote>түнү бою всю ночь;</blockquote>
+[28812] <blockquote>урулуу журт массы народные;</blockquote>
+[29590] <blockquote>үстүңкү жаак верхняя челюсть;</blockquote>
+[29664] <blockquote>үчтөн бир одна треть;</blockquote>
+[30054] <blockquote>чапандын ичи подкладка пальто;</blockquote>
+[30268] <blockquote>чексиз оор невероятно тяжёлый;</blockquote>
+[30654] <blockquote>чөөдөй сары совершенно рыжий;</blockquote>

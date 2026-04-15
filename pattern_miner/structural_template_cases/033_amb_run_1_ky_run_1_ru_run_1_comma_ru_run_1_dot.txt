@@ -1,0 +1,19 @@
+Structural template cases
+
+rank: 33
+support: 12
+pattern: AMB_RUN_1 KY_RUN_1 RU_RUN_1 COMMA RU_RUN_1 DOT
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем точка
+
+[897] <blockquote>ак бейилдүү добрый, отзывчивый.</blockquote>
+[2336] <blockquote>арам ойлуу злонамеренный, коварный.</blockquote>
+[3076] <blockquote>атыр жыттуу благовонный, ароматичный.</blockquote>
+[3609] <blockquote>бал кептүү медоточивый, сладкоречивый.</blockquote>
+[5358] <blockquote>бир өңкөй одинаковый, однообразный.</blockquote>
+[7711] <blockquote>жаасы катуу требовательный, строгий.</blockquote>
+[11000] <blockquote>ичи күптүлүү обиженный, огорчённый.</blockquote>
+[14373] <blockquote>кол жабуу покровитель, защитник.</blockquote>
+[16443] <blockquote>кулакка угумдуулук благозвучие, мелодичность.</blockquote>
+[25995] <blockquote>тартпас тобокелчи смелый, решительный.</blockquote>
+[26084] <blockquote>таш боордук жестокость, жестокосердие.</blockquote>
+[32488] <blockquote>экчеп алган отборный, лучший.</blockquote>

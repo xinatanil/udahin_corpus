@@ -1,0 +1,13 @@
+Structural template cases
+
+rank: 114
+support: 6
+pattern: KY_RUN_2 RUF_RUN_1 AMB_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка
+
+[6028] <blockquote>бөйрөгү таялуу он подбоченился.</blockquote>
+[11370] <blockquote>кабактары түйүлгөн он нахмурился.</blockquote>
+[21441] <blockquote>ооруган себептүү по болезни.</blockquote>
+[25017] <blockquote>сүбөөңдү көтөрбө не задавайся.</blockquote>
+[25835] <blockquote>таң супалап на рассвете.</blockquote>
+[31778] <blockquote>ыкшытып жөтөлдү он закашлялся.</blockquote>

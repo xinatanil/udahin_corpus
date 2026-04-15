@@ -1,0 +1,17 @@
+Structural template cases
+
+rank: 48
+support: 10
+pattern: RU_RUN_1 KY_RUN_1 RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 1 русских токена, затем 1 кыргызских токена, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+
+[6928] <blockquote>географиялык чөйрө географическая среда;</blockquote>
+[6929] <blockquote>географиялык чөйрө географическая среда;</blockquote>
+[7486] <blockquote>духовный тазалык духовная чистота;</blockquote>
+[18212] <blockquote>кыргый үкү ястребиная сова;</blockquote>
+[18213] <blockquote>кыргый үкү ястребиная сова;</blockquote>
+[18831] <blockquote>мактоого татыктуу заслуживающий похвалы;</blockquote>
+[21665] <blockquote>орфография эрежелери орфографические правила;</blockquote>
+[26945] <blockquote>токой тилкелери лесные полосы;</blockquote>
+[27297] <blockquote>тоют чөптөрү кормовые травы;</blockquote>
+[29706] <blockquote>финансы бөлүмү финансовый отдел;</blockquote>

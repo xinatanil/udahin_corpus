@@ -1,0 +1,14 @@
+Structural template cases
+
+rank: 87
+support: 7
+pattern: AMB_RUN_34 HYPH RU_RUN_1 SEMI
+explanation: структурный шаблон: 3-4 неоднозначных токена, затем дефис, затем 1 русских токена, затем точка с запятой
+
+[971] <blockquote>ак кызыл светло-сивый;</blockquote>
+[3109] <blockquote>ач кызыл светло-красный;</blockquote>
+[3168] <blockquote>ачык кызыл ярко-красный;</blockquote>
+[13651] <blockquote>кермек даам кисло-горький;</blockquote>
+[17697] <blockquote>кызыл тору светло-гнедой;</blockquote>
+[18284] <blockquote>кырмызы кызыя ярко-красный;</blockquote>
+[18908] <blockquote>мала кызыл светло-красный;</blockquote>

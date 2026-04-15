@@ -1,0 +1,14 @@
+Structural template cases
+
+rank: 81
+support: 7
+pattern: KY_RUN_2 RU_RUN_1 COMMA RU_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем запятая, затем 1 русских токена, затем 1 неоднозначных токена, затем точка с запятой
+
+[7898] <blockquote>жайсалдуу сөз дельное, толковое слово;</blockquote>
+[15469] <blockquote>көй күлүк знаменитый, выдающийся скакун;</blockquote>
+[19089] <blockquote>маңыздуу сөз дельное, толковое слово;</blockquote>
+[19949] <blockquote>мукамдуу күү приятная, ритмичная мелодия;</blockquote>
+[25035] <blockquote>сүйкүм көз приятные, милые глаза;</blockquote>
+[25407] <blockquote>табышмактуу сөз речь, уснащённая загадками;</blockquote>
+[30275] <blockquote>чектүү чоңдук конечная, предельная величина;</blockquote>

@@ -1,0 +1,16 @@
+Structural template cases
+
+rank: 39
+support: 9
+pattern: KY_RUN_1 RUF_RUN_1 TOZHE=же COMMA RUF_RUN_1 WL DOT
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских служебных токена, затем маркер 'же', затем запятая, затем 1 русских служебных токена, затем ссылка на слово, затем точка
+
+[3846] <blockquote>балжайган то же, что <wordLink word="балжагай"/>.</blockquote>
+[7613] <blockquote>дылдыраган то же, что <wordLink word="дылдырак"/>.</blockquote>
+[14800] <blockquote>коңкойгон то же, что <wordLink word="коңкогой"/>.</blockquote>
+[16645] <blockquote>куржуйган то же, что <wordLink word="куржук"/>.</blockquote>
+[20273] <blockquote>мыкырайган то же, что <wordLink word="мыкыракай"/>.</blockquote>
+[26351] <blockquote>тентиреген то же, что <wordLink word="тентимиш"/>.</blockquote>
+[28314] <blockquote>тырбыйган то же, что <wordLink word="тырбыгый"/>.</blockquote>
+[28337] <blockquote>тырпыңдаган то же, что <wordLink word="тырпык" meaning="2"/>.</blockquote>
+[31954] <blockquote>ырбыйган то же, что <wordLink word="ырбыгый"/>.</blockquote>

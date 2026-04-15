@@ -1,0 +1,50 @@
+Structural template cases
+
+rank: 10
+support: 43
+pattern: AMB_RUN_1 KY_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 1 неоднозначных токена, затем 1 кыргызских токена, затем 1 русских токена, затем точка
+
+[507] <blockquote>адал диндүү правоверный.</blockquote>
+[1208] <blockquote>акын сөрөй стихоплёт.</blockquote>
+[3249] <blockquote>ашыра өндүрүш перепроизводство.</blockquote>
+[4340] <blockquote>башкы командачы главнокомандующий.</blockquote>
+[4398] <blockquote>башы кылжырайган кривошеий.</blockquote>
+[4669] <blockquote>бели боштук слабохарактерность.</blockquote>
+[4788] <blockquote>бети баржайган толстомордый.</blockquote>
+[4809] <blockquote>бети чүтүрөкөй узколицый.</blockquote>
+[5680] <blockquote>богооз сөз сквернословие.</blockquote>
+[5835] <blockquote>болот эритүү сталеварение.</blockquote>
+[8072] <blockquote>жалгыз бойчулук одиночество.</blockquote>
+[8114] <blockquote>жалпы дүйнөлүк всемирный.</blockquote>
+[8284] <blockquote>жанаша жашоо сосуществование.</blockquote>
+[8589] <blockquote>жарым көчмөндүү полукочевой.</blockquote>
+[8883] <blockquote>жел өпкөлүк хвастовство.</blockquote>
+[9067] <blockquote>жер титирөө землетрясение.</blockquote>
+[9070] <blockquote>жер тырмалоо боронование.</blockquote>
+[9431] <blockquote>жолборс жүрөк неустрашимый.</blockquote>
+[10520] <blockquote>зона аралык межзональный.</blockquote>
+[10871] <blockquote>ит жүзүм паслён.</blockquote>
+[11949] <blockquote>калпты чубуртуп завравшись.</blockquote>
+[11981] <blockquote>калыбына келтирүү восстановление.</blockquote>
+[12020] <blockquote>кам көштүк непрочность.</blockquote>
+[12125] <blockquote>кан шиминген кровожадный.</blockquote>
+[12637] <blockquote>кара тоңголок гололедица.</blockquote>
+[12798] <blockquote>карды челейген толстопузый.</blockquote>
+[14386] <blockquote>кол кабышчы помощник.</blockquote>
+[16842] <blockquote>куудул сөз вышучивание.</blockquote>
+[18172] <blockquote>кыргоолдун чөжөсү фазанёнок.</blockquote>
+[18329] <blockquote>кыска мөөнөттүү краткосрочный.</blockquote>
+[19754] <blockquote>мойну дугдуйган толстошеий.</blockquote>
+[20410] <blockquote>мырза сөгүш ехидство.</blockquote>
+[20797] <blockquote>ой жүгүртүү мышление.</blockquote>
+[24322] <blockquote>соолуктуруучу үй вытрезвитель.</blockquote>
+[24783] <blockquote>сурак бербеген неподвластный.</blockquote>
+[25350] <blockquote>таан көз сероглазый.</blockquote>
+[26752] <blockquote>тиричиликке жөндөмдүүлүк жизнеспособность.</blockquote>
+[28368] <blockquote>тыюу салынган запрещённый.</blockquote>
+[28634] <blockquote>укума сөз колкость.</blockquote>
+[30201] <blockquote>чаян көздүү желтоглазый.</blockquote>
+[32212] <blockquote>эзме насыятчы резонёр.</blockquote>
+[33192] <blockquote>эрди дөрдөгөй толстогубый.</blockquote>
+[33448] <blockquote>эске түшүү вспоминание.</blockquote>

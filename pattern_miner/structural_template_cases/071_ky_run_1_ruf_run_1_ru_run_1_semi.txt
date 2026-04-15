@@ -1,0 +1,15 @@
+Structural template cases
+
+rank: 71
+support: 8
+pattern: KY_RUN_1 RUF_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 русских служебных токена, затем 1 русских токена, затем точка с запятой
+
+[5535] <blockquote>бирден по одному;</blockquote>
+[16192] <blockquote>кубанчы его радость;</blockquote>
+[20046] <blockquote>мурдаагыдай как раньше;</blockquote>
+[20049] <blockquote>мурдалап уже заранее;</blockquote>
+[22135] <blockquote>өзүмдүкү мой собственный;</blockquote>
+[22183] <blockquote>өзүнүкү его собственный;</blockquote>
+[26802] <blockquote>тиштин эти дёсны;</blockquote>
+[33355] <blockquote>эртеңкиси его будущее;</blockquote>

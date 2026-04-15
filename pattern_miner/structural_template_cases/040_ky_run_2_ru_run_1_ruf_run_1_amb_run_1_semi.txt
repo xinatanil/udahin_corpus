@@ -1,0 +1,18 @@
+Structural template cases
+
+rank: 40
+support: 11
+pattern: KY_RUN_2 RU_RUN_1 RUF_RUN_1 AMB_RUN_1 SEMI
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 русских токена, затем 1 русских служебных токена, затем 1 неоднозначных токена, затем точка с запятой
+
+[8803] <blockquote>жебедей созулуп вытянувшись как стрела;</blockquote>
+[12680] <blockquote>караанын үзүп скрывшись из виду;</blockquote>
+[13011] <blockquote>катарыңарды түзөгүлө встаньте в ряды;</blockquote>
+[13258] <blockquote>кейигенден күйүнүп огорчаясь и досадуя;</blockquote>
+[22504] <blockquote>өңү сумсайыңкы лицо его мрачновато;</blockquote>
+[24455] <blockquote>сөзгө буулуп запнувшись на слове;</blockquote>
+[24463] <blockquote>сөзгө сараң скупой на слова;</blockquote>
+[25305] <blockquote>сырттан кийлигишүү вмешательство со стороны;</blockquote>
+[26359] <blockquote>тең тууган равный по происхождению;</blockquote>
+[26645] <blockquote>тилдин өңөрү налёт на языке;</blockquote>
+[32734] <blockquote>элеттен келген прибывший из глуши;</blockquote>

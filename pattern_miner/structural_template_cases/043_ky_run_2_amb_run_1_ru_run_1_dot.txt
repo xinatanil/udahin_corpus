@@ -1,0 +1,18 @@
+Structural template cases
+
+rank: 43
+support: 11
+pattern: KY_RUN_2 AMB_RUN_1 RU_RUN_1 DOT
+explanation: структурный шаблон: 2 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка
+
+[5101] <blockquote>билимдин тереңдиги глубина знаний.</blockquote>
+[8937] <blockquote>жемелүү сөз слова упрёка.</blockquote>
+[10627] <blockquote>ийгилик чыңдалууда успех закрепляется.</blockquote>
+[10803] <blockquote>иңген кайытуу случка верблюдицы.</blockquote>
+[11101] <blockquote>ичтүүлүк өлчөөсү мера ёмкости.</blockquote>
+[13274] <blockquote>кекетиңки тартып слегка упрекая.</blockquote>
+[25842] <blockquote>таң сүрүлдү забрезжил рассвет.</blockquote>
+[29575] <blockquote>үстүк ачкан киши банкомёт.</blockquote>
+[29877] <blockquote>чакчаңызды бериңизчи дайте покурить.</blockquote>
+[31642] <blockquote>шыпшагандай жылаңач совершенно голый.</blockquote>
+[33214] <blockquote>эрдүү катын замужняя женщина.</blockquote>

@@ -1,0 +1,52 @@
+Structural template cases
+
+rank: 9
+support: 45
+pattern: KY_RUN_1 AMB_RUN_1 RU_RUN_1 SEMI
+explanation: структурный шаблон: 1 кыргызских токена, затем 1 неоднозначных токена, затем 1 русских токена, затем точка с запятой
+
+[418] <blockquote>абдан майда мельчайший;</blockquote>
+[3139] <blockquote>ачуу таш квасцы;</blockquote>
+[3889] <blockquote>балтанын сабы топорище;</blockquote>
+[6046] <blockquote>бөлө качма неуживчивый;</blockquote>
+[6692] <blockquote>бүткүл элдик всенародный;</blockquote>
+[6950] <blockquote>гүл бакча цветник;</blockquote>
+[8463] <blockquote>жапжаңы совершенно новый;</blockquote>
+[10003] <blockquote>жүрөгү тоо бесстрашный;</blockquote>
+[10286] <blockquote>жылмайыңкы слегка улыбающийся;</blockquote>
+[11453] <blockquote>кагыраган совершенно обедневший;</blockquote>
+[11772] <blockquote>кайчы тумшук клёст;</blockquote>
+[12058] <blockquote>камчы сап кнутовище;</blockquote>
+[12392] <blockquote>капкан соору крутобёдрый;</blockquote>
+[15327] <blockquote>көзү чокусунда прозорливый;</blockquote>
+[15512] <blockquote>көк боор селезёнка;</blockquote>
+[15629] <blockquote>көкүрөгү сокур бестолковый;</blockquote>
+[15653] <blockquote>көл бука выпь;</blockquote>
+[15852] <blockquote>көөнү тетик бодрый;</blockquote>
+[15903] <blockquote>көп чекит многоточие;</blockquote>
+[15946] <blockquote>көр кашка бестолковый;</blockquote>
+[16048] <blockquote>көсөө куйрук короткохвостый;</blockquote>
+[16056] <blockquote>көтөн короз щёголь;</blockquote>
+[16138] <blockquote>көчүгүндү бас садись;</blockquote>
+[17170] <blockquote>күн мурун заранее;</blockquote>
+[17177] <blockquote>күн сайынкы ежедневный;</blockquote>
+[21728] <blockquote>оттук таш кремень;</blockquote>
+[21923] <blockquote>өгөй кыз падчерица;</blockquote>
+[21985] <blockquote>өз бетинче самостоятельно;</blockquote>
+[22125] <blockquote>өзүм билемдик самоуправство;</blockquote>
+[22371] <blockquote>өмүр баян биография;</blockquote>
+[22445] <blockquote>өнөр жай промышленность;</blockquote>
+[25018] <blockquote>сүзгү элек цедилка;</blockquote>
+[25026] <blockquote>сүйгөн жар возлюбленная;</blockquote>
+[26357] <blockquote>тең орток испольщик;</blockquote>
+[26363] <blockquote>тең эместик неравенство;</blockquote>
+[26377] <blockquote>теңирден тескери уродливый;</blockquote>
+[26387] <blockquote>тепетең совершенно равный;</blockquote>
+[27997] <blockquote>түн жарым полночь;</blockquote>
+[28008] <blockquote>түн ортосу полночь;</blockquote>
+[28788] <blockquote>ургаачы киши женщина;</blockquote>
+[29533] <blockquote>үстөк пайда сверхприбыль;</blockquote>
+[30520] <blockquote>чоң баш большеголовый;</blockquote>
+[30527] <blockquote>чоң жуткуч прожорливый;</blockquote>
+[32768] <blockquote>элүү жылдык пятидесятилетие;</blockquote>
+[33339] <blockquote>эртең мененки утренний;</blockquote>
