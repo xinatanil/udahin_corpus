@@ -992,6 +992,127 @@ EXACT_XML_REWRITES = [
 \t\t<trn>медведь;</trn>''',
     ),
     (
+        '''<card>
+\t\t<k>арш</k>
+\t\t<origin>ар.</origin>
+\t\t<meta>уст.</meta>
+\t\t<trn>книжн.</trn>
+\t\t<blockquote>чертоги (божьи).</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>арш</k>
+\t\t<origin>ар.</origin>
+\t\t<meta>уст.</meta>
+\t\t<meta>книжн.</meta>
+\t\t<trn>чертоги (божьи).</trn>
+\t</card>''',
+    ),
+    (
+        '''<trn>жалоба, претензия;</trn>
+\t\t\t<blockquote>юр. уст. апелляция;</blockquote>''',
+        '''<trn>жалоба, претензия; юр. уст. апелляция;</trn>''',
+    ),
+    (
+        '''<trn>подзорная труба;</trn>
+\t\t\t<blockquote>разг. бинокль;</blockquote>''',
+        '''<trn>подзорная труба; разг. бинокль;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>каралоо</k>
+\t\t<xr>и. д. от <wordLink word="карала-" homonym="III"/></xr>
+\t\t<trn>опорочение, охаивание;</trn>
+\t\t<blockquote>уст. обвинение.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>каралоо</k>
+\t\t<xr>и. д. от <wordLink word="карала-" homonym="III"/></xr>
+\t\t<trn>опорочение, охаивание; уст. обвинение.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>каралоочу</k>
+\t\t<trn>хулитель;</trn>
+\t\t<blockquote>уст. обвинитель.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>каралоочу</k>
+\t\t<trn>хулитель; уст. обвинитель.</trn>
+\t</card>''',
+    ),
+    (
+        '''<blockquote>кенейге тик- поставить на кон;</blockquote>
+\t\t<blockquote>перен. рискнуть;</blockquote>''',
+        '''<blockquote>кенейге тик- поставить на кон; перен. рискнуть;</blockquote>''',
+    ),
+    (
+        '''<trn>горячий</trn>
+\t\t\t<blockquote>прям., перен.;</blockquote>
+\t\t\t<blockquote>разгорячённый;</blockquote>''',
+        '''<trn>горячий прям., перен.; разгорячённый;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>көйкап</k>
+\t\t<origin>ир.-ар.</origin>
+\t\t<blockquote>(или көй тоосу)</blockquote>''',
+        '''<card>
+\t\t<k>көйкап</k>
+\t\t<origin>ир.-ар.</origin>
+\t\t<alternativeForm>(или көй тоосу)</alternativeForm>''',
+    ),
+    (
+        '''<blockquote>кыяк тартып берсең, сары атан коңузу ыңылдап учкандай угат если (непонимающему в музыке) сыграешь на кияке (см. <wordLink word="кыяк" homonym="II"/>), он (на слух) воспринимает как гудение летящего</blockquote>
+\t\t\t<blockquote>майского жука.</blockquote>''',
+        '''<blockquote>кыяк тартып берсең, сары атан коңузу ыңылдап учкандай угат если (непонимающему в музыке) сыграешь на кияке (см. <wordLink word="кыяк" homonym="II"/>), он (на слух) воспринимает как гудение летящего майского жука.</blockquote>''',
+    ),
+    (
+        '''<card>
+\t\t<k>секелет</k>
+\t\t<origin>р.</origin>
+\t\t<trn>заклад;</trn>
+\t\t<blockquote>чуйск. задаток.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>секелет</k>
+\t\t<origin>р.</origin>
+\t\t<trn>заклад; чуйск. задаток.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>түшүндүргүч</k>
+\t\t<trn>толкователь;</trn>
+\t\t<blockquote>уст. комментатор.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>түшүндүргүч</k>
+\t\t<trn>толкователь; уст. комментатор.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>тыгыз</k>
+\t\t<trn>крепкий; плотный, тугой;</trn>
+\t\t<blockquote>перен. тесный;</blockquote>''',
+        '''<card>
+\t\t<k>тыгыз</k>
+\t\t<trn>крепкий; плотный, тугой; перен. тесный;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>үстүк</k>
+\t\t<meta>сев.</meta>
+\t\t<meta>карт.</meta>
+\t\t<blockquote>(при игре в банк)</blockquote>''',
+        '''<card>
+\t\t<k>үстүк</k>
+\t\t<meta>сев.</meta>
+\t\t<meta>карт.</meta>
+\t\t<meta>(при игре в банк)</meta>''',
+    ),
+    (
         '''<blockquote>алчын байыр</blockquote>
 \t\t\t<blockquote>сев. уст. (ср. <wordLink word="алчимбар"/>)</blockquote>
 \t\t\t<blockquote>название кустарной ткани, которая привозилась в северную Киргизию из Ферганы;</blockquote>''',
