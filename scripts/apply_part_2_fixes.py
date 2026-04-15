@@ -129,14 +129,6 @@ XR_REWRITES = [
         '<xr>см. марш.</xr>',
         '<xr>см. <wordLink word="марш"/>.</xr>',
     ),
-    (
-        '<xr>то же, что <wordLink word="наалат 1.:"/></xr>',
-        '<xr>то же, что <wordLink word="наалат" meaning="1"/></xr>',
-    ),
-    (
-        '<xr>понуд. от <wordLink word="алчакта- 1.:"/></xr>',
-        '<xr>понуд. от <wordLink word="алчакта-" meaning="1"/></xr>',
-    ),
 ]
 
 TRN_META_TO_META_TRN = [
@@ -286,7 +278,7 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<card>
-\t\t<k>алаш</k>
+\t\t<k>алашта-</k>
 \t\t<meta>фольк.</meta>
 \t\t<meta>уст.</meta>
 \t\t<trn>кричать алаш (см.).</trn>
@@ -294,7 +286,7 @@ EXACT_XML_REWRITES = [
 \t\t<xr>и. д. от <wordLink word="алай-" homonym="III"/>.</xr>
 \t</card>''',
         '''<card>
-\t\t<k>алаш</k>
+\t\t<k>алашта-</k>
 \t\t<meta>фольк.</meta>
 \t\t<meta>уст.</meta>
 \t\t<trn>кричать алаш (см.).</trn>
