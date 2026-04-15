@@ -298,6 +298,315 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<card>
+\t\t<k>астырыш</k>
+\t\t<xr>и. д. от <wordLink word="астыр-"/>;</xr>
+\t\t<blockquote>күнөөсү жок бир жашты астырышың жакшыбы? фольк. разве хорошо, что ты приказал повесить невинного молодого парня?</blockquote>
+\t\t<blockquote>асуу</blockquote>
+\t\t<xr>и. д. от <wordLink word="ас-" homonym="IV"/>.</xr>
+\t</card>''',
+        '''<card>
+\t\t<k>астырыш</k>
+\t\t<xr>и. д. от <wordLink word="астыр-"/>;</xr>
+\t\t<blockquote>күнөөсү жок бир жашты астырышың жакшыбы? фольк. разве хорошо, что ты приказал повесить невинного молодого парня?</blockquote>
+\t</card>
+\t<card>
+\t\t<k>асуу</k>
+\t\t<xr>и. д. от <wordLink word="ас-" homonym="IV"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>ашынча</k>
+\t\t<meta>южн.</meta>
+\t\t<xr>то же, что <wordLink word="ашыкча"/>.</xr>
+\t\t<blockquote>ашыр-</blockquote>
+\t\t<xr>понуд. от <wordLink word="аш-" homonym="II"/></xr>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>заставить перейти, заставить перевалить через что-л.;</trn>''',
+        '''<card>
+\t\t<k>ашынча</k>
+\t\t<meta>южн.</meta>
+\t\t<xr>то же, что <wordLink word="ашыкча"/>.</xr>
+\t</card>
+\t<card>
+\t\t<k>ашыр-</k>
+\t\t<xr>понуд. от <wordLink word="аш-" homonym="II"/></xr>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>заставить перейти, заставить перевалить через что-л.;</trn>''',
+    ),
+    (
+        '''<blockquote>буту-колун жерге тийгизбей чуркатты он заставлял их бегать - одна нога здесь, другая</blockquote>
+\t\t\t\t<blockquote>там;</blockquote>''',
+        '''<blockquote>буту-колун жерге тийгизбей чуркатты он заставлял их бегать - одна нога здесь, другая там;</blockquote>''',
+    ),
+    (
+        '''<card>
+\t\t<k>геш</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>геш-геш</blockquote>
+\t\t<blockquote>ир.</blockquote>
+\t\t<meta>южн. [гәш-гәш]</meta>
+\t\t<blockquote>непринуждённый разговор;</blockquote>
+\t\t<blockquote>гәш-гәш кыл- вести непринуждённый разговор, беседовать.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>геш</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>геш-геш ир. южн. [гәш-гәш] непринуждённый разговор;</blockquote>
+\t\t<blockquote>гәш-гәш кыл- вести непринуждённый разговор, беседовать.</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>дөөрү-</k>
+\t\t<blockquote>болтать, пустословить;</blockquote>
+\t\t<blockquote>дөөрүбөй отур! сиди и не болтай!;</blockquote>
+\t\t<blockquote>эмне эле дөөрүп жатасың? что ты мелешь?</blockquote>
+\t\t<blockquote>дөөрүк</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>болтун, пустомеля;</trn>''',
+        '''<card>
+\t\t<k>дөөрү-</k>
+\t\t<blockquote>болтать, пустословить;</blockquote>
+\t\t<blockquote>дөөрүбөй отур! сиди и не болтай!;</blockquote>
+\t\t<blockquote>эмне эле дөөрүп жатасың? что ты мелешь?</blockquote>
+\t</card>
+\t<card>
+\t\t<k>дөөрүк</k>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>болтун, пустомеля;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>жакыт</k>
+\t\t<trn>то же, что</trn>
+\t\t<blockquote>жакут.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>жакыт</k>
+\t\t<xr>то же, что <wordLink word="жакут"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>жуммаксан</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<miniCard>
+\t\t\t<miniK>көзүн жумар-жуммаксан болуп</miniK>
+\t\t\t<miniTrn>1) полузакрыв глаза, чуть приоткрыв глаза;</miniTrn>
+\t\t\t<miniTrn>2) перен. пребывая в состоянии самодовольства.</miniTrn>
+\t\t</miniCard>
+\t\t<blockquote>жумру</blockquote>
+\t\t<xr>то же, что <wordLink word="жумуру"/>.</xr>
+\t</card>''',
+        '''<card>
+\t\t<k>жуммаксан</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<miniCard>
+\t\t\t<miniK>көзүн жумар-жуммаксан болуп</miniK>
+\t\t\t<miniTrn>1) полузакрыв глаза, чуть приоткрыв глаза;</miniTrn>
+\t\t\t<miniTrn>2) перен. пребывая в состоянии самодовольства.</miniTrn>
+\t\t</miniCard>
+\t</card>
+\t<card>
+\t\t<k>жумру</k>
+\t\t<xr>то же, что <wordLink word="жумуру"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>күйөө,</k>
+\t\t<meta>южн.</meta>
+\t\t<blockquote>күйөв</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>жених;</trn>
+\t\t\t<blockquote>күйөө келсе, кыз даяр погов. придёт жених - невеста готова (мы готовы, дело за вами);</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>молодой муж;</trn>
+\t\t\t<blockquote>күйөвү аскерге кеткен её муж ушёл в солдаты;</blockquote>
+\t\t\t<blockquote>күйөөгө берүү выдача замуж;</blockquote>
+\t\t\t<blockquote>күйөөгө жетпей, кыз тынбайт погов. девица не успокоится, пока не добьётся мужа;</blockquote>
+\t\t\t<blockquote>былтыры күйөвгө чыгыпты она в прошлом году вышла замуж;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>3.</meaningIndex>''',
+        '''<card>
+\t\t<k>күйөө</k>
+\t\t<meta>южн. күйөв</meta>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>жених;</trn>
+\t\t\t<blockquote>күйөө келсе, кыз даяр погов. придёт жених - невеста готова (мы готовы, дело за вами);</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>молодой муж;</trn>
+\t\t\t<blockquote>күйөвү аскерге кеткен её муж ушёл в солдаты;</blockquote>
+\t\t\t<blockquote>күйөөгө берүү выдача замуж;</blockquote>
+\t\t\t<blockquote>күйөөгө жетпей, кыз тынбайт погов. девица не успокоится, пока не добьётся мужа;</blockquote>
+\t\t\t<blockquote>былтыры күйөвгө чыгыпты она в прошлом году вышла замуж;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>3.</meaningIndex>''',
+    ),
+    (
+        '''<card>
+\t\t<k>лайлама</k>
+\t\t<blockquote>тибет.</blockquote>
+\t\t<meta>(в эпосе)</meta>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>далай-лама;</trn>
+\t\t</meaning>''',
+        '''<card>
+\t\t<k>лайлама</k>
+\t\t<meta>тибет.</meta>
+\t\t<meta>(в эпосе)</meta>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>далай-лама;</trn>
+\t\t</meaning>''',
+    ),
+    (
+        '''<card>
+\t\t<k>магырып</k>
+\t\t<origin>ар.</origin>
+\t\t<trn>редко.</trn>
+\t\t<blockquote>запад.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>магырып</k>
+\t\t<origin>ар.</origin>
+\t\t<meta>редко</meta>
+\t\t<trn>запад.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>мукаббат,</k>
+\t\t<xr>то же, что <wordLink word="макаббат"/>.</xr>
+\t</card>''',
+        '''<card>
+\t\t<k>мукаббат</k>
+\t\t<xr>то же, что <wordLink word="макаббат"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>сыяз</k>
+\t\t<meta>разг.</meta>
+\t\t<xr>то же, что <wordLink word="съезд"/>.</xr>
+\t\t<blockquote>сыяк</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>лицо; внешность, внешний вид (человека - обычно приятный); статность;</trn>
+\t\t\t<blockquote>түз боюмду бөкчөйтүп, сыякты алдың карылык стих. согнув мой прямой стан, ты, старость, взяла мою статность;</blockquote>
+\t\t\t<blockquote>бир сыягын караса, суусун ичпей, аш жебей, арык болгон түрү бар фольк. взглянешь на него, у него вид худого, будто питья не пил, пищи не ел;</blockquote>
+\t\t\t<blockquote>бендеден башка сыягы фольк. (приятным) видом он выделяется среди людей;</blockquote>
+\t\t\t<blockquote>сыягына караса, көзү эскирген ороодой фольк. посмотришь на него, глаза его (ввалились), как старая хлебная яма;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>слово, выражающее подобие;</trn>
+\t\t\t<blockquote>көнө турган сыягы жок непохоже, что он согласится;</blockquote>
+\t\t\t<blockquote>сыягы акылдуусунасың ты, похоже, считаешь себя умнее других.</blockquote>
+\t\t</meaning>
+\t</card>''',
+        '''<card>
+\t\t<k>сыяз</k>
+\t\t<meta>разг.</meta>
+\t\t<xr>то же, что <wordLink word="съезд"/>.</xr>
+\t</card>
+\t<card>
+\t\t<k>сыяк</k>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>лицо; внешность, внешний вид (человека - обычно приятный); статность;</trn>
+\t\t\t<blockquote>түз боюмду бөкчөйтүп, сыякты алдың карылык стих. согнув мой прямой стан, ты, старость, взяла мою статность;</blockquote>
+\t\t\t<blockquote>бир сыягын караса, суусун ичпей, аш жебей, арык болгон түрү бар фольк. взглянешь на него, у него вид худого, будто питья не пил, пищи не ел;</blockquote>
+\t\t\t<blockquote>бендеден башка сыягы фольк. (приятным) видом он выделяется среди людей;</blockquote>
+\t\t\t<blockquote>сыягына караса, көзү эскирген ороодой фольк. посмотришь на него, глаза его (ввалились), как старая хлебная яма;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>слово, выражающее подобие;</trn>
+\t\t\t<blockquote>көнө турган сыягы жок непохоже, что он согласится;</blockquote>
+\t\t\t<blockquote>сыягы акылдуусунасың ты, похоже, считаешь себя умнее других.</blockquote>
+\t\t</meaning>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>у</k>
+\t\t<origin>ир.</origin>
+\t\t<meta>южн.</meta>
+\t\t<blockquote>союз</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>соед. и, также;</trn>
+\t\t\t<blockquote>тойдо кой берет у, уй берет у, күрүч берет на пирах (см. <wordLink word="той" homonym="I"/>) выделяют (для гостей) и овцу, и корову, и рис;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>противит. но, однако;</trn>
+\t\t\t<blockquote>алмасы көп у, курт жеп алган яблок много, но (их) черви поели;</blockquote>''',
+        '''<card>
+\t\t<k>у</k>
+\t\t<origin>ир.</origin>
+\t\t<meta>южн.</meta>
+\t\t<meta>союз</meta>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<meta>соед.</meta>
+\t\t\t<trn>и, также;</trn>
+\t\t\t<blockquote>тойдо кой берет у, уй берет у, күрүч берет на пирах (см. <wordLink word="той" homonym="I"/>) выделяют (для гостей) и овцу, и корову, и рис;</blockquote>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<meta>противит.</meta>
+\t\t\t<trn>но, однако;</trn>
+\t\t\t<blockquote>алмасы көп у, курт жеп алган яблок много, но (их) черви поели;</blockquote>''',
+    ),
+    (
+        '''<homonym>
+\t\t\t<homonymIndex>эгер II</homonymIndex>
+\t\t\t<origin>ир.</origin>
+\t\t\t<blockquote>союз</blockquote>
+\t\t\t<meaning>
+\t\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t\t<xr>то же, что <wordLink word="эгерде"/>;</xr>
+\t\t\t\t<blockquote>эрегише келгенде эгерде мени соо кылбайт фольк. если он схватится (со мной), то ни за что меня живым не оставит;</blockquote>
+\t\t\t\t<blockquote>эгер жалгыз чаппаймын фольк. я ни за что один не поскачу;</blockquote>
+\t\t\t</meaning>
+\t\t\t<meaning>
+\t\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t\t<trn>при двойном отрицании обязательно, во что бы то ни стало;</trn>
+\t\t\t\t<ex>''',
+        '''<homonym>
+\t\t\t<homonymIndex>эгер II</homonymIndex>
+\t\t\t<origin>ир.</origin>
+\t\t\t<meta>союз</meta>
+\t\t\t<meaning>
+\t\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t\t<xr>то же, что <wordLink word="эгерде"/>;</xr>
+\t\t\t\t<blockquote>эрегише келгенде эгерде мени соо кылбайт фольк. если он схватится (со мной), то ни за что меня живым не оставит;</blockquote>
+\t\t\t\t<blockquote>эгер жалгыз чаппаймын фольк. я ни за что один не поскачу;</blockquote>
+\t\t\t</meaning>
+\t\t\t<meaning>
+\t\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t\t<meta>при двойном отрицании</meta>
+\t\t\t\t<trn>обязательно, во что бы то ни стало;</trn>
+\t\t\t\t<ex>''',
+    ),
+    (
+        '''<card>
 \t\t<k>алчактат-</k>
 \t\t<xr>понуд. от <wordLink word="алчакта- 1.:"/></xr>
 \t\t<blockquote>атты алчактатып пустив коня бодрым шагом;</blockquote>
