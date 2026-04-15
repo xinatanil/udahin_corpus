@@ -632,6 +632,366 @@ EXACT_XML_REWRITES = [
 \t</card>''',
     ),
     (
+        '''<card>
+\t\t<k>аракетте-</k>
+\t\t<trn>двигать;</trn>
+\t\t<blockquote>действовать;</blockquote>
+\t\t<blockquote>колу-бутум менен аракеттеп (я) двигая руками и ногами.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>аракетте-</k>
+\t\t<trn>двигать; действовать;</trn>
+\t\t<blockquote>колу-бутум менен аракеттеп (я) двигая руками и ногами.</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>ачты</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>ачты-токту то сыт, то голоден;</blockquote>
+\t\t<blockquote>впроголодь.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>ачты</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>ачты-токту то сыт, то голоден; впроголодь.</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>белсениш-</k>
+\t\t<xr>взаимн. от <wordLink word="белсен-"/>.</xr>
+\t\t<blockquote>белсин-</blockquote>
+\t\t<xr>уподоб. от <wordLink word="бел"/></xr>
+\t\t<meaning>''',
+        '''<card>
+\t\t<k>белсениш-</k>
+\t\t<xr>взаимн. от <wordLink word="белсен-"/>.</xr>
+\t</card>
+\t<card>
+\t\t<k>белсин-</k>
+\t\t<xr>уподоб. от <wordLink word="бел"/></xr>
+\t\t<meaning>''',
+    ),
+    (
+        '''<card>
+\t\t<k>битта</k>
+\t\t<origin>кирг.-ир.</origin>
+\t\t<alternativeForm>южн. [биттә]</alternativeForm>
+\t\t<blockquote>одна штука.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>битта</k>
+\t\t<origin>кирг.-ир.</origin>
+\t\t<alternativeForm>южн. [биттә]</alternativeForm>
+\t\t<trn>одна штука.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>бурчтан-</k>
+\t\t<trn>выдаваться (в виде угла, выступа, отдельного участка);</trn>
+\t\t<blockquote>выделяться;</blockquote>''',
+        '''<card>
+\t\t<k>бурчтан-</k>
+\t\t<trn>выдаваться (в виде угла, выступа, отдельного участка); выделяться;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>гилас</k>
+\t\t<origin>ир.</origin>
+\t\t<alternativeForm>южн. [гиләрс, гиләс]</alternativeForm>
+\t\t<blockquote>черешня.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>гилас</k>
+\t\t<origin>ир.</origin>
+\t\t<alternativeForm>южн. [гиләрс, гиләс]</alternativeForm>
+\t\t<trn>черешня.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>гүш</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>күш-гүш</blockquote>
+\t\t<meta>южн.</meta>
+\t\t<blockquote>кыш! (возглас, которым отпугивают кур).</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>гүш</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>күш-гүш южн. кыш! (возглас, которым отпугивают кур).</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<trn>сильно желающий;</trn>
+\t\t\t<blockquote>энтузиаст;</blockquote>''',
+        '''<trn>сильно желающий; энтузиаст;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>дож</k>
+\t\t<origin>р.</origin>
+\t\t<meta>шутл.</meta>
+\t\t<trn>сокр.</trn>
+\t\t<blockquote>молодёжь.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>дож</k>
+\t\t<origin>р.</origin>
+\t\t<meta>шутл.</meta>
+\t\t<meta>сокр.</meta>
+\t\t<trn>молодёжь.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>жогороок</k>
+\t\t<trn>усилительная степень от жогору;</trn>
+\t\t<blockquote>повыше;</blockquote>
+\t\t<blockquote>кечүүдөн жогороок жактагы находящийся повыше переправы (через речку).</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>жогороок</k>
+\t\t<xr>усилительная степень от <wordLink word="жогору"/></xr>
+\t\t<trn>повыше;</trn>
+\t\t<blockquote>кечүүдөн жогороок жактагы находящийся повыше переправы (через речку).</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>жөндөн-</k>
+\t\t<xr>возвр. от <wordLink word="жөндө-"/>;</xr>
+\t\t<trn>наладиться, прийти в норму; оправиться.</trn>
+\t\t<blockquote>жөндөнт-</blockquote>
+\t\t<xr>понуд. от <wordLink word="жөндөн-"/>.</xr>
+\t</card>''',
+        '''<card>
+\t\t<k>жөндөн-</k>
+\t\t<xr>возвр. от <wordLink word="жөндө-"/>;</xr>
+\t\t<trn>наладиться, прийти в норму; оправиться.</trn>
+\t</card>
+\t<card>
+\t\t<k>жөндөнт-</k>
+\t\t<xr>понуд. от <wordLink word="жөндөн-"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>кыжыкыймалан-</k>
+\t\t<blockquote>(кыжы-кыймалан-; см. <wordLink word="кыжы"/>)</blockquote>
+\t\t<blockquote>кишеть;</blockquote>
+\t\t<blockquote>кишилер кыжыкыймаланган базар аянты базарная площадь, кишащая людьми.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>кыжыкыймалан-</k>
+\t\t<blockquote>(кыжы-кыймалан-; см. <wordLink word="кыжы"/>)</blockquote>
+\t\t<trn>кишеть;</trn>
+\t\t<blockquote>кишилер кыжыкыймаланган базар аянты базарная площадь, кишащая людьми.</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<blockquote>с греч.</blockquote>''',
+        '''<meta>с греч.</meta>''',
+    ),
+    (
+        '''<card>
+\t\t<k>наушник</k>
+\t\t<trn>радио</trn>
+\t\t<blockquote>наушник;</blockquote>
+\t\t<blockquote>наушниктерди баштарына кийди они надели наушники.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>наушник</k>
+\t\t<meta>радио</meta>
+\t\t<trn>наушник;</trn>
+\t\t<blockquote>наушниктерди баштарына кийди они надели наушники.</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<blockquote>ок-эле</blockquote>
+\t\t\t<xr>то же, что <wordLink word="огеле"/> (см. <wordLink word="ого" homonym="I"/>);</xr>''',
+        '''<blockquote>ок-эле то же, что <wordLink word="огеле"/> (см. <wordLink word="ого" homonym="I"/>);</blockquote>''',
+    ),
+    (
+        '''<card>
+\t\t<k>позывные</k>
+\t\t<trn>радио</trn>
+\t\t<blockquote>позывные.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>позывные</k>
+\t\t<meta>радио</meta>
+\t\t<trn>позывные.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>приёмник</k>
+\t\t<trn>радио</trn>
+\t\t<blockquote>приёмник.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>приёмник</k>
+\t\t<meta>радио</meta>
+\t\t<trn>приёмник.</trn>
+\t</card>''',
+    ),
+    (
+        '''<blockquote>жалганын, чыныи сындаймын я выпытаю, где здесь ложь и где правда.</blockquote>
+\t\t<blockquote>сындал-</blockquote>
+\t\t<xr>то же, что <wordLink word="сынал-" homonym="II"/></xr>
+\t\t<blockquote>подвергаться испытанию, критике.</blockquote>
+\t</card>''',
+        '''<blockquote>жалганын, чыныи сындаймын я выпытаю, где здесь ложь и где правда.</blockquote>
+\t</card>
+\t<card>
+\t\t<k>сындал-</k>
+\t\t<xr>то же, что <wordLink word="сынал-" homonym="II"/></xr>
+\t\t<trn>подвергаться испытанию, критике.</trn>
+\t</card>''',
+    ),
+    (
+        '''<card>
+\t\t<k>сөөлмөк</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>ак сөөлмөк то же, что <wordLink word="ак чөлмөк"/> (см. <wordLink word="чөлмөк" homonym="III"/>).</blockquote>
+\t\t<blockquote>сөөлөт</blockquote>
+\t\t<origin>ар.</origin>''',
+        '''<card>
+\t\t<k>сөөлмөк</k>
+\t\t<collocationIdentifier>:</collocationIdentifier>
+\t\t<blockquote>ак сөөлмөк то же, что <wordLink word="ак чөлмөк"/> (см. <wordLink word="чөлмөк" homonym="III"/>).</blockquote>
+\t</card>
+\t<card>
+\t\t<k>сөөлөт</k>
+\t\t<origin>ар.</origin>''',
+    ),
+    (
+        '''<alternativeForm>южн. [тәк]</alternativeForm>
+\t\t\t\t<blockquote>низ, под;</blockquote>''',
+        '''<alternativeForm>южн. [тәк]</alternativeForm>
+\t\t\t\t<trn>низ, под;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>террорчу</k>
+\t\t<trn>то же, что</trn>
+\t\t<blockquote>террорист.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>террорчу</k>
+\t\t<xr>то же, что <wordLink word="террорист"/>.</xr>
+\t</card>''',
+    ),
+    (
+        '''<miniTrn>1) красный нос;</miniTrn>
+\t\t\t\t<blockquote>красноносый;</blockquote>''',
+        '''<miniTrn>1) красный нос; красноносый;</miniTrn>''',
+    ),
+    (
+        '''<blockquote>быйыл кыш эртерээк түшкөнсүп турат в этом году зима как-будто собирается раньше</blockquote>
+\t\t<blockquote>наступить;</blockquote>''',
+        '''<blockquote>быйыл кыш эртерээк түшкөнсүп турат в этом году зима как-будто собирается раньше наступить;</blockquote>''',
+    ),
+    (
+        '''<blockquote>таалайына туштук чырайы да бар по (её) счастью и красота у неё.</blockquote>
+\t\t\t<blockquote>тушук-</blockquote>
+\t\t\t<blockquote>встретиться, повстречаться;</blockquote>
+\t\t\t<blockquote>жакшыга жакшы тушугар стих. хороший (человек) с хорошим встречается; хорошему (человеку) хороший попадается;</blockquote>
+\t\t\t<blockquote>тушуккан жоо повстречавшийся враг; враг, выступивший против;</blockquote>
+\t\t\t<blockquote>өлүмгө тушук- повстречаться со смертью; подвергнуть себя смертельной опасности;</blockquote>
+\t\t\t<blockquote>малга камы жок болсо, өлүмгө минтип тушугат стих. кто не заботится о скоте, тот так вот со смертью встречается;</blockquote>
+\t\t</homonym>
+\t</card>''',
+        '''<blockquote>таалайына туштук чырайы да бар по (её) счастью и красота у неё.</blockquote>
+\t\t</homonym>
+\t</card>
+\t<card>
+\t\t<k>тушук-</k>
+\t\t<trn>встретиться, повстречаться;</trn>
+\t\t<blockquote>жакшыга жакшы тушугар стих. хороший (человек) с хорошим встречается; хорошему (человеку) хороший попадается;</blockquote>
+\t\t<blockquote>тушуккан жоо повстречавшийся враг; враг, выступивший против;</blockquote>
+\t\t<blockquote>өлүмгө тушук- повстречаться со смертью; подвергнуть себя смертельной опасности;</blockquote>
+\t\t<blockquote>малга камы жок болсо, өлүмгө минтип тушугат стих. кто не заботится о скоте, тот так вот со смертью встречается;</blockquote>
+\t</card>''',
+    ),
+    (
+        '''<blockquote>жетим кулундун тээгиндей болгон байкуш (о человеке) беспомощный, безответный,</blockquote>
+\t\t\t<blockquote>нерешительный.</blockquote>''',
+        '''<blockquote>жетим кулундун тээгиндей болгон байкуш (о человеке) беспомощный, безответный, нерешительный.</blockquote>''',
+    ),
+    (
+        '''<blockquote>асты-үстүнө (или үстү-астына) түшүп жалынат он усиленно и льстиво упрашивает;</blockquote>
+\t\t<blockquote>он лебезит;</blockquote>''',
+        '''<blockquote>асты-үстүнө (или үстү-астына) түшүп жалынат он усиленно и льстиво упрашивает; он лебезит;</blockquote>''',
+    ),
+    (
+        '''<card>
+\t\t<k>чамгыр</k>
+\t\t<meta>сев.</meta>
+\t\t<blockquote>из уйг.</blockquote>''',
+        '''<card>
+\t\t<k>чамгыр</k>
+\t\t<meta>сев.</meta>
+\t\t<meta>из уйг.</meta>''',
+    ),
+    (
+        '''<origin>р.</origin>
+\t\t\t<trn>через тат.</trn>
+\t\t\t<blockquote>церковь.</blockquote>''',
+        '''<origin>р. через тат.</origin>
+\t\t\t<trn>церковь.</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>шуңа</k>
+\t\t<meta>южн.</meta>
+\t\t<trn>дат. п. от шу</trn>
+\t\t<blockquote>ему, тому.</blockquote>
+\t</card>''',
+        '''<card>
+\t\t<k>шуңа</k>
+\t\t<meta>южн.</meta>
+\t\t<meta>дат. п. от шу</meta>
+\t\t<trn>ему, тому.</trn>
+\t</card>''',
+    ),
+    (
+        '''<meta>памирск.</meta>
+\t\t\t<trn>из уйг.</trn>
+\t\t\t<blockquote>одежда;</blockquote>''',
+        '''<meta>памирск.</meta>
+\t\t\t<meta>из уйг.</meta>
+\t\t\t<trn>одежда;</trn>''',
+    ),
+    (
+        '''<blockquote>энем болсо, үй оокатка жүдөп, эңкейип баратат а мать моя, изнурённая домашними заботами,</blockquote>
+\t\t\t<blockquote>стареет;</blockquote>''',
+        '''<blockquote>энем болсо, үй оокатка жүдөп, эңкейип баратат а мать моя, изнурённая домашними заботами, стареет;</blockquote>''',
+    ),
+    (
+        '''<blockquote>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</blockquote>
+\t\t\t<blockquote>целовать;</blockquote>''',
+        '''<blockquote>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</blockquote>
+\t\t\t<trn>целовать;</trn>''',
+    ),
+    (
+        '''<card>
+\t\t<k>өтөгөн</k>
+\t\t<meta>сев.</meta>
+\t\t<meta>уст.</meta>
+\t\t<trn>иносказательно</trn>
+\t\t<blockquote>медведь;</blockquote>''',
+        '''<card>
+\t\t<k>өтөгөн</k>
+\t\t<meta>сев.</meta>
+\t\t<meta>уст.</meta>
+\t\t<meta>иносказательно</meta>
+\t\t<trn>медведь;</trn>''',
+    ),
+    (
         '''<blockquote>алчын байыр</blockquote>
 \t\t\t<blockquote>сев. уст. (ср. <wordLink word="алчимбар"/>)</blockquote>
 \t\t\t<blockquote>название кустарной ткани, которая привозилась в северную Киргизию из Ферганы;</blockquote>''',
