@@ -18,6 +18,8 @@ Task:
 Definition of split_index:
 - split_index is the boundary immediately after the left side and immediately before the right side.
 - First decide where the Kyrgyz source part ends.
+- Identify the full last token that still belongs to the left side.
+- Identify the full first token that belongs to the right side, even if that token is very short.
 - Then place split_index at the very next boundary.
 - If the two sides are separated by a space, split_index must point to that space.
 - So split_index does not point to the first Russian letter. It points to the boundary before it.
@@ -119,6 +121,11 @@ Correct: бар экен, жок экен## присказка было (это)
 Annotated text: көзгө басар жалгыз боз үй жок эле (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
 Wrong: көзгө басар жалгыз боз үй жок эле (там)## не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
 Correct: көзгө басар жалгыз боз үй жок эле## (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
+
+5.
+Annotated text: совет элдеринин бир тууган үй-бүлөсүндө в родной семье советских народов;
+Wrong: совет элдеринин бир тууган үй-бүлөсүндө в## родной семье советских народов;
+Correct: совет элдеринин бир тууган үй-бүлөсүндө## в родной семье советских народов;
 
 Pattern id: signal_pattern_cases/001_kyfunc_l56_ruf_l12.txt
 Abstract pattern: KYFUNC_L56 RUF_L12
