@@ -1,24 +1,33 @@
 SYSTEM:
 You review Kyrgyz-Russian dictionary blockquotes.
 For each line, return either SPLIT with an exact 0-based split_index, or NO_SPLIT.
-Your main task is to place split_index at the exact boundary between the left Kyrgyz part and the right Russian part.
+Your job is purely to place split_index at the exact boundary between the left Kyrgyz part and the right Russian part.
 Do not rewrite text.
 Do not normalize punctuation.
 Treat placeholders like [[WL1|...]] and [[SPD1|-]] as immutable text.
 
 USER:
 Task:
-- Keep the full Kyrgyz text on the left.
-- Put the Russian gloss, translation, or note on the right.
-- Most lines are simple bilingual lines. Prefer the obvious boundary.
-- Return NO_SPLIT only if the whole line is only a note, xref, or grammar comment and there is no real Kyrgyz example before it.
+- Keep the full Kyrgyz source part on the left.
+- Put the full Russian translation, gloss, or note on the right.
+- The right side may start with a normal Russian word, a parenthetical note, or a short note label such as `фольк.` or `загадка`.
+- The first visible token on the right may also be a short Russian function word such as `в`, `у`, `об`, `от`, `где`, `вот`, `даже`, or `когда`.
+- Most lines are simple bilingual lines. Default to SPLIT at the obvious boundary.
+- Return NO_SPLIT only if the whole line is only a note, xref, or grammar comment and there is no real Kyrgyz source text before it.
 
-How to place split_index:
-1. Find the first character that belongs to the right Russian part.
-2. split_index must point exactly to that character boundary.
-3. If there is a separating space, split_index must point to that space.
-4. If there is no separating space, split at the exact token boundary.
-5. Split inside a token only when the left side visibly ends with a hyphen '-' and the right side starts immediately after it.
+Definition of split_index:
+- split_index is the boundary immediately after the left side and immediately before the right side.
+- First decide where the Kyrgyz source part ends.
+- Then place split_index at the very next boundary.
+- If the two sides are separated by a space, split_index must point to that space.
+- So split_index does not point to the first Russian letter. It points to the boundary before it.
+- Do not search for the first "good" Russian word and move the split to it. Place the split at the first boundary after the full left side ends.
+- Do not skip a short Russian token just because it looks weak, grammatical, or unimportant. If it is the first token on the right, split before it.
+- In normal cases the rendered result should look like `left## right`.
+- If the right side starts with a parenthetical note, the rendered result should look like `left## (note) right`.
+- If the right side starts with a short note label, the rendered result should look like `left## фольк. ...` or `left## загадка ...`.
+- If there is no space, split only at a true token boundary.
+- Split inside a token only when the left side visibly ends with a hyphen `-` and the right side starts immediately after it.
 
 Hard rules:
 - Return one decision for every input line, in the same order as the lines are given.
@@ -26,21 +35,34 @@ Hard rules:
 - If decision is NO_SPLIT, split_index must be null.
 - Never point inside a placeholder like [[WL1|...]] or [[SPD1|-]].
 - Never split inside an ordinary word.
-- Never place ## between two Cyrillic letters.
 - Never cut off the last letter(s) of the left word.
 - Never cut off the first letter(s) of the right word.
-- Do not split before or after a short ambiguous token such as да if it still belongs to the left Kyrgyz clause.
+- Never produce `\S##\S` unless the left side visibly ends with a hyphen.
+- If the right side starts with `(`, keep the whole parenthetical note on the right. Do not split after `)` and do not move the split inside the parenthetical note.
+- Do not push the split to the right just because the right side starts with `(`, `фольк.`, `загадка`, or another note marker.
+- Do not push the split to the right just because the first right-side token is short, such as `в`, `у`, `об`, `от`, `где`, `вот`, `даже`, or `когда`.
+- Keep short Kyrgyz particles such as `да` on the left if they still belong to the Kyrgyz clause.
 
 Mechanical self-check:
-- Let left = Annotated text[:split_index]
-- Let right = Annotated text[split_index:]
-- right.lstrip() must begin with the full first Russian token exactly.
-- left must still end with the full last Kyrgyz token exactly.
-- If there is a separating space, split_index must point to that space, not to the previous letter.
-- If inserting ## creates a broken Cyrillic fragment on either side, the split is wrong.
+- Let `left = Annotated text[:split_index]`.
+- Let `right = Annotated text[split_index:]`.
+- `left` must still end with the full last left-side token exactly.
+- `right` must begin exactly at the right-side boundary.
+- Never move the split one character left into the last Kyrgyz word.
+- Never move the split one character right into the first Russian word.
+- In the usual case `right` begins with the single separating space.
+- After that separating space, the first visible right-side character may be `(`, a Russian letter, or a short note label.
+- The first visible right-side token may be short and grammatical; it still belongs to the right side and must remain intact.
+- In the hyphen case only, `right` may start immediately with the first right-side letter.
+- After inserting `##`, the result must look like one of these shapes:
+  - `left## right`
+  - `left## (note) right`
+  - `left## фольк. right`
+  - `left-##right`
+- If inserting `##` creates a broken Cyrillic fragment on either side, the split is wrong.
 
 Typical wrong outputs:
-- в##, у##, об##, о##н, г##де, к##огда, п##од, я##, эм##и, р##аз, от##, тура##т, ала##т, ачт##ы
+- в##, у##, об##, о##н, г##де, к##огда, п##од, п##рисказка, т##от, я##, эм##и, р##аз, от##, тура##т, ала##т, ачт##ы
 
 Return strict JSON with this shape:
 {
@@ -68,6 +90,11 @@ Decision: SPLIT
 split_index: 31
 
 3.
+Annotated text: көзгө басар жалгыз боз үй жок эле (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
+Decision: SPLIT
+split_index: 34
+
+4.
 Annotated text: неправ. вместо бир да (см. [[WL1|бир]]).
 Decision: NO_SPLIT
 split_index: null
@@ -82,6 +109,16 @@ Correct: ол иштер үчүн мойсопуттардан сураш кер
 Annotated text: көздөрүнүн алдына бир аз тырыш кирген под глазами у него появились морщинки;
 Wrong: көздөрүнүн алдына бир аз тырыш кирген п##од глазами у него появились морщинки;
 Correct: көздөрүнүн алдына бир аз тырыш кирген## под глазами у него появились морщинки;
+
+3.
+Annotated text: бар экен, жок экен присказка было (это), не было;
+Wrong: бар экен, жок экен п##рисказка было (это), не было;
+Correct: бар экен, жок экен## присказка было (это), не было;
+
+4.
+Annotated text: көзгө басар жалгыз боз үй жок эле (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
+Wrong: көзгө басар жалгыз боз үй жок эле (там)## не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
+Correct: көзгө басар жалгыз боз үй жок эле## (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
 
 Pattern id: signal_pattern_cases/001_kyfunc_l56_ruf_l12.txt
 Abstract pattern: KYFUNC_L56 RUF_L12
