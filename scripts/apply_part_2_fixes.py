@@ -258,6 +258,179 @@ EXACT_XML_REWRITES = [
         '''<blockquote>эсептеп чыгар- подсчитывать;</blockquote>''',
     ),
     (
+        '''<blockquote>ай, кургурум-ая! ой, бедненький ты мой!-, кургур Сарала жоголду бедняга Жёлто-пегий (конь) пропал.</blockquote>''',
+        '''<blockquote>ай, кургурум-ая! ой, бедненький ты мой!;</blockquote>
+\t\t<blockquote>кургур Сарала жоголду бедняга Жёлто-пегий (конь) пропал.</blockquote>''',
+    ),
+    (
+        '''<blockquote>(айыл аткаруу комитети) сельский исполнительный комитет;</blockquote>''',
+        '''<alternativeForm>(айыл аткаруу комитети)</alternativeForm>
+\t\t\t<trn>сельский исполнительный комитет;</trn>''',
+    ),
+    (
+        '''<blockquote>алача (полосатая бумажная материя кустарного, а позднее и фабричного производства).</blockquote>''',
+        '''<trn>алача (полосатая бумажная материя кустарного, а позднее и фабричного производства).</trn>''',
+    ),
+    (
+        '''<blockquote>седло со всеми принадлежностями (потники, подпруги и т.д.);</blockquote>''',
+        '''<trn>седло со всеми принадлежностями (потники, подпруги и т.д.);</trn>''',
+    ),
+    (
+        '''<trn>(место) с целебными источниками;</trn>
+\t\t<blockquote>(место) с тёплыми ключами.</blockquote>''',
+        '''<trn>(место) с целебными источниками; (место) с тёплыми ключами.</trn>''',
+    ),
+    (
+        '''<blockquote>аркан (мера длины, равная 4-5 метрам);</blockquote>''',
+        '''<trn>аркан (мера длины, равная 4-5 метрам);</trn>''',
+    ),
+    (
+        '''<blockquote>ассалооту жаназа</blockquote>
+\t\t<blockquote>ар. рел. начальные слова молитвословия при выносе тела.</blockquote>''',
+        '''<blockquote>ассалооту жаназа ар. рел. начальные слова молитвословия при выносе тела.</blockquote>''',
+    ),
+    (
+        '''<blockquote>аттан түшө качат он руками и ногами отмахивается;</blockquote>
+\t\t\t\t<blockquote>он бежит как от чумного, как чёрт от ладана;</blockquote>''',
+        '''<blockquote>аттан түшө качат он руками и ногами отмахивается; он бежит как от чумного, как чёрт от ладана;</blockquote>''',
+    ),
+    (
+        '''<trn>пробиваться на поверхность (напр. о растении);</trn>
+\t\t\t\t<blockquote>выступать (напр. о сыпи);</blockquote>''',
+        '''<trn>пробиваться на поверхность (напр. о растении); выступать (напр. о сыпи);</trn>''',
+    ),
+    (
+        '''<trn>произносить слово ата (см. <wordLink word="ата" homonym="I"/>);</trn>
+\t\t\t<blockquote>звать на помощь отца;</blockquote>''',
+        '''<trn>произносить слово ата (см. <wordLink word="ата" homonym="I"/>); звать на помощь отца;</trn>''',
+    ),
+    (
+        '''<blockquote>атпай (название киргизского племени);</blockquote>''',
+        '''<trn>атпай (название киргизского племени);</trn>''',
+    ),
+    (
+        '''<blockquote>(иногда бейл)</blockquote>''',
+        '''<alternativeForm>(иногда бейл)</alternativeForm>''',
+    ),
+    (
+        '''<blockquote>Вайсилата</blockquote>
+\t\t<meta>южн.</meta>
+\t\t<xr>то же, что <wordLink word="Ойсулата"/> (см. <wordLink word="ата" homonym="I" meaning="2"/>).</xr>''',
+        '''<blockquote>Вайсилата южн. то же, что <wordLink word="Ойсулата"/> (см. <wordLink word="ата" homonym="I" meaning="2"/>).</blockquote>''',
+    ),
+    (
+        '''<blockquote>о, дарига!</blockquote>
+\t\t<xr>см. <wordLink word="о" homonym="III"/>.</xr>''',
+        '''<blockquote>о, дарига! см. <wordLink word="о" homonym="III"/>.</blockquote>''',
+    ),
+    (
+        '''<blockquote>(об одежде)</blockquote>''',
+        '''<meta>(об одежде)</meta>''',
+    ),
+    (
+        '''<blockquote>жыбың эт-</blockquote>
+\t\t<blockquote>подмигивать; улыбаться, заигрывая.</blockquote>''',
+        '''<blockquote>жыбың эт- подмигивать; улыбаться, заигрывая.</blockquote>''',
+    ),
+    (
+        '''<blockquote>илес: ак илес</blockquote>
+\t\t<xr>то же, что <wordLink word="агылес"/>.</xr>''',
+        '''<blockquote>ак илес то же, что <wordLink word="агылес"/>.</blockquote>''',
+    ),
+    (
+        '''<blockquote>кем-керч</blockquote>
+\t\t<xr>то же, что <wordLink word="кем-карч"/> (см. <wordLink word="карч" homonym="II"/>).</xr>''',
+        '''<blockquote>кем-керч то же, что <wordLink word="кем-карч"/> (см. <wordLink word="карч" homonym="II"/>).</blockquote>''',
+    ),
+    (
+        '''<blockquote>куйтан ойнот-</blockquote>
+\t\t<blockquote>морочить голову; хитрить.</blockquote>''',
+        '''<blockquote>куйтан ойнот- морочить голову; хитрить.</blockquote>''',
+    ),
+    (
+        '''<blockquote>мении кыртышым</blockquote>
+\t\t\t<blockquote>сүйгөн жок я отнёсся недружелюбно;</blockquote>''',
+        '''<blockquote>мении кыртышым сүйгөн жок я отнёсся недружелюбно;</blockquote>''',
+    ),
+    (
+        '''<blockquote>я (менин род. п., мени вин. п., мага, маа, маган, южн. маңа дат. п.);</blockquote>''',
+        '''<trn>я (менин род. п., мени вин. п., мага, маа, маган, южн. маңа дат. п.);</trn>''',
+    ),
+    (
+        '''<blockquote>мин этип</blockquote>
+\t\t\t<xr>то же, что <wordLink word="минтип"/> (см. <wordLink word="мунет-"/>).</xr>''',
+        '''<blockquote>мин этип то же, что <wordLink word="минтип"/> (см. <wordLink word="мунет-"/>).</blockquote>''',
+    ),
+    (
+        '''<blockquote>ноода тяньш.</blockquote>''',
+        '''<alternativeForm>ноода тяньш.</alternativeForm>''',
+    ),
+    (
+        '''<blockquote>о, дарига</blockquote>
+\t\t\t<origin>ир.</origin>
+\t\t\t<meta>редко</meta>
+\t\t\t<blockquote>возглас, выражающий горе, сожаление.</blockquote>''',
+        '''<blockquote>о, дарига ир. редко возглас, выражающий горе, сожаление.</blockquote>''',
+    ),
+    (
+        '''<blockquote>супу садык</blockquote>
+\t\t<origin>ар.</origin>
+\t\t<xr>то же, что <wordLink word="таң супасы"/> (см. <wordLink word="супа" homonym="I"/>).</xr>''',
+        '''<blockquote>супу садык ар. то же, что <wordLink word="таң супасы"/> (см. <wordLink word="супа" homonym="I"/>).</blockquote>''',
+    ),
+    (
+        '''<origin>р.</origin>
+\t\t<blockquote>(целковый)</blockquote>''',
+        '''<origin>р. (целковый)</origin>''',
+    ),
+    (
+        '''<blockquote>тефей-тефей (ф губно-губное)</blockquote>
+\t\t<blockquote>южн. возглас, которым подзывают овец.</blockquote>''',
+        '''<blockquote>тефей-тефей (ф губно-губное) южн. возглас, которым подзывают овец.</blockquote>''',
+    ),
+    (
+        '''<blockquote>(турмашта-)</blockquote>''',
+        '''<alternativeForm>(турмашта-)</alternativeForm>''',
+    ),
+    (
+        '''<blockquote>туюк жара</blockquote>
+\t\t\t<blockquote>1). закрытая язва (когда нагноение не прорывается наружу);</blockquote>
+\t\t\t<miniTrn>2) перен. порок, зло, скрытые, разъедающие изнутри;</miniTrn>''',
+        '''<miniCard>
+\t\t\t\t<miniK>туюк жара</miniK>
+\t\t\t\t<miniTrn>1) закрытая язва (когда нагноение не прорывается наружу);</miniTrn>
+\t\t\t\t<miniTrn>2) перен. порок, зло, скрытые, разъедающие изнутри;</miniTrn>
+\t\t\t</miniCard>''',
+    ),
+    (
+        '''<blockquote>тымпыйма оюн</blockquote>
+\t\t<xr>то же, что <wordLink word="тымпый" homonym="I"/>.</xr>''',
+        '''<blockquote>тымпыйма оюн то же, что <wordLink word="тымпый" homonym="I"/>.</blockquote>''',
+    ),
+    (
+        '''<trn>полное безмолвие, тишина;</trn>
+\t\t<blockquote>уст. пауза;</blockquote>''',
+        '''<trn>полное безмолвие, тишина; уст. пауза;</trn>''',
+    ),
+    (
+        '''<blockquote>үтүрөң эт-</blockquote>
+\t\t<xr>то же, что <wordLink word="үтүрөңдө-"/>;</xr>''',
+        '''<blockquote>үтүрөң эт- то же, что <wordLink word="үтүрөңдө-"/>;</blockquote>''',
+    ),
+    (
+        '''<blockquote>чукчуң эт-</blockquote>
+\t\t<blockquote>недовольно дёрнуться, вспылить;</blockquote>''',
+        '''<blockquote>чукчуң эт- недовольно дёрнуться, вспылить;</blockquote>''',
+    ),
+    (
+        '''<k>пул</k>
+\t\t<origin>ир.</origin>
+\t\t<blockquote>с греч.</blockquote>''',
+        '''<k>пул</k>
+\t\t<origin>ир.</origin>
+\t\t<meta>с греч.</meta>''',
+    ),
+    (
         '''<card>
 \t\t<k>алат</k>
 \t\t<xr>то же, что <wordLink word="наалат 1.:"/></xr>
