@@ -275,6 +275,59 @@ EXACT_XML_REWRITES = [
 \t\t<blockquote>кургур Сарала жоголду бедняга Жёлто-пегий (конь) пропал.</blockquote>''',
     ),
     (
+        '''<blockquote>күчү-күчү!</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>возглас, которым подзывают щенка;</trn>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<trn>слово, которым дети дразнят друг друга.</trn>
+\t\t</meaning>''',
+        '''<miniCard>
+\t\t\t<miniK>күчү-күчү!</miniK>
+\t\t\t<miniTrn>1) возглас, которым подзывают щенка;</miniTrn>
+\t\t\t<miniTrn>2) слово, которым дети дразнят друг друга.</miniTrn>
+\t\t</miniCard>''',
+    ),
+    (
+        '''<blockquote>такым аңды-</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<trn>(о собаке) готовиться, чтобы исподтишка хватить за ляжку;</trn>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<meta>перен.</meta>
+\t\t\t<trn>подсиживать, выискивать случай, чтобы сделать пакость;</trn>
+\t\t\t<blockquote>этеги такымына жетпеген бедняк (букв. у кого пола до колена не достаёт);</blockquote>
+\t\t\t<blockquote>куу такым или кер такым хитрый, проныра.</blockquote>
+\t\t</meaning>''',
+        '''<miniCard>
+\t\t\t<miniK>такым аңды-</miniK>
+\t\t\t<miniTrn>1) (о собаке) готовиться, чтобы исподтишка хватить за ляжку;</miniTrn>
+\t\t\t<miniTrn>2) перен. подсиживать, выискивать случай, чтобы сделать пакость;</miniTrn>
+\t\t</miniCard>
+\t\t<blockquote>этеги такымына жетпеген бедняк (букв. у кого пола до колена не достаёт);</blockquote>
+\t\t<blockquote>куу такым или кер такым хитрый, проныра.</blockquote>''',
+    ),
+    (
+        '''<blockquote>асан-үсөн</blockquote>
+\t\t<meaning>
+\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t<xr>то же, что <wordLink word="көк желе"/> (см. <wordLink word="көк" homonym="II" meaning="2"/>);</xr>
+\t\t</meaning>
+\t\t<meaning>
+\t\t\t<meaningIndex>2.</meaningIndex>
+\t\t\t<blockquote>Асан-Үсөн имена, обычно дающиеся мальчикам-близнецам по именам сыновей четвёртого халифа Алия - Хасана и Хусаина.</blockquote>
+\t\t</meaning>''',
+        '''<miniCard>
+\t\t\t<miniK>асан-үсөн</miniK>
+\t\t\t<miniTrn>1) то же, что <wordLink word="көк желе"/> (см. <wordLink word="көк" homonym="II" meaning="2"/>);</miniTrn>
+\t\t\t<miniTrn>2) Асан-Үсөн имена, обычно дающиеся мальчикам-близнецам по именам сыновей четвёртого халифа Алия - Хасана и Хусаина.</miniTrn>
+\t\t</miniCard>''',
+    ),
+    (
         '''<blockquote>(айыл аткаруу комитети) сельский исполнительный комитет;</blockquote>''',
         '''<alternativeForm>(айыл аткаруу комитети)</alternativeForm>
 \t\t\t<trn>сельский исполнительный комитет;</trn>''',
