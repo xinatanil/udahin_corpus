@@ -234,6 +234,30 @@ EXACT_XML_REWRITES = [
         '''<blockquote>абыгер чектир- понуд. от <wordLink word="абыгер чек-"/> причинять хлопоты, наделать хлопот, утруждать; причинять мучения.</blockquote>''',
     ),
     (
+        '''<blockquote>кек ал-отомстить;</blockquote>''',
+        '''<blockquote>кек ал- отомстить;</blockquote>''',
+    ),
+    (
+        '''<blockquote>калам шилте-писать;</blockquote>''',
+        '''<blockquote>калам шилте- писать;</blockquote>''',
+    ),
+    (
+        '''<blockquote>ый ыйла-плакать;</blockquote>''',
+        '''<blockquote>ый ыйла- плакать;</blockquote>''',
+    ),
+    (
+        '''<blockquote>ыракмат айт-благодарить;</blockquote>''',
+        '''<blockquote>ыракмат айт- благодарить;</blockquote>''',
+    ),
+    (
+        '''<blockquote>эмгек кыл-трудиться;</blockquote>''',
+        '''<blockquote>эмгек кыл- трудиться;</blockquote>''',
+    ),
+    (
+        '''<blockquote>эсептеп чыгар-подсчитывать;</blockquote>''',
+        '''<blockquote>эсептеп чыгар- подсчитывать;</blockquote>''',
+    ),
+    (
         '''<card>
 \t\t<k>алат</k>
 \t\t<xr>то же, что <wordLink word="наалат 1.:"/></xr>

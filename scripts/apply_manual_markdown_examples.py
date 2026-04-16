@@ -39,11 +39,8 @@ def apply_markdown_examples(
     xml: str,
     markdown_pairs: list[tuple[str, str, str]],
 ) -> tuple[str, int, list[str]]:
-    allowed_counts = Counter(raw for raw, _, _ in markdown_pairs)
     pair_map = {raw: (source, target) for raw, source, target in markdown_pairs}
     original_counts = Counter(match.group('text') for match in BLOCKQUOTE_LINE_RE.finditer(xml))
-    available_counts = original_counts.copy()
-    remaining_allowed = allowed_counts.copy()
     applied = 0
 
     def repl(match: re.Match[str]) -> str:
@@ -51,16 +48,10 @@ def apply_markdown_examples(
         raw_text = match.group('text')
         if raw_text not in pair_map:
             return match.group(0)
-        if remaining_allowed[raw_text] <= 0:
-            return match.group(0)
-        if available_counts[raw_text] <= 0:
-            return match.group(0)
 
         source, target = pair_map[raw_text]
         indent = match.group('indent')
         applied += 1
-        available_counts[raw_text] -= 1
-        remaining_allowed[raw_text] -= 1
         return (
             f'{indent}<ex>\n'
             f'{indent}\t<source>{source}</source>\n'
@@ -68,10 +59,7 @@ def apply_markdown_examples(
             f'{indent}</ex>'
         )
 
-    missing = []
-    for raw, count in allowed_counts.items():
-        if original_counts[raw] < count:
-            missing.extend([raw] * (count - original_counts[raw]))
+    missing = [raw for raw in pair_map if original_counts[raw] == 0]
     return BLOCKQUOTE_LINE_RE.sub(repl, xml), applied, missing
 
 
