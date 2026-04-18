@@ -1,0 +1,7 @@
+{
+  "alternativeForm": {
+    "prefix": "altformempty",
+    "body": "<alternativeForm>$1</alternativeForm>",
+    "description": "empty altForm tag"
+  }
+}
