@@ -143,41 +143,13 @@ TRN_META_TO_META_TRN = [
 BLOCKQUOTE_TO_META = [
     '<blockquote>(обычно в сочет. с түш-)</blockquote>',
     '<blockquote>(синьцз. кол абзал)</blockquote>',
-    '<blockquote>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</blockquote>',
-    '<blockquote>только в сочет. с ич (см. <wordLink word="ич" homonym="I"/>).</blockquote>',
-    '<blockquote>при звукоподражаниях сочетается с глаголом түш- (см. <wordLink word="түш-" homonym="III"/>);</blockquote>',
-    '<blockquote>при игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
-    '<blockquote>в игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
-    '<blockquote>то же, что <wordLink word="аза" homonym="I" meaning="2"/> (но более эвфемистично);</blockquote>',
-    '<blockquote>то же, что <wordLink word="ак" homonym="II"/> (гл. обр. как эпитет аллаха).</blockquote>',
-    '<blockquote>то же, что <wordLink word="аттыр-"/> (только в сочет. с таң);</blockquote>',
-    '<blockquote>то же, что <wordLink word="борбор" meaning="1"/> (только при игре в ордо, см.);</blockquote>',
-    '<blockquote>то же, что <wordLink word="булбул"/> (но в фольклоре встречается наряду с булбул, как отличная от него птица).</blockquote>',
-    '<blockquote>то же, что <wordLink word="дарак"/> (но название общее, родовое);</blockquote>',
-    '<blockquote>то же, что <wordLink word="кокту"/> (но длиннее);</blockquote>',
-    '<blockquote>то же, что <wordLink word="кокту"/> (но меньших размеров).</blockquote>',
-    '<blockquote>то же, что <wordLink word="кош" homonym="IV"/> (окрик, но обращённый к одной лошади);</blockquote>',
-    '<blockquote>то же, что <wordLink word="көжө"/> (здесь местами приготовляется из сорго);</blockquote>',
-    '<blockquote>то же, что <wordLink word="көнөк" homonym="I"/> (но без носка);</blockquote>',
-    '<blockquote>то же, что <wordLink word="кымын-"/> (но более длительно);</blockquote>',
-    '<blockquote>то же, что <wordLink word="старший"/> (по положению);</blockquote>',
-    '<blockquote>то же, что <wordLink word="сырдаш"/> (напр. если слово алдаш для данной женщины запретно, она заменяет его словом сырдаш).</blockquote>',
-    '<blockquote>то же, что <wordLink word="тараз"/> (говорится также о муж-чине);</blockquote>',
-    '<blockquote>то же, что <wordLink word="тастай-"/> (но в движении);</blockquote>',
-    '<blockquote>то же, что <wordLink word="үзүк" homonym="I"/> (в богатой юрте, но с украшениями);</blockquote>',
-    '<blockquote>то же, что <wordLink word="чай" homonym="II"/> (но в отношении верблюдов);</blockquote>',
-    '<blockquote>то же, что <wordLink word="чай" homonym="II"/> (но в отношении стада коз).</blockquote>',
-    '<blockquote>то же, что <wordLink word="чачкын"/> (но в меньшей степени).</blockquote>',
-    '<blockquote>то же, что <wordLink word="чийне"/> (но по форме больше напоминает сани).</blockquote>',
-    '<blockquote>то же, что <wordLink word="шүмшүй-"/> (но о движениях);</blockquote>',
-    '<blockquote>то же, что <wordLink word="экчеме"/> (но из овсяной муки);</blockquote>',
-    '<blockquote>то же, что <wordLink word="эликте-"/> (но с выкриками);</blockquote>',
-    '<blockquote>то же, что <wordLink word="эмес"/> (но лишь для 1 л.; сокр. от эмесмин);</blockquote>',
+    '<blockquote>в сочет. с ай, көк, асман, ава</blockquote>',
 ]
 
 BLOCKQUOTE_TO_TRN = [
     '<blockquote>соха.</blockquote>',
     '<blockquote>из-за, по причине;</blockquote>',
+    '<blockquote>подражание резкому, громкому звуку;</blockquote>',
     '<blockquote>госпожа (ныне гл. обр. саставная часть женских имен: Гүлайым и т.п.);</blockquote>',
     '<blockquote>невинный, невиновный (в этом значении трудно отличить от ак II 1);</blockquote>',
     '<blockquote>горячительная пища или горячительный напиток (киргизские знахари всю пищу и напитки делили на три группы: ысылык или ысык - "горячительную", сууктук или суук - "прохладительную" и мүнөз тамак "нейтральную"; напр. говядина считалась "прохладительной", конина - "горячительной", а баранина - "нейтральной", зелёный чай - "прохладительным"; в соответствии с этим и все болезни делились на ысыкчан "горячие" и суукчан "холодные"; при "горячей" болезни предписывали диету "холодную"; при "холодной"- "горячую");</blockquote>',
@@ -194,25 +166,6 @@ BLOCKQUOTE_TO_TRN = [
     '<blockquote>горная ложбина (то же, что <wordLink word="салаа"/>, но глубже и с отвесными берегами, заканчивающаяся тупиком);</blockquote>',
     '<blockquote>в форме дей является первым компонентом сложных глаголов, сочетаясь с глаголами ал-, бер-, кал-, кой-, кер-, сал-, тур-, түш-;</blockquote>',
     '<blockquote>один из видов куш (см. <wordLink word="куш" homonym="I"/>; его подвиды: кара кашка тынар или кызыл кашка тынар);</blockquote>',
-    '<blockquote>солонцеватая почва (то же, что <wordLink word="марча"/>);</blockquote>',
-    '<blockquote>мужчина, сопровождающий парня или девушку при игре в кыз куудуруу (см. <wordLink word="кыз" meaning="2"/>).</blockquote>',
-    '<blockquote>тонкий (о слое; противоп. <wordLink word="калың" homonym="I" meaning="2"/>; ср. ичке 1);</blockquote>',
-    '<blockquote>тонкий (противоп. <wordLink word="жоон" homonym="I"/>; ср. жука);</blockquote>',
-    '<blockquote>утончаться, делаться тонким (противоп. <wordLink word="жооной-"/>).</blockquote>',
-    '<blockquote>сторонник изъятия из киргизского алфавита задних вариантов букв к, г (противоп. <wordLink word="кыкчыл"/>).</blockquote>',
-    '<blockquote>название болезни верблюдов, то же, что <wordLink word="чымын тийди"/> (см. <wordLink word="чымын" meaning="2"/>).</blockquote>',
-    '<blockquote>сторонник сохранения в киргизском алфавите задних вариантов букв к, г (противоп. <wordLink word="кекчил"/>).</blockquote>',
-    '<blockquote>объезженный (противоп. <wordLink word="азоо"/>);</blockquote>',
-    '<blockquote>один из видов чач учтук (см. <wordLink word="учтук"/>);</blockquote>',
-    '<blockquote>тыл (противоп. <wordLink word="фронту"/>).</blockquote>',
-    '<blockquote>кожаный нагрудник, надевавшийся на состязаниях эр сайышуу (см. <wordLink word="сайышуу"/>).</blockquote>',
-    '<blockquote>платок на элечек (см.), наматываемый выше кеп чач (см. <wordLink word="кеп" homonym="II" meaning="1"/>);</blockquote>',
-    '<blockquote>прикрутить с помощью тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
-    '<blockquote>петля в нижней части недоуздка жеребёнка, на которой держится тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
-    '<blockquote>прошедшее время от неправильного и недостаточного глагола э- быть (см. <wordLink word="э-" homonym="II"/>);</blockquote>',
-    '<blockquote>в роли вспом. гл. указывает на длительность и непрерывность действия; встречается и в форме отуру (ср. <wordLink word="тур-"/>, <wordLink word="жүр-"/>, <wordLink word="жат-"/>);</blockquote>',
-    '<blockquote>бедняк (чаще употребляется как парное к <wordLink word="кедей"/>);</blockquote>',
-    '<blockquote>всякое живое существо мужского пола (противоп. <wordLink word="ургаачы"/>, см.);</blockquote>',
 ]
 
 BLOCKQUOTE_TO_XR_AND_TRN = [
@@ -279,47 +232,108 @@ BLOCK_REWRITES = [
 
 EXACT_XML_REWRITES = [
     (
-        '''<blockquote>радио (неправ. см. <wordLink word="берүү" meaning="2"/>) передача;</blockquote>''',
-        '''<meta>радио</meta>
-\t\t\t<xr>(неправ. см. <wordLink word="берүү" meaning="2"/>)</xr>
-\t\t\t<trn>передача;</trn>''',
+        '''<trn>быть жидким (о каше);</trn>
+\t\t<blockquote>перен. быть размазнёй (о человеке);</blockquote>''',
+        '''<trn>быть жидким (о каше); перен. быть размазнёй (о человеке);</trn>''',
     ),
     (
-        '''<blockquote>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</blockquote>''',
-        '''<xr>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</xr>''',
+        '''<trn>слегка придавленный;</trn>
+\t\t<blockquote>прям., перен. пониженный;</blockquote>''',
+        '''<trn>слегка придавленный; прям., перен. пониженный;</trn>''',
     ),
     (
-        '''<xr>то же, что <wordLink word="чал-" homonym="II"/></xr>
-\t\t\t<meaning>
-\t\t\t\t<meaningIndex>1.</meaningIndex>
-\t\t\t\t<blockquote>чайда парное к <wordLink word="майда"/>;</blockquote>
-\t\t\t\t<blockquote>майда-чайда мелочь, мелочишка;</blockquote>
-\t\t\t\t<blockquote>майда-чайда жумуштар мелкие работы, кое-какие работы.</blockquote>
-\t\t\t</meaning>''',
-        '''<xr>то же, что <wordLink word="чал-" homonym="II" meaning="1"/></xr>
-\t\t\t<blockquote>чайда парное к <wordLink word="майда"/>;</blockquote>
-\t\t\t<blockquote>майда-чайда мелочь, мелочишка;</blockquote>
-\t\t\t<blockquote>майда-чайда жумуштар мелкие работы, кое-какие работы.</blockquote>''',
+        '''<trn>часть</trn>
+\t\t<blockquote>в разн. знач. отдел, раздел; деталь (механизма);</blockquote>''',
+        '''<trn>часть; в разн. знач. отдел, раздел; деталь (механизма);</trn>''',
     ),
     (
-        '''<blockquote>аульный старшина (то же, что <wordLink word="жүз"/> башы, см. <wordLink word="баш" meaning="8"/>);</blockquote>''',
-        '''<trn>аульный старшина (то же, что <wordLink word="жүз башы"/>, см. <wordLink word="баш" meaning="8"/>);</trn>''',
+        '''<trn>шуметь, гудеть;</trn>
+\t\t\t<blockquote>перен. вести себя шумно, веселиться; наслаждаться;</blockquote>''',
+        '''<trn>шуметь, гудеть; перен. вести себя шумно, веселиться; наслаждаться;</trn>''',
+    ),
+    (
+        '''<trn>шуметь, гудеть;</trn>
+\t\t\t<blockquote>перен. шумно резвиться.</blockquote>''',
+        '''<trn>шуметь, гудеть; перен. шумно резвиться.</trn>''',
+    ),
+    (
+        '''<trn>покрытый;</trn>
+\t\t\t<blockquote>прям., перен. закрытый;</blockquote>''',
+        '''<trn>покрытый; прям., перен. закрытый;</trn>''',
+    ),
+    (
+        '''<trn>махать рукой (показывая направление или парируя удар);</trn>
+\t\t\t<blockquote>перен. жестикулировать;</blockquote>''',
+        '''<trn>махать рукой (показывая направление или парируя удар); перен. жестикулировать;</trn>''',
+    ),
+    (
+        '''<trn>колоть;</trn>
+\t\t\t\t<blockquote>прям., перен. раскалывать;</blockquote>''',
+        '''<trn>колоть; прям., перен. раскалывать;</trn>''',
     ),
     (
         '''<ex>
-\t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
-\t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>)</target>
+\t\t\t\t\t<source>"кыйык эмес, элпек" деп, кызматын көргөн жардаган</source>
+\t\t\t\t\t<target>фольк. она не неслух, учтивая;</target>
 \t\t\t\t</ex>
-\t\t\t\t<blockquote>штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</blockquote>''',
+\t\t\t\t<blockquote>кто видит её работу, изумляется (её умению).</blockquote>''',
         '''<ex>
-\t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
-\t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>) штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</target>
+\t\t\t\t\t<source>"кыйык эмес, элпек" деп, кызматын көргөн жардаган</source>
+\t\t\t\t\t<target>фольк. она не неслух, учтивая; кто видит её работу, изумляется (её умению).</target>
 \t\t\t\t</ex>''',
     ),
     (
-        '''<trn>певец-импровизатор (исполняющий мелкие жанры: мактоо, кордоо, лирические песни и др.;</trn>
-\t\t\t<blockquote>богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</blockquote>''',
-        '''<trn>певец-импровизатор (исполняющий мелкие жанры: мактоо, кордоо, лирические песни и др.; богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</trn>''',
+        '''<trn>бесноватость;</trn>
+\t\t<blockquote>перен. сумасбродство.</blockquote>''',
+        '''<trn>бесноватость; перен. сумасбродство.</trn>''',
+    ),
+    (
+        '''<blockquote>только мн. продуктылар продукты питания.</blockquote>''',
+        '''<meta>только мн.</meta>
+\t\t\t<blockquote>продуктылар продукты питания.</blockquote>''',
+    ),
+    (
+        '''<blockquote>бок-сак нечистоты;</blockquote>
+\t\t\t<blockquote>перен. мусор, хлам.</blockquote>''',
+        '''<blockquote>бок-сак нечистоты; перен. мусор, хлам.</blockquote>''',
+    ),
+    (
+        '''<ex>
+\t\t\t<source>арыштап жүрүп бердик атакалап, баш жарган кыйкырыкта сүрөөндөгөн</source>
+\t\t\t<target>стих. широко шагая, мы двинулись в атаку</target>
+\t\t</ex>
+\t\t<blockquote>с громкими криками и кличем.</blockquote>''',
+        '''<ex>
+\t\t\t<source>арыштап жүрүп бердик атакалап, баш жарган кыйкырыкта сүрөөндөгөн</source>
+\t\t\t<target>стих. широко шагая, мы двинулись в атаку с громкими криками и кличем.</target>
+\t\t</ex>''',
+    ),
+    (
+        '''<trn>служебное слово</trn>
+\t\t\t<xr>(ср. <wordLink word="шыйкы"/>)</xr>
+\t\t\t<blockquote>как будто, по-видимому;</blockquote>''',
+        '''<meta>служебное слово (ср. <wordLink word="шыйкы"/>)</meta>
+\t\t\t<trn>как будто, по-видимому;</trn>''',
+    ),
+    (
+        '''<blockquote>эти тургай, табагымды таппай жүрөм погов. до мяса ли, я даже блюда-то своего не нахожу;</blockquote>
+\t\t\t\t<blockquote>не до жиру, быть бы живу (напр. я не рассчитываю на большую должность, мне хотя бы получить снова ту маленькую, которую я имел);</blockquote>''',
+        '''<blockquote>эти тургай, табагымды таппай жүрөм погов. до мяса ли, я даже блюда-то своего не нахожу; не до жиру, быть бы живу (напр. я не рассчитываю на большую должность, мне хотя бы получить снова ту маленькую, которую я имел);</blockquote>''',
+    ),
+    (
+        '''<blockquote>(по значению совпадает с турбайбы (см. <wordLink word="тур-" homonym="II"/>);</blockquote>
+\t\t\t<blockquote>в отличие от экен (см.), констатирует неожиданный факт, не требует предварительного действия и не принимает аффиксов лица и числа);</blockquote>''',
+        '''<blockquote>(по значению совпадает с турбайбы (см. <wordLink word="тур-" homonym="II"/>); в отличие от экен (см.), констатирует неожиданный факт, не требует предварительного действия и не принимает аффиксов лица и числа);</blockquote>''',
+    ),
+    (
+        '''<blockquote>көйнөгүн өөдө түрдүрүп, чыбык менен май куйрукка басып-басып алды велев задрать</blockquote>
+\t\t<blockquote>ему рубашку, он хворостиной как следует постегал его по мягким частям.</blockquote>''',
+        '''<blockquote>көйнөгүн өөдө түрдүрүп, чыбык менен май куйрукка басып-басып алды велев задрать ему рубашку, он хворостиной как следует постегал его по мягким частям.</blockquote>''',
+    ),
+    (
+        '''<trn>суетиться;</trn>
+\t\t<blockquote>проявлять сильное беспокойство; болеть душой;</blockquote>''',
+        '''<trn>суетиться; проявлять сильное беспокойство; болеть душой;</trn>''',
     ),
     (
         '''<alternativeForm>(бу, редко бо)</alternativeForm>
