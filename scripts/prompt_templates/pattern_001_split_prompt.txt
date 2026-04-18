@@ -1,35 +1,78 @@
 SYSTEM:
 You review Kyrgyz-Russian dictionary blockquotes.
 For each line, return either SPLIT with an exact 0-based split_index, or NO_SPLIT.
-Your job is purely to place split_index at the exact boundary between the left Kyrgyz part and the right Russian part.
+This is a boundary-finding task.
 Do not rewrite text.
 Do not normalize punctuation.
+Do not change spacing.
 Treat placeholders like [[WL1|...]] and [[SPD1|-]] as immutable text.
 
 USER:
-Task:
-- Keep the full Kyrgyz source part on the left.
-- Put the full Russian translation, gloss, or note on the right.
-- The right side may start with a normal Russian word, a parenthetical note, or a short note label such as `фольк.` or `загадка`.
-- The first visible token on the right may also be a short Russian function word such as `в`, `у`, `об`, `от`, `где`, `вот`, `даже`, or `когда`.
-- Most lines are simple bilingual lines. Default to SPLIT at the obvious boundary.
-- Return NO_SPLIT only if the whole line is only a note, xref, or grammar comment and there is no real Kyrgyz source text before it.
+Goal:
+- Split each line into a left Kyrgyz/source part and a right Russian/gloss part.
+- Keep the longest complete Kyrgyz/source expression on the left.
+- Put the Russian translation, gloss, note, label, or xref on the right.
+- Return NO_SPLIT only if the whole line is Russian/meta/xref material and there is no real Kyrgyz/source expression before it.
 
-Definition of split_index:
-- split_index is the boundary immediately after the left side and immediately before the right side.
-- First decide where the Kyrgyz source part ends.
-- Identify the full last token that still belongs to the left side.
-- Identify the full first token that belongs to the right side, even if that token is very short.
-- Then place split_index at the very next boundary.
-- If the two sides are separated by a space, split_index must point to that space.
-- So split_index does not point to the first Russian letter. It points to the boundary before it.
-- Do not search for the first "good" Russian word and move the split to it. Place the split at the first boundary after the full left side ends.
-- Do not skip a short Russian token just because it looks weak, grammatical, or unimportant. If it is the first token on the right, split before it.
-- In normal cases the rendered result should look like `left## right`.
-- If the right side starts with a parenthetical note, the rendered result should look like `left## (note) right`.
-- If the right side starts with a short note label, the rendered result should look like `left## фольк. ...` or `left## загадка ...`.
-- If there is no space, split only at a true token boundary.
-- Split inside a token only when the left side visibly ends with a hyphen `-` and the right side starts immediately after it.
+Exact meaning of split_index:
+- split_index is where `##` is inserted.
+- Normal shape: `left## right`.
+- If the left/source form visibly ends with `-`, the correct shape is `left-## right`.
+- If the left/source clause visibly ends with `?` or `!`, keep that punctuation on the left: `left?## right`, `left!## right`.
+- If there is a separating space between left and right, split_index points to that space.
+
+Main semantic rule:
+- Do not decide by script alone.
+- A Russian-looking token is not automatically the start of the right side.
+- The right side starts only when the actual Russian explanation starts.
+
+What can stay on the left:
+- Kyrgyz/source words and clauses.
+- Alternatives joined by `или`.
+- A parenthetical source variant that still belongs to the source phrase, for example `(бетаачы)`.
+- A borrowed or Russian-looking token that is still part of the source expression and is itself being explained by the Russian gloss that follows.
+- The final `-`, `?`, or `!` if it clearly belongs to the left/source tail.
+
+What starts the right side:
+- A Russian gloss word or Russian gloss phrase.
+- A Russian label or note such as `фольк.`, `погов.`, `стих.`, `см.`, `разг.`, `южн.`, `уст.`, `этн.`, `мат.`, `грам.`, `ист.`.
+- A Russian parenthetical note that comments on an already complete Kyrgyz/source expression, for example `(издали)`, `(из сказки)`.
+- A Russian verbal form or Russian clause that already begins the explanation, for example `улучив ...`, `дав ...`.
+
+Strong lexical heuristics:
+- Some of these clues are absolute, others are only strong defaults.
+- Phrase-level coherence is more important than any single letter pattern.
+- A token that contains Kyrgyz-specific letters such as `ө`, `ң`, `ү`, or vowel sequences like `уу`, `ээ` is Kyrgyz/source, not Russian/gloss.
+- A token is more likely to be Russian/gloss if it contains non-native Kyrgyz letters such as `ф`, `ь`, `ъ`, `ц`, `ё`, `щ`.
+- A token that contains doubled consonants like `нн`, `сс`, `мм`, `рр` is Russian/gloss, not Kyrgyz/source.
+- A token is more likely to be Russian/gloss if it starts with `в`, `е`, or `ю`.
+- A token that ends with `ся` is Russian/gloss, not Kyrgyz/source.
+- A token is more likely to be Russian/gloss if it does not contain Kyrgyz-specific letters and already fits into a Russian gloss phrase.
+- Do not use these clues mechanically: a borrowed Russian-looking token can still stay on the left if it is part of one coherent Kyrgyz/source expression.
+
+Boundary rule:
+1. Find the longest complete Kyrgyz/source expression.
+2. Split immediately after that expression.
+3. Do not split too early just because the next token looks Russian.
+4. But if the next token is already the first word of the actual Russian explanation, split before it.
+
+How to handle Russian-looking borrowed tokens:
+- Some source expressions contain borrowed Russian-looking nouns or other tokens.
+- Keep such a token on the left if it is still part of the source expression and the Russian gloss starts only after it.
+- Examples:
+  - `аба флоту## воздушный флот;`
+  - `көз көрбөгөн рекорд## невиданный рекорд;`
+  - `эгер эмдиги жылы да тааныбасаң - балаң баш-оту менен меники## (из сказки) ...`
+- But if the token itself already begins a Russian explanation, split before it.
+- Examples:
+  - `убакты канимет билип## улучив удобный момент; считая момент удобным;`
+  - `айлантып## дав кончиться, пройти (какому-л. времени);`
+
+How to handle parenthetical notes:
+- Keep a left-side source variant on the left if it belongs to the source phrase.
+- But if a complete Kyrgyz/source expression is followed by a Russian parenthetical note, the note belongs to the right.
+- Example:
+  - `Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт## (издали) он смутно видит пики гор Алайкуу и Арпа;`
 
 Hard rules:
 - Return one decision for every input line, in the same order as the lines are given.
@@ -39,32 +82,19 @@ Hard rules:
 - Never split inside an ordinary word.
 - Never cut off the last letter(s) of the left word.
 - Never cut off the first letter(s) of the right word.
-- Never produce `\S##\S` unless the left side visibly ends with a hyphen.
-- If the right side starts with `(`, keep the whole parenthetical note on the right. Do not split after `)` and do not move the split inside the parenthetical note.
-- Do not push the split to the right just because the right side starts with `(`, `фольк.`, `загадка`, or another note marker.
-- Do not push the split to the right just because the first right-side token is short, such as `в`, `у`, `об`, `от`, `где`, `вот`, `даже`, or `когда`.
-- Keep short Kyrgyz particles such as `да` on the left if they still belong to the Kyrgyz clause.
+- Never output `left##- right` when the source form visibly ends with `-`.
+- Never output `left##? right` or `left##! right` when `?` or `!` clearly belongs to the left/source clause.
+- Do not split inside a left-side source variant such as `(бетаачы)` when the Russian gloss starts later.
+- If a real Kyrgyz/source expression is followed by `см.` or `то же, что ...`, that is still SPLIT.
+- Bare `а` is ambiguous. Do not treat bare `а` alone as enough evidence that the right side has started.
 
 Mechanical self-check:
 - Let `left = Annotated text[:split_index]`.
 - Let `right = Annotated text[split_index:]`.
-- `left` must still end with the full last left-side token exactly.
-- `right` must begin exactly at the right-side boundary.
-- Never move the split one character left into the last Kyrgyz word.
-- Never move the split one character right into the first Russian word.
-- In the usual case `right` begins with the single separating space.
-- After that separating space, the first visible right-side character may be `(`, a Russian letter, or a short note label.
-- The first visible right-side token may be short and grammatical; it still belongs to the right side and must remain intact.
-- In the hyphen case only, `right` may start immediately with the first right-side letter.
-- After inserting `##`, the result must look like one of these shapes:
-  - `left## right`
-  - `left## (note) right`
-  - `left## фольк. right`
-  - `left-##right`
-- If inserting `##` creates a broken Cyrillic fragment on either side, the split is wrong.
-
-Typical wrong outputs:
-- в##, у##, об##, о##н, г##де, к##огда, п##од, п##рисказка, т##от, я##, эм##и, р##аз, от##, тура##т, ала##т, ачт##ы
+- `left` must end with the full left/source tail exactly.
+- `right` must begin at the first character of the right side exactly.
+- If moving the split one character to the right still leaves a complete left/source ending, the current split is too early.
+- If `##` creates broken fragments like `с##делай`, `о##н`, `ко##й`, `б##етаачы`, `кыл##-`, `жүрөмбү##?`, the split is wrong.
 
 Return strict JSON with this shape:
 {
@@ -82,50 +112,90 @@ Return strict JSON with this shape:
 
 Examples:
 1.
-Annotated text: Акжалдын үстүндө зоңкоюп турган Каратай Каратай, этот долговязый, сидит на Белогривом (коне);
+Annotated text: абийирдүүлүк менен с честью, честно, по совести;
 Decision: SPLIT
-split_index: 40
+split_index: 18
 
 2.
-Annotated text: бет бактырбай турган бороон буран такой, что лица повернуть нельзя;
+Annotated text: абакка түш- попасть в тюрьму;
 Decision: SPLIT
-split_index: 31
+split_index: 11
 
 3.
-Annotated text: көзгө басар жалгыз боз үй жок эле (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
+Annotated text: айылдын ити абажаарып үрүп чыкты (все) собаки аула залаяли разом.
 Decision: SPLIT
-split_index: 34
+split_index: 32
 
 4.
+Annotated text: аны асынатып, кишинетип жүрөмбү? (что ж) я и буду возиться (с жеребцами), когда они ржут?
+Decision: SPLIT
+split_index: 32
+
+5.
+Annotated text: бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук носовой платок.
+Decision: SPLIT
+split_index: 82
+
+6.
 Annotated text: неправ. вместо бир да (см. [[WL1|бир]]).
 Decision: NO_SPLIT
 split_index: null
 
 Invalid split examples:
 1.
-Annotated text: ол иштер үчүн мойсопуттардан сураш керек об этом деле нужно спросить у стариков.
-Wrong: ол иштер үчүн мойсопуттардан сураш керек об## этом деле нужно спросить у стариков.
-Correct: ол иштер үчүн мойсопуттардан сураш керек## об этом деле нужно спросить у стариков.
+Annotated text: агарыңкы тарт- слегка побелеть, немного посветлеть.
+Wrong: агарыңкы тарт##- слегка побелеть, немного посветлеть.
+Correct: агарыңкы тарт-## слегка побелеть, немного посветлеть.
 
 2.
-Annotated text: көздөрүнүн алдына бир аз тырыш кирген под глазами у него появились морщинки;
-Wrong: көздөрүнүн алдына бир аз тырыш кирген п##од глазами у него появились морщинки;
-Correct: көздөрүнүн алдына бир аз тырыш кирген## под глазами у него появились морщинки;
+Annotated text: аны асынатып, кишинетип жүрөмбү? (что ж) я и буду возиться (с жеребцами), когда они ржут?
+Wrong: аны асынатып, кишинетип жүрөмбү##? (что ж) я и буду возиться (с жеребцами), когда они ржут?
+Correct: аны асынатып, кишинетип жүрөмбү?## (что ж) я и буду возиться (с жеребцами), когда они ржут?
 
 3.
-Annotated text: бар экен, жок экен присказка было (это), не было;
-Wrong: бар экен, жок экен п##рисказка было (это), не было;
-Correct: бар экен, жок экен## присказка было (это), не было;
+Annotated text: башыман айлансын! (пропало) ну и чёрт с ним!;
+Wrong: башыман айлансын##! (пропало) ну и чёрт с ним!;
+Correct: башыман айлансын!## (пропало) ну и чёрт с ним!;
 
 4.
-Annotated text: көзгө басар жалгыз боз үй жок эле (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
-Wrong: көзгө басар жалгыз боз үй жок эле (там)## не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
-Correct: көзгө басар жалгыз боз үй жок эле## (там) не было ни одной юрты, которая бы бросилась в глаза (т.е. хорошей);
+Annotated text: бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук носовой платок.
+Wrong: бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (б##етаачы) жоолук носовой платок.
+Correct: бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук## носовой платок.
 
 5.
-Annotated text: совет элдеринин бир тууган үй-бүлөсүндө в родной семье советских народов;
-Wrong: совет элдеринин бир тууган үй-бүлөсүндө в## родной семье советских народов;
-Correct: совет элдеринин бир тууган үй-бүлөсүндө## в родной семье советских народов;
+Annotated text: муну аттын кашкасындай белгилеп кой ты это чётко (себе) отметь;
+Wrong: муну аттын кашкасындай белгилеп ко##й ты это чётко (себе) отметь;
+Correct: муну аттын кашкасындай белгилеп кой## ты это чётко (себе) отметь;
+
+6.
+Annotated text: аба флоту воздушный флот;
+Wrong: аба## флоту воздушный флот;
+Correct: аба флоту## воздушный флот;
+
+7.
+Annotated text: көз көрбөгөн рекорд невиданный рекорд;
+Wrong: көз көрбөгөн## рекорд невиданный рекорд;
+Correct: көз көрбөгөн рекорд## невиданный рекорд;
+
+8.
+Annotated text: убакты канимет билип улучив удобный момент; считая момент удобным;
+Wrong: убакты канимет билип улучив## удобный момент; считая момент удобным;
+Correct: убакты канимет билип## улучив удобный момент; считая момент удобным;
+
+9.
+Annotated text: айлантып дав кончиться, пройти (какому-л. времени);
+Wrong: айлантып дав## кончиться, пройти (какому-л. времени);
+Correct: айлантып## дав кончиться, пройти (какому-л. времени);
+
+10.
+Annotated text: эгер эмдиги жылы да тааныбасаң - балаң баш-оту менен меники (из сказки) если ты и на будущий год не узнаешь (его), то сын твой будет моим собственным;
+Wrong: эгер эмдиги жылы да тааныбасаң - балаң баш-оту менен## меники (из сказки) если ты и на будущий год не узнаешь (его), то сын твой будет моим собственным;
+Correct: эгер эмдиги жылы да тааныбасаң - балаң баш-оту менен меники## (из сказки) если ты и на будущий год не узнаешь (его), то сын твой будет моим собственным;
+
+11.
+Annotated text: Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт (издали) он смутно видит пики гор Алайкуу и Арпа;
+Wrong: Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт (издали)## он смутно видит пики гор Алайкуу и Арпа;
+Correct: Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт## (издали) он смутно видит пики гор Алайкуу и Арпа;
 
 Pattern id: signal_pattern_cases/001_kyfunc_l56_ruf_l12.txt
 Abstract pattern: KYFUNC_L56 RUF_L12
