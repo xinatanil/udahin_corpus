@@ -143,6 +143,36 @@ TRN_META_TO_META_TRN = [
 BLOCKQUOTE_TO_META = [
     '<blockquote>(обычно в сочет. с түш-)</blockquote>',
     '<blockquote>(синьцз. кол абзал)</blockquote>',
+    '<blockquote>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</blockquote>',
+    '<blockquote>только в сочет. с ич (см. <wordLink word="ич" homonym="I"/>).</blockquote>',
+    '<blockquote>при звукоподражаниях сочетается с глаголом түш- (см. <wordLink word="түш-" homonym="III"/>);</blockquote>',
+    '<blockquote>при игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
+    '<blockquote>в игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
+    '<blockquote>то же, что <wordLink word="аза" homonym="I" meaning="2"/> (но более эвфемистично);</blockquote>',
+    '<blockquote>то же, что <wordLink word="ак" homonym="II"/> (гл. обр. как эпитет аллаха).</blockquote>',
+    '<blockquote>то же, что <wordLink word="аттыр-"/> (только в сочет. с таң);</blockquote>',
+    '<blockquote>то же, что <wordLink word="борбор" meaning="1"/> (только при игре в ордо, см.);</blockquote>',
+    '<blockquote>то же, что <wordLink word="булбул"/> (но в фольклоре встречается наряду с булбул, как отличная от него птица).</blockquote>',
+    '<blockquote>то же, что <wordLink word="дарак"/> (но название общее, родовое);</blockquote>',
+    '<blockquote>то же, что <wordLink word="кокту"/> (но длиннее);</blockquote>',
+    '<blockquote>то же, что <wordLink word="кокту"/> (но меньших размеров).</blockquote>',
+    '<blockquote>то же, что <wordLink word="кош" homonym="IV"/> (окрик, но обращённый к одной лошади);</blockquote>',
+    '<blockquote>то же, что <wordLink word="көжө"/> (здесь местами приготовляется из сорго);</blockquote>',
+    '<blockquote>то же, что <wordLink word="көнөк" homonym="I"/> (но без носка);</blockquote>',
+    '<blockquote>то же, что <wordLink word="кымын-"/> (но более длительно);</blockquote>',
+    '<blockquote>то же, что <wordLink word="старший"/> (по положению);</blockquote>',
+    '<blockquote>то же, что <wordLink word="сырдаш"/> (напр. если слово алдаш для данной женщины запретно, она заменяет его словом сырдаш).</blockquote>',
+    '<blockquote>то же, что <wordLink word="тараз"/> (говорится также о муж-чине);</blockquote>',
+    '<blockquote>то же, что <wordLink word="тастай-"/> (но в движении);</blockquote>',
+    '<blockquote>то же, что <wordLink word="үзүк" homonym="I"/> (в богатой юрте, но с украшениями);</blockquote>',
+    '<blockquote>то же, что <wordLink word="чай" homonym="II"/> (но в отношении верблюдов);</blockquote>',
+    '<blockquote>то же, что <wordLink word="чай" homonym="II"/> (но в отношении стада коз).</blockquote>',
+    '<blockquote>то же, что <wordLink word="чачкын"/> (но в меньшей степени).</blockquote>',
+    '<blockquote>то же, что <wordLink word="чийне"/> (но по форме больше напоминает сани).</blockquote>',
+    '<blockquote>то же, что <wordLink word="шүмшүй-"/> (но о движениях);</blockquote>',
+    '<blockquote>то же, что <wordLink word="экчеме"/> (но из овсяной муки);</blockquote>',
+    '<blockquote>то же, что <wordLink word="эликте-"/> (но с выкриками);</blockquote>',
+    '<blockquote>то же, что <wordLink word="эмес"/> (но лишь для 1 л.; сокр. от эмесмин);</blockquote>',
 ]
 
 BLOCKQUOTE_TO_TRN = [
@@ -164,6 +194,25 @@ BLOCKQUOTE_TO_TRN = [
     '<blockquote>горная ложбина (то же, что <wordLink word="салаа"/>, но глубже и с отвесными берегами, заканчивающаяся тупиком);</blockquote>',
     '<blockquote>в форме дей является первым компонентом сложных глаголов, сочетаясь с глаголами ал-, бер-, кал-, кой-, кер-, сал-, тур-, түш-;</blockquote>',
     '<blockquote>один из видов куш (см. <wordLink word="куш" homonym="I"/>; его подвиды: кара кашка тынар или кызыл кашка тынар);</blockquote>',
+    '<blockquote>солонцеватая почва (то же, что <wordLink word="марча"/>);</blockquote>',
+    '<blockquote>мужчина, сопровождающий парня или девушку при игре в кыз куудуруу (см. <wordLink word="кыз" meaning="2"/>).</blockquote>',
+    '<blockquote>тонкий (о слое; противоп. <wordLink word="калың" homonym="I" meaning="2"/>; ср. ичке 1);</blockquote>',
+    '<blockquote>тонкий (противоп. <wordLink word="жоон" homonym="I"/>; ср. жука);</blockquote>',
+    '<blockquote>утончаться, делаться тонким (противоп. <wordLink word="жооной-"/>).</blockquote>',
+    '<blockquote>сторонник изъятия из киргизского алфавита задних вариантов букв к, г (противоп. <wordLink word="кыкчыл"/>).</blockquote>',
+    '<blockquote>название болезни верблюдов, то же, что <wordLink word="чымын тийди"/> (см. <wordLink word="чымын" meaning="2"/>).</blockquote>',
+    '<blockquote>сторонник сохранения в киргизском алфавите задних вариантов букв к, г (противоп. <wordLink word="кекчил"/>).</blockquote>',
+    '<blockquote>объезженный (противоп. <wordLink word="азоо"/>);</blockquote>',
+    '<blockquote>один из видов чач учтук (см. <wordLink word="учтук"/>);</blockquote>',
+    '<blockquote>тыл (противоп. <wordLink word="фронту"/>).</blockquote>',
+    '<blockquote>кожаный нагрудник, надевавшийся на состязаниях эр сайышуу (см. <wordLink word="сайышуу"/>).</blockquote>',
+    '<blockquote>платок на элечек (см.), наматываемый выше кеп чач (см. <wordLink word="кеп" homonym="II" meaning="1"/>);</blockquote>',
+    '<blockquote>прикрутить с помощью тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
+    '<blockquote>петля в нижней части недоуздка жеребёнка, на которой держится тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
+    '<blockquote>прошедшее время от неправильного и недостаточного глагола э- быть (см. <wordLink word="э-" homonym="II"/>);</blockquote>',
+    '<blockquote>в роли вспом. гл. указывает на длительность и непрерывность действия; встречается и в форме отуру (ср. <wordLink word="тур-"/>, <wordLink word="жүр-"/>, <wordLink word="жат-"/>);</blockquote>',
+    '<blockquote>бедняк (чаще употребляется как парное к <wordLink word="кедей"/>);</blockquote>',
+    '<blockquote>всякое живое существо мужского пола (противоп. <wordLink word="ургаачы"/>, см.);</blockquote>',
 ]
 
 BLOCKQUOTE_TO_XR_AND_TRN = [
@@ -229,6 +278,49 @@ BLOCK_REWRITES = [
 ]
 
 EXACT_XML_REWRITES = [
+    (
+        '''<blockquote>радио (неправ. см. <wordLink word="берүү" meaning="2"/>) передача;</blockquote>''',
+        '''<meta>радио</meta>
+\t\t\t<xr>(неправ. см. <wordLink word="берүү" meaning="2"/>)</xr>
+\t\t\t<trn>передача;</trn>''',
+    ),
+    (
+        '''<blockquote>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</blockquote>''',
+        '''<xr>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</xr>''',
+    ),
+    (
+        '''<xr>то же, что <wordLink word="чал-" homonym="II"/></xr>
+\t\t\t<meaning>
+\t\t\t\t<meaningIndex>1.</meaningIndex>
+\t\t\t\t<blockquote>чайда парное к <wordLink word="майда"/>;</blockquote>
+\t\t\t\t<blockquote>майда-чайда мелочь, мелочишка;</blockquote>
+\t\t\t\t<blockquote>майда-чайда жумуштар мелкие работы, кое-какие работы.</blockquote>
+\t\t\t</meaning>''',
+        '''<xr>то же, что <wordLink word="чал-" homonym="II" meaning="1"/></xr>
+\t\t\t<blockquote>чайда парное к <wordLink word="майда"/>;</blockquote>
+\t\t\t<blockquote>майда-чайда мелочь, мелочишка;</blockquote>
+\t\t\t<blockquote>майда-чайда жумуштар мелкие работы, кое-какие работы.</blockquote>''',
+    ),
+    (
+        '''<blockquote>аульный старшина (то же, что <wordLink word="жүз"/> башы, см. <wordLink word="баш" meaning="8"/>);</blockquote>''',
+        '''<trn>аульный старшина (то же, что <wordLink word="жүз башы"/>, см. <wordLink word="баш" meaning="8"/>);</trn>''',
+    ),
+    (
+        '''<ex>
+\t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
+\t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>)</target>
+\t\t\t\t</ex>
+\t\t\t\t<blockquote>штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</blockquote>''',
+        '''<ex>
+\t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
+\t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>) штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</target>
+\t\t\t\t</ex>''',
+    ),
+    (
+        '''<trn>певец-импровизатор (исполняющий мелкие жанры: мактоо, кордоо, лирические песни и др.;</trn>
+\t\t\t<blockquote>богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</blockquote>''',
+        '''<trn>певец-импровизатор (исполняющий мелкие жанры: мактоо, кордоо, лирические песни и др.; богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</trn>''',
+    ),
     (
         '''<alternativeForm>(бу, редко бо)</alternativeForm>
 \t\t\t<blockquote>(род. п. мунун, дат. п. лит. буга или боо, разг. и фольк. встречается и буган, бого, вин. п. муну, южн. мыны, с притяж. аффиксом 3 л. мунусу, местн. п. мында, исх. п. мындан)</blockquote>
