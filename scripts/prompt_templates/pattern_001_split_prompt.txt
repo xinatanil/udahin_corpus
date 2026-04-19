@@ -23,14 +23,13 @@ Exact meaning of split_index:
 
 Main semantic rule:
 - Do not decide by script alone.
-- A Russian-looking token is not automatically the start of the right side.
-- The right side starts only when the actual Russian explanation starts.
+- The right side starts at the first token that already belongs to the Russian explanation.
+- Do not keep an extra token on the left just because it could hypothetically still belong there.
 
 What can stay on the left:
 - Kyrgyz/source words and clauses.
 - Alternatives joined by `или`.
 - A parenthetical source variant that still belongs to the source phrase, for example `(бетаачы)`.
-- A borrowed or Russian-looking token that is still part of the source expression and is itself being explained by the Russian gloss that follows.
 - The final `-`, `?`, or `!` if it clearly belongs to the left/source tail.
 
 What starts the right side:
@@ -48,23 +47,28 @@ Strong lexical heuristics:
 - A token is more likely to be Russian/gloss if it starts with `в`, `е`, or `ю`.
 - A token that ends with `ся` is Russian/gloss, not Kyrgyz/source.
 - A token is more likely to be Russian/gloss if it does not contain Kyrgyz-specific letters and already fits into a Russian gloss phrase.
-- Do not use these clues mechanically: a borrowed Russian-looking token can still stay on the left if it is part of one coherent Kyrgyz/source expression.
+- Do not use these clues mechanically, but if a complete Kyrgyz/source phrase is already finished and the next token reads like ordinary Russian gloss text, split before that token.
 
 Boundary rule:
 1. Find the longest complete Kyrgyz/source expression.
 2. Split immediately after that expression.
-3. Do not split too early just because the next token looks Russian.
-4. But if the next token is already the first word of the actual Russian explanation, split before it.
+3. Do not extend the left side by one extra Russian gloss word.
+4. If the next token is already ordinary Russian gloss text, split before it.
 
 How to handle Russian-looking borrowed tokens:
 - Some source expressions contain borrowed Russian-looking nouns or other tokens.
-- Keep such a token on the left if it is still part of the source expression and the Russian gloss starts only after it.
+- Keep such a token on the left only when the whole left-side expression is still incomplete without it.
 - Examples:
   - `аба флоту## воздушный флот;`
   - `көз көрбөгөн рекорд## невиданный рекорд;`
   - `эгер эмдиги жылы да тааныбасаң - балаң баш-оту менен меники## (из сказки) ...`
-- But if the token itself already begins a Russian explanation, split before it.
+- But once a complete Kyrgyz/source expression is already present, the first ordinary Russian gloss word must start the right side.
 - Examples:
+  - `ак жаан## ситничек, мелкий, моросящий дождь;`
+  - `Айбанбоз - Манастын жайчылыкта мине турган аты Айбанбоз -## имя коня ...`
+  - `жалаң аттуу, жайдак## тон сам, один ...`
+  - `жашырын түрдө## тайным образом;`
+  - `жатындан жарып чыккан бала## родное дитя;`
   - `убакты канимет билип## улучив удобный момент; считая момент удобным;`
   - `айлантып## дав кончиться, пройти (какому-л. времени);`
 
@@ -87,6 +91,7 @@ Hard rules:
 - Do not split inside a left-side source variant such as `(бетаачы)` when the Russian gloss starts later.
 - If a real Kyrgyz/source expression is followed by `см.` or `то же, что ...`, that is still SPLIT.
 - Bare `а` is ambiguous. Do not treat bare `а` alone as enough evidence that the right side has started.
+- If the left side is already complete, do not keep the first ordinary Russian gloss noun, adjective, adverb, label, or parenthetical gloss on the left.
 
 Mechanical self-check:
 - Let `left = Annotated text[:split_index]`.
@@ -196,6 +201,26 @@ Correct: эгер эмдиги жылы да тааныбасаң - балаң �
 Annotated text: Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт (издали) он смутно видит пики гор Алайкуу и Арпа;
 Wrong: Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт (издали)## он смутно видит пики гор Алайкуу и Арпа;
 Correct: Алайкуу, Арпа тоолорунун бүдөмүктөгөн чокуларын байкайт## (издали) он смутно видит пики гор Алайкуу и Арпа;
+
+12.
+Annotated text: ак жаан ситничек, мелкий, моросящий дождь;
+Wrong: ак жаан ситничек,## мелкий, моросящий дождь;
+Correct: ак жаан## ситничек, мелкий, моросящий дождь;
+
+13.
+Annotated text: Айбанбоз - Манастын жайчылыкта мине турган аты Айбанбоз - имя коня, на котором ездил Манас в будни;
+Wrong: Айбанбоз - Манастын жайчылыкта мине турган аты Айбанбоз - и##мя коня, на котором ездил Манас в будни;
+Correct: Айбанбоз - Манастын жайчылыкта мине турган аты Айбанбоз -## имя коня, на котором ездил Манас в будни;
+
+14.
+Annotated text: жашырын түрдө тайным образом;
+Wrong: жашырын түрдө тайным## образом;
+Correct: жашырын түрдө## тайным образом;
+
+15.
+Annotated text: жалаң аттуу, жайдак тон сам, один;
+Wrong: жалаң аттуу, жайдак то##н сам, один;
+Correct: жалаң аттуу, жайдак## тон сам, один;
 
 Pattern id: signal_pattern_cases/001_kyfunc_l56_ruf_l12.txt
 Abstract pattern: KYFUNC_L56 RUF_L12
