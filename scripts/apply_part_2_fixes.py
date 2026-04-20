@@ -143,6 +143,8 @@ BLOCKQUOTE_TO_META = [
     '<blockquote>(обычно в сочет. с түш-)</blockquote>',
     '<blockquote>(синьцз. кол абзал)</blockquote>',
     '<blockquote>в сочет. с ай, көк, асман, ава</blockquote>',
+    '<blockquote>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</blockquote>',
+    '<blockquote>только в сочет. с ич (см. <wordLink word="ич" homonym="I"/>).</blockquote>',
 ]
 
 BLOCKQUOTE_TO_TRN = [
@@ -170,6 +172,31 @@ BLOCKQUOTE_TO_TRN = [
     '<blockquote>горная ложбина (то же, что <wordLink word="салаа"/>, но глубже и с отвесными берегами, заканчивающаяся тупиком);</blockquote>',
     '<blockquote>в форме дей является первым компонентом сложных глаголов, сочетаясь с глаголами ал-, бер-, кал-, кой-, кер-, сал-, тур-, түш-;</blockquote>',
     '<blockquote>один из видов куш (см. <wordLink word="куш" homonym="I"/>; его подвиды: кара кашка тынар или кызыл кашка тынар);</blockquote>',
+    '<blockquote>солонцеватая почва (то же, что <wordLink word="марча"/>);</blockquote>',
+    '<blockquote>мужчина, сопровождающий парня или девушку при игре в кыз куудуруу (см. <wordLink word="кыз" meaning="2"/>).</blockquote>',
+    '<blockquote>тонкий (о слое; противоп. <wordLink word="калың" homonym="I" meaning="2"/>; ср. ичке 1);</blockquote>',
+    '<blockquote>тонкий (противоп. <wordLink word="жоон" homonym="I"/>; ср. жука);</blockquote>',
+    '<blockquote>утончаться, делаться тонким (противоп. <wordLink word="жооной-"/>).</blockquote>',
+    '<blockquote>сторонник изъятия из киргизского алфавита задних вариантов букв к, г (противоп. <wordLink word="кыкчыл"/>).</blockquote>',
+    '<blockquote>название болезни верблюдов, то же, что <wordLink word="чымын тийди"/> (см. <wordLink word="чымын" meaning="2"/>).</blockquote>',
+    '<blockquote>сторонник сохранения в киргизском алфавите задних вариантов букв к, г (противоп. <wordLink word="кекчил"/>).</blockquote>',
+    '<blockquote>объезженный (противоп. <wordLink word="азоо"/>);</blockquote>',
+    '<blockquote>один из видов чач учтук (см. <wordLink word="учтук"/>);</blockquote>',
+    '<blockquote>тыл (противоп. <wordLink word="фронту"/>).</blockquote>',
+    '<blockquote>бедняк (чаще употребляется как парное к <wordLink word="кедей"/>);</blockquote>',
+    '<blockquote>кожаный нагрудник, надевавшийся на состязаниях эр сайышуу (см. <wordLink word="сайышуу"/>).</blockquote>',
+    '<blockquote>платок на элечек (см.), наматываемый выше кеп чач (см. <wordLink word="кеп" homonym="II" meaning="1"/>);</blockquote>',
+    '<blockquote>прикрутить с помощью тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
+    '<blockquote>аульный старшина (то же, что <wordLink word="жүз"/> башы, см. <wordLink word="баш" meaning="8"/>);</blockquote>',
+    '<blockquote>петля в нижней части недоуздка жеребёнка, на которой держится тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
+    '<blockquote>всякое живое существо мужского пола (противоп. <wordLink word="ургаачы"/>, см.);</blockquote>',
+]
+
+BLOCKQUOTE_TO_XR = [
+    (
+        '<blockquote>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</blockquote>',
+        '<xr>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</xr>',
+    ),
 ]
 
 BLOCKQUOTE_TO_XR_AND_TRN = [
@@ -2623,6 +2650,17 @@ EXACT_XML_REWRITES = [
 \t\t\t<blockquote>жөн эле коюңуз ждать чаю времени нет, оставьте (не беспокойтесь);</blockquote>''',
         '''<blockquote>чайга күтүүгө убакыт жок, жөн эле коюңуз ждать чаю времени нет, оставьте (не беспокойтесь);</blockquote>''',
     ),
+    (
+        '''<ex>
+\t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
+\t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>)</target>
+\t\t\t\t</ex>
+\t\t\t\t<blockquote>штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</blockquote>''',
+        '''<ex>
+\t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
+\t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>) штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</target>
+\t\t\t\t</ex>''',
+    ),
 ]
 
 
@@ -2905,6 +2943,19 @@ def apply_fixes(text: str) -> tuple[str, int]:
         text, count = pattern.subn(repl_bq_trn, text, count=1)
         if count == 0:
             warn_unmatched('blockquote -> trn', blockquote_xml)
+
+    for blockquote_xml, xr_xml in BLOCKQUOTE_TO_XR:
+        pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
+
+        def repl_bq_xr(match: re.Match[str]) -> str:
+            nonlocal applied
+            applied += 1
+            indent = match.group(1)
+            return f'{indent}{xr_xml}'
+
+        text, count = pattern.subn(repl_bq_xr, text, count=1)
+        if count == 0:
+            warn_unmatched('blockquote -> xr', blockquote_xml)
 
     for blockquote_xml, xr_xml, trn_xml in BLOCKQUOTE_TO_XR_AND_TRN:
         pattern = re.compile(rf'(^[ \t]*){re.escape(blockquote_xml)}', flags=re.M)
