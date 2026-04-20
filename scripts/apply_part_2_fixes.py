@@ -145,6 +145,7 @@ BLOCKQUOTE_TO_META = [
     '<blockquote>в сочет. с ай, көк, асман, ава</blockquote>',
     '<blockquote>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</blockquote>',
     '<blockquote>только в сочет. с ич (см. <wordLink word="ич" homonym="I"/>).</blockquote>',
+    '<blockquote>в игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
 ]
 
 BLOCKQUOTE_TO_TRN = [
@@ -190,6 +191,7 @@ BLOCKQUOTE_TO_TRN = [
     '<blockquote>аульный старшина (то же, что <wordLink word="жүз"/> башы, см. <wordLink word="баш" meaning="8"/>);</blockquote>',
     '<blockquote>петля в нижней части недоуздка жеребёнка, на которой держится тээк (см. <wordLink word="тээк" meaning="1"/>);</blockquote>',
     '<blockquote>всякое живое существо мужского пола (противоп. <wordLink word="ургаачы"/>, см.);</blockquote>',
+    '<blockquote>в роли вспом. гл. указывает на длительность и непрерывность действия; встречается и в форме отуру (ср. <wordLink word="тур-"/>, <wordLink word="жүр-"/>, <wordLink word="жат-"/>);</blockquote>',
 ]
 
 BLOCKQUOTE_TO_XR = [
@@ -204,6 +206,11 @@ BLOCKQUOTE_TO_XR_AND_TRN = [
         '<blockquote>то же, что <wordLink word="көкбөрү"/> козлодрание (конное состязание, участники которого верхом на конях вырывают друг у друга тушу козлёнка или телёнка);</blockquote>',
         '<xr>то же, что <wordLink word="көкбөрү"/></xr>',
         '<trn>козлодрание (конное состязание, участники которого верхом на конях вырывают друг у друга тушу козлёнка или телёнка);</trn>',
+    ),
+    (
+        '<blockquote>(противоп. <wordLink word="адал"/>) нечистый, запретный, запрещённый религией;</blockquote>',
+        '<xr>(противоп. <wordLink word="адал"/>)</xr>',
+        '<trn>нечистый, запретный, запрещённый религией;</trn>',
     ),
 ]
 
@@ -2660,6 +2667,65 @@ EXACT_XML_REWRITES = [
 \t\t\t\t\t<source>"бекке тил тийгизди" деп, маатогуз айып ойлоду</source>
 \t\t\t\t\t<target>ист. на меня наложили девятку (см. <wordLink word="тогуз" meaning="2"/>) штрафа (см. <wordLink word="айып" meaning="3"/>): ты, мол, оскорбил бека;</target>
 \t\t\t\t</ex>''',
+    ),
+    (
+        '''<blockquote>(иногда) то же, что <wordLink word="бозо"/>;</blockquote>''',
+        '''<meta>(иногда)</meta>
+\t\t\t<xr>то же, что <wordLink word="бозо"/>;</xr>''',
+    ),
+    (
+        '''<blockquote>радио (неправ. см. <wordLink word="берүү" meaning="2"/>) передача;</blockquote>''',
+        '''<meta>радио</meta>
+\t\t\t<xr>(неправ. см. <wordLink word="берүү" meaning="2"/>)</xr>
+\t\t\t<trn>передача;</trn>''',
+    ),
+    (
+        '''<meta>тяньш.</meta>
+\t\t\t<blockquote>(местами) то же, что <wordLink word="көлдөлөң" homonym="I"/>.</blockquote>''',
+        '''<meta>тяньш.</meta>
+\t\t\t<meta>(местами)</meta>
+\t\t\t<trn>то же, что <wordLink word="көлдөлөң" homonym="I"/>.</trn>''',
+    ),
+    (
+        '''<blockquote>в соединении с эле (см. <wordLink word="эле" homonym="II"/>) и экен (см. <wordLink word="экен" homonym="I"/>) гласный частицы выпадает: келди бекен (би экен) он прибыл, а?</blockquote>''',
+        '''<blockquote>в соединении с эле (см. <wordLink word="эле" homonym="II"/>) и экен (см. <wordLink word="экен" homonym="I"/>) гласный частицы выпадает:</blockquote>
+\t\t\t<blockquote>келди бекен (би экен) он прибыл, а?</blockquote>''',
+    ),
+    (
+        '''<blockquote>(местами) то же, что <wordLink word="боорсок"/> (см.).</blockquote>''',
+        '''<meta>(местами)</meta>
+\t\t\t\t<xr>то же, что <wordLink word="боорсок"/> (см.).</xr>''',
+    ),
+    (
+        '''<trn>певец-импровизатор (исполняющий мелкие жанры: мактоо, кордоо, лирические песни и др.;</trn>
+\t\t\t<blockquote>богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</blockquote>''',
+        '''<trn>певец-импровизатор (исполняющий мелкие жанры: мактоо, кордоо, лирические песни и др.; богатырский эпос в его репертуар, как правило, не входит; см. <wordLink word="ырчы"/>).</trn>''',
+    ),
+    (
+        '''<meta>этн.</meta>
+\t\t\t<blockquote>(о пище) то же, что <wordLink word="суук"/> (см. <wordLink word="ысылык" meaning="2"/>).</blockquote>''',
+        '''<meta>этн.</meta>
+\t\t\t<meta>(о пище)</meta>
+\t\t\t<xr>то же, что <wordLink word="суук"/> (см. <wordLink word="ысылык" meaning="2"/>).</xr>''',
+    ),
+    (
+        '''<meta>перен.</meta>
+\t\t\t<blockquote>(о человеке высокого роста) то же, что <wordLink word="кулкулда-"/>;</blockquote>''',
+        '''<meta>перен.</meta>
+\t\t\t<meta>(о человеке высокого роста)</meta>
+\t\t\t<xr>то же, что <wordLink word="кулкулда-"/>;</xr>''',
+    ),
+    (
+        '''<meta>тяньш.</meta>
+\t\t\t<blockquote>(местами) то же, что <wordLink word="ком"/>;</blockquote>''',
+        '''<meta>тяньш.</meta>
+\t\t\t<meta>(местами)</meta>
+\t\t\t<xr>то же, что <wordLink word="ком"/>;</xr>''',
+    ),
+    (
+        '''<blockquote>(при определении толщиңы конского жира) то же, что <wordLink word="төрт эли"/> (см. <wordLink word="эли"/>);</blockquote>''',
+        '''<meta>(при определении толщиңы конского жира)</meta>
+\t\t\t\t<xr>то же, что <wordLink word="төрт эли"/> (см. <wordLink word="эли"/>);</xr>''',
     ),
 ]
 
