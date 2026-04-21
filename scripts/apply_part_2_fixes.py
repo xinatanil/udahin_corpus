@@ -123,6 +123,19 @@ TRN_BLOCKQUOTE_TO_XR = [
     ),
 ]
 
+TRN_BLOCKQUOTE_TO_TRN = [
+    (
+        '<trn>десять;</trn>',
+        '<blockquote>он бир одиннадцать, он эки двенадцать, он үч тринадцать и т.д. до он тогуз девятнадцать;</blockquote>',
+        '<trn>десять; он бир одиннадцать, он эки двенадцать, он үч тринадцать и т.д. до он тогуз девятнадцать;</trn>',
+    ),
+    (
+        '<trn>богач, бай</trn>',
+        '<blockquote>(в народе их делили на несколько групп, придавая каждой из них свой эпитет:</blockquote>',
+        '<trn>богач, бай (в народе их делили на несколько групп, придавая каждой из них свой эпитет:</trn>',
+    ),
+]
+
 XR_REWRITES = [
     (
         '<xr>см. марш.</xr>',
@@ -147,6 +160,11 @@ BLOCKQUOTE_TO_META = [
     '<blockquote>только в сочет. с ич (см. <wordLink word="ич" homonym="I"/>).</blockquote>',
     '<blockquote>в игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
     '<blockquote>ср. тадж. меш овца</blockquote>',
+    '<blockquote>при игре в тогуз коргол (см. <wordLink word="коргол"/>)</blockquote>',
+    '<blockquote>с прич. на ганы выражает намерение совершить действие;</blockquote>',
+    '<blockquote>(при игре в ордо, см. <wordLink word="ордо" meaning="3"/>)</blockquote>',
+    '<blockquote>после конечного гласного глагола начальный к в произношении озвончается и глагол кой- сливается с основным, что иногда отражается и в написании: келегой (келе кой), алагой (ала кой), берегой (бере кой) и др.;</blockquote>',
+    '<blockquote>при звукоподражаниях сочетается с глаголом түш- (см. <wordLink word="түш-" homonym="III"/>);</blockquote>',
 ]
 
 BLOCKQUOTE_TO_TRN = [
@@ -157,7 +175,6 @@ BLOCKQUOTE_TO_TRN = [
     '<blockquote>прореживать (хлопок).</blockquote>',
     '<blockquote>название узоров для вышивки (их несколько видов: багжагай жөрмөмө, тез кайык жөрмөмө, тил комуз жөрмөмө, ит таман жөрмөмө).</blockquote>',
     '<blockquote>караганник, жёлтая акация, золотарник;</blockquote>',
-    '<blockquote>наблюдательный пункт.</blockquote>',
     '<blockquote>госпожа (ныне гл. обр. саставная часть женских имен: Гүлайым и т.п.);</blockquote>',
     '<blockquote>невинный, невиновный (в этом значении трудно отличить от ак II 1);</blockquote>',
     '<blockquote>горячительная пища или горячительный напиток (киргизские знахари всю пищу и напитки делили на три группы: ысылык или ысык - "горячительную", сууктук или суук - "прохладительную" и мүнөз тамак "нейтральную"; напр. говядина считалась "прохладительной", конина - "горячительной", а баранина - "нейтральной", зелёный чай - "прохладительным"; в соответствии с этим и все болезни делились на ысыкчан "горячие" и суукчан "холодные"; при "горячей" болезни предписывали диету "холодную"; при "холодной"- "горячую");</blockquote>',
@@ -218,6 +235,186 @@ BLOCKQUOTE_TO_XR = [
         '<blockquote>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</blockquote>',
         '<xr>неправ. вместо бир да (см. <wordLink word="бир" homonym="I"/>).</xr>',
     ),
+    (
+        '<blockquote>то же, что <wordLink word="качкы"/> и качкын.</blockquote>',
+        '<xr>то же, что <wordLink word="качкы"/> и <wordLink word="качкын"/>.</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="оңкосунан"/> кет- или оңко ат- (см. <wordLink word="оңко"/>);</blockquote>',
+        '<xr>то же, что <wordLink word="оңкосунан кет-"/> или <wordLink word="оңко ат-"/> (см. <wordLink word="оңко"/>);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="аза" homonym="I" meaning="2"/> (но более эвфемистично);</blockquote>',
+        '<xr>то же, что <wordLink word="аза" homonym="I" meaning="2"/> (но более эвфемистично);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="ак" homonym="II"/> (гл. обр. как эпитет аллаха).</blockquote>',
+        '<xr>то же, что <wordLink word="ак" homonym="II"/> (гл. обр. как эпитет аллаха).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="аттыр-"/> (только в сочет. с таң);</blockquote>',
+        '<xr>то же, что <wordLink word="аттыр-"/> (только в сочет. с таң);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="байрак" meaning="2"/> (но вместо пики шест, а вместо бунчука кусок материи);</blockquote>',
+        '<xr>то же, что <wordLink word="байрак" meaning="2"/> (но вместо пики шест, а вместо бунчука кусок материи);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="баржакта-"/> (но о человеке большеголовом и полнолицем).</blockquote>',
+        '<xr>то же, что <wordLink word="баржакта-"/> (но о человеке большеголовом и полнолицем).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="баш"/> оона (см. <wordLink word="оона" homonym="I"/> и ай I 2).</blockquote>',
+        '<xr>то же, что <wordLink word="баш"/> оона (см. <wordLink word="оона" homonym="I"/> и ай I 2).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="беле"/> (см. <wordLink word="эле" homonym="II"/> и эде);</blockquote>',
+        '<xr>то же, что <wordLink word="беле"/> (см. <wordLink word="эле" homonym="II"/> и эде);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="борбор" meaning="1"/> (только при игре в ордо, см.);</blockquote>',
+        '<xr>то же, что <wordLink word="борбор" meaning="1"/> (только при игре в ордо, см.);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="булбул"/> (но в фольклоре встречается наряду с булбул, как отличная от него птица).</blockquote>',
+        '<xr>то же, что <wordLink word="булбул"/> (но в фольклоре встречается наряду с булбул, как отличная от него птица).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="дарак"/> (но название общее, родовое);</blockquote>',
+        '<xr>то же, что <wordLink word="дарак"/> (но название общее, родовое);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="кокту"/> (но длиннее);</blockquote>',
+        '<xr>то же, что <wordLink word="кокту"/> (но длиннее);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="кокту"/> (но меньших размеров).</blockquote>',
+        '<xr>то же, что <wordLink word="кокту"/> (но меньших размеров).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="кош" homonym="IV"/> (окрик, но обращённый к одной лошади);</blockquote>',
+        '<xr>то же, что <wordLink word="кош" homonym="IV"/> (окрик, но обращённый к одной лошади);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="көжө"/> (здесь местами приготовляется из сорго);</blockquote>',
+        '<xr>то же, что <wordLink word="көжө"/> (здесь местами приготовляется из сорго);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="көнөк" homonym="I"/> (но без носка);</blockquote>',
+        '<xr>то же, что <wordLink word="көнөк" homonym="I"/> (но без носка);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="кымын-"/> (но более длительно);</blockquote>',
+        '<xr>то же, что <wordLink word="кымын-"/> (но более длительно);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="мүчөл"/> (по старым поверьям, наступление циклового года грозит опасностью для жизни);</blockquote>',
+        '<xr>то же, что <wordLink word="мүчөл"/> (по старым поверьям, наступление циклового года грозит опасностью для жизни);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="панар" meaning="2"/> (чаще перен.);</blockquote>',
+        '<xr>то же, что <wordLink word="панар" meaning="2"/> (чаще перен.);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="сака"/> (но малых размеров);</blockquote>',
+        '<xr>то же, что <wordLink word="сака"/> (но малых размеров);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="старший"/> (по положению);</blockquote>',
+        '<xr>то же, что <wordLink word="старший"/> (по положению);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="сырдаш"/> (напр. если слово алдаш для данной женщины запретно, она заменяет его словом сырдаш).</blockquote>',
+        '<xr>то же, что <wordLink word="сырдаш"/> (напр. если слово алдаш для данной женщины запретно, она заменяет его словом сырдаш).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="тараз"/> (говорится также о муж-чине);</blockquote>',
+        '<xr>то же, что <wordLink word="тараз"/> (говорится также о муж-чине);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="тастай-"/> (но в движении);</blockquote>',
+        '<xr>то же, что <wordLink word="тастай-"/> (но в движении);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="үзүк" homonym="I"/> (в богатой юрте, но с украшениями);</blockquote>',
+        '<xr>то же, что <wordLink word="үзүк" homonym="I"/> (в богатой юрте, но с украшениями);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чай" homonym="II"/> (но в отношении верблюдов);</blockquote>',
+        '<xr>то же, что <wordLink word="чай" homonym="II"/> (но в отношении верблюдов);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чай" homonym="II"/> (но в отношении стада коз).</blockquote>',
+        '<xr>то же, что <wordLink word="чай" homonym="II"/> (но в отношении стада коз).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чачкын"/> (но в меньшей степени).</blockquote>',
+        '<xr>то же, что <wordLink word="чачкын"/> (но в меньшей степени).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чий" homonym="I" meaning="2"/>, <wordLink word="чий" homonym="I" meaning="3"/> (но из камыша).</blockquote>',
+        '<xr>то же, что <wordLink word="чий" homonym="I" meaning="2"/>, <wordLink word="чий" homonym="I" meaning="3"/> (но из камыша).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чийне"/> (но по форме больше напоминает сани).</blockquote>',
+        '<xr>то же, что <wordLink word="чийне"/> (но по форме больше напоминает сани).</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чыктаган"/> эт (но с большим количеством бульона; см. <wordLink word="чыкта-" homonym="II"/>);</blockquote>',
+        '<xr>то же, что <wordLink word="чыктаган"/> эт (но с большим количеством бульона; см. <wordLink word="чыкта-" homonym="II"/>);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="шүмшүй-"/> (но о движениях);</blockquote>',
+        '<xr>то же, что <wordLink word="шүмшүй-"/> (но о движениях);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="экчеме"/> (но из овсяной муки);</blockquote>',
+        '<xr>то же, что <wordLink word="экчеме"/> (но из овсяной муки);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="эликте-"/> (но с выкриками);</blockquote>',
+        '<xr>то же, что <wordLink word="эликте-"/> (но с выкриками);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="эмес"/> (но лишь для 1 л.; сокр. от эмесмин);</blockquote>',
+        '<xr>то же, что <wordLink word="эмес"/> (но лишь для 1 л.; сокр. от эмесмин);</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="чач"/> учтук, но состоит из бус (см. <wordLink word="учтук"/>);</blockquote>',
+        '<xr>то же, что <wordLink word="чач"/> учтук, но состоит из бус (см. <wordLink word="учтук"/>);</xr>',
+    ),
+    (
+        '<blockquote>(иногда) то же, что <wordLink word="да"/> (см. <wordLink word="да" homonym="I" meaning="1"/>);</blockquote>',
+        '<xr>(иногда) то же, что <wordLink word="да"/> (см. <wordLink word="да" homonym="I" meaning="1"/>);</xr>',
+    ),
+    (
+        '<blockquote>возвр. от <wordLink word="кет-" homonym="I"/> (только в роли вспомогательного глагола);</blockquote>',
+        '<xr>возвр. от <wordLink word="кет-" homonym="I"/> (только в роли вспомогательного глагола);</xr>',
+    ),
+    (
+        '<blockquote>возвр. от <wordLink word="оку-"/> (употребление ограниченное);</blockquote>',
+        '<xr>возвр. от <wordLink word="оку-"/> (употребление ограниченное);</xr>',
+    ),
+    (
+        '<blockquote>понуд. от <wordLink word="лөкүлдө-"/> (от основного значения отходит далеко);</blockquote>',
+        '<xr>понуд. от <wordLink word="лөкүлдө-"/> (от основного значения отходит далеко);</xr>',
+    ),
+    (
+        '<blockquote>(би-дейм; см. <wordLink word="бы"/> и де-)</blockquote>',
+        '<xr>(би-дейм; см. <wordLink word="бы"/> и де-)</xr>',
+    ),
+    (
+        '<blockquote>(кыжы-кыймалан-; см. <wordLink word="кыжы"/>)</blockquote>',
+        '<xr>(кыжы-кыймалан-; см. <wordLink word="кыжы"/>)</xr>',
+    ),
+    (
+        '<blockquote>(чу кой-; см. <wordLink word="чү" homonym="II"/>)</blockquote>',
+        '<xr>(чу кой-; см. <wordLink word="чү" homonym="II"/>)</xr>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="ошо"/>, ошол (дат. п. шого, шогон);</blockquote>',
+        '<xr>то же, что <wordLink word="ошо"/>, ошол (дат. п. шого, шогон);</xr>',
+    ),
 ]
 
 BLOCKQUOTE_TO_XR_AND_TRN = [
@@ -230,6 +427,66 @@ BLOCKQUOTE_TO_XR_AND_TRN = [
         '<blockquote>(противоп. <wordLink word="адал"/>) нечистый, запретный, запрещённый религией;</blockquote>',
         '<xr>(противоп. <wordLink word="адал"/>)</xr>',
         '<trn>нечистый, запретный, запрещённый религией;</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="ооба"/> да (утверждение);</blockquote>',
+        '<xr>то же, что <wordLink word="ооба"/></xr>',
+        '<trn>да (утверждение);</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="бенде"/> человек (как в положительном, так и в отрицательном смысле);</blockquote>',
+        '<xr>то же, что <wordLink word="бенде"/></xr>',
+        '<trn>человек (как в положительном, так и в отрицательном смысле);</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="гүлүстөн"/> цветник;</blockquote>',
+        '<xr>то же, что <wordLink word="гүлүстөн"/></xr>',
+        '<trn>цветник;</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="тамсил"/> басня, притча.</blockquote>',
+        '<xr>то же, что <wordLink word="тамсил"/></xr>',
+        '<trn>басня, притча.</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="дан"/> хлеб в зерне;</blockquote>',
+        '<xr>то же, что <wordLink word="дан"/></xr>',
+        '<trn>хлеб в зерне;</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="саам"/> партия (в игре);</blockquote>',
+        '<xr>то же, что <wordLink word="саам"/></xr>',
+        '<trn>партия (в игре);</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="сары"/> оору желтуха.</blockquote>',
+        '<xr>то же, что <wordLink word="сары оору"/></xr>',
+        '<trn>желтуха.</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="саксай-" homonym="II"/> распетушиться;</blockquote>',
+        '<xr>то же, что <wordLink word="саксай-" homonym="II"/></xr>',
+        '<trn>распетушиться;</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="жумуртка"/> яйцо (птичье);</blockquote>',
+        '<xr>то же, что <wordLink word="жумуртка"/></xr>',
+        '<trn>яйцо (птичье);</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="тилме"/> костоеда (болезнь);</blockquote>',
+        '<xr>то же, что <wordLink word="тилме"/></xr>',
+        '<trn>костоеда (болезнь);</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="сөөк чыгар-"/> (см. <wordLink word="сөөк" meaning="3"/>) выносить тело, хоронить;</blockquote>',
+        '<xr>то же, что <wordLink word="сөөк чыгар-"/> (см. <wordLink word="сөөк" meaning="3"/>)</xr>',
+        '<trn>выносить тело, хоронить;</trn>',
+    ),
+    (
+        '<blockquote>то же, что <wordLink word="шалпак"/> отвислый, болтающийся;</blockquote>',
+        '<xr>то же, что <wordLink word="шалпак"/></xr>',
+        '<trn>отвислый, болтающийся;</trn>',
     ),
 ]
 
@@ -499,7 +756,8 @@ EXACT_XML_REWRITES = [
     (
         '''<blockquote>(по значению совпадает с турбайбы (см. <wordLink word="тур-" homonym="II"/>);</blockquote>
 \t\t\t<blockquote>в отличие от экен (см.), констатирует неожиданный факт, не требует предварительного действия и не принимает аффиксов лица и числа);</blockquote>''',
-        '''<blockquote>(по значению совпадает с турбайбы (см. <wordLink word="тур-" homonym="II"/>); в отличие от экен (см.), констатирует неожиданный факт, не требует предварительного действия и не принимает аффиксов лица и числа);</blockquote>''',
+        '''<xr>(по значению совпадает с турбайбы (см. <wordLink word="тур-" homonym="II"/>);</xr>
+\t\t\t<meta>в отличие от экен (см.), констатирует неожиданный факт, не требует предварительного действия и не принимает аффиксов лица и числа);</meta>''',
     ),
     (
         '''<blockquote>көйнөгүн өөдө түрдүрүп, чыбык менен май куйрукка басып-басып алды велев задрать</blockquote>
@@ -815,7 +1073,7 @@ EXACT_XML_REWRITES = [
     (
         '''<blockquote>(точнее кулак сырга) то же, что <wordLink word="иймек"/>;</blockquote>''',
         '''<meta>(точнее кулак сырга)</meta>
-\t\t\t<blockquote>то же, что <wordLink word="иймек"/>;</blockquote>''',
+\t\t\t<xr>то же, что <wordLink word="иймек"/>;</xr>''',
     ),
     (
         '''<trn>нарушаться; разрушаться; портиться;</trn>
@@ -972,7 +1230,7 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<blockquote>...жерде (при умножении): эки жерде эки дважды два; беш жерде беш пятью пять;</blockquote>''',
-        '''<blockquote>...жерде (при умножении):</blockquote>
+        '''<meta>...жерде (при умножении):</meta>
 \t\t\t<blockquote>эки жерде эки дважды два;</blockquote>
 \t\t\t<blockquote>беш жерде беш пятью пять;</blockquote>''',
     ),
@@ -2007,7 +2265,7 @@ EXACT_XML_REWRITES = [
     (
         '''<blockquote>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</blockquote>
 \t\t\t<blockquote>целовать;</blockquote>''',
-        '''<blockquote>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</blockquote>
+        '''<xr>(деепр. өөп; см. <wordLink word="жытта-" meaning="2"/>)</xr>
 \t\t\t<trn>целовать;</trn>''',
     ),
     (
@@ -2049,6 +2307,45 @@ EXACT_XML_REWRITES = [
         '''<trn>подзорная труба;</trn>
 \t\t\t<blockquote>разг. бинокль;</blockquote>''',
         '''<trn>подзорная труба; разг. бинокль;</trn>''',
+    ),
+    (
+        '''<blockquote>(в языке стариков) то же, что <wordLink word="басмайыл"/>.</blockquote>''',
+        '''<meta>(в языке стариков)</meta>
+\t\t\t<xr>то же, что <wordLink word="басмайыл"/>.</xr>''',
+    ),
+    (
+        '''<blockquote>(в некоторых местах) то же, что <wordLink word="алыш" homonym="I"/>;</blockquote>''',
+        '''<meta>(в некоторых местах)</meta>
+\t\t\t\t<xr>то же, что <wordLink word="алыш" homonym="I"/>;</xr>''',
+    ),
+    (
+        '''<card>
+\t\t<k>кароолкана</k>
+\t\t<origin>кирг.-ир.</origin>
+\t\t<meta>ист.</meta>
+\t\t<blockquote>наблюдательный пункт.</blockquote>
+\t\t<blockquote>кароолкана ароолон-</blockquote>''',
+        '''<card>
+\t\t<k>кароолкана</k>
+\t\t<origin>кирг.-ир.</origin>
+\t\t<meta>ист.</meta>
+\t\t<trn>наблюдательный пункт.</trn>
+\t</card>
+\t<card>
+\t\t<k>кароолон-</k>''',
+    ),
+    (
+        '''<blockquote>(в народной медицине) см. <wordLink word="ысылык" meaning="2"/>.</blockquote>''',
+        '''<meta>(в народной медицине)</meta>
+\t\t\t<xr>см. <wordLink word="ысылык" meaning="2"/>.</xr>''',
+    ),
+    (
+        '''<blockquote>(в эпосе "Манас") Түлкү Тюлкю (один из чутких стражей богатыря Конгурбая; см. <wordLink word="ещё"/> кулжа, өрдөк);</blockquote>''',
+        '''<meta>(в эпосе "Манас")</meta>
+\t\t\t<ex>
+\t\t\t\t<source>Түлкү</source>
+\t\t\t\t<target>Тюлкю (один из чутких стражей богатыря Конгурбая; см. <wordLink word="ещё"/> кулжа, өрдөк);</target>
+\t\t\t</ex>''',
     ),
     (
         '''<card>
@@ -2713,8 +3010,11 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<blockquote>в соединении с эле (см. <wordLink word="эле" homonym="II"/>) и экен (см. <wordLink word="экен" homonym="I"/>) гласный частицы выпадает: келди бекен (би экен) он прибыл, а?</blockquote>''',
-        '''<blockquote>в соединении с эле (см. <wordLink word="эле" homonym="II"/>) и экен (см. <wordLink word="экен" homonym="I"/>) гласный частицы выпадает:</blockquote>
-\t\t\t<blockquote>келди бекен (би экен) он прибыл, а?</blockquote>''',
+        '''<meta>в соединении с эле (см. <wordLink word="эле" homonym="II"/>) и экен (см. <wordLink word="экен" homonym="I"/>) гласный частицы выпадает:</meta>
+\t\t\t<ex>
+\t\t\t\t<source>келди бекен (би экен)</source>
+\t\t\t\t<target>он прибыл, а?</target>
+\t\t\t</ex>''',
     ),
     (
         '''<blockquote>(местами) то же, что <wordLink word="боорсок"/> (см.).</blockquote>''',
@@ -2795,12 +3095,12 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<blockquote>иногда встречается и в повествовательном обороте: жакшы айтчу беде, узун айтчу беде он хорошо рассказывал, подробно (букв. длинно) рассказывал.</blockquote>''',
-        '''<blockquote>иногда встречается и в повествовательном обороте:</blockquote>
+        '''<meta>иногда встречается и в повествовательном обороте:</meta>
 \t\t\t<blockquote>жакшы айтчу беде, узун айтчу беде он хорошо рассказывал, подробно (букв. длинно) рассказывал.</blockquote>''',
     ),
     (
         '''<blockquote>на севере только в выражении: бейшеби бекиди (у него) задержание мочи.</blockquote>''',
-        '''<blockquote>на севере только в выражении:</blockquote>
+        '''<meta>на севере только в выражении:</meta>
 \t\t<blockquote>бейшеби бекиди (у него) задержание мочи.</blockquote>''',
     ),
     (
@@ -2811,7 +3111,10 @@ EXACT_XML_REWRITES = [
     (
         '''<blockquote>салам алейкүм (точнее ассалам алейкүм или ассалам алейким;</blockquote>
 \t\t<blockquote>встречаются и формы ассалоом алейкүм или атсалоому алейкүм) мир вам (мусульманское приветствие; ныне оно уже стало общим);</blockquote>''',
-        '''<blockquote>салам алейкүм (точнее ассалам алейкүм или ассалам алейким; встречаются и формы ассалоом алейкүм или атсалоому алейкүм) мир вам (мусульманское приветствие; ныне оно уже стало общим);</blockquote>''',
+        '''<ex>
+\t\t\t<source>салам алейкүм (точнее ассалам алейкүм или ассалам алейким; встречаются и формы ассалоом алейкүм или атсалоому алейкүм)</source>
+\t\t\t<target>мир вам (мусульманское приветствие; ныне оно уже стало общим);</target>
+\t\t</ex>''',
     ),
     (
         '''<blockquote>сүлкүлдөйт да, сүлкүлдөйт! салмагы канча болду экен мунун? внешне - да! ну,</blockquote>
@@ -2837,18 +3140,68 @@ EXACT_XML_REWRITES = [
     ),
     (
         '''<blockquote>с прош. вр. на -ды основного глагола указывает на безрезультатность действия или на сомнение в его результате: аскер камдай баштады эле, байбичеси болбоду он начал было готовить войско, но жена его не согласилась (на это);</blockquote>''',
-        '''<blockquote>с прош. вр. на -ды основного глагола указывает на безрезультатность действия или на сомнение в его результате:</blockquote>
-\t\t\t<blockquote>аскер камдай баштады эле, байбичеси болбоду он начал было готовить войско, но жена его не согласилась (на это);</blockquote>''',
+        '''<meta>с прош. вр. на -ды основного глагола указывает на безрезультатность действия или на сомнение в его результате:</meta>
+\t\t\t<ex>
+\t\t\t\t<source>аскер камдай баштады эле, байбичеси болбоду</source>
+\t\t\t\t<target>он начал было готовить войско, но жена его не согласилась (на это);</target>
+\t\t\t</ex>''',
     ),
     (
         '''<blockquote>с прич. на -р, -с или с формой на -т образует сослагательную форму: берер белең или берет белең дал (ли) бы ты?</blockquote>''',
-        '''<blockquote>с прич. на -р, -с или с формой на -т образует сослагательную форму:</blockquote>
-\t\t\t<blockquote>берер белең или берет белең дал (ли) бы ты?</blockquote>''',
+        '''<meta>с прич. на -р, -с или с формой на -т образует сослагательную форму:</meta>
+\t\t\t<ex>
+\t\t\t\t<source>берер белең или берет белең</source>
+\t\t\t\t<target>дал (ли) бы ты?</target>
+\t\t\t</ex>''',
+    ),
+    (
+        '''<origin>ир.</origin>
+\t\t<meta>южн.</meta>
+\t\t<blockquote>(в эпосе) то же, что <wordLink word="дене"/>;</blockquote>''',
+        '''<origin>ир.</origin>
+\t\t<meta>южн.</meta>
+\t\t<meta>(в эпосе)</meta>
+\t\t<xr>то же, что <wordLink word="дене"/>;</xr>''',
+    ),
+    (
+        '''<blockquote>могут оформляться и оба глагола: окудук элек мы читали; с вопросительной частицей бы - беле (в речи и в орфографии): оңой беле? разве легко?</blockquote>''',
+        '''<meta>могут оформляться и оба глагола:</meta>
+\t\t\t<ex>
+\t\t\t\t<source>окудук элек</source>
+\t\t\t\t<target>мы читали;</target>
+\t\t\t</ex>
+\t\t\t<meta>с вопросительной частицей бы - беле (в речи и в орфографии):</meta>
+\t\t\t<ex>
+\t\t\t\t<source>оңой беле?</source>
+\t\t\t\t<target>разве легко?</target>
+\t\t\t</ex>''',
     ),
 ]
 
 
 REGEX_REWRITES = [
+    (
+        re.compile(
+            r'<blockquote>оймок бооч или оймок боош \(или оймокбооч, оймокбоош, оймокпооч\):</blockquote>\s*'
+            r'<blockquote>оймок бооч сал- ущипнуть с вывертом, больно ущипнуть \(см\. <wordLink word="бооч"/>\);</blockquote>\s*'
+            r'<ex>\s*'
+            r'<source>оймок боош салса этине, бар-бар этип, бала ыйлайт</source>\s*'
+            r'<target>фольк\. когда она больно щипала, ребёнок \(будущий богатырь\) ревел басом;</target>\s*'
+            r'</ex>\s*'
+            r'<blockquote>оймок боола- см\. <wordLink word="боола-" homonym="I"/>.</blockquote>',
+            flags=re.M,
+        ),
+        '''<miniCard>
+\t\t\t<k>оймок бооч или оймок боош (или оймокбооч, оймокбоош, оймокпооч):</k>
+\t\t\t<blockquote>оймок бооч сал- ущипнуть с вывертом, больно ущипнуть (см. <wordLink word="бооч"/>);</blockquote>
+\t\t\t<ex>
+\t\t\t\t<source>оймок боош салса этине, бар-бар этип, бала ыйлайт</source>
+\t\t\t\t<target>фольк. когда она больно щипала, ребёнок (будущий богатырь) ревел басом;</target>
+\t\t\t</ex>
+\t\t\t<blockquote>оймок боола- см. <wordLink word="боола-" homonym="I"/>.</blockquote>
+\t\t</miniCard>''',
+        'regex rewrite оймок бооч',
+    ),
     (
         re.compile(
             r'<card>\s*'
@@ -3072,6 +3425,22 @@ def apply_fixes(text: str) -> tuple[str, int]:
         text, count = pattern.subn(repl_xr_pair, text, count=1)
         if count == 0:
             warn_unmatched('trn + blockquote -> xr', trn_xml, blockquote_xml)
+
+    for trn_xml, blockquote_xml, new_trn_xml in TRN_BLOCKQUOTE_TO_TRN:
+        pattern = re.compile(
+            rf'(^[ \t]*){re.escape(trn_xml)}\s*\n([ \t]*){re.escape(blockquote_xml)}',
+            flags=re.M,
+        )
+
+        def repl_trn_pair(match: re.Match[str]) -> str:
+            nonlocal applied
+            applied += 1
+            indent = match.group(1)
+            return f'{indent}{new_trn_xml}'
+
+        text, count = pattern.subn(repl_trn_pair, text, count=1)
+        if count == 0:
+            warn_unmatched('trn + blockquote -> trn', trn_xml, blockquote_xml)
 
     for old_xr, new_xr in XR_REWRITES:
         pattern = re.compile(rf'(^[ \t]*){re.escape(old_xr)}', flags=re.M)
