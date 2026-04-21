@@ -8,8 +8,8 @@ import sys
 
 
 ROOT_DIR = Path('/Users/xinatanil/Sources/udahin')
-MANUAL_MARKDOWN_HTML = ROOT_DIR / 'scripts' / 'data' / 'manual_markdown.html'
-AI_MARKDOWN_XML = ROOT_DIR / 'scripts' / 'data' / 'ai_markdown.xml'
+MANUAL_MARKDOWN_HTML = ROOT_DIR / 'pipeline_part2' / 'data' / 'manual_markdown.html'
+AI_MARKDOWN_XML = ROOT_DIR / 'pipeline_part2' / 'data' / 'ai_markdown.xml'
 MANUAL_BLOCKQUOTE_RE = re.compile(r'<blockquote>(.*?)</blockquote>', re.S)
 BLOCKQUOTE_LINE_RE = re.compile(r'^(?P<indent>[ \t]*)<blockquote>(?P<text>.*?)</blockquote>$', re.M)
 SEPARATOR = '##'

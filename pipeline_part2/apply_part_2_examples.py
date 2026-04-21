@@ -10,7 +10,7 @@ import sys
 
 ROOT_DIR = Path('/Users/xinatanil/Sources/udahin')
 # Checked-in approvals keep part 2 example conversions deterministic and snapshot-free.
-APPROVED_COUNTS_JSON = ROOT_DIR / 'scripts' / 'data' / 'part_2_examples_approved.json'
+APPROVED_COUNTS_JSON = ROOT_DIR / 'pipeline_part2' / 'data' / 'part_2_examples_approved.json'
 
 KYR_TOK = r"[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі'-]+"
 HYPHEN_WORD_SPACE_RE = re.compile(r"\b[A-Za-zА-Яа-яЁёҮүӨөҢңҚқҺһҖҗІі]+-\s")

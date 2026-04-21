@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 ROOT_DIR = Path('/Users/xinatanil/Sources/udahin')
-ILI_FIXES_JSON = ROOT_DIR / 'scripts' / 'data' / 'ili_bad_fixes.json'
+ILI_FIXES_JSON = ROOT_DIR / 'pipeline_part2' / 'data' / 'ili_bad_fixes.json'
 
 
 def warn_unmatched(label: str, *parts: str) -> None:
