@@ -74,10 +74,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description='Dump or apply blockquotes with exactly three words where the second word contains "уу".'
     )
-    parser.add_argument('--input', default='./chatGPT_exp/converted_dict.xml', help='Input XML file to scan')
+    parser.add_argument('--input', default='./pipeline_output/converted_dict.xml', help='Input XML file to scan')
     parser.add_argument(
         '--output',
-        default='./chatGPT_exp/blockquotes_three_words_second_contains_uu.txt',
+        default='./pipeline_output/blockquotes_three_words_second_contains_uu.txt',
         help='Output text file',
     )
     parser.add_argument('--apply-output', help='If set, rewrite matching blockquotes to <ex> in this XML output file')

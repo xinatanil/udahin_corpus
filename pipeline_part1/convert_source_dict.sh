@@ -5,7 +5,8 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 input_dict="$ROOT_DIR/sources/corrected_source_dict.xml"
-converted_dict="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
+pipeline_output_dir="$ROOT_DIR/pipeline_output"
+converted_dict="$pipeline_output_dir/converted_dict.xml"
 v2_scripts="$ROOT_DIR/pipeline_part1/scripts"
 
 fixed_source=""
@@ -79,7 +80,9 @@ cleanup() {
 
 trap cleanup EXIT
 
-fixed_source=$(mktemp "$ROOT_DIR/chatGPT_exp/corrected_source_fixed_tmp.XXXXXX")
+mkdir -p "$pipeline_output_dir"
+
+fixed_source=$(mktemp "$pipeline_output_dir/corrected_source_fixed_tmp.XXXXXX")
 
 python3 "$v2_scripts/apply_source_fixes.py" "$input_dict" "$fixed_source"
 
@@ -87,7 +90,7 @@ saxon -xsl:$v2_scripts/sorting_xsl_template.xsl -s:$fixed_source -o:$converted_d
 
 python3 "$v2_scripts/identify_glued_cards.py" "$converted_dict" "$converted_dict"
 
-temp_file=$(mktemp "$ROOT_DIR/chatGPT_exp/fix_homonyms_tmp.XXXXXX")
+temp_file=$(mktemp "$pipeline_output_dir/fix_homonyms_tmp.XXXXXX")
 saxon -xsl:$v2_scripts/fix_homonyms.xsl -s:$converted_dict -o:$temp_file
 mv "$temp_file" "$converted_dict"
 replace_in_file "$converted_dict" "openingCardTag" "<card>"
@@ -95,7 +98,7 @@ replace_in_file "$converted_dict" "closingCardTag" "</card>"
 
 lint "$converted_dict"
 
-temp_file=$(mktemp "$ROOT_DIR/chatGPT_exp/fix_lexical_meanings_tmp.XXXXXX")
+temp_file=$(mktemp "$pipeline_output_dir/fix_lexical_meanings_tmp.XXXXXX")
 saxon -xsl:$v2_scripts/fix_lexical_meanings.xsl -s:$converted_dict -o:$temp_file
 mv "$temp_file" "$converted_dict"
 replace_in_file "$converted_dict" "openingMeaningTag" "<meaning>"

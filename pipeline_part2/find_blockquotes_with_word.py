@@ -170,8 +170,8 @@ def apply_splits(
 def main() -> int:
     parser = argparse.ArgumentParser(description='Find or apply blockquote splits using a divider word.')
     parser.add_argument('word', help='Divider word or substring to search for')
-    parser.add_argument('--input', default='./chatGPT_exp/converted_dict.xml', help='Input XML file to scan')
-    parser.add_argument('--output', default='./chatGPT_exp/blockquotes_with_matches.txt', help='Output text file for dump mode')
+    parser.add_argument('--input', default='./pipeline_output/converted_dict.xml', help='Input XML file to scan')
+    parser.add_argument('--output', default='./pipeline_output/blockquotes_with_matches.txt', help='Output text file for dump mode')
     parser.add_argument('--apply-output', help='If set, rewrite matching blockquotes to <ex> in this XML output file')
     parser.add_argument('--ignore-case', action='store_true', help='Case-insensitive search')
     parser.add_argument(

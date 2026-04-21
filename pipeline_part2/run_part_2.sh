@@ -5,9 +5,8 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 input_xml="$ROOT_DIR/sources/pipeline_part1_result.xml"
-output_xml="$ROOT_DIR/chatGPT_exp/converted_dict.xml"
-diff_xml="$ROOT_DIR/chatGPT_exp/converted_dict.part2.diff"
-snapshot_xml="$ROOT_DIR/chatGPT_exp/converted_dict.snapshot.xml"
+pipeline_output_dir="$ROOT_DIR/pipeline_output"
+output_xml="$pipeline_output_dir/converted_dict.xml"
 approved_llm_dir="$ROOT_DIR/pipeline_part2/data/approved_llm_fixes"
 
 lint() {
@@ -37,6 +36,24 @@ PY
     fi
 }
 
+retag_final_part2_tags() {
+    local file=$1
+    python3 - "$file" <<'PY'
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1])
+text = path.read_text(encoding='utf-8')
+text = text.replace('<alternativeForm>', '<altForm>')
+text = text.replace('</alternativeForm>', '</altForm>')
+text = text.replace('<synonym>', '<altForm>')
+text = text.replace('</synonym>', '</altForm>')
+path.write_text(text, encoding='utf-8')
+PY
+}
+
+mkdir -p "$pipeline_output_dir"
+
 cp "$input_xml" "$output_xml"
 lint "$output_xml"
 python3 "$SCRIPT_DIR/apply_ili_bad_fixes.py" "$output_xml" "$output_xml"
@@ -56,13 +73,7 @@ python3 "$SCRIPT_DIR/find_blockquotes_three_words_second_contains_uu.py" --input
 python3 "$SCRIPT_DIR/find_blockquotes_two_words_first3_match.py" --input "$output_xml" --apply-output "$output_xml"
 python3 "$SCRIPT_DIR/find_blockquotes_four_words_paired_first2_match.py" --input "$output_xml" --apply-output "$output_xml"
 lint "$output_xml"
-
-diff -u "$input_xml" "$output_xml" > "$diff_xml" || true
-if [ -f "$snapshot_xml" ]; then
-	diff -u "$snapshot_xml" "$output_xml" > "$diff_xml" || true
-	echo "Part 2 diff saved to $diff_xml"
-else
-	echo "No snapshot found at $snapshot_xml; skipping diff generation"
-fi
+retag_final_part2_tags "$output_xml"
+lint "$output_xml"
 
 osascript -e 'display notification "Part 2 pipeline finished" with title "Udahin" sound name "Glass"'

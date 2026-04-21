@@ -115,10 +115,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description='Dump or apply blockquotes with up to a two-word source whose last source word ends with a hyphen.'
     )
-    parser.add_argument('--input', default='./chatGPT_exp/converted_dict.xml', help='Input XML file to scan')
+    parser.add_argument('--input', default='./pipeline_output/converted_dict.xml', help='Input XML file to scan')
     parser.add_argument(
         '--output',
-        default='./chatGPT_exp/blockquotes_two_word_source_last_hyphen_strict.txt',
+        default='./pipeline_output/blockquotes_two_word_source_last_hyphen_strict.txt',
         help='Output text file',
     )
     parser.add_argument('--apply-output', help='If set, rewrite matching blockquotes to <ex> in this XML output file')
