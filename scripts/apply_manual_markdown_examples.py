@@ -63,6 +63,37 @@ def apply_markdown_examples(
     return BLOCKQUOTE_LINE_RE.sub(repl, xml), applied, missing
 
 
+def normalize_collapsed_hyphen_examples(
+    xml: str,
+    markdown_pairs: list[tuple[str, str, str]],
+) -> tuple[str, int]:
+    collapsed_map: dict[str, str] = {}
+    for raw, source, target in markdown_pairs:
+        if not source.endswith("-"):
+            continue
+        spaced_raw = f"{source} {target}"
+        collapsed_raw = f"{source}{target}"
+        if collapsed_raw != spaced_raw:
+            collapsed_map[collapsed_raw] = spaced_raw
+
+    if not collapsed_map:
+        return xml, 0
+
+    normalized = 0
+
+    def repl(match: re.Match[str]) -> str:
+        nonlocal normalized
+        raw_text = match.group("text")
+        replacement = collapsed_map.get(raw_text)
+        if replacement is None:
+            return match.group(0)
+        normalized += 1
+        indent = match.group("indent")
+        return f"{indent}<blockquote>{replacement}</blockquote>"
+
+    return BLOCKQUOTE_LINE_RE.sub(repl, xml), normalized
+
+
 def main() -> int:
     if len(sys.argv) != 3:
         print('Usage: apply_manual_markdown_examples.py <input.xml> <output.xml>', file=sys.stderr)
@@ -81,6 +112,9 @@ def main() -> int:
     total_applied = 0
     for label, path in sources:
         pairs, unmarked = load_markdown_pairs(path)
+        current_xml, normalized = normalize_collapsed_hyphen_examples(current_xml, pairs)
+        if normalized:
+            print(f'Normalized {normalized} collapsed hyphen {label} blockquote(s)')
         current_xml, applied, missing = apply_markdown_examples(current_xml, pairs)
         total_applied += applied
         print(f'Applied {applied} {label} markdown example fix(es)')
