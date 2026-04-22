@@ -6259,7 +6259,7 @@
 		</ex>
 	</card>
 	<card>
-		<k>абдалуу II</k>
+		<k>айдалуу II</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
 			<trn>гонимый; то, что или тот, кого гонят;</trn>
@@ -149989,7 +149989,7 @@
 		</ex>
 	</card>
 	<card>
-		<k>жакыр- II</k>
+		<k>какыр- II</k>
 		<trn>харкать, отхаркивать.</trn>
 	</card>
 	<card>
@@ -211499,8 +211499,11 @@
 	</card>
 	<card>
 		<k>Кызыр I</k>
-		<xr>то же, что <wordLink word="Кыдыр" homonym="I"/>;</xr>
-		<trn>Кызыр чалган или Кызыр колдогон или Кызыр конгон сопутствуемый удачей, удачливый;</trn>
+		<xr>то же, что <wordLink word="кыдыр" homonym="I"/>;</xr>
+		<ex>
+			<source>Кызыр чалган или Кызыр колдогон или Кызыр конгон</source>
+			<target>сопутствуемый удачей, удачливый;</target>
+		</ex>
 		<ex>
 			<source>өмүрүңөр узун болсун, жолдошуңар Кызыр болсун!</source>
 			<target>живите долго, пусть вам сопутствует Хизр!</target>
@@ -248043,15 +248046,15 @@
 			<meta>уст.</meta>
 			<trn>заведующий, управляющий, директор.</trn>
 		</homonym>
-	</card>
-	<card>
-		<k>мүдур- III</k>
-		<meta>южн.</meta>
-		<xr>то же, что <wordLink word="мүдурүл-"/>;</xr>
-		<ex>
-			<source>мүдүрсө, жол болбойт</source>
-			<target>примета если споткнулся, пути не будет.</target>
-		</ex>
+		<homonym>
+			<homonymIndex>мүдүр- III</homonymIndex>
+			<meta>южн.</meta>
+			<xr>то же, что <wordLink word="мүдурүл-"/>;</xr>
+			<ex>
+				<source>мүдүрсө, жол болбойт</source>
+				<target>примета если споткнулся, пути не будет.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>мүдүрүктө-</k>
@@ -264445,7 +264448,7 @@
 		<xr>то же, что <wordLink word="номер"/>.</xr>
 	</card>
 	<card>
-		<k>окур- II</k>
+		<k>омур- II</k>
 		<trn>разворотить, разрушить;</trn>
 		<ex>
 			<source>түбүнөн омур-</source>
@@ -347397,7 +347400,7 @@
 		</meaning>
 	</card>
 	<card>
-		<k>түйүң- II</k>
+		<k>түйүн- II</k>
 		<xr>возвр. от <wordLink word="түй-"/></xr>
 		<trn>завязаться узлом; завязать узлом на себе или для себя;</trn>
 		<ex>
@@ -370418,7 +370421,7 @@
 		<trn>чернушка (трава).</trn>
 	</card>
 	<card>
-		<k>уңдөө II</k>
+		<k>ундөө II</k>
 		<xr>и. д. от <wordLink word="үндө-" homonym="I"/></xr>
 		<trn>призыв, воззвание, обращение;</trn>
 		<ex>
@@ -372344,18 +372347,18 @@
 				<trn>выходное отверстие мочевого канала (мужского).</trn>
 			</meaning>
 		</homonym>
-	</card>
-	<card>
-		<k>урп III</k>
-		<collocationIdentifier>:</collocationIdentifier>
-		<ex>
-			<source>үрп-адат</source>
-			<target>ар. совокупность народных обычаев и установлений;</target>
-		</ex>
-		<ex>
-			<source>эски үрп-адаттарды жоюу керек</source>
-			<target>старые (отжившие) обычаи нужно искоренять.</target>
-		</ex>
+		<homonym>
+			<homonymIndex>үрп III</homonymIndex>
+			<collocationIdentifier>:</collocationIdentifier>
+			<ex>
+				<source>үрп-адат</source>
+				<target>ар. совокупность народных обычаев и установлений;</target>
+			</ex>
+			<ex>
+				<source>эски үрп-адаттарды жоюу керек</source>
+				<target>старые (отжившие) обычаи нужно искоренять.</target>
+			</ex>
+		</homonym>		
 	</card>
 	<card>
 		<k>урпак</k>
