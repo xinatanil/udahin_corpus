@@ -702,7 +702,7 @@
 	</card>
 	<card>
 		<k>абандат-</k>
-		<xr>понуд. от <wordLink word="неупотребительного глагола абанда-"/>;</xr>
+		<xr>понуд. от неупотребительного глагола <wordLink word="абанда-"/>;</xr>
 		<ex>
 			<source>абандатып сүйлө-</source>
 			<target>говорить нараспев.</target>
@@ -2700,7 +2700,7 @@
 	</card>
 	<card>
 		<k>адаттан-</k>
-		<xr>возвр. от <wordLink word="неупотребительного адатта-"/></xr>
+		<xr>возвр. от неупотребительного <wordLink word="адатта-"/></xr>
 		<trn>приобрести привычку, привыкнуть;</trn>
 		<ex>
 			<source>эрте туруп адаттандым</source>
@@ -6790,7 +6790,7 @@
 			</meaning>
 			<meaning>
 				<meaningIndex>3.</meaningIndex>
-				<xr>то же, что <wordLink word="айкалыш-II" meaning="1"/>;</xr>
+				<xr>то же, что <wordLink word="айкалыш-" homonym="II" meaning="1"/>;</xr>
 				<ex>
 					<source>айкашканың - Акеркеч артына карап жүрөсүң</source>
 					<target>фольк. в обнимку спишь ты с Акеркеч, ради неё ты находишься здесь;</target>
@@ -15927,7 +15927,7 @@
 	</card>
 	<card>
 		<k>алдырт-</k>
-		<xr>понуд. от <wordLink word="алдыр-II"/>;</xr>
+		<xr>понуд. от <wordLink word="алдыр-" homonym="II"/>;</xr>
 		<ex>
 			<source>кашка аттын ээрин алдыртып таштап, өз ээрин кашка атка токутту</source>
 			<target>он приказал снять с лысого коня седло и оседлать его своим седлом;</target>
@@ -18554,7 +18554,7 @@
 	</card>
 	<card>
 		<k>алышуу</k>
-		<xr>и. д. от <wordLink word="алыш- IV:"/></xr>
+		<xr>и. д. от <wordLink word="алыш-" homonym="IV"/>:</xr>
 		<ex>
 			<source>кат алышуу</source>
 			<target>переписка (взаимная);</target>
@@ -35362,8 +35362,11 @@
 			</meaning>
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
-				<xr>то же, что <wordLink word="баала-2"/>;</xr>
-				<trn>жамандыкка баалашпа не истолкуй что-л. плохо.</trn>
+				<xr>то же, что <wordLink word="баала-" meaning="2"/>;</xr>
+				<ex>
+					<source>жамандыкка баалашпа</source>
+					<target>не истолкуй что-л. плохо.</target>
+				</ex>
 			</meaning>
 		</homonym>
 	</card>
@@ -36677,7 +36680,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>багыш II</homonymIndex>
-			<xr>и. д. от <wordLink word="бак-IV"/>;</xr>
+			<xr>и. д. от <wordLink word="бак-" homonym="IV"/>;</xr>
 			<ex>
 				<source>жан багышка бул жер ылайык</source>
 				<target>для жизни (для обеспечения пропитанием) это место подходящее;</target>
@@ -47834,7 +47837,7 @@
 	</card>
 	<card>
 		<k>басырыл-</k>
-		<xr>страд. от <wordLink word="неупотр. гл. басыр-"/></xr>
+		<xr>страд. от неупотр. гл. <wordLink word="басыр-"/></xr>
 		<trn>придавливаться; сжиматься;</trn>
 		<ex>
 			<source>үймөктүн төбөсү абыдан басырылсын</source>
@@ -60790,7 +60793,7 @@
 	</card>
 	<card>
 		<k>болжолдо-</k>
-		<xr>то же, что <wordLink word="болжо-II"/>;</xr>
+		<xr>то же, что <wordLink word="болжо-" homonym="II"/>;</xr>
 		<ex>
 			<source>ошол убакка болжолдоп бардык</source>
 			<target>мы отправились (туда) к тому намеченному сроку.</target>
@@ -61104,7 +61107,7 @@
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
-			<xr>то же, что <wordLink word="болдур-2"/>;</xr>
+			<xr>то же, что <wordLink word="болдур-" meaning="2"/>;</xr>
 			<ex>
 				<source>жээрине карын жок, карындардын баарысы тамак-ашка болтуруп</source>
 				<target>фольк. не осталось места в желудках, чтобы есть; все желудки от (обилия) еды утомились.</target>
@@ -84445,7 +84448,7 @@
 	</card>
 	<card>
 		<k>делин-</k>
-		<xr>возвр. от <wordLink word="дел -" homonym="II"/></xr>
+		<xr>возвр. от <wordLink word="дел-" homonym="II"/></xr>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
 			<trn>быть сказанным; быть произносимым; выговариваться;</trn>
@@ -93055,7 +93058,8 @@
 		<k>жабдуу</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<xr>и. д. от <wordLink word="жабды- 1. снабжение"/>;</xr>
+			<xr>и. д. от <wordLink word="жабды-" meaning-"1"/></xr>
+			<trn>снабжение;</trn>
 			<ex>
 				<source>жумушчуларды жабдуу</source>
 				<target>снабжение рабочих; рабочее снабжение;</target>
@@ -93063,7 +93067,8 @@
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
-			<xr>и. д. от <wordLink word="жабды- 2. оборудование"/>;</xr>
+			<xr>и. д. от <wordLink word="жабды-" meaning="2"/></xr>
+			<trn>оборудование;</trn>
 		</meaning>
 		<meaning>
 			<meaningIndex>3.</meaningIndex>
@@ -120748,7 +120753,7 @@
 	</card>
 	<card>
 		<k>жулбур</k>
-		<xr>парное к <wordLink word="желбир и жалбыр" homonym="II"/>.</xr>
+		<xr>парное к <wordLink word="желбир"/> и <wordLink word="жалбыр" homonym="II"/>.</xr>
 	</card>
 	<card>
 		<k>жулбурт</k>
@@ -123324,7 +123329,8 @@
 		<k>жутулуш</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<xr>и. д. от <wordLink word="жутул- поглощение"/>;</xr>
+			<xr>и. д. от <wordLink word="жутул-"/></xr>
+			<trn>поглощение;</trn>
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
@@ -153879,7 +153885,7 @@
 	</card>
 	<card>
 		<k>камоо</k>
-		<xr>и. д. от <wordLink word="кама-I"/></xr>
+		<xr>и. д. от <wordLink word="кама-" homonym="I"/></xr>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
 			<trn>арест, заключение под стражу;</trn>
@@ -178499,7 +178505,7 @@
 	</card>
 	<card>
 		<k>кийлигишүү</k>
-		<xr>и. д. от <wordLink word="кийлигиш-II"/>;</xr>
+		<xr>и. д. от <wordLink word="кийлигиш-" homonym="II"/>;</xr>
 		<ex>
 			<source>сырттан кийлигишүү</source>
 			<target>вмешательство со стороны;</target>
@@ -224897,7 +224903,8 @@
 			<homonymIndex>көзөө I</homonymIndex>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
-				<xr>и. д. от <wordLink word="көзө- II просверливание"/>;</xr>
+				<xr>и. д. от <wordLink word="көзө-" homonym="II"/></xr>
+				<trn>просверливание;</trn>
 			</meaning>
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
@@ -244057,7 +244064,8 @@
 		<k>мети</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<xr>то же, что <wordLink word="чукулдук I кайла"/>, <wordLink word="кирка"/>;</xr>
+			<xr>то же, что <wordLink word="чукулдук" homonym="I"/></xr>
+			<trn>кайла, кирка;</trn>
 			<ex>
 				<source>жумушкер, мети кармап, кенге кирет</source>
 				<target>рабочий, взяв кайлу, спускается в шахту;</target>
@@ -253238,8 +253246,7 @@
 	</card>
 	<card>
 		<k>мынчанчы</k>
-		<trn>порядковое от мынча</trn>
-		<xr>(ср. <wordLink word="русское диалектное столький"/>).</xr>
+		<trn>порядковое от мынча (ср. русское диалектное столький).</trn>
 	</card>
 	<card>
 		<k>мыны</k>
@@ -259561,7 +259568,7 @@
 	</card>
 	<card>
 		<k>ныл</k>
-		<xr>(ср. <wordLink word="нылда-"/>, <wordLink word="ср. монг. нил"/>)</xr>
+		<xr>(ср. <wordLink word="нылда-"/>, ср. монг. нил)</xr>
 		<trn>чёрный; перен. мрачный;</trn>
 		<ex>
 			<source>көөнүмө нылдар толду</source>
@@ -375124,7 +375131,7 @@
 			</ex>
 			<ex>
 				<source>уул табар</source>
-				<target>кончик сычуга (жумур см. <wordLink word="III"/>) у овцы (по старому поверью, съевшая это женщина родит сына).</target>
+				<target>кончик сычуга (см. <wordLink word="жумур" homonym="III"/>) у овцы (по старому поверью, съевшая это женщина родит сына).</target>
 			</ex>
 		</meaning>
 	</card>
