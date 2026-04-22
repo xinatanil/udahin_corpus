@@ -71035,7 +71035,7 @@
 		</ex>
 		<ex>
 			<source>буурага чөктүр-</source>
-			<target>см. <wordLink word="чөктур-" meaning="2"/>.</target>
+			<target>см. <wordLink word="чөктүр-" meaning="2"/>.</target>
 		</ex>
 	</card>
 	<card>
@@ -356596,7 +356596,7 @@
 		</meaning>
 	</card>
 	<card>
-		<k>түшүн</k>
+		<k>түшүн-</k>
 		<trn>понимать, вникать;</trn>
 		<ex>
 			<source>бул маселени түшүнүп алуу керек</source>
@@ -399253,7 +399253,7 @@
 	</card>
 	<card>
 		<k>чүйүрүш-</k>
-		<xr>взаимн. от <wordLink word="чүбүр-"/>;</xr>
+		<xr>взаимн. от <wordLink word="чүйүр-"/>;</xr>
 		<ex>
 			<source>катындар мурундарын чүйүрүшүп, кетенчиктеше, дагы бирдеме деп кулдурашты</source>
 			<target>женщины, брезгливо сморщив носы, попятились и опять что-то забормотали.</target>
@@ -400261,7 +400261,7 @@
 	</card>
 	<card>
 		<k>чүлүктө-</k>
-		<trn>продеть в носовую перегородку чүлүк (см. <wordLink word="чүлүк" homonym="I"/>);</trn>
+		<trn>продеть в носовую перегородку чүлүк (см. <wordLink word="чүлүк" meaning="1"/>);</trn>
 		<ex>
 			<source>чүлүктөгөн торпок</source>
 			<target>бычок с кольцом в носу.</target>
@@ -400711,7 +400711,7 @@
 		<k>чүңгүлөк</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<xr>то же, что <wordLink word="чүнөлөк"/>;</xr>
+			<xr>то же, что <wordLink word="чүңөлөк"/>;</xr>
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
@@ -408567,7 +408567,7 @@
 		</meaning>
 	</card>
 	<card>
-		<k>чөйрөлө</k>
+		<k>чөйрөлө-</k>
 		<trn>двигаться вокруг кого-чего-л., обступать со всех сторон;</trn>
 		<ex>
 			<source>ушу тегеректе эле чөйрөлөп жүрдүм</source>
