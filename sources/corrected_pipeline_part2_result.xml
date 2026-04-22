@@ -241,7 +241,7 @@
 		<k>аарчы</k>
 		<homonym>
 			<homonymIndex>аарчы I</homonymIndex>
-			<altForm>аарчы I, аарчу</altForm>
+			<altForm>аарчу</altForm>
 			<ex>
 				<source>бет аарчы или жүз аарчы или бет аарчу или жүз аарчу или бет аарчы (бетаачы) жоолук</source>
 				<target>носовой платок (или в старом быту что-л., его заменяющее: тряпка, кушак и т.п.).</target>
@@ -27433,7 +27433,7 @@
 		<k>арып</k>
 		<homonym>
 			<homonymIndex>арып I</homonymIndex>
-			<altForm>арып I, арип</altForm>
+			<altForm>арип</altForm>
 			<origin>ар.</origin>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
@@ -31061,7 +31061,7 @@
 		<k>аттуу</k>
 		<homonym>
 			<homonymIndex>аттуу I</homonymIndex>
-			<altForm>аттуу I, атты</altForm>
+			<altForm>атты</altForm>
 			<trn>именуемый, называемый;</trn>
 			<ex>
 				<source>Манас аттуу баатыр</source>
@@ -62029,7 +62029,7 @@
 		<k>боордош</k>
 		<homonym>
 			<homonymIndex>боордош I</homonymIndex>
-			<altForm>боордош I, боорлош</altForm>
+			<altForm>боорлош</altForm>
 			<trn>кровный родственник;</trn>
 			<ex>
 				<source>боордош элдер</source>
@@ -62038,7 +62038,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>боордош- II</homonymIndex>
-			<altForm>боордош- II, боорлош-</altForm>
+			<altForm>боорлош-</altForm>
 			<trn>брататься (во время первой мировой войны).</trn>
 		</homonym>
 	</card>
@@ -62711,7 +62711,7 @@
 		<k>бороз</k>
 		<homonym>
 			<homonymIndex>бороз I</homonymIndex>
-			<altForm>бороз I, борос</altForm>
+			<altForm>борос</altForm>
 			<origin>р.</origin>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
@@ -80199,7 +80199,7 @@
 		<k>далбаа</k>
 		<homonym>
 			<homonymIndex>далбаа I</homonymIndex>
-			<altForm>далбаа I, далба</altForm>
+			<altForm>далба</altForm>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
 				<trn>приманка (для ловчей птицы), вабило;</trn>
@@ -80362,7 +80362,7 @@
 		<k>далда</k>
 		<homonym>
 			<homonymIndex>далда I</homonymIndex>
-			<altForm>далда I, далдаа</altForm>
+			<altForm>далдаа</altForm>
 			<trn>прикрытие, укрытие, защита, убежище;</trn>
 			<ex>
 				<source>таштын далдасына олтуруп</source>
@@ -81628,7 +81628,7 @@
 		<k>даңса</k>
 		<homonym>
 			<homonymIndex>даңса I</homonymIndex>
-			<altForm>даңса I, даңза</altForm>
+			<altForm>даңза</altForm>
 			<origin>кит.</origin>
 			<meta>(в эпосе)</meta>
 			<trn>родословная книга (в которую вписываются имена знаменитых людей);</trn>
@@ -94894,7 +94894,7 @@
 		<k>жазда</k>
 		<homonym>
 			<homonymIndex>жазда- I</homonymIndex>
-			<altForm>жазда- I, жаз-</altForm>
+			<altForm>жаз-</altForm>
 			<trn>с предшеств. глаголом в форме деепр. наст. вр. чуть-чуть, едва не..., чуть было не...; вот-вот;</trn>
 			<ex>
 				<source>жүрөгү чыга жаздады</source>
@@ -134930,7 +134930,7 @@
 		<k>ийе</k>
 		<homonym>
 			<homonymIndex>ийе I</homonymIndex>
-			<altForm>ийе I, ийи</altForm>
+			<altForm>ийи</altForm>
 			<xr>то же, что <wordLink word="ооба"/></xr>
 			<trn>да (утверждение);</trn>
 			<ex>
@@ -134940,7 +134940,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>ийе II</homonymIndex>
-			<altForm>ийе II, ийи</altForm>
+			<altForm>ийи</altForm>
 			<meta>южн.</meta>
 			<collocationIdentifier>:</collocationIdentifier>
 			<ex>
@@ -213827,7 +213827,7 @@
 		<k>кыйыш</k>
 		<homonym>
 			<homonymIndex>кыйыш I</homonymIndex>
-			<altForm>кыйыш I, кыйышык</altForm>
+			<altForm>кыйышык</altForm>
 			<trn>соединение, скрепление;</trn>
 			<ex>
 				<source>сөзүндө бир кыйыш жок или сөзүнүн кыйышыгы жок</source>
@@ -230942,7 +230942,7 @@
 		<k>көсөө</k>
 		<homonym>
 			<homonymIndex>көсөө I</homonymIndex>
-			<altForm>көсөө I, көзөө</altForm>
+			<altForm>көзөө</altForm>
 			<trn>ожег (палочка, которой поправляют огонь в очаге);</trn>
 			<ex>
 				<source>көргөн - көргөнүн кылат, көсөө - түрткөнүн кылат</source>
