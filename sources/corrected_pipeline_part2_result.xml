@@ -9792,7 +9792,7 @@
 			</meaning>
 			<meaning>
 				<meaningIndex>3.</meaningIndex>
-				<trn>невинный, невиновный (в этом значении трудно отличить от ак II 1);</trn>
+				<trn>невинный, невиновный (в этом значении трудно отличить от <wordLink word="ак" homonym="II" meaning="1"/>);</trn>
 				<ex>
 					<source>иш агына кетти</source>
 					<target>дело пошло к оправданию;</target>
@@ -9888,7 +9888,7 @@
 			<origin>ар.</origin>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
-				<trn>истина, истинный; правый, невинный (в этом значении трудно отличить от ак I 3);</trn>
+				<trn>истина, истинный; правый, невинный (в этом значении трудно отличить от <wordLink word="ак" homonym="I" meaning="3"/>);</trn>
 				<ex>
 					<source>ишиң ак</source>
 					<target>дело твоё правое;</target>
@@ -42317,7 +42317,7 @@
 		<k>балдыз</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<trn>свояченица (младшая сестра жены; ср. эже I 1);</trn>
+			<trn>свояченица (младшая сестра жены; ср. <wordLink word="эже" homonym="I" meaning="1"/>);</trn>
 			<ex>
 				<source>балдыздары келгенде күйөөнүн чери жазылат</source>
 				<target>фольк. когда приходят свояченицы, зятю весело становится;</target>
@@ -110240,7 +110240,7 @@
 			<homonymIndex>жел I</homonymIndex>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
-				<trn>ветер (небольшой, не очень сильный; ср. шамал I);</trn>
+				<trn>ветер (небольшой, не очень сильный; ср. <wordLink word="шамал" homonym="I"/>);</trn>
 				<ex>
 					<source>жел согот или жел жүрөт</source>
 					<target>ветер дует;</target>
@@ -117966,7 +117966,7 @@
 			<homonymIndex>жоон I</homonymIndex>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
-				<trn>толстый (в обхвате; ср. калың I 2);</trn>
+				<trn>толстый (в обхвате; ср. <wordLink word="калың" homonym="I" meaning="2"/>);</trn>
 				<ex>
 					<source>жоон-жолпу</source>
 					<target>здоровенный; здоровяк;</target>
@@ -118017,7 +118017,7 @@
 	</card>
 	<card>
 		<k>жоондук</k>
-		<trn>толщина (в обхвате; ср. калыңдык I 2).</trn>
+		<trn>толщина (в обхвате; ср. <wordLink word="калыңдык" homonym="I" meaning="2"/>).</trn>
 	</card>
 	<card>
 		<k>жооной-</k>
@@ -125878,7 +125878,7 @@
 			<homonymIndex>жылкы I</homonymIndex>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
-				<trn>лошадь (как родовое название; ср. ат I);</trn>
+				<trn>лошадь (как родовое название; ср. <wordLink word="ат" homonym="I"/>);</trn>
 				<miniCard>
 					<miniK>кырк жылкы</miniK>
 					<miniTrn>1) сорок лошадей;</miniTrn>
@@ -152710,7 +152710,7 @@
 			<meaning>
 				<meaningIndex>4.</meaningIndex>
 				<meta>(в эпосе)</meta>
-				<trn>телохранитель; страж при казне (их всегда сорок; ср. чоро I);</trn>
+				<trn>телохранитель; страж при казне (их всегда сорок; ср. <wordLink word="чоро" homonym="I"/>);</trn>
 				<ex>
 					<source>кара мүртөз Канчоро, кырк калчасын кылычтап, кыргын салып кырыптыр</source>
 					<target>фольк. злокозненный Канчоро, мечом изрубив сорок витязей (противника), учинил разгром;</target>
@@ -158530,7 +158530,7 @@
 			</meaning>
 			<meaning>
 				<meaningIndex>15.</meaningIndex>
-				<meta>(часто в сочетании с калың I)</meta>
+				<meta>(часто в сочетании с <wordLink word="калың" homonym="I"/>)</meta>
 				<trn>множество, масса;</trn>
 				<ex>
 					<source>орчун кара кол</source>
@@ -174813,7 +174813,7 @@
 		<origin>ир.</origin>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<trn>металлическая труба (железной печи, самовара и т.п.; ср. мор I);</trn>
+			<trn>металлическая труба (железной печи, самовара и т.п.; ср. <wordLink word="мор" homonym="I"/>);</trn>
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
@@ -204853,7 +204853,7 @@
 		<origin>ир.</origin>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<trn>рис (растение и зерно в северных говорах и литературном языке не различаются; ср. шалы I);</trn>
+			<trn>рис (растение и зерно в северных говорах и литературном языке не различаются; ср. <wordLink word="шалы" homonym="I"/>);</trn>
 			<ex>
 				<source>күрүч айда-</source>
 				<target>возделывать рис;</target>
@@ -237175,7 +237175,7 @@
 	</card>
 	<card>
 		<k>майрам</k>
-		<trn>праздник (гражданский; ср. айт II);</trn>
+		<trn>праздник (гражданский; ср. <wordLink word="айт" homonym="II"/>);</trn>
 		<ex>
 			<source>кыргызда айран көп, оруста майрам көп</source>
 			<target>погов. у киргизов айрана много, у русских праздников много (шутка, вызванная обилием религиозных праздников у русских до революции);</target>
@@ -252140,7 +252140,7 @@
 	<card>
 		<k>мүшөк</k>
 		<origin>р.</origin>
-		<trn>мешок (русского образца, продолговатый; ср. кап IV).</trn>
+		<trn>мешок (русского образца, продолговатый; ср. <wordLink word="кап" homonym="IV"/>).</trn>
 	</card>
 	<card>
 		<k>мүшөктө</k>
@@ -260173,7 +260173,7 @@
 	<card>
 		<k>обон</k>
 		<origin>ир.</origin>
-		<trn>напев, мотив; мелодия (для голоса; ср. күү I);</trn>
+		<trn>напев, мотив; мелодия (для голоса; ср. <wordLink word="күү" homonym="I"/>);</trn>
 		<ex>
 			<source>обон сал-</source>
 			<target>петь.</target>
@@ -271497,7 +271497,7 @@
 		<meta>сев.</meta>
 		<xr>понуд. от <wordLink word="отооло-"/></xr>
 		<altForm>(встречается и в форме отолот-)</altForm>
-		<trn>выдать замуж (букв. поместить в юрте молодожёнов; ср. отоо II 2);</trn>
+		<trn>выдать замуж (букв. поместить в юрте молодожёнов; ср. <wordLink word="отоо" homonym="II" meaning="2"/>);</trn>
 		<ex>
 			<source>отоолотсо, отоолотсо экен: отоолотпосо, отунума барат элем (или отун алат элем)</source>
 			<target>выдавать, так выдали бы замуж; если уж не выдадите замуж, я пошла бы за топливом (говорит бедная девушка, которую бесплодные разговоры о желанной свадьбе только отвлекают от обычной работы).</target>
@@ -294739,7 +294739,7 @@
 		<k>сиңди</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<trn>младшая сестра (в отношении старшей сестры, но не брата; ср. карындаш I 2);</trn>
+			<trn>младшая сестра (в отношении старшей сестры, но не брата; ср. <wordLink word="карындаш" homonym="I" meaning="2"/>);</trn>
 			<ex>
 				<source>агасын көрүп, ини өсөт; эжесин көрүп, сиңди өсөт</source>
 				<target>погов. глядя на старшего брата, растёт младший; гляда на старшую сестру, растёт младшая;</target>
@@ -380223,7 +380223,7 @@
 	</card>
 	<card>
 		<k>чаба</k>
-		<meta>деепр. наст. вр. от чап- X</meta>
+		<xr>деепр. наст. вр. от <wordLink word="чап-" homonym="X"/></xr>
 		<trn>против, навстречу (гл. обр. о дожде);</trn>
 		<ex>
 			<source>жамгыр чаба жаайт</source>
@@ -432525,7 +432525,7 @@
 		<k>экен</k>
 		<homonym>
 			<homonymIndex>экен I</homonymIndex>
-			<meta>прич. прош. вр. от э- II</meta>
+			<xr>прич. прош. вр. от <wordLink word="э-" homonym="II"/></xr>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
 				<trn>выражает бытие кем, чем, каким; изменяется по лицам, числам и падежам;</trn>
