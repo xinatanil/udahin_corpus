@@ -10495,7 +10495,7 @@
 	</card>
 	<card>
 		<k>Аккула</k>
-		<xr>см. <wordLink word="кула I1"/>.</xr>
+		<xr>см. <wordLink word="кула" homonym="I" meaning="1"/>.</xr>
 	</card>
 	<card>
 		<k>аккулак</k>
@@ -49886,7 +49886,7 @@
 	</card>
 	<card>
 		<k>башкарыл-</k>
-		<xr>страд. от <wordLink word="башкар-I"/></xr>
+		<xr>страд. от <wordLink word="башкар-" homonym="I"/></xr>
 		<trn>быть управляемым, управляться.</trn>
 	</card>
 	<card>
@@ -97291,7 +97291,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>жайыш- II</homonymIndex>
-			<xr>взаимн. от <wordLink word="жай- V:"/></xr>
+			<xr>взаимн. от <wordLink word="жай-" homonym="V"/>:</xr>
 			<ex>
 				<source>аттын оозун жайышып</source>
 				<target>фольк. дав коням поводья.</target>
@@ -108145,7 +108145,7 @@
 	</card>
 	<card>
 		<k>жатыры</k>
-		<xr>см. <wordLink word="жат- III" homonym="IV"/>.</xr>
+		<xr>см. <wordLink word="жат-" homonym="III"/>, <wordLink word="жат-" homonym="IV"/>.</xr>
 	</card>
 	<card>
 		<k>жатыш</k>
@@ -189963,7 +189963,7 @@
 				</ex>
 				<ex>
 					<source>кош ооз</source>
-					<target>(см. <wordLink word="ооз2"/>).</target>
+					<target>(см. <wordLink word="ооз" meaning="2"/>).</target>
 				</ex>
 			</meaning>
 		</homonym>
@@ -214839,7 +214839,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>кылдыр- II</homonymIndex>
-			<xr>понуд. от <wordLink word="кыл-III"/></xr>
+			<xr>понуд. от <wordLink word="кыл-" homonym="III"/></xr>
 			<trn>заставить сделать;</trn>
 			<ex>
 				<source>жүк артпагын торпокко, иш кылдырба чоркокко</source>
@@ -218726,7 +218726,7 @@
 		</meaning>
 		<meaning>
 			<meaningIndex>3.</meaningIndex>
-			<xr>то же, что <wordLink word="кыр 1" meaning="3"/>.</xr>
+			<xr>то же, что <wordLink word="кыр" homonym="I" meaning="3"/>.</xr>
 		</meaning>
 	</card>
 	<card>
@@ -282597,7 +282597,7 @@
 	</card>
 	<card>
 		<k>сайлат-</k>
-		<xr>понуд. от <wordLink word="сайла-I"/>;</xr>
+		<xr>понуд. от <wordLink word="сайла-" homonym="I"/>;</xr>
 		<ex>
 			<source>бектерин куудум сайлатып, Куртка тийди колума</source>
 			<target>стих. беков я преследовал, вынуждая их бежать, (крепость) Куртка попала мне в руки;</target>
@@ -299434,7 +299434,7 @@
 	</card>
 	<card>
 		<k>союлт-</k>
-		<xr>понуд. от <wordLink word="союл-II"/></xr>
+		<xr>понуд. от <wordLink word="союл-" homonym="II"/></xr>
 		<xr>(см. <wordLink word="сойдур-"/>);</xr>
 		<ex>
 			<source>жер союлтуп келген аскер</source>
@@ -308985,7 +308985,7 @@
 	</card>
 	<card>
 		<k>сында-</k>
-		<xr>то же, что <wordLink word="сына-1"/>;</xr>
+		<xr>то же, что <wordLink word="сына-" meaning="1"/>;</xr>
 		<ex>
 			<source>сындагым келет акынды</source>
 			<target>мне хочется испытать (или покритиковать) поэта;</target>
@@ -321885,7 +321885,7 @@
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
-			<xr>страд. от <wordLink word="тапта-I" meaning="2"/>.</xr>
+			<xr>страд. от <wordLink word="тапта-" homonym="I" meaning="2"/>.</xr>
 			<trn>быть утаптываемым, утаптываться (напр. о дороге); перен. быть угнетаемым, угнетаться;</trn>
 			<ex>
 				<source>бактысыз жүрдүм башында, бай-манапка тапталып</source>
@@ -329728,7 +329728,7 @@
 	</card>
 	<card>
 		<k>телүү</k>
-		<xr>и. д. от <wordLink word="тели- II:"/></xr>
+		<xr>и. д. от <wordLink word="тели-" homonym="II"/>:</xr>
 		<miniCard>
 			<miniK>козу телүү</miniK>
 			<miniTrn>1) припускание ягнёнка к чужой матке;</miniTrn>
@@ -393187,7 +393187,7 @@
 	</card>
 	<card>
 		<k>черткиле-</k>
-		<xr>многокр. от <wordLink word="черт-II"/>;</xr>
+		<xr>многокр. от <wordLink word="черт-" homonym="II"/>;</xr>
 		<ex>
 			<source>мышыктын кулагын тып-тып черткиледи</source>
 			<target>он пощёлкал (пальцем) кошку по уху;</target>
@@ -422363,7 +422363,7 @@
 	</card>
 	<card>
 		<k>шыпыруу</k>
-		<xr>и. д. от <wordLink word="шыпыр-II"/>.</xr>
+		<xr>и. д. от <wordLink word="шыпыр-" homonym="II"/>.</xr>
 	</card>
 	<card>
 		<k>шыпырыл-</k>
@@ -427351,7 +427351,7 @@
 	</card>
 	<card>
 		<k>ыңтай</k>
-		<xr>то же, что <wordLink word="ыңгай 1:"/></xr>
+		<xr>то же, что <wordLink word="ыңгай" meaning="1"/>:</xr>
 		<ex>
 			<source>ыңтайы келбей турат</source>
 			<target>не удаётся; обстоятельства не складываются так, как это было бы нужно;</target>
