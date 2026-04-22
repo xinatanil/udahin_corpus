@@ -6251,31 +6251,34 @@
 		</ex>
 	</card>
 	<card>
-		<k>айдалуу I</k>
-		<xr>и. д. от <wordLink word="айдал-"/>;</xr>
-		<ex>
-			<source>талаалар өз убагында айдалууга тийиш</source>
-			<target>поля должны быть вспаханы своевременно.</target>
-		</ex>
-	</card>
-	<card>
-		<k>айдалуу II</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>гонимый; то, что или тот, кого гонят;</trn>
+		<k>айдалуу</k>
+		<homonym>
+			<homonymIndex>айдалуу I</homonymIndex>
+			<xr>и. д. от <wordLink word="айдал-"/>;</xr>
 			<ex>
-				<source>айдалуу малыбыз</source>
-				<target>наш скот (скот, который мы гоним);</target>
+				<source>талаалар өз убагында айдалууга тийиш</source>
+				<target>поля должны быть вспаханы своевременно.</target>
 			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>(о земле) вспаханный, обработанный;</trn>
-			<ex>
-				<source>балаң пайдалуу болсо, аштыгың айдалуу</source>
-				<target>погов. если твой сын хороший (букв. прибыльный), твоя нива обработана.</target>
-			</ex>
-		</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>айдалуу II</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>гонимый; то, что или тот, кого гонят;</trn>
+				<ex>
+					<source>айдалуу малыбыз</source>
+					<target>наш скот (скот, который мы гоним);</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>(о земле) вспаханный, обработанный;</trn>
+				<ex>
+					<source>балаң пайдалуу болсо, аштыгың айдалуу</source>
+					<target>погов. если твой сын хороший (букв. прибыльный), твоя нива обработана.</target>
+				</ex>
+			</meaning>
+		</homonym>
 	</card>
 	<card>
 		<k>айдалуучу</k>
@@ -93058,7 +93061,7 @@
 		<k>жабдуу</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<xr>и. д. от <wordLink word="жабды-" meaning-"1"/></xr>
+			<xr>и. д. от <wordLink word="жабды-" meaning="1"/></xr>
 			<trn>снабжение;</trn>
 			<ex>
 				<source>жумушчуларды жабдуу</source>
@@ -149973,24 +149976,27 @@
 		<xr>то же, что <wordLink word="каакым"/>.</xr>
 	</card>
 	<card>
-		<k>какыр I</k>
-		<trn>сухое место, куда не доходит вода;</trn>
-		<ex>
-			<source>ошол какыр түзүндө суур казган ийин жок, буурусун тийген чийин жок</source>
-			<target>фольк. в той сухой равнине нет норы, вырытой сурком, нет черты, прочерченной сохой;</target>
-		</ex>
-		<ex>
-			<source>какыр-чикир</source>
-			<target>барахло, барахлишко, хлам; мусор;</target>
-		</ex>
-		<ex>
-			<source>чөп чыкпаган какыр ер</source>
-			<target>сухое место, где трава не растёт.</target>
-		</ex>
-	</card>
-	<card>
-		<k>какыр- II</k>
-		<trn>харкать, отхаркивать.</trn>
+		<k>какыр</k>
+		<homonym>
+			<homonymIndex>какыр I</homonymIndex>
+			<trn>сухое место, куда не доходит вода;</trn>
+			<ex>
+				<source>ошол какыр түзүндө суур казган ийин жок, буурусун тийген чийин жок</source>
+				<target>фольк. в той сухой равнине нет норы, вырытой сурком, нет черты, прочерченной сохой;</target>
+			</ex>
+			<ex>
+				<source>какыр-чикир</source>
+				<target>барахло, барахлишко, хлам; мусор;</target>
+			</ex>
+			<ex>
+				<source>чөп чыкпаган какыр ер</source>
+				<target>сухое место, где трава не растёт.</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<homonymIndex>какыр- II</homonymIndex>
+			<trn>харкать, отхаркивать.</trn>
+		</homonym>
 	</card>
 	<card>
 		<k>какыра-</k>
@@ -210000,34 +210006,37 @@
 		</ex>
 	</card>
 	<card>
-		<k>Кыдыр I</k>
-		<origin>ар.</origin>
-		<meta>миф.</meta>
-		<trn>пророк Хизр (якобы нашедший источник живой воды);</trn>
-		<ex>
-			<source>жети кишинин бири - Кыдыр</source>
-			<target>поверье один из (каждых) семи человек - Хизр (по поверью, вещь, прошедшая через много рук, приносит счастье, т. к. один из её прежних владельцев обязательно был Хизр);</target>
-		</ex>
-		<ex>
-			<source>"жети кишинин бири - Кыдыр" дегендей, биз да, бирдемени билип, айтып жатабыз</source>
-			<target>как говорится, из семи человек один - Хизр, мы тоже кое-что знаем, когда говорим тебе;</target>
-		</ex>
-		<ex>
-			<source>Кыдыр колдогон или Кыдыр даарыган</source>
-			<target>сопутствуемый удачей, удачливый.</target>
-		</ex>
-	</card>
-	<card>
-		<k>кыдыр- II</k>
-		<trn>шататься, бродить; бродить в поисках;</trn>
-		<ex>
-			<source>чайканадан чайкананы кыдыра берди</source>
-			<target>в поисках он бродил из одной чайханы в другую;</target>
-		</ex>
-		<ex>
-			<source>көчөнү-көчө (вместо көчөмө-көчө) кыдырып</source>
-			<target>обходя улицы; бродя по улицам.</target>
-		</ex>
+		<k>кыдыр</k>
+		<homonym>
+			<homonymIndex>Кыдыр I</homonymIndex>
+			<origin>ар.</origin>
+			<meta>миф.</meta>
+			<trn>пророк Хизр (якобы нашедший источник живой воды);</trn>
+			<ex>
+				<source>жети кишинин бири - Кыдыр</source>
+				<target>поверье один из (каждых) семи человек - Хизр (по поверью, вещь, прошедшая через много рук, приносит счастье, т. к. один из её прежних владельцев обязательно был Хизр);</target>
+			</ex>
+			<ex>
+				<source>"жети кишинин бири - Кыдыр" дегендей, биз да, бирдемени билип, айтып жатабыз</source>
+				<target>как говорится, из семи человек один - Хизр, мы тоже кое-что знаем, когда говорим тебе;</target>
+			</ex>
+			<ex>
+				<source>Кыдыр колдогон или Кыдыр даарыган</source>
+				<target>сопутствуемый удачей, удачливый.</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<homonymIndex>кыдыр- II</homonymIndex>
+			<trn>шататься, бродить; бродить в поисках;</trn>
+			<ex>
+				<source>чайканадан чайкананы кыдыра берди</source>
+				<target>в поисках он бродил из одной чайханы в другую;</target>
+			</ex>
+			<ex>
+				<source>көчөнү-көчө (вместо көчөмө-көчө) кыдырып</source>
+				<target>обходя улицы; бродя по улицам.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>кыдыракей</k>
@@ -211498,20 +211507,23 @@
 		</ex>
 	</card>
 	<card>
-		<k>Кызыр I</k>
-		<xr>то же, что <wordLink word="кыдыр" homonym="I"/>;</xr>
-		<ex>
-			<source>Кызыр чалган или Кызыр колдогон или Кызыр конгон</source>
-			<target>сопутствуемый удачей, удачливый;</target>
-		</ex>
-		<ex>
-			<source>өмүрүңөр узун болсун, жолдошуңар Кызыр болсун!</source>
-			<target>живите долго, пусть вам сопутствует Хизр!</target>
-		</ex>
-	</card>
-	<card>
-		<k>кызыр II</k>
-		<xr>то же, что <wordLink word="кысыр"/>.</xr>
+		<k>кызыр</k>
+		<homonym>
+			<homonymIndex>Кызыр I</homonymIndex>
+			<xr>то же, что <wordLink word="кыдыр" homonym="I"/>;</xr>
+			<ex>
+				<source>Кызыр чалган или Кызыр колдогон или Кызыр конгон</source>
+				<target>сопутствуемый удачей, удачливый;</target>
+			</ex>
+			<ex>
+				<source>өмүрүңөр узун болсун, жолдошуңар Кызыр болсун!</source>
+				<target>живите долго, пусть вам сопутствует Хизр!</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<homonymIndex>кызыр II</homonymIndex>
+			<xr>то же, что <wordLink word="кысыр"/>.</xr>
+		</homonym>
 	</card>
 	<card>
 		<k>кызырак</k>
@@ -249740,28 +249752,31 @@
 		<xr>то же, что <wordLink word="мүмкүн"/>.</xr>
 	</card>
 	<card>
-		<k>мүңкүр I</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>лишившийся рук и ног;</trn>
+		<k>мүңкүр</k>
+		<homonym>
+			<homonymIndex>мүңкүр I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>лишившийся рук и ног;</trn>
+				<ex>
+					<source>мүнкүр-шордуулар</source>
+					<target>калеки и несчастные;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<meta>перен.</meta>
+				<trn>находящийся в беспомощном состоянии, в безвыходном положении.</trn>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>Мүңкүр II</homonymIndex>
+			<collocationIdentifier>:</collocationIdentifier>
 			<ex>
-				<source>мүнкүр-шордуулар</source>
-				<target>калеки и несчастные;</target>
+				<source>Мүңкүр-Наңкүр</source>
+				<target>ар. (в народном произношении часто Үңкүр-Маңкүр) имена двух ангелов, которые якобы являются к покойнику сразу же после того, как его закопают и, как только люди отойдут от могилы, начинают допрос "с пристрастием".</target>
 			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<meta>перен.</meta>
-			<trn>находящийся в беспомощном состоянии, в безвыходном положении.</trn>
-		</meaning>
-	</card>
-	<card>
-		<k>Мүңкүр II</k>
-		<collocationIdentifier>:</collocationIdentifier>
-		<ex>
-			<source>Мүңкүр-Наңкүр</source>
-			<target>ар. (в народном произношении часто Үңкүр-Маңкүр) имена двух ангелов, которые якобы являются к покойнику сразу же после того, как его закопают и, как только люди отойдут от могилы, начинают допрос "с пристрастием".</target>
-		</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>муңкура-</k>
@@ -264443,25 +264458,28 @@
 		<trn>(о неуклюжем человеке) быть грубо кичливым.</trn>
 	</card>
 	<card>
-		<k>омур I</k>
-		<meta>разг.</meta>
-		<xr>то же, что <wordLink word="номер"/>.</xr>
-	</card>
-	<card>
-		<k>омур- II</k>
-		<trn>разворотить, разрушить;</trn>
-		<ex>
-			<source>түбүнөн омур-</source>
-			<target>прям., перен. вырвать с корнем;</target>
-		</ex>
-		<ex>
-			<source>кантты кардай томурган, сары майды омурган</source>
-			<target>фольк. сахар он отворачивал большими кусками (букв. как снег), топлёное масло выворачивал (т.е. сладкое и жирное ел в изобилии или сладким и жирным угощал обильно);</target>
-		</ex>
-		<ex>
-			<source>омуртка омур-</source>
-			<target>переломить позвоночник (переламывая, отделить позвонки друг от друга).</target>
-		</ex>
+		<k>омур</k>
+		<homonym>
+			<homonymIndex>омур I</homonymIndex>
+			<meta>разг.</meta>
+			<xr>то же, что <wordLink word="номер"/>.</xr>
+		</homonym>
+		<homonym>
+			<homonymIndex>омур- II</homonymIndex>
+			<trn>разворотить, разрушить;</trn>
+			<ex>
+				<source>түбүнөн омур-</source>
+				<target>прям., перен. вырвать с корнем;</target>
+			</ex>
+			<ex>
+				<source>кантты кардай томурган, сары майды омурган</source>
+				<target>фольк. сахар он отворачивал большими кусками (букв. как снег), топлёное масло выворачивал (т.е. сладкое и жирное ел в изобилии или сладким и жирным угощал обильно);</target>
+			</ex>
+			<ex>
+				<source>омуртка омур-</source>
+				<target>переломить позвоночник (переламывая, отделить позвонки друг от друга).</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>омуроо</k>
@@ -347351,62 +347369,65 @@
 		</ex>
 	</card>
 	<card>
-		<k>түйүн I</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<meta>в разн. знач.</meta>
-			<trn>узел;</trn>
+		<k>түйүн</k>
+		<homonym>
+			<homonymIndex>түйүн I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<meta>в разн. знач.</meta>
+				<trn>узел;</trn>
+				<ex>
+					<source>темир жол түйүнү</source>
+					<target>железнодорожный узел;</target>
+				</ex>
+				<ex>
+					<source>радио түйүнү</source>
+					<target>радиоузел;</target>
+				</ex>
+				<ex>
+					<source>карама-каршылыктардын түйүн пункту</source>
+					<target>узловой пункт противоречий;</target>
+				</ex>
+				<ex>
+					<source>каршылык көрсөтүү түйүнү</source>
+					<target>точка сопротивления;</target>
+				</ex>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<meta>перен.</meta>
+				<trn>сокровенный смысл, тайна;</trn>
+				<ex>
+					<source>түйүн сырын билбесең, түк колуңа албагын</source>
+					<target>фольк. если не знаешь секретов-тайн (повадок ловчей птицы), в руки (её) не бери;</target>
+				</ex>
+				<ex>
+					<source>иштин түйүнү</source>
+					<target>суть дела;</target>
+				</ex>
+				<ex>
+					<source>көңүлдүн түйүн санаасы</source>
+					<target>сокровенные помыслы;</target>
+				</ex>
+				<ex>
+					<source>бул түйүндүн чатышы тереңде</source>
+					<target>сплетения этой тайны - в глубине (распутать трудно);</target>
+				</ex>
+				<ex>
+					<source>жашоонун түйүнү</source>
+					<target>тайны жизни (взаимоотношения людей и т.п.).</target>
+				</ex>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>түйүн- II</homonymIndex>
+			<xr>возвр. от <wordLink word="түй-"/></xr>
+			<trn>завязаться узлом; завязать узлом на себе или для себя;</trn>
 			<ex>
-				<source>темир жол түйүнү</source>
-				<target>железнодорожный узел;</target>
+				<source>каралуу чачын түйүнүп</source>
+				<target>фольк. (о вдове) свои (по-вдовьи распущенные) волосы замотав (чтобы они не были видны).</target>
 			</ex>
-			<ex>
-				<source>радио түйүнү</source>
-				<target>радиоузел;</target>
-			</ex>
-			<ex>
-				<source>карама-каршылыктардын түйүн пункту</source>
-				<target>узловой пункт противоречий;</target>
-			</ex>
-			<ex>
-				<source>каршылык көрсөтүү түйүнү</source>
-				<target>точка сопротивления;</target>
-			</ex>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<meta>перен.</meta>
-			<trn>сокровенный смысл, тайна;</trn>
-			<ex>
-				<source>түйүн сырын билбесең, түк колуңа албагын</source>
-				<target>фольк. если не знаешь секретов-тайн (повадок ловчей птицы), в руки (её) не бери;</target>
-			</ex>
-			<ex>
-				<source>иштин түйүнү</source>
-				<target>суть дела;</target>
-			</ex>
-			<ex>
-				<source>көңүлдүн түйүн санаасы</source>
-				<target>сокровенные помыслы;</target>
-			</ex>
-			<ex>
-				<source>бул түйүндүн чатышы тереңде</source>
-				<target>сплетения этой тайны - в глубине (распутать трудно);</target>
-			</ex>
-			<ex>
-				<source>жашоонун түйүнү</source>
-				<target>тайны жизни (взаимоотношения людей и т.п.).</target>
-			</ex>
-		</meaning>
-	</card>
-	<card>
-		<k>түйүн- II</k>
-		<xr>возвр. от <wordLink word="түй-"/></xr>
-		<trn>завязаться узлом; завязать узлом на себе или для себя;</trn>
-		<ex>
-			<source>каралуу чачын түйүнүп</source>
-			<target>фольк. (о вдове) свои (по-вдовьи распущенные) волосы замотав (чтобы они не были видны).</target>
-		</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>түйүндү</k>
@@ -369735,21 +369756,24 @@
 		<trn>мошонка холощёного барана, жеребца.</trn>
 	</card>
 	<card>
-		<k>умай I</k>
-		<origin>ир.</origin>
-		<trn>сказочная птица (которая якобы гнездится в воздухе).</trn>
-	</card>
-	<card>
-		<k>Умай II</k>
-		<trn>Умай (мифическое женское существо, охраняющее младенцев; к нему обращаются женщины и мужчины);</trn>
-		<ex>
-			<source>менин колум эмес, Умай энемдин колу</source>
-			<target>уст. да будет на пользу то, что я сделал (букв. не моя рука, а рука моей матери Умай);</target>
-		</ex>
-		<ex>
-			<source>Умай энемдин дарысы</source>
-			<target>целебное снадобье (букв. снадобье моей матери Умай).</target>
-		</ex>
+		<k>умай</k>
+		<homonym>
+			<homonymIndex>умай I</homonymIndex>
+			<origin>ир.</origin>
+			<trn>сказочная птица (которая якобы гнездится в воздухе).</trn>
+		</homonym>
+		<homonym>
+			<homonymIndex>Умай II</homonymIndex>
+			<trn>Умай (мифическое женское существо, охраняющее младенцев; к нему обращаются женщины и мужчины);</trn>
+			<ex>
+				<source>менин колум эмес, Умай энемдин колу</source>
+				<target>уст. да будет на пользу то, что я сделал (букв. не моя рука, а рука моей матери Умай);</target>
+			</ex>
+			<ex>
+				<source>Умай энемдин дарысы</source>
+				<target>целебное снадобье (букв. снадобье моей матери Умай).</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>умач</k>
@@ -370417,17 +370441,20 @@
 		</meaning>
 	</card>
 	<card>
-		<k>үндөө I</k>
-		<trn>чернушка (трава).</trn>
-	</card>
-	<card>
-		<k>ундөө II</k>
-		<xr>и. д. от <wordLink word="үндө-" homonym="I"/></xr>
-		<trn>призыв, воззвание, обращение;</trn>
-		<ex>
-			<source>үндөө кагазы</source>
-			<target>уст. прокламация.</target>
-		</ex>
+		<k>үндөө</k>
+		<homonym>
+			<homonymIndex>үндөө I</homonymIndex>
+			<trn>чернушка (трава).</trn>
+		</homonym>
+		<homonym>
+			<homonymIndex>ундөө II</homonymIndex>
+			<xr>и. д. от <wordLink word="үндө-" homonym="I"/></xr>
+			<trn>призыв, воззвание, обращение;</trn>
+			<ex>
+				<source>үндөө кагазы</source>
+				<target>уст. прокламация.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>унжуй-</k>
@@ -370542,32 +370569,35 @@
 		</ex>
 	</card>
 	<card>
-		<k>үңкүр I</k>
-		<trn>пещера (может быть расположена горизонтально и вертикально); грот;</trn>
-		<ex>
-			<source>үнкүр да болсо, үйүм бар</source>
-			<target>погов. хоть и пещера, да своё жильё;</target>
-		</ex>
-		<ex>
-			<source>таштын үңкүрү</source>
-			<target>углубление среди скал, пещера в скалах;</target>
-		</ex>
-		<ex>
-			<source>үңкүр короо</source>
-			<target>овечий загон в естественном укрытии в горах (в пещере, под нависшими скалами);</target>
-		</ex>
-		<ex>
-			<source>жерден үңкүр казып алып, ок куюп, дары ийлеп жатат</source>
-			<target>выкопав в земле грот, он льёт пули и делает порох.</target>
-		</ex>
-	</card>
-	<card>
-		<k>Үңкүр II</k>
-		<collocationIdentifier>:</collocationIdentifier>
-		<ex>
-			<source>Үнкүр-Маңкир</source>
-			<target>см. <wordLink word="Мүңкүр" homonym="II"/>.</target>
-		</ex>
+		<k>үңкүр</k>
+		<homonym>
+			<homonymIndex>үңкүр I</homonymIndex>
+			<trn>пещера (может быть расположена горизонтально и вертикально); грот;</trn>
+			<ex>
+				<source>үнкүр да болсо, үйүм бар</source>
+				<target>погов. хоть и пещера, да своё жильё;</target>
+			</ex>
+			<ex>
+				<source>таштын үңкүрү</source>
+				<target>углубление среди скал, пещера в скалах;</target>
+			</ex>
+			<ex>
+				<source>үңкүр короо</source>
+				<target>овечий загон в естественном укрытии в горах (в пещере, под нависшими скалами);</target>
+			</ex>
+			<ex>
+				<source>жерден үңкүр казып алып, ок куюп, дары ийлеп жатат</source>
+				<target>выкопав в земле грот, он льёт пули и делает порох.</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<homonymIndex>Үңкүр II</homonymIndex>
+			<collocationIdentifier>:</collocationIdentifier>
+			<ex>
+				<source>Үнкүр-Маңкир</source>
+				<target>см. <wordLink word="Мүңкүр" homonym="II"/>.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>үнсүз</k>
@@ -415634,34 +415664,37 @@
 		</meaning>
 	</card>
 	<card>
-		<k>шибер I</k>
-		<meaning>
-			<meaningIndex>1.</meaningIndex>
-			<trn>всякая высокая густая трава;</trn>
-		</meaning>
-		<meaning>
-			<meaningIndex>2.</meaningIndex>
-			<trn>метлица;</trn>
+		<k>шибер</k>
+		<homonym>
+			<homonymIndex>шибер I</homonymIndex>
+			<meaning>
+				<meaningIndex>1.</meaningIndex>
+				<trn>всякая высокая густая трава;</trn>
+			</meaning>
+			<meaning>
+				<meaningIndex>2.</meaningIndex>
+				<trn>метлица;</trn>
+				<ex>
+					<source>кара шибер</source>
+					<target>мятлик луковичный.</target>
+				</ex>
+			</meaning>
+		</homonym>
+		<homonym>
+			<homonymIndex>Шибер II</homonymIndex>
+			<origin>р.</origin>
+			<meta>ист.</meta>
+			<meta>разг.</meta>
+			<trn>Сибирь (как место каторжных работ и ссылки), каторга;</trn>
 			<ex>
-				<source>кара шибер</source>
-				<target>мятлик луковичный.</target>
+				<source>Шиберге айда-</source>
+				<target>сослать на каторгу или в ссылку;</target>
 			</ex>
-		</meaning>
-	</card>
-	<card>
-		<k>Шибер II</k>
-		<origin>р.</origin>
-		<meta>ист.</meta>
-		<meta>разг.</meta>
-		<trn>Сибирь (как место каторжных работ и ссылки), каторга;</trn>
-		<ex>
-			<source>Шиберге айда-</source>
-			<target>сослать на каторгу или в ссылку;</target>
-		</ex>
-		<ex>
-			<source>Шиберге айдалган</source>
-			<target>сослан на каторгу.</target>
-		</ex>
+			<ex>
+				<source>Шиберге айдалган</source>
+				<target>сослан на каторгу.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>шибиш</k>
@@ -419732,45 +419765,48 @@
 		</ex>
 	</card>
 	<card>
-		<k>шыбыр I</k>
-		<trn>шёпот, нашёптывание; шелест;</trn>
-		<ex>
-			<source>шыбыр көп болбойт, шыйрак эт болбойт</source>
-			<target>погов. шёпот не разговор, голень не мясо;</target>
-		</ex>
-		<ex>
-			<source>кулагыңа шыбыр айтайын</source>
-			<target>я тебе скажу на ушко;</target>
-		</ex>
-		<ex>
-			<source>шыбыр-шыбыр жел согот</source>
-			<target>шумит ветерок;</target>
-		</ex>
-		<ex>
-			<source>күбүр-шыбыр или шыбыр-күбүр</source>
-			<target>перешёптывание, секретничанье (гл. обр. с выражением недовольства, неодобрения);</target>
-		</ex>
-		<ex>
-			<source>күбүр-шыбыр сөз күч ала баштады</source>
-			<target>стали усиленно распространяться слушки и разговорчики.</target>
-		</ex>
-	</card>
-	<card>
-		<k>Шыбыр II</k>
-		<xr>то же, что <wordLink word="Шибер" homonym="II"/>;</xr>
-		<trn>Токтогул Шыбырдан келгенде когда (акын) Токтогул прибыл (возвратился) из ссылки;</trn>
-		<ex>
-			<source>Шыбырга айда-</source>
-			<target>сослать в Сибирь; сослать на каторгу;</target>
-		</ex>
-		<ex>
-			<source>Шыбырга айдалат окшойт</source>
-			<target>он, похоже, будет сослан в Сибирь;</target>
-		</ex>
-		<ex>
-			<source>Шыбыр кетир-</source>
-			<target>допустить или добиться, чтобы сослали в Сибирь.</target>
-		</ex>
+		<k>шыбыр</k>
+		<homonym>
+			<homonymIndex>шыбыр I</homonymIndex>
+			<trn>шёпот, нашёптывание; шелест;</trn>
+			<ex>
+				<source>шыбыр көп болбойт, шыйрак эт болбойт</source>
+				<target>погов. шёпот не разговор, голень не мясо;</target>
+			</ex>
+			<ex>
+				<source>кулагыңа шыбыр айтайын</source>
+				<target>я тебе скажу на ушко;</target>
+			</ex>
+			<ex>
+				<source>шыбыр-шыбыр жел согот</source>
+				<target>шумит ветерок;</target>
+			</ex>
+			<ex>
+				<source>күбүр-шыбыр или шыбыр-күбүр</source>
+				<target>перешёптывание, секретничанье (гл. обр. с выражением недовольства, неодобрения);</target>
+			</ex>
+			<ex>
+				<source>күбүр-шыбыр сөз күч ала баштады</source>
+				<target>стали усиленно распространяться слушки и разговорчики.</target>
+			</ex>
+		</homonym>
+		<homonym>
+			<homonymIndex>Шыбыр II</homonymIndex>
+			<xr>то же, что <wordLink word="Шибер" homonym="II"/>;</xr>
+			<trn>Токтогул Шыбырдан келгенде когда (акын) Токтогул прибыл (возвратился) из ссылки;</trn>
+			<ex>
+				<source>Шыбырга айда-</source>
+				<target>сослать в Сибирь; сослать на каторгу;</target>
+			</ex>
+			<ex>
+				<source>Шыбырга айдалат окшойт</source>
+				<target>он, похоже, будет сослан в Сибирь;</target>
+			</ex>
+			<ex>
+				<source>Шыбыр кетир-</source>
+				<target>допустить или добиться, чтобы сослали в Сибирь.</target>
+			</ex>
+		</homonym>
 	</card>
 	<card>
 		<k>шыбыра-</k>
