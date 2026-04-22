@@ -34247,7 +34247,7 @@
 			</ex>
 			<ex>
 				<source>ит аяк кечир- или ит аяк аттат-</source>
-				<target>понуд. от <wordLink word="ит"/> аяк кеч- или ит аяк атта-;</target>
+				<target>понуд. от <wordLink word="ит аяк кеч-"/> или <wordLink word="ит аяк атта-"/>;</target>
 			</ex>
 			<ex>
 				<source>кыркып бердим чыбыгын, ит аягын кечирип, кылычтын мизин аттатып, кылып бердим ырымын</source>
@@ -41461,7 +41461,7 @@
 			</miniCard>
 			<ex>
 				<source>уя бала</source>
-				<target>охот. то же, что <wordLink word="кол"/> бала 1;</target>
+				<target>охот. то же, что <wordLink word="кол бала" meaning="1"/>;</target>
 			</ex>
 			<ex>
 				<source>түн баласында</source>
@@ -43384,7 +43384,7 @@
 		</ex>
 		<ex>
 			<source>улув балтыр</source>
-			<target>южн. крупный скот (то же, что <wordLink word="бодо"/> мал; см. <wordLink word="бодо"/>).</target>
+			<target>южн. крупный скот (то же, что <wordLink word="бодо мал"/>; см. <wordLink word="бодо"/>).</target>
 		</ex>
 	</card>
 	<card>
@@ -65214,7 +65214,7 @@
 		<collocationIdentifier>:</collocationIdentifier>
 		<ex>
 			<source>ийри-буйру</source>
-			<target>см. <wordLink word="ийри" homonym="I"/>, муйру.</target>
+			<target>см. <wordLink word="ийри" homonym="I"/>, <wordLink word="муйру"/>.</target>
 		</ex>
 	</card>
 	<card>
@@ -101308,7 +101308,7 @@
 			<trn>(на состязаниях в стрельбе) слиток серебра или какая-либо другая драгоценность (в Тянь-Шаньской области называлась эрдем или эрден);</trn>
 			<ex>
 				<source>жамбы атмай или жамбы атышмай</source>
-				<target>вид спорта: стрелки из лука, а позднее из ружья, состязались в сбивании слитка серебра, подвязанного на высоте на тонкой нитке (попасть нужно было в нитку; см. <wordLink word="ещё"/> кыйык I 5).</target>
+				<target>вид спорта: стрелки из лука, а позднее из ружья, состязались в сбивании слитка серебра, подвязанного на высоте на тонкой нитке (попасть нужно было в нитку; см. ещё <wordLink word="кыйык" homonym="I" meaning="5"/>).</target>
 			</ex>
 		</meaning>
 	</card>
@@ -113706,7 +113706,7 @@
 			<trn>неделя;</trn>
 			<ex>
 				<source>Жети Аркар или Жети Каракчы</source>
-				<target>см. <wordLink word="аркар"/>, Жетиген;</target>
+				<target>см. <wordLink word="аркар"/>, <wordLink word="Жетиген"/>;</target>
 			</ex>
 			<ex>
 				<source>жети түндө</source>
@@ -120494,7 +120494,7 @@
 	</card>
 	<card>
 		<k>жука</k>
-		<trn>тонкий (о слое; противоп. <wordLink word="калың" homonym="I" meaning="2"/>; ср. ичке 1);</trn>
+		<trn>тонкий (о слое; противоп. <wordLink word="калың" homonym="I" meaning="2"/>; ср. <wordLink word="ичке" meaning="1"/>);</trn>
 		<ex>
 			<source>жука кагаз</source>
 			<target>тонкая бумага;</target>
@@ -139970,7 +139970,7 @@
 		<k>ичке</k>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<trn>тонкий (противоп. <wordLink word="жоон" homonym="I"/>; ср. жука);</trn>
+			<trn>тонкий (противоп. <wordLink word="жоон" homonym="I"/>; ср. <wordLink word="жука"/>);</trn>
 			<ex>
 				<source>ичке жерден үзүлөт</source>
 				<target>погов. где тонко, там и рвётся;</target>
@@ -173085,7 +173085,7 @@
 				</ex>
 				<ex>
 					<source>кеп топу или кеп такыя</source>
-					<target>см. <wordLink word="топу"/>, такыя;</target>
+					<target>см. <wordLink word="топу"/>, <wordLink word="такыя"/>;</target>
 				</ex>
 			</meaning>
 			<meaning>
@@ -208624,7 +208624,7 @@
 			</ex>
 			<ex>
 				<source>күч күйөө</source>
-				<target>см. <wordLink word="күйөө"/>, того- II.</target>
+				<target>см. <wordLink word="күйөө"/>, <wordLink word="того-" homonym="II"/>.</target>
 			</ex>
 		</meaning>
 	</card>
@@ -303180,7 +303180,7 @@
 		<trn>пресный (без соли); безвкусный;</trn>
 		<ex>
 			<source>супсак жарма</source>
-			<target>пресная, невкусная жарма (см. <wordLink word="жарма" homonym="I"/>. 3);</target>
+			<target>пресная, невкусная жарма (см. <wordLink word="жарма" homonym="I" meaning="3"/>);</target>
 		</ex>
 		<ex>
 			<source>сөзү супсак</source>
@@ -323944,7 +323944,7 @@
 			</ex>
 			<ex>
 				<source>аза тарт-</source>
-				<target>(см. <wordLink word="аза" homonym="I"/>. 3);</target>
+				<target>(см. <wordLink word="аза" homonym="I" meaning="3"/>);</target>
 			</ex>
 			<ex>
 				<source>сымга тарткандай</source>
@@ -323956,7 +323956,7 @@
 			</ex>
 			<ex>
 				<source>эш тарт-</source>
-				<target>(см. <wordLink word="эш" homonym="I"/>. 1).</target>
+				<target>(см. <wordLink word="эш" homonym="I" meaning="1"/>).</target>
 			</ex>
 		</meaning>
 	</card>
@@ -385435,7 +385435,7 @@
 		<meta>ист.</meta>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<trn>аульный старшина (то же, что <wordLink word="жүз"/> башы, см. <wordLink word="баш" meaning="8"/>);</trn>
+			<trn>аульный старшина (то же, что <wordLink word="жүз башы"/>, см. <wordLink word="баш" meaning="8"/>);</trn>
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
@@ -411133,7 +411133,7 @@
 			<collocationIdentifier>:</collocationIdentifier>
 			<ex>
 				<source>ала шак или агала шак</source>
-				<target>см. <wordLink word="ала"/>, шакшак II.</target>
+				<target>см. <wordLink word="ала"/>, <wordLink word="шакшак" homonym="II"/>.</target>
 			</ex>
 		</homonym>
 	</card>
@@ -417091,7 +417091,7 @@
 	<card>
 		<k>шо</k>
 		<meta>южн.</meta>
-		<xr>то же, что <wordLink word="ошо"/>, ошол (дат. п. шого, шогон);</xr>
+		<xr>то же, что <wordLink word="ошо"/>, <wordLink word="ошол"/> (дат. п. шого, шогон);</xr>
 		<ex>
 			<source>шо кезде</source>
 			<target>в то время;</target>
