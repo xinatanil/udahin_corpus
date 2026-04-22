@@ -17166,7 +17166,7 @@
 	</card>
 	<card>
 		<k>алооло-</k>
-		<xr>то же, что <wordLink word="алоолон-:"/></xr>
+		<xr>то же, что <wordLink word="алоолон-"/>:</xr>
 		<ex>
 			<source>Күлүмкандын очогундагы от алоолоп,... куймак нандар кара табакка түшүп жатты</source>
 			<target>огонь в очаге Кулюмкан пылал,... и оладьи непрерывно падали на деревянное блюдо;</target>
@@ -17208,7 +17208,7 @@
 	</card>
 	<card>
 		<k>алоолот-</k>
-		<xr>понуд. от <wordLink word="алооло-:"/></xr>
+		<xr>понуд. от <wordLink word="алооло-"/>:</xr>
 		<ex>
 			<source>жигиттер отту алоолотуп жакты</source>
 			<target>парни развели большой огонь.</target>
@@ -44756,7 +44756,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>бараң IV</homonymIndex>
-			<meta>парное к <wordLink word="үрүң , үрөң"/> (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</meta>
+			<meta>парное к үрүң, үрөң (см. <wordLink word="үрүң"/>) и к ирең (см. <wordLink word="ирең" homonym="II"/>).</meta>
 		</homonym>
 	</card>
 	<card>
@@ -47854,7 +47854,7 @@
 	</card>
 	<card>
 		<k>басырын-</k>
-		<xr>возвр. от <wordLink word="неупотр. гл. басыр-"/></xr>
+		<xr>возвр. от неупотр. гл. <wordLink word="басыр-"/></xr>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
 			<trn>придавливаться; понижаться;</trn>
@@ -53951,7 +53951,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>бер- IV</homonymIndex>
-			<xr>(ср. <wordLink word="тат."/>, <wordLink word="башк. бэр"/>)</xr>
+			<meta>(ср. тат., башк. бэр)</meta>
 			<trn>ударить; наддать, стукнуть;</trn>
 			<ex>
 				<source>айдалынын бетине, Табылды найза берди эми</source>
@@ -58320,7 +58320,7 @@
 	</card>
 	<card>
 		<k>биттет-</k>
-		<xr>понуд. от <wordLink word="битте-." homonym="II"/>.</xr>
+		<xr>понуд. от <wordLink word="битте-" homonym="II"/>.</xr>
 	</card>
 	<card>
 		<k>биттибек</k>
@@ -63077,7 +63077,7 @@
 	</card>
 	<card>
 		<k>бортулдат-</k>
-		<xr>то же, что <wordLink word="боркулдат-:"/></xr>
+		<xr>то же, что <wordLink word="боркулдат-"/>:</xr>
 		<ex>
 			<source>казанга этти бортулдата кайнат-</source>
 			<target>варить мясо так, чтобы в котле бурлило.</target>
@@ -119913,7 +119913,7 @@
 	</card>
 	<card>
 		<k>жүдөмүш</k>
-		<xr>то же, что <wordLink word="жүдөңкү:"/></xr>
+		<xr>то же, что <wordLink word="жүдөңкү"/>:</xr>
 		<ex>
 			<source>жүдөмүш тарт-</source>
 			<target>иметь вид изнурённого, крайне утомлённого.</target>
@@ -135360,7 +135360,7 @@
 	</card>
 	<card>
 		<k>ийлениш</k>
-		<xr>и. д. от <wordLink word="ийлен-:"/></xr>
+		<xr>и. д. от <wordLink word="ийлен-"/>:</xr>
 		<miniCard>
 			<miniK>ийленишин келтир-</miniK>
 			<miniTrn>1) хорошо выделать (кожу);</miniTrn>
@@ -147800,7 +147800,7 @@
 	</card>
 	<card>
 		<k>кайтара</k>
-		<xr>деепр. от <wordLink word="кайтар-:"/></xr>
+		<xr>деепр. от <wordLink word="кайтар-"/>:</xr>
 		<ex>
 			<source>он кайтара</source>
 			<target>десять раз (опять и опять);</target>
@@ -248124,7 +248124,7 @@
 		</homonym>
 		<homonym>
 			<homonymIndex>мүдөө II</homonymIndex>
-			<xr>то же, что <wordLink word="үдөө:"/></xr>
+			<xr>то же, что <wordLink word="үдөө"/>:</xr>
 			<ex>
 				<source>аман жүрсө, бир чыны талканыңдын мүдөөсүнө чыкпайбы?</source>
 				<target>если он будет здоров, разве не оправдает он чашку твоего толокна?</target>
@@ -269981,7 +269981,7 @@
 	<card>
 		<k>ороом</k>
 		<meta>южн.</meta>
-		<xr>(ср. <wordLink word="тат."/>, <wordLink word="башк. урам"/>, <wordLink word="каз. орам"/>)</xr>
+		<meta>(ср. тат., башк. урам, каз. орам/>)</meta>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
 			<trn>приусадебный участок колхозника;</trn>
@@ -434445,7 +434445,7 @@
 		<k>элет</k>
 		<homonym>
 			<homonymIndex>элет I</homonymIndex>
-			<xr>(ср. <wordLink word="монг. өөлд"/>)</xr>
+			<meta>(ср. монг. өөлд)</meta>
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
 				<trn>кочевое население (противопоставляется оседлому, городскому);</trn>
@@ -445571,7 +445571,7 @@
 	</card>
 	<card>
 		<k>өбөктөш-</k>
-		<xr>взаимн. от <wordLink word="өбөктө-:"/></xr>
+		<xr>взаимн. от <wordLink word="өбөктө-"/>:</xr>
 		<ex>
 			<source>аттын түшүп калталга өбөктөшүп калыптыр</source>
 			<target>фольк. (всадник) сдвинувшись на бок коня, согнулся (прячась);</target>
