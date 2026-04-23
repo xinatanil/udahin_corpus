@@ -2052,7 +2052,10 @@
 			<homonymIndex>агыл II</homonymIndex>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="агынды"/>;</xr>
-			<trn>агыл таш камни, принесённые водой.</trn>
+			<ex>
+				<source>агыл таш</source>
+				<target>камни, принесённые водой.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>агыл- III</homonymIndex>
@@ -8338,7 +8341,10 @@
 		<homonym>
 			<homonymIndex>айрылыш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="айрыл-"/>;</xr>
-			<trn>достуктан айрылыштык мы раздружились.</trn>
+			<ex>
+				<source>достуктан айрылыштык</source>
+				<target>мы раздружились.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -24256,7 +24262,10 @@
 			<homonymIndex>аргун I</homonymIndex>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="аргын"/>;</xr>
-			<trn>аргун мал нечистопородный скот, метис.</trn>
+			<ex>
+				<source>аргун мал</source>
+				<target>нечистопородный скот, метис.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>аргун II</homonymIndex>
@@ -32230,7 +32239,10 @@
 			<homonymIndex>ачык II</homonymIndex>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="ачуу" homonym="I"/>;</xr>
-			<trn>ачык от название травянистого растения.</trn>
+			<ex>
+				<source>ачык от</source>
+				<target>название травянистого растения.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>ачык- III</homonymIndex>
@@ -84151,7 +84163,10 @@
 		<homonym>
 			<homonymIndex>дел I</homonymIndex>
 			<xr>то же, что <wordLink word="дал" homonym="IV"/>;</xr>
-			<trn>дел болду он опешил, растерялся (совсем обессилев);</trn>
+			<ex>
+				<source>дел болду</source>
+				<target>он опешил, растерялся (совсем обессилев);</target>
+			</ex>
 			<ex>
 				<source>дел кылды</source>
 				<target>он огорошил;</target>
@@ -87767,10 +87782,22 @@
 		<k>доолбас</k>
 		<altForm>(встречаются ещё формы доол, добулбас, доолбарс, доолбаш; первая часть доол - инд.)</altForm>
 		<trn>небольшой барабан (с одним дном, обтянутый верблюжьей кожей; употреблялся при соколиной охоте и в походах);</trn>
-		<ex><source>кытайча кызыл добулбас, чымын тийсе кыңгырап</source><target>фольк. китайский красный барабан, он звенит, (даже) если муха коснётся;</target></ex>
-		<ex><source>доолбас как-</source><target>бить в барабан;</target></ex>
-		<ex><source>ач айкырык чуу салып, доолбасты каккылап</source><target>фольк. истошно крича и ударяя в барабан;</target></ex>
-		<ex><source>доол кагып, бакырат, "бери кел!" - деп чакырат</source><target>фольк. он бьёт в барабан и кричит, зовёт - идите, мол, сюда.</target></ex>
+		<ex>
+			<source>кытайча кызыл добулбас, чымын тийсе кыңгырап</source>
+			<target>фольк. китайский красный барабан, он звенит, (даже) если муха коснётся;</target>
+		</ex>
+		<ex>
+			<source>доолбас как-</source>
+			<target>бить в барабан;</target>
+		</ex>
+		<ex>
+			<source>ач айкырык чуу салып, доолбасты каккылап</source>
+			<target>фольк. истошно крича и ударяя в барабан;</target>
+		</ex>
+		<ex>
+			<source>доол кагып, бакырат, "бери кел!" - деп чакырат</source>
+			<target>фольк. он бьёт в барабан и кричит, зовёт - идите, мол, сюда.</target>
+		</ex>
 	</card>
 	<card>
 		<k>доолбаш</k>
@@ -119798,7 +119825,10 @@
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
 				<xr>то же, что <wordLink word="жугуштуу"/>;</xr>
-				<trn>жугуш оору заразная болезнь.</trn>
+				<ex>
+					<source>жугуш оору</source>
+					<target>заразная болезнь.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -135254,7 +135284,10 @@
 		<homonym>
 			<homonymIndex>ийир I</homonymIndex>
 			<xr>то же, что <wordLink word="ийри" homonym="I"/>;</xr>
-			<trn>ийрин жандырба или ийрисин жандырба согнутое не разгибай.</trn>
+			<ex>
+				<source>ийрин жандырба или ийрисин жандырба</source>
+				<target>согнутое не разгибай.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>ийир- II</homonymIndex>
@@ -136224,7 +136257,10 @@
 		<homonym>
 			<homonymIndex>илгирт- II</homonymIndex>
 			<xr>понуд. от <wordLink word="илгир-" homonym="III"/>;</xr>
-			<trn>илгиртпей не заставляя себя ждать, не заставляя себя упрашивать;</trn>
+			<ex>
+				<source>илгиртпей</source>
+				<target>не заставляя себя ждать, не заставляя себя упрашивать;</target>
+			</ex>
 			<ex>
 				<source>көөнү туура болсо, илгиртпей келет</source>
 				<target>если у него намерения. хорошие, он придёт, не заставив себя ждать.</target>
@@ -167584,7 +167620,10 @@
 		<homonym>
 			<homonymIndex>кашыныш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="кашын-"/>;</xr>
-			<trn>ат кашынышат лошади чешутся, чешут друг друга (зубами);</trn>
+			<ex>
+				<source>ат кашынышат</source>
+				<target>лошади чешутся, чешут друг друга (зубами);</target>
+			</ex>
 			<ex>
 				<source>адам сүйлөшкөнчө, жылкы кашынышканча</source>
 				<target>погов. люди пока поговорят, лошади пока почешутся (после этого они сближаются).</target>
@@ -173733,7 +173772,10 @@
 		<homonym>
 			<homonymIndex>кер II</homonymIndex>
 			<xr>то же, что <wordLink word="кекээр"/>;</xr>
-			<trn>кер какшык издёвка, ехидство;</trn>
+			<ex>
+				<source>кер какшык</source>
+				<target>издёвка, ехидство;</target>
+			</ex>
 			<ex>
 				<source>кер-мур айтыш-</source>
 				<target>переругиваться, вступать в перебранку.</target>
@@ -250285,7 +250327,10 @@
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
 				<xr>то же, что <wordLink word="мурас"/>;</xr>
-				<trn>ата мураз наследственный; передающийся из поколения в поколение;</trn>
+				<ex>
+					<source>ата мураз</source>
+					<target>наследственный; передающийся из поколения в поколение;</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
@@ -270176,7 +270221,7 @@
 	<card>
 		<k>ороом</k>
 		<meta>южн.</meta>
-		<meta>(ср. тат., башк. урам, каз. орам/>)</meta>
+		<meta>(ср. тат., башк. урам, каз. орам)</meta>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
 			<trn>приусадебный участок колхозника;</trn>
@@ -325240,7 +325285,10 @@
 			<homonymIndex>тарык III</homonymIndex>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="таруу"/>;</xr>
-			<trn>тарык аш варево из пшена.</trn>
+			<ex>
+				<source>тарык аш</source>
+				<target>варево из пшена.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>тарык- IV</homonymIndex>
@@ -344187,7 +344235,10 @@
 		<homonym>
 			<homonymIndex>тор II</homonymIndex>
 			<xr>то же, что <wordLink word="тору"/>;</xr>
-			<trn>тор кашка (о масти) гнедой лысый.</trn>
+			<ex>
+				<source>тор кашка</source>
+				<target>(о масти) гнедой лысый.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -362114,7 +362165,7 @@
 		<homonym>
 			<homonymIndex>төлөн I</homonymIndex>
 			<xr>парное к <wordLink word="палан"/></xr>
-			<trn>(иногда употребляется самостоятельно);</trn>
+			<meta>(иногда употребляется самостоятельно);</meta>
 			<ex>
 				<source>палан-төлөн</source>
 				<target>то же, что <wordLink word="палан-түкүн"/> (см. <wordLink word="палан"/>);</target>
@@ -368677,7 +368728,10 @@
 		<homonym>
 			<homonymIndex>улан- II</homonymIndex>
 			<xr>возвр. от <wordLink word="ула-" homonym="I"/>;</xr>
-			<trn>экзамен уланып жатат экзамены продолжаются;</trn>
+			<ex>
+				<source>экзамен уланып жатат</source>
+				<target>экзамены продолжаются;</target>
+			</ex>
 			<ex>
 				<source>үзүлгөнү уланып, ушинтип кыргыз кубанып</source>
 				<target>фольк. оборванное соединилось - вот уж киргизы возрадовались;</target>
@@ -372607,7 +372661,7 @@
 				<source>эски үрп-адаттарды жоюу керек</source>
 				<target>старые (отжившие) обычаи нужно искоренять.</target>
 			</ex>
-		</homonym>		
+		</homonym>
 	</card>
 	<card>
 		<k>урпак</k>
@@ -381153,7 +381207,10 @@
 		<homonym>
 			<homonymIndex>чабыш I</homonymIndex>
 			<xr>и. д. от <wordLink word="чап-" homonym="IX"/>, <wordLink word="чап-" homonym="X"/>;</xr>
-			<trn>ат чабыш скачки, бега, конские ристалища;</trn>
+			<ex>
+				<source>ат чабыш</source>
+				<target>скачки, бега, конские ристалища;</target>
+			</ex>
 			<ex>
 				<source>жылаңач чабыш</source>
 				<target>ист. состязание двух обнажённых до пояса всадников, старающихся ударить друг друга плетью по голому телу;</target>
@@ -389878,7 +389935,7 @@
 		<meta>южн.</meta>
 		<meaning>
 			<meaningIndex>1.</meaningIndex>
-			<xr>то же, что <wordLink word="чач учтук"/>, но состоит из бус (см. <wordLink word="учтук" />);</xr>
+			<xr>то же, что <wordLink word="чач учтук"/>, но состоит из бус (см. <wordLink word="учтук"/>);</xr>
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
@@ -394678,7 +394735,10 @@
 			<meaning>
 				<meaningIndex>4.</meaningIndex>
 				<xr>то же, что <wordLink word="чыгдан" meaning="3"/>;</xr>
-				<trn>чий така женские туфли на высоком каблуке, на каблуке-шпильке;</trn>
+				<ex>
+					<source>чий така</source>
+					<target>женские туфли на высоком каблуке, на каблуке-шпильке;</target>
+				</ex>
 				<ex>
 					<source>чий баркыт или южн. чий бахмал</source>
 					<target>вельвет в рубчик, корд;</target>
@@ -432420,7 +432480,7 @@
 	</card>
 	<card>
 		<k>эжеке</k>
-			<xr>(от <wordLink word="эже" homonym="I"/>)</xr>
+		<xr>(от <wordLink word="эже" homonym="I"/>)</xr>
 		<trn>интимно-почтительная форма обращения к старшей женщине (так обычно обращаются учащиеся школ и вузов к преподавательнице; ср. агай);</trn>
 		<ex>
 			<source>эжекеме ишенип, эрсиз калдым</source>
