@@ -42438,7 +42438,10 @@
 		<homonym>
 			<homonymIndex>бале I</homonymIndex>
 			<xr>то же, что <wordLink word="бали"/>;</xr>
-			<trn>ой, бале! вот это да!; вот хорошо!</trn>
+			<ex>
+				<source>ой, бале!</source>
+				<target>вот это да!; вот хорошо!</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>бале II</homonymIndex>
@@ -57044,7 +57047,10 @@
 		<homonym>
 			<homonymIndex>билиш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="бил-" homonym="II"/>;</xr>
-			<trn>сабактарын билишпейт они уроков не знают.</trn>
+			<ex>
+				<source>сабактарын билишпейт</source>
+				<target>они уроков не знают.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -81703,7 +81709,10 @@
 	<card>
 		<k>данык</k>
 		<xr>парное к <wordLink word="анык"/>;</xr>
-		<trn>маселенин анык-даныгы суть вопроса.</trn>
+		<ex>
+			<source>маселенин анык-даныгы</source>
+			<target>суть вопроса.</target>
+		</ex>
 	</card>
 	<card>
 		<k>даңылда-</k>
@@ -107063,7 +107072,10 @@
 		<homonym>
 			<homonymIndex>жарыштыр- I</homonymIndex>
 			<xr>понуд. от <wordLink word="жарыш-" homonym="III"/>;</xr>
-			<trn>таш жарыштыр состязаться в метании камней.</trn>
+			<ex>
+				<source>таш жарыштыр</source>
+				<target>состязаться в метании камней.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>жарыштыр- II</homonymIndex>
@@ -167701,7 +167713,10 @@
 		<homonym>
 			<homonymIndex>ке I</homonymIndex>
 			<xr>см. <wordLink word="аке" meaning="3"/>;</xr>
-			<trn>кызыке доченька; девонька.</trn>
+			<ex>
+				<source>кызыке</source>
+				<target>доченька; девонька.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>ке- II</homonymIndex>
@@ -169237,7 +169252,10 @@
 		<homonym>
 			<homonymIndex>кеке- II</homonymIndex>
 			<xr>то же, что <wordLink word="кекеп-"/>;</xr>
-			<trn>кекеп-мокоп побранив и припугнув.</trn>
+			<ex>
+				<source>кекеп-мокоп</source>
+				<target>побранив и припугнув.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -170328,7 +170346,10 @@
 			<homonymIndex>келеме II</homonymIndex>
 			<meta>(в эпосе)</meta>
 			<xr>то же, что <wordLink word="келе" homonym="II"/>;</xr>
-			<trn>келеме жажа воротник, расшитый канителью, воротник с позументами;</trn>
+			<ex>
+				<source>келеме жажа</source>
+				<target>воротник, расшитый канителью, воротник с позументами;</target>
+			</ex>
 			<ex>
 				<source>келеме бото</source>
 				<target>род верхней одежды (ср. <wordLink word="келеватун"/>).</target>
@@ -182506,7 +182527,10 @@
 	<card>
 		<k>койкоңдот-</k>
 		<xr>понуд. от <wordLink word="койкоңдо-"/>;</xr>
-		<trn>кекиртегин созуп, башын койкондотту вытянув длинную шею, он двигал головой;</trn>
+		<ex>
+			<source>кекиртегин созуп, башын койкондотту</source>
+			<target>вытянув длинную шею, он двигал головой;</target>
+		</ex>
 		<ex>
 			<source>койкоңдотуп буурасын</source>
 			<target>стих. высоко поднимая (подтягивая) голову верблюда.</target>
@@ -219556,7 +219580,10 @@
 		<homonym>
 			<homonymIndex>кыркыш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="кырк-" homonym="III"/>;</xr>
-			<trn>кыркышкан тууган родичи, находящиеся друг с другом на ножах.</trn>
+			<ex>
+				<source>кыркышкан тууган</source>
+				<target>родичи, находящиеся друг с другом на ножах.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -221875,7 +221902,10 @@
 			<homonymIndex>кычыр- II</homonymIndex>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="чакыр-" homonym="III"/>;</xr>
-			<trn>кычырса й м барбаймын я не пойду, если он даже позовёт.</trn>
+			<ex>
+				<source>кычырса й м барбаймын</source>
+				<target>я не пойду, если он даже позовёт.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -263805,7 +263835,10 @@
 		<homonym>
 			<homonymIndex>олжолош- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="олжоло-"/>;</xr>
-			<trn>олжолошуп мал алдык мы захватили в качестве добычи скот.</trn>
+			<ex>
+				<source>олжолошуп мал алдык</source>
+				<target>мы захватили в качестве добычи скот.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -263892,7 +263925,10 @@
 	<card>
 		<k>олокой</k>
 		<xr>то же, что <wordLink word="ологой"/>;</xr>
-		<trn>олокоюмду чукуба! не копайся в моей подноготной!, не копайся в моих делах (выискивая что-л. предосудительное) !</trn>
+		<ex>
+			<source>олокоюмду чукуба!</source>
+			<target>не копайся в моей подноготной!, не копайся в моих делах (выискивая что-л. предосудительное) !</target>
+		</ex>
 	</card>
 	<card>
 		<k>олокто-</k>
@@ -267932,7 +267968,10 @@
 		<homonym>
 			<homonymIndex>оош I</homonymIndex>
 			<xr>и. д. от <wordLink word="оо-" homonym="I"/>;</xr>
-			<trn>оош-кыйыш взаимный обмен, взаимная помощь;</trn>
+			<ex>
+				<source>оош-кыйыш</source>
+				<target>взаимный обмен, взаимная помощь;</target>
+			</ex>
 			<ex>
 				<source>оош-кыйыш кылып, оокат кыл-</source>
 				<target>жить, помогая друг другу;</target>
@@ -268033,7 +268072,10 @@
 			<meaning>
 				<meaningIndex>1.</meaningIndex>
 				<xr>то же, что <wordLink word="темин" homonym="I"/>;</xr>
-				<trn>оп майда! возглас понукания молотящих животных;</trn>
+				<ex>
+					<source>оп майда!</source>
+					<target>возглас понукания молотящих животных;</target>
+				</ex>
 			</meaning>
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
@@ -328360,7 +328402,10 @@
 		<homonym>
 			<homonymIndex>тезек II</homonymIndex>
 			<xr>парное к <wordLink word="темир"/>;</xr>
-			<trn>темир-тезек всякого рода железо и металл.</trn>
+			<ex>
+				<source>темир-тезек</source>
+				<target>всякого рода железо и металл.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -360987,7 +361032,10 @@
 		<homonym>
 			<homonymIndex>тытыш I</homonymIndex>
 			<xr>и. д. от <wordLink word="тыт-" homonym="III"/>;</xr>
-			<trn>бет тытыш (о женщине) царапание (своего) лица.</trn>
+			<ex>
+				<source>бет тытыш</source>
+				<target>(о женщине) царапание (своего) лица.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>тытыш- II</homonymIndex>
@@ -364505,7 +364553,10 @@
 	<card>
 		<k>увак</k>
 		<xr>то же, что <wordLink word="убакты"/>;</xr>
-		<trn>кышкы экзамендердин увагында во время зимних экзаменов.</trn>
+		<ex>
+			<source>кышкы экзамендердин увагында</source>
+			<target>во время зимних экзаменов.</target>
+		</ex>
 	</card>
 	<card>
 		<k>увакым</k>
@@ -396053,7 +396104,10 @@
 		<homonym>
 			<homonymIndex>чой II</homonymIndex>
 			<xr>то же, что <wordLink word="чай" homonym="II"/>;</xr>
-			<trn>чой, чой, койлорум, чой! тря, тря, мои овцы, тря!;</trn>
+			<ex>
+				<source>чой, чой, койлорум, чой!</source>
+				<target>тря, тря, мои овцы, тря!;</target>
+			</ex>
 			<ex>
 				<source>чой-чойлоп кой айдайт</source>
 				<target>он гонит овец, окрикивая их.</target>
