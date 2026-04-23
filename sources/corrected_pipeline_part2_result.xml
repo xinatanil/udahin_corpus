@@ -238374,7 +238374,11 @@
 			<homonymIndex>мала III</homonymIndex>
 			<origin>ир.</origin>
 			<meta>редко</meta>
-			<trn>якь мала однозарядное ружьё;</trn>
+			<collocationIdentifier>:</collocationIdentifier>
+			<ex>
+				<source>якь мала</source>
+				<target>однозарядное ружьё;</target>
+			</ex>
 			<ex>
 				<source>дуу мала</source>
 				<target>двузарядное ружьё;</target>
@@ -307394,7 +307398,8 @@
 			<homonymIndex>сый II</homonymIndex>
 			<altForm>сыя</altForm>
 			<xr>(ср. <wordLink word="сын" homonym="II"/>)</xr>
-			<trn>деепр. наст. вр. от утраченного в киргизском языке глагола сы- ломать; сый чап- или сыя чап- (мечом), сый ат- или сыя ат- (стрелой, пулей), сый кой- (независимо от вида оружия) переломить, повредить;</trn>
+			<meta>деепр. наст. вр. от утраченного в киргизском языке глагола сы- ломать; сый чап- или сыя чап- (мечом), сый ат- или сыя ат- (стрелой, пулей), сый кой- (независимо от вида оружия)</meta>
+			<trn>переломить, повредить;</trn>
 			<ex>
 				<source>колумду сый чаап таштады</source>
 				<target>он перебил или повредил мне руку;</target>
@@ -338822,7 +338827,8 @@
 		</meaning>
 		<meaning>
 			<meaningIndex>2.</meaningIndex>
-			<trn>астр. противостояние.</trn>
+			<meta>астр.</meta>
+			<trn>противостояние.</trn>
 		</meaning>
 	</card>
 	<card>
@@ -431946,7 +431952,10 @@
 			</meaning>
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
-				<trn>эгем бог мой (букв. мой хозяин, мой господин, мой господь);</trn>
+				<ex>
+					<source>эгем</source>
+					<target>бог мой (букв. мой хозяин, мой господин, мой господь);</target>
+				</ex>
 				<ex>
 					<source>эгем таала</source>
 					<target>всевышний бог;</target>
