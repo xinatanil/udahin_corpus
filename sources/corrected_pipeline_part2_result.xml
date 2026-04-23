@@ -22550,7 +22550,10 @@
 		<homonym>
 			<homonymIndex>ар IV</homonymIndex>
 			<xr>см. <wordLink word="ары" homonym="I"/>;</xr>
-			<trn>ар жактан с той стороны.</trn>
+			<ex>
+				<source>ар жактан</source>
+				<target>с той стороны.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>ар V</homonymIndex>
@@ -35147,7 +35150,10 @@
 		<homonym>
 			<homonymIndex>аяш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="ая-"/>;</xr>
-			<trn>жан аяшпас друзья, которые друг для друга и жизни не пожалеют.</trn>
+			<ex>
+				<source>жан аяшпас</source>
+				<target>друзья, которые друг для друга и жизни не пожалеют.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -36001,7 +36007,10 @@
 		<homonym>
 			<homonymIndex>бабыр I</homonymIndex>
 			<xr>то же, что <wordLink word="ашаткы"/>;</xr>
-			<trn>бабырларга сал положить (кожу) в закваску.</trn>
+			<ex>
+				<source>бабырларга сал</source>
+				<target>положить (кожу) в закваску.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>бабыр II</homonymIndex>
@@ -39324,7 +39333,10 @@
 			<meaning>
 				<meaningIndex>2.</meaningIndex>
 				<xr>то же, что <wordLink word="баягы"/>;</xr>
-				<trn>байтак убакыттарда в давние времена.</trn>
+				<ex>
+					<source>байтак убакыттарда</source>
+					<target>в давние времена.</target>
+				</ex>
 			</meaning>
 		</homonym>
 		<homonym>
@@ -61387,7 +61399,10 @@
 		<homonym>
 			<homonymIndex>болуш II</homonymIndex>
 			<xr>и. д. от <wordLink word="бол-"/>;</xr>
-			<trn>Индияда болушу (его) пребывание в Индии.</trn>
+			<ex>
+				<source>Индияда болушу</source>
+				<target>(его) пребывание в Индии.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>болуш- III</homonymIndex>
@@ -74005,7 +74020,10 @@
 	<card>
 		<k>бышыктыруу</k>
 		<xr>и. д. от <wordLink word="бышыктыр-"/>.</xr>
-		<trn>бышыкчылык сезон созревания посевов и плодов;</trn>
+		<ex>
+			<source>бышыкчылык</source>
+			<target>сезон созревания посевов и плодов;</target>
+		</ex>
 		<ex>
 			<source>бышыкчылыктын алды башталып, мөмөлөр мөлтүреп кыштакты көрккө чыгарган кез эле</source>
 			<target>это было время начала созревания (плодов), когда плоды, свисая, украшают кишлак.</target>
@@ -93584,7 +93602,10 @@
 		<homonym>
 			<homonymIndex>жабылыш I</homonymIndex>
 			<xr>и. д. от <wordLink word="жабыл-"/>;</xr>
-			<trn>съезддин жабылышы закрытие съезда.</trn>
+			<ex>
+				<source>съезддин жабылышы</source>
+				<target>закрытие съезда.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>жабылыш- II</homonymIndex>
@@ -95602,7 +95623,10 @@
 		<homonym>
 			<homonymIndex>жазыш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="жаз-" homonym="II"/>;</xr>
-			<trn>бизге жазышат нам пишут.</trn>
+			<ex>
+				<source>бизге жазышат</source>
+				<target>нам пишут.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -96631,7 +96655,10 @@
 		<homonym>
 			<homonymIndex>жайлат- I</homonymIndex>
 			<xr>понуд. от <wordLink word="жайла-" homonym="I"/>;</xr>
-			<trn>жайлата всё лето, в течение лета;</trn>
+			<ex>
+				<source>жайлата</source>
+				<target>всё лето, в течение лета;</target>
+			</ex>
 			<ex>
 				<source>жайлата кылган мээнетинин жемиши</source>
 				<target>плоды его трудов за лето;</target>
@@ -107216,7 +107243,10 @@
 		<homonym>
 			<homonymIndex>жарыялаш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="жарыяла-"/>;</xr>
-			<trn>забастовка жарыялашты они объявили забастовку.</trn>
+			<ex>
+				<source>забастовка жарыялашты</source>
+				<target>они объявили забастовку.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -109843,7 +109873,10 @@
 		<homonym>
 			<homonymIndex>жек I</homonymIndex>
 			<xr>то же, что <wordLink word="жеке" homonym="I"/>;</xr>
-			<trn>жекме-жек один на один;</trn>
+			<ex>
+				<source>жекме-жек</source>
+				<target>один на один;</target>
+			</ex>
 			<ex>
 				<source>жекме-жек чык- или жекке чык-</source>
 				<target>выйти на единоборство, на поединок;</target>
@@ -123772,7 +123805,10 @@
 			<homonymIndex>жуурат II</homonymIndex>
 			<meta>разг.</meta>
 			<xr>то же, что <wordLink word="жураат"/>;</xr>
-			<trn>тукум-жуураттар родичи.</trn>
+			<ex>
+				<source>тукум-жуураттар</source>
+				<target>родичи.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -124308,7 +124344,10 @@
 		<homonym>
 			<homonymIndex>жый I</homonymIndex>
 			<xr>то же, что <wordLink word="жыш"/>;</xr>
-			<trn>жын учурайт часто встречается, изобилует.</trn>
+			<ex>
+				<source>жын учурайт</source>
+				<target>часто встречается, изобилует.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>жый- II</homonymIndex>
@@ -131906,7 +131945,10 @@
 		<k>зейин</k>
 		<altForm>зейин, зейн</altForm>
 		<xr>то же, что <wordLink word="зээн"/>;</xr>
-		<trn>зейни кейиди он проявил чувство жалости, ему стало жаль;</trn>
+		<ex>
+			<source>зейни кейиди</source>
+			<target>он проявил чувство жалости, ему стало жаль;</target>
+		</ex>
 		<ex>
 			<source>абышкага зейним кейиди</source>
 			<target>мне стало жаль старика.</target>
@@ -131922,7 +131964,10 @@
 		<homonym>
 			<homonymIndex>зейрек I</homonymIndex>
 			<xr>то же, что <wordLink word="сейрек"/>;</xr>
-			<trn>зейрек учурайт редко встречается.</trn>
+			<ex>
+				<source>зейрек учурайт</source>
+				<target>редко встречается.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>зейрек II</homonymIndex>
@@ -136241,7 +136286,10 @@
 		<homonym>
 			<homonymIndex>илгир- III</homonymIndex>
 			<xr>то же, что <wordLink word="иргил-"/>;</xr>
-			<trn>илгирбей, макул болду он тут же (не медля, послушно) согласился.</trn>
+			<ex>
+				<source>илгирбей, макул болду</source>
+				<target>он тут же (не медля, послушно) согласился.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -146933,7 +146981,10 @@
 	<card>
 		<k>кайратсызданыш-</k>
 		<xr>взаимн. от <wordLink word="кайратсыздан-"/>.</xr>
-		<trn>кайратсыздык неэнергичность, безволие, вялость.</trn>
+		<ex>
+			<source>кайратсыздык</source>
+			<target>неэнергичность, безволие, вялость.</target>
+		</ex>
 	</card>
 	<card>
 		<k>кайраттан-</k>
@@ -168835,7 +168886,10 @@
 		<homonym>
 			<homonymIndex>кезет I</homonymIndex>
 			<xr>то же, что <wordLink word="кезмет"/>;</xr>
-			<trn>ишти кезетинде кыл делай вовремя, в свой черёд;</trn>
+			<ex>
+				<source>ишти кезетинде кыл</source>
+				<target>делай вовремя, в свой черёд;</target>
+			</ex>
 			<ex>
 				<source>кезетиң келди колуңа</source>
 				<target>фольк. настал твой черёд, тебе выпал случай (воспользуйся им).</target>
@@ -176799,7 +176853,10 @@
 		<homonym>
 			<homonymIndex>кетиш I</homonymIndex>
 			<xr>и. д. от <wordLink word="кет-" homonym="I"/>;</xr>
-			<trn>келиш-кетиш взаимное посещение;</trn>
+			<ex>
+				<source>келиш-кетиш</source>
+				<target>взаимное посещение;</target>
+			</ex>
 			<ex>
 				<source>келиш-кетиш туугандыктын белгиси</source>
 				<target>фольк. взаимное посещение - признак родственности.</target>
@@ -176808,7 +176865,10 @@
 		<homonym>
 			<homonymIndex>кетиш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="кет-" homonym="I"/>;</xr>
-			<trn>жай-жайына кетишти они разошлись по своим местам;</trn>
+			<ex>
+				<source>жай-жайына кетишти</source>
+				<target>они разошлись по своим местам;</target>
+			</ex>
 			<ex>
 				<source>эки коңшу кетишип калды</source>
 				<target>два соседа разошлись (рассорились).</target>
@@ -185702,7 +185762,10 @@
 		<homonym>
 			<homonymIndex>кондур I</homonymIndex>
 			<xr>то же, что <wordLink word="кондурга"/>;</xr>
-			<trn>кондурдай кожа да кости, живые мощи.</trn>
+			<ex>
+				<source>кондурдай</source>
+				<target>кожа да кости, живые мощи.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>кондур- II</homonymIndex>
@@ -202300,7 +202363,10 @@
 		<homonym>
 			<homonymIndex>кур- VIII</homonymIndex>
 			<xr>то же, что <wordLink word="куру-" homonym="II"/>;</xr>
-			<trn>курган бедняга, несчастный, горемычный (с сожалением или лёгким упрёком);</trn>
+			<ex>
+				<source>курган</source>
+				<target>бедняга, несчастный, горемычный (с сожалением или лёгким упрёком);</target>
+			</ex>
 			<ex>
 				<source>кокуй-ай, кандай курган кыз элең!</source>
 				<target>фольк. ох, что же за несчастная ты девица!;</target>
@@ -265602,7 +265668,10 @@
 			<homonymIndex>оно I</homonymIndex>
 			<meta>южн.</meta>
 			<xr>то же, что <wordLink word="ошо"/>;</xr>
-			<trn>оно як та сторона;</trn>
+			<ex>
+				<source>оно як</source>
+				<target>та сторона;</target>
+			</ex>
 			<ex>
 				<source>оно якта</source>
 				<target>в той стороне, там.</target>
@@ -277175,7 +277244,10 @@
 		<origin>ир.</origin>
 		<meta>южн.</meta>
 		<xr>то же, что <wordLink word="кабык" homonym="I"/>;</xr>
-		<trn>теректин послогу кора тополя.</trn>
+		<ex>
+			<source>теректин послогу</source>
+			<target>кора тополя.</target>
+		</ex>
 	</card>
 	<card>
 		<k>пособие</k>
@@ -304432,7 +304504,10 @@
 		<homonym>
 			<homonymIndex>суроо II</homonymIndex>
 			<xr>парное к <wordLink word="буроо"/>;</xr>
-			<trn>буроо-суроолор всякие буравы и подобные инструменты.</trn>
+			<ex>
+				<source>буроо-суроолор</source>
+				<target>всякие буравы и подобные инструменты.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -305108,7 +305183,10 @@
 		<homonym>
 			<homonymIndex>сутак II</homonymIndex>
 			<xr>парное к <wordLink word="бутак"/>;</xr>
-			<trn>бутак-сутак всякие ветки, прутья.</trn>
+			<ex>
+				<source>бутак-сутак</source>
+				<target>всякие ветки, прутья.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -320916,7 +320994,10 @@
 		<homonym>
 			<homonymIndex>тандыр- II</homonymIndex>
 			<xr>понуд. от <wordLink word="тан-"/>;</xr>
-			<trn>тандыра койбос он не даст соврать; он не позволит отрицать;</trn>
+			<ex>
+				<source>тандыра койбос</source>
+				<target>он не даст соврать; он не позволит отрицать;</target>
+			</ex>
 			<ex>
 				<source>албетте, аны таанууга тырышсаңыз да, биз тандырбайбыз</source>
 				<target>хотя вы и будете стараться отрицать это, мы, конечно, не дадим (этой) возможности;</target>
@@ -328244,7 +328325,10 @@
 		<homonym>
 			<homonymIndex>тегин II</homonymIndex>
 			<xr>парное к <wordLink word="эгин" homonym="I"/>;</xr>
-			<trn>эгин-тегин всякого рода хлебные злаки и посевы;</trn>
+			<ex>
+				<source>эгин-тегин</source>
+				<target>всякого рода хлебные злаки и посевы;</target>
+			</ex>
 			<ex>
 				<source>менин эч кандай эгин-тегиним жок</source>
 				<target>у меня никаких посевов нет;</target>
@@ -339194,7 +339278,10 @@
 		<homonym>
 			<homonymIndex>тозул- II</homonymIndex>
 			<xr>страд. от <wordLink word="тоз-" homonym="IV"/>;</xr>
-			<trn>тозулган тор расставленная сеть.</trn>
+			<ex>
+				<source>тозулган тор</source>
+				<target>расставленная сеть.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -355695,7 +355782,10 @@
 		<homonym>
 			<homonymIndex>тууш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="туу-" homonym="III"/>;</xr>
-			<trn>туушкан родственник;</trn>
+			<ex>
+				<source>туушкан</source>
+				<target>родственник;</target>
+			</ex>
 			<ex>
 				<source>Сулайларга туушкан бирөө келди</source>
 				<target>к Сулаям пришёл какой-то родственник.</target>
@@ -378457,7 +378547,10 @@
 		<homonym>
 			<homonymIndex>уял I</homonymIndex>
 			<xr>парное к <wordLink word="аял" homonym="I"/>;</xr>
-			<trn>аяд-уял кылбастан не медля, не мешкая.</trn>
+			<ex>
+				<source>аяд-уял кылбастан</source>
+				<target>не медля, не мешкая.</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>уял- II</homonymIndex>
@@ -392126,7 +392219,10 @@
 		<homonym>
 			<homonymIndex>чектеш- II</homonymIndex>
 			<xr>взаимн. от <wordLink word="чекте-"/>;</xr>
-			<trn>чектешкен жерлер прилегающие, граничащие места.</trn>
+			<ex>
+				<source>чектешкен жерлер</source>
+				<target>прилегающие, граничащие места.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -415260,7 +415356,10 @@
 		<homonym>
 			<homonymIndex>шейшеп II</homonymIndex>
 			<xr>то же, что <wordLink word="бейшеп"/>;</xr>
-			<trn>шейшеби бекиди у него задержание мочи.</trn>
+			<ex>
+				<source>шейшеби бекиди</source>
+				<target>у него задержание мочи.</target>
+			</ex>
 		</homonym>
 	</card>
 	<card>
@@ -416205,7 +416304,10 @@
 		<homonym>
 			<homonymIndex>шилен- II</homonymIndex>
 			<xr>возвр. от <wordLink word="шиле-"/>;</xr>
-			<trn>шиленип берилди дано в большом количестве;</trn>
+			<ex>
+				<source>шиленип берилди</source>
+				<target>дано в большом количестве;</target>
+			</ex>
 			<ex>
 				<source>карганып-шиленип</source>
 				<target>божась и клянясь (да будь я проклят, если...);</target>
@@ -420087,7 +420189,10 @@
 		<homonym>
 			<homonymIndex>Шыбыр II</homonymIndex>
 			<xr>то же, что <wordLink word="Шибер" homonym="II"/>;</xr>
-			<trn>Токтогул Шыбырдан келгенде когда (акын) Токтогул прибыл (возвратился) из ссылки;</trn>
+			<ex>
+				<source>Токтогул Шыбырдан келгенде</source>
+				<target>когда (акын) Токтогул прибыл (возвратился) из ссылки;</target>
+			</ex>
 			<ex>
 				<source>Шыбырга айда-</source>
 				<target>сослать в Сибирь; сослать на каторгу;</target>
@@ -423842,7 +423947,10 @@
 		<homonym>
 			<homonymIndex>ызгыт I</homonymIndex>
 			<xr>то же, что <wordLink word="ызгыч"/>;</xr>
-			<trn>ызгыттын жумурткасындай весь покрыт веснушками (букв. будто яйцо чибиса).</trn>
+			<ex>
+				<source>ызгыттын жумурткасындай</source>
+				<target>весь покрыт веснушками (букв. будто яйцо чибиса).</target>
+			</ex>
 		</homonym>
 		<homonym>
 			<homonymIndex>ызгыт II</homonymIndex>
@@ -442487,7 +442595,10 @@
 	<card>
 		<k>эскилик</k>
 		<xr>отвл. от <wordLink word="эски"/>;</xr>
-		<trn>эскилиги жеткен совершенно старый, изношенный;</trn>
+		<ex>
+			<source>эскилиги жеткен</source>
+			<target>совершенно старый, изношенный;</target>
+		</ex>
 		<ex>
 			<source>эскиликтин мурасы</source>
 			<target>наследие старого.</target>
