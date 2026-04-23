@@ -3400,7 +3400,7 @@
 	</card>
 	<card>
 		<k>ажайт-</k>
-		<xr>то же, что <wordLink word="бажайт"/>.</xr>
+		<xr>то же, что <wordLink word="бажайт-"/>.</xr>
 	</card>
 	<card>
 		<k>ажайым</k>
@@ -29753,7 +29753,7 @@
 				</ex>
 				<ex>
 					<source>атадан айланган</source>
-					<target>см. <wordLink word="айлан"/>;</target>
+					<target>см. <wordLink word="айлан-"/>;</target>
 				</ex>
 				<ex>
 					<source>атанын баласы</source>
@@ -36281,19 +36281,19 @@
 		<meaning>
 			<meaningIndex>3.</meaningIndex>
 			<trn>вид орнамента, вышивки.</trn>
-			<ex>
-				<source>багжай-</source>
-				<target>быть широколицым, с густой бородой;</target>
-			</ex>
-			<ex>
-				<source>багжайган-бакыйган сакалдуу карыялар</source>
-				<target>солидные бородатые старцы;</target>
-			</ex>
-			<ex>
-				<source>багжайган теке</source>
-				<target>важный длиннобородый козёл.</target>
-			</ex>
 		</meaning>
+	</card>
+	<card>
+		<k>багжай-</k>
+		<trn>быть широколицым, с густой бородой;</trn>
+		<ex>
+			<source>багжайган-бакыйган сакалдуу карыялар</source>
+			<target>солидные бородатые старцы;</target>
+		</ex>
+		<ex>
+			<source>багжайган теке</source>
+			<target>важный длиннобородый козёл.</target>
+		</ex>
 	</card>
 	<card>
 		<k>багжайт-</k>
@@ -41003,7 +41003,7 @@
 		<xr>то же, что <wordLink word="бакала-"/>.</xr>
 	</card>
 	<card>
-		<k>бакылда</k>
+		<k>бакылда-</k>
 		<trn>горланить;</trn>
 		<ex>
 			<source>бакылдаган</source>
@@ -59858,7 +59858,7 @@
 	</card>
 	<card>
 		<k>бойпоңдот-</k>
-		<xr>понуд. от <wordLink word="бойпоңдо"/>.</xr>
+		<xr>понуд. от <wordLink word="бойпоңдо-"/>.</xr>
 	</card>
 	<card>
 		<k>бойпоңдош-</k>
@@ -65258,7 +65258,7 @@
 	</card>
 	<card>
 		<k>буйр</k>
-		<xr>см. <wordLink word="буюр"/>.</xr>
+		<xr>см. <wordLink word="буюр-"/>.</xr>
 	</card>
 	<card>
 		<k>бүйр</k>
@@ -71513,7 +71513,7 @@
 		</ex>
 	</card>
 	<card>
-		<k>бушман</k>
+		<k>бушман-</k>
 		<xr>см. <wordLink word="бушайман"/>.</xr>
 	</card>
 	<card>
@@ -101207,18 +101207,16 @@
 	</card>
 	<card>
 		<k>жаманат</k>
-		<xr>то же, что <wordLink word="жаман ат"/></xr>
-		<xr>(см. <wordLink word="жаман" homonym="I"/>, <wordLink word="саятанат"/>).</xr>
+		<xr>то же, что <wordLink word="жаман ат"/> (см. <wordLink word="жаман" meaning="1"/>, <wordLink word="саятанат"/>).</xr>
 	</card>
 	<card>
 		<k>жаманатта-</k>
-		<xr>то же, что <wordLink word="жаман атта-"/></xr>
-		<xr>(см. <wordLink word="жаман" homonym="I"/>).</xr>
+		<xr>то же, что <wordLink word="жаман атта-"/> (см. <wordLink word="жаман" meaning="1"/>).</xr>
 	</card>
 	<card>
 		<k>жаманаттуу</k>
 		<xr>то же, что <wordLink word="жаман аттуу"/></xr>
-		<xr>(см. <wordLink word="жаман" homonym="I"/>).</xr>
+		<xr>(см. <wordLink word="жаман" meaning="1"/>).</xr>
 	</card>
 	<card>
 		<k>жаманда-</k>
@@ -220853,7 +220851,7 @@
 		</ex>
 	</card>
 	<card>
-		<k>кыскарт</k>
+		<k>кыскарт-</k>
 		<xr>понуд. от <wordLink word="кыскар-"/></xr>
 		<trn>укорачивать, сокращать;</trn>
 		<ex>
@@ -324360,7 +324358,7 @@
 		<xr>то же, что <wordLink word="тарталаңдат-"/>.</xr>
 	</card>
 	<card>
-		<k>тарталанда-</k>
+		<k>тарталаңда-</k>
 		<trn>(о долговязом) двигаться неуклюже.</trn>
 	</card>
 	<card>
@@ -373863,7 +373861,7 @@
 		</ex>
 	</card>
 	<card>
-		<k>үрө</k>
+		<k>үрө-</k>
 		<trn>аннулировать (долг, когда это делает не кредитор, а посредник);</trn>
 		<ex>
 			<source>аласамды үрөп жиберди</source>
