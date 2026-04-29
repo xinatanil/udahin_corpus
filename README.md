@@ -62,3 +62,7 @@
 
 
  Спасибо Алишеру за (kyrgyz tili) https://github.com/MasterAlish/kyrgyz_tili
+
+## Лицензия
+
+Данные словаря распространяются по [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/): некоммерческое использование разрешено с указанием авторства, коммерческое использование требует отдельной лицензии. Подробнее: [LICENSE.md](LICENSE.md).
