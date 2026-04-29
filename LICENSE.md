@@ -9,9 +9,12 @@ provided that you give appropriate credit and indicate if changes were made.
 Commercial use is not permitted under this public license. Commercial use
 requires a separate commercial license from the maintainer.
 
+For clarity, commercial use includes use in paid products, freemium products,
+free tiers of paid products, ad-supported products, products operated by
+for-profit companies, and products used to promote paid services.
+
 License text: https://creativecommons.org/licenses/by-nc/4.0/
 
 The original source dictionary may include public-domain material. This license
 applies to this repository's digitization, corrections, XML markup, structure,
 annotations, generated indexes, derived data, and other editorial improvements.
-
