@@ -48,9 +48,9 @@
 - исправить утерянные транскрипции `южн. [пән]` и `ә` символы
 - поправить нерабочие ссылки
 
-## Благодарности:
+## Acknowledgements
 
-Спасибо КТУ "Манас" за предоставление помощи в маркировке словаря. В частности, профессору Аиде Касиевой и ее студентам:
+Thanks to Kyrgyz-Turkish Manas University for helping with dictionary markup. Special thanks to Professor Aida Kasieva and her students:
  - Айдана Арзыматова
  - Акылай Мусаева
  - Бермет Турсунбаева
@@ -67,7 +67,7 @@
  - Айжан Сулпиева
 
 
- Спасибо Алишеру за (kyrgyz tili) https://github.com/MasterAlish/kyrgyz_tili
+Thanks to Alisher for `kyrgyz_tili`: https://github.com/MasterAlish/kyrgyz_tili
 
 ## Лицензия
 
