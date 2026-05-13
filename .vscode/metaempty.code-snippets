@@ -1,9 +1,0 @@
-{
-  "Meta": {
-    "prefix": "metaempty",
-    "body": [
-      "<meta>$1</meta>"
-    ],
-    "description": "empty meta tag"
-  }
-}
